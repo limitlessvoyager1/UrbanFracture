@@ -4,7 +4,7 @@ const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_pro
 async function main(){
  const root=path.resolve(__dirname,'../..'),dir=path.join(root,'reports242');fs.mkdirSync(dir,{recursive:true});
  const event=JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH,'utf8')),pr=event.pull_request,head=cp.execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),base=pr?.base.sha||event.inputs?.base_commit;
- const status={schema:1,baseCommit:base,testedCommit:head,status:'blocked',enforcement:'No branch protection enabled; pilot coverage and owner gates remain explicit'};
+ const status={schema:1,baseCommit:base,testedCommit:head,status:'blocked',enforcement:'Branch protection is administered separately; QA coverage and owner gates remain explicit'};
  try{
   if(pr&&head!==pr.head.sha)throw Error('Checkout does not match PR head');
   if(!/^[a-f0-9]{40,64}$/.test(base||''))throw Error('An exact comparison base commit is required');

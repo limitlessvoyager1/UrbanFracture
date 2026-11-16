@@ -2355,7 +2355,7 @@
       "id": "diagnostics307-input",
       "command": [
         "node",
-        "tests/diagnostics307-input.cjs"
+        "tools/qa242/diagnostics-history.cjs"
       ],
       "framework": "developer-diagnostics",
       "profiles": [
@@ -4544,6 +4544,20 @@
       "generatedArtifacts": [
         "reports386/counters.json"
       ]
+    },
+    {
+      "id": "qa242-recovered-history",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-recovered-history.cjs"
+      ],
+      "framework": "qa242-policy",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

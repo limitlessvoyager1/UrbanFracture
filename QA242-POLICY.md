@@ -100,3 +100,8 @@ See [the production coverage procedure](qa/system242/PRODUCTION-COVERAGE.md) for
 An explicit replacementContract declaration may propose only the four reviewed current-only mappings in [history contract v1](qa/system242/HISTORY-REPLACEMENT.md). Original historical tests, full-release requirements and frozen Failed receipts remain intact. The new pilot run marks those historical rows Not Tested with missing-history reasons; their historical evidence remains Blocked. Separately named current-only suites must pass. Whole-production-tree/source/receipt guards and all other acceptance requirements remain in force.
 
 Automation success is evidence ready for review. Acceptance requires the authenticated owner's exact source/evidence-bound comment with the replacement contract SHA256 and explicit missing-history acknowledgement. An ordinary pilot comment cannot accept the replacement. No historical before/after claim, art/balance/hardware approval, approved performance baseline or game certificate is created. Current-import preservation starts at the pinned current import; it cannot establish lost historical identity. Full game release retains original historical gates. See the generated OWNER-ACCEPTANCE.txt for exact current wording.
+
+
+## Recovered historical QA inputs
+
+See [authentic history recovery](qa/system242/RECOVERED-HISTORY.md). The obsolete v1 missing-history proposal and failed evidence remain frozen. Exact historical objects support the original comparisons; Diagnostics uses an explicitly enumerated reversible source delta with owner review pending. No game certificate or acceptance is inferred from object recovery. Main protection is administered separately and its saved settings are not inferred from this workflow.
