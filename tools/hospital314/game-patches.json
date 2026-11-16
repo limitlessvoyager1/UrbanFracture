@@ -1,0 +1,34 @@
+[
+  [
+    "const renderScale=game.airport309||",
+    "const renderScale=game.hospital314||game.airport309||"
+  ],
+  [
+    "hud();if(game.clearNotice282",
+    "hud();globalThis.HospitalView314?.foreground(ctx,game);if(game.clearNotice282"
+  ],
+  [
+    "document.querySelector('#restart').onclick=()=>game.hydro243?",
+    "document.querySelector('#restart').onclick=()=>game.hospital314?begin(game.zone,Hospital314.sceneId(game),true):game.hydro243?"
+  ],
+  [
+    "or-v2.webp',finance:'financial-district-atlas-v1.webp',truck:'armored-truck-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'spr",
+    "or-v2.webp',finance:'financial-district-atlas-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'spr"
+  ],
+  [
+    "globalThis.HydroView243?.ride(ctx,game);",
+    "globalThis.HospitalView314?.ride(ctx,game);globalThis.HydroView243?.ride(ctx,game);"
+  ],
+  [
+    "if(game.destination183||globalThis.Rooftop201?.menu(game))return;",
+    "if(game.destination183||globalThis.Rooftop201?.menu(game)||game.hospital314?.menu)return;"
+  ],
+  [
+    "text(game.practice278?'PRACTICE",
+    "text(globalThis.Hospital314?.active(game)&&!game.practice278?'':game.practice278?'PRACTICE"
+  ],
+  [
+    "for(const f of fighters){if(f.isPatron)",
+    "for(const f of fighters){if(f.hospitalInside314)continue;if(f.isPatron)"
+  ]
+]

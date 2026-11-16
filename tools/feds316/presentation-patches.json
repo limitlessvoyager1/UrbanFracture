@@ -1,0 +1,46 @@
+[
+  [
+    "const renderScale=game.hospital314||",
+    "const renderScale=game.feds316||game.hospital314||"
+  ],
+  [
+    "function drawActor(f){if(f.pitGone202||f.poolState193)return;",
+    "function drawActor(f){if(f.pcbiAboard316||f.pitGone202||f.poolState193)return;"
+  ],
+  [
+    "scale=1.46515635*(game.zone===11?1.12:1)",
+    "scale=(NeonCombat.PCBI316?.is(f)?.82:1)*1.46515635*(game.zone===11?1.12:1)"
+  ],
+  [
+    "for(const k of game.projectiles||[]){if(globalThis.YachtView195",
+    "for(const k of game.projectiles||[]){if(globalThis.PCBI316View?.bullet(ctx,game,k))continue;if(globalThis.YachtView195"
+  ],
+  [
+    "hud();globalThis.HospitalView314?.foreground(ctx,game);",
+    "hud();globalThis.HospitalView314?.foreground(ctx,game);globalThis.FedsView316?.foreground(ctx,game);"
+  ],
+  [
+    "if(dialogue143&&!game.prison224){",
+    "if(dialogue143&&!game.prison224&&!game.feds316?.story){"
+  ],
+  [
+    "function pause(value=!paused){if(game.destination183||",
+    "function pause(value=!paused){if(game.feds316?.story||game.feds316?.landing||game.destination183||"
+  ],
+  [
+    "const id=game.hospital314?",
+    "const id=game.feds316?Feds316.sceneId(game):game.hospital314?"
+  ],
+  [
+    "document.querySelector('#restart').onclick=()=>game.hospital314?",
+    "document.querySelector('#restart').onclick=()=>game.feds316?begin(game.zone,Feds316.sceneId(game),true):game.hospital314?"
+  ],
+  [
+    "if(win&&game.hospital314?.mission315?.phase==='complete'){",
+    "if(win&&game.feds316?.completed){document.querySelector('#overlayKicker').textContent='PRIME CITY FEDS / COMPLETE';document.querySelector('#overlayTitle').innerHTML='OFFICE<br><span>SECURED.</span>';document.querySelector('#overlayCopy').textContent='Talon is defeated. The corrupt PCBI operation is exposed. Next destination: TBD. Score '+game.score+'.';}if(win&&game.hospital314?.mission315?.phase==='complete'){"
+  ],
+  [
+    "text(globalThis.Hospital314?.active(game)&&!game.practice278?'':",
+    "text((globalThis.Feds316?.active(game)||globalThis.Hospital314?.active(game))&&!game.practice278?'':"
+  ]
+]

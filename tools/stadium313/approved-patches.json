@@ -1,0 +1,62 @@
+[
+  {
+    "old": "['field','STADIUM / WEST END ZONE TO MIDFIELD',4000,true]",
+    "new": "['field','STADIUM / FOOTBALL FIELD',6600,true]",
+    "count": 1
+  },
+  {
+    "old": "['thug','biker','knifeThug','cop','enforcer','thug','biker','knifeThug'],['thug','knifeThug','biker','thug']",
+    "new": "['thug','biker','knifeThug','cop','enforcer','thug','biker','knifeThug','thug','knifeThug','biker','thug'],['thug','knifeThug','biker','thug']",
+    "count": 1
+  },
+  {
+    "old": "k===8?'approach':'ordinary'",
+    "new": "k>=7?'approach':'ordinary'",
+    "count": 2
+  },
+  {
+    "old": "...(k===8?{scriptedSlots:1",
+    "new": "...(k>=7?{scriptedSlots:1",
+    "count": 1
+  },
+  {
+    "old": "if(k===8){const e=N.Baylor237.spawn",
+    "new": "if(k>=7){const e=N.Baylor237.spawn",
+    "count": 1
+  },
+  {
+    "old": "if(!routeReady(g)||section(g)===8)",
+    "new": "if(!routeReady(g)||section(g)>=7)",
+    "count": 1
+  },
+  {
+    "old": "if(k===7)return[door(8,'EAST END ZONE',levels[k].end-100,'right')];",
+    "new": "",
+    "count": 1
+  },
+  {
+    "old": "if(section(g)!==8||s.phase!=='approach'",
+    "new": "if(section(g)<7||s.phase!=='approach'",
+    "count": 1
+  },
+  {
+    "old": "if(k===8){if(s.phase==='approach')",
+    "new": "if(k>=7){if(s.phase==='approach')",
+    "count": 1
+  },
+  {
+    "old": "if(k===8)return s.phase==='approach'?'EAST END ZONE \u00b7 CLEAR THE THUGS AND APPROACH BAYLOR'",
+    "new": "if(k>=7)return s.phase==='approach'?'FOOTBALL FIELD \u00b7 FIGHT TO THE FAR GOAL LINE'",
+    "count": 1
+  },
+  {
+    "old": "p=g.player,x=d.reverse?d.end-150:150",
+    "new": "p=g.player,x=d.reverse?d.end-150:k===7?550:150",
+    "count": 1
+  },
+  {
+    "old": "if(k===6)return[door(7,'PLAYERS TUNNEL \u00b7 FIELD',levels[k].end-130)];",
+    "new": "if(k===6)return[door(7,'PLAYERS TUNNEL \u00b7 FIELD',levels[k].end-250)];",
+    "count": 1
+  }
+]

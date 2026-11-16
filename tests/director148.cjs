@@ -1,0 +1,30 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');require('../dist/core.js');const scripts=[...fs.readFileSync('dist/index.html','utf8').matchAll(/<script src="([^"?]+)\?v=/g)].map(m=>m[1]);for(const f of scripts.slice(1,scripts.indexOf('director148.js')+1))if(!f.includes('view'))require('../dist/'+f);const N=NeonCombat,D=N.Director148,A=N.Audit135;const originalRandom=Math.random;let seed=148;Math.random=()=>((seed=Math.imul(seed,1664525)+1013904223>>>0)/4294967296);
+function setup(hero='reina',route=true,types=['thug','thug','thug']){const g=new N.Brawler();g.selectHero(hero);if(route)g.startUptown(3);g.ai=()=>{};g.reinforce=()=>{};g.pending=[];g.props=[];g.items=[];g.alleyIntro=null;g.player.x=g.player.prevX=g.zoneDefinition.start+400;g.player.y=g.player.prevY=475;g.player.inv=0;g.player.stun=0;g.enemies=types.map((type,i)=>{const e=N.actor(type,g.player.x+110+i*90,475);e.activeAt=0;e.dir=-1;e.cd=e.recovering=e.inv=e.wakeInv=e.standingLock=0;return e;});return g;}
+function act(g,i,name='kick',at=.4,o={}){const e=g.enemies[i],before=e.act;g.enemyAct(e,name,1.4,at,{damage:5,reach:120,...o});return e.act!==before?e.act:null;}
+// Threat categories are attack-specific rather than a blanket enemy multiplier.
+assert.equal(D.config.budget,3);for(const [type,n,o,c]of [['thug','kick',{},1],['enforcer','clinch',{},1.5],['enforcer','oneTwo',{},2],['flint','flintWild',{},2],['robber','gunFire',{},2],['boss','jackalHyper',{},3]])assert.equal(D.cost({type},n,o),c);
+{const g=setup();assert(act(g,0));assert(act(g,1,'kick',.9));assert(!act(g,2,'kick',1.2));assert.equal(D.pressure(g).reserved,2);assert.equal(D.debug(g).primary,g.enemies[0].id);assert.equal(D.debug(g).secondary,g.enemies[1].id);}
+{const g=setup('reina',true,['enforcer','flint']);const a=act(g,0,'oneTwo',.33);assert(a);assert(!act(g,1,'flintWild'));assert.equal(D.pressure(g).reserved,2);assert.equal(g.enemies[0].act,a);g.player.hp=20;D.init(g).reliefUntil=2;D.update(g);assert.equal(g.enemies[0].act,a,'budget change never cancels commitment');}
+// Recovery no longer reserves active pressure but is never canceled to start early.
+{const g=setup('reina',true,['flint','thug']);const a=act(g,0,'flintWild');a.t=1.01;D.prune(g);assert.equal(D.pressure(g).reserved,0);assert(!act(g,0,'flintWild'));assert.equal(g.enemies[0].act,a);assert(act(g,1));}
+// Detached projectiles retain their owner's slot even after death; timeout releases leaks.
+{const g=setup('reina',true,['knifeThug','thug']);const a=act(g,0,'knifeThrow',.3);g.projectiles=[{owner:g.enemies[0],life:1}];g.enemies[0].act=null;g.enemies[0].hp=0;assert.equal(D.pressure(g).reserved,1);g.projectiles=[];assert.equal(D.pressure(g).reserved,0);g.enemies[0].hp=60;g.enemies[0].cd=0;act(g,0);g.time=20;assert.equal(D.pressure(g).reserved,0);}
+// No double grabs, ally-blocked firing or Gunner pile-on.
+{const g=setup('reina',true,['enforcer','enforcer']);assert(act(g,0,'clinch',.4));assert(!act(g,1,'clinch',1));}
+{const g=setup('reina',true,['thug','robber']);assert(!act(g,1,'gunFire',.72,{maxShots:6,aimY:475}));g.enemies[0].y=440;assert(act(g,1,'gunFire',.72,{maxShots:6,aimY:475}));assert.equal(D.pressure(g).reserved,2);const r=g.enemies[1],a=r.act;r.ammo=6;g.enemies[0].y=475;const hp=g.player.hp;g.financialHit(r,a);assert.equal(r.ammo,5);assert.equal(g.player.hp,hp,'ally obstructs shot without tracking/canceling burst');}
+{const g=setup('forest');assert(act(g,0,'kick',.4,{gunnerTarget126:true}));assert(!act(g,1,'kick',1,{gunnerTarget126:true}));}
+// Existing held enemy follow-ups transfer the reservation without a new unfair group commitment.
+{const g=setup('reina',true,['enforcer','thug']);const e=g.enemies[0];act(g,0,'clinch',.4);g.player.heldBy=e;e.hold={victim:g.player};e.act=null;g.start(e,'powerBomb',.86,.64,{damage:31});assert.equal(D.pressure(g).reserved,1.5);assert(!act(g,1));}
+// Delayed observation: no adaptation from unobserved inputs, history expires.
+{const g=setup();for(let i=0;i<3;i++)A.record(g,'playerAction',{attack:'combo',stage:1});assert.equal(D.observations(g).opener||0,0);g.time=.5;assert.equal(D.observations(g).opener,1,'duplicate same-event-time signals deduped');g.time=D.config.observationWindow+.01;D.update(g);assert.equal(D.observations(g).opener||0,0);}
+// Low HP alone never triggers relief. Only high locked-state damage does; HP stays unchanged.
+{const g=setup();g.player.hp=20;D.update(g);assert.equal(D.init(g).reliefUntil,0);for(let i=0;i<3;i++){g.time+=.2;A.record(g,'hitAttempt',{target:A.info(g.player),damage:12,playerState:'staggered'});}D.update(g);assert(D.init(g).reliefUntil>g.time);assert.equal(g.player.hp,20);assert.equal(D.pressure(g).cap,2);}
+// Individual and shared anti-air cooldowns remain authoritative.
+{const g=setup('reina',true,['enforcer','biker']);g.player.jump=.6;D.update(g);g.time=.3;A.init(g).airSerial=1;D.init(g).airPlan={serial:1,allow:true};g.enemies[0].antiAirCd=1;assert(!act(g,0,'uppercut',.3,{antiAir:true,reach:140}));g.enemies[0].antiAirCd=0;assert(act(g,0,'uppercut',.3,{antiAir:true,reach:140}));assert(!act(g,1,'chainRise',.8,{antiAir:true,reach:240}));}
+// Existing dedicated downed follow-up remains available, exclusive and telegraphed.
+{const g=setup('reina',true,['security']);g.player.down=1;g.player.downAge=.4;g.player.downTotal=1.65;assert(act(g,0,'bodySplash',.68));}
+// Utility/reload/whistle and boss scripted transitions do not consume attack slots.
+{const g=setup('reina',true,['boss']);g.enemyAct(g.enemies[0],'jackalWhistle',.95,.5,{jackal100:true,active:0});assert(g.enemies[0].act);assert.equal(D.pressure(g).reserved,0);}
+// Deferral produces bounded, grounded movement rather than a teleport or frozen controller.
+{const g=setup(),e=g.enemies[2],x=e.x,y=e.y;D.assign(g,true);assert(D.reposition(g,e,1/60));assert(Math.hypot(e.x-x,e.y-y)<=65/60+.001);assert.equal(e.walk,1);}
+Math.random=originalRandom;console.log('PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition');

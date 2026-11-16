@@ -1,0 +1,116 @@
+{
+  "weapons248.js": [
+    [
+      "reina:{short:{startup:10,active:6,recovery:18,",
+      "reina:{short:{startup:10,active:6,recovery:26,"
+    ]
+  ],
+  "enemy-view312.js": [
+    [
+      "f.type==='enforcer'&&!f.casinoSecurity192&&!f.routeTruck197&&!f.weapon?",
+      "f.type==='enforcer'&&!f.baylor237&&!f.casinoSecurity192&&!f.routeTruck197&&!f.weapon?"
+    ],
+    [
+      "if(f.entryGait312&&",
+      "if(!f.baylor237&&f.entryGait312&&"
+    ]
+  ],
+  "continuity-view296.js": [
+    [
+      "N.Enemies210.is(f)&&!f.casinoSecurity192",
+      "N.Enemies210.is(f)&&!f.baylor237&&!f.casinoSecurity192"
+    ]
+  ],
+  "continuity296.js": [
+    [
+      "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.casinoSecurity192",
+      "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.baylor237&&!f.casinoSecurity192"
+    ]
+  ],
+  "knockdowns299.js": [
+    [
+      "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.casinoSecurity192",
+      "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.baylor237&&!f.casinoSecurity192"
+    ]
+  ],
+  "grapples301.js": [
+    [
+      "v.type==='enforcer'&&N.Enemies210.is(v)&&!v.casinoSecurity192",
+      "v.type==='enforcer'&&N.Enemies210.is(v)&&!v.baylor237&&!v.casinoSecurity192"
+    ]
+  ],
+  "stadium-view237.js": [
+    [
+      "\n(function(root){'use strict';const H=root.Stadium237,art={},ready=Promise.all(['elevator-lobby','elevator-cabin','outer-tailgate','single-approach','parking','tickets','concourse','vip','facilities','lockers','field','endzone'].map(n=>new Promise(resolve=>{const im=new Image();im.onload=()=>{art[n]=im;resolve(true);};im.onerror=()=>resolve(false);im.src='assets/stadium/'+n+(n.startsWith('elevator-')?'240':n==='outer-tailgate'||n==='single-approach'?'239':'237')+'.webp';})));\nif(root.Scenery230){const R=root.Scenery230.recipes;R['outer-tailgate239.webp']={skyLimit:.36,graySky:true,vegetation:true,branches:true,branchZones:[[0,0,.28,.32],[.83,0,.17,.32]],windZones:[[0,0,1,.38]],cloth:[{rect:[.024,.055,.065,.17],anchor:[.024,.055],colors:'flag'},{rect:[.01,.20,.185,.28],anchor:[.01,.20],colors:'flag'},{rect:[.738,.1,.018,.46],anchor:[.738,.1],colors:'flag'}],roofs:[[.012,.45,.19,.45],[.325,.42,.46,.42]]};R['single-approach239.webp']={skyLimit:.34,graySky:true,skyline:[[0,.22],[.40,.32],[.44,.22],[.6,.07],[.8,0],[1,0]],vegetation:true,branches:true,branchZones:[[0,0,.41,.34]],windZones:[[0,0,.42,.4]],cloth:[{rect:[.285,.425,.029,.23],anchor:[.285,.425],colors:'flag'},{rect:[.544,.49,.029,.19],anchor:[.544,.49],colors:'flag'}],roofs:[[.80,.465,.985,.465]]};}\nconst rect=(c,x,y,w,h,color)=>{c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),w,h);};function text(c,s,x,y,size=12,color='#e5eff9'){c.font='bold '+size+'px monospace';c.textAlign='center';c.fillStyle='#142239';c.fillText(s,x+1,y+2);c.fillStyle=color;c.fillText(s,x,y);}function line(c,x,y,X,Y,color,w=1){c.strokeStyle=color;c.lineWidth=w;c.beginPath();c.moveTo(x,y);c.lineTo(X,Y);c.stroke();}\nfunction cabinPanel(c,g){const e=g.stadium237.elevator240||{selected:4,phase:'select'},to=e.selected===4?'2':'B1';rect(c,679,177,78,160,'#91a1a6');rect(c,682,180,72,154,'#26394b');for(const xx of[681,753])for(const yy of[179,333])rect(c,xx,yy,2,2,'#e2e6de');for(const [y,label,toID]of[[202,'2 \u00b7 VIP',4],[256,'B1 \u00b7 TEAM',5]]){rect(c,685,y,66,43,e.selected===toID?'#1b5e9e':'#445462');text(c,label,718,y+24,9);}rect(c,465,125,32,32,'#273943');rect(c,468,129,26,23,'#071625');text(c,e.phase==='select'?'1':to,480,146,11,'#8bdaff');if(e.phase!=='select'){const open=e.phase==='arrival'?(e.progress||0):0;if(open>0){rect(c,338,170,264,215,'#132332');rect(c,338,170,132*(1-open),215,'#8b989d');rect(c,602-132*(1-open),170,132*(1-open),215,'#8b989d');}}}\nfunction picture(c,name,x,width,natural=true){const im=art[name];if(!im)return;const h=364,w=natural?im.naturalWidth/im.naturalHeight*h:width;c.save();c.beginPath();c.rect(x,68,width,472);c.clip();for(let dx=0;dx<width;dx+=w)c.drawImage(im,x+dx,68,w,h);floor(c,name,x,width);c.restore();}\nfunction floor(c,name,x,width){const field=name==='field'||name==='endzone',carpet=name==='vip',outside=name==='parking'||name==='tickets',base=field?'#4a7040':carpet?'#293a55':outside?'#5b6267':'#a1a7a6';rect(c,x,432,width,108,base);for(let i=0;i<Math.ceil(width/12);i++){const xx=x+i*12;for(let j=0;j<5;j++)rect(c,xx+(i*17+j*7)%11,435+(i*23+j*19)%102,field?5:3,1,field?(i%2?'#68804d':'#355d36'):carpet?'#43516a':outside?'#777b7d':'#bdc1bb');}if(!field&&!carpet&&!outside){for(let xx=x;xx<x+width;xx+=140)line(c,xx,432,xx+12,540,'#6e7d83',1);for(const yy of[450,488,534])line(c,x,yy,x+width,yy,'#78878d',1);}if(outside&&name==='parking')for(let xx=x+100;xx<x+width;xx+=480)line(c,xx,492,xx-45,540,'#d1cdbc',3);if(carpet)for(let xx=x;xx<x+width;xx+=30)line(c,xx,432,xx+20,540,'#344763',1);}\nfunction sign(c,x,y,label,w=240){line(c,x-w*.32,y-3,x-w*.32,221,'#82929d',3);line(c,x+w*.32,y-3,x+w*.32,221,'#82929d',3);rect(c,x-w/2-3,y-3,w+6,34,'#8b99a7');rect(c,x-w/2,y,w,28,'#174e8a');text(c,label,x,y+20,label.length>24?10:14);}\nfunction door(c,x,label){rect(c,x-83,221,166,211,'#46535f');for(let y=227;y<431;y+=22)line(c,x-82,y,x+82,y,'#62717b',1);rect(c,x-55,300,110,132,'#707f88');rect(c,x-48,307,96,123,'#1f3347');line(c,x,310,x,429,'#a9bbc5',2);rect(c,x-9,364,4,12,'#ced8d8');sign(c,x,263,label,210);}\nfunction scene(c,g){if(!H.active(g))return;const k=H.section(g),d=g.zoneDefinition;c.save();c.translate(-g.camera,0);rect(c,0,0,d.end,68,'#1a2638');if(k===0){if(art['outer-tailgate'])c.drawImage(art['outer-tailgate'],0,68,1800,364);if(art['single-approach'])c.drawImage(art['single-approach'],1800,68,1400,364);floor(c,'parking',0,d.end);}else if(k===3){if(art['elevator-cabin'])c.drawImage(art['elevator-cabin'],0,0,960,362,0,68,960,364);floor(c,'elevator',0,d.end);cabinPanel(c,g);}else{const n=k===8?'endzone':d.key;picture(c,n,0,d.end,true);if(k===2){if(art['elevator-lobby'])c.drawImage(art['elevator-lobby'],0,0,960,362,-350,68,960,364);if(g.transition?.from240===2&&['boarding','out'].includes(g.transition.phase)){const open=g.transition.phase==='boarding'?Math.min(1,g.transition.t/.55):1-Math.min(1,g.transition.t/.5);rect(c,0,207,252,180,'#142132');rect(c,0,207,126*(1-open),180,'#819298');rect(c,252-126*(1-open),207,126*(1-open),180,'#819298');}}if(k===4){door(c,d.end-130,'FIELD ACCESS');}if(k===5){door(c,d.end-130,'LOCKER ROOMS');}if(k===6)door(c,d.end-130,'PLAYERS TUNNEL');if(k>=7){const offset=k===7?0:4000;for(let x=240;x<d.end;x+=350){line(c,x,439,x,540,'#c6d2c0',2);text(c,String(10+(Math.floor((x+offset)/350)%5)*10),x+22,500,18,'#ebeddb');}}}\nc.restore();}\nconst fanImages=[],fanReady=new Promise(resolve=>{Promise.all((root.StadiumFans237?.frames||[]).map((f,i)=>new Promise(done=>{const im=new Image();im.onload=()=>{fanImages[i]=im;done(true);};im.onerror=()=>done(false);im.src=f.src;}))).then(resolve);});\nfunction spectators(g){if(!g.stadium237)return[];const s=g.stadium237,k=H.section(g);s.spectators239??=new Map();if(!s.spectators239.has(k)){const end=g.zoneDefinition.end,rows=Array.from({length:k===0?18:10},(_,i)=>({id:k+':'+i,home:200+i*(end-360)/(k===0?18:10),x:200+i*(end-360)/(k===0?18:10),y:432,scale:1.15*(i%3===0?138:168+(i%2)*7)/root.StadiumFans237.baseHeight,pose:i%6<4?i%4:4+(i%2)*2,run:i%6>=4,seen:null,dir:-1}));s.spectators239.set(k,rows);}return s.spectators239.get(k);}\nfunction people(c,g){if(!H.active(g)||![0,1,2].includes(H.section(g)))return;const rows=spectators(g),time=g.time-g.stadium237.enteredAt;for(const q of rows.sort((a,b)=>a.y-b.y)){if(q.run&&q.seen==null&&Math.abs(q.home-g.player.x)<450&&(g.player.act||g.enemies.some(e=>e.act&&Math.abs(e.x-q.home)<450)))q.seen=g.time;const elapsed=q.seen!=null?g.time-q.seen:0;q.x=q.home-(q.run?elapsed*95:0);const x=q.x-g.camera;if(x< -100||x>1060)continue;const pose=q.run?q.pose+Math.floor(elapsed*7)%2:q.pose,f=root.StadiumFans237?.frames[pose],im=fanImages[pose];if(!im||!f)continue;const S=q.scale;c.save();c.translate(Math.round(x),q.y);c.fillStyle='#17243755';c.beginPath();c.ellipse(0,1,18,3,0,0,7);c.fill();if(!q.run)c.rotate(Math.sin(time*.9+q.home*.015)*.008);c.drawImage(im,-f.root[0]*S,-f.root[1]*S,f.width*S,f.height*S);c.restore();}}\nfunction highway(c,g){if(!root.Highway234.active(g)||root.Highway234.section(g)!==1)return;const x=2370-g.camera;if(x< -200||x>1160)return;rect(c,x-145,171,290,87,'#174d3b');c.strokeStyle='#d6e2dc';c.lineWidth=2;c.strokeRect(x-140,176,280,77);text(c,'EXIT 18B',x,198,14);text(c,'RHINOS STADIUM \u2197',x,224,17);text(c,'HOME OF THE RHINOS',x,245,10);line(c,x-120,258,x-120,409,'#768d92',5);line(c,x+120,258,x+120,409,'#768d92',5);}\nfunction foreground(c,g){highway(c,g);if(!H.active(g))return;for(const q of (H.section(g)===3?[]:H.portals(g))){const x=q.x-g.camera;if(x< -90||x>1050)continue;root.NeonRoute167.paint(c,'GO '+(q.direction==='down'?'\u2193':q.direction==='up'?'\u2191':'\u2192'),x,304,23);text(c,q.name,x,329,11);}if(H.section(g)===8&&g.stadium237.phase==='boss'){const s=root.NeonCombat.Baylor237.state(g.stadium237.boss);if(s.rush){rect(c,350,146,260,23,'#0b2238db');text(c,g.stadium237.boss.act?.exhaust237?'BAYLOR \u00b7 EXHAUSTED':'BAYLOR \u00b7 ADRENALINE RUSH',480,162,12,'#79d7ff');}}}\nroot.StadiumView237={art,ready:Promise.all([ready,fanReady]),scene,people,foreground,spectators};\n})(window);\n",
+      "\n(function(root){'use strict';const H=root.Stadium237,art={},ready=Promise.all(['elevator-lobby','elevator-cabin','outer-tailgate','single-approach','tickets','concourse','vip','facilities','lockers','field','endzone'].map(n=>new Promise(resolve=>{const im=new Image();im.onload=()=>{art[n]=im;resolve(true);};im.onerror=()=>resolve(false);im.src='assets/stadium/'+n+(n.startsWith('elevator-')?'240':n==='outer-tailgate'||n==='single-approach'?'239':'237')+'.webp?v=313';})));\nif(root.Scenery230){const R=root.Scenery230.recipes;R['outer-tailgate239.webp']={skyLimit:.36,graySky:true,vegetation:true,branches:true,branchZones:[[0,0,.28,.32],[.83,0,.17,.32]],windZones:[[0,0,1,.38]],cloth:[{rect:[.024,.055,.065,.17],anchor:[.024,.055],colors:'flag'},{rect:[.01,.20,.185,.28],anchor:[.01,.20],colors:'flag'},{rect:[.738,.1,.018,.46],anchor:[.738,.1],colors:'flag'}],roofs:[[.012,.45,.19,.45],[.325,.42,.46,.42]]};R['single-approach239.webp']={skyLimit:.34,graySky:true,skyline:[[0,.22],[.40,.32],[.44,.22],[.6,.07],[.8,0],[1,0]],vegetation:true,branches:true,branchZones:[[0,0,.41,.34]],windZones:[[0,0,.42,.4]],cloth:[{rect:[.285,.425,.029,.23],anchor:[.285,.425],colors:'flag'},{rect:[.544,.49,.029,.19],anchor:[.544,.49],colors:'flag'}],roofs:[[.80,.465,.985,.465]]};}\nconst rect=(c,x,y,w,h,color)=>{c.fillStyle=color;c.fillRect(Math.round(x),Math.round(y),w,h);};function text(c,s,x,y,size=12,color='#e5eff9'){c.font='bold '+size+'px monospace';c.textAlign='center';c.fillStyle='#142239';c.fillText(s,x+1,y+2);c.fillStyle=color;c.fillText(s,x,y);}function line(c,x,y,X,Y,color,w=1){c.strokeStyle=color;c.lineWidth=w;c.beginPath();c.moveTo(x,y);c.lineTo(X,Y);c.stroke();}\nfunction cabinPanel(c,g){const e=g.stadium237.elevator240||{selected:4,phase:'select'},to=e.selected===4?'2':'B1';rect(c,679,177,78,160,'#91a1a6');rect(c,682,180,72,154,'#26394b');for(const xx of[681,753])for(const yy of[179,333])rect(c,xx,yy,2,2,'#e2e6de');for(const [y,label,toID]of[[202,'2 \u00b7 VIP',4],[256,'B1 \u00b7 TEAM',5]]){rect(c,685,y,66,43,e.selected===toID?'#1b5e9e':'#445462');text(c,label,718,y+24,9);}rect(c,465,125,32,32,'#273943');rect(c,468,129,26,23,'#071625');text(c,e.phase==='select'?'1':to,480,146,11,'#8bdaff');if(e.phase!=='select'){const open=e.phase==='arrival'?(e.progress||0):0;if(open>0){rect(c,338,170,264,262,'#132332');rect(c,338,170,132*(1-open),262,'#8b989d');rect(c,602-132*(1-open),170,132*(1-open),262,'#8b989d');}}}\nfunction picture(c,name,x,width,natural=true){const im=art[name];if(!im)return;const h=364,w=natural?im.naturalWidth/im.naturalHeight*h:width;c.save();c.beginPath();c.rect(x,68,width,472);c.clip();for(let dx=0;dx<width;dx+=w-1){c.drawImage(im,x+dx,68,w,h);if(name==='facilities'){const z=h/im.naturalHeight;rect(c,x+dx+525*z,68+27*z,190*z,29*z,'#18283d');text(c,'LOCKER ROOMS',x+dx+620*z,68+49*z,14);}}floor(c,name,x,width);c.restore();}\nfunction floor(c,name,x,width){const field=name==='field'||name==='endzone',carpet=name==='vip',outside=name==='parking'||name==='tickets',base=field?'#4a7040':carpet?'#293a55':outside?'#5b6267':'#a1a7a6';rect(c,x,432,width,108,base);for(let i=0;i<Math.ceil(width/12);i++){const xx=x+i*12;for(let j=0;j<5;j++)rect(c,xx+(i*17+j*7)%11,435+(i*23+j*19)%102,field?5:3,1,field?(i%2?'#68804d':'#355d36'):carpet?'#43516a':outside?'#777b7d':'#bdc1bb');}if(!field&&!carpet&&!outside){for(let xx=x;xx<x+width;xx+=140)line(c,xx,432,xx+12,540,'#6e7d83',1);for(const yy of[450,488,534])line(c,x,yy,x+width,yy,'#78878d',1);}if(outside&&name==='parking')for(let xx=x+100;xx<x+width;xx+=480)line(c,xx,492,xx-45,540,'#d1cdbc',3);if(carpet)for(let xx=x;xx<x+width;xx+=30)line(c,xx,432,xx+20,540,'#344763',1);}\nfunction sign(c,x,y,label,w=240){line(c,x-w*.32,y-3,x-w*.32,221,'#82929d',3);line(c,x+w*.32,y-3,x+w*.32,221,'#82929d',3);rect(c,x-w/2-3,y-3,w+6,34,'#8b99a7');rect(c,x-w/2,y,w,28,'#174e8a');text(c,label,x,y+20,label.length>24?10:14);}\nfunction door(c,x,label){rect(c,x-83,221,166,211,'#46535f');for(let y=227;y<431;y+=22)line(c,x-82,y,x+82,y,'#62717b',1);rect(c,x-55,300,110,132,'#707f88');rect(c,x-48,307,96,123,'#1f3347');line(c,x,310,x,429,'#a9bbc5',2);rect(c,x-9,364,4,12,'#ced8d8');sign(c,x,263,label,210);}\nfunction field(c,g,k){const offset=k===8?4000:0,im=art.field,entry=art.endzone;if(!im)return;const z=1.52,tile=im.naturalWidth*z;c.save();c.translate(-offset,0);rect(c,0,68,6600,472,'#244b31');for(let x=0;x<6600;x+=tile-1)c.drawImage(im,0,0,im.naturalWidth,207,x,68,tile,315);if(entry)c.drawImage(entry,0,0,entry.naturalWidth,214,0,68,entry.naturalWidth*z,315);\nfor(let x=0;x<6600;x+=tile-1)c.drawImage(im,0,207,im.naturalWidth,Math.max(1,im.naturalHeight-207),x,383,tile,157);\n// Field coordinates are authored once for both play and direct-boss practice:550+100*55=6050.\nconst near=550,far=6050,y=383;for(const [x,w]of[[0,near],[far,550]]){c.save();c.globalAlpha=.86;rect(c,x,y,w,157,'#123971');c.restore();c.save();c.translate(x+w/2,461);c.rotate(-Math.PI/2);text(c,'RHINOS',0,0,28,'#eff5f8');c.restore();}for(let yard=0;yard<=100;yard++){const x=near+yard*55;if(yard%5===0)line(c,x,y,x,540,'#e6e9d7',yard%10===0?2:1);else for(const yy of[426,500])line(c,x-3,yy,x+3,yy,'#e6e9d7',1);if(yard>0&&yard<100&&yard%10===0){const number=yard<=50?yard:100-yard;text(c,String(number),x+25,528,18,'#edf1df');c.save();c.translate(x+25,400);c.rotate(Math.PI);text(c,String(number),0,0,18,'#edf1df');c.restore();}}c.save();c.lineCap='round';for(const [color,width]of[['#29333b',8],['#edca4b',5]]){c.strokeStyle=color;c.lineWidth=width;c.beginPath();c.moveTo(6515,383);c.lineTo(6515,282);c.quadraticCurveTo(6515,258,6491,258);c.lineTo(6467,258);c.lineTo(6467,155);c.moveTo(6474,258);c.lineTo(6474,162);c.stroke();}c.restore();line(c,near,383,far,383,'#e6e9d7',2);line(c,near,539,far,539,'#e6e9d7',2);c.restore();}\nfunction scene(c,g){if(!H.active(g))return;const k=H.section(g),d=g.zoneDefinition;c.save();c.translate(-g.camera,0);rect(c,0,0,d.end,68,'#1a2638');if(k>=7)field(c,g,k);else if(k===0){if(art['outer-tailgate'])c.drawImage(art['outer-tailgate'],0,68,1800,364);if(art['single-approach'])c.drawImage(art['single-approach'],1800,68,1400,364);floor(c,'parking',0,d.end);}else if(k===3){const im=art['elevator-cabin'],shake=g.stadium237.elevator240?.phase==='ride'&&!root.matchMedia?.('(prefers-reduced-motion: reduce)').matches;c.save();if(shake)c.translate(Math.sin(g.time*41)*.65,Math.sin(g.time*57)*.65);if(im){c.drawImage(im,0,0,960,312,0,68,960,364);c.drawImage(im,0,312,960,50,0,432,960,108);}cabinPanel(c,g);c.restore();}else if(k===6){const im=art.lockers,z=364/im.naturalHeight,full=im.naturalWidth*z,last=d.end-250-1314*z;c.save();c.beginPath();c.rect(0,68,d.end,364);c.clip();for(let x=last-900;x> -1800;x-=900)c.drawImage(im,2,0,800,im.naturalHeight,x,68,900,364);c.drawImage(im,last,68,full,364);c.restore();floor(c,'lockers',0,d.end);}else{const n=d.key;picture(c,n,0,d.end,true);if(k===4)door(c,d.end-130,'FIELD ACCESS');if(k===2){if(art['elevator-lobby'])c.drawImage(art['elevator-lobby'],0,0,960,362,-350,68,960,364);if(g.transition?.from240===2&&['boarding','out'].includes(g.transition.phase)){const open=g.transition.phase==='boarding'?Math.min(1,g.transition.t/.55):1-Math.min(1,g.transition.t/.5);rect(c,0,207,252,180,'#142132');rect(c,0,207,126*(1-open),180,'#819298');rect(c,252-126*(1-open),207,126*(1-open),180,'#819298');}}}\nc.restore();}\nconst fanImages=[],fanReady=new Promise(resolve=>{Promise.all((root.StadiumFans237?.frames||[]).map((f,i)=>new Promise(done=>{const im=new Image();im.onload=()=>{fanImages[i]=im;done(true);};im.onerror=()=>done(false);im.src=f.src;}))).then(resolve);});\nconst runArt={},runData=root.Stadium313Art||{},runReady=Promise.all(Object.entries(runData).map(([key,d])=>new Promise(done=>{const im=new Image();im.onload=()=>{runArt[key]=im;done(true)};im.onerror=()=>done(false);im.src=d.src;})));\nfunction spectators(g){return root.NeonCombat.StadiumCivil313?.state(g)?.rows||[];}\nfunction people(c,g){if(!H.active(g)||![0,1,2].includes(H.section(g)))return;const reduced=g.reducedMotion313||g.reducedMotion||root.matchMedia?.('(prefers-reduced-motion: reduce)').matches;for(const q of spectators(g)){if(q.gone)continue;const x=q.x-g.camera;if(x< -150||x>1110)continue;c.save();c.translate(x,q.y);if(q.runner){const moving=q.moving&&!reduced,key=moving?'run':'idle',D=runData[key],im=runArt[key],index=moving?q.variant*8+Math.floor(q.phase*8):q.variant*2+(q.started?1:0),f=D?.frames[index];if(im&&f){if(q.dir>0)c.scale(-1,1);c.drawImage(im,...f.rect,-f.root[0]*D.scale,-f.root[1]*D.scale,f.rect[2]*D.scale,f.rect[3]*D.scale);q.render313={time:g.time,family:key,index,phase:q.phase};}}else{const f=root.StadiumFans237?.frames[q.standing],im=fanImages[q.standing],z=193/f.height;if(im)c.drawImage(im,-f.root[0]*z,-f.root[1]*z,f.width*z,f.height*z);q.render313={time:g.time,family:'standing',index:q.standing};}c.restore();}}\nfunction highway(c,g){if(!root.Highway234.active(g)||root.Highway234.section(g)!==1)return;const x=2370-g.camera;if(x< -200||x>1160)return;rect(c,x-145,171,290,87,'#174d3b');c.strokeStyle='#d6e2dc';c.lineWidth=2;c.strokeRect(x-140,176,280,77);text(c,'EXIT 18B',x,198,14);text(c,'RHINOS STADIUM \u2197',x,224,17);text(c,'HOME OF THE RHINOS',x,245,10);line(c,x-120,258,x-120,409,'#768d92',5);line(c,x+120,258,x+120,409,'#768d92',5);}\nfunction foreground(c,g){highway(c,g);if(!H.active(g))return;for(const q of (H.section(g)===3?[]:H.portals(g))){const x=q.x-g.camera;if(x< -90||x>1050)continue;root.NeonRoute167.paint(c,'GO '+(q.direction==='down'?'\u2193':q.direction==='up'?'\u2191':'\u2192'),x,304,23);text(c,q.name,x,329,11);}if(H.section(g)===8&&g.stadium237.phase==='boss'){const s=root.NeonCombat.Baylor237.state(g.stadium237.boss);if(s.rush){rect(c,350,146,260,23,'#0b2238db');text(c,g.stadium237.boss.act?.exhaust237?'BAYLOR \u00b7 EXHAUSTED':'BAYLOR \u00b7 ADRENALINE RUSH',480,162,12,'#79d7ff');}}}\nroot.StadiumView237={art,ready:Promise.all([ready,fanReady,runReady]),scene,people,foreground,spectators,field,runArt,runData};\n})(window);\n"
+    ]
+  ],
+  "fans-data237.js": [
+    [
+      "window.StadiumFans237={\"frames\":[{\"src\":\"assets/stadium/fans-0237.webp\",\"width\":245,\"height\":435,\"root\":[110.5,435]},{\"src\":\"assets/stadium/fans-1237.webp\",\"width\":247,\"height\":401,\"root\":[123.5,401]},{\"src\":\"assets/stadium/fans-2237.webp\",\"width\":226,\"height\":406,\"root\":[112.5,406]},{\"src\":\"assets/stadium/fans-3237.webp\",\"width\":202,\"height\":407,\"root\":[103.0,407]},{\"src\":\"assets/stadium/fans-4237.webp\",\"width\":324,\"height\":396,\"root\":[45.5,396]},{\"src\":\"assets/stadium/fans-5237.webp\",\"width\":297,\"height\":404,\"root\":[65.0,404]},{\"src\":\"assets/stadium/fans-6237.webp\",\"width\":344,\"height\":385,\"root\":[58.5,385]},{\"src\":\"assets/stadium/fans-7237.webp\",\"width\":311,\"height\":388,\"root\":[64.0,388]}],\"baseHeight\":401};\n",
+      "window.StadiumFans237={\"frames\":[{\"src\":\"assets/stadium/fans-0237.webp\",\"width\":245,\"height\":435,\"root\":[110.5,435]},{\"src\":\"assets/stadium/fans-1237.webp\",\"width\":247,\"height\":401,\"root\":[123.5,401]},{\"src\":\"assets/stadium/fans-2237.webp\",\"width\":226,\"height\":406,\"root\":[112.5,406]},{\"src\":\"assets/stadium/fans-3237.webp\",\"width\":202,\"height\":407,\"root\":[103.0,407]}],\"baseHeight\":401};\n"
+    ]
+  ],
+  "stadium237.js": [
+    [
+      "if(k===6)return[door(7,'PLAYERS TUNNEL \u00b7 FIELD',levels[k].end-130)];",
+      "if(k===6)return[door(7,'PLAYERS TUNNEL \u00b7 FIELD',levels[k].end-250)];",
+      1
+    ],
+    [
+      "p=g.player,x=d.reverse?d.end-150:150",
+      "p=g.player,x=d.reverse?d.end-150:k===7?550:150",
+      1
+    ],
+    [
+      "if(k===8)return s.phase==='approach'?'EAST END ZONE \u00b7 CLEAR THE THUGS AND APPROACH BAYLOR'",
+      "if(k>=7)return s.phase==='approach'?'FOOTBALL FIELD \u00b7 FIGHT TO THE FAR GOAL LINE'",
+      1
+    ],
+    [
+      "if(k===8){if(s.phase==='approach')",
+      "if(k>=7){if(s.phase==='approach')",
+      1
+    ],
+    [
+      "if(section(g)!==8||s.phase!=='approach'",
+      "if(section(g)<7||s.phase!=='approach'",
+      1
+    ],
+    [
+      "CKER ROOMS',levels[k].end-130)];if(k===6)return[door(7,'PLAYERS TUNNEL \u00b7 FIELD',levels[k].end-130)];if(k===7)return[door(8,'EAST END ZONE',levels[k].end-100,'right')];return[];}\nfunction travel(g,to){if(!active(g)||g.transition)return false;const q=portals(g).find(q=",
+      "CKER ROOMS',levels[k].end-130)];if(k===6)return[door(7,'PLAYERS TUNNEL \u00b7 FIELD',levels[k].end-130)];return[];}\nfunction travel(g,to){if(!active(g)||g.transition)return false;const q=portals(g).find(q=",
+      1
+    ],
+    [
+      "if(!routeReady(g)||section(g)===8)",
+      "if(!routeReady(g)||section(g)>=7)",
+      1
+    ],
+    [
+      "if(k===8){const e=N.Baylor237.spawn",
+      "if(k>=7){const e=N.Baylor237.spawn",
+      1
+    ],
+    [
+      "...(k===8?{scriptedSlots:1",
+      "...(k>=7?{scriptedSlots:1",
+      1
+    ],
+    [
+      "k===8?'approach':'ordinary'",
+      "k>=7?'approach':'ordinary'",
+      2
+    ],
+    [
+      "['thug','biker','knifeThug','cop','enforcer','thug','biker','knifeThug'],['thug','knifeThug','biker','thug']",
+      "['thug','biker','knifeThug','cop','enforcer','thug','biker','knifeThug','thug','knifeThug','biker','thug'],['thug','knifeThug','biker','thug']",
+      1
+    ],
+    [
+      "['field','STADIUM / WEST END ZONE TO MIDFIELD',4000,true]",
+      "['field','STADIUM / FOOTBALL FIELD',6600,true]",
+      1
+    ]
+  ]
+}

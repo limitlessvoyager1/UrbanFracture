@@ -1,0 +1,7 @@
+(function(r){r.ReinaBindings354=function(){const records=[];function arr(family,frames){if(!frames)return;for(const[i,f]of frames.entries())if(f?.image&&f.image.width)records.push({id:family+'/'+i,f,im:f.image});}
+for(const[k,v]of Object.entries(r.ReinaNative354()))if(Array.isArray(v)&&k!=='combinedCounter')arr('native-'+k,v);
+for(const[k,v]of Object.entries(r.ReinaView282.sets))arr('gait-'+k,v);
+arr('grab',r.ReinaGrabView279.frames);arr('hook',r.ReinaHookView272.frames);arr('recoil',r.RecordingView306.recoil);arr('weapon',r.CombatView248.frames.reina);arr('weapon-motion',r.CombatView248.motionFrames.reina);arr('tornado',r.NeonChargeView130.frames());
+for(const k of ['reina','reinaExtra','reinaDash']){const d=r.Attack297Data[k],im=r.AttackView297.images[k];for(const[i,f]of d.frames.entries())records.push({id:'attack-'+k+'/'+i,f,im,rect:f.rect,owner:r.AttackView297.images,key:k});}
+for(const[k,d]of Object.entries(r.Grapple301Data)){if(k==='powerbomb')continue;for(const[i,f]of d.frames.entries())records.push({id:'pair-'+k+'/'+i,f,im:r.GrappleView301.images[k],rect:f.rect,owner:r.GrappleView301.images,key:k});}
+arr('rising',r.NeonRisingBladeView187.frames);arr('build22',r.ReinaNative354().build22.combat);arr('combinedCounter',r.ReinaNative354().combinedCounter);arr('idle',r.PresentationView275.frames.slice(0,2));arr('charge-walk',r.NeonChargeWalk149.frames());arr('german130',r.NeonReactionsView130.sheets.german.frames);arr('repair',r.NeonRepairView134.sheets.reina.frames);return records;};})(globalThis);

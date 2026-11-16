@@ -1,0 +1,22 @@
+[
+  [
+    "||game.hospital314?.menu)return;",
+    "||game.hospital314?.menu||globalThis.HospitalMission315?.blocked(game))return;"
+  ],
+  [
+    "if(win&&game.stadium237){document.querySelector('#overlayKicker')",
+    "if(win&&game.hospital314?.mission315?.phase==='complete'){const m=game.hospital314.mission315;document.querySelector('#overlayKicker').textContent='PRIME CITY GENERAL / MISSION ENDED';document.querySelector('#overlayTitle').innerHTML=m.outcome==='saved'?'WITNESS<br><span>SAVED.</span>':'WITNESS<br><span>LOST.</span>';document.querySelector('#overlayCopy').textContent=(m.outcome==='saved'?'Witness testimony secured. Optional key item: TBD. ':'Witness information and special item lost. ')+'Next destination: TBD. Score '+game.score+'.';}if(win&&game.stadium237){document.querySelector('#overlayKicker')"
+  ],
+  [
+    "const id=game.hydro243?Hydro243.sceneId(game)",
+    "const id=game.hospital314?(game.hospital314.mission315?'hospital-helipad':Hospital314.sceneId(game)):game.hydro243?Hydro243.sceneId(game)"
+  ],
+  [
+    "game.hospital314?begin(game.zone,Hospital314.sceneId(game),true):",
+    "game.hospital314?begin(game.zone,game.hospital314.mission315?'hospital-helipad':Hospital314.sceneId(game),true):"
+  ],
+  [
+    "retry.hidden=win;tone(win?800",
+    "if(win&&game.hospital314){document.querySelector('#sceneSelect').value='hospital-helipad';play.textContent='REPLAY HOSPITAL SEARCH';}retry.hidden=win;tone(win?800"
+  ]
+]

@@ -1,0 +1,11 @@
+const assert=require('assert'),{N,O,sb,make,run}=require('./orion228-fixture.cjs');
+for(const hz of[30,60,120]){const{g,p,e}=make();e.hp=e.maxHp=500;p.defense=100;assert(g.command('dodge',{}));const a=p.act,x=p.x;run(g,.04,{},hz);assert.equal(p.x,x,'dodge startup planted');run(g,.6,{},hz);assert(p.x<x-75);assert.equal(e.hp,500);assert(p.dodgeCd>1);assert(!p.act);assert(!g.command('dodge',{}));run(g,1.5,{},hz);assert(g.command('dodge',{}));}
+for(const type of['thug','enforcer','boss']){const{g,p,e}=make(type);e.hp=e.maxHp=500;const a={};assert(O.shock(g,e,a,'first'));const duration=e.stun;assert(duration<=.36);assert(!O.shock(g,e,a,'repeat'));run(g,1.6);assert(O.shock(g,e,a,'later'));assert(e.stun<duration);run(g,2);assert(!e.stun&&!e.shock);}
+{const{g,p,e}=make();O.meteor(g);run(g,.4);assert(p.jump>0);p.inv=0;assert(g.damage(p,9,-1,false,{attacker:e}));run(g,2);assert(!p.act&&!p.orionPose205);}
+{const{g,p,e}=make();g.command('attack',{});const a=p.act;a.started228=g.time-10;run(g,.05);assert(p.orionFaults228.length);assert(!p.act?.box228);run(g,.7);assert(!p.act&&!p.orionPose205);}
+{const{g,p,e}=make();e.x=p.x+30;assert(g.acquireGrab(e,false));O.pair(g,'inverted');const a=p.act;a.t=NaN;run(g,.05);run(g,2);assert(!p.act&&!p.hold&&!e.heldBy&&!e.pairVisual&&!e.forestLock125);}
+for(const hero of['reina','nova','broxton','forest','niko']){const{g}=make();g.selectHero(hero);assert.equal(g.player.type,hero);assert.equal(O.debug(g),null);}
+for(const type of['thug','enforcer','boss'])for(const k of['current','laser','meteor']){const{g,p,e}=make(type);e.hp=e.maxHp=500;e.x=p.x+80;k==='meteor'?O.meteor(g):g.command('special',k==='laser'?{right:true}:{});run(g,3);assert(e.hp<500);assert(!p.act&&!p.orionPose205);assert(!e.stun&&!e.shock);}
+console.log('PASS228 GATE6/7 dodge timing/cost/cooldown, native electrical resistance/retrigger grace, airborne interruption, corrupt clock/pair watchdog cleanup, other hero identity, standard/strong/boss specials.');
+
+for(const dir of[-1,1]){const{g,p,e}=make('thug',dir);e.x=p.x+dir*40;e.hp=e.maxHp=500;g.command('counter',{});assert(g.catchPunch(e,{name:'hook'}));assert.equal(p.act.name,'counterCapture');run(g,2);assert.equal(e.hp,476);assert(!p.act&&!p.hold&&!e.heldBy);}

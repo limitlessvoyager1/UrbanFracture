@@ -1,0 +1,4 @@
+require('./woods139.test.cjs');require('../dist/broxton-audit142.js');const assert=require('node:assert/strict'),{Brawler,actor}=NeonCombat;
+{const g=new Brawler();for(let i=0;i<100;i++)g.awardScore(3.9);assert.equal(g.score,390);assert(Number.isInteger(g.score));assert(g.lastScore142);assert(NeonCombat.Audit135.report(g).live142);}
+for(const d of [-1,1])for(const y of [440,505]){const g=new Brawler();g.selectHero('broxton');g.startUptown(3);g.pending=[];g.reinforce=()=>{};g.ai=()=>{};const p=g.player;p.x=p.prevX=16550;p.y=p.prevY=y;p.dir=d;const e=actor('thug',p.x+d*300,y);e.hp=e.maxHp=1000;g.enemies=[e];g.start(p,'blitzKick',.76,.12);const a=p.act;for(let i=0;i<14;i++)g.tick(1/120,{});e.x=p.x+d*50;e.inv=0;for(let i=0;i<25;i++)g.tick(1/120,{});assert.equal(e.hp,978,'one contact during dash active window');}
+console.log('PASS142 integer fractional-score accumulation, diagnostics, mirrored lane active-window one-hit');

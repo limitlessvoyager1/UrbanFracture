@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict');const {Brawler,actor}=require('../dist/core.js');for(const f of ['financial','broxton','paired-motion','counters','encounters','balance48','balance49','broxton-counters51','broxton-shuffle52','open-cue62','weather67','club76','nova77'])require('../dist/'+f+'.js');
+function setup(){const g=new Brawler();g.selectHero('nova');g.playing=true;g.pending=[];const p=g.player;p.x=400;p.y=455;p.dir=1;const e=actor('thug',455,455);e.cd=999;g.enemies=[e];return {g,p,e};}
+{const {g,p}=setup();g.attackInput(true,{});assert.equal(p.act.name,'combo');g.attackInput(false,{});for(let i=0;i<7;i++)g.tick(.02,{});g.attackInput(true,{});g.attackInput(false,{});g.tick(.02,{});assert.equal(p.act.combo,2);}
+{const {g,p}=setup();p.hypeUntil=20;g.attackInput(true,{});for(let i=0;i<100;i++)g.tick(.02,{attack:true});assert.notEqual(p.act?.name,'palmCharge');}
+{const {g,p,e}=setup();e.hp=2;g.command('special',{right:true});let checks=0;for(let i=0;i<100;i++){g.tick(.02,{});if(p.act?.name==='novaRush'&&p.act.strike>0&&p.act.strike<10){assert(e.hp>0);assert(!e.down);checks++;}}assert(checks>0);assert(e.hp<=0);}
+console.log('PASS immediate combo input and queued next hit, no Hype hold freeze, rush delays defeat until tenth hit');

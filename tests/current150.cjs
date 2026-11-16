@@ -1,0 +1,8 @@
+// Current-contract entry point. Historical three-second/Nova-on-release fixtures
+// remain archived; controller144 and reina-repair147 cover their replacements.
+const fs=require('node:fs'),path=require('node:path'),{spawnSync}=require('node:child_process');
+const focused=['combat134','reina-counters130','weapon-counters122','grip124','reap-recovery119','forest-counters127','companion126','combo-confirm129','reina-german123','nova-ddt116','uptown-controller129','startup133'];
+function run(file,current=false){const abs=path.resolve('tests',file);let code=fs.readFileSync(abs,'utf8');if(current)code=code.replace(/scripts\.indexOf\('[^']+'\)/g,"scripts.indexOf('environment-controller162.js')");const script=`const Module=require('node:module');const m=new Module(${JSON.stringify(abs)});m.filename=${JSON.stringify(abs)};m.paths=Module._nodeModulePaths(${JSON.stringify(path.dirname(abs))});m._compile(${JSON.stringify(code)},m.filename);`;const r=spawnSync(process.execPath,['-e',script],{encoding:'utf8',maxBuffer:8*1024*1024});process.stdout.write(r.stdout||'');process.stderr.write(r.stderr||'');if(r.status!==0)process.exit(r.status||1);}
+for(const name of focused)run(name+'.test.cjs',true);
+for(const name of ['controller144.cjs','reina-repair147.cjs','lab149.cjs','ground149.cjs','woods148.cjs','woods139.test.cjs','grapple145.cjs','powerbomb136-controller.cjs','spear137-controller.cjs','director148-stress.cjs','sterling152.cjs','sterling-controller152.cjs','dorian153.cjs','dorian-grapple153.cjs'])run(name,name==='controller144.cjs');
+console.log('PASS150 current-contract regression entry point:26 suites, full current combat chain where supported; established character mechanics preserved');

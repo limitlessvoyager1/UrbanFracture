@@ -1,0 +1,7 @@
+// Reuse the established production game/controller harness, then exercise new menu gates.
+const fs=require('node:fs'),Module=require('node:module'),path=require('node:path');const file=path.resolve('tests/controller144.cjs'),base=fs.readFileSync(file,'utf8').split('const expected=')[0];const checks=`
+run('var opened173=0;tacticsMenu173={open:false,show(){opened173++},pad(){}};');
+for(const [mapping,id]of [['standard','DualSense USB'],['','DualSense Wireless Controller'],['standard','Xbox 360 Controller (DSX)']]){setup('forest');run('paused=true;game.zoneClear=true;opened173=0');pads=[pad([],mapping,id)];run('pollGamepad()');pads=[pad([6],mapping,id)];run('pollGamepad()');assert.equal(run('opened173'),1);run('opened173=0;game.zoneClear=false');pads=[pad([],mapping,id)];run('pollGamepad()');pads=[pad([6],mapping,id)];run('pollGamepad()');assert.equal(run('opened173'),0);}
+setup('forest');run('ready=true;started=false;game.gunnerConfirmed173=false;opened173=0;begin(0)');assert.equal(run('opened173'),1);assert.equal(run('started'),false);run('game.gunnerConfirmed173=true;begin(0)');assert(run('started'));run('opened173=0;pause(true);pause(false)');assert.equal(run('opened173'),0);
+console.log('PASS173 actual game.js Forest start confirmation gate, mode persistence, no dialog on pause/resume; DualSense standard/raw/DSX L2 opens tactics only after clear');
+`;const m=new Module(file);m.filename=file;m.paths=Module._nodeModulePaths(path.dirname(file));m._compile(base+checks,file);

@@ -1,0 +1,1 @@
+const fs=require('fs'),vm=require('vm');async function load(){const r=await require('../home338/load.cjs').load();for(const f of ['home339-data.js','home-view339.js'])vm.runInContext(fs.readFileSync('dist/'+f,'utf8'),r.sb,{filename:f});if(!await r.sb.HomeView339.ready)throw Error('Home sitting atlas unavailable');return r;}module.exports={load};

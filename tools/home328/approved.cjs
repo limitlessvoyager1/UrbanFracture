@@ -1,0 +1,1 @@
+'use strict';const A=require('assert/strict'),rows=require('./approved-source-lines.json');function approved(f,s){for(const[b,a]of rows[f]||[]){const n=s.split(a).length-1;A.ok(n<=1,'exact328 receipt '+f);if(n)s=s.replace(a,()=>b);}return s;}module.exports={approved};

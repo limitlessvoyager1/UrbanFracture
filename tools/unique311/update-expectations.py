@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('tests/nightshade251.cjs');s=p.read_text();old="ok(!g.command('unique',{}),'no new ability assigned to '+hero);";new="if(hero==='reina'){ok(g.command('unique',{}),'Reina311 Unique dispatch');ok(g.player.act?.name==='dragonTail311','Reina actual Dragon Tail');ok(g.player.defense===g.player.maxDefense*.5,'Reina unique half-meter cost');}else ok(!g.command('unique',{}),'no unassigned ability on '+hero);";assert s.count(old)==1;s=s.replace(old,new);p.write_text(s)
+p=Path('tests/presentation275.cjs');s=p.read_text();old="g.player.jumpApex/oldApex-1.15";new="g.player.jumpApex/oldApex-1.15*(type==='reina'?1.08:1)";assert s.count(old)==1;p.write_text(s.replace(old,new))
+p=Path('tests/contact302-view.cjs');s=p.read_text();old="name==='game'?'307':'302'";new="name==='game'?'311':'302'";assert s.count(old)==1;p.write_text(s.replace(old,new))
+p=Path('tests/diagnostics307-approved.cjs');s=p.read_text();old="if(file!=='game.js')return s;A.ok";new="if(file!=='game.js')return s;s=require('../tools/unique311/approved.cjs').approved(file,s);A.ok";assert s.count(old)==1;p.write_text(s.replace(old,new))

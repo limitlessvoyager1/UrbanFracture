@@ -1,0 +1,10 @@
+const assert=require('assert/strict'),{N,W,make,run}=require('./workers233-fixture.cjs');
+{const {g,p,e}=make('heavyDockWorker');assert.equal(e.maxHp,105);assert.equal(N.Grab223.classify(e),'HEAVY_BOSS');assert(N.Grab223.highHP(e));e.hp=e.maxHp*.4;assert(!N.Grab223.highHP(e));assert.equal(N.Grab223.config.heavyProtection,1.2);}
+for(const hz of[30,60,120])for(const kind of['heavySwing','overhead','shoulder','unarmed']){const {g,p,e}=make('heavyDockWorker');assert(W.begin(g,e,kind),kind);const a=e.act,hp=p.hp;run(g,a.total+.01,{},hz);assert(p.hp<hp,kind+' contact '+hz);assert(!e.act||e.act!==a);}
+for(const rear of[false,true]){const {g,p,e}=make('heavyDockWorker');assert(W.begin(g,e,'heavySwing'));run(g,21/60);assert(W.armorWindow(e));p.x=e.x+(rear?-60:60);const hp=e.hp,a=e.act;assert(g.damage(e,10,rear?1:-1,false,{attacker:p}));assert(e.hp<hp);assert.equal(e.act===a,!rear);if(!rear)assert(e.workerFlash233>0);else assert(!W.begin(g,e,'overhead'));}
+{const {g,p,e}=make('heavyDockWorker');p.x=485;assert(W.begin(g,e,'heavyGrab'));run(g,2);assert(p.hp<p.maxHp&&!p.heldBy&&!e.hold);}
+{const {g,p,e}=make('heavyDockWorker');p.down=2;p.downTotal=2.5;p.downAge=.4;p.fallFrom=p.fallTo=p.x;p.act=null;assert(W.begin(g,e,'stomp'));const hp=p.hp;run(g,1.3);assert(p.hp<hp);assert(!W.begin(g,e,'stomp'));}
+{const {g,p,e}=make('heavyDockWorker');p.down=2;p.downTotal=2.5;p.downAge=.4;p.heldBy={};assert(!W.begin(g,e,'stomp'));}
+{const {g,p,e}=make('heavyDockWorker');p.jump=.5;p.jumpVx=-180;const d=N.Director148.init(g),s=N.Audit135.init(g);s.airSerial=7;s.airborne135=true;s.airClaim=0;s.antiAirAt=-99;d.jumpAt=-1;d.airPlan={serial:7,allow:true};assert(W.begin(g,e,'antiAir'));assert(!W.armorWindow(e));}
+{const {g,p,e}=make('heavyDockWorker');e.weapon=null;run(g,.02);for(const k of['heavySwing','overhead','antiAir'])assert(!W.begin(g,e,k));assert(W.begin(g,e,'unarmed'));}
+console.log('PASS233 heavy105HP/40% contested/1.2s protection, mandatory full recovery, separately contacting moves, frontal damage-taking armor/rear interruption, safe stomp/air/throw/disarm at30/60/120Hz');

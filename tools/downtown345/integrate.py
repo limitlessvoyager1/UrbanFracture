@@ -1,0 +1,31 @@
+from pathlib import Path
+import re
+R=Path(__file__).resolve().parents[2];D=R/'dist'
+g=(D/'game344.js').read_text()
+g=g.replace("function cycleHero(dir){","function cycleHero(dir){if(game.downtown345)return;")
+g=g.replace("const held={}","game.downtown345=true;globalThis.DowntownRuntime345=game;NeonScenes71.scenes.splice(0,NeonScenes71.scenes.length,...NeonScenes71.scenes.filter(NeonCombat.Downtown345.permitted));\nconst held={}",1)
+g=g.replace("const renderScale=game.industrial317", "const renderScale=game.downtown345||game.industrial317",1)
+g=g.replace("UrbanEnvironmentView156.background(ctx,game,()=>{if($6.template)","UrbanEnvironmentView156.background(ctx,game,()=>{if(DowntownView345.scene(ctx,game))return;if($6.template)")
+g=g.replace("if(!game.industrial317&&!game.feds316", "if(!game.downtown345&&!game.industrial317&&!game.feds316")
+g=g.replace("if(game.hotelRoutePromptVisible){", "if(!game.downtown345&&game.hotelRoutePromptVisible){")
+g=g.replace("for(const it of game.items){if(globalThis.ItemView319", "for(const it of game.items){if(it.window345)continue;if(globalThis.ItemView319")
+g=g.replace("else if(f.flight&&!globalThis.ReviewView287", "else if(f.flight&&!f.flight.nightshade345&&!globalThis.ReviewView287")
+g=g.replace("else if(f.grappleAngle){", "else if(f.grappleAngle&&!game.player.act?.rolling345){")
+g=g.replace("if(game.zoneClear&&", "if(!game.downtown345&&game.zoneClear&&")
+g=g.replace("if(game.clearNotice282?.zone", "if(!game.downtown345&&game.clearNotice282?.zone")
+g=g.replace("globalThis.CacheRoomsView336?.foreground(ctx,game);", "DowntownView345.foreground(ctx,game);")
+g=g.replace('game.selectHero("nightshade");begin(0);','chooseHero("nightshade");beginSelectedScene();')
+g += '''\n// This entry point is intentionally scoped to Downtown and the selected hero.\nchooseHero('nightshade');\nfor(const el of document.querySelectorAll('[data-hero], [data-start-route], #level2, #playHospital314, #playAirport309, #playAirport310, #playFeds316, #playIndustrial317, #playHome331, #continueWorld156'))el.hidden=true;\nconst scenePicker345=document.querySelector('#sceneSelect');
+scenePicker345.replaceChildren(...NeonScenes71.scenes.filter(s=>s.zone<=6&&!/^(uptown|government|casino|yacht|estates|route74|slums|prison|docks|highway|chinatown|mall|stadium|subway|hydro|airport|hospital|feds|industrial|hq)/.test(s.id)).map(s=>{const o=document.createElement('option');o.value=s.id;o.textContent=s.name;return o;}));\nfor(const option of [...scenePicker345.options]){const scene=NeonScenes71.scenes.find(s=>s.id===option.value);if(!scene||scene.zone>6||scene.id.startsWith('uptown')||/^(government|casino|yacht|estates|route74|slums|prison|docks|highway|chinatown|mall|stadium|subway|hydro|airport|hospital|feds|industrial|hq)/.test(scene.id))option.remove();}\nscenePicker345.value='restaurant';\nconst oldBegin345=play.onclick;play.onclick=()=>{delete game.ai;chooseHero('nightshade');oldBegin345();NeonCombat.Drone344.restore(game,{mode:document.querySelector('#droneMode344').value});};\n'''
+(D/'game345.js').write_text(g)
+h=(D/'nightshade344.html').read_text().replace('Nightshade — Drone & HD Art Playtest','Prime City — Downtown / Nightshade Playtest')
+h=h.replace('<head>','<head><style>.intro,.hero-select,.moves,.move-guide,.guide,footer,section[aria-label="Starting district"]{display:none!important}.edition{font-size:11px}#overlayTitle{font-size:clamp(32px,5vw,64px)!important}.starting-route p{max-width:1100px}</style>')
+h=h.replace('HQ INTERACTIONS · 339','DOWNTOWN · ILLUSTRATED PLAYTEST 345')
+h=h.replace('Experimental pose atlas. Grapple choreography and full animation continuity require further visual review. Original enemy art intentionally retained for comparison.','Downtown’s original routes, new illustrated fighters, broken-window pickups, and optional shops. Full animation review is in progress. Use your own browser for a connected DualSense controller.')
+h=h.replace('<script src="game344.js?v=337"></script>', '<script src="nightshade-finish345.js?v=345"></script><script src="downtown-rooms345.js?v=345"></script><script src="downtown345.js?v=345"></script><script src="downtown-art345.js?v=345"></script><script src="downtown-view345.js?v=345"></script><script src="game345.js?v=345"></script>')
+h=h.replace('.intro,.hero-select,.moves', '.broxton-guide,.roster,.section,.intro,.hero-select,.moves')
+h=h.replace('Clear downtown, then take the fight to Union National Bank and Leroy’s vault.','Explore Downtown and its alternate hotel route. Optional storefront fights offer extra supplies.').replace('PS5: ↑ / ↓ choose scene · × start · ← / → choose fighter','PS5: ↑ / ↓ choose scene · × or Options start').replace('L1 block · R1 counter · Controller check below','R2 drone · Circle drone dodge · Controller check below')
+h=h.replace('href="/"','href="downtown345.html"')
+h=h.replace('Clear Downtown, then take the fight to Union National Bank.', 'Explore Downtown and its alternate hotel route.')
+(D/'downtown345.html').write_text(h)
+print('Created isolated Downtown345 HTML and presentation integration.')

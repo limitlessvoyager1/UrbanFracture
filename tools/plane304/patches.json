@@ -1,0 +1,78 @@
+{
+  "martial212.js": [
+    {
+      "before": "function classify(a){",
+      "after": "function classify(a){const current304=N.Plane304?.martialKind(a);if(current304)return current304;"
+    },
+    {
+      "before": "Math.min(a.hitAt??a.total,a.total)",
+      "after": "Math.min(N.Plane304?.contactTime(a)??a.hitAt??a.total,a.total)"
+    },
+    {
+      "before": "($9.hitAt||0)-C.counterWindow",
+      "after": "((N.Plane304?.contactTime($9)??$9.hitAt)||0)-C.counterWindow"
+    },
+    {
+      "before": "($9.hitAt||0)+C.counterWindow",
+      "after": "((N.Plane304?.contactTime($9)??$9.hitAt)||0)+C.counterWindow"
+    },
+    {
+      "before": "const p=g.player,k=a.kind212,def=a.def212;if(protectedPlayer(g)",
+      "after": "const p=g.player,k=a.kind212,def=a.def212;N.Plane304?.martialAttempt(g,e,a,i,t,protectedPlayer(g));if(protectedPlayer(g)"
+    },
+    {
+      "before": "if(!N.DragonTail121.contact(q.A,q.B,box))return false;",
+      "after": "const contact304=N.DragonTail121.contact(q.A,q.B,box);N.Plane304?.martialShape(g,e,a,i,t,q,box,contact304);if(!contact304)return false;"
+    },
+    {
+      "before": "$24=p.jump>0?Math.sin($2(p.jump/.72,0,1)*Math.PI)*90:0;",
+      "after": "$24=N.Plane304?N.Plane304.height(g,p):(p.jump>0?Math.sin($2(p.jump/.72,0,1)*Math.PI)*90:0);"
+    }
+  ],
+  "niko185.js": [
+    {
+      "before": "g.enemies.filter(e=>e.hp>0&&!e.down&&!e.flight&&!e.heldBy&&!e.dormant&&!e.fleeing&&Math.abs(e.y-p.y)<24&&(e.x-p.x)*a.dir185>=-6&&(e.x-p.x)*a.dir185<=reach+(e.sterlingBoss195?22:0))",
+      "after": "g.enemies.filter(e=>N.Plane304?N.Plane304.nikoCandidate(g,a,e,reach):e.hp>0&&!e.down&&!e.flight&&!e.heldBy&&!e.dormant&&!e.fleeing&&Math.abs(e.y-p.y)<24&&(e.x-p.x)*a.dir185>=-6&&(e.x-p.x)*a.dir185<=reach+(e.sterlingBoss195?22:0))"
+    }
+  ],
+  "weapons248.js": [
+    {
+      "before": "function contact249(A,B,e){const k=N.Forest125?.scale(e)||1,",
+      "after": "function contact249(A,B,e,g){const k=N.Plane304?.scale(g,e)??(N.Forest125?.scale(e)||1),z=N.Plane304?.height(g,e)||0,"
+    },
+    {
+      "before": "const d=a.profile249,scale=N.Forest125?.scale(p)||1;",
+      "after": "const d=a.profile249,scale=N.Plane304?.scale(g,p)??(N.Forest125?.scale(p)||1);"
+    },
+    {
+      "before": "contact249(points[j],v,e)",
+      "after": "contact249(points[j],v,e,g)"
+    },
+    {
+      "before": "contact249(h,tip,e)",
+      "after": "contact249(h,tip,e,g)"
+    },
+    {
+      "before": "if(e.hp<=0||e.down||e.dormant||e.heldBy||e.flight||e.entering||e.wakeInv>0||(d.slices?(a.sliceHits269??=new Map()).get(a.slice269)?.has(e.id):a.hits.has(e.id))||Math.abs(e.y-p.y)>23)continue;",
+      "after": "if(N.Plane304?!N.Plane304.weaponCandidate(g,a,e):e.hp<=0||e.down||e.dormant||e.heldBy||e.flight||e.entering||e.wakeInv>0||(d.slices?(a.sliceHits269??=new Map()).get(a.slice269)?.has(e.id):a.hits.has(e.id))||Math.abs(e.y-p.y)>23)continue;"
+    },
+    {
+      "before": "scale275=N.Forest125.scale(p),",
+      "after": "scale275=N.Plane304?.scale(g,p)??N.Forest125.scale(p),"
+    },
+    {
+      "before": "if(contact)break;}if(!contact)continue;",
+      "after": "if(N.Plane304)N.Plane304.weaponSample(g,a,e,q.chain294?q.points294.map(([x,y])=>({x:p.x+a.dir248*x*scale,y:p.y+y*scale})):[h,tip],contact,from+(a.t-from)*i/8);if(contact)break;}if(!contact)continue;"
+    },
+    {
+      "before": "top=e.y-132*k,bottom=e.y-32*k;",
+      "after": "top=e.y-132*k-z,bottom=e.y-32*k-z;"
+    }
+  ],
+  "game.js": [
+    {
+      "before": "function zheight(f){",
+      "after": "function zheight(f){if(globalThis.NeonCombat?.Plane304)return globalThis.NeonCombat.Plane304.height(game,f);"
+    }
+  ]
+}

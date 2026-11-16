@@ -1,0 +1,1 @@
+const A=require('assert/strict'),fs=require('fs');function approved(file,s){s=require('../feds316/approved.cjs').approved(file,s);const own=require('./approved-patches.json')[file]||[];for(const[old,next,count=1]of own){const n=s.split(next).length-1;A.ok(n===0||n===count,'exact approved313 '+file);if(n)s=s.split(next).join(old);}return s;}module.exports={approved};

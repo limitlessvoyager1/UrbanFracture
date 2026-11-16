@@ -1,0 +1,1 @@
+const fs=require('fs'),vm=require('vm');async function load(){const r=await require('../recording313/load.cjs').load();vm.runInContext(fs.readFileSync('dist/home-view338.js','utf8'),r.sb,{filename:'home-view338.js'});if(!await r.sb.HomeView338.ensure())throw Error('HQ images missing');return r;}module.exports={load};

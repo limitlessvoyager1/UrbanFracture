@@ -1,0 +1,15 @@
+'use strict';
+// Re-run only recorded failures after fixing a test-environment prerequisite.
+// Preserve the first report, logs and all non-executed/manual gates.
+const fs=require('fs'),cp=require('child_process'),A=require('assert/strict'),V=require('../qa242/validators.cjs'),{fingerprint}=require('../qa242/fingerprint.cjs');
+const first=JSON.parse(fs.readFileSync('reports242/latest.json','utf8'));A.equal(first.profile,'release');A.equal(first.sourceChangedDuringTests,false);const finalFingerprint=fingerprint();A.deepEqual(cp.execFileSync('git',['diff','--name-only',first.sourceCommit,'--','dist','tests','tools/qa242','qa/system242'],{encoding:'utf8'}).trim().split('\n').filter(Boolean),['tests/style310-native.cjs'],'only bounded canvas allocation repair may differ from release-run inputs');
+fs.writeFileSync('reports310/release-first-run.json',JSON.stringify(first,null,2));const results=structuredClone(first.results),reruns=[];
+for(const q of results.filter(q=>q.status==='failed')){
+ A.ok(['ground294-world','style310-native'].includes(q.id),'Unexpected failure must be investigated');
+ const archived='reports310/'+q.id+'-first-failure.log';fs.copyFileSync(q.log,archived);
+ const out=cp.spawnSync(q.command[0],q.command.slice(1),{encoding:'utf8',timeout:180000,maxBuffer:30*1024*1024});const log='reports310/'+q.id+'-rerun.log';fs.writeFileSync(log,(out.stdout||'')+(out.stderr||''));A.equal(out.status,0,'rerun must actually pass');
+ reruns.push({id:q.id,initialLog:archived,rerunLog:log,fix:q.id==='ground294-world'?'Missing historical Git tag replaced with exact documented Build293 commit 1b4352222a6bfe1970ef5be463326e8e0a213a9f. Assertions unchanged.':'Bounded renderer harness: one reused and cleared canvas per sequence, replacing 135 allocations. All 1494 assertions retained.',exitCode:out.status});q.status='passed';q.originalFailureLog=archived;q.log=log;q.exitCode=0;
+}
+const issues=[...first.visualIssues,...require('../../qa/system242/issues.json').issues.filter(q=>q.severity==='critical'&&q.status!=='resolved').map(q=>({...q,severity:'error'}))];
+const report={...first,createdAt:new Date().toISOString(),sourceFingerprint:finalFingerprint,firstRunSourceFingerprint:first.sourceFingerprint,firstRunReport:'reports310/release-first-run.json',reruns,results,counts:{executed:results.filter(q=>['passed','failed'].includes(q.status)).length,passed:results.filter(q=>q.status==='passed').length,failed:results.filter(q=>q.status==='failed').length,notExecuted:results.filter(q=>q.status==='not-executed').length},decision:V.gate(results,{required:require('../../qa/system242/suites.json').suites.filter(q=>q.profiles.includes('release')).map(q=>q.id),criticalIssues:issues}),qualification:'Combined release run and two targeted fixture/resource-harness repair reruns, not a claim that the first run had zero failures.'};
+A.equal(finalFingerprint,fingerprint());fs.writeFileSync('reports310/release-verified.json',JSON.stringify(report,null,2));console.log(JSON.stringify({counts:report.counts,decision:report.decision,reruns:reruns.map(q=>q.id)}));A.equal(report.counts.failed,0);A.notEqual(report.decision.status,'blocked');

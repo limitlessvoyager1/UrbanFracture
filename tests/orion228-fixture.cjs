@@ -1,0 +1,4 @@
+const fs=require('fs'),vm=require('vm');const sb={console,Math:Object.create(Math),Date,performance};vm.createContext(sb);const list=[...fs.readFileSync('dist/index.html','utf8').matchAll(/<script src="([^"?]+)\?v=/g)].map(x=>x[1]);for(const f of list.slice(0,list.indexOf('input226.js')+1).filter(f=>!f.includes('view')))vm.runInContext(fs.readFileSync('dist/'+f,'utf8'),sb,{filename:f});const N=sb.NeonCombat,O=N.Orion205;
+function make(type='thug',dir=1){const g=new N.Brawler();g.selectHero('orion');sb.Slums202.start(g,19);g.enemies=[];g.pending=[];g.props=[];g.items=[];g.ai=()=>{};g.reinforce=()=>{};g.camera=100;Object.assign(g.player,{x:500,prevX:500,y:480,prevY:480,dir,inv:0,cd:0});const e=N.actor(type,500+dir*70,480);Object.assign(e,{dir:-dir,inv:0,wakeInv:0,activeAt:0,cd:0});g.enemies=[e];return{g,p:g.player,e};}
+function run(g,t,input={},hz=60){for(let i=0;i<Math.ceil(t*hz);i++)g.tick(1/hz,input);}
+module.exports={N,O,sb,make,run};

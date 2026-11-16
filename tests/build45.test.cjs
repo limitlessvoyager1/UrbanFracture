@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),{Brawler,actor}=require('../dist/core.js');require('../dist/financial.js');require('../dist/broxton.js');require('../dist/paired-motion.js');require('../dist/counters.js');require('../dist/encounters.js');
+const step=(g,n,input={})=>{for(let i=0;i<n;i++)g.tick(1/60,input);};function arena(type='thug',dx=45){const g=new Brawler();g.reset();g.camera=1800;g.player.x=2250;g.player.y=475;g.pending=[];g.props=[];g.items=[];const e=actor(type,2250+dx,475);g.enemies=[e];g.ai=()=>{};g.reinforce=()=>{};return[g,e];}
+let[g,e]=arena();g.command('jump');g.command('attack',{down:true});assert.equal(g.player.act.damage,10);step(g,30);assert.equal(e.hp,50);
+[g,e]=arena('enforcer',250);e.activeAt=0;const x=e.x;for(let i=0;i<120;i++)Brawler.prototype.ai.call(g,e,1/60);assert(e.x<x-80,'Bruno pursues horizontally beyond former district edge');
+for(const name of ['knifeSlash','hyperSlash','knifeThrow','weaponRush']){[g,e]=arena('knifeThug');g.command('counter');assert(!g.catchPunch(e,{name}),'Cannot counter knife '+name);assert(!e.disarmed);}
+[g,e]=arena('knifeThug');g.command('counter');assert(g.catchPunch(e,{name:'knife'}));assert.equal(g.player.act.name,'counterCapture');step(g,15);assert.equal(g.player.act.counterStyle,'knife');step(g,60);assert.equal(e.hp,28);assert(e.disarmed&&e.down);
+[g,e]=arena('knifeThug',70);e.hp=20;e.cd=0;e.throwCd=99;Brawler.prototype.ai.call(g,e,1/60);assert.equal(e.act.name,'hyperSlash');assert(e.hyperUsed);g.player.inv=0;step(g,90);assert(!g.player.heldBy);e.act=null;e.cd=0;e.x=g.player.x+50;Brawler.prototype.ai.call(g,e,1/60);assert.notEqual(e.act?.name,'hyperSlash','Hyper only once');
+[g,e]=arena('knifeThug',300);g.enemyAct(e,'knifeThrow',.8,.25);step(g,16);let k=g.projectiles[0];assert(k);const kx=k.x;step(g,1);assert(Math.abs(k.x-kx)>13,'Faster 850px/sec knife');
+[g,e]=arena('cop',240);e.dir=-1;g.enemyAct(e,'taserShot',1.35,.55,{damage:20,reach:370});step(g,25);assert.equal(g.player.hp,100);step(g,30);assert(g.player.hp<100);assert(g.player.shock>0&&g.player.stun>0);assert(!g.player.heldBy);assert(!e.jump);
+[g,e]=arena('cop',240);e.dir=-1;g.enemyAct(e,'taserShot',1.35,.55);step(g,25);g.player.y=425;step(g,40);assert.equal(g.player.hp,100,'Probes miss another lane');
+[g,e]=arena('cop',240);g.enemyAct(e,'copDash',.55,99);e.dir=-1;const from=e.x;step(g,24);assert(e.x<from-80);
+console.log('PASS 10damage knee,Bruno cameraedge pursuit,stab-only counter/capture/flip/disarm,Kevin singlehyper/fasterknife,Carmen rangedprobes windup/lane/shock anddash');

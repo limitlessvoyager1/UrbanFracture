@@ -1,0 +1,6 @@
+const fs=require('fs'),vm=require('vm'),f=require('./grab223-fixture.cjs');vm.runInContext(fs.readFileSync('dist/review144.js','utf8'),f.sb,{filename:'review144'});vm.runInContext(fs.readFileSync('dist/prison224.js','utf8'),f.sb,{filename:'prison224'});const{N}=f,H=N.Prison224;
+function make(hero='reina',k=0){const g=new N.Brawler();g.selectHero(hero);H.start(g,k);g.player.hp=g.player.maxHp=10000;return g;}
+function defeat(g){for(const e of g.enemies)if(e.hp>0&&!e.dormant){e.inv=e.wakeInv=0;g.damage(e,99999,1,true,{attacker:g.player,force:true});}}
+function clear(g){for(let i=0;i<12000;i++){defeat(g);g.player.inv=10;g.tick(1/60,{right:!!g.pending.length&&(!N.LockedBattles222.active(g)||g.pending[0].at>g.prison224.progress)});if(g.transition)throw Error('unexpected transition');if(g.zoneClear&&!N.LockedBattles222.active(g)&&g.settledDefeats()&&(!(H.section(g)>=4&&H.section(g)<=6)||H.state(g).rooms[H.section(g)]?.rewards))return;}throw Error('not cleared '+g.zoneDefinition.name+' '+JSON.stringify({pending:g.pending,actors:g.enemies.map(e=>({type:e.type,hp:e.hp,entry:e.entry,down:e.down}))}));}
+function run(g,t,input={},hz=60){for(let i=0;i<Math.ceil(t*hz);i++)g.tick(1/hz,input);}
+module.exports={...f,H,make,defeat,clear,run};

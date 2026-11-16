@@ -1,0 +1,20 @@
+'use strict';
+const A=require('node:assert/strict'),P=require('../tools/fighter-render/prerequisites.cjs');let checks=0;
+const eq=(a,b,m)=>{checks++;A.equal(a,b,m)},ok=(v,m)=>{checks++;A.ok(v,m)};
+const ready=P.inspect();eq(ready.status,'passed','installed prerequisite and reviewed manifest');
+eq(P.canvasCheck(()=>{throw Error('missing fixture dependency');}).status,'unavailable','missing package explicitly unavailable');
+const file=ready.canvas.file;
+eq(P.canvasCheck(()=>file,()=>({}),()=>({version:'0.0.0'})).status,'failed','wrong version fails');
+eq(P.canvasCheck(()=>file,()=>({createCanvas:()=>({getContext:()=>({})})})).status,'failed','incomplete Canvas API fails');
+eq(P.canvasCheck(()=>file,()=>{throw Object.assign(Error('missing platform binding'),{code:'MODULE_NOT_FOUND'});}).status,'unavailable','missing native binding unavailable');
+const selected=P.selectScripts(),scripts=P.indexScripts();eq(selected.length,new Set(selected).size,'no duplicate bootstrap modules');
+ok(selected.every((f,i)=>!i||scripts.indexOf(selected[i-1])<scripts.indexOf(f)),'shipping script order');
+for(const file of P.manifest.lateRequired){ok(selected.includes(file),'late owner '+file);const m=structuredClone(P.manifest);m.renderModules=m.renderModules.filter(f=>f!==file);checks++;A.throws(()=>P.selectScripts(scripts,m),/omitted|Unreviewed/,'omitted current owner rejected');}
+for(const file of Object.keys(P.manifest.excludedDrawModules))ok(!selected.includes(file),'browser-only inspector excluded '+file);
+checks++;A.throws(()=>P.selectScripts(scripts.filter(f=>f!=='sprites.js')),/missing/,'missing native module fails');
+checks++;A.throws(()=>P.selectScripts([...scripts].reverse()),/boundaries/,'invalid boundaries fail');
+const m=structuredClone(P.manifest);m.renderModules.push(m.renderModules[0]);checks++;A.throws(()=>P.selectScripts(scripts,m),/Duplicate/,'duplicate execution rejected');
+const{hpReceipt}=require('../tools/fighter-render/receipts.cjs');
+eq(hpReceipt({group:'shared',move:'powerbomb'},{heroHP:105,opponentHP:40},{heroHP:32,opponentHP:40}).primaryVictimHPLoss,73,'enemy-owned throw uses actual hero baseline');
+eq(hpReceipt({group:'forest',move:'combo'},{heroHP:120,opponentHP:60},{heroHP:120,opponentHP:30}).primaryVictimHPLoss,30,'hero-owned throw uses actual target baseline');
+console.log('PASS fighter render prerequisites '+checks+' checks; pin/API, unavailable states, owner coverage/order and exclusions');

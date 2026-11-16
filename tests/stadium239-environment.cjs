@@ -1,0 +1,4 @@
+const assert=require('assert/strict'),{N,H,run,sb}=require('./stadium239-fixture.cjs');
+const fs=require('fs'),vm=require('vm');for(const f of ['environment217.js','environment218.js'])vm.runInContext(fs.readFileSync('dist/'+f,'utf8'),sb);
+for(let k=0;k<9;k++){const g=new N.Brawler();g.selectHero('forest');H.start(g,k);const env=g.environment156;env.setOverride({weather:'heavySnow',temperatureF:22,windMph:24,hour:23});const old=env.elapsed;run(g,.5);assert.equal(g.environment156,env);assert(env.elapsed>old);assert(env.effective().snow>0);const id=env;g.camera=Math.max(0,g.zoneDefinition.end-960);run(g,.2);assert.equal(g.environment156,id);assert(env.effective().temperatureF<32);}
+console.log('PASS239 nine stadium sections retain the authoritative environment during camera/encounter ticks, cold snow and wind; no duplicate weather state');

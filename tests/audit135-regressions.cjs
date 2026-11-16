@@ -1,0 +1,5 @@
+// Run established focused suites against the complete current combat chain in isolated processes.
+const fs=require('fs'),path=require('path'),{spawnSync}=require('child_process');
+const suites=['combat134','charge130','reina-counters130','weapon-counters122','bruno130','grip124','reap-recovery119','forest-counters127','companion126','combo-confirm129','reina-german123','nova-ddt116','combat-controller134','uptown-controller129','startup133'];
+for(const name of suites){const file=path.resolve('tests',name+'.test.cjs'),code=fs.readFileSync(file,'utf8').replace(/scripts\.indexOf\('[^']+'\)/g,`scripts.indexOf('${process.env.COMBAT_CUTOFF||"audit135.js"}')`);const script=`const Module=require('module');const m=new Module(${JSON.stringify(file)});m.filename=${JSON.stringify(file)};m.paths=Module._nodeModulePaths(${JSON.stringify(path.dirname(file))});m._compile(${JSON.stringify(code)},m.filename);`;const r=spawnSync(process.execPath,['-e',script],{encoding:'utf8'});process.stdout.write(r.stdout);process.stderr.write(r.stderr);if(r.status!==0)process.exit(r.status||1);}
+console.log('PASS135 full-chain regression suites:',suites.length);

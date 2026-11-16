@@ -1,0 +1,50 @@
+[
+  [
+    "spawnSection(g);return true;}",
+    "spawnSection(g);r.HospitalMission315?.begin(g);return true;}"
+  ],
+  [
+    "g.event('zone',{name:d.name});}",
+    "g.event('zone',{name:d.name});r.HospitalMission315?.enter(g);}"
+  ],
+  [
+    "function ready(g){return active(g)&&",
+    "function ready(g){return active(g)&&!r.HospitalMission315?.blocked(g)&&"
+  ],
+  [
+    "function portals(g,includeLocked=false){",
+    "function basePortals(g,includeLocked=false){"
+  ],
+  [
+    "function openMenu(g,kind){",
+    "function portals(g,includeLocked=false){const q=basePortals(g,includeLocked);return r.HospitalMission315?.portals(g,q,includeLocked)??q;}\nfunction openMenu(g,kind){"
+  ],
+  [
+    "g.hospital314.menu={kind,index:0,options,lastDirection:",
+    "r.HospitalMission315?.directory(g,options);g.hospital314.menu={kind,index:0,options,lastDirection:"
+  ],
+  [
+    "if(destination<0)return false;saveRoom(g);",
+    "if(destination<0)return false;if(r.HospitalMission315?.canTravel(g,levels[destination])===false)return false;saveRoom(g);"
+  ],
+  [
+    "function status(g){if(!active(g))return'';",
+    "function status(g){if(!active(g))return'';const mission=r.HospitalMission315?.status(g);if(mission)return mission;"
+  ],
+  [
+    "function ready(g){return active(g)&&",
+    "function ready(g){if(r.HospitalMission315?.freeNavigation(g))return true;return active(g)&&"
+  ],
+  [
+    "function activate(g,q){if(!ready(g)",
+    "function activate(g,q){if(r.HospitalMission315?.exit(g,q))return true;if(!ready(g)"
+  ],
+  [
+    "||!g.zoneClear||g.enemiesRemaining||L.active(g))return false;if(fromMenu)",
+    "||!r.HospitalMission315?.freeNavigation(g)&&(!g.zoneClear||g.enemiesRemaining||L.active(g)))return false;if(fromMenu)"
+  ],
+  [
+    "coordinate:'distance',mode:plans[k].length?'adaptive':'endpoint'",
+    "coordinate:'distance',suspend:g=>r.HospitalMission315?.state(g)?.phase==='failed',mode:plans[k].length?'adaptive':'endpoint'"
+  ]
+]

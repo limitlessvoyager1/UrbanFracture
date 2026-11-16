@@ -1,0 +1,4 @@
+const {load}=require('../tools/qa242/runtime.cjs'),f=load(294);const{N}=f,H=N.Subway238;f.run=(g,s,input={},hz=60)=>{for(let i=0;i<Math.ceil(s*hz);i++)g.tick(1/hz,input);};f.defeat=g=>{for(const e of g.enemies)if(e.hp>0&&!e.dormant){e.inv=e.wakeInv=0;g.damage(e,999999,1,true,{attacker:g.player,force:true,ground:true,stageHazard:true});}};
+function make(hero='reina',k=0){const g=new N.Brawler();g.selectHero(hero);H.start(g,k);g.player.hp=g.player.maxHp=10000;return g;}
+function clear(g,hz=60){for(let i=0;i<20000;i++){f.defeat(g);g.player.inv=10;g.tick(1/hz,{right:!!g.pending.length&&!N.LockedBattles222.active(g)});if(g.transition)throw Error('unexpected transition '+H.section(g));if(g.zoneClear&&!N.LockedBattles222.active(g)&&g.settledDefeats()&&H.actionable(g))return;}throw Error('not clear '+H.section(g)+' '+JSON.stringify(N.Audit135.report(g).subway238));}
+module.exports={...f,H,make,clear};

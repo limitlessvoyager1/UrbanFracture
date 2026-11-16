@@ -1,0 +1,2 @@
+// Reverse only the exact Gate9 adapters before historical source-byte proofs.
+'use strict';const patches=require('./patches.json');function approved(file,source){source=require('../recording313/approved.cjs').approved(file,source);source=require('../../tests/recording306-approved.cjs').approved(file,source);for(const p of patches[file]||[]){const n=source.split(p.after).length-1;if(n!==1)throw Error('Gate9 proof adapter missing/duplicated: '+file);source=source.replace(p.after,p.before);}return source;}module.exports={approved};

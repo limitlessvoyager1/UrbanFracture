@@ -1,0 +1,224 @@
+[
+  {
+    "file": "core.js",
+    "old": "if(p.hp<=18){this.fx(p.x,p.y-112,'NEED 19 HP'",
+    "new": "if((globalThis.NeonCombat?.Energy316?!globalThis.NeonCombat.Energy316.can(this,'grab'):p.hp<=18)){this.fx(p.x,p.y-112,'INSUFFICIENT ENERGY / HP'",
+    "count": 1
+  },
+  {
+    "file": "core.js",
+    "old": "p.hp-=18;p.specialCd=1.2;const $22",
+    "new": "(globalThis.NeonCombat?.Energy316?globalThis.NeonCombat.Energy316.pay(this,'grab','grabSword'):(p.hp-=18));p.specialCd=1.2;const $22",
+    "count": 1
+  },
+  {
+    "file": "core.js",
+    "old": "if(p.hp<=$28){this.fx(p.x,p.y-112,'NEED '+($28+1)+' HP'",
+    "new": "if((globalThis.NeonCombat?.Energy316?!globalThis.NeonCombat.Energy316.can(this,$57?'powerful':'standard'):p.hp<=$28)){this.fx(p.x,p.y-112,'INSUFFICIENT ENERGY / HP'",
+    "count": 1
+  },
+  {
+    "file": "core.js",
+    "old": "p.hp-=$28;p.specialCd=1.2;const $1=p.jump",
+    "new": "(globalThis.NeonCombat?.Energy316?globalThis.NeonCombat.Energy316.pay(this,$57?'powerful':'standard',p.jump?'airSword':$57?'dashSword':'sword'):(p.hp-=$28));p.specialCd=1.2;const $1=p.jump",
+    "count": 1
+  },
+  {
+    "file": "unique311.js",
+    "old": "p.hp<=C.airCost",
+    "new": "(globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,'standard'):p.hp<=C.airCost)",
+    "count": 1
+  },
+  {
+    "file": "unique311.js",
+    "old": "p.hp-=C.airCost;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'standard','swordWheel311'):(p.hp-=C.airCost));",
+    "count": 1
+  },
+  {
+    "file": "forest125.js",
+    "old": "p.specialCd>0||p.hp<=cost",
+    "new": "p.specialCd>0||(globalThis.NeonCombat?.Energy316?!N.Energy316.can(this,'grab'):p.hp<=cost)",
+    "count": 1
+  },
+  {
+    "file": "forest125.js",
+    "old": "p.hp-=cost;p.specialCd=1.2;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(this,'grab','forestGrabSpecial125'):(p.hp-=cost));p.specialCd=1.2;",
+    "count": 1
+  },
+  {
+    "file": "forest125.js",
+    "old": "if(p.hp<=cost){this.fx(p.x,p.y-120,'NEED '+(cost+1)+' HP'",
+    "new": "if((globalThis.NeonCombat?.Energy316?!N.Energy316.can(this,forward?'powerful':'standard'):p.hp<=cost)){this.fx(p.x,p.y-120,'INSUFFICIENT ENERGY / HP'",
+    "count": 1
+  },
+  {
+    "file": "forest125.js",
+    "old": "p.hp-=cost;p.specialCd=1.5;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(this,forward?'powerful':'standard',kind):(p.hp-=cost));p.specialCd=1.5;",
+    "count": 1
+  },
+  {
+    "file": "forest-grapples177.js",
+    "old": "p.hp<=F.config.cost.grabSpecial",
+    "new": "(globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,'grab'):p.hp<=F.config.cost.grabSpecial)",
+    "count": 1
+  },
+  {
+    "file": "forest-grapples177.js",
+    "old": "p.hp-=F.config.cost.grabSpecial;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'grab','forestGrapple177.special'):(p.hp-=F.config.cost.grabSpecial));",
+    "count": 1
+  },
+  {
+    "file": "nova128.js",
+    "old": "if(p.hp<=C.cost){g.fx(p.x,p.y-125,'NEED '+(C.cost+1)+' HP'",
+    "new": "if((globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,'grab'):p.hp<=C.cost)){g.fx(p.x,p.y-125,'INSUFFICIENT ENERGY / HP'",
+    "count": 1
+  },
+  {
+    "file": "nova128.js",
+    "old": "p.hp-=C.cost;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'grab','novaExploding128'):(p.hp-=C.cost));",
+    "count": 1
+  },
+  {
+    "file": "nova77.js",
+    "old": "if(p.hp<=18){this.fx(p.x,p.y-112,'NEED 19 HP'",
+    "new": "if((globalThis.NeonCombat?.Energy316?!NeonCombat.Energy316.can(this,'grab'):p.hp<=18)){this.fx(p.x,p.y-112,'INSUFFICIENT ENERGY / HP'",
+    "count": 1
+  },
+  {
+    "file": "nova77.js",
+    "old": "p.hp-=18;",
+    "new": "(globalThis.NeonCombat?.Energy316?NeonCombat.Energy316.pay(this,'grab','novaTrampoline'):(p.hp-=18));",
+    "count": 1
+  },
+  {
+    "file": "broxton179.js",
+    "old": "p.hp<=23||p.specialCd>0",
+    "new": "(globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,'grab'):p.hp<=23)||p.specialCd>0",
+    "count": 1
+  },
+  {
+    "file": "broxton179.js",
+    "old": "p.hp-=23;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'grab','broxtonChoke179'):(p.hp-=23));",
+    "count": 1
+  },
+  {
+    "file": "niko185.js",
+    "old": "p.hp<=18||p.specialCd>0",
+    "new": "(globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,'grab'):p.hp<=18)||p.specialCd>0",
+    "count": 1
+  },
+  {
+    "file": "niko185.js",
+    "old": "p.hp-=18;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'grab','nikoPair185.special'):(p.hp-=18));",
+    "count": 1
+  },
+  {
+    "file": "niko185.js",
+    "old": "if(p.hp<=16)return false;",
+    "new": "if((globalThis.NeonCombat?.Energy316?!N.Energy316.can(this,'powerful'):p.hp<=16))return false;",
+    "count": 1
+  },
+  {
+    "file": "niko185.js",
+    "old": "p.hp-=16;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(this,'powerful','nikoDashCounter185'):(p.hp-=16));",
+    "count": 1
+  },
+  {
+    "file": "niko185.js",
+    "old": "!left||!right||p.hp<=12",
+    "new": "!left||!right||(globalThis.NeonCombat?.Energy316?!N.Energy316.can(this,'standard'):p.hp<=12)",
+    "count": 1
+  },
+  {
+    "file": "niko185.js",
+    "old": "p.hp-=12;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(this,'standard','nikoHeadbutt185'):(p.hp-=12));",
+    "count": 1
+  },
+  {
+    "file": "orion-special205.js",
+    "old": "if(p.hp<=cost)return false;",
+    "new": "if((globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,forward?'powerful':'standard'):p.hp<=cost))return false;",
+    "count": 1
+  },
+  {
+    "file": "orion-special205.js",
+    "old": "p.hp-=cost;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,forward?'powerful':'standard',forward?'laser':'current'):(p.hp-=cost));",
+    "count": 1
+  },
+  {
+    "file": "orion-special205.js",
+    "old": "p.specialCd>0||p.hp<=25",
+    "new": "p.specialCd>0||(globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,'grab'):p.hp<=25)",
+    "count": 1
+  },
+  {
+    "file": "orion-special205.js",
+    "old": "p.hp-=25;",
+    "new": "(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'grab','ascension'):(p.hp-=25));",
+    "count": 1
+  },
+  {
+    "file": "orion-special205.js",
+    "old": "p.defense=p.maxDefense;p.defenseDelay=0;",
+    "new": "if(N.Energy316)N.Energy316.change(g,p.maxDefense-p.defense,'once-per-life System Repair');else p.defense=p.maxDefense;p.defenseDelay=0;",
+    "count": 1
+  },
+  {
+    "file": "nightshade-special263.js",
+    "old": "d.cost&&p.hp<=d.cost",
+    "new": "d.cost&&(globalThis.NeonCombat?.Energy316?!N.Energy316.can(g,kind==='explosive'?'grab':kind==='barrage'?'powerful':'standard'):p.hp<=d.cost)",
+    "count": 1
+  },
+  {
+    "file": "nightshade-special263.js",
+    "old": "if(d.cost)p.hp-=d.cost;",
+    "new": "if(d.cost)(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,kind==='explosive'?'grab':kind==='barrage'?'powerful':'standard',kind):(p.hp-=d.cost));",
+    "count": 1
+  },
+  {
+    "file": "counters248.js",
+    "old": "if(special&&!canSpecial(g,a))return false;",
+    "new": "if(special&&(!canSpecial(g,a)||!N.Energy316.can(g,'powerful')))return false;",
+    "count": 1
+  },
+  {
+    "file": "counters248.js",
+    "old": "if(special)p.hp=Math.max(1,p.hp-p.maxHp*.08);",
+    "new": "if(special)(globalThis.NeonCombat?.Energy316?N.Energy316.pay(g,'powerful','counterMove248.special'):(p.hp=Math.max(1,p.hp-p.maxHp*.08)));",
+    "count": 1
+  },
+  {
+    "file": "reina279.js",
+    "old": "delay<=C.specialBuffer&&p.hp>12",
+    "new": "delay<=C.specialBuffer&&(N.Energy316?N.Energy316.can(this,'standard'):p.hp>12)",
+    "count": 1
+  },
+  {
+    "file": "counters248.js",
+    "old": "(!canSpecial(g,a)||!N.Energy316.can(g,'powerful'))",
+    "new": "(!canSpecial(g,a)||N.Energy316&&!N.Energy316.can(g,'powerful'))",
+    "count": 1
+  },
+  {
+    "file": "core.js",
+    "old": "for(const $18 of this.items){if(!$18.gone&&$8.NeonCombat.NightshadeAmmo256?.isAmmo($18))",
+    "new": "for(const $18 of this.items){if($8.NeonCombat.Energy316?.isPickup($18)){if(!$18.gone&&!$18.falling177&&!$18.carriedByGunner126&&Math.abs($18.x-p.x)<24&&Math.abs($18.y-p.y)<19)$8.NeonCombat.Energy316.collect(this,$18);continue;}if(!$18.gone&&$8.NeonCombat.NightshadeAmmo256?.isAmmo($18))",
+    "count": 1
+  },
+  {
+    "file": "game.js",
+    "old": "for(const it of game.items){if(globalThis.NightshadeAmmoView256?.item(ctx,game,it))continue;",
+    "new": "for(const it of game.items){if(globalThis.EnergyView316?.item(ctx,game,it))continue;if(globalThis.NightshadeAmmoView256?.item(ctx,game,it))continue;",
+    "count": 1
+  }
+]

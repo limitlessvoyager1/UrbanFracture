@@ -1,0 +1,1 @@
+const A=require('assert/strict');function approved(file,s){s=require('../feds316/approved.cjs').approved(file,s);if(file==='game.js')for(const[old,next]of require('./game-patches.json')){const n=s.split(next).length-1;A.ok(n<=1,'exact mission315 source patch');if(n)s=s.replace(next,old);}return s;}module.exports={approved};

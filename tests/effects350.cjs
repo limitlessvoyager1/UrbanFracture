@@ -1,0 +1,8 @@
+'use strict';const fs=require('fs'),A=require('assert/strict'),{fixture,draw}=require('../tools/flint350/render.cjs');let checks=0;const ok=(x,m)=>{checks++;A.ok(x,m)},timer=setInterval(()=>{},1000);
+(async()=>{fs.mkdirSync('reports350/missile',{recursive:true});const rows=[];
+for(const dir of [-1,1]){const f=await fixture('thug',dir),{g,N,p,e}=f;p.hold={victim:e,rear:false,age:.3};e.heldBy=p;ok(g.holdAction('attack',{[dir===1?'left':'right']:true}),'native front-away starts');const impacts=[],damage=g.damage;
+g.damage=function(v,n,d,k,o={}){const out=damage.call(this,v,n,d,k,o);if(o.damageEvent169==='throw345-missile')impacts.push({accepted:out,vector:o.missileVector350,vx:v.flight?.vx,heroFacing:p.dir,at:this.time});return out;};
+let frames=new Set();for(let i=0;i<150;i++){const canvas=draw(f);if(dir===1)fs.writeFileSync('reports350/missile/'+String(i).padStart(4,'0')+'.jpg',canvas.toBuffer('image/jpeg',90));if(g.explosionRender350)frames.add(g.explosionRender350.frame);g.tick(1/60,{});if(N.Nightshade345.missiles(g).length)p.dir=-dir;}
+ok(impacts.length===1,'one missile receipt');ok(impacts[0].accepted,'actual accepted damage');ok(Math.sign(impacts[0].vx)===Math.sign(impacts[0].vector.x),'knockback follows actual missile vector');ok(frames.size===8,'all eight explosion phases drawn');ok(e.hp<980,'throw and missile both damage');ok(!g.explosions349.length,'effect expires');rows.push({dir,impacts});}
+fs.writeFileSync('reports350/effects-tests.json',JSON.stringify({pass:true,checks,rows},null,2));console.log('PASS Effects350',checks);
+})().catch(e=>{console.error(e);process.exitCode=1}).finally(()=>clearInterval(timer));

@@ -1,0 +1,5 @@
+const fs=require('fs'),vm=require('vm'),f=require('./prison224-fixture.cjs');vm.runInContext(fs.readFileSync('dist/docks231.js','utf8'),f.sb,{filename:'docks231'});const {N}=f,H=N.Docks231;
+function make(hero='reina',k=0){const g=new N.Brawler();g.selectHero(hero);H.start(g,k);g.player.hp=g.player.maxHp=10000;return g;}
+function clear(g){for(let i=0;i<16000;i++){f.defeat(g);g.player.inv=10;const k=H.section(g),back=g.zoneDefinition.reverse,input=g.pending.length&&!N.LockedBattles222.active(g)?{[back?'left':'right']:true}:{};g.tick(1/60,input);if(g.transition)throw Error('unexpected transition '+k);if(g.zoneClear&&!N.LockedBattles222.active(g)&&g.settledDefeats())return;}throw Error('not clear '+g.zoneDefinition.name+' '+JSON.stringify({pending:g.pending,progress:g.docks231.progress,actors:g.enemies.map(e=>({hp:e.hp,type:e.type,entry:e.entry,down:e.down,dormant:e.dormant}))}));}
+function travel(g,to){if(!H.travel(g,to))throw Error('no portal '+H.section(g)+'→'+to+' '+JSON.stringify(H.portals(g)));f.run(g,1.3);}
+module.exports={...f,H,make,clear,travel};

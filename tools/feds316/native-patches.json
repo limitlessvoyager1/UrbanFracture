@@ -1,0 +1,32 @@
+{
+  "dist/index.html": [
+    [
+      "<script src=\"woods139.js",
+      "<script src=\"pcbi-combat316.js?v=316\"></script><script src=\"woods139.js"
+    ]
+  ],
+  "dist/director148.js": [
+    [
+      "function category(e,n,o={}){",
+      "function category(e,n,o={}){if(o.pcbi316)return o.category316==='none'?'light':o.category316;"
+    ],
+    [
+      "function times(e,n,at,o={}){",
+      "function times(e,n,at,o={}){if(o.pcbi316)return o.times316||[];"
+    ],
+    [
+      "ranged=n=>/gunFire|knifeThrow|taserShot|leroyGrenade102/.test(n)",
+      "ranged=n=>/gunFire|pcbiGun316|knifeThrow|taserShot|leroyGrenade102/.test(n)"
+    ]
+  ],
+  "dist/core.js": [
+    [
+      "&&!opts.attacker.act?.stepHook)$19",
+      "&&!opts.attacker.act?.stepHook&&!opts.pcbi316)$19"
+    ],
+    [
+      "for(const k of this.projectiles){k.x+=",
+      "for(const k of this.projectiles){if(k.pcbi316){$8.NeonCombat.PCBI316.advanceBullet(this,k,dt);continue;}k.x+="
+    ]
+  ]
+}

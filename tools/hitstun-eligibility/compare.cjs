@@ -1,0 +1,22 @@
+'use strict';
+// Review-only comparison against this repair's real, recorded starting commit.
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process'),A=require('node:assert/strict');
+const baselineCommit='3ee2b86e37f581bb0087d108293fb2cc6eadc586',git=process.env.UF_GIT||'git';
+const before=cp.execFileSync(git,['show',baselineCommit+':dist/reactions298.js']);
+const runtime=fs.readFileSync('tools/qa242/runtime.cjs','utf8'),moduleBefore={exports:{}};
+const proxyFs={...fs,readFileSync(file,options){if(String(file).replaceAll('\\','/').endsWith('dist/reactions298.js'))return typeof options==='string'?before.toString(options):options?.encoding?before.toString(options.encoding):before;return fs.readFileSync(file,options);}};
+new Function('require','module','exports',runtime)(id=>id==='node:fs'?proxyFs:require(id),moduleBefore,moduleBefore.exports);
+const old=moduleBefore.exports.load(338).N,now=require('../qa242/runtime.cjs').load(338).N;
+const types=['thug','knifeThug','enforcer','biker','cop','flint','sato','akari'];
+function setup(N,type,hero='reina'){const g=new N.Brawler();g.selectHero(hero);g.playing=true;g.ai=g.reinforce=()=>{};g.pending=[];g.props=[];g.items=[];g.enemies=[];g.encounters222Enabled=false;g.encounter222=null;Object.assign(g.player,{x:400,y:480,dir:1,inv:0,cd:0});const e=N.actor(type,460,480);Object.assign(e,{dir:-1,inv:0,wakeInv:0,wakeArmor:0,activeAt:0,cd:0});g.enemies=[e];return{g,e};}
+function physical(g,e){return[e.hp,e.maxHp,e.stun,e.shock,e.inv,e.wakeInv,e.wakeArmor,e.cd,e.recovering,e.standingLock,e.down,e.downAge,e.downTotal,e.landed,e.x,e.y,e.reassessUntil274,e.reaction274?.duration,e.reaction274?.until,e.reaction274?.reassessUntil,g.player.hp,g.player.defense];}
+let damageCases=0;for(const hero of ['reina','broxton','nova','forest','niko','orion','nightshade'])for(const type of types)for(const force of [false,true]){
+ const a=setup(old,type,hero),b=setup(now,type,hero);for(const q of[a,b])q.g.damage(q.e,4,1,false,{attacker:q.g.player,...(force?{force:true}:{})});
+ for(let frame=0;frame<61;frame++){A.equal(JSON.stringify(physical(a.g,a.e)),JSON.stringify(physical(b.g,b.e)),'damage/timer trajectory '+[hero,type,force,frame]);a.g.tick(1/60,{});b.g.tick(1/60,{});}damageCases++;
+}
+const moves={thug:'marcusCombo',knifeThug:'knife',enforcer:'hook',biker:'chainLash',cop:'batonCombo',flint:'flintWild',sato:'martialCombo',akari:'martialCombo'},moveRows=[];
+for(const type of types){const actions=[];for(const N of[old,now]){const{g,e}=setup(N,type);g.enemyAct(e,moves[type],1,.3);A(e.act,'native move starts '+type);actions.push(Object.fromEntries(['name','total','hitAt','damage','reach','active','knock','antiAir','times209','times210','times212'].map(k=>[k,e.act[k]])));}A.equal(JSON.stringify(actions[0]),JSON.stringify(actions[1]),'native move data unchanged '+type);moveRows.push({type,move:moves[type],unchanged:true,data:actions[1]});}
+const knockdown=[];for(const type of types)for(const phase of['fall','ground','rise','standing-recovery'])for(const method of['start','enemyAct']){const rows=[];for(const N of[old,now]){const{g,e}=setup(N,type);g.damage(e,10,1,true,{attacker:g.player});if(phase==='ground')while(e.downAge<.4)g.tick(1/60,{});if(phase==='rise')while(e.downAge<e.downTotal-.25)g.tick(1/60,{});if(phase==='standing-recovery')while(e.down)g.tick(1/60,{});g[method](e,'hook',1,.3,{damage:7});rows.push({physical:physical(g,e),action:e.act?.name||null});}A.equal(JSON.stringify(rows[0]),JSON.stringify(rows[1]),'knockdown admission intentionally unchanged '+[type,phase,method]);knockdown.push({type,phase,method,unchanged:true,offenseCreated:!!rows[1].action});}
+const source=fs.readFileSync('dist/reactions298.js','utf8'),prior=before.toString(),damage=s=>s.slice(s.indexOf('const damage=P.damage'),s.indexOf('function reject('));A.equal(damage(source),damage(prior),'damage processing bytes unchanged');
+const result={baselineCommit,damageProcessingBytesUnchanged:true,physicalDamageTimerTrajectoriesUnchanged:damageCases,framesComparedPerCase:61,nativeMovesUnchanged:moveRows,knockdownAdmissionParity:knockdown,knownKnockdownStartFailuresStillPresent:knockdown.filter(q=>q.offenseCreated).length};
+fs.mkdirSync('reports-hitstun',{recursive:true});fs.writeFileSync('reports-hitstun/baseline-parity.json',JSON.stringify(result,null,2));console.log('PASS parity:',damageCases,'damage/timer cases, 8 native move definitions, 64 knockdown admissions unchanged; damage processing bytes identical');

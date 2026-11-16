@@ -1,0 +1,10 @@
+const assert=require('assert/strict'),{N,H,make,run,defeat,clear}=require('./docks231-fixture.cjs');
+// Shipping shortcut is usable after the first admitted encounter, before the lower waterfront rows.
+const g=make();for(let i=0;i<6000&&!(g.encounter222.completed>=1);i++){defeat(g);g.player.inv=10;g.tick(1/60,{});}run(g,2);assert(g.pending.length>0);assert(!g.zoneClear);assert(H.portals(g).some(q=>q.to===2));assert(H.travel(g,2));run(g,1.3);assert.equal(H.section(g),2);
+// Actual yacht clear lifecycle advances to the docks without resetting the hero/world or emitting victory.
+const yacht=new N.Brawler();yacht.selectHero('nova');N.Yacht195.start(yacht,1);const p=yacht.player,env=yacht.environment156;yacht.pending=[];yacht.yachtFight195.phase='complete';yacht.startLevelClear(1,{finish:true});run(yacht,5);assert(H.active(yacht));assert.equal(H.section(yacht),0);assert.equal(yacht.player,p);assert.equal(yacht.environment156,env);assert(yacht.playing&&!yacht.won);assert(!yacht.events.some(e=>e.type==='victory'));
+// Configured hazards suspend NEW encounter scheduling only, and cannot start inside an active lock.
+const h=make('orion',2);h.docks231.progress=900;const first=h.encounter222.groups[0];N.LockedBattles222.open(h,first);H.hazard(h,1);assert(!h.docks231.forklift);h.encounter222.active=null;h.enemies=[];h.pending=[];h.player.act=null;h.player.inv=0;H.hazard(h,0);assert(h.docks231.forklift);assert(N.LockedBattles222.suspended(h));assert(!H.portals(h).length);
+// Container drop is a finite visible descent using the same native actor, then ordinary admission resumes.
+const c=make('reina',7);for(let i=0;i<180&&!c.enemies.some(e=>e.docksJump231);i++)c.tick(1/60,{});const e=c.enemies.find(e=>e.docksJump231);assert(e);const z=e.grappleZ;run(c,.3);assert(e.grappleZ<z&&e.grappleZ>0);run(c,1.2);assert(!e.docksJump231&&!e.dormant);assert.equal(e.grappleZ,0);assert(c.enemies.includes(e));assert(c.encounter222.locks<=2);
+console.log('PASS231 early Shepard branch, real yacht continuation/no victory/reset, shared hazard suspension, native finite container jump/landing');
