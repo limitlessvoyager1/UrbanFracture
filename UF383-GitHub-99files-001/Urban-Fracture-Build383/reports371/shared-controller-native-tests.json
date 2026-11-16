@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "checks": 156118,
+  "selections": 40000,
+  "cutterCalls": 4030,
+  "cutterRate": 0.10075,
+  "counts": {
+    "bruiser": 18570,
+    "gunner": 20443,
+    "enforcer": 18577,
+    "hammer": 18380,
+    "cutter": 4030
+  },
+  "tactical": {
+    "thug": {
+      "context": {
+        "melee": 5,
+        "ranged": 0,
+        "heavy": 0,
+        "aggressive": 0,
+        "outsideGrab": 5,
+        "crowded": 2,
+        "count": 5
+      },
+      "scores": {
+        "bruiser": 6.1,
+        "gunner": 2,
+        "hammer": 5,
+        "enforcer": 6.5,
+        "cutter": 1
+      }
+    },
+    "cop": {
+      "context": {
+        "melee": 0,
+        "ranged": 5,
+        "heavy": 0,
+        "aggressive": 0,
+        "outsideGrab": 5,
+        "crowded": 2,
+        "count": 5
+      },
+      "scores": {
+        "bruiser": 2.6,
+        "gunner": 10.5,
+        "hammer": 2,
+        "enforcer": 6.5,
+        "cutter": 1
+      }
+    },
+    "biker": {
+      "context": {
+        "melee": 5,
+        "ranged": 0,
+        "heavy": 0,
+        "aggressive": 5,
+        "outsideGrab": 5,
+        "crowded": 2,
+        "count": 5
+      },
+      "scores": {
+        "bruiser": 6.1,
+        "gunner": 2,
+        "hammer": 12,
+        "enforcer": 6.5,
+        "cutter": 1
+      }
+    },
+    "enforcer": {
+      "context": {
+        "melee": 5,
+        "ranged": 0,
+        "heavy": 5,
+        "aggressive": 0,
+        "outsideGrab": 5,
+        "crowded": 2,
+        "count": 5
+      },
+      "scores": {
+        "bruiser": 10.6,
+        "gunner": 2,
+        "hammer": 5,
+        "enforcer": 11,
+        "cutter": 1
+      }
+    }
+  },
+  "nativeTestMs": 2515.619005,
+  "limitations": [
+    "Temporary test moves/art only; no production role providers",
+    "No hostile target diversification until assignment6",
+    "No browser FPS or physical DualSense verification"
+  ]
+}
