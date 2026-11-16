@@ -1,0 +1,33 @@
+name: Startup artwork and controller regression
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'dist/game.js'
+      - 'dist/index.html'
+      - 'tests/startup-readiness.cjs'
+      - 'tests/controller-current-seven-heroes.cjs'
+      - '.github/workflows/startup-readiness.yml'
+permissions:
+  contents: read
+jobs:
+  startup:
+    name: Current startup and seven-hero controls
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - name: All startup failure paths and healthy startup
+        run: node --test tests/startup-readiness.cjs
+      - name: Native simulated controller regression
+        run: |
+          node tests/gamepad.test.cjs
+          node tests/controller157.cjs
+          node tests/qa242-controller-charge.cjs
+          node tests/controller-current-seven-heroes.cjs

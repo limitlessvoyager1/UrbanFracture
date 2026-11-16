@@ -1,0 +1,11 @@
+# Startup artwork failure handling
+
+Current shipping startup previously inspected only results[0] from its asset/readiness batch, then unconditionally set ready=true and enabled Play. A failure in a later base image, a false nested renderer result or a rejected readiness promise could silently enable broken startup or leave an unhandled rejection with no usable retry message.
+
+The repair examines every nested readiness result for an explicit false. Any explicit failure or rejected readiness keeps ready=false and Play disabled, reveals the existing reload banner and announces a simple retry message through the existing status region. Healthy loading and absent optional renderer modules retain their normal behavior. The banner now says Game artwork rather than Stage artwork because hero and renderer loading are covered too. No combat timings, inputs, damage, physics or art assets change.
+
+Regression proof on baseline0d541de48047456e2c7efffbbae788bd2bae6e3b:74 startup cases,2 passed and72 failed. After repair:74/74 passed. Cases cover every base asset slot, each readiness dependency's false/nested-false/rejected outcomes, pending load, healthy nested load and absent optional modules. The test executes the actual game.js startup block in an isolated VM with controlled image/readiness failures; it is not a full-browser or artistic certificate.
+
+Focused controller checks retain the current gamepad suite, controller157, existing60 charge cases and a new105-case seven-hero matrix. The new matrix follows the current simulation load order/boundary (including environment217/218 and stabilization241), then loads the native gamepad/game shell. It verifies actual selected hero, independent approved thresholds, immediate attack, before/at/after readiness, one cue and release semantics. It is simulated standard/raw Sony/DSX evidence, not physical hardware approval.
+
+The separate focused workflow supplies hosted regression results for this production change. Full QA242 remains authoritative for certification; immutable historical gaps and current-import source guards may block it after a production-tree change. No gate is waived and no certification/owner approval is inferred. PR13 remains a separate QA-only proposal with unchanged source/evidence binding.
