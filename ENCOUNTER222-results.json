@@ -1,0 +1,89 @@
+{
+  "build": 222,
+  "checkpoint": "8494527778aec2fabeef4844aac37669598e1434",
+  "verified_pilot_commit": "a58e9c6",
+  "checkpoint_configurations": 76,
+  "ordinary_sections": 64,
+  "pilot_heroes": 6,
+  "pilot_update_rates": [
+    30,
+    60,
+    120
+  ],
+  "mixed_runs": 18,
+  "mixed_seconds_each": 15,
+  "normal_threat_budget": 3,
+  "normal_max_commitments": 2,
+  "max_locks_including_scripted": 2,
+  "results": [
+    {
+      "suite": "contracts222",
+      "status": "passed",
+      "last_assertion": "PASS222 same-object restoration after legacy culling and bounded detour around persistent solid wrecks"
+    },
+    {
+      "suite": "scripts222",
+      "status": "passed",
+      "last_assertion": "PASS222 pool/yacht/Riverfront reserved finales, original boss phases, two-lock cap and physical return without native enemy clamping"
+    },
+    {
+      "suite": "rollout222",
+      "status": "passed",
+      "last_assertion": "PASS222 native finite-wave progression and lock completion across 64 ordinary sections"
+    },
+    {
+      "suite": "mixed222",
+      "status": "passed",
+      "last_assertion": "PASS222 eighteen15s mixed encounters, six heroes \u00d7Gus/Aidan/Security with Jesse/Marcus, 204 attack commitments, native3/2 limits, visibility and unique actor identities"
+    },
+    {
+      "suite": "current150-222",
+      "status": "passed",
+      "last_assertion": "PASS150 current-contract regression entry point:26 suites, full current combat chain where supported; established character mechanics preserved"
+    },
+    {
+      "suite": "gamepad.test-222",
+      "status": "passed",
+      "last_assertion": "PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery"
+    },
+    {
+      "suite": "controller157-222",
+      "status": "passed",
+      "last_assertion": "PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override"
+    },
+    {
+      "suite": "environment218-222",
+      "status": "passed",
+      "last_assertion": "218 PASS: strict freezing gate, every time of day, snow statuses, accumulation/melt/save/seek, frame partition, natural cold seeds, wind and indoor exclusion"
+    },
+    {
+      "suite": "environment162-222",
+      "status": "passed",
+      "last_assertion": "PASS162 future indoor/outdoor metadata and ground-floor configuration automatically honored"
+    },
+    {
+      "suite": "environment-integration156-222",
+      "status": "passed",
+      "last_assertion": "PASS156 16 storm/clear grapple comparisons: all heroes, both facings and lanes, ordinary throws and grab specials, identical damage/attachment/recovery/positions"
+    },
+    {
+      "suite": "aidan221-222",
+      "status": "passed",
+      "last_assertion": "PASS221 six-hero knife contact, standing reaction, recovery gates, permanent disarm, interrupted reservation cleanup, progression and offscreen admission"
+    },
+    {
+      "suite": "gus219-222",
+      "status": "passed",
+      "last_assertion": "PASS219 bounded-arena admission/reentry preserves the same enemy and all combat state"
+    }
+  ],
+  "browser": [
+    "camera and GO lock",
+    "same tracked enemy returns after recovery",
+    "Tavern two110HP Aidans with support queue"
+  ],
+  "limits": [
+    "full human balance and physical scenery traversal not certified",
+    "physical DualSense/DSX hardware not tested"
+  ]
+}

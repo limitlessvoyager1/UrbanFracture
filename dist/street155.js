@@ -1,0 +1,9 @@
+
+(function(root){'use strict';const N=root.NeonCombat,P=N.Brawler.prototype,spawn=P.spawnZone,reinforce=P.reinforce,tick=P.tick;
+P.spawnZone=function(...a){const r=spawn.apply(this,a);this.riders155=[];if(this.uptown&&this.zone===0)for(const spec of this.pending)if(spec.type==='biker')spec.bike155=true;return r;};
+P.reinforce=function(...a){const spec=this.pending?.[0];if(!this.uptown||this.zone!==0||!spec?.bike155)return reinforce.apply(this,a);if(this.uptownFade||this.uptownEnd||this.player.x+650<spec.at||this.enemies.filter(e=>e.hp>0&&!e.fleeing).length>=3||this.time<this.nextUptownSpawn)return;if(!spec.rider155){const stop=Math.min(this.camera+800,Math.max(this.camera+420,this.player.x+260));const r={phase:'approach',spec,x:this.camera-300,stop,travel:0,t:0};spec.rider155=r;this.riders155.push(r);}};
+P.tick=function(dt,input={}){const result=tick.call(this,dt,input);if(!this.uptown||this.zone!==0||this.uptownFade||this.uptownEnd)return result;const step=Math.min(.04,dt);for(const r of this.riders155||[]){if(r.phase==='approach'){const d=Math.min(330*step,r.stop-r.x);r.x+=d;r.travel+=d;if(r.x>=r.stop){r.phase='jump';r.bikeX=r.x;r.t=0;const e=N.actor('biker',r.x,420);e.dir=this.player.x<r.x?-1:1;e.dormant=true;e.bikeEntry155=true;e.introZ=0;e.wetness=0;r.actor=e;r.toX=r.x-45;r.toY=475;this.enemies.push(e);const i=this.pending.indexOf(r.spec);if(i>=0)this.pending.splice(i,1);this.nextUptownSpawn=this.time+.85;this.event('motorcycleDismount155',{enemy:e.name});}}
+ else if(r.phase==='jump'){r.t+=step;const u=Math.min(1,r.t/.65),e=r.actor;e.prevX=e.x;e.prevY=e.y;e.x=r.bikeX+(r.toX-r.bikeX)*u;e.y=420+(r.toY-420)*u;e.introZ=50*Math.sin(Math.PI*u);e.walk=0;if(u===1){e.introZ=0;e.dormant=false;e.bikeEntry155=false;e.cd=.45;e.activeAt=this.time+.25;r.phase='landed';r.landedAt=this.time;this.event('motorcycleLanding155',{enemy:e.name});}}
+ }return result;};
+N.Street155={};
+})(typeof window!=='undefined'?window:globalThis);

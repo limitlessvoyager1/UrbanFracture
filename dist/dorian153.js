@@ -1,0 +1,17 @@
+
+(function(root){'use strict';const N=root.NeonCombat,P=N.Brawler.prototype,actor=N.actor,old={};for(const k of ['advanceDown','enemyHit','tick'])old[k]=P[k];const C={hp:135,speed:112,chaseSpeed:142,depthSpeed:82,cooldown:.30,wakeImmunity:1,wakeRange:82,wakeDamage:26,wakeStartup:.30,wakeTotal:.98,hookDamage:24,kickDamage:21,comboDamage:[14,18]};
+N.actor=function(type,...args){if(type!=='dorian')return actor(type,...args);const e=actor('enforcer',...args);Object.assign(e,{type:'dorian',name:'Dorian',dorian153:true,hp:C.hp,maxHp:C.hp,weapon:null,defense:0,maxDefense:0,wakeArmor:0,guarding:0});return e;};
+N.Sterling152.config.guards=['dorian','knifeThug'];if(N.Director148)N.Director148.config.profiles.dorian={range:108};
+function move(g,e,dt,speed){const p=g.player,dx=p.x-e.x,dy=p.y-e.y,mx=Math.abs(dx)>77?Math.sign(dx):0,my=Math.abs(dy)>6?Math.sign(dy):0,bx=e.x,by=e.y;e.x=N.clamp(e.x+mx*speed*dt,g.bounds.min,g.bounds.max);e.y=N.clamp(e.y+my*C.depthSpeed*dt,g.groundBounds.min,g.groundBounds.max);const distance=Math.hypot(e.x-bx,(e.y-by)/.65);e.walk=distance>.001?1:0;e.running=!!e.walk&&speed>C.speed;e.walkPhase=((e.walkPhase||0)+distance/108)%1;}
+function commit(g,e,name,total,at,o){const before=e.act;g.enemyAct(e,name,total,at,{dorian153:true,...o});return e.act&&e.act!==before;}
+function ai(g,e,dt){if(e.dormant||e.hp<=0||e.down||e.stun||e.flight||e.heldBy||e.hold||e.act||e.entry||e.activeAt>g.time||e.recovering>0){e.walk=0;return;}if(e.fleeing){e.x+=e.dir*260*dt;e.walk=1;return;}const p=g.player,dx=p.x-e.x,d=Math.abs(dx),depth=Math.abs(p.y-e.y);e.guarding=0;e.wakeArmor=0;if(e.turnLock<=0)e.dir=Math.sign(dx)||e.dir;
+ if(e.wakeThreat153&&g.time>e.wakeThreat153.until)e.wakeThreat153=null;
+ if(e.cd<=0&&e.wakeThreat153&&d<C.wakeRange&&depth<26&&!p.down&&!p.heldBy){if(commit(g,e,'uppercut',C.wakeTotal,C.wakeStartup,{dorianWake153:true,damage:C.wakeDamage,reach:C.wakeRange,knock:true,counterable:true})){e.wakeThreat153=null;g.event('dorianWakeAttack153');return;}}
+ if(e.cd<=0&&d<106&&depth<25&&!p.down&&!p.heldBy){const cycle=e.attackCycle%3,name=cycle===0?'oneTwo':cycle===1?'hook':'frontKick',hit=name==='oneTwo'?.28:name==='hook'?.36:.34,total=name==='oneTwo'?.98:1.02,damage=name==='oneTwo'?C.comboDamage[0]:name==='hook'?C.hookDamage:C.kickDamage;if(commit(g,e,name,total,hit,{damage,reach:name==='frontKick'?108:101,knock:name!=='oneTwo',times:name==='oneTwo'?[.28,.53]:undefined})){e.attackCycle++;return;}}
+ if(e.denied135)return;move(g,e,dt,d>175?C.chaseSpeed:C.speed);
+}
+P.enemyHit=function(e,a){if(e.type!=='dorian')return old.enemyHit.call(this,e,a);const second=!!a.second,r=old.enemyHit.call(this,e,a);if(a.name==='oneTwo'&&!second&&a.second){a.damage=C.comboDamage[1];a.hitAt=.53;}return r;};
+P.advanceDown=function(e,dt){const was=e.down>0,r=old.advanceDown.call(this,e,dt);if(e.type!=='dorian'||e.hp<=0)return r;e.wakeArmor=0;e.guarding=0;if(e.down>0){e.inv=0;e.wakeInv=0;}if(was&&!e.down){e.inv=Math.max(e.inv,C.wakeImmunity);e.wakeInv=C.wakeImmunity;e.recovering=0;e.cd=0;e.stagger=0;e.standingLock=.2;const p=this.player;if(Math.abs(e.x-p.x)<C.wakeRange&&Math.abs(e.y-p.y)<26&&!p.down&&!p.heldBy)e.wakeThreat153={until:this.time+.65};this.event('dorianWake153',{enemy:e.id,immunity:C.wakeImmunity});}return r;};
+P.tick=function(dt,input={}){for(const e of this.enemies)if(e.type==='dorian')e.denied135=null;const r=old.tick.call(this,dt,input);for(const e of this.enemies)if(e.type==='dorian'){e.guarding=0;e.wakeArmor=0;}return r;};
+N.Dorian153={config:C,ai,move};
+})(typeof window!=='undefined'?window:globalThis);

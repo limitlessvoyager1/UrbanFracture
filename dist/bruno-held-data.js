@@ -1,0 +1,1 @@
+window.NeonBrunoHeldData={"src": "assets/sprites/bruno-held-v2.webp", "frames": [{"rect": [236, 64, 519, 773], "seed": [367, 466], "anchor": [496, 835]}, {"rect": [1058, 58, 485, 781], "seed": [1223, 478], "anchor": [1300, 837]}], "scale": 0.16};

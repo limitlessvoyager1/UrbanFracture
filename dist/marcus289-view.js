@@ -1,0 +1,5 @@
+/* Original Marcus-only keyposes. Native state owns all timing, motion and eligibility. */
+(function(r){'use strict';const S=r.PolishedSprites,N=r.NeonCombat,T=r.ReactionTemplates289,D=r.Marcus289Data,pre=S.draw;let image=null;const enabled=!(r.location&&new URLSearchParams(r.location.search).get("reaction289")==="baseline");const ready=new Promise(resolve=>{const im=new Image();im.onload=()=>{image=im;resolve(true)};im.onerror=()=>resolve(false);im.src=D.src});S.ready=Promise.all([S.ready,ready]);
+function eligible(f){return f.type==='thug'&&N.Street209.is(f)&&!N.Workers233?.is(f)&&!f.weapon&&!f.heldWeapon248;}
+function draw(c,f,time,k){const p=enabled&&eligible(f)?T.sample(f,time):null;if(!p||!image)return pre(c,f,time,k);const q=D.frames[p.pose];if(!q)return pre(c,f,time,k);c.save();c.imageSmoothingEnabled=false;if(p.sourceDir!==f.dir)c.scale(-1,1);if(f.hitFlash>0)c.filter='brightness(1.35)';const[x,y,w,h]=q.rect,scale=D.scale;c.drawImage(image,x,y,w,h,-q.ax*scale,-q.ay*scale,w*scale,h*scale);c.restore();return true;}
+S.draw=draw;r.MarcusView289={ready,eligible,enabled,descriptor(f,t){return eligible(f)?T.sample(f,t):null},data:D};})(globalThis);

@@ -1,0 +1,26 @@
+
+(function(root){'use strict';const N=root.NeonCombat,P=N.Brawler.prototype,old={};for(const k of ['start','advanceHeroActor','advanceDown','ai','command','knockDown','finishHeroAction','tick','reset','settledDefeats'])old[k]=P[k];
+const moves=new Set(['weaponCounter122','throw','backThrow','suplex','rearTakedown','reap','shove','counterCombo','counterTakedown','counterTripStomp','grabSword','broxSpinThrow','broxClothesline','broxGerman','broxNelson','broxPowerSlam','broxCounterSlam','broxCounter','broxCounterTackle','broxCounterBackSlam','broxCounterClothesline','broxCounterToss','broxCounterKnife','novaFranken','novaDDT','novaFace','novaBelly','novaTrampoline','novaCounterThrow','novaCounterStomp','powerBomb','powerSlam','slam','clinchKnee']);
+const config={normal:.35,heavy:.30,boss:.25,byMove:{novaDDT:.65,reinaReap119:.40},byEnemy:{}};
+const heavy=new Set(['enforcer','bouncer','security']),boss=new Set(['boss','gangster']);
+function lead(v){return v.type==='knifeThug'||v.type==='bouncer'?.60:v.type==='enforcer'?.55:v.type==='gangster'?.50:.40;}
+function owns(s){const a=s.attacker;return a.act===s.action||a.act?.name==='counterCapture'&&a.counterResume?.next===s.action&&a.counterResume?.victim===s.victim;}
+function active(v){const s=v.grappleSession119;return s?.active&&owns(s)&&s.attacker.hp>0?s:null;}
+function freeze(v){v.act=null;v.walk=0;v.running=false;v.downTotal=Math.max(v.downTotal||0,1.45);v.downAge=Math.min(Math.max(.4,v.downAge||0),v.downTotal-.80);v.down=v.downTotal-v.downAge;v.fade=1;v.recoveryState119='WAITING FOR ATTACKER';}
+function end(g,s,interrupted=false){if(!s?.active)return;s.active=false;const v=s.victim;if(v.grappleSession119===s)v.grappleSession119=null;
+ if(interrupted){if(s.attacker.counterResume?.next===s.action)s.attacker.counterResume=null;if(v.heldBy===s.attacker)g.release(s.attacker);if(v.pairVisual?.owner===s.attacker||v.pairVisual?.action===s.action)v.pairVisual=null;if((v.grappleZ||0)>0&&!v.flight&&!v.down){v.grappleZ=v.grappleAngle=v.grapplePivot=0;g.knockDown(v,-s.attacker.dir,1.45,true);}v.recoveryState119='INTERRUPTED';}
+ else{const category=boss.has(v.type)?'boss':heavy.has(v.type)?'heavy':'normal',delay=config.byEnemy[v.type]??config.byMove[s.action.reap119?'reinaReap119':s.action.name]??config[category];v.recoveryNotBefore119=Math.max(v.recoveryNotBefore119||0,g.time+delay);if(v.down>0){v.downTotal=Math.max(v.downTotal,v.downAge+lead(v)+delay+.02);v.down=v.downTotal-v.downAge;}v.recoveryState119=v.hp<=0?'DEFEATED':'POST-MOVE KNOCKDOWN';}
+ g.grappleSessions119?.delete(s);}
+P.start=function(a,name,...args){if(active(a)||name==='leroyRoll102'&&this.time<(a.recoveryNotBefore119||0)){freeze(a);if(name==='leroyRoll102')a.rollSerial102=-1;return;}old.start.call(this,a,name,...args);const action=a.act,v=action?.victim||action?.pair?.victim||a.hold?.victim;if(!action||!v||!moves.has(action.name)&&!action.reap119)return;
+ if(v.grappleSession119?.active)end(this,v.grappleSession119,true);const s={attacker:a,victim:v,action,startedAt:this.time,groundY:v.y,active:true,impacted:false};this.grappleSessions119??=new Set();this.grappleSessions119.add(s);action.grappleSession119=s;v.grappleSession119=s;v.recoveryState119='SYNCHRONIZED';};
+P.knockDown=function(v,...args){const r=old.knockDown.call(this,v,...args);const s=active(v);if(s)s.impacted=true;return r;};
+P.advanceHeroActor=function(v,dt){if(active(v)&&(v.down>0||v.hp<=0)&&!v.flight&&!(v.grappleSession119?.action.name==='weaponCounter122'&&v.downAge<.32)){freeze(v);return;}if(this.time<(v.recoveryNotBefore119||0)&&v.down>0){v.act=null;v.walk=0;return;}return old.advanceHeroActor?.call(this,v,dt);};
+P.advanceDown=function(v,dt){if(active(v)&&!v.flight&&(v.downAge>=.32||v.hp<=0)&&!(v.grappleSession119?.action.name==='weaponCounter122'&&v.downAge<.32)){freeze(v);return;}if(v.hp>0&&this.time<(v.recoveryNotBefore119||0)){v.downTotal=Math.max(v.downTotal,v.downAge+lead(v)+(v.recoveryNotBefore119-this.time)+.02);v.down=v.downTotal-v.downAge;}return old.advanceDown.call(this,v,dt);};
+P.ai=function(v,dt){if(active(v)||v.down>0&&this.time<(v.recoveryNotBefore119||0)){v.walk=0;return;}return old.ai.call(this,v,dt);};
+P.command=function(key,input={}){if(this.player.down&&(active(this.player)||this.time<(this.player.recoveryNotBefore119||0)))return false;return old.command.call(this,key,input);};
+P.finishHeroAction=function(a,action){old.finishHeroAction?.call(this,a,action);if(action.grappleSession119)end(this,action.grappleSession119);};
+P.tick=function(dt,input={}){const r=old.tick.call(this,dt,input);for(const s of [...(this.grappleSessions119||[])]){if(!owns(s)||s.attacker.hp<=0||![this.player,...this.enemies].includes(s.victim)){end(this,s,true);continue;}const v=s.victim;if((v.down>0||v.hp<=0)&&!v.flight&&!(s.action.name==='weaponCounter122'&&v.downAge<.32))freeze(v);}return r;};
+P.reset=function(...args){for(const s of [...(this.grappleSessions119||[])])end(this,s,true);this.grappleSessions119=new Set();return old.reset.apply(this,args);};
+P.settledDefeats=function(){if([...this.grappleSessions119||[]].some(s=>s.active&&owns(s)))return false;return old.settledDefeats.call(this);};
+N.GrappleRecovery119={config,active,lead,moves,end};
+})(typeof window!=='undefined'?window:globalThis);

@@ -1,0 +1,6 @@
+
+(function(root){'use strict';const pre=root.PolishedSprites.draw,S=root.NeonCombat.Shield181;
+root.PolishedSprites.draw=function(c,f,t,k){const q=f.hold?.control181;if(f.type==='broxton'&&q&&!q.ended){const shield=q.mode!=='reposition';return pre(c,{...f,act:null,hold:{...f.hold,rear:shield?true:q.originalRear},shieldPose181:null},t,k);}if(f.controlVictim181&&!f.controlVictim181.ended){const q=f.controlVictim181;return pre(c,{...f,act:null,hold:null,heldBy:f.heldBy,stun:Math.max(f.stun||0,.1),down:0,flight:null,walk:q.mode==='reposition'&&q.moving?1:0,dir:f.dir},t,k);}return pre(c,f,t,k);};
+function draw(c,g){const q=S.current(g),cue=g.shieldCue181;if(!q&&!(cue?.until>g.time))return;const text=cue?.until>g.time?cue.text:q.mode==='reposition'?'REPOSITION · VULNERABLE':q.mode==='setup'?'RAISING SHIELD':'HUMAN SHIELD',x=480,y=91;c.save();c.font='bold 11px monospace';c.textAlign='center';c.textBaseline='alphabetic';const w=c.measureText(text).width+18;c.fillStyle='#07111eed';c.fillRect(x-w/2,y-13,w,20);c.strokeStyle=q?.mode==='reposition'?'#ffbb80':'#ffe85b';c.lineWidth=1;c.strokeRect(x-w/2,y-13,w,20);c.fillStyle='#ffe85b';c.fillText(text,x,y+1);c.restore();}
+root.NeonShieldView181={draw};
+})(window);

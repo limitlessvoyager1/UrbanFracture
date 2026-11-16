@@ -1,0 +1,9 @@
+/* Background-only stadium crowd ownership: native ticks and actual distance, no render mutation. */
+(function(r){'use strict';const N=r.NeonCombat,H=N.Stadium237,P=N.Brawler.prototype;if(!H)return;const speed=235,stride=124;
+function state(g){if(!H.active(g)||![0,1,2].includes(H.section(g)))return null;const key=H.section(g)+':'+g.stadium237.enteredAt;const s=g.stadium237.civilian313??={scenes:{}};if(!s.scenes[key]){const k=H.section(g),count=k===0?18:10,end=g.zoneDefinition.end;const rows=Array.from({length:count},(_,i)=>{let x=200+i*(end-360)/count;if(k===2&&x<460)x=470+i*70;return{id:i,home:x,x,y:432,standing:(i-Math.floor(i/6)*2)%8,runner:i%6>=4,variant:i%2,dir:-1,started:false,gone:false,moving:false,distance:0,phase:0,height:193};});s.scenes[key]={rows,time:g.time};}return s.scenes[key];}
+function step(g,dt){const s=state(g);if(!s)return;const reduced=g.reducedMotion313||g.reducedMotion||r.matchMedia?.('(prefers-reduced-motion: reduce)').matches;for(const q of s.rows){q.moving=false;if(!q.runner||q.gone||reduced)continue;if(!q.started&&Math.abs(q.home-g.player.x)<700){q.started=true;q.dir=q.home<g.player.x?-1:1;}if(!q.started)continue;let next=q.x+q.dir*speed*dt;
+// Keep the elevator approach clear. Fleeing spectators turn before entering the lobby footprint.
+if(H.section(g)===2&&q.dir<0&&next<440){q.dir=1;next=q.x+speed*dt;}
+const dx=next-q.x;q.x=next;q.distance+=Math.abs(dx);q.phase=(q.distance/stride)%1;q.moving=Math.abs(dx)>.001;if(q.x< -150||q.x>g.zoneDefinition.end+150)q.gone=true;}s.time=g.time;}
+const tick=P.tick;P.tick=function(dt,input={}){state(this);const before=this.time,result=tick.call(this,dt,input);if(this.time>before&&this.playing)step(this,this.time-before);return result;};N.StadiumCivil313={state,step,speed,stride,reset:g=>{if(g.stadium237)delete g.stadium237.civilian313;}};
+})(globalThis);

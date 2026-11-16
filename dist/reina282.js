@@ -1,0 +1,3 @@
+/* Resolve the running clock after every movement/collision layer; no speed or combat changes. */
+(function(N){'use strict';const P=N.Brawler.prototype,stride=160;function running(p){return p.type==='reina'&&p.running&&!p.act&&!p.hold&&!p.heldBy&&!p.jump&&!p.down&&!p.stun&&!p.shock&&!p.flight&&!p.blocking;}
+const tick=P.tick;P.tick=function(dt,input={}){const p=this.player,x=p.x,y=p.y,t=this.time,phase=p.runPhase||0,r=tick.call(this,dt,input);if(this.time>t&&running(p)){const distance=Math.hypot(p.x-x,(p.y-y)/.65);if(distance<40){p.runPhase=((phase+distance/stride)%1+1)%1;p.walk=distance>1e-6?1:0;p.runMotion282={distance,stride,phase:p.runPhase,source:'resolved displacement'};}}return r;};N.Reina282={running,stride};})(globalThis.NeonCombat);

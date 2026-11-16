@@ -1,0 +1,4 @@
+/* One native recoil body; directional impact displacement is cosmetic and ground-preserving. */
+(function(r){'use strict';const S=r.PolishedSprites,N=r.NeonCombat,pre=S.draw;
+S.draw=function(c,f,t,k){delete f.hitReactionVisual298;const q=f.hitReaction298,a=f.reaction274,clean=q?.outcome==='clean'&&a?.result==='clean'&&N.HitReactions298.remaining(f)>0&&!N.Continuity296.paired(f)&&!f.down&&!f.flight&&!f.jump&&!f.act&&!f.guarding&&!f.blocking,v=clean?N.HitReactions298.visual(f,t):null,amount=v?(q.kind==='heavy'?4:q.kind==='medium'?2.5:1.5)*Math.sin(Math.PI*v.u)*q.dir:0;
+c.save();c.translate(amount,0);const out=pre(c,f,t,k);c.restore();if(q){f.hitReactionVisual298={time:t,outcome:q.outcome,kind:q.kind,direction:q.dir,cosmeticOffset:amount,remainingFrames:N.HitReactions298.remaining(f)*60,recoilProgress:v?.u??null,withdrawalFrames:(v?.delay||0)*60};}return out;};r.HitReactionView298={baseline:pre};})(globalThis);

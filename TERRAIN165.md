@@ -1,0 +1,13 @@
+# Park, woods and lab repairs
+
+Checkpoint: checkpoint-before-park-woods165 (published164). Preserve restored162 promenade/mall layouts and164 fixes. Displayed build remains162 per restore request.
+
+Park uses one unique6000-unit panorama, no mirrored/feathered object copies. Woods exit at+4800, Riverfront at+5910; all14 original enemy placements retained. Labels stay in view. Later world origins shift900 but each local layout stays unchanged. Sky extraction disabled for park and woods to prevent blue lake/mountain regions becoming false sky rectangles; shared ambient weather still applies.
+
+Both woods zones draw one original source across their full width, no mismatched prefix tile. Water shares the same transform. Log bounds include visible margins and constrain actor ground roots including flight/charge and new spawns; paired grapples retain their shared ownership. Deep Woods clear/up entry at stone steps (+.73width) walks visibly through+.81 to cabin+.88 before fade, preserving clock/weather.
+
+Storage doorway replaces the original exterior opening at the side wall, shows workroom interior and has threshold438. Clear/up at end-160 enters workroom. Updated hints. Workroom escape retains right input/fire/timer. Workers use distance-driven articulated walking legs and original walking torso instead of cycling idle/walk/run. Shoe silhouette support points keep supporting sole exactly on ground in either direction, same scale and bounded90-unit speed. No combat changes.
+
+Art: built-in imagegen edit using original park reference; output /workspace/scratch/1f76d3935611/generated_images/exec-ce3ab7e8-22f7-4228-bb0c-24021a56ba80.png. Optimized as assets/uptown-park165.webp, replacing old park113 file to stay within hosting budget. Brief: one unique continuous panoramic lakeside park, level dirt trail bottom24%, lake/skyline left, distinct statue/benches/picnic/bridge, woodland gate near right, forward trail continuation; no text/heroes/repeated landmarks. Only this asset regenerated; existing woods/lab art retained.
+
+Validation: current15026-suite combat/director/controller regression; terrain165 all4 hero routes/log/steps; park158; lab149 four heroes/body spill/fire/countdown/escape; lab-workers165 both directions781 phases shoe support/continuity; environment156/environment162/environment-integration156; gamepad; civilians164/civilian-layer164/road163. Browser checked park gate, Deep cabin marker, storage doorway and worker frames. Diagnostic street155 adds woods/storage/workroom inspection. qa/lab165.jpg. Physical controller and human full balance certification not performed.

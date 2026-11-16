@@ -1,0 +1,4085 @@
+{
+  "scope": "240 seeded12s simulation fixtures; not human difficulty or hardware certification",
+  "rows": [
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 81,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 24
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 63,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 4,
+      "adaptations": 0,
+      "damage": 42
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 95,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 1,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 10
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 23,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 9,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 0,
+      "maxPoints": 0,
+      "enemyStarts": 0,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 0
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 105
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 3,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 33,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 72
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 11,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 0,
+      "maxPoints": 0,
+      "enemyStarts": 0,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 0
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 17,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 13,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 92
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 24,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 76,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 104,
+      "adaptations": 0,
+      "damage": 29
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 41,
+      "seconds": 11.866666666666836,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 16,
+      "adaptations": 0,
+      "damage": 64
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 75,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 81,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 24
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 92,
+      "seconds": 11.866666666666836,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 27,
+      "adaptations": 0,
+      "damage": 13
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 44,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 61
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 38,
+      "seconds": 11.866666666666836,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 9,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 67
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 17,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 9,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 12,
+      "adaptations": 1,
+      "damage": 66
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 91,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 6,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 14
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 105
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 105
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 16,
+      "adaptations": 0,
+      "damage": 105
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 75,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 86,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 19
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 95,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 2,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 10
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 23,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 9,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 71,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 34
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 105
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 3,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 33,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 72
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 11,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 66
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 61,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 1,
+      "adaptations": 2,
+      "damage": 44
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 17,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 3,
+      "adaptations": 1,
+      "damage": 105
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 75,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 130,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 70,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 132,
+      "adaptations": 2,
+      "damage": 35
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 61,
+      "seconds": 11.866666666666836,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 24,
+      "adaptations": 0,
+      "damage": 44
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 81,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 24
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 85,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 20
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 84,
+      "seconds": 11.866666666666836,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 11,
+      "adaptations": 0,
+      "damage": 21
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 59,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 46
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 35,
+      "seconds": 11.866666666666836,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 9,
+      "deferrals": 4,
+      "adaptations": 0,
+      "damage": 70
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 17,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 9,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 12,
+      "adaptations": 2,
+      "damage": 66
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 86,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 6,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 19
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 52,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 21,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 52,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 68,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 16,
+      "seconds": 11.933333333333506,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 21,
+      "adaptations": 0,
+      "damage": 89
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 85,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 73,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 4,
+      "adaptations": 0,
+      "damage": 42
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 2,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 10
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 33,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 19,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 74,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 11,
+      "adaptations": 3,
+      "damage": 41
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 115,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 115
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 13,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 27,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 21,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 49,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 97,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 6,
+      "adaptations": 1,
+      "damage": 18
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 27,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 47,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 47,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 12,
+      "adaptations": 2,
+      "damage": 68
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 47,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 33,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 80,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 132,
+      "adaptations": 1,
+      "damage": 35
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 67,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 10,
+      "deferrals": 59,
+      "adaptations": 0,
+      "damage": 48
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 85,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 98,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 17
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 11,
+      "deferrals": 10,
+      "adaptations": 0,
+      "damage": 10
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 49,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 48,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 2,
+      "adaptations": 3,
+      "damage": 67
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 22,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 12,
+      "deferrals": 8,
+      "adaptations": 0,
+      "damage": 93
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 27,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 9,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 65,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 50
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 82,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 13,
+      "deferrals": 11,
+      "adaptations": 0,
+      "damage": 33
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 62,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 37,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 115,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 115
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 13,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 46,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 85,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 91,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 24
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 115,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 1,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 0
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 33,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 19,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 67,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 48
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 115,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 115
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 13,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 27,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 21,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 49,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 66
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 77,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 6,
+      "adaptations": 1,
+      "damage": 38
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 27,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 47,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 33,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 6,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 41,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 77,
+      "adaptations": 0,
+      "damage": 74
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 80,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 132,
+      "adaptations": 1,
+      "damage": 35
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 61,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 17,
+      "adaptations": 0,
+      "damage": 54
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 85,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 86,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 29
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 105,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 2,
+      "maxPoints": 3,
+      "enemyStarts": 5,
+      "deferrals": 6,
+      "adaptations": 0,
+      "damage": 10
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 43,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 72
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 70,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 1,
+      "damage": 45
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 36,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 13,
+      "deferrals": 11,
+      "adaptations": 0,
+      "damage": 79
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 27,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 9,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 49,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 12,
+      "adaptations": 2,
+      "damage": 66
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 53,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 12,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 62
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 62,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 37,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 62,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 68,
+      "adaptations": 1,
+      "damage": 53
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 13,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 41,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 95,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 83,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 5,
+      "adaptations": 4,
+      "damage": 42
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 91,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 34
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 43,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 52,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 73
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 119,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 6
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 125
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 23,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 31,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 72,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 101,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 2,
+      "deferrals": 7,
+      "adaptations": 2,
+      "damage": 24
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 4,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 57,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 40,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 6,
+      "adaptations": 1,
+      "damage": 85
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 89,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 133,
+      "adaptations": 0,
+      "damage": 36
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 80,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 134,
+      "adaptations": 1,
+      "damage": 45
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 81,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 72,
+      "adaptations": 0,
+      "damage": 44
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 95,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 96,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 29
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 9,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 0
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 61,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 64
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 64,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 3,
+      "damage": 61
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 66,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 16,
+      "adaptations": 0,
+      "damage": 59
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 61,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 8,
+      "deferrals": 14,
+      "adaptations": 0,
+      "damage": 64
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 75,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 50
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 80,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 11,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 45
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 125
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 93,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 120,
+      "adaptations": 0,
+      "damage": 32
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 33,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 45,
+      "adaptations": 0,
+      "damage": 92
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 95,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 106,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 19
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 0
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 43,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 52,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 73
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 18,
+      "adaptations": 0,
+      "damage": 0
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 125
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 23,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 31,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 72,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 115,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 8,
+      "adaptations": 1,
+      "damage": 10
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 4,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 57,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 47,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 7,
+      "adaptations": 0,
+      "damage": 78
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 89,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 133,
+      "adaptations": 0,
+      "damage": 36
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 96,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 101,
+      "adaptations": 0,
+      "damage": 29
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 81,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 11,
+      "deferrals": 61,
+      "adaptations": 0,
+      "damage": 44
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 101,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 24
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 96,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 29
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 95,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 10,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 69,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 56
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 70,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 1,
+      "damage": 55
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 77,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 9,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 48
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 37,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 9,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 75,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 0,
+      "adaptations": 2,
+      "damage": 50
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 76,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 13,
+      "deferrals": 6,
+      "adaptations": 0,
+      "damage": 49
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 72,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 36,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 125,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 125
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 46,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 60,
+      "adaptations": 0,
+      "damage": 79
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 96,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 24
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 9,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 38,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 24,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 106,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 15,
+      "adaptations": 2,
+      "damage": 14
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 120,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 120
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 18,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 24,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 26,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 66,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 54
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 101,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 11,
+      "adaptations": 2,
+      "damage": 19
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 32,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 52,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 68
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 18,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 46,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 77,
+      "adaptations": 0,
+      "damage": 74
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 91,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 110,
+      "adaptations": 0,
+      "damage": 29
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 67,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 10,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 91,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 29
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 89,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 31
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 54,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 65,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 1,
+      "damage": 55
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 68,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 11,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 52
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 39,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 9,
+      "deferrals": 8,
+      "adaptations": 0,
+      "damage": 81
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 70,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 50
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 56,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 14,
+      "deferrals": 7,
+      "adaptations": 0,
+      "damage": 64
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 120,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 120
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 67,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 68,
+      "adaptations": 1,
+      "damage": 53
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 28,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 9,
+      "deferrals": 2,
+      "adaptations": 0,
+      "damage": 92
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "block",
+      "hp": 78,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 4,
+      "adaptations": 1,
+      "damage": 42
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 120,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 0
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "passive",
+      "hp": 38,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 82
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "block",
+      "hp": 24,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "style": "mixed",
+      "hp": 106,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 27,
+      "adaptations": 1,
+      "damage": 14
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 120,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 120
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "block",
+      "hp": 18,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 102
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 24,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 96
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 26,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 4,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 94
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 54,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 66
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 96,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 3,
+      "adaptations": 1,
+      "damage": 24
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "passive",
+      "hp": 32,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 5,
+      "adaptations": 0,
+      "damage": 88
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "block",
+      "hp": 52,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 68
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "flint"
+      ],
+      "style": "mixed",
+      "hp": 18,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 0,
+      "adaptations": 1,
+      "damage": 102
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 130,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 85,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 132,
+      "adaptations": 0,
+      "damage": 35
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "robber",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 67,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 8,
+      "deferrals": 111,
+      "adaptations": 0,
+      "damage": 53
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "passive",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "block",
+      "hp": 111,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 3,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 9
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "thug",
+        "knifeThug"
+      ],
+      "style": "mixed",
+      "hp": 110,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 10
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 48,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 72
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 82,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 5,
+      "deferrals": 1,
+      "adaptations": 2,
+      "damage": 38
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "cop",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 90,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 14,
+      "deferrals": 24,
+      "adaptations": 0,
+      "damage": 30
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 49,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 3,
+      "adaptations": 0,
+      "damage": 71
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 54,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 12,
+      "adaptations": 1,
+      "damage": 66
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "boss",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 75,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 3,
+      "enemyStarts": 10,
+      "deferrals": 1,
+      "adaptations": 0,
+      "damage": 45
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "passive",
+      "hp": 120,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 6,
+      "deferrals": 0,
+      "adaptations": 0,
+      "damage": 120
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "block",
+      "hp": 67,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 7,
+      "deferrals": 68,
+      "adaptations": 1,
+      "damage": 53
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "gangster",
+        "thug"
+      ],
+      "style": "mixed",
+      "hp": 0,
+      "seconds": 12.000000000000176,
+      "maxCommitments": 1,
+      "maxPoints": 2,
+      "enemyStarts": 11,
+      "deferrals": 7,
+      "adaptations": 0,
+      "damage": 120
+    }
+  ]
+}

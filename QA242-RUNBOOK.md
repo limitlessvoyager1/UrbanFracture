@@ -1,0 +1,61 @@
+# QA242 — execution, acceptance and rollback
+
+Run from `/workspace/sites/urban-fracture`. No Node packages are required. Installed Node and Python/Pillow are used. Do not run two QA runner processes simultaneously because evidence paths are shared.
+
+## Routine development
+
+1. Preserve a Git checkpoint before substantial changes.
+2. Read `QA242-ARCHITECTURE.md`, the Style Bible, registry and open issues.
+3. Run `node tools/qa242/run.cjs --profile initial` after the affected implementation. Read `reports242/LATEST.md` and `latest.json`, not only process exit status. Initial is deliberately incomplete and never certifies a stable release.
+4. Add a bad fixture before claiming a new detector works. Then add an adapter that observes real production data; synthetic fixtures alone do not certify gameplay.
+5. For major/release work run `node tools/qa242/run.cjs --profile release`. Exit1 is blocked; exit2 means review/incomplete gates; exit0 means automated stable candidate only. Do not label a blocked/incomplete build stable.
+6. Preserve logs and exact source fingerprint. Do not claim unexecuted tests passed or count nested assertions as separate suites without measurements.
+
+The test registry orchestrates existing suites; those fixtures have different load boundaries. `current-runtime-certification` separately loads current123-module simulation order and records outermost ownership. A new simulation module before the render boundary is automatically loaded. If that boundary moves, the adapter intentionally fails for review.
+
+## Candidate screenshots
+
+Start managed preview with `sites-preview start /workspace/sites/urban-fracture` and open its returned URL with `/qa242.html`. This separate developer gallery freezes seed242, clock30s, fixed camera, lighting/weather and1920×1080 capture. Wait for READY. Choose a scenario, download candidate PNG and metadata. Keep the same browser/OS/renderer/DPR/font state for comparisons. Do not use full-page UI screenshots as if they were canvas baseline captures.
+
+No gameplay screenshot baseline is approved in this iteration. Comparator fixture tests are only proof that the comparator detects image differences.
+
+An owner-reviewed baseline entry in `qa/system242/baselines.json` must contain `id`, `path`, exact `sha256`, `approvedBy`, `approvedAt`, and `captureMetadata` copied from the reviewed capture. Add it as a reviewed source change; never overwrite the reference image. Save new revisions under new filenames. Pending scenario IDs must remain visible until separately reviewed.
+
+Then run:
+
+```sh
+python tools/qa242/compare.py --id casino --candidate /absolute/path/casino-candidate.png --metadata /absolute/path/casino-metadata.json
+```
+
+The command refuses unsigned/missing/modified references or changed capture metadata. It compares equal dimensions without resizing and writes a diff plus a result for that explicit pair. It does not certify all scenarios or automatically satisfy the release-wide approved-screenshot gate. Complete gallery integration is the next visual-certification increment. No automatic screenshot regeneration or artistic approval is installed.
+
+## New assets/levels/characters
+
+The initial616-image inventory records retained sources, not artistic approval. New/modified/removed hashes generate findings. Do not rerun `--initialize` to hide changes: it refuses overwrite. Review the asset, update the inventory/certificate through an explicit reviewed commit, and add source-specific tests. Declare depth and purpose rather than resizing to a universal number. Extend opaque-foot adapters to each source family and register move/level suites. Unknown coverage must appear as unexecuted/review, not passed.
+
+## Acceptance checklist
+
+- [ ] Correct checkpoint and exact source fingerprint recorded; test inputs unchanged during run.
+- [ ] Launch and required controls tested in the current browser; device simulation distinguished from physical hardware.
+- [ ] All affected moves/AI recover and release synchronized interactions correctly.
+- [ ] Required waves, boss conditions, GO signs, transitions and offscreen reentry pass.
+- [ ] Measured scale/aspect/movement/contact/collision checks pass for affected adapters.
+- [ ] Approved screenshot pairs match on pinned renderer; unexplained changes reviewed.
+- [ ] Artistic detail/perspective/lighting and combat readability reviewed.
+- [ ] No unresolved critical failure or stale test contract remains.
+- [ ] Report lists failures, omissions, manual findings and corrections honestly.
+- [ ] Previous deployed version and source checkpoint remain recoverable.
+
+A `stable-candidate` decision is never an automatic owner acceptance. Current release certification is expected to remain blocked by the two obsolete Orion test contracts until reviewed and corrected. Publishing QA tooling does not relabel gameplay as stable or waive those issues.
+
+## Rollback
+
+The original runtime source is preserved at `checkpoint-before-qa242` / `7784bd683d851f6719b7c12f0f947720f7fa4ed4`. Inspect safely without touching ongoing work:
+
+```sh
+git worktree add /workspace/sites/urban-fracture-qa242-recovery checkpoint-before-qa242
+```
+
+For production recovery, select the previously saved Build241 Site version `appgprj_6adb9b94a3788191809a764c3e7bbb37~appgver_ab670c3533588191a64dd876d2d37cb6` and redeploy that saved version with the existing private audience. Do not recreate the Site or change sharing. Verify terminal deployment success. For a source rollback, create a separate recovery branch/worktree, review the diff and push a reversible revert/recovery commit through the source helper; avoid destructive reset of the active project. Retain failed QA evidence outside the runtime deployment.
+
+One known filename rule is available: `node tools/qa242/fix-known.cjs` proposes it; adding `--apply` permits only the exact validated Uptown PNG→WebP loader reference. Unexpected hashes refuse. It never repairs arbitrary filenames, resizes art or updates a screenshot baseline. Record corrections.json and rerun the release profile after any applied repair.

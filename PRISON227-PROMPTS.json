@@ -1,0 +1,64 @@
+{
+  "mode": "Built-in image generation",
+  "destination": "dist/assets/prison",
+  "indoorPromptPrefix": "Use case: stylized-concept. Finished production background for a premium 16-bit inspired side-scrolling beat-em-up game. ",
+  "indoorPromptAfterRatio": " landscape, highly detailed crisp illustrated pixel art, fine richly shaded materials, sharp edges, no flat vector placeholder shapes. Match cohesive weathered prison architecture and muted gray/green/brick palette. ",
+  "indoorPromptSuffix": " Side-on orthographic-like game camera parallel to back wall, no vanishing-point tunnel. No people, no HUD, no UI, no logos, no readable text. All furniture and fixtures sit behind the combat strip. Completely clear level playable floor occupies BOTTOM20%, back edge at exactly80% image height. Entire room background fills the remaining80%; no foreground walls or overhanging obstruction. Neutral indoor lighting with readable shadows; no cinematic fog. Very detailed texture and environmental storytelling, correct object proportions. Continuous side wall edges for scrolling. This is game environment artwork, not a screenshot.",
+  "subjects": [
+    [
+      "mess227",
+      "3:1 panoramic",
+      "A prison MESS HALL: long stainless buffet steam table with serving trays and sneeze guards, industrial extraction hood, kitchen service opening and closed kitchen door, rear rows of bolted dining tables and stools, tiled lower walls, windows with bars, scuffed institutional paint and wall clocks, overhead ductwork."
+    ],
+    [
+      "hall227",
+      "3:1 panoramic",
+      "A prison FACILITIES HALLWAY, wide side-on continuous institutional corridor, pale green glazed tile lower walls and cream plaster, exposed conduit, fluorescent ceiling fixtures, several sturdy closed steel facility doors facing the camera along the BACK WALL, noticeboards, wall-mounted fire hose cabinet, utility panels, floor edge strip and scuff marks. No desks or central obstacles."
+    ],
+    [
+      "infirmary227",
+      "2:1 wide",
+      "A prison INFIRMARY: sterile pale mint tiled walls, three hospital beds along back wall with pale sheets and pillows, medical supply cabinets, oxygen cylinders, wheeled medical trolley, privacy curtains tied back, wall exam lamps, sink, small barred window, subtle red cross cabinet."
+    ],
+    [
+      "commissary227",
+      "2:1 wide",
+      "A prison COMMISSARY: secure wire-mesh cashier counter against back wall, orderly shelves stocked with toiletries, folded clothing, canned food, boxed supplies, bottled goods, metal storage cabinets and stock crates, warm worn institutional cream walls with green tile and small security window."
+    ],
+    [
+      "laundry227",
+      "5:2 panoramic",
+      "A prison INDUSTRIAL LAUNDRY: row of large steel front-loading washing machines and dryers against back wall, large circular glass drums, pipes, valves and steam ducts, folding counter with neatly folded white towels, laundry baskets and bagged linen behind playable floor, weathered green tile walls."
+    ],
+    [
+      "checkpoint227",
+      "3:1 panoramic",
+      "A prison SECURITY CHECKPOINT corridor: heavy institutional concrete, reception security hatch on left, reinforced steel door and utility room on rear wall, overhead industrial beams and cable trays, warning-striped gate frame and recessed dark doorway on right third with no bars or gate leaves (game adds movable gate), security lamps and CCTV cameras. No turnstiles on foreground floor."
+    ],
+    [
+      "security227",
+      "3:1 panoramic",
+      "A prison SECURITY CONTROL OFFICE: detailed wall of surveillance monitor housings, radios and control consoles along rear wall, three large central dark green screens left empty for animated game feeds, electrical cabinets, conduit, wiring, paper logbooks, rolling office chair tucked behind rear consoles, safe, institutional pale walls. Back exit door near right edge."
+    ],
+    [
+      "armory227",
+      "2:1 wide",
+      "A prison ARMORY: secure steel mesh equipment lockers and orderly racks of shotguns and riot shields on back wall, locked ammunition cupboards, helmets, batons, spare body armor and folded gear, supply crates, heavy security door, subdued institutional green steel and gray concrete, fine believable material details."
+    ],
+    [
+      "cells227",
+      "3:1 panoramic",
+      "A prison CELL BLOCK interior, long TWO-TIER side-on gallery facing camera: rows of open barred cell doors on ground floor behind a secure rear security fence, small bunks visible inside, upper metal catwalk with railings and stairs only at far background side, caged industrial lamps, stained stone and pale green concrete, pipes, barred upper windows. Open cell doors suggest riot, some scattered paper only behind floor edge. No people, no lettering, no foreground stairs."
+    ],
+    [
+      "administration227",
+      "3:1 panoramic",
+      "A prison ADMINISTRATION building hallway: handsome but worn wood-trimmed office corridor with heavy office doors along back wall, frosted office windows, bulletin boards, institutional filing cabinets in rear recesses, framed certificates, radiator, small wall clock, restrained warm brass lights, olive-painted wainscoting, subtly patterned stone floor."
+    ],
+    [
+      "warden227",
+      "5:2 panoramic",
+      "A corrupt prison WARDEN'S OFFICE, broad side-on room: imposing dark wood executive desk at BACK CENTER with leather chair behind it, paper files and brass desk lamp, bookshelves, secure file cabinets, framed anonymous institutional documents, large barred window and curtains, polished dark timber wainscot, worn green walls, coat stand, closed heavy office door at left. Expensive but austere, no people or portraits, no central foreground furniture."
+    ]
+  ]
+}

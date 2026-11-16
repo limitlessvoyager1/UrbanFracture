@@ -1,0 +1,4 @@
+(function(root){'use strict';const N=root.NeonCombat,M=N.NightshadeMelee257;
+function props(g,a){const p=g.player,d=a.definition257.damage;if(!(d>0)||p.jump||p.down||p.hold||p.heldBy||a.victim)return;const before=new Map(g.props.map(q=>[q,q.hp]));N.Casino192.props(g,a,d);N.Mall236.propContact(g,a,d);N.Route74197.carHits(g,a,d);for(const q of g.props){if(q.casino192||q.mallProp236||q.routeCar197||q.hp<=0||a.propHits?.has(q))continue;const dx=(q.x-p.x)*p.dir;if(dx< -12||dx>90||Math.abs(q.y-p.y)>30)continue;(a.propHits??=new Set()).add(q);q.hp=Math.max(0,q.hp-d);if(!q.hp){q.solid=false;g.revealFurniture(q);g.event('break');}}if(g.props.some(q=>q.hp<before.get(q)))a.connected257=true;}
+N.NightshadeIntegration267={phase:'integration-playtest',props,cover:q=>q.casinoKind192==='slot'?{half:195*339/485/2,height:195}:null};M.propContact267=props;N.Nightshade251.config.gate=8;
+})(globalThis);

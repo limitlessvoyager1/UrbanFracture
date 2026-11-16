@@ -1,0 +1,1 @@
+window.NeonRiverTraffic151={"frames": [[107, 206, 1368, 318], [30, 568, 1475, 360]]};

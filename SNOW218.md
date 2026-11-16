@@ -1,0 +1,9 @@
+Build 218 — snow and wind scenery
+
+Snow phase uses the shared temperature in Fahrenheit, strictly <32. At 32 or warmer snow states render as rain. Rain-bearing dynamic schedules become Light Snow or Heavy Snow in cold weather, at every clock hour; no separate nighttime gate. Seeded climate offsets allow naturally freezing worlds. Existing seven-weight saves migrate with zero additional initial snow weight, retaining prior RNG draws. Developer weather choices include both snow statuses; temperature still gates them.
+
+Accumulation integrates on completed simulation seconds, persists through scene changes and save/load, builds faster in heavy snow, remains below freezing and melts in warmth/rain. Outdoor floor patches and image-derived upward-facing ledges/leaf tops show cover. Scenery uses cached color/edge masks: green vegetation on eligible outdoor art shifts with signed wind speed and analytic gusts; stronger wind has larger displacement, capped at four pixels. Reduced-motion preference disables vegetation sway. Particle quality/amount settings apply to snow. Indoor floors and actors receive no snow overlay. No combat geometry, controller mappings or RNG changes.
+
+Limitations: automatic scenery masks are approximate, not hand-painted object meshes; snow is cosmetic and does not change movement or collisions. Images exceeding the 48 MiB mask budget skip object masks but retain outdoor ground cover and snowfall. Existing interior window rain view does not yet display snowflakes. Browser preview navigation timed out in this environment, so visual play review and physical controller testing remain unverified.
+
+Validation: environment218 freezing boundaries/all hours/statuses, cover/melting/save/seek/frame partition, cold seeds, wind, indoor particle exclusion; environment217 preferences/menu; environment156, environment162 and integration156; gamepad and controller157 regressions. Syntax checks for changed scripts.

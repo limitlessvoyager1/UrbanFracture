@@ -1,0 +1,24 @@
+/* Scoped review349: real player input, native action clocks, no global balance changes. */
+(function(r){'use strict';const N=r.NeonCombat,P=N.Brawler.prototype,M=N.NightshadeMelee257,C=N.clamp,own=g=>!!g.nightshade348&&g.player.type==='nightshade';
+const blitzDef={start:22,active:22,recovery:48,total:92,damage:22};
+const ease=u=>{u=C(u,0,1);return u*u*(3-2*u);};
+r.NightshadeBlitz352.poseFrames=[0,4,8,10,14,18,22,25,28,31,34,38,41,44,74,86];r.NightshadeBlitz352.rootTravel=280;
+function blitzPose(a){const keys=r.NightshadeBlitz352.poseFrames,f=a.t*60;let i=0;for(let j=1;j<keys.length;j++)if(f>=keys[j])i=j;return i;}
+function geometry(g,a,t=a.t){const f=t*60,u=ease((f-12)/28),b=N.LockedBattles222.active(g)?.bounds||g.combatBounds,root={x:C(a.fromX257+a.dir257*280*u,b.min+12,b.max-12),y:a.plane257,z:f<=20?80*Math.sin(Math.PI/2*C((f-10)/10,0,1)):f<44?80*Math.pow(1-C((f-20)/24,0,1),2):0},index=blitzPose({t}),pose=r.NightshadeBlitz352.frames[index],k=r.NightshadeWorld348.fighterScale(g.player,g),point=q=>({x:root.x+a.dir257*q[0]*k,y:root.y-root.z+q[1]*k});return{root,index,hip:point(pose.hip),toe:point(pose.toe),frame:f};}
+
+function beginBlitz(g){const p=g.player;if(!M.ready(g)||p.act||p.hold||p.jump||p.blitzRecovery>0)return false;const a=M.begin(g,'blitz',blitzDef,{blitz349:true,energyClass316:'HEAVY'});if(!a)return false;a.nightshade257=false;a.name='nightshade353-blitz';a.blitz352=true;p.blitz352Action=a;p.blitzRecovery=blitzDef.total/60;p.blitzUntil=-1;p.lastTapAt=-10;return true;}
+const command=P.command;P.command=function(k,i={}){if(!own(this))return command.call(this,k,i);const p=this.player;if(k==='attack'&&p.heldWeapon248&&!p.hold&&!p.jump)return N.Weapons248.input(this,k);if(k==='attack'&&!i.unique&&!p.act&&!p.hold&&!p.jump&&(this.time<=p.blitzUntil||p.running)&&p.blitzRecovery<=0)return beginBlitz(this);return command.call(this,k,i);};
+// Restore native one-second hold/release charge rather than bypassing Charge130.
+const attack=P.attackInput;P.attackInput=function(on,i={}){if(!own(this))return attack.call(this,on,i);if(this.player.heldWeapon248&&!this.player.hold&&!this.player.jump){if(!!on===!!this.player.physicalAttack)return false;this.player.physicalAttack=!!on;return on?this.command('attack',i):false;}return N.Charge130.attackInput.call(this,on,i);};
+N.Charge130.register('nightshade',{seconds:1,walk:0,color:'#ba8ee4',name:'POISON DART PEN',ordinary:a=>!!a?.action348&&a.move348==='melee',execute:g=>M.dart(g)});
+const advance=P.advanceHeroAction;P.advanceHeroAction=function(p,a,dt){if(!a.blitz349)return advance.call(this,p,a,dt);if(p.act!==a||p.hp<=0)return;const q=geometry(this,a);p.x=q.root.x;p.y=q.root.y;p.grappleZ=q.root.z;p.grappleAngle=0;p.jump=0;p.walk=0;p.running=false;if(a.t*60>=44&&!a.landed353){a.landed353=true;this.effects.push({kind:'dust',x:p.x,y:p.y,life:.25});this.event('land',{player:true,character:p.type,blitz353:true});}
+ const lo=Math.max(a.blitzSample352||0,22/60),hi=Math.min(a.t,44/60-1e-7),steps=Math.max(1,Math.ceil((hi-lo)*240));
+ if(hi>=lo)for(let j=0;j<=steps;j++){const sample=geometry(this,a,lo+(hi-lo)*j/steps);for(const e of this.enemies){if(e.hp<=0||e.dormant||e.entering||e.down||e.flight||e.heldBy||Math.abs(e.y-a.plane257)>24||(e.x-sample.root.x)*a.dir257< -18||a.hits257.has(e.id))continue;const box=N.Combat134.box(e,this),pad=8;if(!N.DragonTail121.contact(sample.hip,sample.toe,{left:box.left-pad,right:box.right+pad,top:box.top-pad,bottom:box.bottom+pad}))continue;
+  if(this.damage(e,22,a.dir257,true,{attacker:p,action169:a,damageEvent169:'blitz349',airborne:true})){a.hits257.add(e.id);a.connected257=true;(a.contacts352??=[]).push({enemy:e.id,frame:sample.frame,hip:sample.hip,toe:sample.toe});}if(p.act!==a)return;
+ }}a.blitzSample352=a.t;};
+const finish=P.finishHeroAction;P.finishHeroAction=function(p,a){if(a.blitz349){p.grappleZ=p.grappleAngle=0;delete p.blitz352Action;return;}return finish.call(this,p,a);};
+
+const damage=P.damage;P.damage=function(e,n,d,k,o={}){const out=damage.call(this,e,n,d,k,o);if(own(this)&&out&&o.damageEvent169==='throw345-missile'){const f=e.flight;if(f?.nightshade345){f.dir=Math.sign(o.missileVector350?.x)||f.dir||1;f.vx=f.dir*390;f.vy=Math.max(f.vy,100);} (this.explosions349??=[]).push({x:o.impact350?.x??e.x,y:o.impact350?.y??e.y-(e.grappleZ||0)-55,at:this.time});this.event('grenadeBlast');}return out;};
+const tick=P.tick;P.tick=function(dt,i={}){const out=tick.call(this,dt,i);if(own(this)){const p=this.player;if(p.blitz352Action&&(p.act!==p.blitz352Action||p.hp<=0)){p.grappleZ=p.grappleAngle=0;delete p.blitz352Action;}this.explosions349=(this.explosions349||[]).filter(q=>this.time-q.at<.45);}return out;};
+N.NightshadeRepair349={beginBlitz,blitzPose,blitzDef};N.Blitz352={begin:beginBlitz,pose:blitzPose,geometry,definition:blitzDef,travel:280,landingFrame:44,recoveryFrames:48};
+})(globalThis);

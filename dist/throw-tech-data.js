@@ -1,0 +1,1 @@
+window.NeonThrowTechData={"src":"assets/sprites/throw-tech-v1.webp","scale":0.29,"frames":[{"rect":[250,14,454,485],"seed":[472,16],"anchor":[480,496]},{"rect":[922,57,509,442],"seed":[1146,59],"anchor":[1153,496]},{"rect":[174,588,614,398],"seed":[389,590],"anchor":[503,983]},{"rect":[942,507,497,495],"seed":[1083,509],"anchor":[1046,999]}]};

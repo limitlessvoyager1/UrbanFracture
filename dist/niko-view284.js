@@ -1,0 +1,7 @@
+/* Full-body eight-pose locomotion with matching weapon sockets; no extra simulation clock. */
+(function(r){'use strict';const S=r.PolishedSprites,pre=S.draw,D=r.NikoGait284Data,frames=[],oldHand=S.hand269;
+function index(f){return(f.running?8:0)+Math.floor((((f.gaitPhase284||0)%1)+1)%1*8);}
+function eligible(f){return f.type==='niko'&&f.walk&&!f.act&&!f.hold&&!f.heldBy&&!f.jump&&!f.down&&!f.stun&&!f.shock&&!f.flight&&!f.pairVisual&&!f.blocking;}
+const ready=Promise.all(D.map((q,i)=>new Promise(resolve=>{const image=new Image();image.onload=()=>{frames[i]={...q,image};resolve(true)};image.onerror=()=>resolve(false);image.src=q.src;})));S.ready=Promise.all([S.ready,ready]);
+S.hand269=function(f){return eligible(f)&&frames[index(f)]?frames[index(f)].hand:oldHand(f);};
+S.draw=function(c,f,t,k){const q=eligible(f)&&frames[index(f)];if(!q)return pre(c,f,t,k);c.save();c.imageSmoothingEnabled=false;c.drawImage(q.image,-q.ax,-q.ay,q.w,q.h);const w=f.heldWeapon248;if(w){c.save();c.translate(...q.hand);r.CombatView248.weapon(c,w.kind,.35,w.charged,t);c.restore();const sx=q.hand[0]+q.ax,sy=q.hand[1]+q.ay;c.drawImage(q.image,(sx-4)*q.image.naturalWidth/q.w,(sy-4)*q.image.naturalHeight/q.h,8*q.image.naturalWidth/q.w,8*q.image.naturalHeight/q.h,q.hand[0]-4,q.hand[1]-4,8,8);f.weaponHand269=q.hand;}c.restore();f.gaitVisual284={frame:index(f),hand:q.hand,source:q.src,groundAnchor:q.ay};return true;};r.NikoView284={frames,ready,index,eligible};})(globalThis);

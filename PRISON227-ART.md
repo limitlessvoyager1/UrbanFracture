@@ -1,0 +1,21 @@
+# Build227 — complete prison art upgrade
+
+Recovery checkpoint: checkpoint-before-prison-art227 (published Build226).
+
+All fifteen native sections use new high-detail illustrated backgrounds. Intake and recreation have separate architecture. Mess hall, facilities hall, infirmary, commissary, laundry, checkpoint, security office, armory, administration and warden office each have their own asset. C/B/A use the same upgraded two-tier cell-block architecture as specified, with distinct native block signs and preserved animated background rioters.
+
+Integration: `PrisonView224.ready` loads deduplicated original assets in `dist/assets/prison/`; production's existing loading gate awaits them. `PrisonView224.scene` selects by the native section index. Short rooms fit their existing world width; long corridors use world-locked mirrored panorama sections. Native environment grading/precipitation, combat geometry, props, spawn/arena configuration, facility portals and return conditions remain authoritative. Interactive doors, gate bars, release switch, live monitors and block signs remain separate from the painted scenery. Tables and doors receive additional material shading/fasteners.
+
+Frankie: removed the second scene-level chain overlay in `game.js`. The existing sprite renderer owns the chain, its hand attachment and attack path. No attack timing, reach or damage changes.
+
+Asset direction: original generated bitmap game environments, side-on camera, richly textured weathered prison materials, no characters/HUD, clear floor strip in bottom20%, detailed shaded surfaces instead of vector placeholders. Outdoor assets use neutral lighting for game weather; indoor areas use a cohesive institutional green/stone/steel palette, with warmer wood in administration/warden areas. Panorama specifications:3:1 for long sections,2:1 for compact rooms,5:2 for laundry and warden office. Prompt subjects are the named room's required furniture and fixtures; cell blocks include open cells, bunks and upper catwalks; security includes dark monitor screens for native animated overlays.
+
+Validation: `tests/prison227.cjs` checks native section/ground preservation, source resolution, scrolling coverage, all15 view mappings,13 unique image owners, dynamic gate/office states, the image loading gate and removal of the duplicate chain owner. All six heroes clear both yards with existing locks/transitions. Full `tests/prison224-all.cjs` passes campaign, optional rooms/rewards, security-switch progression, C/B/A finales, shared encounters/grabs, weather and simulated controller regressions. Physical controller hardware is not tested. `tests/playtest226.cjs` preserves the latest input and stationary Hype charge fixes.
+
+Final art inspection: all thirteen assets are present (2172×724 panoramas,1774×887 compact rooms and1983×793 wider rooms). Browser confirms all fifteen section images load; live security feeds fit their painted monitor bezels, and Frankie has one attached outgoing chain. A source-art contact sheet was reviewed for coherent materials, readable floor lanes, room identities and no baked characters. Native current-suite tests completed successfully. Asset subjects/prompt assembly are retained in PRISON227-PROMPTS.json for future revisions.
+
+Final native cell-block inspection caught the old background-rioter root above the new painted walkway. Scenery-only fighters now use the446px rear lane and opaque-sole grounding. They remain noncombat scenery and do not alter enemy spawns, encounter accounting or gameplay lanes.
+
+Hosting-size repair: full-resolution PNG originals are retained in `source-art/prison227/`; deployed images are full-resolution WebP versions in `dist/assets/prison/` (3,354,996 bytes total). This preserves the designs and pixel dimensions while fitting the existing game's256MiB archive limit, without changing other levels' assets. No gameplay/content was removed.
+
+Expanded-size limit: the complete game also approaches the host's256MiB expanded archive cap. Two existing large background files (hotel-nightlife-extra73.webp and service-alley-v1.webp) were re-encoded at WebP quality99 with unchanged dimensions/layout; their exact original files are preserved under `source-art/hosting-originals/`. This encoding-only optimization adds enough headroom without removing any level, character, scene, or move.

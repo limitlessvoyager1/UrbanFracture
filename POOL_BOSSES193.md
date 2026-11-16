@@ -1,0 +1,25 @@
+# Casino · Ophelia & Jameson
+
+Checkpoint: `checkpoint-before-pool-boss193` at 77be1c2b623b362525e940ebd845c477ebd37f99.
+
+Pool terrace now ends with a paired encounter. Ophelia has160HP, Jameson225HP. They wait in one arm-around-shoulders pose while ordinary guards remain. After all supports are defeated and the hero reaches the far terrace, the arena locks to1064..1978, depth442..510. Both bosses use existing Audit135/Director148 admission (3pressure points/2attackers), damage, block, counter,119 synchronized recovery and defeat settlement.
+
+Ophelia: crackling baton slap/three-hit combination, male-only low kick and clothed clutch reaction, female-only tackle/mounted head-control sequence, sweep and three separate grounded stomps. Blocking reduces damage and prevents shock. Ground attacks respect wake protection and escape rolls. Pins and Jameson's three-punch/roundhouse grab have three-tap early escape, separate timed contacts, original hero art, one119session and cleanup on interrupt/death/transition. Ordinary boss counter thresholds remain; explicitly eligible kick attacks support every hero's counter framework. Baton/grab/ground attacks are not declared counterable.
+
+Jameson: tall fixed-scale white-costumed kick specialist; long front kick, spin, travelling flying kick, jumping front kick, three-kick combination and grab combination. Visible startup and recovery; horizontal travel and visual elevation never change combat depth. Stable world scale also applies after rage and inside other heroes' throws.
+
+Nonlethal player knockdowns at the pool-side lane(y<=460) queue a water fall. Finish any owned synchronized grapple before entering water. Fall0.65s, splash/ripples/gravity spray, float20seconds, swim2.4seconds, climb0.9seconds. They are out of combat, untargetable and cannot heal or attack in water; alive HP still prevents victory. A3s return grace prevents immediate repeated falls. Two bosses may be in water simultaneously. Shared simulation time owns every timer and pauses with play. No independent realtime timer.
+
+After one actual defeat, survivor permanently receives1.25movement speed,1.20attack damage,.65cooldown multiplier and no boss defenses. The identity flag/portrait/art/scale/HP remain; `poolRage193` uses ordinary enemy defense/grab/status eligibility rather than boss gates. No guard/active armor/boss threshold, no phase transition. Ordinary universal wake/regrab fairness remains. Rage survives pool recovery. Both landed defeats trigger Casino completion once.
+
+Steady violet coping lights, restrained static baton glow, no added strobe/lightning. Procedural splash sound and existing female vocal audio share sound controls. Audit135 dispatch bypasses Jackal AI while retaining Director admission. Autonomous25s simulation checks both authored movesets and absence of Jackal phase/backup actions. Successful sweeps have a short explicit follow-up window for grounded stomps; missed/blocked sweeps retain normal recovery. Twelve moves use one explicit timeline each, no broad invisible damage zone. No changes to other heroes' moves, other levels, casino slots, normal Security or controllers.
+
+Files: `dist/pool-boss193.js` simulation/config, `pool-boss-view193.js` rendering/audio, `pool-boss193-data.js` imported asset dimensions. Developer inspector `pool-boss193.html` offers every attack, hero, waiting pair, simultaneous pool falls, rage, single-frame and single-second steps. `tests/pool-boss193.cjs` exercises real ticks, contacts, escape, all-hero counters, block, pool phases, resets, rage and completion.
+
+Art sources retained in art-archive193. Ten legacy PNGs also moved there after exact-RGBA lossless WebP conversion to keep published static output below256MiB. Cache references updated; no visual quality change. Source remains editable/buildless Canvas/HTML/JS; run through a static server serving dist, as described in README.
+
+Validation: pool-boss193; current150(26suites); casino192; niko-counters186; broxton179; niko-air191; animation189; government182; environment162; environment-integration156; gamepad.test; controller157. Browser frame-inspector review of pair, water and pin poses. Physical gamepad hardware and human balance playtest not claimed.
+
+## Continuation polish194
+
+Checkpoint `checkpoint-before-pool-polish194` at58c9cb7394687e0e93ae3491b8d77704346af8e8. The water timeline now interpolates actual actor root→floating position→true climb/return position, preventing a sideways pop at either end. Floating/swimming bodies are masked behind the panorama’s front coping, and climb-out feet use the actual root without the old15px offset. The developer inspector has direct Swim/Climb/Returned phase controls and water/return X diagnostics. All phase durations and combat tuning are unchanged. Stomp art alternates a raised knee and planted heel instead of using the seated leg-sweep pose; final contact now settles into guarded recovery. `tests/pool-polish194.cjs` covers both bosses, three horizontal positions and30/60/120Hz, plus presentation contact/recovery choices. Existing combat, controller and environment suites also pass.

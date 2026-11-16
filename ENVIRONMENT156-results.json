@@ -1,0 +1,53 @@
+{
+  "build": 156,
+  "checkpoint": "checkpoint-before-environment156",
+  "baseline_source": "db5ec85b5d5443a6dabff432ab07826a30ddc745",
+  "pure_simulation": "PASS",
+  "frame_rates": [
+    30,
+    60,
+    120
+  ],
+  "matching_duration_seconds": 1020,
+  "combat_regression_suites": 26,
+  "weather_isolation_heroes": [
+    "reina",
+    "broxton",
+    "nova",
+    "forest"
+  ],
+  "identical_grapple_comparisons": 16,
+  "scene_classifications": 22,
+  "browser_render_audit": {
+    "outdoor_starts": 20,
+    "weathers": 7,
+    "phases": 8,
+    "indoor_starts": 12,
+    "total_cases": 1132,
+    "exceptions": 0,
+    "failed_scenery_preparations": 0
+  },
+  "animated_cpu_render_ms": {
+    "financial_midnight_storm": {
+      "median": 2.4,
+      "p95": 3.7
+    },
+    "deep_woods_2x_midnight_storm": {
+      "median": 1.0,
+      "p95": 1.7
+    }
+  },
+  "benchmark_conditions": {
+    "frames": 180,
+    "quality": "high",
+    "wetness": 1,
+    "intensity": 1,
+    "compositor_included": false
+  },
+  "limits": [
+    "Physical controller/hardware FPS certification not performed",
+    "Cold scenery preparation excluded from warmed performance",
+    "Existing baked artwork shadows remain; dynamic actor shadows are not ray traced",
+    "Saved world stores environment, not full combat position"
+  ]
+}

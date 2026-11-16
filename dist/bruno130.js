@@ -1,0 +1,6 @@
+
+(function(root){'use strict';const N=root.NeonCombat,P=N.Brawler.prototype,old={tick:P.tick,damage:P.damage};const C={stride:144};
+P.damage=function(e,amount,dir,knock,o={}){const p=this.player,rear=e.type==='enforcer'&&o.attacker===p&&(p.x-e.x)*e.dir<0&&!e.dormant&&!e.down&&!e.flight&&!e.heldBy&&!e.entry&&!e.liftEntry&&!e.entering&&!e.wakeInv&&e.activeAt<=this.time;if(rear){e.guarding=0;e.blockCount=0;if(e.inv<=.1)e.inv=0;}return old.damage.call(this,e,amount,dir,knock,o);};
+P.tick=function(dt,input={}){const snapshot=new Map(this.enemies.filter(e=>e.type==='enforcer').map(e=>[e,{x:e.x,y:e.y,phase:e.gaitPhase130||0}])),r=old.tick.call(this,dt,input);for(const[e,b]of snapshot){if(!this.enemies.includes(e)||e.hp<=0||e.down||e.flight||e.heldBy||e.hold||e.stun)continue;if(e.guarding>0){e.walk=0;e.grappleZ=e.grappleAngle=e.grapplePivot=0;if(e.pairVisual?.action!==e.pairVisual?.owner?.act)e.pairVisual=null;continue;}if(e.act||!e.walk)continue;const d=Math.hypot(e.x-b.x,(e.y-b.y)/.65);if(d<1e-6){e.walk=0;continue;}e.gaitPhase130=(b.phase+d/C.stride)%1;e.walkPhase=e.gaitPhase130;e.gaitFrame130=Math.floor(e.gaitPhase130*8)%8;}return r;};
+N.Bruno130={config:C};
+})(typeof window!=='undefined'?window:globalThis);

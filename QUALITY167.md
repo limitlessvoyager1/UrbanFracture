@@ -1,0 +1,32 @@
+# Quality167
+
+Checkpoint: checkpoint-before-quality167 (published166). Keep Build162 route layout and shared seeded environment.
+
+Kevin HUD loads the actual sprite data source and face crop. All lethal damage forces grounded fall and clears shock/sticky/action overlays. Frankie retains standard base-sheet identity in grabs, with upper-arm tattoos;25% eligible ranged decisions approach for powerful melee, otherwise existing chain AI. Ethan/Nora scales .46/.435, average build, grounded gait. Flask flight .95s with higher arc; chemical surfaces grow .4s with irregular shared render/collision outline;2 total,5s lifetime. Sticky3s permits manual block only, never automatic block.
+
+Universal GO text #ffe85b with dark backing renders after environment lighting. Park uses three unique detailed atlas sections, world-locked common dirt and opaque oak join cover; original geometry/encounters/fork positions preserved.
+
+After workroom initial enemies settle, scripted Ethan enters left, visibly winds up and throws three incendiary flasks, then runs off left. Only after exit/transition does the3-enemy reinforcement wave and60s red countdown begin. Timeout remains game over; clearing allows escape. Detailed6-frame flames, warm light, smoke and embers replace geometric shapes; reduced flashing honored.
+
+Validation: current150 all26 suites; quality16736 lethal cases across4 heroes, Frankie decisions,8 arson simulations across60/120Hz, timing/escape/timeout, irregular hazards, GO and portraits; lab-fighters166; environment162; environment-integration156; ground149/workers165. Browser checked Frankie front grip transparency/tattoos, park join and detailed fire/red1:00. Existing alpha silhouette is preserved exactly via frankie-mask167.webp destination-in caching. No combat RNG is consumed by environmental code. No new FPS benchmark claimed.
+
+## Art provenance
+
+Built-in ImageGen; new assets: dist/assets/uptown-park167.webp, park-trees167.webp, lab-fire167.webp, sprites/frankie167.webp. Frankie alpha carrier derives losslessly from original tracked Frankie alpha; original image replaced to stay within hosting cap. Fire/trees transparent. Park original165 retained solely as ground source.
+
+### parkAtlas167prompt
+
+Use case: stylized-concept. Production background atlas for a single CONTINUOUS 6000-unit side-scrolling Lakeside Park level. The reference establishes scenery/style. IMPORTANT layout: THREE wide horizontal strips stacked vertically, equal heights, no gaps, no text. Suggested canvas2048x1536, each strip2048x512. These are consecutive thirds of ONE connected left-to-right panorama, NOT repeated views. Top strip: start at lakeside tree/lamppost and bench, downtown skyline and lake, unique statue, flowers; end on open lake and matching dirt trail. Middle strip: continue same lake/horizon and trail, picnic lawn and unique small bridge over stream; both far left/right edges show open water, distant shore and uninterrupted flat dirt so strips can join. Bottom strip: continues from middle; woodland path and stone gateway centered40% across this strip, distinctive bushes/flowers and benches, then1200-unit continuation along lake to right. All three strips have IDENTICAL camera height/perspective, sky-lake horizon at45% strip height, near ground begins76% strip height, level dirt combat trail bottom24%, same ground texture/color/light throughout. Keep shared strip edges unobstructed for clean joins, no large trees/objects within outer80pixels except start far left. Crisp high-resolution arcade pixel-art details in bark, stone, flowers, foliage and fine dirt, no blurry brushwork. No people, no text, no duplicate statue/bridge/gateway. The three rows will be stitched in order horizontally at native scale to create the single continuous scene.
+
+### fire167prompt
+
+Use case: stylized-concept. Transparent animation atlas for a detailed 16-bit arcade game cabin laboratory fire. ONE horizontal row of SIX equally spaced animation cells. Each cell one naturally irregular tall tongue of roaring orange fire, yellow-white hot base, ragged translucent red-orange edges, a few tiny sparks above it; different turbulent shapes form six consecutive flicker frames. Detailed pixel-art dithering and strong luminous inner detail, not simple geometric teardrops or triangles. True transparent background with clean alpha, no solid black backdrop, no floor, no room, no text/grids, no people. Each flame base aligns at same baseline, complete flame contained within its cell with transparent space, 3:1 atlas composition. These will be layered over wooden walls and chemistry tables.
+
+### frankie167prompt
+
+Use case: precise-object-edit. Edit this existing Frankie biker sprite sheet ONLY by adding the same dark charcoal tribal-style tattoo to the visible exposed upper arm in EVERY pose, including idle, walk, chain windup, chain swing, punch, falling and lying poses. Keep the exact original biker identity: slick dark hair, sunglasses, black leather vest over gray tank, black pants/boots, chain. Do not change faces, bodies, poses, coordinates, scale, spacing, dimensions, lighting, outlines or background. Preserve the sheet layout exactly,1536x1024 image. Tattoos must look inked on skin following arm volume, not floating symbols. No other changes, no text. The original background should remain exactly the same for existing sprite extraction.
+
+### parkTrees167prompt
+
+Use case: stylized-concept. Transparent background asset for a16-bit illustrated arcade lakeside park. TWO distinct large mature oak trees side by side, each fully contained in its own equal-width half of a square canvas. Each tree is a foreground scenery cutout, complete from roots at bottom to green canopy at top. Especially IMPORTANT each has one broad continuous OPAQUE solid trunk down the center, at least180pixels wide at midheight on a1024x1024 canvas, with no holes/gaps or split trunks from roots through top3/4 of height. One tree rough brown bark and ivy at base, the other gray-brown bark with moss and broad roots. Dense crisp detailed green canopy spreads across each half near top quarter; trunk visible full height, rich pixel detail and strong clean silhouette. True transparent alpha outside trees, NO scenery, lake, sky, background rectangle, text or people. No ground slab. Designed to stand behind fighters, not as playable obstacles. Preserve sharp arcade pixel art foliage/bark, no blur, no fading transparency inside the trunk.
+

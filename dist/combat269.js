@@ -1,0 +1,1 @@
+(function(N){'use strict';N.Review269=true;const P=N.Brawler.prototype,tick=P.tick;P.tick=function(dt,i){for(const e of this.enemies)if(N.Street209.armorless(e))e.wakeArmor=e.wakeInv=0;return tick.call(this,dt,i);};})(globalThis.NeonCombat);

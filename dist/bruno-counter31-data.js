@@ -1,0 +1,1 @@
+window.NeonBrunoCounter31={"src": "assets/sprites/bruno-paired-counter-v31.webp", "frames": [{"rect": [32, 151, 920, 612], "seed": [252, 457], "anchor": [270, 763]}, {"rect": [928, 148, 941, 621], "seed": [1089, 404], "anchor": [1180, 769]}]};

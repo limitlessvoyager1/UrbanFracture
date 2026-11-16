@@ -1,0 +1,36 @@
+{
+  "build": 228,
+  "suites": [
+    {
+      "suite": "foundation",
+      "passed": true
+    },
+    {
+      "suite": "physical",
+      "passed": true
+    },
+    {
+      "suite": "repair",
+      "passed": true
+    },
+    {
+      "suite": "grabs",
+      "passed": true
+    },
+    {
+      "suite": "specials",
+      "passed": true
+    },
+    {
+      "suite": "integration",
+      "passed": true
+    }
+  ],
+  "checkpoint": "checkpoint-before-orion228",
+  "rates": [
+    30,
+    60,
+    120
+  ],
+  "hardwareVerified": false
+}

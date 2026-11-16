@@ -1,0 +1,21 @@
+# Stadium stabilization audit — before edits
+
+Recoverable checkpoint: checkpoint-before-stadium239 at e3e343ddab9c1c7d258060df9d9b6c1d5017160d (published Build238).
+Primary evidence: supplied 79.50s/30FPS recording, reviewed across its duration with 6-second overview frames plus focused entrance frames. Button events are not shown; missed presses cannot be proven from the recording alone.
+
+Confirmed defects and causes:
+
+1. Parking panorama repeats the same entire stadium/tailgate facade around world x1454 and x2908. StadiumView237.picture tiles one887x222 image with height364. No single stadium approach/entrance composition exists. Frames0–24s and60–72s show repeated architecture.
+2. Three additional native40HP vehicle props occupy lanes455/506, with375px footprints and solid collision; the raster also includes parked vehicles. Frames0–72s show hero/Gunner/vehicle overlaps and repeated obstruction. Remove the three gameplay props from Stadium only; retain painted background vehicles outside the walkable band. Latest request supersedes the original destructible-car stadium request.
+3. Near fans use115px before native fighters' larger world scale, while their feet are only10–40 world units behind the hero. Fixed miniature size is not justified by depth. Their initial rendering uses static cheering poses and finite flight reactions but no distance-aware sizing.
+4. Native entry movement interpolates every entry in1.1s, regardless of path length. Adaptive222's offscreen+180 start to interior target can move700–900units while walkPhase advances only1.98 cycles. This is a root-speed/gait mismatch. Preserve actual offscreen entry and offensive gates; use archetype entry speed, distance-driven phase and correct moving pose.
+5. Confirmed Forest dropped-input reproduction: while p.forestComboReady125 has0.1s left and p.act/p.cd are clear, Attack is silently rejected and no native buffer is created. Input226 buffers ordinary act/cd but does not know Forest's separate0.6s end-of-string cooldown. Native buffer consumption also has no earliest-execution field. Preserve full recovery and use the same240ms buffer with a not-before time; no second input controller.
+6. Gunner HUD overlaps charge and Blitz at x610/y38–65. The AUTO label reports the maximum of all ability cooldowns, so it can imply no autonomous action is possible even when one ability is ready. Need separately legible mode/task and per-ability timing.
+7. All four Gunner profiles ARE implemented:173 extends Companion126 scanner/tasks,134 moves the dog,175 owns commanded maul,177 owns grapple assists. Mode persists per game instance. Need runtime stadium fixtures that demonstrate actual attacks, protection, retrieval/search and commanded priority, rather than just menu labels.
+8. Balanced explicitly has no hidden-item search in173, contrary to this new specification. Extend its existing finite search path with a slower low-priority cadence; Tactical remains the stronger weak-target/item profile. Preserve whole-run three-cache/30HP cap and no duplicate identities.
+9. Gunner attacks currently check target HP/locks but task continuation does not explicitly verify the target remains in the current enemy list; add stale-reference cleanup. Existing path tests use a point-like obstruction while large native parked cars use wider footprints. Removing Stadium's gameplay cars resolves this recording's obstruction; verify shared dog path rules for other scenery without teleporting.
+10. Stadium239 needs authored cloth/sky preparation for its replacement approach art so global230 wind/162 lighting remains authoritative. Do not claim all baked spectators/tents are automatically animated.
+
+Retained: Stadium237 nine sections, route lengths and elevator branches, same115/450HP definitions and Baylor AI, scripted-only boss exclusion,1483-point/max2 commitments,222 max2 arenas/section including boss,119/198/223 sync, current six heroes, seeded156/162/217/218 environment, native controller reader and mappings. Only the two parking background spans are replaced; later areas remain intact.
+
+Verification limits: recording has no button overlay; physical DualSense and subjective human balance require real playtesting. Code-level tests must distinguish legitimate recovery/health/cooldown/protection rejections from dropped valid input.

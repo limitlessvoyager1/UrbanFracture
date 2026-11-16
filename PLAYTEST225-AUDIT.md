@@ -1,0 +1,7 @@
+Checkpoint: checkpoint-before-playtest225.
+
+Confirmed defects: Uptown reinforcements instantiate inside the camera with no entry; shared adaptive native-spawn integration only handles preexisting entry records. Stationary guardRaise210 bypasses opaque sole grounding because it is an action. Nova Blitz retries blocked contacts every frame and continues carrying previously struck targets after a later block. Fix existing paths; preserve damage, recovery, synchronized throws and scripted entrances.
+
+Implemented in existing modules: Uptown native entry records; shared adaptive fallback entries and full-body side origins; stationary guard opaque-sole grounding with action-frame-aware cache; actionability gate for Bruno's reactive Blitz guard; one Blitz attempt per target/stage, stop travel on block, release carry on blocked targets. Successful Blitz retains 8+8+14 and knockdown.
+
+Verification: tests/playtest225.cjs passes 30/60/120Hz, both facings, blocked and clean Blitz plus native/adaptive park entrance lifecycle. Browser production sprites measured idle/guard startup/contact/mirrored opaque bottoms at300/300/301/301 against ground300 (1px raster tolerance), no sprite rescaling. prison224-all.cjs passed complete campaign, six heroes, universal grabs, shared encounters, weather and controller regressions. nova77.test.cjs, nova128-regression.test.cjs, controller157.cjs and gamepad.test.cjs passed. Physical controller hardware was not tested. Existing scripted/scenery entrances retain their native records.

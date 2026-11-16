@@ -1,0 +1,7 @@
+
+(function(root){'use strict';const {Brawler,clamp}=root.NeonCombat,P=Brawler.prototype,oldCommand=P.command,oldAdvance=P.advanceHeroAction;
+P.command=function(key,input={}){const p=this.player,previous=p.act;if(key!=='dodge'||p.type!=='broxton')return oldCommand.call(this,key,input);const result=oldCommand.call(this,key,input),a=p.act;if(!a||a===previous||a.name!=='dodge')return result;
+ const nearby=this.enemies.filter(e=>e.hp>0&&!e.dormant&&!e.down&&!e.flight&&!e.entry&&!e.liftEntry&&Math.abs(e.x-p.x)<=80&&Math.abs(e.y-p.y)<30).sort((a,b)=>Math.abs(a.x-p.x)-Math.abs(b.x-p.x))[0],side=nearby?Math.sign(nearby.x-p.x)||p.dir:(Math.sign((input.right?1:0)-(input.left?1:0))||p.dir);const intended=nearby?nearby.x+side*34:p.x+side*58;const crosses=!!nearby&&intended>=this.bounds.min&&intended<=this.bounds.max;const toX=clamp(crosses?intended:p.x+side*58,this.bounds.min,this.bounds.max),lane=p.y>455?-1:1;a.shuffle52={fromX:p.x,fromY:p.y,toX,side,target:crosses?nearby:null,lane};return result;};
+P.advanceHeroAction=function(p,a,dt){oldAdvance?.call(this,p,a,dt);if(p!==this.player||a.name!=='dodge'||!a.shuffle52)return;const q=a.shuffle52,u=clamp(a.t/a.total,0,1),ease=u*u*(3-2*u);p.x=q.fromX+(q.toX-q.fromX)*ease;p.y=clamp(q.fromY+q.lane*15*Math.sin(Math.PI*u),this.groundBounds.min,this.groundBounds.max);if(u>=1){p.y=q.fromY;if(q.target&&q.target.hp>0&&(p.x-q.target.x)*q.side>0)p.dir=-q.side;}};
+root.NeonShuffle52={range:80,behind:34};if(typeof module!=='undefined')module.exports=root.NeonShuffle52;
+})(typeof window!=='undefined'?window:globalThis);

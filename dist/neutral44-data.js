@@ -1,0 +1,1 @@
+window.NeonNeutral44Data={"src": "assets/sprites/reina-neutral44-v1.webp", "scale": 0.28, "frames": [{"rect": [119, 124, 453, 477], "seed": [361, 360], "anchor": [480, 700]}, {"rect": [672, 52, 599, 639], "seed": [932, 361], "anchor": [955, 715]}, {"rect": [1388, 153, 428, 487], "seed": [1783, 385], "anchor": [1730, 730]}]};

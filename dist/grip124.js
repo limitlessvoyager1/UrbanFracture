@@ -1,0 +1,25 @@
+
+(function(root){'use strict';const N=root.NeonCombat,P=N.Brawler.prototype,clamp=N.clamp,old={};for(const k of ['acquireGrab','holdAction','advanceHeroAction','finishHeroAction','tick','release','reset'])old[k]=P[k];
+const ease=u=>{u=clamp(u,0,1);return u*u*(3-2*u)},mix=(a,b,u)=>a+(b-a)*u;
+const limit=h=>h.counter?2.85:({boss:.75,bouncer:.9,enforcer:1.1,biker:1.5,cop:1.5}[h.victim.type]||2.2);
+function sample(q,t){const f=clamp(t/q.total,0,1)*30,u=ease((f-5)/21),theta=Math.PI*u,reach=mix(q.startReach,q.endReach,u),x=q.vx-q.dir*reach*Math.cos(theta),depth=(q.rear?-1:1)*q.depth*Math.sin(theta),turn=u,phase=f<5?'EXISTING HOLD':f<10?'TRANSFER CONTROL':f<17?'SIDE PIVOT':f<25?'SECURE POSITION':'DESTINATION HOLD';return{frame:f,u,x,y:q.y,depth,turn,phase,contact:{x:q.vx+q.vdir*mix(q.rear?-3:9,q.rear?9:-3,u),y:q.y-mix(q.rear?82:108,q.rear?108:82,u)*q.vScale},scale:1,groundY:q.y,contactActive:true};}
+function valid(g,a){const p=g.player,q=a.grip124,h=q.hold,v=q.victim;return p.hold===h&&h.victim===v&&v.heldBy===p&&g.enemies.includes(v)&&p.hp>0&&v.hp>0&&!p.down&&!p.stun&&!p.heldBy&&!g.transition&&!g.finScene&&!g.alleyIntro&&!g.bossEnding;}
+function pose(g,a){const p=g.player,q=a.grip124,v=q.victim,s=sample(q,a.t);p.x=s.x;p.y=q.y;p.walk=0;p.running=false;p.jump=0;p.grappleZ=0;p.dir=q.dir;p.gripPose124=s;p.gripAction124=a;v.x=q.vx;v.y=q.vy;v.dir=q.vdir;v.walk=0;v.running=false;v.act=null;v.grappleZ=0;v.grappleAngle=0;v.grapplePivot=0;v.gripVictim124=a; a.debug124={...s,session:q.hold.session124,rear:q.rear,remaining:Math.max(0,limit(q.hold)-(q.hold.idle||0)),buffer:a.buffer124?.key||null};}
+function clean(g,a,release=false){const p=g.player,q=a?.grip124;if(!q)return;p.gripPose124=null;p.gripAction124=null;q.victim.gripVictim124=null;if(release&&p.hold===q.hold)old.release.call(g,p);if(p.act===a)p.act=null;a.buffer124=null;}
+P.acquireGrab=function(...args){const ok=old.acquireGrab.apply(this,args);if(ok&&this.player.hold){this.gripSerial124=(this.gripSerial124||0)+1;this.player.hold.session124=this.gripSerial124;}return ok;};
+P.holdAction=function(key,input={}){const p=this.player,h=p.hold,a=p.act;if(p.pendingGrip124&&!p.dispatchGrip124)return true;if(a?.grip124){if(a.t>=a.total-8/60&&(key==='attack'||key==='special'&&(p.type==='nova'||p.type==='reina'&&a.grip124.rear))&&!a.buffer124)a.buffer124={key,input:{...input}};return true;}
+ if(key!=='jump'||!h||h.counter||p.act||p.cd>0)return old.holdAction.call(this,key,input);if(h.switches>=3)return true;
+ const v=h.victim,d=p.dir,endReach=p.type==='broxton'?(h.rear?52:38):p.type==='forest'&&h.rear&&N.Combat134?N.Combat134.grabReach(this,h.victim):32,total=p.type==='broxton'?34/60:30/60,vScale=1.46515635*(this.zone===11?1.12:1)*({cop:.94,thug:.92,knifeThug:.92,enforcer:1.15,bouncer:1.1,boss:1.2,security:1.08*1.08}[v.type]||1),target=v.x+d*endReach;
+ const bounds=N.LockedBattles222?.active(this)?.bounds||this.bounds;if(target<bounds.min||target>bounds.max){this.fx(p.x,p.y-120,'NO ROOM','#ffb77a');return true;}
+ const q={hold:h,victim:v,rear:h.rear,dir:d,vdir:v.dir,vx:v.x,vy:v.y,y:p.y,startReach:Math.abs(v.x-p.x),endReach,total,depth:p.type==='broxton'?7:p.type==='nova'?11:8,vScale};
+ this.start(p,'gripTransition124',total,999,{victim:v,grip124:q});p.holdBuffer=null;p.attackGesture=null;p.inv=Math.max(p.inv,.42);pose(this,p.act);return true;};
+P.advanceHeroAction=function(p,a,dt){if(a.grip124){if(a.t+1e-8>=a.total)a.t=a.total;if(!valid(this,a)){clean(this,a,true);return;}a.grip124.hold.idle=(a.grip124.hold.idle||0)+dt;if(!N.Grab223&&a.grip124.hold.idle>limit(a.grip124.hold)||a.grip124.hold.brunoBreak&&a.grip124.hold.age+dt>=.35){clean(this,a,true);p.stun=.28;p.cd=Math.max(p.cd,.45);return;}pose(this,a);return;}return old.advanceHeroAction?.call(this,p,a,dt);};
+P.finishHeroAction=function(p,a){if(a.grip124){const q=a.grip124;if(!valid(this,a)){clean(this,a,true);return;}pose(this,a);const h=q.hold,b=a.buffer124;h.rear=!q.rear;h.switches++;p.dir=-q.dir;q.victim.heldRear=h.rear;q.victim.dir=q.vdir;p.gripPose124=null;p.gripAction124=null;q.victim.gripVictim124=null;p.pendingGrip124=b;p.holdBuffer=null;return;}return old.finishHeroAction?.call(this,p,a);};
+P.release=function(p){if(p.act?.grip124)clean(this,p.act,false);return old.release.call(this,p);};
+P.tick=function(dt,input={}){const p=this.player,before=p.act;if(p.gripAction124&&p.gripAction124!==before)clean(this,p.gripAction124,true);if(before?.grip124&&!valid(this,before))clean(this,before,true);const r=old.tick.call(this,dt,input),a=p.act;
+ if(a?.grip124){if(valid(this,a))pose(this,a);else clean(this,a,true);}else if(before?.grip124&&p.gripPose124)clean(this,before,true);
+ if(p.pendingGrip124){const b=p.pendingGrip124;p.pendingGrip124=null;if(p.hold&&!p.act&&p.hp>0&&!p.down&&!p.stun){p.dispatchGrip124=true;try{this.holdAction(b.key,b.input);}finally{p.dispatchGrip124=false;}};}
+ return r;};
+P.reset=function(...args){if(this.player?.act?.grip124)clean(this,this.player.act,true);return old.reset.apply(this,args);};
+N.GripTransition124={sample,limit,holdAction:P.holdAction};
+})(typeof window!=='undefined'?window:globalThis);

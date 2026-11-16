@@ -1,0 +1,1 @@
+window.NeonBlock48Data={"src": "assets/sprites/broxton-block48-v1.webp", "scale": 0.19300518134715025, "frames": [{"rect": [114, 71, 641, 772], "seed": [312, 458], "anchor": [434, 843]}, {"rect": [1029, 84, 631, 759], "seed": [1272, 482], "anchor": [1344, 843]}]};

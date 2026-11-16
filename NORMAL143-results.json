@@ -1,0 +1,1541 @@
+{
+  "scope": "112 seeded10s automated stress fixtures, not human balance playtests",
+  "rows": [
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 68,
+      "damage": 42,
+      "seconds": 10.000000000000076,
+      "unable": 4.633333333333322,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 92,
+      "damage": 18,
+      "seconds": 10.000000000000076,
+      "unable": 4.533333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 64,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 94,
+      "damage": 16,
+      "seconds": 10.000000000000076,
+      "unable": 4.049999999999991,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 28,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.416666666666649,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 72,
+      "damage": 38,
+      "seconds": 10.000000000000076,
+      "unable": 4.799999999999988,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 52,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 2.5166666666666626,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 94,
+      "damage": 16,
+      "seconds": 10.000000000000076,
+      "unable": 4.949999999999988,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 52,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 4.9166666666666545,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 74,
+      "damage": 36,
+      "seconds": 9.933333333333406,
+      "unable": 5.116666666666654,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 28,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.249999999999983,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 48,
+      "damage": 62,
+      "seconds": 10.000000000000076,
+      "unable": 5.566666666666652,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 41,
+      "damage": 69,
+      "seconds": 10.000000000000076,
+      "unable": 4.266666666666657,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "reina",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 78,
+      "damage": 32,
+      "seconds": 10.000000000000076,
+      "unable": 5.066666666666654,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 68,
+      "damage": 42,
+      "seconds": 10.000000000000076,
+      "unable": 4.633333333333322,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 92,
+      "damage": 18,
+      "seconds": 10.000000000000076,
+      "unable": 4.533333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 64,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 94,
+      "damage": 16,
+      "seconds": 10.000000000000076,
+      "unable": 4.049999999999991,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 28,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.416666666666649,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 72,
+      "damage": 38,
+      "seconds": 10.000000000000076,
+      "unable": 4.799999999999988,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 52,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 2.5166666666666626,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 94,
+      "damage": 16,
+      "seconds": 10.000000000000076,
+      "unable": 4.949999999999988,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 64,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 74,
+      "damage": 36,
+      "seconds": 9.933333333333406,
+      "unable": 5.116666666666654,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 28,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.249999999999983,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 25,
+      "damage": 85,
+      "seconds": 9.933333333333406,
+      "unable": 6.583333333333315,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 50,
+      "damage": 60,
+      "seconds": 10.000000000000076,
+      "unable": 4.3666666666666565,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "reina",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 54,
+      "damage": 56,
+      "seconds": 9.933333333333406,
+      "unable": 5.816666666666651,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 83,
+      "damage": 32,
+      "seconds": 10.000000000000076,
+      "unable": 3.0833333333333273,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 115,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 5.666666666666652,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 69,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 68,
+      "damage": 47,
+      "seconds": 10.000000000000076,
+      "unable": 5.7666666666666515,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 33,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.416666666666649,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 115,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 5.666666666666652,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 57,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 2.5166666666666626,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 85,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 5.999999999999984,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 69,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 93,
+      "damage": 22,
+      "seconds": 10.000000000000076,
+      "unable": 6.11666666666665,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 1,
+      "damage": 114,
+      "seconds": 10.000000000000076,
+      "unable": 6.766666666666648,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 61,
+      "damage": 54,
+      "seconds": 10.000000000000076,
+      "unable": 6.3166666666666496,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 57,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 5.499999999999986,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "nova",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 88,
+      "damage": 27,
+      "seconds": 10.000000000000076,
+      "unable": 5.966666666666651,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 85,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 4.383333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 115,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 5.666666666666652,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 69,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 68,
+      "damage": 47,
+      "seconds": 10.000000000000076,
+      "unable": 5.7666666666666515,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 33,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.416666666666649,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 115,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 5.666666666666652,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 57,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 2.5166666666666626,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 85,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 5.999999999999984,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 57,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 4.9166666666666545,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 93,
+      "damage": 22,
+      "seconds": 10.000000000000076,
+      "unable": 6.11666666666665,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 33,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.249999999999983,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 101,
+      "damage": 14,
+      "seconds": 10.000000000000076,
+      "unable": 5.783333333333318,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 55,
+      "damage": 60,
+      "seconds": 10.000000000000076,
+      "unable": 4.3666666666666565,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "nova",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 71,
+      "damage": 44,
+      "seconds": 10.000000000000076,
+      "unable": 6.133333333333317,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 83,
+      "damage": 42,
+      "seconds": 10.000000000000076,
+      "unable": 4.7499999999999885,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 115,
+      "damage": 10,
+      "seconds": 10.000000000000076,
+      "unable": 8.04999999999998,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 79,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 110,
+      "damage": 15,
+      "seconds": 10.000000000000076,
+      "unable": 8.099999999999982,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 43,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.549999999999982,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 69,
+      "damage": 56,
+      "seconds": 10.000000000000076,
+      "unable": 8.45,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 51,
+      "damage": 74,
+      "seconds": 10.000000000000076,
+      "unable": 2.533333333333329,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 77,
+      "damage": 48,
+      "seconds": 10.000000000000076,
+      "unable": 8.199999999999987,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 79,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 125,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 8.083333333333314,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 43,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 5.833333333333318,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 49,
+      "damage": 76,
+      "seconds": 10.000000000000076,
+      "unable": 8.500000000000002,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 51,
+      "damage": 74,
+      "seconds": 10.000000000000076,
+      "unable": 4.666666666666655,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "broxton",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 69,
+      "damage": 56,
+      "seconds": 10.000000000000076,
+      "unable": 8.416666666666664,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 95,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 4.999999999999988,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 125,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 8.04999999999998,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 79,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 110,
+      "damage": 15,
+      "seconds": 10.000000000000076,
+      "unable": 8.099999999999982,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 43,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.549999999999982,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 69,
+      "damage": 56,
+      "seconds": 10.000000000000076,
+      "unable": 8.483333333333334,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 51,
+      "damage": 74,
+      "seconds": 10.000000000000076,
+      "unable": 2.533333333333329,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 77,
+      "damage": 48,
+      "seconds": 10.000000000000076,
+      "unable": 8.199999999999987,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 79,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 122,
+      "damage": 3,
+      "seconds": 10.000000000000076,
+      "unable": 8.083333333333314,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 43,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 5.833333333333318,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 76,
+      "damage": 49,
+      "seconds": 10.000000000000076,
+      "unable": 8.38333333333333,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 67,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 5.549999999999986,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "broxton",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 53,
+      "damage": 72,
+      "seconds": 10.000000000000076,
+      "unable": 7.899999999999977,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 90,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 4.083333333333324,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 96,
+      "damage": 24,
+      "seconds": 10.000000000000076,
+      "unable": 5.18333333333332,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 74,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 120,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 4.333333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 38,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.416666666666649,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 82,
+      "damage": 38,
+      "seconds": 10.000000000000076,
+      "unable": 5.249999999999987,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 62,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 2.5166666666666626,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 104,
+      "damage": 16,
+      "seconds": 10.000000000000076,
+      "unable": 4.649999999999989,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 62,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 4.9166666666666545,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 100,
+      "damage": 20,
+      "seconds": 10.000000000000076,
+      "unable": 4.966666666666654,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 38,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.249999999999983,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 62,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 6.06666666666665,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 60,
+      "damage": 60,
+      "seconds": 10.000000000000076,
+      "unable": 4.3666666666666565,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "forest",
+      "route": "downtown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 90,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 6.033333333333317,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": false,
+      "hp": 90,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 4.383333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug"
+      ],
+      "defense": true,
+      "hp": 120,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 4.333333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 74,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 120,
+      "damage": 0,
+      "seconds": 10.000000000000076,
+      "unable": 4.333333333333323,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": false,
+      "hp": 38,
+      "damage": 82,
+      "seconds": 10.000000000000076,
+      "unable": 6.416666666666649,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer"
+      ],
+      "defense": true,
+      "hp": 82,
+      "damage": 38,
+      "seconds": 10.000000000000076,
+      "unable": 5.249999999999987,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": false,
+      "hp": 62,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 2.5166666666666626,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker"
+      ],
+      "defense": true,
+      "hp": 104,
+      "damage": 16,
+      "seconds": 10.000000000000076,
+      "unable": 4.649999999999989,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 74,
+      "damage": 46,
+      "seconds": 10.000000000000076,
+      "unable": 0.850000000000001,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 77,
+      "damage": 43,
+      "seconds": 10.000000000000076,
+      "unable": 6.26666666666665,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": false,
+      "hp": 18,
+      "damage": 102,
+      "seconds": 10.000000000000076,
+      "unable": 6.649999999999982,
+      "maxSimultaneous": 1
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "enforcer",
+        "thug",
+        "knifeThug"
+      ],
+      "defense": true,
+      "hp": 62,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 6.06666666666665,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": false,
+      "hp": 62,
+      "damage": 58,
+      "seconds": 10.000000000000076,
+      "unable": 5.499999999999986,
+      "maxSimultaneous": 2
+    },
+    {
+      "hero": "forest",
+      "route": "uptown",
+      "types": [
+        "biker",
+        "thug",
+        "robber"
+      ],
+      "defense": true,
+      "hp": 90,
+      "damage": 30,
+      "seconds": 10.000000000000076,
+      "unable": 6.033333333333317,
+      "maxSimultaneous": 1
+    }
+  ]
+}

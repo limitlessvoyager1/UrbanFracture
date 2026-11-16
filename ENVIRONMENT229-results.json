@@ -1,0 +1,48 @@
+{
+  "build": 229,
+  "checkpoint": "checkpoint-before-environment229",
+  "suitesPassed": [
+    "environment229 model",
+    "environment229 HUD",
+    "environment229 six-hero integration",
+    "environment156",
+    "environment162",
+    "environment217 and controller menu",
+    "environment218",
+    "environment-integration156",
+    "prison224-all",
+    "orion228-all",
+    "gamepad",
+    "controller157"
+  ],
+  "registryConditions": 18,
+  "distinctIcons": 21,
+  "particlePoolSlots": 512,
+  "particlePoolBytes": 8192,
+  "browserCpuBenchmarks180Frames": {
+    "moderateRain": {
+      "medianMs": 6.6,
+      "p95Ms": 12.7
+    },
+    "heavyNightSnow": {
+      "medianMs": 5.2,
+      "p95Ms": 10.6
+    },
+    "scope": "full inspector CPU render; excludes compositor/presentation"
+  },
+  "browserChecks": [
+    "actual game light rain and HUD",
+    "moderate rain",
+    "heavy night snow",
+    "wintry mix",
+    "laboratory window exclusion",
+    "immediate temperature override"
+  ],
+  "limitations": [
+    "baked sky/branches/flags need asset segmentation for full support",
+    "runoff and hinged objects need surface/object metadata",
+    "physical controller hardware, hardware FPS and human listening acceptance unverified"
+  ],
+  "regionalContinuationScenarios": 40,
+  "regionalContinuationPassed": true
+}

@@ -1,0 +1,2 @@
+
+(function(root){const N=root.NeonCombat,P=N.Brawler.prototype,old=P.tick;P.tick=function(dt,input={}){const p=this.player,x=p.x,y=p.y;const result=old.call(this,dt,input);if(p.type==='forest'&&p.walk&&!p.act&&!p.down&&!p.jump){const step=Math.hypot(p.x-x,(p.y-y)*1.4);p.gaitRun127=!!p.running;p.gaitPhase127=((p.gaitPhase127||0)+step/(p.running?185:140))%1;}return result;};})(typeof window!=='undefined'?window:globalThis);
