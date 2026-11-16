@@ -4,6 +4,12 @@ Run from `/workspace/sites/urban-fracture`. No Node packages are required. Insta
 
 ## Routine development
 
+For a scoped change, `--suite id1,id2` runs an explicit subset of either profile. Unknown IDs are rejected. Every omitted suite remains `not-executed` in the report; a selected release run cannot certify the omitted coverage. Example: `node tools/qa242/run.cjs --profile initial --suite source-integrity,qa242-integrity,qa242-release-integrity`. Omit `--suite` for the complete profile. Do not run these processes concurrently.
+
+The current input fingerprint includes production files, all test/helper/QA/design/template sources, root Markdown contracts and package descriptors, and the `reportsNNN/package.json` files used by renderer bootstrap. Installed dependencies/caches are excluded; the runner records Node/platform/architecture separately. It does not claim a complete transitive dependency graph for every historical report or external artifact.
+
+Release checking now recomputes the gate using current suite policy, validates counts and process outcomes, and verifies log hashes. A stored `stable-candidate` summary alone is insufficient. Manual approvals still require a separate reviewed ingestion workflow; editing result rows does not approve screenshots, art, hardware or balance. Current-build native and render registrations supplement older fixtures; they do not certify every retained entry point.
+
 1. Preserve a Git checkpoint before substantial changes.
 2. Read `QA242-ARCHITECTURE.md`, the Style Bible, registry and open issues.
 3. Run `node tools/qa242/run.cjs --profile initial` after the affected implementation. Read `reports242/LATEST.md` and `latest.json`, not only process exit status. Initial is deliberately incomplete and never certifies a stable release.
