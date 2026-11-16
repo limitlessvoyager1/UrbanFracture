@@ -1,0 +1,16 @@
+PASS304 counter budget [
+  {
+    dir: -1,
+    counter: true,
+    maxCost: 3,
+    maxCommit: 2,
+    setup: 'isolated prearmed native Ready plus admitted light commitment; explicit lab threat assignment'
+  },
+  {
+    dir: 1,
+    counter: true,
+    maxCost: 3,
+    maxCommit: 2,
+    setup: 'isolated prearmed native Ready plus admitted light commitment; explicit lab threat assignment'
+  }
+]

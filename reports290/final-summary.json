@@ -1,0 +1,18 @@
+{
+  "build": 290,
+  "checkpoint": "20662bacb7724368c1507d788b7a95f48bb90836",
+  "regressionSuitesPassed": 142,
+  "regressionSuitesFailed": 0,
+  "rosterAssertionsPassed": 22507,
+  "actualMirroredRenders": 2520,
+  "identities": 30,
+  "identicalMechanicalTicks": 10800,
+  "stable": false,
+  "manualGates": [
+    "approved-screenshots",
+    "art-style-review",
+    "all-moves-coverage",
+    "physical-dualsense",
+    "human-balance"
+  ]
+}

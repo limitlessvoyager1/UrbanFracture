@@ -1,0 +1,55 @@
+idle { alpha: 4, maxAlpha: 16, changed: 1938, blue: 1662 }
+walk { alpha: 0, maxAlpha: 0, changed: 729, blue: 600 }
+run { alpha: 9, maxAlpha: 101, changed: 734, blue: 586 }
+charge { alpha: 0, maxAlpha: 0, changed: 2427, blue: 1701 }
+combo { alpha: 0, maxAlpha: 0, changed: 2943, blue: 1906 }
+down { alpha: 0, maxAlpha: 0, changed: 1401, blue: 856 }
+PASS291 23 [
+  {
+    state: 'idle',
+    changedPixels: 1938,
+    alphaChanges: 4,
+    maskDiff: 0,
+    maxAlpha: 16
+  },
+  {
+    state: 'walk',
+    changedPixels: 729,
+    alphaChanges: 0,
+    maskDiff: 0,
+    maxAlpha: 0
+  },
+  {
+    state: 'run',
+    changedPixels: 734,
+    alphaChanges: 9,
+    maskDiff: 3,
+    maxAlpha: 101
+  },
+  {
+    state: 'charge',
+    changedPixels: 2427,
+    alphaChanges: 0,
+    maskDiff: 0,
+    maxAlpha: 0
+  },
+  {
+    state: 'combo',
+    changedPixels: 2943,
+    alphaChanges: 0,
+    maskDiff: 0,
+    maxAlpha: 0
+  },
+  {
+    state: 'down',
+    changedPixels: 1401,
+    alphaChanges: 0,
+    maskDiff: 0,
+    maxAlpha: 0
+  }
+] [
+  { running: false, dir: -1, value: 194.24999999999943 },
+  { running: false, dir: 1, value: 194.24999999999727 },
+  { running: true, dir: -1, value: 278.2500000000002 },
+  { running: true, dir: 1, value: 278.25000000000273 }
+]

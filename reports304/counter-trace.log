@@ -1,0 +1,618 @@
+[
+  {
+    "file": "martial212.js",
+    "depth": 22,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "security216.js",
+    "depth": 21,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "gus219.js",
+    "depth": 20,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "aidan221.js",
+    "depth": 19,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "grab223.js",
+    "depth": 18,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "workers233.js",
+    "depth": 17,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "chinatown235.js",
+    "depth": 16,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "baylor237.js",
+    "depth": 15,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "weapons248.js",
+    "depth": 14,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "counters248.js",
+    "depth": 13,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "nightshade-melee257.js",
+    "depth": 12,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "nightshade-grabs258.js",
+    "depth": 11,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "nightshade-special263.js",
+    "depth": 10,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "nightshade-counter264.js",
+    "depth": 9,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "combat274.js",
+    "depth": 8,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "niko284.js",
+    "depth": 7,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "recording287.js",
+    "depth": 6,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "ai-observer288.js",
+    "depth": 5,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "continuity296.js",
+    "depth": 4,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "attack297.js",
+    "depth": 3,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "reactions298.js",
+    "depth": 2,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "contact302.js",
+    "depth": 1,
+    "result": false,
+    "hp": "1000→1000",
+    "action": "combo→undefined",
+    "enemy": "martialReady212→martialPunchCounter212"
+  },
+  {
+    "file": "core.js",
+    "depth": 55,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "encounters.js",
+    "depth": 54,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "balance49.js",
+    "depth": 53,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "open-cue62.js",
+    "depth": 52,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "nova77.js",
+    "depth": 51,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "jackal100.js",
+    "depth": 50,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "leroy102.js",
+    "depth": 49,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "dragon121.js",
+    "depth": 48,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "companion126.js",
+    "depth": 47,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "combo-confirm129.js",
+    "depth": 46,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "charge130.js",
+    "depth": 45,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "bruno130.js",
+    "depth": 44,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "audit135.js",
+    "depth": 43,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "spear137.js",
+    "depth": 42,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "stabilize143.js",
+    "depth": 41,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "quality167.js",
+    "depth": 40,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "gunner-tactics173.js",
+    "depth": 39,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "forest-grapples177.js",
+    "depth": 38,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "broxton179.js",
+    "depth": 37,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "shield181.js",
+    "depth": 36,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "government182.js",
+    "depth": 35,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "niko185.js",
+    "depth": 34,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "rising-blade187.js",
+    "depth": 33,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "broxton-repair189.js",
+    "depth": 32,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "casino192.js",
+    "depth": 31,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "pool-boss193.js",
+    "depth": 30,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "yacht195.js",
+    "depth": 29,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "route74197.js",
+    "depth": 28,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "orion-combat205.js",
+    "depth": 27,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "combat200.js",
+    "depth": 26,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "slums204.js",
+    "depth": 25,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "enemies210.js",
+    "depth": 24,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "flint211.js",
+    "depth": 23,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "martial212.js",
+    "depth": 22,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "security216.js",
+    "depth": 21,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "gus219.js",
+    "depth": 20,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "aidan221.js",
+    "depth": 19,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "grab223.js",
+    "depth": 18,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "workers233.js",
+    "depth": 17,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "chinatown235.js",
+    "depth": 16,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "baylor237.js",
+    "depth": 15,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "weapons248.js",
+    "depth": 14,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "counters248.js",
+    "depth": 13,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "nightshade-melee257.js",
+    "depth": 12,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "nightshade-grabs258.js",
+    "depth": 11,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "nightshade-special263.js",
+    "depth": 10,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "nightshade-counter264.js",
+    "depth": 9,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "combat274.js",
+    "depth": 8,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "niko284.js",
+    "depth": 7,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "recording287.js",
+    "depth": 6,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "ai-observer288.js",
+    "depth": 5,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "continuity296.js",
+    "depth": 4,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "attack297.js",
+    "depth": 3,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "reactions298.js",
+    "depth": 2,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  },
+  {
+    "file": "contact302.js",
+    "depth": 1,
+    "result": true,
+    "hp": "1000→993",
+    "action": "undefined→undefined",
+    "enemy": "martialPunchCounter212→undefined"
+  }
+]

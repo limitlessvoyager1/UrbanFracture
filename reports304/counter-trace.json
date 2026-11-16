@@ -1,0 +1,970 @@
+[
+  {
+    "file": "martial212.js",
+    "depth": 22,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "security216.js",
+    "depth": 21,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "gus219.js",
+    "depth": 20,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "aidan221.js",
+    "depth": 19,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "grab223.js",
+    "depth": 18,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "workers233.js",
+    "depth": 17,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "chinatown235.js",
+    "depth": 16,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "baylor237.js",
+    "depth": 15,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "weapons248.js",
+    "depth": 14,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "counters248.js",
+    "depth": 13,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "nightshade-melee257.js",
+    "depth": 12,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "nightshade-grabs258.js",
+    "depth": 11,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "nightshade-special263.js",
+    "depth": 10,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "nightshade-counter264.js",
+    "depth": 9,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "combat274.js",
+    "depth": 8,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "niko284.js",
+    "depth": 7,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "recording287.js",
+    "depth": 6,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "ai-observer288.js",
+    "depth": 5,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "continuity296.js",
+    "depth": 4,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "attack297.js",
+    "depth": 3,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "reactions298.js",
+    "depth": 2,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "contact302.js",
+    "depth": 1,
+    "from": {
+      "hp": 1000,
+      "pa": "combo",
+      "ea": "martialReady212"
+    },
+    "to": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "result": false
+  },
+  {
+    "file": "core.js",
+    "depth": 55,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "encounters.js",
+    "depth": 54,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "balance49.js",
+    "depth": 53,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "open-cue62.js",
+    "depth": 52,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "nova77.js",
+    "depth": 51,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "jackal100.js",
+    "depth": 50,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "leroy102.js",
+    "depth": 49,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "dragon121.js",
+    "depth": 48,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "companion126.js",
+    "depth": 47,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "combo-confirm129.js",
+    "depth": 46,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "charge130.js",
+    "depth": 45,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "bruno130.js",
+    "depth": 44,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "audit135.js",
+    "depth": 43,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "spear137.js",
+    "depth": 42,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "stabilize143.js",
+    "depth": 41,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "quality167.js",
+    "depth": 40,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "gunner-tactics173.js",
+    "depth": 39,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "forest-grapples177.js",
+    "depth": 38,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "broxton179.js",
+    "depth": 37,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "shield181.js",
+    "depth": 36,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "government182.js",
+    "depth": 35,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "niko185.js",
+    "depth": 34,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "rising-blade187.js",
+    "depth": 33,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "broxton-repair189.js",
+    "depth": 32,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "casino192.js",
+    "depth": 31,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "pool-boss193.js",
+    "depth": 30,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "yacht195.js",
+    "depth": 29,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "route74197.js",
+    "depth": 28,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "orion-combat205.js",
+    "depth": 27,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "combat200.js",
+    "depth": 26,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "slums204.js",
+    "depth": 25,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "enemies210.js",
+    "depth": 24,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "flint211.js",
+    "depth": 23,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "martial212.js",
+    "depth": 22,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "security216.js",
+    "depth": 21,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "gus219.js",
+    "depth": 20,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "aidan221.js",
+    "depth": 19,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "grab223.js",
+    "depth": 18,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "workers233.js",
+    "depth": 17,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "chinatown235.js",
+    "depth": 16,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "baylor237.js",
+    "depth": 15,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "weapons248.js",
+    "depth": 14,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "counters248.js",
+    "depth": 13,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "nightshade-melee257.js",
+    "depth": 12,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "nightshade-grabs258.js",
+    "depth": 11,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "nightshade-special263.js",
+    "depth": 10,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "nightshade-counter264.js",
+    "depth": 9,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "combat274.js",
+    "depth": 8,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "niko284.js",
+    "depth": 7,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "recording287.js",
+    "depth": 6,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "ai-observer288.js",
+    "depth": 5,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "continuity296.js",
+    "depth": 4,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "attack297.js",
+    "depth": 3,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "reactions298.js",
+    "depth": 2,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  },
+  {
+    "file": "contact302.js",
+    "depth": 1,
+    "from": {
+      "hp": 1000,
+      "ea": "martialPunchCounter212"
+    },
+    "to": {
+      "hp": 993
+    },
+    "result": true
+  }
+]

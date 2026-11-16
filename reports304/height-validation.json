@@ -1,0 +1,343 @@
+{
+  "checks": 1774,
+  "rows": [
+    {
+      "hero": "reina",
+      "jump": 0.02,
+      "rendererHeight": 11.918119455155791,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -4.074102607866555,
+      "errorAfter": 0
+    },
+    {
+      "hero": "reina",
+      "jump": 0.1,
+      "rendererHeight": 57.5751319389439,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -19.53948838228095,
+      "errorAfter": 0
+    },
+    {
+      "hero": "reina",
+      "jump": 0.2,
+      "rendererHeight": 103.07828921333397,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -34.134289332625954,
+      "errorAfter": 0
+    },
+    {
+      "hero": "reina",
+      "jump": 0.34,
+      "rendererHeight": 129.168,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -39.510477171742906,
+      "errorAfter": 0
+    },
+    {
+      "hero": "reina",
+      "jump": 0.5,
+      "rendererHeight": 95.45630381955814,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": -21.732619833548867,
+      "errorAfter": 0
+    },
+    {
+      "hero": "reina",
+      "jump": 0.67,
+      "rendererHeight": 5.965424986352948,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 13.514140268076298,
+      "errorAfter": 0
+    },
+    {
+      "hero": "broxton",
+      "jump": 0.02,
+      "rendererHeight": 8.700906297389377,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -0.856889450100141,
+      "errorAfter": 0
+    },
+    {
+      "hero": "broxton",
+      "jump": 0.1,
+      "rendererHeight": 42.03312694972755,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -3.9974833930646057,
+      "errorAfter": 0
+    },
+    {
+      "hero": "broxton",
+      "jump": 0.2,
+      "rendererHeight": 75.25302453252658,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -6.309024651818561,
+      "errorAfter": 0
+    },
+    {
+      "hero": "broxton",
+      "jump": 0.34,
+      "rendererHeight": 94.3,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -4.642477171742897,
+      "errorAfter": 0
+    },
+    {
+      "hero": "broxton",
+      "jump": 0.5,
+      "rendererHeight": 69.68854089390818,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": 4.0351430921010945,
+      "errorAfter": 0
+    },
+    {
+      "hero": "broxton",
+      "jump": 0.67,
+      "rendererHeight": 4.355100150293285,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 15.124465104135961,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nova",
+      "jump": 0.02,
+      "rendererHeight": 12.733033605935674,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -4.889016758646438,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nova",
+      "jump": 0.1,
+      "rendererHeight": 61.51189309716228,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -23.47624954049933,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nova",
+      "jump": 0.2,
+      "rendererHeight": 110.12637736467305,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -41.18237748396503,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nova",
+      "jump": 0.34,
+      "rendererHeight": 138,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -48.3424771717429,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nova",
+      "jump": 0.5,
+      "rendererHeight": 101.983230576451,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": -28.25954659044173,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nova",
+      "jump": 0.67,
+      "rendererHeight": 6.373317293112124,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 13.106247961317123,
+      "errorAfter": 0
+    },
+    {
+      "hero": "forest",
+      "jump": 0.02,
+      "rendererHeight": 9.761992431217351,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -1.917975583928115,
+      "errorAfter": 0
+    },
+    {
+      "hero": "forest",
+      "jump": 0.1,
+      "rendererHeight": 47.15911804115775,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -9.1234744844948,
+      "errorAfter": 0
+    },
+    {
+      "hero": "forest",
+      "jump": 0.2,
+      "rendererHeight": 84.43022264624933,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -15.486222765541314,
+      "errorAfter": 0
+    },
+    {
+      "hero": "forest",
+      "jump": 0.34,
+      "rendererHeight": 105.8,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -16.142477171742897,
+      "errorAfter": 0
+    },
+    {
+      "hero": "forest",
+      "jump": 0.5,
+      "rendererHeight": 78.18714344194576,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": -4.463459455936487,
+      "errorAfter": 0
+    },
+    {
+      "hero": "forest",
+      "jump": 0.67,
+      "rendererHeight": 4.886209924719295,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 14.59335532970995,
+      "errorAfter": 0
+    },
+    {
+      "hero": "niko",
+      "jump": 0.02,
+      "rendererHeight": 10.61086133827973,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -2.7668444909904935,
+      "errorAfter": 0
+    },
+    {
+      "hero": "niko",
+      "jump": 0.1,
+      "rendererHeight": 51.2599109143019,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -13.22426735763895,
+      "errorAfter": 0
+    },
+    {
+      "hero": "niko",
+      "jump": 0.2,
+      "rendererHeight": 91.77198113722754,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -22.82798125651952,
+      "errorAfter": 0
+    },
+    {
+      "hero": "niko",
+      "jump": 0.34,
+      "rendererHeight": 115,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -25.3424771717429,
+      "errorAfter": 0
+    },
+    {
+      "hero": "niko",
+      "jump": 0.5,
+      "rendererHeight": 84.98602548037583,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": -11.262341494366552,
+      "errorAfter": 0
+    },
+    {
+      "hero": "niko",
+      "jump": 0.67,
+      "rendererHeight": 5.3110977442601035,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 14.168467510169144,
+      "errorAfter": 0
+    },
+    {
+      "hero": "orion",
+      "jump": 0.02,
+      "rendererHeight": 9.974209657982945,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -2.1301928106937087,
+      "errorAfter": 0
+    },
+    {
+      "hero": "orion",
+      "jump": 0.1,
+      "rendererHeight": 48.18431625944378,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -10.148672702780836,
+      "errorAfter": 0
+    },
+    {
+      "hero": "orion",
+      "jump": 0.2,
+      "rendererHeight": 86.26566226899388,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -17.32166238828586,
+      "errorAfter": 0
+    },
+    {
+      "hero": "orion",
+      "jump": 0.34,
+      "rendererHeight": 108.1,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -18.442477171742894,
+      "errorAfter": 0
+    },
+    {
+      "hero": "orion",
+      "jump": 0.5,
+      "rendererHeight": 79.88686395155328,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": -6.163179965544003,
+      "errorAfter": 0
+    },
+    {
+      "hero": "orion",
+      "jump": 0.67,
+      "rendererHeight": 4.992431879604497,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 14.48713337482475,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nightshade",
+      "jump": 0.02,
+      "rendererHeight": 11.035295791810917,
+      "oldCollisionHeight": 7.844016847289236,
+      "errorBefore": -3.191278944521681,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nightshade",
+      "jump": 0.1,
+      "rendererHeight": 53.31030735087397,
+      "oldCollisionHeight": 38.03564355666295,
+      "errorBefore": -15.274663794211023,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nightshade",
+      "jump": 0.2,
+      "rendererHeight": 95.44286038271665,
+      "oldCollisionHeight": 68.94399988070802,
+      "errorBefore": -26.498860502008625,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nightshade",
+      "jump": 0.34,
+      "rendererHeight": 119.6,
+      "oldCollisionHeight": 89.6575228282571,
+      "errorBefore": -29.942477171742894,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nightshade",
+      "jump": 0.5,
+      "rendererHeight": 88.38546649959086,
+      "oldCollisionHeight": 73.72368398600928,
+      "errorBefore": -14.661782513581585,
+      "errorAfter": 0
+    },
+    {
+      "hero": "nightshade",
+      "jump": 0.67,
+      "rendererHeight": 5.523541654030507,
+      "oldCollisionHeight": 19.479565254429247,
+      "errorBefore": 13.95602360039874,
+      "errorAfter": 0
+    }
+  ],
+  "maxObservedBeforeError": 48.3424771717429,
+  "rendererPhysicsUnchanged": true
+}

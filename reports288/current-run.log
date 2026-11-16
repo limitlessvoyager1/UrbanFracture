@@ -1,0 +1,111 @@
+[
+  {
+    "kind": "combo",
+    "hits": [
+      {
+        "frame": 6,
+        "amount": 3,
+        "interrupted": "streetFeint209",
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      },
+      {
+        "frame": 23,
+        "amount": 3,
+        "interrupted": null,
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      },
+      {
+        "frame": 42,
+        "amount": 4,
+        "interrupted": null,
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      },
+      {
+        "frame": 64,
+        "amount": 6,
+        "interrupted": null,
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      }
+    ],
+    "firstDecision": {
+      "frame": 220,
+      "action": "movement"
+    }
+  },
+  {
+    "kind": "1",
+    "hits": [
+      {
+        "frame": 6,
+        "amount": 3,
+        "interrupted": null,
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      }
+    ],
+    "firstDecision": {
+      "frame": 36,
+      "action": "movement"
+    }
+  },
+  {
+    "kind": "2",
+    "hits": [
+      {
+        "frame": 6,
+        "amount": 3,
+        "interrupted": "hook",
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      }
+    ],
+    "firstDecision": {
+      "frame": 36,
+      "action": "movement"
+    }
+  },
+  {
+    "kind": "3",
+    "hits": [
+      {
+        "frame": 8,
+        "amount": 4,
+        "interrupted": "hook",
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      }
+    ],
+    "firstDecision": {
+      "frame": 38,
+      "action": "movement"
+    }
+  },
+  {
+    "kind": "4",
+    "hits": [
+      {
+        "frame": 11,
+        "amount": 6,
+        "interrupted": null,
+        "stun": 0.5,
+        "flight": null,
+        "armor": "none"
+      }
+    ],
+    "firstDecision": {
+      "frame": 167,
+      "action": "hook"
+    }
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "record": {
+    "frame": 691,
+    "gameTime": 11.450000000000149,
+    "projectiles": 0
+  },
+  "focus": {
+    "id": 23,
+    "name": "Marcus",
+    "type": "thug",
+    "x": 456.77566189117925,
+    "y": 461.22174457204727,
+    "hp": 35,
+    "jump": 0,
+    "action": null,
+    "actionId": null,
+    "actionFrame": null,
+    "phase": "knockdown",
+    "configured": null,
+    "inv": 0,
+    "heldBy": null,
+    "holding": null,
+    "animationFrame": null,
+    "presentation": {
+      "state": "get-up",
+      "owner": "native knockdown",
+      "action": null,
+      "actionFrame": null,
+      "locks": [
+        {
+          "field": "down",
+          "seconds": 0.24999999999999933
+        }
+      ],
+      "actionable": false,
+      "world": {
+        "x": 456.77566189117925,
+        "y": 461.22174457204727
+      },
+      "scale": 1.347943842,
+      "ground": 461.22174457204727,
+      "visualElevationOwner": "native knockdown",
+      "time": 11.450000000000149
+    },
+    "knockdown": {
+      "nativeLanded": true,
+      "phase": "rising",
+      "downFrames": 14.999999999999961,
+      "timeline": {
+        "serial": 1,
+        "at": 10.266666666666756,
+        "impactAt": 10.583333333333439,
+        "stoodAt": null,
+        "recoveryLocksClearedAt": null,
+        "duration": 1.45,
+        "alreadyGrounded": false
+      }
+    },
+    "hitReaction": {
+      "at": 10.266666666666756,
+      "outcome": "knockdown",
+      "kind": "heavy",
+      "dir": 1,
+      "damage": 10,
+      "armor": "none",
+      "interrupted": false,
+      "sourceAction": null,
+      "durationAtHit": 0,
+      "visualDelay": 0,
+      "releasedAt": null,
+      "id": 3,
+      "enemy": 23,
+      "remainingFrames": 0,
+      "locked": false
+    },
+    "stunFrames": 0,
+    "recoveryFrames": 0,
+    "standingLockFrames": 0,
+    "animationNote": "N/A: no fresh rendered-frame receipt",
+    "dx": 0,
+    "dy": 0,
+    "hpDelta": 0
+  },
+  "hero": {
+    "id": 20,
+    "name": "Reina",
+    "type": "reina",
+    "x": 341.99999999999983,
+    "y": 470,
+    "hp": 85,
+    "jump": 0,
+    "action": null,
+    "actionId": null,
+    "actionFrame": null,
+    "phase": "actionable",
+    "configured": null,
+    "inv": 0,
+    "heldBy": null,
+    "holding": null,
+    "animationFrame": null,
+    "presentation": {
+      "state": "idle",
+      "owner": "native locomotion",
+      "action": null,
+      "actionFrame": null,
+      "locks": [],
+      "actionable": true,
+      "world": {
+        "x": 341.99999999999983,
+        "y": 470
+      },
+      "scale": 1.3362225912,
+      "ground": 470,
+      "visualElevationOwner": "native locomotion",
+      "time": 11.450000000000149
+    },
+    "knockdown": null,
+    "hitReaction": null,
+    "stunFrames": 0,
+    "recoveryFrames": 0,
+    "standingLockFrames": 0,
+    "animationNote": "N/A: no fresh rendered-frame receipt",
+    "dx": 0,
+    "dy": 0,
+    "hpDelta": 0
+  },
+  "notes": [
+    "Configured contacts are action metadata; phase uses existing Audit135 adapter. Exact authored active/hurtbox/cancel events require Gate C.",
+    "Animation frame is N/A until a renderer-specific adapter exists. HP delta is observed change, not an invented hit event."
+  ],
+  "queuedInputs": 0,
+  "droppedInputs": 0
+}

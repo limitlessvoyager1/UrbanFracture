@@ -1,0 +1,74 @@
+{
+  "checks": 1968,
+  "rows": [
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "modes": [
+        "joint"
+      ],
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        "rise13",
+        "rise14",
+        "rise15",
+        "rise16",
+        "rise17",
+        "rise18",
+        "rise19",
+        "rise20",
+        "rise21",
+        "rise22",
+        "rise23"
+      ]
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "modes": [
+        "joint"
+      ],
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        "rise13",
+        "rise14",
+        "rise15",
+        "rise16",
+        "rise17",
+        "rise18",
+        "rise19",
+        "rise20",
+        "rise21",
+        "rise22",
+        "rise23"
+      ]
+    }
+  ],
+  "rendered": true,
+  "wholeBodies": true,
+  "perPoseResizing": false
+}

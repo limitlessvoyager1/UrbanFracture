@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "section": 0,
+      "band": [
+        120,
+        410
+      ],
+      "worldPixels": 232000,
+      "differentChannels": 210
+    },
+    {
+      "section": 0,
+      "band": [
+        460,
+        530
+      ],
+      "worldPixels": 56000,
+      "differentChannels": 3
+    },
+    {
+      "section": 1,
+      "band": [
+        120,
+        410
+      ],
+      "worldPixels": 232000,
+      "differentChannels": 292
+    },
+    {
+      "section": 1,
+      "band": [
+        460,
+        530
+      ],
+      "worldPixels": 56000,
+      "differentChannels": 11
+    }
+  ]
+}

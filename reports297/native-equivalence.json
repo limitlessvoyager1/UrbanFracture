@@ -1,0 +1,25 @@
+{
+  "reference": "e0e9fcfdf5298b7c117ca2cae5e0d6b3a003e5c9",
+  "checks": 1200,
+  "cases": [
+    {
+      "scenario": "movement",
+      "ticks": 600,
+      "identical": true,
+      "playerTravelEnvelope": 450.5375000000011,
+      "nativeActions": [],
+      "hash": "80b477b2bfb7b25f24a537fb8e42eff7cd34553cb370c17ccbeca93c7ddffa6c"
+    },
+    {
+      "scenario": "native-group",
+      "ticks": 600,
+      "identical": true,
+      "playerTravelEnvelope": 0,
+      "nativeActions": [
+        "hook",
+        "knifeSlash"
+      ],
+      "hash": "c65968008b6ebf4d67d2582f143af71024f5d3e9944754c10f8f248c35c1fc03"
+    }
+  ]
+}

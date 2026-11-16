@@ -1,0 +1,222 @@
+[
+  {
+    "type": "sato",
+    "kind": "combo",
+    "stage": 0,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 625,
+        "y": 343.9965539
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 0,
+      "active": true
+    }
+  },
+  {
+    "type": "sato",
+    "kind": "combo",
+    "stage": 1,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 625,
+        "y": 343.9965539
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 1,
+      "active": true
+    }
+  },
+  {
+    "type": "sato",
+    "kind": "combo",
+    "stage": 2,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 625,
+        "y": 297.1115507
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 2,
+      "active": true
+    }
+  },
+  {
+    "type": "sato",
+    "kind": "high",
+    "stage": 0,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 640,
+        "y": 260.48264195
+      },
+      "plane": 470,
+      "low": false,
+      "high": true,
+      "stage": 0,
+      "active": true
+    }
+  },
+  {
+    "type": "sato",
+    "kind": "fly",
+    "stage": 0,
+    "z": 23.854651981575493,
+    "sourceLift": 35.68730184659043,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 317.1001901534096
+      },
+      "B": {
+        "x": 615,
+        "y": 308.3092520534095
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 0,
+      "active": true
+    }
+  },
+  {
+    "type": "akari",
+    "kind": "combo",
+    "stage": 0,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 418.71952775
+      },
+      "B": {
+        "x": 622,
+        "y": 437.7665603
+      },
+      "plane": 470,
+      "low": true,
+      "high": false,
+      "stage": 0,
+      "active": true
+    }
+  },
+  {
+    "type": "akari",
+    "kind": "combo",
+    "stage": 1,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 622,
+        "y": 343.9965539
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 1,
+      "active": true
+    }
+  },
+  {
+    "type": "akari",
+    "kind": "combo",
+    "stage": 2,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 622,
+        "y": 297.1115507
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 2,
+      "active": true
+    }
+  },
+  {
+    "type": "akari",
+    "kind": "high",
+    "stage": 0,
+    "z": 0,
+    "sourceLift": 0,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 352.787492
+      },
+      "B": {
+        "x": 634,
+        "y": 260.48264195
+      },
+      "plane": 470,
+      "low": false,
+      "high": true,
+      "stage": 0,
+      "active": true
+    }
+  },
+  {
+    "type": "akari",
+    "kind": "fly",
+    "stage": 0,
+    "z": 46.23368541892951,
+    "sourceLift": 35.89933669852248,
+    "shape": {
+      "A": {
+        "x": 526.3728143,
+        "y": 316.8881553014775
+      },
+      "B": {
+        "x": 612,
+        "y": 308.0972172014775
+      },
+      "plane": 470,
+      "low": false,
+      "high": false,
+      "stage": 0,
+      "active": true
+    }
+  }
+]

@@ -1,0 +1,12 @@
+sato 732
+akari 732
+flint 774
+thug 732
+enforcer 732
+boss 774
+biker 732
+cop 774
+Error: knifeThug null SIGKILL 
+    at worker (/workspace/sites/urban-fracture/.sites-checkout/tools/reactions290/all-tests.cjs:2:946)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /workspace/sites/urban-fracture/.sites-checkout/tools/reactions290/all-tests.cjs:2:1076

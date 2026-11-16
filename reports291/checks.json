@@ -1,0 +1,71 @@
+{
+  "checks": 23,
+  "rows": [
+    {
+      "state": "idle",
+      "changedPixels": 1938,
+      "alphaChanges": 4,
+      "maskDiff": 0,
+      "maxAlpha": 16
+    },
+    {
+      "state": "walk",
+      "changedPixels": 729,
+      "alphaChanges": 0,
+      "maskDiff": 0,
+      "maxAlpha": 0
+    },
+    {
+      "state": "run",
+      "changedPixels": 734,
+      "alphaChanges": 9,
+      "maskDiff": 3,
+      "maxAlpha": 101
+    },
+    {
+      "state": "charge",
+      "changedPixels": 2427,
+      "alphaChanges": 0,
+      "maskDiff": 0,
+      "maxAlpha": 0
+    },
+    {
+      "state": "combo",
+      "changedPixels": 2943,
+      "alphaChanges": 0,
+      "maskDiff": 0,
+      "maxAlpha": 0
+    },
+    {
+      "state": "down",
+      "changedPixels": 1401,
+      "alphaChanges": 0,
+      "maskDiff": 0,
+      "maxAlpha": 0
+    }
+  ],
+  "speeds": [
+    {
+      "running": false,
+      "dir": -1,
+      "value": 194.24999999999943
+    },
+    {
+      "running": false,
+      "dir": 1,
+      "value": 194.24999999999727
+    },
+    {
+      "running": true,
+      "dir": -1,
+      "value": 278.2500000000002
+    },
+    {
+      "running": true,
+      "dir": 1,
+      "value": 278.25000000000273
+    }
+  ],
+  "hex": "#0095FD",
+  "increase": 0.05
+}

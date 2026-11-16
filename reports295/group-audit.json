@@ -1,0 +1,3963 @@
+{
+  "checks": 1200,
+  "maxSlots": 1,
+  "maxCost": 2,
+  "rows": [
+    {
+      "frame": 10,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 620,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 779.171247781228,
+          "y": 449.6849817536355,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 789.1675568703192,
+          "y": 505.13887747602155,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 620,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 768.342495562456,
+          "y": 449.369963507271,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 778.3351137406385,
+          "y": 505.2777549520431,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 620,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 757.5137433436839,
+          "y": 449.0549452609065,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 767.5026706109577,
+          "y": 505.41663242806464,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 620,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 746.6849911249119,
+          "y": 448.739927014542,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 756.6702274812769,
+          "y": 505.5555099040862,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 50,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 610.0000000000002,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 735.8562389061399,
+          "y": 448.4249087681775,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 745.8377843515962,
+          "y": 505.69438738010774,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 593.3333333333339,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 725.0274866873679,
+          "y": 448.109890521813,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 735.0053412219154,
+          "y": 505.8332648561293,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 576.6666666666677,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 714.1987344685958,
+          "y": 447.79487227544877,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 724.1728980922346,
+          "y": 505.97214233215084,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 80,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 560.0000000000014,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 703.3699822498238,
+          "y": 447.47985402908455,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 713.3404549625538,
+          "y": 506.1110198081724,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 90,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 543.3333333333351,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 692.5412300310518,
+          "y": 447.16483578272033,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 702.5080118328731,
+          "y": 506.24989728419393,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 100,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 526.6666666666688,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 681.7124778122798,
+          "y": 446.8498175363561,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 691.6755687031923,
+          "y": 506.3887747602155,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 110,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 510.0000000000024,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 670.8837255935077,
+          "y": 446.53479928999195,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 680.8431255735115,
+          "y": 506.52765223623703,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 493.33333333333553,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 660.0549733747357,
+          "y": 446.21978104362773,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 670.0106824438308,
+          "y": 506.6665297122586,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 130,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 476.6666666666687,
+          "y": 470,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 649.2262211559637,
+          "y": 445.9047627972635,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 659.17823931415,
+          "y": 506.8054071882801,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 140,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 461.6666666666685,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 638.3974689371917,
+          "y": 445.5897445508993,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 648.3457961844692,
+          "y": 506.9442846643017,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 150,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 456.66666666666845,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 627.5687167184196,
+          "y": 445.27472630453514,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 637.5133530547885,
+          "y": 507.0831621403232,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 160,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 440.0000000000016,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 616.7399644996476,
+          "y": 444.9597080581709,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 626.6809099251077,
+          "y": 507.2220396163448,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 170,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 428.3333333333348,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 605.9108407419158,
+          "y": 444.6585055421257,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 615.8483573666081,
+          "y": 507.3512227678616,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 180,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 428.3333333333348,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 595.0798425973287,
+          "y": 444.4340357167859,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 605.0153269039932,
+          "y": 507.4318563447162,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 190,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 428.3333333333348,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 591.8304040931167,
+          "y": 444.3736270887521,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 594.1822004299207,
+          "y": 507.49879392993535,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 200,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 428.3333333333348,
+          "y": 470,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 591.8304040931167,
+          "y": 444.3736270887521,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 583.3490685604285,
+          "y": 507.56486214692643,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 210,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "PrimaryAttacker"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 429.9783893051262,
+          "y": 468.58995202417873,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 587.3323750870179,
+          "y": 447.3915755372965,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 577.9325026256823,
+          "y": 507.597896255422,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 220,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "PrimaryAttacker"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 438.20366916408324,
+          "y": 461.5397121450724,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 578.3363170748203,
+          "y": 453.4274724343853,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 577.9325026256823,
+          "y": 507.597896255422,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 230,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 446.4289490230403,
+          "y": 454.489472265966,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 572.0390764662819,
+          "y": 457.6526002623475,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 574.6825630648347,
+          "y": 507.6177167205193,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 240,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 454.6542288819973,
+          "y": 447.43923238685966,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 572.0390764662819,
+          "y": 457.6526002623475,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 563.8494311953424,
+          "y": 507.6837849375104,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 250,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 458.76686881147583,
+          "y": 443.9141124473065,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 570.9663488297607,
+          "y": 457.50138343472975,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 553.0162993258501,
+          "y": 507.74985315450147,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 260,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 458.76686881147583,
+          "y": 443.9141124473065,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 560.2390724645485,
+          "y": 455.98921515855216,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 542.1831674563579,
+          "y": 507.81592137149255,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 270,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 453.8851926615664,
+          "y": 444.99542552288,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 549.5117960993363,
+          "y": 454.47704688237457,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 531.3500355868656,
+          "y": 507.88198958848335,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 280,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 437.612938828535,
+          "y": 448.5998024414584,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 538.784519734124,
+          "y": 452.964878606197,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 520.5169037173733,
+          "y": 507.94805780547415,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 290,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 421.3406849955036,
+          "y": 452.2041793600368,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 528.0572433689118,
+          "y": 451.4527103300191,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 515.1003377826272,
+          "y": 507.9810919139696,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 300,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 406.6956565457753,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 517.3299670036996,
+          "y": 449.94054205384117,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 515.1003377826272,
+          "y": 507.9810919139696,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 310,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 401.69565654577525,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 506.60269063848773,
+          "y": 448.4283737776633,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 515.1003377826272,
+          "y": 507.9810919139696,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 320,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 385.0289898791084,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 495.8754142732761,
+          "y": 446.9162055014854,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 515.1003377826272,
+          "y": 507.9810919139696,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 330,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 373.3623232124416,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 485.129154303024,
+          "y": 445.5700904563532,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 511.8503394590769,
+          "y": 507.98433132378585,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 340,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 373.3623232124416,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 474.3144728137087,
+          "y": 444.94098330966875,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 501.0170071700102,
+          "y": 507.98893219484034,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 350,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 373.3623232124416,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 471.0678815462504,
+          "y": 444.7921887185457,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 490.18367421267374,
+          "y": 507.9917842042096,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 360,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 373.3623232124416,
+          "y": 455.44811858675735,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 471.0678815462504,
+          "y": 444.7921887185457,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 479.35034123232856,
+          "y": 507.9945497197599,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 370,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 375.3741660571813,
+          "y": 454.64379725015465,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 471.0678815462504,
+          "y": 444.7921887185457,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 468.5170082519834,
+          "y": 507.99731523531,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 380,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 385.4333802808797,
+          "y": 450.62219056714116,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 471.0678815462504,
+          "y": 444.7921887185457,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 390,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "PrimaryAttacker"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 395.49259450457816,
+          "y": 446.6005838841277,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 469.74889219275263,
+          "y": 447.762503026049,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 400,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "PrimaryAttacker"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 403.53996588353687,
+          "y": 443.3832985377169,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 465.3522610144267,
+          "y": 457.6635507177267,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 410,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 403.53996588353687,
+          "y": 443.3832985377169,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 460.40803525201153,
+          "y": 466.12847419995717,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 420,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 403.53996588353687,
+          "y": 443.3832985377169,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 450.5354582327935,
+          "y": 461.6682797971623,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 430,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 395.51103248655147,
+          "y": 443.3648652871445,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 443.82540131126046,
+          "y": 458.439183330773,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 440,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 379.31769324726565,
+          "y": 447.33631324957423,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 433.94017536931574,
+          "y": 454.0254804545094,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 450,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 363.13164628672246,
+          "y": 451.30993396233293,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 424.047659203723,
+          "y": 449.6096866386032,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 460,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 353.42001811039654,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 414.1551430381303,
+          "y": 445.19389282269697,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 470,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 343.4200181103964,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 410.1981365718932,
+          "y": 443.42757529633445,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 480,
+      "reserved": 2,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 326.75335144372957,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 410.1981365718932,
+          "y": 443.42757529633445,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 490,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Repositioning"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 320.0866847770628,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 410.1981365718932,
+          "y": 443.42757529633445,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 500,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 320.0866847770628,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 408.775333094123,
+          "y": 443.78358284506925,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 510,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 320.0866847770628,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 394.5472983164213,
+          "y": 447.3436583324172,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 520,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 320.0866847770628,
+          "y": 453.69410638998806,
+          "action": "hook",
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 380.31926353871955,
+          "y": 450.90373381976514,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 530,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 321.4583050777937,
+          "y": 452.94487220735067,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 370.0800238374071,
+          "y": 454.46468348340244,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 540,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Recovering"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 324.36191090011476,
+          "y": 450.78433042796064,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 363.6037052742003,
+          "y": 458.46401067732546,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 550,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 2.33333333333333,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.6666666666685,
+          "depth": 0,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 327.6913639865519,
+          "y": 447.3133687569563,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 356.59710749947834,
+          "y": 463.3633976145298,
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 560,
+      "reserved": 1,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 9.283333333333374,
+          "enemy": 11,
+          "attack": "knifeSlash",
+          "cost": 1,
+          "category": "light",
+          "target": "hero",
+          "duration": 0.9333333333333333,
+          "distance": 109.08366706856037,
+          "depth": 3.3703747641250175,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 335.27426117174144,
+          "y": 444.4606064943078,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 351.0836670685604,
+          "y": 466.629625235875,
+          "action": "knifeSlash",
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 570,
+      "reserved": 1,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 9.283333333333374,
+          "enemy": 11,
+          "attack": "knifeSlash",
+          "cost": 1,
+          "category": "light",
+          "target": "hero",
+          "duration": 0.9333333333333333,
+          "distance": 109.08366706856037,
+          "depth": 3.3703747641250175,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 346.1012253290474,
+          "y": 444.0891791830758,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 338.08366706856026,
+          "y": 466.629625235875,
+          "action": "knifeSlash",
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 460.93367516574176,
+          "y": 507.999251096195,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 580,
+      "reserved": 1,
+      "slots": 1,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 9.283333333333374,
+          "enemy": 11,
+          "attack": "knifeSlash",
+          "cost": 1,
+          "category": "light",
+          "target": "hero",
+          "duration": 0.9333333333333333,
+          "distance": 109.08366706856037,
+          "depth": 3.3703747641250175,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 356.9276482732875,
+          "y": 443.70273556497756,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 325.08366706856015,
+          "y": 466.629625235875,
+          "action": "knifeSlash",
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 456.6003418517146,
+          "y": 507.9996601436717,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 590,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "Flanker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "PrimaryAttacker"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 9.283333333333374,
+          "enemy": 11,
+          "attack": "knifeSlash",
+          "cost": 1,
+          "category": "light",
+          "target": "hero",
+          "duration": 0.9333333333333333,
+          "distance": 109.08366706856037,
+          "depth": 3.3703747641250175,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 367.75325939792884,
+          "y": 443.29376748657984,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 325.08366706856015,
+          "y": 466.629625235875,
+          "action": "knifeSlash",
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 456.6003418517146,
+          "y": 507.9996601436717,
+          "stun": 0
+        }
+      ]
+    },
+    {
+      "frame": 600,
+      "reserved": 0,
+      "slots": 0,
+      "roles": {
+        "10": {
+          "type": "thug",
+          "role": "PrimaryAttacker"
+        },
+        "11": {
+          "type": "knifeThug",
+          "role": "Recovering"
+        },
+        "12": {
+          "type": "enforcer",
+          "role": "Repositioning"
+        }
+      },
+      "requests": [
+        {
+          "at": 4.999999999999988,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 110.69565654577531,
+          "depth": 14.551881413242654,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 7.616666666666645,
+          "enemy": 10,
+          "attack": "hook",
+          "cost": 2,
+          "category": "heavy",
+          "target": "hero",
+          "duration": 1.15,
+          "distance": 111.42001811039654,
+          "depth": 16.305893610011935,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        },
+        {
+          "at": 9.283333333333374,
+          "enemy": 11,
+          "attack": "knifeSlash",
+          "cost": 1,
+          "category": "light",
+          "target": "hero",
+          "duration": 0.9333333333333333,
+          "distance": 109.08366706856037,
+          "depth": 3.3703747641250175,
+          "priority": 2,
+          "granted": true,
+          "reason": null
+        }
+      ],
+      "positions": [
+        {
+          "id": 10,
+          "type": "thug",
+          "x": 373.20918945275383,
+          "y": 443.88415158916445,
+          "stun": 0
+        },
+        {
+          "id": 11,
+          "type": "knifeThug",
+          "x": 325.08366706856015,
+          "y": 466.629625235875,
+          "action": "knifeSlash",
+          "stun": 0
+        },
+        {
+          "id": 12,
+          "type": "enforcer",
+          "x": 456.6003418517146,
+          "y": 507.9996601436717,
+          "stun": 0
+        }
+      ]
+    }
+  ],
+  "limitation": "One10second stationary-hero seeded probe; does not certify all encounters or strategic quality."
+}

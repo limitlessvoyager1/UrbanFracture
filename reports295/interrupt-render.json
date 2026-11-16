@@ -1,0 +1,45 @@
+{
+  "checks": 2,
+  "proof": [
+    {
+      "action": "oneTwo",
+      "stun": 0,
+      "motion": {
+        "kind": "attack",
+        "move": "oneTwo",
+        "frame": 4,
+        "contact": true,
+        "wholeBody": true
+      }
+    },
+    {
+      "stun": 0.28,
+      "motion": {
+        "kind": "attack",
+        "move": "oneTwo",
+        "frame": 4,
+        "contact": true,
+        "wholeBody": true
+      },
+      "reaction": {
+        "kind": "medium",
+        "resisted": false,
+        "interrupted": true,
+        "attack": "oneTwo",
+        "source": 7,
+        "dir": -1,
+        "at": 2.3499999999999988,
+        "damage": 7,
+        "ground": 470,
+        "duration": 0.28,
+        "until": 2.629999999999999,
+        "reassessUntil": 2.7633333333333323,
+        "result": "clean"
+      }
+    }
+  ],
+  "sourceProfileForEnforcer": null,
+  "approvedStride": 144,
+  "effectiveStride": 90,
+  "limitation": "Controlled native admitted attack and valid rear damage call; not a claim of matching the supplied video input."
+}

@@ -1,0 +1,87 @@
+{
+  "checks": 4261,
+  "cases": [
+    {
+      "kind": "clean",
+      "dir": -1,
+      "outcome": "clean"
+    },
+    {
+      "kind": "clean",
+      "dir": 1,
+      "outcome": "clean"
+    },
+    {
+      "kind": "knife",
+      "dir": -1,
+      "outcome": "clean"
+    },
+    {
+      "kind": "knife",
+      "dir": 1,
+      "outcome": "clean"
+    },
+    {
+      "kind": "block",
+      "dir": -1,
+      "outcome": "block"
+    },
+    {
+      "kind": "block",
+      "dir": 1,
+      "outcome": "block"
+    },
+    {
+      "kind": "armor",
+      "dir": -1,
+      "outcome": "armor"
+    },
+    {
+      "kind": "armor",
+      "dir": 1,
+      "outcome": "armor"
+    },
+    {
+      "kind": "hero-block",
+      "dir": -1,
+      "outcome": "block"
+    },
+    {
+      "kind": "hero-block",
+      "dir": 1,
+      "outcome": "block"
+    },
+    {
+      "kind": "counter",
+      "dir": -1,
+      "outcome": "counter"
+    },
+    {
+      "kind": "counter",
+      "dir": 1,
+      "outcome": "counter"
+    },
+    {
+      "kind": "miss",
+      "dir": -1,
+      "outcome": null
+    },
+    {
+      "kind": "miss",
+      "dir": 1,
+      "outcome": null
+    },
+    {
+      "kind": "protected",
+      "dir": -1,
+      "outcome": null
+    },
+    {
+      "kind": "protected",
+      "dir": 1,
+      "outcome": null
+    }
+  ],
+  "nativeEquivalence": true,
+  "rngPreserved": true
+}

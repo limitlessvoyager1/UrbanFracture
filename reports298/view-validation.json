@@ -1,0 +1,45 @@
+{
+  "checks": 1138,
+  "rows": [
+    {
+      "type": "thug",
+      "dir": -1,
+      "distinct": 24
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "distinct": 25
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "distinct": 30
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "distinct": 30
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "distinct": 12
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "distinct": 12
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "distinct": 17
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "distinct": 17
+    }
+  ]
+}

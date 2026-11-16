@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "street",
+    "overlapFrames": 136,
+    "overlapPairs": 150,
+    "maxCost": 2,
+    "maxCommit": 1,
+    "attacks": 12,
+    "attackers": 2
+  },
+  {
+    "scenario": "edge",
+    "overlapFrames": 0,
+    "overlapPairs": 0,
+    "maxCost": 2,
+    "maxCommit": 1,
+    "attacks": 8,
+    "attackers": 3
+  },
+  {
+    "scenario": "obstacle",
+    "overlapFrames": 224,
+    "overlapPairs": 248,
+    "maxCost": 3,
+    "maxCommit": 2,
+    "attacks": 10,
+    "attackers": 2
+  },
+  {
+    "scenario": "mixed",
+    "overlapFrames": 138,
+    "overlapPairs": 144,
+    "maxCost": 2,
+    "maxCommit": 1,
+    "attacks": 13,
+    "attackers": 3
+  }
+]

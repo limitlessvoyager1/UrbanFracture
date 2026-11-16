@@ -1,0 +1,16 @@
+[
+  { hero: 'reina', status: 'entry', damage: 0 },
+  { hero: 'reina', status: 'entering', damage: 0 },
+  { hero: 'reina', status: 'liftEntry', damage: 0 },
+  { hero: 'reina', status: 'wakeInv', damage: 0 },
+  { hero: 'reina', status: 'inv', damage: 0 },
+  { hero: 'reina', status: 'dormant', damage: 0 },
+  { hero: 'reina', status: 'heldBy', damage: 0 },
+  { hero: 'niko', status: 'entry', damage: 0 },
+  { hero: 'niko', status: 'entering', damage: 0 },
+  { hero: 'niko', status: 'liftEntry', damage: 0 },
+  { hero: 'niko', status: 'wakeInv', damage: 0 },
+  { hero: 'niko', status: 'inv', damage: 0 },
+  { hero: 'niko', status: 'dormant', damage: 0 },
+  { hero: 'niko', status: 'heldBy', damage: 0 }
+]

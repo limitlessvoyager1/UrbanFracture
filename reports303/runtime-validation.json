@@ -1,0 +1,232 @@
+{
+  "checks": 164495,
+  "rows": [
+    {
+      "scenario": "street",
+      "hero": "reina",
+      "hz": 60,
+      "attacks": 8,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "street",
+      "hero": "niko",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "street",
+      "hero": "broxton",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "street",
+      "hero": "forest",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 3,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "street",
+      "hero": "nova",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "street",
+      "hero": "orion",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "street",
+      "hero": "nightshade",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "edge",
+      "hero": "reina",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "edge",
+      "hero": "niko",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "edge",
+      "hero": "broxton",
+      "hz": 60,
+      "attacks": 5,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "edge",
+      "hero": "forest",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "edge",
+      "hero": "nova",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "edge",
+      "hero": "orion",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "edge",
+      "hero": "nightshade",
+      "hz": 60,
+      "attacks": 8,
+      "maxCost": 2,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "reina",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 3,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "niko",
+      "hz": 60,
+      "attacks": 5,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "broxton",
+      "hz": 60,
+      "attacks": 5,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "forest",
+      "hz": 60,
+      "attacks": 5,
+      "maxCost": 3,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "nova",
+      "hz": 60,
+      "attacks": 5,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "orion",
+      "hz": 60,
+      "attacks": 4,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "obstacle",
+      "hero": "nightshade",
+      "hz": 60,
+      "attacks": 5,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "mixed",
+      "hero": "reina",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "mixed",
+      "hero": "niko",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "mixed",
+      "hero": "broxton",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "mixed",
+      "hero": "forest",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 3,
+      "maxCommit": 2
+    },
+    {
+      "scenario": "mixed",
+      "hero": "nova",
+      "hz": 60,
+      "attacks": 7,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "mixed",
+      "hero": "orion",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    },
+    {
+      "scenario": "mixed",
+      "hero": "nightshade",
+      "hz": 60,
+      "attacks": 6,
+      "maxCost": 2,
+      "maxCommit": 1
+    }
+  ],
+  "approvedSourceUnchanged": true,
+  "budget": 3,
+  "maxCommitments": 2
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "type": "reina",
+    "state": "idle",
+    "h": 148,
+    "bottom": -1
+  },
+  {
+    "type": "reina",
+    "state": "block",
+    "h": 149,
+    "bottom": -1
+  },
+  {
+    "type": "flint",
+    "state": "idle",
+    "h": 158,
+    "bottom": -1
+  },
+  {
+    "type": "flint",
+    "state": "down",
+    "h": 65,
+    "bottom": 0
+  },
+  {
+    "type": "flint",
+    "state": "rise",
+    "h": 112,
+    "bottom": -1
+  },
+  {
+    "type": "biker",
+    "state": "idle",
+    "h": 139,
+    "bottom": -1
+  },
+  {
+    "type": "biker",
+    "state": "walk",
+    "h": 137,
+    "bottom": -1,
+    "render": {
+      "kind": "walk",
+      "frame": 2,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "state": "chainFist",
+    "h": 134,
+    "bottom": -1,
+    "render": {
+      "kind": "attack",
+      "move": "chainFist",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "state": "chainKick",
+    "h": 112,
+    "bottom": 0
+  },
+  {
+    "type": "biker",
+    "state": "chainLash",
+    "h": 134,
+    "bottom": -1,
+    "render": {
+      "kind": "attack",
+      "move": "chainLash",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "state": "chainRise",
+    "h": 138,
+    "bottom": -1
+  }
+]

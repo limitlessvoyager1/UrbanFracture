@@ -1,0 +1,36 @@
+[
+  {
+    "type": "thug",
+    "timeline": {
+      "serial": 1,
+      "at": 0,
+      "impactAt": 0.3333333333333333,
+      "stoodAt": 1.4666666666666663,
+      "recoveryLocksClearedAt": 2.466666666666663,
+      "duration": 1.45,
+      "alreadyGrounded": false
+    },
+    "firstAction": {
+      "frame": 157,
+      "time": 2.6166666666666623,
+      "name": "hook"
+    }
+  },
+  {
+    "type": "enforcer",
+    "timeline": {
+      "serial": 1,
+      "at": 0,
+      "impactAt": 0.3333333333333333,
+      "stoodAt": 1.4666666666666663,
+      "recoveryLocksClearedAt": 2.466666666666663,
+      "duration": 1.45,
+      "alreadyGrounded": false
+    },
+    "firstAction": {
+      "frame": 173,
+      "time": 2.883333333333328,
+      "name": "oneTwo"
+    }
+  }
+]

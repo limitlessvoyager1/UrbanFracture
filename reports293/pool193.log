@@ -1,0 +1,9 @@
+PASS193 all heroes, HP, waiting invulnerability/support clear gate, female/male branches, arena bounds
+PASS193 each boss splash→10s float→swim→climb, no damage/heal/early victory
+PASS193 either survivor permanent rage, no boss defenses, correct unchanged HP
+PASS193 all12 attacks through real timelines, single contact events, fixed plane, capture cleanup
+PASS193 both female pin/three-tap escape; all male clutch reaction
+PASS193 actual lethal damage→landed paired victory; simultaneous pool/reset; completed female pin damage and119cleanup
+PASS193 all5heroes eligible boss kick counters; baton block chips without shock
+PASS193 successful leg sweep transitions promptly into real grounded stomp follow-up
+PASS193 25s autonomous paired AI uses only authored boss moves, no Jackal phase/backup contamination

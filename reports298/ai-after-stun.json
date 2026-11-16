@@ -1,0 +1,4688 @@
+[
+  {
+    "type": "thug",
+    "release": 0.49999999999999994,
+    "firstAction": {
+      "frame": 42,
+      "time": 0.7000000000000005,
+      "name": "hook",
+      "stun": 0
+    },
+    "samples": [
+      {
+        "frame": 1,
+        "time": 0.016666666666666666,
+        "stun": 0.48333333333333334,
+        "action": null
+      },
+      {
+        "frame": 2,
+        "time": 0.03333333333333333,
+        "stun": 0.4666666666666667,
+        "action": null
+      },
+      {
+        "frame": 3,
+        "time": 0.05,
+        "stun": 0.45,
+        "action": null
+      },
+      {
+        "frame": 4,
+        "time": 0.06666666666666667,
+        "stun": 0.43333333333333335,
+        "action": null
+      },
+      {
+        "frame": 5,
+        "time": 0.08333333333333333,
+        "stun": 0.4166666666666667,
+        "action": null
+      },
+      {
+        "frame": 6,
+        "time": 0.09999999999999999,
+        "stun": 0.4,
+        "action": null
+      },
+      {
+        "frame": 7,
+        "time": 0.11666666666666665,
+        "stun": 0.38333333333333336,
+        "action": null
+      },
+      {
+        "frame": 8,
+        "time": 0.13333333333333333,
+        "stun": 0.3666666666666667,
+        "action": null
+      },
+      {
+        "frame": 9,
+        "time": 0.15,
+        "stun": 0.35000000000000003,
+        "action": null
+      },
+      {
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "stun": 0.33333333333333337,
+        "action": null
+      },
+      {
+        "frame": 11,
+        "time": 0.18333333333333332,
+        "stun": 0.3166666666666667,
+        "action": null
+      },
+      {
+        "frame": 12,
+        "time": 0.19999999999999998,
+        "stun": 0.30000000000000004,
+        "action": null
+      },
+      {
+        "frame": 13,
+        "time": 0.21666666666666665,
+        "stun": 0.2833333333333334,
+        "action": null
+      },
+      {
+        "frame": 14,
+        "time": 0.2333333333333333,
+        "stun": 0.2666666666666667,
+        "action": null
+      },
+      {
+        "frame": 15,
+        "time": 0.24999999999999997,
+        "stun": 0.25000000000000006,
+        "action": null
+      },
+      {
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "stun": 0.2333333333333334,
+        "action": null
+      },
+      {
+        "frame": 17,
+        "time": 0.2833333333333333,
+        "stun": 0.21666666666666673,
+        "action": null
+      },
+      {
+        "frame": 18,
+        "time": 0.3,
+        "stun": 0.20000000000000007,
+        "action": null
+      },
+      {
+        "frame": 19,
+        "time": 0.31666666666666665,
+        "stun": 0.1833333333333334,
+        "action": null
+      },
+      {
+        "frame": 20,
+        "time": 0.3333333333333333,
+        "stun": 0.16666666666666674,
+        "action": null
+      },
+      {
+        "frame": 21,
+        "time": 0.35,
+        "stun": 0.15000000000000008,
+        "action": null
+      },
+      {
+        "frame": 22,
+        "time": 0.36666666666666664,
+        "stun": 0.13333333333333341,
+        "action": null
+      },
+      {
+        "frame": 23,
+        "time": 0.3833333333333333,
+        "stun": 0.11666666666666675,
+        "action": null
+      },
+      {
+        "frame": 24,
+        "time": 0.39999999999999997,
+        "stun": 0.10000000000000009,
+        "action": null
+      },
+      {
+        "frame": 25,
+        "time": 0.41666666666666663,
+        "stun": 0.08333333333333343,
+        "action": null
+      },
+      {
+        "frame": 26,
+        "time": 0.4333333333333333,
+        "stun": 0.06666666666666676,
+        "action": null
+      },
+      {
+        "frame": 27,
+        "time": 0.44999999999999996,
+        "stun": 0.0500000000000001,
+        "action": null
+      },
+      {
+        "frame": 28,
+        "time": 0.4666666666666666,
+        "stun": 0.03333333333333344,
+        "action": null
+      },
+      {
+        "frame": 29,
+        "time": 0.4833333333333333,
+        "stun": 0.01666666666666677,
+        "action": null
+      },
+      {
+        "frame": 30,
+        "time": 0.49999999999999994,
+        "stun": 1.0408340855860843e-16,
+        "action": null
+      },
+      {
+        "frame": 31,
+        "time": 0.5166666666666666,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 32,
+        "time": 0.5333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 33,
+        "time": 0.55,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 34,
+        "time": 0.5666666666666668,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 35,
+        "time": 0.5833333333333335,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 36,
+        "time": 0.6000000000000002,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 37,
+        "time": 0.6166666666666669,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 38,
+        "time": 0.6333333333333336,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 39,
+        "time": 0.6500000000000004,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 40,
+        "time": 0.6666666666666671,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 41,
+        "time": 0.6833333333333338,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 42,
+        "time": 0.7000000000000005,
+        "stun": 0,
+        "action": "hook"
+      },
+      {
+        "frame": 43,
+        "time": 0.7166666666666672,
+        "stun": 0,
+        "action": "hook"
+      },
+      {
+        "frame": 44,
+        "time": 0.733333333333334,
+        "stun": 0,
+        "action": "hook"
+      },
+      {
+        "frame": 45,
+        "time": 0.7500000000000007,
+        "stun": 0,
+        "action": "hook"
+      }
+    ],
+    "nativeDirectorRequests": [
+      {
+        "at": 0.7000000000000005,
+        "enemy": 10,
+        "attack": "hook",
+        "cost": 2,
+        "category": "heavy",
+        "target": "hero",
+        "duration": 1.15,
+        "distance": 96.24764541336151,
+        "depth": 3.936675894676341,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    ],
+    "decisionEvidence": [
+      {
+        "sequence": 1,
+        "simulationFrame": 0,
+        "time": 0,
+        "enemy": 10,
+        "kind": "damage response",
+        "damage": 4,
+        "interruptedAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 7,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.5,
+          "cooldown": 0,
+          "weapon": null,
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {}
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 2,
+        "simulationFrame": 1,
+        "time": 0.016666666666666666,
+        "enemy": 10,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 7,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.48333333333333334,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 3,
+        "simulationFrame": 31,
+        "time": 0.5166666666666666,
+        "enemy": 10,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 7,
+          "distance": 86.0225132193965,
+          "planeDifference": 0.3578796267887583,
+          "position": {
+            "x": 436.0225132193965,
+            "y": 469.64212037321124
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 4,
+        "simulationFrame": 42,
+        "time": 0.7000000000000005,
+        "enemy": 10,
+        "kind": "action admitted",
+        "requestedAction": "hook",
+        "chosenAction": "hook",
+        "reason": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 7,
+          "distance": 96.24764541336151,
+          "planeDifference": 3.936675894676341,
+          "position": {
+            "x": 446.2476454133615,
+            "y": 466.06332410532366
+          },
+          "state": "hook",
+          "action": "hook",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": false,
+              "drawWon": false,
+              "pendingDraw": false,
+              "hadWeapon": false,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null
+            }
+          },
+          "director": {
+            "primary": 10,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 10,
+              "attack": "hook",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.15,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 5,
+        "simulationFrame": 42,
+        "time": 0.7000000000000005,
+        "enemy": 10,
+        "kind": "action selected",
+        "previousAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 7,
+          "distance": 96.24764541336151,
+          "planeDifference": 3.936675894676341,
+          "position": {
+            "x": 446.2476454133615,
+            "y": 466.06332410532366
+          },
+          "state": "hook",
+          "action": "hook",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": false,
+              "drawWon": false,
+              "pendingDraw": false,
+              "hadWeapon": false,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null,
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 10,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 10,
+              "attack": "hook",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.15,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 6,
+        "simulationFrame": 111,
+        "time": 1.8499999999999983,
+        "enemy": 10,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 95,
+          "target": 7,
+          "distance": 117.88310976604373,
+          "planeDifference": 4.421487357702233,
+          "position": {
+            "x": 413.88310976604373,
+            "y": 465.57851264229777
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.55,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": false,
+              "drawWon": false,
+              "pendingDraw": false,
+              "hadWeapon": false,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null,
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "Recovering"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 10,
+              "attack": "hook",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.15,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 7,
+        "simulationFrame": 129,
+        "time": 2.1499999999999972,
+        "enemy": 10,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 95,
+          "target": 7,
+          "distance": 134.35267042831458,
+          "planeDifference": 12.663282229142396,
+          "position": {
+            "x": 430.3526704283146,
+            "y": 457.3367177708576
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.25,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": false,
+              "drawWon": false,
+              "pendingDraw": false,
+              "hadWeapon": false,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": "invalid target",
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 10,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 10,
+              "attack": "hook",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.15,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "street209",
+              "field": "failed",
+              "value": "invalid target",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 8,
+        "simulationFrame": 170,
+        "time": 2.833333333333328,
+        "enemy": 10,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 10,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 95,
+          "target": 7,
+          "distance": 132.70249349114863,
+          "planeDifference": 12.429415057817948,
+          "position": {
+            "x": 428.70249349114863,
+            "y": 457.57058494218205
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": false,
+              "drawWon": false,
+              "pendingDraw": false,
+              "hadWeapon": false,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": "out of range",
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 10,
+            "secondary": null,
+            "roles": {
+              "10": {
+                "type": "thug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 10,
+              "attack": "hook",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.15,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "street209",
+              "field": "failed",
+              "value": "out of range",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      }
+    ]
+  },
+  {
+    "type": "knifeThug",
+    "release": 0.49999999999999994,
+    "firstAction": {
+      "frame": 42,
+      "time": 0.7000000000000005,
+      "name": "knifeSlash",
+      "stun": 0
+    },
+    "samples": [
+      {
+        "frame": 1,
+        "time": 0.016666666666666666,
+        "stun": 0.48333333333333334,
+        "action": null
+      },
+      {
+        "frame": 2,
+        "time": 0.03333333333333333,
+        "stun": 0.4666666666666667,
+        "action": null
+      },
+      {
+        "frame": 3,
+        "time": 0.05,
+        "stun": 0.45,
+        "action": null
+      },
+      {
+        "frame": 4,
+        "time": 0.06666666666666667,
+        "stun": 0.43333333333333335,
+        "action": null
+      },
+      {
+        "frame": 5,
+        "time": 0.08333333333333333,
+        "stun": 0.4166666666666667,
+        "action": null
+      },
+      {
+        "frame": 6,
+        "time": 0.09999999999999999,
+        "stun": 0.4,
+        "action": null
+      },
+      {
+        "frame": 7,
+        "time": 0.11666666666666665,
+        "stun": 0.38333333333333336,
+        "action": null
+      },
+      {
+        "frame": 8,
+        "time": 0.13333333333333333,
+        "stun": 0.3666666666666667,
+        "action": null
+      },
+      {
+        "frame": 9,
+        "time": 0.15,
+        "stun": 0.35000000000000003,
+        "action": null
+      },
+      {
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "stun": 0.33333333333333337,
+        "action": null
+      },
+      {
+        "frame": 11,
+        "time": 0.18333333333333332,
+        "stun": 0.3166666666666667,
+        "action": null
+      },
+      {
+        "frame": 12,
+        "time": 0.19999999999999998,
+        "stun": 0.30000000000000004,
+        "action": null
+      },
+      {
+        "frame": 13,
+        "time": 0.21666666666666665,
+        "stun": 0.2833333333333334,
+        "action": null
+      },
+      {
+        "frame": 14,
+        "time": 0.2333333333333333,
+        "stun": 0.2666666666666667,
+        "action": null
+      },
+      {
+        "frame": 15,
+        "time": 0.24999999999999997,
+        "stun": 0.25000000000000006,
+        "action": null
+      },
+      {
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "stun": 0.2333333333333334,
+        "action": null
+      },
+      {
+        "frame": 17,
+        "time": 0.2833333333333333,
+        "stun": 0.21666666666666673,
+        "action": null
+      },
+      {
+        "frame": 18,
+        "time": 0.3,
+        "stun": 0.20000000000000007,
+        "action": null
+      },
+      {
+        "frame": 19,
+        "time": 0.31666666666666665,
+        "stun": 0.1833333333333334,
+        "action": null
+      },
+      {
+        "frame": 20,
+        "time": 0.3333333333333333,
+        "stun": 0.16666666666666674,
+        "action": null
+      },
+      {
+        "frame": 21,
+        "time": 0.35,
+        "stun": 0.15000000000000008,
+        "action": null
+      },
+      {
+        "frame": 22,
+        "time": 0.36666666666666664,
+        "stun": 0.13333333333333341,
+        "action": null
+      },
+      {
+        "frame": 23,
+        "time": 0.3833333333333333,
+        "stun": 0.11666666666666675,
+        "action": null
+      },
+      {
+        "frame": 24,
+        "time": 0.39999999999999997,
+        "stun": 0.10000000000000009,
+        "action": null
+      },
+      {
+        "frame": 25,
+        "time": 0.41666666666666663,
+        "stun": 0.08333333333333343,
+        "action": null
+      },
+      {
+        "frame": 26,
+        "time": 0.4333333333333333,
+        "stun": 0.06666666666666676,
+        "action": null
+      },
+      {
+        "frame": 27,
+        "time": 0.44999999999999996,
+        "stun": 0.0500000000000001,
+        "action": null
+      },
+      {
+        "frame": 28,
+        "time": 0.4666666666666666,
+        "stun": 0.03333333333333344,
+        "action": null
+      },
+      {
+        "frame": 29,
+        "time": 0.4833333333333333,
+        "stun": 0.01666666666666677,
+        "action": null
+      },
+      {
+        "frame": 30,
+        "time": 0.49999999999999994,
+        "stun": 1.0408340855860843e-16,
+        "action": null
+      },
+      {
+        "frame": 31,
+        "time": 0.5166666666666666,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 32,
+        "time": 0.5333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 33,
+        "time": 0.55,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 34,
+        "time": 0.5666666666666668,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 35,
+        "time": 0.5833333333333335,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 36,
+        "time": 0.6000000000000002,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 37,
+        "time": 0.6166666666666669,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 38,
+        "time": 0.6333333333333336,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 39,
+        "time": 0.6500000000000004,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 40,
+        "time": 0.6666666666666671,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 41,
+        "time": 0.6833333333333338,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 42,
+        "time": 0.7000000000000005,
+        "stun": 0,
+        "action": "knifeSlash"
+      },
+      {
+        "frame": 43,
+        "time": 0.7166666666666672,
+        "stun": 0,
+        "action": "knifeSlash"
+      },
+      {
+        "frame": 44,
+        "time": 0.733333333333334,
+        "stun": 0,
+        "action": "knifeSlash"
+      },
+      {
+        "frame": 45,
+        "time": 0.7500000000000007,
+        "stun": 0,
+        "action": "knifeSlash"
+      }
+    ],
+    "nativeDirectorRequests": [
+      {
+        "at": 0.7000000000000005,
+        "enemy": 20,
+        "attack": "knifeSlash",
+        "cost": 1,
+        "category": "light",
+        "target": "hero",
+        "duration": 0.9333333333333333,
+        "distance": 96.24764541336151,
+        "depth": 3.936675894676341,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      },
+      {
+        "at": 2.3833333333333298,
+        "enemy": 20,
+        "attack": "knife",
+        "cost": 1,
+        "category": "light",
+        "target": "hero",
+        "duration": 0.6666666666666666,
+        "distance": 64.56588153810128,
+        "depth": 0.7315047122465899,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    ],
+    "decisionEvidence": [
+      {
+        "sequence": 1,
+        "simulationFrame": 0,
+        "time": 0,
+        "enemy": 20,
+        "kind": "damage response",
+        "damage": 4,
+        "interruptedAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 17,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.5,
+          "cooldown": 0,
+          "weapon": "knife",
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {}
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 2,
+        "simulationFrame": 1,
+        "time": 0.016666666666666666,
+        "enemy": 20,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 17,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.48333333333333334,
+          "cooldown": 0,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 3,
+        "simulationFrame": 31,
+        "time": 0.5166666666666666,
+        "enemy": 20,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 17,
+          "distance": 86.0225132193965,
+          "planeDifference": 0.3578796267887583,
+          "position": {
+            "x": 436.0225132193965,
+            "y": 469.64212037321124
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 4,
+        "simulationFrame": 42,
+        "time": 0.7000000000000005,
+        "enemy": 20,
+        "kind": "action admitted",
+        "requestedAction": "knifeSlash",
+        "chosenAction": "knifeSlash",
+        "reason": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 17,
+          "distance": 96.24764541336151,
+          "planeDifference": 3.936675894676341,
+          "position": {
+            "x": 446.2476454133615,
+            "y": 466.06332410532366
+          },
+          "state": "knifeSlash",
+          "action": "knifeSlash",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null
+            }
+          },
+          "director": {
+            "primary": 20,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 20,
+              "attack": "knifeSlash",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.9333333333333333,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 5,
+        "simulationFrame": 42,
+        "time": 0.7000000000000005,
+        "enemy": 20,
+        "kind": "action selected",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 17,
+          "distance": 96.24764541336151,
+          "planeDifference": 3.936675894676341,
+          "position": {
+            "x": 446.2476454133615,
+            "y": 466.06332410532366
+          },
+          "state": "knifeSlash",
+          "action": "knifeSlash",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null,
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 20,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 20,
+              "attack": "knifeSlash",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.9333333333333333,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 6,
+        "simulationFrame": 98,
+        "time": 1.6333333333333324,
+        "enemy": 20,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 89,
+          "target": 17,
+          "distance": 76.29402350435151,
+          "planeDifference": 4.217218229818116,
+          "position": {
+            "x": 421.2940235043515,
+            "y": 465.7827817701819
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.75,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null,
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "Recovering"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 20,
+              "attack": "knifeSlash",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.9333333333333333,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 7,
+        "simulationFrame": 107,
+        "time": 1.7833333333333319,
+        "enemy": 20,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 89,
+          "target": 17,
+          "distance": 83.60719735363273,
+          "planeDifference": 6.1599752162836126,
+          "position": {
+            "x": 428.6071973536327,
+            "y": 463.8400247837164
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.5999999999999995,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": "attack cooldown",
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 20,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 20,
+              "attack": "knifeSlash",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.9333333333333333,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "street209",
+              "field": "failed",
+              "value": "attack cooldown",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 8,
+        "simulationFrame": 126,
+        "time": 2.0999999999999974,
+        "enemy": 20,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 89,
+          "target": 17,
+          "distance": 64.56588153810128,
+          "planeDifference": 0.7315047122465899,
+          "position": {
+            "x": 409.5658815381013,
+            "y": 469.2684952877534
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.28333333333333266,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 1.3500000000000005,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": "attack cooldown",
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 20,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7000000000000005,
+              "enemy": 20,
+              "attack": "knifeSlash",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.9333333333333333,
+              "distance": 96.24764541336151,
+              "depth": 3.936675894676341,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "street209",
+              "field": "failed",
+              "value": "attack cooldown",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 9,
+        "simulationFrame": 143,
+        "time": 2.3833333333333298,
+        "enemy": 20,
+        "kind": "action admitted",
+        "requestedAction": "knife",
+        "chosenAction": "knife",
+        "reason": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 89,
+          "target": 17,
+          "distance": 64.56588153810128,
+          "planeDifference": 0.7315047122465899,
+          "position": {
+            "x": 409.5658815381013,
+            "y": 469.2684952877534
+          },
+          "state": "knife",
+          "action": "knife",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 3.0333333333333297,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": "attack cooldown",
+              "lastEngaged": 0.7000000000000005
+            }
+          },
+          "director": {
+            "primary": 20,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 2.3833333333333298,
+              "enemy": 20,
+              "attack": "knife",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.6666666666666666,
+              "distance": 64.56588153810128,
+              "depth": 0.7315047122465899,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "street209",
+              "field": "failed",
+              "value": "attack cooldown",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 10,
+        "simulationFrame": 143,
+        "time": 2.3833333333333298,
+        "enemy": 20,
+        "kind": "action selected",
+        "previousAction": null,
+        "snapshot": {
+          "id": 20,
+          "name": "Kevin",
+          "type": "knifeThug",
+          "hp": 56,
+          "maxHp": 60,
+          "playerHP": 89,
+          "target": 17,
+          "distance": 64.56588153810128,
+          "planeDifference": 0.7315047122465899,
+          "position": {
+            "x": 409.5658815381013,
+            "y": 469.2684952877534
+          },
+          "state": "knife",
+          "action": "knife",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": "knife",
+          "denied": null,
+          "controllerData": {
+            "street209": {
+              "decided": true,
+              "drawWon": true,
+              "pendingDraw": false,
+              "hadWeapon": true,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 3.0333333333333297,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null,
+              "lastEngaged": 2.3833333333333298
+            }
+          },
+          "director": {
+            "primary": 20,
+            "secondary": null,
+            "roles": {
+              "20": {
+                "type": "knifeThug",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 2.3833333333333298,
+              "enemy": 20,
+              "attack": "knife",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 0.6666666666666666,
+              "distance": 64.56588153810128,
+              "depth": 0.7315047122465899,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      }
+    ]
+  },
+  {
+    "type": "enforcer",
+    "release": 0.2833333333333333,
+    "firstAction": {
+      "frame": 45,
+      "time": 0.7500000000000007,
+      "name": "oneTwo",
+      "stun": 0
+    },
+    "samples": [
+      {
+        "frame": 1,
+        "time": 0.016666666666666666,
+        "stun": 0.26333333333333336,
+        "action": null
+      },
+      {
+        "frame": 2,
+        "time": 0.03333333333333333,
+        "stun": 0.2466666666666667,
+        "action": null
+      },
+      {
+        "frame": 3,
+        "time": 0.05,
+        "stun": 0.23000000000000004,
+        "action": null
+      },
+      {
+        "frame": 4,
+        "time": 0.06666666666666667,
+        "stun": 0.21333333333333337,
+        "action": null
+      },
+      {
+        "frame": 5,
+        "time": 0.08333333333333333,
+        "stun": 0.1966666666666667,
+        "action": null
+      },
+      {
+        "frame": 6,
+        "time": 0.09999999999999999,
+        "stun": 0.18000000000000005,
+        "action": null
+      },
+      {
+        "frame": 7,
+        "time": 0.11666666666666665,
+        "stun": 0.16333333333333339,
+        "action": null
+      },
+      {
+        "frame": 8,
+        "time": 0.13333333333333333,
+        "stun": 0.14666666666666672,
+        "action": null
+      },
+      {
+        "frame": 9,
+        "time": 0.15,
+        "stun": 0.13000000000000006,
+        "action": null
+      },
+      {
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "stun": 0.1133333333333334,
+        "action": null
+      },
+      {
+        "frame": 11,
+        "time": 0.18333333333333332,
+        "stun": 0.09666666666666673,
+        "action": null
+      },
+      {
+        "frame": 12,
+        "time": 0.19999999999999998,
+        "stun": 0.08000000000000007,
+        "action": null
+      },
+      {
+        "frame": 13,
+        "time": 0.21666666666666665,
+        "stun": 0.06333333333333341,
+        "action": null
+      },
+      {
+        "frame": 14,
+        "time": 0.2333333333333333,
+        "stun": 0.046666666666666745,
+        "action": null
+      },
+      {
+        "frame": 15,
+        "time": 0.24999999999999997,
+        "stun": 0.03000000000000008,
+        "action": null
+      },
+      {
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "stun": 0.013333333333333412,
+        "action": null
+      },
+      {
+        "frame": 17,
+        "time": 0.2833333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 18,
+        "time": 0.3,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 19,
+        "time": 0.31666666666666665,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 20,
+        "time": 0.3333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 21,
+        "time": 0.35,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 22,
+        "time": 0.36666666666666664,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 23,
+        "time": 0.3833333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 24,
+        "time": 0.39999999999999997,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 25,
+        "time": 0.41666666666666663,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 26,
+        "time": 0.4333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 27,
+        "time": 0.44999999999999996,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 28,
+        "time": 0.4666666666666666,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 29,
+        "time": 0.4833333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 30,
+        "time": 0.49999999999999994,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 31,
+        "time": 0.5166666666666666,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 32,
+        "time": 0.5333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 33,
+        "time": 0.55,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 34,
+        "time": 0.5666666666666668,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 35,
+        "time": 0.5833333333333335,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 36,
+        "time": 0.6000000000000002,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 37,
+        "time": 0.6166666666666669,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 38,
+        "time": 0.6333333333333336,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 39,
+        "time": 0.6500000000000004,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 40,
+        "time": 0.6666666666666671,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 41,
+        "time": 0.6833333333333338,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 42,
+        "time": 0.7000000000000005,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 43,
+        "time": 0.7166666666666672,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 44,
+        "time": 0.733333333333334,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 45,
+        "time": 0.7500000000000007,
+        "stun": 0,
+        "action": "oneTwo"
+      }
+    ],
+    "nativeDirectorRequests": [
+      {
+        "at": 0.7500000000000007,
+        "enemy": 30,
+        "attack": "oneTwo",
+        "cost": 2,
+        "category": "heavy",
+        "target": "hero",
+        "duration": 1.4666666666666668,
+        "distance": 67.89521423673352,
+        "depth": 0.2757588491565457,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    ],
+    "decisionEvidence": [
+      {
+        "sequence": 1,
+        "simulationFrame": 0,
+        "time": 0,
+        "enemy": 30,
+        "kind": "damage response",
+        "damage": 4,
+        "interruptedAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.28,
+          "cooldown": 0,
+          "weapon": null,
+          "controllerData": {},
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {}
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 2,
+        "simulationFrame": 1,
+        "time": 0.016666666666666666,
+        "enemy": 30,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.26333333333333336,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": null
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 3,
+        "simulationFrame": 17,
+        "time": 0.2833333333333333,
+        "enemy": 30,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 86.03913828126912,
+          "planeDifference": 0.30627233553195765,
+          "position": {
+            "x": 436.0391382812691,
+            "y": 469.69372766446804
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": null
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 4,
+        "simulationFrame": 21,
+        "time": 0.35,
+        "enemy": 30,
+        "kind": "action rejected",
+        "requestedAction": "frontKick",
+        "chosenAction": null,
+        "reason": "post-hit reassessment",
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 89.15655312507647,
+          "planeDifference": 1.2250893421278306,
+          "position": {
+            "x": 439.15655312507647,
+            "y": 468.77491065787217
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": {
+            "at": 0.35,
+            "reason": "post-hit reassessment"
+          },
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0.75,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": null,
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ]
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": {
+            "cd": {},
+            "decision": 0.75,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null,
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ]
+          },
+          "nativeReasonFields": [],
+          "selectionReason": "post-hit reassessment",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 5,
+        "simulationFrame": 21,
+        "time": 0.35,
+        "enemy": 30,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 90.19517908687703,
+          "planeDifference": 2.849222374143892,
+          "position": {
+            "x": 440.19517908687703,
+            "y": 467.1507776258561
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.08,
+          "weapon": null,
+          "denied": {
+            "at": 0.35,
+            "reason": "post-hit reassessment"
+          },
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0.75,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": "post-hit reassessment",
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ]
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": {
+            "cd": {},
+            "decision": 0.75,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": "post-hit reassessment",
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ]
+          },
+          "nativeReasonFields": [
+            {
+              "controller": "enemy210",
+              "field": "reason",
+              "value": "post-hit reassessment",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "post-hit reassessment",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 6,
+        "simulationFrame": 22,
+        "time": 0.36666666666666664,
+        "enemy": 30,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 89.5852176332873,
+          "planeDifference": 2.678757902051359,
+          "position": {
+            "x": 439.5852176332873,
+            "y": 467.32124209794864
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.06333333333333334,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0.75,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": "post-hit reassessment",
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ]
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": {
+            "cd": {},
+            "decision": 0.75,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": "post-hit reassessment",
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ]
+          },
+          "nativeReasonFields": [
+            {
+              "controller": "enemy210",
+              "field": "reason",
+              "value": "post-hit reassessment",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 7,
+        "simulationFrame": 26,
+        "time": 0.4333333333333333,
+        "enemy": 30,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 86.71006384958207,
+          "planeDifference": 2.067806294372872,
+          "position": {
+            "x": 436.71006384958207,
+            "y": 467.9321937056271
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0.75,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": "position / eligible move cooldown",
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ],
+              "positionAt": 1.1294187995449951,
+              "flank": false,
+              "lastApproach": 0.4333333333333333
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": {
+            "cd": {},
+            "decision": 0.75,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": "position / eligible move cooldown",
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ],
+            "positionAt": 1.1294187995449951,
+            "flank": false,
+            "lastApproach": 0.4333333333333333
+          },
+          "nativeReasonFields": [
+            {
+              "controller": "enemy210",
+              "field": "reason",
+              "value": "position / eligible move cooldown",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 8,
+        "simulationFrame": 45,
+        "time": 0.7500000000000007,
+        "enemy": 30,
+        "kind": "action admitted",
+        "requestedAction": "oneTwo",
+        "chosenAction": "oneTwo",
+        "reason": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 67.89521423673352,
+          "planeDifference": 0.2757588491565457,
+          "position": {
+            "x": 417.8952142367335,
+            "y": 469.72424115084345
+          },
+          "state": "oneTwo",
+          "action": "oneTwo",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 1.1500000000000008,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [
+                {
+                  "at": 0.7500000000000007,
+                  "attack": "oneTwo"
+                }
+              ],
+              "reason": null,
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ],
+              "positionAt": 1.1294187995449951,
+              "flank": false,
+              "lastApproach": 0.4333333333333333
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7500000000000007,
+              "enemy": 30,
+              "attack": "oneTwo",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.4666666666666668,
+              "distance": 67.89521423673352,
+              "depth": 0.2757588491565457,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": {
+            "cd": {},
+            "decision": 1.1500000000000008,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [
+              {
+                "at": 0.7500000000000007,
+                "attack": "oneTwo"
+              }
+            ],
+            "reason": null,
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ],
+            "positionAt": 1.1294187995449951,
+            "flank": false,
+            "lastApproach": 0.4333333333333333
+          },
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 9,
+        "simulationFrame": 45,
+        "time": 0.7500000000000007,
+        "enemy": 30,
+        "kind": "action selected",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 27,
+          "distance": 67.89521423673352,
+          "planeDifference": 0.2757588491565457,
+          "position": {
+            "x": 417.8952142367335,
+            "y": 469.72424115084345
+          },
+          "state": "oneTwo",
+          "action": "oneTwo",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 1.1500000000000008,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [
+                {
+                  "at": 0.7500000000000007,
+                  "attack": "oneTwo"
+                }
+              ],
+              "reason": null,
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ],
+              "positionAt": 1.1294187995449951,
+              "flank": false,
+              "lastApproach": 0.4333333333333333
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7500000000000007,
+              "enemy": 30,
+              "attack": "oneTwo",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.4666666666666668,
+              "distance": 67.89521423673352,
+              "depth": 0.2757588491565457,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": {
+            "cd": {},
+            "decision": 1.1500000000000008,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [
+              {
+                "at": 0.7500000000000007,
+                "attack": "oneTwo"
+              }
+            ],
+            "reason": null,
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ],
+            "positionAt": 1.1294187995449951,
+            "flank": false,
+            "lastApproach": 0.4333333333333333
+          },
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 10,
+        "simulationFrame": 134,
+        "time": 2.2333333333333303,
+        "enemy": 30,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 67,
+          "target": 27,
+          "distance": 124,
+          "planeDifference": 0.2757588491565457,
+          "position": {
+            "x": 410,
+            "y": 469.72424115084345
+          },
+          "state": "recovery lock",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0.2,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.75,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {
+                "oneTwo": 5.733333333333331
+              },
+              "decision": 1.1500000000000008,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [
+                {
+                  "at": 0.7500000000000007,
+                  "attack": "oneTwo"
+                }
+              ],
+              "reason": null,
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ],
+              "positionAt": 1.1294187995449951,
+              "flank": false,
+              "lastApproach": 0.4333333333333333
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "Recovering"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7500000000000007,
+              "enemy": 30,
+              "attack": "oneTwo",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.4666666666666668,
+              "distance": 67.89521423673352,
+              "depth": 0.2757588491565457,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": {
+            "cd": {
+              "oneTwo": 5.733333333333331
+            },
+            "decision": 1.1500000000000008,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [
+              {
+                "at": 0.7500000000000007,
+                "attack": "oneTwo"
+              }
+            ],
+            "reason": null,
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ],
+            "positionAt": 1.1294187995449951,
+            "flank": false,
+            "lastApproach": 0.4333333333333333
+          },
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 11,
+        "simulationFrame": 147,
+        "time": 2.449999999999996,
+        "enemy": 30,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 67,
+          "target": 27,
+          "distance": 124.97086756571298,
+          "planeDifference": 0.756411822680775,
+          "position": {
+            "x": 410.970867565713,
+            "y": 469.2435881773192
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.5333333333333327,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {
+                "oneTwo": 5.733333333333331
+              },
+              "decision": 1.1500000000000008,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [
+                {
+                  "at": 0.7500000000000007,
+                  "attack": "oneTwo"
+                }
+              ],
+              "reason": null,
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ],
+              "positionAt": 1.1294187995449951,
+              "flank": false,
+              "lastApproach": 0.4333333333333333
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "Recovering"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7500000000000007,
+              "enemy": 30,
+              "attack": "oneTwo",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.4666666666666668,
+              "distance": 67.89521423673352,
+              "depth": 0.2757588491565457,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": {
+            "cd": {
+              "oneTwo": 5.733333333333331
+            },
+            "decision": 1.1500000000000008,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [
+              {
+                "at": 0.7500000000000007,
+                "attack": "oneTwo"
+              }
+            ],
+            "reason": null,
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ],
+            "positionAt": 1.1294187995449951,
+            "flank": false,
+            "lastApproach": 0.4333333333333333
+          },
+          "nativeReasonFields": [],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 12,
+        "simulationFrame": 154,
+        "time": 2.5666666666666624,
+        "enemy": 30,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 30,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 111,
+          "maxHp": 115,
+          "playerHP": 67,
+          "target": 27,
+          "distance": 130.79607295999085,
+          "planeDifference": 3.6403296638263214,
+          "position": {
+            "x": 416.79607295999085,
+            "y": 466.3596703361737
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.41666666666666596,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "enemy210": {
+              "cd": {
+                "oneTwo": 5.733333333333331
+              },
+              "decision": 1.1500000000000008,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [
+                {
+                  "at": 0.7500000000000007,
+                  "attack": "oneTwo"
+                }
+              ],
+              "reason": "target protected / electrical recovery opportunity",
+              "eligible": [
+                [
+                  "oneTwo",
+                  50
+                ],
+                [
+                  "frontKick",
+                  20
+                ],
+                [
+                  "enemyStep210",
+                  10
+                ]
+              ],
+              "positionAt": 1.1294187995449951,
+              "flank": false,
+              "lastApproach": 0.4333333333333333
+            }
+          },
+          "director": {
+            "primary": 30,
+            "secondary": null,
+            "roles": {
+              "30": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 0.7500000000000007,
+              "enemy": 30,
+              "attack": "oneTwo",
+              "cost": 2,
+              "category": "heavy",
+              "target": "hero",
+              "duration": 1.4666666666666668,
+              "distance": 67.89521423673352,
+              "depth": 0.2757588491565457,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": {
+            "cd": {
+              "oneTwo": 5.733333333333331
+            },
+            "decision": 1.1500000000000008,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [
+              {
+                "at": 0.7500000000000007,
+                "attack": "oneTwo"
+              }
+            ],
+            "reason": "target protected / electrical recovery opportunity",
+            "eligible": [
+              [
+                "oneTwo",
+                50
+              ],
+              [
+                "frontKick",
+                20
+              ],
+              [
+                "enemyStep210",
+                10
+              ]
+            ],
+            "positionAt": 1.1294187995449951,
+            "flank": false,
+            "lastApproach": 0.4333333333333333
+          },
+          "nativeReasonFields": [
+            {
+              "controller": "enemy210",
+              "field": "reason",
+              "value": "target protected / electrical recovery opportunity",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      }
+    ]
+  },
+  {
+    "type": "sato",
+    "release": 0.2833333333333333,
+    "firstAction": {
+      "frame": 50,
+      "time": 0.8333333333333343,
+      "name": "martialPause212",
+      "stun": 0
+    },
+    "samples": [
+      {
+        "frame": 1,
+        "time": 0.016666666666666666,
+        "stun": 0.26333333333333336,
+        "action": null
+      },
+      {
+        "frame": 2,
+        "time": 0.03333333333333333,
+        "stun": 0.2466666666666667,
+        "action": null
+      },
+      {
+        "frame": 3,
+        "time": 0.05,
+        "stun": 0.23000000000000004,
+        "action": null
+      },
+      {
+        "frame": 4,
+        "time": 0.06666666666666667,
+        "stun": 0.21333333333333337,
+        "action": null
+      },
+      {
+        "frame": 5,
+        "time": 0.08333333333333333,
+        "stun": 0.1966666666666667,
+        "action": null
+      },
+      {
+        "frame": 6,
+        "time": 0.09999999999999999,
+        "stun": 0.18000000000000005,
+        "action": null
+      },
+      {
+        "frame": 7,
+        "time": 0.11666666666666665,
+        "stun": 0.16333333333333339,
+        "action": null
+      },
+      {
+        "frame": 8,
+        "time": 0.13333333333333333,
+        "stun": 0.14666666666666672,
+        "action": null
+      },
+      {
+        "frame": 9,
+        "time": 0.15,
+        "stun": 0.13000000000000006,
+        "action": null
+      },
+      {
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "stun": 0.1133333333333334,
+        "action": null
+      },
+      {
+        "frame": 11,
+        "time": 0.18333333333333332,
+        "stun": 0.09666666666666673,
+        "action": null
+      },
+      {
+        "frame": 12,
+        "time": 0.19999999999999998,
+        "stun": 0.08000000000000007,
+        "action": null
+      },
+      {
+        "frame": 13,
+        "time": 0.21666666666666665,
+        "stun": 0.06333333333333341,
+        "action": null
+      },
+      {
+        "frame": 14,
+        "time": 0.2333333333333333,
+        "stun": 0.046666666666666745,
+        "action": null
+      },
+      {
+        "frame": 15,
+        "time": 0.24999999999999997,
+        "stun": 0.03000000000000008,
+        "action": null
+      },
+      {
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "stun": 0.013333333333333412,
+        "action": null
+      },
+      {
+        "frame": 17,
+        "time": 0.2833333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 18,
+        "time": 0.3,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 19,
+        "time": 0.31666666666666665,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 20,
+        "time": 0.3333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 21,
+        "time": 0.35,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 22,
+        "time": 0.36666666666666664,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 23,
+        "time": 0.3833333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 24,
+        "time": 0.39999999999999997,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 25,
+        "time": 0.41666666666666663,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 26,
+        "time": 0.4333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 27,
+        "time": 0.44999999999999996,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 28,
+        "time": 0.4666666666666666,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 29,
+        "time": 0.4833333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 30,
+        "time": 0.49999999999999994,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 31,
+        "time": 0.5166666666666666,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 32,
+        "time": 0.5333333333333333,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 33,
+        "time": 0.55,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 34,
+        "time": 0.5666666666666668,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 35,
+        "time": 0.5833333333333335,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 36,
+        "time": 0.6000000000000002,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 37,
+        "time": 0.6166666666666669,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 38,
+        "time": 0.6333333333333336,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 39,
+        "time": 0.6500000000000004,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 40,
+        "time": 0.6666666666666671,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 41,
+        "time": 0.6833333333333338,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 42,
+        "time": 0.7000000000000005,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 43,
+        "time": 0.7166666666666672,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 44,
+        "time": 0.733333333333334,
+        "stun": 0,
+        "action": null
+      },
+      {
+        "frame": 45,
+        "time": 0.7500000000000007,
+        "stun": 0,
+        "action": null
+      }
+    ],
+    "nativeDirectorRequests": [
+      {
+        "at": 2.549999999999996,
+        "enemy": 40,
+        "attack": "martialCombo",
+        "cost": 1,
+        "category": "light",
+        "target": "hero",
+        "duration": 1.9166666666666667,
+        "distance": 87.13841886532094,
+        "depth": 0.3295280305409847,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    ],
+    "decisionEvidence": [
+      {
+        "sequence": 1,
+        "simulationFrame": 0,
+        "time": 0,
+        "enemy": 40,
+        "kind": "damage response",
+        "damage": 4,
+        "interruptedAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.28,
+          "cooldown": 0,
+          "weapon": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.18,
+              "composure": -0.22,
+              "cd": {},
+              "decision": 0,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit"
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {}
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 2,
+        "simulationFrame": 1,
+        "time": 0.016666666666666666,
+        "enemy": 40,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "hitstun",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0.26333333333333336,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.18,
+              "composure": -0.22,
+              "cd": {},
+              "decision": 0,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit"
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 3,
+        "simulationFrame": 17,
+        "time": 0.2833333333333333,
+        "enemy": 40,
+        "kind": "action rejected",
+        "requestedAction": "martialPause212",
+        "chosenAction": null,
+        "reason": "post-hit reassessment",
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 85,
+          "planeDifference": 0,
+          "position": {
+            "x": 435,
+            "y": 470
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": {
+            "at": 0.2833333333333333,
+            "reason": "post-hit reassessment"
+          },
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.1740988980867611,
+              "composure": -0.214210864857692,
+              "cd": {},
+              "decision": 0.8268109889545787,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 85,
+              "pauses": 1
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "post-hit reassessment",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 4,
+        "simulationFrame": 17,
+        "time": 0.2833333333333333,
+        "enemy": 40,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 85.9794116220474,
+          "planeDifference": 0.4629945849678734,
+          "position": {
+            "x": 435.9794116220474,
+            "y": 469.5370054150321
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.08,
+          "weapon": null,
+          "denied": {
+            "at": 0.2833333333333333,
+            "reason": "post-hit reassessment"
+          },
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.1740988980867611,
+              "composure": -0.214210864857692,
+              "cd": {},
+              "decision": 0.8268109889545787,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 85,
+              "pauses": 1
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "post-hit reassessment",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 5,
+        "simulationFrame": 18,
+        "time": 0.3,
+        "enemy": 40,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 85.9794116220474,
+          "planeDifference": 0.4629945849678734,
+          "position": {
+            "x": 435.9794116220474,
+            "y": 469.5370054150321
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.06333333333333334,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.17373656960563202,
+              "composure": -0.21385414409946862,
+              "cd": {},
+              "decision": 0.8268109889545787,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 85.9794116220474,
+              "pauses": 1
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "Recovering"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 6,
+        "simulationFrame": 22,
+        "time": 0.36666666666666664,
+        "enemy": 40,
+        "kind": "movement decision",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "movement",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.17229478065654935,
+              "composure": -0.21243319157666476,
+              "cd": {},
+              "decision": 0.8268109889545787,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 85.9794116220474,
+              "pauses": 1
+            }
+          },
+          "director": {
+            "primary": 40,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 7,
+        "simulationFrame": 23,
+        "time": 0.3833333333333333,
+        "enemy": 40,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.17193620684093197,
+              "composure": -0.21207943113962352,
+              "cd": {},
+              "decision": 0.8268109889545787,
+              "seen": {},
+              "airSeen": -1,
+              "history": [],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 87.13841886532094,
+              "pauses": 1
+            }
+          },
+          "director": {
+            "primary": 40,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 8,
+        "simulationFrame": 50,
+        "time": 0.8333333333333343,
+        "enemy": 40,
+        "kind": "action admitted",
+        "requestedAction": "martialPause212",
+        "chosenAction": "martialPause212",
+        "reason": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "martialPause212",
+          "action": "martialPause212",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.16253177442150063,
+              "composure": -0.20274740211807657,
+              "cd": {},
+              "decision": 1.1477632472834869,
+              "seen": {},
+              "airSeen": -1,
+              "history": [
+                {
+                  "at": 0.8333333333333343,
+                  "attack": "martialPause212"
+                }
+              ],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 87.13841886532094,
+              "pauses": 2
+            }
+          },
+          "director": {
+            "primary": 40,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 9,
+        "simulationFrame": 50,
+        "time": 0.8333333333333343,
+        "enemy": 40,
+        "kind": "action selected",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "martialPause212",
+          "action": "martialPause212",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.16253177442150063,
+              "composure": -0.20274740211807657,
+              "cd": {},
+              "decision": 1.1477632472834869,
+              "seen": {},
+              "airSeen": -1,
+              "history": [
+                {
+                  "at": 0.8333333333333343,
+                  "attack": "martialPause212"
+                }
+              ],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 87.13841886532094,
+              "pauses": 2
+            }
+          },
+          "director": {
+            "primary": 40,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "PrimaryAttacker"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 10,
+        "simulationFrame": 117,
+        "time": 1.949999999999998,
+        "enemy": 40,
+        "kind": "state evaluation",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 1.05,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.1413572231814167,
+              "composure": -0.18132558237504992,
+              "cd": {},
+              "decision": 1.1477632472834869,
+              "seen": {},
+              "airSeen": -1,
+              "history": [
+                {
+                  "at": 0.8333333333333343,
+                  "attack": "martialPause212"
+                }
+              ],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 87.13841886532094,
+              "pauses": 2
+            }
+          },
+          "director": {
+            "primary": null,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "Repositioning"
+              }
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 11,
+        "simulationFrame": 153,
+        "time": 2.549999999999996,
+        "enemy": 40,
+        "kind": "action admitted",
+        "requestedAction": "martialCombo",
+        "chosenAction": "martialCombo",
+        "reason": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "martialCombo",
+          "action": "martialCombo",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.1311432430520509,
+              "composure": -0.17076600251233134,
+              "cd": {},
+              "decision": 2.888896390353325,
+              "seen": {},
+              "airSeen": -1,
+              "history": [
+                {
+                  "at": 0.8333333333333343,
+                  "attack": "martialPause212"
+                },
+                {
+                  "at": 2.549999999999996,
+                  "attack": "martialCombo"
+                }
+              ],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 87.13841886532094,
+              "pauses": 0,
+              "advanceUntil": 2.4666666666666646
+            }
+          },
+          "director": {
+            "primary": 40,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 2.549999999999996,
+              "enemy": 40,
+              "attack": "martialCombo",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 1.9166666666666667,
+              "distance": 87.13841886532094,
+              "depth": 0.3295280305409847,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      {
+        "sequence": 12,
+        "simulationFrame": 153,
+        "time": 2.549999999999996,
+        "enemy": 40,
+        "kind": "action selected",
+        "previousAction": null,
+        "snapshot": {
+          "id": 40,
+          "name": "Saito",
+          "type": "sato",
+          "hp": 86,
+          "maxHp": 90,
+          "playerHP": 105,
+          "target": 37,
+          "distance": 87.13841886532094,
+          "planeDifference": 0.3295280305409847,
+          "position": {
+            "x": 437.13841886532094,
+            "y": 469.670471969459
+          },
+          "state": "martialCombo",
+          "action": "martialCombo",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": null,
+          "controllerData": {
+            "martial212": {
+              "mode": "controlled",
+              "modeUntil": 0,
+              "momentum": -0.1311432430520509,
+              "composure": -0.17076600251233134,
+              "cd": {},
+              "decision": 2.888896390353325,
+              "seen": {},
+              "airSeen": -1,
+              "history": [
+                {
+                  "at": 0.8333333333333343,
+                  "attack": "martialPause212"
+                },
+                {
+                  "at": 2.549999999999996,
+                  "attack": "martialCombo"
+                }
+              ],
+              "wakeOpportunity": 0,
+              "reason": "hit",
+              "lastDistance": 87.13841886532094,
+              "pauses": 0,
+              "advanceUntil": 2.4666666666666646
+            }
+          },
+          "director": {
+            "primary": 40,
+            "secondary": null,
+            "roles": {
+              "40": {
+                "type": "sato",
+                "role": "PrimaryAttacker"
+              }
+            },
+            "latestRequest": {
+              "at": 2.549999999999996,
+              "enemy": 40,
+              "attack": "martialCombo",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 1.9166666666666667,
+              "distance": 87.13841886532094,
+              "depth": 0.3295280305409847,
+              "priority": 2,
+              "granted": true,
+              "reason": null
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [
+            {
+              "controller": "martial212",
+              "field": "reason",
+              "value": "hit",
+              "freshness": "Native field may persist from an earlier evaluation"
+            }
+          ],
+          "selectionReason": "N/A: native controller did not expose a current selection reason",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      }
+    ]
+  }
+]

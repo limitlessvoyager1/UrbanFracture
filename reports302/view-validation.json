@@ -1,0 +1,48 @@
+{
+  "checks": 52,
+  "shapes": {
+    "clean": {
+      "hash": "f5d425d78b57e4d39ca04829f928deee33ba767f3357fa6b47323e8582a30310",
+      "count": 563,
+      "bounds": [
+        276,
+        167,
+        323,
+        212
+      ]
+    },
+    "block": {
+      "hash": "e83a55432db31715bffb852f3ae64d97412f4fb32ec620175bf8a7a5fa2d7b1f",
+      "count": 851,
+      "bounds": [
+        278,
+        162,
+        318,
+        217
+      ]
+    },
+    "armor": {
+      "hash": "f8a328ca5fca44a6c2e155ec5a7d75be16ce6a4b5ddfd8f34934618f9482457d",
+      "count": 1050,
+      "bounds": [
+        257,
+        167,
+        342,
+        212
+      ]
+    },
+    "counter": {
+      "hash": "b09767c048f8308c1f8d2b860d548974b1b72ae84b772d6fc642981a36745f5b",
+      "count": 1539,
+      "bounds": [
+        261,
+        151,
+        337,
+        228
+      ]
+    }
+  },
+  "audioRouting": true,
+  "nativeRenderer": true,
+  "cosmeticRngIsolated": true
+}

@@ -1,0 +1,90 @@
+{
+  "frames": 300,
+  "actors": 3,
+  "hero": "niko",
+  "maxObservedReservations": 1,
+  "maxObservedThreatCost": 2,
+  "requests": 2,
+  "granted": 2,
+  "denied": 0,
+  "finalHP": 92,
+  "firstActions": [
+    {
+      "frame": 1,
+      "id": 10,
+      "action": "hook",
+      "request": {
+        "at": 0.016666666666666666,
+        "enemy": 10,
+        "attack": "hook",
+        "cost": 2,
+        "category": "heavy",
+        "target": "hero",
+        "duration": 1.15,
+        "distance": 60,
+        "depth": 0,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    },
+    {
+      "frame": 9,
+      "id": 12,
+      "action": "martialBlock",
+      "request": {
+        "at": 0.016666666666666666,
+        "enemy": 10,
+        "attack": "hook",
+        "cost": 2,
+        "category": "heavy",
+        "target": "hero",
+        "duration": 1.15,
+        "distance": 60,
+        "depth": 0,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    },
+    {
+      "frame": 143,
+      "id": 12,
+      "action": "martialFly",
+      "request": {
+        "at": 2.3833333333333298,
+        "enemy": 12,
+        "attack": "martialFly",
+        "cost": 2,
+        "category": "heavy",
+        "target": "hero",
+        "duration": 1.1,
+        "distance": 149.24600355463565,
+        "depth": 6.03412897715117,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    },
+    {
+      "frame": 266,
+      "id": 12,
+      "action": "martialPause212",
+      "request": {
+        "at": 2.3833333333333298,
+        "enemy": 12,
+        "attack": "martialFly",
+        "cost": 2,
+        "category": "heavy",
+        "target": "hero",
+        "duration": 1.1,
+        "distance": 149.24600355463565,
+        "depth": 6.03412897715117,
+        "priority": 2,
+        "granted": true,
+        "reason": null
+      }
+    }
+  ],
+  "limitation": "Five-second fixed-position calibration, not a human fairness or full-level pressure certification."
+}

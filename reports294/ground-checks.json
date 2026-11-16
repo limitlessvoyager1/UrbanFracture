@@ -1,0 +1,1542 @@
+{
+  "checks": 515,
+  "identities": 32,
+  "rows": [
+    {
+      "id": "sato",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sato",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "akari",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flint",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "thug",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "enforcer",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "boss",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "biker",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "cop",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "knifeThug",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "bouncer",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "robber",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "security",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gangster",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "talon",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jaguar",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "gus",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "casinoSecurity",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidan",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "colt",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "aidanTavern",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "guard",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "flintUnarmed",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dockWorker",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "heavyDockWorker",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "torranceBaylor",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dorian",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ethan",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "nora",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "dirk",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "ophelia",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "jameson",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 0.35,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 0.35,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 0.6,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 0.6,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 1.75,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 1.75,
+      "dir": 1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 1.9,
+      "dir": -1,
+      "bottom": -1
+    },
+    {
+      "id": "sterling",
+      "age": 1.9,
+      "dir": 1,
+      "bottom": -1
+    }
+  ]
+}

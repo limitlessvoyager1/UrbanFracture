@@ -1,0 +1,202 @@
+[
+  {
+    type: 'thug',
+    mode: 'idle',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'thug',
+    mode: 'attack',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'thug',
+    mode: 'guard',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'thug',
+    mode: 'rear',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'thug',
+    mode: 'bullet',
+    damage: 4,
+    stun: 30,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'knifeThug',
+    mode: 'idle',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'knifeThug',
+    mode: 'attack',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'knifeThug',
+    mode: 'guard',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'knifeThug',
+    mode: 'rear',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'knifeThug',
+    mode: 'bullet',
+    damage: 4,
+    stun: 30,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'enforcer',
+    mode: 'idle',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'enforcer',
+    mode: 'attack',
+    damage: 4,
+    stun: 0,
+    result: 'armor',
+    kept: true,
+    block: 0,
+    armor: 'breakable'
+  },
+  {
+    type: 'enforcer',
+    mode: 'guard',
+    damage: 0,
+    stun: 0,
+    result: undefined,
+    kept: false,
+    block: 0.14,
+    armor: 'none'
+  },
+  {
+    type: 'enforcer',
+    mode: 'rear',
+    damage: 4,
+    stun: 0,
+    result: 'armor',
+    kept: true,
+    block: 0,
+    armor: 'breakable'
+  },
+  {
+    type: 'enforcer',
+    mode: 'bullet',
+    damage: 4,
+    stun: 0,
+    result: 'armor',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'sato',
+    mode: 'idle',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'sato',
+    mode: 'attack',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'sato',
+    mode: 'guard',
+    damage: 1,
+    stun: 0,
+    result: 'armor',
+    kept: true,
+    block: 0.16,
+    armor: 'none'
+  },
+  {
+    type: 'sato',
+    mode: 'rear',
+    damage: 4,
+    stun: 33,
+    result: 'clean',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  },
+  {
+    type: 'sato',
+    mode: 'bullet',
+    damage: 4,
+    stun: 0,
+    result: 'armor',
+    kept: false,
+    block: 0,
+    armor: 'none'
+  }
+]

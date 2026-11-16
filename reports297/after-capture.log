@@ -1,0 +1,13 @@
+marcus-combo {"name":"marcusCombo","total":1.1,"hitAt":0.28,"times":[0.28,0.5,0.74],"flags":{"street209":true}}
+marcus-hook {"name":"hook","total":1.15,"hitAt":0.46,"times":[0.46],"flags":{"street209":true}}
+marcus-knife {"name":"knife","total":0.6833333333333333,"hitAt":0.23333333333333334,"times":[0.23333333333333334],"flags":{"street209":true}}
+bruno-combo {"name":"oneTwo","total":1.4666666666666668,"hitAt":0.3333333333333333,"times":[0.3333333333333333,0.5833333333333334,0.8333333333333334],"flags":{"enemies210":true,"antiAir":false}}
+bruno-hook {"name":"hook","total":0.9333333333333333,"hitAt":0.3333333333333333,"times":[0.3333333333333333],"flags":{"enemies210":true,"antiAir":false}}
+bruno-uppercut {"name":"uppercut","total":0.9166666666666666,"hitAt":0.3,"times":[0.3],"flags":{"enemies210":true,"antiAir":true}}
+bruno-grab {"name":"bombGrab","total":1.15,"hitAt":0.43333333333333335,"times":[0.43333333333333335],"flags":{"enemies210":true,"antiAir":false}}
+reina-combo {"name":"combo","total":0.36666666666666664,"hitAt":0.16666666666666666,"flags":{}}
+reina-blitz {"name":"blitzKick","total":0.82,"hitAt":0.18,"flags":{}}
+reina-sword {"name":"sword","total":0.65,"hitAt":0.16,"flags":{}}
+reina-dash-sword {"name":"dashSword","total":0.95,"hitAt":0.12,"flags":{}}
+reina-held {"name":"knee","total":0.5333333333333333,"hitAt":0.23333333333333334,"flags":{}}
+marcus-slash {"name":"knifeSlash","total":0.9,"hitAt":0.3333333333333333,"times":[0.3333333333333333],"flags":{"street209":true}}

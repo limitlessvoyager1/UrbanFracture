@@ -1,0 +1,594 @@
+[
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "idle",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "guard",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 2,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 2,
+        "ok": true,
+        "block": true,
+        "counter": false,
+        "action": "martialBlock"
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "rear-guard",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "guard-startup",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "guard-recovery",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "counter",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 0,
+    "heroDamage": 23,
+    "enemyCounter": true,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 0,
+        "ok": false,
+        "block": false,
+        "counter": false,
+        "action": "martialKickCounter212"
+      },
+      {
+        "frame": 32,
+        "target": "reina",
+        "amount": 25,
+        "hpLost": 23,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "defense": "protected",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 0,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "idle",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "guard",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 2,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 2,
+        "ok": true,
+        "block": true,
+        "counter": false,
+        "action": "martialBlock"
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "rear-guard",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "guard-startup",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "guard-recovery",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 7,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 7,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "counter",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 0,
+    "heroDamage": 23,
+    "enemyCounter": true,
+    "calls": [
+      {
+        "frame": 10,
+        "target": "sato",
+        "amount": 7,
+        "hpLost": 0,
+        "ok": false,
+        "block": false,
+        "counter": false,
+        "action": "martialKickCounter212"
+      },
+      {
+        "frame": 32,
+        "target": "reina",
+        "amount": 25,
+        "hpLost": 23,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "defense": "protected",
+    "heroAttack": "combo",
+    "classification": "kick",
+    "targetDamage": 0,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "idle",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "guard",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 1,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 1,
+        "ok": true,
+        "block": true,
+        "counter": false,
+        "action": "martialBlock"
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "rear-guard",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "guard-startup",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "guard-recovery",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "counter",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "defense": "protected",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 0,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 0,
+        "ok": false,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "idle",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "guard",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 1,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 1,
+        "ok": true,
+        "block": true,
+        "counter": false,
+        "action": "martialBlock"
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "rear-guard",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "guard-startup",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "guard-recovery",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "counter",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 3,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 3,
+        "ok": true,
+        "block": false,
+        "counter": false
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "defense": "protected",
+    "heroAttack": "niko185",
+    "classification": "punch",
+    "targetDamage": 0,
+    "heroDamage": 0,
+    "enemyCounter": false,
+    "calls": [
+      {
+        "frame": 6,
+        "target": "sato",
+        "amount": 3,
+        "hpLost": 0,
+        "ok": false,
+        "block": false,
+        "counter": false
+      }
+    ]
+  }
+]

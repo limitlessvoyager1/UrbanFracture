@@ -1,0 +1,227 @@
+{
+  "checks": 68,
+  "nativeRenderer": true,
+  "rows": [
+    {
+      "scenario": "street",
+      "type": "thug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        247,
+        258,
+        383,
+        439
+      ],
+      "pixels": 11448,
+      "role": "Recovering"
+    },
+    {
+      "scenario": "street",
+      "type": "knifeThug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        255,
+        259,
+        384,
+        440
+      ],
+      "pixels": 11615,
+      "role": "Recovering"
+    },
+    {
+      "scenario": "street",
+      "type": "enforcer",
+      "scale": 1.6849298025,
+      "opaqueBounds": [
+        247,
+        216,
+        395,
+        439
+      ],
+      "pixels": 18100,
+      "role": "PrimaryAttacker"
+    },
+    {
+      "scenario": "edge",
+      "type": "thug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        259,
+        263,
+        381,
+        439
+      ],
+      "pixels": 11011,
+      "role": "PrimaryAttacker"
+    },
+    {
+      "scenario": "edge",
+      "type": "thug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        248,
+        258,
+        394,
+        440
+      ],
+      "pixels": 10898,
+      "role": "SupportThreat"
+    },
+    {
+      "scenario": "edge",
+      "type": "knifeThug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        262,
+        258,
+        366,
+        439
+      ],
+      "pixels": 10403,
+      "role": "SupportThreat"
+    },
+    {
+      "scenario": "edge",
+      "type": "cop",
+      "scale": 1.377246969,
+      "opaqueBounds": [
+        279,
+        254,
+        357,
+        439
+      ],
+      "pixels": 9223,
+      "role": "SupportThreat"
+    },
+    {
+      "scenario": "edge",
+      "type": "enforcer",
+      "scale": 1.6849298025,
+      "opaqueBounds": [
+        227,
+        214,
+        414,
+        440
+      ],
+      "pixels": 18969,
+      "role": "SupportThreat"
+    },
+    {
+      "scenario": "obstacle",
+      "type": "thug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        256,
+        259,
+        382,
+        440
+      ],
+      "pixels": 10485,
+      "role": "PrimaryAttacker"
+    },
+    {
+      "scenario": "obstacle",
+      "type": "knifeThug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        257,
+        256,
+        368,
+        439
+      ],
+      "pixels": 10259,
+      "role": "ApproachSupport"
+    },
+    {
+      "scenario": "obstacle",
+      "type": "enforcer",
+      "scale": 1.6849298025,
+      "opaqueBounds": [
+        247,
+        216,
+        395,
+        439
+      ],
+      "pixels": 18100,
+      "role": "SupportThreat"
+    },
+    {
+      "scenario": "obstacle",
+      "type": "biker",
+      "scale": 1.46515635,
+      "opaqueBounds": [
+        259,
+        238,
+        378,
+        440
+      ],
+      "pixels": 11150,
+      "role": "SupportThreat"
+    },
+    {
+      "scenario": "mixed",
+      "type": "thug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        241,
+        255,
+        380,
+        439
+      ],
+      "pixels": 11458,
+      "role": "Recovering"
+    },
+    {
+      "scenario": "mixed",
+      "type": "knifeThug",
+      "scale": 1.347943842,
+      "opaqueBounds": [
+        255,
+        259,
+        384,
+        440
+      ],
+      "pixels": 11615,
+      "role": "Recovering"
+    },
+    {
+      "scenario": "mixed",
+      "type": "enforcer",
+      "scale": 1.6849298025,
+      "opaqueBounds": [
+        247,
+        216,
+        395,
+        439
+      ],
+      "pixels": 18100,
+      "role": "ApproachSupport"
+    },
+    {
+      "scenario": "mixed",
+      "type": "biker",
+      "scale": 1.46515635,
+      "opaqueBounds": [
+        259,
+        238,
+        378,
+        440
+      ],
+      "pixels": 11150,
+      "role": "PrimaryAttacker"
+    },
+    {
+      "scenario": "mixed",
+      "type": "cop",
+      "scale": 1.377246969,
+      "opaqueBounds": [
+        279,
+        254,
+        357,
+        439
+      ],
+      "pixels": 9223,
+      "role": "SupportThreat"
+    }
+  ]
+}

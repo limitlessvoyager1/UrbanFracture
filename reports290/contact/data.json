@@ -1,0 +1,842 @@
+[
+  {
+    "id": "sato",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6639,
+    "source": "13|sato|||"
+  },
+  {
+    "id": "sato",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6439,
+    "source": "13|sato|||"
+  },
+  {
+    "id": "sato",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6114,
+    "source": "13|sato|||"
+  },
+  {
+    "id": "sato",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4648,
+    "source": "13|sato|||"
+  },
+  {
+    "id": "akari",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5888,
+    "source": "23|akari|||"
+  },
+  {
+    "id": "akari",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5431,
+    "source": "23|akari|||"
+  },
+  {
+    "id": "akari",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5351,
+    "source": "23|akari|||"
+  },
+  {
+    "id": "akari",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4511,
+    "source": "23|akari|||"
+  },
+  {
+    "id": "flint",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 7764,
+    "source": "33|flint|pipe||"
+  },
+  {
+    "id": "flint",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 7181,
+    "source": "33|flint|pipe||"
+  },
+  {
+    "id": "flint",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 7389,
+    "source": "33|flint|pipe||"
+  },
+  {
+    "id": "flint",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5582,
+    "source": "33|flint|pipe||"
+  },
+  {
+    "id": "thug",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6191,
+    "source": "43|thug|||"
+  },
+  {
+    "id": "thug",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6056,
+    "source": "43|thug|||"
+  },
+  {
+    "id": "thug",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5796,
+    "source": "43|thug|||"
+  },
+  {
+    "id": "thug",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4675,
+    "source": "43|thug|||"
+  },
+  {
+    "id": "enforcer",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6262,
+    "source": "53|enforcer|||"
+  },
+  {
+    "id": "enforcer",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6192,
+    "source": "53|enforcer|||"
+  },
+  {
+    "id": "enforcer",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5800,
+    "source": "53|enforcer|||"
+  },
+  {
+    "id": "enforcer",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4699,
+    "source": "53|enforcer|||"
+  },
+  {
+    "id": "boss",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6953,
+    "source": "63|boss|||"
+  },
+  {
+    "id": "boss",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6882,
+    "source": "63|boss|||"
+  },
+  {
+    "id": "boss",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6594,
+    "source": "63|boss|||"
+  },
+  {
+    "id": "boss",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4880,
+    "source": "63|boss|||"
+  },
+  {
+    "id": "biker",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5091,
+    "source": "73|biker|chain||"
+  },
+  {
+    "id": "biker",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5027,
+    "source": "73|biker|chain||"
+  },
+  {
+    "id": "biker",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 4901,
+    "source": "73|biker|chain||"
+  },
+  {
+    "id": "biker",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4179,
+    "source": "73|biker|chain||"
+  },
+  {
+    "id": "cop",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 4453,
+    "source": "83|cop|baton||"
+  },
+  {
+    "id": "cop",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 4411,
+    "source": "83|cop|baton||"
+  },
+  {
+    "id": "cop",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 4437,
+    "source": "83|cop|baton||"
+  },
+  {
+    "id": "cop",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 3500,
+    "source": "83|cop|baton||"
+  },
+  {
+    "id": "knifeThug",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6198,
+    "source": "93|knifeThug|knife||"
+  },
+  {
+    "id": "knifeThug",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5989,
+    "source": "93|knifeThug|knife||"
+  },
+  {
+    "id": "knifeThug",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5988,
+    "source": "93|knifeThug|knife||"
+  },
+  {
+    "id": "knifeThug",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5309,
+    "source": "93|knifeThug|knife||"
+  },
+  {
+    "id": "bouncer",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 7223,
+    "source": "103|bouncer|||"
+  },
+  {
+    "id": "bouncer",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6985,
+    "source": "103|bouncer|||"
+  },
+  {
+    "id": "bouncer",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6325,
+    "source": "103|bouncer|||"
+  },
+  {
+    "id": "bouncer",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5293,
+    "source": "103|bouncer|||"
+  },
+  {
+    "id": "robber",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5346,
+    "source": "113|robber|knife||"
+  },
+  {
+    "id": "robber",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5384,
+    "source": "113|robber|knife||"
+  },
+  {
+    "id": "robber",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5585,
+    "source": "113|robber|knife||"
+  },
+  {
+    "id": "robber",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4304,
+    "source": "113|robber|knife||"
+  },
+  {
+    "id": "security",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 8682,
+    "source": "123|security|baton||"
+  },
+  {
+    "id": "security",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 8980,
+    "source": "123|security|baton||"
+  },
+  {
+    "id": "security",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 9067,
+    "source": "123|security|baton||"
+  },
+  {
+    "id": "security",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5927,
+    "source": "123|security|baton||"
+  },
+  {
+    "id": "gangster",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 7183,
+    "source": "133|gangster|knife||"
+  },
+  {
+    "id": "gangster",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6890,
+    "source": "133|gangster|knife||"
+  },
+  {
+    "id": "gangster",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6216,
+    "source": "133|gangster|knife||"
+  },
+  {
+    "id": "gangster",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5260,
+    "source": "133|gangster|knife||"
+  },
+  {
+    "id": "gus",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 8374,
+    "source": "143|gus|crowbar||"
+  },
+  {
+    "id": "gus",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 8339,
+    "source": "143|gus|crowbar||"
+  },
+  {
+    "id": "gus",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 7755,
+    "source": "143|gus|crowbar||"
+  },
+  {
+    "id": "gus",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 6435,
+    "source": "143|gus|crowbar||"
+  },
+  {
+    "id": "casinoSecurity",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 7800,
+    "source": "153|casinoSecurity|||"
+  },
+  {
+    "id": "casinoSecurity",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 7596,
+    "source": "153|casinoSecurity|||"
+  },
+  {
+    "id": "casinoSecurity",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 7531,
+    "source": "153|casinoSecurity|||"
+  },
+  {
+    "id": "casinoSecurity",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 6279,
+    "source": "153|casinoSecurity|||"
+  },
+  {
+    "id": "aidan",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6198,
+    "source": "163|knifeThug|knife||"
+  },
+  {
+    "id": "aidan",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5989,
+    "source": "163|knifeThug|knife||"
+  },
+  {
+    "id": "aidan",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5988,
+    "source": "163|knifeThug|knife||"
+  },
+  {
+    "id": "aidan",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5309,
+    "source": "163|knifeThug|knife||"
+  },
+  {
+    "id": "colt",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6883,
+    "source": "173|colt|baton||"
+  },
+  {
+    "id": "colt",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6849,
+    "source": "173|colt|baton||"
+  },
+  {
+    "id": "colt",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6877,
+    "source": "173|colt|baton||"
+  },
+  {
+    "id": "colt",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5497,
+    "source": "173|colt|baton||"
+  },
+  {
+    "id": "aidanTavern",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6198,
+    "source": "183|knifeThug|knife||"
+  },
+  {
+    "id": "aidanTavern",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5989,
+    "source": "183|knifeThug|knife||"
+  },
+  {
+    "id": "aidanTavern",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5988,
+    "source": "183|knifeThug|knife||"
+  },
+  {
+    "id": "aidanTavern",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5309,
+    "source": "183|knifeThug|knife||"
+  },
+  {
+    "id": "guard",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 7800,
+    "source": "193|guard|||"
+  },
+  {
+    "id": "guard",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 7596,
+    "source": "193|guard|||"
+  },
+  {
+    "id": "guard",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 7531,
+    "source": "193|guard|||"
+  },
+  {
+    "id": "guard",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 6279,
+    "source": "193|guard|||"
+  },
+  {
+    "id": "flintUnarmed",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6080,
+    "source": "203|flint|||"
+  },
+  {
+    "id": "flintUnarmed",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5914,
+    "source": "203|flint|||"
+  },
+  {
+    "id": "flintUnarmed",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6339,
+    "source": "203|flint|||"
+  },
+  {
+    "id": "flintUnarmed",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4654,
+    "source": "203|flint|||"
+  },
+  {
+    "id": "dockWorker",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5948,
+    "source": "213|dockWorker|crowbar||224426684"
+  },
+  {
+    "id": "dockWorker",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5951,
+    "source": "213|dockWorker|crowbar||224426684"
+  },
+  {
+    "id": "dockWorker",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5868,
+    "source": "213|dockWorker|crowbar||224426684"
+  },
+  {
+    "id": "dockWorker",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4868,
+    "source": "213|dockWorker|crowbar||224426684"
+  },
+  {
+    "id": "heavyDockWorker",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 8995,
+    "source": "223|heavyDockWorker|crowbar||4282845807"
+  },
+  {
+    "id": "heavyDockWorker",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 9039,
+    "source": "223|heavyDockWorker|crowbar||4282845807"
+  },
+  {
+    "id": "heavyDockWorker",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 8956,
+    "source": "223|heavyDockWorker|crowbar||4282845807"
+  },
+  {
+    "id": "heavyDockWorker",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 6764,
+    "source": "223|heavyDockWorker|crowbar||4282845807"
+  },
+  {
+    "id": "torranceBaylor",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 10762,
+    "source": "233|torranceBaylor|||"
+  },
+  {
+    "id": "torranceBaylor",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 10703,
+    "source": "233|torranceBaylor|||"
+  },
+  {
+    "id": "torranceBaylor",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 9925,
+    "source": "233|torranceBaylor|||"
+  },
+  {
+    "id": "torranceBaylor",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 8368,
+    "source": "233|torranceBaylor|||"
+  },
+  {
+    "id": "dorian",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 8174,
+    "source": "244|dorian|||"
+  },
+  {
+    "id": "dorian",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 8315,
+    "source": "244|dorian|||"
+  },
+  {
+    "id": "dorian",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 8333,
+    "source": "244|dorian|||"
+  },
+  {
+    "id": "dorian",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 6817,
+    "source": "244|dorian|||"
+  },
+  {
+    "id": "ethan",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6726,
+    "source": "255|ethan|metalRod||"
+  },
+  {
+    "id": "ethan",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6448,
+    "source": "255|ethan|metalRod||"
+  },
+  {
+    "id": "ethan",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 6161,
+    "source": "255|ethan|metalRod||"
+  },
+  {
+    "id": "ethan",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5131,
+    "source": "255|ethan|metalRod||"
+  },
+  {
+    "id": "nora",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 6460,
+    "source": "266|nora|scalpel||"
+  },
+  {
+    "id": "nora",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 6203,
+    "source": "266|nora|scalpel||"
+  },
+  {
+    "id": "nora",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5961,
+    "source": "266|nora|scalpel||"
+  },
+  {
+    "id": "nora",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 5020,
+    "source": "266|nora|scalpel||"
+  },
+  {
+    "id": "dirk",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5881,
+    "source": "277|dirk|knife||"
+  },
+  {
+    "id": "dirk",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5719,
+    "source": "277|dirk|knife||"
+  },
+  {
+    "id": "dirk",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5662,
+    "source": "277|dirk|knife||"
+  },
+  {
+    "id": "dirk",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4787,
+    "source": "277|dirk|knife||"
+  },
+  {
+    "id": "ophelia",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 4935,
+    "source": "288|ophelia|baton||"
+  },
+  {
+    "id": "ophelia",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 4970,
+    "source": "288|ophelia|baton||"
+  },
+  {
+    "id": "ophelia",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 4756,
+    "source": "288|ophelia|baton||"
+  },
+  {
+    "id": "ophelia",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 3638,
+    "source": "288|ophelia|baton||"
+  },
+  {
+    "id": "jameson",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5617,
+    "source": "301|jameson|||"
+  },
+  {
+    "id": "jameson",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 5675,
+    "source": "301|jameson|||"
+  },
+  {
+    "id": "jameson",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5931,
+    "source": "301|jameson|||"
+  },
+  {
+    "id": "jameson",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 4987,
+    "source": "301|jameson|||"
+  },
+  {
+    "id": "sterling",
+    "phase": "medium",
+    "u": 0.26,
+    "pixels": 5653,
+    "source": "315|sterling|bat||"
+  },
+  {
+    "id": "sterling",
+    "phase": "fall",
+    "u": 0.58,
+    "pixels": 4921,
+    "source": "315|sterling|bat||"
+  },
+  {
+    "id": "sterling",
+    "phase": "ground",
+    "u": 1,
+    "pixels": 5091,
+    "source": "315|sterling|bat||"
+  },
+  {
+    "id": "sterling",
+    "phase": "rise",
+    "u": 0.62,
+    "pixels": 3921,
+    "source": "315|sterling|bat||"
+  }
+]

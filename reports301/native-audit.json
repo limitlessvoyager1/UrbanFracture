@@ -1,0 +1,887 @@
+{
+  "status": "native mechanical audit",
+  "fixtures": 40,
+  "rows": [
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 13
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 13
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 13
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 13
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 13
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 13
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 13
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 22,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 13
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 9
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 12
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 12
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 12
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 12
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 12
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 12
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 91,
+      "elapsed": 1.5166666666666662,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 12
+        },
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 42,
+      "completedInFrames": 90.5,
+      "elapsed": 1.5083333333333304,
+      "actualDamage": 20,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 12
+        },
+        {
+          "frame": 61.5,
+          "actionFrame": 61.49999999999993,
+          "damage": 8
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999996,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61.00000000000008,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509714
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 90,
+      "firstContactFrame": 61,
+      "completedInFrames": 90,
+      "elapsed": 1.4999999999999971,
+      "actualDamage": 28,
+      "hits": [
+        {
+          "frame": 61,
+          "actionFrame": 61,
+          "damage": 28
+        }
+      ],
+      "legacyRigGripGap": 57.50342575509692
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63,
+      "elapsed": 1.0499999999999996,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63.5,
+      "elapsed": 1.05833333333333,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63,
+      "elapsed": 1.0499999999999996,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63.5,
+      "elapsed": 1.05833333333333,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 440,
+      "hz": 60,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63,
+      "elapsed": 1.0499999999999996,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 440,
+      "hz": 120,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63.5,
+      "elapsed": 1.05833333333333,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 490,
+      "hz": 60,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63,
+      "elapsed": 1.0499999999999996,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42.00000000000003,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "lane": 490,
+      "hz": 120,
+      "configuredFrames": 63,
+      "firstContactFrame": 42,
+      "completedInFrames": 63.5,
+      "elapsed": 1.05833333333333,
+      "actualDamage": 33,
+      "hits": [
+        {
+          "frame": 42,
+          "actionFrame": 42,
+          "damage": 33
+        }
+      ],
+      "legacyRigGripGap": null
+    }
+  ],
+  "legacyGripMetricNote": "maxGripToDisplayedHandDistance measures the old rigWhole130 hand metadata retained for fallback. Enrolled Grapples301 contact bodies are authored together and do not render those old selected body poses. This is not a measurement of the corrected rendered contact."
+}

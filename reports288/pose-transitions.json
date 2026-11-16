@@ -1,0 +1,184 @@
+[
+  {
+    "frame": 1,
+    "type": "niko",
+    "sources": "niko185/sheet0:0",
+    "state": "niko185",
+    "combo": 1
+  },
+  {
+    "frame": 4,
+    "type": "niko",
+    "sources": "niko185/sheet0:5",
+    "state": "niko185",
+    "combo": 1
+  },
+  {
+    "frame": 17,
+    "type": "niko",
+    "sources": "niko185/sheet0:0",
+    "state": "niko185",
+    "combo": 2
+  },
+  {
+    "frame": 21,
+    "type": "niko",
+    "sources": "niko185/sheet0:6",
+    "state": "niko185",
+    "combo": 2
+  },
+  {
+    "frame": 34,
+    "type": "niko",
+    "sources": "niko185/sheet0:0",
+    "state": "niko185",
+    "combo": 3
+  },
+  {
+    "frame": 41,
+    "type": "niko",
+    "sources": "niko185/sheet0:5",
+    "state": "niko185",
+    "combo": 3
+  },
+  {
+    "frame": 53,
+    "type": "niko",
+    "sources": "niko185/sheet0:0",
+    "state": "niko185",
+    "combo": 4
+  },
+  {
+    "frame": 62,
+    "type": "niko",
+    "sources": "niko185/sheet0:7",
+    "state": "niko185",
+    "combo": 4
+  },
+  {
+    "frame": 82,
+    "type": "niko",
+    "sources": "niko185/sheet0:0",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 1,
+    "type": "thug",
+    "sources": "base/thug:6",
+    "state": "streetFeint209",
+    "combo": null
+  },
+  {
+    "frame": 6,
+    "type": "thug",
+    "sources": "base/thug:10",
+    "state": "stun",
+    "combo": null
+  },
+  {
+    "frame": 64,
+    "type": "thug",
+    "sources": "recovery/thug:0",
+    "state": "flight",
+    "combo": null
+  },
+  {
+    "frame": 92,
+    "type": "thug",
+    "sources": "recovery/thug:1",
+    "state": "down",
+    "combo": null
+  },
+  {
+    "frame": 147,
+    "type": "thug",
+    "sources": "recovery/thug:2",
+    "state": "down",
+    "combo": null
+  },
+  {
+    "frame": 156,
+    "type": "thug",
+    "sources": "base/thug:0",
+    "state": "down",
+    "combo": null
+  },
+  {
+    "frame": 163,
+    "type": "thug",
+    "sources": "base/thug:1",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 172,
+    "type": "thug",
+    "sources": "base/thug:0",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 181,
+    "type": "thug",
+    "sources": "base/thug:1",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 189,
+    "type": "thug",
+    "sources": "base/thug:0",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 198,
+    "type": "thug",
+    "sources": "base/thug:1",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 206,
+    "type": "thug",
+    "sources": "base/thug:0",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 215,
+    "type": "thug",
+    "sources": "base/thug:1",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 220,
+    "type": "thug",
+    "sources": "walk/thug:0",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 230,
+    "type": "thug",
+    "sources": "walk/thug:1",
+    "state": "idle",
+    "combo": null
+  },
+  {
+    "frame": 232,
+    "type": "thug",
+    "sources": "enemy281/marcusPunch:0",
+    "state": "hook",
+    "combo": null
+  },
+  {
+    "frame": 237,
+    "type": "thug",
+    "sources": "enemy281/marcusPunch:1",
+    "state": "hook",
+    "combo": null
+  }
+]

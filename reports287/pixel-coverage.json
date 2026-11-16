@@ -1,0 +1,205 @@
+{
+  "checks": 13200,
+  "report": [
+    {
+      "enemy": "sato",
+      "minPixels": 3229,
+      "maxPixels": 6679,
+      "ratio": 0.4834556071268154,
+      "maxBelow": 0,
+      "maxStretch": 1.0000000000000002
+    },
+    {
+      "enemy": "akari",
+      "minPixels": 3537,
+      "maxPixels": 5861,
+      "ratio": 0.6034806347039754,
+      "maxBelow": 0,
+      "maxStretch": 1.0000000000000002
+    },
+    {
+      "enemy": "flint",
+      "minPixels": 3433,
+      "maxPixels": 6140,
+      "ratio": 0.5591205211726384,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "thug",
+      "minPixels": 3424,
+      "maxPixels": 6260,
+      "ratio": 0.546964856230032,
+      "maxBelow": 0,
+      "maxStretch": 1.018187098716085
+    },
+    {
+      "enemy": "enforcer",
+      "minPixels": 3609,
+      "maxPixels": 6391,
+      "ratio": 0.5647003598810828,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "boss",
+      "minPixels": 3598,
+      "maxPixels": 7072,
+      "ratio": 0.5087669683257918,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "biker",
+      "minPixels": 3461,
+      "maxPixels": 5268,
+      "ratio": 0.6569855732725892,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "cop",
+      "minPixels": 3305,
+      "maxPixels": 4678,
+      "ratio": 0.7064985036340317,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "knifeThug",
+      "minPixels": 3462,
+      "maxPixels": 6583,
+      "ratio": 0.5259000455719277,
+      "maxBelow": 0,
+      "maxStretch": 1.0281247489517424
+    },
+    {
+      "enemy": "bouncer",
+      "minPixels": 3703,
+      "maxPixels": 7259,
+      "ratio": 0.5101253616200578,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "robber",
+      "minPixels": 3120,
+      "maxPixels": 5696,
+      "ratio": 0.547752808988764,
+      "maxBelow": 0,
+      "maxStretch": 1.0000000000000002
+    },
+    {
+      "enemy": "security",
+      "minPixels": 3922,
+      "maxPixels": 9203,
+      "ratio": 0.4261653808540693,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "gangster",
+      "minPixels": 3836,
+      "maxPixels": 7225,
+      "ratio": 0.5309342560553634,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "talon",
+      "minPixels": 5767,
+      "maxPixels": 8853,
+      "ratio": 0.6514175985541625,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "jaguar",
+      "minPixels": 7001,
+      "maxPixels": 8264,
+      "ratio": 0.8471684414327202,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "gus",
+      "minPixels": 4397,
+      "maxPixels": 8261,
+      "ratio": 0.5322600169471008,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "casinoSecurity",
+      "minPixels": 3822,
+      "maxPixels": 6391,
+      "ratio": 0.5980284775465499,
+      "maxBelow": 0,
+      "maxStretch": 1.0000000000000002
+    },
+    {
+      "enemy": "aidan",
+      "minPixels": 3238,
+      "maxPixels": 6755,
+      "ratio": 0.47934863064396743,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "colt",
+      "minPixels": 3120,
+      "maxPixels": 5696,
+      "ratio": 0.547752808988764,
+      "maxBelow": 0,
+      "maxStretch": 1.0000000000000002
+    },
+    {
+      "enemy": "aidanTavern",
+      "minPixels": 3238,
+      "maxPixels": 6755,
+      "ratio": 0.47934863064396743,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "guard",
+      "minPixels": 3453,
+      "maxPixels": 6260,
+      "ratio": 0.5515974440894569,
+      "maxBelow": 0,
+      "maxStretch": 1.0501835724811541
+    },
+    {
+      "enemy": "flintUnarmed",
+      "minPixels": 3433,
+      "maxPixels": 6140,
+      "ratio": 0.5591205211726384,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "dockWorker",
+      "minPixels": 1848,
+      "maxPixels": 6657,
+      "ratio": 0.277602523659306,
+      "maxBelow": 0,
+      "maxStretch": 1
+    },
+    {
+      "enemy": "heavyDockWorker",
+      "minPixels": 4799,
+      "maxPixels": 9471,
+      "ratio": 0.5067046774363847,
+      "maxBelow": 0,
+      "maxStretch": 1.0000000000000002
+    },
+    {
+      "enemy": "torranceBaylor",
+      "minPixels": 5474,
+      "maxPixels": 11050,
+      "ratio": 0.49538461538461537,
+      "maxBelow": 0,
+      "maxStretch": 1
+    }
+  ]
+}

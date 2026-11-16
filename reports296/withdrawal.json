@@ -1,0 +1,115 @@
+{
+  "checks": 8,
+  "rows": [
+    {
+      "frame": 0,
+      "time": 0.35,
+      "stun": 0.28,
+      "act": null,
+      "visual": {
+        "time": 0.35,
+        "owner": "authored interruption withdrawal",
+        "family": "brunoPunch",
+        "frame": 4,
+        "state": "hitstun",
+        "nativeAction": null
+      }
+    },
+    {
+      "frame": 1,
+      "time": 0.36666666666666664,
+      "stun": 0.26333333333333336,
+      "act": null,
+      "visual": {
+        "time": 0.36666666666666664,
+        "owner": "authored interruption withdrawal",
+        "family": "brunoPunch",
+        "frame": 4,
+        "state": "hitstun",
+        "nativeAction": null
+      }
+    },
+    {
+      "frame": 2,
+      "time": 0.3833333333333333,
+      "stun": 0.2466666666666667,
+      "act": null,
+      "visual": {
+        "time": 0.3833333333333333,
+        "owner": "authored interruption withdrawal",
+        "family": "brunoPunch",
+        "frame": 5,
+        "state": "hitstun",
+        "nativeAction": null
+      }
+    },
+    {
+      "frame": 3,
+      "time": 0.39999999999999997,
+      "stun": 0.23000000000000004,
+      "act": null,
+      "visual": {
+        "time": 0.39999999999999997,
+        "owner": "authored interruption withdrawal",
+        "family": "brunoPunch",
+        "frame": 5,
+        "state": "hitstun",
+        "nativeAction": null
+      }
+    },
+    {
+      "frame": 4,
+      "time": 0.41666666666666663,
+      "stun": 0.21333333333333337,
+      "act": null,
+      "visual": {
+        "time": 0.41666666666666663,
+        "owner": "authored interruption withdrawal",
+        "family": "brunoPunch",
+        "frame": 6,
+        "state": "hitstun",
+        "nativeAction": null
+      }
+    },
+    {
+      "frame": 5,
+      "time": 0.4333333333333333,
+      "stun": 0.1966666666666667,
+      "act": null,
+      "visual": {
+        "time": 0.4333333333333333,
+        "owner": "authored interruption withdrawal",
+        "family": "brunoPunch",
+        "frame": 7,
+        "state": "hitstun",
+        "nativeAction": null
+      }
+    },
+    {
+      "frame": 6,
+      "time": 0.44999999999999996,
+      "stun": 0.18000000000000005,
+      "act": null,
+      "visual": {
+        "time": 0.44999999999999996,
+        "owner": "Bruno authored reaction",
+        "family": "bruno296",
+        "frame": 2,
+        "state": "medium"
+      }
+    },
+    {
+      "frame": 7,
+      "time": 0.4666666666666666,
+      "stun": 0.16333333333333339,
+      "act": null,
+      "visual": {
+        "time": 0.4666666666666666,
+        "owner": "Bruno authored reaction",
+        "family": "bruno296",
+        "frame": 3,
+        "state": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "frames": 1800,
+  "rows": [
+    {
+      "phase": "before",
+      "kind": "reina-counter",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 7,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "before",
+      "kind": "niko-counter",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 6,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "before",
+      "kind": "reina-combo",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 25,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "before",
+      "kind": "niko-combo",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 16,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "before",
+      "kind": "bank-weapon",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 0,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "after",
+      "kind": "reina-counter",
+      "frames": 180,
+      "heroDamage": 23,
+      "enemyDamage": 0,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "after",
+      "kind": "niko-counter",
+      "frames": 180,
+      "heroDamage": 23,
+      "enemyDamage": 0,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "after",
+      "kind": "reina-combo",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 25,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "after",
+      "kind": "niko-combo",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 16,
+      "matchedNativeSimulation": true
+    },
+    {
+      "phase": "after",
+      "kind": "bank-weapon",
+      "frames": 180,
+      "heroDamage": 0,
+      "enemyDamage": 22.799999999999955,
+      "matchedNativeSimulation": true
+    }
+  ]
+}

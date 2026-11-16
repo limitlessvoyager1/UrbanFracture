@@ -1,0 +1,2406 @@
+[
+  {
+    "hero": "reina",
+    "depth": 0,
+    "damage": 11,
+    "planeTravel": 0,
+    "samples": [
+      {
+        "frame": 1,
+        "y": 470,
+        "x": 504.1666666666667,
+        "z": 9.200081001657916,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 2,
+        "y": 470,
+        "x": 508.33333333333337,
+        "z": 18.345641923490838,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 3,
+        "y": 470,
+        "x": 512.5,
+        "z": 27.382485774036127,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 4,
+        "y": 470,
+        "x": 516.6666666666666,
+        "z": 36.257059823920116,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 5,
+        "y": 470,
+        "x": 520.8333333333333,
+        "z": 44.91677296165964,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 6,
+        "y": 470,
+        "x": 524.9999999999999,
+        "z": 53.31030735087413,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 7,
+        "y": 470,
+        "x": 529.1666666666665,
+        "z": 61.38792254201415,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 8,
+        "y": 470,
+        "x": 533.3333333333331,
+        "z": 69.10175023642702,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 9,
+        "y": 470,
+        "x": 537.4999999999998,
+        "z": 76.40607795597477,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 10,
+        "y": 470,
+        "x": 541.6666666666664,
+        "z": 83.25761993716627,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 11,
+        "y": 470,
+        "x": 545.833333333333,
+        "z": 89.61577364447243,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 1
+      },
+      {
+        "frame": 12,
+        "y": 470,
+        "x": 549.9999999999997,
+        "z": 95.44286038271682,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 2
+      },
+      {
+        "frame": 13,
+        "y": 470,
+        "x": 554.1666666666663,
+        "z": 100.70434858266,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 3
+      },
+      {
+        "frame": 14,
+        "y": 470,
+        "x": 558.3333333333329,
+        "z": 105.36905843657995,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 4
+      },
+      {
+        "frame": 15,
+        "y": 470,
+        "x": 562.4999999999995,
+        "z": 109.40934667116741,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5
+      },
+      {
+        "frame": 16,
+        "y": 470,
+        "x": 566.6666666666662,
+        "z": 112.80127036276487,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5.999999999999999
+      },
+      {
+        "frame": 17,
+        "y": 470,
+        "x": 570.8333333333328,
+        "z": 115.52472882417263,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 6.999999999999999
+      },
+      {
+        "frame": 18,
+        "y": 470,
+        "x": 574.9999999999994,
+        "z": 117.56358272219468,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 8
+      },
+      {
+        "frame": 19,
+        "y": 470,
+        "x": 579.1666666666661,
+        "z": 118.90574972002864,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 9
+      },
+      {
+        "frame": 20,
+        "y": 470,
+        "x": 583.3333333333327,
+        "z": 119.54327607771856,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 10
+      },
+      {
+        "frame": 21,
+        "y": 470,
+        "x": 587.4999999999993,
+        "z": 119.47238378636372,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 11
+      },
+      {
+        "frame": 22,
+        "y": 470,
+        "x": 591.666666666666,
+        "z": 118.69349295676348,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 11.999999999999998
+      },
+      {
+        "frame": 23,
+        "y": 470,
+        "x": 595.8333333333326,
+        "z": 117.21121932982238,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 12.999999999999998
+      },
+      {
+        "frame": 24,
+        "y": 470,
+        "x": 599.9999999999992,
+        "z": 115.03434692346909,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 13.999999999999998
+      },
+      {
+        "frame": 25,
+        "y": 470,
+        "x": 604.1666666666658,
+        "z": 112.17577597818425,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 14.999999999999998
+      },
+      {
+        "frame": 26,
+        "y": 470,
+        "x": 608.3333333333325,
+        "z": 108.65244650961493,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 16
+      },
+      {
+        "frame": 27,
+        "y": 470,
+        "x": 612.4999999999991,
+        "z": 104.48523792130567,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 17
+      },
+      {
+        "frame": 28,
+        "y": 470,
+        "x": 616.6666666666657,
+        "z": 99.69884527244575,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 18
+      },
+      {
+        "frame": 29,
+        "y": 470,
+        "x": 620.8333333333323,
+        "z": 94.32163293387524,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 19
+      },
+      {
+        "frame": 30,
+        "y": 470,
+        "x": 624.999999999999,
+        "z": 88.38546649959066,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 20
+      },
+      {
+        "frame": 31,
+        "y": 470,
+        "x": 629.1666666666656,
+        "z": 81.92552394985046,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 21
+      },
+      {
+        "frame": 32,
+        "y": 470,
+        "x": 633.3333333333322,
+        "z": 74.98008718493496,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 22
+      },
+      {
+        "frame": 33,
+        "y": 470,
+        "x": 637.4999999999989,
+        "z": 67.5903151649418,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 23
+      },
+      {
+        "frame": 34,
+        "y": 470,
+        "x": 641.6666666666655,
+        "z": 59.799999999999805,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 23.999999999999996
+      },
+      {
+        "frame": 35,
+        "y": 470,
+        "x": 645.8333333333321,
+        "z": 51.65530743632119,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 24.999999999999996
+      },
+      {
+        "frame": 36,
+        "y": 470,
+        "x": 645.9954427083334,
+        "z": 43.20450327598329,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 25.999999999999996
+      },
+      {
+        "frame": 37,
+        "y": 470,
+        "x": 646,
+        "z": 34.49766735168802,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 26.999999999999996
+      },
+      {
+        "frame": 38,
+        "y": 470,
+        "x": 646,
+        "z": 25.586396751496892,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 27.999999999999996
+      },
+      {
+        "frame": 39,
+        "y": 470,
+        "x": 646,
+        "z": 16.523500052244906,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 28.999999999999996
+      },
+      {
+        "frame": 40,
+        "y": 470,
+        "x": 646,
+        "z": 7.362684373619361,
+        "enemyHP": 989,
+        "action": "airKick",
+        "actionFrame": 29.999999999999996
+      },
+      {
+        "frame": 41,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 42,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 43,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 44,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 45,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 46,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 47,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 48,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 49,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 50,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 51,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 52,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 53,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 54,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 55,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 56,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 57,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 58,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 59,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 60,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 61,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 62,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 63,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 64,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 65,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 66,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 67,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 68,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 69,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      },
+      {
+        "frame": 70,
+        "y": 470,
+        "x": 646,
+        "z": 0,
+        "enemyHP": 989,
+        "actionFrame": null
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "depth": 32,
+    "damage": 0,
+    "planeTravel": 0,
+    "samples": [
+      {
+        "frame": 1,
+        "y": 470,
+        "x": 504.1666666666667,
+        "z": 9.200081001657916,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 2,
+        "y": 470,
+        "x": 508.33333333333337,
+        "z": 18.345641923490838,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 3,
+        "y": 470,
+        "x": 512.5,
+        "z": 27.382485774036127,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 4,
+        "y": 470,
+        "x": 516.6666666666666,
+        "z": 36.257059823920116,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 5,
+        "y": 470,
+        "x": 520.8333333333333,
+        "z": 44.91677296165964,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 6,
+        "y": 470,
+        "x": 524.9999999999999,
+        "z": 53.31030735087413,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 7,
+        "y": 470,
+        "x": 529.1666666666665,
+        "z": 61.38792254201415,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 8,
+        "y": 470,
+        "x": 533.3333333333331,
+        "z": 69.10175023642702,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 9,
+        "y": 470,
+        "x": 537.4999999999998,
+        "z": 76.40607795597477,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 10,
+        "y": 470,
+        "x": 541.6666666666664,
+        "z": 83.25761993716627,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 11,
+        "y": 470,
+        "x": 545.833333333333,
+        "z": 89.61577364447243,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 1
+      },
+      {
+        "frame": 12,
+        "y": 470,
+        "x": 549.9999999999997,
+        "z": 95.44286038271682,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 2
+      },
+      {
+        "frame": 13,
+        "y": 470,
+        "x": 554.1666666666663,
+        "z": 100.70434858266,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 3
+      },
+      {
+        "frame": 14,
+        "y": 470,
+        "x": 558.3333333333329,
+        "z": 105.36905843657995,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 4
+      },
+      {
+        "frame": 15,
+        "y": 470,
+        "x": 562.4999999999995,
+        "z": 109.40934667116741,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5
+      },
+      {
+        "frame": 16,
+        "y": 470,
+        "x": 566.6666666666662,
+        "z": 112.80127036276487,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5.999999999999999
+      },
+      {
+        "frame": 17,
+        "y": 470,
+        "x": 570.8333333333328,
+        "z": 115.52472882417263,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 6.999999999999999
+      },
+      {
+        "frame": 18,
+        "y": 470,
+        "x": 574.9999999999994,
+        "z": 117.56358272219468,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 8
+      },
+      {
+        "frame": 19,
+        "y": 470,
+        "x": 579.1666666666661,
+        "z": 118.90574972002864,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 9
+      },
+      {
+        "frame": 20,
+        "y": 470,
+        "x": 583.3333333333327,
+        "z": 119.54327607771856,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 10
+      },
+      {
+        "frame": 21,
+        "y": 470,
+        "x": 587.4999999999993,
+        "z": 119.47238378636372,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 11
+      },
+      {
+        "frame": 22,
+        "y": 470,
+        "x": 591.666666666666,
+        "z": 118.69349295676348,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 11.999999999999998
+      },
+      {
+        "frame": 23,
+        "y": 470,
+        "x": 595.8333333333326,
+        "z": 117.21121932982238,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 12.999999999999998
+      },
+      {
+        "frame": 24,
+        "y": 470,
+        "x": 599.9999999999992,
+        "z": 115.03434692346909,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 13.999999999999998
+      },
+      {
+        "frame": 25,
+        "y": 470,
+        "x": 604.1666666666658,
+        "z": 112.17577597818425,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 14.999999999999998
+      },
+      {
+        "frame": 26,
+        "y": 470,
+        "x": 608.3333333333325,
+        "z": 108.65244650961493,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 16
+      },
+      {
+        "frame": 27,
+        "y": 470,
+        "x": 612.4999999999991,
+        "z": 104.48523792130567,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 17
+      },
+      {
+        "frame": 28,
+        "y": 470,
+        "x": 616.6666666666657,
+        "z": 99.69884527244575,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 18
+      },
+      {
+        "frame": 29,
+        "y": 470,
+        "x": 620.8333333333323,
+        "z": 94.32163293387524,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 19
+      },
+      {
+        "frame": 30,
+        "y": 470,
+        "x": 624.999999999999,
+        "z": 88.38546649959066,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 20
+      },
+      {
+        "frame": 31,
+        "y": 470,
+        "x": 629.1666666666656,
+        "z": 81.92552394985046,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 21
+      },
+      {
+        "frame": 32,
+        "y": 470,
+        "x": 633.3333333333322,
+        "z": 74.98008718493496,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 22
+      },
+      {
+        "frame": 33,
+        "y": 470,
+        "x": 637.4999999999989,
+        "z": 67.5903151649418,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 23
+      },
+      {
+        "frame": 34,
+        "y": 470,
+        "x": 641.6666666666655,
+        "z": 59.799999999999805,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 23.999999999999996
+      },
+      {
+        "frame": 35,
+        "y": 470,
+        "x": 645.8333333333321,
+        "z": 51.65530743632119,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 24.999999999999996
+      },
+      {
+        "frame": 36,
+        "y": 470,
+        "x": 649.9999999999987,
+        "z": 43.20450327598329,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 25.999999999999996
+      },
+      {
+        "frame": 37,
+        "y": 470,
+        "x": 654.1666666666654,
+        "z": 34.49766735168802,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 26.999999999999996
+      },
+      {
+        "frame": 38,
+        "y": 470,
+        "x": 658.333333333332,
+        "z": 25.586396751496892,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 27.999999999999996
+      },
+      {
+        "frame": 39,
+        "y": 470,
+        "x": 662.4999999999986,
+        "z": 16.523500052244906,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 28.999999999999996
+      },
+      {
+        "frame": 40,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 7.362684373619361,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 29.999999999999996
+      },
+      {
+        "frame": 41,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 42,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 43,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 44,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 45,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 46,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 47,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 48,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 49,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 50,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 51,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 52,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 53,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 54,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 55,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 56,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 57,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 58,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 59,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 60,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 61,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 62,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 63,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 64,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 65,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 66,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 67,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 68,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 69,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 70,
+        "y": 470,
+        "x": 666.6666666666653,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "depth": 0,
+    "damage": 7,
+    "planeTravel": 0,
+    "samples": [
+      {
+        "frame": 1,
+        "y": 470,
+        "x": 503.9166666666667,
+        "z": 8.84623173236338,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 2,
+        "y": 470,
+        "x": 507.83333333333337,
+        "z": 17.640040311048885,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 3,
+        "y": 470,
+        "x": 511.75000000000006,
+        "z": 26.32931324426551,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 4,
+        "y": 470,
+        "x": 515.6666666666667,
+        "z": 34.86255752300011,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 5,
+        "y": 470,
+        "x": 519.5833333333334,
+        "z": 43.18920477082658,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 6,
+        "y": 470,
+        "x": 523.5,
+        "z": 51.259910914302054,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 7,
+        "y": 470,
+        "x": 527.4166666666666,
+        "z": 59.02684859809054,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 8,
+        "y": 470,
+        "x": 531.3333333333333,
+        "z": 66.44399061194906,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 9,
+        "y": 470,
+        "x": 535.2499999999999,
+        "z": 73.46738264997573,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 10,
+        "y": 470,
+        "x": 539.1666666666665,
+        "z": 80.0554037857368,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 11,
+        "y": 470,
+        "x": 543.0833333333331,
+        "z": 86.16901311968502,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 1
+      },
+      {
+        "frame": 12,
+        "y": 470,
+        "x": 546.9999999999998,
+        "z": 91.77198113722771,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 2
+      },
+      {
+        "frame": 13,
+        "y": 470,
+        "x": 550.9166666666664,
+        "z": 96.83110440640385,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 3
+      },
+      {
+        "frame": 14,
+        "y": 470,
+        "x": 554.833333333333,
+        "z": 101.31640234286535,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 4
+      },
+      {
+        "frame": 15,
+        "y": 470,
+        "x": 558.7499999999997,
+        "z": 105.20129487612252,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5
+      },
+      {
+        "frame": 16,
+        "y": 470,
+        "x": 562.6666666666663,
+        "z": 108.46275996419699,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5.999999999999999
+      },
+      {
+        "frame": 17,
+        "y": 470,
+        "x": 566.5833333333329,
+        "z": 111.08147002324291,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 6.999999999999999
+      },
+      {
+        "frame": 18,
+        "y": 470,
+        "x": 570.4999999999995,
+        "z": 113.04190646364874,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 8
+      },
+      {
+        "frame": 19,
+        "y": 470,
+        "x": 574.4166666666662,
+        "z": 114.3324516538737,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 9
+      },
+      {
+        "frame": 20,
+        "y": 470,
+        "x": 578.3333333333328,
+        "z": 114.94545776703708,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 10
+      },
+      {
+        "frame": 21,
+        "y": 470,
+        "x": 582.2499999999994,
+        "z": 114.87729210227282,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 11
+      },
+      {
+        "frame": 22,
+        "y": 470,
+        "x": 586.1666666666661,
+        "z": 114.12835861227258,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 11.999999999999998
+      },
+      {
+        "frame": 23,
+        "y": 470,
+        "x": 590.0833333333327,
+        "z": 112.70309550944461,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 12.999999999999998
+      },
+      {
+        "frame": 24,
+        "y": 470,
+        "x": 593.9999999999993,
+        "z": 110.60994896487412,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 13.999999999999998
+      },
+      {
+        "frame": 25,
+        "y": 470,
+        "x": 597.916666666666,
+        "z": 107.86132305594639,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 14.999999999999998
+      },
+      {
+        "frame": 26,
+        "y": 470,
+        "x": 601.8333333333326,
+        "z": 104.47350625924513,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 16
+      },
+      {
+        "frame": 27,
+        "y": 470,
+        "x": 605.7499999999992,
+        "z": 100.46657492433238,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 17
+      },
+      {
+        "frame": 28,
+        "y": 470,
+        "x": 609.6666666666658,
+        "z": 95.86427430042862,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 18
+      },
+      {
+        "frame": 29,
+        "y": 470,
+        "x": 613.5833333333325,
+        "z": 90.69387782103388,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 19
+      },
+      {
+        "frame": 30,
+        "y": 470,
+        "x": 617.4999999999991,
+        "z": 84.98602548037564,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 20
+      },
+      {
+        "frame": 31,
+        "y": 470,
+        "x": 621.4166666666657,
+        "z": 78.7745422594716,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 21
+      },
+      {
+        "frame": 32,
+        "y": 470,
+        "x": 625.3333333333323,
+        "z": 72.09623767782207,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 22
+      },
+      {
+        "frame": 33,
+        "y": 470,
+        "x": 629.249999999999,
+        "z": 64.99068765859789,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 23
+      },
+      {
+        "frame": 34,
+        "y": 470,
+        "x": 633.1666666666656,
+        "z": 57.499999999999815,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 23.999999999999996
+      },
+      {
+        "frame": 35,
+        "y": 470,
+        "x": 637.0833333333322,
+        "z": 49.66856484261653,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 24.999999999999996
+      },
+      {
+        "frame": 36,
+        "y": 470,
+        "x": 640.9999999999989,
+        "z": 41.542791611522404,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 25.999999999999996
+      },
+      {
+        "frame": 37,
+        "y": 470,
+        "x": 644.9166666666655,
+        "z": 33.170833992007715,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 26.999999999999996
+      },
+      {
+        "frame": 38,
+        "y": 470,
+        "x": 648.8333333333321,
+        "z": 24.602304568747012,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 27.999999999999996
+      },
+      {
+        "frame": 39,
+        "y": 470,
+        "x": 652.7499999999987,
+        "z": 15.887980819466257,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 28.999999999999996
+      },
+      {
+        "frame": 40,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 7.079504205403232,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 29.999999999999996
+      },
+      {
+        "frame": 41,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 30.999999999999996
+      },
+      {
+        "frame": 42,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 32
+      },
+      {
+        "frame": 43,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 33
+      },
+      {
+        "frame": 44,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 34.00000000000001
+      },
+      {
+        "frame": 45,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 35.00000000000001
+      },
+      {
+        "frame": 46,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "action": "airKick",
+        "actionFrame": 36.000000000000014
+      },
+      {
+        "frame": 47,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 48,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 49,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 50,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 51,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 52,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 53,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 54,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 55,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 56,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 57,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 58,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 59,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 60,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 61,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 62,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 63,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 64,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 65,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 66,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 67,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 68,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 69,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      },
+      {
+        "frame": 70,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 993,
+        "actionFrame": null
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "depth": 32,
+    "damage": 0,
+    "planeTravel": 0,
+    "samples": [
+      {
+        "frame": 1,
+        "y": 470,
+        "x": 503.9166666666667,
+        "z": 8.84623173236338,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 2,
+        "y": 470,
+        "x": 507.83333333333337,
+        "z": 17.640040311048885,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 3,
+        "y": 470,
+        "x": 511.75000000000006,
+        "z": 26.32931324426551,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 4,
+        "y": 470,
+        "x": 515.6666666666667,
+        "z": 34.86255752300011,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 5,
+        "y": 470,
+        "x": 519.5833333333334,
+        "z": 43.18920477082658,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 6,
+        "y": 470,
+        "x": 523.5,
+        "z": 51.259910914302054,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 7,
+        "y": 470,
+        "x": 527.4166666666666,
+        "z": 59.02684859809054,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 8,
+        "y": 470,
+        "x": 531.3333333333333,
+        "z": 66.44399061194906,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 9,
+        "y": 470,
+        "x": 535.2499999999999,
+        "z": 73.46738264997573,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 10,
+        "y": 470,
+        "x": 539.1666666666665,
+        "z": 80.0554037857368,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 11,
+        "y": 470,
+        "x": 543.0833333333331,
+        "z": 86.16901311968502,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 1
+      },
+      {
+        "frame": 12,
+        "y": 470,
+        "x": 546.9999999999998,
+        "z": 91.77198113722771,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 2
+      },
+      {
+        "frame": 13,
+        "y": 470,
+        "x": 550.9166666666664,
+        "z": 96.83110440640385,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 3
+      },
+      {
+        "frame": 14,
+        "y": 470,
+        "x": 554.833333333333,
+        "z": 101.31640234286535,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 4
+      },
+      {
+        "frame": 15,
+        "y": 470,
+        "x": 558.7499999999997,
+        "z": 105.20129487612252,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5
+      },
+      {
+        "frame": 16,
+        "y": 470,
+        "x": 562.6666666666663,
+        "z": 108.46275996419699,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 5.999999999999999
+      },
+      {
+        "frame": 17,
+        "y": 470,
+        "x": 566.5833333333329,
+        "z": 111.08147002324291,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 6.999999999999999
+      },
+      {
+        "frame": 18,
+        "y": 470,
+        "x": 570.4999999999995,
+        "z": 113.04190646364874,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 8
+      },
+      {
+        "frame": 19,
+        "y": 470,
+        "x": 574.4166666666662,
+        "z": 114.3324516538737,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 9
+      },
+      {
+        "frame": 20,
+        "y": 470,
+        "x": 578.3333333333328,
+        "z": 114.94545776703708,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 10
+      },
+      {
+        "frame": 21,
+        "y": 470,
+        "x": 582.2499999999994,
+        "z": 114.87729210227282,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 11
+      },
+      {
+        "frame": 22,
+        "y": 470,
+        "x": 586.1666666666661,
+        "z": 114.12835861227258,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 11.999999999999998
+      },
+      {
+        "frame": 23,
+        "y": 470,
+        "x": 590.0833333333327,
+        "z": 112.70309550944461,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 12.999999999999998
+      },
+      {
+        "frame": 24,
+        "y": 470,
+        "x": 593.9999999999993,
+        "z": 110.60994896487412,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 13.999999999999998
+      },
+      {
+        "frame": 25,
+        "y": 470,
+        "x": 597.916666666666,
+        "z": 107.86132305594639,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 14.999999999999998
+      },
+      {
+        "frame": 26,
+        "y": 470,
+        "x": 601.8333333333326,
+        "z": 104.47350625924513,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 16
+      },
+      {
+        "frame": 27,
+        "y": 470,
+        "x": 605.7499999999992,
+        "z": 100.46657492433238,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 17
+      },
+      {
+        "frame": 28,
+        "y": 470,
+        "x": 609.6666666666658,
+        "z": 95.86427430042862,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 18
+      },
+      {
+        "frame": 29,
+        "y": 470,
+        "x": 613.5833333333325,
+        "z": 90.69387782103388,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 19
+      },
+      {
+        "frame": 30,
+        "y": 470,
+        "x": 617.4999999999991,
+        "z": 84.98602548037564,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 20
+      },
+      {
+        "frame": 31,
+        "y": 470,
+        "x": 621.4166666666657,
+        "z": 78.7745422594716,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 21
+      },
+      {
+        "frame": 32,
+        "y": 470,
+        "x": 625.3333333333323,
+        "z": 72.09623767782207,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 22
+      },
+      {
+        "frame": 33,
+        "y": 470,
+        "x": 629.249999999999,
+        "z": 64.99068765859789,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 23
+      },
+      {
+        "frame": 34,
+        "y": 470,
+        "x": 633.1666666666656,
+        "z": 57.499999999999815,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 23.999999999999996
+      },
+      {
+        "frame": 35,
+        "y": 470,
+        "x": 637.0833333333322,
+        "z": 49.66856484261653,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 24.999999999999996
+      },
+      {
+        "frame": 36,
+        "y": 470,
+        "x": 640.9999999999989,
+        "z": 41.542791611522404,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 25.999999999999996
+      },
+      {
+        "frame": 37,
+        "y": 470,
+        "x": 644.9166666666655,
+        "z": 33.170833992007715,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 26.999999999999996
+      },
+      {
+        "frame": 38,
+        "y": 470,
+        "x": 648.8333333333321,
+        "z": 24.602304568747012,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 27.999999999999996
+      },
+      {
+        "frame": 39,
+        "y": 470,
+        "x": 652.7499999999987,
+        "z": 15.887980819466257,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 28.999999999999996
+      },
+      {
+        "frame": 40,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 7.079504205403232,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 29.999999999999996
+      },
+      {
+        "frame": 41,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 30.999999999999996
+      },
+      {
+        "frame": 42,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 32
+      },
+      {
+        "frame": 43,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 33
+      },
+      {
+        "frame": 44,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 34.00000000000001
+      },
+      {
+        "frame": 45,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 35.00000000000001
+      },
+      {
+        "frame": 46,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "action": "airKick",
+        "actionFrame": 36.000000000000014
+      },
+      {
+        "frame": 47,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 48,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 49,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 50,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 51,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 52,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 53,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 54,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 55,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 56,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 57,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 58,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 59,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 60,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 61,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 62,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 63,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 64,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 65,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 66,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 67,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 68,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 69,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      },
+      {
+        "frame": 70,
+        "y": 470,
+        "x": 656.6666666666654,
+        "z": 0,
+        "enemyHP": 1000,
+        "actionFrame": null
+      }
+    ]
+  }
+]

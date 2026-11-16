@@ -1,0 +1,2314 @@
+[
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 0,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 0,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 0,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 480,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 0,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 400,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 0,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 370,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 0,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 23,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 23,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 23,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 480,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 23,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 400,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 23,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 370,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 23,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 24,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 24,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 24,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 480,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 24,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 400,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 24,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 370,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 24,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 25,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 25,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 25,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 480,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 25,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 400,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 25,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 370,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 25,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 26,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 26,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 26,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 480,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 26,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 400,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 26,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 478.00000000000006,
+        "y": 470,
+        "target": {
+          "x": 370,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 26,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 27,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 27,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 27,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 27,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 27,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 27,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 32,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 32,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 32,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 32,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 32,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 32,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 45,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 45,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 45,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 45,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 45,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": -1,
+    "depth": 45,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 0,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 0,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 0,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 520,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 0,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 600,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 0,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 630,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 0,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 23,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 23,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 23,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 520,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 23,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 600,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 23,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 630,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 23,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 24,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 24,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 24,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 520,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 24,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 600,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 24,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 630,
+          "y": 494
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 24,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 25,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 25,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 25,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 520,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 25,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 600,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 25,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 630,
+          "y": 495
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 25,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 26,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 26,
+    "distance": 35,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 26,
+    "distance": 65,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 520,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 26,
+    "distance": 95,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 600,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 26,
+    "distance": 125,
+    "damage": 7,
+    "calls": [
+      {
+        "at": 0.16666666666666666,
+        "amount": 7,
+        "actual": 7,
+        "result": true,
+        "flash": 0,
+        "action": "combo",
+        "frame": 10,
+        "x": 522,
+        "y": 470,
+        "target": {
+          "x": 630,
+          "y": 496
+        }
+      }
+    ]
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 26,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 27,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 27,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 27,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 27,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 27,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 27,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 32,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 32,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 32,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 32,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 32,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 32,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 45,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 45,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 45,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 45,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 45,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "reina",
+    "dir": 1,
+    "depth": 45,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 0,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 0,
+    "distance": 35,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 0,
+    "distance": 65,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 0,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 0,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 0,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 23,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 23,
+    "distance": 35,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 460,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 23,
+    "distance": 65,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 430,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 23,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 23,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 23,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 24,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 24,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 24,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 24,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 24,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 24,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 25,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 25,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 25,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 25,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 25,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 25,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 26,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 26,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 26,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 26,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 26,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 26,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 27,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 27,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 27,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 27,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 27,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 27,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 32,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 32,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 32,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 32,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 32,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 32,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 45,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 45,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 45,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 45,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 45,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": -1,
+    "depth": 45,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 0,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 0,
+    "distance": 35,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 0,
+    "distance": 65,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 470
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 0,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 0,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 0,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 23,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 23,
+    "distance": 35,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 540,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 23,
+    "distance": 65,
+    "damage": 3,
+    "calls": [
+      {
+        "at": 0.09999999999999999,
+        "amount": 3,
+        "actual": 3,
+        "result": true,
+        "flash": 0,
+        "action": "niko185",
+        "kind": "combo",
+        "frame": 5.999999999999999,
+        "x": 500,
+        "y": 470,
+        "target": {
+          "x": 570,
+          "y": 493
+        }
+      }
+    ]
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 23,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 23,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 23,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 24,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 24,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 24,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 24,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 24,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 24,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 25,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 25,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 25,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 25,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 25,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 25,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 26,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 26,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 26,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 26,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 26,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 26,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 27,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 27,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 27,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 27,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 27,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 27,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 32,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 32,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 32,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 32,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 32,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 32,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 45,
+    "distance": -20,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 45,
+    "distance": 35,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 45,
+    "distance": 65,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 45,
+    "distance": 95,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 45,
+    "distance": 125,
+    "damage": 0,
+    "calls": []
+  },
+  {
+    "hero": "niko",
+    "dir": 1,
+    "depth": 45,
+    "distance": 155,
+    "damage": 0,
+    "calls": []
+  }
+]

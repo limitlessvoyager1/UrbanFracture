@@ -1,0 +1,44 @@
+{
+  "build": 287,
+  "checkpoint": "a7f8eb77bb5c44a2bcc7e3702bdf7c3bb0ebfecd",
+  "sourceFingerprint": "e7e6335185a768d63dd7e39c794c3bf5ccceefe7a95983a289d2559697a57b0b",
+  "counts": {
+    "executed": 142,
+    "passed": 142,
+    "failed": 0,
+    "notExecuted": 5
+  },
+  "decision": {
+    "status": "needs-review",
+    "stable": false,
+    "failed": [],
+    "missing": []
+  },
+  "runtime": {
+    "checks": 387,
+    "passed": true
+  },
+  "presentation": {
+    "checks": 560,
+    "passed": true
+  },
+  "raster": {
+    "checks": 12144,
+    "opponents": 23,
+    "framesPerOpponent": 132,
+    "maximumBelowGroundPixels": 0
+  },
+  "manualGates": [
+    "approved-screenshots",
+    "art-style-review",
+    "all-moves-coverage",
+    "physical-dualsense",
+    "human-balance"
+  ],
+  "limitations": [
+    "Existing suites may use older fixture boundaries; current-runtime-certification uses production order.",
+    "Metadata scale envelopes are not full rendered-body measurements.",
+    "No all-move, all-level, all-NPC, physical hardware or human artistic/balance certification.",
+    "Source hash inventory is a change detector, never an artistic approval."
+  ]
+}

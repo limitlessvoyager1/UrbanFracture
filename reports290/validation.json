@@ -1,0 +1,191 @@
+{
+  "build": 290,
+  "checks": 22507,
+  "identities": 30,
+  "poseSamples": 2520,
+  "actualMirroredPixelChecks": true,
+  "mechanicalTicksCompared": 10800,
+  "nativeMechanicsUnchanged": true,
+  "rows": [
+    {
+      "id": "sato",
+      "rendered": 84,
+      "source": "13|sato|||",
+      "distinct": 26
+    },
+    {
+      "id": "akari",
+      "rendered": 84,
+      "source": "13|akari|||",
+      "distinct": 26
+    },
+    {
+      "id": "flint",
+      "rendered": 84,
+      "source": "13|flint|pipe||",
+      "distinct": 26
+    },
+    {
+      "id": "thug",
+      "rendered": 84,
+      "source": "13|thug|||",
+      "distinct": 25
+    },
+    {
+      "id": "enforcer",
+      "rendered": 84,
+      "source": "13|enforcer|||",
+      "distinct": 26
+    },
+    {
+      "id": "boss",
+      "rendered": 84,
+      "source": "13|boss|||",
+      "distinct": 25
+    },
+    {
+      "id": "biker",
+      "rendered": 84,
+      "source": "13|biker|chain||",
+      "distinct": 26
+    },
+    {
+      "id": "cop",
+      "rendered": 84,
+      "source": "13|cop|baton||",
+      "distinct": 26
+    },
+    {
+      "id": "knifeThug",
+      "rendered": 84,
+      "source": "13|knifeThug|knife||",
+      "distinct": 25
+    },
+    {
+      "id": "bouncer",
+      "rendered": 84,
+      "source": "13|bouncer|||",
+      "distinct": 26
+    },
+    {
+      "id": "robber",
+      "rendered": 84,
+      "source": "13|robber|knife||",
+      "distinct": 26
+    },
+    {
+      "id": "security",
+      "rendered": 84,
+      "source": "13|security|baton||",
+      "distinct": 26
+    },
+    {
+      "id": "gangster",
+      "rendered": 84,
+      "source": "13|gangster|knife||",
+      "distinct": 26
+    },
+    {
+      "id": "gus",
+      "rendered": 84,
+      "source": "13|gus|crowbar||",
+      "distinct": 26
+    },
+    {
+      "id": "casinoSecurity",
+      "rendered": 84,
+      "source": "13|casinoSecurity|||",
+      "distinct": 26
+    },
+    {
+      "id": "aidan",
+      "rendered": 84,
+      "source": "13|knifeThug|knife||",
+      "distinct": 25
+    },
+    {
+      "id": "colt",
+      "rendered": 84,
+      "source": "13|colt|baton||",
+      "distinct": 26
+    },
+    {
+      "id": "aidanTavern",
+      "rendered": 84,
+      "source": "13|knifeThug|knife||",
+      "distinct": 25
+    },
+    {
+      "id": "guard",
+      "rendered": 84,
+      "source": "13|guard|||",
+      "distinct": 26
+    },
+    {
+      "id": "flintUnarmed",
+      "rendered": 84,
+      "source": "13|flint|||",
+      "distinct": 26
+    },
+    {
+      "id": "dockWorker",
+      "rendered": 84,
+      "source": "13|dockWorker|crowbar||3133978989",
+      "distinct": 26
+    },
+    {
+      "id": "heavyDockWorker",
+      "rendered": 84,
+      "source": "13|heavyDockWorker|crowbar||3133978989",
+      "distinct": 26
+    },
+    {
+      "id": "torranceBaylor",
+      "rendered": 84,
+      "source": "13|torranceBaylor|||",
+      "distinct": 26
+    },
+    {
+      "id": "dorian",
+      "rendered": 84,
+      "source": "14|dorian|||",
+      "distinct": 26
+    },
+    {
+      "id": "ethan",
+      "rendered": 84,
+      "source": "14|ethan|scalpel||",
+      "distinct": 26
+    },
+    {
+      "id": "nora",
+      "rendered": 84,
+      "source": "14|nora|scalpel||",
+      "distinct": 26
+    },
+    {
+      "id": "dirk",
+      "rendered": 84,
+      "source": "14|dirk|knife||",
+      "distinct": 26
+    },
+    {
+      "id": "ophelia",
+      "rendered": 84,
+      "source": "14|ophelia|baton||",
+      "distinct": 26
+    },
+    {
+      "id": "jameson",
+      "rendered": 84,
+      "source": "15|jameson|||",
+      "distinct": 26
+    },
+    {
+      "id": "sterling",
+      "rendered": 84,
+      "source": "17|sterling|bat||",
+      "distinct": 26
+    }
+  ]
+}

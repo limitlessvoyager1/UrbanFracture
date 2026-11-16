@@ -1,0 +1,332 @@
+[
+  {
+    "id": "sato",
+    "type": "sato",
+    "name": "Saito",
+    "bounds": [
+      -56,
+      -137,
+      53,
+      -2
+    ]
+  },
+  {
+    "id": "akari",
+    "type": "akari",
+    "name": "Akari",
+    "bounds": [
+      -48,
+      -134,
+      60,
+      -1
+    ]
+  },
+  {
+    "id": "flint",
+    "type": "flint",
+    "name": "Flint",
+    "bounds": [
+      -56,
+      -158,
+      57,
+      -1
+    ]
+  },
+  {
+    "id": "thug",
+    "type": "thug",
+    "name": "Marcus",
+    "bounds": [
+      -50,
+      -135,
+      46,
+      -1
+    ]
+  },
+  {
+    "id": "enforcer",
+    "type": "enforcer",
+    "name": "Bruno",
+    "bounds": [
+      -45,
+      -134,
+      42,
+      -1
+    ]
+  },
+  {
+    "id": "boss",
+    "type": "boss",
+    "name": "Jackal",
+    "bounds": [
+      -44,
+      -140,
+      72,
+      0
+    ]
+  },
+  {
+    "id": "biker",
+    "type": "biker",
+    "name": "Frankie",
+    "bounds": [
+      -41,
+      -138,
+      40,
+      -1
+    ]
+  },
+  {
+    "id": "cop",
+    "type": "cop",
+    "name": "Carmen",
+    "bounds": [
+      -38,
+      -133,
+      39,
+      -1
+    ]
+  },
+  {
+    "id": "knifeThug",
+    "type": "knifeThug",
+    "name": "Kevin",
+    "bounds": [
+      -48,
+      -134,
+      47,
+      0
+    ]
+  },
+  {
+    "id": "bouncer",
+    "type": "bouncer",
+    "name": "Brick",
+    "bounds": [
+      -41,
+      -146,
+      39,
+      0
+    ]
+  },
+  {
+    "id": "robber",
+    "type": "robber",
+    "name": "Jesse",
+    "bounds": [
+      -39,
+      -137,
+      38,
+      -1
+    ]
+  },
+  {
+    "id": "security",
+    "type": "security",
+    "name": "Otis",
+    "bounds": [
+      -50,
+      -155,
+      42,
+      -1
+    ]
+  },
+  {
+    "id": "gangster",
+    "type": "gangster",
+    "name": "Leroy",
+    "bounds": [
+      -37,
+      -157,
+      37,
+      -1
+    ]
+  },
+  {
+    "id": "gus",
+    "type": "enforcer",
+    "name": "Gus",
+    "bounds": [
+      -46,
+      -161,
+      76,
+      -2
+    ]
+  },
+  {
+    "id": "casinoSecurity",
+    "type": "enforcer",
+    "name": "Security",
+    "bounds": [
+      -53,
+      -151,
+      52,
+      -1
+    ]
+  },
+  {
+    "id": "aidan",
+    "type": "knifeThug",
+    "name": "Aidan",
+    "bounds": [
+      -48,
+      -134,
+      47,
+      0
+    ]
+  },
+  {
+    "id": "colt",
+    "type": "robber",
+    "name": "Colt Dawson",
+    "bounds": [
+      -38,
+      -154,
+      37,
+      -1
+    ]
+  },
+  {
+    "id": "aidanTavern",
+    "type": "knifeThug",
+    "name": "Aidan",
+    "bounds": [
+      -48,
+      -134,
+      47,
+      0
+    ]
+  },
+  {
+    "id": "guard",
+    "type": "thug",
+    "name": "Prison Guard",
+    "bounds": [
+      -53,
+      -151,
+      52,
+      -1
+    ]
+  },
+  {
+    "id": "flintUnarmed",
+    "type": "flint",
+    "name": "Flint",
+    "bounds": [
+      -53,
+      -140,
+      52,
+      -1
+    ]
+  },
+  {
+    "id": "dockWorker",
+    "type": "dockWorker",
+    "name": "Andrew",
+    "bounds": [
+      -39,
+      -140,
+      73,
+      -1
+    ]
+  },
+  {
+    "id": "heavyDockWorker",
+    "type": "heavyDockWorker",
+    "name": "Lionel",
+    "bounds": [
+      -46,
+      -157,
+      73,
+      -1
+    ]
+  },
+  {
+    "id": "torranceBaylor",
+    "type": "enforcer",
+    "name": "Torrence Baylor",
+    "bounds": [
+      -60,
+      -170,
+      61,
+      -1
+    ]
+  },
+  {
+    "id": "dorian",
+    "type": "dorian",
+    "name": "Dorian",
+    "bounds": [
+      -61,
+      -156,
+      54,
+      -1
+    ]
+  },
+  {
+    "id": "ethan",
+    "type": "ethan",
+    "name": "Ethan",
+    "bounds": [
+      -43,
+      -145,
+      42,
+      -1
+    ]
+  },
+  {
+    "id": "nora",
+    "type": "nora",
+    "name": "Nora",
+    "bounds": [
+      -42,
+      -145,
+      41,
+      -1
+    ]
+  },
+  {
+    "id": "dirk",
+    "type": "robber",
+    "name": "Dirk",
+    "bounds": [
+      -40,
+      -150,
+      39,
+      -1
+    ]
+  },
+  {
+    "id": "ophelia",
+    "type": "boss",
+    "name": "Ophelia",
+    "bounds": [
+      -48,
+      -139,
+      48,
+      -2
+    ]
+  },
+  {
+    "id": "jameson",
+    "type": "boss",
+    "name": "Jameson",
+    "bounds": [
+      -47,
+      -159,
+      46,
+      -2
+    ]
+  },
+  {
+    "id": "sterling",
+    "type": "boss",
+    "name": "Arthur Sterling",
+    "bounds": [
+      -34,
+      -151,
+      26,
+      -2
+    ]
+  }
+]

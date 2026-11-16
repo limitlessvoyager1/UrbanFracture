@@ -1,0 +1,8 @@
+{
+  "retired": "dist/assets/sprites/enforcer-walk-v1.webp",
+  "archived": "source-archive/build296/assets/sprites/enforcer-walk-v1.webp",
+  "sha256": "44f8d9c662226a7146c56b4b3e9a983d5fb8b44c711c12dac675f5ef32ea4d5e",
+  "replacementFallbackSource": "assets/sprites/bruno-gait130.webp?v=287",
+  "reason": "Unify legacy fallback with the already-active native eight-frame Bruno130 gait; preserve all source art in archive and checkpoint.",
+  "newReactionAsset": "dist/assets/sprites/bruno-reactions296.webp"
+}

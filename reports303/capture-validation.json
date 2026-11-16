@@ -1,0 +1,61 @@
+{
+  "frames": 7200,
+  "rows": [
+    {
+      "phase": "before",
+      "scenario": "street",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "before",
+      "scenario": "edge",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "before",
+      "scenario": "obstacle",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "before",
+      "scenario": "mixed",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "after",
+      "scenario": "street",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "after",
+      "scenario": "edge",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "after",
+      "scenario": "obstacle",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    },
+    {
+      "phase": "after",
+      "scenario": "mixed",
+      "frames": 900,
+      "seconds": 15,
+      "captureMatchesNativeMeasurements": true
+    }
+  ]
+}

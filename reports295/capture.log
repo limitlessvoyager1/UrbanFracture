@@ -1,0 +1,52 @@
+thug contacts [
+  {
+    frame: 10,
+    time: 0.16666666666666666,
+    target: 'thug',
+    before: { hp: 60, action: null },
+    after: { hp: 53, action: null, stun: 0.55 },
+    effects: []
+  },
+  {
+    frame: 39,
+    time: 0.6500000000000004,
+    target: 'thug',
+    before: { hp: 53, action: null },
+    after: { hp: 45, action: null, stun: 0.6333333333333333 },
+    effects: []
+  },
+  {
+    frame: 75,
+    time: 1.2500000000000004,
+    target: 'thug',
+    before: { hp: 45, action: null },
+    after: { hp: 35, action: null, stun: 0 },
+    effects: []
+  }
+]
+enforcer contacts [
+  {
+    frame: 10,
+    time: 0.16666666666666666,
+    target: 'enforcer',
+    before: { hp: 115, action: null },
+    after: { hp: 108, action: null, stun: 0.55 },
+    effects: []
+  },
+  {
+    frame: 39,
+    time: 0.6500000000000004,
+    target: 'enforcer',
+    before: { hp: 108, action: null },
+    after: { hp: 100, action: null, stun: 0.6333333333333333 },
+    effects: []
+  },
+  {
+    frame: 75,
+    time: 1.2500000000000004,
+    target: 'enforcer',
+    before: { hp: 100, action: null },
+    after: { hp: 90, action: null, stun: 0 },
+    effects: []
+  }
+]
