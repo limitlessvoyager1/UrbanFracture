@@ -14,7 +14,8 @@
     "qa/system242/suites.json",
     "tests/qa242-orion-coverage.cjs",
     "tests/qa242-orion-current.cjs",
-    "tools/qa242/production-coverage.cjs"
+    "tools/qa242/production-coverage.cjs",
+    "tools/qa242/run-prison224.cjs"
   ],
   "features": [
     "qa242"
