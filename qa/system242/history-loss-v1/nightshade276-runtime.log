@@ -1,0 +1,31 @@
+fatal: path 'dist/index.html' exists on disk, but not in 'fb436742c9b821a9f9d8d9a1363e93c98afca946'
+node:child_process:955
+    throw err;
+    ^
+
+Error: Command failed: git show fb436742c9b821a9f9d8d9a1363e93c98afca946:dist/index.html
+fatal: path 'dist/index.html' exists on disk, but not in 'fb436742c9b821a9f9d8d9a1363e93c98afca946'
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:916:11)
+    at Object.execFileSync (node:child_process:952:15)
+    at Object.readFileSync (/home/runner/work/UrbanFracture/UrbanFracture/tests/nightshade276.cjs:2:307)
+    at Object.load (/home/runner/work/UrbanFracture/UrbanFracture/tools/qa242/runtime.cjs:4:183)
+    at baseline (/home/runner/work/UrbanFracture/UrbanFracture/tests/nightshade276.cjs:2:496)
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/nightshade276.cjs:5:11)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fatal: path 'dist/index.html' exists on disk, but not in 'fb436742c9b821a9f9d8d9a1363e93c98afca946'\n"
+  ],
+  pid: 3917,
+  stdout: '',
+  stderr: "fatal: path 'dist/index.html' exists on disk, but not in 'fb436742c9b821a9f9d8d9a1363e93c98afca946'\n"
+}
+
+Node.js v22.21.0

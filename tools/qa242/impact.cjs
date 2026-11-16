@@ -58,6 +58,7 @@ function createPlan({root,base,head,changeFile}){
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'qa/system242/suites.json'))),changes=diff(root,base,head);
  const plan=planChange({registry,catalog,declaration,changes,baseCommit:base,testedCommit:head,registryOrigin});
  plan.declaration={path:changeFile,sha256:sha(declarationBytes)};plan.registrySha256=sha(registryBytes);plan.catalogSha256=sha(fs.readFileSync(path.join(root,'qa/system242/suites.json')));
+ if(declaration.replacementContract)require('./history-contract.cjs').apply(plan,{root,declaration,catalog,runtimeTree:git(root,['rev-parse',head+':dist'])});
  return plan;
 }
 if(require.main===module){try{const args=process.argv.slice(2),arg=(id,fallback)=>args.includes(id)?args[args.indexOf(id)+1]:fallback,root=path.resolve(arg('--root',path.join(__dirname,'../..'))),plan=createPlan({root,base:arg('--base'),head:arg('--head',git(root,['rev-parse','HEAD'])),changeFile:arg('--change')});const output=arg('--output');if(output){fs.mkdirSync(path.dirname(path.resolve(output)),{recursive:true});fs.writeFileSync(output,JSON.stringify(plan,null,2)+'\n');}console.log(JSON.stringify(plan));process.exitCode=plan.status==='blocked'?1:plan.status==='needs-review'?2:0;}catch(e){console.error(e.message);process.exitCode=1;}}

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "orion-move-coverage",
+  "description": "QA-only versioned current-evidence replacement contract with preserved missing-history receipts, explicit owner acknowledgement and unchanged full-release history requirements. No gameplay, protection or merge changes.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    ".github/workflows/qa242.yml",
+    "QA242-RUNBOOK.md",
+    "qa/system242/ORION-COVERAGE.md",
+    "qa/system242/PRODUCTION-COVERAGE.md",
+    "qa/system242/changes/orion-move-coverage.json",
+    "qa/system242/character-moves.json",
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tests/qa242-orion-coverage.cjs",
+    "tests/qa242-orion-current.cjs",
+    "tools/qa242/production-coverage.cjs",
+    "tools/qa242/run-prison224.cjs",
+    "tests/qa242-controller-charge.cjs",
+    "tools/qa242/run-current150.cjs",
+    "tools/qa242/run-subway238.cjs",
+    "tests/qa242-subway-coverage.cjs",
+    "qa/system242/change.schema.json",
+    "qa/system242/history-replacement-v1.json",
+    "qa/system242/history-loss-v1/receipt.json",
+    "qa/system242/history-loss-v1/orion271-assets.log",
+    "qa/system242/history-loss-v1/nightshade276-runtime.log",
+    "qa/system242/history-loss-v1/diagnostics307-input.log",
+    "qa/system242/history-loss-v1/energy316-baseline-comparison.log",
+    "tools/qa242/history-contract.cjs",
+    "tools/qa242/current-evidence.cjs",
+    "tools/qa242/orion-current-assets.py",
+    "tools/qa242/impact.cjs",
+    "tools/qa242/pilot.cjs",
+    "tools/qa242/run.cjs",
+    "tests/qa242-history-contract.cjs",
+    "QA242-POLICY.md",
+    "qa/system242/HISTORY-REPLACEMENT.md"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [],
+  "replacementContract": "qa/system242/history-replacement-v1.json"
+}

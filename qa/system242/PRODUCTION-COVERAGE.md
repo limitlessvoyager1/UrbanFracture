@@ -14,13 +14,13 @@ This closes direct-entrypoint ownership gaps only. Alternate HTML entrypoints, d
 
 `character-moves.json` is the reviewable extraction/binding specification. It names explicit runtime selectors and source literals, and pins each reviewed test assertion to its exact test blob and excerpt. The generator obtains registered hero data through the existing isolated current-production simulation adapter. The current adapter loads 219 modules, compared with the 487 scripts inventoried in the browser entrypoint. It does not execute the full browser, renderer, hardware input or all UI/scene controllers. A selector or literal proves only that the definition exists in that bounded context; raw fields are retained without claiming they equal every effective final action clock.
 
-The initial matrix contains 93 definition/ability rows across Reina, Broxton, Skylar Nova, Forest, Niko, Orion and Nightshade. It is not an exhaustive move list. Gunner is treated as Forest's companion in the ownership domain; enemy/NPC moves and the complete companion-state matrix remain future work. Registered coordinated moves, combo stages, directional actions, selected specials and charge labels are indexed. Per-hero `openFamilies` lists the known missing families; especially Orion's combat definitions are not given passing assertion coverage by unrelated asset/security tests.
+The initial PR #12 matrix contained 93 definition/ability rows across Reina, Broxton, Skylar Nova, Forest, Niko, Orion and Nightshade. It is not an exhaustive move list. Gunner is treated as Forest's companion in the ownership domain; enemy/NPC moves and the complete companion-state matrix remain future work. Registered coordinated moves, combo stages, directional actions, selected specials and charge labels are indexed. Per-hero `openFamilies` lists the known missing families; especially Orion's combat definitions are not given passing assertion coverage by unrelated asset/security tests.
 
 Each row has separate dimensions for startup, active contact, recovery, damage, facing, interruption, simulated input, rendered evidence and physical controller. Definitions never mark these dimensions passed. Exact assertion excerpts are `assertion-located`; a direction loop alone is `scenario-located`. These statuses are source inspection facts, not execution outcomes. Scenario descriptions preserve target classes, facings, frame rates and fixture restrictions. Passing tests do not fill uncited dimensions or other moves in the same family.
 
 ## Commands and evidence
 
-Run `node tools/qa242/production-coverage.cjs` for an inventory with no execution claim. Add `--require-current` to require the complete pinned runtime Git tree. Add `--run-evidence` to execute the eight explicitly selected catalog suites and verify their immutable receipts:
+Run `node tools/qa242/production-coverage.cjs` for an inventory with no execution claim. Add `--require-current` to require the complete pinned runtime Git tree. Add `--run-evidence` to execute the explicitly selected catalog suites and verify their immutable receipts:
 
 - Reina sword-stance actions and Dragon Tail special counter: `reina381-current`, `reina382-current`.
 - Forest's six coordinated grapples and cancellation cleanup: `forest-grapples177`, `forest-protection177`.
@@ -38,3 +38,7 @@ Matrix rows can become `partial-assertions-passed` only for the specific verifie
 ## Next coverage work
 
 Prioritize Orion's missing current per-move assertion bindings, Broxton's throws/shield/Iron Will, remaining Niko coordinated moves, Nova DDT/trampoline/standard attacks, and all seven heroes' weapon/airborne/counter variants. Then enumerate enemy/NPC moves and campaign route interactions, attach deterministic rendered scenarios, test physical controller modes, and obtain separate category-specific owner evidence. Do not promote registry coverage or feature certifications merely because every directly loaded file has an owner.
+
+## Orion follow-up
+
+[The Orion pass](ORION-COVERAGE.md) adds119 current-adapter cases and53 source bindings for the initial20 Orion rows plus four current counter variants. The matrix now has97 rows, with the old counter separated as superseded. Nine selected suites run; the full catalog has343. All features and rows remain uncertified.

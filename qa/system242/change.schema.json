@@ -180,6 +180,10 @@
         "game-change",
         "qa-infrastructure-pilot"
       ]
+    },
+    "replacementContract": {
+      "type": "string",
+      "const": "qa/system242/history-replacement-v1.json"
     }
   }
 }

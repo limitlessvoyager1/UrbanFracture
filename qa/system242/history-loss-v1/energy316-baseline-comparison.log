@@ -1,0 +1,47 @@
+fatal: Not a valid object name 4808adc0f7f1e4ecfd35d747f17aec3db4b40b19^{commit}
+node:child_process:955
+    throw err;
+    ^
+
+Error: Command failed: git cat-file -e 4808adc0f7f1e4ecfd35d747f17aec3db4b40b19^{commit}
+fatal: Not a valid object name 4808adc0f7f1e4ecfd35d747f17aec3db4b40b19^{commit}
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:916:11)
+    at Object.execFileSync (node:child_process:952:15)
+    at loadAt (/home/runner/work/UrbanFracture/UrbanFracture/tools/resolution342/historical.cjs:4:75)
+    at baselineLoad (/home/runner/work/UrbanFracture/UrbanFracture/tools/energy316/balance.cjs:1:138)
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tools/energy316/balance.cjs:1:346)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(81) [Uint8Array] [
+      102,  97, 116,  97, 108,  58,  32,  78, 111, 116,  32,  97,
+       32, 118,  97, 108, 105, 100,  32, 111,  98, 106, 101,  99,
+      116,  32, 110,  97, 109, 101,  32,  52,  56,  48,  56,  97,
+      100,  99,  48, 102,  55, 102,  49, 101,  52, 101,  99, 102,
+      100,  51,  53, 100,  55,  52,  55, 102,  49,  55,  97, 101,
+       99,  51, 100,  98,  52,  98,  52,  48,  98,  49,  57,  94,
+      123,  99, 111, 109, 109, 105, 116, 125,  10
+    ]
+  ],
+  pid: 4000,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(81) [Uint8Array] [
+    102,  97, 116,  97, 108,  58,  32,  78, 111, 116,  32,  97,
+     32, 118,  97, 108, 105, 100,  32, 111,  98, 106, 101,  99,
+    116,  32, 110,  97, 109, 101,  32,  52,  56,  48,  56,  97,
+    100,  99,  48, 102,  55, 102,  49, 101,  52, 101,  99, 102,
+    100,  51,  53, 100,  55,  52,  55, 102,  49,  55,  97, 101,
+     99,  51, 100,  98,  52,  98,  52,  48,  98,  49,  57,  94,
+    123,  99, 111, 109, 109, 105, 116, 125,  10
+  ]
+}
+
+Node.js v22.21.0

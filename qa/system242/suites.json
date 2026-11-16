@@ -179,7 +179,7 @@
       "id": "campaign224",
       "command": [
         "node",
-        "tests/prison224-all.cjs"
+        "tools/qa242/run-prison224.cjs"
       ],
       "framework": "existing-cross-system",
       "profiles": [
@@ -187,14 +187,14 @@
       ],
       "critical": true,
       "generatedArtifacts": [
-        "PRISON224-results.json"
+        "reports242/prison224-results.json"
       ]
     },
     {
       "id": "subway238",
       "command": [
         "node",
-        "tests/subway238.cjs"
+        "tools/qa242/run-subway238.cjs"
       ],
       "framework": "existing-progression",
       "profiles": [
@@ -4414,6 +4414,78 @@
       "critical": true,
       "generatedArtifacts": [
         "reports333/runtime-checks.json"
+      ]
+    },
+    {
+      "id": "orion-current-coverage",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-orion-current.cjs"
+      ],
+      "framework": "current-orion-simulation-coverage",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports242/orion-current.json"
+      ]
+    },
+    {
+      "id": "orion-current-assets-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "orion"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-current-behavior-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "nightshade"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true
+    },
+    {
+      "id": "diagnostics-current-preservation-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "diagnostics"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true
+    },
+    {
+      "id": "energy-current-measurements-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "energy"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports242/current-energy-measurements.json"
       ]
     }
   ],
