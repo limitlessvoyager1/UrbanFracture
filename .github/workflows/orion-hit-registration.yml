@@ -6,7 +6,7 @@ on:
       - 'dist/orion-combat205.js'
       - 'tests/orion387*'
       - 'tests/orion228*'
-      - 'source-archive/orion-combat205-before387.js'
+      - 'qa/system242/repair-references/orion387/orion-combat205-before387.js.txt'
       - '.github/workflows/orion-hit-registration.yml'
 permissions:
   contents: read
