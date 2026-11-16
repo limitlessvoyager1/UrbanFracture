@@ -1,5 +1,9 @@
 # Urban Fracture QA architecture — Build242
 
+## Current policy extension
+
+[QA242-POLICY.md](QA242-POLICY.md) is the authoritative change/acceptance contract. This document's Build242 counts and environment descriptions below are historical, not current inventory. The existing suite catalog, native/render adapters and comparator remain the foundation. `features.json` and the impact planner add reviewed semantic ownership and reverse dependencies; they do not replace the catalog or prove full coverage. The initial pilots cover shared admission, fighter rendering and controls only. Immutable run evidence, explicit result classes, owner review ingestion and read-only PR automation extend the same runner. An empty baseline registry, unperformed human checks, unknown coverage and missing historical evidence remain blockers. No gameplay rewrite or branch-protection activation is included.
+
 Checkpoint: `checkpoint-before-qa242`, production source `7784bd683d851f6719b7c12f0f947720f7fa4ed4`. No game controller, character, asset or level has been rebuilt or resized by this task.
 
 ## Audit of operational infrastructure
@@ -75,3 +79,13 @@ No automatic artistic corrections or combat edits were applied. One validated fi
 ### Validated low-risk correction added after browser detection
 
 The browser readiness probe found a real stale `uptown-traffic113.png` reference. The existing WebP was compared with the archived original PNG at `36c9a07^`:2048×768, identical RGBA and alpha. A single opt-in guarded rule (`known-repair.json`, `fix-known.cjs --apply`) corrects only that filename expression. Exact loader-before/after and asset hashes are required; mismatch refuses, repeat application is idempotent. No image pixels, geometry or combat were changed. `reports242/corrections.json` records the applied repair. All other artistic/gameplay changes still require review.
+
+## QA-only pilot acceptance
+
+A declaration with `acceptanceScope: qa-infrastructure-pilot` may change only QA242 tooling, tests, schemas, policy documentation and its workflow. Runtime/game assets, game entities, new content and game-risk flags are rejected against the complete base-to-head diff. Missing/failed/blocked required automated suites remain blockers. Mandatory shared combat, input and render regressions still run. Unselected catalog entries remain Not Tested.
+
+Pilot acceptance is separate from game certification. The registry remains `pilot` and feature certifications remain `partial`; bootstrap review notes, artistic approval, all-moves coverage, physical controller and hardware/performance holds remain visible. A pilot owner comment cannot satisfy `check-release.cjs` or certify gameplay.
+
+The automated job emits an immutable `pilot-evidence.json` and `OWNER-ACCEPTANCE.txt`, with exact repository, PR, base/head commits, source fingerprint, required outcomes, log/artifact hashes, and report digest. Review the run artifact and copy the exact comment from the Actions summary onto that PR using the repository owner's GitHub account. The separate **QA242 pilot owner acceptance** job authenticates owner login and numeric ID through the API; self-review is unnecessary. Latest owner marker comment wins; `REVOKE`, malformed or stale comments block acceptance. Credentials/API failures never approve.
+
+After posting the comment, rerun **failed jobs only** so the owner job reuses the successful automated job's exact immutable artifact. Rerunning all checks produces new evidence requiring a fresh comment. New source/base commits invalidate previous signoff. No workflow posts acceptance for the owner, merges, deploys, or changes branch protection. Read permissions suffice. Game changes continue through the existing full certification path; this owner job fails closed for non-pilot evidence.

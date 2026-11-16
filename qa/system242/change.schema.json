@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QA242 change declaration; runtime binds exact base/head and declaration hash",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "description",
+    "files",
+    "entities",
+    "features",
+    "newContent",
+    "risks",
+    "issues"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]+$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "entities": {
+      "type": "object",
+      "required": [
+        "characters",
+        "moves",
+        "systems",
+        "levels"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "moves": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "systems": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "newContent": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "spec",
+          "suites",
+          "visualScenarios"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "hero",
+              "enemy",
+              "boss",
+              "weapon",
+              "level",
+              "mechanic",
+              "asset"
+            ]
+          },
+          "spec": {
+            "type": "string",
+            "minLength": 1
+          },
+          "suites": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          },
+          "visualScenarios": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "risks": {
+      "type": "object",
+      "required": [
+        "performance",
+        "visual",
+        "majorIntegration",
+        "physicalController"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "performance": {
+          "type": "boolean"
+        },
+        "visual": {
+          "type": "boolean"
+        },
+        "majorIntegration": {
+          "type": "boolean"
+        },
+        "physicalController": {
+          "type": "boolean"
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "acceptanceScope": {
+      "type": "string",
+      "enum": [
+        "game-change",
+        "qa-infrastructure-pilot"
+      ]
+    }
+  }
+}

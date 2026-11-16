@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "records"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "testedCommit",
+          "sourceFingerprint",
+          "approvedBy",
+          "approvedAt",
+          "scope",
+          "scenarios",
+          "artifacts",
+          "approval"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "visual",
+              "art-style",
+              "all-moves",
+              "physical-controller",
+              "human-balance",
+              "performance",
+              "performance-baseline",
+              "baseline-report"
+            ]
+          },
+          "testedCommit": {
+            "type": "string",
+            "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"
+          },
+          "sourceFingerprint": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "approvedBy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "approvedAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          },
+          "scenarios": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "artifacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "kind": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": true
+            },
+            "minItems": 1
+          },
+          "approval": {
+            "type": "object",
+            "required": [
+              "pullRequest",
+              "reviewId"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "pullRequest": {
+                "type": "number",
+                "minimum": 1
+              },
+              "reviewId": {
+                "type": "number",
+                "minimum": 1
+              }
+            }
+          },
+          "metrics": {
+            "type": "object"
+          },
+          "samples": {
+            "type": "number",
+            "minimum": 1
+          },
+          "targetId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "targetHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "environmentHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "baselineId": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

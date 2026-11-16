@@ -1,5 +1,7 @@
 # Standing project requirements
 
+Permanent change and stable-acceptance requirements are defined in [QA242-POLICY.md](QA242-POLICY.md), using the existing QA242 process and suite catalog. Every contributor must declare semantic impact, run mandatory shared smoke and affected suites, retain failures/omissions, and attach required rendered/performance/owner evidence before stable acceptance. The registry is currently a pilot; do not call incomplete coverage or unconfigured branch protection operational. Do not change gameplay during QA-policy setup or enable branch protection without separate owner approval.
+
 Preserve native PS5 DualSense controller support in every future build, including standard USB/Bluetooth, DSX virtual Xbox, raw Sony mapping, custom mapping setup, connection diagnostics, and controller menu/retry support. Do not remove `gamepad.js`, its index script, or the controller UI. Run the gamepad/controller regression suites after gameplay or input changes. Physical hardware testing must be distinguished from simulated tests.
 
 Controller mapping: L1 block, R1 counter/weapon evade, L2 manual grab/release. Block and counter must remain separate actions; preserve edge-triggered meter-charged attempts and migrate older custom R1 grab profiles to counter.
