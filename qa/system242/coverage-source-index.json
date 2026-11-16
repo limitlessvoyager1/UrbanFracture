@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "336b5a2312d9f45d266213da3de07a38517e720c",
-  "runtimeTree": "03effe760c4b1ee90a320eec8dcc59bbda7dffca",
+  "sourceCommit": "bf05ea7d1c5743ae2318c1cd271527758948d1a7",
+  "runtimeTree": "f040164ce82bc325f8030e7febd755f647d155d6",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -7369,7 +7369,7 @@
     },
     {
       "path": "dist/orion-combat205.js",
-      "sha": "14e168c6d33a0afc5a3cc4310099879112bd397c"
+      "sha": "5ec6b6beab7b3d535057c905c090fcdfbaae00ec"
     },
     {
       "path": "dist/orion-integration205.js",
@@ -10014,6 +10014,10 @@
     {
       "path": "tests/orion386-counters.cjs",
       "sha": "d079d8a88c6fcf51b8c80c3570244d774ca8c83d"
+    },
+    {
+      "path": "tests/orion387-hit-registration.cjs",
+      "sha": "c7eece1a692cb72eee60d2bd17da2e10f7be5a82"
     },
     {
       "path": "tests/park-visitors161.cjs",
