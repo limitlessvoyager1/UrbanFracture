@@ -1,0 +1,19 @@
+PASS244 actual game.js: keyboard and standard DualSense/raw Sony/DSX, both directions, same-frame second tap+Attack, full lariat exit and press-driven combo continuation. Simulated controllers, not physical hardware.
+✔ tests/broxton244-controller.cjs (444.393717ms)
+PASS244 current load: lariat close/far, both facings/30-60-120Hz,64/48 damage, depth exclusions,170 travel, mandatory recovery; same-tick/latched input, native combo and wake-tail queues; one frontal damage-taking poise only; mixed native3-point/2-attacker pressure.
+✔ tests/broxton244.cjs (5642.214172ms)
+PASS raw Sony centered hat/discrete D-pad, neutral rearming with drift, DSX virtual selection, full custom calibration and axes/buttons
+✔ tests/controller-recovery.test.cjs (64.506788ms)
+PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+✔ tests/controller157.cjs (64.172438ms)
+PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+✔ tests/gamepad.test.cjs (88.704173ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5655.620593

@@ -1,0 +1,177 @@
+{
+  "pass": true,
+  "checks": 6213,
+  "cases": [
+    {
+      "mode": "walk",
+      "direction": "left",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "left",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "left",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "right",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "right",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "right",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "up",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "up",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "up",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "down",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "down",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "walk",
+      "direction": "down",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "left",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "left",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "left",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "right",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "right",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "right",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "up",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "up",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "up",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "down",
+      "hz": 30,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "down",
+      "hz": 60,
+      "frames": 12,
+      "consecutive": true
+    },
+    {
+      "mode": "run",
+      "direction": "down",
+      "hz": 120,
+      "frames": 12,
+      "consecutive": true
+    }
+  ],
+  "captureFrames": 581,
+  "knifeDraws": 736,
+  "upperPanels": 6
+}

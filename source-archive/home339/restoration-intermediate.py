@@ -1,0 +1,25 @@
+p='dist/home-interactions339.js'
+s=open(p).read().replace("{id:'lounge-table'", "{id:'lounge-sofa',room:'living',x:900,y:900,label:'Sit on sofa',kind:'sofa'},{id:'lounge-table'")
+s=s.replace('function lineClear', '''const preferences=['nova','niko','forest','nightshade','broxton','orion','reina'];
+function guest(g){const s=g.homeNav338;if(!s)return null;const city=N.City334?.state(g),roster=N.Astro326.state(g).roster;const key=preferences.find(k=>k!==g.player.type&&B.available(g,k)&&city?.heroes[k]?.available!==false&&!city?.assignments.some(a=>a.hero===k&&a.status==='active')&&(!roster.get(k)||roster.get(k).actor.hp>0));if(!key){s.guest339=null;return null;}if(s.guest339?.type!==key){const random=Math.random;let q;try{Math.random=()=>.339;q=new N.Brawler();q.selectHero(key);}finally{Math.random=random;}s.guest339=q.player;Object.assign(s.guest339,{x:1260,y:930,prevX:1260,prevY:930,dir:-1,act:null,walk:0,weapon:null});}return s.guest339;}
+function list(g){const p=guest(g);return p?[...objects,{id:'lounge-guest',room:'living',x:1260,y:973,label:'Talk to '+p.name,kind:'talk',hero:p.type}]:objects;}
+function blockers(g){return guest(g)?[{id:'home-guest',x:1242,y:914,w:36,h:30,floor:0}]:[];}
+function lineClear''')
+s=s.replace('[...H.walls,...H.furniture]', '[...H.walls,...H.furniture,...blockers(g)]')
+s=s.replace('return objects.filter(q=>valid(g,q))','return list(g).filter(q=>valid(g,q))')
+s=s.replace("q=objects.find(q=>q.id===s?.interaction339?.id);return q&&valid(g,q)?q:null;", "q=list(g).find(q=>q.id===s?.interaction339?.id);return q&&(s.seat339&&q.kind==='sofa'||valid(g,q))&&(!q.hero||q.hero===s.interaction339.hero)?q:null;")
+s=s.replace("function close(g){if(g.homeNav338)delete g.homeNav338.interaction339;g.player.walk=0;}", "function close(g){const s=g.homeNav338;if(s?.seat339){if(s.seat339.phase==='approach')delete s.seat339;else{s.seat339.phase='rising';s.seat339.close=true;return;}}if(s)delete s.interaction339;g.player.walk=0;}")
+s=s.replace("{id:q.id,message:''};", "{id:q.id,hero:q.hero||null,message:'',lines:q.kind==='talk'?B.story(g,q.hero):[]};")
+s=s.replace("const rows=[];if(q.kind==='phone')", "const rows=[];if(q.kind==='sofa')rows.push({id:g.homeNav338.seat339?'stand':'sit',label:g.homeNav338.seat339?'Stand up':'Sit down',disabled:!!g.homeNav338.seat339&&g.homeNav338.seat339.phase!=='seated'},{id:'phone:messages',label:'Messages'},{id:'phone:pulse',label:'Prime City Pulse'});if(q.kind==='phone')")
+s=s.replace("rows.push({id:'close',label:'Return to exploration'});return rows;", "rows.push({id:'close',label:'Return to exploration'});return rows;")
+s=s.replace("if(id.startsWith('phone:'))", "if(id==='sit'){g.homeNav338.seat339={phase:'approach',progress:0};return true;}if(id==='stand'){g.homeNav338.seat339.phase='rising';return true;}if(id.startsWith('phone:'))")
+s=s.replace("lines:q.kind==='food'?", "lines:q.kind==='talk'?g.homeNav338.interaction339.lines:q.kind==='sofa'?[g.homeNav338.seat339?.phase==='seated'?'Resting on the sofa. No automatic resource recovery.':'Sit, read messages, or catch up on city reports.']:q.kind==='food'?")
+s=s.replace("return objects.includes(q)?open(g,q):oldInteract(g);", "return list(g).includes(q)||q?.kind==='talk'?open(g,q):oldInteract(g);") # list static objects same identities; talk dynamic handled
+start=s.index('H.step=function(g,dt,input)')
+end=s.index('\nN.HomeObjects339',start)
+s=s[:start]+'''H.step=function(g,dt,input){if(!g.homeNav338)return oldStep(g,dt,input);dt=N.clamp(dt,0,.05);N.PromptDrop325.advance(g,dt);guest(g);const s=g.homeNav338,p=g.player,seat=s.seat339;if(seat){if(seat.phase==='approach'){const dx=900-p.x,dy=845-p.y;if(Math.hypot(dx,dy)>2)return oldStep(g,dt,{left:dx< -1,right:dx>1,up:dy< -1,down:dy>1});seat.phase='lowering';p.dir=1;}if(seat.phase==='lowering'){seat.progress=Math.min(1,seat.progress+dt/.6);if(seat.progress===1)seat.phase='seated';}else if(seat.phase==='rising')seat.progress=Math.max(0,seat.progress-dt/.6);p.prevX=p.x;p.prevY=p.y;p.walk=0;s.elapsed+=dt;const u=seat.progress;p.y=845-20*u*u*(3-2*u);if(seat.phase==='rising'&&u===0){delete s.seat339;if(seat.close)delete s.interaction339;}return true;}if(s.interaction339){if(!current(g))close(g);else{p.walk=0;return true;}}return oldStep(g,dt,input);};
+''' +s[end:]
+s=s.replace('{objects,valid,lineClear,near,current,open,close,actions,act,view}', '{objects,guest,list,blockers,valid,lineClear,near,current,open,close,actions,act,view}')
+open(p,'w').write(s)
+p='dist/home338.js';s=open(p).read().replace("id:'lounge-sofa-left',x:820,y:775,w:190,h:78", "id:'lounge-sofa-left',x:820,y:775,w:190,h:48").replace('[...walls,...furniture].find', '[...walls,...furniture,...(N.HomeObjects339?.blockers(g)||[])].find');open(p,'w').write(s)
+p='dist/items319.js';s=open(p).read();a='return g.playing&&!g.practice278&&!g.transition&&!g.levelClear&&!g.finScene';b='return g.playing&&!g.practice278&&!g.transition&&(!g.levelClear||N.Home327?.visiting(g))&&!g.finScene';assert a in s;s=s.replace(a,b);open(p,'w').write(s)

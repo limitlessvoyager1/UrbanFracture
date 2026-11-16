@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "base/0",
+    "path": "assets/nightshade252/walk-0.webp",
+    "rect": [
+      0,
+      0,
+      244,
+      413
+    ],
+    "group": 0,
+    "cell": 0,
+    "w": 244,
+    "h": 413
+  },
+  {
+    "id": "base/1",
+    "path": "assets/nightshade252/walk-1.webp",
+    "rect": [
+      0,
+      0,
+      219,
+      413
+    ],
+    "group": 0,
+    "cell": 1,
+    "w": 219,
+    "h": 413
+  },
+  {
+    "id": "base/2",
+    "path": "assets/nightshade252/walk-2.webp",
+    "rect": [
+      0,
+      0,
+      168,
+      413
+    ],
+    "group": 0,
+    "cell": 2,
+    "w": 168,
+    "h": 413
+  },
+  {
+    "id": "base/3",
+    "path": "assets/nightshade252/walk-3.webp",
+    "rect": [
+      0,
+      0,
+      277,
+      413
+    ],
+    "group": 0,
+    "cell": 3,
+    "w": 277,
+    "h": 413
+  },
+  {
+    "id": "base/4",
+    "path": "assets/nightshade252/walk-4.webp",
+    "rect": [
+      0,
+      0,
+      280,
+      414
+    ],
+    "group": 0,
+    "cell": 4,
+    "w": 280,
+    "h": 414
+  },
+  {
+    "id": "base/5",
+    "path": "assets/nightshade252/walk-5.webp",
+    "rect": [
+      0,
+      0,
+      196,
+      416
+    ],
+    "group": 0,
+    "cell": 5,
+    "w": 196,
+    "h": 416
+  },
+  {
+    "id": "base/6",
+    "path": "assets/nightshade252/walk-6.webp",
+    "rect": [
+      0,
+      0,
+      157,
+      415
+    ],
+    "group": 0,
+    "cell": 6,
+    "w": 157,
+    "h": 415
+  },
+  {
+    "id": "base/7",
+    "path": "assets/nightshade252/walk-7.webp",
+    "rect": [
+      0,
+      0,
+      278,
+      414
+    ],
+    "group": 0,
+    "cell": 7,
+    "w": 278,
+    "h": 414
+  },
+  {
+    "id": "base/8",
+    "path": "assets/nightshade252/run-0.webp",
+    "rect": [
+      0,
+      0,
+      288,
+      412
+    ],
+    "group": 0,
+    "cell": 8,
+    "w": 288,
+    "h": 412
+  },
+  {
+    "id": "base/9",
+    "path": "assets/nightshade252/run-1.webp",
+    "rect": [
+      0,
+      0,
+      198,
+      412
+    ],
+    "group": 0,
+    "cell": 9,
+    "w": 198,
+    "h": 412
+  },
+  {
+    "id": "base/10",
+    "path": "assets/nightshade252/run-2.webp",
+    "rect": [
+      0,
+      0,
+      249,
+      411
+    ],
+    "group": 0,
+    "cell": 10,
+    "w": 249,
+    "h": 411
+  },
+  {
+    "id": "base/11",
+    "path": "assets/nightshade252/run-3.webp",
+    "rect": [
+      0,
+      0,
+      330,
+      411
+    ],
+    "group": 0,
+    "cell": 11,
+    "w": 330,
+    "h": 411
+  },
+  {
+    "id": "base/12",
+    "path": "assets/nightshade252/run-4.webp",
+    "rect": [
+      0,
+      0,
+      327,
+      410
+    ],
+    "group": 0,
+    "cell": 12,
+    "w": 327,
+    "h": 410
+  },
+  {
+    "id": "base/13",
+    "path": "assets/nightshade252/run-5.webp",
+    "rect": [
+      0,
+      0,
+      211,
+      411
+    ],
+    "group": 0,
+    "cell": 13,
+    "w": 211,
+    "h": 411
+  },
+  {
+    "id": "base/14",
+    "path": "assets/nightshade252/run-6.webp",
+    "rect": [
+      0,
+      0,
+      220,
+      410
+    ],
+    "group": 0,
+    "cell": 14,
+    "w": 220,
+    "h": 410
+  },
+  {
+    "id": "base/15",
+    "path": "assets/nightshade252/run-7.webp",
+    "rect": [
+      0,
+      0,
+      344,
+      408
+    ],
+    "group": 0,
+    "cell": 15,
+    "w": 344,
+    "h": 408
+  },
+  {
+    "id": "base/16",
+    "path": "assets/nightshade252/foundation-0.webp",
+    "rect": [
+      0,
+      0,
+      130,
+      335
+    ],
+    "group": 0,
+    "cell": 16,
+    "w": 130,
+    "h": 335
+  },
+  {
+    "id": "base/17",
+    "path": "assets/nightshade252/foundation-1.webp",
+    "rect": [
+      0,
+      0,
+      173,
+      313
+    ],
+    "group": 0,
+    "cell": 17,
+    "w": 173,
+    "h": 313
+  },
+  {
+    "id": "base/18",
+    "path": "assets/nightshade252/foundation-2.webp",
+    "rect": [
+      0,
+      0,
+      266,
+      286
+    ],
+    "group": 0,
+    "cell": 18,
+    "w": 266,
+    "h": 286
+  },
+  {
+    "id": "base/19",
+    "path": "assets/nightshade252/foundation-3.webp",
+    "rect": [
+      0,
+      0,
+      374,
+      72
+    ],
+    "group": 0,
+    "cell": 19,
+    "w": 374,
+    "h": 72
+  },
+  {
+    "id": "base/20",
+    "path": "assets/nightshade252/foundation-4.webp",
+    "rect": [
+      0,
+      0,
+      329,
+      173
+    ],
+    "group": 0,
+    "cell": 20,
+    "w": 329,
+    "h": 173
+  },
+  {
+    "id": "base/21",
+    "path": "assets/nightshade252/foundation-5.webp",
+    "rect": [
+      0,
+      0,
+      208,
+      232
+    ],
+    "group": 0,
+    "cell": 21,
+    "w": 208,
+    "h": 232
+  },
+  {
+    "id": "base/22",
+    "path": "assets/nightshade252/foundation-6.webp",
+    "rect": [
+      0,
+      0,
+      171,
+      249
+    ],
+    "group": 0,
+    "cell": 22,
+    "w": 171,
+    "h": 249
+  },
+  {
+    "id": "base/23",
+    "path": "assets/nightshade252/foundation-7.webp",
+    "rect": [
+      0,
+      0,
+      178,
+      322
+    ],
+    "group": 0,
+    "cell": 23,
+    "w": 178,
+    "h": 322
+  },
+  {
+    "id": "base/24",
+    "path": "assets/nightshade252/foundation-8.webp",
+    "rect": [
+      0,
+      0,
+      167,
+      265
+    ],
+    "group": 0,
+    "cell": 24,
+    "w": 167,
+    "h": 265
+  },
+  {
+    "id": "base/25",
+    "path": "assets/nightshade252/foundation-9.webp",
+    "rect": [
+      0,
+      0,
+      204,
+      331
+    ],
+    "group": 0,
+    "cell": 25,
+    "w": 204,
+    "h": 331
+  },
+  {
+    "id": "base/26",
+    "path": "assets/nightshade252/foundation-10.webp",
+    "rect": [
+      0,
+      0,
+      170,
+      292
+    ],
+    "group": 0,
+    "cell": 26,
+    "w": 170,
+    "h": 292
+  },
+  {
+    "id": "base/27",
+    "path": "assets/nightshade252/foundation-11.webp",
+    "rect": [
+      0,
+      0,
+      152,
+      344
+    ],
+    "group": 0,
+    "cell": 27,
+    "w": 152,
+    "h": 344
+  },
+  {
+    "id": "gun/0",
+    "path": "assets/nightshade255/gun-0.webp",
+    "rect": [
+      0,
+      0,
+      177,
+      415
+    ],
+    "group": 0,
+    "cell": 28,
+    "w": 177,
+    "h": 415
+  },
+  {
+    "id": "gun/1",
+    "path": "assets/nightshade255/gun-1.webp",
+    "rect": [
+      0,
+      0,
+      182,
+      416
+    ],
+    "group": 0,
+    "cell": 29,
+    "w": 182,
+    "h": 416
+  },
+  {
+    "id": "gun/2",
+    "path": "assets/nightshade255/gun-2.webp",
+    "rect": [
+      0,
+      0,
+      174,
+      415
+    ],
+    "group": 0,
+    "cell": 30,
+    "w": 174,
+    "h": 415
+  },
+  {
+    "id": "gun/3",
+    "path": "assets/nightshade255/gun-3.webp",
+    "rect": [
+      0,
+      0,
+      214,
+      416
+    ],
+    "group": 0,
+    "cell": 31,
+    "w": 214,
+    "h": 416
+  },
+  {
+    "id": "gun/4",
+    "path": "assets/nightshade255/gun-4.webp",
+    "rect": [
+      0,
+      0,
+      206,
+      415
+    ],
+    "group": 1,
+    "cell": 0,
+    "w": 206,
+    "h": 415
+  },
+  {
+    "id": "gun/5",
+    "path": "assets/nightshade255/gun-5.webp",
+    "rect": [
+      0,
+      0,
+      217,
+      416
+    ],
+    "group": 1,
+    "cell": 1,
+    "w": 217,
+    "h": 416
+  },
+  {
+    "id": "gun/6",
+    "path": "assets/nightshade255/gun-6.webp",
+    "rect": [
+      0,
+      0,
+      185,
+      416
+    ],
+    "group": 1,
+    "cell": 2,
+    "w": 185,
+    "h": 416
+  },
+  {
+    "id": "legacy-main/0",
+    "path": "assets/nightshade257/main-0.webp",
+    "rect": [
+      0,
+      0,
+      204,
+      251
+    ],
+    "group": 1,
+    "cell": 3,
+    "w": 204,
+    "h": 251
+  },
+  {
+    "id": "legacy-main/1",
+    "path": "assets/nightshade257/main-1.webp",
+    "rect": [
+      0,
+      0,
+      198,
+      251
+    ],
+    "group": 1,
+    "cell": 4,
+    "w": 198,
+    "h": 251
+  },
+  {
+    "id": "legacy-main/2",
+    "path": "assets/nightshade257/main-2.webp",
+    "rect": [
+      0,
+      0,
+      239,
+      251
+    ],
+    "group": 1,
+    "cell": 5,
+    "w": 239,
+    "h": 251
+  },
+  {
+    "id": "legacy-main/3",
+    "path": "assets/nightshade257/main-3.webp",
+    "rect": [
+      0,
+      0,
+      239,
+      247
+    ],
+    "group": 1,
+    "cell": 6,
+    "w": 239,
+    "h": 247
+  },
+  {
+    "id": "legacy-main/4",
+    "path": "assets/nightshade257/main-4.webp",
+    "rect": [
+      0,
+      0,
+      272,
+      252
+    ],
+    "group": 1,
+    "cell": 7,
+    "w": 272,
+    "h": 252
+  },
+  {
+    "id": "legacy-main/5",
+    "path": "assets/nightshade257/main-5.webp",
+    "rect": [
+      0,
+      0,
+      178,
+      253
+    ],
+    "group": 1,
+    "cell": 8,
+    "w": 178,
+    "h": 253
+  },
+  {
+    "id": "legacy-main/6",
+    "path": "assets/nightshade257/main-6.webp",
+    "rect": [
+      0,
+      0,
+      182,
+      252
+    ],
+    "group": 1,
+    "cell": 9,
+    "w": 182,
+    "h": 252
+  },
+  {
+    "id": "legacy-main/7",
+    "path": "assets/nightshade257/main-7.webp",
+    "rect": [
+      0,
+      0,
+      138,
+      230
+    ],
+    "group": 1,
+    "cell": 10,
+    "w": 138,
+    "h": 230
+  },
+  {
+    "id": "legacy-main/8",
+    "path": "assets/nightshade257/main-8.webp",
+    "rect": [
+      0,
+      0,
+      268,
+      173
+    ],
+    "group": 1,
+    "cell": 11,
+    "w": 268,
+    "h": 173
+  },
+  {
+    "id": "legacy-main/9",
+    "path": "assets/nightshade257/main-9.webp",
+    "rect": [
+      0,
+      0,
+      205,
+      203
+    ],
+    "group": 1,
+    "cell": 12,
+    "w": 205,
+    "h": 203
+  },
+  {
+    "id": "legacy-main/10",
+    "path": "assets/nightshade257/main-10.webp",
+    "rect": [
+      0,
+      0,
+      222,
+      211
+    ],
+    "group": 1,
+    "cell": 13,
+    "w": 222,
+    "h": 211
+  },
+  {
+    "id": "legacy-main/11",
+    "path": "assets/nightshade257/main-11.webp",
+    "rect": [
+      0,
+      0,
+      252,
+      241
+    ],
+    "group": 1,
+    "cell": 14,
+    "w": 252,
+    "h": 241
+  },
+  {
+    "id": "legacy-main/12",
+    "path": "assets/nightshade257/main-12.webp",
+    "rect": [
+      0,
+      0,
+      172,
+      255
+    ],
+    "group": 1,
+    "cell": 15,
+    "w": 172,
+    "h": 255
+  },
+  {
+    "id": "legacy-main/13",
+    "path": "assets/nightshade257/main-13.webp",
+    "rect": [
+      0,
+      0,
+      250,
+      233
+    ],
+    "group": 1,
+    "cell": 16,
+    "w": 250,
+    "h": 233
+  },
+  {
+    "id": "legacy-grab/0",
+    "path": "assets/nightshade257/grab-0.webp",
+    "rect": [
+      0,
+      0,
+      264,
+      415
+    ],
+    "group": 1,
+    "cell": 17,
+    "w": 264,
+    "h": 415
+  },
+  {
+    "id": "legacy-grab/1",
+    "path": "assets/nightshade257/grab-1.webp",
+    "rect": [
+      0,
+      0,
+      258,
+      414
+    ],
+    "group": 1,
+    "cell": 18,
+    "w": 258,
+    "h": 414
+  },
+  {
+    "id": "legacy-grab/2",
+    "path": "assets/nightshade257/grab-2.webp",
+    "rect": [
+      0,
+      0,
+      244,
+      415
+    ],
+    "group": 1,
+    "cell": 19,
+    "w": 244,
+    "h": 415
+  },
+  {
+    "id": "legacy-grab/3",
+    "path": "assets/nightshade257/grab-3.webp",
+    "rect": [
+      0,
+      0,
+      243,
+      415
+    ],
+    "group": 1,
+    "cell": 20,
+    "w": 243,
+    "h": 415
+  },
+  {
+    "id": "legacy-grab/4",
+    "path": "assets/nightshade257/grab-4.webp",
+    "rect": [
+      0,
+      0,
+      239,
+      415
+    ],
+    "group": 1,
+    "cell": 21,
+    "w": 239,
+    "h": 415
+  },
+  {
+    "id": "legacy-grab/5",
+    "path": "assets/repair262/taser-5.webp",
+    "rect": [
+      0,
+      0,
+      203,
+      331
+    ],
+    "group": 1,
+    "cell": 22,
+    "w": 203,
+    "h": 331
+  },
+  {
+    "id": "legacy-grab/6",
+    "path": "assets/nightshade257/grab-6.webp",
+    "rect": [
+      0,
+      0,
+      284,
+      415
+    ],
+    "group": 1,
+    "cell": 23,
+    "w": 284,
+    "h": 415
+  },
+  {
+    "id": "legacy-grab/7",
+    "path": "assets/nightshade257/grab-7.webp",
+    "rect": [
+      0,
+      0,
+      190,
+      415
+    ],
+    "group": 1,
+    "cell": 24,
+    "w": 190,
+    "h": 415
+  },
+  {
+    "id": "legacy-grab/8",
+    "path": "assets/repair262/taser-8.webp",
+    "rect": [
+      0,
+      0,
+      217,
+      332
+    ],
+    "group": 1,
+    "cell": 25,
+    "w": 217,
+    "h": 332
+  },
+  {
+    "id": "legacy-pen/0",
+    "path": "assets/nightshade257/pen-0.webp",
+    "rect": [
+      0,
+      0,
+      156,
+      433
+    ],
+    "group": 1,
+    "cell": 26,
+    "w": 156,
+    "h": 433
+  },
+  {
+    "id": "legacy-pen/1",
+    "path": "assets/nightshade257/pen-1.webp",
+    "rect": [
+      0,
+      0,
+      271,
+      434
+    ],
+    "group": 1,
+    "cell": 27,
+    "w": 271,
+    "h": 434
+  },
+  {
+    "id": "legacy-grabs258/0",
+    "path": "assets/nightshade258/grab-0.webp",
+    "rect": [
+      0,
+      0,
+      196,
+      332
+    ],
+    "group": 1,
+    "cell": 28,
+    "w": 196,
+    "h": 332
+  },
+  {
+    "id": "legacy-grabs258/1",
+    "path": "assets/nightshade258/grab-1.webp",
+    "rect": [
+      0,
+      0,
+      318,
+      264
+    ],
+    "group": 1,
+    "cell": 29,
+    "w": 318,
+    "h": 264
+  },
+  {
+    "id": "legacy-grabs258/2",
+    "path": "assets/nightshade258/grab-2.webp",
+    "rect": [
+      0,
+      0,
+      262,
+      328
+    ],
+    "group": 1,
+    "cell": 30,
+    "w": 262,
+    "h": 328
+  },
+  {
+    "id": "legacy-grabs258/3",
+    "path": "assets/nightshade258/grab-3.webp",
+    "rect": [
+      0,
+      0,
+      282,
+      275
+    ],
+    "group": 1,
+    "cell": 31,
+    "w": 282,
+    "h": 275
+  },
+  {
+    "id": "legacy-grabs258/4",
+    "path": "assets/nightshade258/grab-4.webp",
+    "rect": [
+      0,
+      0,
+      246,
+      279
+    ],
+    "group": 2,
+    "cell": 0,
+    "w": 246,
+    "h": 279
+  },
+  {
+    "id": "legacy-grabs258/5",
+    "path": "assets/nightshade258/grab-5.webp",
+    "rect": [
+      0,
+      0,
+      245,
+      278
+    ],
+    "group": 2,
+    "cell": 1,
+    "w": 245,
+    "h": 278
+  },
+  {
+    "id": "legacy-grabs258/6",
+    "path": "assets/nightshade258/grab-6.webp",
+    "rect": [
+      0,
+      0,
+      261,
+      246
+    ],
+    "group": 2,
+    "cell": 2,
+    "w": 261,
+    "h": 246
+  },
+  {
+    "id": "legacy-grabs258/7",
+    "path": "assets/nightshade258/grab-7.webp",
+    "rect": [
+      0,
+      0,
+      257,
+      244
+    ],
+    "group": 2,
+    "cell": 3,
+    "w": 257,
+    "h": 244
+  },
+  {
+    "id": "legacy-grabs258/10",
+    "path": "assets/nightshade258/grab-10.webp",
+    "rect": [
+      0,
+      0,
+      256,
+      191
+    ],
+    "group": 2,
+    "cell": 4,
+    "w": 256,
+    "h": 191
+  },
+  {
+    "id": "legacy-grabs258/11",
+    "path": "assets/nightshade258/grab-11.webp",
+    "rect": [
+      0,
+      0,
+      257,
+      216
+    ],
+    "group": 2,
+    "cell": 5,
+    "w": 257,
+    "h": 216
+  },
+  {
+    "id": "legacy-grabs258/12",
+    "path": "assets/nightshade258/grab-12.webp",
+    "rect": [
+      0,
+      0,
+      254,
+      264
+    ],
+    "group": 2,
+    "cell": 6,
+    "w": 254,
+    "h": 264
+  },
+  {
+    "id": "legacy-grabs258/13",
+    "path": "assets/nightshade258/grab-13.webp",
+    "rect": [
+      0,
+      0,
+      256,
+      226
+    ],
+    "group": 2,
+    "cell": 7,
+    "w": 256,
+    "h": 226
+  },
+  {
+    "id": "legacy-throw329/0",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      0,
+      0,
+      110,
+      203
+    ],
+    "group": 2,
+    "cell": 8,
+    "w": 110,
+    "h": 203
+  },
+  {
+    "id": "legacy-throw329/1",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      170,
+      0,
+      155,
+      183
+    ],
+    "group": 2,
+    "cell": 9,
+    "w": 155,
+    "h": 183
+  },
+  {
+    "id": "legacy-throw329/2",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      340,
+      0,
+      165,
+      193
+    ],
+    "group": 2,
+    "cell": 10,
+    "w": 165,
+    "h": 193
+  },
+  {
+    "id": "legacy-throw329/3",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      510,
+      0,
+      139,
+      148
+    ],
+    "group": 2,
+    "cell": 11,
+    "w": 139,
+    "h": 148
+  },
+  {
+    "id": "legacy-throw329/4",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      0,
+      205,
+      146,
+      149
+    ],
+    "group": 2,
+    "cell": 12,
+    "w": 146,
+    "h": 149
+  },
+  {
+    "id": "legacy-throw329/5",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      170,
+      205,
+      145,
+      131
+    ],
+    "group": 2,
+    "cell": 13,
+    "w": 145,
+    "h": 131
+  },
+  {
+    "id": "legacy-throw329/6",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      340,
+      205,
+      128,
+      184
+    ],
+    "group": 2,
+    "cell": 14,
+    "w": 128,
+    "h": 184
+  },
+  {
+    "id": "legacy-throw329/7",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      510,
+      205,
+      141,
+      183
+    ],
+    "group": 2,
+    "cell": 15,
+    "w": 141,
+    "h": 183
+  },
+  {
+    "id": "legacy-throw329/8",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      0,
+      410,
+      168,
+      195
+    ],
+    "group": 2,
+    "cell": 16,
+    "w": 168,
+    "h": 195
+  },
+  {
+    "id": "legacy-throw329/9",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      170,
+      410,
+      170,
+      198
+    ],
+    "group": 2,
+    "cell": 17,
+    "w": 170,
+    "h": 198
+  },
+  {
+    "id": "legacy-throw329/10",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      340,
+      410,
+      155,
+      197
+    ],
+    "group": 2,
+    "cell": 18,
+    "w": 155,
+    "h": 197
+  },
+  {
+    "id": "legacy-throw329/11",
+    "path": "assets/nightshade329/throw.webp",
+    "rect": [
+      510,
+      410,
+      126,
+      205
+    ],
+    "group": 2,
+    "cell": 19,
+    "w": 126,
+    "h": 205
+  },
+  {
+    "id": "legacy-special263/0",
+    "path": "assets/nightshade263/special-0.webp",
+    "rect": [
+      0,
+      0,
+      203,
+      365
+    ],
+    "group": 2,
+    "cell": 20,
+    "w": 203,
+    "h": 365
+  },
+  {
+    "id": "legacy-special263/4",
+    "path": "assets/nightshade263/special-4.webp",
+    "rect": [
+      0,
+      0,
+      237,
+      278
+    ],
+    "group": 2,
+    "cell": 21,
+    "w": 237,
+    "h": 278
+  },
+  {
+    "id": "legacy-special263/5",
+    "path": "assets/nightshade263/special-5.webp",
+    "rect": [
+      0,
+      0,
+      202,
+      383
+    ],
+    "group": 2,
+    "cell": 22,
+    "w": 202,
+    "h": 383
+  },
+  {
+    "id": "legacy-special263/6",
+    "path": "assets/nightshade263/special-6.webp",
+    "rect": [
+      0,
+      0,
+      251,
+      379
+    ],
+    "group": 2,
+    "cell": 23,
+    "w": 251,
+    "h": 379
+  },
+  {
+    "id": "legacy-special263/7",
+    "path": "assets/nightshade263/special-7.webp",
+    "rect": [
+      0,
+      0,
+      252,
+      373
+    ],
+    "group": 2,
+    "cell": 24,
+    "w": 252,
+    "h": 373
+  },
+  {
+    "id": "legacy-special263/8",
+    "path": "assets/nightshade263/special-8.webp",
+    "rect": [
+      0,
+      0,
+      278,
+      346
+    ],
+    "group": 2,
+    "cell": 25,
+    "w": 278,
+    "h": 346
+  },
+  {
+    "id": "legacy-special263/9",
+    "path": "assets/nightshade263/special-9.webp",
+    "rect": [
+      0,
+      0,
+      256,
+      383
+    ],
+    "group": 2,
+    "cell": 26,
+    "w": 256,
+    "h": 383
+  },
+  {
+    "id": "legacy-special263/10",
+    "path": "assets/nightshade263/special-10.webp",
+    "rect": [
+      0,
+      0,
+      241,
+      226
+    ],
+    "group": 2,
+    "cell": 27,
+    "w": 241,
+    "h": 226
+  },
+  {
+    "id": "legacy-special263/11",
+    "path": "assets/nightshade263/special-11.webp",
+    "rect": [
+      0,
+      0,
+      176,
+      122
+    ],
+    "group": 2,
+    "cell": 28,
+    "w": 176,
+    "h": 122
+  },
+  {
+    "id": "legacy-counter264/2",
+    "path": "assets/nightshade264/counter-2.webp",
+    "rect": [
+      0,
+      0,
+      260,
+      421
+    ],
+    "group": 2,
+    "cell": 29,
+    "w": 260,
+    "h": 421
+  },
+  {
+    "id": "legacy-counter264/4",
+    "path": "assets/nightshade264/counter-4.webp",
+    "rect": [
+      0,
+      0,
+      314,
+      303
+    ],
+    "group": 2,
+    "cell": 30,
+    "w": 314,
+    "h": 303
+  },
+  {
+    "id": "legacy-counter264/6",
+    "path": "assets/nightshade264/counter-6.webp",
+    "rect": [
+      0,
+      0,
+      337,
+      344
+    ],
+    "group": 2,
+    "cell": 31,
+    "w": 337,
+    "h": 344
+  },
+  {
+    "id": "weapon/0",
+    "path": "assets/nightshade276/weapon-0.webp",
+    "rect": [
+      0,
+      0,
+      172,
+      197
+    ],
+    "group": 3,
+    "cell": 0,
+    "w": 172,
+    "h": 197
+  },
+  {
+    "id": "weapon/1",
+    "path": "assets/nightshade276/weapon-1.webp",
+    "rect": [
+      0,
+      0,
+      154,
+      281
+    ],
+    "group": 3,
+    "cell": 1,
+    "w": 154,
+    "h": 281
+  },
+  {
+    "id": "weapon/2",
+    "path": "assets/nightshade276/weapon-2.webp",
+    "rect": [
+      0,
+      0,
+      160,
+      279
+    ],
+    "group": 3,
+    "cell": 2,
+    "w": 160,
+    "h": 279
+  },
+  {
+    "id": "weapon/3",
+    "path": "assets/nightshade276/weapon-3.webp",
+    "rect": [
+      0,
+      0,
+      181,
+      277
+    ],
+    "group": 3,
+    "cell": 3,
+    "w": 181,
+    "h": 277
+  },
+  {
+    "id": "weapon/4",
+    "path": "assets/nightshade276/weapon-4.webp",
+    "rect": [
+      0,
+      0,
+      153,
+      285
+    ],
+    "group": 3,
+    "cell": 4,
+    "w": 153,
+    "h": 285
+  },
+  {
+    "id": "weapon/5",
+    "path": "assets/nightshade276/weapon-5.webp",
+    "rect": [
+      0,
+      0,
+      162,
+      281
+    ],
+    "group": 3,
+    "cell": 5,
+    "w": 162,
+    "h": 281
+  },
+  {
+    "id": "weapon/6",
+    "path": "assets/nightshade276/weapon-6.webp",
+    "rect": [
+      0,
+      0,
+      212,
+      275
+    ],
+    "group": 3,
+    "cell": 6,
+    "w": 212,
+    "h": 275
+  },
+  {
+    "id": "weapon/7",
+    "path": "assets/nightshade276/weapon-7.webp",
+    "rect": [
+      0,
+      0,
+      251,
+      276
+    ],
+    "group": 3,
+    "cell": 7,
+    "w": 251,
+    "h": 276
+  },
+  {
+    "id": "hero-melee/0",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      0,
+      0,
+      186,
+      258
+    ],
+    "group": 3,
+    "cell": 8,
+    "w": 186,
+    "h": 258
+  },
+  {
+    "id": "hero-melee/1",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      280,
+      0,
+      155,
+      253
+    ],
+    "group": 3,
+    "cell": 9,
+    "w": 155,
+    "h": 253
+  },
+  {
+    "id": "hero-melee/2",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      560,
+      0,
+      193,
+      251
+    ],
+    "group": 3,
+    "cell": 10,
+    "w": 193,
+    "h": 251
+  },
+  {
+    "id": "hero-melee/3",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      840,
+      0,
+      277,
+      246
+    ],
+    "group": 3,
+    "cell": 11,
+    "w": 277,
+    "h": 246
+  },
+  {
+    "id": "hero-melee/4",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1120,
+      0,
+      258,
+      245
+    ],
+    "group": 3,
+    "cell": 12,
+    "w": 258,
+    "h": 245
+  },
+  {
+    "id": "hero-melee/5",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1400,
+      0,
+      181,
+      250
+    ],
+    "group": 3,
+    "cell": 13,
+    "w": 181,
+    "h": 250
+  },
+  {
+    "id": "hero-melee/6",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      0,
+      264,
+      183,
+      250
+    ],
+    "group": 3,
+    "cell": 14,
+    "w": 183,
+    "h": 250
+  },
+  {
+    "id": "hero-melee/7",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      280,
+      264,
+      194,
+      249
+    ],
+    "group": 3,
+    "cell": 15,
+    "w": 194,
+    "h": 249
+  },
+  {
+    "id": "hero-melee/8",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      560,
+      264,
+      198,
+      250
+    ],
+    "group": 3,
+    "cell": 16,
+    "w": 198,
+    "h": 250
+  },
+  {
+    "id": "hero-melee/9",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      840,
+      264,
+      246,
+      240
+    ],
+    "group": 3,
+    "cell": 17,
+    "w": 246,
+    "h": 240
+  },
+  {
+    "id": "hero-melee/10",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1120,
+      264,
+      219,
+      235
+    ],
+    "group": 3,
+    "cell": 18,
+    "w": 219,
+    "h": 235
+  },
+  {
+    "id": "hero-melee/11",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1400,
+      264,
+      188,
+      250
+    ],
+    "group": 3,
+    "cell": 19,
+    "w": 188,
+    "h": 250
+  },
+  {
+    "id": "hero-melee/12",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      0,
+      528,
+      185,
+      248
+    ],
+    "group": 3,
+    "cell": 20,
+    "w": 185,
+    "h": 248
+  },
+  {
+    "id": "hero-melee/13",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      280,
+      528,
+      189,
+      249
+    ],
+    "group": 3,
+    "cell": 21,
+    "w": 189,
+    "h": 249
+  },
+  {
+    "id": "hero-melee/14",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      560,
+      528,
+      211,
+      244
+    ],
+    "group": 3,
+    "cell": 22,
+    "w": 211,
+    "h": 244
+  },
+  {
+    "id": "hero-melee/15",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      840,
+      528,
+      204,
+      238
+    ],
+    "group": 3,
+    "cell": 23,
+    "w": 204,
+    "h": 238
+  },
+  {
+    "id": "hero-melee/16",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1120,
+      528,
+      173,
+      236
+    ],
+    "group": 3,
+    "cell": 24,
+    "w": 173,
+    "h": 236
+  },
+  {
+    "id": "hero-melee/17",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1400,
+      528,
+      164,
+      207
+    ],
+    "group": 3,
+    "cell": 25,
+    "w": 164,
+    "h": 207
+  },
+  {
+    "id": "hero-melee/18",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      0,
+      792,
+      164,
+      206
+    ],
+    "group": 3,
+    "cell": 26,
+    "w": 164,
+    "h": 206
+  },
+  {
+    "id": "hero-melee/19",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      280,
+      792,
+      168,
+      173
+    ],
+    "group": 3,
+    "cell": 27,
+    "w": 168,
+    "h": 173
+  },
+  {
+    "id": "hero-melee/20",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      560,
+      792,
+      239,
+      179
+    ],
+    "group": 3,
+    "cell": 28,
+    "w": 239,
+    "h": 179
+  },
+  {
+    "id": "hero-melee/21",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      840,
+      792,
+      219,
+      208
+    ],
+    "group": 3,
+    "cell": 29,
+    "w": 219,
+    "h": 208
+  },
+  {
+    "id": "hero-melee/22",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1120,
+      792,
+      191,
+      177
+    ],
+    "group": 3,
+    "cell": 30,
+    "w": 191,
+    "h": 177
+  },
+  {
+    "id": "hero-melee/23",
+    "path": "assets/nightshade346/hero-melee.webp",
+    "rect": [
+      1400,
+      792,
+      183,
+      204
+    ],
+    "group": 3,
+    "cell": 31,
+    "w": 183,
+    "h": 204
+  },
+  {
+    "id": "hero-command/0",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      0,
+      0,
+      151,
+      254
+    ],
+    "group": 4,
+    "cell": 0,
+    "w": 151,
+    "h": 254
+  },
+  {
+    "id": "hero-command/1",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      152,
+      0,
+      151,
+      254
+    ],
+    "group": 4,
+    "cell": 1,
+    "w": 151,
+    "h": 254
+  },
+  {
+    "id": "hero-command/2",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      304,
+      0,
+      151,
+      254
+    ],
+    "group": 4,
+    "cell": 2,
+    "w": 151,
+    "h": 254
+  },
+  {
+    "id": "hero-command/3",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      456,
+      0,
+      151,
+      254
+    ],
+    "group": 4,
+    "cell": 3,
+    "w": 151,
+    "h": 254
+  },
+  {
+    "id": "hero-command/4",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      608,
+      0,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 4,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/5",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      760,
+      0,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 5,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/6",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      0,
+      256,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 6,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/7",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      152,
+      256,
+      151,
+      252
+    ],
+    "group": 4,
+    "cell": 7,
+    "w": 151,
+    "h": 252
+  },
+  {
+    "id": "hero-command/8",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      304,
+      256,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 8,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/9",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      456,
+      256,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 9,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/10",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      608,
+      256,
+      151,
+      252
+    ],
+    "group": 4,
+    "cell": 10,
+    "w": 151,
+    "h": 252
+  },
+  {
+    "id": "hero-command/11",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      760,
+      256,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 11,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/12",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      0,
+      512,
+      151,
+      252
+    ],
+    "group": 4,
+    "cell": 12,
+    "w": 151,
+    "h": 252
+  },
+  {
+    "id": "hero-command/13",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      152,
+      512,
+      151,
+      252
+    ],
+    "group": 4,
+    "cell": 13,
+    "w": 151,
+    "h": 252
+  },
+  {
+    "id": "hero-command/14",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      304,
+      512,
+      151,
+      252
+    ],
+    "group": 4,
+    "cell": 14,
+    "w": 151,
+    "h": 252
+  },
+  {
+    "id": "hero-command/15",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      456,
+      512,
+      151,
+      252
+    ],
+    "group": 4,
+    "cell": 15,
+    "w": 151,
+    "h": 252
+  },
+  {
+    "id": "hero-command/16",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      608,
+      512,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 16,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/17",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      760,
+      512,
+      151,
+      253
+    ],
+    "group": 4,
+    "cell": 17,
+    "w": 151,
+    "h": 253
+  },
+  {
+    "id": "hero-command/18",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      0,
+      768,
+      151,
+      251
+    ],
+    "group": 4,
+    "cell": 18,
+    "w": 151,
+    "h": 251
+  },
+  {
+    "id": "hero-command/19",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      152,
+      768,
+      151,
+      251
+    ],
+    "group": 4,
+    "cell": 19,
+    "w": 151,
+    "h": 251
+  },
+  {
+    "id": "hero-command/20",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      304,
+      768,
+      151,
+      251
+    ],
+    "group": 4,
+    "cell": 20,
+    "w": 151,
+    "h": 251
+  },
+  {
+    "id": "hero-command/21",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      456,
+      768,
+      151,
+      251
+    ],
+    "group": 4,
+    "cell": 21,
+    "w": 151,
+    "h": 251
+  },
+  {
+    "id": "hero-command/22",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      608,
+      768,
+      151,
+      251
+    ],
+    "group": 4,
+    "cell": 22,
+    "w": 151,
+    "h": 251
+  },
+  {
+    "id": "hero-command/23",
+    "path": "assets/nightshade346/hero-command.webp",
+    "rect": [
+      760,
+      768,
+      151,
+      251
+    ],
+    "group": 4,
+    "cell": 23,
+    "w": 151,
+    "h": 251
+  },
+  {
+    "id": "grapple-backroll/0",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      0,
+      0,
+      229,
+      253
+    ],
+    "group": 4,
+    "cell": 24,
+    "w": 229,
+    "h": 253
+  },
+  {
+    "id": "grapple-backroll/1",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      248,
+      0,
+      185,
+      246
+    ],
+    "group": 4,
+    "cell": 25,
+    "w": 185,
+    "h": 246
+  },
+  {
+    "id": "grapple-backroll/2",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      496,
+      0,
+      153,
+      223
+    ],
+    "group": 4,
+    "cell": 26,
+    "w": 153,
+    "h": 223
+  },
+  {
+    "id": "grapple-backroll/3",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      744,
+      0,
+      151,
+      201
+    ],
+    "group": 4,
+    "cell": 27,
+    "w": 151,
+    "h": 201
+  },
+  {
+    "id": "grapple-backroll/4",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      992,
+      0,
+      211,
+      161
+    ],
+    "group": 4,
+    "cell": 28,
+    "w": 211,
+    "h": 161
+  },
+  {
+    "id": "grapple-backroll/5",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      1240,
+      0,
+      247,
+      118
+    ],
+    "group": 4,
+    "cell": 29,
+    "w": 247,
+    "h": 118
+  },
+  {
+    "id": "grapple-backroll/6",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      0,
+      256,
+      236,
+      144
+    ],
+    "group": 4,
+    "cell": 30,
+    "w": 236,
+    "h": 144
+  },
+  {
+    "id": "grapple-backroll/7",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      248,
+      256,
+      173,
+      174
+    ],
+    "group": 4,
+    "cell": 31,
+    "w": 173,
+    "h": 174
+  },
+  {
+    "id": "grapple-backroll/8",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      496,
+      256,
+      167,
+      179
+    ],
+    "group": 5,
+    "cell": 0,
+    "w": 167,
+    "h": 179
+  },
+  {
+    "id": "grapple-backroll/9",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      744,
+      256,
+      150,
+      171
+    ],
+    "group": 5,
+    "cell": 1,
+    "w": 150,
+    "h": 171
+  },
+  {
+    "id": "grapple-backroll/10",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      992,
+      256,
+      223,
+      136
+    ],
+    "group": 5,
+    "cell": 2,
+    "w": 223,
+    "h": 136
+  },
+  {
+    "id": "grapple-backroll/11",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      1240,
+      256,
+      205,
+      159
+    ],
+    "group": 5,
+    "cell": 3,
+    "w": 205,
+    "h": 159
+  },
+  {
+    "id": "grapple-backroll/12",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      0,
+      512,
+      199,
+      178
+    ],
+    "group": 5,
+    "cell": 4,
+    "w": 199,
+    "h": 178
+  },
+  {
+    "id": "grapple-backroll/13",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      248,
+      512,
+      165,
+      211
+    ],
+    "group": 5,
+    "cell": 5,
+    "w": 165,
+    "h": 211
+  },
+  {
+    "id": "grapple-backroll/14",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      496,
+      512,
+      178,
+      202
+    ],
+    "group": 5,
+    "cell": 6,
+    "w": 178,
+    "h": 202
+  },
+  {
+    "id": "grapple-backroll/15",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      744,
+      512,
+      181,
+      220
+    ],
+    "group": 5,
+    "cell": 7,
+    "w": 181,
+    "h": 220
+  },
+  {
+    "id": "grapple-backroll/16",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      992,
+      512,
+      183,
+      174
+    ],
+    "group": 5,
+    "cell": 8,
+    "w": 183,
+    "h": 174
+  },
+  {
+    "id": "grapple-backroll/17",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      1240,
+      512,
+      190,
+      157
+    ],
+    "group": 5,
+    "cell": 9,
+    "w": 190,
+    "h": 157
+  },
+  {
+    "id": "grapple-backroll/18",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      0,
+      768,
+      186,
+      186
+    ],
+    "group": 5,
+    "cell": 10,
+    "w": 186,
+    "h": 186
+  },
+  {
+    "id": "grapple-backroll/19",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      248,
+      768,
+      171,
+      200
+    ],
+    "group": 5,
+    "cell": 11,
+    "w": 171,
+    "h": 200
+  },
+  {
+    "id": "grapple-backroll/20",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      496,
+      768,
+      193,
+      199
+    ],
+    "group": 5,
+    "cell": 12,
+    "w": 193,
+    "h": 199
+  },
+  {
+    "id": "grapple-backroll/21",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      744,
+      768,
+      195,
+      231
+    ],
+    "group": 5,
+    "cell": 13,
+    "w": 195,
+    "h": 231
+  },
+  {
+    "id": "grapple-backroll/22",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      992,
+      768,
+      168,
+      255
+    ],
+    "group": 5,
+    "cell": 14,
+    "w": 168,
+    "h": 255
+  },
+  {
+    "id": "grapple-backroll/23",
+    "path": "assets/nightshade346/grapple-backroll.webp",
+    "rect": [
+      1240,
+      768,
+      190,
+      251
+    ],
+    "group": 5,
+    "cell": 15,
+    "w": 190,
+    "h": 251
+  },
+  {
+    "id": "grapple-combo/0",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      0,
+      0,
+      246,
+      248
+    ],
+    "group": 5,
+    "cell": 16,
+    "w": 246,
+    "h": 248
+  },
+  {
+    "id": "grapple-combo/1",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      248,
+      0,
+      206,
+      245
+    ],
+    "group": 5,
+    "cell": 17,
+    "w": 206,
+    "h": 245
+  },
+  {
+    "id": "grapple-combo/2",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      496,
+      0,
+      188,
+      250
+    ],
+    "group": 5,
+    "cell": 18,
+    "w": 188,
+    "h": 250
+  },
+  {
+    "id": "grapple-combo/3",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      744,
+      0,
+      171,
+      251
+    ],
+    "group": 5,
+    "cell": 19,
+    "w": 171,
+    "h": 251
+  },
+  {
+    "id": "grapple-combo/4",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      992,
+      0,
+      168,
+      247
+    ],
+    "group": 5,
+    "cell": 20,
+    "w": 168,
+    "h": 247
+  },
+  {
+    "id": "grapple-combo/5",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      1240,
+      0,
+      194,
+      244
+    ],
+    "group": 5,
+    "cell": 21,
+    "w": 194,
+    "h": 244
+  },
+  {
+    "id": "grapple-combo/6",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      0,
+      256,
+      153,
+      250
+    ],
+    "group": 5,
+    "cell": 22,
+    "w": 153,
+    "h": 250
+  },
+  {
+    "id": "grapple-combo/7",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      248,
+      256,
+      146,
+      253
+    ],
+    "group": 5,
+    "cell": 23,
+    "w": 146,
+    "h": 253
+  },
+  {
+    "id": "grapple-combo/8",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      496,
+      256,
+      170,
+      252
+    ],
+    "group": 5,
+    "cell": 24,
+    "w": 170,
+    "h": 252
+  },
+  {
+    "id": "grapple-combo/9",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      744,
+      256,
+      153,
+      252
+    ],
+    "group": 5,
+    "cell": 25,
+    "w": 153,
+    "h": 252
+  },
+  {
+    "id": "grapple-combo/10",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      992,
+      256,
+      172,
+      247
+    ],
+    "group": 5,
+    "cell": 26,
+    "w": 172,
+    "h": 247
+  },
+  {
+    "id": "grapple-combo/11",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      1240,
+      256,
+      186,
+      245
+    ],
+    "group": 5,
+    "cell": 27,
+    "w": 186,
+    "h": 245
+  },
+  {
+    "id": "grapple-combo/12",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      0,
+      512,
+      192,
+      248
+    ],
+    "group": 5,
+    "cell": 28,
+    "w": 192,
+    "h": 248
+  },
+  {
+    "id": "grapple-combo/13",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      248,
+      512,
+      211,
+      248
+    ],
+    "group": 5,
+    "cell": 29,
+    "w": 211,
+    "h": 248
+  },
+  {
+    "id": "grapple-combo/14",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      496,
+      512,
+      219,
+      249
+    ],
+    "group": 5,
+    "cell": 30,
+    "w": 219,
+    "h": 249
+  },
+  {
+    "id": "grapple-combo/15",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      744,
+      512,
+      184,
+      249
+    ],
+    "group": 5,
+    "cell": 31,
+    "w": 184,
+    "h": 249
+  },
+  {
+    "id": "grapple-combo/16",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      992,
+      512,
+      176,
+      249
+    ],
+    "group": 6,
+    "cell": 0,
+    "w": 176,
+    "h": 249
+  },
+  {
+    "id": "grapple-combo/17",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      1240,
+      512,
+      179,
+      249
+    ],
+    "group": 6,
+    "cell": 1,
+    "w": 179,
+    "h": 249
+  },
+  {
+    "id": "grapple-combo/18",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      0,
+      768,
+      186,
+      250
+    ],
+    "group": 6,
+    "cell": 2,
+    "w": 186,
+    "h": 250
+  },
+  {
+    "id": "grapple-combo/19",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      248,
+      768,
+      201,
+      249
+    ],
+    "group": 6,
+    "cell": 3,
+    "w": 201,
+    "h": 249
+  },
+  {
+    "id": "grapple-combo/20",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      496,
+      768,
+      241,
+      248
+    ],
+    "group": 6,
+    "cell": 4,
+    "w": 241,
+    "h": 248
+  },
+  {
+    "id": "grapple-combo/21",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      744,
+      768,
+      210,
+      249
+    ],
+    "group": 6,
+    "cell": 5,
+    "w": 210,
+    "h": 249
+  },
+  {
+    "id": "grapple-combo/22",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      992,
+      768,
+      180,
+      248
+    ],
+    "group": 6,
+    "cell": 6,
+    "w": 180,
+    "h": 248
+  },
+  {
+    "id": "grapple-combo/23",
+    "path": "assets/nightshade346/grapple-combo.webp",
+    "rect": [
+      1240,
+      768,
+      179,
+      247
+    ],
+    "group": 6,
+    "cell": 7,
+    "w": 179,
+    "h": 247
+  },
+  {
+    "id": "hero-sweep347/0",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      0,
+      0,
+      186,
+      255
+    ],
+    "group": 6,
+    "cell": 8,
+    "w": 186,
+    "h": 255
+  },
+  {
+    "id": "hero-sweep347/1",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      224,
+      0,
+      163,
+      245
+    ],
+    "group": 6,
+    "cell": 9,
+    "w": 163,
+    "h": 245
+  },
+  {
+    "id": "hero-sweep347/2",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      448,
+      0,
+      172,
+      229
+    ],
+    "group": 6,
+    "cell": 10,
+    "w": 172,
+    "h": 229
+  },
+  {
+    "id": "hero-sweep347/3",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      672,
+      0,
+      192,
+      215
+    ],
+    "group": 6,
+    "cell": 11,
+    "w": 192,
+    "h": 215
+  },
+  {
+    "id": "hero-sweep347/4",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      896,
+      0,
+      189,
+      193
+    ],
+    "group": 6,
+    "cell": 12,
+    "w": 189,
+    "h": 193
+  },
+  {
+    "id": "hero-sweep347/5",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      1120,
+      0,
+      195,
+      169
+    ],
+    "group": 6,
+    "cell": 13,
+    "w": 195,
+    "h": 169
+  },
+  {
+    "id": "hero-sweep347/6",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      0,
+      256,
+      175,
+      180
+    ],
+    "group": 6,
+    "cell": 14,
+    "w": 175,
+    "h": 180
+  },
+  {
+    "id": "hero-sweep347/7",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      224,
+      256,
+      175,
+      170
+    ],
+    "group": 6,
+    "cell": 15,
+    "w": 175,
+    "h": 170
+  },
+  {
+    "id": "hero-sweep347/8",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      448,
+      256,
+      178,
+      170
+    ],
+    "group": 6,
+    "cell": 16,
+    "w": 178,
+    "h": 170
+  },
+  {
+    "id": "hero-sweep347/9",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      672,
+      256,
+      182,
+      173
+    ],
+    "group": 6,
+    "cell": 17,
+    "w": 182,
+    "h": 173
+  },
+  {
+    "id": "hero-sweep347/10",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      896,
+      256,
+      193,
+      168
+    ],
+    "group": 6,
+    "cell": 18,
+    "w": 193,
+    "h": 168
+  },
+  {
+    "id": "hero-sweep347/11",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      1120,
+      256,
+      174,
+      169
+    ],
+    "group": 6,
+    "cell": 19,
+    "w": 174,
+    "h": 169
+  },
+  {
+    "id": "hero-sweep347/12",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      0,
+      512,
+      222,
+      174
+    ],
+    "group": 6,
+    "cell": 20,
+    "w": 222,
+    "h": 174
+  },
+  {
+    "id": "hero-sweep347/13",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      224,
+      512,
+      217,
+      179
+    ],
+    "group": 6,
+    "cell": 21,
+    "w": 217,
+    "h": 179
+  },
+  {
+    "id": "hero-sweep347/14",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      448,
+      512,
+      206,
+      183
+    ],
+    "group": 6,
+    "cell": 22,
+    "w": 206,
+    "h": 183
+  },
+  {
+    "id": "hero-sweep347/15",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      672,
+      512,
+      176,
+      187
+    ],
+    "group": 6,
+    "cell": 23,
+    "w": 176,
+    "h": 187
+  },
+  {
+    "id": "hero-sweep347/16",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      896,
+      512,
+      152,
+      195
+    ],
+    "group": 6,
+    "cell": 24,
+    "w": 152,
+    "h": 195
+  },
+  {
+    "id": "hero-sweep347/17",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      1120,
+      512,
+      147,
+      195
+    ],
+    "group": 6,
+    "cell": 25,
+    "w": 147,
+    "h": 195
+  },
+  {
+    "id": "hero-sweep347/18",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      0,
+      768,
+      147,
+      215
+    ],
+    "group": 6,
+    "cell": 26,
+    "w": 147,
+    "h": 215
+  },
+  {
+    "id": "hero-sweep347/19",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      224,
+      768,
+      147,
+      222
+    ],
+    "group": 6,
+    "cell": 27,
+    "w": 147,
+    "h": 222
+  },
+  {
+    "id": "hero-sweep347/20",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      448,
+      768,
+      150,
+      224
+    ],
+    "group": 6,
+    "cell": 28,
+    "w": 150,
+    "h": 224
+  },
+  {
+    "id": "hero-sweep347/21",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      672,
+      768,
+      147,
+      223
+    ],
+    "group": 6,
+    "cell": 29,
+    "w": 147,
+    "h": 223
+  },
+  {
+    "id": "hero-sweep347/22",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      896,
+      768,
+      148,
+      222
+    ],
+    "group": 6,
+    "cell": 30,
+    "w": 148,
+    "h": 222
+  },
+  {
+    "id": "hero-sweep347/23",
+    "path": "assets/nightshade347/hero-sweep347.webp",
+    "rect": [
+      1120,
+      768,
+      151,
+      222
+    ],
+    "group": 6,
+    "cell": 31,
+    "w": 151,
+    "h": 222
+  },
+  {
+    "id": "hero-step347/0",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      0,
+      0,
+      131,
+      240
+    ],
+    "group": 7,
+    "cell": 0,
+    "w": 131,
+    "h": 240
+  },
+  {
+    "id": "hero-step347/1",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      160,
+      0,
+      119,
+      237
+    ],
+    "group": 7,
+    "cell": 1,
+    "w": 119,
+    "h": 237
+  },
+  {
+    "id": "hero-step347/2",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      320,
+      0,
+      119,
+      237
+    ],
+    "group": 7,
+    "cell": 2,
+    "w": 119,
+    "h": 237
+  },
+  {
+    "id": "hero-step347/3",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      480,
+      0,
+      111,
+      237
+    ],
+    "group": 7,
+    "cell": 3,
+    "w": 111,
+    "h": 237
+  },
+  {
+    "id": "hero-step347/4",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      640,
+      0,
+      145,
+      234
+    ],
+    "group": 7,
+    "cell": 4,
+    "w": 145,
+    "h": 234
+  },
+  {
+    "id": "hero-step347/5",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      800,
+      0,
+      145,
+      235
+    ],
+    "group": 7,
+    "cell": 5,
+    "w": 145,
+    "h": 235
+  },
+  {
+    "id": "hero-step347/6",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      0,
+      240,
+      126,
+      238
+    ],
+    "group": 7,
+    "cell": 6,
+    "w": 126,
+    "h": 238
+  },
+  {
+    "id": "hero-step347/7",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      160,
+      240,
+      114,
+      238
+    ],
+    "group": 7,
+    "cell": 7,
+    "w": 114,
+    "h": 238
+  },
+  {
+    "id": "hero-step347/8",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      320,
+      240,
+      115,
+      238
+    ],
+    "group": 7,
+    "cell": 8,
+    "w": 115,
+    "h": 238
+  },
+  {
+    "id": "hero-step347/9",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      480,
+      240,
+      142,
+      237
+    ],
+    "group": 7,
+    "cell": 9,
+    "w": 142,
+    "h": 237
+  },
+  {
+    "id": "hero-step347/10",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      640,
+      240,
+      148,
+      235
+    ],
+    "group": 7,
+    "cell": 10,
+    "w": 148,
+    "h": 235
+  },
+  {
+    "id": "hero-step347/11",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      800,
+      240,
+      132,
+      237
+    ],
+    "group": 7,
+    "cell": 11,
+    "w": 132,
+    "h": 237
+  },
+  {
+    "id": "hero-step347/12",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      0,
+      480,
+      117,
+      238
+    ],
+    "group": 7,
+    "cell": 12,
+    "w": 117,
+    "h": 238
+  },
+  {
+    "id": "hero-step347/13",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      160,
+      480,
+      109,
+      235
+    ],
+    "group": 7,
+    "cell": 13,
+    "w": 109,
+    "h": 235
+  },
+  {
+    "id": "hero-step347/14",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      320,
+      480,
+      124,
+      230
+    ],
+    "group": 7,
+    "cell": 14,
+    "w": 124,
+    "h": 230
+  },
+  {
+    "id": "hero-step347/15",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      480,
+      480,
+      158,
+      232
+    ],
+    "group": 7,
+    "cell": 15,
+    "w": 158,
+    "h": 232
+  },
+  {
+    "id": "hero-step347/16",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      640,
+      480,
+      138,
+      236
+    ],
+    "group": 7,
+    "cell": 16,
+    "w": 138,
+    "h": 236
+  },
+  {
+    "id": "hero-step347/17",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      800,
+      480,
+      118,
+      230
+    ],
+    "group": 7,
+    "cell": 17,
+    "w": 118,
+    "h": 230
+  },
+  {
+    "id": "hero-step347/18",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      0,
+      720,
+      121,
+      235
+    ],
+    "group": 7,
+    "cell": 18,
+    "w": 121,
+    "h": 235
+  },
+  {
+    "id": "hero-step347/19",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      160,
+      720,
+      121,
+      229
+    ],
+    "group": 7,
+    "cell": 19,
+    "w": 121,
+    "h": 229
+  },
+  {
+    "id": "hero-step347/20",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      320,
+      720,
+      122,
+      226
+    ],
+    "group": 7,
+    "cell": 20,
+    "w": 122,
+    "h": 226
+  },
+  {
+    "id": "hero-step347/21",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      480,
+      720,
+      125,
+      224
+    ],
+    "group": 7,
+    "cell": 21,
+    "w": 125,
+    "h": 224
+  },
+  {
+    "id": "hero-step347/22",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      640,
+      720,
+      129,
+      217
+    ],
+    "group": 7,
+    "cell": 22,
+    "w": 129,
+    "h": 217
+  },
+  {
+    "id": "hero-step347/23",
+    "path": "assets/nightshade347/hero-step347.webp",
+    "rect": [
+      800,
+      720,
+      131,
+      217
+    ],
+    "group": 7,
+    "cell": 23,
+    "w": 131,
+    "h": 217
+  },
+  {
+    "id": "hero-beat347/0",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      0,
+      0,
+      161,
+      233
+    ],
+    "group": 7,
+    "cell": 24,
+    "w": 161,
+    "h": 233
+  },
+  {
+    "id": "hero-beat347/1",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      192,
+      0,
+      160,
+      233
+    ],
+    "group": 7,
+    "cell": 25,
+    "w": 160,
+    "h": 233
+  },
+  {
+    "id": "hero-beat347/2",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      384,
+      0,
+      160,
+      234
+    ],
+    "group": 7,
+    "cell": 26,
+    "w": 160,
+    "h": 234
+  },
+  {
+    "id": "hero-beat347/3",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      576,
+      0,
+      160,
+      234
+    ],
+    "group": 7,
+    "cell": 27,
+    "w": 160,
+    "h": 234
+  },
+  {
+    "id": "hero-beat347/4",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      768,
+      0,
+      160,
+      244
+    ],
+    "group": 7,
+    "cell": 28,
+    "w": 160,
+    "h": 244
+  },
+  {
+    "id": "hero-beat347/5",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      960,
+      0,
+      160,
+      249
+    ],
+    "group": 7,
+    "cell": 29,
+    "w": 160,
+    "h": 249
+  },
+  {
+    "id": "hero-beat347/6",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      0,
+      256,
+      160,
+      251
+    ],
+    "group": 7,
+    "cell": 30,
+    "w": 160,
+    "h": 251
+  },
+  {
+    "id": "hero-beat347/7",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      192,
+      256,
+      160,
+      250
+    ],
+    "group": 7,
+    "cell": 31,
+    "w": 160,
+    "h": 250
+  },
+  {
+    "id": "hero-beat347/8",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      384,
+      256,
+      160,
+      236
+    ],
+    "group": 8,
+    "cell": 0,
+    "w": 160,
+    "h": 236
+  },
+  {
+    "id": "hero-beat347/9",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      576,
+      256,
+      160,
+      226
+    ],
+    "group": 8,
+    "cell": 1,
+    "w": 160,
+    "h": 226
+  },
+  {
+    "id": "hero-beat347/10",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      768,
+      256,
+      186,
+      216
+    ],
+    "group": 8,
+    "cell": 2,
+    "w": 186,
+    "h": 216
+  },
+  {
+    "id": "hero-beat347/11",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      960,
+      256,
+      177,
+      211
+    ],
+    "group": 8,
+    "cell": 3,
+    "w": 177,
+    "h": 211
+  },
+  {
+    "id": "hero-beat347/12",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      0,
+      512,
+      177,
+      205
+    ],
+    "group": 8,
+    "cell": 4,
+    "w": 177,
+    "h": 205
+  },
+  {
+    "id": "hero-beat347/13",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      192,
+      512,
+      183,
+      212
+    ],
+    "group": 8,
+    "cell": 5,
+    "w": 183,
+    "h": 212
+  },
+  {
+    "id": "hero-beat347/14",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      384,
+      512,
+      160,
+      218
+    ],
+    "group": 8,
+    "cell": 6,
+    "w": 160,
+    "h": 218
+  },
+  {
+    "id": "hero-beat347/15",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      576,
+      512,
+      160,
+      225
+    ],
+    "group": 8,
+    "cell": 7,
+    "w": 160,
+    "h": 225
+  },
+  {
+    "id": "hero-beat347/16",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      768,
+      512,
+      160,
+      230
+    ],
+    "group": 8,
+    "cell": 8,
+    "w": 160,
+    "h": 230
+  },
+  {
+    "id": "hero-beat347/17",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      960,
+      512,
+      160,
+      233
+    ],
+    "group": 8,
+    "cell": 9,
+    "w": 160,
+    "h": 233
+  },
+  {
+    "id": "hero-beat347/18",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      0,
+      768,
+      160,
+      234
+    ],
+    "group": 8,
+    "cell": 10,
+    "w": 160,
+    "h": 234
+  },
+  {
+    "id": "hero-beat347/19",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      192,
+      768,
+      160,
+      234
+    ],
+    "group": 8,
+    "cell": 11,
+    "w": 160,
+    "h": 234
+  },
+  {
+    "id": "hero-beat347/20",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      384,
+      768,
+      160,
+      232
+    ],
+    "group": 8,
+    "cell": 12,
+    "w": 160,
+    "h": 232
+  },
+  {
+    "id": "hero-beat347/21",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      576,
+      768,
+      160,
+      231
+    ],
+    "group": 8,
+    "cell": 13,
+    "w": 160,
+    "h": 231
+  },
+  {
+    "id": "hero-beat347/22",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      768,
+      768,
+      160,
+      231
+    ],
+    "group": 8,
+    "cell": 14,
+    "w": 160,
+    "h": 231
+  },
+  {
+    "id": "hero-beat347/23",
+    "path": "assets/nightshade347/hero-beat347.webp",
+    "rect": [
+      960,
+      768,
+      160,
+      228
+    ],
+    "group": 8,
+    "cell": 15,
+    "w": 160,
+    "h": 228
+  },
+  {
+    "id": "hero-vault347/0",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      0,
+      0,
+      208,
+      234
+    ],
+    "group": 8,
+    "cell": 16,
+    "w": 208,
+    "h": 234
+  },
+  {
+    "id": "hero-vault347/1",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      256,
+      0,
+      198,
+      227
+    ],
+    "group": 8,
+    "cell": 17,
+    "w": 198,
+    "h": 227
+  },
+  {
+    "id": "hero-vault347/2",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      512,
+      0,
+      184,
+      209
+    ],
+    "group": 8,
+    "cell": 18,
+    "w": 184,
+    "h": 209
+  },
+  {
+    "id": "hero-vault347/3",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      768,
+      0,
+      171,
+      191
+    ],
+    "group": 8,
+    "cell": 19,
+    "w": 171,
+    "h": 191
+  },
+  {
+    "id": "hero-vault347/4",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1024,
+      0,
+      155,
+      196
+    ],
+    "group": 8,
+    "cell": 20,
+    "w": 155,
+    "h": 196
+  },
+  {
+    "id": "hero-vault347/5",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1280,
+      0,
+      123,
+      195
+    ],
+    "group": 8,
+    "cell": 21,
+    "w": 123,
+    "h": 195
+  },
+  {
+    "id": "hero-vault347/6",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      0,
+      248,
+      231,
+      163
+    ],
+    "group": 8,
+    "cell": 22,
+    "w": 231,
+    "h": 163
+  },
+  {
+    "id": "hero-vault347/7",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      256,
+      248,
+      183,
+      179
+    ],
+    "group": 8,
+    "cell": 23,
+    "w": 183,
+    "h": 179
+  },
+  {
+    "id": "hero-vault347/8",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      512,
+      248,
+      86,
+      242
+    ],
+    "group": 8,
+    "cell": 24,
+    "w": 86,
+    "h": 242
+  },
+  {
+    "id": "hero-vault347/9",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      768,
+      248,
+      200,
+      173
+    ],
+    "group": 8,
+    "cell": 25,
+    "w": 200,
+    "h": 173
+  },
+  {
+    "id": "hero-vault347/10",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1024,
+      248,
+      210,
+      205
+    ],
+    "group": 8,
+    "cell": 26,
+    "w": 210,
+    "h": 205
+  },
+  {
+    "id": "hero-vault347/11",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1280,
+      248,
+      147,
+      216
+    ],
+    "group": 8,
+    "cell": 27,
+    "w": 147,
+    "h": 216
+  },
+  {
+    "id": "hero-vault347/12",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      0,
+      496,
+      178,
+      216
+    ],
+    "group": 8,
+    "cell": 28,
+    "w": 178,
+    "h": 216
+  },
+  {
+    "id": "hero-vault347/13",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      256,
+      496,
+      165,
+      203
+    ],
+    "group": 8,
+    "cell": 29,
+    "w": 165,
+    "h": 203
+  },
+  {
+    "id": "hero-vault347/14",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      512,
+      496,
+      168,
+      165
+    ],
+    "group": 8,
+    "cell": 30,
+    "w": 168,
+    "h": 165
+  },
+  {
+    "id": "hero-vault347/15",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      768,
+      496,
+      237,
+      134
+    ],
+    "group": 8,
+    "cell": 31,
+    "w": 237,
+    "h": 134
+  },
+  {
+    "id": "hero-vault347/16",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1024,
+      496,
+      250,
+      104
+    ],
+    "group": 9,
+    "cell": 0,
+    "w": 250,
+    "h": 104
+  },
+  {
+    "id": "hero-vault347/17",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1280,
+      496,
+      235,
+      90
+    ],
+    "group": 9,
+    "cell": 1,
+    "w": 235,
+    "h": 90
+  },
+  {
+    "id": "hero-vault347/18",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      0,
+      744,
+      215,
+      110
+    ],
+    "group": 9,
+    "cell": 2,
+    "w": 215,
+    "h": 110
+  },
+  {
+    "id": "hero-vault347/19",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      256,
+      744,
+      204,
+      134
+    ],
+    "group": 9,
+    "cell": 3,
+    "w": 204,
+    "h": 134
+  },
+  {
+    "id": "hero-vault347/20",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      512,
+      744,
+      157,
+      169
+    ],
+    "group": 9,
+    "cell": 4,
+    "w": 157,
+    "h": 169
+  },
+  {
+    "id": "hero-vault347/21",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      768,
+      744,
+      155,
+      206
+    ],
+    "group": 9,
+    "cell": 5,
+    "w": 155,
+    "h": 206
+  },
+  {
+    "id": "hero-vault347/22",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1024,
+      744,
+      171,
+      229
+    ],
+    "group": 9,
+    "cell": 6,
+    "w": 171,
+    "h": 229
+  },
+  {
+    "id": "hero-vault347/23",
+    "path": "assets/nightshade347/hero-vault347.webp",
+    "rect": [
+      1280,
+      744,
+      186,
+      226
+    ],
+    "group": 9,
+    "cell": 7,
+    "w": 186,
+    "h": 226
+  },
+  {
+    "id": "heroBase347/0",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      0,
+      0,
+      208,
+      298
+    ],
+    "group": 9,
+    "cell": 8,
+    "w": 208,
+    "h": 298
+  },
+  {
+    "id": "heroBase347/1",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      352,
+      0,
+      204,
+      302
+    ],
+    "group": 9,
+    "cell": 9,
+    "w": 204,
+    "h": 302
+  },
+  {
+    "id": "heroBase347/2",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      704,
+      0,
+      107,
+      304
+    ],
+    "group": 9,
+    "cell": 10,
+    "w": 107,
+    "h": 304
+  },
+  {
+    "id": "heroBase347/3",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      1056,
+      0,
+      218,
+      299
+    ],
+    "group": 9,
+    "cell": 11,
+    "w": 218,
+    "h": 299
+  },
+  {
+    "id": "heroBase347/4",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      0,
+      320,
+      234,
+      289
+    ],
+    "group": 9,
+    "cell": 12,
+    "w": 234,
+    "h": 289
+  },
+  {
+    "id": "heroBase347/5",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      352,
+      320,
+      290,
+      287
+    ],
+    "group": 9,
+    "cell": 13,
+    "w": 290,
+    "h": 287
+  },
+  {
+    "id": "heroBase347/6",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      704,
+      320,
+      286,
+      280
+    ],
+    "group": 9,
+    "cell": 14,
+    "w": 286,
+    "h": 280
+  },
+  {
+    "id": "heroBase347/7",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      1056,
+      320,
+      280,
+      292
+    ],
+    "group": 9,
+    "cell": 15,
+    "w": 280,
+    "h": 292
+  },
+  {
+    "id": "heroBase347/8",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      0,
+      640,
+      243,
+      303
+    ],
+    "group": 9,
+    "cell": 16,
+    "w": 243,
+    "h": 303
+  },
+  {
+    "id": "heroBase347/9",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      352,
+      640,
+      224,
+      317
+    ],
+    "group": 9,
+    "cell": 17,
+    "w": 224,
+    "h": 317
+  },
+  {
+    "id": "heroBase347/10",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      704,
+      640,
+      176,
+      262
+    ],
+    "group": 9,
+    "cell": 18,
+    "w": 176,
+    "h": 262
+  },
+  {
+    "id": "heroBase347/11",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      1056,
+      640,
+      246,
+      205
+    ],
+    "group": 9,
+    "cell": 19,
+    "w": 246,
+    "h": 205
+  },
+  {
+    "id": "heroBase347/12",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      0,
+      960,
+      292,
+      226
+    ],
+    "group": 9,
+    "cell": 20,
+    "w": 292,
+    "h": 226
+  },
+  {
+    "id": "heroBase347/13",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      352,
+      960,
+      267,
+      306
+    ],
+    "group": 9,
+    "cell": 21,
+    "w": 267,
+    "h": 306
+  },
+  {
+    "id": "heroBase347/14",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      704,
+      960,
+      225,
+      286
+    ],
+    "group": 9,
+    "cell": 22,
+    "w": 225,
+    "h": 286
+  },
+  {
+    "id": "heroBase347/15",
+    "path": "assets/nightshade347/heroBase347.webp",
+    "rect": [
+      1056,
+      960,
+      345,
+      122
+    ],
+    "group": 9,
+    "cell": 23,
+    "w": 345,
+    "h": 122
+  },
+  {
+    "id": "heroExtra347/0",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      0,
+      0,
+      210,
+      250
+    ],
+    "group": 9,
+    "cell": 24,
+    "w": 210,
+    "h": 250
+  },
+  {
+    "id": "heroExtra347/1",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      272,
+      0,
+      137,
+      242
+    ],
+    "group": 9,
+    "cell": 25,
+    "w": 137,
+    "h": 242
+  },
+  {
+    "id": "heroExtra347/2",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      544,
+      0,
+      196,
+      238
+    ],
+    "group": 9,
+    "cell": 26,
+    "w": 196,
+    "h": 238
+  },
+  {
+    "id": "heroExtra347/3",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      816,
+      0,
+      224,
+      241
+    ],
+    "group": 9,
+    "cell": 27,
+    "w": 224,
+    "h": 241
+  },
+  {
+    "id": "heroExtra347/4",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1088,
+      0,
+      124,
+      231
+    ],
+    "group": 9,
+    "cell": 28,
+    "w": 124,
+    "h": 231
+  },
+  {
+    "id": "heroExtra347/5",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1360,
+      0,
+      191,
+      235
+    ],
+    "group": 9,
+    "cell": 29,
+    "w": 191,
+    "h": 235
+  },
+  {
+    "id": "heroExtra347/6",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      0,
+      272,
+      212,
+      237
+    ],
+    "group": 9,
+    "cell": 30,
+    "w": 212,
+    "h": 237
+  },
+  {
+    "id": "heroExtra347/7",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      272,
+      272,
+      258,
+      193
+    ],
+    "group": 9,
+    "cell": 31,
+    "w": 258,
+    "h": 193
+  },
+  {
+    "id": "heroExtra347/8",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      544,
+      272,
+      259,
+      142
+    ],
+    "group": 10,
+    "cell": 0,
+    "w": 259,
+    "h": 142
+  },
+  {
+    "id": "heroExtra347/9",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      816,
+      272,
+      261,
+      134
+    ],
+    "group": 10,
+    "cell": 1,
+    "w": 261,
+    "h": 134
+  },
+  {
+    "id": "heroExtra347/10",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1088,
+      272,
+      198,
+      188
+    ],
+    "group": 10,
+    "cell": 2,
+    "w": 198,
+    "h": 188
+  },
+  {
+    "id": "heroExtra347/11",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1360,
+      272,
+      159,
+      218
+    ],
+    "group": 10,
+    "cell": 3,
+    "w": 159,
+    "h": 218
+  },
+  {
+    "id": "heroExtra347/12",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      0,
+      544,
+      217,
+      222
+    ],
+    "group": 10,
+    "cell": 4,
+    "w": 217,
+    "h": 222
+  },
+  {
+    "id": "heroExtra347/13",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      272,
+      544,
+      205,
+      178
+    ],
+    "group": 10,
+    "cell": 5,
+    "w": 205,
+    "h": 178
+  },
+  {
+    "id": "heroExtra347/14",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      544,
+      544,
+      209,
+      170
+    ],
+    "group": 10,
+    "cell": 6,
+    "w": 209,
+    "h": 170
+  },
+  {
+    "id": "heroExtra347/15",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      816,
+      544,
+      193,
+      208
+    ],
+    "group": 10,
+    "cell": 7,
+    "w": 193,
+    "h": 208
+  },
+  {
+    "id": "heroExtra347/16",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1088,
+      544,
+      266,
+      170
+    ],
+    "group": 10,
+    "cell": 8,
+    "w": 266,
+    "h": 170
+  },
+  {
+    "id": "heroExtra347/17",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1360,
+      544,
+      213,
+      163
+    ],
+    "group": 10,
+    "cell": 9,
+    "w": 213,
+    "h": 163
+  },
+  {
+    "id": "heroExtra347/18",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      0,
+      816,
+      179,
+      269
+    ],
+    "group": 10,
+    "cell": 10,
+    "w": 179,
+    "h": 269
+  },
+  {
+    "id": "heroExtra347/19",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      272,
+      816,
+      149,
+      260
+    ],
+    "group": 10,
+    "cell": 11,
+    "w": 149,
+    "h": 260
+  },
+  {
+    "id": "heroExtra347/20",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      544,
+      816,
+      224,
+      207
+    ],
+    "group": 10,
+    "cell": 12,
+    "w": 224,
+    "h": 207
+  },
+  {
+    "id": "heroExtra347/21",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      816,
+      816,
+      219,
+      232
+    ],
+    "group": 10,
+    "cell": 13,
+    "w": 219,
+    "h": 232
+  },
+  {
+    "id": "heroExtra347/22",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1088,
+      816,
+      204,
+      175
+    ],
+    "group": 10,
+    "cell": 14,
+    "w": 204,
+    "h": 175
+  },
+  {
+    "id": "heroExtra347/23",
+    "path": "assets/nightshade347/heroExtra347.webp",
+    "rect": [
+      1360,
+      816,
+      186,
+      249
+    ],
+    "group": 10,
+    "cell": 15,
+    "w": 186,
+    "h": 249
+  },
+  {
+    "id": "hero-rise347/0",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      0,
+      0,
+      272,
+      362
+    ],
+    "group": 10,
+    "cell": 16,
+    "w": 272,
+    "h": 362
+  },
+  {
+    "id": "hero-rise347/1",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      280,
+      0,
+      271,
+      369
+    ],
+    "group": 10,
+    "cell": 17,
+    "w": 271,
+    "h": 369
+  },
+  {
+    "id": "hero-rise347/2",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      560,
+      0,
+      273,
+      379
+    ],
+    "group": 10,
+    "cell": 18,
+    "w": 273,
+    "h": 379
+  },
+  {
+    "id": "hero-rise347/3",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      840,
+      0,
+      274,
+      389
+    ],
+    "group": 10,
+    "cell": 19,
+    "w": 274,
+    "h": 389
+  },
+  {
+    "id": "hero-rise347/4",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      0,
+      416,
+      272,
+      397
+    ],
+    "group": 10,
+    "cell": 20,
+    "w": 272,
+    "h": 397
+  },
+  {
+    "id": "hero-rise347/5",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      280,
+      416,
+      271,
+      404
+    ],
+    "group": 10,
+    "cell": 21,
+    "w": 271,
+    "h": 404
+  },
+  {
+    "id": "hero-rise347/6",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      560,
+      416,
+      270,
+      409
+    ],
+    "group": 10,
+    "cell": 22,
+    "w": 270,
+    "h": 409
+  },
+  {
+    "id": "hero-rise347/7",
+    "path": "assets/nightshade347/hero-rise347.webp",
+    "rect": [
+      840,
+      416,
+      267,
+      410
+    ],
+    "group": 10,
+    "cell": 23,
+    "w": 267,
+    "h": 410
+  },
+  {
+    "id": "tools349/0",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      0,
+      0,
+      179,
+      248
+    ],
+    "group": 10,
+    "cell": 24,
+    "w": 179,
+    "h": 248
+  },
+  {
+    "id": "tools349/1",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      264,
+      0,
+      178,
+      248
+    ],
+    "group": 10,
+    "cell": 25,
+    "w": 178,
+    "h": 248
+  },
+  {
+    "id": "tools349/2",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      528,
+      0,
+      178,
+      247
+    ],
+    "group": 10,
+    "cell": 26,
+    "w": 178,
+    "h": 247
+  },
+  {
+    "id": "tools349/3",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      792,
+      0,
+      192,
+      248
+    ],
+    "group": 10,
+    "cell": 27,
+    "w": 192,
+    "h": 248
+  },
+  {
+    "id": "tools349/4",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1056,
+      0,
+      228,
+      247
+    ],
+    "group": 10,
+    "cell": 28,
+    "w": 228,
+    "h": 247
+  },
+  {
+    "id": "tools349/5",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1320,
+      0,
+      178,
+      247
+    ],
+    "group": 10,
+    "cell": 29,
+    "w": 178,
+    "h": 247
+  },
+  {
+    "id": "tools349/6",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      0,
+      256,
+      151,
+      191
+    ],
+    "group": 10,
+    "cell": 30,
+    "w": 151,
+    "h": 191
+  },
+  {
+    "id": "tools349/7",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      264,
+      256,
+      134,
+      196
+    ],
+    "group": 10,
+    "cell": 31,
+    "w": 134,
+    "h": 196
+  },
+  {
+    "id": "tools349/8",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      528,
+      256,
+      131,
+      212
+    ],
+    "group": 11,
+    "cell": 0,
+    "w": 131,
+    "h": 212
+  },
+  {
+    "id": "tools349/9",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      792,
+      256,
+      179,
+      220
+    ],
+    "group": 11,
+    "cell": 1,
+    "w": 179,
+    "h": 220
+  },
+  {
+    "id": "tools349/10",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1056,
+      256,
+      213,
+      218
+    ],
+    "group": 11,
+    "cell": 2,
+    "w": 213,
+    "h": 218
+  },
+  {
+    "id": "tools349/11",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1320,
+      256,
+      191,
+      203
+    ],
+    "group": 11,
+    "cell": 3,
+    "w": 191,
+    "h": 203
+  },
+  {
+    "id": "tools349/12",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      0,
+      512,
+      180,
+      245
+    ],
+    "group": 11,
+    "cell": 4,
+    "w": 180,
+    "h": 245
+  },
+  {
+    "id": "tools349/13",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      264,
+      512,
+      180,
+      247
+    ],
+    "group": 11,
+    "cell": 5,
+    "w": 180,
+    "h": 247
+  },
+  {
+    "id": "tools349/14",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      528,
+      512,
+      220,
+      248
+    ],
+    "group": 11,
+    "cell": 6,
+    "w": 220,
+    "h": 248
+  },
+  {
+    "id": "tools349/15",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      792,
+      512,
+      200,
+      237
+    ],
+    "group": 11,
+    "cell": 7,
+    "w": 200,
+    "h": 237
+  },
+  {
+    "id": "tools349/16",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1056,
+      512,
+      184,
+      241
+    ],
+    "group": 11,
+    "cell": 8,
+    "w": 184,
+    "h": 241
+  },
+  {
+    "id": "tools349/17",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1320,
+      512,
+      181,
+      242
+    ],
+    "group": 11,
+    "cell": 9,
+    "w": 181,
+    "h": 242
+  },
+  {
+    "id": "tools349/18",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      0,
+      768,
+      215,
+      172
+    ],
+    "group": 11,
+    "cell": 10,
+    "w": 215,
+    "h": 172
+  },
+  {
+    "id": "tools349/19",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      264,
+      768,
+      214,
+      180
+    ],
+    "group": 11,
+    "cell": 11,
+    "w": 214,
+    "h": 180
+  },
+  {
+    "id": "tools349/20",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      528,
+      768,
+      201,
+      248
+    ],
+    "group": 11,
+    "cell": 12,
+    "w": 201,
+    "h": 248
+  },
+  {
+    "id": "tools349/21",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      792,
+      768,
+      197,
+      254
+    ],
+    "group": 11,
+    "cell": 13,
+    "w": 197,
+    "h": 254
+  },
+  {
+    "id": "tools349/22",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1056,
+      768,
+      260,
+      238
+    ],
+    "group": 11,
+    "cell": 14,
+    "w": 260,
+    "h": 238
+  },
+  {
+    "id": "tools349/23",
+    "path": "assets/nightshade349/tools.webp",
+    "rect": [
+      1320,
+      768,
+      206,
+      246
+    ],
+    "group": 11,
+    "cell": 15,
+    "w": 206,
+    "h": 246
+  },
+  {
+    "id": "blitz352/0",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      67,
+      11,
+      175,
+      293
+    ],
+    "group": 11,
+    "cell": 16,
+    "w": 175,
+    "h": 293
+  },
+  {
+    "id": "blitz352/1",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      382,
+      43,
+      168,
+      260
+    ],
+    "group": 11,
+    "cell": 17,
+    "w": 168,
+    "h": 260
+  },
+  {
+    "id": "blitz352/2",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      700,
+      18,
+      169,
+      294
+    ],
+    "group": 11,
+    "cell": 18,
+    "w": 169,
+    "h": 294
+  },
+  {
+    "id": "blitz352/3",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      1018,
+      10,
+      176,
+      289
+    ],
+    "group": 11,
+    "cell": 19,
+    "w": 176,
+    "h": 289
+  },
+  {
+    "id": "blitz352/4",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      78,
+      320,
+      150,
+      268
+    ],
+    "group": 11,
+    "cell": 20,
+    "w": 150,
+    "h": 268
+  },
+  {
+    "id": "blitz352/5",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      384,
+      323,
+      202,
+      256
+    ],
+    "group": 11,
+    "cell": 21,
+    "w": 202,
+    "h": 256
+  },
+  {
+    "id": "blitz352/6",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      685,
+      309,
+      186,
+      288
+    ],
+    "group": 11,
+    "cell": 22,
+    "w": 186,
+    "h": 288
+  },
+  {
+    "id": "blitz352/7",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      985,
+      341,
+      238,
+      268
+    ],
+    "group": 11,
+    "cell": 23,
+    "w": 238,
+    "h": 268
+  },
+  {
+    "id": "blitz352/8",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      30,
+      642,
+      275,
+      254
+    ],
+    "group": 11,
+    "cell": 24,
+    "w": 275,
+    "h": 254
+  },
+  {
+    "id": "blitz352/9",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      351,
+      647,
+      271,
+      229
+    ],
+    "group": 11,
+    "cell": 25,
+    "w": 271,
+    "h": 229
+  },
+  {
+    "id": "blitz352/10",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      667,
+      643,
+      272,
+      237
+    ],
+    "group": 11,
+    "cell": 26,
+    "w": 272,
+    "h": 237
+  },
+  {
+    "id": "blitz352/11",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      1003,
+      641,
+      174,
+      243
+    ],
+    "group": 11,
+    "cell": 27,
+    "w": 174,
+    "h": 243
+  },
+  {
+    "id": "blitz352/12",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      72,
+      953,
+      171,
+      268
+    ],
+    "group": 11,
+    "cell": 28,
+    "w": 171,
+    "h": 268
+  },
+  {
+    "id": "blitz352/13",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      373,
+      967,
+      180,
+      263
+    ],
+    "group": 11,
+    "cell": 29,
+    "w": 180,
+    "h": 263
+  },
+  {
+    "id": "blitz352/14",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      685,
+      956,
+      181,
+      276
+    ],
+    "group": 11,
+    "cell": 30,
+    "w": 181,
+    "h": 276
+  },
+  {
+    "id": "blitz352/15",
+    "path": "assets/nightshade352/blitz.webp",
+    "rect": [
+      1012,
+      947,
+      183,
+      288
+    ],
+    "group": 11,
+    "cell": 31,
+    "w": 183,
+    "h": 288
+  },
+  {
+    "id": "experimental/0",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      0,
+      0,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 0,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/1",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      199.84139571768438,
+      0,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 1,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/2",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      399.68279143536876,
+      0,
+      200.47581284694687,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 2,
+    "w": 200.47581284694687,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/3",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      600.1586042823155,
+      0,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 3,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/4",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      0,
+      197.90858059342423,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 4,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/5",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      199.84139571768438,
+      197.90858059342423,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 5,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/6",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      399.68279143536876,
+      197.90858059342423,
+      200.47581284694687,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 6,
+    "w": 200.47581284694687,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/7",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      600.1586042823155,
+      197.90858059342423,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 7,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/8",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      0,
+      395.81716118684847,
+      199.84139571768438,
+      197.27425821972736
+    ],
+    "group": 12,
+    "cell": 8,
+    "w": 199.84139571768438,
+    "h": 197.27425821972736
+  },
+  {
+    "id": "experimental/9",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      199.84139571768438,
+      395.81716118684847,
+      199.84139571768438,
+      197.27425821972736
+    ],
+    "group": 12,
+    "cell": 9,
+    "w": 199.84139571768438,
+    "h": 197.27425821972736
+  },
+  {
+    "id": "experimental/10",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      399.68279143536876,
+      395.81716118684847,
+      200.47581284694687,
+      197.27425821972736
+    ],
+    "group": 12,
+    "cell": 10,
+    "w": 200.47581284694687,
+    "h": 197.27425821972736
+  },
+  {
+    "id": "experimental/11",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      600.1586042823155,
+      395.81716118684847,
+      199.84139571768438,
+      197.27425821972736
+    ],
+    "group": 12,
+    "cell": 11,
+    "w": 199.84139571768438,
+    "h": 197.27425821972736
+  },
+  {
+    "id": "experimental/12",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      0,
+      593.0914194065758,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 12,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/13",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      199.84139571768438,
+      593.0914194065758,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 13,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/14",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      399.68279143536876,
+      593.0914194065758,
+      200.47581284694687,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 14,
+    "w": 200.47581284694687,
+    "h": 197.90858059342423
+  },
+  {
+    "id": "experimental/15",
+    "path": "assets/experimental344/nightshade.webp",
+    "rect": [
+      600.1586042823155,
+      593.0914194065758,
+      199.84139571768438,
+      197.90858059342423
+    ],
+    "group": 12,
+    "cell": 15,
+    "w": 199.84139571768438,
+    "h": 197.90858059342423
+  }
+]

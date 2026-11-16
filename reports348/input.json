@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scope": "Synthetic actual Reader event dispatch; no physical hardware",
+  "receipts": [
+    {
+      "layout": "DualSense USB",
+      "taps": 3,
+      "shots": 3,
+      "damage": 15
+    },
+    {
+      "layout": "DualSense Wireless Controller",
+      "taps": 3,
+      "shots": 3,
+      "damage": 15
+    },
+    {
+      "layout": "Xbox 360 Controller (DSX)",
+      "taps": 3,
+      "shots": 3,
+      "damage": 15
+    }
+  ]
+}

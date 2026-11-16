@@ -1,0 +1,47 @@
+{
+  "scope": "Native full simulation tick in controlled fixture; excludes browser/render/audio and is not end-device frame-rate certification",
+  "rows": [
+    {
+      "enemies": 4,
+      "allies": 0,
+      "averageMs": 0.6002294966666656,
+      "p95Ms": 1.288012999999978,
+      "worstMs": 28.88488000000001
+    },
+    {
+      "enemies": 4,
+      "allies": 2,
+      "averageMs": 0.5606668566666683,
+      "p95Ms": 0.9609609999999975,
+      "worstMs": 3.379263999999921
+    },
+    {
+      "enemies": 6,
+      "allies": 0,
+      "averageMs": 0.5326182449999972,
+      "p95Ms": 0.9967940000001363,
+      "worstMs": 2.9957279999999855
+    },
+    {
+      "enemies": 6,
+      "allies": 2,
+      "averageMs": 0.5314319216666615,
+      "p95Ms": 0.9720059999999648,
+      "worstMs": 2.038432999999941
+    },
+    {
+      "enemies": 8,
+      "allies": 0,
+      "averageMs": 0.945628655,
+      "p95Ms": 2.121985999999879,
+      "worstMs": 60.503962
+    },
+    {
+      "enemies": 8,
+      "allies": 2,
+      "averageMs": 0.5092583549999881,
+      "p95Ms": 1.0463660000000345,
+      "worstMs": 2.2756439999998292
+    }
+  ]
+}

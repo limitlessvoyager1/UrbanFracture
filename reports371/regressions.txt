@@ -1,0 +1,26 @@
+PASS179 three throws x2 facings x30/60/120: damage, retained backbreaker grip, protection, recovery, cleanup, grounded plane
+PASS179 vulnerable startup/recovery and interrupted session cleanup
+PASS179 3s release-only Iron Will, one half reduction, hazards, grab resistance, death, 75s post-expiry CD, room/pause persistence
+PASS179 four separate confirmed combo presses,40 total, final standing stagger, whiff cannot continue
+PASS179 clothesline fixed170 travel,64/48 damage, one hit each, lane exclusion, cooldown at30/60/120
+PASS179 thrown-body collision once/offlane/staging exclusions, armor time continues in protected throws, bullets remain half damage
+✔ tests/broxton179.cjs (1161.162499ms)
+PASS244 actual game.js: keyboard and standard DualSense/raw Sony/DSX, both directions, same-frame second tap+Attack, full lariat exit and press-driven combo continuation. Simulated controllers, not physical hardware.
+✔ tests/broxton244-controller.cjs (641.311557ms)
+PASS244 current load: lariat close/far, both facings/30-60-120Hz,64/48 damage, depth exclusions,170 travel, mandatory recovery; same-tick/latched input, native combo and wake-tail queues; one frontal damage-taking poise only; mixed native3-point/2-attacker pressure.
+✔ tests/broxton244.cjs (5946.481631ms)
+PASS raw Sony centered hat/discrete D-pad, neutral rearming with drift, DSX virtual selection, full custom calibration and axes/buttons
+✔ tests/controller-recovery.test.cjs (148.07601ms)
+PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+✔ tests/controller157.cjs (119.943978ms)
+PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+✔ tests/gamepad.test.cjs (167.403501ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5960.691985

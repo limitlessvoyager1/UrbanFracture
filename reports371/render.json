@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "checks": 152,
+  "receipts": [
+    {
+      "label": "Phone connection / 30 energy / selected pair",
+      "time": 1.8999999999999981,
+      "actors": [],
+      "owner": null
+    },
+    {
+      "label": "Native entry, walking and idle",
+      "time": 4.566666666666656,
+      "actors": [
+        {
+          "id": 11,
+          "role": "bruiser",
+          "hp": 85,
+          "state": "FOLLOW",
+          "target": null
+        },
+        {
+          "id": 12,
+          "role": "gunner",
+          "hp": 55,
+          "state": "FOLLOW",
+          "target": null
+        }
+      ],
+      "owner": null
+    },
+    {
+      "label": "Power Punch / native contact and recoil",
+      "time": 0.3333333333333333,
+      "actors": [
+        {
+          "id": 23,
+          "role": "bruiser",
+          "hp": 85,
+          "state": "ATTACK",
+          "target": null
+        },
+        {
+          "id": 24,
+          "role": "gunner",
+          "hp": 55,
+          "state": "FOLLOW",
+          "target": null
+        }
+      ],
+      "owner": 23
+    },
+    {
+      "label": "Grab and Throw / synchronized victim lift",
+      "time": 0.6833333333333338,
+      "actors": [
+        {
+          "id": 36,
+          "role": "bruiser",
+          "hp": 85,
+          "state": "ATTACK",
+          "target": null
+        },
+        {
+          "id": 37,
+          "role": "gunner",
+          "hp": 55,
+          "state": "FOLLOW",
+          "target": null
+        }
+      ],
+      "owner": 36
+    },
+    {
+      "label": "Power Gunshot / muzzle flash and physical projectile",
+      "time": 0.2833333333333333,
+      "actors": [
+        {
+          "id": 49,
+          "role": "bruiser",
+          "hp": 85,
+          "state": "APPROACH_IDEAL_RANGE",
+          "target": 51
+        },
+        {
+          "id": 50,
+          "role": "gunner",
+          "hp": 55,
+          "state": "ATTACK",
+          "target": null
+        }
+      ],
+      "owner": 50
+    },
+    {
+      "label": "Triple Shot / third distinct firing event",
+      "time": 0.44999999999999996,
+      "actors": [
+        {
+          "id": 62,
+          "role": "bruiser",
+          "hp": 85,
+          "state": "FOLLOW",
+          "target": null
+        },
+        {
+          "id": 63,
+          "role": "gunner",
+          "hp": 55,
+          "state": "ATTACK",
+          "target": null
+        }
+      ],
+      "owner": 63
+    }
+  ],
+  "frameSet": [
+    {
+      "role": "bruiser",
+      "dir": 1,
+      "distinct": 32
+    },
+    {
+      "role": "bruiser",
+      "dir": -1,
+      "distinct": 32
+    },
+    {
+      "role": "gunner",
+      "dir": 1,
+      "distinct": 32
+    },
+    {
+      "role": "gunner",
+      "dir": -1,
+      "distinct": 32
+    }
+  ],
+  "source": "native production sprite owners; isolated review scenarios",
+  "browser": false,
+  "hardware": false
+}

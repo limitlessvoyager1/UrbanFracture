@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": 1312,
+  "carry": {
+    "ids": [
+      41,
+      42
+    ],
+    "deadline": 27.27500000000015,
+    "zone": 1,
+    "lock": "downtown-1|1|0|0:1"
+  },
+  "aggression": {
+    "baseline": {
+      "firstContact": 2.3999999999999964,
+      "committedAttacks": 4,
+      "damage": 48
+    },
+    "tuned": {
+      "firstContact": 2.1333333333333306,
+      "committedAttacks": 6,
+      "damage": 72
+    }
+  },
+  "speech": "system speech optional; subtitles always present",
+  "browser": false,
+  "hardware": false
+}

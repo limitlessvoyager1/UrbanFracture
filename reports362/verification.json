@@ -1,0 +1,281 @@
+{
+  "pass": true,
+  "checks": 9130,
+  "cases": [
+    {
+      "direction": "up",
+      "blocked": false,
+      "weapon": null,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "up",
+      "blocked": false,
+      "weapon": "pipe",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "up",
+      "blocked": true,
+      "weapon": null,
+      "frames": []
+    },
+    {
+      "direction": "up",
+      "blocked": true,
+      "weapon": "pipe",
+      "frames": []
+    },
+    {
+      "direction": "down",
+      "blocked": false,
+      "weapon": null,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "down",
+      "blocked": false,
+      "weapon": "pipe",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "down",
+      "blocked": true,
+      "weapon": null,
+      "frames": []
+    },
+    {
+      "direction": "down",
+      "blocked": true,
+      "weapon": "pipe",
+      "frames": []
+    },
+    {
+      "direction": "left",
+      "blocked": false,
+      "weapon": null,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "left",
+      "blocked": false,
+      "weapon": "pipe",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "left",
+      "blocked": true,
+      "weapon": null,
+      "frames": []
+    },
+    {
+      "direction": "left",
+      "blocked": true,
+      "weapon": "pipe",
+      "frames": []
+    },
+    {
+      "direction": "right",
+      "blocked": false,
+      "weapon": null,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "right",
+      "blocked": false,
+      "weapon": "pipe",
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "direction": "right",
+      "blocked": true,
+      "weapon": null,
+      "frames": []
+    },
+    {
+      "direction": "right",
+      "blocked": true,
+      "weapon": "pipe",
+      "frames": []
+    }
+  ],
+  "attacks": [
+    {
+      "facing": -1,
+      "heavy": false,
+      "distance": 70,
+      "damage": 34
+    },
+    {
+      "facing": -1,
+      "heavy": false,
+      "distance": 240,
+      "damage": 0
+    },
+    {
+      "facing": -1,
+      "heavy": false,
+      "distance": 480,
+      "damage": 0
+    },
+    {
+      "facing": -1,
+      "heavy": true,
+      "distance": 70,
+      "damage": 26
+    },
+    {
+      "facing": -1,
+      "heavy": true,
+      "distance": 240,
+      "damage": 0
+    },
+    {
+      "facing": -1,
+      "heavy": true,
+      "distance": 480,
+      "damage": 0
+    },
+    {
+      "facing": 1,
+      "heavy": false,
+      "distance": 70,
+      "damage": 34
+    },
+    {
+      "facing": 1,
+      "heavy": false,
+      "distance": 240,
+      "damage": 0
+    },
+    {
+      "facing": 1,
+      "heavy": false,
+      "distance": 480,
+      "damage": 0
+    },
+    {
+      "facing": 1,
+      "heavy": true,
+      "distance": 70,
+      "damage": 26
+    },
+    {
+      "facing": 1,
+      "heavy": true,
+      "distance": 240,
+      "damage": 0
+    },
+    {
+      "facing": 1,
+      "heavy": true,
+      "distance": 480,
+      "damage": 0
+    }
+  ],
+  "captureFrames": 1981
+}

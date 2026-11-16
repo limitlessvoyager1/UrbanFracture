@@ -1,0 +1,798 @@
+{
+  "pass": true,
+  "checks": 240,
+  "rows": [
+    {
+      "dir": -1,
+      "weapon": "knife",
+      "heavy": false,
+      "distance": 70,
+      "damage": 23,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "knife",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "knife",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "knife",
+      "heavy": true,
+      "distance": 70,
+      "damage": 18,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "knife",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "knife",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "pipe",
+      "heavy": false,
+      "distance": 70,
+      "damage": 34,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "pipe",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "pipe",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "pipe",
+      "heavy": true,
+      "distance": 70,
+      "damage": 24,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "pipe",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "pipe",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "plank",
+      "heavy": false,
+      "distance": 70,
+      "damage": 34,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "plank",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "plank",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "plank",
+      "heavy": true,
+      "distance": 70,
+      "damage": 26,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "plank",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "plank",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "woodBat",
+      "heavy": false,
+      "distance": 70,
+      "damage": 38,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "woodBat",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "woodBat",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "woodBat",
+      "heavy": true,
+      "distance": 70,
+      "damage": 31,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "woodBat",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": -1,
+      "weapon": "woodBat",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "knife",
+      "heavy": false,
+      "distance": 70,
+      "damage": 23,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "knife",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "knife",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "knife",
+      "heavy": true,
+      "distance": 70,
+      "damage": 18,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "knife",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "knife",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "pipe",
+      "heavy": false,
+      "distance": 70,
+      "damage": 34,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "pipe",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "pipe",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "pipe",
+      "heavy": true,
+      "distance": 70,
+      "damage": 24,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "pipe",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "pipe",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "plank",
+      "heavy": false,
+      "distance": 70,
+      "damage": 34,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "plank",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "plank",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "plank",
+      "heavy": true,
+      "distance": 70,
+      "damage": 26,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "plank",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "plank",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "woodBat",
+      "heavy": false,
+      "distance": 70,
+      "damage": 38,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "woodBat",
+      "heavy": false,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "woodBat",
+      "heavy": false,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "woodBat",
+      "heavy": true,
+      "distance": 70,
+      "damage": 31,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "woodBat",
+      "heavy": true,
+      "distance": 240,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "dir": 1,
+      "weapon": "woodBat",
+      "heavy": true,
+      "distance": 480,
+      "damage": 0,
+      "poses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

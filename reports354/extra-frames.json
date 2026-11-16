@@ -1,0 +1,662 @@
+[
+  {
+    "id": "repair/0",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      0,
+      0,
+      191,
+      143
+    ],
+    "ax": 94.80916030534351,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 0
+  },
+  {
+    "id": "repair/1",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      200,
+      0,
+      191,
+      143
+    ],
+    "ax": 85.32824427480915,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 1
+  },
+  {
+    "id": "repair/2",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      400,
+      0,
+      191,
+      143
+    ],
+    "ax": 80.58778625954199,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 2
+  },
+  {
+    "id": "repair/3",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      600,
+      0,
+      191,
+      143
+    ],
+    "ax": 82.69465648854964,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 3
+  },
+  {
+    "id": "repair/4",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      0,
+      152,
+      191,
+      143
+    ],
+    "ax": 94.80916030534351,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 4
+  },
+  {
+    "id": "repair/5",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      200,
+      152,
+      191,
+      143
+    ],
+    "ax": 100.07633587786256,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 5
+  },
+  {
+    "id": "repair/6",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      400,
+      152,
+      191,
+      143
+    ],
+    "ax": 87.96183206106872,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 6
+  },
+  {
+    "id": "repair/7",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      600,
+      152,
+      191,
+      143
+    ],
+    "ax": 83.22137404580155,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 7
+  },
+  {
+    "id": "repair/8",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      0,
+      304,
+      191,
+      143
+    ],
+    "ax": 91.12213740458014,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 8
+  },
+  {
+    "id": "repair/9",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      200,
+      304,
+      191,
+      143
+    ],
+    "ax": 87.96183206106872,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 9
+  },
+  {
+    "id": "repair/10",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      400,
+      304,
+      191,
+      143
+    ],
+    "ax": 91.64885496183206,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 10
+  },
+  {
+    "id": "repair/11",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      600,
+      304,
+      191,
+      143
+    ],
+    "ax": 87.96183206106866,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 11
+  },
+  {
+    "id": "repair/12",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      0,
+      456,
+      191,
+      143
+    ],
+    "ax": 93.22900763358778,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 12
+  },
+  {
+    "id": "repair/13",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      200,
+      456,
+      191,
+      143
+    ],
+    "ax": 87.4351145038168,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 13
+  },
+  {
+    "id": "repair/14",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      400,
+      456,
+      191,
+      143
+    ],
+    "ax": 89.5419847328244,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 14
+  },
+  {
+    "id": "repair/15",
+    "source": "assets/sprites/reina-repair134.webp",
+    "rect": [
+      600,
+      456,
+      191,
+      143
+    ],
+    "ax": 92.70229007633588,
+    "ay": 143,
+    "scale": 1,
+    "sheet": 0,
+    "cell": 15
+  },
+  {
+    "id": "unique/0",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.2,
+    "ay": 256,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 16
+  },
+  {
+    "id": "unique/1",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      256,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.19999999999999,
+    "ay": 256,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 17
+  },
+  {
+    "id": "unique/2",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      512,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 256,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 18
+  },
+  {
+    "id": "unique/3",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      768,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 250,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 19
+  },
+  {
+    "id": "unique/4",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1024,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 228,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 20
+  },
+  {
+    "id": "unique/5",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1280,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 239,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 21
+  },
+  {
+    "id": "unique/6",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1536,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 256,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 22
+  },
+  {
+    "id": "unique/7",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1792,
+      0,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 255,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 23
+  },
+  {
+    "id": "unique/8",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      0,
+      256,
+      256,
+      256
+    ],
+    "ax": 115.2,
+    "ay": 244,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 24
+  },
+  {
+    "id": "unique/9",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      256,
+      256,
+      256,
+      256
+    ],
+    "ax": 115.19999999999999,
+    "ay": 244,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 25
+  },
+  {
+    "id": "unique/10",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      512,
+      256,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 243,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 26
+  },
+  {
+    "id": "unique/11",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      768,
+      256,
+      272,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 242,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 27
+  },
+  {
+    "id": "unique/12",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1040,
+      256,
+      240,
+      256
+    ],
+    "ax": 99.20000000000005,
+    "ay": 243,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 28
+  },
+  {
+    "id": "unique/13",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1280,
+      256,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 241,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 29
+  },
+  {
+    "id": "unique/14",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1536,
+      256,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 243,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 30
+  },
+  {
+    "id": "unique/15",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1792,
+      256,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 243,
+    "scale": 0.6883720930232559,
+    "sheet": 0,
+    "cell": 31
+  },
+  {
+    "id": "unique/16",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      0,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.2,
+    "ay": 226,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 0
+  },
+  {
+    "id": "unique/17",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      256,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.19999999999999,
+    "ay": 169,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 1
+  },
+  {
+    "id": "unique/18",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      512,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 241,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 2
+  },
+  {
+    "id": "unique/19",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      768,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 211,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 3
+  },
+  {
+    "id": "unique/20",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1024,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 226,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 4
+  },
+  {
+    "id": "unique/21",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1280,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 241,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 5
+  },
+  {
+    "id": "unique/22",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1536,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 245,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 6
+  },
+  {
+    "id": "unique/23",
+    "source": "assets/style310/unique311.webp",
+    "rect": [
+      1792,
+      512,
+      256,
+      256
+    ],
+    "ax": 115.20000000000005,
+    "ay": 244,
+    "scale": 0.6883720930232559,
+    "sheet": 1,
+    "cell": 7
+  },
+  {
+    "id": "kip/0",
+    "source": "assets/sprites/reina-kip169.webp",
+    "rect": [
+      0.0,
+      0.0,
+      562.08984375,
+      724.0
+    ],
+    "ax": 381.796875,
+    "ay": 640.0,
+    "scale": 0.24071604044769734,
+    "sheet": 1,
+    "cell": 8
+  },
+  {
+    "id": "kip/1",
+    "source": "assets/sprites/reina-kip169.webp",
+    "rect": [
+      562.08984375,
+      0.0,
+      562.08984375,
+      724.0
+    ],
+    "ax": 392.40234375,
+    "ay": 640.0,
+    "scale": 0.24071604044769734,
+    "sheet": 1,
+    "cell": 9
+  },
+  {
+    "id": "kip/2",
+    "source": "assets/sprites/reina-kip169.webp",
+    "rect": [
+      1124.1796875,
+      0.0,
+      562.08984375,
+      724.0
+    ],
+    "ax": 349.98046875,
+    "ay": 647.0,
+    "scale": 0.24071604044769734,
+    "sheet": 1,
+    "cell": 10
+  },
+  {
+    "id": "kip/3",
+    "source": "assets/sprites/reina-kip169.webp",
+    "rect": [
+      1686.26953125,
+      0.0,
+      485.73046875,
+      724.0
+    ],
+    "ax": 286.34765625,
+    "ay": 650.0,
+    "scale": 0.24071604044769734,
+    "sheet": 1,
+    "cell": 11
+  }
+]

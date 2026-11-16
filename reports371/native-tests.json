@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": 145,
+  "roles": [
+    "bruiser",
+    "gunner"
+  ],
+  "frameRates": [
+    30,
+    60,
+    120
+  ],
+  "physicalController": false,
+  "browser": false
+}

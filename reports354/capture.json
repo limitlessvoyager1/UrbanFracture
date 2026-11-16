@@ -1,0 +1,265 @@
+{
+  "poses": 441,
+  "rows": [
+    {
+      "move": "idle",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "walk",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "run",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "combo",
+      "frames": 180,
+      "replacedFrames": 180,
+      "initial": {
+        "act": "combo",
+        "hp": 999
+      },
+      "finalEnemyHP": 974,
+      "finalAction": null
+    },
+    {
+      "move": "jump",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "airKick",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "airKick",
+        "hp": 999
+      },
+      "finalEnemyHP": 988,
+      "finalAction": null
+    },
+    {
+      "move": "neutralAirKick",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "neutralAirKick",
+        "hp": 999
+      },
+      "finalEnemyHP": 989,
+      "finalAction": null
+    },
+    {
+      "move": "dodge",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "dodge",
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "sword",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "sword",
+        "hp": 999
+      },
+      "finalEnemyHP": 971,
+      "finalAction": null
+    },
+    {
+      "move": "dashSword",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "dashSword",
+        "hp": 999
+      },
+      "finalEnemyHP": 964,
+      "finalAction": null
+    },
+    {
+      "move": "tornado",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "tornadoKick130",
+        "hp": 999
+      },
+      "finalEnemyHP": 959,
+      "finalAction": null
+    },
+    {
+      "move": "reap",
+      "frames": 130,
+      "replacedFrames": 130,
+      "initial": {
+        "act": "throw",
+        "hp": 60
+      },
+      "finalEnemyHP": 38,
+      "finalAction": null
+    },
+    {
+      "move": "german",
+      "frames": 130,
+      "replacedFrames": 130,
+      "initial": {
+        "act": "suplex",
+        "hp": 60
+      },
+      "finalEnemyHP": 32,
+      "finalAction": null
+    },
+    {
+      "move": "grab",
+      "frames": 190,
+      "replacedFrames": 190,
+      "initial": {
+        "act": "knee",
+        "hp": 999
+      },
+      "finalEnemyHP": 976,
+      "finalAction": null
+    },
+    {
+      "move": "weapon",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "weapon248",
+        "hp": 999
+      },
+      "finalEnemyHP": 976.2,
+      "finalAction": null
+    },
+    {
+      "move": "down",
+      "frames": 115,
+      "replacedFrames": 115,
+      "initial": {
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "charge-walk",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "chargeHold130",
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": "chargeHold130"
+    },
+    {
+      "move": "dive",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "airKnee",
+        "hp": 999
+      },
+      "finalEnemyHP": 989,
+      "finalAction": null
+    },
+    {
+      "move": "blitz",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "blitzKick",
+        "hp": 999
+      },
+      "finalEnemyHP": 969,
+      "finalAction": null
+    },
+    {
+      "move": "counter-punch",
+      "frames": 150,
+      "replacedFrames": 150,
+      "initial": {
+        "act": "counterHold248",
+        "hp": 999
+      },
+      "finalEnemyHP": 935,
+      "finalAction": null
+    },
+    {
+      "move": "counter-kick",
+      "frames": 150,
+      "replacedFrames": 150,
+      "initial": {
+        "act": "counterHold248",
+        "hp": 999
+      },
+      "finalEnemyHP": 999,
+      "finalAction": null
+    },
+    {
+      "move": "dragon",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "dragonTail311",
+        "hp": 999
+      },
+      "finalEnemyHP": 975,
+      "finalAction": null
+    },
+    {
+      "move": "wheel",
+      "frames": 90,
+      "replacedFrames": 90,
+      "initial": {
+        "act": "swordWheel311",
+        "hp": 999
+      },
+      "finalEnemyHP": 969,
+      "finalAction": null
+    },
+    {
+      "move": "counter-special",
+      "frames": 150,
+      "replacedFrames": 150,
+      "initial": {
+        "act": "counterHold248",
+        "hp": 999
+      },
+      "finalEnemyHP": 943,
+      "finalAction": null
+    }
+  ],
+  "frames": 2635
+}

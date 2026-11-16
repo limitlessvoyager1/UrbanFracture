@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "frames": 445,
+  "rows": [
+    {
+      "label": "Same model · idle",
+      "hero": {
+        "family": "loc",
+        "frame": 0,
+        "bodyHeight": 148
+      },
+      "hipFactor": 1
+    },
+    {
+      "label": "Same model · walk",
+      "hero": {
+        "family": "loc",
+        "frame": 7,
+        "bodyHeight": 148
+      },
+      "hipFactor": 1
+    },
+    {
+      "label": "Same model · run",
+      "hero": {
+        "family": "loc",
+        "frame": 16,
+        "bodyHeight": 148
+      },
+      "hipFactor": 1
+    },
+    {
+      "label": "Held enemy · actual hit reaction",
+      "grip": {
+        "at": 0.3,
+        "stage": 1
+      },
+      "action": "knee",
+      "hipFactor": 1
+    },
+    {
+      "label": "Hip throw · calibrated to normal body scale",
+      "action": "backThrow",
+      "hipFactor": 1
+    },
+    {
+      "label": "Restored native suplex · coupled hand / waist rig",
+      "action": "suplex",
+      "hipFactor": 1
+    },
+    {
+      "label": "Sword Stance · rise",
+      "hero": {
+        "family": "att",
+        "frame": 8,
+        "bodyHeight": 148
+      },
+      "action": "stanceSword381",
+      "hipFactor": 1
+    },
+    {
+      "label": "Sword Stance · sweep",
+      "hero": {
+        "family": "att",
+        "frame": 18,
+        "bodyHeight": 148
+      },
+      "action": "stanceSword381",
+      "hipFactor": 1
+    },
+    {
+      "label": "Sword Stance · cleaver",
+      "hero": {
+        "family": "att",
+        "frame": 32,
+        "bodyHeight": 148
+      },
+      "action": "stanceSword381",
+      "hipFactor": 1
+    },
+    {
+      "label": "Sword Stance walk · head and facing follow movement",
+      "hero": {
+        "family": "loc",
+        "frame": 30,
+        "bodyHeight": 148
+      },
+      "hipFactor": 1
+    }
+  ],
+  "hipFactor": 1,
+  "source": "Actual native simulation and current complete sprite draw stack",
+  "browser": false,
+  "hardware": false
+}

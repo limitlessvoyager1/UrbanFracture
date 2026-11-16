@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "bodySlots": 181,
+  "gaits": [
+    {
+      "mode": "walk",
+      "frames": 12,
+      "distinct": 12,
+      "gripsOpaque": true
+    },
+    {
+      "mode": "run",
+      "frames": 12,
+      "distinct": 12,
+      "gripsOpaque": true
+    }
+  ],
+  "phoneFrames": 24,
+  "scope": "asset coverage, not complete artistic certification"
+}

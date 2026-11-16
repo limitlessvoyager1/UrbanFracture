@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "checks": 190,
+  "frames": 560,
+  "rows": [
+    {
+      "label": "idle",
+      "render": {
+        "frame": 0,
+        "state": "original-idle",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      }
+    },
+    {
+      "label": "long",
+      "render": {
+        "frame": 4,
+        "state": "weapon",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "socket": {
+        "hand": [
+          29.744595020485352,
+          -68.1322407815947
+        ],
+        "frame": 4
+      }
+    },
+    {
+      "label": "short",
+      "render": {
+        "frame": 5,
+        "state": "weapon",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "socket": {
+        "hand": [
+          -9.142136779073423,
+          -76.32284903876457
+        ],
+        "frame": 5
+      }
+    },
+    {
+      "label": "armed-walk",
+      "render": {
+        "frame": 28,
+        "state": "weapon",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "socket": {
+        "hand": [
+          27.31134020618556,
+          -86.74622897449808
+        ],
+        "frame": 28
+      }
+    },
+    {
+      "label": "weapon-attack",
+      "render": {
+        "frame": 12,
+        "state": "weapon",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "socket": {
+        "hand": [
+          -12.687046958714147,
+          -147.2490387645761
+        ],
+        "native": [
+          -12.687046958714147,
+          -147.2490387645761
+        ],
+        "frame": 12
+      },
+      "action": "weapon248"
+    },
+    {
+      "label": "neutral-kick",
+      "render": {
+        "frame": 18,
+        "state": "neutral-air-kick",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "neutralAirKick"
+    },
+    {
+      "label": "forward-kick",
+      "render": {
+        "frame": 26,
+        "state": "airKick",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "airKick"
+    },
+    {
+      "label": "blitz",
+      "render": {
+        "frame": 35,
+        "state": "blitz",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "blitzKick"
+    },
+    {
+      "label": "air-sword",
+      "render": {
+        "frame": 43,
+        "state": "air-sword",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "swordWheel311"
+    },
+    {
+      "label": "grab-knee",
+      "render": {
+        "frame": 1,
+        "state": "grab-combo",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "knee"
+    },
+    {
+      "label": "grab-elbow",
+      "render": {
+        "frame": 4,
+        "state": "grab-combo",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "knee"
+    },
+    {
+      "label": "grab-palm",
+      "render": {
+        "frame": 6,
+        "state": "grab-combo",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "knee"
+    },
+    {
+      "label": "counter",
+      "render": {
+        "frame": 13,
+        "state": "dragon-tail-counter",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "counterMove248"
+    },
+    {
+      "label": "sword-strike",
+      "render": {
+        "frame": 19,
+        "state": "visible-rising-slash",
+        "bodyScale": 0.7789473684210526,
+        "looseHair": true
+      },
+      "action": "stanceSword381"
+    }
+  ],
+  "source": "Native action clocks and current complete renderer with original-posture restoration and mapped weapon sockets",
+  "browser": false,
+  "hardware": false
+}

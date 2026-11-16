@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "checks": 1530,
+  "rows": [
+    {
+      "dir": -1,
+      "fps": 30,
+      "travel": -280,
+      "groundedRecovery": 0.8,
+      "damage": 22
+    },
+    {
+      "dir": -1,
+      "fps": 60,
+      "travel": -280,
+      "groundedRecovery": 0.8166666666666667,
+      "damage": 22
+    },
+    {
+      "dir": -1,
+      "fps": 120,
+      "travel": -280,
+      "groundedRecovery": 0.8,
+      "damage": 22
+    },
+    {
+      "dir": 1,
+      "fps": 30,
+      "travel": 280,
+      "groundedRecovery": 0.8,
+      "damage": 22
+    },
+    {
+      "dir": 1,
+      "fps": 60,
+      "travel": 280,
+      "groundedRecovery": 0.8166666666666667,
+      "damage": 22
+    },
+    {
+      "dir": 1,
+      "fps": 120,
+      "travel": 280,
+      "groundedRecovery": 0.8,
+      "damage": 22
+    }
+  ]
+}

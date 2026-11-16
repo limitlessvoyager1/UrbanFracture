@@ -1,0 +1,15 @@
+PASS raw Sony centered hat/discrete D-pad, neutral rearming with drift, DSX virtual selection, full custom calibration and axes/buttons
+✔ tests/controller-recovery.test.cjs (121.168086ms)
+PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+✔ tests/controller157.cjs (107.456469ms)
+PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+✔ tests/gamepad.test.cjs (145.660597ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 161.56836

@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "frames": 400,
+  "rows": [
+    {
+      "label": "K'marr · combo · frame 26",
+      "time": 0.44999999999999996,
+      "actors": [
+        {
+          "name": "K'marr",
+          "hp": 65,
+          "state": "ATTACK",
+          "frame": 23
+        },
+        {
+          "name": "Ty Sly",
+          "hp": 75,
+          "state": "RECOVER",
+          "frame": 1
+        }
+      ],
+      "enemyHP": [
+        88
+      ]
+    },
+    {
+      "label": "K'marr · bash · frame 18",
+      "time": 0.31666666666666665,
+      "actors": [
+        {
+          "name": "K'marr",
+          "hp": 65,
+          "state": "ATTACK",
+          "frame": 31
+        },
+        {
+          "name": "Ty Sly",
+          "hp": 75,
+          "state": "RECOVER",
+          "frame": 0
+        }
+      ],
+      "enemyHP": [
+        85
+      ]
+    },
+    {
+      "label": "Ty Sly · swing · frame 18",
+      "time": 0.31666666666666665,
+      "actors": [
+        {
+          "name": "K'marr",
+          "hp": 65,
+          "state": "RECOVER",
+          "frame": 0
+        },
+        {
+          "name": "Ty Sly",
+          "hp": 75,
+          "state": "ATTACK",
+          "frame": 21
+        }
+      ],
+      "enemyHP": [
+        88,
+        88
+      ]
+    },
+    {
+      "label": "Ty Sly · thrust · frame 26",
+      "time": 0.44999999999999996,
+      "actors": [
+        {
+          "name": "K'marr",
+          "hp": 65,
+          "state": "RECOVER",
+          "frame": 1
+        },
+        {
+          "name": "Ty Sly",
+          "hp": 75,
+          "state": "ATTACK",
+          "frame": 31
+        }
+      ],
+      "enemyHP": [
+        84
+      ]
+    },
+    {
+      "label": "K’marr defeated · native rise and injured retreat",
+      "time": 0.8833333333333344,
+      "actors": [
+        {
+          "name": "K'marr",
+          "hp": 0,
+          "state": "GET_UP",
+          "frame": 41
+        },
+        {
+          "name": "Ty Sly",
+          "hp": 75,
+          "state": "RECOVER",
+          "frame": 2
+        }
+      ],
+      "enemyHP": [
+        100
+      ]
+    },
+    {
+      "label": "K’marr defeated · native rise and injured retreat",
+      "time": 1.8499999999999983,
+      "actors": [
+        {
+          "name": "K'marr",
+          "hp": 0,
+          "state": "LIMP_EXIT",
+          "frame": 46
+        },
+        {
+          "name": "Ty Sly",
+          "hp": 75,
+          "state": "RECOVER",
+          "frame": 1
+        }
+      ],
+      "enemyHP": [
+        100
+      ]
+    }
+  ],
+  "source": "Native production controller and actual whole-body sprite owners, rendered in a controlled combat fixture",
+  "browser": false,
+  "physicalController": false
+}

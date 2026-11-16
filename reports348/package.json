@@ -1,0 +1,29 @@
+{
+  "scope": "Downtown-only review build; original dist unchanged",
+  "excludedPresentationScripts": [
+    "airport-view309.js",
+    "airport-view312.js",
+    "airport-weather312.js",
+    "airport332-data.js",
+    "baylor-data237.js",
+    "baylor-view237.js",
+    "fans-data237.js",
+    "fans332-data.js",
+    "hydro-view243.js",
+    "reina-dive313-data.js",
+    "reina-view312.js",
+    "reina-view313.js",
+    "reina312-data.js",
+    "stadium-view237.js",
+    "stadium313-data.js",
+    "style310-data.js",
+    "style310.js",
+    "subway-audio238.js",
+    "subway-ui238.js",
+    "subway-view238.js",
+    "unique-view311.js",
+    "unique311-data.js"
+  ],
+  "expandedFilesBytes": 264260624,
+  "retainedImageCount": 1103
+}

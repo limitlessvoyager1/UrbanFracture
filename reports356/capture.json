@@ -1,0 +1,221 @@
+{
+  "frames": 3630,
+  "cases": [
+    {
+      "move": "idle",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "walk",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "run",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "combo",
+      "initial": "broxCombo179",
+      "frames": 180,
+      "replacement": 180,
+      "enemyHp": 960,
+      "finalAction": null
+    },
+    {
+      "move": "jump",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "airKick",
+      "initial": "broxSuperman",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 976,
+      "finalAction": null
+    },
+    {
+      "move": "neutralKick",
+      "initial": "broxHeel",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 975,
+      "finalAction": null
+    },
+    {
+      "move": "dodge",
+      "initial": "dodge",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "clearout",
+      "initial": "broxSpin",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 977,
+      "finalAction": null
+    },
+    {
+      "move": "spear",
+      "initial": "broxSpear137",
+      "frames": 160,
+      "replacement": 160,
+      "enemyHp": 974.0000000000001,
+      "finalAction": null
+    },
+    {
+      "move": "blitz",
+      "initial": "broxRush179",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 936,
+      "finalAction": null
+    },
+    {
+      "move": "forward",
+      "initial": "broxGrapple179",
+      "frames": 160,
+      "replacement": 160,
+      "enemyHp": 952,
+      "finalAction": null
+    },
+    {
+      "move": "back",
+      "initial": "broxGrapple179",
+      "frames": 160,
+      "replacement": 160,
+      "enemyHp": 940,
+      "finalAction": null
+    },
+    {
+      "move": "choke",
+      "initial": "broxGrapple179",
+      "frames": 160,
+      "replacement": 160,
+      "enemyHp": 928,
+      "finalAction": null
+    },
+    {
+      "move": "shield",
+      "initial": "broxControl181",
+      "frames": 160,
+      "replacement": 160,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "grab-combo",
+      "initial": "broxBody",
+      "frames": 190,
+      "replacement": 190,
+      "enemyHp": 960,
+      "finalAction": null
+    },
+    {
+      "move": "charge",
+      "initial": "ironWill179",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "weapon",
+      "initial": "weapon248",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "weapon-pickup",
+      "initial": "weapon248",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "weapon-throw",
+      "initial": "weapon248",
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 978.4,
+      "finalAction": null
+    },
+    {
+      "move": "weapon-walk",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "weapon-run",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "shock",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "stun",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "down",
+      "initial": null,
+      "frames": 120,
+      "replacement": 120,
+      "enemyHp": 1000,
+      "finalAction": null
+    },
+    {
+      "move": "counter-punch",
+      "initial": "counterHold248",
+      "frames": 150,
+      "replacement": 150,
+      "enemyHp": 942,
+      "finalAction": null
+    },
+    {
+      "move": "counter-kick",
+      "initial": "counterHold248",
+      "frames": 150,
+      "replacement": 150,
+      "enemyHp": 954,
+      "finalAction": null
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "move": "sweep",
+    "simulationFrames": 304,
+    "finalHP": 974,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "vault",
+    "simulationFrames": 176,
+    "finalHP": 973,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "roll",
+    "simulationFrames": 205,
+    "finalHP": 968,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "gun",
+    "simulationFrames": 126,
+    "finalHP": 995,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "vault-collateral",
+    "simulationFrames": 176,
+    "finalHP": 973,
+    "droneVisible": true,
+    "collateral": [
+      {
+        "id": 11,
+        "hp": 985
+      },
+      {
+        "id": 12,
+        "hp": 985
+      },
+      {
+        "id": 13,
+        "hp": 985
+      }
+    ],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "grab",
+    "simulationFrames": 206,
+    "finalHP": 977,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "melee",
+    "simulationFrames": 190,
+    "finalHP": 970,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "charge",
+    "simulationFrames": 172,
+    "finalHP": 982,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "flame",
+    "simulationFrames": 204,
+    "finalHP": 970,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "heal",
+    "simulationFrames": 186,
+    "finalHP": 994,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  },
+  {
+    "move": "missile",
+    "simulationFrames": 150,
+    "finalHP": 986,
+    "droneVisible": true,
+    "collateral": [],
+    "locks": false,
+    "finalAction": null
+  }
+]

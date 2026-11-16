@@ -1,0 +1,2106 @@
+{
+  "checks": 253151,
+  "cases": [
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "thug",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "knifeThug",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "enforcer",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "biker",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "cop",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "flint",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "sato",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "akari",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "bouncer",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40
+      }
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 30,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 40.00000000000002
+      }
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 60,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": 1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": 1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": 1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": 1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": -1,
+      "move": "sweep",
+      "damage": 26,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": -1,
+      "move": "vault",
+      "damage": 27,
+      "release": {
+        "velocity": 720,
+        "frame": 39.50000000000001
+      }
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": -1,
+      "move": "roll",
+      "damage": 32,
+      "release": null
+    },
+    {
+      "type": "boss",
+      "hz": 120,
+      "dir": -1,
+      "move": "grab",
+      "damage": 23,
+      "release": null
+    }
+  ],
+  "pass": true
+}

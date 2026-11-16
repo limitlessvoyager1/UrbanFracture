@@ -1,0 +1,37 @@
+{
+  "pass": true,
+  "checks": 219,
+  "receipts": [
+    {
+      "mode": "idle",
+      "frame": 0,
+      "actor": 7,
+      "x": 400
+    },
+    {
+      "mode": "walk",
+      "frame": 5,
+      "actor": 7,
+      "x": 593.3333333333329
+    },
+    {
+      "mode": "idle",
+      "frame": 1,
+      "actor": 7,
+      "x": 400
+    },
+    {
+      "mode": "run",
+      "frame": 0,
+      "actor": 7,
+      "x": 680
+    },
+    {
+      "mode": "idle",
+      "frame": 3,
+      "actor": 7,
+      "x": 400
+    }
+  ],
+  "oldIdleFallbacks": 0
+}

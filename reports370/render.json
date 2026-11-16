@@ -1,0 +1,1257 @@
+{
+  "passed": true,
+  "source": "actual native sprite renderer plus temporary test adapters; no final defector art",
+  "browserTested": false,
+  "physicalControllerTested": false,
+  "receipts": [
+    {
+      "frame": 0,
+      "phone": null,
+      "assignment": 2,
+      "registeredRoles": [
+        "bruiser",
+        "gunner",
+        "hammer",
+        "enforcer",
+        "cutter"
+      ],
+      "lastPair": null,
+      "owner": null,
+      "actors": [],
+      "events": []
+    },
+    {
+      "frame": 114,
+      "phone": "speak",
+      "assignment": 2,
+      "registeredRoles": [
+        "bruiser",
+        "gunner",
+        "hammer",
+        "enforcer",
+        "cutter"
+      ],
+      "lastPair": [
+        "bruiser",
+        "gunner"
+      ],
+      "owner": null,
+      "actors": [],
+      "events": [
+        {
+          "type": "selected",
+          "at": 1.8999999999999981,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ],
+          "seed": 1603670727
+        }
+      ]
+    },
+    {
+      "frame": 230,
+      "phone": null,
+      "assignment": 2,
+      "registeredRoles": [
+        "bruiser",
+        "gunner",
+        "hammer",
+        "enforcer",
+        "cutter"
+      ],
+      "lastPair": [
+        "bruiser",
+        "gunner"
+      ],
+      "owner": null,
+      "actors": [
+        {
+          "id": 12,
+          "role": "bruiser",
+          "hp": 60,
+          "state": "APPROACH_IDEAL_RANGE",
+          "target": 11
+        },
+        {
+          "id": 13,
+          "role": "gunner",
+          "hp": 60,
+          "state": "APPROACH_IDEAL_RANGE",
+          "target": 11
+        }
+      ],
+      "events": [
+        {
+          "type": "selected",
+          "at": 1.8999999999999981,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ],
+          "seed": 1603670727
+        },
+        {
+          "type": "entering",
+          "at": 3.2833333333333266,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ]
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 12,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        }
+      ]
+    },
+    {
+      "frame": 280,
+      "phone": null,
+      "assignment": 2,
+      "registeredRoles": [
+        "bruiser",
+        "gunner",
+        "hammer",
+        "enforcer",
+        "cutter"
+      ],
+      "lastPair": [
+        "bruiser",
+        "gunner"
+      ],
+      "owner": null,
+      "actors": [
+        {
+          "id": 12,
+          "role": "bruiser",
+          "hp": 60,
+          "state": "APPROACH_IDEAL_RANGE",
+          "target": 11
+        },
+        {
+          "id": 13,
+          "role": "gunner",
+          "hp": 60,
+          "state": "POSITION",
+          "target": 11
+        }
+      ],
+      "events": [
+        {
+          "type": "selected",
+          "at": 1.8999999999999981,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ],
+          "seed": 1603670727
+        },
+        {
+          "type": "entering",
+          "at": 3.2833333333333266,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ]
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 12,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "state": "ATTACK"
+        },
+        {
+          "type": "attack",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "target": 11,
+          "move": "TEMP native punch 0"
+        },
+        {
+          "type": "state",
+          "at": 4.049999999999991,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.049999999999991,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.166666666666657,
+          "actor": 12,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 4.166666666666657,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 4.183333333333324,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.183333333333324,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 4.216666666666657,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 4.316666666666657,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.316666666666657,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.4499999999999895,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.4499999999999895,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.583333333333322,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.583333333333322,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.599999999999989,
+          "actor": 13,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 4.616666666666656,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.616666666666656,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.649999999999989,
+          "actor": 13,
+          "state": "POSITION"
+        }
+      ]
+    },
+    {
+      "frame": 330,
+      "phone": null,
+      "assignment": 2,
+      "registeredRoles": [
+        "bruiser",
+        "gunner",
+        "hammer",
+        "enforcer",
+        "cutter"
+      ],
+      "lastPair": [
+        "bruiser",
+        "gunner"
+      ],
+      "owner": 13,
+      "actors": [
+        {
+          "id": 12,
+          "role": "bruiser",
+          "hp": 55,
+          "state": "APPROACH_IDEAL_RANGE",
+          "target": 11
+        },
+        {
+          "id": 13,
+          "role": "gunner",
+          "hp": 60,
+          "state": "RECOVER",
+          "target": 11
+        }
+      ],
+      "events": [
+        {
+          "type": "selected",
+          "at": 1.8999999999999981,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ],
+          "seed": 1603670727
+        },
+        {
+          "type": "entering",
+          "at": 3.2833333333333266,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ]
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 12,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "state": "ATTACK"
+        },
+        {
+          "type": "attack",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "target": 11,
+          "move": "TEMP native punch 0"
+        },
+        {
+          "type": "state",
+          "at": 4.049999999999991,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.049999999999991,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.166666666666657,
+          "actor": 12,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 4.166666666666657,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 4.183333333333324,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.183333333333324,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 4.216666666666657,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 4.316666666666657,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.316666666666657,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.4499999999999895,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.4499999999999895,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.583333333333322,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.583333333333322,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.599999999999989,
+          "actor": 13,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 4.616666666666656,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.616666666666656,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.649999999999989,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 4.716666666666655,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.716666666666655,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.7499999999999885,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.7499999999999885,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 4.849999999999988,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.849999999999988,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.883333333333321,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.883333333333321,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 4.966666666666654,
+          "actor": 13,
+          "state": "ATTACK"
+        },
+        {
+          "type": "attack",
+          "at": 4.966666666666654,
+          "actor": 13,
+          "target": 11,
+          "move": "TEMP native punch 1"
+        },
+        {
+          "type": "state",
+          "at": 4.983333333333321,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.983333333333321,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 5.116666666666654,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.116666666666654,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 5.199999999999987,
+          "actor": 12,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 5.199999999999987,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 5.249999999999987,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.249999999999987,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 5.249999999999987,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 5.3833333333333195,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.3833333333333195,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        }
+      ]
+    },
+    {
+      "frame": 360,
+      "phone": null,
+      "assignment": 2,
+      "registeredRoles": [
+        "bruiser",
+        "gunner",
+        "hammer",
+        "enforcer",
+        "cutter"
+      ],
+      "lastPair": [
+        "bruiser",
+        "gunner"
+      ],
+      "owner": 13,
+      "actors": [
+        {
+          "id": 12,
+          "role": "bruiser",
+          "hp": 55,
+          "state": "HITSTUN",
+          "target": 11
+        },
+        {
+          "id": 13,
+          "role": "gunner",
+          "hp": 60,
+          "state": "ATTACK",
+          "target": 11
+        }
+      ],
+      "events": [
+        {
+          "type": "selected",
+          "at": 1.8999999999999981,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ],
+          "seed": 1603670727
+        },
+        {
+          "type": "entering",
+          "at": 3.2833333333333266,
+          "pair": [
+            "bruiser",
+            "gunner"
+          ]
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 12,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.299999999999993,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.649999999999992,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.7833333333333248,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 3.9166666666666576,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "state": "ATTACK"
+        },
+        {
+          "type": "attack",
+          "at": 3.9333333333333242,
+          "actor": 13,
+          "target": 11,
+          "move": "TEMP native punch 0"
+        },
+        {
+          "type": "state",
+          "at": 4.049999999999991,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.049999999999991,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.166666666666657,
+          "actor": 12,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 4.166666666666657,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 4.183333333333324,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.183333333333324,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 4.216666666666657,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 4.316666666666657,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.316666666666657,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.4499999999999895,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.4499999999999895,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.583333333333322,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.583333333333322,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.599999999999989,
+          "actor": 13,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 4.616666666666656,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.616666666666656,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.649999999999989,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 4.716666666666655,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.716666666666655,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.7499999999999885,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.7499999999999885,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 4.849999999999988,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.849999999999988,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 4.883333333333321,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.883333333333321,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 4.966666666666654,
+          "actor": 13,
+          "state": "ATTACK"
+        },
+        {
+          "type": "attack",
+          "at": 4.966666666666654,
+          "actor": 13,
+          "target": 11,
+          "move": "TEMP native punch 1"
+        },
+        {
+          "type": "state",
+          "at": 4.983333333333321,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 4.983333333333321,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 5.116666666666654,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.116666666666654,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 5.199999999999987,
+          "actor": 12,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 5.199999999999987,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 5.249999999999987,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.249999999999987,
+          "actor": 12,
+          "state": "FOLLOW"
+        },
+        {
+          "type": "state",
+          "at": 5.249999999999987,
+          "actor": 13,
+          "state": "RECOVER"
+        },
+        {
+          "type": "state",
+          "at": 5.3833333333333195,
+          "actor": 12,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.3833333333333195,
+          "actor": 12,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 5.516666666666652,
+          "actor": 12,
+          "state": "HITSTUN"
+        },
+        {
+          "type": "state",
+          "at": 5.633333333333319,
+          "actor": 13,
+          "state": "REASSESS"
+        },
+        {
+          "type": "state",
+          "at": 5.649999999999985,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.649999999999985,
+          "actor": 13,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "type": "state",
+          "at": 5.6833333333333185,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 5.783333333333318,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.783333333333318,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 5.916666666666651,
+          "actor": 13,
+          "state": "ACQUIRE_TARGET"
+        },
+        {
+          "type": "state",
+          "at": 5.916666666666651,
+          "actor": 13,
+          "state": "POSITION"
+        },
+        {
+          "type": "state",
+          "at": 5.999999999999984,
+          "actor": 13,
+          "state": "ATTACK"
+        },
+        {
+          "type": "attack",
+          "at": 5.999999999999984,
+          "actor": 13,
+          "target": 11,
+          "move": "TEMP native punch 0"
+        }
+      ]
+    }
+  ]
+}

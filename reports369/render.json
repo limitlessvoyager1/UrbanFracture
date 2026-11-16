@@ -1,0 +1,399 @@
+{
+  "pass": true,
+  "checks": 118,
+  "receipts": [
+    {
+      "mode": "idle",
+      "dir": 1,
+      "frame": 0,
+      "pixels": 17874,
+      "height": 203
+    },
+    {
+      "mode": "idle",
+      "dir": 1,
+      "frame": 1,
+      "pixels": 17777,
+      "height": 202
+    },
+    {
+      "mode": "idle",
+      "dir": 1,
+      "frame": 2,
+      "pixels": 17809,
+      "height": 203
+    },
+    {
+      "mode": "idle",
+      "dir": 1,
+      "frame": 3,
+      "pixels": 17887,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 0,
+      "pixels": 16356,
+      "height": 201
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 1,
+      "pixels": 15248,
+      "height": 200
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 2,
+      "pixels": 13651,
+      "height": 199
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 3,
+      "pixels": 15040,
+      "height": 201
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 4,
+      "pixels": 14600,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 5,
+      "pixels": 13258,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 6,
+      "pixels": 14988,
+      "height": 201
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 7,
+      "pixels": 15860,
+      "height": 199
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 8,
+      "pixels": 15910,
+      "height": 203
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 9,
+      "pixels": 15301,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 10,
+      "pixels": 15585,
+      "height": 200
+    },
+    {
+      "mode": "walk",
+      "dir": 1,
+      "frame": 11,
+      "pixels": 15500,
+      "height": 202
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 0,
+      "pixels": 15363,
+      "height": 193
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 1,
+      "pixels": 13884,
+      "height": 194
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 2,
+      "pixels": 13695,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 3,
+      "pixels": 13825,
+      "height": 199
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 4,
+      "pixels": 14104,
+      "height": 201
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 5,
+      "pixels": 14172,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 6,
+      "pixels": 15026,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 7,
+      "pixels": 15983,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 8,
+      "pixels": 14759,
+      "height": 203
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 9,
+      "pixels": 14178,
+      "height": 203
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 10,
+      "pixels": 15115,
+      "height": 200
+    },
+    {
+      "mode": "run",
+      "dir": 1,
+      "frame": 11,
+      "pixels": 15726,
+      "height": 201
+    },
+    {
+      "mode": "idle",
+      "dir": -1,
+      "frame": 0,
+      "pixels": 17874,
+      "height": 203
+    },
+    {
+      "mode": "idle",
+      "dir": -1,
+      "frame": 1,
+      "pixels": 17777,
+      "height": 202
+    },
+    {
+      "mode": "idle",
+      "dir": -1,
+      "frame": 2,
+      "pixels": 17809,
+      "height": 203
+    },
+    {
+      "mode": "idle",
+      "dir": -1,
+      "frame": 3,
+      "pixels": 17887,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 0,
+      "pixels": 16356,
+      "height": 201
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 1,
+      "pixels": 15248,
+      "height": 200
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 2,
+      "pixels": 13651,
+      "height": 199
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 3,
+      "pixels": 15040,
+      "height": 201
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 4,
+      "pixels": 14600,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 5,
+      "pixels": 13258,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 6,
+      "pixels": 14988,
+      "height": 201
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 7,
+      "pixels": 15860,
+      "height": 199
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 8,
+      "pixels": 15910,
+      "height": 203
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 9,
+      "pixels": 15301,
+      "height": 202
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 10,
+      "pixels": 15585,
+      "height": 200
+    },
+    {
+      "mode": "walk",
+      "dir": -1,
+      "frame": 11,
+      "pixels": 15500,
+      "height": 202
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 0,
+      "pixels": 15363,
+      "height": 193
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 1,
+      "pixels": 13884,
+      "height": 194
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 2,
+      "pixels": 13695,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 3,
+      "pixels": 13825,
+      "height": 199
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 4,
+      "pixels": 14104,
+      "height": 201
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 5,
+      "pixels": 14172,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 6,
+      "pixels": 15026,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 7,
+      "pixels": 15983,
+      "height": 198
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 8,
+      "pixels": 14759,
+      "height": 203
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 9,
+      "pixels": 14178,
+      "height": 203
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 10,
+      "pixels": 15115,
+      "height": 200
+    },
+    {
+      "mode": "run",
+      "dir": -1,
+      "frame": 11,
+      "pixels": 15726,
+      "height": 201
+    }
+  ],
+  "scope": "actual gait draw owner and shared scale; not browser or physical hardware"
+}

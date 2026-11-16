@@ -1,0 +1,103 @@
+{
+  "pass": true,
+  "checks": 1883,
+  "phaseRows": [
+    {
+      "dir": 1,
+      "frame": 1,
+      "phase": "reach",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 12,
+      "phase": "reach",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 21,
+      "phase": "dial",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 33,
+      "phase": "ring",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 42,
+      "phase": "speak",
+      "energy": 70
+    },
+    {
+      "dir": 1,
+      "frame": 57,
+      "phase": "pocket",
+      "energy": 70
+    },
+    {
+      "dir": 1,
+      "frame": 71,
+      "phase": "pocket",
+      "energy": 70
+    },
+    {
+      "dir": -1,
+      "frame": 1,
+      "phase": "reach",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 12,
+      "phase": "reach",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 21,
+      "phase": "dial",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 33,
+      "phase": "ring",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 42,
+      "phase": "speak",
+      "energy": 70
+    },
+    {
+      "dir": -1,
+      "frame": 57,
+      "phase": "pocket",
+      "energy": 70
+    },
+    {
+      "dir": -1,
+      "frame": 71,
+      "phase": "pocket",
+      "energy": 70
+    }
+  ],
+  "benchmark": {
+    "calls": 100,
+    "steps": 7300,
+    "ms": 1051.778429,
+    "msPerTick": 0.14407923684931506,
+    "scope": "native simulation only; not browser FPS"
+  },
+  "holds": [
+    "physical DualSense",
+    "browser gameplay",
+    "actual roster arrival/exit",
+    "final voice recording"
+  ]
+}

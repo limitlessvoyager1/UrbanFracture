@@ -1,0 +1,22 @@
+{
+  "source": "Every native Brawler simulation frame rendered through current illustrated sprite adapters with @napi-rs/canvas1.1.1; fixed seed347, passive target. Cropped/enlarged from960x540 for inspection.",
+  "audio": "Silent frame capture; synthesized in-game impact/groan audio requires browser playback.",
+  "speeds": [
+    1,
+    0.5,
+    0.25
+  ],
+  "moves": [
+    "sweep",
+    "vault",
+    "vault-collateral",
+    "roll",
+    "grab",
+    "melee",
+    "gun",
+    "charge",
+    "flame",
+    "heal",
+    "missile"
+  ]
+}

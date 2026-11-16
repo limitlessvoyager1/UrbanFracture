@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "label": "Before native street-section crossing",
+      "time": 10.000000000000076,
+      "zone": 0,
+      "deadline": 28.03333333333331,
+      "request": "active",
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "id": 11,
+          "hp": 85,
+          "x": 1598.0848429271925,
+          "state": "FOLLOW"
+        },
+        {
+          "name": "Michelle Roxx",
+          "id": 12,
+          "hp": 55,
+          "x": 1779.3253550495826,
+          "state": "FOLLOW"
+        }
+      ]
+    },
+    {
+      "label": "Same actors retained through native locked-battle pan",
+      "time": 10.450000000000099,
+      "zone": 1,
+      "deadline": 28.03333333333331,
+      "request": "active",
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "id": 11,
+          "hp": 85,
+          "x": 1646.9097855640202,
+          "state": "FOLLOW"
+        },
+        {
+          "name": "Michelle Roxx",
+          "id": 12,
+          "hp": 55,
+          "x": 1843.5947246955313,
+          "state": "APPROACH_IDEAL_RANGE"
+        }
+      ]
+    },
+    {
+      "label": "Rejoining the arena and engaging hostiles",
+      "time": 13.450000000000248,
+      "zone": 1,
+      "deadline": 28.03333333333331,
+      "request": "active",
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "id": 11,
+          "hp": 85,
+          "x": 2018.9157151170743,
+          "state": "APPROACH_IDEAL_RANGE"
+        },
+        {
+          "name": "Michelle Roxx",
+          "id": 12,
+          "hp": 55,
+          "x": 1865.8531063816527,
+          "state": "POSITION"
+        }
+      ]
+    },
+    {
+      "label": "Support expires · Byron announces departure",
+      "time": 28.049999999999688,
+      "zone": 1,
+      "deadline": 28.03333333333331,
+      "request": "departing",
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "id": 11,
+          "hp": 85,
+          "x": 2257.169795018464,
+          "state": "DISENGAGE"
+        },
+        {
+          "name": "Michelle Roxx",
+          "id": 12,
+          "hp": 55,
+          "x": 1728.9658908971332,
+          "state": "DISENGAGE"
+        }
+      ],
+      "subtitle": {
+        "speaker": "BYRON BASTION",
+        "text": "We're heading out. Stay standing, Broxton.",
+        "until": 30.84999999999969,
+        "departure375": true,
+        "role375": "bruiser"
+      }
+    },
+    {
+      "label": "Michelle announces departure before walking out",
+      "time": 29.883333333332917,
+      "zone": 1,
+      "deadline": 28.03333333333331,
+      "request": "departing",
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "id": 11,
+          "hp": 85,
+          "x": 2257.169795018464,
+          "state": "DISENGAGE"
+        },
+        {
+          "name": "Michelle Roxx",
+          "id": 12,
+          "hp": 55,
+          "x": 1728.9658908971332,
+          "state": "DISENGAGE"
+        }
+      ],
+      "subtitle": {
+        "speaker": "MICHELLE ROXX",
+        "text": "Time to go. Try not to miss me.",
+        "until": 32.66666666666625,
+        "departure375": true,
+        "role375": "gunner"
+      }
+    },
+    {
+      "label": "Departure follows the announcements · visible exit",
+      "time": 32.88333333333275,
+      "zone": 1,
+      "deadline": 28.03333333333331,
+      "request": "departing",
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "id": 11,
+          "hp": 85,
+          "x": 2127.6697950184634,
+          "state": "EXIT"
+        },
+        {
+          "name": "Michelle Roxx",
+          "id": 12,
+          "hp": 55,
+          "x": 1519.2992242304717,
+          "state": "EXIT"
+        }
+      ]
+    }
+  ],
+  "identityPreserved": true,
+  "source": "native campaign crossing, native locked-battle pan and current actual sprite owners",
+  "browser": false,
+  "physicalController": false
+}

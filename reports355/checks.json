@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "tests": 121,
+  "poses": 48,
+  "nativeBranches": 12,
+  "hits": {
+    "attack-reinaExtra/10": 2,
+    "attack-reinaExtra/13": 2,
+    "attack-reinaExtra/14": 2,
+    "attack-reinaDash/3": 2,
+    "attack-reinaDash/5": 2,
+    "attack-reinaDash/6": 2,
+    "unique/11": 2,
+    "unique/12": 2,
+    "unique/19": 2,
+    "dive/3": 2,
+    "dive/6": 2,
+    "attack-reinaExtra/11": 2
+  },
+  "combatPrototypeUnchanged": true,
+  "scope": "native renderer; no browser, hardware or performance certification"
+}

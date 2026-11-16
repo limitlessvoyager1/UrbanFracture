@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "checks": 291,
+  "heroes": [
+    "reina",
+    "broxton",
+    "nova",
+    "forest",
+    "niko",
+    "orion",
+    "nightshade"
+  ],
+  "removed": [
+    "ammoSmall256",
+    "ammoLarge256",
+    "clip3",
+    "clip6"
+  ],
+  "otherPickupKinds": 10,
+  "physicalControllerTested": false
+}

@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "checks": 5425,
+  "knockdowns": [
+    {
+      "type": "thug",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "cop",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "cop",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "boss",
+      "dir": -1,
+      "poses": 11,
+      "getup": 4
+    },
+    {
+      "type": "boss",
+      "dir": 1,
+      "poses": 11,
+      "getup": 4
+    }
+  ],
+  "scope": "Native simulation and current whole-body sprite selection; actual shared world render. Not hardware or live-browser certification."
+}

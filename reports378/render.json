@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "frames": 210,
+  "rows": [
+    {
+      "label": "Established normal Reina before draw",
+      "time": 0,
+      "debug": {
+        "assignment": 1,
+        "phase": "off",
+        "sword": "sheathed",
+        "energy": 40,
+        "attack": null,
+        "facing": 1,
+        "movement": "idle",
+        "walkSpeed": 135.975,
+        "transitionFrame": null,
+        "hitCleanupUntil": 0,
+        "attacksImplemented": false
+      }
+    },
+    {
+      "label": "Draw into the screenshot-inspired low stance",
+      "time": 0.39999999999999997,
+      "debug": {
+        "assignment": 1,
+        "phase": "draw",
+        "sword": "drawing",
+        "energy": 40,
+        "attack": null,
+        "facing": 1,
+        "movement": "idle",
+        "walkSpeed": 135.975,
+        "transitionFrame": 23.999999999999996,
+        "hitCleanupUntil": 0,
+        "attacksImplemented": false
+      },
+      "frame": 5
+    },
+    {
+      "label": "Low wide stance · subtle breathing",
+      "time": 1.1666666666666674,
+      "debug": {
+        "assignment": 1,
+        "phase": "ready",
+        "sword": "drawn",
+        "energy": 40,
+        "attack": null,
+        "facing": 1,
+        "movement": "idle",
+        "walkSpeed": 135.975,
+        "transitionFrame": null,
+        "hitCleanupUntil": 0,
+        "attacksImplemented": false
+      },
+      "frame": 11
+    },
+    {
+      "label": "Forward stance steps at70% normal walking speed",
+      "time": 1.9999999999999978,
+      "debug": {
+        "assignment": 1,
+        "phase": "ready",
+        "sword": "drawn",
+        "energy": 40,
+        "attack": null,
+        "facing": 1,
+        "movement": "forward",
+        "walkSpeed": 135.975,
+        "transitionFrame": null,
+        "hitCleanupUntil": 0,
+        "attacksImplemented": false
+      },
+      "frame": 16
+    },
+    {
+      "label": "Backward stance steps · facing threat remains unchanged",
+      "time": 2.9999999999999942,
+      "debug": {
+        "assignment": 1,
+        "phase": "ready",
+        "sword": "drawn",
+        "energy": 40,
+        "attack": null,
+        "facing": 1,
+        "movement": "backward",
+        "walkSpeed": 135.975,
+        "transitionFrame": null,
+        "hitCleanupUntil": 0,
+        "attacksImplemented": false
+      },
+      "frame": 20
+    },
+    {
+      "label": "Hit cancels Sword Stance · native hurt recovery",
+      "time": 6.26666666666665,
+      "debug": {
+        "assignment": 1,
+        "phase": "off",
+        "sword": "sheathed",
+        "energy": 40,
+        "attack": null,
+        "facing": -1,
+        "movement": "idle",
+        "walkSpeed": 135.975,
+        "transitionFrame": null,
+        "hitCleanupUntil": 6.353333333333317,
+        "attacksImplemented": false
+      },
+      "frame": 46
+    }
+  ],
+  "source": "Native controller and current Reina354, Katana355 and stance378 art owners in controlled fixture",
+  "browser": false,
+  "physicalController": false
+}

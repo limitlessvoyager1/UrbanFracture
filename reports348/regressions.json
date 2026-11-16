@@ -1,0 +1,20 @@
+{
+  "nightshade347": {
+    "passed": true,
+    "checks": 38191
+  },
+  "gamepad": {
+    "passed": true,
+    "scope": "Synthetic standard/raw Sony/DSX and recovery regression"
+  },
+  "input348": {
+    "passed": true,
+    "scope": "Three queued R2 tap dispatches via actual Reader, each of three layouts"
+  },
+  "browser": {
+    "status": "not run this revision",
+    "prior347": "interrupted; not a pass"
+  },
+  "physicalController": "not available",
+  "canonicalCampaign": "not run; stable release holds remain"
+}

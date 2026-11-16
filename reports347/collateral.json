@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "hz": 30,
+      "dir": -1,
+      "losses": [
+        15,
+        15,
+        15,
+        0
+      ],
+      "wrongPlaneLoss": 0,
+      "primary": 27
+    },
+    {
+      "hz": 30,
+      "dir": 1,
+      "losses": [
+        15,
+        15,
+        15,
+        0
+      ],
+      "wrongPlaneLoss": 0,
+      "primary": 27
+    },
+    {
+      "hz": 60,
+      "dir": -1,
+      "losses": [
+        15,
+        15,
+        15,
+        0
+      ],
+      "wrongPlaneLoss": 0,
+      "primary": 27
+    },
+    {
+      "hz": 60,
+      "dir": 1,
+      "losses": [
+        15,
+        15,
+        15,
+        0
+      ],
+      "wrongPlaneLoss": 0,
+      "primary": 27
+    },
+    {
+      "hz": 120,
+      "dir": -1,
+      "losses": [
+        15,
+        15,
+        15,
+        0
+      ],
+      "wrongPlaneLoss": 0,
+      "primary": 27
+    },
+    {
+      "hz": 120,
+      "dir": 1,
+      "losses": [
+        15,
+        15,
+        15,
+        0
+      ],
+      "wrongPlaneLoss": 0,
+      "primary": 27
+    }
+  ]
+}
