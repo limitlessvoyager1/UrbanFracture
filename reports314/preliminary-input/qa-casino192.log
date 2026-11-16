@@ -1,0 +1,7 @@
+PASS192 all5heroes ×3sections, correct floor/environment/hero identity and persistent clock/Iron Will cooldown across rooms
+PASS192 exactly3field slots and one table; exact50/50 threshold one roll/at mostone ordinary item; independent of old drop cap; other games30%
+PASS192 all5heroes can damage field machines through actual attack contact; movement never silently destroys/rolls a machine
+PASS192 paced130HP unarmed Bruno-derived Security, distinct from Otis, maxone living Security; no duplicated heavy spawns
+PASS192 clear-gated elevator → penthouse → terrace; same environment; no fabricated boss/victory; every transition reachable
+PASS192 Security punches/kicks/throw startup ≥.30s, existing active armor only, vulnerable recovery and Director3-point pressure budget
+PASS192 repeated actual punches destroy each machine once for all5heroes; dropped item uses normal pickup/score; coordinated mixed encounter never exceeds2 attackers/3pressure

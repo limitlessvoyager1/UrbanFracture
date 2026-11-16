@@ -1,0 +1,10 @@
+AssertionError [ERR_ASSERTION]: updated runtime cache version game
+    at ok (/workspace/scratch/96a3e452279b/urban-fracture307/.sites-checkout/tests/contact302-view.cjs:1:257)
+    at /workspace/scratch/96a3e452279b/urban-fracture307/.sites-checkout/tests/contact302-view.cjs:9:454 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}

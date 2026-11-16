@@ -1,0 +1,61 @@
+{
+  "baseline": "f152ab22bfc62ef25647d053d9c1b3077813c923",
+  "productionChanges": false,
+  "scenarios": [
+    {
+      "scenario": "A",
+      "frames": 300,
+      "checks": 1280,
+      "runtime": "passed",
+      "renderedTrace": "exact match",
+      "visualAcceptance": "sampled only; not owner approval"
+    },
+    {
+      "scenario": "B",
+      "frames": 300,
+      "checks": 1212,
+      "runtime": "passed",
+      "renderedTrace": "exact match",
+      "visualAcceptance": "sampled only; not owner approval"
+    },
+    {
+      "scenario": "C",
+      "frames": 360,
+      "checks": 1452,
+      "runtime": "passed",
+      "renderedTrace": "exact match",
+      "visualAcceptance": "needs review"
+    },
+    {
+      "scenario": "D",
+      "frames": 300,
+      "checks": 1212,
+      "runtime": "passed",
+      "renderedTrace": "exact match",
+      "visualAcceptance": "needs review"
+    },
+    {
+      "scenario": "E",
+      "frames": 240,
+      "checks": 13157,
+      "runtime": "passed",
+      "renderedTrace": "exact match",
+      "visualAcceptance": "sampled only; not owner approval"
+    }
+  ],
+  "openFindings": [
+    {
+      "id": "QA308-C1",
+      "confirmed": "close sprite overlaps in group capture",
+      "cause": "spacing/depth needs live inspection"
+    }
+  ],
+  "resolvedFixtureFindings": [
+    {
+      "id": "QA308-D1",
+      "cause": "AI disabled in isolated combo test prevented native wakePending212 dispatch",
+      "evidence": "wake-probe.json; D-wake/normal.mp4",
+      "productionDefect": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/worker-reaction246.py", line 22, in <module>
+    p=Path(f'dist/worker-{name}233-data.js');s=p.read_text();d=json.loads(s[s.rfind('=')+1:].rstrip(';\n'));src=Path('dist/'+d['src']);im=Image.open(src).convert('RGBA');digest=hashlib.sha256(src.read_bytes()).hexdigest()
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 4 (char 3)

@@ -1,0 +1,17 @@
+cache-rooms336.js:9
+const mission=N.Energy316.mission;N.Energy316.mission=function(g){return active(g)?definitions.find(q=>q.id===g.cacheRoom336.id).district:mission(g);};const ammo=N.NightshadeAmmo256.section;N.NightshadeAmmo256.section=function(g){return active(g)?definitions.find(q=>q.id===g.cacheRoom336.id).scene:ammo(g);};
+                          ^
+
+TypeError: Cannot read properties of undefined (reading 'mission')
+    at cache-rooms336.js:9:27
+    at cache-rooms336.js:11:3
+    at Script.runInContext (node:vm:149:12)
+    at Object.runInContext (node:vm:301:6)
+    at Object.load (eval at <anonymous> (/workspace/scratch/96a3e452279b/update341/.sites-checkout/tools/energy316/balance.cjs:1:567), <anonymous>:6:683)
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/update341/.sites-checkout/tools/energy316/balance.cjs:1:784)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+
+Node.js v24.22.1

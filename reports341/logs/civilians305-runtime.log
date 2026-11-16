@@ -1,0 +1,118 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: published332 gameplay source retained apart from explicit splash render order game.js
++ actual - expected
+... Skipped lines
+
+  "'use strict';\n" +
+    'const{Brawler,clamp,ZONES,WORLD_END,HOTEL_NIGHTLIFE_EXTRA}=NeonCombat;\n' +
+    'const storm={strength:1,light:0,reset(){}};\n' +
+    "const game=new Brawler(),canvas=document.querySelector('#game'),ctx=canvas.getContext('2d'),overlay=document.querySelector('#overlay'),$14=document.querySelector('#pauseLayer'),play=document.querySelector('#play'),retry=document.querySelector('#retry'),status=document.querySelector('#status');\n" +
+    "const held={},$34={a:'left',d:'right',w:'up',s:'down',ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',j:'attack',k:'jump',' ':'jump',g:'grab',l:'special',q:'dodge',b:'block',c:'counter',e:'pickup',f:'unique',Shift:'run'};let $41='';let sceneMenuOpen=false,$17=false,$30=0,$4=false;let tacticsMenu173=null;let ready=false,paused=false,started=false,sound=false,audio=null,last=0,$19=0,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;\n" +
+...
+    "let assets=Object.entries(paths).map(([key,file])=>new Promise(resolve=>{const i=new Image();images[key]=i;i.onload=()=>resolve(true);i.onerror=()=>resolve(false);i.src=globalThis.NeonSpriteData?.[key]?.src||'assets/'+file;}));\n" +
++   'Promise.all([...assets,PolishedSprites.ready,t'... 106625 more characters
+-   'Promise.all([...assets,PolishedSprites.ready,t'... 106180 more characters
+
+    at eq (/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/civilians305.cjs:1:211)
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/civilians305.cjs:8:421)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: "'use strict';\n" +
+    'const{Brawler,clamp,ZONES,WORLD_END,HOTEL_NIGHTLIFE_EXTRA}=NeonCombat;\n' +
+    'const storm={strength:1,light:0,reset(){}};\n' +
+    "const game=new Brawler(),canvas=document.querySelector('#game'),ctx=canvas.getContext('2d'),overlay=document.querySelector('#overlay'),$14=document.querySelector('#pauseLayer'),play=document.querySelector('#play'),retry=document.querySelector('#retry'),status=document.querySelector('#status');\n" +
+    "const held={},$34={a:'left',d:'right',w:'up',s:'down',ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',j:'attack',k:'jump',' ':'jump',g:'grab',l:'special',q:'dodge',b:'block',c:'counter',e:'pickup',f:'unique',Shift:'run'};let $41='';let sceneMenuOpen=false,$17=false,$30=0,$4=false;let tacticsMenu173=null;let ready=false,paused=false,started=false,sound=false,audio=null,last=0,$19=0,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;\n" +
+    "const padReader=typeof NeonGamepad!=='undefined'?new NeonGamepad.Reader():null;let padNeutral=false,padUsed=false,windowFocused=true,padConnected=false,$1=null,$7=false;let devChord268=false,devRelease268=false;\n" +
+    "function controllerNotice(message,blocked=false){for(const id of['#controllerStatus','#controllerLiveStatus']){const el=document.querySelector(id);if(el&&el.textContent!==message)el.textContent=message;}const warning=document.querySelector('#controllerBlocked');if(warning)warning.hidden=!blocked;}\n" +
+    "function getControllerProfiles(){if($7||!padReader)return;$7=true;try{const data=JSON.parse(localStorage.getItem('neon-knuckle-controller-profiles')||'{}');if(data&&typeof data==='object')padReader.profiles=data;}catch{}}\n" +
+    "function pollGamepad(){getControllerProfiles();let state,pads;const layout=document.querySelector('#controllerLayout'),device=document.querySelector('#controllerDevice');if(padReader){padReader.mode=layout?.value||'auto';padReader.preferredIndex=device?.value&&device.value!=='auto'?Number(device.value):null;}\n" +
+    "const input={...held};try{if(!padReader||typeof navigator==='undefined'||typeof navigator.getGamepads!=='function')throw Error('Gamepad API unavailable');pads=Array.from(navigator.getGamepads());state=padReader.sample(pads);}catch{state=null;}\n" +
+    "if(!state){if(padConnected&&padUsed&&started&&game.playing)pause(true);padConnected=false;padNeutral=true;controllerNotice('CONTROLLER ACCESS BLOCKED / UNAVAILABLE · OPEN THE GAME IN ITS OWN TAB',true);return input;}\n" +
+    "if(device){const signature=JSON.stringify(state.devices);if(device.dataset&&device.dataset.devices!==signature){const previous=device.value;device.replaceChildren();const auto=document.createElement('option');auto.value='auto';auto.textContent='Auto select';device.append(auto);for(const d of state.devices){const o=document.createElement('option');o.value=String(d.index);o.textContent=d.id;device.append(o);}device.value=state.devices.some(d=>String(d.index)===previous)?previous:'auto';device.dataset.devices=signature;}}\n" +
+    "if($1){const pad=pads.find(p=>p?.index===$1.index&&p.id===$1.id);const $18=document.querySelector('#controllerSetupStatus');if(!pad){if($18)$18.textContent='Controller disconnected. Reconnect it or cancel setup.';return held;}$1.sample(pad);if($18)$18.textContent=$1.prompt;if($1.done){padReader.profiles[$1.id]=$1.profile;try{localStorage.setItem('neon-knuckle-controller-profiles',JSON.stringify(padReader.profiles));}catch{}$1=null;padReader.previous={};padNeutral=true;const panel=document.querySelector('#controllerSetupPanel');if(panel)panel.hidden=true;controllerNotice('CUSTOM CONTROLLER SAVED · RELEASE BUTTONS, THEN OPTIONS TO PLAY');}return held;}\n" +
+    "controllerNotice(state.connected?(state.playstation?'DUALSENSE CONNECTED':'CONTROLLER CONNECTED')+' · '+state.layout.toUpperCase()+(padNeutral?' · RELEASE ACTION BUTTONS':' · READY · OPTIONS START / PAUSE'):'NO GAMEPAD INPUT YET · CONNECT, THEN PRESS A FACE BUTTON');\n" +
+    "const diagnostic=document.querySelector('#controllerInput');if(diagnostic)diagnostic.textContent=state.connected?'Device '+state.index+': '+state.id+' · Buttons '+(state.rawButtons.length?state.rawButtons.join(', '):'none')+' · Stick '+state.axes.map(v=>v.toFixed(2)).join(', '):'Touchpad cursor movement is mouse input. Controller buttons and sticks must appear here.';\n" +
+    "if(state.changed){if(padConnected&&padUsed&&started&&game.playing){pause(true);status.textContent='CONTROLLER CHANGED · RELEASE BUTTONS, THEN OPTIONS';}padConnected=state.connected;padUsed=false;padNeutral=started;}\n" +
+    'if(!windowFocused&&document.hasFocus?.()&&!document.hidden)windowFocused=true;if(!windowFocused||document.hidden){padNeutral=true;return input;}\n' +
+    'if(globalThis.HomeUI327?.pad(state))return{};\n' +
+    'if(globalThis.PhoneUI323?.pad(state))return{};\n' +
+    'if(globalThis.ReserveUI320?.openState&&ReserveUI320.pad(state))return{};\n' +
+    'if(!state.connected){devChord268=devRelease268=false;}const devCombo=state.held.pause&&state.rawButtons?.includes(10);if(devCombo){if(!devChord268){pause(true);clearKeys();globalThis.NeonCombatAuditView135?.dashboard();}devChord268=devRelease268=true;padNeutral=true;return{};}devChord268=false;if(devRelease268){if(!state.rawButtons?.length){devRelease268=false;padNeutral=false;}return{};}\n' +
+    'if(globalThis.ReserveUI320?.pad(state))return{};\n' +
+    'game.controller239={connected:state.connected,layout:state.layout,id:state.id,index:state.index};if(globalThis.Environment217?.pad(state))return{};\n' +
+    "if((paused||!started)&&state.pressed.includes('block')){Environment217.show();return{};}\n" +
+    'if(globalThis.Rooftop201?.menu(game)){Rooftop201.pad(game,state);return{};}\n' +
+    "if(game.destination183){Destination183.pad(game,state);return{};}if(!paused&&globalThis.Subway238?.menu(game)&&!state.pressed.includes('pause')){Subway238.pad(game,state);return{};}\n" +
+    'if(tacticsMenu173?.open){tacticsMenu173.pad(state);return{};}\n' +
+    'if((!started||!game.playing)&&state.connected&&!sceneMenuOpen){const hd=state.held.right?1:state.held.left?-1:0;if(hd&&hd!==$35)cycleHero(hd);$35=hd;}\n' +
+    "if(sceneMenuOpen||!started||!game.playing){const sd=state.held.down?1:state.held.up?-1:0;if(sd&&sd!==$30)moveSceneChoice(sd);$30=sd;if(sceneMenuOpen&&state.pressed.includes('dodge')){closeSceneMenu();padNeutral=true;return input;}if(state.pressed.includes('pause')||state.pressed.includes('jump')){if(ready){if(started&&!game.playing&&!game.won&&!sceneMenuOpen&&!$4)retryCurrentScene();else beginSelectedScene();}padNeutral=true;return input;}return input;}\n" +
+    "if(paused&&state.pressed.includes('grab')&&game.player.type==='forest'&&(game.zoneClear||game.levelClear)){tacticsMenu173?.show();padNeutral=true;return{};}\n" +
+    "if(paused&&state.pressed.includes('counter')){openSceneMenu();padNeutral=true;return input;}\n" +
+    "if(state.pressed.includes('pause')){pause();padNeutral=true;return input;}\n" +
+    "if(paused&&state.pressed.includes('jump')){pause(false);padNeutral=true;return input;}\n" +
+    'if(!started||!game.playing||paused)return input;if(padNeutral){if(state.buttonsNeutral)padNeutral=false;return input;}\n' +
+    "for(const[key,value]of Object.entries(state.held))if(key!=='pause'&&value)input[key]=true;\n" +
+    'if(globalThis.Stadium237?.cabin240(game)){const to=state.held.up?4:state.held.down?5:null;if(to&&game.cabinPad240!==to)Stadium237.choose240(game,to);game.cabinPad240=to;}\n' +
+    "game.inputDevice239='gamepad:'+state.layout;if(globalThis.PrecisionLab265?.state?.enabled){const lab=PrecisionLab265.state,dx=(input.right?1:0)-(input.left?1:0);NeonCombat.Playback265.enqueue(lab,'direction',dx,true,input);for(const k of state.pressed)if(['block','counter','jump','grab','dodge','special','attack','pickup','unique'].includes(k))NeonCombat.Playback265.enqueue(lab,k==='attack'?'attack':'command',k,true,input);if(state.released?.includes('attack')&&!held.attack)NeonCombat.Playback265.enqueue(lab,'attack','attack',false,input);return input;}const dx=(input.right?1:0)-(input.left?1:0);game.directionInput(dx);if(dx&&!state.pressed.includes('counter')&&!(game.time<=game.player.catchUntil)&&game.isFree(game.player)&&!game.player.hold&&!game.player.blocking)game.player.dir=Math.sign(dx);if(Object.values(state.held).some(Boolean))padUsed=true;\n" +
+    "if(state.held.unique)input.run=false;for(const key of state.pressed)if(['block','counter','jump','grab','dodge','special','attack','pickup','unique'].includes(key))(key==='attack'?game.attackInput(true,input):game.command(key,input));if(state.released?.includes('attack')&&!held.attack)game.attackInput(false,input);return input;\n" +
+    '}\n' +
+    "const images={};const paths={thugPortrait:'street-thug-concept-v1.webp',enforcerPortrait:'enforcer-concept-v1.webp',bossPortrait:'thug-leader-concept-v1.webp',reinaPortrait:'reina-concept-v1.webp',novaPortrait:'nova-portrait81.webp',club:'nightclub76.webp',clubVip:'club-vip76.webp',financialAlt:'financial-alt76.webp',nightlifeExtra:'hotel-nightlife-extra73.webp',hotelBack:'hotel-back-alley66.webp',kitchen:'hotel-kitchen72.webp',nightlifeAlt:'hotel-nightlife63.webp',hotel:'grand-hotel-lobby96.webp',sato:'sprites/sato-v1.webp',akari:'sprites/akari-v1.webp',flint:'sprites/flint-v1.webp',broxton:'sprites/broxton-base-v1.png',crashFront:'financial-crash-frontage-v1.webp',streets:'financial-streets-v2.webp',bank:'bank-interior-v2.webp',lift:'bank-elevator-v2.webp',finance:'financial-district-atlas-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'sprites/financial-enemies-v1.png',gangster:'sprites/financial-enemies-v1.png',knifeThug:'sprites/kevin-brick-v1.png',bouncer:'sprites/kevin-brick-v1.png',cop:'sprites/carmen-v1.webp',venue:'velvet-interior-v2.webp',frontage:'velvet-exterior-v1.webp',districts:'districts-atlas-v1.webp',stage:'downtown-night-stage-v1.webp',alley:'service-alley-v1.webp',biker:'sprites/frankie167.webp',reina:'reina-concept-v1.webp',thug:'street-thug-concept-v1.webp',enforcer:'enforcer-concept-v1.webp',boss:'thug-leader-concept-v1.webp'};\n" +
+    "let assets=Object.entries(paths).map(([key,file])=>new Promise(resolve=>{const i=new Image();images[key]=i;i.onload=()=>resolve(true);i.onerror=()=>resolve(false);i.src=globalThis.NeonSpriteData?.[key]?.src||'assets/'+file;}));\n" +
+    'Promise.all([...assets,PolishedSprites.ready,t'... 106625 more characters,
+  expected: "'use strict';\n" +
+    'const{Brawler,clamp,ZONES,WORLD_END,HOTEL_NIGHTLIFE_EXTRA}=NeonCombat;\n' +
+    'const storm={strength:1,light:0,reset(){}};\n' +
+    "const game=new Brawler(),canvas=document.querySelector('#game'),ctx=canvas.getContext('2d'),overlay=document.querySelector('#overlay'),$14=document.querySelector('#pauseLayer'),play=document.querySelector('#play'),retry=document.querySelector('#retry'),status=document.querySelector('#status');\n" +
+    "const held={},$34={a:'left',d:'right',w:'up',s:'down',ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',j:'attack',k:'jump',' ':'jump',g:'grab',l:'special',q:'dodge',b:'block',c:'counter',e:'pickup',f:'unique',Shift:'run'};let $41='';let sceneMenuOpen=false,$17=false,$30=0,$4=false;let tacticsMenu173=null;let ready=false,paused=false,started=false,sound=false,audio=null,last=0,$19=0,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;\n" +
+    "const padReader=typeof NeonGamepad!=='undefined'?new NeonGamepad.Reader():null;let padNeutral=false,padUsed=false,windowFocused=true,padConnected=false,$1=null,$7=false;let devChord268=false,devRelease268=false;\n" +
+    "function controllerNotice(message,blocked=false){for(const id of['#controllerStatus','#controllerLiveStatus']){const el=document.querySelector(id);if(el&&el.textContent!==message)el.textContent=message;}const warning=document.querySelector('#controllerBlocked');if(warning)warning.hidden=!blocked;}\n" +
+    "function getControllerProfiles(){if($7||!padReader)return;$7=true;try{const data=JSON.parse(localStorage.getItem('neon-knuckle-controller-profiles')||'{}');if(data&&typeof data==='object')padReader.profiles=data;}catch{}}\n" +
+    "function pollGamepad(){getControllerProfiles();let state,pads;const layout=document.querySelector('#controllerLayout'),device=document.querySelector('#controllerDevice');if(padReader){padReader.mode=layout?.value||'auto';padReader.preferredIndex=device?.value&&device.value!=='auto'?Number(device.value):null;}\n" +
+    "const input={...held};try{if(!padReader||typeof navigator==='undefined'||typeof navigator.getGamepads!=='function')throw Error('Gamepad API unavailable');pads=Array.from(navigator.getGamepads());state=padReader.sample(pads);}catch{state=null;}\n" +
+    "if(!state){if(padConnected&&padUsed&&started&&game.playing)pause(true);padConnected=false;padNeutral=true;controllerNotice('CONTROLLER ACCESS BLOCKED / UNAVAILABLE · OPEN THE GAME IN ITS OWN TAB',true);return input;}\n" +
+    "if(device){const signature=JSON.stringify(state.devices);if(device.dataset&&device.dataset.devices!==signature){const previous=device.value;device.replaceChildren();const auto=document.createElement('option');auto.value='auto';auto.textContent='Auto select';device.append(auto);for(const d of state.devices){const o=document.createElement('option');o.value=String(d.index);o.textContent=d.id;device.append(o);}device.value=state.devices.some(d=>String(d.index)===previous)?previous:'auto';device.dataset.devices=signature;}}\n" +
+    "if($1){const pad=pads.find(p=>p?.index===$1.index&&p.id===$1.id);const $18=document.querySelector('#controllerSetupStatus');if(!pad){if($18)$18.textContent='Controller disconnected. Reconnect it or cancel setup.';return held;}$1.sample(pad);if($18)$18.textContent=$1.prompt;if($1.done){padReader.profiles[$1.id]=$1.profile;try{localStorage.setItem('neon-knuckle-controller-profiles',JSON.stringify(padReader.profiles));}catch{}$1=null;padReader.previous={};padNeutral=true;const panel=document.querySelector('#controllerSetupPanel');if(panel)panel.hidden=true;controllerNotice('CUSTOM CONTROLLER SAVED · RELEASE BUTTONS, THEN OPTIONS TO PLAY');}return held;}\n" +
+    "controllerNotice(state.connected?(state.playstation?'DUALSENSE CONNECTED':'CONTROLLER CONNECTED')+' · '+state.layout.toUpperCase()+(padNeutral?' · RELEASE ACTION BUTTONS':' · READY · OPTIONS START / PAUSE'):'NO GAMEPAD INPUT YET · CONNECT, THEN PRESS A FACE BUTTON');\n" +
+    "const diagnostic=document.querySelector('#controllerInput');if(diagnostic)diagnostic.textContent=state.connected?'Device '+state.index+': '+state.id+' · Buttons '+(state.rawButtons.length?state.rawButtons.join(', '):'none')+' · Stick '+state.axes.map(v=>v.toFixed(2)).join(', '):'Touchpad cursor movement is mouse input. Controller buttons and sticks must appear here.';\n" +
+    "if(state.changed){if(padConnected&&padUsed&&started&&game.playing){pause(true);status.textContent='CONTROLLER CHANGED · RELEASE BUTTONS, THEN OPTIONS';}padConnected=state.connected;padUsed=false;padNeutral=started;}\n" +
+    'if(!windowFocused&&document.hasFocus?.()&&!document.hidden)windowFocused=true;if(!windowFocused||document.hidden){padNeutral=true;return input;}\n' +
+    'if(globalThis.HomeUI327?.pad(state))return{};\n' +
+    'if(globalThis.PhoneUI323?.pad(state))return{};\n' +
+    'if(globalThis.ReserveUI320?.openState&&ReserveUI320.pad(state))return{};\n' +
+    'if(!state.connected){devChord268=devRelease268=false;}const devCombo=state.held.pause&&state.rawButtons?.includes(10);if(devCombo){if(!devChord268){pause(true);clearKeys();globalThis.NeonCombatAuditView135?.dashboard();}devChord268=devRelease268=true;padNeutral=true;return{};}devChord268=false;if(devRelease268){if(!state.rawButtons?.length){devRelease268=false;padNeutral=false;}return{};}\n' +
+    'if(globalThis.ReserveUI320?.pad(state))return{};\n' +
+    'game.controller239={connected:state.connected,layout:state.layout,id:state.id,index:state.index};if(globalThis.Environment217?.pad(state))return{};\n' +
+    "if((paused||!started)&&state.pressed.includes('block')){Environment217.show();return{};}\n" +
+    'if(globalThis.Rooftop201?.menu(game)){Rooftop201.pad(game,state);return{};}\n' +
+    "if(game.destination183){Destination183.pad(game,state);return{};}if(!paused&&globalThis.Subway238?.menu(game)&&!state.pressed.includes('pause')){Subway238.pad(game,state);return{};}\n" +
+    'if(tacticsMenu173?.open){tacticsMenu173.pad(state);return{};}\n' +
+    'if((!started||!game.playing)&&state.connected&&!sceneMenuOpen){const hd=state.held.right?1:state.held.left?-1:0;if(hd&&hd!==$35)cycleHero(hd);$35=hd;}\n' +
+    "if(sceneMenuOpen||!started||!game.playing){const sd=state.held.down?1:state.held.up?-1:0;if(sd&&sd!==$30)moveSceneChoice(sd);$30=sd;if(sceneMenuOpen&&state.pressed.includes('dodge')){closeSceneMenu();padNeutral=true;return input;}if(state.pressed.includes('pause')||state.pressed.includes('jump')){if(ready){if(started&&!game.playing&&!game.won&&!sceneMenuOpen&&!$4)retryCurrentScene();else beginSelectedScene();}padNeutral=true;return input;}return input;}\n" +
+    "if(paused&&state.pressed.includes('grab')&&game.player.type==='forest'&&(game.zoneClear||game.levelClear)){tacticsMenu173?.show();padNeutral=true;return{};}\n" +
+    "if(paused&&state.pressed.includes('counter')){openSceneMenu();padNeutral=true;return input;}\n" +
+    "if(state.pressed.includes('pause')){pause();padNeutral=true;return input;}\n" +
+    "if(paused&&state.pressed.includes('jump')){pause(false);padNeutral=true;return input;}\n" +
+    'if(!started||!game.playing||paused)return input;if(padNeutral){if(state.buttonsNeutral)padNeutral=false;return input;}\n' +
+    "for(const[key,value]of Object.entries(state.held))if(key!=='pause'&&value)input[key]=true;\n" +
+    'if(globalThis.Stadium237?.cabin240(game)){const to=state.held.up?4:state.held.down?5:null;if(to&&game.cabinPad240!==to)Stadium237.choose240(game,to);game.cabinPad240=to;}\n' +
+    "game.inputDevice239='gamepad:'+state.layout;if(globalThis.PrecisionLab265?.state?.enabled){const lab=PrecisionLab265.state,dx=(input.right?1:0)-(input.left?1:0);NeonCombat.Playback265.enqueue(lab,'direction',dx,true,input);for(const k of state.pressed)if(['block','counter','jump','grab','dodge','special','attack','pickup','unique'].includes(k))NeonCombat.Playback265.enqueue(lab,k==='attack'?'attack':'command',k,true,input);if(state.released?.includes('attack')&&!held.attack)NeonCombat.Playback265.enqueue(lab,'attack','attack',false,input);return input;}const dx=(input.right?1:0)-(input.left?1:0);game.directionInput(dx);if(dx&&!state.pressed.includes('counter')&&!(game.time<=game.player.catchUntil)&&game.isFree(game.player)&&!game.player.hold&&!game.player.blocking)game.player.dir=Math.sign(dx);if(Object.values(state.held).some(Boolean))padUsed=true;\n" +
+    "if(state.held.unique)input.run=false;for(const key of state.pressed)if(['block','counter','jump','grab','dodge','special','attack','pickup','unique'].includes(key))(key==='attack'?game.attackInput(true,input):game.command(key,input));if(state.released?.includes('attack')&&!held.attack)game.attackInput(false,input);return input;\n" +
+    '}\n' +
+    "const images={};const paths={thugPortrait:'street-thug-concept-v1.webp',enforcerPortrait:'enforcer-concept-v1.webp',bossPortrait:'thug-leader-concept-v1.webp',reinaPortrait:'reina-concept-v1.webp',novaPortrait:'nova-portrait81.webp',club:'nightclub76.webp',clubVip:'club-vip76.webp',financialAlt:'financial-alt76.webp',nightlifeExtra:'hotel-nightlife-extra73.webp',hotelBack:'hotel-back-alley66.webp',kitchen:'hotel-kitchen72.webp',nightlifeAlt:'hotel-nightlife63.webp',hotel:'grand-hotel-lobby96.webp',sato:'sprites/sato-v1.webp',akari:'sprites/akari-v1.webp',flint:'sprites/flint-v1.webp',broxton:'sprites/broxton-base-v1.png',crashFront:'financial-crash-frontage-v1.webp',streets:'financial-streets-v2.webp',bank:'bank-interior-v2.webp',lift:'bank-elevator-v2.webp',finance:'financial-district-atlas-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'sprites/financial-enemies-v1.png',gangster:'sprites/financial-enemies-v1.png',knifeThug:'sprites/kevin-brick-v1.png',bouncer:'sprites/kevin-brick-v1.png',cop:'sprites/carmen-v1.webp',venue:'velvet-interior-v2.webp',frontage:'velvet-exterior-v1.webp',districts:'districts-atlas-v1.webp',stage:'downtown-night-stage-v1.webp',alley:'service-alley-v1.webp',biker:'sprites/frankie167.webp',reina:'reina-concept-v1.webp',thug:'street-thug-concept-v1.webp',enforcer:'enforcer-concept-v1.webp',boss:'thug-leader-concept-v1.webp'};\n" +
+    "let assets=Object.entries(paths).map(([key,file])=>new Promise(resolve=>{const i=new Image();images[key]=i;i.onload=()=>resolve(true);i.onerror=()=>resolve(false);i.src=globalThis.NeonSpriteData?.[key]?.src||'assets/'+file;}));\n" +
+    'Promise.all([...assets,PolishedSprites.ready,t'... 106180 more characters,
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1

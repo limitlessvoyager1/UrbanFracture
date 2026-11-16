@@ -1,0 +1,30 @@
+✔ crowd: missing executable/repository/commit remain unavailable, without reads or transforms (2.16014ms)
+✔ crowd: available matching bytes pass with exact hashes and scoped counts (1.931681ms)
+✔ crowd: missing blob does not hide available mismatch or errors (1.533407ms)
+✔ crowd: unexpected Git and malformed responses fail closed (1.455313ms)
+✔ crowd: malformed commit/blob object types fail (0.385725ms)
+✔ crowd: behavior executes for unavailable, failed and thrown receipt collection (0.759645ms)
+✔ crowd: available proof flags true only for passed historical group (0.333412ms)
+✔ crowd: native behavior failure survives missing receipts with partial progress (0.262226ms)
+✔ crowd: receipt report-write failure cannot skip behavior or become success (0.371817ms)
+✔ crowd: final report-save failure still follows behavioral execution and fails (0.341477ms)
+✔ grapple: missing executable/repository/commit remain unavailable, without reads or transforms (0.252982ms)
+✔ grapple: available matching bytes pass with exact hashes and scoped counts (0.268415ms)
+✔ grapple: missing blob does not hide available mismatch or errors (0.891153ms)
+✔ grapple: unexpected Git and malformed responses fail closed (0.175334ms)
+✔ grapple: malformed commit/blob object types fail (0.16145ms)
+✔ grapple: behavior executes for unavailable, failed and thrown receipt collection (0.187011ms)
+✔ grapple: available proof flags true only for passed historical group (0.054553ms)
+✔ grapple: native behavior failure survives missing receipts with partial progress (0.085767ms)
+✔ grapple: receipt report-write failure cannot skip behavior or become success (0.202681ms)
+✔ grapple: final report-save failure still follows behavioral execution and fails (0.089847ms)
+✔ exact approved normalization specification preserved from audit (0.688202ms)
+✔ critical historical gate remains separate from runnable behavior (1.600437ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 159.084536

@@ -1,0 +1,6087 @@
+{
+  "checks": 1494,
+  "passed": true,
+  "nativeAttackFrames": 64,
+  "sequences": [
+    {
+      "move": "german",
+      "type": "thug",
+      "rows": [
+        {
+          "frame": 0,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 1,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 2,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 3,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 4,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 5,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 6,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 7,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 8,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 9,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 10,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 11,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 12,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 13,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 14,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 15,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 16,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 17,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 18,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 19,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 20,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 21,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 22,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 23,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 24,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 25,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 26,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 27,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 28,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 29,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 30,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 31,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 32,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 33,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 34,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 35,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 36,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 37,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 38,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 39,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 40,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 41,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 42,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 43,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 44,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 45,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 46,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 47,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 48,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 49,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 50,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 51,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 52,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 53,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 54,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 55,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 56,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 57,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 58,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 59,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 60,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 61,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 62,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 63,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 64,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 65,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 66,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 67,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 68,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 69,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 70,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 71,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 72,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 73,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 74,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 75,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 76,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 77,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 78,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 79,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 80,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 81,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 82,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 83,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 84,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 85,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 86,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 87,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 88,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 89,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": null
+        },
+        {
+          "frame": 90,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.4999999999999996,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 91,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.5166666666666662,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 92,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.5333333333333328,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 93,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.5499999999999994,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 94,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.566666666666666,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 95,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.5833333333333326,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 96,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.5999999999999992,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 97,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.6166666666666658,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 98,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.6333333333333324,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 99,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.649999999999999,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 100,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.6666666666666656,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 101,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.6833333333333322,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 102,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.6999999999999988,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 103,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.7166666666666655,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 104,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.733333333333332,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 105,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.7499999999999987,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 106,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.7666666666666653,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 107,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.7833333333333319,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 108,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.7999999999999985,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 109,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.816666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 110,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.8333333333333317,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 111,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.8499999999999983,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 112,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.866666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 113,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.8833333333333315,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 114,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.8999999999999981,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 115,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.9166666666666647,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 116,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.9333333333333313,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 117,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.949999999999998,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 118,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.9666666666666646,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 119,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.9833333333333312,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 120,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 1.9999999999999978,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 121,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.0166666666666644,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 122,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.033333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 123,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.0499999999999976,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 124,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.066666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 125,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.083333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 126,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.0999999999999974,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 127,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.116666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 128,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.1333333333333306,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 129,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.1499999999999972,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 130,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.166666666666664,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 131,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.1833333333333305,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 132,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.199999999999997,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 133,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.2166666666666637,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 134,
+          "heroHP": 105,
+          "enemyHP": 32,
+          "pose": {
+            "time": 2.2333333333333303,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        }
+      ]
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "rows": [
+        {
+          "frame": 0,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 1,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 2,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 3,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 4,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 5,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 6,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 7,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 8,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 9,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 10,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 11,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 12,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 13,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 14,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 15,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 16,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 17,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 18,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 19,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 20,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 21,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 22,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 23,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 24,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 25,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 26,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 27,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 28,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 29,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 30,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 31,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 32,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 33,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 34,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 35,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 36,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 37,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 38,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 39,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 40,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 41,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 42,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 43,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 44,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 45,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 46,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 47,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 48,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 49,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 50,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 51,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 52,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 53,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 54,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 55,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 56,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 57,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 58,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 59,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 60,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 61,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 62,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 63,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 64,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 65,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 66,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 67,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 68,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 69,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 70,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 71,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 72,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 73,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 74,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 75,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 76,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 77,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 78,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 79,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 80,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 81,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 82,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 83,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 84,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 85,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 86,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 87,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 88,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 89,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": null
+        },
+        {
+          "frame": 90,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.4999999999999996,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 91,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.5166666666666662,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 92,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.5333333333333328,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 93,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.5499999999999994,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 94,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.566666666666666,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 95,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.5833333333333326,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 96,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.5999999999999992,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 97,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.6166666666666658,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 98,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.6333333333333324,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 99,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.649999999999999,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 100,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.6666666666666656,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 101,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.6833333333333322,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 102,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.6999999999999988,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 103,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.7166666666666655,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 104,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.733333333333332,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 105,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.7499999999999987,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 106,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.7666666666666653,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 107,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.7833333333333319,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 108,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.7999999999999985,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 109,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.816666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 110,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.8333333333333317,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 111,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.8499999999999983,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 112,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.866666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 113,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.8833333333333315,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 114,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.8999999999999981,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 115,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.9166666666666647,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 116,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.9333333333333313,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 117,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.949999999999998,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 118,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.9666666666666646,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 119,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.9833333333333312,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 120,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 1.9999999999999978,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 121,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.0166666666666644,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 122,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.033333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 123,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.0499999999999976,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 124,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.066666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 125,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.083333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 126,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.0999999999999974,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 127,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.116666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 128,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.1333333333333306,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 129,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.1499999999999972,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 130,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.166666666666664,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 131,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.1833333333333305,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 132,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.199999999999997,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 133,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.2166666666666637,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 134,
+          "heroHP": 105,
+          "enemyHP": 12,
+          "pose": {
+            "time": 2.2333333333333303,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        }
+      ]
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "rows": [
+        {
+          "frame": 0,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 1,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 2,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 3,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 4,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 5,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 6,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 7,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 8,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 9,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 10,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 11,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 12,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 13,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 14,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 15,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 16,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 17,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 18,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 19,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 20,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 21,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 22,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 23,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 24,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 25,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 26,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 27,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 28,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 29,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 30,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 31,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 32,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 33,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 34,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 35,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 36,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 37,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 38,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 39,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 40,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 41,
+          "heroHP": 105,
+          "enemyHP": 60,
+          "pose": null
+        },
+        {
+          "frame": 42,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 43,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 44,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 45,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 46,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 47,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 48,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 49,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 50,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 51,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 52,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 53,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 54,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 55,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 56,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 57,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 58,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 59,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 60,
+          "heroHP": 105,
+          "enemyHP": 47,
+          "pose": null
+        },
+        {
+          "frame": 61,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 62,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 63,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 64,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 65,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 66,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 67,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 68,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 69,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 70,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 71,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 72,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 73,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 74,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 75,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 76,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 77,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 78,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 79,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 80,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 81,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 82,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 83,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 84,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 85,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 86,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 87,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 88,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 89,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 90,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": null
+        },
+        {
+          "frame": 91,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.5166666666666662,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 92,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.5333333333333328,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 93,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.5499999999999994,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 94,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.566666666666666,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 95,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.5833333333333326,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 96,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.5999999999999992,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 97,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.6166666666666658,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 98,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.6333333333333324,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 99,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.649999999999999,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 100,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.6666666666666656,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 101,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.6833333333333322,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 102,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.6999999999999988,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 103,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.7166666666666655,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 104,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.733333333333332,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 105,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.7499999999999987,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 106,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.7666666666666653,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 107,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.7833333333333319,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 108,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.7999999999999985,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 109,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.816666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 110,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.8333333333333317,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 111,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.8499999999999983,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 112,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.866666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 113,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.8833333333333315,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 114,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.8999999999999981,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 115,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.9166666666666647,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 116,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.9333333333333313,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 117,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.949999999999998,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 118,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.9666666666666646,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 119,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.9833333333333312,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 120,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 1.9999999999999978,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 121,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.0166666666666644,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 122,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.033333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 123,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.0499999999999976,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 124,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.066666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 125,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.083333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 126,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.0999999999999974,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 127,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.116666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 128,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.1333333333333306,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 129,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.1499999999999972,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 130,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.166666666666664,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 131,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.1833333333333305,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 132,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.199999999999997,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 133,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.2166666666666637,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 134,
+          "heroHP": 105,
+          "enemyHP": 38,
+          "pose": {
+            "time": 2.2333333333333303,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        }
+      ]
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "rows": [
+        {
+          "frame": 0,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 1,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 2,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 3,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 4,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 5,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 6,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 7,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 8,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 9,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 10,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 11,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 12,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 13,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 14,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 15,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 16,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 17,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 18,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 19,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 20,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 21,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 22,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 23,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 24,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 25,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 26,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 27,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 28,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 29,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 30,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 31,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 32,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 33,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 34,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 35,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 36,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 37,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 38,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 39,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 40,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 41,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 42,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 43,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 44,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 45,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 46,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 47,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 48,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 49,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 50,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 51,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 52,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 53,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 54,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 55,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 56,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 57,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 58,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 59,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 60,
+          "heroHP": 105,
+          "enemyHP": 28,
+          "pose": null
+        },
+        {
+          "frame": 61,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 62,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 63,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 64,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 65,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 66,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 67,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 68,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 69,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 70,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 71,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 72,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 73,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 74,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 75,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 76,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 77,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 78,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 79,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 80,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 81,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 82,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 83,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 84,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 85,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 86,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 87,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 88,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 89,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 90,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": null
+        },
+        {
+          "frame": 91,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.5166666666666662,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 92,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.5333333333333328,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 93,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.5499999999999994,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 94,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.566666666666666,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 95,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.5833333333333326,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 96,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.5999999999999992,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 97,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.6166666666666658,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 98,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.6333333333333324,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 99,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.649999999999999,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 100,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.6666666666666656,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 101,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.6833333333333322,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 102,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.6999999999999988,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 103,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.7166666666666655,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 104,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.733333333333332,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 105,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.7499999999999987,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 106,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.7666666666666653,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 107,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.7833333333333319,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 108,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.7999999999999985,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 109,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.816666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 110,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.8333333333333317,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 111,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.8499999999999983,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 112,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.866666666666665,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 113,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.8833333333333315,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 114,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.8999999999999981,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 115,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.9166666666666647,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 116,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.9333333333333313,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 117,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.949999999999998,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 118,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.9666666666666646,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 119,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.9833333333333312,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 120,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 1.9999999999999978,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 121,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.0166666666666644,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 122,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.033333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 123,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.0499999999999976,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 124,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.066666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 125,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.083333333333331,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 126,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.0999999999999974,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 127,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.116666666666664,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 128,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.1333333333333306,
+            "sheet": "combat",
+            "index": 2,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 129,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.1499999999999972,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 130,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.166666666666664,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 131,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.1833333333333305,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 132,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.199999999999997,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 133,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.2166666666666637,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        },
+        {
+          "frame": 134,
+          "heroHP": 105,
+          "enemyHP": 20,
+          "pose": {
+            "time": 2.2333333333333303,
+            "sheet": "combat",
+            "index": 3,
+            "state": "idle",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/combat.webp?v=313"
+          }
+        }
+      ]
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "rows": [
+        {
+          "frame": 0,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 1,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 2,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 3,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 4,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 5,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 6,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 7,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 8,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 9,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 10,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 11,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 12,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 13,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 14,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 15,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 16,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 17,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 18,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 19,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 20,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 21,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 22,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 23,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 24,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 25,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 26,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 27,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 28,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 29,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 30,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 31,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 32,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 33,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 34,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 35,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 36,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 37,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 38,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 39,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 40,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 41,
+          "heroHP": 105,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 42,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 43,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 44,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 45,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 46,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 47,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 48,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 49,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 50,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 51,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 52,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 53,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 54,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 55,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 56,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 57,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 58,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 59,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 60,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 61,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 62,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": null
+        },
+        {
+          "frame": 63,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.4999999999999996,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 64,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.5166666666666662,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 65,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.5333333333333328,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 66,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.5499999999999994,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 67,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.566666666666666,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 68,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.5833333333333326,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 69,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.5999999999999992,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 70,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.6166666666666658,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 71,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.6333333333333324,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 72,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.649999999999999,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 73,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.6666666666666656,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 74,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.6833333333333322,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 75,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.6999999999999988,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 76,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.7166666666666655,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 77,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.733333333333332,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 78,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.7499999999999987,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 79,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.7666666666666653,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 80,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.7833333333333319,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 81,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.7999999999999985,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 82,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.816666666666665,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 83,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.8333333333333317,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 84,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.8499999999999983,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 85,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.866666666666665,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 86,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.8833333333333315,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 87,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.8999999999999981,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 88,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.9166666666666647,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 89,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.9333333333333313,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 90,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.949999999999998,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 91,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.9666666666666646,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 92,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.9833333333333312,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 93,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 1.9999999999999978,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 94,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.0166666666666644,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 95,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.033333333333331,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 96,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.0499999999999976,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 97,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.066666666666664,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 98,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.083333333333331,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 99,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.0999999999999974,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 100,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.116666666666664,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 101,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.1333333333333306,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 102,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.1499999999999972,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 103,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.166666666666664,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 104,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.1833333333333305,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 105,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.199999999999997,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 106,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.2166666666666637,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 107,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.2333333333333303,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 108,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.249999999999997,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 109,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.2666666666666635,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 110,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.28333333333333,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 111,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.2999999999999967,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 112,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.3166666666666633,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 113,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.33333333333333,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "ground",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 114,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.3499999999999965,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 115,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.366666666666663,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 116,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.3833333333333298,
+            "sheet": "reaction",
+            "index": 8,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 117,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.3999999999999964,
+            "sheet": "reaction",
+            "index": 9,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 118,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.416666666666663,
+            "sheet": "reaction",
+            "index": 9,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 119,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.4333333333333296,
+            "sheet": "reaction",
+            "index": 9,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 120,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.449999999999996,
+            "sheet": "reaction",
+            "index": 10,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 121,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.466666666666663,
+            "sheet": "reaction",
+            "index": 10,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 122,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.4833333333333294,
+            "sheet": "reaction",
+            "index": 10,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 123,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.499999999999996,
+            "sheet": "reaction",
+            "index": 11,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 124,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.5166666666666626,
+            "sheet": "reaction",
+            "index": 11,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 125,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.533333333333329,
+            "sheet": "reaction",
+            "index": 11,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 126,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.549999999999996,
+            "sheet": "reaction",
+            "index": 12,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 127,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.5666666666666624,
+            "sheet": "reaction",
+            "index": 12,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 128,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.583333333333329,
+            "sheet": "reaction",
+            "index": 12,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 129,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.5999999999999956,
+            "sheet": "reaction",
+            "index": 12,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 130,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.6166666666666623,
+            "sheet": "reaction",
+            "index": 13,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 131,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.633333333333329,
+            "sheet": "reaction",
+            "index": 13,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 132,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.6499999999999955,
+            "sheet": "reaction",
+            "index": 13,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 133,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.666666666666662,
+            "sheet": "reaction",
+            "index": 14,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        },
+        {
+          "frame": 134,
+          "heroHP": 72,
+          "enemyHP": 40,
+          "pose": {
+            "time": 2.6833333333333287,
+            "sheet": "reaction",
+            "index": 14,
+            "state": "get-up",
+            "anatomicalHeight": 148,
+            "scale": 0.49254526091586803,
+            "source": "assets/style310/reaction.webp?v=313"
+          }
+        }
+      ]
+    }
+  ]
+}

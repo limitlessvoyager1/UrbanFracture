@@ -1,0 +1,5780 @@
+[
+  {
+    "grapple": [
+      {
+        "time": 0,
+        "mode": "joint-owner",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 0,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0,
+        "mode": "joint-victim",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 0
+      }
+    ],
+    "groundTag": false,
+    "frame": 0,
+    "t": 0,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.016666666666666666,
+        "mode": "joint-owner",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 1,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.016666666666666666,
+        "mode": "joint-victim",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 1
+      }
+    ],
+    "groundTag": false,
+    "frame": 1,
+    "t": 0.016666666666666666,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0.023809523809523808,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.03333333333333333,
+        "mode": "joint-owner",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 2,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.03333333333333333,
+        "mode": "joint-victim",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 2
+      }
+    ],
+    "groundTag": false,
+    "frame": 2,
+    "t": 0.03333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0.047619047619047616,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.05,
+        "mode": "joint-owner",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 3,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.05,
+        "mode": "joint-victim",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 3
+      }
+    ],
+    "groundTag": false,
+    "frame": 3,
+    "t": 0.05,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0.07142857142857142,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.06666666666666667,
+        "mode": "joint-owner",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 4,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.06666666666666667,
+        "mode": "joint-victim",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 4
+      }
+    ],
+    "groundTag": false,
+    "frame": 4,
+    "t": 0.06666666666666667,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0.09523809523809523,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.08333333333333333,
+        "mode": "joint-owner",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 5,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.08333333333333333,
+        "mode": "joint-victim",
+        "pose": 0,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 5
+      }
+    ],
+    "groundTag": false,
+    "frame": 5,
+    "t": 0.08333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0.11904761904761904,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.09999999999999999,
+        "mode": "joint-owner",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 5.999999999999999,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.09999999999999999,
+        "mode": "joint-victim",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 5.999999999999999
+      }
+    ],
+    "groundTag": false,
+    "frame": 6,
+    "t": 0.09999999999999999,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "CONTROL",
+    "pair": {
+      "cx": 502,
+      "cy": 468.786931417213,
+      "pivot": 0,
+      "angle": 0.02,
+      "sourceDir": -1,
+      "phase": 0.14285714285714285,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.11666666666666665,
+        "mode": "joint-owner",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 6.999999999999999,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.11666666666666665,
+        "mode": "joint-victim",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 6.999999999999999
+      }
+    ],
+    "groundTag": false,
+    "frame": 7,
+    "t": 0.11666666666666665,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 466.7554266458853,
+      "pivot": 0,
+      "angle": 0.05351562499999994,
+      "sourceDir": -1,
+      "phase": 0.16666666666666666,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.13333333333333333,
+        "mode": "joint-owner",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 8,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.13333333333333333,
+        "mode": "joint-victim",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 8
+      }
+    ],
+    "groundTag": false,
+    "frame": 8,
+    "t": 0.13333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 461.423062251277,
+      "pivot": 0,
+      "angle": 0.141875,
+      "sourceDir": -1,
+      "phase": 0.19047619047619047,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.15,
+        "mode": "joint-owner",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 9,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.15,
+        "mode": "joint-victim",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 9
+      }
+    ],
+    "groundTag": false,
+    "frame": 9,
+    "t": 0.15,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 454.0080821791855,
+      "pivot": 0,
+      "angle": 0.266796875,
+      "sourceDir": -1,
+      "phase": 0.21428571428571427,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.16666666666666666,
+        "mode": "joint-owner",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 10,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.16666666666666666,
+        "mode": "joint-victim",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 10
+      }
+    ],
+    "groundTag": false,
+    "frame": 10,
+    "t": 0.16666666666666666,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 445.82136549408375,
+      "pivot": 0,
+      "angle": 0.41000000000000003,
+      "sourceDir": -1,
+      "phase": 0.23809523809523808,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.18333333333333332,
+        "mode": "joint-owner",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 11,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.18333333333333332,
+        "mode": "joint-victim",
+        "pose": 1,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 11
+      }
+    ],
+    "groundTag": false,
+    "frame": 11,
+    "t": 0.18333333333333332,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 438.12963656469805,
+      "pivot": 0,
+      "angle": 0.553203125,
+      "sourceDir": -1,
+      "phase": 0.2619047619047619,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.19999999999999998,
+        "mode": "joint-owner",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 11.999999999999998,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.19999999999999998,
+        "mode": "joint-victim",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 11.999999999999998
+      }
+    ],
+    "groundTag": false,
+    "frame": 12,
+    "t": 0.19999999999999998,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 431.94750667776236,
+      "pivot": 0,
+      "angle": 0.6781249999999999,
+      "sourceDir": -1,
+      "phase": 0.2857142857142857,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.21666666666666665,
+        "mode": "joint-owner",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 12.999999999999998,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.21666666666666665,
+        "mode": "joint-victim",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 12.999999999999998
+      }
+    ],
+    "groundTag": false,
+    "frame": 13,
+    "t": 0.21666666666666665,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 427.9275499477724,
+      "pivot": 0,
+      "angle": 0.766484375,
+      "sourceDir": -1,
+      "phase": 0.3095238095238095,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.2333333333333333,
+        "mode": "joint-owner",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 13.999999999999998,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.2333333333333333,
+        "mode": "joint-victim",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 13.999999999999998
+      }
+    ],
+    "groundTag": false,
+    "frame": 14,
+    "t": 0.2333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BALANCE BREAK",
+    "pair": {
+      "cx": 502,
+      "cy": 426.4869923637858,
+      "pivot": 0,
+      "angle": 0.8,
+      "sourceDir": -1,
+      "phase": 0.3333333333333333,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.24999999999999997,
+        "mode": "joint-owner",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 14.999999999999998,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.24999999999999997,
+        "mode": "joint-victim",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 14.999999999999998
+      }
+    ],
+    "groundTag": false,
+    "frame": 15,
+    "t": 0.24999999999999997,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      470.859375,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 426.3058066653349,
+      "pivot": 0,
+      "angle": 0.804296875,
+      "sourceDir": -1,
+      "phase": 0.3571428571428571,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.26666666666666666,
+        "mode": "joint-owner",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 16,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.26666666666666666,
+        "mode": "joint-victim",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 16
+      }
+    ],
+    "groundTag": false,
+    "frame": 16,
+    "t": 0.26666666666666666,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      473.125,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 425.83201095258846,
+      "pivot": 0,
+      "angle": 0.815625,
+      "sourceDir": -1,
+      "phase": 0.38095238095238093,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.2833333333333333,
+        "mode": "joint-owner",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 17,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.2833333333333333,
+        "mode": "joint-victim",
+        "pose": 2,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 17
+      }
+    ],
+    "groundTag": false,
+    "frame": 17,
+    "t": 0.2833333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      476.328125,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 425.17184708440493,
+      "pivot": 0,
+      "angle": 0.831640625,
+      "sourceDir": -1,
+      "phase": 0.40476190476190477,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.3,
+        "mode": "joint-owner",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 18,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.3,
+        "mode": "joint-victim",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 18
+      }
+    ],
+    "groundTag": false,
+    "frame": 18,
+    "t": 0.3,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      480,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 424.4292291924145,
+      "pivot": 0,
+      "angle": 0.8500000000000001,
+      "sourceDir": -1,
+      "phase": 0.42857142857142855,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.31666666666666665,
+        "mode": "joint-owner",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 19,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.31666666666666665,
+        "mode": "joint-victim",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 19
+      }
+    ],
+    "groundTag": false,
+    "frame": 19,
+    "t": 0.31666666666666665,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      483.671875,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 423.7019712560445,
+      "pivot": 0,
+      "angle": 0.868359375,
+      "sourceDir": -1,
+      "phase": 0.4523809523809524,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.3333333333333333,
+        "mode": "joint-owner",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 20,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.3333333333333333,
+        "mode": "joint-victim",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 20
+      }
+    ],
+    "groundTag": false,
+    "frame": 20,
+    "t": 0.3333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      486.875,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 423.08029040410577,
+      "pivot": 0,
+      "angle": 0.884375,
+      "sourceDir": -1,
+      "phase": 0.47619047619047616,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.35,
+        "mode": "joint-owner",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 21,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.35,
+        "mode": "joint-victim",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 21
+      }
+    ],
+    "groundTag": false,
+    "frame": 21,
+    "t": 0.35,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      489.140625,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "LEG POSITION",
+    "pair": {
+      "cx": 502,
+      "cy": 422.6478222676573,
+      "pivot": 0,
+      "angle": 0.895703125,
+      "sourceDir": -1,
+      "phase": 0.5,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.36666666666666664,
+        "mode": "joint-owner",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 22,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.36666666666666664,
+        "mode": "joint-victim",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 22
+      }
+    ],
+    "groundTag": false,
+    "frame": 22,
+    "t": 0.36666666666666664,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      490,
+      502
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 502,
+      "cy": 422.48536921526346,
+      "pivot": 0,
+      "angle": 0.9,
+      "sourceDir": -1,
+      "phase": 0.5238095238095238,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.3833333333333333,
+        "mode": "joint-owner",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 23,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.3833333333333333,
+        "mode": "joint-victim",
+        "pose": 3,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 23
+      }
+    ],
+    "groundTag": false,
+    "frame": 23,
+    "t": 0.3833333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      491.568,
+      502.224
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 502.224,
+      "cy": 421.8586552506524,
+      "pivot": 0,
+      "angle": 0.9168000000000001,
+      "sourceDir": -1,
+      "phase": 0.5476190476190477,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.39999999999999997,
+        "mode": "joint-owner",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 23.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.39999999999999997,
+        "mode": "joint-victim",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 23.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 24,
+    "t": 0.39999999999999997,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      495.82399999999996,
+      502.832
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 502.832,
+      "cy": 420.2265609863923,
+      "pivot": 0,
+      "angle": 0.9623999999999998,
+      "sourceDir": -1,
+      "phase": 0.5714285714285714,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.41666666666666663,
+        "mode": "joint-owner",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 24.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.41666666666666663,
+        "mode": "joint-victim",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 24.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 25,
+    "t": 0.41666666666666663,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      502.096,
+      503.728
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 503.728,
+      "cy": 418.0109050085148,
+      "pivot": 0,
+      "angle": 1.0295999999999998,
+      "sourceDir": -1,
+      "phase": 0.5952380952380951,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.4333333333333333,
+        "mode": "joint-owner",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 25.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.4333333333333333,
+        "mode": "joint-victim",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 25.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 26,
+    "t": 0.4333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      509.712,
+      504.816
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 504.816,
+      "cy": 415.6368539290303,
+      "pivot": 0,
+      "angle": 1.1111999999999997,
+      "sourceDir": -1,
+      "phase": 0.619047619047619,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.44999999999999996,
+        "mode": "joint-owner",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 26.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.44999999999999996,
+        "mode": "joint-victim",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 26.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 27,
+    "t": 0.44999999999999996,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      518,
+      506
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 506,
+      "cy": 413.4648644105226,
+      "pivot": 0,
+      "angle": 1.1999999999999997,
+      "sourceDir": -1,
+      "phase": 0.6428571428571428,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.4666666666666666,
+        "mode": "joint-owner",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 27.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.4666666666666666,
+        "mode": "joint-victim",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 27.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 28,
+    "t": 0.4666666666666666,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      526.288,
+      507.18399999999997
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 507.18399999999997,
+      "cy": 411.7383864415871,
+      "pivot": 0,
+      "angle": 1.2887999999999997,
+      "sourceDir": -1,
+      "phase": 0.6666666666666666,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.4833333333333333,
+        "mode": "joint-owner",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 28.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.4833333333333333,
+        "mode": "joint-victim",
+        "pose": 4,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 28.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 29,
+    "t": 0.4833333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      533.904,
+      508.272
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 508.272,
+      "cy": 410.5564188398321,
+      "pivot": 0,
+      "angle": 1.3703999999999996,
+      "sourceDir": -1,
+      "phase": 0.6904761904761904,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.49999999999999994,
+        "mode": "joint-owner",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 29.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.49999999999999994,
+        "mode": "joint-victim",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 29.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 30,
+    "t": 0.49999999999999994,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      540.1759999999999,
+      509.168
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 509.168,
+      "cy": 409.8798021202236,
+      "pivot": 0,
+      "angle": 1.4375999999999998,
+      "sourceDir": -1,
+      "phase": 0.7142857142857142,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.5166666666666666,
+        "mode": "joint-owner",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 30.999999999999996,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.5166666666666666,
+        "mode": "joint-victim",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 30.999999999999996
+      }
+    ],
+    "groundTag": false,
+    "frame": 31,
+    "t": 0.5166666666666666,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      542.8491949353723,
+      509.776
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "OUTER REAP",
+    "pair": {
+      "cx": 509.776,
+      "cy": 409.57509427042214,
+      "pivot": 0,
+      "angle": 1.4831999999999999,
+      "sourceDir": -1,
+      "phase": 0.738095238095238,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.5333333333333333,
+        "mode": "joint-owner",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 32,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.5333333333333333,
+        "mode": "joint-victim",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 32
+      }
+    ],
+    "groundTag": false,
+    "frame": 32,
+    "t": 0.5333333333333333,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      539.9250563144302,
+      510
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 510,
+      "cy": 409.4944748921537,
+      "pivot": 0,
+      "angle": 1.5,
+      "sourceDir": -1,
+      "phase": 0.7619047619047619,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.55,
+        "mode": "joint-owner",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 33,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.55,
+        "mode": "joint-victim",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 33
+      }
+    ],
+    "groundTag": false,
+    "frame": 33,
+    "t": 0.55,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      531.5638208987058,
+      510.336
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 510.336,
+      "cy": 408.98095009244213,
+      "pivot": 0,
+      "angle": 1.5201822971502572,
+      "sourceDir": -1,
+      "phase": 0.7857142857142857,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.5666666666666668,
+        "mode": "joint-owner",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 34.00000000000001,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.5666666666666668,
+        "mode": "joint-victim",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 34.00000000000001
+      }
+    ],
+    "groundTag": false,
+    "frame": 34,
+    "t": 0.5666666666666668,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      519.4491419599929,
+      511.248
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 511.248,
+      "cy": 407.73833555641704,
+      "pivot": 0,
+      "angle": 1.5749628179866697,
+      "sourceDir": -1,
+      "phase": 0.8095238095238096,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.5833333333333335,
+        "mode": "joint-owner",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 35.00000000000001,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.5833333333333335,
+        "mode": "joint-victim",
+        "pose": 5,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 35.00000000000001
+      }
+    ],
+    "groundTag": false,
+    "frame": 35,
+    "t": 0.5833333333333335,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      505.9001546063455,
+      512.592
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 512.592,
+      "cy": 406.42252663784683,
+      "pivot": 0,
+      "angle": 1.6556920065876983,
+      "sourceDir": -1,
+      "phase": 0.8333333333333335,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.6000000000000002,
+        "mode": "joint-owner",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 36.000000000000014,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.6000000000000002,
+        "mode": "joint-victim",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 36.000000000000014
+      }
+    ],
+    "groundTag": false,
+    "frame": 36,
+    "t": 0.6000000000000002,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      492.9118156860016,
+      514.224
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 514.224,
+      "cy": 405.88532873086285,
+      "pivot": 0,
+      "angle": 1.753720307031805,
+      "sourceDir": -1,
+      "phase": 0.8571428571428574,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.6166666666666669,
+        "mode": "joint-owner",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 37.000000000000014,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.6166666666666669,
+        "mode": "joint-victim",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 37.000000000000014
+      }
+    ],
+    "groundTag": false,
+    "frame": 37,
+    "t": 0.6166666666666669,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      481.9260720745744,
+      516
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 516,
+      "cy": 406.8684465070222,
+      "pivot": 0,
+      "angle": 1.8603981633974498,
+      "sourceDir": -1,
+      "phase": 0.8809523809523813,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.6333333333333336,
+        "mode": "joint-owner",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 38.00000000000002,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.6333333333333336,
+        "mode": "joint-victim",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 38.00000000000002
+      }
+    ],
+    "groundTag": false,
+    "frame": 38,
+    "t": 0.6333333333333336,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      473.7174448186453,
+      517.7760000000001
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 517.7760000000001,
+      "cy": 405.634944063602,
+      "pivot": 0,
+      "angle": 1.9670760197630952,
+      "sourceDir": -1,
+      "phase": 0.9047619047619053,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.6500000000000004,
+        "mode": "joint-owner",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 39.00000000000002,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.6500000000000004,
+        "mode": "joint-victim",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 39.00000000000002
+      }
+    ],
+    "groundTag": false,
+    "frame": 39,
+    "t": 0.6500000000000004,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      468.39302913576506,
+      519.408
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 519.408,
+      "cy": 395.9772921348261,
+      "pivot": 0,
+      "angle": 2.065104320207201,
+      "sourceDir": -1,
+      "phase": 0.928571428571429,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.6666666666666671,
+        "mode": "joint-owner",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 40.00000000000002,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.6666666666666671,
+        "mode": "joint-victim",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 40.00000000000002
+      }
+    ],
+    "groundTag": false,
+    "frame": 40,
+    "t": 0.6666666666666671,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      465.5069102708586,
+      520.7520000000001
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 520.7520000000001,
+      "cy": 388.96834886878185,
+      "pivot": 0,
+      "angle": 2.145833508808229,
+      "sourceDir": -1,
+      "phase": 0.9523809523809529,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.6833333333333338,
+        "mode": "joint-owner",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 41.00000000000003,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.6833333333333338,
+        "mode": "joint-victim",
+        "pose": 6,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 41.00000000000003
+      }
+    ],
+    "groundTag": false,
+    "frame": 41,
+    "t": 0.6833333333333338,
+    "hp": [
+      105,
+      60
+    ],
+    "x": [
+      464.2889952090358,
+      521.664
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": true,
+    "victimDown": 0,
+    "phase": "BACKWARD FALL",
+    "pair": {
+      "cx": 521.664,
+      "cy": 384.62837414049403,
+      "pivot": 0,
+      "angle": 2.2006140296446404,
+      "sourceDir": -1,
+      "phase": 0.9761904761904768,
+      "groundY": 470,
+      "contact119": true
+    }
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.7000000000000005,
+        "mode": "joint-owner",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 42.00000000000003,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.7000000000000005,
+        "mode": "joint-victim",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 42.00000000000003
+      }
+    ],
+    "groundTag": true,
+    "frame": 42,
+    "t": 0.7000000000000005,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TAKEDOWN IMPACT",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.7166666666666672,
+        "mode": "joint-owner",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 43.000000000000036,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.7166666666666672,
+        "mode": "joint-victim",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 43.000000000000036
+      }
+    ],
+    "groundTag": true,
+    "frame": 43,
+    "t": 0.7166666666666672,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TAKEDOWN IMPACT",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.733333333333334,
+        "mode": "joint-owner",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 44.000000000000036,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.733333333333334,
+        "mode": "joint-victim",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 44.000000000000036
+      }
+    ],
+    "groundTag": true,
+    "frame": 44,
+    "t": 0.733333333333334,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TAKEDOWN IMPACT",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.7500000000000007,
+        "mode": "joint-owner",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 45.00000000000004,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.7500000000000007,
+        "mode": "joint-victim",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 45.00000000000004
+      }
+    ],
+    "groundTag": true,
+    "frame": 45,
+    "t": 0.7500000000000007,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TAKEDOWN IMPACT",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.7666666666666674,
+        "mode": "joint-owner",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 46.00000000000004,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.7666666666666674,
+        "mode": "joint-victim",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 46.00000000000004
+      }
+    ],
+    "groundTag": true,
+    "frame": 46,
+    "t": 0.7666666666666674,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TAKEDOWN IMPACT",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.7833333333333341,
+        "mode": "joint-owner",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 47.00000000000004,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.7833333333333341,
+        "mode": "joint-victim",
+        "pose": 7,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 47.00000000000004
+      }
+    ],
+    "groundTag": true,
+    "frame": 47,
+    "t": 0.7833333333333341,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.8000000000000008,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 48.00000000000005,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.8000000000000008,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 48.00000000000005
+      }
+    ],
+    "groundTag": true,
+    "frame": 48,
+    "t": 0.8000000000000008,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.8166666666666675,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 49.00000000000005,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.8166666666666675,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 49.00000000000005
+      }
+    ],
+    "groundTag": true,
+    "frame": 49,
+    "t": 0.8166666666666675,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.8333333333333343,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 50.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.8333333333333343,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 50.00000000000006
+      }
+    ],
+    "groundTag": true,
+    "frame": 50,
+    "t": 0.8333333333333343,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.850000000000001,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 51.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.850000000000001,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 51.00000000000006
+      }
+    ],
+    "groundTag": true,
+    "frame": 51,
+    "t": 0.850000000000001,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.8666666666666677,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 52.000000000000064,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.8666666666666677,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 52.000000000000064
+      }
+    ],
+    "groundTag": true,
+    "frame": 52,
+    "t": 0.8666666666666677,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.8833333333333344,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 53.000000000000064,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.8833333333333344,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 53.000000000000064
+      }
+    ],
+    "groundTag": true,
+    "frame": 53,
+    "t": 0.8833333333333344,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.9000000000000011,
+        "mode": "joint-owner",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 54.00000000000007,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.9000000000000011,
+        "mode": "joint-victim",
+        "pose": 8,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 54.00000000000007
+      }
+    ],
+    "groundTag": true,
+    "frame": 54,
+    "t": 0.9000000000000011,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.9166666666666679,
+        "mode": "joint-owner",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 55.00000000000007,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.9166666666666679,
+        "mode": "joint-victim",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 55.00000000000007
+      }
+    ],
+    "groundTag": true,
+    "frame": 55,
+    "t": 0.9166666666666679,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GROUND-STRIKE PREPARATION",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.9333333333333346,
+        "mode": "joint-owner",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 56.00000000000007,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.9333333333333346,
+        "mode": "joint-victim",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 56.00000000000007
+      }
+    ],
+    "groundTag": true,
+    "frame": 56,
+    "t": 0.9333333333333346,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.9500000000000013,
+        "mode": "joint-owner",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 57.00000000000008,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.9500000000000013,
+        "mode": "joint-victim",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 57.00000000000008
+      }
+    ],
+    "groundTag": true,
+    "frame": 57,
+    "t": 0.9500000000000013,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.966666666666668,
+        "mode": "joint-owner",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 58.00000000000008,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.966666666666668,
+        "mode": "joint-victim",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 58.00000000000008
+      }
+    ],
+    "groundTag": true,
+    "frame": 58,
+    "t": 0.966666666666668,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 0.9833333333333347,
+        "mode": "joint-owner",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 59.000000000000085,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 0.9833333333333347,
+        "mode": "joint-victim",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 59.000000000000085
+      }
+    ],
+    "groundTag": true,
+    "frame": 59,
+    "t": 0.9833333333333347,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.0000000000000013,
+        "mode": "joint-owner",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 60.00000000000008,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.0000000000000013,
+        "mode": "joint-victim",
+        "pose": 9,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 60.00000000000008
+      }
+    ],
+    "groundTag": true,
+    "frame": 60,
+    "t": 1.0000000000000013,
+    "hp": [
+      105,
+      47
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.016666666666668,
+        "mode": "joint-owner",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 61.00000000000008,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.016666666666668,
+        "mode": "joint-victim",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 61.00000000000008
+      }
+    ],
+    "groundTag": true,
+    "frame": 61,
+    "t": 1.016666666666668,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.0333333333333345,
+        "mode": "joint-owner",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 62.00000000000007,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.0333333333333345,
+        "mode": "joint-victim",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 62.00000000000007
+      }
+    ],
+    "groundTag": true,
+    "frame": 62,
+    "t": 1.0333333333333345,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.0500000000000012,
+        "mode": "joint-owner",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 63.00000000000007,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.0500000000000012,
+        "mode": "joint-victim",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 63.00000000000007
+      }
+    ],
+    "groundTag": true,
+    "frame": 63,
+    "t": 1.0500000000000012,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.0666666666666678,
+        "mode": "joint-owner",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 64.00000000000007,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.0666666666666678,
+        "mode": "joint-victim",
+        "pose": 10,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 64.00000000000007
+      }
+    ],
+    "groundTag": true,
+    "frame": 64,
+    "t": 1.0666666666666678,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "PUNCH",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.0833333333333344,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 65.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.0833333333333344,
+        "mode": "joint-victim",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 65.00000000000006
+      }
+    ],
+    "groundTag": true,
+    "frame": 65,
+    "t": 1.0833333333333344,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.100000000000001,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 66.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.100000000000001,
+        "mode": "joint-victim",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 66.00000000000006
+      }
+    ],
+    "groundTag": true,
+    "frame": 66,
+    "t": 1.100000000000001,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1166666666666676,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 67.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.1166666666666676,
+        "mode": "joint-victim",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 67.00000000000006
+      }
+    ],
+    "groundTag": true,
+    "frame": 67,
+    "t": 1.1166666666666676,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-victim",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006
+      }
+    ],
+    "groundTag": true,
+    "frame": 68,
+    "t": 1.1333333333333342,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.1500000000000008,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 69,
+    "t": 1.1500000000000008,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.1666666666666674,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 70,
+    "t": 1.1666666666666674,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.183333333333334,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 71,
+    "t": 1.183333333333334,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.2000000000000006,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 72,
+    "t": 1.2000000000000006,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "RISE",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.2166666666666672,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 73,
+    "t": 1.2166666666666672,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      477.3504861568074,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.2333333333333338,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 74,
+    "t": 1.2333333333333338,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      475.98765585778204,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.2500000000000004,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 75,
+    "t": 1.2500000000000004,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      472.3947396148971,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.266666666666667,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 76,
+    "t": 1.266666666666667,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      467.31509940943914,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.2833333333333337,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 77,
+    "t": 1.2833333333333337,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      461.4920972226947,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.3000000000000003,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 78,
+    "t": 1.3000000000000003,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      455.6690950359503,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.3166666666666669,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 79,
+    "t": 1.3166666666666669,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      450.5894548304924,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.3333333333333335,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 80,
+    "t": 1.3333333333333335,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      446.9965385876076,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.35,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 81,
+    "t": 1.35,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      445.6337082885823,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.3666666666666667,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 82,
+    "t": 1.3666666666666667,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      444.270877989557,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.3833333333333333,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 83,
+    "t": 1.3833333333333333,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      440.6779617466721,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.4,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 84,
+    "t": 1.4,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      435.5983215412142,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.4166666666666665,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 85,
+    "t": 1.4166666666666665,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      429.77531935446984,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.4333333333333331,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 86,
+    "t": 1.4333333333333331,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      423.95231716772537,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.4499999999999997,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 87,
+    "t": 1.4499999999999997,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      418.8726769622674,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.4666666666666663,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 88,
+    "t": 1.4666666666666663,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      415.2797607193825,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.483333333333333,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 89,
+    "t": 1.483333333333333,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "TWO BACKWARD STEPS",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.4999999999999996,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 90,
+    "t": 1.4999999999999996,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0499999999999998,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.5166666666666662,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 91,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0333333333333332,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.5333333333333328,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 92,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1.0166666666666666,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.5499999999999994,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 93,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 1,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.566666666666666,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 94,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.9833333333333333,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.5833333333333326,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 95,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.9666666666666666,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.5999999999999992,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 96,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.95,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.6166666666666658,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 97,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.9333333333333332,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.6333333333333324,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 98,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.9166666666666665,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.649999999999999,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 99,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.8999999999999998,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.6666666666666656,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 100,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.8833333333333331,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.6833333333333322,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 101,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.8666666666666664,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.6999999999999988,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 102,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.8499999999999996,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.7166666666666655,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 103,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.8333333333333329,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.733333333333332,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 104,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.8166666666666662,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.7499999999999987,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 105,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.7999999999999995,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.7666666666666653,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 106,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.7833333333333328,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.7833333333333319,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 107,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.766666666666666,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.7999999999999985,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 108,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.7499999999999993,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.816666666666665,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 109,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.7333333333333326,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.8333333333333317,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 110,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.7166666666666659,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.8499999999999983,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 111,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.6999999999999992,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.866666666666665,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 112,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.6833333333333325,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.8833333333333315,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 113,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.6666666666666657,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.8999999999999981,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 114,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.649999999999999,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.9166666666666647,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 115,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.6333333333333323,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.9333333333333313,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 116,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.6166666666666656,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.949999999999998,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 117,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.5999999999999989,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.9666666666666646,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 118,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.5833333333333321,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.9833333333333312,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 119,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.5666666666666654,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 1.9999999999999978,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 120,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.5499999999999987,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.0166666666666644,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 121,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.533333333333332,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.033333333333331,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 122,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.5166666666666653,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.0499999999999976,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 123,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.49999999999999856,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.066666666666664,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 124,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.48333333333333184,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.083333333333331,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 125,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.4666666666666651,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.0999999999999974,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 126,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.4499999999999984,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.116666666666664,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 127,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.4333333333333318,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.1333333333333306,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 128,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.4166666666666652,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.1499999999999972,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 129,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.3999999999999986,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.166666666666664,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 130,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.38333333333333197,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.1833333333333305,
+        "mode": "grapple-ground",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 131,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.36666666666666536,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.199999999999997,
+        "mode": "grapple-get-up",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 132,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.34999999999999876,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.2166666666666637,
+        "mode": "grapple-get-up",
+        "pose": 13,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 133,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.33333333333333215,
+    "phase": "GUARD",
+    "pair": null
+  },
+  {
+    "grapple": [
+      {
+        "time": 1.1333333333333342,
+        "mode": "joint-owner",
+        "pose": 11,
+        "family": "reap-marcus",
+        "ground": 470,
+        "clock": 68.00000000000006,
+        "scale": 1.3362225912
+      },
+      {
+        "time": 2.2333333333333303,
+        "mode": "grapple-get-up",
+        "pose": 14,
+        "ground": 470,
+        "scale": 1.347943842,
+        "sourceFamily": "marcus289"
+      }
+    ],
+    "groundTag": true,
+    "frame": 134,
+    "t": 1.5166666666666662,
+    "hp": [
+      105,
+      38
+    ],
+    "x": [
+      413.9169304203572,
+      534
+    ],
+    "y": [
+      470,
+      470
+    ],
+    "hold": false,
+    "victimDown": 0.31666666666666554,
+    "phase": "GUARD",
+    "pair": null
+  }
+]

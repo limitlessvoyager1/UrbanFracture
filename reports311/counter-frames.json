@@ -1,0 +1,2018 @@
+[
+  {
+    "frame": 0,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 1,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 347.49999975,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 2,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 344.99999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 3,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 342.49999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 4,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 339.99999975,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 5,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 337.49999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 6,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 8
+    },
+    "hero": {
+      "x": 334.99999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 7,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 332.49999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 8,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 329.99999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 9,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 327.49999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 10,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 324.99999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 11,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 322.49999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 12,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 319.99999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 13,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 317.49999975000003,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 14,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 9
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 15,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 10
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 16,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 10
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 17,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 10
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 18,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 11
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 420,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 19,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 11
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 20,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 11
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 21,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 11
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 22,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 11
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 23,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 12
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 24,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 12
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 25,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 12
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 26,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 12
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 36,
+      "down": 0,
+      "held": true
+    }
+  },
+  {
+    "frame": 27,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 13
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 435.11631944444446,
+      "y": 480,
+      "hp": 4,
+      "down": 1.4333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 28,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 13
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 442.7986111111111,
+      "y": 480,
+      "hp": 4,
+      "down": 1.4166666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 29,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 13
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 450.046875,
+      "y": 480,
+      "hp": 4,
+      "down": 1.4,
+      "held": false
+    }
+  },
+  {
+    "frame": 30,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 13
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 456.8611111111111,
+      "y": 480,
+      "hp": 4,
+      "down": 1.3833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 31,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 13
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 463.24131944444446,
+      "y": 480,
+      "hp": 4,
+      "down": 1.3666666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 32,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 469.1875,
+      "y": 480,
+      "hp": 4,
+      "down": 1.3499999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 33,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 474.69965277777777,
+      "y": 480,
+      "hp": 4,
+      "down": 1.3333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 34,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 479.77777777777777,
+      "y": 480,
+      "hp": 4,
+      "down": 1.3166666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 35,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 484.421875,
+      "y": 480,
+      "hp": 4,
+      "down": 1.3,
+      "held": false
+    }
+  },
+  {
+    "frame": 36,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 488.63194444444446,
+      "y": 480,
+      "hp": 4,
+      "down": 1.2833333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 37,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 492.4079861111111,
+      "y": 480,
+      "hp": 4,
+      "down": 1.2666666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 38,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 495.75,
+      "y": 480,
+      "hp": 4,
+      "down": 1.25,
+      "held": false
+    }
+  },
+  {
+    "frame": 39,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 498.6579861111111,
+      "y": 480,
+      "hp": 4,
+      "down": 1.2333333333333334,
+      "held": false
+    }
+  },
+  {
+    "frame": 40,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 501.13194444444446,
+      "y": 480,
+      "hp": 4,
+      "down": 1.2166666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 41,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 503.171875,
+      "y": 480,
+      "hp": 4,
+      "down": 1.2,
+      "held": false
+    }
+  },
+  {
+    "frame": 42,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 504.77777777777777,
+      "y": 480,
+      "hp": 4,
+      "down": 1.1833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 43,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 505.94965277777777,
+      "y": 480,
+      "hp": 4,
+      "down": 1.1666666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 44,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 14
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 506.6875,
+      "y": 480,
+      "hp": 4,
+      "down": 1.15,
+      "held": false
+    }
+  },
+  {
+    "frame": 45,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 506.99131944444446,
+      "y": 480,
+      "hp": 4,
+      "down": 1.1333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 46,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.1166666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 47,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.1,
+      "held": false
+    }
+  },
+  {
+    "frame": 48,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.0833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 49,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.0666666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 50,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.05,
+      "held": false
+    }
+  },
+  {
+    "frame": 51,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.0333333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 52,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1.0166666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 53,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 1,
+      "held": false
+    }
+  },
+  {
+    "frame": 54,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.9833333333333334,
+      "held": false
+    }
+  },
+  {
+    "frame": 55,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.9666666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 56,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.95,
+      "held": false
+    }
+  },
+  {
+    "frame": 57,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.9333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 58,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.9166666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 59,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.8999999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 60,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.8833333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 61,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.8666666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 62,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.8499999999999998,
+      "held": false
+    }
+  },
+  {
+    "frame": 63,
+    "action": "counterMove248",
+    "pose": {
+      "sheet": "unique311",
+      "index": 15
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 64,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.8166666666666663,
+      "held": false
+    }
+  },
+  {
+    "frame": 65,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.7999999999999996,
+      "held": false
+    }
+  },
+  {
+    "frame": 66,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.7833333333333329,
+      "held": false
+    }
+  },
+  {
+    "frame": 67,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.7666666666666662,
+      "held": false
+    }
+  },
+  {
+    "frame": 68,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.7499999999999994,
+      "held": false
+    }
+  },
+  {
+    "frame": 69,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.7333333333333327,
+      "held": false
+    }
+  },
+  {
+    "frame": 70,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.716666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 71,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.6999999999999993,
+      "held": false
+    }
+  },
+  {
+    "frame": 72,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.6833333333333326,
+      "held": false
+    }
+  },
+  {
+    "frame": 73,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.6666666666666659,
+      "held": false
+    }
+  },
+  {
+    "frame": 74,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.6499999999999991,
+      "held": false
+    }
+  },
+  {
+    "frame": 75,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.6333333333333324,
+      "held": false
+    }
+  },
+  {
+    "frame": 76,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.6166666666666657,
+      "held": false
+    }
+  },
+  {
+    "frame": 77,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.599999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 78,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.5833333333333323,
+      "held": false
+    }
+  },
+  {
+    "frame": 79,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.5666666666666655,
+      "held": false
+    }
+  },
+  {
+    "frame": 80,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.5499999999999988,
+      "held": false
+    }
+  },
+  {
+    "frame": 81,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.5333333333333321,
+      "held": false
+    }
+  },
+  {
+    "frame": 82,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.5166666666666654,
+      "held": false
+    }
+  },
+  {
+    "frame": 83,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.49999999999999867,
+      "held": false
+    }
+  },
+  {
+    "frame": 84,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.48333333333333195,
+      "held": false
+    }
+  },
+  {
+    "frame": 85,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.46666666666666523,
+      "held": false
+    }
+  },
+  {
+    "frame": 86,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.4499999999999986,
+      "held": false
+    }
+  },
+  {
+    "frame": 87,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.433333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 88,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.4166666666666654,
+      "held": false
+    }
+  },
+  {
+    "frame": 89,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.3999999999999988,
+      "held": false
+    }
+  },
+  {
+    "frame": 90,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.3833333333333322,
+      "held": false
+    }
+  },
+  {
+    "frame": 91,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.3666666666666656,
+      "held": false
+    }
+  },
+  {
+    "frame": 92,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.349999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 93,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.33333333333333237,
+      "held": false
+    }
+  },
+  {
+    "frame": 94,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.31666666666666576,
+      "held": false
+    }
+  },
+  {
+    "frame": 95,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 315,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 507,
+      "y": 480,
+      "hp": 4,
+      "down": 0.29999999999999916,
+      "held": false
+    }
+  }
+]

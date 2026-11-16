@@ -1,0 +1,719 @@
+[
+  {
+    "label": "idle",
+    "bounds": [
+      -56,
+      -127,
+      54,
+      -1
+    ],
+    "height": 127,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "matching combat-ready guard",
+      "scale": 1
+    }
+  },
+  {
+    "label": "walk",
+    "bounds": [
+      -36,
+      -140,
+      55,
+      -1
+    ],
+    "height": 140,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "matching combat-ready guard",
+      "scale": 1
+    },
+    "motion": {
+      "kind": "walk",
+      "frame": 0,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainFist 0.1",
+    "bounds": [
+      -59,
+      -127,
+      53,
+      -1
+    ],
+    "height": 127,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 1,
+      "scale": 1,
+      "wrist": [
+        -30.989227642276425,
+        -92.57500000000002
+      ]
+    },
+    "motion": {
+      "kind": "walk",
+      "frame": 0,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainFist 0.35",
+    "bounds": [
+      -58,
+      -122,
+      63,
+      -1
+    ],
+    "height": 122,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 5,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -79.82916666666668
+      ]
+    },
+    "motion": {
+      "kind": "walk",
+      "frame": 0,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainFist 0.6",
+    "bounds": [
+      -58,
+      -125,
+      57,
+      -1
+    ],
+    "height": 125,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "walk",
+      "frame": 0,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainLash 0.1",
+    "bounds": [
+      -59,
+      -127,
+      53,
+      -1
+    ],
+    "height": 127,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainLash",
+      "frame": 1,
+      "contact": false,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainLash 0.35",
+    "bounds": [
+      -65,
+      -129,
+      47,
+      -1
+    ],
+    "height": 129,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainLash",
+      "frame": 2,
+      "contact": false,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainLash 0.6",
+    "bounds": [
+      -61,
+      -123,
+      170,
+      -1
+    ],
+    "height": 123,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainLash",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainSweep 0.1",
+    "bounds": [
+      -59,
+      -127,
+      53,
+      -1
+    ],
+    "height": 127,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 1,
+      "contact": false,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainSweep 0.35",
+    "bounds": [
+      -65,
+      -129,
+      47,
+      -1
+    ],
+    "height": 129,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 2,
+      "contact": false,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainSweep 0.6",
+    "bounds": [
+      -61,
+      -123,
+      181,
+      -1
+    ],
+    "height": 123,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainKick 0.1",
+    "bounds": [
+      -64,
+      -110,
+      63,
+      0
+    ],
+    "height": 111,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainKick 0.35",
+    "bounds": [
+      -22,
+      -111,
+      107,
+      0
+    ],
+    "height": 112,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainKick 0.6",
+    "bounds": [
+      -22,
+      -111,
+      107,
+      0
+    ],
+    "height": 112,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainRise 0.1",
+    "bounds": [
+      -40,
+      -138,
+      40,
+      -1
+    ],
+    "height": 138,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainRise 0.35",
+    "bounds": [
+      -40,
+      -138,
+      40,
+      -1
+    ],
+    "height": 138,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "chainRise 0.6",
+    "bounds": [
+      -40,
+      -138,
+      40,
+      -1
+    ],
+    "height": 138,
+    "classification": null,
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 0.22",
+    "bounds": [
+      -63,
+      -98,
+      72,
+      -2
+    ],
+    "height": 97,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "fall",
+      "u": 0.6770833333333333,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 0.52",
+    "bounds": [
+      -72,
+      -51,
+      72,
+      -1
+    ],
+    "height": 51,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "ground",
+      "u": 1,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 1.13",
+    "bounds": [
+      -72,
+      -58,
+      76,
+      -2
+    ],
+    "height": 57,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "rise",
+      "u": 0.09523809523809776,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 1.20",
+    "bounds": [
+      -66,
+      -97,
+      70,
+      -2
+    ],
+    "height": 96,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "rise",
+      "u": 0.2857142857142876,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 1.28",
+    "bounds": [
+      -49,
+      -92,
+      43,
+      -1
+    ],
+    "height": 92,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "rise",
+      "u": 0.5238095238095248,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 1.37",
+    "bounds": [
+      -50,
+      -111,
+      44,
+      -1
+    ],
+    "height": 111,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "rise",
+      "u": 0.7619047619047621,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "label": "down 1.45",
+    "bounds": [
+      -40,
+      -138,
+      40,
+      -1
+    ],
+    "height": 138,
+    "fall": {
+      "at": 0,
+      "sourceDir": 1,
+      "back": true,
+      "landed": false
+    },
+    "classification": {
+      "phase": "rise",
+      "u": 0.9999999999999993,
+      "dir": 1
+    },
+    "render": {
+      "family": "bikerChain",
+      "phase": "chain-wrapped fist",
+      "index": 7,
+      "scale": 1,
+      "wrist": [
+        -13.989329268292678,
+        -77.14583333333334
+      ]
+    },
+    "motion": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  }
+]

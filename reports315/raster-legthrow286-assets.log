@@ -1,0 +1,3 @@
+PASS286 ASSETS:12 fixed-anatomical-scale wholebody poses, hand/head/hip metadata, binary alpha;13 superseded poses recoverable outside deployment
+/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/legthrow286-assets.py:7: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  im=Image.open('dist/'+q['src']).convert('RGBA');a=im.getchannel('A');assert set(a.getdata())<={0,255};assert sum(v>0 for v in a.getdata())>1500

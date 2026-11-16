@@ -1,0 +1,5 @@
+PASS280 ASSETS eight fixed138-height bodies / one source scale / stable pelvis / opaque glove and sole / detailed aspect-correct mall assets
+/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/review280-assets.py:7: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  im=Image.open('dist/'+q['src'].split('?')[0]).convert('RGBA');assert im.size==(q['w'],q['h']);assert q['h']==138 and q['ay']==138;assert set(im.getchannel('A').getdata())<={0,255};assert im.getchannel('A').getbbox()[3]==138
+/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/review280-assets.py:13: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  if name in ['appliance','door','chair']:assert set(im.convert('RGBA').getchannel('A').getdata())<={0,255}

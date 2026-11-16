@@ -1,0 +1,2027 @@
+{
+  "status": "passed",
+  "sourceFingerprint": "94cfb1c9d0a01569eb7933876a27060159a2204baa524fe2fd3411c3e039ca7c",
+  "checks": 1158,
+  "cases": 224,
+  "rows": [
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "broxton",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "broxton",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "forest",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "forest",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "reina",
+      "dir": -1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.8,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "same-index squash"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "different native pose"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 2.8,
+      "query": 2.9,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "within coarse bucket"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "exact original floating clock rewind"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 5,
+      "query": 4.999999999999988,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary rewind"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 5,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "boundary forward"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0,
+      "label": "flashed to clean"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0,
+      "queryFlash": 0.2,
+      "label": "clean to flashed"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 0.9,
+      "warmFlash": 0.2,
+      "queryFlash": 0.1,
+      "label": "positive flashes share same native filter"
+    },
+    {
+      "type": "reina",
+      "dir": 1,
+      "warm": 0.9,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "moving control"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "hero/reset forest"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "hero/reset niko"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "hero/reset broxton"
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "warm": 4.999999999999988,
+      "query": 2.8166666666666615,
+      "warmFlash": 0,
+      "queryFlash": 0,
+      "label": "hero/reset nightshade"
+    }
+  ],
+  "gitRequired": false,
+  "diagnostics": "Private source-buffer export only; actual original draw functions execute",
+  "mutation": null
+}

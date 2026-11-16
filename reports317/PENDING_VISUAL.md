@@ -1,0 +1,1 @@
+Completed the recorded final view, route-label, cache-fixture and barrier/replay corrections. See FINAL_VERIFICATION.json and final rendered captures. No implementation item remains pending in this list. Manual owner art, physical-controller and human-balance review remain separate.

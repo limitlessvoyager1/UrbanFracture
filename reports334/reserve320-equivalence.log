@@ -1,0 +1,27 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: identical native combat without item operations nightshade frame 9
++ actual - expected
+
++ '{"time":0.16666666666666666,"score":6,"player":[300,480,1000,100,"nightshade257",0.16666666666666666,0,0],"enemies":[["sato",405,480,994,null,null,0.26333333333333336,0]]}'
+- '{"time":0.16666666666666666,"score":0,"player":[300,480,1000,100,"nightshade257",0.16666666666666666,0,0],"enemies":[["sato",400,480,1000,"martialPause212",0.15,0,0]]}'
+
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/recovered327/.sites-checkout/tests/reserve320-equivalence.cjs:1:2103)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '{"time":0.16666666666666666,"score":6,"player":[300,480,1000,100,"nightshade257",0.16666666666666666,0,0],"enemies":[["sato",405,480,994,null,null,0.26333333333333336,0]]}',
+  expected: '{"time":0.16666666666666666,"score":0,"player":[300,480,1000,100,"nightshade257",0.16666666666666666,0,0],"enemies":[["sato",400,480,1000,"martialPause212",0.15,0,0]]}',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1

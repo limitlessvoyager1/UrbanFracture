@@ -1,0 +1,94 @@
+{
+  "sourceFingerprint": "cd79d5b961df27d41ac730b0b885d61cc6d8966ba583b5d877c02d4ea6218d40",
+  "results": [
+    {
+      "id": "nightshade-gate7-264",
+      "command": [
+        "node",
+        "tests/nightshade264.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports315/cpu-nightshade-gate7-264.log",
+      "durationMs": 7918
+    },
+    {
+      "id": "nightshade-gate7-input264",
+      "command": [
+        "node",
+        "tests/nightshade264-input.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports315/cpu-nightshade-gate7-input264.log",
+      "durationMs": 381
+    },
+    {
+      "id": "playback265",
+      "command": [
+        "node",
+        "tests/playback265.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports315/cpu-playback265.log",
+      "durationMs": 6920
+    },
+    {
+      "id": "playback265-input",
+      "command": [
+        "node",
+        "tests/playback265-input.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports315/cpu-playback265-input.log",
+      "durationMs": 909
+    },
+    {
+      "id": "stats266",
+      "command": [
+        "node",
+        "tests/stats266.cjs"
+      ],
+      "framework": "character-statistics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports315/cpu-stats266.log",
+      "durationMs": 3018
+    }
+  ],
+  "strategy": "One simulation-only worker alongside serial native raster/regression queue; disjoint suite IDs >=75."
+}

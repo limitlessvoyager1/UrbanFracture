@@ -1,0 +1,29 @@
+{
+  "source": "Build342 native renderer; unchanged exact-time cache",
+  "browser": "managed Chrome; measured via visible benchmark button",
+  "warmupFrames": 30,
+  "samplesPerRoster": 360,
+  "budgetMs": 16.666666666666668,
+  "rows": [
+    {
+      "roster": "mixed",
+      "count": 8,
+      "meanMs": 24.644166666719443,
+      "p50Ms": 17.09999999962747,
+      "p95Ms": 42.79999999888241,
+      "maxMs": 90.39999999850988,
+      "overBudget": 192
+    },
+    {
+      "roster": "changing",
+      "count": 8,
+      "meanMs": 28.200277777766395,
+      "p50Ms": 23.399999998509884,
+      "p95Ms": 49.69999999925494,
+      "maxMs": 124.80000000074506,
+      "overBudget": 360
+    }
+  ],
+  "physicalUnchanged": true,
+  "status": "hold"
+}

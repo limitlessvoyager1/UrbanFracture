@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/reina278-assets.py", line 4, in <module>
+    R=Path(__file__).resolve().parents[1];d=json.loads((R/'dist/repair134-data.js').read_text().split('=',1)[1].rstrip(';\n'));r=d['reina'];a=Image.open(R/'dist'/r['src'].split('?')[0]).convert('RGBA');v=np.array(a);assert set(np.unique(v[:,:,3]))<={0,255};assert r['scale']==1 and len(r['frames'])==16
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

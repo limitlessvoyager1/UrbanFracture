@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "frames": 28,
+  "rows": [
+    {
+      "hero": "reina",
+      "frame": 0,
+      "bounds": {
+        "minX": 88,
+        "maxX": 176,
+        "minY": 76,
+        "maxY": 274
+      },
+      "sourceScale": 0.9212962962962963
+    },
+    {
+      "hero": "reina",
+      "frame": 1,
+      "bounds": {
+        "minX": 83,
+        "maxX": 174,
+        "minY": 90,
+        "maxY": 274
+      },
+      "sourceScale": 0.9212962962962963
+    },
+    {
+      "hero": "reina",
+      "frame": 2,
+      "bounds": {
+        "minX": 76,
+        "maxX": 174,
+        "minY": 108,
+        "maxY": 274
+      },
+      "sourceScale": 0.9212962962962963
+    },
+    {
+      "hero": "reina",
+      "frame": 3,
+      "bounds": {
+        "minX": 79,
+        "maxX": 184,
+        "minY": 116,
+        "maxY": 273
+      },
+      "sourceScale": 0.9212962962962963
+    },
+    {
+      "hero": "broxton",
+      "frame": 0,
+      "bounds": {
+        "minX": 86,
+        "maxX": 190,
+        "minY": 47,
+        "maxY": 274
+      },
+      "sourceScale": 1.0132743362831858
+    },
+    {
+      "hero": "broxton",
+      "frame": 1,
+      "bounds": {
+        "minX": 82,
+        "maxX": 192,
+        "minY": 66,
+        "maxY": 274
+      },
+      "sourceScale": 1.0132743362831858
+    },
+    {
+      "hero": "broxton",
+      "frame": 2,
+      "bounds": {
+        "minX": 74,
+        "maxX": 192,
+        "minY": 91,
+        "maxY": 273
+      },
+      "sourceScale": 1.0132743362831858
+    },
+    {
+      "hero": "broxton",
+      "frame": 3,
+      "bounds": {
+        "minX": 47,
+        "maxX": 189,
+        "minY": 99,
+        "maxY": 274
+      },
+      "sourceScale": 1.0132743362831858
+    },
+    {
+      "hero": "niko",
+      "frame": 0,
+      "bounds": {
+        "minX": 87,
+        "maxX": 185,
+        "minY": 58,
+        "maxY": 274
+      },
+      "sourceScale": 0.9644444444444444
+    },
+    {
+      "hero": "niko",
+      "frame": 1,
+      "bounds": {
+        "minX": 85,
+        "maxX": 189,
+        "minY": 78,
+        "maxY": 274
+      },
+      "sourceScale": 0.9644444444444444
+    },
+    {
+      "hero": "niko",
+      "frame": 2,
+      "bounds": {
+        "minX": 74,
+        "maxX": 190,
+        "minY": 101,
+        "maxY": 274
+      },
+      "sourceScale": 0.9644444444444444
+    },
+    {
+      "hero": "niko",
+      "frame": 3,
+      "bounds": {
+        "minX": 58,
+        "maxX": 185,
+        "minY": 106,
+        "maxY": 274
+      },
+      "sourceScale": 0.9644444444444444
+    },
+    {
+      "hero": "nightshade",
+      "frame": 0,
+      "bounds": {
+        "minX": 102,
+        "maxX": 177,
+        "minY": 65,
+        "maxY": 274
+      },
+      "sourceScale": 0.9333333333333333
+    },
+    {
+      "hero": "nightshade",
+      "frame": 1,
+      "bounds": {
+        "minX": 100,
+        "maxX": 178,
+        "minY": 77,
+        "maxY": 273
+      },
+      "sourceScale": 0.9333333333333333
+    },
+    {
+      "hero": "nightshade",
+      "frame": 2,
+      "bounds": {
+        "minX": 87,
+        "maxX": 176,
+        "minY": 99,
+        "maxY": 274
+      },
+      "sourceScale": 0.9333333333333333
+    },
+    {
+      "hero": "nightshade",
+      "frame": 3,
+      "bounds": {
+        "minX": 71,
+        "maxX": 171,
+        "minY": 105,
+        "maxY": 274
+      },
+      "sourceScale": 0.9333333333333333
+    },
+    {
+      "hero": "nova",
+      "frame": 0,
+      "bounds": {
+        "minX": 93,
+        "maxX": 186,
+        "minY": 55,
+        "maxY": 273
+      },
+      "sourceScale": 0.9866071428571429
+    },
+    {
+      "hero": "nova",
+      "frame": 1,
+      "bounds": {
+        "minX": 93,
+        "maxX": 186,
+        "minY": 66,
+        "maxY": 274
+      },
+      "sourceScale": 0.9866071428571429
+    },
+    {
+      "hero": "nova",
+      "frame": 2,
+      "bounds": {
+        "minX": 84,
+        "maxX": 183,
+        "minY": 91,
+        "maxY": 274
+      },
+      "sourceScale": 0.9866071428571429
+    },
+    {
+      "hero": "nova",
+      "frame": 3,
+      "bounds": {
+        "minX": 72,
+        "maxX": 173,
+        "minY": 104,
+        "maxY": 274
+      },
+      "sourceScale": 0.9866071428571429
+    },
+    {
+      "hero": "forest",
+      "frame": 0,
+      "bounds": {
+        "minX": 88,
+        "maxX": 191,
+        "minY": 53,
+        "maxY": 274
+      },
+      "sourceScale": 1
+    },
+    {
+      "hero": "forest",
+      "frame": 1,
+      "bounds": {
+        "minX": 81,
+        "maxX": 193,
+        "minY": 72,
+        "maxY": 273
+      },
+      "sourceScale": 1
+    },
+    {
+      "hero": "forest",
+      "frame": 2,
+      "bounds": {
+        "minX": 68,
+        "maxX": 192,
+        "minY": 99,
+        "maxY": 274
+      },
+      "sourceScale": 1
+    },
+    {
+      "hero": "forest",
+      "frame": 3,
+      "bounds": {
+        "minX": 43,
+        "maxX": 186,
+        "minY": 105,
+        "maxY": 273
+      },
+      "sourceScale": 1
+    },
+    {
+      "hero": "orion",
+      "frame": 0,
+      "bounds": {
+        "minX": 119,
+        "maxX": 206,
+        "minY": 64,
+        "maxY": 274
+      },
+      "sourceScale": 0.37544483985765126
+    },
+    {
+      "hero": "orion",
+      "frame": 1,
+      "bounds": {
+        "minX": 112,
+        "maxX": 215,
+        "minY": 79,
+        "maxY": 274
+      },
+      "sourceScale": 0.37544483985765126
+    },
+    {
+      "hero": "orion",
+      "frame": 2,
+      "bounds": {
+        "minX": 79,
+        "maxX": 189,
+        "minY": 108,
+        "maxY": 274
+      },
+      "sourceScale": 0.37544483985765126
+    },
+    {
+      "hero": "orion",
+      "frame": 3,
+      "bounds": {
+        "minX": 65,
+        "maxX": 185,
+        "minY": 103,
+        "maxY": 274
+      },
+      "sourceScale": 0.37544483985765126
+    }
+  ],
+  "limitation": "Native Canvas render. Four authored poses, no independent artistic acceptance or physical controller certification."
+}

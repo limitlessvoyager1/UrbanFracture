@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "checks": 2672,
+  "rows": [
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "released": true
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "released": true
+    },
+    {
+      "move": "german",
+      "type": "knifeThug",
+      "dir": 1,
+      "released": true
+    },
+    {
+      "move": "german",
+      "type": "knifeThug",
+      "dir": -1,
+      "released": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "released": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "released": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "released": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "released": true
+    },
+    {
+      "move": "reap",
+      "type": "knifeThug",
+      "dir": 1,
+      "released": true
+    },
+    {
+      "move": "reap",
+      "type": "knifeThug",
+      "dir": -1,
+      "released": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "released": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "released": true
+    }
+  ]
+}

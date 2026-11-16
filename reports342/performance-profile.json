@@ -1,0 +1,47 @@
+{
+  "instrumented": true,
+  "status": "hold",
+  "samplesPerRoster": 360,
+  "warmupPerRoster": 30,
+  "sections": {
+    "background": {
+      "calls": 720,
+      "totalMs": 9934.400000004098
+    },
+    "getImageData": {
+      "calls": 5130,
+      "totalMs": 8475.09999997355,
+      "maxMs": 34.59999999962747
+    },
+    "spriteDraw": {
+      "calls": 6480,
+      "totalMs": 11653.900000004098,
+      "maxMs": 50
+    },
+    "actor": {
+      "calls": 6480,
+      "totalMs": 12013.099999977276
+    }
+  },
+  "rows": [
+    {
+      "roster": "mixed",
+      "count": 8,
+      "meanMs": 27.699166666586986,
+      "p95Ms": 51.399999998509884
+    },
+    {
+      "roster": "changing",
+      "count": 8,
+      "meanMs": 35.53805555556901,
+      "p95Ms": 62.09999999962747
+    }
+  ],
+  "physicalUnchanged": true,
+  "limitations": [
+    "Instrumentation adds overhead; not an acceptance comparison against uninstrumented timings.",
+    "Readback cost is nested within sprite/actor cost; do not add them.",
+    "Earlier test tab8 was unresponsive to browser focus/close; shared browser contention cannot be ruled out.",
+    "No renderer optimization or frame-rate certification claimed."
+  ]
+}

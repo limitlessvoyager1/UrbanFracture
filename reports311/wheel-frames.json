@@ -1,0 +1,2018 @@
+[
+  {
+    "frame": 0,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 16
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 103.07828921333417,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 1,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 16
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 102.99875348044144,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 2,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 16
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 102.7601463135775,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 3,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 16
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 102.36246771274237,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 4,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 16
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 101.80571767793604,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 5,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 16
+    },
+    "hero": {
+      "x": 350,
+      "y": 480,
+      "z": 101.08989620915852,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 415,
+      "y": 480,
+      "hp": 60,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 6,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 100.21500330640981,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 437.14539930555554,
+      "y": 480,
+      "hp": 30,
+      "down": 1.4333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 7,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 99.18103896968991,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 446.7482638888889,
+      "y": 480,
+      "hp": 30,
+      "down": 1.4166666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 8,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 97.9880031989988,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 455.80859375,
+      "y": 480,
+      "hp": 30,
+      "down": 1.4,
+      "held": false
+    }
+  },
+  {
+    "frame": 9,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 96.6358959943365,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 464.32638888888886,
+      "y": 480,
+      "hp": 30,
+      "down": 1.3833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 10,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 95.124717355703,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 472.30164930555554,
+      "y": 480,
+      "hp": 30,
+      "down": 1.3666666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 11,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 93.45446728309831,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 479.734375,
+      "y": 480,
+      "hp": 30,
+      "down": 1.3499999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 12,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 17
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 91.62514577652243,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 486.62456597222223,
+      "y": 480,
+      "hp": 30,
+      "down": 1.3333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 13,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 89.63675283597536,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 492.97222222222223,
+      "y": 480,
+      "hp": 30,
+      "down": 1.3166666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 14,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 87.4892884614571,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 498.77734375,
+      "y": 480,
+      "hp": 30,
+      "down": 1.3,
+      "held": false
+    }
+  },
+  {
+    "frame": 15,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 85.18275265296762,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 504.03993055555554,
+      "y": 480,
+      "hp": 30,
+      "down": 1.2833333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 16,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 82.71714541050694,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 508.7599826388889,
+      "y": 480,
+      "hp": 30,
+      "down": 1.2666666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 17,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 80.09246673407509,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 512.9375,
+      "y": 480,
+      "hp": 30,
+      "down": 1.25,
+      "held": false
+    }
+  },
+  {
+    "frame": 18,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 77.30871662367205,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 516.5724826388889,
+      "y": 480,
+      "hp": 30,
+      "down": 1.2333333333333334,
+      "held": false
+    }
+  },
+  {
+    "frame": 19,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 18
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 74.3658950792978,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 519.6649305555555,
+      "y": 480,
+      "hp": 30,
+      "down": 1.2166666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 20,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 71.26400210095235,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 522.21484375,
+      "y": 480,
+      "hp": 30,
+      "down": 1.2,
+      "held": false
+    }
+  },
+  {
+    "frame": 21,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 68.00303768863573,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 524.2222222222222,
+      "y": 480,
+      "hp": 30,
+      "down": 1.1833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 22,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 64.5830018423479,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 525.6870659722222,
+      "y": 480,
+      "hp": 30,
+      "down": 1.1666666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 23,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 61.00389456208887,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 526.609375,
+      "y": 480,
+      "hp": 30,
+      "down": 1.15,
+      "held": false
+    }
+  },
+  {
+    "frame": 24,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 57.26571584785866,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 526.9891493055555,
+      "y": 480,
+      "hp": 30,
+      "down": 1.1333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 25,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 53.36846569965724,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.1166666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 26,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 19
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 49.31214411748464,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.1,
+      "held": false
+    }
+  },
+  {
+    "frame": 27,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 20
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 45.09675110134084,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.0833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 28,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 20
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 40.72228665122585,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.0666666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 29,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 20
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 36.18875076713965,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.05,
+      "held": false
+    }
+  },
+  {
+    "frame": 30,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 20
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 31.49614344908226,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.0333333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 31,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 20
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 26.64446469705367,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1.0166666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 32,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 20
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 21.633714511053878,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 1,
+      "held": false
+    }
+  },
+  {
+    "frame": 33,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 21
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 16.4638928910829,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.9833333333333334,
+      "held": false
+    }
+  },
+  {
+    "frame": 34,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 21
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 11.134999837140713,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.9666666666666667,
+      "held": false
+    }
+  },
+  {
+    "frame": 35,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 21
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 5.647035349227344,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.95,
+      "held": false
+    }
+  },
+  {
+    "frame": 36,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.9333333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 37,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.9166666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 38,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.8999999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 39,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.8833333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 40,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.8666666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 41,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.8499999999999998,
+      "held": false
+    }
+  },
+  {
+    "frame": 42,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.833333333333333,
+      "held": false
+    }
+  },
+  {
+    "frame": 43,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.8166666666666663,
+      "held": false
+    }
+  },
+  {
+    "frame": 44,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 22
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.7999999999999996,
+      "held": false
+    }
+  },
+  {
+    "frame": 45,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.7833333333333329,
+      "held": false
+    }
+  },
+  {
+    "frame": 46,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.7666666666666662,
+      "held": false
+    }
+  },
+  {
+    "frame": 47,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.7499999999999994,
+      "held": false
+    }
+  },
+  {
+    "frame": 48,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.7333333333333327,
+      "held": false
+    }
+  },
+  {
+    "frame": 49,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.716666666666666,
+      "held": false
+    }
+  },
+  {
+    "frame": 50,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.6999999999999993,
+      "held": false
+    }
+  },
+  {
+    "frame": 51,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.6833333333333326,
+      "held": false
+    }
+  },
+  {
+    "frame": 52,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.6666666666666659,
+      "held": false
+    }
+  },
+  {
+    "frame": 53,
+    "action": "swordWheel311",
+    "pose": {
+      "sheet": "unique311",
+      "index": 23
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.6499999999999991,
+      "held": false
+    }
+  },
+  {
+    "frame": 54,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.6333333333333324,
+      "held": false
+    }
+  },
+  {
+    "frame": 55,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.6166666666666657,
+      "held": false
+    }
+  },
+  {
+    "frame": 56,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.599999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 57,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.5833333333333323,
+      "held": false
+    }
+  },
+  {
+    "frame": 58,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.5666666666666655,
+      "held": false
+    }
+  },
+  {
+    "frame": 59,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.5499999999999988,
+      "held": false
+    }
+  },
+  {
+    "frame": 60,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.5333333333333321,
+      "held": false
+    }
+  },
+  {
+    "frame": 61,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.5166666666666654,
+      "held": false
+    }
+  },
+  {
+    "frame": 62,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.49999999999999867,
+      "held": false
+    }
+  },
+  {
+    "frame": 63,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.48333333333333195,
+      "held": false
+    }
+  },
+  {
+    "frame": 64,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.46666666666666523,
+      "held": false
+    }
+  },
+  {
+    "frame": 65,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.4499999999999986,
+      "held": false
+    }
+  },
+  {
+    "frame": 66,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.433333333333332,
+      "held": false
+    }
+  },
+  {
+    "frame": 67,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.4166666666666654,
+      "held": false
+    }
+  },
+  {
+    "frame": 68,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.3999999999999988,
+      "held": false
+    }
+  },
+  {
+    "frame": 69,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.3833333333333322,
+      "held": false
+    }
+  },
+  {
+    "frame": 70,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.3666666666666656,
+      "held": false
+    }
+  },
+  {
+    "frame": 71,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.349999999999999,
+      "held": false
+    }
+  },
+  {
+    "frame": 72,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.33333333333333237,
+      "held": false
+    }
+  },
+  {
+    "frame": 73,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 1
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.31666666666666576,
+      "held": false
+    }
+  },
+  {
+    "frame": 74,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.29999999999999916,
+      "held": false
+    }
+  },
+  {
+    "frame": 75,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.28333333333333255,
+      "held": false
+    }
+  },
+  {
+    "frame": 76,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.26666666666666594,
+      "held": false
+    }
+  },
+  {
+    "frame": 77,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.24999999999999933,
+      "held": false
+    }
+  },
+  {
+    "frame": 78,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.23333333333333273,
+      "held": false
+    }
+  },
+  {
+    "frame": 79,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.21666666666666612,
+      "held": false
+    }
+  },
+  {
+    "frame": 80,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.1999999999999995,
+      "held": false
+    }
+  },
+  {
+    "frame": 81,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.1833333333333329,
+      "held": false
+    }
+  },
+  {
+    "frame": 82,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.1666666666666663,
+      "held": false
+    }
+  },
+  {
+    "frame": 83,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.1499999999999997,
+      "held": false
+    }
+  },
+  {
+    "frame": 84,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.13333333333333308,
+      "held": false
+    }
+  },
+  {
+    "frame": 85,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.11666666666666647,
+      "held": false
+    }
+  },
+  {
+    "frame": 86,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.09999999999999987,
+      "held": false
+    }
+  },
+  {
+    "frame": 87,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.08333333333333326,
+      "held": false
+    }
+  },
+  {
+    "frame": 88,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.06666666666666665,
+      "held": false
+    }
+  },
+  {
+    "frame": 89,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.050000000000000044,
+      "held": false
+    }
+  },
+  {
+    "frame": 90,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.03333333333333344,
+      "held": false
+    }
+  },
+  {
+    "frame": 91,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0.01666666666666683,
+      "held": false
+    }
+  },
+  {
+    "frame": 92,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 2.220446049250313e-16,
+      "held": false
+    }
+  },
+  {
+    "frame": 93,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 94,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0,
+      "held": false
+    }
+  },
+  {
+    "frame": 95,
+    "action": null,
+    "pose": {
+      "sheet": "combat",
+      "index": 2
+    },
+    "hero": {
+      "x": 354.8333333333333,
+      "y": 480,
+      "z": 0,
+      "hp": 105
+    },
+    "enemy": {
+      "x": 527,
+      "y": 480,
+      "hp": 30,
+      "down": 0,
+      "held": false
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hydro243-controller",
+    "exit": 0,
+    "output": "PASS243 actual game.js keyboard plus standard/raw Sony/DSX up inputs, all6heroes \u00d73door/lift transitions; no attack or transition lock. Simulated devices, not physical hardware.\n"
+  },
+  {
+    "id": "broxton244-controller",
+    "exit": 0,
+    "output": "PASS244 actual game.js: keyboard and standard DualSense/raw Sony/DSX, both directions, same-frame second tap+Attack, full lariat exit and press-driven combo continuation. Simulated controllers, not physical hardware.\n"
+  },
+  {
+    "id": "controls260-input",
+    "exit": 0,
+    "output": "PASS260 INPUT 12 actual game.js pad pump: early L2\u2192Attack buffers, Jump switches rear grip without jumping; standard/raw Sony/DSX simulated.\n"
+  },
+  {
+    "id": "playback265-input",
+    "exit": 0,
+    "output": "PASS265 INPUT 14 actual keyboard and simulated standard/rawSony/DSX queue until simulation step; physical hardware untested\n"
+  },
+  {
+    "id": "diagnostics307-input",
+    "exit": 0,
+    "output": "PASS307 INPUT 13 actual game bridge; paused developer exact1/5/10; readiness/focus/hidden checks and narrow historical source proof\nPASS307 INSPECTION INPUT 16\n"
+  },
+  {
+    "id": "unique311-input",
+    "exit": 0,
+    "output": "PASS311 input 32 standard/rawSony/DSX edges, keyboard and L1/R1/L2 isolation; simulated hardware only\n"
+  }
+]

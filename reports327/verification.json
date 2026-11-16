@@ -1,0 +1,183 @@
+{
+  "build": 327,
+  "scope": "Gate6 and affected systems; not a full release certification",
+  "passed": 25,
+  "failed": 0,
+  "rows": [
+    {
+      "file": "tests/home327.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 371,
+      "output": "PASS327 runtime 190\n"
+    },
+    {
+      "file": "tests/home327-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 425,
+      "output": "PASS326 UI 119 phone select/cancel/revalidation/confirmation, resources, pause and native arrival\nPASS327 UI 33 new HQ controls, journal, keyboard/controller, native-loop isolation and training\n"
+    },
+    {
+      "file": "tests/home327-data.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 142,
+      "output": "PASS327 data 21 identical decoded structures, numeric values, frame anchors and art paths\n"
+    },
+    {
+      "file": "tests/astro326.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 603,
+      "output": "PASS326 244 native hero states, strict eligibility, one per level, safe arrival, resources, companion, retries\n"
+    },
+    {
+      "file": "tests/astro326-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 489,
+      "output": "PASS326 UI 119 phone select/cancel/revalidation/confirmation, resources, pause and native arrival\n"
+    },
+    {
+      "file": "tests/astro326-loaders.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 280,
+      "output": "PASS326 loaders 25 byte-identical expanded legacy pages and parser script order\n"
+    },
+    {
+      "file": "tests/promptdrop325.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 340,
+      "output": "PASS325 142 catalog, exact payment, idempotency, persistence failures, home queue, safe restore, prices, no combat delivery\nPASS325 COMPLETE 152\n"
+    },
+    {
+      "file": "tests/promptdrop325-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 267,
+      "output": "PASS325 UI 118 native phone order/cancel/payment/history/save restore and prior control isolation\n"
+    },
+    {
+      "file": "tests/items319.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 290,
+      "output": "PASS319 master registry/native collection/wallet/resources/score/ammo/persistence 170\n"
+    },
+    {
+      "file": "tests/reserve320.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 317,
+      "output": "PASS320 reserve runtime 505\n"
+    },
+    {
+      "file": "tests/reserve320-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 372,
+      "output": "PASS320 UI/native loop/keyboard/standard+rawSony+DSX controls 51\n"
+    },
+    {
+      "file": "tests/pickups321.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 692,
+      "output": "PASS321 automatic relevant-resource recovery/full-only reserve 1790\n"
+    },
+    {
+      "file": "tests/energy316.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 1404,
+      "output": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nPASS316 HERO / PICKUP INTEGRATION 168\nPASS316 ENERGY RESTORE / PRESETS 180\nPASS316 ENERGY SAFE MOVE PRICING / RESTART 189\nPASS316 DEFENSIVE COST OVERRIDES 199\nPASS316 DEFENSIVE INPUTS / ACTUAL DIAGNOSTICS 215\nPASS316 CAMPAIGN POLICY / EVENT OWNER 221\nPASS316 EXPLICIT FUTURE MOVE CLASSIFICATION 223\nPASS316 ACTUAL GRAPPLE ENERGY 249\n"
+    },
+    {
+      "file": "tests/energy316-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 314,
+      "output": "PASS316 UI 12 real controls, defaults, undo/redo, named presets and cyclic native grapple diagnostics\n"
+    },
+    {
+      "file": "tests/phone323-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 283,
+      "output": "PASS323 smartphone native loop, keyboard, controller and isolation 99\n"
+    },
+    {
+      "file": "tests/diagnostics307.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 2661,
+      "output": "PASS307 47 native runtime, timing, receipts, history, observer equivalence and reversible safe overrides\nPASS307 EXTENDED 53\nPASS307 GRAPPLE SAFETY 58\nPASS307 HITSTOP 61\nPASS307 SHORTENED RECOVERY 65\nPASS307 CONTACT ATTRIBUTION 71\nPASS307 UTILITY BOUNDARY 74\nPASS307 MOVEMENT STATES 79\n"
+    },
+    {
+      "file": "tests/diagnostics307-ui.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 250,
+      "output": "PASS307 UI 19 existing panel, safe queue, real runtime views, exports, confirmations, undo/reset and fresh render receipts\nPASS307 HISTORICAL ACTOR 21\nPASS307 OVERLAY CONTROL 22\n"
+    },
+    {
+      "file": "tests/diagnostics307-input.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 284,
+      "output": "PASS307 INPUT 13 actual game bridge; paused developer exact1/5/10; readiness/focus/hidden checks and narrow historical source proof\nPASS307 INSPECTION INPUT 16\n"
+    },
+    {
+      "file": "tests/practice282.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 4303,
+      "output": "PASS282 PRACTICE 4147 native enemies refill/reactions/equipment, groups/restart/limits/isolation, all speeds and exact frame step\n"
+    },
+    {
+      "file": "tests/industrial324.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 430,
+      "output": "PASS324 220 native combat recovery, damage, laser displacement and optional room continuity\n"
+    },
+    {
+      "file": "tests/stadium240-controller.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 2316,
+      "output": "PASS239 full production Forest keyboard + standard/raw DualSense/DSX attack cooldown tail, native special buffer, L1 block/release, dodge and detailed input traces\nPASS239 DualSense USB all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 DualSense Wireless Controller all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 Xbox 360 Controller (DSX) all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS240 actual keyboard and standard/rawSony/DSX cabin choice plus simultaneous down/confirm routes to Team Facilities without combat/charge or loop\n"
+    },
+    {
+      "file": "tests/hydro243-controller.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 2804,
+      "output": "PASS243 actual game.js keyboard plus standard/raw Sony/DSX up inputs, all6heroes ×3door/lift transitions; no attack or transition lock. Simulated devices, not physical hardware.\n"
+    },
+    {
+      "file": "tests/broxton244-controller.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 448,
+      "output": "PASS244 actual game.js: keyboard and standard DualSense/raw Sony/DSX, both directions, same-frame second tap+Attack, full lariat exit and press-driven combo continuation. Simulated controllers, not physical hardware.\n"
+    },
+    {
+      "file": "tests/controller-recovery.test.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 73,
+      "output": "PASS raw Sony centered hat/discrete D-pad, neutral rearming with drift, DSX virtual selection, full custom calibration and axes/buttons\n"
+    },
+    {
+      "file": "tests/scene-controller71.test.cjs",
+      "passed": true,
+      "exit": 0,
+      "milliseconds": 102,
+      "output": "PASS DualSense scene navigation, pause-menu access, selected scene start\n"
+    }
+  ]
+}

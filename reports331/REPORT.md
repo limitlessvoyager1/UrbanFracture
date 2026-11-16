@@ -1,0 +1,30 @@
+# Urban Fracture — guard, counters, stadium and HQ corrections (Build332)
+
+This report covers the requested guard/practice/counter corrections and the subsequent VIP suite, elevator, HQ-access and airport/crowd corrections. Build330's worker, Nightshade vault/weapon, industrial-gate/storage/sign and post-rise Special corrections remain included; see `../reports330/REPORT.md`.
+
+## Confirmed defects and corrections
+
+| Request | Confirmed cause | Correction | Evidence |
+|---|---|---|---|
+| Prison guard becomes Marcus | Prison guards retain native `thug` logic; later generic attack renderers selected Marcus art over the earlier uniform renderer. | Final guard-specific presentation owner covers walking, attacks, recoil, falling, ground, rising, held poses and portrait. Original khaki-shirt / olive-cargo / black-duty-gear uniform art follows the supplied clothing reference. Actor type, damage and AI remain unchanged. | `visual/guard-before.jpg` from supplied video at4s; `visual/guard-continuity.png` native renderer;32 authored poses in `guard331-data.js`. |
+| Checked unlimited health does not refill current opponent | Developer Panel checkbox changed launch settings, while the current duel retained a separate live flag. Core refill already worked when that flag was enabled. | Checkbox updates the live duel immediately. Panel restore and live toolbar preserve/synchronize the current setting. | `tests/practice331-ui.cjs` toggles the real mounted checkbox, then performs lethal damage and verifies refill; `refill-evidence.json` contains3 lethal-empty/refill cycles. |
+| Counters appear broken | Ready-state capture worked across all seven heroes. A completed native get-up left secondary standing/recovery/wake-safe locks that still refused counter input. This is a confirmed cause for post-rise failure, not proof of every missed input in the supplied video. | Extend the bounded completed-get-up action admission to counters. Actual knockdowns still reject counters. Existing windows, geometry, energy costs, heavy thresholds and follow-up requirements remain intact. | `counter-results.json`:28 ready/post-rise, both-facing damage-interception cases across all7 heroes;102 assertions. `tests/counter331-input.cjs`:56 actual keyboard-handler and standard/rawSony/DSX input cases across all7 heroes. Existing counter lifecycle suite passes. |
+| VIP floor has two materials / partial tinted window / weak detail | Baked room flooring ended at432, then a separate procedural floor was drawn. Weather-window bounds covered only a mismatched rectangle. Original low-resolution room was enlarged/repeated. | New original1700×472 suite artwork spans the entire room and fighting floor, with continuous stone tile, clear windows, sharper furnishing detail, and no repeating seam. VIP glass no longer receives the rectangular tint overlay. | `visual/vip-suite.png`; `stadium-view237.js`, `stadium237.js`, `environment-view156.js`. |
+| Closing elevator doors do not match | Sliding overlays were flat colored rectangles with approximate apertures. | Door leaves now use crops from the actual brushed-steel elevator artwork, clipped to the correct opening. Selection is open, then closes for travel and opens on arrival. Interior uses matching wall/floor artwork. Existing ride shake and route controls remain. | `visual/elevator-select.png`, `elevator-closing.png`, `elevator-ride.png`, `elevator-arrival.png`; native route/controller suites. |
+| HQ missing from visible start options | The existing dropdown entry was buried at the end, and no direct title button was present in the current source. | Prominent “VISIT REINA’S HQ — HOME” button and first dropdown group “Headquarters / Reina’s HQ — Home”. Both invoke the existing isolated test visit; return restores the campaign/title exactly. | `home328-ui.cjs` native UI tests pass. This is DOM/input verification, not a browser screenshot. |
+
+## Verification
+
+Passed: `guard331`, `practice331-ui`, `counter331-input`, `practice282` (4147 assertions), `counters248` (existing lifecycle/interruption/cleanup tests), `home328-ui`, `repairs330` (788), stadium237 view/route/contracts, stadium240 controller, gamepad mappings and controller recovery. Airport and fan tests and rendered evidence are in `../reports332/REPORT.md`.
+
+The screenshots are rendered with the production simulation/renderer and seeded fixtures. Guard attack/contact-sheet poses are scripted state fixtures, not an unedited human-play recording. The refill and counter outcomes are actual native damage/input/tick outcomes.
+
+Live browser preview reload was blocked by the browser URL security policy. No alternative browser route was used. Native rendered inspection and simulation/UI tests were completed; physical-controller play and a full campaign playthrough are not certified here.
+
+## Reversibility / packaging
+
+Rollback checkpoint: `checkpoint-before-guard331`, at Build330 commit `457c03fadd08bcd4a82a878a1b24156536083fb3`. New original source artwork is retained in `art-source331` and `art-source332`; importers and render fixtures are under `tools/guard331` and `tools/airport332`.
+
+To stay within the static archive limit without reducing new sprite or suite resolution, one existing large Uptown background was encoded at WebP quality100 with unchanged2172×724 dimensions; its exact predecessor is retained in `source-archive/build331`. This is an encoding change, not lossless: measured RGB PSNR34.25dB (including chroma conversion). See `encoding.json`. No other background dimensions or gameplay data were reduced for packaging.
+
+Original artwork was generated with the built-in image tool, then imported into sprite atlases. Guard brief:32 consistent poses, fictional Prime City officer, khaki short-sleeve shirt, olive cargo pants, black boots/duty belt. Suite brief: preserve Rhinos lounge composition; continuous gray stone floor; untinted stadium windows; original illustrated detail. Source images and import scripts are retained for further revisions.

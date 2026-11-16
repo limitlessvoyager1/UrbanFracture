@@ -1,0 +1,31 @@
+fatal: invalid object name 'checkpoint-before-subway-combat294'.
+node:child_process:982
+    throw err;
+    ^
+
+Error: Command failed: git show checkpoint-before-subway-combat294:dist/game.js
+fatal: invalid object name 'checkpoint-before-subway-combat294'.
+
+    at genericNodeError (node:internal/errors:986:15)
+    at wrappedFn (node:internal/errors:540:14)
+    at checkExecSyncError (node:child_process:943:11)
+    at Object.execFileSync (node:child_process:979:15)
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/urban-fracture306/.sites-checkout/tools/review294/world-anchor.cjs:2:64)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fatal: invalid object name 'checkpoint-before-subway-combat294'.\n"
+  ],
+  pid: 2354,
+  stdout: '',
+  stderr: "fatal: invalid object name 'checkpoint-before-subway-combat294'.\n"
+}
+
+Node.js v24.22.1

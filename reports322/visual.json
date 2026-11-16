@@ -1,0 +1,95 @@
+{
+  "nativeRenderer": true,
+  "browser": false,
+  "captures": [
+    "hud-roster.png",
+    "reina-reserved.png",
+    "reina-after-use.png"
+  ],
+  "rows": [
+    {
+      "hero": "reina",
+      "card": [
+        73,
+        69,
+        196,
+        34
+      ],
+      "hp": 105,
+      "energy": 100
+    },
+    {
+      "hero": "broxton",
+      "card": [
+        73,
+        69,
+        196,
+        34
+      ],
+      "hp": 40,
+      "energy": 10
+    },
+    {
+      "hero": "nova",
+      "card": [
+        73,
+        69,
+        196,
+        34
+      ],
+      "hp": 40,
+      "energy": 10
+    },
+    {
+      "hero": "forest",
+      "card": [
+        73,
+        69,
+        196,
+        34
+      ],
+      "hp": 40,
+      "energy": 10
+    },
+    {
+      "hero": "niko",
+      "card": [
+        73,
+        69,
+        196,
+        34
+      ],
+      "hp": 40,
+      "energy": 10
+    },
+    {
+      "hero": "orion",
+      "card": [
+        73,
+        69,
+        196,
+        34
+      ],
+      "hp": 40,
+      "energy": 10
+    },
+    {
+      "hero": "nightshade",
+      "card": [
+        73,
+        82,
+        196,
+        34
+      ],
+      "hp": 40,
+      "energy": 10
+    }
+  ],
+  "forestGunnerBounds": [
+    735,
+    73,
+    201,
+    27
+  ],
+  "weaponBaseline": 130
+}

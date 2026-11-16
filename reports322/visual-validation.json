@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "checks": 47,
+  "frames": [
+    {
+      "time": 1.100000000000001,
+      "phase": "get-up",
+      "frame": 0,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -2,
+      "pixels": 2709
+    },
+    {
+      "time": 1.1500000000000008,
+      "phase": "get-up",
+      "frame": 1,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -1,
+      "pixels": 4277
+    },
+    {
+      "time": 1.2000000000000006,
+      "phase": "get-up",
+      "frame": 2,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -2,
+      "pixels": 4453
+    },
+    {
+      "time": 1.2333333333333338,
+      "phase": "get-up",
+      "frame": 3,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -2,
+      "pixels": 4338
+    },
+    {
+      "time": 1.2833333333333337,
+      "phase": "get-up",
+      "frame": 4,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -1,
+      "pixels": 4558
+    },
+    {
+      "time": 1.3333333333333335,
+      "phase": "get-up",
+      "frame": 5,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -1,
+      "pixels": 5087
+    },
+    {
+      "time": 1.3666666666666667,
+      "phase": "get-up",
+      "frame": 6,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -1,
+      "pixels": 5363
+    },
+    {
+      "time": 1.4166666666666665,
+      "phase": "get-up",
+      "frame": 7,
+      "scale": 0.875,
+      "ground": 480,
+      "bottom": -1,
+      "pixels": 5230
+    }
+  ],
+  "signs": [
+    {
+      "room": "lobby",
+      "labels": [
+        "SQUAD ROOMS & CUBICLES"
+      ]
+    },
+    {
+      "room": "squad",
+      "labels": [
+        "PCBI / PUBLIC LOBBY",
+        "INTERROGATION & INTERVIEW"
+      ]
+    }
+  ],
+  "nativeRenderer": true,
+  "browser": false
+}

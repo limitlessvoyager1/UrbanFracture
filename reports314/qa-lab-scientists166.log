@@ -1,0 +1,6 @@
+PASS166:16 hero/room/variant throws, telegraph/tracked release/fixed arc, shared2-slot reservations, full-pool melee/evasion, acid friendly fire/5s/60vs120Hz, sticky controls/grace, quick wake/retreat/interruption, one-worker rooms/nonblocking waves/reset
+PASS166 coordinated rear flask/front melee respects pressure cap; sticky aggression and exported diagnostics
+PASS166 88 synchronized worker-victim grapples across11 moves/both variants/facings/lanes; no premature wake or lane drift
+PASS166 moving attacks cancel immediately on sticky contact before strike, including attack immunity; all4 heroes
+PASS166 both variants:8 dedicated gait poses, grounded support/stable scale;4 heroes immediately render distinct planted stuck stance
+PASS166 actual moving-attack ticks enter sticky pool, stop immediately and remain in stuck stance despite held attack/movement, all4 heroes

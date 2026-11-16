@@ -1,0 +1,394 @@
+[
+  {
+    "frame": 0,
+    "clock": 0
+  },
+  {
+    "frame": 7,
+    "clock": 0.14933333333333335,
+    "contact": {
+      "time": 0.11666666666666665,
+      "head": [
+        539.8684366129401,
+        302.71608165
+      ],
+      "angle": 0.5641367186555789,
+      "bottom": 465.0537092425674,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.11666666666666665,
+        "head": [
+          539.8684366129401,
+          302.71608165
+        ],
+        "angle": 0.5641367186555789,
+        "bottom": 465.0537092425674,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": 0,
+      "renderedBottom": 449.3157572149185,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 14,
+    "clock": 0.2986666666666667,
+    "contact": {
+      "time": 0.2333333333333333,
+      "head": [
+        541.2578175,
+        339.34499040000003
+      ],
+      "angle": 1.0213475503796525,
+      "bottom": 474.8727512499097,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.2333333333333333,
+        "head": [
+          541.2578175,
+          339.34499040000003
+        ],
+        "angle": 1.0213475503796525,
+        "bottom": 474.8727512499097,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": 0,
+      "renderedBottom": 465.24069043082676,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 21,
+    "clock": 0.4479999999999999,
+    "contact": {
+      "time": 0.35,
+      "head": [
+        543.4398583163265,
+        375.1691324453239
+      ],
+      "angle": 1.4438335088082268,
+      "bottom": 460.9487724994214,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.35,
+        "head": [
+          543.4398583163265,
+          375.1691324453239
+        ],
+        "angle": 1.4438335088082268,
+        "bottom": 460.9487724994214,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": 0,
+      "renderedBottom": 459.1424692340265,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 28,
+    "clock": 0.5973333333333336,
+    "contact": {
+      "time": 0.4666666666666666,
+      "head": [
+        571.1833503798186,
+        388.6152502106339
+      ],
+      "angle": 1.5707963267948966,
+      "bottom": 456.0124423106339,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.4666666666666666,
+        "head": [
+          571.1833503798186,
+          388.6152502106339
+        ],
+        "angle": 1.5707963267948966,
+        "bottom": 456.0124423106339,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": 0,
+      "renderedBottom": 456.68641423163393,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 35,
+    "clock": 0.7466666666666676,
+    "contact": {
+      "time": 0.5833333333333335,
+      "head": [
+        612.1535091099776,
+        385.59645188510495
+      ],
+      "angle": 1.5707963267948966,
+      "bottom": 452.993643985105,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.5833333333333335,
+        "head": [
+          612.1535091099776,
+          385.59645188510495
+        ],
+        "angle": 1.5707963267948966,
+        "bottom": 452.993643985105,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": 0,
+      "renderedBottom": 453.66761590610497,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 42,
+    "clock": 0.8960000000000016,
+    "contact": {
+      "time": 0.7000000000000005,
+      "head": [
+        642.4570011734695,
+        412.6028079
+      ],
+      "angle": 1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 4.0249794078944205,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.7000000000000005,
+        "head": [
+          642.4570011734695,
+          412.6028079
+        ],
+        "angle": 1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 4.0249794078944205,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": -0.6739719210000317,
+      "renderedBottom": 480,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 49,
+    "clock": 1.045333333333335,
+    "contact": {
+      "time": 0.8166666666666675,
+      "head": [
+        646.2578175,
+        412.6028079
+      ],
+      "angle": 1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 54.325986612307815,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.8166666666666675,
+        "head": [
+          646.2578175,
+          412.6028079
+        ],
+        "angle": 1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 54.325986612307815,
+        "move": "novaFace"
+      },
+      "splash": false,
+      "floorCorrection": -0.6739719210000317,
+      "renderedBottom": 480,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 56,
+    "clock": 1.1946666666666674,
+    "contact": {
+      "time": 0.9333333333333346,
+      "head": [
+        646.2578175,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "original connected ground pose",
+      "contact": {
+        "time": 0.9333333333333346,
+        "head": [
+          646.2578175,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFace"
+      },
+      "renderedBottom": 480,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 63,
+    "clock": 1.3439999999999999,
+    "contact": {
+      "time": 1.0500000000000012,
+      "head": [
+        646.2578175,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "original connected ground pose",
+      "contact": {
+        "time": 1.0500000000000012,
+        "head": [
+          646.2578175,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFace"
+      },
+      "renderedBottom": 480,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 70,
+    "clock": 1.365333333333333,
+    "contact": {
+      "time": 1.0500000000000012,
+      "head": [
+        646.2578175,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "original connected ground pose",
+      "contact": {
+        "time": 1.0500000000000012,
+        "head": [
+          646.2578175,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFace"
+      },
+      "renderedBottom": 480,
+      "ground": 480
+    }
+  },
+  {
+    "frame": 82,
+    "clock": 1.365333333333333,
+    "contact": {
+      "time": 1.0500000000000012,
+      "head": [
+        646.2578175,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFace"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "original connected ground pose",
+      "contact": {
+        "time": 1.0500000000000012,
+        "head": [
+          646.2578175,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFace"
+      },
+      "renderedBottom": 480,
+      "ground": 480
+    }
+  }
+]

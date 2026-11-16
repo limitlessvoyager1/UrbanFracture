@@ -1,0 +1,52 @@
+[
+  {
+    "id": "controller240",
+    "exit": 0,
+    "output": "PASS239 full production Forest keyboard + standard/raw DualSense/DSX attack cooldown tail, native special buffer, L1 block/release, dodge and detailed input traces\nPASS239 DualSense USB all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 DualSense Wireless Controller all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 Xbox 360 Controller (DSX) all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS240 actual keyboard and standard/rawSony/DSX cabin choice plus simultaneous down/confirm routes to Team Facilities without combat/charge or loop\n"
+  },
+  {
+    "id": "nightshade-ammo256",
+    "exit": 0,
+    "output": "PASS256 183 native pickups/ground/recovery/cap, level-wide budgets, stable ledger/checkpoint/route transfer, once-only loot, real lethal-gun adjustment, seeded drop rates, existing heroes, cover/pit safety and future config.\n"
+  },
+  {
+    "id": "controls260-input",
+    "exit": 0,
+    "output": "PASS260 INPUT 12 actual game.js pad pump: early L2\u2192Attack buffers, Jump switches rear grip without jumping; standard/raw Sony/DSX simulated.\n"
+  },
+  {
+    "id": "energy316-runtime",
+    "exit": 0,
+    "output": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nPASS316 HERO / PICKUP INTEGRATION 168\nPASS316 ENERGY RESTORE / PRESETS 180\nPASS316 ENERGY SAFE MOVE PRICING / RESTART 189\nPASS316 DEFENSIVE COST OVERRIDES 199\nPASS316 DEFENSIVE INPUTS / ACTUAL DIAGNOSTICS 215\nPASS316 CAMPAIGN POLICY / EVENT OWNER 221\nPASS316 EXPLICIT FUTURE MOVE CLASSIFICATION 223\nPASS316 ACTUAL GRAPPLE ENERGY 249\n"
+  },
+  {
+    "id": "items319-runtime",
+    "exit": 0,
+    "output": "PASS319 master registry/native collection/wallet/resources/score/ammo/persistence 170\n"
+  },
+  {
+    "id": "items319-loot-baseline",
+    "exit": 0,
+    "output": "PASS319 baseline318/native loot signatures, RNG and budgets 12\n"
+  },
+  {
+    "id": "reserve320-runtime",
+    "exit": 0,
+    "output": "PASS320 reserve runtime 505\n"
+  },
+  {
+    "id": "reserve320-ui",
+    "exit": 0,
+    "output": "PASS320 UI/native loop/keyboard/standard+rawSony+DSX controls 51\n"
+  },
+  {
+    "id": "reserve320-equivalence",
+    "exit": 0,
+    "output": "PASS320 exact319 combat timing/resources/AI/RNG equivalence 1353\n"
+  },
+  {
+    "id": "pickups321-runtime",
+    "exit": 0,
+    "output": "PASS321 automatic relevant-resource recovery/full-only reserve 1790\n"
+  }
+]

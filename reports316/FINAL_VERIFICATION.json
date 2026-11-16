@@ -1,0 +1,207 @@
+{
+  "build": 316,
+  "approvedCheckpoint": "4808adc0f7f1e4ecfd35d747f17aec3db4b40b19",
+  "frozenFullRun": {
+    "counts": {
+      "executed": 214,
+      "passed": 214,
+      "failed": 0,
+      "notExecuted": 5
+    },
+    "fingerprint": "5e41c6e6c4e9fd9c31100f60fe713bbe466975e993d9cc40d309ee3488e84aa8",
+    "sourceChangedDuringTests": false
+  },
+  "finalFingerprint": "ec057593fc80aaf13fcc1fbade0393918a1e5acb3a1973dd1a5334e222710a89",
+  "scopedDelta": [
+    "dist/energy316.js",
+    "dist/game.js",
+    "dist/pcbi-combat316.js",
+    "dist/pcbi-ui316.js",
+    "tests/energy316.cjs",
+    "tests/pcbi316-gates.cjs"
+  ],
+  "finalRechecks": [
+    {
+      "id": "energy316-runtime",
+      "command": [
+        "node",
+        "tests/energy316.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "energy316-ui",
+      "command": [
+        "node",
+        "tests/energy316-ui.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "pcbi316-combat",
+      "command": [
+        "node",
+        "tests/pcbi316-gates.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "pcbi316-art",
+      "command": [
+        "node",
+        "tools/pcbi316/check.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "feds316-runtime",
+      "command": [
+        "node",
+        "tests/feds316.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "counter-weapon248",
+      "command": [
+        "node",
+        "tests/counters248.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "nightshade-foundation251",
+      "command": [
+        "node",
+        "tests/nightshade251.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "nightshade-gate6-263",
+      "command": [
+        "node",
+        "tests/nightshade263.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "nightshade267",
+      "command": [
+        "node",
+        "tests/nightshade267.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "niko284-regression",
+      "command": [
+        "node",
+        "tests/niko284.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "reina279-runtime",
+      "command": [
+        "node",
+        "tests/reina279.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "diagnostics307-input",
+      "command": [
+        "node",
+        "tests/diagnostics307-input.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "unique311-runtime",
+      "command": [
+        "node",
+        "tests/unique311.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "stats266",
+      "command": [
+        "node",
+        "tests/stats266.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "plane304-runtime",
+      "command": [
+        "node",
+        "tests/plane304.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "energy316-baseline-comparison",
+      "command": [
+        "node",
+        "tools/energy316/balance.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "feds316-render",
+      "command": [
+        "node",
+        "tools/feds316/render.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    },
+    {
+      "id": "presentation275",
+      "command": [
+        "node",
+        "tests/presentation275.cjs"
+      ],
+      "passed": true,
+      "exit": 0
+    }
+  ],
+  "balance": {
+    "baselineWins": 5,
+    "currentWins": 5,
+    "hpOverflow": 118,
+    "secondsAtZero": 48.483333333333995
+  },
+  "manualCategories": [
+    "approved-screenshots",
+    "art-style-review",
+    "all-moves-coverage",
+    "physical-dualsense",
+    "human-balance"
+  ],
+  "visualCaptures": 17,
+  "blockingUnchanged": true,
+  "limitations": [
+    "214 suites ran on the frozen input;18 scoped rechecks cover the six-file final delta.",
+    "Managed browser preview timed out; no physical-controller certification.",
+    "Rendered captures and scripted balance trials are not human art or balance approval."
+  ]
+}

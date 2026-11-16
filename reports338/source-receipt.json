@@ -1,0 +1,44 @@
+{
+  "candidate": "338-navigation-review",
+  "checkpoint": "checkpoint-before-home338",
+  "productionCommit": "816c9aeb058e87a47bd7ec98e9cd7387c31bb3c7",
+  "files": {
+    "dist/home338.js": {
+      "sha256": "b8c379968363ae6a7c1d3eff127eb85dd8b7f97d7990b0f76f05368f08f6a88f",
+      "bytes": 7614
+    },
+    "dist/home-view338.js": {
+      "sha256": "1c6d13cff58a995af04348c3c1ac4d2b230273175b17db1fa6667a7e8ad06d4d",
+      "bytes": 7446
+    },
+    "dist/home-ui327.js": {
+      "sha256": "d7c0e049b1627ea778afb745feac7af1979a7b5e5e27b74a4fe4d415ad3f5897",
+      "bytes": 6159
+    },
+    "dist/home327.css": {
+      "sha256": "5b1f67ec40f79805a867744bf7ee169515a7b8bb54e3ded38ce6ce6aa606db0a",
+      "bytes": 1344
+    },
+    "dist/phone323.js": {
+      "sha256": "607aae90dc7dca943ebe19ad1cd668c5c151487ecf8553d906e768e499844ca5",
+      "bytes": 18761
+    },
+    "dist/index.html": {
+      "sha256": "1429dde27f31149e604c5418423396e78ab2a20f68421166c21e70c5f1594054",
+      "bytes": 65860
+    },
+    "dist/assets/home-interior338.webp": {
+      "sha256": "90fb8ac8656d147de749111d0ca3a22e9f002f9cfcff85fbfab454bb9d383381",
+      "bytes": 183830
+    },
+    "dist/assets/home-exterior338.webp": {
+      "sha256": "deafcac2927412a527fbd4a99db0bf38dfaf6354040f66c014a12af5bee4b320",
+      "bytes": 254680
+    },
+    "qa/system242/suites.json": {
+      "sha256": "f846b11db89c04d5b90bb6cf2528481f36b57248d6744fb30f588571c1bc8e77",
+      "bytes": 60636
+    }
+  },
+  "liveDeploymentChanged": false
+}

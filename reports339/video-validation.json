@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "frames": 1469,
+  "fps": 30,
+  "seconds": 48.96666666666667,
+  "rooms": [
+    "exterior",
+    "foyer",
+    "hallway",
+    "foyer",
+    "hallway",
+    "living",
+    "hallway",
+    "living",
+    "hallway",
+    "living",
+    "hallway",
+    "kitchen",
+    "hallway",
+    "kitchen",
+    "hallway",
+    "foyer",
+    "exterior"
+  ],
+  "opened": [
+    "foyer-tablet",
+    "lounge-sofa",
+    "lounge-guest",
+    "lounge-table",
+    "kitchen-counter",
+    "lounge-guest",
+    "kitchen-fridge"
+  ],
+  "spatialDoorTransitions": 2,
+  "maxOrdinaryStep": 6.475000000000364,
+  "source": "Actual Home338.step and native HomeView338.draw. No position assignment after begin; only native door transition. Runtime text overlay, not browser DOM footage.",
+  "scope": "Native renderer replay and actual runtime receipts; not a live browser recording"
+}

@@ -1,0 +1,468 @@
+{
+  "checks": 1613055,
+  "rows": [
+    {
+      "kind": "subway",
+      "k": 0,
+      "hz": 30,
+      "adults": 18,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 1,
+      "hz": 30,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "subway",
+      "k": 2,
+      "hz": 30,
+      "adults": 18,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 3,
+      "hz": 30,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "subway",
+      "k": 4,
+      "hz": 30,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "estates",
+      "k": 0,
+      "hz": 30,
+      "adults": 15,
+      "moved": 7
+    },
+    {
+      "kind": "estates",
+      "k": 1,
+      "hz": 30,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 2,
+      "hz": 30,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 3,
+      "hz": 30,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 4,
+      "hz": 30,
+      "adults": 8,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 5,
+      "hz": 30,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "estates",
+      "k": 6,
+      "hz": 30,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 7,
+      "hz": 30,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "mall",
+      "k": 0,
+      "hz": 30,
+      "adults": 6,
+      "moved": 6
+    },
+    {
+      "kind": "mall",
+      "k": 1,
+      "hz": 30,
+      "adults": 6,
+      "moved": 2
+    },
+    {
+      "kind": "mall",
+      "k": 2,
+      "hz": 30,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "mall",
+      "k": 5,
+      "hz": 30,
+      "adults": 6,
+      "moved": 2
+    },
+    {
+      "kind": "mall",
+      "k": 6,
+      "hz": 30,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "mall",
+      "k": 11,
+      "hz": 30,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "uptown",
+      "k": 0,
+      "hz": 30,
+      "adults": 9,
+      "moved": 2
+    },
+    {
+      "kind": "uptown",
+      "k": 1,
+      "hz": 30,
+      "adults": 5,
+      "moved": 1
+    },
+    {
+      "kind": "uptown",
+      "k": 2,
+      "hz": 30,
+      "adults": 5,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 0,
+      "hz": 60,
+      "adults": 18,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 1,
+      "hz": 60,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "subway",
+      "k": 2,
+      "hz": 60,
+      "adults": 18,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 3,
+      "hz": 60,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "subway",
+      "k": 4,
+      "hz": 60,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "estates",
+      "k": 0,
+      "hz": 60,
+      "adults": 15,
+      "moved": 7
+    },
+    {
+      "kind": "estates",
+      "k": 1,
+      "hz": 60,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 2,
+      "hz": 60,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 3,
+      "hz": 60,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 4,
+      "hz": 60,
+      "adults": 8,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 5,
+      "hz": 60,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "estates",
+      "k": 6,
+      "hz": 60,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 7,
+      "hz": 60,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "mall",
+      "k": 0,
+      "hz": 60,
+      "adults": 6,
+      "moved": 6
+    },
+    {
+      "kind": "mall",
+      "k": 1,
+      "hz": 60,
+      "adults": 6,
+      "moved": 2
+    },
+    {
+      "kind": "mall",
+      "k": 2,
+      "hz": 60,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "mall",
+      "k": 5,
+      "hz": 60,
+      "adults": 6,
+      "moved": 2
+    },
+    {
+      "kind": "mall",
+      "k": 6,
+      "hz": 60,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "mall",
+      "k": 11,
+      "hz": 60,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "uptown",
+      "k": 0,
+      "hz": 60,
+      "adults": 9,
+      "moved": 2
+    },
+    {
+      "kind": "uptown",
+      "k": 1,
+      "hz": 60,
+      "adults": 5,
+      "moved": 1
+    },
+    {
+      "kind": "uptown",
+      "k": 2,
+      "hz": 60,
+      "adults": 5,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 0,
+      "hz": 120,
+      "adults": 18,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 1,
+      "hz": 120,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "subway",
+      "k": 2,
+      "hz": 120,
+      "adults": 18,
+      "moved": 1
+    },
+    {
+      "kind": "subway",
+      "k": 3,
+      "hz": 120,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "subway",
+      "k": 4,
+      "hz": 120,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "estates",
+      "k": 0,
+      "hz": 120,
+      "adults": 15,
+      "moved": 7
+    },
+    {
+      "kind": "estates",
+      "k": 1,
+      "hz": 120,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 2,
+      "hz": 120,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 3,
+      "hz": 120,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 4,
+      "hz": 120,
+      "adults": 8,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 5,
+      "hz": 120,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "estates",
+      "k": 6,
+      "hz": 120,
+      "adults": 10,
+      "moved": 4
+    },
+    {
+      "kind": "estates",
+      "k": 7,
+      "hz": 120,
+      "adults": 0,
+      "moved": 0
+    },
+    {
+      "kind": "mall",
+      "k": 0,
+      "hz": 120,
+      "adults": 6,
+      "moved": 6
+    },
+    {
+      "kind": "mall",
+      "k": 1,
+      "hz": 120,
+      "adults": 6,
+      "moved": 2
+    },
+    {
+      "kind": "mall",
+      "k": 2,
+      "hz": 120,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "mall",
+      "k": 5,
+      "hz": 120,
+      "adults": 6,
+      "moved": 2
+    },
+    {
+      "kind": "mall",
+      "k": 6,
+      "hz": 120,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "mall",
+      "k": 11,
+      "hz": 120,
+      "adults": 6,
+      "moved": 3
+    },
+    {
+      "kind": "uptown",
+      "k": 0,
+      "hz": 120,
+      "adults": 9,
+      "moved": 2
+    },
+    {
+      "kind": "uptown",
+      "k": 1,
+      "hz": 120,
+      "adults": 5,
+      "moved": 1
+    },
+    {
+      "kind": "uptown",
+      "k": 2,
+      "hz": 120,
+      "adults": 5,
+      "moved": 1
+    }
+  ],
+  "combatAndRngEquivalent": true
+}

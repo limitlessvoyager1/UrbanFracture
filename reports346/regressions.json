@@ -1,0 +1,26 @@
+{
+  "nightshade345": {
+    "passed": true,
+    "checks": 4741
+  },
+  "nightshade344": {
+    "passed": true,
+    "checks": 190
+  },
+  "downtown345": {
+    "passed": true,
+    "checks": 1231
+  },
+  "downtownRooms345": {
+    "passed": true,
+    "checks": 98
+  },
+  "gamepad": {
+    "passed": true,
+    "coverage": "synthetic standard/raw Sony/DSX mappings, held/edge input and recovery"
+  },
+  "canonicalCampaignRun": "not executed this change",
+  "physicalController": "not available",
+  "browserPerformance": "failed normal-speed certification; existing rendering holds remain",
+  "browserScreenshot": "Inspected in running cloud browser; private screenshot not copied into deliverable."
+}

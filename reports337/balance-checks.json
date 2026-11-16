@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": 37826,
+  "definitionsUnchanged": true,
+  "rows": [
+    {
+      "hero": "reina",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 7
+    },
+    {
+      "hero": "broxton",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 7
+    },
+    {
+      "hero": "nova",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 7
+    },
+    {
+      "hero": "forest",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 9
+    },
+    {
+      "hero": "niko",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 9
+    },
+    {
+      "hero": "orion",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 9
+    },
+    {
+      "hero": "nightshade",
+      "maxCost": 2,
+      "maxCommit": 1,
+      "completedAttackPauses": 6
+    }
+  ],
+  "cleanRushHits": 6
+}

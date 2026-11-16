@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "receipts": [
+    {
+      "k": 2,
+      "cam": 1500,
+      "name": "concourse",
+      "fieldEnd": 4200,
+      "portals": [
+        {
+          "to": 3,
+          "name": "ELEVATOR",
+          "x": 130,
+          "y": 455,
+          "direction": "up"
+        }
+      ]
+    },
+    {
+      "k": 3,
+      "cam": 0,
+      "name": "cabin",
+      "fieldEnd": 960,
+      "portals": [
+        {
+          "to": 4,
+          "name": "VIP SUITES",
+          "x": 480,
+          "y": 455,
+          "direction": "up"
+        },
+        {
+          "to": 5,
+          "name": "TEAM FACILITIES",
+          "x": 480,
+          "y": 455,
+          "direction": "up"
+        }
+      ]
+    },
+    {
+      "k": 5,
+      "cam": 1640,
+      "name": "facilities",
+      "fieldEnd": 2600,
+      "portals": []
+    },
+    {
+      "k": 6,
+      "cam": 1140,
+      "name": "lockers",
+      "fieldEnd": 2100,
+      "portals": []
+    },
+    {
+      "k": 7,
+      "cam": 200,
+      "name": "field-goal",
+      "fieldEnd": 6600,
+      "portals": []
+    },
+    {
+      "k": 7,
+      "cam": 2850,
+      "name": "field-mid",
+      "fieldEnd": 6600,
+      "portals": []
+    },
+    {
+      "k": 7,
+      "cam": 5640,
+      "name": "field-far",
+      "fieldEnd": 6600,
+      "portals": []
+    }
+  ],
+  "runFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "speed": 235,
+  "idleWhenStopped": true,
+  "reducedMotion": true
+}

@@ -1,0 +1,3 @@
+PASS249 48 fixed-scale poses, opaque ground anchors and hand attachment pixels; Broxton two grips
+/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/art249.py:9: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  alpha=im.getchannel('A');assert set(alpha.getdata())=={0,255};assert alpha.getbbox()[3]==im.height

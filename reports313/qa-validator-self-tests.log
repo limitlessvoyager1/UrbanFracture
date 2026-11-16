@@ -1,0 +1,14 @@
+✔ stretched scenery fails; correct source crop and reviewed perspective pass (2.965956ms)
+✔ miniature adult and undersized forklift flag review; real perspective remains valid (0.4111ms)
+✔ floating get-up flags; grounded and real aerial motion pass (0.305713ms)
+✔ gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly (1.02492ms)
+✔ missing recovery, missing completion and detached doorway detected (0.546954ms)
+✔ release gate fails closed; unexecuted/missing visual evidence never becomes stable (0.412951ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 172.388711

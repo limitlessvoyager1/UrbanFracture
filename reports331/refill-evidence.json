@@ -1,0 +1,41 @@
+[
+  {
+    "round": 0,
+    "stage": "empty",
+    "hp": 2.220446049250313e-16,
+    "pending": true
+  },
+  {
+    "round": 0,
+    "stage": "refilled",
+    "hp": 60,
+    "max": 60,
+    "refills": 1
+  },
+  {
+    "round": 1,
+    "stage": "empty",
+    "hp": 2.220446049250313e-16,
+    "pending": true
+  },
+  {
+    "round": 1,
+    "stage": "refilled",
+    "hp": 60,
+    "max": 60,
+    "refills": 2
+  },
+  {
+    "round": 2,
+    "stage": "empty",
+    "hp": 2.220446049250313e-16,
+    "pending": true
+  },
+  {
+    "round": 2,
+    "stage": "refilled",
+    "hp": 60,
+    "max": 60,
+    "refills": 3
+  }
+]

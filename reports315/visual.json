@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "captures": [
+    {
+      "id": "phone-call",
+      "floor": "4",
+      "phase": "rescue",
+      "pose": null,
+      "dialogue": 0
+    },
+    {
+      "id": "phone-warning",
+      "floor": "4",
+      "phase": "rescue",
+      "pose": null,
+      "dialogue": 5
+    },
+    {
+      "id": "captor-witness",
+      "floor": "4",
+      "phase": "rescue",
+      "pose": "hostage",
+      "dialogue": null
+    },
+    {
+      "id": "freed-witness",
+      "floor": "4",
+      "phase": "rescue",
+      "pose": "speaking",
+      "dialogue": null
+    },
+    {
+      "id": "mission-saved",
+      "floor": "4",
+      "phase": "complete",
+      "pose": "speaking",
+      "dialogue": null
+    },
+    {
+      "id": "witness-killed-message",
+      "floor": "4",
+      "phase": "failed",
+      "pose": "deceased",
+      "dialogue": 0
+    },
+    {
+      "id": "witness-body",
+      "floor": "4",
+      "phase": "failed",
+      "pose": "deceased",
+      "dialogue": null
+    },
+    {
+      "id": "main-entrance-exit",
+      "floor": "1",
+      "phase": "failed",
+      "pose": null,
+      "dialogue": null
+    },
+    {
+      "id": "mission-lost",
+      "floor": "1",
+      "phase": "complete",
+      "pose": null,
+      "dialogue": null
+    },
+    {
+      "id": "witness-floor-directory",
+      "floor": "4",
+      "phase": "rescue",
+      "pose": null,
+      "dialogue": null
+    }
+  ],
+  "realNativeRenderer": true,
+  "sourcePatchVerified": true,
+  "temporaryBoss": true
+}

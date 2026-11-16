@@ -1,0 +1,199 @@
+{
+  "nativeRenderer": true,
+  "captures": [
+    {
+      "id": "outskirts",
+      "scene": "outskirts",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "power",
+      "scene": "power",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "storage",
+      "scene": "storage",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "crossroads",
+      "scene": "crossroads",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "crossroads-route",
+      "scene": "crossroads",
+      "camera": 750,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "north-road",
+      "scene": "north-road",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "railyard",
+      "scene": "railyard",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "railyard-route",
+      "scene": "railyard",
+      "camera": 1550,
+      "trainTime": 20,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "railyard-train-moving",
+      "scene": "railyard",
+      "camera": 1550,
+      "trainTime": 22,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "rail-office",
+      "scene": "rail-office",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "abandoned-yard",
+      "scene": "abandoned-yard",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "abandoned-yard-route",
+      "scene": "abandoned-yard",
+      "camera": 1550,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "factory-road",
+      "scene": "factory-road",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "south-road",
+      "scene": "south-road",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "water-works",
+      "scene": "water-works",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "woods",
+      "scene": "woods",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "rust-east",
+      "scene": "rust-east",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "rust-east-route",
+      "scene": "rust-east",
+      "camera": 2250,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "factory-gate",
+      "scene": "factory-gate",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "chemical-gate",
+      "scene": "chemical-gate",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "smelter-gate",
+      "scene": "smelter-gate",
+      "camera": 0,
+      "trainTime": 0,
+      "ground": 0,
+      "actors": []
+    },
+    {
+      "id": "outskirts-combat",
+      "scene": "outskirts",
+      "camera": 0,
+      "trainTime": 12.000000000000176,
+      "ground": 0,
+      "actors": [
+        {
+          "type": "thug",
+          "pose": null
+        },
+        {
+          "type": "knifeThug",
+          "pose": null
+        },
+        {
+          "type": "flint",
+          "pose": null
+        }
+      ]
+    },
+    {
+      "id": "hydro-district-exit",
+      "scene": "hydro-dam-crest",
+      "camera": 1640
+    }
+  ]
+}

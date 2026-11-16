@@ -1,0 +1,113 @@
+[
+  {
+    "suite": "city334",
+    "passed": true,
+    "seconds": 0.66
+  },
+  {
+    "suite": "city334-ui",
+    "passed": true,
+    "seconds": 0.39
+  },
+  {
+    "suite": "home327",
+    "passed": true,
+    "seconds": 0.33,
+    "fixtureCorrection": "Restore matching active hero; unlike a combat save, supplies restore does not switch controlled hero."
+  },
+  {
+    "suite": "home328-ui",
+    "passed": true,
+    "seconds": 0.46
+  },
+  {
+    "suite": "astro326",
+    "passed": true,
+    "seconds": 0.77
+  },
+  {
+    "suite": "astro326-loaders",
+    "passed": true,
+    "seconds": 0.25
+  },
+  {
+    "suite": "promptdrop325",
+    "passed": true,
+    "seconds": 0.31
+  },
+  {
+    "suite": "promptdrop325-ui",
+    "passed": true,
+    "seconds": 0.33
+  },
+  {
+    "suite": "items319",
+    "passed": true,
+    "seconds": 0.36
+  },
+  {
+    "suite": "items319-loot",
+    "passed": true,
+    "seconds": 0.48
+  },
+  {
+    "suite": "reserve320",
+    "passed": true,
+    "seconds": 0.45
+  },
+  {
+    "suite": "reserve320-ui",
+    "passed": true,
+    "seconds": 0.34
+  },
+  {
+    "suite": "pickups321",
+    "passed": true,
+    "seconds": 0.62
+  },
+  {
+    "suite": "hospital315",
+    "passed": true,
+    "seconds": 4.45
+  },
+  {
+    "suite": "industrial324",
+    "passed": true,
+    "seconds": 0.29
+  },
+  {
+    "suite": "airport332",
+    "passed": true,
+    "seconds": 0.19
+  },
+  {
+    "suite": "guard331",
+    "passed": true,
+    "seconds": 0.7
+  },
+  {
+    "suite": "counter331-input",
+    "passed": true,
+    "seconds": 1.34
+  },
+  {
+    "suite": "jump333-input",
+    "passed": true,
+    "seconds": 0.94
+  },
+  {
+    "suite": "nova333",
+    "passed": true,
+    "seconds": 3.33
+  },
+  {
+    "suite": "repairs330",
+    "passed": true,
+    "seconds": 0.74
+  },
+  {
+    "suite": "city334-equivalence",
+    "passed": true,
+    "seconds": 9.96
+  }
+]

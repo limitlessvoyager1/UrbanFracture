@@ -1,0 +1,6375 @@
+{
+  "build": 307,
+  "kind": "observed diagnostics, not deterministic replay",
+  "worldFrame": 46,
+  "time": 0.7666666666666674,
+  "enabled": true,
+  "live": [
+    {
+      "id": 14,
+      "type": "reina",
+      "name": "Reina",
+      "hp": 105,
+      "maxHp": 105,
+      "x": 125.616,
+      "y": 454,
+      "elevation": 0,
+      "scale": 1.3362225912,
+      "state": "action",
+      "offenseLocked": false,
+      "locks": {
+        "stun": 0,
+        "shock": 0,
+        "recovery": 0,
+        "standing": 0,
+        "down": 0,
+        "wakeDeadline": 0
+      },
+      "invulnerability": 0,
+      "wakeProtection": 0,
+      "armor": "none",
+      "counter": null,
+      "inputBuffer": {
+        "hold": null
+      },
+      "action": {
+        "name": "combo",
+        "id": 1,
+        "frame": 1,
+        "total": 22,
+        "phase": "startup",
+        "startup": 10,
+        "active": 5,
+        "recovery": 7,
+        "windows": [
+          [
+            10,
+            15
+          ]
+        ],
+        "contacts": [
+          10
+        ],
+        "damage": 7,
+        "hitCount": 1,
+        "reach": 115,
+        "cooldown": 0,
+        "knockdown": false,
+        "counterable": null,
+        "source": "Audit135.reinaLive / Combat134",
+        "raw": {
+          "name": "combo",
+          "total": 0.36666666666666664,
+          "t": 0.016666666666666666,
+          "hitAt": 0.16666666666666666,
+          "done": false,
+          "hits": [],
+          "damage": 7,
+          "reach": 115,
+          "knock": false,
+          "combo": 1,
+          "reina134": true,
+          "confirmed129": false,
+          "step278": {
+            "x": 125,
+            "y": 454,
+            "dir": 1,
+            "progress": 0.028000000000000004
+          },
+          "actionInstance169": 1,
+          "firstHit135": 0.16666666666666666,
+          "plane190": 454
+        },
+        "note": "Configured contacts are opportunities, not successful hits. Unadapted active/cancel/armor spans remain N/A."
+      },
+      "grapple": null,
+      "render": {
+        "time": 0.7666666666666674,
+        "pose": {
+          "time": 0.7666666666666674,
+          "owner": "authored attack297",
+          "family": "reina",
+          "frame": 0,
+          "state": "startup"
+        },
+        "transform": {
+          "matrix": [
+            1.3362226486206055,
+            0,
+            0,
+            1.3362226486206055,
+            126,
+            454
+          ],
+          "space": "canvas transform",
+          "worldScaleX": 1.3362226486206055,
+          "worldScaleY": 1.3362226486206055,
+          "actorScale": 1.3362225912
+        },
+        "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+      }
+    },
+    {
+      "id": 15,
+      "type": "thug",
+      "name": "Marcus",
+      "hp": 60,
+      "maxHp": 60,
+      "x": 415,
+      "y": 444,
+      "elevation": 0,
+      "scale": 1.347943842,
+      "state": "idle",
+      "offenseLocked": false,
+      "locks": {
+        "stun": 0,
+        "shock": 0,
+        "recovery": 0,
+        "standing": 0,
+        "down": 0,
+        "wakeDeadline": 0
+      },
+      "invulnerability": 0,
+      "wakeProtection": 0,
+      "armor": "none",
+      "counter": null,
+      "inputBuffer": {
+        "hold": null
+      },
+      "action": null,
+      "grapple": null,
+      "render": {
+        "time": 0.7666666666666674,
+        "pose": {
+          "time": 0.7666666666666674,
+          "owner": "native locomotion",
+          "family": "native delegated",
+          "frame": null,
+          "state": "idle"
+        },
+        "transform": {
+          "matrix": [
+            -1.3479437828063965,
+            0,
+            0,
+            1.3479437828063965,
+            415,
+            444
+          ],
+          "space": "canvas transform",
+          "worldScaleX": 1.3479437828063965,
+          "worldScaleY": 1.3479437828063965,
+          "actorScale": 1.347943842
+        },
+        "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+      }
+    },
+    {
+      "id": 16,
+      "type": "thug",
+      "name": "Marcus",
+      "hp": 60,
+      "maxHp": 60,
+      "x": 585.6819594064191,
+      "y": 484.85213468807916,
+      "elevation": 0,
+      "scale": 1.347943842,
+      "state": "movement",
+      "offenseLocked": false,
+      "locks": {
+        "stun": 0,
+        "shock": 0,
+        "recovery": 0,
+        "standing": 0,
+        "down": 0,
+        "wakeDeadline": 0
+      },
+      "invulnerability": 0,
+      "wakeProtection": 0,
+      "armor": "none",
+      "counter": null,
+      "inputBuffer": {
+        "hold": null
+      },
+      "action": null,
+      "grapple": null,
+      "render": {
+        "time": 0.7666666666666674,
+        "pose": {
+          "time": 0.7666666666666674,
+          "owner": "native locomotion",
+          "family": "native delegated",
+          "frame": null,
+          "state": "walk"
+        },
+        "transform": {
+          "matrix": [
+            -1.3479437828063965,
+            0,
+            0,
+            1.3479437828063965,
+            586,
+            485
+          ],
+          "space": "canvas transform",
+          "worldScaleX": 1.3479437828063965,
+          "worldScaleY": 1.3479437828063965,
+          "actorScale": 1.347943842
+        },
+        "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+      }
+    },
+    {
+      "id": 17,
+      "type": "knifeThug",
+      "name": "Kevin",
+      "hp": 60,
+      "maxHp": 60,
+      "x": 1037.7423592136506,
+      "y": 561.8616150544456,
+      "elevation": 0,
+      "scale": 1.347943842,
+      "state": "movement",
+      "offenseLocked": false,
+      "locks": {
+        "stun": 0,
+        "shock": 0,
+        "recovery": 0,
+        "standing": 0,
+        "down": 0,
+        "wakeDeadline": 0
+      },
+      "invulnerability": 26.99999999999995,
+      "wakeProtection": 0,
+      "armor": "none",
+      "counter": null,
+      "inputBuffer": {
+        "hold": null
+      },
+      "action": null,
+      "grapple": null,
+      "render": {
+        "time": 0.7666666666666674,
+        "pose": {
+          "time": 0.7666666666666674,
+          "owner": "native locomotion",
+          "family": "native delegated",
+          "frame": null,
+          "state": "walk"
+        },
+        "transform": {
+          "matrix": [
+            -1.3479437828063965,
+            0,
+            0,
+            1.3479437828063965,
+            1038,
+            562
+          ],
+          "space": "canvas transform",
+          "worldScaleX": 1.3479437828063965,
+          "worldScaleY": 1.3479437828063965,
+          "actorScale": 1.347943842
+        },
+        "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+      }
+    }
+  ],
+  "rows": [
+    {
+      "serial": 1,
+      "frame": 16,
+      "time": 0.26666666666666666,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 617.8458829506599,
+          "y": 489.5138960798058,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1105.9141197378835,
+          "y": 620.6205383514828,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 57.00000000000003,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 2,
+      "frame": 17,
+      "time": 0.2833333333333333,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 616.7737506350761,
+          "y": 489.3585145847937,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1103.641727720409,
+          "y": 618.661907574915,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 56.00000000000003,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 3,
+      "frame": 18,
+      "time": 0.3,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 615.7016183194924,
+          "y": 489.20313308978155,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1101.3693357029347,
+          "y": 616.7032767983471,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 55.00000000000002,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 4,
+      "frame": 19,
+      "time": 0.31666666666666665,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 614.6294860039086,
+          "y": 489.0477515947694,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1099.0969436854602,
+          "y": 614.7446460217793,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 54.00000000000002,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 5,
+      "frame": 20,
+      "time": 0.3333333333333333,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 613.5573536883248,
+          "y": 488.8923700997573,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1096.8245516679858,
+          "y": 612.7860152452115,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 53.00000000000002,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 6,
+      "frame": 21,
+      "time": 0.35,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 612.4852213727411,
+          "y": 488.73698860474514,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1094.5521596505114,
+          "y": 610.8273844686437,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 52.000000000000014,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 7,
+      "frame": 22,
+      "time": 0.36666666666666664,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 611.4130890571573,
+          "y": 488.581607109733,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1092.279767633037,
+          "y": 608.8687536920759,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 51.000000000000014,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765678157,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 8,
+      "frame": 23,
+      "time": 0.3833333333333333,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 610.3409567415736,
+          "y": 488.42622561472086,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1090.0073756155625,
+          "y": 606.9101229155079,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 50.00000000000001,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 9,
+      "frame": 24,
+      "time": 0.39999999999999997,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 609.2688244259898,
+          "y": 488.2708441197087,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1087.734983598088,
+          "y": 604.95149213894,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 49.00000000000001,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 10,
+      "frame": 25,
+      "time": 0.41666666666666663,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.41666666666666663,
+            "pose": {
+              "time": 0.41666666666666663,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                1.3362226486206055,
+                0,
+                0,
+                1.3362226486206055,
+                125,
+                454
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3362226486206055,
+              "worldScaleY": 1.3362226486206055,
+              "actorScale": 1.3362225912
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.41666666666666663,
+            "pose": {
+              "time": 0.41666666666666663,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                415,
+                444
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 608.196692110406,
+          "y": 488.1154626246966,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.41666666666666663,
+            "pose": {
+              "time": 0.41666666666666663,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                608,
+                488
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1085.4625915806137,
+          "y": 602.9928613623721,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 48,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.41666666666666663,
+            "pose": {
+              "time": 0.41666666666666663,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                1085,
+                603
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 11,
+      "frame": 26,
+      "time": 0.4333333333333333,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 607.1245597948223,
+          "y": 487.96008112968445,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1083.1901995631392,
+          "y": 601.0342305858042,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 47,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 12,
+      "frame": 27,
+      "time": 0.44999999999999996,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 606.0524274792385,
+          "y": 487.8046996346723,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1080.9178075456648,
+          "y": 599.0755998092362,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 46,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 13,
+      "frame": 28,
+      "time": 0.4666666666666666,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 604.9802951636548,
+          "y": 487.6493181396602,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1078.6454155281904,
+          "y": 597.1169690326683,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 44.99999999999999,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 14,
+      "frame": 29,
+      "time": 0.4833333333333333,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 603.908162848071,
+          "y": 487.49393664464804,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1076.373023510716,
+          "y": 595.1583382561004,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 43.99999999999999,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 15,
+      "frame": 30,
+      "time": 0.49999999999999994,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 602.8360305324873,
+          "y": 487.3385551496359,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1074.1006314932415,
+          "y": 593.1997074795324,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 42.999999999999986,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 16,
+      "frame": 31,
+      "time": 0.5166666666666666,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 601.7638982169035,
+          "y": 487.1831736546238,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1071.828239475767,
+          "y": 591.2410767029645,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 41.999999999999986,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 17,
+      "frame": 32,
+      "time": 0.5333333333333333,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 600.6917659013197,
+          "y": 487.02779215961164,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1069.5558474582926,
+          "y": 589.2824459263966,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 40.99999999999998,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 18,
+      "frame": 33,
+      "time": 0.55,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 599.619633585736,
+          "y": 486.8724106645995,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1067.2834554408182,
+          "y": 587.3238151498286,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 39.99999999999998,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 19,
+      "frame": 34,
+      "time": 0.5666666666666668,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 598.5475012701522,
+          "y": 486.71702916958736,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1065.0110634233438,
+          "y": 585.3651843732607,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 38.99999999999997,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 20,
+      "frame": 35,
+      "time": 0.5833333333333335,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.5833333333333335,
+            "pose": {
+              "time": 0.5833333333333335,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                1.3362226486206055,
+                0,
+                0,
+                1.3362226486206055,
+                125,
+                454
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3362226486206055,
+              "worldScaleY": 1.3362226486206055,
+              "actorScale": 1.3362225912
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.5833333333333335,
+            "pose": {
+              "time": 0.5833333333333335,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                415,
+                444
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 597.4753689545685,
+          "y": 486.5616476745752,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.5833333333333335,
+            "pose": {
+              "time": 0.5833333333333335,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                597,
+                487
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1062.7386714058694,
+          "y": 583.4065535966928,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 37.99999999999997,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.5833333333333335,
+            "pose": {
+              "time": 0.5833333333333335,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                1063,
+                583
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 21,
+      "frame": 36,
+      "time": 0.6000000000000002,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 596.4032366389847,
+          "y": 486.4062661795631,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1060.466279388395,
+          "y": 581.4479228201249,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 36.99999999999997,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 22,
+      "frame": 37,
+      "time": 0.6166666666666669,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 595.331104323401,
+          "y": 486.25088468455095,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1058.1938873709205,
+          "y": 579.4892920435569,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 35.999999999999964,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 23,
+      "frame": 38,
+      "time": 0.6333333333333336,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 594.2589720078172,
+          "y": 486.0955031895388,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1055.921495353446,
+          "y": 577.530661266989,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 34.999999999999964,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 24,
+      "frame": 39,
+      "time": 0.6500000000000004,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 593.1868396922334,
+          "y": 485.9401216945267,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1053.6491033359716,
+          "y": 575.5720304904211,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 33.99999999999996,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 25,
+      "frame": 40,
+      "time": 0.6666666666666671,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 592.1147073766497,
+          "y": 485.78474019951454,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1051.3767113184972,
+          "y": 573.6133997138531,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 32.99999999999996,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 26,
+      "frame": 41,
+      "time": 0.6833333333333338,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 591.0425750610659,
+          "y": 485.6293587045024,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1049.1043193010228,
+          "y": 571.6547689372852,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 31.999999999999954,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 27,
+      "frame": 42,
+      "time": 0.7000000000000005,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 589.9704427454822,
+          "y": 485.4739772094903,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1046.8319272835483,
+          "y": 569.6961381607173,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 30.99999999999995,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 28,
+      "frame": 43,
+      "time": 0.7166666666666672,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 588.8983104298984,
+          "y": 485.31859571447814,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1044.559535266074,
+          "y": 567.7375073841494,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 29.99999999999995,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 29,
+      "frame": 44,
+      "time": 0.733333333333334,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 587.8261781143146,
+          "y": 485.163214219466,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1042.2871432485995,
+          "y": 565.7788766075814,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 28.99999999999995,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "pose": null,
+            "transform": null,
+            "note": "Fresh renderer receipts only; transform is not an opaque-body or foot-pixel measurement."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 30,
+      "frame": 45,
+      "time": 0.7500000000000007,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7500000000000007,
+            "pose": {
+              "time": 0.7500000000000007,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                1.3362226486206055,
+                0,
+                0,
+                1.3362226486206055,
+                125,
+                454
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3362226486206055,
+              "worldScaleY": 1.3362226486206055,
+              "actorScale": 1.3362225912
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7500000000000007,
+            "pose": {
+              "time": 0.7500000000000007,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                415,
+                444
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 586.7540457987309,
+          "y": 485.00783272445386,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7500000000000007,
+            "pose": {
+              "time": 0.7500000000000007,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                587,
+                485
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -1.072132315583758,
+          "dy": -0.15538149501213638,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1040.014751231125,
+          "y": 563.8202458310135,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 27.99999999999995,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7500000000000007,
+            "pose": {
+              "time": 0.7500000000000007,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                1040,
+                564
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    },
+    {
+      "serial": 33,
+      "frame": 46,
+      "time": 0.7666666666666674,
+      "actors": [
+        {
+          "id": 14,
+          "type": "reina",
+          "name": "Reina",
+          "hp": 105,
+          "maxHp": 105,
+          "x": 125.616,
+          "y": 454,
+          "elevation": 0,
+          "scale": 1.3362225912,
+          "state": "action",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": {
+            "name": "combo",
+            "id": 1,
+            "frame": 1,
+            "total": 22,
+            "phase": "startup",
+            "startup": 10,
+            "active": 5,
+            "recovery": 7,
+            "windows": [
+              [
+                10,
+                15
+              ]
+            ],
+            "contacts": [
+              10
+            ],
+            "damage": 7,
+            "hitCount": 1,
+            "reach": 115,
+            "cooldown": 0,
+            "knockdown": false,
+            "counterable": null,
+            "source": "Audit135.reinaLive / Combat134",
+            "raw": {
+              "name": "combo",
+              "total": 0.36666666666666664,
+              "t": 0.016666666666666666,
+              "hitAt": 0.16666666666666666,
+              "done": false,
+              "hits": [],
+              "damage": 7,
+              "reach": 115,
+              "knock": false,
+              "combo": 1,
+              "reina134": true,
+              "confirmed129": false,
+              "step278": {
+                "x": 125,
+                "y": 454,
+                "dir": 1,
+                "progress": 0.028000000000000004
+              },
+              "actionInstance169": 1,
+              "firstHit135": 0.16666666666666666,
+              "plane190": 454
+            },
+            "note": "Configured contacts are opportunities, not successful hits. Unadapted active/cancel/armor spans remain N/A."
+          },
+          "grapple": null,
+          "render": {
+            "time": 0.7666666666666674,
+            "pose": {
+              "time": 0.7666666666666674,
+              "owner": "authored attack297",
+              "family": "reina",
+              "frame": 0,
+              "state": "startup"
+            },
+            "transform": {
+              "matrix": [
+                1.3362226486206055,
+                0,
+                0,
+                1.3362226486206055,
+                126,
+                454
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3362226486206055,
+              "worldScaleY": 1.3362226486206055,
+              "actorScale": 1.3362225912
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0.6159999999999997,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 15,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 415,
+          "y": 444,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "idle",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7666666666666674,
+            "pose": {
+              "time": 0.7666666666666674,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "idle"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                415,
+                444
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": 0,
+          "dy": 0,
+          "hpDelta": 0
+        },
+        {
+          "id": 16,
+          "type": "thug",
+          "name": "Marcus",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 585.6819594064191,
+          "y": 484.85213468807916,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 0,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7666666666666674,
+            "pose": {
+              "time": 0.7666666666666674,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                586,
+                485
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -1.0720863923118031,
+          "dy": -0.1556980363747016,
+          "hpDelta": 0
+        },
+        {
+          "id": 17,
+          "type": "knifeThug",
+          "name": "Kevin",
+          "hp": 60,
+          "maxHp": 60,
+          "x": 1037.7423592136506,
+          "y": 561.8616150544456,
+          "elevation": 0,
+          "scale": 1.347943842,
+          "state": "movement",
+          "offenseLocked": false,
+          "locks": {
+            "stun": 0,
+            "shock": 0,
+            "recovery": 0,
+            "standing": 0,
+            "down": 0,
+            "wakeDeadline": 0
+          },
+          "invulnerability": 26.99999999999995,
+          "wakeProtection": 0,
+          "armor": "none",
+          "counter": null,
+          "inputBuffer": {
+            "hold": null
+          },
+          "action": null,
+          "grapple": null,
+          "render": {
+            "time": 0.7666666666666674,
+            "pose": {
+              "time": 0.7666666666666674,
+              "owner": "native locomotion",
+              "family": "native delegated",
+              "frame": null,
+              "state": "walk"
+            },
+            "transform": {
+              "matrix": [
+                -1.3479437828063965,
+                0,
+                0,
+                1.3479437828063965,
+                1038,
+                562
+              ],
+              "space": "canvas transform",
+              "worldScaleX": 1.3479437828063965,
+              "worldScaleY": 1.3479437828063965,
+              "actorScale": 1.347943842
+            },
+            "note": "Actual canvas transform; opaque-body scale and sole pixels require a source-specific adapter."
+          },
+          "dx": -2.2723920174744308,
+          "dy": -1.9586307765679294,
+          "hpDelta": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "serial": 31,
+      "frame": 45,
+      "time": 0.7500000000000007,
+      "kind": "action started",
+      "actor": 14,
+      "action": {
+        "name": "combo",
+        "id": 1,
+        "frame": 0,
+        "total": 22,
+        "phase": "startup",
+        "startup": 10,
+        "active": 5,
+        "recovery": 7,
+        "windows": [
+          [
+            10,
+            15
+          ]
+        ],
+        "contacts": [
+          10
+        ],
+        "damage": 7,
+        "hitCount": 1,
+        "reach": 115,
+        "cooldown": 0,
+        "knockdown": false,
+        "counterable": null,
+        "source": "Audit135.reinaLive / Combat134",
+        "raw": {
+          "name": "combo",
+          "total": 0.36666666666666664,
+          "t": 0,
+          "hitAt": 0.16666666666666666,
+          "done": false,
+          "hits": [],
+          "damage": 7,
+          "reach": 115,
+          "knock": false,
+          "combo": 1,
+          "reina134": true,
+          "confirmed129": false,
+          "step278": {
+            "x": 125,
+            "y": 454,
+            "dir": 1,
+            "progress": 0
+          },
+          "actionInstance169": 1,
+          "firstHit135": 0.16666666666666666,
+          "plane190": 454
+        },
+        "note": "Configured contacts are opportunities, not successful hits. Unadapted active/cancel/armor spans remain N/A."
+      }
+    },
+    {
+      "serial": 32,
+      "frame": 45,
+      "time": 0.7500000000000007,
+      "kind": "command",
+      "actor": 14,
+      "key": "attack",
+      "previousAction": null,
+      "result": "action changed"
+    }
+  ],
+  "usage": {},
+  "contacts": [],
+  "ai": [
+    {
+      "sequence": 1,
+      "simulationFrame": 16,
+      "time": 0.26666666666666666,
+      "enemy": 15,
+      "kind": "state evaluation",
+      "previousAction": null,
+      "snapshot": {
+        "id": 15,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 14,
+        "distance": 290,
+        "planeDifference": 10,
+        "position": {
+          "x": 415,
+          "y": 444
+        },
+        "state": "idle",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": null,
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 15,
+          "secondary": null,
+          "roles": {
+            "15": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "16": {
+              "type": "thug",
+              "role": "Flanker"
+            }
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native controller did not expose a current selection reason",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 2,
+      "simulationFrame": 16,
+      "time": 0.26666666666666666,
+      "enemy": 16,
+      "kind": "movement decision",
+      "previousAction": null,
+      "snapshot": {
+        "id": 16,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 14,
+        "distance": 492.84588295065987,
+        "planeDifference": 35.51389607980582,
+        "position": {
+          "x": 617.8458829506599,
+          "y": 489.5138960798058
+        },
+        "state": "movement",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 15,
+          "secondary": null,
+          "roles": {
+            "15": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "16": {
+              "type": "thug",
+              "role": "Flanker"
+            }
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native controller did not expose a current selection reason",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 3,
+      "simulationFrame": 16,
+      "time": 0.26666666666666666,
+      "enemy": 17,
+      "kind": "movement decision",
+      "previousAction": null,
+      "snapshot": {
+        "id": 17,
+        "name": "Kevin",
+        "type": "knifeThug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 14,
+        "distance": 980.9141197378835,
+        "planeDifference": 166.62053835148276,
+        "position": {
+          "x": 1105.9141197378835,
+          "y": 620.6205383514828
+        },
+        "state": "movement",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0.35,
+        "weapon": "knife",
+        "denied": null,
+        "controllerData": {
+          "street209": {
+            "decided": true,
+            "drawWon": true,
+            "pendingDraw": false,
+            "hadWeapon": true,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 15,
+          "secondary": null,
+          "roles": {
+            "15": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "16": {
+              "type": "thug",
+              "role": "Flanker"
+            }
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native controller did not expose a current selection reason",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    }
+  ],
+  "director": {
+    "version": 148,
+    "encounter": "downtown:0",
+    "enabled": true,
+    "budget": 3,
+    "baseline": 3,
+    "costs": {
+      "light": 1,
+      "grab": 1.5,
+      "heavy": 2,
+      "weaponString": 2,
+      "firearm": 2,
+      "bossSpecial": 3
+    },
+    "reserved": 0,
+    "primary": 15,
+    "secondary": null,
+    "roles": {
+      "15": {
+        "type": "thug",
+        "role": "PrimaryAttacker"
+      },
+      "16": {
+        "type": "thug",
+        "role": "Flanker"
+      }
+    },
+    "approaches": [
+      {
+        "id": 15,
+        "role": "approach",
+        "reason": "primary / committed slot"
+      },
+      {
+        "id": 16,
+        "role": "support spacing",
+        "reason": "waiting for an approach slot; attack budget retained",
+        "target": {
+          "x": 290.616,
+          "y": 442
+        },
+        "primary": 15
+      }
+    ],
+    "observations": {},
+    "adaptation": {},
+    "reactionDelay": 0.45,
+    "damage3": {
+      "total": 0,
+      "locked": 0
+    },
+    "damage5": {
+      "total": 0,
+      "locked": 0
+    },
+    "reliefUntil": 0,
+    "reservations": [],
+    "requests": [],
+    "gunnerTarget": null
+  },
+  "experiments": {
+    "moves": {
+      "build": 307,
+      "baselineId": "approved-recording306-5b17cf4353942e1635840b9a9da58c8a4b4452b0",
+      "baseline": {
+        "reina.combo1.damage": 7,
+        "reina.combo2.damage": 8,
+        "reina.combo3.damage": 10,
+        "reina.short.recovery": 18,
+        "reina.short.multiplier": 1.3,
+        "reina.long.recovery": 28,
+        "reina.long.multiplier": 0.95,
+        "broxton.short.recovery": 30,
+        "broxton.short.multiplier": 0.7,
+        "broxton.long.recovery": 24,
+        "broxton.long.multiplier": 1.35,
+        "nova.short.recovery": 42,
+        "nova.short.multiplier": 0.6,
+        "nova.long.recovery": 48,
+        "nova.long.multiplier": 0.65,
+        "niko.short.recovery": 26,
+        "niko.short.multiplier": 1,
+        "niko.long.recovery": 28,
+        "niko.long.multiplier": 1,
+        "orion.short.recovery": 34,
+        "orion.short.multiplier": 1.6,
+        "orion.long.recovery": 38,
+        "orion.long.multiplier": 1.6,
+        "nightshade.short.recovery": 22,
+        "nightshade.short.multiplier": 1.1,
+        "nightshade.long.recovery": 26,
+        "nightshade.long.multiplier": 1
+      },
+      "current": {
+        "reina.combo1.damage": 7,
+        "reina.combo2.damage": 8,
+        "reina.combo3.damage": 10,
+        "reina.short.recovery": 18,
+        "reina.short.multiplier": 1.3,
+        "reina.long.recovery": 28,
+        "reina.long.multiplier": 0.95,
+        "broxton.short.recovery": 30,
+        "broxton.short.multiplier": 0.7,
+        "broxton.long.recovery": 24,
+        "broxton.long.multiplier": 1.35,
+        "nova.short.recovery": 42,
+        "nova.short.multiplier": 0.6,
+        "nova.long.recovery": 48,
+        "nova.long.multiplier": 0.65,
+        "niko.short.recovery": 26,
+        "niko.short.multiplier": 1,
+        "niko.long.recovery": 28,
+        "niko.long.multiplier": 1,
+        "orion.short.recovery": 34,
+        "orion.short.multiplier": 1.6,
+        "orion.long.recovery": 38,
+        "orion.long.multiplier": 1.6,
+        "nightshade.short.recovery": 22,
+        "nightshade.short.multiplier": 1.1,
+        "nightshade.long.recovery": 26,
+        "nightshade.long.multiplier": 1
+      },
+      "entries": [
+        {
+          "id": "reina.combo1.damage",
+          "character": "reina",
+          "move": "standing 1",
+          "key": "damage",
+          "min": 0,
+          "max": 100,
+          "unit": "HP",
+          "baseline": 7,
+          "current": 7,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "reina.combo2.damage",
+          "character": "reina",
+          "move": "standing 2",
+          "key": "damage",
+          "min": 0,
+          "max": 100,
+          "unit": "HP",
+          "baseline": 8,
+          "current": 8,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "reina.combo3.damage",
+          "character": "reina",
+          "move": "standing 3",
+          "key": "damage",
+          "min": 0,
+          "max": 100,
+          "unit": "HP",
+          "baseline": 10,
+          "current": 10,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "reina.short.recovery",
+          "character": "reina",
+          "move": "short weapon",
+          "key": "recovery",
+          "min": 18,
+          "max": 78,
+          "unit": "frames",
+          "baseline": 18,
+          "current": 18,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "reina.short.multiplier",
+          "character": "reina",
+          "move": "short weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1.3,
+          "current": 1.3,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "reina.long.recovery",
+          "character": "reina",
+          "move": "long weapon",
+          "key": "recovery",
+          "min": 28,
+          "max": 88,
+          "unit": "frames",
+          "baseline": 28,
+          "current": 28,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "reina.long.multiplier",
+          "character": "reina",
+          "move": "long weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 0.95,
+          "current": 0.95,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "broxton.short.recovery",
+          "character": "broxton",
+          "move": "short weapon",
+          "key": "recovery",
+          "min": 30,
+          "max": 90,
+          "unit": "frames",
+          "baseline": 30,
+          "current": 30,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "broxton.short.multiplier",
+          "character": "broxton",
+          "move": "short weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 0.7,
+          "current": 0.7,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "broxton.long.recovery",
+          "character": "broxton",
+          "move": "long weapon",
+          "key": "recovery",
+          "min": 24,
+          "max": 84,
+          "unit": "frames",
+          "baseline": 24,
+          "current": 24,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "broxton.long.multiplier",
+          "character": "broxton",
+          "move": "long weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1.35,
+          "current": 1.35,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nova.short.recovery",
+          "character": "nova",
+          "move": "short weapon",
+          "key": "recovery",
+          "min": 42,
+          "max": 102,
+          "unit": "frames",
+          "baseline": 42,
+          "current": 42,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nova.short.multiplier",
+          "character": "nova",
+          "move": "short weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 0.6,
+          "current": 0.6,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nova.long.recovery",
+          "character": "nova",
+          "move": "long weapon",
+          "key": "recovery",
+          "min": 48,
+          "max": 108,
+          "unit": "frames",
+          "baseline": 48,
+          "current": 48,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nova.long.multiplier",
+          "character": "nova",
+          "move": "long weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 0.65,
+          "current": 0.65,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "niko.short.recovery",
+          "character": "niko",
+          "move": "short weapon",
+          "key": "recovery",
+          "min": 26,
+          "max": 86,
+          "unit": "frames",
+          "baseline": 26,
+          "current": 26,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "niko.short.multiplier",
+          "character": "niko",
+          "move": "short weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1,
+          "current": 1,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "niko.long.recovery",
+          "character": "niko",
+          "move": "long weapon",
+          "key": "recovery",
+          "min": 28,
+          "max": 88,
+          "unit": "frames",
+          "baseline": 28,
+          "current": 28,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "niko.long.multiplier",
+          "character": "niko",
+          "move": "long weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1,
+          "current": 1,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "orion.short.recovery",
+          "character": "orion",
+          "move": "short weapon",
+          "key": "recovery",
+          "min": 34,
+          "max": 94,
+          "unit": "frames",
+          "baseline": 34,
+          "current": 34,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "orion.short.multiplier",
+          "character": "orion",
+          "move": "short weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1.6,
+          "current": 1.6,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "orion.long.recovery",
+          "character": "orion",
+          "move": "long weapon",
+          "key": "recovery",
+          "min": 38,
+          "max": 98,
+          "unit": "frames",
+          "baseline": 38,
+          "current": 38,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "orion.long.multiplier",
+          "character": "orion",
+          "move": "long weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1.6,
+          "current": 1.6,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nightshade.short.recovery",
+          "character": "nightshade",
+          "move": "short weapon",
+          "key": "recovery",
+          "min": 22,
+          "max": 82,
+          "unit": "frames",
+          "baseline": 22,
+          "current": 22,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nightshade.short.multiplier",
+          "character": "nightshade",
+          "move": "short weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1.1,
+          "current": 1.1,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nightshade.long.recovery",
+          "character": "nightshade",
+          "move": "long weapon",
+          "key": "recovery",
+          "min": 26,
+          "max": 86,
+          "unit": "frames",
+          "baseline": 26,
+          "current": 26,
+          "difference": 0,
+          "modified": false
+        },
+        {
+          "id": "nightshade.long.multiplier",
+          "character": "nightshade",
+          "move": "long weapon",
+          "key": "damage multiplier",
+          "min": 0,
+          "max": 3,
+          "unit": "×",
+          "baseline": 1,
+          "current": 1,
+          "difference": 0,
+          "modified": false
+        }
+      ],
+      "pending": null,
+      "history": [],
+      "redo": 0,
+      "limitations": [
+        "No permanent source writes or automatic preset reload. Reload restores current approved build.",
+        "Only registered damage and recovery fields are editable. Startup/active changes need authored-contact adapters and are unavailable.",
+        "Recovery may be lengthened only; no mandatory animation completion is shortened. Existing reaction274 settings have their own Undo/Redo history."
+      ]
+    },
+    "reactions": {
+      "baseline": {
+        "reassess": {
+          "light": 6,
+          "medium": 8,
+          "heavy": 10
+        },
+        "minimum": {
+          "light": 0,
+          "medium": 0,
+          "heavy": 24
+        },
+        "separation": 54,
+        "speed": 48
+      },
+      "current": {
+        "reassess": {
+          "light": 6,
+          "medium": 8,
+          "heavy": 10
+        },
+        "minimum": {
+          "light": 0,
+          "medium": 0,
+          "heavy": 24
+        },
+        "separation": 54,
+        "speed": 48
+      },
+      "modified": [],
+      "pending": null,
+      "history": [],
+      "redo": 0
+    }
+  },
+  "limits": {
+    "frames": 900,
+    "events": 1200,
+    "rewind": false
+  }
+}

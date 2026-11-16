@@ -1,0 +1,1008 @@
+{
+  "passed": true,
+  "checks": 90377,
+  "pairedSimulationFrames": 11260,
+  "scenarios": [
+    {
+      "type": "thug",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin",
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin",
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "thug",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin",
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-marcus-kevin",
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "knifeThug",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-marcus-kevin"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie",
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie",
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "enforcer",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie",
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-bruno-frankie",
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "biker",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-bruno-frankie"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint",
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint",
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "cop",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint",
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-carmen-flint",
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "flint",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-carmen-flint"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari",
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari",
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "sato",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari",
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-saito-akari",
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "akari",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-saito-akari"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal",
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal",
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "bouncer",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": -1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": -1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": -1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal",
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": -1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": 1,
+      "move": "sweep",
+      "frames": 246,
+      "heroSheets": [
+        "hero-sweep",
+        "hero-baton-stroke"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": 1,
+      "move": "vault",
+      "frames": 86,
+      "heroSheets": [
+        "grapple-vault"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": 1,
+      "move": "roll",
+      "frames": 115,
+      "heroSheets": [
+        "grapple-backroll"
+      ],
+      "victimSheets": [
+        "victim-motion-brick-jackal",
+        "enemy-brick-jackal"
+      ]
+    },
+    {
+      "type": "boss",
+      "dir": 1,
+      "move": "grab",
+      "frames": 116,
+      "heroSheets": [
+        "grapple-combo"
+      ],
+      "victimSheets": [
+        "enemy-brick-jackal"
+      ]
+    }
+  ],
+  "scope": "Actual imported assets + native simulation pose selection; geometry/anchors/scale. This does not certify anatomy or physical controller."
+}

@@ -1,0 +1,43 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: non-bank damage/range/profile/durability unchanged reinaknife-1
++ actual - expected
+
+  {
++   damage: 25.999999999999886,
+-   damage: 8.666666666666629,
+    frames: 58,
+    profile: '{"startup":10,"active":6,"recovery":26,"motion":"hyperSlash","slices":[10,18,26],"angles":[-1,0.55],"step":20,"spread":0}',
+    uses: 4
+  }
+
+    at eq (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/plane304-weapons.cjs:1:234)
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/plane304-weapons.cjs:3:25)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: {
+    damage: 25.999999999999886,
+    uses: 4,
+    frames: 58,
+    profile: '{"startup":10,"active":6,"recovery":26,"motion":"hyperSlash","slices":[10,18,26],"angles":[-1,0.55],"step":20,"spread":0}'
+  },
+  expected: {
+    damage: 8.666666666666629,
+    uses: 4,
+    frames: 58,
+    profile: '{"startup":10,"active":6,"recovery":26,"motion":"hyperSlash","slices":[10,18,26],"angles":[-1,0.55],"step":20,"spread":0}'
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1

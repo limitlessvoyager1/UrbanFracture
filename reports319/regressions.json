@@ -1,0 +1,47 @@
+[
+  {
+    "id": "controller240",
+    "exit": 0,
+    "output": "PASS239 full production Forest keyboard + standard/raw DualSense/DSX attack cooldown tail, native special buffer, L1 block/release, dodge and detailed input traces\nPASS239 DualSense USB all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 DualSense Wireless Controller all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 Xbox 360 Controller (DSX) all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS240 actual keyboard and standard/rawSony/DSX cabin choice plus simultaneous down/confirm routes to Team Facilities without combat/charge or loop\n"
+  },
+  {
+    "id": "nightshade-ammo256",
+    "exit": 0,
+    "output": "PASS256 182 native pickups/ground/recovery/cap, level-wide budgets, stable ledger/checkpoint/route transfer, once-only loot, real lethal-gun adjustment, seeded drop rates, existing heroes, cover/pit safety and future config.\n"
+  },
+  {
+    "id": "nightshade-ammo-levels256",
+    "exit": 0,
+    "output": "PASS256 61 native existing-area/alternate-route placements: actual level definitions, scenery-safe grounding, stable IDs/positions, one native collection, shared level budgets.\n"
+  },
+  {
+    "id": "nightshade-ammo-economy256",
+    "exit": 0,
+    "output": "PASS256 51 native firing/finite pickup economy scenarios; capacity/conservation and gun-kill expected yield. Mixed/zero-ammo combat remains blocked by later gates.\n"
+  },
+  {
+    "id": "practice282",
+    "exit": 0,
+    "output": "PASS282 PRACTICE 4147 native enemies refill/reactions/equipment, groups/restart/limits/isolation, all speeds and exact frame step\n"
+  },
+  {
+    "id": "energy316-runtime",
+    "exit": 0,
+    "output": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nPASS316 HERO / PICKUP INTEGRATION 163\nPASS316 ENERGY RESTORE / PRESETS 175\nPASS316 ENERGY SAFE MOVE PRICING / RESTART 184\nPASS316 DEFENSIVE COST OVERRIDES 194\nPASS316 DEFENSIVE INPUTS / ACTUAL DIAGNOSTICS 210\nPASS316 CAMPAIGN POLICY / EVENT OWNER 216\nPASS316 EXPLICIT FUTURE MOVE CLASSIFICATION 218\nPASS316 ACTUAL GRAPPLE ENERGY 244\n"
+  },
+  {
+    "id": "energy316-ui",
+    "exit": 0,
+    "output": "PASS316 UI 12 real controls, defaults, undo/redo, named presets and cyclic native grapple diagnostics\n"
+  },
+  {
+    "id": "industrial317-runtime",
+    "exit": 0,
+    "output": "PASS317 district architecture/routes/hazards/searches 201\nPASS317 native entrance and Director checks 23632\nPASS317 final collision/replay safety 23635\nPASS317 hydro practice isolation 23637\nPASS317 final native coverage 23643\n"
+  },
+  {
+    "id": "charge318-runtime",
+    "exit": 0,
+    "output": "PASS318 one-second thresholds/release/cancel/HUD/persistent glow 124\nPASS318 exact one-second native release 128\n"
+  }
+]

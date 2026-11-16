@@ -1,0 +1,38 @@
+{
+  "seed": 308,
+  "controlledProbes": true,
+  "results": [
+    {
+      "probe": "clean",
+      "outcome": "clean"
+    },
+    {
+      "probe": "armor",
+      "outcome": "armor"
+    },
+    {
+      "probe": "block",
+      "outcome": "block"
+    },
+    {
+      "probe": "native captured Powerbomb",
+      "damage": 33,
+      "cleanup": true
+    },
+    {
+      "probe": "eligible Bruno anti-air",
+      "action": "uppercut",
+      "cooldown": 5
+    },
+    {
+      "probe": "isolated Niko fourth-hit interception; controlled training HP",
+      "counter": true,
+      "damage": 23,
+      "cleanup": true
+    },
+    {
+      "probe": "native Niko forward jump attack",
+      "groundPlane": 470
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "balanced",
+  "state": "IDLE_HOVER",
+  "action": "ready",
+  "actionFrame": 0,
+  "energy": 44,
+  "hp": 110,
+  "cooldowns": {
+    "gun": 0.3833333333333333,
+    "heal": 80.36666666666594
+  },
+  "frames": 214,
+  "meanWorkMs": 17.398598130844604,
+  "p95WorkMs": 50.1999999997206,
+  "p95RAFIntervalMs": 616.5
+}

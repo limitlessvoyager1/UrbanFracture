@@ -1,0 +1,32 @@
+[
+  {
+    "file": "dist/enemy-view312.js",
+    "old": "f.type==='enforcer'&&!f.casinoSecurity192&&!f.routeTruck197&&!f.weapon?",
+    "new": "f.type==='enforcer'&&!f.baylor237&&!f.casinoSecurity192&&!f.routeTruck197&&!f.weapon?"
+  },
+  {
+    "file": "dist/continuity-view296.js",
+    "old": "N.Enemies210.is(f)&&!f.casinoSecurity192",
+    "new": "N.Enemies210.is(f)&&!f.baylor237&&!f.casinoSecurity192"
+  },
+  {
+    "file": "dist/enemy-view312.js",
+    "old": "if(f.entryGait312&&",
+    "new": "if(!f.baylor237&&f.entryGait312&&"
+  },
+  {
+    "file": "dist/continuity296.js",
+    "old": "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.casinoSecurity192",
+    "new": "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.baylor237&&!f.casinoSecurity192"
+  },
+  {
+    "file": "dist/knockdowns299.js",
+    "old": "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.casinoSecurity192",
+    "new": "f.type==='enforcer'&&N.Enemies210.is(f)&&!f.baylor237&&!f.casinoSecurity192"
+  },
+  {
+    "file": "dist/grapples301.js",
+    "old": "v.type==='enforcer'&&N.Enemies210.is(v)&&!v.casinoSecurity192",
+    "new": "v.type==='enforcer'&&N.Enemies210.is(v)&&!v.baylor237&&!v.casinoSecurity192"
+  }
+]

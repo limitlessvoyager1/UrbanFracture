@@ -1,0 +1,42 @@
+{
+  "checks": 2596,
+  "passed": true,
+  "frames": 300,
+  "speeds": [
+    1,
+    0.5,
+    0.25,
+    0.1
+  ],
+  "prototypeUnchanged": true,
+  "geometryUnchanged": true,
+  "losses": [
+    {
+      "frame": 10,
+      "damage": 7,
+      "pose": {
+        "sheet": "native-reina",
+        "index": 4,
+        "state": "combo-1"
+      }
+    },
+    {
+      "frame": 39,
+      "damage": 8,
+      "pose": {
+        "sheet": "native-reina",
+        "index": 12,
+        "state": "combo-2"
+      }
+    },
+    {
+      "frame": 75,
+      "damage": 10,
+      "pose": {
+        "sheet": "native-reina",
+        "index": 20,
+        "state": "combo-3"
+      }
+    }
+  ]
+}

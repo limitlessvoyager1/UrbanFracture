@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "hero": "reina",
+      "opaqueBodyPixels": 8525,
+      "bounds": {
+        "minX": 125,
+        "maxX": 217,
+        "minY": 151,
+        "maxY": 349
+      },
+      "logicalFeet": 350
+    },
+    {
+      "hero": "broxton",
+      "opaqueBodyPixels": 16336,
+      "bounds": {
+        "minX": 76,
+        "maxX": 220,
+        "minY": 121,
+        "maxY": 349
+      },
+      "logicalFeet": 350
+    },
+    {
+      "hero": "niko",
+      "opaqueBodyPixels": 11354,
+      "bounds": {
+        "minX": 94,
+        "maxX": 191,
+        "minY": 133,
+        "maxY": 349
+      },
+      "logicalFeet": 350
+    },
+    {
+      "hero": "nightshade",
+      "opaqueBodyPixels": 7388,
+      "bounds": {
+        "minX": 115,
+        "maxX": 199,
+        "minY": 140,
+        "maxY": 349
+      },
+      "logicalFeet": 350
+    }
+  ],
+  "scope": "Native fixed-scale home actor rendering; no physical hardware or full animation certification"
+}

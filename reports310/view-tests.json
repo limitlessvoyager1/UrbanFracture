@@ -1,0 +1,1735 @@
+{
+  "checks": 726,
+  "passed": true,
+  "frames": [
+    {
+      "sheet": "gait",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 191,
+        "minY": 111,
+        "maxX": 277,
+        "maxY": 258,
+        "count": 5639
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 191,
+        "minY": 111,
+        "maxX": 267,
+        "maxY": 258,
+        "count": 5210
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 194,
+        "minY": 111,
+        "maxX": 262,
+        "maxY": 258,
+        "count": 4665
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 193,
+        "minY": 111,
+        "maxX": 259,
+        "maxY": 258,
+        "count": 4793
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 190,
+        "minY": 111,
+        "maxX": 286,
+        "maxY": 258,
+        "count": 5373
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 190,
+        "minY": 111,
+        "maxX": 262,
+        "maxY": 259,
+        "count": 4929
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 193,
+        "minY": 111,
+        "maxX": 256,
+        "maxY": 259,
+        "count": 4576
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 189,
+        "minY": 111,
+        "maxX": 269,
+        "maxY": 259,
+        "count": 5095
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 169,
+        "minY": 115,
+        "maxX": 284,
+        "maxY": 258,
+        "count": 5835
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 179,
+        "minY": 122,
+        "maxX": 276,
+        "maxY": 258,
+        "count": 5174
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 179,
+        "minY": 119,
+        "maxX": 276,
+        "maxY": 258,
+        "count": 5117
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 180,
+        "minY": 118,
+        "maxX": 266,
+        "maxY": 258,
+        "count": 4833
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 117,
+        "maxX": 273,
+        "maxY": 258,
+        "count": 5177
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 122,
+        "maxX": 275,
+        "maxY": 259,
+        "count": 5463
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 118,
+        "maxX": 274,
+        "maxY": 258,
+        "count": 5050
+      }
+    },
+    {
+      "sheet": "gait",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 116,
+        "maxX": 271,
+        "maxY": 259,
+        "count": 5074
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 180,
+        "minY": 112,
+        "maxX": 287,
+        "maxY": 259,
+        "count": 6272
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 181,
+        "minY": 112,
+        "maxX": 287,
+        "maxY": 259,
+        "count": 6181
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 181,
+        "minY": 113,
+        "maxX": 287,
+        "maxY": 259,
+        "count": 6216
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 181,
+        "minY": 113,
+        "maxX": 287,
+        "maxY": 259,
+        "count": 6257
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 184,
+        "minY": 110,
+        "maxX": 266,
+        "maxY": 259,
+        "count": 5610
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 182,
+        "minY": 112,
+        "maxX": 256,
+        "maxY": 258,
+        "count": 5137
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 170,
+        "minY": 113,
+        "maxX": 298,
+        "maxY": 259,
+        "count": 5499
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 113,
+        "maxX": 260,
+        "maxY": 258,
+        "count": 5198
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 114,
+        "maxX": 280,
+        "maxY": 258,
+        "count": 5183
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 111,
+        "maxX": 261,
+        "maxY": 258,
+        "count": 4848
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 168,
+        "minY": 111,
+        "maxX": 291,
+        "maxY": 259,
+        "count": 5206
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 112,
+        "maxX": 258,
+        "maxY": 258,
+        "count": 5054
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 180,
+        "minY": 117,
+        "maxX": 286,
+        "maxY": 258,
+        "count": 5593
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 117,
+        "maxX": 268,
+        "maxY": 258,
+        "count": 4728
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 164,
+        "minY": 123,
+        "maxX": 299,
+        "maxY": 258,
+        "count": 5028
+      }
+    },
+    {
+      "sheet": "combat",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 114,
+        "maxX": 259,
+        "maxY": 259,
+        "count": 4831
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 162,
+        "maxX": 274,
+        "maxY": 259,
+        "count": 5884
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 127,
+        "maxX": 266,
+        "maxY": 259,
+        "count": 5952
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 144,
+        "maxX": 265,
+        "maxY": 259,
+        "count": 5384
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 112,
+        "maxX": 262,
+        "maxY": 259,
+        "count": 5818
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 170,
+        "minY": 139,
+        "maxX": 283,
+        "maxY": 258,
+        "count": 5382
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 132,
+        "maxX": 266,
+        "maxY": 258,
+        "count": 5356
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 153,
+        "minY": 158,
+        "maxX": 304,
+        "maxY": 259,
+        "count": 5880
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 150,
+        "minY": 109,
+        "maxX": 284,
+        "maxY": 258,
+        "count": 6710
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 145,
+        "maxX": 265,
+        "maxY": 258,
+        "count": 5127
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 170,
+        "minY": 131,
+        "maxX": 272,
+        "maxY": 258,
+        "count": 5814
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 164,
+        "minY": 113,
+        "maxX": 268,
+        "maxY": 258,
+        "count": 5912
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 162,
+        "minY": 149,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 6363
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 171,
+        "minY": 160,
+        "maxX": 279,
+        "maxY": 259,
+        "count": 5630
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 166,
+        "maxX": 300,
+        "maxY": 258,
+        "count": 5095
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 165,
+        "minY": 158,
+        "maxX": 282,
+        "maxY": 258,
+        "count": 5909
+      }
+    },
+    {
+      "sheet": "mobility",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 167,
+        "minY": 162,
+        "maxX": 284,
+        "maxY": 259,
+        "count": 5694
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 116,
+        "maxX": 285,
+        "maxY": 258,
+        "count": 6281
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 161,
+        "minY": 117,
+        "maxX": 285,
+        "maxY": 259,
+        "count": 6597
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 172,
+        "minY": 122,
+        "maxX": 286,
+        "maxY": 258,
+        "count": 6422
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 172,
+        "minY": 124,
+        "maxX": 282,
+        "maxY": 258,
+        "count": 6335
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 168,
+        "minY": 123,
+        "maxX": 288,
+        "maxY": 259,
+        "count": 6357
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 155,
+        "minY": 148,
+        "maxX": 296,
+        "maxY": 258,
+        "count": 5812
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 154,
+        "minY": 181,
+        "maxX": 295,
+        "maxY": 259,
+        "count": 5399
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 155,
+        "minY": 226,
+        "maxX": 303,
+        "maxY": 258,
+        "count": 3478
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 155,
+        "minY": 226,
+        "maxX": 301,
+        "maxY": 258,
+        "count": 3444
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 155,
+        "minY": 195,
+        "maxX": 297,
+        "maxY": 259,
+        "count": 4872
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 159,
+        "minY": 179,
+        "maxX": 295,
+        "maxY": 259,
+        "count": 5361
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 157,
+        "maxX": 284,
+        "maxY": 259,
+        "count": 5532
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 196,
+        "minY": 159,
+        "maxX": 274,
+        "maxY": 259,
+        "count": 4836
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 180,
+        "minY": 150,
+        "maxX": 270,
+        "maxY": 258,
+        "count": 5362
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 179,
+        "minY": 122,
+        "maxX": 276,
+        "maxY": 258,
+        "count": 6446
+      }
+    },
+    {
+      "sheet": "reaction",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 180,
+        "minY": 112,
+        "maxX": 285,
+        "maxY": 258,
+        "count": 6664
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 113,
+        "maxX": 289,
+        "maxY": 259,
+        "count": 6582
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 168,
+        "minY": 116,
+        "maxX": 289,
+        "maxY": 259,
+        "count": 6751
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 169,
+        "minY": 115,
+        "maxX": 289,
+        "maxY": 258,
+        "count": 6287
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 168,
+        "minY": 117,
+        "maxX": 296,
+        "maxY": 259,
+        "count": 6250
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 168,
+        "minY": 115,
+        "maxX": 289,
+        "maxY": 258,
+        "count": 6195
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 169,
+        "minY": 114,
+        "maxX": 298,
+        "maxY": 259,
+        "count": 6587
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 169,
+        "minY": 114,
+        "maxX": 294,
+        "maxY": 258,
+        "count": 6749
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 113,
+        "maxX": 292,
+        "maxY": 258,
+        "count": 6527
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 112,
+        "maxX": 292,
+        "maxY": 259,
+        "count": 6657
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 112,
+        "maxX": 292,
+        "maxY": 259,
+        "count": 6635
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 113,
+        "maxX": 295,
+        "maxY": 259,
+        "count": 6846
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 169,
+        "minY": 118,
+        "maxX": 287,
+        "maxY": 259,
+        "count": 6959
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 164,
+        "minY": 119,
+        "maxX": 286,
+        "maxY": 258,
+        "count": 6465
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 171,
+        "minY": 116,
+        "maxX": 293,
+        "maxY": 258,
+        "count": 6535
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 171,
+        "minY": 114,
+        "maxX": 296,
+        "maxY": 259,
+        "count": 6725
+      }
+    },
+    {
+      "sheet": "weapons",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 113,
+        "maxX": 295,
+        "maxY": 258,
+        "count": 6952
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 181,
+        "minY": 115,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 6008
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 175,
+        "minY": 116,
+        "maxX": 280,
+        "maxY": 258,
+        "count": 6242
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 166,
+        "minY": 117,
+        "maxX": 304,
+        "maxY": 258,
+        "count": 6800
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 150,
+        "minY": 117,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 6417
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 166,
+        "minY": 148,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 5669
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 159,
+        "minY": 136,
+        "maxX": 292,
+        "maxY": 259,
+        "count": 6172
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 157,
+        "minY": 144,
+        "maxX": 304,
+        "maxY": 258,
+        "count": 6452
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 150,
+        "minY": 137,
+        "maxX": 284,
+        "maxY": 258,
+        "count": 6103
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 183,
+        "minY": 125,
+        "maxX": 278,
+        "maxY": 258,
+        "count": 4913
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 120,
+        "maxX": 260,
+        "maxY": 258,
+        "count": 4586
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 165,
+        "minY": 122,
+        "maxX": 293,
+        "maxY": 258,
+        "count": 4707
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 170,
+        "minY": 144,
+        "maxX": 288,
+        "maxY": 258,
+        "count": 5870
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 183,
+        "minY": 115,
+        "maxX": 258,
+        "maxY": 259,
+        "count": 4733
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 115,
+        "maxX": 272,
+        "maxY": 258,
+        "count": 5325
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 162,
+        "minY": 116,
+        "maxX": 301,
+        "maxY": 258,
+        "count": 5523
+      }
+    },
+    {
+      "sheet": "special",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 116,
+        "maxX": 278,
+        "maxY": 258,
+        "count": 5581
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 179,
+        "minY": 113,
+        "maxX": 284,
+        "maxY": 259,
+        "count": 6134
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 185,
+        "minY": 116,
+        "maxX": 276,
+        "maxY": 259,
+        "count": 5882
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 190,
+        "minY": 114,
+        "maxX": 268,
+        "maxY": 259,
+        "count": 5113
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 190,
+        "minY": 113,
+        "maxX": 268,
+        "maxY": 259,
+        "count": 4994
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 179,
+        "minY": 113,
+        "maxX": 278,
+        "maxY": 259,
+        "count": 5985
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 190,
+        "minY": 113,
+        "maxX": 262,
+        "maxY": 258,
+        "count": 4955
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 187,
+        "minY": 114,
+        "maxX": 266,
+        "maxY": 258,
+        "count": 5080
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 185,
+        "minY": 114,
+        "maxX": 264,
+        "maxY": 258,
+        "count": 5200
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 178,
+        "minY": 116,
+        "maxX": 284,
+        "maxY": 259,
+        "count": 6264
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 116,
+        "maxX": 280,
+        "maxY": 259,
+        "count": 6249
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 117,
+        "maxX": 279,
+        "maxY": 258,
+        "count": 5927
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 179,
+        "minY": 116,
+        "maxX": 280,
+        "maxY": 259,
+        "count": 6053
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 121,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 6065
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 119,
+        "maxX": 282,
+        "maxY": 258,
+        "count": 6273
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 119,
+        "maxX": 289,
+        "maxY": 258,
+        "count": 6403
+      }
+    },
+    {
+      "sheet": "grab",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 120,
+        "maxX": 288,
+        "maxY": 258,
+        "count": 6323
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 166,
+        "minY": 114,
+        "maxX": 291,
+        "maxY": 258,
+        "count": 7606
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 171,
+        "minY": 115,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 6941
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 131,
+        "maxX": 292,
+        "maxY": 259,
+        "count": 6454
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 115,
+        "maxX": 281,
+        "maxY": 259,
+        "count": 7306
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 113,
+        "maxX": 268,
+        "maxY": 258,
+        "count": 6449
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 114,
+        "maxX": 283,
+        "maxY": 258,
+        "count": 7377
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 117,
+        "maxX": 280,
+        "maxY": 258,
+        "count": 6301
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 113,
+        "maxX": 289,
+        "maxY": 258,
+        "count": 7205
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 113,
+        "maxX": 289,
+        "maxY": 259,
+        "count": 7467
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 173,
+        "minY": 114,
+        "maxX": 285,
+        "maxY": 259,
+        "count": 6845
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 169,
+        "minY": 113,
+        "maxX": 282,
+        "maxY": 259,
+        "count": 6922
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 171,
+        "minY": 113,
+        "maxX": 286,
+        "maxY": 259,
+        "count": 7280
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 172,
+        "minY": 113,
+        "maxX": 287,
+        "maxY": 259,
+        "count": 6909
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 112,
+        "maxX": 252,
+        "maxY": 258,
+        "count": 5358
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 160,
+        "minY": 113,
+        "maxX": 297,
+        "maxY": 258,
+        "count": 6117
+      }
+    },
+    {
+      "sheet": "counter",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 170,
+        "minY": 113,
+        "maxX": 271,
+        "maxY": 258,
+        "count": 6120
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 0,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 186,
+        "minY": 111,
+        "maxX": 274,
+        "maxY": 258,
+        "count": 6056
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 1,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 183,
+        "minY": 130,
+        "maxX": 284,
+        "maxY": 258,
+        "count": 6038
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 2,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 177,
+        "minY": 151,
+        "maxX": 270,
+        "maxY": 259,
+        "count": 5987
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 3,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 186,
+        "minY": 130,
+        "maxX": 265,
+        "maxY": 259,
+        "count": 5878
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 4,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 182,
+        "minY": 111,
+        "maxX": 281,
+        "maxY": 258,
+        "count": 6493
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 5,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 167,
+        "minY": 114,
+        "maxX": 288,
+        "maxY": 259,
+        "count": 7259
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 6,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 168,
+        "minY": 119,
+        "maxX": 299,
+        "maxY": 259,
+        "count": 7263
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 7,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 183,
+        "minY": 113,
+        "maxX": 278,
+        "maxY": 258,
+        "count": 6280
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 8,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 183,
+        "minY": 109,
+        "maxX": 271,
+        "maxY": 258,
+        "count": 6290
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 9,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 181,
+        "minY": 109,
+        "maxX": 272,
+        "maxY": 258,
+        "count": 6820
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 10,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 176,
+        "minY": 114,
+        "maxX": 280,
+        "maxY": 258,
+        "count": 7070
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 11,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 185,
+        "minY": 110,
+        "maxX": 277,
+        "maxY": 258,
+        "count": 6423
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 12,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 183,
+        "minY": 110,
+        "maxX": 270,
+        "maxY": 259,
+        "count": 6178
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 13,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 171,
+        "minY": 119,
+        "maxX": 270,
+        "maxY": 259,
+        "count": 6732
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 14,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 165,
+        "minY": 140,
+        "maxX": 282,
+        "maxY": 259,
+        "count": 7158
+      }
+    },
+    {
+      "sheet": "utility",
+      "index": 15,
+      "scale": 0.49254526091586803,
+      "bounds": {
+        "minX": 174,
+        "minY": 121,
+        "maxX": 300,
+        "maxY": 259,
+        "count": 7772
+      }
+    }
+  ],
+  "renderedSections": 13
+}

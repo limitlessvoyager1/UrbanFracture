@@ -1,0 +1,77 @@
+[
+  {
+    "id": "controller240",
+    "exit": 0,
+    "output": "PASS239 full production Forest keyboard + standard/raw DualSense/DSX attack cooldown tail, native special buffer, L1 block/release, dodge and detailed input traces\nPASS239 DualSense USB all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 DualSense Wireless Controller all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 Xbox 360 Controller (DSX) all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS240 actual keyboard and standard/rawSony/DSX cabin choice plus simultaneous down/confirm routes to Team Facilities without combat/charge or loop\n"
+  },
+  {
+    "id": "hydro243-controller",
+    "exit": 0,
+    "output": "PASS243 actual game.js keyboard plus standard/raw Sony/DSX up inputs, all6heroes \u00d73door/lift transitions; no attack or transition lock. Simulated devices, not physical hardware.\n"
+  },
+  {
+    "id": "broxton244-controller",
+    "exit": 0,
+    "output": "PASS244 actual game.js: keyboard and standard DualSense/raw Sony/DSX, both directions, same-frame second tap+Attack, full lariat exit and press-driven combo continuation. Simulated controllers, not physical hardware.\n"
+  },
+  {
+    "id": "nightshade-ammo256",
+    "exit": 0,
+    "output": "PASS256 183 native pickups/ground/recovery/cap, level-wide budgets, stable ledger/checkpoint/route transfer, once-only loot, real lethal-gun adjustment, seeded drop rates, existing heroes, cover/pit safety and future config.\n"
+  },
+  {
+    "id": "controls260-input",
+    "exit": 0,
+    "output": "PASS260 INPUT 12 actual game.js pad pump: early L2\u2192Attack buffers, Jump switches rear grip without jumping; standard/raw Sony/DSX simulated.\n"
+  },
+  {
+    "id": "playback265-input",
+    "exit": 0,
+    "output": "PASS265 INPUT 14 actual keyboard and simulated standard/rawSony/DSX queue until simulation step; physical hardware untested\n"
+  },
+  {
+    "id": "contact302-view",
+    "exit": 0,
+    "output": "PASS302 VIEW 52 checks\n"
+  },
+  {
+    "id": "diagnostics307-input",
+    "exit": 0,
+    "output": "PASS307 INPUT 13 actual game bridge; paused developer exact1/5/10; readiness/focus/hidden checks and narrow historical source proof\nPASS307 INSPECTION INPUT 16\n"
+  },
+  {
+    "id": "unique311-input",
+    "exit": 0,
+    "output": "PASS311 input 32 standard/rawSony/DSX edges, keyboard and L1/R1/L2 isolation; simulated hardware only\n"
+  },
+  {
+    "id": "energy316-runtime",
+    "exit": 0,
+    "output": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nPASS316 HERO / PICKUP INTEGRATION 171\nPASS316 ENERGY RESTORE / PRESETS 183\nPASS316 ENERGY SAFE MOVE PRICING / RESTART 192\nPASS316 DEFENSIVE COST OVERRIDES 202\nPASS316 DEFENSIVE INPUTS / ACTUAL DIAGNOSTICS 218\nPASS316 CAMPAIGN POLICY / EVENT OWNER 224\nPASS316 EXPLICIT FUTURE MOVE CLASSIFICATION 226\nPASS316 ACTUAL GRAPPLE ENERGY 252\n"
+  },
+  {
+    "id": "items319-runtime",
+    "exit": 0,
+    "output": "PASS319 master registry/native collection/wallet/resources/score/ammo/persistence 170\n"
+  },
+  {
+    "id": "items319-loot-baseline",
+    "exit": 0,
+    "output": "PASS319 baseline318/native loot signatures, RNG and budgets 12\n"
+  },
+  {
+    "id": "reserve320-runtime",
+    "exit": 0,
+    "output": "PASS320 reserve runtime 505\n"
+  },
+  {
+    "id": "reserve320-ui",
+    "exit": 0,
+    "output": "PASS320 UI/native loop/keyboard/standard+rawSony+DSX controls 51\n"
+  },
+  {
+    "id": "reserve320-equivalence",
+    "exit": 0,
+    "output": "PASS320 exact319 combat timing/resources/AI/RNG equivalence 1353\n"
+  }
+]

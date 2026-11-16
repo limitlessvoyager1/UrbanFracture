@@ -1,0 +1,55 @@
+{
+  "fixture": "Native production canvas, not browser screenshots.",
+  "rows": [
+    {
+      "store": "Downtown Chinese Restaurant",
+      "message": {
+        "id": "cache335:store336:chinese",
+        "sender": "orion",
+        "category": "cache",
+        "body": "No confirmed Syndicate lead yet. I found Small Health Pack supplies at Downtown Chinese Restaurant · cache inside. I marked the location. Clear the area and collect them there.",
+        "eventId": "city334:24",
+        "missionId": "downtown",
+        "cacheId": "store336:chinese",
+        "time": 9,
+        "read": false
+      },
+      "goAfterCollection": false
+    },
+    {
+      "store": "Retail District Game Shop",
+      "message": {
+        "id": "cache335:store336:game-shop",
+        "sender": "niko",
+        "category": "cache",
+        "body": "No confirmed Syndicate lead yet. I found Energy Battery supplies at Retail District Game Shop · cache inside. I marked the location. Clear the area and collect them there.",
+        "eventId": "render-store:game-shop",
+        "missionId": "downtown",
+        "cacheId": "store336:game-shop",
+        "time": 15,
+        "read": false
+      },
+      "goAfterCollection": false
+    }
+  ],
+  "audioSchedule": [
+    [
+      "frequency",
+      740,
+      5
+    ],
+    [
+      "frequency",
+      988,
+      5.085
+    ],
+    [
+      "start",
+      5
+    ],
+    [
+      "stop",
+      5.2
+    ]
+  ]
+}

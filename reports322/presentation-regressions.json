@@ -1,0 +1,27 @@
+[
+  {
+    "id": "nightshade-gun-view255",
+    "exit": 0,
+    "output": "PASS255 view26 finite firing frames, unchanged144 scaling, source-authored muzzle, six cartridges at0..6ammo.\n"
+  },
+  {
+    "id": "continuity296-runtime",
+    "exit": 0,
+    "output": "PASS296 30272 native pose ownership, interruption, recovery labels, 1440 actor-ticks of unchanged mechanics, archived fallback\n"
+  },
+  {
+    "id": "continuity296-equivalence",
+    "exit": 0,
+    "output": "PASS296 EQUIVALENCE 1200 native movement and group AI ticks\n"
+  },
+  {
+    "id": "contact302-view",
+    "exit": 0,
+    "output": "PASS302 VIEW 52 checks\n"
+  },
+  {
+    "id": "enemy313-render",
+    "exit": 0,
+    "output": "PASS eight Baylor walk phases, all8 helmet counterparts, identityreturn, chain-wrapped fist, fixedfamily scale and connected sole ground anchor\n"
+  }
+]

@@ -1,0 +1,10 @@
+Running node --expose-gc tools/civilians305/capture.cjs before
+Running node --expose-gc tools/civilians305/capture.cjs after
+Running node tools/civilians305/verify-captures.cjs
+Traceback (most recent call last):
+  File "/workspace/scratch/96a3e452279b/urban-fracture305/.sites-checkout/tools/civilians305/validate.py", line 10, in <module>
+    run(['node','tools/civilians305/verify-captures.cjs'],'reports305/capture-validation.log')
+  File "/workspace/scratch/96a3e452279b/urban-fracture305/.sites-checkout/tools/civilians305/validate.py", line 7, in run
+    assert r.returncode==0,(args,r.returncode)
+           ^^^^^^^^^^^^^^^
+AssertionError: (['node', 'tools/civilians305/verify-captures.cjs'], 1)

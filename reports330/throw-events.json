@@ -1,0 +1,55 @@
+{
+  "release": {
+    "frame": 44,
+    "at": 0.9833333333333347,
+    "x": 459.6856242498262,
+    "velocity": 600
+  },
+  "landing": {
+    "at": 1.5333333333333328,
+    "reason": "ground",
+    "x": 660.5961722991613
+  },
+  "events": [
+    {
+      "type": "nightshadeRelease329",
+      "id": 1,
+      "frame": 44,
+      "target": 7
+    },
+    {
+      "type": "nightshadeCollision329",
+      "id": 1,
+      "target": 8,
+      "damage": 15,
+      "tier": "regular",
+      "armor": "none",
+      "velocity": 414.542535548028
+    },
+    {
+      "type": "nightshadeCollision329",
+      "id": 1,
+      "target": 9,
+      "damage": 15,
+      "tier": "regular",
+      "armor": "none",
+      "velocity": 278.9887675328615
+    },
+    {
+      "type": "nightshadeCollision329",
+      "id": 1,
+      "target": 10,
+      "damage": 15,
+      "tier": "regular",
+      "armor": "none",
+      "velocity": 181.5293691839278
+    },
+    {
+      "type": "nightshadeLand329",
+      "id": 1,
+      "target": 7,
+      "reason": "ground",
+      "damage": 27
+    }
+  ]
+}

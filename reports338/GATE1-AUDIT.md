@@ -1,0 +1,15 @@
+# Reina’s Home — Gate 1 audit (Build 338)
+
+Checkpoint: `checkpoint-before-home338`, source `816c9aeb058e87a47bd7ec98e9cd7387c31bb3c7`.
+
+The existing engine uses Canvas2D, layered illustrated backgrounds and connected full-body sprite poses. It does not contain a mesh renderer, 3D collision/navigation, camera obstruction solver, skeletal 3D characters or a model pipeline. Adding genuine 3D would require a substantial second engine and character-art migration. This assignment will use the authorized **physically navigable 2.5D alternative**, not claim 3D.
+
+Existing home navigation is an HTML room-selection interface in `home-ui327.js`; it pauses the native Brawler through `home327.js` and game modal guards. Its rooms are labels over an overview illustration rather than walkable spaces. The selected hero is isolated for the level-select HQ test. Normal HQ visits preserve the original campaign objects and queued route.
+
+Reusable backends: Home327’s validated storage receipts, finite rest policy, mission/evidence records and availability; MasterItems319 inventory; Reserve320; PromptDrop325; Astro326 roster; City334 and Messages335; PhoneUI323; Practice278/282; Environment156/162/217/218; controller157/native standard/raw-Sony/DSX mappings; PolishedSprites and source-ground anchors. Existing supplies saves do **not** restore a complete hero/campaign position. Full home-position persistence belongs to Assignment 4 and will not be implied here.
+
+Plan for Gates 2–5: a playable exterior and a residential cutaway interior with a shared world coordinate system, collision footprints, physically connected room thresholds, a navigable stair route, stable hero scale, distance-driven walk poses and a smooth bounded follow camera. Eight required rooms must be physically reachable. The front door is a spatial threshold; room menus will not move the hero. Preserve the existing backend and object-specific functions for later gated integration. Home is safe: no ordinary combat ticks/spawning/damage. Smartphone access must remain available without a required walk to the command center.
+
+Risks: the shipping archive has only 7 KiB remaining; improve storage encoding only with exact decoded-RGBA proof, retaining original assets, rather than degrade unrelated art. Existing overview art is too small for close navigation; re-import from its retained high-resolution source. Background illustrations include furniture, so visible geometry must match authored collision and clear floor paths. Multiple independently named hero gait phases must follow actual travel. Pause/focus/modal input must never leak into campaign combat. Floor changes must be a continuous visible walk on stairs, not a hidden room-selection teleport.
+
+Acceptance boundary: Assignment 1 ends with navigation and camera evidence. New room interactions, training, NPC presence and complete home save/load are not certified until their later assignments. Global weather is the sole weather source; exterior rendering consumes its current state. Physical hardware and broad campaign certification remain separate.

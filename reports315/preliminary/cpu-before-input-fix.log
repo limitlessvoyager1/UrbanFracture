@@ -1,0 +1,32 @@
+nightshade-gate7-264 passed
+nightshade-gate7-input264 passed
+playback265 passed
+playback265-input passed
+stats266 passed
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: source unchanged by CPU suite
++ actual - expected
+
++ '2de10941bb4a1c4b1f8e4511ee25e99b1e90f76846771426eac1d8bf54953c7e'
+- 'cd79d5b961df27d41ac730b0b885d61cc6d8966ba583b5d877c02d4ea6218d40'
+
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tools/hospital315/cpu-checks.cjs:2:1183)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '2de10941bb4a1c4b1f8e4511ee25e99b1e90f76846771426eac1d8bf54953c7e',
+  expected: 'cd79d5b961df27d41ac730b0b885d61cc6d8966ba583b5d877c02d4ea6218d40',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1

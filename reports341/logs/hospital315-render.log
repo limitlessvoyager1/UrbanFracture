@@ -1,0 +1,50 @@
+AssertionError [ERR_ASSERTION]: only exact approved scoped game presentation/retry changes
++ actual - expected
+... Skipped lines
+
+  "'use strict';\n" +
+    'const{Brawler,clamp,ZONES,WORLD_END,HOTEL_NIGHTLIFE_EXTRA}=NeonCombat;\n' +
+    'const storm={strength:1,light:0,reset(){}};\n' +
+    "const game=new Brawler(),canvas=document.querySelector('#game'),ctx=canvas.getContext('2d'),overlay=document.querySelector('#overlay'),$14=document.querySelector('#pauseLayer'),play=document.querySelector('#play'),retry=document.querySelector('#retry'),status=document.querySelector('#status');\n" +
+    "const held={},$34={a:'left',d:'right',w:'up',s:'down',ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',j:'attack',k:'jump',' ':'jump',g:'grab',l:'special',q:'dodge',b:'block',c:'counter',e:'pickup',f:'unique',Shift:'run'};let $41='';let sceneMenuOpen=false,$17=false,$30=0,$4=false;let tacticsMenu173=null;let ready=false,paused=false,started=false,sound=false,audio=null,last=0,$19=0,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;\n" +
+...
+    'if(!windowFocused&&document.hasFocus?.()&&!document.hidden)windowFocused=true;if(!windowFocused||document.hidden){padNeutral=true;return input;}\n' +
++   'if(globalThis.HomeUI327?.pad(state))return{};\n' +
+    'if(!state.connected){devChord268=devRelease268=false;}const devCombo=state.held.pause&&state.rawButtons?.includes(10);if(devCombo){if(!devChord268){pause(true);clearKeys();globalThis.NeonCombatAuditView135?.dashboard();}devChord268=devRelease268=true;padNeutral=true;return{};}devChord268=false;if(devRelease268){if(!state.rawButtons?.length){devRelease268=false;padNeutral=false;}return{};}\n' +
+    'game.controller239={connected:state.connected,layout:state.layout,id:state.id,index:state.index};if(globalThis.Environment217?.pad(state))return{};\n' +
+    "if((paused||!started)&&state.pressed.includes('block')){Environment217.show();return{};}\n" +
+    'if(globalThis.Rooftop201?.menu(game)){Rooftop201.pad(game,state);return{};}\n' +
+    "if(game.destination183){Destination183.pad(game,state);return{};}if(!paused&&globalThis.Subway238?.menu(game)&&!state.pressed.includes('pause')){Subway238.pad(game,state);return{};}\n" +
+...
+    "let assets=Object.entries(paths).map(([key,file])=>new Promise(resolve=>{const i=new Image();images[key]=i;i.onload=()=>resolve(true);i.onerror=()=>resolve(false);i.src=globalThis.NeonSpriteData?.[key]?.src||'assets/'+file;}));\n" +
++   "Promise.all([...assets,PolishedSprites.ready,typeof NeonUptown!=='undefined'?NeonUptown.ready:null,globalThis.PrisonView224?.ready,globalThis.DocksView231?.ready,globalThis.ChinatownView235?.ready,globalThis.MallVie"... 104217 more characters
+-   "Promise.all([...assets,PolishedSprites.ready,typeof NeonUptown!=='undefined'?NeonUptown.ready:null,globalThis.PrisonView224?.ready,globalThis.DocksView231?.ready,globalThis.ChinatownView235?.ready,globalThis.MallView236?.ready,globalThis.StadiumView237?.ready,g"... 101265 more characters
+
+    at /workspace/scratch/96a3e452279b/update341/.sites-checkout/tools/hospital315/render.cjs:11:268 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: "'use strict';\n" +
+    'const{Brawler,clamp,ZONES,WORLD_END,HOTEL_NIGHTLIFE_EXTRA}=NeonCombat;\n' +
+    'const storm={strength:1,light:0,reset(){}};\n' +
+    "const game=new Brawler(),canvas=document.querySelector('#game'),ctx=canvas.getContext('2d'),overlay=document.querySelector('#overlay'),$14=document.querySelector('#pauseLayer'),play=document.querySelector('#play'),retry=document.querySelector('#retry'),status=document.querySelector('#status');\n" +
+    "const held={},$34={a:'left',d:'right',w:'up',s:'down',ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',j:'attack',k:'jump',' ':'jump',g:'grab',l:'special',q:'dodge',b:'block',c:'counter',e:'pickup',f:'unique',Shift:'run'};let $41='';let sceneMenuOpen=false,$17=false,$30=0,$4=false;let tacticsMenu173=null;let ready=false,paused=false,started=false,sound=false,audio=null,last=0,$19=0,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;\n" +
+    "const padReader=typeof NeonGamepad!=='undefined'?new NeonGamepad.Reader():null;let padNeutral=false,padUsed=false,windowFocused=true,padConnected=false,$1=null,$7=false;let devChord268=false,devRelease268=false;\n" +
+    "function controllerNotice(message,blocked=false){for(const id of['#controllerStatus','#controllerLiveStatus']){const el=document.querySelector(id);if(el&&el.textContent!==message)el.textContent=message;}const warning=document.querySelector('#controllerBlocked');if(warning)warning.hidden=!blocked;}\n" +
+    "function getControllerProfiles(){if($7||!padReader)return;$7=true;try{const data=JSON.parse(localStorage.getItem('neon-knuckle-controller-profiles')||'{}');if(data&&typeof data==='object')padReader.profiles=data;}catch{}}\n" +
+    "function pollGamepad(){getControllerProfiles();let state,pads;const layout=document.querySelector('#controllerLayout'),device=document.querySelector('#controllerDevice');if(padReader){padReader.mode=layout?.value||'auto';padReader.preferredIndex=device?.value&&device.value!=='auto'?Number(device.value):null;}\n" +
+    "const input={...held};try{if(!padReader||typeof navigator==='undefined'||typeof navigator.getGamepads!=='function')throw Error('Gamepad API unavailable');pads=Array.from(navigator.getGamepads());state=padReader.sample(pads);}catch{state=null;}\n" +
+    '...',
+  expected: "'use strict';\n" +
+    'const{Brawler,clamp,ZONES,WORLD_END,HOTEL_NIGHTLIFE_EXTRA}=NeonCombat;\n' +
+    'const storm={strength:1,light:0,reset(){}};\n' +
+    "const game=new Brawler(),canvas=document.querySelector('#game'),ctx=canvas.getContext('2d'),overlay=document.querySelector('#overlay'),$14=document.querySelector('#pauseLayer'),play=document.querySelector('#play'),retry=document.querySelector('#retry'),status=document.querySelector('#status');\n" +
+    "const held={},$34={a:'left',d:'right',w:'up',s:'down',ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down',j:'attack',k:'jump',' ':'jump',g:'grab',l:'special',q:'dodge',b:'block',c:'counter',e:'pickup',f:'unique',Shift:'run'};let $41='';let sceneMenuOpen=false,$17=false,$30=0,$4=false;let tacticsMenu173=null;let ready=false,paused=false,started=false,sound=false,audio=null,last=0,$19=0,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;\n" +
+    "const padReader=typeof NeonGamepad!=='undefined'?new NeonGamepad.Reader():null;let padNeutral=false,padUsed=false,windowFocused=true,padConnected=false,$1=null,$7=false;let devChord268=false,devRelease268=false;\n" +
+    "function controllerNotice(message,blocked=false){for(const id of['#controllerStatus','#controllerLiveStatus']){const el=document.querySelector(id);if(el&&el.textContent!==message)el.textContent=message;}const warning=document.querySelector('#controllerBlocked');if(warning)warning.hidden=!blocked;}\n" +
+    "function getControllerProfiles(){if($7||!padReader)return;$7=true;try{const data=JSON.parse(localStorage.getItem('neon-knuckle-controller-profiles')||'{}');if(data&&typeof data==='object')padReader.profiles=data;}catch{}}\n" +
+    "function pollGamepad(){getControllerProfiles();let state,pads;const layout=document.querySelector('#controllerLayout'),device=document.querySelector('#controllerDevice');if(padReader){padReader.mode=layout?.value||'auto';padReader.preferredIndex=device?.value&&device.value!=='auto'?Number(device.value):null;}\n" +
+    "const input={...held};try{if(!padReader||typeof navigator==='undefined'||typeof navigator.getGamepads!=='function')throw Error('Gamepad API unavailable');pads=Array.from(navigator.getGamepads());state=padReader.sample(pads);}catch{state=null;}\n" +
+    '...',
+  operator: 'strictEqual',
+  diff: 'simple'
+}

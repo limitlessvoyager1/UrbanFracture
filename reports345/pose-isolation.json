@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "method": "Whole connected source-figure extraction with nearest-body antialias ownership; master pixels unchanged, no body resizing. Three-pixel source padding.",
+  "sheets": [
+    {
+      "sheet": "heroBase",
+      "sourceBodies": 16,
+      "masterEdgeContacts": [],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1280,
+        1248
+      ]
+    },
+    {
+      "sheet": "heroExtra",
+      "sourceBodies": 24,
+      "masterEdgeContacts": [],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1536,
+        1088
+      ]
+    },
+    {
+      "sheet": "marcus-kevin",
+      "sourceBodies": 36,
+      "masterEdgeContacts": [
+        11,
+        29
+      ],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1392,
+        1296
+      ]
+    },
+    {
+      "sheet": "bruno-frankie",
+      "sourceBodies": 36,
+      "masterEdgeContacts": [],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1344,
+        1296
+      ]
+    },
+    {
+      "sheet": "carmen-flint",
+      "sourceBodies": 36,
+      "masterEdgeContacts": [],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1392,
+        1392
+      ]
+    },
+    {
+      "sheet": "saito-akari",
+      "sourceBodies": 36,
+      "masterEdgeContacts": [],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1344,
+        1296
+      ]
+    },
+    {
+      "sheet": "brick-jackal",
+      "sourceBodies": 36,
+      "masterEdgeContacts": [
+        35
+      ],
+      "allCorePixelsRetained": true,
+      "foreignBodiesRemoved": true,
+      "perPoseResizing": false,
+      "atlasSize": [
+        1344,
+        1296
+      ]
+    },
+    {
+      "sheet": "poseRepairs",
+      "sourceBodies": 3,
+      "usedFrames": [
+        11,
+        29
+      ],
+      "uniformSourceDensity": 0.3876651982378855,
+      "unusedThirdFigure": "Kneeling output rejected as final standing recovery",
+      "jackalFinalRecovery": "intact original Jackal idle, no timing change"
+    }
+  ]
+}

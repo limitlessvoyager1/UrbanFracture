@@ -1,0 +1,222 @@
+{
+  "changed": [
+    "tests/civilians305.cjs",
+    "tests/grapples301.cjs",
+    "tests/plane304-weapons.cjs",
+    "tools/plane304/approved.cjs",
+    "tools/recording312/enemy-test.cjs"
+  ],
+  "results": [
+    {
+      "id": "grapples301-runtime",
+      "command": [
+        "node",
+        "tests/grapples301.cjs"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 4526,
+      "log": "reports313/revalidate-grapples301-runtime.log"
+    },
+    {
+      "id": "crowd303-runtime",
+      "command": [
+        "node",
+        "tests/crowd303.cjs"
+      ],
+      "framework": "crowd-coordination",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 14939,
+      "log": "reports313/revalidate-crowd303-runtime.log"
+    },
+    {
+      "id": "plane304-runtime",
+      "command": [
+        "node",
+        "tests/plane304.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 12157,
+      "log": "reports313/revalidate-plane304-runtime.log"
+    },
+    {
+      "id": "plane304-weapons",
+      "command": [
+        "node",
+        "tests/plane304-weapons.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 6131,
+      "log": "reports313/revalidate-plane304-weapons.log"
+    },
+    {
+      "id": "civilians305-runtime",
+      "command": [
+        "node",
+        "tests/civilians305.cjs"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 12971,
+      "log": "reports313/revalidate-civilians305-runtime.log"
+    },
+    {
+      "id": "recording312-enemies",
+      "command": [
+        "node",
+        "tools/recording312/enemy-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 227,
+      "log": "reports313/revalidate-recording312-enemies.log"
+    },
+    {
+      "id": "reactions298-runtime",
+      "command": [
+        "node",
+        "tests/reactions298.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 498,
+      "log": "reports313/revalidate-reactions298-runtime.log"
+    },
+    {
+      "id": "knockdowns299-runtime",
+      "command": [
+        "node",
+        "tests/knockdowns299.cjs"
+      ],
+      "framework": "knockdown-and-getup-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 496,
+      "log": "reports313/revalidate-knockdowns299-runtime.log"
+    },
+    {
+      "id": "quality308-A",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "A"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 4044,
+      "log": "reports313/revalidate-quality308-A.log"
+    },
+    {
+      "id": "recording313-runtime",
+      "command": [
+        "node",
+        "tools/recording313/runtime-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 362,
+      "log": "reports313/revalidate-recording313-runtime.log"
+    },
+    {
+      "id": "stadium313-runtime",
+      "command": [
+        "node",
+        "tools/stadium313/runtime.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 347,
+      "log": "reports313/revalidate-stadium313-runtime.log"
+    },
+    {
+      "id": "enemy313-runtime",
+      "command": [
+        "node",
+        "tools/enemy313/runtime.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 228,
+      "log": "reports313/revalidate-enemy313-runtime.log"
+    }
+  ]
+}

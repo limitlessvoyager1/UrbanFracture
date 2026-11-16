@@ -1,0 +1,15 @@
+/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/qa242-scenes.cjs:3
+const g=new N.Brawler();N.Stadium237.start(g,0);const fans=sb.StadiumView237.spectators(g),rows=[],issues=[];for(const q of fans){const f=sb.StadiumFans237.frames[q.pose],measurement={id:'stadium-fan-'+q.id,category:'adultNPC',height:f.height*q.scale,depthScale:1,source:f.src,scale:q.scale,groundY:q.y,footAnchor:f.root};rows.push(measurement);issues.push(...V.scale(measurement,S.categories));assert(q.y<g.groundBounds.min,'spectator outside combat lane');}const source=fs.readFileSync('dist/casino-view192.js','utf8'),m=source.match(/kind==='slot'\|\|kind==='video'\?(\d+)\/props\[0\]\.h/);assert(m,'Casino height source adapter changed; review it instead of silently using an old height.');const height=+m[1];rows.push({id:'casino-slot',category:'slotMachine',height,depthScale:1});issues.push(...V.scale(rows.at(-1),S.categories));
+                                                                                                                                                                                                                                            ^
+
+TypeError: Cannot read properties of undefined (reading 'height')
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/qa242-scenes.cjs:3:237)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.22.1

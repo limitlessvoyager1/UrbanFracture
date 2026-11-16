@@ -1,0 +1,1 @@
+Build316 implementation and verification completed. See REPORT.md and FINAL_VERIFICATION.json. Publication is recorded by the native Site deployment result; do not infer deployment from test results. Manual hardware, art, all-move and human-balance review remain separate.

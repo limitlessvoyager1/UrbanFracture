@@ -1,0 +1,53 @@
+{
+  "frames": 1440,
+  "rows": [
+    {
+      "phase": "before",
+      "kind": "subway",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "before",
+      "kind": "mall",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "before",
+      "kind": "fairways",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "before",
+      "kind": "uptown",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "after",
+      "kind": "subway",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "after",
+      "kind": "mall",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "after",
+      "kind": "fairways",
+      "frames": 180,
+      "matched": true
+    },
+    {
+      "phase": "after",
+      "kind": "uptown",
+      "frames": 180,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "test": "playback265.cjs",
+    "exit": 0,
+    "output": "PASS265 87 fixed-step, all speeds/refresh rates, pause, exact manual ticks, queued input, bounded detached records, disabled restoration\nPASS265 FULL WORLD 136 seven heroes; identical native projectile, hero/enemy cooldown and environment clocks at equal simulation time\nPASS265 RESET QUEUE 137\n"
+  },
+  {
+    "test": "playback265-input.cjs",
+    "exit": 0,
+    "output": "PASS265 INPUT 14 actual keyboard and simulated standard/rawSony/DSX queue until simulation step; physical hardware untested\n"
+  },
+  {
+    "test": "items319-loot.cjs",
+    "exit": 0,
+    "output": "PASS319 baseline318/native loot signatures, RNG and budgets 12\n"
+  },
+  {
+    "test": "contact302-view.cjs",
+    "exit": 0,
+    "output": "PASS302 VIEW 52 checks\n"
+  }
+]

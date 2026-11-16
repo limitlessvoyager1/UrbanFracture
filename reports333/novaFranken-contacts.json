@@ -1,0 +1,369 @@
+[
+  {
+    "frame": 0,
+    "clock": 0
+  },
+  {
+    "frame": 7,
+    "clock": 0.13066666666666665,
+    "contact": {
+      "time": 0.11666666666666665,
+      "head": [
+        501.28047225,
+        330.53998679904
+      ],
+      "angle": 0,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 2.9443782009600454,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.11666666666666665,
+        "head": [
+          501.28047225,
+          330.53998679904
+        ],
+        "angle": 0,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 2.9443782009600454,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 14,
+    "clock": 0.2613333333333333,
+    "contact": {
+      "time": 0.2333333333333333,
+      "head": [
+        510.093509287037,
+        330.53998679904004
+      ],
+      "angle": 0,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 4.046710762071143,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.2333333333333333,
+        "head": [
+          510.093509287037,
+          330.53998679904004
+        ],
+        "angle": 0,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 4.046710762071143,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 21,
+    "clock": 0.39199999999999996,
+    "contact": {
+      "time": 0.35,
+      "head": [
+        522.66447225,
+        279.73158645
+      ],
+      "angle": 0,
+      "bottom": 429.19159965096003,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.35,
+        "head": [
+          522.66447225,
+          279.73158645
+        ],
+        "angle": 0,
+        "bottom": 429.19159965096003,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 28,
+    "clock": 0.5226666666666667,
+    "contact": {
+      "time": 0.4666666666666666,
+      "head": [
+        472,
+        330.2326148716151
+      ],
+      "angle": 0,
+      "bottom": 479.6926280725751,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.4666666666666666,
+        "head": [
+          472,
+          330.2326148716151
+        ],
+        "angle": 0,
+        "bottom": 479.6926280725751,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 35,
+    "clock": 0.6533333333333338,
+    "contact": {
+      "time": 0.5833333333333335,
+      "head": [
+        481.38781086109174,
+        322.6643712746855
+      ],
+      "angle": -0.13854593607092217,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 5.098650969087657,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.5833333333333335,
+        "head": [
+          481.38781086109174,
+          322.6643712746855
+        ],
+        "angle": -0.13854593607092217,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 5.098650969087657,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 42,
+    "clock": 0.7840000000000008,
+    "contact": {
+      "time": 0.7000000000000005,
+      "head": [
+        460.1359972344267,
+        313.11673264885894
+      ],
+      "angle": -1.352517840046989,
+      "bottom": 411.28016143250034,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.7000000000000005,
+        "head": [
+          460.1359972344267,
+          313.11673264885894
+        ],
+        "angle": -1.352517840046989,
+        "bottom": 411.28016143250034,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 49,
+    "clock": 0.9146666666666678,
+    "contact": {
+      "time": 0.8166666666666675,
+      "head": [
+        414.0741298429025,
+        314.2787726899563
+      ],
+      "angle": -3.0883516111659315,
+      "bottom": 338.2174062190407,
+      "ground": 480,
+      "correction": 0,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.8166666666666675,
+        "head": [
+          414.0741298429025,
+          314.2787726899563
+        ],
+        "angle": -3.0883516111659315,
+        "bottom": 338.2174062190407,
+        "ground": 480,
+        "correction": 0,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 56,
+    "clock": 1.0453333333333346,
+    "contact": {
+      "time": 0.9333333333333346,
+      "head": [
+        311.4588746861796,
+        409.62046609494143
+      ],
+      "angle": -4.448811056796124,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 11.941831874960371,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 0.9333333333333346,
+        "head": [
+          311.4588746861796,
+          409.62046609494143
+        ],
+        "angle": -4.448811056796124,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 11.941831874960371,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 63,
+    "clock": 1.1760000000000008,
+    "contact": {
+      "time": 1.0500000000000012,
+      "head": [
+        382,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 1.0500000000000012,
+        "head": [
+          382,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 70,
+    "clock": 1.306666666666667,
+    "contact": {
+      "time": 1.1666666666666674,
+      "head": [
+        382,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 1.1666666666666674,
+        "head": [
+          382,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  },
+  {
+    "frame": 82,
+    "clock": 1.5119999999999998,
+    "contact": {
+      "time": 1.3333333333333335,
+      "head": [
+        382,
+        412.6028079
+      ],
+      "angle": -1.5707963267948966,
+      "bottom": 480,
+      "ground": 480,
+      "correction": 37.742427575999955,
+      "move": "novaFranken"
+    },
+    "render": {
+      "identity": "thug",
+      "source": "cached original full body",
+      "contact": {
+        "time": 1.1666666666666674,
+        "head": [
+          382,
+          412.6028079
+        ],
+        "angle": -1.5707963267948966,
+        "bottom": 480,
+        "ground": 480,
+        "correction": 37.742427575999955,
+        "move": "novaFranken"
+      },
+      "splash": false
+    }
+  }
+]

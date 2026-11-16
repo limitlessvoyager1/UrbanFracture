@@ -1,0 +1,3558 @@
+{
+  "startedAt": "2026-11-10T18:13:57.148Z",
+  "sourceFingerprint": "711bbcab9573a3f10e11593592f37b497cc906c45fe4f41e8ef61b29e11cd735",
+  "results": [
+    {
+      "id": "validator-self-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-validators.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-validator-self-tests.log",
+      "durationMs": 252
+    },
+    {
+      "id": "guarded-repair-self-tests",
+      "command": [
+        "node",
+        "tests/qa242-repair.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-guarded-repair-self-tests.log",
+      "durationMs": 128
+    },
+    {
+      "id": "image-certification",
+      "command": [
+        "python",
+        "tools/qa242/assets.py",
+        "--output",
+        "reports242/assets.json"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-image-certification.log",
+      "durationMs": 1122
+    },
+    {
+      "id": "screenshot-comparator-self-tests",
+      "command": [
+        "python",
+        "tests/qa242-compare.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-screenshot-comparator-self-tests.log",
+      "durationMs": 93
+    },
+    {
+      "id": "current-runtime-certification",
+      "command": [
+        "node",
+        "tests/qa242-runtime.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-current-runtime-certification.log",
+      "durationMs": 466
+    },
+    {
+      "id": "scene-scale-certification",
+      "command": [
+        "node",
+        "tests/qa242-scenes.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-scene-scale-certification.log",
+      "durationMs": 211
+    },
+    {
+      "id": "prior-fixes241",
+      "command": [
+        "node",
+        "tests/stabilization241.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-prior-fixes241.log",
+      "durationMs": 320
+    },
+    {
+      "id": "movement240",
+      "command": [
+        "node",
+        "tests/stabilization240.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-movement240.log",
+      "durationMs": 1602
+    },
+    {
+      "id": "run-art240",
+      "command": [
+        "python",
+        "tests/run240-art.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-run-art240.log",
+      "durationMs": 121
+    },
+    {
+      "id": "controller240",
+      "command": [
+        "node",
+        "tests/stadium240-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-controller240.log",
+      "durationMs": 2485
+    },
+    {
+      "id": "lab-fire168",
+      "command": [
+        "node",
+        "tests/cabin168.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-lab-fire168.log",
+      "durationMs": 1450
+    },
+    {
+      "id": "lab-scientists166",
+      "command": [
+        "node",
+        "tests/lab-fighters166.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-lab-scientists166.log",
+      "durationMs": 1777
+    },
+    {
+      "id": "casino192",
+      "command": [
+        "node",
+        "tests/casino192.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-casino192.log",
+      "durationMs": 516
+    },
+    {
+      "id": "campaign224",
+      "command": [
+        "node",
+        "tests/prison224-all.cjs"
+      ],
+      "framework": "existing-cross-system",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "PRISON224-results.json"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-campaign224.log",
+      "durationMs": 74579
+    },
+    {
+      "id": "subway238",
+      "command": [
+        "node",
+        "tests/subway238.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-subway238.log",
+      "durationMs": 29035
+    },
+    {
+      "id": "stadium237",
+      "command": [
+        "node",
+        "tests/stadium237.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-stadium237.log",
+      "durationMs": 11028
+    },
+    {
+      "id": "security216-legacy",
+      "command": [
+        "node",
+        "tests/security216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-security216-legacy.log",
+      "durationMs": 4314
+    },
+    {
+      "id": "current216-legacy",
+      "command": [
+        "node",
+        "tests/current216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-current216-legacy.log",
+      "durationMs": 19105
+    },
+    {
+      "id": "hydro243-progression",
+      "command": [
+        "node",
+        "tests/hydro243.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-hydro243-progression.log",
+      "durationMs": 29302
+    },
+    {
+      "id": "hydro243-view",
+      "command": [
+        "node",
+        "tests/hydro243-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-hydro243-view.log",
+      "durationMs": 265
+    },
+    {
+      "id": "hydro243-controller",
+      "command": [
+        "node",
+        "tests/hydro243-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-hydro243-controller.log",
+      "durationMs": 3762
+    },
+    {
+      "id": "broxton244",
+      "command": [
+        "node",
+        "tests/broxton244.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-broxton244.log",
+      "durationMs": 10115
+    },
+    {
+      "id": "broxton244-controller",
+      "command": [
+        "node",
+        "tests/broxton244-controller.cjs"
+      ],
+      "framework": "controller-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-broxton244-controller.log",
+      "durationMs": 1072
+    },
+    {
+      "id": "broxton244-view",
+      "command": [
+        "node",
+        "tests/broxton244-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-broxton244-view.log",
+      "durationMs": 124
+    },
+    {
+      "id": "subway245",
+      "command": [
+        "node",
+        "tests/subway245.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-subway245.log",
+      "durationMs": 14547
+    },
+    {
+      "id": "subway245-view",
+      "command": [
+        "node",
+        "tests/subway245-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-subway245-view.log",
+      "durationMs": 270
+    },
+    {
+      "id": "continuation246",
+      "command": [
+        "node",
+        "tests/continuation246.cjs"
+      ],
+      "framework": "cross-system-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-continuation246.log",
+      "durationMs": 677
+    },
+    {
+      "id": "grab-variants246",
+      "command": [
+        "node",
+        "tests/grab-variants246.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grab-variants246.log",
+      "durationMs": 4063
+    },
+    {
+      "id": "subway-audio246",
+      "command": [
+        "node",
+        "tests/subway-audio246.cjs"
+      ],
+      "framework": "environment-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-subway-audio246.log",
+      "durationMs": 228
+    },
+    {
+      "id": "worker-reaction246",
+      "command": [
+        "python",
+        "tests/worker-reaction246.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-worker-reaction246.log",
+      "durationMs": 3649
+    },
+    {
+      "id": "subway247",
+      "command": [
+        "node",
+        "tests/subway247.cjs"
+      ],
+      "framework": "combat-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-subway247.log",
+      "durationMs": 11437
+    },
+    {
+      "id": "subway247-view",
+      "command": [
+        "node",
+        "tests/subway247-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-subway247-view.log",
+      "durationMs": 293
+    },
+    {
+      "id": "counter-weapon248",
+      "command": [
+        "node",
+        "tests/counters248.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-counter-weapon248.log",
+      "durationMs": 19667
+    },
+    {
+      "id": "combat-art248",
+      "command": [
+        "python",
+        "tests/art248.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-combat-art248.log",
+      "durationMs": 104
+    },
+    {
+      "id": "weapon-render248",
+      "command": [
+        "node",
+        "tests/counters248-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-weapon-render248.log",
+      "durationMs": 93
+    },
+    {
+      "id": "weapon-proficiency249",
+      "command": [
+        "node",
+        "tests/weapons249.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-weapon-proficiency249.log",
+      "durationMs": 303
+    },
+    {
+      "id": "weapon-art249",
+      "command": [
+        "python",
+        "tests/art249.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-weapon-art249.log",
+      "durationMs": 126
+    },
+    {
+      "id": "weapon-render249",
+      "command": [
+        "node",
+        "tests/weapons249-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-weapon-render249.log",
+      "durationMs": 355
+    },
+    {
+      "id": "worker-crew250",
+      "command": [
+        "node",
+        "tests/workers250.cjs"
+      ],
+      "framework": "ai-behavior-validation",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-worker-crew250.log",
+      "durationMs": 3701
+    },
+    {
+      "id": "worker-regular233",
+      "command": [
+        "node",
+        "tests/workers233-regular.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-worker-regular233.log",
+      "durationMs": 575
+    },
+    {
+      "id": "worker-heavy233",
+      "command": [
+        "node",
+        "tests/workers233-heavy.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-worker-heavy233.log",
+      "durationMs": 489
+    },
+    {
+      "id": "worker-grabs233",
+      "command": [
+        "node",
+        "tests/workers233-grabs.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-worker-grabs233.log",
+      "durationMs": 747
+    },
+    {
+      "id": "worker-integration233",
+      "command": [
+        "node",
+        "tests/workers233-integration.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-worker-integration233.log",
+      "durationMs": 5351
+    },
+    {
+      "id": "nightshade-foundation251",
+      "command": [
+        "node",
+        "tests/nightshade251.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-foundation251.log",
+      "durationMs": 786
+    },
+    {
+      "id": "nightshade-art252",
+      "command": [
+        "python",
+        "tests/nightshade252-art.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-art252.log",
+      "durationMs": 624
+    },
+    {
+      "id": "nightshade-input251",
+      "command": [
+        "node",
+        "tests/nightshade251-input.cjs"
+      ],
+      "framework": "controller-input",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-input251.log",
+      "durationMs": 210
+    },
+    {
+      "id": "nightshade-view252",
+      "command": [
+        "node",
+        "tests/nightshade252-view.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-view252.log",
+      "durationMs": 95
+    },
+    {
+      "id": "nightshade-repair252",
+      "command": [
+        "node",
+        "tests/nightshade252.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-repair252.log",
+      "durationMs": 333
+    },
+    {
+      "id": "nightshade-size-quality253",
+      "command": [
+        "node",
+        "tests/nightshade253.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-size-quality253.log",
+      "durationMs": 80
+    },
+    {
+      "id": "nightshade-gun255",
+      "command": [
+        "node",
+        "tests/nightshade255.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gun255.log",
+      "durationMs": 1561
+    },
+    {
+      "id": "nightshade-gun-view255",
+      "command": [
+        "node",
+        "tests/nightshade255-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gun-view255.log",
+      "durationMs": 221
+    },
+    {
+      "id": "nightshade-ammo256",
+      "command": [
+        "node",
+        "tests/nightshade256.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-ammo256.log",
+      "durationMs": 352
+    },
+    {
+      "id": "nightshade-ammo-levels256",
+      "command": [
+        "node",
+        "tests/nightshade256-levels.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-ammo-levels256.log",
+      "durationMs": 357
+    },
+    {
+      "id": "nightshade-ammo-view256",
+      "command": [
+        "node",
+        "tests/nightshade256-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-ammo-view256.log",
+      "durationMs": 207
+    },
+    {
+      "id": "nightshade-ammo-economy256",
+      "command": [
+        "node",
+        "tests/nightshade256-economy.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-ammo-economy256.log",
+      "durationMs": 2713
+    },
+    {
+      "id": "nightshade-gate4-melee257",
+      "command": [
+        "node",
+        "tests/nightshade257.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate4-melee257.log",
+      "durationMs": 1356
+    },
+    {
+      "id": "nightshade-gate4-input257",
+      "command": [
+        "node",
+        "tests/nightshade257-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate4-input257.log",
+      "durationMs": 254
+    },
+    {
+      "id": "nightshade-gate4-view257",
+      "command": [
+        "node",
+        "tests/nightshade257-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate4-view257.log",
+      "durationMs": 225
+    },
+    {
+      "id": "nightshade-directional258",
+      "command": [
+        "node",
+        "tests/nightshade258.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-directional258.log",
+      "durationMs": 5480
+    },
+    {
+      "id": "nightshade-directional-input258",
+      "command": [
+        "node",
+        "tests/nightshade258-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-directional-input258.log",
+      "durationMs": 358
+    },
+    {
+      "id": "nightshade-directional-view258",
+      "command": [
+        "node",
+        "tests/nightshade258-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-directional-view258.log",
+      "durationMs": 212
+    },
+    {
+      "id": "repair259-regressions",
+      "command": [
+        "node",
+        "tests/repair259.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-repair259-regressions.log",
+      "durationMs": 1377
+    },
+    {
+      "id": "nightshade259-input-recovery",
+      "command": [
+        "node",
+        "tests/nightshade259.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade259-input-recovery.log",
+      "durationMs": 684
+    },
+    {
+      "id": "controls260-negative-fixtures",
+      "command": [
+        "node",
+        "tests/controls260-negative.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-controls260-negative-fixtures.log",
+      "durationMs": 607
+    },
+    {
+      "id": "controls260-policy",
+      "command": [
+        "node",
+        "tests/controls260.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-controls260-policy.log",
+      "durationMs": 5075
+    },
+    {
+      "id": "controls260-input",
+      "command": [
+        "node",
+        "tests/controls260-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-controls260-input.log",
+      "durationMs": 448
+    },
+    {
+      "id": "flint211-full",
+      "command": [
+        "node",
+        "tests/flint211.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-flint211-full.log",
+      "durationMs": 4627
+    },
+    {
+      "id": "fairways261-view-status",
+      "command": [
+        "node",
+        "tests/fairways261.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-fairways261-view-status.log",
+      "durationMs": 970
+    },
+    {
+      "id": "fairways196-progression",
+      "command": [
+        "node",
+        "tests/estates196.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-fairways196-progression.log",
+      "durationMs": 2064
+    },
+    {
+      "id": "fairways261-art-import",
+      "command": [
+        "python",
+        "tests/fairways261-art.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-fairways261-art-import.log",
+      "durationMs": 385
+    },
+    {
+      "id": "fairways-nightshade262",
+      "command": [
+        "node",
+        "tests/repair262.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-fairways-nightshade262.log",
+      "durationMs": 1232
+    },
+    {
+      "id": "repair262-asset-certification",
+      "command": [
+        "python",
+        "tests/repair262-art.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-repair262-asset-certification.log",
+      "durationMs": 859
+    },
+    {
+      "id": "repair262-prone-view",
+      "command": [
+        "node",
+        "tests/repair262-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-repair262-prone-view.log",
+      "durationMs": 215
+    },
+    {
+      "id": "nightshade-gate6-263",
+      "command": [
+        "node",
+        "tests/nightshade263.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate6-263.log",
+      "durationMs": 2489
+    },
+    {
+      "id": "nightshade-gate6-input263",
+      "command": [
+        "node",
+        "tests/nightshade263-input.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate6-input263.log",
+      "durationMs": 230
+    },
+    {
+      "id": "nightshade-gate6-view263",
+      "command": [
+        "node",
+        "tests/nightshade263-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate6-view263.log",
+      "durationMs": 322
+    },
+    {
+      "id": "nightshade-gate7-264",
+      "command": [
+        "node",
+        "tests/nightshade264.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate7-264.log",
+      "durationMs": 6859
+    },
+    {
+      "id": "nightshade-gate7-input264",
+      "command": [
+        "node",
+        "tests/nightshade264-input.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate7-input264.log",
+      "durationMs": 384
+    },
+    {
+      "id": "nightshade-gate7-view264",
+      "command": [
+        "node",
+        "tests/nightshade264-view.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade-gate7-view264.log",
+      "durationMs": 300
+    },
+    {
+      "id": "playback265",
+      "command": [
+        "node",
+        "tests/playback265.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-playback265.log",
+      "durationMs": 7066
+    },
+    {
+      "id": "playback265-input",
+      "command": [
+        "node",
+        "tests/playback265-input.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-playback265-input.log",
+      "durationMs": 354
+    },
+    {
+      "id": "stats266",
+      "command": [
+        "node",
+        "tests/stats266.cjs"
+      ],
+      "framework": "character-statistics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-stats266.log",
+      "durationMs": 973
+    },
+    {
+      "id": "nightshade267",
+      "command": [
+        "node",
+        "tests/nightshade267.cjs"
+      ],
+      "framework": "nightshade-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade267.log",
+      "durationMs": 25361
+    },
+    {
+      "id": "devmenu268",
+      "command": [
+        "node",
+        "tests/devmenu268.cjs"
+      ],
+      "framework": "controller-input-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-devmenu268.log",
+      "durationMs": 274
+    },
+    {
+      "id": "reina269",
+      "command": [
+        "node",
+        "tests/reina269.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina269.log",
+      "durationMs": 2738
+    },
+    {
+      "id": "reina269-view",
+      "command": [
+        "node",
+        "tests/reina269-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina269-view.log",
+      "durationMs": 458
+    },
+    {
+      "id": "reina270",
+      "command": [
+        "node",
+        "tests/reina270.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina270.log",
+      "durationMs": 4770
+    },
+    {
+      "id": "reina270-view",
+      "command": [
+        "node",
+        "tests/reina270-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina270-view.log",
+      "durationMs": 106
+    },
+    {
+      "id": "orion271-assets",
+      "command": [
+        "python",
+        "tests/orion271-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-orion271-assets.log",
+      "durationMs": 1282
+    },
+    {
+      "id": "orion271-view",
+      "command": [
+        "node",
+        "tests/orion271-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-orion271-view.log",
+      "durationMs": 282
+    },
+    {
+      "id": "hook272",
+      "command": [
+        "node",
+        "tests/hook272.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-hook272.log",
+      "durationMs": 15543
+    },
+    {
+      "id": "hook272-view",
+      "command": [
+        "node",
+        "tests/hook272-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-hook272-view.log",
+      "durationMs": 265
+    },
+    {
+      "id": "hook272-assets",
+      "command": [
+        "python",
+        "tests/hook272-assets.py"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-hook272-assets.log",
+      "durationMs": 187
+    },
+    {
+      "id": "combat274",
+      "command": [
+        "node",
+        "tests/combat274.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-combat274.log",
+      "durationMs": 4859
+    },
+    {
+      "id": "combat274-view",
+      "command": [
+        "node",
+        "tests/combat274-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-combat274-view.log",
+      "durationMs": 86
+    },
+    {
+      "id": "combat274-assets",
+      "command": [
+        "python",
+        "tests/combat274-assets.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-combat274-assets.log",
+      "durationMs": 200
+    },
+    {
+      "id": "reaction-settings274",
+      "command": [
+        "node",
+        "tests/reaction-settings274.cjs"
+      ],
+      "framework": "developer-overrides",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reaction-settings274.log",
+      "durationMs": 293
+    },
+    {
+      "id": "presentation275",
+      "command": [
+        "node",
+        "tests/presentation275.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-presentation275.log",
+      "durationMs": 339
+    },
+    {
+      "id": "presentation275-assets",
+      "command": [
+        "python",
+        "tests/presentation275-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-presentation275-assets.log",
+      "durationMs": 72
+    },
+    {
+      "id": "nightshade276-runtime",
+      "command": [
+        "node",
+        "tests/nightshade276.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade276-runtime.log",
+      "durationMs": 4255
+    },
+    {
+      "id": "nightshade276-input",
+      "command": [
+        "node",
+        "tests/nightshade276-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade276-input.log",
+      "durationMs": 328
+    },
+    {
+      "id": "nightshade276-view",
+      "command": [
+        "node",
+        "tests/nightshade276-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade276-view.log",
+      "durationMs": 197
+    },
+    {
+      "id": "nightshade276-water",
+      "command": [
+        "node",
+        "tests/nightshade276-water.cjs"
+      ],
+      "framework": "environment-simulation",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-nightshade276-water.log",
+      "durationMs": 93
+    },
+    {
+      "id": "repair277-runtime",
+      "command": [
+        "node",
+        "tests/repair277.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-repair277-runtime.log",
+      "durationMs": 4945
+    },
+    {
+      "id": "repair277-assets",
+      "command": [
+        "python",
+        "tests/repair277-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-repair277-assets.log",
+      "durationMs": 105
+    },
+    {
+      "id": "reina278-runtime",
+      "command": [
+        "node",
+        "tests/reina278.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina278-runtime.log",
+      "durationMs": 3794
+    },
+    {
+      "id": "reina278-assets",
+      "command": [
+        "python",
+        "tests/reina278-assets.py"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina278-assets.log",
+      "durationMs": 220
+    },
+    {
+      "id": "reina279-runtime",
+      "command": [
+        "node",
+        "tests/reina279.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina279-runtime.log",
+      "durationMs": 15667
+    },
+    {
+      "id": "reina279-input",
+      "command": [
+        "node",
+        "tests/reina279-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina279-input.log",
+      "durationMs": 569
+    },
+    {
+      "id": "reina279-view",
+      "command": [
+        "node",
+        "tests/reina279-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina279-view.log",
+      "durationMs": 81
+    },
+    {
+      "id": "reina279-assets",
+      "command": [
+        "python",
+        "tests/reina279-assets.py"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reina279-assets.log",
+      "durationMs": 209
+    },
+    {
+      "id": "review280-runtime",
+      "command": [
+        "node",
+        "tests/review280.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review280-runtime.log",
+      "durationMs": 7274
+    },
+    {
+      "id": "review280-input",
+      "command": [
+        "node",
+        "tests/review280-input.cjs"
+      ],
+      "framework": "input-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review280-input.log",
+      "durationMs": 649
+    },
+    {
+      "id": "review280-assets",
+      "command": [
+        "python",
+        "tests/review280-assets.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review280-assets.log",
+      "durationMs": 88
+    },
+    {
+      "id": "review280-view",
+      "command": [
+        "node",
+        "tests/review280-view.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review280-view.log",
+      "durationMs": 217
+    },
+    {
+      "id": "review280-levels",
+      "command": [
+        "node",
+        "tests/review280-levels.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review280-levels.log",
+      "durationMs": 18279
+    },
+    {
+      "id": "review281-runtime",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281.cjs"
+      ],
+      "framework": "level-integrity",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review281-runtime.log",
+      "durationMs": 6181
+    },
+    {
+      "id": "review281-view",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review281-view.log",
+      "durationMs": 196
+    },
+    {
+      "id": "review281-assets",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "python",
+        "tests/review281-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review281-assets.log",
+      "durationMs": 284
+    },
+    {
+      "id": "review281-baseline",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281-baseline.cjs"
+      ],
+      "framework": "level-integrity",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review281-baseline.log",
+      "durationMs": 299
+    },
+    {
+      "id": "review282-runtime",
+      "command": [
+        "node",
+        "tests/review282.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review282-runtime.log",
+      "durationMs": 2616
+    },
+    {
+      "id": "review282-view",
+      "command": [
+        "node",
+        "tests/review282-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review282-view.log",
+      "durationMs": 185
+    },
+    {
+      "id": "review282-assets",
+      "command": [
+        "python",
+        "tests/review282-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review282-assets.log",
+      "durationMs": 519
+    },
+    {
+      "id": "review282-water",
+      "command": [
+        "python",
+        "tests/review282-water.py"
+      ],
+      "framework": "environmental-simulation",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review282-water.log",
+      "durationMs": 1436
+    },
+    {
+      "id": "review282-baseline",
+      "command": [
+        "node",
+        "tests/review282-baseline.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review282-baseline.log",
+      "durationMs": 364
+    },
+    {
+      "id": "practice282",
+      "command": [
+        "node",
+        "tests/practice282.cjs"
+      ],
+      "framework": "cross-system-interaction",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-practice282.log",
+      "durationMs": 3653
+    },
+    {
+      "id": "niko283-runtime",
+      "command": [
+        "node",
+        "tests/niko283.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-niko283-runtime.log",
+      "durationMs": 14967
+    },
+    {
+      "id": "niko283-view",
+      "command": [
+        "node",
+        "tests/niko283-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-niko283-view.log",
+      "durationMs": 229
+    },
+    {
+      "id": "niko283-assets",
+      "command": [
+        "python",
+        "tests/niko283-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-niko283-assets.log",
+      "durationMs": 302
+    },
+    {
+      "id": "niko283-baseline",
+      "command": [
+        "node",
+        "tests/niko283-baseline.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-niko283-baseline.log",
+      "durationMs": 111
+    },
+    {
+      "id": "niko284-regression",
+      "command": [
+        "node",
+        "tests/niko284.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-niko284-regression.log",
+      "durationMs": 9380
+    },
+    {
+      "id": "niko284-view",
+      "command": [
+        "node",
+        "tests/niko284-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-niko284-view.log",
+      "durationMs": 92
+    },
+    {
+      "id": "reverse-ddt285",
+      "command": [
+        "node",
+        "tests/reverse285.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reverse-ddt285.log",
+      "durationMs": 4378
+    },
+    {
+      "id": "reverse-ddt285-view",
+      "command": [
+        "node",
+        "tests/reverse285-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reverse-ddt285-view.log",
+      "durationMs": 594
+    },
+    {
+      "id": "legthrow286",
+      "command": [
+        "node",
+        "tests/legthrow286.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-legthrow286.log",
+      "durationMs": 10683
+    },
+    {
+      "id": "legthrow286-view",
+      "command": [
+        "node",
+        "tests/legthrow286-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-legthrow286-view.log",
+      "durationMs": 554
+    },
+    {
+      "id": "legthrow286-assets",
+      "command": [
+        "python",
+        "tests/legthrow286-assets.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-legthrow286-assets.log",
+      "durationMs": 85
+    },
+    {
+      "id": "recording287-runtime",
+      "command": [
+        "node",
+        "tests/recording287.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording287-runtime.log",
+      "durationMs": 1016
+    },
+    {
+      "id": "recording287-pixels",
+      "command": [
+        "node",
+        "tests/recording287-render.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording287-pixels.log",
+      "durationMs": 101114
+    },
+    {
+      "id": "recording287-assets",
+      "command": [
+        "python",
+        "tests/recording287-assets.py"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording287-assets.log",
+      "durationMs": 212
+    },
+    {
+      "id": "recording287-view",
+      "command": [
+        "node",
+        "tests/recording287-view.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording287-view.log",
+      "durationMs": 252
+    },
+    {
+      "id": "recording287-baseline",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/recording287-baseline.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording287-baseline.log",
+      "durationMs": 20871
+    },
+    {
+      "id": "casino293",
+      "command": [
+        "node",
+        "tools/casino293/test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-casino293.log",
+      "durationMs": 3193
+    },
+    {
+      "id": "review294",
+      "command": [
+        "node",
+        "tests/review294.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-review294.log",
+      "durationMs": 4203
+    },
+    {
+      "id": "ground294-world",
+      "command": [
+        "node",
+        "tools/review294/world-anchor.cjs"
+      ],
+      "framework": "animation-ground-contact",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-ground294-world.log",
+      "durationMs": 132
+    },
+    {
+      "id": "ground294-pixels",
+      "command": [
+        "node",
+        "tools/review294/render.cjs"
+      ],
+      "framework": "animation-ground-contact",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-ground294-pixels.log",
+      "durationMs": 33653
+    },
+    {
+      "id": "continuity296-runtime",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/continuity296.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-continuity296-runtime.log",
+      "durationMs": 417
+    },
+    {
+      "id": "continuity296-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/continuity296-view.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-continuity296-view.log",
+      "durationMs": 26575
+    },
+    {
+      "id": "continuity296-equivalence",
+      "command": [
+        "node",
+        "tools/continuity296/equivalence.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-continuity296-equivalence.log",
+      "durationMs": 3967
+    },
+    {
+      "id": "attack297-runtime",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/attack297.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-attack297-runtime.log",
+      "durationMs": 477
+    },
+    {
+      "id": "attack297-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/attack297-view.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-attack297-view.log",
+      "durationMs": 22346
+    },
+    {
+      "id": "attack297-equivalence",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tools/attack297/equivalence.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-attack297-equivalence.log",
+      "durationMs": 3928
+    },
+    {
+      "id": "reactions298-runtime",
+      "command": [
+        "node",
+        "tests/reactions298.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reactions298-runtime.log",
+      "durationMs": 510
+    },
+    {
+      "id": "reactions298-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/reactions298-view.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-reactions298-view.log",
+      "durationMs": 24416
+    },
+    {
+      "id": "knockdowns299-runtime",
+      "command": [
+        "node",
+        "tests/knockdowns299.cjs"
+      ],
+      "framework": "knockdown-and-getup-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-knockdowns299-runtime.log",
+      "durationMs": 567
+    },
+    {
+      "id": "knockdowns299-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/knockdowns299-view.cjs"
+      ],
+      "framework": "knockdown-and-getup-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-knockdowns299-view.log",
+      "durationMs": 22092
+    },
+    {
+      "id": "grapples301-runtime",
+      "command": [
+        "node",
+        "tests/grapples301.cjs"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grapples301-runtime.log",
+      "durationMs": 5455
+    },
+    {
+      "id": "grapples301-view-reap-thug",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "reap-thug"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grapples301-view-reap-thug.log",
+      "durationMs": 29085
+    },
+    {
+      "id": "grapples301-view-reap-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "reap-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grapples301-view-reap-enforcer.log",
+      "durationMs": 38659
+    },
+    {
+      "id": "grapples301-view-german-thug",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "german-thug"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grapples301-view-german-thug.log",
+      "durationMs": 29900
+    },
+    {
+      "id": "grapples301-view-german-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "german-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grapples301-view-german-enforcer.log",
+      "durationMs": 26215
+    },
+    {
+      "id": "grapples301-view-powerbomb-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "powerbomb-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-grapples301-view-powerbomb-enforcer.log",
+      "durationMs": 26266
+    },
+    {
+      "id": "contact302-runtime",
+      "command": [
+        "node",
+        "tests/contact302.cjs"
+      ],
+      "framework": "contact-feedback",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-contact302-runtime.log",
+      "durationMs": 4851
+    },
+    {
+      "id": "contact302-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/contact302-view.cjs"
+      ],
+      "framework": "contact-feedback",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "failed",
+      "exitCode": 1,
+      "signal": null,
+      "log": "reports312/qa-contact302-view.log",
+      "durationMs": 22022
+    },
+    {
+      "id": "crowd303-runtime",
+      "command": [
+        "node",
+        "tests/crowd303.cjs"
+      ],
+      "framework": "crowd-coordination",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-crowd303-runtime.log",
+      "durationMs": 20735
+    },
+    {
+      "id": "crowd303-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/crowd303-view.cjs"
+      ],
+      "framework": "crowd-coordination",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-crowd303-view.log",
+      "durationMs": 28833
+    },
+    {
+      "id": "plane304-runtime",
+      "command": [
+        "node",
+        "tests/plane304.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-plane304-runtime.log",
+      "durationMs": 15330
+    },
+    {
+      "id": "plane304-weapons",
+      "command": [
+        "node",
+        "tests/plane304-weapons.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-plane304-weapons.log",
+      "durationMs": 7384
+    },
+    {
+      "id": "plane304-ui",
+      "command": [
+        "node",
+        "tests/plane304-ui.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-plane304-ui.log",
+      "durationMs": 297
+    },
+    {
+      "id": "plane304-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/plane304-view.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-plane304-view.log",
+      "durationMs": 22352
+    },
+    {
+      "id": "plane304-height",
+      "command": [
+        "node",
+        "tests/plane304-height.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-plane304-height.log",
+      "durationMs": 965
+    },
+    {
+      "id": "civilians305-runtime",
+      "command": [
+        "node",
+        "tests/civilians305.cjs"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-civilians305-runtime.log",
+      "durationMs": 12658
+    },
+    {
+      "id": "civilians305-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-civilians305-view.log",
+      "durationMs": 156564
+    },
+    {
+      "id": "recording306-runtime",
+      "command": [
+        "node",
+        "tests/recording306.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording306-runtime.log",
+      "durationMs": 945
+    },
+    {
+      "id": "recording306-ai",
+      "command": [
+        "node",
+        "tests/recording306-ai.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording306-ai.log",
+      "durationMs": 15525
+    },
+    {
+      "id": "recording306-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/recording306-view.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording306-view.log",
+      "durationMs": 23020
+    },
+    {
+      "id": "diagnostics307-runtime",
+      "command": [
+        "node",
+        "tests/diagnostics307.cjs"
+      ],
+      "framework": "developer-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-diagnostics307-runtime.log",
+      "durationMs": 2371
+    },
+    {
+      "id": "diagnostics307-input",
+      "command": [
+        "node",
+        "tests/diagnostics307-input.cjs"
+      ],
+      "framework": "developer-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-diagnostics307-input.log",
+      "durationMs": 217
+    },
+    {
+      "id": "diagnostics307-ui",
+      "command": [
+        "node",
+        "tests/diagnostics307-ui.cjs"
+      ],
+      "framework": "developer-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-diagnostics307-ui.log",
+      "durationMs": 261
+    },
+    {
+      "id": "quality308-A",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "A"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-quality308-A.log",
+      "durationMs": 3782
+    },
+    {
+      "id": "quality308-B",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "B"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-quality308-B.log",
+      "durationMs": 3655
+    },
+    {
+      "id": "quality308-C",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "C"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-quality308-C.log",
+      "durationMs": 4967
+    },
+    {
+      "id": "quality308-D",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "D"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-quality308-D.log",
+      "durationMs": 3483
+    },
+    {
+      "id": "quality308-E",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "E"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-quality308-E.log",
+      "durationMs": 3307
+    },
+    {
+      "id": "quality308-specialists",
+      "command": [
+        "node",
+        "tests/quality308-specialists.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-quality308-specialists.log",
+      "durationMs": 662
+    },
+    {
+      "id": "airport309",
+      "command": [
+        "node",
+        "tests/airport309.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-airport309.log",
+      "durationMs": 3570
+    },
+    {
+      "id": "airport310-progression",
+      "command": [
+        "node",
+        "tests/airport310-progression.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-airport310-progression.log",
+      "durationMs": 3953
+    },
+    {
+      "id": "style310-view",
+      "command": [
+        "node",
+        "tests/style310-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-style310-view.log",
+      "durationMs": 32218
+    },
+    {
+      "id": "style310-native",
+      "command": [
+        "node",
+        "tests/style310-native.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-style310-native.log",
+      "durationMs": 28839
+    },
+    {
+      "id": "style310-mechanics",
+      "command": [
+        "node",
+        "tests/style310-mechanics.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-style310-mechanics.log",
+      "durationMs": 21001
+    },
+    {
+      "id": "unique311-runtime",
+      "command": [
+        "node",
+        "tests/unique311.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-unique311-runtime.log",
+      "durationMs": 918
+    },
+    {
+      "id": "unique311-input",
+      "command": [
+        "node",
+        "tests/unique311-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-unique311-input.log",
+      "durationMs": 204
+    },
+    {
+      "id": "unique311-render",
+      "command": [
+        "node",
+        "tools/unique311/render.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-unique311-render.log",
+      "durationMs": 24340
+    },
+    {
+      "id": "recording312-enemies",
+      "command": [
+        "node",
+        "tools/recording312/enemy-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording312-enemies.log",
+      "durationMs": 245
+    },
+    {
+      "id": "recording312-enemy-view",
+      "command": [
+        "node",
+        "tools/recording312/enemy-view-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording312-enemy-view.log",
+      "durationMs": 21009
+    },
+    {
+      "id": "recording312-reina",
+      "command": [
+        "node",
+        "tools/recording312/reina-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording312-reina.log",
+      "durationMs": 24990
+    },
+    {
+      "id": "recording312-weather",
+      "command": [
+        "node",
+        "tools/recording312/weather-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports312/qa-recording312-weather.log",
+      "durationMs": 29697
+    }
+  ],
+  "updatedAt": "2026-11-10T18:40:44.374Z",
+  "sourceChangedDuringTests": false,
+  "counts": {
+    "executed": 197,
+    "passed": 196,
+    "failed": 1,
+    "total": 197
+  },
+  "complete": true,
+  "manualGates": [
+    {
+      "id": "approved-screenshots",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate manual evidence"
+    },
+    {
+      "id": "art-style-review",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate manual evidence"
+    },
+    {
+      "id": "all-moves-coverage",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate manual evidence"
+    },
+    {
+      "id": "physical-dualsense",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate manual evidence"
+    },
+    {
+      "id": "human-balance",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate manual evidence"
+    }
+  ],
+  "decision": {
+    "status": "blocked",
+    "stable": false,
+    "failed": [
+      "contact302-view"
+    ],
+    "missing": []
+  }
+}

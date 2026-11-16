@@ -1,0 +1,7 @@
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS216 basic native timelines and all move contacts at30/60/120Hz
+PASS216 committed follow-up, finite timelines, missed-opener47f, no stacked cooldown; selective damage-taking armor; six heroes×two grabs×two facings separate contacts/actual flight/continuous plane/recovery; inv/armor/miss capture gates; no inherited guard counter; offscreen return/native entry; native Director budget and nonoffensive guard
+PASS216 12 real manual-counter interactions (Orion reserved), six dodge regressions, Iron Will damage/KD, one-living Security queue/130HP/Otis exclusion; six seeded35s mixed encounters [{"hero":"reina","starts":12,"budget":2,"actors":1},{"hero":"broxton","starts":15,"budget":2,"actors":1},{"hero":"nova","starts":18,"budget":2,"actors":1},{"hero":"forest","starts":20,"budget":2,"actors":1},{"hero":"niko","starts":14,"budget":2,"actors":1},{"hero":"orion","starts":16,"budget":2,"actors":1}]
+PASS216 live capture reservation transfer, death cleanup, frontal-only guard, exact last-active reservation end
+PASS216 recovery deadline survives interruption; no hit-assisted early AI reset
+PASS216 public spawn limit and actual two-second anti-air cooldown

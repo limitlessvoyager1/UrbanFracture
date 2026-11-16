@@ -1,0 +1,23 @@
+{
+  "changes": [
+    {
+      "from": "playback265.js?v=301",
+      "to": "playback265.js?v=307"
+    },
+    {
+      "from": "playback-ui265.js?v=282",
+      "to": "playback-ui265.js?v=307"
+    },
+    {
+      "from": "stats-ui266.js?v=266",
+      "to": "stats-ui266.js?v=307"
+    }
+  ],
+  "initialFingerprint": "c1565efe18dfdc75b94769a0365d09c3a5562ba20fc9af3a4c39b372303f1320",
+  "exactQueryOnlyEquivalence": true,
+  "notes": "Cache-only transition preserved executable bodies/assets/tests/ordered paths. Later telemetry fixes have a separate final full-release fingerprint and179-suite receipt.",
+  "cacheOnlyFingerprint": "1f637dc820c4c8dea52f0d6f78018cc1b2c280b1eced56e2983792f5290f1009",
+  "scope": "Exact three-query-token delta only; later telemetry refinements are checked in the final full release report.",
+  "finalReleaseFingerprintPending": false,
+  "finalReleaseFingerprint": "58316f045fb90f0360c804578c56307d39a63fc27b142800742b159291dd5c41"
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "traces": [
+    {
+      "hz": 30,
+      "distance": 234.99999999999773,
+      "phase": 0.8951612903225623,
+      "serializable": true
+    },
+    {
+      "hz": 60,
+      "distance": 235.00000000000455,
+      "phase": 0.8951612903226174,
+      "serializable": true
+    },
+    {
+      "hz": 120,
+      "distance": 234.9999999999909,
+      "phase": 0.8951612903225072,
+      "serializable": true
+    }
+  ],
+  "playbackSpeeds": [
+    0.1,
+    0.25,
+    0.5,
+    1,
+    1.5,
+    2
+  ],
+  "continuousFieldLength": 6600,
+  "goalLines": [
+    550,
+    6050
+  ],
+  "preservedNormalWaves": 12,
+  "directBossPractice": true
+}

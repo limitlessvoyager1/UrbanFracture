@@ -1,0 +1,42 @@
+Current216 fixture flint211.cjs seed 216
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP
+PASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision
+PASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions
+PASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay
+PASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over
+PASS211 four weapon profiles, exact phase values at30/60/120Hz, distinct measured reach, mirrored rear damage/single swing ownership,120deg damage-taking frontal armor, side/rear interrupts, vulnerable noncancelable recovery without stacked timers
+PASS211 physical misses, six-hero weaponless fallback, counter eligibility and dodge/lane regression, seeded mixed AI wild/power choices with3-point/two-commitment admission
+PASS211 Director reposition cannot bypass mandatory recovery; recovery punishment does not restart the full timer; rear swing threats are included in shared coordination
+PASS21124 live mirrored Reina/Forest/Niko weapon counter interceptions through the existing controllers
+PASS211 all four actual weapon paths can be intercepted by a physically aligned Human Shield without duplicated player damage
+PASS211 armed Flint completes left, lift and bottom reinforcements before weapon AI takes over
+Current216 fixture martial212.cjs seed 216
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP
+PASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision
+PASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions
+PASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay
+PASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over
+PASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits
+PASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{"type":"sato","hero":"reina","pressure":2,"actors":1,"attacks":9},{"type":"sato","hero":"broxton","pressure":2,"actors":1,"attacks":6},{"type":"sato","hero":"nova","pressure":2,"actors":1,"attacks":7},{"type":"sato","hero":"forest","pressure":2,"actors":1,"attacks":9},{"type":"sato","hero":"niko","pressure":2,"actors":1,"attacks":6},{"type":"sato","hero":"orion","pressure":2,"actors":1,"attacks":8},{"type":"akari","hero":"reina","pressure":2,"actors":1,"attacks":10},{"type":"akari","hero":"broxton","pressure":1,"actors":1,"attacks":11},{"type":"akari","hero":"nova","pressure":2,"actors":1,"attacks":17},{"type":"akari","hero":"forest","pressure":2,"actors":1,"attacks":10},{"type":"akari","hero":"niko","pressure":2,"actors":1,"attacks":10},{"type":"akari","hero":"orion","pressure":1,"actors":1,"attacks":22}]
+PASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches
+Current216 fixture jesse213.cjs seed 216
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP
+PASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision
+PASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions
+PASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay
+PASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over
+PASS213 single native hitscan/event/ammo at30/60/120Hz; all six heroes block/startup vulnerability, apex/dodge/lane/cover avoidance; real Reina/Niko/Broxton/Forest knife disarms; permanent loss through reload/down/roll/rearm; no melee fallback; finite physical retreat/corner vulnerability; locked vulnerable reload; one firearm commitment
+PASS213 six rounds force native reload, committed aim cannot home, HP-based roll15/25/40%, four30s mixed gunfire fixtures /3point2attacker ceiling, all six actual hero dodges
+Current216 fixture jesse213.cjs seed 12
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP
+PASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision
+PASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions
+PASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay
+PASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over
+PASS213 single native hitscan/event/ammo at30/60/120Hz; all six heroes block/startup vulnerability, apex/dodge/lane/cover avoidance; real Reina/Niko/Broxton/Forest knife disarms; permanent loss through reload/down/roll/rearm; no melee fallback; finite physical retreat/corner vulnerability; locked vulnerable reload; one firearm commitment
+PASS213 six rounds force native reload, committed aim cannot home, HP-based roll15/25/40%, four30s mixed gunfire fixtures /3point2attacker ceiling, all six actual hero dodges
+PASS216 deterministic retained Flint, martial specialists, Jesse contracts with chemical wrappers active

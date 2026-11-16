@@ -1,0 +1,100 @@
+{
+  "dist/hospital314.js": [
+    [
+      "portalsForArrival(tr.from,d)",
+      "portalsForArrival(tr,d)"
+    ],
+    [
+      "function portalsForArrival(from,d){const source=levels[from];if(d.key==='skybridge')return source.key==='garage'?d.end-180:170;if(d.key==='garage')return source.key==='loading-dock'?d.end-250:170;if(d.kind==='hub'&&source.kind!=='hub'&&source.kind!=='roof'){const at=floor(d.floor).rooms.indexOf(source.key);return at>=0?260+at*410:170;}return 170;}",
+      "function portalsForArrival(tr,d){const source=levels[tr.from];if(d.key==='skybridge')return source.key==='garage'?d.end-150:150;if(d.key==='garage')return source.key==='loading-dock'?d.end-180:150;if(d.key==='loading-dock'&&source.key==='garage')return d.end-180;if(d.kind==='roof')return d.end-180;if(d.kind==='hub'){if(tr.kind==='elevator')return d.end-180;if(tr.kind==='stairs'){const from=floors.indexOf(floor(source.floor)),to=floors.indexOf(floor(d.floor));return d.end-(from<to?460:700);}const at=floor(d.floor).rooms.indexOf(source.key);return at>=0?260+at*410:170;}return 150;}"
+    ],
+    [
+      "z:0,walk:0,state:'follow'});g.event('zone'",
+      "z:0,walk:0,state:'follow',hospitalInside314:!!s.arrival});g.event('zone'"
+    ],
+    [
+      "this.player.hospitalInside314=false;return spawn.apply(this,a);",
+      "this.player.hospitalInside314=false;if(this.gunner125)this.gunner125.hospitalInside314=false;return spawn.apply(this,a);"
+    ],
+    [
+      "if(active(this)&&this.hospital314.arrival){if(!this.playing||this.environmentPaused156)return;const q=this.hospital314.arrival;dt=C(dt,0,.04);q.t+=dt;this.time+=dt;this.environment156?.advance(dt);this.player.hospitalInside314=q.t<1.8;this.player.walk=q.t>=1.8?1:0;if(this.player.walk){const x=350+C((q.t-1.8),0,1)*200;this.player.walkPhase=((this.player.walkPhase||0)+Math.abs(x-this.player.x)/102)%1;this.player.x=this.player.prevX=x;}if(q.t>=q.total){this.hospital314.arrival=null;this.player.hospitalInside314=false;this.player.walk=0;this.player.inv=1;}return;}",
+      "if(active(this)&&this.hospital314.arrival){if(!this.playing||this.environmentPaused156)return;const q=this.hospital314.arrival;dt=C(dt,0,.04);q.t+=dt;this.time+=dt;this.environment156?.advance(dt);const visible=q.t>=1.8,u=C(q.t-1.8,0,1),distance=Math.hypot(160,95/.65);this.player.hospitalInside314=!visible;this.player.walk=visible?1:0;if(visible){this.player.x=this.player.prevX=500+160*u;this.player.y=this.player.prevY=385+95*u;this.player.walkPhase=(u*distance/102)%1;}if(this.gunner125){const d=this.gunner125;d.hospitalInside314=!visible;d.walk=visible?1:0;d.state=visible?'walk':'follow';if(visible){d.x=this.player.x-65;d.y=this.player.y+6;d.phase=(u*distance/90)%1;d.z=0;d.dir=1;}}if(q.t>=q.total){this.hospital314.arrival=null;this.player.hospitalInside314=false;this.player.y=this.player.prevY=480;this.player.walk=0;this.player.inv=1;if(this.gunner125){this.gunner125.hospitalInside314=false;this.gunner125.walk=0;this.gunner125.state='follow';}}return;}"
+    ]
+  ],
+  "dist/hospital-view314.js": [
+    [
+      "c.translate(0,-50);r.RooftopView201.helicopter",
+      "c.translate(0,-145);r.RooftopView201.helicopter"
+    ],
+    [
+      "c.fillStyle='#0b182bec';c.fillRect(710,1,250,30);text(c,d.kind==='hub'?'HOSPITAL / FLOOR '+d.floor:d.title+' / '+d.floor,947,21,12,'#d6efec','right');",
+      "if(!g.practice278){c.fillStyle='#0b182bec';c.fillRect(710,1,250,30);text(c,d.kind==='hub'?'HOSPITAL / FLOOR '+d.floor:d.title+' / '+d.floor,947,21,12,'#d6efec','right');}"
+    ]
+  ],
+  "dist/game.js": [
+    [
+      "text(game.practice278?'PRACTICE",
+      "text(globalThis.Hospital314?.active(game)&&!game.practice278?'':game.practice278?'PRACTICE"
+    ],
+    [
+      "for(const f of fighters){if(f.isPatron)",
+      "for(const f of fighters){if(f.hospitalInside314)continue;if(f.isPatron)"
+    ]
+  ],
+  "tools/hospital314/game-patches.json": [
+    [
+      "[\n  [\n    \"const renderScale=game.airport309||\",\n    \"const renderScale=game.hospital314||game.airport309||\"\n  ],\n  [\n    \"hud();if(game.clearNotice282\",\n    \"hud();globalThis.HospitalView314?.foreground(ctx,game);if(game.clearNotice282\"\n  ],\n  [\n    \"document.querySelector('#restart').onclick=()=>game.hydro243?\",\n    \"document.querySelector('#restart').onclick=()=>game.hospital314?begin(game.zone,Hospital314.sceneId(game),true):game.hydro243?\"\n  ],\n  [\n    \"or-v2.webp',finance:'financial-district-atlas-v1.webp',truck:'armored-truck-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'spr\",\n    \"or-v2.webp',finance:'financial-district-atlas-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'spr\"\n  ],\n  [\n    \"globalThis.HydroView243?.ride(ctx,game);\",\n    \"globalThis.HospitalView314?.ride(ctx,game);globalThis.HydroView243?.ride(ctx,game);\"\n  ],\n  [\n    \"if(game.destination183||globalThis.Rooftop201?.menu(game))return;\",\n    \"if(game.destination183||globalThis.Rooftop201?.menu(game)||game.hospital314?.menu)return;\"\n  ]\n]\n",
+      "[\n  [\n    \"const renderScale=game.airport309||\",\n    \"const renderScale=game.hospital314||game.airport309||\"\n  ],\n  [\n    \"hud();if(game.clearNotice282\",\n    \"hud();globalThis.HospitalView314?.foreground(ctx,game);if(game.clearNotice282\"\n  ],\n  [\n    \"document.querySelector('#restart').onclick=()=>game.hydro243?\",\n    \"document.querySelector('#restart').onclick=()=>game.hospital314?begin(game.zone,Hospital314.sceneId(game),true):game.hydro243?\"\n  ],\n  [\n    \"or-v2.webp',finance:'financial-district-atlas-v1.webp',truck:'armored-truck-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'spr\",\n    \"or-v2.webp',finance:'financial-district-atlas-v1.webp',robber:'sprites/financial-enemies-v1.png',security:'spr\"\n  ],\n  [\n    \"globalThis.HydroView243?.ride(ctx,game);\",\n    \"globalThis.HospitalView314?.ride(ctx,game);globalThis.HydroView243?.ride(ctx,game);\"\n  ],\n  [\n    \"if(game.destination183||globalThis.Rooftop201?.menu(game))return;\",\n    \"if(game.destination183||globalThis.Rooftop201?.menu(game)||game.hospital314?.menu)return;\"\n  ],\n  [\n    \"text(game.practice278?'PRACTICE\",\n    \"text(globalThis.Hospital314?.active(game)&&!game.practice278?'':game.practice278?'PRACTICE\"\n  ],\n  [\n    \"for(const f of fighters){if(f.isPatron)\",\n    \"for(const f of fighters){if(f.hospitalInside314)continue;if(f.isPatron)\"\n  ]\n]\n"
+    ]
+  ],
+  "tests/contact302-view.cjs": [
+    [
+      "name==='game'?'312':'302'",
+      "name==='game'?'314':'302'"
+    ]
+  ],
+  "tests/hospital314.cjs": [
+    [
+      "eq(H.definition(g).floor,to.id,'correct lift floor');",
+      "eq(H.definition(g).floor,to.id,'correct lift floor');const landing=H.portals(g,true).find(q=>q.kind===(to.id==='R'?'roof-access':'elevator'));eq(g.player.x,landing.x,'lift exits at actual destination door');"
+    ],
+    [
+      "transition(g);}}\n{const g=new N.Brawler();H.start(g,'lobby-3');",
+      "transition(g);const landing=H.portals(g,true).find(q=>q.kind==='roof-access'||q.to===f.hub);eq(g.player.x,landing.x,'stairs exit at the matching return flight');}}\n{const g=new N.Brawler();H.start(g,'lobby-3');"
+    ],
+    [
+      "transition(g,hz);ok(H.travel(g,'garage','bridge')",
+      "transition(g,hz);eq(g.player.x,H.portals(g,true).find(q=>q.to==='lobby-3').x,'bridge hospital landing');ok(H.travel(g,'garage','bridge')"
+    ],
+    [
+      "transition(g,hz);clear(g);ok(H.travel(g,'skybridge','bridge')",
+      "transition(g,hz);eq(g.player.x,H.portals(g,true).find(q=>q.to==='skybridge').x,'garage bridge landing');clear(g);ok(H.travel(g,'skybridge','bridge')"
+    ],
+    [
+      "transition(g,hz);ok(H.travel(g,'lobby-3','bridge')",
+      "transition(g,hz);eq(g.player.x,H.portals(g,true).find(q=>q.to==='garage').x,'bridge garage landing');ok(H.travel(g,'lobby-3','bridge')"
+    ],
+    [
+      "transition(g,hz);eq(g.player.hp,53",
+      "transition(g,hz);eq(g.player.x,H.portals(g,true).find(q=>q.to==='skybridge').x,'third-floor bridge landing');eq(g.player.hp,53"
+    ],
+    [
+      "fs.writeFileSync('reports314/runtime.json'",
+      "{const g=new N.Brawler();H.start(g,'helipad');clear(g);H.openMenu(g,'roof-access');H.confirm(g);transition(g);eq(H.definition(g).floor,'5','roof stairs enter5F');eq(g.player.x,H.portals(g,true).find(q=>q.to==='helipad').x,'roof stairwell reaches actual5F landing');}\n{const g=new N.Brawler();H.start(g,'garage');clear(g);H.travel(g,'loading-dock','stairs');transition(g);eq(g.player.x,H.portals(g,true).find(q=>q.to==='garage').x,'loading dock service stair landing');clear(g);H.travel(g,'garage','stairs');transition(g);eq(g.player.x,H.portals(g,true).find(q=>q.to==='loading-dock').x,'garage service stair landing');}\n{const g=new N.Brawler();g.selectHero('forest');H.start(g,'helipad',false,true);ok(g.player.hospitalInside314&&g.gunner125.hospitalInside314,'both passengers hidden before disembark');g.command('attack',{});g.attackInput(true,{});for(let i=0;i<181;i++)g.tick(1/60,{});ok(!g.player.hospitalInside314&&!g.gunner125.hospitalInside314,'both passengers disembark');eq(g.player.y,480,'arrival finishes on combat plane');eq(g.gunner125.y,486,'Gunner finishes on grounded track');}\nfs.writeFileSync('reports314/runtime.json'"
+    ]
+  ],
+  "tools/hospital314/render.cjs": [
+    [
+      "fs.writeFileSync('reports314/visual.json'",
+      "{const source=fs.readFileSync('dist/game.js','utf8'),start=source.indexOf(\"text(globalThis.Hospital314?.active(game)&&!game.practice278?'':game.practice278?\"),end=source.indexOf(',944,25,',start);A.ok(start>=0&&end>start);const expr=source.slice(start+5,end),g=new N.Brawler();H.start(g,'lobby-4');sb.game=g;sb.ZONES=N.ZONES;A.equal(vm.runInContext(expr,sb),'','generic financial prefix suppressed on hospital HUD');N.Practice282.setup(g,{id:'thug',scene284:'hospital-cardiology'});A.match(vm.runInContext(expr,sb),/^PRACTICE/,'native practice title retained');c.resetTransform();c.fillStyle='#ff33aa';c.fillRect(750,7,199,25);const before=Buffer.from(c.getImageData(750,7,199,25).data);V.foreground(c,g);A.deepEqual(Buffer.from(c.getImageData(750,7,199,25).data),before,'hospital presentation leaves practice HUD visible');const regular=new N.Brawler();sb.game=regular;const original=expr.replace(\"globalThis.Hospital314?.active(game)&&!game.practice278?'':\",'');A.equal(vm.runInContext(expr,sb),vm.runInContext(original,sb),'ordinary level HUD unchanged');}\n{const g=new N.Brawler();g.selectHero('forest');H.start(g,'helipad',false,true);for(let i=0;i<60;i++)g.tick(1/60,{});render(g,'forest-landing');}\nfs.writeFileSync('reports314/visual.json'"
+    ],
+    [
+      "[...g.enemies,g.player]",
+      "[...g.enemies,g.player,...(g.gunner125?[g.gunner125]:[])]"
+    ],
+    [
+      "{const g=new N.Brawler();g.selectHero('forest');H.start(g,'helipad',false,true);for(let i=0;i<60;i++)g.tick(1/60,{});render(g,'forest-landing');}",
+      "for(const age of[1,2.4]){const g=new N.Brawler();g.selectHero('forest');H.start(g,'helipad',false,true);for(let i=0;i<Math.round(age*60);i++)g.tick(1/60,{});render(g,'forest-landing-'+age);}"
+    ]
+  ]
+}

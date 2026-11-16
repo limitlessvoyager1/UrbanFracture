@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/orion271-assets.py", line 8, in <module>
+    s=(R/'dist'/name).read_text();d=json.loads(s[s.index('{'):s.rfind('}')+1]);old=subprocess.check_output(['git','show','8422de5a7b201bf3f72d58d1235e19ecb2d5537d:dist/'+name],cwd=R).decode();old=json.loads(old[old.index('{'):old.rfind('}')+1])
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)

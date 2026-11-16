@@ -1,0 +1,10 @@
+AssertionError [ERR_ASSERTION]: all six authored Kevin falling poses are displayed
+    at ok (/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/recording306-view.cjs:1:156)
+    at /workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/recording306-view.cjs:2:1111 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}

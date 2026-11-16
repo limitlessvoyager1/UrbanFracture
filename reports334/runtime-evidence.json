@@ -1,0 +1,991 @@
+{
+  "fixture": true,
+  "seed": 334,
+  "source": "Current production script load order",
+  "note": "Native simulation evidence, not a browser recording or a campaign playthrough.",
+  "rows": [
+    {
+      "label": "Isolated QA fixture: fresh city",
+      "state": {
+        "schema": 1,
+        "seed": 334,
+        "serial": 0,
+        "boundary": 0,
+        "current": null,
+        "districts": {},
+        "heroes": {},
+        "assignments": [],
+        "discoveries": [],
+        "sideMissions": [],
+        "threats": [],
+        "transport": [],
+        "flags": {},
+        "consequences": [],
+        "pulseEvents": [],
+        "events": [],
+        "receipts": {},
+        "completed": {}
+      },
+      "combat": {
+        "hero": "reina",
+        "hp": 105,
+        "energy": 100,
+        "zone": 0,
+        "time": 0,
+        "score": 0
+      }
+    },
+    {
+      "label": "Native location observed",
+      "state": {
+        "schema": 1,
+        "seed": 2463698352,
+        "serial": 2,
+        "boundary": 1,
+        "current": {
+          "district": "downtown",
+          "scene": "0:native",
+          "name": "RESTAURANT DISTRICT"
+        },
+        "districts": {
+          "downtown": {
+            "name": "Downtown",
+            "control": null,
+            "confidence": null,
+            "safety": null,
+            "visits": 1,
+            "cleared": false
+          }
+        },
+        "heroes": {
+          "reina": {
+            "available": true,
+            "active": true,
+            "assignment": null
+          },
+          "broxton": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nova": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "forest": {
+            "available": true,
+            "active": false,
+            "assignment": "city334:2"
+          },
+          "niko": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "orion": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nightshade": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          }
+        },
+        "assignments": [
+          {
+            "id": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "active",
+            "started": 1,
+            "due": 2
+          }
+        ],
+        "discoveries": [],
+        "sideMissions": [],
+        "threats": [],
+        "transport": [],
+        "flags": {},
+        "consequences": [],
+        "pulseEvents": [],
+        "events": [
+          {
+            "id": "city334:1",
+            "boundary": 1,
+            "type": "travel",
+            "receipt": "travel:1:downtown:0:native",
+            "location": {
+              "district": "downtown",
+              "scene": "0:native",
+              "name": "RESTAURANT DISTRICT"
+            }
+          },
+          {
+            "id": "city334:2",
+            "boundary": 1,
+            "type": "assignment-started",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant"
+          }
+        ],
+        "receipts": {
+          "travel:1:downtown:0:native": true
+        },
+        "completed": {}
+      },
+      "combat": {
+        "hero": "reina",
+        "hp": 105,
+        "energy": 100,
+        "zone": 0,
+        "time": 0,
+        "score": 0
+      }
+    },
+    {
+      "label": "Native scene travel: first assignment reports",
+      "state": {
+        "schema": 1,
+        "seed": 134574690,
+        "serial": 5,
+        "boundary": 2,
+        "current": {
+          "district": "downtown",
+          "scene": "1:native",
+          "name": "RETAIL DISTRICT"
+        },
+        "districts": {
+          "downtown": {
+            "name": "Downtown",
+            "control": null,
+            "confidence": null,
+            "safety": null,
+            "visits": 2,
+            "cleared": false
+          }
+        },
+        "heroes": {
+          "reina": {
+            "available": true,
+            "active": true,
+            "assignment": null
+          },
+          "broxton": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nova": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "forest": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "niko": {
+            "available": true,
+            "active": false,
+            "assignment": "city334:5"
+          },
+          "orion": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nightshade": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          }
+        },
+        "assignments": [
+          {
+            "id": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "complete",
+            "started": 1,
+            "due": 2
+          },
+          {
+            "id": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "status": "active",
+            "started": 2,
+            "due": 3
+          }
+        ],
+        "discoveries": [],
+        "sideMissions": [],
+        "threats": [],
+        "transport": [],
+        "flags": {},
+        "consequences": [],
+        "pulseEvents": [],
+        "events": [
+          {
+            "id": "city334:1",
+            "boundary": 1,
+            "type": "travel",
+            "receipt": "travel:1:downtown:0:native",
+            "location": {
+              "district": "downtown",
+              "scene": "0:native",
+              "name": "RESTAURANT DISTRICT"
+            }
+          },
+          {
+            "id": "city334:2",
+            "boundary": 1,
+            "type": "assignment-started",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant"
+          },
+          {
+            "id": "city334:3",
+            "boundary": 2,
+            "type": "assignment-complete",
+            "assignment": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:4",
+            "boundary": 2,
+            "type": "travel",
+            "receipt": "travel:2:downtown:1:native",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:5",
+            "boundary": 2,
+            "type": "assignment-started",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate"
+          }
+        ],
+        "receipts": {
+          "travel:1:downtown:0:native": true,
+          "travel:2:downtown:1:native": true
+        },
+        "completed": {}
+      },
+      "combat": {
+        "hero": "reina",
+        "hp": 105,
+        "energy": 100,
+        "zone": 1,
+        "time": 0,
+        "score": 0
+      }
+    },
+    {
+      "label": "Native level clear: one mission consequence",
+      "state": {
+        "schema": 1,
+        "seed": 1534321636,
+        "serial": 8,
+        "boundary": 3,
+        "current": {
+          "district": "downtown",
+          "scene": "1:native",
+          "name": "RETAIL DISTRICT"
+        },
+        "districts": {
+          "downtown": {
+            "name": "Downtown",
+            "control": null,
+            "confidence": null,
+            "safety": null,
+            "visits": 2,
+            "cleared": true
+          }
+        },
+        "heroes": {
+          "reina": {
+            "available": true,
+            "active": true,
+            "assignment": null
+          },
+          "broxton": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nova": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "forest": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "niko": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "orion": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nightshade": {
+            "available": true,
+            "active": false,
+            "assignment": "city334:8"
+          }
+        },
+        "assignments": [
+          {
+            "id": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "complete",
+            "started": 1,
+            "due": 2
+          },
+          {
+            "id": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "status": "complete",
+            "started": 2,
+            "due": 3
+          },
+          {
+            "id": "city334:8",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track",
+            "status": "active",
+            "started": 3,
+            "due": 4
+          }
+        ],
+        "discoveries": [],
+        "sideMissions": [],
+        "threats": [],
+        "transport": [],
+        "flags": {},
+        "consequences": [
+          {
+            "id": "mission-complete:downtown",
+            "district": "downtown",
+            "result": "Mission cleared",
+            "boundary": 3
+          }
+        ],
+        "pulseEvents": [
+          {
+            "id": "mission-complete:downtown",
+            "kind": "mission-complete",
+            "district": "downtown",
+            "boundary": 3
+          }
+        ],
+        "events": [
+          {
+            "id": "city334:1",
+            "boundary": 1,
+            "type": "travel",
+            "receipt": "travel:1:downtown:0:native",
+            "location": {
+              "district": "downtown",
+              "scene": "0:native",
+              "name": "RESTAURANT DISTRICT"
+            }
+          },
+          {
+            "id": "city334:2",
+            "boundary": 1,
+            "type": "assignment-started",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant"
+          },
+          {
+            "id": "city334:3",
+            "boundary": 2,
+            "type": "assignment-complete",
+            "assignment": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:4",
+            "boundary": 2,
+            "type": "travel",
+            "receipt": "travel:2:downtown:1:native",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:5",
+            "boundary": 2,
+            "type": "assignment-started",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate"
+          },
+          {
+            "id": "city334:6",
+            "boundary": 3,
+            "type": "assignment-complete",
+            "assignment": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:7",
+            "boundary": 3,
+            "type": "mission-complete",
+            "receipt": "mission-complete:downtown",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:8",
+            "boundary": 3,
+            "type": "assignment-started",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track"
+          }
+        ],
+        "receipts": {
+          "travel:1:downtown:0:native": true,
+          "travel:2:downtown:1:native": true,
+          "mission-complete:downtown": true
+        },
+        "completed": {
+          "downtown": true
+        }
+      },
+      "combat": {
+        "hero": "reina",
+        "hp": 105,
+        "energy": 100,
+        "zone": 1,
+        "time": 0,
+        "score": 5000
+      }
+    },
+    {
+      "label": "Native HQ visit: route remains queued",
+      "state": {
+        "schema": 1,
+        "seed": 2727840438,
+        "serial": 11,
+        "boundary": 4,
+        "current": {
+          "district": "downtown",
+          "scene": "1:native",
+          "name": "RETAIL DISTRICT"
+        },
+        "districts": {
+          "downtown": {
+            "name": "Downtown",
+            "control": null,
+            "confidence": null,
+            "safety": null,
+            "visits": 2,
+            "cleared": true
+          }
+        },
+        "heroes": {
+          "reina": {
+            "available": true,
+            "active": true,
+            "assignment": null
+          },
+          "broxton": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nova": {
+            "available": true,
+            "active": false,
+            "assignment": "city334:11"
+          },
+          "forest": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "niko": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "orion": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nightshade": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          }
+        },
+        "assignments": [
+          {
+            "id": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "complete",
+            "started": 1,
+            "due": 2
+          },
+          {
+            "id": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "status": "complete",
+            "started": 2,
+            "due": 3
+          },
+          {
+            "id": "city334:8",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track",
+            "status": "complete",
+            "started": 3,
+            "due": 4
+          },
+          {
+            "id": "city334:11",
+            "hero": "nova",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "active",
+            "started": 4,
+            "due": 5
+          }
+        ],
+        "discoveries": [],
+        "sideMissions": [],
+        "threats": [],
+        "transport": [],
+        "flags": {},
+        "consequences": [
+          {
+            "id": "mission-complete:downtown",
+            "district": "downtown",
+            "result": "Mission cleared",
+            "boundary": 3
+          }
+        ],
+        "pulseEvents": [
+          {
+            "id": "mission-complete:downtown",
+            "kind": "mission-complete",
+            "district": "downtown",
+            "boundary": 3
+          }
+        ],
+        "events": [
+          {
+            "id": "city334:1",
+            "boundary": 1,
+            "type": "travel",
+            "receipt": "travel:1:downtown:0:native",
+            "location": {
+              "district": "downtown",
+              "scene": "0:native",
+              "name": "RESTAURANT DISTRICT"
+            }
+          },
+          {
+            "id": "city334:2",
+            "boundary": 1,
+            "type": "assignment-started",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant"
+          },
+          {
+            "id": "city334:3",
+            "boundary": 2,
+            "type": "assignment-complete",
+            "assignment": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:4",
+            "boundary": 2,
+            "type": "travel",
+            "receipt": "travel:2:downtown:1:native",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:5",
+            "boundary": 2,
+            "type": "assignment-started",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate"
+          },
+          {
+            "id": "city334:6",
+            "boundary": 3,
+            "type": "assignment-complete",
+            "assignment": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:7",
+            "boundary": 3,
+            "type": "mission-complete",
+            "receipt": "mission-complete:downtown",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:8",
+            "boundary": 3,
+            "type": "assignment-started",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track"
+          },
+          {
+            "id": "city334:9",
+            "boundary": 4,
+            "type": "assignment-complete",
+            "assignment": "city334:8",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:10",
+            "boundary": 4,
+            "type": "home",
+            "receipt": "home:downtown",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:11",
+            "boundary": 4,
+            "type": "assignment-started",
+            "hero": "nova",
+            "district": "downtown",
+            "activity": "informant"
+          }
+        ],
+        "receipts": {
+          "travel:1:downtown:0:native": true,
+          "travel:2:downtown:1:native": true,
+          "mission-complete:downtown": true,
+          "home:downtown": true
+        },
+        "completed": {
+          "downtown": true
+        }
+      },
+      "combat": {
+        "hero": "reina",
+        "hp": 105,
+        "energy": 100,
+        "zone": 1,
+        "time": 0,
+        "score": 5000
+      }
+    },
+    {
+      "label": "Existing supplies journal restored into a new simulation",
+      "exactCityRestore": true,
+      "state": {
+        "schema": 1,
+        "seed": 2727840438,
+        "serial": 11,
+        "boundary": 4,
+        "current": {
+          "district": "downtown",
+          "scene": "1:native",
+          "name": "RETAIL DISTRICT"
+        },
+        "districts": {
+          "downtown": {
+            "name": "Downtown",
+            "control": null,
+            "confidence": null,
+            "safety": null,
+            "visits": 2,
+            "cleared": true
+          }
+        },
+        "heroes": {
+          "reina": {
+            "available": true,
+            "active": true,
+            "assignment": null
+          },
+          "broxton": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nova": {
+            "available": true,
+            "active": false,
+            "assignment": "city334:11"
+          },
+          "forest": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "niko": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "orion": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          },
+          "nightshade": {
+            "available": true,
+            "active": false,
+            "assignment": null
+          }
+        },
+        "assignments": [
+          {
+            "id": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "complete",
+            "started": 1,
+            "due": 2
+          },
+          {
+            "id": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "status": "complete",
+            "started": 2,
+            "due": 3
+          },
+          {
+            "id": "city334:8",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track",
+            "status": "complete",
+            "started": 3,
+            "due": 4
+          },
+          {
+            "id": "city334:11",
+            "hero": "nova",
+            "district": "downtown",
+            "activity": "informant",
+            "status": "active",
+            "started": 4,
+            "due": 5
+          }
+        ],
+        "discoveries": [],
+        "sideMissions": [],
+        "threats": [],
+        "transport": [],
+        "flags": {},
+        "consequences": [
+          {
+            "id": "mission-complete:downtown",
+            "district": "downtown",
+            "result": "Mission cleared",
+            "boundary": 3
+          }
+        ],
+        "pulseEvents": [
+          {
+            "id": "mission-complete:downtown",
+            "kind": "mission-complete",
+            "district": "downtown",
+            "boundary": 3
+          }
+        ],
+        "events": [
+          {
+            "id": "city334:1",
+            "boundary": 1,
+            "type": "travel",
+            "receipt": "travel:1:downtown:0:native",
+            "location": {
+              "district": "downtown",
+              "scene": "0:native",
+              "name": "RESTAURANT DISTRICT"
+            }
+          },
+          {
+            "id": "city334:2",
+            "boundary": 1,
+            "type": "assignment-started",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant"
+          },
+          {
+            "id": "city334:3",
+            "boundary": 2,
+            "type": "assignment-complete",
+            "assignment": "city334:2",
+            "hero": "forest",
+            "district": "downtown",
+            "activity": "informant",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:4",
+            "boundary": 2,
+            "type": "travel",
+            "receipt": "travel:2:downtown:1:native",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:5",
+            "boundary": 2,
+            "type": "assignment-started",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate"
+          },
+          {
+            "id": "city334:6",
+            "boundary": 3,
+            "type": "assignment-complete",
+            "assignment": "city334:5",
+            "hero": "niko",
+            "district": "downtown",
+            "activity": "investigate",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:7",
+            "boundary": 3,
+            "type": "mission-complete",
+            "receipt": "mission-complete:downtown",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:8",
+            "boundary": 3,
+            "type": "assignment-started",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track"
+          },
+          {
+            "id": "city334:9",
+            "boundary": 4,
+            "type": "assignment-complete",
+            "assignment": "city334:8",
+            "hero": "nightshade",
+            "district": "downtown",
+            "activity": "track",
+            "result": "Reconnaissance completed; no confirmed lead."
+          },
+          {
+            "id": "city334:10",
+            "boundary": 4,
+            "type": "home",
+            "receipt": "home:downtown",
+            "location": {
+              "district": "downtown",
+              "scene": "1:native",
+              "name": "RETAIL DISTRICT"
+            }
+          },
+          {
+            "id": "city334:11",
+            "boundary": 4,
+            "type": "assignment-started",
+            "hero": "nova",
+            "district": "downtown",
+            "activity": "informant"
+          }
+        ],
+        "receipts": {
+          "travel:1:downtown:0:native": true,
+          "travel:2:downtown:1:native": true,
+          "mission-complete:downtown": true,
+          "home:downtown": true
+        },
+        "completed": {
+          "downtown": true
+        }
+      }
+    }
+  ]
+}

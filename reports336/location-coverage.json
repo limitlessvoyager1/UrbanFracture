@@ -1,0 +1,1295 @@
+{
+  "fixture": "Existing scene starts with completed encounter, script restrictions still respected.",
+  "districts": [
+    "downtown",
+    "uptown",
+    "hotel",
+    "financial",
+    "government182",
+    "casino192",
+    "yacht195",
+    "estates196",
+    "route74197",
+    "slums202",
+    "prison224",
+    "subway238",
+    "docks231",
+    "highway234",
+    "airport309",
+    "hydro243",
+    "chinatown235",
+    "mall236",
+    "stadium237",
+    "hospital314",
+    "feds316",
+    "industrial317"
+  ],
+  "scenes": [
+    {
+      "id": "restaurant",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-mall",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-park",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-fork",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-woods",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-deep-woods",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-lab-storage",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-lab-workroom",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "uptown-riverfront",
+      "district": "uptown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "retail",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-street",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-lobby",
+      "district": "hotel",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-kitchen",
+      "district": "hotel",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-alley",
+      "district": "hotel",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-brick",
+      "district": "hotel",
+      "recorded": false,
+      "deferred": true
+    },
+    {
+      "id": "hotel-club",
+      "district": "hotel",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-vip",
+      "district": "hotel",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hotel-financial",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "condos",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "nightlife",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "brick",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "velvet",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "jackal-alley",
+      "district": "downtown",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "financial",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "investment",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "bank-front",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "bank",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "otis",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "elevator",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "vault-corridor",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "leroy",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-sector",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-front",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-cells",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-approach",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-dirk",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-tunnels",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-building",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "government-office",
+      "district": "government182",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "casino-floor",
+      "district": "casino192",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "casino-penthouse",
+      "district": "casino192",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "casino-pool",
+      "district": "casino192",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "sterling-yacht-deck",
+      "district": "yacht195",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "sterling-yacht-lounge",
+      "district": "yacht195",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-avenue",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-front",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-spa",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-rear",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-club",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-golf",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-tennis",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "fairways-court",
+      "district": "estates196",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "route74-woods",
+      "district": "route74197",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "route74-stop",
+      "district": "route74197",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "route74-homes",
+      "district": "route74197",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "bank-rooftop",
+      "district": "financial",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-street",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-store",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-floor1",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-floor2",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-floor3",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-floor4",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-floor5",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-roof",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-store-departments",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-store-receiving",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-loading-street",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-marian-merge",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-arnell-way",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-neighbor-roof",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-descent5",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-descent4",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-descent3",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-descent2",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-descent1",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-marian-street",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-tavern",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-arnell-street",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-colt",
+      "district": "slums202",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-prison-arrival",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "slums-subway-arrival",
+      "district": "subway238",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-yard",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-recreation",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-mess",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-hall",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-infirmary",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-commissary",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-laundry",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-checkpoint",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-security",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-armory",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-block-c",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-block-b",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-block-a",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-administration",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "prison-warden",
+      "district": "prison224",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-waterfront",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-bar",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-shepard",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-district",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-storage",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-warehouse",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-receiving",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-yard",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-container",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-ship-interior",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-ship-deck",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "docks-command",
+      "district": "docks231",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "highway-approach",
+      "district": "highway234",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "highway-roadworks",
+      "district": "highway234",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "highway-trailer",
+      "district": "highway234",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "highway-airport",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "highway-hydro",
+      "district": "hydro243",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "chinatown-gate",
+      "district": "chinatown235",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "chinatown-market",
+      "district": "chinatown235",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "chinatown-approach",
+      "district": "chinatown235",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "chinatown-dojo",
+      "district": "chinatown235",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-entrance",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-lower",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-department",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-maintenance",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-lot",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-upper",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-arcade",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-roof",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-pharmacy",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-jewelry",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-electronics",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "mall-italian",
+      "district": "mall236",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-parking",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-tickets",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-concourse",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-elevator",
+      "district": "stadium237",
+      "recorded": false,
+      "deferred": true
+    },
+    {
+      "id": "stadium-vip",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-facilities",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-lockers",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-field",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "stadium-endzone",
+      "district": "stadium237",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "subway-arrival",
+      "district": "subway238",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "subway-maintenance",
+      "district": "subway238",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "subway-departure",
+      "district": "subway238",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "subway-car",
+      "district": "subway238",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "subway-tunnel",
+      "district": "subway238",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hydro-turbine-hall",
+      "district": "hydro243",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hydro-control-room",
+      "district": "hydro243",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hydro-pressure-gallery",
+      "district": "hydro243",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hydro-dam-crest",
+      "district": "hydro243",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-departures",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-check-in",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-escalator",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-bus-stand",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-bus",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-connector",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-security",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-concourse",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-runway",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-customs",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-baggage",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-arrivals",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "airport-limousine",
+      "district": "airport309",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-basement",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-lobby-1",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-lobby-2",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-lobby-3",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-lobby-4",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-lobby-5",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-helipad",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-vip",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-oncology",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-cardiology",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-psychiatric",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-rehabilitation",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-surgical",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-administrative",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-er",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-outpatient",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-cafeteria",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-laboratory",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-radiology",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-chemotherapy",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-pharmacy",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-morgue",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-laundry",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-loading-dock",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-skybridge",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "hospital-garage",
+      "district": "hospital314",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-field",
+      "district": "feds316",
+      "recorded": false,
+      "deferred": true
+    },
+    {
+      "id": "feds-lobby",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-squad",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-interrogation",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-evidence",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-lab",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-armory",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "feds-command",
+      "district": "feds316",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-outskirts",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-power",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-storage",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-crossroads",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-north-road",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-railyard",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-rail-office",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-abandoned-yard",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-factory-road",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-south-road",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-water-works",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-woods",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-rust-east",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-factory-gate",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-chemical-gate",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    },
+    {
+      "id": "industrial-smelter-gate",
+      "district": "industrial317",
+      "recorded": true,
+      "deferred": false
+    }
+  ]
+}

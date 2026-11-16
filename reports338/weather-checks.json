@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "requested": {
+        "weather": "clear",
+        "hour": 12,
+        "intensity": 1,
+        "temperatureF": 70
+      },
+      "actual": {
+        "weather": "clear",
+        "rain": 0,
+        "snow": 0,
+        "hour": 12,
+        "temperatureF": 70
+      },
+      "flakes": 0,
+      "streaks": 0,
+      "night": false
+    },
+    {
+      "requested": {
+        "weather": "heavyRain",
+        "hour": 22,
+        "intensity": 1,
+        "temperatureF": 48
+      },
+      "actual": {
+        "weather": "heavyRain",
+        "rain": 0.9,
+        "snow": 0,
+        "hour": 22,
+        "temperatureF": 48
+      },
+      "flakes": 0,
+      "streaks": 90,
+      "night": true
+    },
+    {
+      "requested": {
+        "weather": "heavySnow",
+        "hour": 12,
+        "intensity": 1,
+        "temperatureF": 20
+      },
+      "actual": {
+        "weather": "heavySnow",
+        "rain": 0,
+        "snow": 0.9,
+        "hour": 12,
+        "temperatureF": 20
+      },
+      "flakes": 90,
+      "streaks": 0,
+      "night": false
+    },
+    {
+      "requested": {
+        "weather": "moderateRain",
+        "hour": 12,
+        "intensity": 1,
+        "temperatureF": 31
+      },
+      "actual": {
+        "weather": "wintryMix",
+        "rain": 0.38666666666666666,
+        "snow": 0.1933333333333333,
+        "hour": 12,
+        "temperatureF": 31
+      },
+      "flakes": 20,
+      "streaks": 38,
+      "night": false
+    }
+  ],
+  "scope": "Exterior overlay consumes the existing effective environment state; full interior weather is later Gate 16"
+}

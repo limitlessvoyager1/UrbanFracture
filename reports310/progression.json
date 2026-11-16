@@ -1,0 +1,146 @@
+{
+  "seed": 310,
+  "method": "Native walk input, spawn/wave/death/transition simulation with explicit test-assisted forced damage and invulnerability; not a human combat playthrough.",
+  "reports": [
+    {
+      "route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "records": [
+        {
+          "section": 0,
+          "kills": 6,
+          "frames": 1001,
+          "seconds": 16.683333333333334,
+          "locks": 0
+        },
+        {
+          "section": 1,
+          "kills": 6,
+          "frames": 1227,
+          "seconds": 20.45,
+          "locks": 0
+        },
+        {
+          "section": 2,
+          "kills": 2,
+          "frames": 460,
+          "seconds": 7.666666666666667,
+          "locks": 0
+        },
+        {
+          "section": 3,
+          "kills": 4,
+          "frames": 648,
+          "seconds": 10.8,
+          "locks": 0
+        },
+        {
+          "section": 4,
+          "kills": 4,
+          "frames": 683,
+          "seconds": 11.383333333333333,
+          "locks": 0
+        },
+        {
+          "section": 5,
+          "kills": 4,
+          "frames": 710,
+          "seconds": 11.833333333333334,
+          "locks": 0
+        },
+        {
+          "section": 6,
+          "kills": 6,
+          "frames": 856,
+          "seconds": 14.266666666666667,
+          "locks": 0
+        },
+        {
+          "section": 7,
+          "kills": 8,
+          "frames": 1421,
+          "seconds": 23.683333333333334,
+          "locks": 0
+        },
+        {
+          "section": 8,
+          "kills": 6,
+          "frames": 882,
+          "seconds": 14.7,
+          "locks": 2
+        }
+      ]
+    },
+    {
+      "route": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11,
+        12
+      ],
+      "records": [
+        {
+          "section": 0,
+          "kills": 6,
+          "frames": 1001,
+          "seconds": 16.683333333333334,
+          "locks": 0
+        },
+        {
+          "section": 1,
+          "kills": 6,
+          "frames": 1227,
+          "seconds": 20.45,
+          "locks": 0
+        },
+        {
+          "section": 2,
+          "kills": 2,
+          "frames": 545,
+          "seconds": 9.083333333333334,
+          "locks": 0
+        },
+        {
+          "section": 9,
+          "kills": 6,
+          "frames": 856,
+          "seconds": 14.266666666666667,
+          "locks": 0
+        },
+        {
+          "section": 10,
+          "kills": 6,
+          "frames": 911,
+          "seconds": 15.183333333333334,
+          "locks": 0
+        },
+        {
+          "section": 11,
+          "kills": 6,
+          "frames": 1227,
+          "seconds": 20.45,
+          "locks": 0
+        },
+        {
+          "section": 12,
+          "kills": 4,
+          "frames": 459,
+          "seconds": 7.65,
+          "locks": 2
+        }
+      ]
+    }
+  ]
+}

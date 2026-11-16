@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/repair262-art.py", line 6, in <module>
+    p=R/'dist'/q['src'].split('?')[0];assert p.exists();im=Image.open(p).convert('RGBA');assert im.size==(q['w'],q['h']);assert hashlib.sha256(p.read_bytes()).hexdigest()==q['sha256'];a=np.array(im)[:,:,3];assert (a>=250).sum()>a.size*.12;assert a[0].max()<200 or a[-1].max()<200;assert q['review']=='required';checks+=6
+                                             ^^^^^^^^^^
+AssertionError

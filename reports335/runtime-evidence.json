@@ -1,0 +1,84 @@
+{
+  "fixture": true,
+  "note": "Production native canvas renderer and simulation; not a browser screenshot or full campaign playthrough.",
+  "seed": 335,
+  "cache": {
+    "id": "rust-storage-supplies",
+    "district": "industrial317",
+    "scene": "industrial-storage",
+    "name": "Rust Lane Storage · west aisle",
+    "kind": "healthPack",
+    "x": 760,
+    "y": 480,
+    "discoveredAt": 3,
+    "messageId": "cache335:rust-storage-supplies",
+    "collected": false
+  },
+  "message": {
+    "id": "cache335:rust-storage-supplies",
+    "sender": "nova",
+    "category": "cache",
+    "body": "No confirmed Syndicate lead yet. I found Small Health Pack supplies at Rust Lane Storage · west aisle. I marked the location. Clear the area and collect them there.",
+    "eventId": "city334:6",
+    "missionId": "industrial317",
+    "cacheId": "rust-storage-supplies",
+    "time": 3,
+    "read": false
+  },
+  "before": {
+    "markers": [
+      {
+        "id": "rust-storage-supplies",
+        "district": "industrial317",
+        "scene": "industrial-storage",
+        "name": "Rust Lane Storage · west aisle",
+        "kind": "healthPack",
+        "x": 760,
+        "y": 480,
+        "discoveredAt": 3,
+        "messageId": "cache335:rust-storage-supplies",
+        "collected": false
+      }
+    ],
+    "item": {
+      "kind": "healthPack",
+      "x": 760,
+      "y": 480,
+      "id": "cache335-rust-storage-supplies",
+      "masterId319": "items319:city335:2:rust-storage-supplies",
+      "cache335": "rust-storage-supplies"
+    },
+    "hp": 52.5
+  },
+  "after": {
+    "markers": [
+      {
+        "id": "rust-storage-supplies",
+        "district": "industrial317",
+        "scene": "industrial-storage",
+        "name": "Rust Lane Storage · west aisle",
+        "kind": "healthPack",
+        "x": 760,
+        "y": 480,
+        "discoveredAt": 3,
+        "messageId": "cache335:rust-storage-supplies",
+        "collected": true
+      },
+      {
+        "id": "rail-office-supplies",
+        "district": "industrial317",
+        "scene": "industrial-rail-office",
+        "name": "Railyard Operations · office aisle",
+        "kind": "energyBattery",
+        "x": 850,
+        "y": 480,
+        "discoveredAt": 4,
+        "messageId": "cache335:rail-office-supplies",
+        "collected": false
+      }
+    ],
+    "hp": 105,
+    "receipt": true
+  },
+  "exactMessagesRestore": true
+}

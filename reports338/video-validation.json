@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "frames": 714,
+  "seconds": 23.8,
+  "maxInAreaTravelPerVideoFrame": 6.475000000000364,
+  "rooms": [
+    "exterior",
+    "foyer",
+    "hallway",
+    "living",
+    "kitchen"
+  ],
+  "source": "Native engine/controller trace; no room menu; standard spatial entrance threshold"
+}

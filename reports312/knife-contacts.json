@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "hits": [
+    {
+      "contactFrame": 10,
+      "sourcePose": 7,
+      "hand": [
+        66.69548387096773,
+        -105.03225806451613
+      ]
+    },
+    {
+      "contactFrame": 18,
+      "sourcePose": 5,
+      "hand": [
+        61.65870967741936,
+        -123.1741935483871
+      ]
+    },
+    {
+      "contactFrame": 26,
+      "sourcePose": 7,
+      "hand": [
+        66.69548387096773,
+        -105.03225806451613
+      ]
+    }
+  ],
+  "note": "Initial supplementary assertion assumed forward slash first; actual authored sequence is backhand/forward/backhand. Production unchanged."
+}

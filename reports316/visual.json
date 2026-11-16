@@ -1,0 +1,155 @@
+{
+  "nativeRenderer": true,
+  "captures": [
+    {
+      "id": "feds-field",
+      "scene": "field",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-landing-2.4",
+      "scene": "field",
+      "camera": 118.333333333332,
+      "actors": []
+    },
+    {
+      "id": "feds-lobby",
+      "scene": "lobby",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-squad",
+      "scene": "squad",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-interrogation",
+      "scene": "interrogation",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-evidence",
+      "scene": "evidence",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-lab",
+      "scene": "lab",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-armory",
+      "scene": "armory",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "feds-command",
+      "scene": "command",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "talon-idle",
+      "scene": "command",
+      "camera": 0,
+      "actors": [
+        {
+          "type": "talon",
+          "pose": {
+            "index": 14,
+            "phase": "idle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "talon-pcbiGun316",
+      "scene": "command",
+      "camera": 0,
+      "actors": [
+        {
+          "type": "talon",
+          "pose": {
+            "index": 17,
+            "phase": "FOLLOW_THROUGH"
+          }
+        }
+      ]
+    },
+    {
+      "id": "talon-pcbiBatonCombo316",
+      "scene": "command",
+      "camera": 0,
+      "actors": [
+        {
+          "type": "talon",
+          "pose": {
+            "index": 27,
+            "phase": "FOLLOW_THROUGH"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaguar-idle",
+      "scene": "command",
+      "camera": 0,
+      "actors": [
+        {
+          "type": "jaguar",
+          "pose": {
+            "index": 14,
+            "phase": "idle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaguar-pcbiGun316",
+      "scene": "command",
+      "camera": 0,
+      "actors": [
+        {
+          "type": "jaguar",
+          "pose": {
+            "index": 16,
+            "phase": "STARTUP"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaguar-pcbiPunchCombo316",
+      "scene": "command",
+      "camera": 0,
+      "actors": [
+        {
+          "type": "jaguar",
+          "pose": {
+            "index": 27,
+            "phase": "FOLLOW_THROUGH"
+          }
+        }
+      ]
+    },
+    {
+      "id": "energy-pickups-hud",
+      "scene": "lobby",
+      "camera": 0,
+      "actors": []
+    },
+    {
+      "id": "energy-overflow-hud",
+      "scene": "lobby",
+      "camera": 0,
+      "actors": []
+    }
+  ]
+}

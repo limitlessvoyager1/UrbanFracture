@@ -1,0 +1,52 @@
+[
+  {
+    "id": "controller240",
+    "exit": 0,
+    "output": "PASS239 full production Forest keyboard + standard/raw DualSense/DSX attack cooldown tail, native special buffer, L1 block/release, dodge and detailed input traces\nPASS239 DualSense USB all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 DualSense Wireless Controller all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS239 Xbox 360 Controller (DSX) all6 combo presses, front/rear/dog-assisted grapples, three air attacks, run, timed counter and charge-command Maul through actual gamepad input\nPASS240 actual keyboard and standard/rawSony/DSX cabin choice plus simultaneous down/confirm routes to Team Facilities without combat/charge or loop\n"
+  },
+  {
+    "id": "nightshade-ammo256",
+    "exit": 1,
+    "output": "node:internal/assert/utils:77\n    throw err;\n    ^\n\nAssertionError [ERR_ASSERTION]: native health alongside ammo\n    at ok (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/nightshade256.cjs:1:190)\n    at Object.<anonymous> (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/nightshade256.cjs:6:132)\n    at Module._compile (node:internal/modules/cjs/loader:1929:14)\n    at Object..js (node:internal/modules/cjs/loader:2060:10)\n    at Module.load (node:internal/modules/cjs/loader:1651:32)\n    at Module._load (node:internal/modules/cjs/loader:1443:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n\nNode.js v24.22.1\n"
+  },
+  {
+    "id": "nightshade-ammo-levels256",
+    "exit": 0,
+    "output": "PASS256 61 native existing-area/alternate-route placements: actual level definitions, scenery-safe grounding, stable IDs/positions, one native collection, shared level budgets.\n"
+  },
+  {
+    "id": "nightshade-ammo-economy256",
+    "exit": 0,
+    "output": "PASS256 51 native firing/finite pickup economy scenarios; capacity/conservation and gun-kill expected yield. Mixed/zero-ammo combat remains blocked by later gates.\n"
+  },
+  {
+    "id": "practice282",
+    "exit": 0,
+    "output": "PASS282 PRACTICE 4147 native enemies refill/reactions/equipment, groups/restart/limits/isolation, all speeds and exact frame step\n"
+  },
+  {
+    "id": "contact302-view",
+    "exit": 0,
+    "output": "PASS302 VIEW 52 checks\n"
+  },
+  {
+    "id": "energy316-runtime",
+    "exit": 1,
+    "output": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nnode:assert:152\n  throw new AssertionError(obj);\n  ^\n\nAssertionError [ERR_ASSERTION]: native pickup cell\n\n0 !== 50\n\n    at eq (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/energy316.cjs:1:156)\n    at Object.<anonymous> (/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/energy316.cjs:17:130)\n    at Module._compile (node:internal/modules/cjs/loader:1929:14)\n    at Object..js (node:internal/modules/cjs/loader:2060:10)\n    at Module.load (node:internal/modules/cjs/loader:1651:32)\n    at Module._load (node:internal/modules/cjs/loader:1443:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: 0,\n  expected: 50,\n  operator: 'strictEqual',\n  diff: 'simple'\n}\n\nNode.js v24.22.1\n"
+  },
+  {
+    "id": "energy316-ui",
+    "exit": 0,
+    "output": "PASS316 UI 12 real controls, defaults, undo/redo, named presets and cyclic native grapple diagnostics\n"
+  },
+  {
+    "id": "industrial317-runtime",
+    "exit": 0,
+    "output": "PASS317 district architecture/routes/hazards/searches 201\nPASS317 native entrance and Director checks 23632\nPASS317 final collision/replay safety 23635\nPASS317 hydro practice isolation 23637\nPASS317 final native coverage 23643\n"
+  },
+  {
+    "id": "charge318-runtime",
+    "exit": 0,
+    "output": "PASS318 one-second thresholds/release/cancel/HUD/persistent glow 124\nPASS318 exact one-second native release 128\n"
+  }
+]

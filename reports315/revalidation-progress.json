@@ -1,0 +1,120 @@
+{
+  "changes": [
+    "dist/hospital-mission-view315.js",
+    "dist/hospital-mission315.js",
+    "dist/hospital314.js",
+    "tests/hospital315.cjs",
+    "tools/hospital315/hospital-patches.json"
+  ],
+  "results": [
+    {
+      "id": "hospital315-runtime",
+      "command": [
+        "node",
+        "tests/hospital315.cjs"
+      ],
+      "framework": "mission-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 4791,
+      "log": "reports315/final-hospital315-runtime.log"
+    },
+    {
+      "id": "hospital314-runtime",
+      "command": [
+        "node",
+        "tests/hospital314.cjs"
+      ],
+      "framework": "level-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 5674,
+      "log": "reports315/final-hospital314-runtime.log"
+    },
+    {
+      "id": "quality308-A",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "A"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 4171,
+      "log": "reports315/final-quality308-A.log"
+    },
+    {
+      "id": "playback265-input",
+      "command": [
+        "node",
+        "tests/playback265-input.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 225,
+      "log": "reports315/final-playback265-input.log"
+    },
+    {
+      "id": "hospital315-render",
+      "command": [
+        "node",
+        "tools/hospital315/render.cjs"
+      ],
+      "framework": "mission-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 38597,
+      "log": "reports315/final-hospital315-render.log"
+    },
+    {
+      "id": "hospital314-render",
+      "command": [
+        "node",
+        "tools/hospital314/render.cjs"
+      ],
+      "framework": "level-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 24641,
+      "log": "reports315/final-hospital314-render.log"
+    }
+  ]
+}

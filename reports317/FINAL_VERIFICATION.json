@@ -1,0 +1,300 @@
+{
+  "build": 317,
+  "approvedCheckpoint": "54ba54f2568a2e39662e7d56902746bd4a06b031",
+  "frozenFullRun": {
+    "counts": {
+      "executed": 216,
+      "passed": 212,
+      "failed": 4,
+      "notExecuted": 5
+    },
+    "sourceFingerprint": "b8cc00eb5e8c239b79caead8d7c24381e9cbea5330c2ec719584252826f4b9c7",
+    "sourceChangedDuringTests": false,
+    "failed": [
+      {
+        "id": "subway247",
+        "error": null,
+        "signal": null,
+        "exitCode": 1,
+        "durationMs": 686
+      },
+      {
+        "id": "grapples301-view-powerbomb-enforcer",
+        "error": null,
+        "signal": "SIGKILL",
+        "exitCode": null,
+        "durationMs": 27732
+      },
+      {
+        "id": "contact302-view",
+        "error": null,
+        "signal": null,
+        "exitCode": 1,
+        "durationMs": 20732
+      },
+      {
+        "id": "hospital314-render",
+        "error": null,
+        "signal": null,
+        "exitCode": 1,
+        "durationMs": 27291
+      }
+    ]
+  },
+  "finalFingerprint": "02458485d22abb236d01bfc1afd640333b0007d652be40af86956b96e1c9c460",
+  "delta": [
+    {
+      "file": "dist/hydro-view243.js",
+      "before": "3c2bf990c067cc7bdbe2eeb66b13c14ed64ebe1a0d685f9044eb8853068a6b1f",
+      "after": "c71b7810eebdfffc526ae541669f4269342fe501d234cb7d849409347416c7b3"
+    },
+    {
+      "file": "dist/index.html",
+      "before": "734db61b74f17a3bbe968397e6e253ee90eec1b48f73ad1ee8a8761d7a69f288",
+      "after": "a472a2f792ae918792857b31110502ee92de02de0e78f7720e3b9a40fad6f8e3"
+    },
+    {
+      "file": "dist/industrial-view317.js",
+      "before": "518c49e4cac55bbc48dc1aac1b9ba9f5cee105a1ec362eac0e38d02a8b1ea803",
+      "after": "eb89a63d7ed096791be62b9edaa0ace963f8b3f93a54d8dc4fdad34f6a600610"
+    },
+    {
+      "file": "dist/industrial317.js",
+      "before": "b52fbde0c094aefed46b0c24d74fb0a7a0a3c742f9fc7d8bd02bb8dd63a7e0dd",
+      "after": "a7a0d265c7a3f783a6d9c6060d55b912247ec3d806edab805b7bdece30a437ba"
+    },
+    {
+      "file": "tests/contact302-view.cjs",
+      "before": "2a51b0b0abe6e949ca75acde781e2e5e77ec80082a5a06b08eab3c3a5efc4e10",
+      "after": "fd7180e297edaef573b2559824959df2747ac8683012c5195e4f07bad0452e83"
+    },
+    {
+      "file": "tests/grapples301-view.cjs",
+      "before": "d22c5a967732d6c5082e63ca5e37cb66fb10daaa085b80cdaa2d3820d0dfbc5d",
+      "after": "7af1e4df279340c92dfb546c7c5cb023db13392d3129af821cfca7cecbfd8a1b"
+    },
+    {
+      "file": "tests/industrial317.cjs",
+      "before": "7bfd9e4eb4759287e2742b0a2c05345ba501a1e96324052aca8590c949ce81b2",
+      "after": "6b564a7228d11f3186b37ee109a288ae8d516ed4bb13d206da1827f4660af74a"
+    },
+    {
+      "file": "tests/subway247.cjs",
+      "before": "9cc2fe14e544f8c7e24dae09d7c5356948952b51318b802baf2bcea11c5bf530",
+      "after": "d93a15f30a81305eadcacbc2ad9828a1fd745b54bec24591cfaae241aaa5c653"
+    }
+  ],
+  "finalRechecks": [
+    {
+      "id": "subway247",
+      "command": [
+        "node",
+        "tests/subway247.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 14626
+    },
+    {
+      "id": "subway238",
+      "command": [
+        "node",
+        "tests/subway238.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 40477
+    },
+    {
+      "id": "hydro243-progression",
+      "command": [
+        "node",
+        "tests/hydro243.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 42780
+    },
+    {
+      "id": "hydro243-view",
+      "command": [
+        "node",
+        "tests/hydro243-view.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 228
+    },
+    {
+      "id": "hydro243-controller",
+      "command": [
+        "node",
+        "tests/hydro243-controller.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 4064
+    },
+    {
+      "id": "industrial317-runtime",
+      "command": [
+        "node",
+        "tests/industrial317.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 6334
+    },
+    {
+      "id": "controller240",
+      "command": [
+        "node",
+        "tests/stadium240-controller.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 3583
+    },
+    {
+      "id": "diagnostics307-input",
+      "command": [
+        "node",
+        "tests/diagnostics307-input.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 301
+    },
+    {
+      "id": "practice282",
+      "command": [
+        "node",
+        "tests/practice282.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 6947
+    },
+    {
+      "id": "presentation275",
+      "command": [
+        "node",
+        "tests/presentation275.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 443
+    },
+    {
+      "id": "feds316-runtime",
+      "command": [
+        "node",
+        "tests/feds316.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 979
+    },
+    {
+      "id": "energy316-runtime",
+      "command": [
+        "node",
+        "tests/energy316.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 1656
+    },
+    {
+      "id": "current-runtime-certification",
+      "command": [
+        "node",
+        "tests/qa242-runtime.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 560
+    },
+    {
+      "id": "scene-scale-certification",
+      "command": [
+        "node",
+        "tests/qa242-scenes.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 257
+    },
+    {
+      "id": "contact302-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/contact302-view.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "durationMs": 30085
+    },
+    {
+      "id": "grapples301-view-powerbomb-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "powerbomb-enforcer"
+      ],
+      "passed": true,
+      "exit": 0,
+      "signal": null,
+      "durationMs": 57423
+    },
+    {
+      "id": "hospital314-render",
+      "command": [
+        "node",
+        "tools/hospital314/render.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "signal": null,
+      "durationMs": 25500
+    },
+    {
+      "id": "industrial317-render",
+      "command": [
+        "node",
+        "tools/industrial317/render.cjs"
+      ],
+      "passed": true,
+      "exit": 0,
+      "signal": null,
+      "durationMs": 33264
+    }
+  ],
+  "evidenceAdapterChanges": [
+    {
+      "file": "tools/hospital314/render.cjs",
+      "reason": "Current literal HUD extraction prefix; hospital assertions retained"
+    },
+    {
+      "file": "tools/industrial317/render.cjs",
+      "reason": "Populates the existing native Marcus portrait input for combat capture"
+    }
+  ],
+  "nativeCaptures": 23,
+  "allArtworkUnchangedAfterFullRun": true,
+  "manualCategories": [
+    "approved-screenshots",
+    "art-style-review",
+    "all-moves-coverage",
+    "physical-dualsense",
+    "human-balance"
+  ],
+  "limitations": [
+    "Frozen full-run evidence retained; eight explicit final source/test files were rechecked in18 suites.",
+    "Powerbomb facings run in separate processes after repeated SIGKILL; all frames/assertions retained and no simulation timing changed.",
+    "Managed preview timed out; native captures and simulated controllers are not live-browser or physical-controller certification.",
+    "Owner art review, all-move coverage and human balance remain separate."
+  ]
+}

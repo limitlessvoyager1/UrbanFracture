@@ -1,0 +1,1250 @@
+{
+  "sourceFingerprint": "118b1e9f2eaeec918409cba397b0c6634c647566c3654502a9c950990bba0eb7",
+  "results": [
+    {
+      "id": "nightshade-gate6-view263",
+      "command": [
+        "node",
+        "tests/nightshade263-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-nightshade-gate6-view263.log",
+      "durationMs": 226
+    },
+    {
+      "id": "nightshade-gate7-view264",
+      "command": [
+        "node",
+        "tests/nightshade264-view.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-nightshade-gate7-view264.log",
+      "durationMs": 210
+    },
+    {
+      "id": "reina269-view",
+      "command": [
+        "node",
+        "tests/reina269-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reina269-view.log",
+      "durationMs": 208
+    },
+    {
+      "id": "reina270-view",
+      "command": [
+        "node",
+        "tests/reina270-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reina270-view.log",
+      "durationMs": 93
+    },
+    {
+      "id": "orion271-assets",
+      "command": [
+        "python",
+        "tests/orion271-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-orion271-assets.log",
+      "durationMs": 976
+    },
+    {
+      "id": "orion271-view",
+      "command": [
+        "node",
+        "tests/orion271-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-orion271-view.log",
+      "durationMs": 223
+    },
+    {
+      "id": "hook272-view",
+      "command": [
+        "node",
+        "tests/hook272-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-hook272-view.log",
+      "durationMs": 223
+    },
+    {
+      "id": "hook272-assets",
+      "command": [
+        "python",
+        "tests/hook272-assets.py"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-hook272-assets.log",
+      "durationMs": 225
+    },
+    {
+      "id": "combat274-view",
+      "command": [
+        "node",
+        "tests/combat274-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-combat274-view.log",
+      "durationMs": 84
+    },
+    {
+      "id": "combat274-assets",
+      "command": [
+        "python",
+        "tests/combat274-assets.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-combat274-assets.log",
+      "durationMs": 245
+    },
+    {
+      "id": "presentation275-assets",
+      "command": [
+        "python",
+        "tests/presentation275-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-presentation275-assets.log",
+      "durationMs": 79
+    },
+    {
+      "id": "nightshade276-view",
+      "command": [
+        "node",
+        "tests/nightshade276-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-nightshade276-view.log",
+      "durationMs": 229
+    },
+    {
+      "id": "repair277-assets",
+      "command": [
+        "python",
+        "tests/repair277-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-repair277-assets.log",
+      "durationMs": 117
+    },
+    {
+      "id": "reina278-assets",
+      "command": [
+        "python",
+        "tests/reina278-assets.py"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reina278-assets.log",
+      "durationMs": 258
+    },
+    {
+      "id": "reina279-view",
+      "command": [
+        "node",
+        "tests/reina279-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reina279-view.log",
+      "durationMs": 87
+    },
+    {
+      "id": "reina279-assets",
+      "command": [
+        "python",
+        "tests/reina279-assets.py"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reina279-assets.log",
+      "durationMs": 222
+    },
+    {
+      "id": "review280-runtime",
+      "command": [
+        "node",
+        "tests/review280.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review280-runtime.log",
+      "durationMs": 9056
+    },
+    {
+      "id": "review280-input",
+      "command": [
+        "node",
+        "tests/review280-input.cjs"
+      ],
+      "framework": "input-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review280-input.log",
+      "durationMs": 751
+    },
+    {
+      "id": "review280-assets",
+      "command": [
+        "python",
+        "tests/review280-assets.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review280-assets.log",
+      "durationMs": 94
+    },
+    {
+      "id": "review280-view",
+      "command": [
+        "node",
+        "tests/review280-view.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review280-view.log",
+      "durationMs": 268
+    },
+    {
+      "id": "review280-levels",
+      "command": [
+        "node",
+        "tests/review280-levels.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review280-levels.log",
+      "durationMs": 19109
+    },
+    {
+      "id": "review281-runtime",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281.cjs"
+      ],
+      "framework": "level-integrity",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review281-runtime.log",
+      "durationMs": 8451
+    },
+    {
+      "id": "review281-view",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review281-view.log",
+      "durationMs": 241
+    },
+    {
+      "id": "review281-assets",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "python",
+        "tests/review281-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review281-assets.log",
+      "durationMs": 312
+    },
+    {
+      "id": "review281-baseline",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281-baseline.cjs"
+      ],
+      "framework": "level-integrity",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review281-baseline.log",
+      "durationMs": 336
+    },
+    {
+      "id": "review282-runtime",
+      "command": [
+        "node",
+        "tests/review282.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review282-runtime.log",
+      "durationMs": 3364
+    },
+    {
+      "id": "review282-view",
+      "command": [
+        "node",
+        "tests/review282-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review282-view.log",
+      "durationMs": 223
+    },
+    {
+      "id": "review282-assets",
+      "command": [
+        "python",
+        "tests/review282-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review282-assets.log",
+      "durationMs": 591
+    },
+    {
+      "id": "review282-water",
+      "command": [
+        "python",
+        "tests/review282-water.py"
+      ],
+      "framework": "environmental-simulation",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review282-water.log",
+      "durationMs": 1665
+    },
+    {
+      "id": "review282-baseline",
+      "command": [
+        "node",
+        "tests/review282-baseline.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review282-baseline.log",
+      "durationMs": 413
+    },
+    {
+      "id": "niko283-view",
+      "command": [
+        "node",
+        "tests/niko283-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-niko283-view.log",
+      "durationMs": 251
+    },
+    {
+      "id": "niko283-assets",
+      "command": [
+        "python",
+        "tests/niko283-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-niko283-assets.log",
+      "durationMs": 269
+    },
+    {
+      "id": "niko284-view",
+      "command": [
+        "node",
+        "tests/niko284-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-niko284-view.log",
+      "durationMs": 105
+    },
+    {
+      "id": "reverse-ddt285-view",
+      "command": [
+        "node",
+        "tests/reverse285-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reverse-ddt285-view.log",
+      "durationMs": 534
+    },
+    {
+      "id": "legthrow286-view",
+      "command": [
+        "node",
+        "tests/legthrow286-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-legthrow286-view.log",
+      "durationMs": 544
+    },
+    {
+      "id": "legthrow286-assets",
+      "command": [
+        "python",
+        "tests/legthrow286-assets.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-legthrow286-assets.log",
+      "durationMs": 81
+    },
+    {
+      "id": "recording287-pixels",
+      "command": [
+        "node",
+        "tests/recording287-render.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording287-pixels.log",
+      "durationMs": 109374
+    },
+    {
+      "id": "recording287-assets",
+      "command": [
+        "python",
+        "tests/recording287-assets.py"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording287-assets.log",
+      "durationMs": 187
+    },
+    {
+      "id": "recording287-view",
+      "command": [
+        "node",
+        "tests/recording287-view.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording287-view.log",
+      "durationMs": 219
+    },
+    {
+      "id": "recording287-baseline",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/recording287-baseline.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording287-baseline.log",
+      "durationMs": 20532
+    },
+    {
+      "id": "review294",
+      "command": [
+        "node",
+        "tests/review294.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-review294.log",
+      "durationMs": 3518
+    },
+    {
+      "id": "ground294-pixels",
+      "command": [
+        "node",
+        "tools/review294/render.cjs"
+      ],
+      "framework": "animation-ground-contact",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-ground294-pixels.log",
+      "durationMs": 22585
+    },
+    {
+      "id": "continuity296-runtime",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/continuity296.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-continuity296-runtime.log",
+      "durationMs": 347
+    },
+    {
+      "id": "continuity296-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/continuity296-view.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-continuity296-view.log",
+      "durationMs": 19419
+    },
+    {
+      "id": "attack297-runtime",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/attack297.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-attack297-runtime.log",
+      "durationMs": 443
+    },
+    {
+      "id": "attack297-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/attack297-view.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-attack297-view.log",
+      "durationMs": 20589
+    },
+    {
+      "id": "attack297-equivalence",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tools/attack297/equivalence.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-attack297-equivalence.log",
+      "durationMs": 4112
+    },
+    {
+      "id": "reactions298-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/reactions298-view.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-reactions298-view.log",
+      "durationMs": 26789
+    },
+    {
+      "id": "knockdowns299-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/knockdowns299-view.cjs"
+      ],
+      "framework": "knockdown-and-getup-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-knockdowns299-view.log",
+      "durationMs": 24357
+    },
+    {
+      "id": "grapples301-view-reap-thug",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "reap-thug"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-grapples301-view-reap-thug.log",
+      "durationMs": 23301
+    },
+    {
+      "id": "grapples301-view-reap-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "reap-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-grapples301-view-reap-enforcer.log",
+      "durationMs": 23706
+    },
+    {
+      "id": "grapples301-view-german-thug",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "german-thug"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-grapples301-view-german-thug.log",
+      "durationMs": 22608
+    },
+    {
+      "id": "grapples301-view-german-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "german-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-grapples301-view-german-enforcer.log",
+      "durationMs": 27337
+    },
+    {
+      "id": "grapples301-view-powerbomb-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "powerbomb-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-grapples301-view-powerbomb-enforcer.log",
+      "durationMs": 26003
+    },
+    {
+      "id": "contact302-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/contact302-view.cjs"
+      ],
+      "framework": "contact-feedback",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "failed",
+      "exitCode": 1,
+      "signal": null,
+      "log": "reports314/raster-contact302-view.log",
+      "durationMs": 20113
+    },
+    {
+      "id": "crowd303-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/crowd303-view.cjs"
+      ],
+      "framework": "crowd-coordination",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-crowd303-view.log",
+      "durationMs": 24266
+    },
+    {
+      "id": "plane304-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/plane304-view.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-plane304-view.log",
+      "durationMs": 27103
+    },
+    {
+      "id": "civilians305-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "failed",
+      "exitCode": null,
+      "signal": "SIGTERM",
+      "log": "reports314/raster-civilians305-view.log",
+      "durationMs": 180105
+    },
+    {
+      "id": "recording306-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/recording306-view.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording306-view.log",
+      "durationMs": 31661
+    },
+    {
+      "id": "style310-view",
+      "command": [
+        "node",
+        "tests/style310-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-style310-view.log",
+      "durationMs": 38558
+    },
+    {
+      "id": "style310-native",
+      "command": [
+        "node",
+        "tests/style310-native.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-style310-native.log",
+      "durationMs": 26712
+    },
+    {
+      "id": "style310-mechanics",
+      "command": [
+        "node",
+        "tests/style310-mechanics.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-style310-mechanics.log",
+      "durationMs": 32794
+    },
+    {
+      "id": "unique311-render",
+      "command": [
+        "node",
+        "tools/unique311/render.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-unique311-render.log",
+      "durationMs": 41980
+    },
+    {
+      "id": "recording312-enemy-view",
+      "command": [
+        "node",
+        "tools/recording312/enemy-view-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording312-enemy-view.log",
+      "durationMs": 26397
+    },
+    {
+      "id": "recording312-reina",
+      "command": [
+        "node",
+        "tools/recording312/reina-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording312-reina.log",
+      "durationMs": 31167
+    },
+    {
+      "id": "recording312-weather",
+      "command": [
+        "node",
+        "tools/recording312/weather-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording312-weather.log",
+      "durationMs": 31614
+    },
+    {
+      "id": "recording313-render",
+      "command": [
+        "node",
+        "tools/recording313/view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-recording313-render.log",
+      "durationMs": 26702
+    },
+    {
+      "id": "stadium313-render",
+      "command": [
+        "node",
+        "tools/stadium313/render.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-stadium313-render.log",
+      "durationMs": 23432
+    },
+    {
+      "id": "enemy313-render",
+      "command": [
+        "node",
+        "tools/enemy313/view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-enemy313-render.log",
+      "durationMs": 21793
+    },
+    {
+      "id": "hospital314-render",
+      "command": [
+        "node",
+        "tools/hospital314/render.cjs"
+      ],
+      "framework": "level-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "log": "reports314/raster-hospital314-render.log",
+      "durationMs": 25744
+    }
+  ],
+  "strategy": "Serial raster/presentation worker, disjoint from simulation-only worker; source identical.",
+  "complete": true
+}

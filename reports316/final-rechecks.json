@@ -1,0 +1,164 @@
+[
+  {
+    "id": "energy316-runtime",
+    "command": [
+      "node",
+      "tests/energy316.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "energy316-ui",
+    "command": [
+      "node",
+      "tests/energy316-ui.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "pcbi316-combat",
+    "command": [
+      "node",
+      "tests/pcbi316-gates.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "pcbi316-art",
+    "command": [
+      "node",
+      "tools/pcbi316/check.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "feds316-runtime",
+    "command": [
+      "node",
+      "tests/feds316.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "counter-weapon248",
+    "command": [
+      "node",
+      "tests/counters248.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "nightshade-foundation251",
+    "command": [
+      "node",
+      "tests/nightshade251.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "nightshade-gate6-263",
+    "command": [
+      "node",
+      "tests/nightshade263.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "nightshade267",
+    "command": [
+      "node",
+      "tests/nightshade267.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "niko284-regression",
+    "command": [
+      "node",
+      "tests/niko284.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "reina279-runtime",
+    "command": [
+      "node",
+      "tests/reina279.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "diagnostics307-input",
+    "command": [
+      "node",
+      "tests/diagnostics307-input.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "unique311-runtime",
+    "command": [
+      "node",
+      "tests/unique311.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "stats266",
+    "command": [
+      "node",
+      "tests/stats266.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "plane304-runtime",
+    "command": [
+      "node",
+      "tests/plane304.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "energy316-baseline-comparison",
+    "command": [
+      "node",
+      "tools/energy316/balance.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "feds316-render",
+    "command": [
+      "node",
+      "tools/feds316/render.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  },
+  {
+    "id": "presentation275",
+    "command": [
+      "node",
+      "tests/presentation275.cjs"
+    ],
+    "passed": true,
+    "exit": 0
+  }
+]

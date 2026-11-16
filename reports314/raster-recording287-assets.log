@@ -1,0 +1,3 @@
+PASS287 ASSETS:8 wholebody Niko poses,12 backward-fall frames, binary alpha, fixed anatomical scales, retained Bruno geometry and exact alpha
+/workspace/scratch/96a3e452279b/urban-fracture-airport-recovery/.sites-checkout/tests/recording287-assets.py:6: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  im=Image.open('dist/'+q['src']).convert('RGBA');alpha=im.getchannel('A');assert set(alpha.getdata())<={0,255};assert sum(v>0 for v in alpha.getdata())>1000;assert q['ay']==q['h'];assert q['w']>0 and q['h']>0

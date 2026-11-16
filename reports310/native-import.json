@@ -1,0 +1,97 @@
+{
+  "native-reina": {
+    "frames": 24,
+    "fixedImportFactor": 0.9978260869565218,
+    "standingRefs": [
+      0,
+      7
+    ],
+    "canvas": [
+      2176,
+      750
+    ],
+    "note": "Uniform family import scale; compressed poses never independently enlarged; native clocks and visual air lift retained."
+  },
+  "native-reinaExtra": {
+    "frames": 32,
+    "fixedImportFactor": 0.9612394808158607,
+    "standingRefs": [
+      0,
+      7,
+      8,
+      15,
+      16,
+      23,
+      24,
+      31
+    ],
+    "canvas": [
+      1696,
+      796
+    ],
+    "note": "Uniform family import scale; compressed poses never independently enlarged; native clocks and visual air lift retained."
+  },
+  "native-reinaDash": {
+    "frames": 8,
+    "fixedImportFactor": 0.6449194594526517,
+    "standingRefs": [
+      0,
+      7
+    ],
+    "canvas": [
+      976,
+      548
+    ],
+    "note": "Uniform family import scale; compressed poses never independently enlarged; native clocks and visual air lift retained."
+  },
+  "joint-german-marcus": {
+    "frames": 16,
+    "fixedImportFactor": 0.5322168562081322,
+    "canvas": [
+      836,
+      648
+    ],
+    "approvedSimulationMetadataUnchanged": true,
+    "separatePresentationRoots": true
+  },
+  "joint-german-bruno": {
+    "frames": 16,
+    "fixedImportFactor": 0.603739077423288,
+    "canvas": [
+      944,
+      712
+    ],
+    "approvedSimulationMetadataUnchanged": true,
+    "separatePresentationRoots": true
+  },
+  "joint-reap-marcus": {
+    "frames": 16,
+    "fixedImportFactor": 0.5018247435221606,
+    "canvas": [
+      720,
+      612
+    ],
+    "approvedSimulationMetadataUnchanged": true,
+    "separatePresentationRoots": true
+  },
+  "joint-reap-bruno": {
+    "frames": 16,
+    "fixedImportFactor": 0.5403051134758452,
+    "canvas": [
+      752,
+      704
+    ],
+    "approvedSimulationMetadataUnchanged": true,
+    "separatePresentationRoots": true
+  },
+  "joint-powerbomb": {
+    "frames": 16,
+    "fixedImportFactor": 0.5056585712300637,
+    "canvas": [
+      696,
+      688
+    ],
+    "approvedSimulationMetadataUnchanged": true,
+    "separatePresentationRoots": true
+  }
+}

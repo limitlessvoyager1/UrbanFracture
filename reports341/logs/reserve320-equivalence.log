@@ -1,0 +1,17 @@
+cache-rooms336.js:9
+const mission=N.Energy316.mission;N.Energy316.mission=function(g){return active(g)?definitions.find(q=>q.id===g.cacheRoom336.id).district:mission(g);};const ammo=N.NightshadeAmmo256.section;N.NightshadeAmmo256.section=function(g){return active(g)?definitions.find(q=>q.id===g.cacheRoom336.id).scene:ammo(g);};
+                                                                                                                                          ^
+
+TypeError: mission is not a function
+    at N.Energy316.mission (cache-rooms336.js:9:139)
+    at location (city334.js:6:182)
+    at observe (city334.js:13:116)
+    at P.tick (city334.js:20:70)
+    at P.tick (cache-rooms336.js:10:924)
+    at P.tick (messages335.js:27:56)
+    at P.tick (nova333.js:14:76)
+    at P.tick (repairs337.js:9:116)
+    at P.<computed> (player-resources340.js:13:222)
+    at Object.<anonymous> (/workspace/scratch/96a3e452279b/update341/.sites-checkout/tests/reserve320-equivalence.cjs:1:2031)
+
+Node.js v24.22.1

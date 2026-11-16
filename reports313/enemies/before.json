@@ -1,0 +1,332 @@
+[
+  {
+    "type": "torranceBaylor",
+    "name": "idle",
+    "bounds": [
+      140,
+      160,
+      261,
+      329
+    ],
+    "height": 170,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "idle"
+    }
+  },
+  {
+    "type": "torranceBaylor",
+    "name": "walk",
+    "bounds": [
+      151,
+      159,
+      260,
+      329
+    ],
+    "height": 171,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "walk"
+    }
+  },
+  {
+    "type": "torranceBaylor",
+    "name": "foul",
+    "bounds": [
+      140,
+      160,
+      261,
+      329
+    ],
+    "height": 170,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "idle"
+    }
+  },
+  {
+    "type": "torranceBaylor",
+    "name": "charge",
+    "bounds": [
+      140,
+      160,
+      261,
+      329
+    ],
+    "height": 170,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "idle"
+    }
+  },
+  {
+    "type": "torranceBaylor",
+    "name": "hurt",
+    "bounds": [
+      155,
+      194,
+      244,
+      329
+    ],
+    "height": 136,
+    "render": {
+      "identity": "bruno",
+      "frame": 1,
+      "phase": "medium",
+      "source": "assets/enemies312/bruno-reactions.webp",
+      "ground": 470,
+      "scale": 0.4910394265232975
+    }
+  },
+  {
+    "type": "torranceBaylor",
+    "name": "idle",
+    "bounds": [
+      140,
+      160,
+      261,
+      329
+    ],
+    "height": 170,
+    "render": {
+      "identity": "bruno",
+      "frame": 1,
+      "phase": "medium",
+      "source": "assets/enemies312/bruno-reactions.webp",
+      "ground": 470,
+      "scale": 0.4910394265232975
+    }
+  },
+  {
+    "type": "biker",
+    "name": "idle",
+    "bounds": [
+      160,
+      191,
+      240,
+      329
+    ],
+    "height": 139,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "idle"
+    }
+  },
+  {
+    "type": "biker",
+    "name": "chainLash",
+    "action": "chainLash",
+    "bounds": [
+      139,
+      207,
+      370,
+      329
+    ],
+    "height": 123,
+    "render": {
+      "kind": "attack",
+      "move": "chainLash",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "name": "chainSweep",
+    "action": "chainSweep",
+    "bounds": [
+      139,
+      207,
+      370,
+      329
+    ],
+    "height": 123,
+    "render": {
+      "kind": "attack",
+      "move": "chainSweep",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "name": "chainFist",
+    "action": "chainFist",
+    "bounds": [
+      139,
+      207,
+      286,
+      329
+    ],
+    "height": 123,
+    "render": {
+      "kind": "attack",
+      "move": "chainFist",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "name": "chainRise",
+    "action": "chainRise",
+    "bounds": [
+      160,
+      192,
+      240,
+      329
+    ],
+    "height": 138,
+    "render": {
+      "kind": "attack",
+      "move": "chainFist",
+      "frame": 4,
+      "contact": true,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "biker",
+    "name": "walk",
+    "bounds": [
+      176,
+      193,
+      240,
+      329
+    ],
+    "height": 137,
+    "render": {
+      "kind": "walk",
+      "frame": 2,
+      "wholeBody": true
+    }
+  },
+  {
+    "type": "flintUnarmed",
+    "name": "idle",
+    "bounds": [
+      147,
+      190,
+      252,
+      329
+    ],
+    "height": 140,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "idle"
+    }
+  },
+  {
+    "type": "flintUnarmed",
+    "name": "walk",
+    "bounds": [
+      144,
+      189,
+      255,
+      329
+    ],
+    "height": 141,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "walk"
+    }
+  },
+  {
+    "type": "flintUnarmed",
+    "name": "hook",
+    "action": "hook",
+    "bounds": [
+      131,
+      204,
+      268,
+      329
+    ],
+    "height": 126,
+    "render": {
+      "time": 0.12,
+      "owner": "native action",
+      "family": "native delegated",
+      "frame": null,
+      "state": "active"
+    }
+  },
+  {
+    "type": "flintUnarmed",
+    "name": "oneTwo",
+    "action": "oneTwo",
+    "bounds": [
+      131,
+      204,
+      268,
+      329
+    ],
+    "height": 126,
+    "render": {
+      "time": 0.12,
+      "owner": "native action",
+      "family": "native delegated",
+      "frame": null,
+      "state": "active"
+    }
+  },
+  {
+    "type": "flintUnarmed",
+    "name": "hurt",
+    "bounds": [
+      140,
+      195,
+      260,
+      330
+    ],
+    "height": 136,
+    "render": {
+      "time": 0.12,
+      "owner": "native damage",
+      "family": "native delegated",
+      "frame": null,
+      "state": "hitstun"
+    }
+  },
+  {
+    "type": "flintUnarmed",
+    "name": "idle",
+    "bounds": [
+      147,
+      190,
+      252,
+      329
+    ],
+    "height": 140,
+    "render": {
+      "time": 0.12,
+      "owner": "native locomotion",
+      "family": "native delegated",
+      "frame": null,
+      "state": "idle"
+    }
+  }
+]

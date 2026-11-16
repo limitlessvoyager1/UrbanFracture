@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "checks": 1323,
+  "sections": 26,
+  "floors": 7,
+  "graph": {
+    "basement": [
+      "laboratory",
+      "radiology",
+      "chemotherapy",
+      "pharmacy",
+      "morgue",
+      "laundry",
+      "loading-dock",
+      "lobby-1",
+      "lobby-1",
+      "lobby-2",
+      "lobby-3",
+      "lobby-4",
+      "lobby-5",
+      "helipad"
+    ],
+    "lobby-1": [
+      "er",
+      "outpatient",
+      "cafeteria",
+      "lobby-2",
+      "basement",
+      "basement",
+      "lobby-2",
+      "lobby-3",
+      "lobby-4",
+      "lobby-5",
+      "helipad"
+    ],
+    "lobby-2": [
+      "surgical",
+      "administrative",
+      "lobby-3",
+      "lobby-1",
+      "basement",
+      "lobby-1",
+      "lobby-3",
+      "lobby-4",
+      "lobby-5",
+      "helipad"
+    ],
+    "lobby-3": [
+      "psychiatric",
+      "rehabilitation",
+      "skybridge",
+      "lobby-4",
+      "lobby-2",
+      "basement",
+      "lobby-1",
+      "lobby-2",
+      "lobby-4",
+      "lobby-5",
+      "helipad"
+    ],
+    "lobby-4": [
+      "oncology",
+      "cardiology",
+      "lobby-5",
+      "lobby-3",
+      "basement",
+      "lobby-1",
+      "lobby-2",
+      "lobby-3",
+      "lobby-5",
+      "helipad"
+    ],
+    "lobby-5": [
+      "vip",
+      "helipad",
+      "lobby-4",
+      "basement",
+      "lobby-1",
+      "lobby-2",
+      "lobby-3",
+      "lobby-4",
+      "helipad"
+    ],
+    "helipad": [
+      "basement",
+      "lobby-1",
+      "lobby-2",
+      "lobby-3",
+      "lobby-4",
+      "lobby-5"
+    ],
+    "vip": [
+      "lobby-5"
+    ],
+    "oncology": [
+      "lobby-4"
+    ],
+    "cardiology": [
+      "lobby-4"
+    ],
+    "psychiatric": [
+      "lobby-3"
+    ],
+    "rehabilitation": [
+      "lobby-3"
+    ],
+    "surgical": [
+      "lobby-2"
+    ],
+    "administrative": [
+      "lobby-2"
+    ],
+    "er": [
+      "lobby-1"
+    ],
+    "outpatient": [
+      "lobby-1"
+    ],
+    "cafeteria": [
+      "lobby-1"
+    ],
+    "laboratory": [
+      "basement"
+    ],
+    "radiology": [
+      "basement"
+    ],
+    "chemotherapy": [
+      "basement"
+    ],
+    "pharmacy": [
+      "basement"
+    ],
+    "morgue": [
+      "basement"
+    ],
+    "laundry": [
+      "basement"
+    ],
+    "loading-dock": [
+      "basement",
+      "garage"
+    ],
+    "skybridge": [
+      "lobby-3",
+      "garage"
+    ],
+    "garage": [
+      "skybridge",
+      "loading-dock"
+    ]
+  },
+  "allHeroes": true,
+  "rates": [
+    30,
+    60,
+    120
+  ],
+  "bossPending": true
+}

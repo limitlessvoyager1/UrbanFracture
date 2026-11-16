@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/96a3e452279b/urban-fracture306/.sites-checkout/tests/orion271-assets.py", line 13, in <module>
+    if name!='orion205-data.js' and not key.startswith('orion'):assert f==o;continue
+                                                                       ^^^^
+AssertionError

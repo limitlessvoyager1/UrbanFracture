@@ -1,0 +1,188 @@
+[
+  {
+    "id": "subway247",
+    "command": [
+      "node",
+      "tests/subway247.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 14626
+  },
+  {
+    "id": "subway238",
+    "command": [
+      "node",
+      "tests/subway238.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 40477
+  },
+  {
+    "id": "hydro243-progression",
+    "command": [
+      "node",
+      "tests/hydro243.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 42780
+  },
+  {
+    "id": "hydro243-view",
+    "command": [
+      "node",
+      "tests/hydro243-view.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 228
+  },
+  {
+    "id": "hydro243-controller",
+    "command": [
+      "node",
+      "tests/hydro243-controller.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 4064
+  },
+  {
+    "id": "industrial317-runtime",
+    "command": [
+      "node",
+      "tests/industrial317.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 6334
+  },
+  {
+    "id": "controller240",
+    "command": [
+      "node",
+      "tests/stadium240-controller.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 3583
+  },
+  {
+    "id": "diagnostics307-input",
+    "command": [
+      "node",
+      "tests/diagnostics307-input.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 301
+  },
+  {
+    "id": "practice282",
+    "command": [
+      "node",
+      "tests/practice282.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 6947
+  },
+  {
+    "id": "presentation275",
+    "command": [
+      "node",
+      "tests/presentation275.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 443
+  },
+  {
+    "id": "feds316-runtime",
+    "command": [
+      "node",
+      "tests/feds316.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 979
+  },
+  {
+    "id": "energy316-runtime",
+    "command": [
+      "node",
+      "tests/energy316.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 1656
+  },
+  {
+    "id": "current-runtime-certification",
+    "command": [
+      "node",
+      "tests/qa242-runtime.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 560
+  },
+  {
+    "id": "scene-scale-certification",
+    "command": [
+      "node",
+      "tests/qa242-scenes.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 257
+  },
+  {
+    "id": "contact302-view",
+    "command": [
+      "node",
+      "--expose-gc",
+      "tests/contact302-view.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "durationMs": 30085
+  },
+  {
+    "id": "grapples301-view-powerbomb-enforcer",
+    "command": [
+      "node",
+      "--expose-gc",
+      "tests/grapples301-view.cjs",
+      "powerbomb-enforcer"
+    ],
+    "passed": true,
+    "exit": 0,
+    "signal": null,
+    "durationMs": 57423
+  },
+  {
+    "id": "hospital314-render",
+    "command": [
+      "node",
+      "tools/hospital314/render.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "signal": null,
+    "durationMs": 25500
+  },
+  {
+    "id": "industrial317-render",
+    "command": [
+      "node",
+      "tools/industrial317/render.cjs"
+    ],
+    "passed": true,
+    "exit": 0,
+    "signal": null,
+    "durationMs": 33264
+  }
+]

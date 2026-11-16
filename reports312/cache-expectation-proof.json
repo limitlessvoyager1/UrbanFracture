@@ -1,0 +1,8 @@
+{
+  "productionDigestBefore": "20bfa2da6f78da23e4ce534b946d5d59fa11ccdc536658a13c5b5ec588c729e7",
+  "productionDigestAfter": "20bfa2da6f78da23e4ce534b946d5d59fa11ccdc536658a13c5b5ec588c729e7",
+  "changedTest": "tests/contact302-view.cjs",
+  "old": "name==='game'?'311':'302'",
+  "new": "name==='game'?'312':'302'",
+  "productionUnchanged": true
+}
