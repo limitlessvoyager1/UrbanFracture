@@ -10,7 +10,7 @@ def inventory():
     for p in sorted((ROOT/'dist/assets').rglob('*')):
         if p.suffix.lower() not in ['.png','.webp','.jpg','.jpeg']: continue
         with Image.open(p) as im:
-            rows.append(dict(path=str(p.relative_to(ROOT)),sha256=sha(p),width=im.width,height=im.height,status='retained-unreviewed'))
+            rows.append(dict(path=p.relative_to(ROOT).as_posix(),sha256=sha(p),width=im.width,height=im.height,status='retained-unreviewed'))
     return rows
 
 def run():
@@ -31,14 +31,15 @@ def run():
     derivative=json.loads((ROOT/'qa/system242/derivative-assets316.json').read_text())
     for row in derivative['assets']:
         current=ROOT/row['path']; backup=ROOT/row['backup']; prev=old.get(row['path'])
-        valid=bool(prev and backup.is_file() and sha(backup)==row['originalSha256']==prev['sha256'] and sha(current)==row['candidateSha256'])
+        original_verified=bool(prev and backup.is_file() and sha(backup)==row['originalSha256']==prev['sha256'])
+        valid=bool(original_verified and current.is_file() and sha(current)==row['candidateSha256'])
         maximum=None
         if valid:
             with Image.open(backup) as a, Image.open(current) as b:
                 valid=a.size==b.size==(row['width'],row['height'])
                 if valid:
                     aa=a.convert('RGBA'); bb=b.convert('RGBA'); delta=ImageChops.difference(aa,bb); ext=delta.getextrema(); maximum=max(v[1] for v in ext[:3]); valid=maximum<=1 and ext[3][1]==0
-        checks.append(dict(id=row['path']+'-derivative316',status='passed' if valid else 'failed',evidence=dict(originalHashVerified=bool(prev),maxDecodedRGBDelta=maximum,alphaUnchanged=valid,artisticApproval=False)))
+        checks.append(dict(id=row['path']+'-derivative316',status='passed' if valid else 'failed',evidence=dict(originalHashVerified=original_verified,maxDecodedRGBDelta=maximum,alphaUnchanged=valid,artisticApproval=False)))
         if not valid:issues.append(dict(code='invalid-reversible-background-derivative',id=row['path'],severity='error',proposal='Restore verified original; do not update inventory to bypass the derivative policy.',automaticCorrection=False))
     raw=(ROOT/'dist/forest-run240-data.js').read_text(); d=json.loads(raw.split('Object.assign(window.NeonForest125Data,')[1].split(');')[0])['forest-run240']
     with Image.open(ROOT/'dist'/d['src']) as image:

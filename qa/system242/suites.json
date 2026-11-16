@@ -4109,6 +4109,241 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "backup371-current",
+      "command": [
+        "node",
+        "tests/backup371.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "backup374-current",
+      "command": [
+        "node",
+        "tests/backup374.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "backup375-current",
+      "command": [
+        "node",
+        "tests/backup375.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "backup376-current",
+      "command": [
+        "node",
+        "tests/backup376.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "backup377-current",
+      "command": [
+        "node",
+        "tests/backup377.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "broxton366-current",
+      "command": [
+        "node",
+        "tests/broxton366.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina378-input-current",
+      "command": [
+        "node",
+        "tests/reina378-input.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina378-current",
+      "command": [
+        "node",
+        "tests/reina378.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina381-current",
+      "command": [
+        "node",
+        "tests/reina381.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina382-current",
+      "command": [
+        "node",
+        "tests/reina382.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina383-current",
+      "command": [
+        "node",
+        "tests/reina383.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "support370-current",
+      "command": [
+        "node",
+        "tests/support370.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "qa242-integrity",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-integrity.cjs"
+      ],
+      "framework": "qa-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "qa242-release-integrity",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-release-integrity.cjs"
+      ],
+      "framework": "qa-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "source-integrity",
+      "command": [
+        "node",
+        "--test",
+        "tests/source-integrity.cjs"
+      ],
+      "framework": "qa-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina383-render-audit",
+      "command": [
+        "node",
+        "tools/reina383/audit.cjs"
+      ],
+      "framework": "current-rendered-evidence",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "broxton369-gait-order",
+      "command": [
+        "node",
+        "tools/broxton369/gait-order.cjs"
+      ],
+      "framework": "current-rendered-evidence",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "backup365-current",
+      "command": [
+        "node",
+        "tests/backup365.cjs"
+      ],
+      "framework": "current-build383-native",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [
