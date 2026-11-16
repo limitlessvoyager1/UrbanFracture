@@ -4527,6 +4527,23 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "orion386-counters",
+      "command": [
+        "node",
+        "--test",
+        "tests/orion386-counters.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports386/counters.json"
+      ]
     }
   ],
   "manualGates": [

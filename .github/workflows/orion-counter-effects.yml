@@ -1,0 +1,32 @@
+name: Orion counter and effects regression
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'dist/orion384.js'
+      - 'dist/orion-view384.js'
+      - 'source-archive/*before386.js'
+      - 'tests/orion386*'
+      - '.github/workflows/orion-counter-effects.yml'
+permissions:
+  contents: read
+jobs:
+  counter-effects:
+    name: Orion counter landing effects and native equivalence
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - name: Current counter outcomes landing and read-only electrical cues
+        run: node --test tests/orion386-counters.cjs
+      - name: Existing locomotion and controller regressions
+        run: |
+          node --test tests/orion385-locomotion.cjs
+          node tests/gamepad.test.cjs
+          node tests/controller157.cjs

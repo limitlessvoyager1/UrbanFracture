@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "orion-counter-effects",
+  "description": "Distinct native Counter248 presentation, eight-frame landing and read-only live electrical cues; no gameplay/balance changes.",
+  "files": [
+    "ORION386-COUNTER-EFFECTS-REPAIR.md",
+    "dist/orion384.js",
+    "dist/orion-view384.js",
+    "source-archive/orion384-before386.js",
+    "source-archive/orion-view384-before386.js",
+    "tests/orion386-counters.cjs",
+    "qa/system242/changes/orion-counter-effects.json",
+    "reports386/counters.json",
+    "qa/system242/suites.json",
+    ".github/workflows/orion-counter-effects.yml"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering"
+  ],
+  "entities": {
+    "characters": [
+      "orion"
+    ],
+    "moves": [
+      "counter-punch",
+      "counter-kick",
+      "counter-short",
+      "counter-long",
+      "landing",
+      "charge",
+      "paired-electrical-effects"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "ORION-A02",
+    "ORION-A03"
+  ]
+}
