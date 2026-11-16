@@ -1,4 +1,4 @@
-# QA242 — execution, acceptance and rollback
+# QA242 â€” execution, acceptance and rollback
 
 Current change declarations, impact planning, immutable reports, CI and acceptance semantics are defined in [QA242-POLICY.md](QA242-POLICY.md). Use `preflight.cjs`, then `impact.cjs` with exact base/head and a reviewed declaration, and pass the generated plan using `run.cjs --impact`. A major integration or explicit release with an impact plan executes every registered release suite. `reports242/runs/<id>/` holds immutable reports/logs/artifacts; latest files are pointers. Exit 2 also represents unavailable/blocked execution. Do not interpret the historical build/module counts or the older Orion limitation below as current results; consult current catalog and source-bound reports. Current policy is a pilot, and branch protection remains disabled.
 
@@ -23,7 +23,7 @@ The test registry orchestrates existing suites; those fixtures have different lo
 
 ## Candidate screenshots
 
-Start managed preview with `sites-preview start /workspace/sites/urban-fracture` and open its returned URL with `/qa242.html`. This separate developer gallery freezes seed242, clock30s, fixed camera, lighting/weather and1920×1080 capture. Wait for READY. Choose a scenario, download candidate PNG and metadata. Keep the same browser/OS/renderer/DPR/font state for comparisons. Do not use full-page UI screenshots as if they were canvas baseline captures.
+Start managed preview with `sites-preview start /workspace/sites/urban-fracture` and open its returned URL with `/qa242.html`. This separate developer gallery freezes seed242, clock30s, fixed camera, lighting/weather and1920Ã—1080 capture. Wait for READY. Choose a scenario, download candidate PNG and metadata. Keep the same browser/OS/renderer/DPR/font state for comparisons. Do not use full-page UI screenshots as if they were canvas baseline captures.
 
 No gameplay screenshot baseline is approved in this iteration. Comparator fixture tests are only proof that the comparator detects image differences.
 
@@ -66,7 +66,7 @@ git worktree add /workspace/sites/urban-fracture-qa242-recovery checkpoint-befor
 
 For production recovery, select the previously saved Build241 Site version `appgprj_6adb9b94a3788191809a764c3e7bbb37~appgver_ab670c3533588191a64dd876d2d37cb6` and redeploy that saved version with the existing private audience. Do not recreate the Site or change sharing. Verify terminal deployment success. For a source rollback, create a separate recovery branch/worktree, review the diff and push a reversible revert/recovery commit through the source helper; avoid destructive reset of the active project. Retain failed QA evidence outside the runtime deployment.
 
-One known filename rule is available: `node tools/qa242/fix-known.cjs` proposes it; adding `--apply` permits only the exact validated Uptown PNG→WebP loader reference. Unexpected hashes refuse. It never repairs arbitrary filenames, resizes art or updates a screenshot baseline. Record corrections.json and rerun the release profile after any applied repair.
+One known filename rule is available: `node tools/qa242/fix-known.cjs` proposes it; adding `--apply` permits only the exact validated Uptown PNGâ†’WebP loader reference. Unexpected hashes refuse. It never repairs arbitrary filenames, resizes art or updates a screenshot baseline. Record corrections.json and rerun the release profile after any applied repair.
 
 ## QA-only pilot acceptance
 
@@ -85,3 +85,7 @@ See [the certification-readiness procedure](qa/system242/CERTIFICATION-READINESS
 ## Production ownership and character/move matrix
 
 See [the production coverage procedure](qa/system242/PRODUCTION-COVERAGE.md) for exact main-entrypoint ownership assignments and the initial source/assertion/execution matrix. Every feature remains partial and the registry remains pilot. A passing selected suite covers only the cited assertion scenarios; no test-name, definition, facing loop, shared input check or renderer bootstrap is a full move certificate.
+
+## Orion current coverage
+
+See [Orion coverage](qa/system242/ORION-COVERAGE.md) for the current-adapter tests, the superseded counter distinction, exact fixture scopes and remaining gaps. Pilot QA acceptance does not certify these moves, rendered quality or hardware input.

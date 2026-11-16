@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "orion-move-coverage",
+  "description": "QA-only current-adapter Orion assertion coverage, explicit superseded counter routing and source-bound matrix bindings. No gameplay, protection or merge changes.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    ".github/workflows/qa242.yml",
+    "QA242-RUNBOOK.md",
+    "qa/system242/ORION-COVERAGE.md",
+    "qa/system242/PRODUCTION-COVERAGE.md",
+    "qa/system242/changes/orion-move-coverage.json",
+    "qa/system242/character-moves.json",
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tests/qa242-orion-coverage.cjs",
+    "tests/qa242-orion-current.cjs",
+    "tools/qa242/production-coverage.cjs"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": []
+}

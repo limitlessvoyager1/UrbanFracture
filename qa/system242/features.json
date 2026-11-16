@@ -767,7 +767,11 @@
           "orion/meteorMove/definition",
           "orion/currentMove/definition",
           "orion/laserMove/definition",
-          "orion/charged-ability/charged"
+          "orion/charged-ability/charged",
+          "orion/current-counter/punch",
+          "orion/current-counter/kick",
+          "orion/current-counter/short",
+          "orion/current-counter/long"
         ],
         "systems": [
           "hero-orion"
@@ -781,12 +785,14 @@
       "suites": [
         "orion271-assets",
         "orion271-view",
-        "security216-legacy"
+        "security216-legacy",
+        "orion-current-coverage"
       ],
       "visualScenarios": [],
       "performanceRisk": true,
       "specs": [
-        "qa/system242/PRODUCTION-COVERAGE.md"
+        "qa/system242/PRODUCTION-COVERAGE.md",
+        "qa/system242/ORION-COVERAGE.md"
       ],
       "contentIds": [],
       "certification": "partial"
