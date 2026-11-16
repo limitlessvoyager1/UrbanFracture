@@ -15,6 +15,7 @@ on:
 permissions:
   contents: read
   pull-requests: read
+  issues: read
 concurrency:
   group: qa242-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: false
@@ -41,12 +42,14 @@ jobs:
           npm ci --ignore-scripts --prefix tools/fighter-render
           cd tools/fighter-render
           npx playwright install --with-deps chromium
+      - name: Inventory pinned game coverage without certifying it
+        run: node tools/qa242/coverage.cjs --require-current
       - name: Validate policy and negative fixtures
         env:
           NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
         run: |
           node tools/qa242/preflight.cjs
-          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs
+          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs
       - name: Impact, shared smoke and applicable QA242 profile
         if: ${{ !cancelled() }}
         env:
@@ -63,6 +66,7 @@ jobs:
             reports242/impact-plan.json
             reports242/ci-status.json
             reports242/latest-run.json
+            reports242/readiness/
           if-no-files-found: warn
           retention-days: 30
   pilot-owner:

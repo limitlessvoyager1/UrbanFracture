@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "certification-readiness",
+  "description": "QA-only static coverage inventory and separate authenticated owner-comment approval for each source-bound game-evidence record. No gameplay, certification promotion, branch protection or merge.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    ".github/workflows/qa242.yml",
+    "QA242-POLICY.md",
+    "QA242-RUNBOOK.md",
+    "qa/system242/CERTIFICATION-READINESS.md",
+    "qa/system242/certifications.schema.json",
+    "qa/system242/changes/certification-readiness.json",
+    "qa/system242/coverage-source-index.json",
+    "tests/qa242-readiness.cjs",
+    "tools/qa242/coverage.cjs",
+    "tools/qa242/evidence.cjs",
+    "tools/qa242/game-evidence.cjs"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "features": [
+    "qa242"
+  ],
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": []
+}

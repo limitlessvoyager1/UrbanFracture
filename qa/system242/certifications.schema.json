@@ -107,8 +107,7 @@
           "approval": {
             "type": "object",
             "required": [
-              "pullRequest",
-              "reviewId"
+              "pullRequest"
             ],
             "additionalProperties": false,
             "properties": {
@@ -119,6 +118,13 @@
               "reviewId": {
                 "type": "number",
                 "minimum": 1
+              },
+              "method": {
+                "type": "string",
+                "enum": [
+                  "review",
+                  "owner-comment"
+                ]
               }
             }
           },
@@ -144,6 +150,10 @@
           "baselineId": {
             "type": "string",
             "minLength": 1
+          },
+          "baseCommit": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{40}$"
           }
         }
       }
