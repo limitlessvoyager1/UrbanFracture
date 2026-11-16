@@ -17,12 +17,15 @@
     "qa/system242/performance-baselines.json",
     "qa/system242/report.schema.json",
     "qa/system242/suites.json",
+    "tests/qa242-pilot.cjs",
     "tests/qa242-policy.cjs",
+    "tools/qa242/check-pilot.cjs",
     "tools/qa242/check-release.cjs",
     "tools/qa242/ci.cjs",
     "tools/qa242/evidence.cjs",
     "tools/qa242/fingerprint.cjs",
     "tools/qa242/impact.cjs",
+    "tools/qa242/pilot.cjs",
     "tools/qa242/preflight.cjs",
     "tools/qa242/release.cjs",
     "tools/qa242/report.cjs",
@@ -54,5 +57,6 @@
     "https://github.com/limitlessvoyager1/UrbanFracture/issues/5",
     "https://github.com/limitlessvoyager1/UrbanFracture/issues/6",
     "https://github.com/limitlessvoyager1/UrbanFracture/issues/7"
-  ]
+  ],
+  "acceptanceScope": "qa-infrastructure-pilot"
 }

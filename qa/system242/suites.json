@@ -4384,6 +4384,20 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "qa242-pilot",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-pilot.cjs"
+      ],
+      "framework": "qa-policy",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

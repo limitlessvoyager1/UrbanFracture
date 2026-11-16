@@ -13,7 +13,8 @@
     "knockdown-admission",
     "post-hit-reassessment",
     "gamepad-current",
-    "controller157-current"
+    "controller157-current",
+    "qa242-pilot"
   ],
   "features": [
     {
@@ -43,7 +44,8 @@
         "qa242-policy",
         "qa242-integrity",
         "qa242-release-integrity",
-        "validator-self-tests"
+        "validator-self-tests",
+        "qa242-pilot"
       ],
       "visualScenarios": [],
       "performanceRisk": false,

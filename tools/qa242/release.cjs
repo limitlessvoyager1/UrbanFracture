@@ -1,7 +1,7 @@
 'use strict';
 const crypto=require('node:crypto'),V=require('./validators.cjs');
 function validateRelease(report,{spec,sourceFingerprint,criticalIssues=[],readLog,manualEvidence={},performanceEvidence=null}){
- const problems=[],rows=Array.isArray(report?.results)?report.results:[];
+ const problems=[];if(report?.acceptanceScope==='qa-infrastructure-pilot'||report?.impact?.acceptanceScope==='qa-infrastructure-pilot')problems.push('QA-only pilot acceptance cannot certify a game release.');const rows=Array.isArray(report?.results)?report.results:[];
  if(report?.profile!=='release')problems.push('Release profile required.');
  if(report?.sourceFingerprint!==sourceFingerprint||report?.sourceChangedDuringTests!==false)problems.push('Missing, changed or stale source fingerprint.');
  const declared=new Map(spec.suites.map(s=>[s.id,s])),manual=new Set(spec.manualGates),seen=new Set();

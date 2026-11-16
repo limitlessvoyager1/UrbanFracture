@@ -173,6 +173,13 @@
         "minLength": 1
       },
       "uniqueItems": true
+    },
+    "acceptanceScope": {
+      "type": "string",
+      "enum": [
+        "game-change",
+        "qa-infrastructure-pilot"
+      ]
     }
   }
 }

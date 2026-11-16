@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   qa242:
-    name: QA242 evidence and acceptance
+    name: QA242 automated checks
     runs-on: ubuntu-24.04
     timeout-minutes: 180
     steps:
@@ -46,7 +46,7 @@ jobs:
           NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
         run: |
           node tools/qa242/preflight.cjs
-          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs
+          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs
       - name: Impact, shared smoke and applicable QA242 profile
         if: ${{ !cancelled() }}
         env:
@@ -65,3 +65,32 @@ jobs:
             reports242/latest-run.json
           if-no-files-found: warn
           retention-days: 30
+  pilot-owner:
+    name: QA242 pilot owner acceptance
+    needs: qa242
+    if: ${{ github.event_name == 'pull_request' && needs.qa242.result == 'success' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: read
+      issues: read
+      actions: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: qa242-${{ github.run_id }}-*
+          path: ${{ runner.temp }}/qa242-evidence
+          merge-multiple: false
+      - name: Verify exact evidence and authenticated owner comment
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/qa242/check-pilot.cjs "${{ runner.temp }}/qa242-evidence"
