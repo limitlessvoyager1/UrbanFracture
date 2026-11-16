@@ -38,7 +38,7 @@ jobs:
           python-version: '3.12.14'
       - name: Install pinned test prerequisites
         run: |
-          python -m pip install Pillow==13.0.0
+          python -m pip install Pillow==13.0.0 numpy==2.2.6
           npm ci --ignore-scripts --prefix tools/fighter-render
           cd tools/fighter-render
           npx playwright install --with-deps chromium
@@ -50,6 +50,7 @@ jobs:
         run: |
           node tools/qa242/preflight.cjs
           node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs
+          node tests/qa242-controller-charge.cjs
       - name: Production ownership and selected character move assertions
         env:
           NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules

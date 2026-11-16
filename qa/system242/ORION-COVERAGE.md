@@ -35,3 +35,12 @@ Strong/boss resistance, electrical retrigger/collateral, all arena/weapon intera
 ## Expanded regression orchestration
 
 The approved ownership registry selects70 affected regressions for this QA change. The first CI attempt stopped before `campaign224` because its legacy catalog output was `PRISON224-results.json` at repository root. The reports-only containment rule remains strict. `run-prison224.cjs` now verifies the retained orchestrator's pinned Git blob, extracts its unchanged nine-child list, runs those existing assertion files, and writes the summary under `reports242/`. No campaign assertion or game source is edited. Raw child status, signal, unavailable tools and nested skips remain failures/blockers; a failed child cannot produce a complete summary.
+
+
+## PR13 regression corrections
+
+The approved build318 charge thresholds supersede controller144's older two-second Reina/three-second Forest expectations. The retained test is unchanged. A new current fixture, tests/qa242-controller-charge.cjs, specifies Reina/Forest=1s, Nova=2s, Broxton=3s independently of runtime introspection. Its60 cases exercise standard/raw Sony/DSX simulated production polling, immediate ordinary attack, one tick before/at/after readiness, one cue, Nova automatic activation and release-only actions for the others. This is simulated input evidence, not physical hardware certification.
+
+run-current150.cjs verifies the retained current150 source against the pinned inventory, substitutes only its controller144 child entry, and preserves every other child and nonzero exit. The campaign wrapper invokes that explicit correction; source anchors and child failure propagation have negative fixtures. Local validation passed all nine campaign children, including the26-child current150 entry point. CI remains authoritative for the complete checkout.
+
+The workflow now pins NumPy2.2.6 alongside Pillow13.0.0. Installing NumPy permits the unchanged Orion asset assertions to start; it does not supply historical assets. Local execution then fails on missing8422de5a7b201bf3f72d58d1235e19ecb2d5537d:dist/assets/orion205/combat-L-0.webp. Subway's final transition assertion and the Nightshade/diagnostics/energy historical evidence failures remain unresolved. No assertions are waived, no baseline is fabricated, and acceptance stays closed while required suites fail or lack evidence.

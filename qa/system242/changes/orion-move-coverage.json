@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "id": "orion-move-coverage",
-  "description": "QA-only current-adapter Orion assertion coverage, explicit superseded counter routing and source-bound matrix bindings. No gameplay, protection or merge changes.",
+  "description": "QA-only Orion coverage and regression triage: explicit approved current controller charge assertions and pinned NumPy prerequisite. Unresolved assertions and historical evidence remain acceptance blockers. No gameplay, protection or merge changes.",
   "acceptanceScope": "qa-infrastructure-pilot",
   "files": [
     ".github/workflows/qa242.yml",
@@ -15,7 +15,9 @@
     "tests/qa242-orion-coverage.cjs",
     "tests/qa242-orion-current.cjs",
     "tools/qa242/production-coverage.cjs",
-    "tools/qa242/run-prison224.cjs"
+    "tools/qa242/run-prison224.cjs",
+    "tests/qa242-controller-charge.cjs",
+    "tools/qa242/run-current150.cjs"
   ],
   "features": [
     "qa242"

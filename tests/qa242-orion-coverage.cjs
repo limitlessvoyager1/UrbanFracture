@@ -11,3 +11,21 @@ test('Orion assertion locations remain source-bound and hardware/render approval
 
 test('retained campaign children remain pinned and unsafe paths cannot become commands',()=>{const W=require('../tools/qa242/run-prison224.cjs');const source=fs.readFileSync('tests/prison224-all.cjs','utf8');assert.deepEqual(W.filesFrom(source),['prison224','prison224-combat','prison224-contracts','prison224-regressions','current150','gamepad.test','controller157','environment218','environment-integration156']);assert.throws(()=>W.filesFrom("const files=['../game'];"));assert.throws(()=>W.filesFrom("const files=['a','a'];"));});
 test('campaign wrapper preserves child assertion failures, skipped checks and missing tools',()=>{const W=require('../tools/qa242/run-prison224.cjs');for(const [result,exitCode,status]of [[{status:1,stdout:''},1,'failed'],[{status:0,stdout:'# skipped 1\n'},2,'blocked'],[{status:null,error:Error('ENOENT')},2,'blocked']]){const reports=[];let calls=0;const r=W.execute(['one','two'],{root:'.',spawn:()=>{calls++;return result;},write:q=>reports.push(structuredClone(q))});assert.equal(calls,1);assert.equal(r.exitCode,exitCode);assert.equal(reports[0].status,status);}const reports=[];const r=W.execute(['one','two'],{root:'.',spawn:()=>({status:0,stdout:''}),write:q=>reports.push(structuredClone(q))});assert.equal(r.exitCode,0);assert.equal(reports.at(-1).status,'complete');});
+
+
+test('current150 correction is pinned and substitutes only the superseded controller child',()=>{
+ const W=require('../tools/qa242/run-current150.cjs'),source=fs.readFileSync('tests/current150.cjs','utf8'),index=require('../qa/system242/coverage-source-index.json');
+ const prepared=W.prepare(source,index);
+ assert.equal(prepared,source.replace("['controller144.cjs','reina-repair147.cjs'","['qa242-controller-charge.cjs','reina-repair147.cjs'"));
+ assert(prepared.includes("name==='controller144.cjs'"));
+ assert.throws(()=>W.prepare(source+'\n',index),/pinned/);
+ const changed=source.replace("['controller144.cjs','reina-repair147.cjs'","['controller144.cjs', 'reina-repair147.cjs'");
+ const updated={entries:[{path:'tests/current150.cjs',sha:C.blob(Buffer.from(changed))}]};
+ assert.throws(()=>W.prepare(changed,updated),/anchor/);
+});
+test('campaign invokes the current controller correction and preserves later child failures',()=>{
+ const W=require('../tools/qa242/run-prison224.cjs'),commands=[],reports=[];
+ const r=W.execute(['current150','controller157'],{root:'.',spawn:(_exe,args)=>{commands.push(args);return{status:commands.length===1?0:1,stdout:''};},write:q=>reports.push(structuredClone(q))});
+ assert.deepEqual(commands,[['tools/qa242/run-current150.cjs'],['tests/controller157.cjs']]);
+ assert.equal(r.exitCode,1);assert.equal(reports.at(-1).status,'failed');
+});
