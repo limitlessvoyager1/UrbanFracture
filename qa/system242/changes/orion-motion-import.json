@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "orion-motion-import",
+  "description": "ORION-003: preserve and test the recovered Build384 motion import repair. The older GitHub production entry is not migrated to Build384; the published source already loads it. No native combat code, damage, timing, mappings or balance changed.",
+  "files": [
+    "ORION384-MOTION-REPAIR.md",
+    "tools/orion384/pack.py",
+    "tools/orion384/motion_import.py",
+    "source-art/orion384/motion-layout.json",
+    "dist/orion384-data.js",
+    "dist/orion384.js",
+    "reports384/import.json",
+    "tests/orion384-import.py",
+    "qa/system242/suites.json",
+    ".github/workflows/orion-motion-import.yml",
+    "source-art/orion384/motion.png",
+    "dist/assets/orion384/motion.webp",
+    "qa/system242/changes/orion-motion-import.json"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering"
+  ],
+  "entities": {
+    "characters": [
+      "orion"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "ORION-003"
+  ]
+}

@@ -4487,6 +4487,19 @@
       "generatedArtifacts": [
         "reports242/current-energy-measurements.json"
       ]
+    },
+    {
+      "id": "orion384-motion-import",
+      "command": [
+        "python",
+        "tests/orion384-import.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

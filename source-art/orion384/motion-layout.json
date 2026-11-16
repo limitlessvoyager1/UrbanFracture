@@ -1,0 +1,693 @@
+{
+  "schema": 1,
+  "source": "source-art/orion384/motion.png",
+  "sourceSha256": "574239e2133102e8ae824d0f1ab28ae266da71cbcedefd19e481a4962c818748",
+  "sourceSize": [
+    724,
+    2172
+  ],
+  "outputCell": [
+    320,
+    320
+  ],
+  "outputAnchor": [
+    160,
+    280
+  ],
+  "logicalScale": 0.6736842105263158,
+  "policy": "Explicit reviewed source rectangles. Fixed scale per sequence; no per-pose height normalization. Existing motion scale preserved; each get-up sequence calibrated once from its complete final standing pose to190 import pixels. Native frame order and clocks unchanged.",
+  "frames": [
+    {
+      "index": 0,
+      "sourceRect": [
+        26,
+        8,
+        160,
+        189
+      ],
+      "rootX": 94.12,
+      "floorY": 185,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 1,
+      "sourceRect": [
+        229,
+        8,
+        320,
+        189
+      ],
+      "rootX": 275.12,
+      "floorY": 185,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 2,
+      "sourceRect": [
+        412,
+        8,
+        503,
+        189
+      ],
+      "rootX": 456.12,
+      "floorY": 185,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 3,
+      "sourceRect": [
+        588,
+        8,
+        693,
+        189
+      ],
+      "rootX": 637.12,
+      "floorY": 185,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 4,
+      "sourceRect": [
+        29,
+        192,
+        169,
+        369
+      ],
+      "rootX": 94.12,
+      "floorY": 365,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 5,
+      "sourceRect": [
+        230,
+        195,
+        320,
+        369
+      ],
+      "rootX": 275.12,
+      "floorY": 365,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 6,
+      "sourceRect": [
+        421,
+        196,
+        500,
+        369
+      ],
+      "rootX": 456.12,
+      "floorY": 365,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 7,
+      "sourceRect": [
+        605,
+        195,
+        693,
+        368
+      ],
+      "rootX": 637.12,
+      "floorY": 364,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 8,
+      "sourceRect": [
+        7,
+        385,
+        177,
+        523
+      ],
+      "rootX": 94.12,
+      "floorY": 519,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 9,
+      "sourceRect": [
+        197,
+        377,
+        351,
+        512
+      ],
+      "rootX": 275.12,
+      "floorY": 508,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 10,
+      "sourceRect": [
+        377,
+        374,
+        534,
+        508
+      ],
+      "rootX": 456.12,
+      "floorY": 504,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 11,
+      "sourceRect": [
+        553,
+        391,
+        724,
+        525
+      ],
+      "rootX": 637.12,
+      "floorY": 521,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 12,
+      "sourceRect": [
+        20,
+        555,
+        176,
+        695
+      ],
+      "rootX": 94.12,
+      "floorY": 691,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 13,
+      "sourceRect": [
+        206,
+        543,
+        353,
+        695
+      ],
+      "rootX": 275.12,
+      "floorY": 691,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 14,
+      "sourceRect": [
+        374,
+        547,
+        546,
+        681
+      ],
+      "rootX": 456.12,
+      "floorY": 677,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 15,
+      "sourceRect": [
+        555,
+        563,
+        715,
+        699
+      ],
+      "rootX": 637.12,
+      "floorY": 695,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 16,
+      "sourceRect": [
+        5,
+        794,
+        181,
+        844
+      ],
+      "rootX": 94.12,
+      "floorY": 840,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 17,
+      "sourceRect": [
+        199,
+        773,
+        355,
+        844
+      ],
+      "rootX": 275.12,
+      "floorY": 840,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 18,
+      "sourceRect": [
+        378,
+        753,
+        526,
+        850
+      ],
+      "rootX": 456.12,
+      "floorY": 846,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 19,
+      "sourceRect": [
+        565,
+        734,
+        695,
+        849
+      ],
+      "rootX": 637.12,
+      "floorY": 845,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 20,
+      "sourceRect": [
+        19,
+        905,
+        155,
+        1046
+      ],
+      "rootX": 94.12,
+      "floorY": 1042,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 21,
+      "sourceRect": [
+        209,
+        894,
+        335,
+        1046
+      ],
+      "rootX": 275.12,
+      "floorY": 1042,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 22,
+      "sourceRect": [
+        392,
+        883,
+        516,
+        1047
+      ],
+      "rootX": 456.12,
+      "floorY": 1043,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 23,
+      "sourceRect": [
+        564,
+        853,
+        697,
+        1048
+      ],
+      "rootX": 637.12,
+      "floorY": 1044,
+      "sequence": "get-up-R",
+      "scale": 1.0160427807486632,
+      "liftPx": 0
+    },
+    {
+      "index": 24,
+      "sourceRect": [
+        27,
+        1053,
+        161,
+        1231
+      ],
+      "rootX": 95.93,
+      "floorY": 1227,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 25,
+      "sourceRect": [
+        248,
+        1054,
+        338,
+        1231
+      ],
+      "rootX": 276.93,
+      "floorY": 1227,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 26,
+      "sourceRect": [
+        427,
+        1053,
+        519,
+        1231
+      ],
+      "rootX": 457.93,
+      "floorY": 1227,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 27,
+      "sourceRect": [
+        597,
+        1052,
+        698,
+        1231
+      ],
+      "rootX": 638.9300000000001,
+      "floorY": 1227,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 28,
+      "sourceRect": [
+        60,
+        1236,
+        155,
+        1414
+      ],
+      "rootX": 95.93,
+      "floorY": 1410,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 29,
+      "sourceRect": [
+        249,
+        1236,
+        332,
+        1414
+      ],
+      "rootX": 276.93,
+      "floorY": 1410,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 30,
+      "sourceRect": [
+        427,
+        1235,
+        514,
+        1415
+      ],
+      "rootX": 457.93,
+      "floorY": 1411,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 31,
+      "sourceRect": [
+        606,
+        1236,
+        683,
+        1414
+      ],
+      "rootX": 638.9300000000001,
+      "floorY": 1410,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 0
+    },
+    {
+      "index": 32,
+      "sourceRect": [
+        30,
+        1432,
+        193,
+        1560
+      ],
+      "rootX": 95.93,
+      "floorY": 1556,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 33,
+      "sourceRect": [
+        226,
+        1427,
+        381,
+        1559
+      ],
+      "rootX": 276.93,
+      "floorY": 1555,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 34,
+      "sourceRect": [
+        403,
+        1422,
+        558,
+        1559
+      ],
+      "rootX": 457.93,
+      "floorY": 1555,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 35,
+      "sourceRect": [
+        577,
+        1422,
+        717,
+        1562
+      ],
+      "rootX": 638.9300000000001,
+      "floorY": 1558,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 36,
+      "sourceRect": [
+        29,
+        1599,
+        194,
+        1735
+      ],
+      "rootX": 95.93,
+      "floorY": 1731,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 37,
+      "sourceRect": [
+        211,
+        1592,
+        365,
+        1724
+      ],
+      "rootX": 276.93,
+      "floorY": 1720,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 38,
+      "sourceRect": [
+        385,
+        1590,
+        532,
+        1734
+      ],
+      "rootX": 457.93,
+      "floorY": 1730,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 39,
+      "sourceRect": [
+        558,
+        1594,
+        716,
+        1735
+      ],
+      "rootX": 638.9300000000001,
+      "floorY": 1731,
+      "sequence": "motion",
+      "scale": 1.0497237569060773,
+      "liftPx": 10
+    },
+    {
+      "index": 40,
+      "sourceRect": [
+        6,
+        1797,
+        194,
+        1861
+      ],
+      "rootX": 95.93,
+      "floorY": 1857,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 41,
+      "sourceRect": [
+        209,
+        1780,
+        363,
+        1860
+      ],
+      "rootX": 276.93,
+      "floorY": 1856,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 42,
+      "sourceRect": [
+        383,
+        1771,
+        550,
+        1867
+      ],
+      "rootX": 457.93,
+      "floorY": 1863,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 43,
+      "sourceRect": [
+        574,
+        1776,
+        716,
+        1872
+      ],
+      "rootX": 638.9300000000001,
+      "floorY": 1868,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 44,
+      "sourceRect": [
+        14,
+        1963,
+        182,
+        2124
+      ],
+      "rootX": 95.93,
+      "floorY": 2120,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 45,
+      "sourceRect": [
+        203,
+        1934,
+        361,
+        2124
+      ],
+      "rootX": 276.93,
+      "floorY": 2120,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 46,
+      "sourceRect": [
+        397,
+        1938,
+        541,
+        2124
+      ],
+      "rootX": 457.93,
+      "floorY": 2120,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    },
+    {
+      "index": 47,
+      "sourceRect": [
+        558,
+        1907,
+        704,
+        2125
+      ],
+      "rootX": 638.9300000000001,
+      "floorY": 2121,
+      "sequence": "get-up-L",
+      "scale": 0.9047619047619048,
+      "liftPx": 0
+    }
+  ]
+}

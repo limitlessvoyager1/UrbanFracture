@@ -1,0 +1,2944 @@
+{
+  "poses": 200,
+  "fixedLogicalStandingHeight": 128,
+  "facings": "independently authored",
+  "perPoseHeightNormalization": false,
+  "receipts": [
+    {
+      "family": "core-R",
+      "frame": 0,
+      "sourceBox": [
+        39,
+        11,
+        168,
+        213
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 1,
+      "sourceBox": [
+        44,
+        11,
+        164,
+        167
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 18
+    },
+    {
+      "family": "core-R",
+      "frame": 2,
+      "sourceBox": [
+        34,
+        15,
+        189,
+        213
+      ],
+      "sourceRoot": 95.03,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 3,
+      "sourceBox": [
+        33,
+        58,
+        185,
+        210
+      ],
+      "sourceRoot": 122.10000000000001,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 4,
+      "sourceBox": [
+        48,
+        7,
+        179,
+        213
+      ],
+      "sourceRoot": 108.78,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 5,
+      "sourceBox": [
+        63,
+        7,
+        144,
+        213
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 6,
+      "sourceBox": [
+        32,
+        8,
+        178,
+        213
+      ],
+      "sourceRoot": 108.28999999999999,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 7,
+      "sourceBox": [
+        71,
+        7,
+        156,
+        213
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 8,
+      "sourceBox": [
+        17,
+        38,
+        209,
+        196
+      ],
+      "sourceRoot": 119.88000000000001,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 9,
+      "sourceBox": [
+        28,
+        21,
+        204,
+        169
+      ],
+      "sourceRoot": 124.32000000000001,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 10,
+      "sourceBox": [
+        17,
+        30,
+        202,
+        176
+      ],
+      "sourceRoot": 119.34,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 11,
+      "sourceBox": [
+        15,
+        67,
+        212,
+        193
+      ],
+      "sourceRoot": 128.76,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 12,
+      "sourceBox": [
+        62,
+        4,
+        157,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 13,
+      "sourceBox": [
+        58,
+        3,
+        162,
+        212
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 14,
+      "sourceBox": [
+        0,
+        157,
+        215,
+        206
+      ],
+      "sourceRoot": 110.5,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 15,
+      "sourceBox": [
+        62,
+        4,
+        161,
+        212
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 16,
+      "sourceBox": [
+        52,
+        12,
+        152,
+        211
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 17,
+      "sourceBox": [
+        30,
+        27,
+        194,
+        209
+      ],
+      "sourceRoot": 88.80000000000001,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 18,
+      "sourceBox": [
+        33,
+        7,
+        185,
+        210
+      ],
+      "sourceRoot": 99.45,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 19,
+      "sourceBox": [
+        20,
+        19,
+        203,
+        207
+      ],
+      "sourceRoot": 99.9,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 20,
+      "sourceBox": [
+        23,
+        19,
+        188,
+        212
+      ],
+      "sourceRoot": 102.12,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 21,
+      "sourceBox": [
+        17,
+        19,
+        210,
+        212
+      ],
+      "sourceRoot": 97.68,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 22,
+      "sourceBox": [
+        31,
+        10,
+        210,
+        150
+      ],
+      "sourceRoot": 101.66000000000001,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 18
+    },
+    {
+      "family": "core-R",
+      "frame": 23,
+      "sourceBox": [
+        24,
+        6,
+        151,
+        203
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 18
+    },
+    {
+      "family": "core-R",
+      "frame": 24,
+      "sourceBox": [
+        29,
+        6,
+        185,
+        212
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 25,
+      "sourceBox": [
+        17,
+        56,
+        190,
+        208
+      ],
+      "sourceRoot": 113.22,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 26,
+      "sourceBox": [
+        11,
+        56,
+        169,
+        203
+      ],
+      "sourceRoot": 114.92,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 27,
+      "sourceBox": [
+        5,
+        64,
+        214,
+        152
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 48
+    },
+    {
+      "family": "core-R",
+      "frame": 28,
+      "sourceBox": [
+        13,
+        67,
+        193,
+        209
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 29,
+      "sourceBox": [
+        22,
+        12,
+        221,
+        211
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 30,
+      "sourceBox": [
+        11,
+        32,
+        205,
+        180
+      ],
+      "sourceRoot": 110.5,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-R",
+      "frame": 31,
+      "sourceBox": [
+        64,
+        9,
+        172,
+        211
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9620253164556962,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 0,
+      "sourceBox": [
+        40,
+        10,
+        182,
+        216
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 1,
+      "sourceBox": [
+        58,
+        10,
+        193,
+        164
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 18
+    },
+    {
+      "family": "core-L",
+      "frame": 2,
+      "sourceBox": [
+        32,
+        21,
+        193,
+        215
+      ],
+      "sourceRoot": 125.97000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 3,
+      "sourceBox": [
+        38,
+        77,
+        188,
+        216
+      ],
+      "sourceRoot": 99.89999999999999,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 4,
+      "sourceBox": [
+        37,
+        5,
+        190,
+        218
+      ],
+      "sourceRoot": 113.22,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 5,
+      "sourceBox": [
+        81,
+        4,
+        149,
+        218
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 6,
+      "sourceBox": [
+        56,
+        5,
+        182,
+        217
+      ],
+      "sourceRoot": 112.71000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 7,
+      "sourceBox": [
+        66,
+        5,
+        165,
+        217
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 8,
+      "sourceBox": [
+        15,
+        36,
+        200,
+        207
+      ],
+      "sourceRoot": 102.11999999999999,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 9,
+      "sourceBox": [
+        21,
+        20,
+        206,
+        192
+      ],
+      "sourceRoot": 97.67999999999999,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 10,
+      "sourceBox": [
+        13,
+        42,
+        209,
+        191
+      ],
+      "sourceRoot": 101.66,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 11,
+      "sourceBox": [
+        18,
+        62,
+        198,
+        197
+      ],
+      "sourceRoot": 93.24000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 12,
+      "sourceBox": [
+        55,
+        4,
+        165,
+        215
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 13,
+      "sourceBox": [
+        60,
+        4,
+        222,
+        216
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 14,
+      "sourceBox": [
+        0,
+        147,
+        221,
+        204
+      ],
+      "sourceRoot": 110.5,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 15,
+      "sourceBox": [
+        0,
+        3,
+        161,
+        215
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 16,
+      "sourceBox": [
+        60,
+        7,
+        166,
+        215
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 17,
+      "sourceBox": [
+        15,
+        10,
+        182,
+        215
+      ],
+      "sourceRoot": 133.2,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 18,
+      "sourceBox": [
+        23,
+        7,
+        172,
+        213
+      ],
+      "sourceRoot": 121.55000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 19,
+      "sourceBox": [
+        26,
+        8,
+        198,
+        215
+      ],
+      "sourceRoot": 122.10000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 20,
+      "sourceBox": [
+        33,
+        15,
+        192,
+        212
+      ],
+      "sourceRoot": 119.88000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 21,
+      "sourceBox": [
+        10,
+        14,
+        203,
+        212
+      ],
+      "sourceRoot": 124.32000000000001,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 22,
+      "sourceBox": [
+        22,
+        4,
+        187,
+        165
+      ],
+      "sourceRoot": 119.34,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 18
+    },
+    {
+      "family": "core-L",
+      "frame": 23,
+      "sourceBox": [
+        62,
+        5,
+        179,
+        200
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 18
+    },
+    {
+      "family": "core-L",
+      "frame": 24,
+      "sourceBox": [
+        33,
+        4,
+        183,
+        211
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 25,
+      "sourceBox": [
+        26,
+        66,
+        196,
+        211
+      ],
+      "sourceRoot": 108.78,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 26,
+      "sourceBox": [
+        17,
+        70,
+        221,
+        211
+      ],
+      "sourceRoot": 106.08,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 27,
+      "sourceBox": [
+        0,
+        53,
+        208,
+        138
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 48
+    },
+    {
+      "family": "core-L",
+      "frame": 28,
+      "sourceBox": [
+        18,
+        80,
+        202,
+        205
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 29,
+      "sourceBox": [
+        17,
+        9,
+        193,
+        210
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 30,
+      "sourceBox": [
+        12,
+        8,
+        205,
+        199
+      ],
+      "sourceRoot": 110.5,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "core-L",
+      "frame": 31,
+      "sourceBox": [
+        46,
+        4,
+        163,
+        214
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9405940594059405,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 0,
+      "sourceBox": [
+        29,
+        28,
+        207,
+        222
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 1,
+      "sourceBox": [
+        27,
+        28,
+        174,
+        222
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 2,
+      "sourceBox": [
+        29,
+        8,
+        185,
+        221
+      ],
+      "sourceRoot": 106.08,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 3,
+      "sourceBox": [
+        18,
+        42,
+        207,
+        221
+      ],
+      "sourceRoot": 97.68,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 4,
+      "sourceBox": [
+        28,
+        13,
+        200,
+        219
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 5,
+      "sourceBox": [
+        16,
+        80,
+        188,
+        219
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 6,
+      "sourceBox": [
+        14,
+        65,
+        200,
+        218
+      ],
+      "sourceRoot": 108.28999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 7,
+      "sourceBox": [
+        18,
+        65,
+        203,
+        219
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 8,
+      "sourceBox": [
+        30,
+        33,
+        185,
+        217
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 9,
+      "sourceBox": [
+        32,
+        12,
+        178,
+        217
+      ],
+      "sourceRoot": 102.12,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 10,
+      "sourceBox": [
+        18,
+        67,
+        200,
+        217
+      ],
+      "sourceRoot": 108.28999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 11,
+      "sourceBox": [
+        39,
+        28,
+        185,
+        179
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 25
+    },
+    {
+      "family": "grapple-R",
+      "frame": 12,
+      "sourceBox": [
+        58,
+        29,
+        174,
+        171
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 25
+    },
+    {
+      "family": "grapple-R",
+      "frame": 13,
+      "sourceBox": [
+        26,
+        78,
+        184,
+        216
+      ],
+      "sourceRoot": 115.44,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 14,
+      "sourceBox": [
+        49,
+        28,
+        171,
+        178
+      ],
+      "sourceRoot": 110.5,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 25
+    },
+    {
+      "family": "grapple-R",
+      "frame": 15,
+      "sourceBox": [
+        40,
+        15,
+        171,
+        216
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 16,
+      "sourceBox": [
+        36,
+        9,
+        169,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 17,
+      "sourceBox": [
+        37,
+        9,
+        153,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 18,
+      "sourceBox": [
+        35,
+        10,
+        210,
+        212
+      ],
+      "sourceRoot": 95.03,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 19,
+      "sourceBox": [
+        60,
+        10,
+        149,
+        211
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 20,
+      "sourceBox": [
+        33,
+        6,
+        172,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 21,
+      "sourceBox": [
+        44,
+        6,
+        139,
+        210
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 22,
+      "sourceBox": [
+        29,
+        6,
+        202,
+        211
+      ],
+      "sourceRoot": 101.66000000000001,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 23,
+      "sourceBox": [
+        56,
+        7,
+        151,
+        211
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 24,
+      "sourceBox": [
+        30,
+        15,
+        187,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 25,
+      "sourceBox": [
+        22,
+        15,
+        176,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 26,
+      "sourceBox": [
+        3,
+        19,
+        216,
+        211
+      ],
+      "sourceRoot": 101.66000000000001,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 27,
+      "sourceBox": [
+        33,
+        13,
+        183,
+        212
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 28,
+      "sourceBox": [
+        28,
+        15,
+        176,
+        213
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 29,
+      "sourceBox": [
+        18,
+        14,
+        182,
+        213
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 30,
+      "sourceBox": [
+        12,
+        16,
+        190,
+        213
+      ],
+      "sourceRoot": 97.24,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-R",
+      "frame": 31,
+      "sourceBox": [
+        30,
+        15,
+        181,
+        213
+      ],
+      "sourceRoot": 104.33999999999999,
+      "familyScale": 0.9595959595959596,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 0,
+      "sourceBox": [
+        33,
+        26,
+        182,
+        214
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 1,
+      "sourceBox": [
+        50,
+        27,
+        178,
+        214
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 2,
+      "sourceBox": [
+        63,
+        7,
+        170,
+        214
+      ],
+      "sourceRoot": 114.92,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 3,
+      "sourceBox": [
+        32,
+        37,
+        183,
+        214
+      ],
+      "sourceRoot": 124.32000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 4,
+      "sourceBox": [
+        28,
+        18,
+        177,
+        214
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 5,
+      "sourceBox": [
+        30,
+        70,
+        188,
+        212
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 6,
+      "sourceBox": [
+        20,
+        65,
+        201,
+        213
+      ],
+      "sourceRoot": 112.71000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 7,
+      "sourceBox": [
+        25,
+        67,
+        201,
+        213
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 8,
+      "sourceBox": [
+        45,
+        26,
+        185,
+        213
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 9,
+      "sourceBox": [
+        52,
+        11,
+        177,
+        213
+      ],
+      "sourceRoot": 119.88000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 10,
+      "sourceBox": [
+        32,
+        61,
+        205,
+        214
+      ],
+      "sourceRoot": 112.71000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 11,
+      "sourceBox": [
+        60,
+        20,
+        174,
+        178
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 25
+    },
+    {
+      "family": "grapple-L",
+      "frame": 12,
+      "sourceBox": [
+        51,
+        20,
+        175,
+        145
+      ],
+      "sourceRoot": 111.0,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 25
+    },
+    {
+      "family": "grapple-L",
+      "frame": 13,
+      "sourceBox": [
+        28,
+        82,
+        198,
+        211
+      ],
+      "sourceRoot": 106.56,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 14,
+      "sourceBox": [
+        66,
+        18,
+        199,
+        156
+      ],
+      "sourceRoot": 110.5,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 25
+    },
+    {
+      "family": "grapple-L",
+      "frame": 15,
+      "sourceBox": [
+        51,
+        6,
+        178,
+        211
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 16,
+      "sourceBox": [
+        60,
+        4,
+        171,
+        208
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 17,
+      "sourceBox": [
+        64,
+        3,
+        166,
+        208
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 18,
+      "sourceBox": [
+        10,
+        3,
+        176,
+        207
+      ],
+      "sourceRoot": 125.97000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 19,
+      "sourceBox": [
+        64,
+        2,
+        162,
+        207
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 20,
+      "sourceBox": [
+        56,
+        5,
+        173,
+        209
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 21,
+      "sourceBox": [
+        58,
+        5,
+        163,
+        209
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 22,
+      "sourceBox": [
+        3,
+        5,
+        179,
+        209
+      ],
+      "sourceRoot": 119.34,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 23,
+      "sourceBox": [
+        67,
+        5,
+        165,
+        209
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 24,
+      "sourceBox": [
+        56,
+        7,
+        178,
+        211
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 25,
+      "sourceBox": [
+        25,
+        11,
+        200,
+        209
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 26,
+      "sourceBox": [
+        4,
+        12,
+        209,
+        211
+      ],
+      "sourceRoot": 119.34,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 27,
+      "sourceBox": [
+        55,
+        6,
+        179,
+        211
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 28,
+      "sourceBox": [
+        47,
+        10,
+        181,
+        212
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 29,
+      "sourceBox": [
+        48,
+        8,
+        182,
+        212
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 30,
+      "sourceBox": [
+        19,
+        9,
+        186,
+        212
+      ],
+      "sourceRoot": 123.76,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "grapple-L",
+      "frame": 31,
+      "sourceBox": [
+        51,
+        9,
+        180,
+        212
+      ],
+      "sourceRoot": 117.66000000000001,
+      "familyScale": 0.9313725490196079,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 0,
+      "sourceBox": [
+        147,
+        5,
+        314,
+        435
+      ],
+      "sourceRoot": 230.88,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 1,
+      "sourceBox": [
+        136,
+        8,
+        312,
+        435
+      ],
+      "sourceRoot": 230.36,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 2,
+      "sourceBox": [
+        135,
+        78,
+        313,
+        434
+      ],
+      "sourceRoot": 230.36,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 3,
+      "sourceBox": [
+        136,
+        77,
+        306,
+        434
+      ],
+      "sourceRoot": 230.88,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 4,
+      "sourceBox": [
+        143,
+        4,
+        313,
+        434
+      ],
+      "sourceRoot": 239.76000000000002,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 5,
+      "sourceBox": [
+        123,
+        5,
+        305,
+        434
+      ],
+      "sourceRoot": 239.22000000000003,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 6,
+      "sourceBox": [
+        127,
+        76,
+        310,
+        434
+      ],
+      "sourceRoot": 239.22000000000003,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "extra",
+      "frame": 7,
+      "sourceBox": [
+        129,
+        74,
+        296,
+        434
+      ],
+      "sourceRoot": 239.76000000000002,
+      "familyScale": 0.5314685314685315,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 0,
+      "sourceBox": [
+        85,
+        5,
+        252,
+        306
+      ],
+      "sourceRoot": 157.0,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 1,
+      "sourceBox": [
+        91,
+        4,
+        223,
+        307
+      ],
+      "sourceRoot": 156.5,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 2,
+      "sourceBox": [
+        91,
+        5,
+        212,
+        307
+      ],
+      "sourceRoot": 156.5,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 3,
+      "sourceBox": [
+        85,
+        5,
+        263,
+        306
+      ],
+      "sourceRoot": 157.0,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 4,
+      "sourceBox": [
+        64,
+        6,
+        254,
+        307
+      ],
+      "sourceRoot": 157.0,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 5,
+      "sourceBox": [
+        75,
+        6,
+        223,
+        305
+      ],
+      "sourceRoot": 156.5,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 6,
+      "sourceBox": [
+        91,
+        6,
+        207,
+        306
+      ],
+      "sourceRoot": 156.5,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 7,
+      "sourceBox": [
+        74,
+        6,
+        232,
+        305
+      ],
+      "sourceRoot": 157.0,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 8,
+      "sourceBox": [
+        71,
+        7,
+        236,
+        307
+      ],
+      "sourceRoot": 160.14000000000001,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 9,
+      "sourceBox": [
+        107,
+        7,
+        231,
+        306
+      ],
+      "sourceRoot": 159.63,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 10,
+      "sourceBox": [
+        109,
+        7,
+        228,
+        306
+      ],
+      "sourceRoot": 159.63,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 11,
+      "sourceBox": [
+        74,
+        7,
+        256,
+        303
+      ],
+      "sourceRoot": 160.14000000000001,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 12,
+      "sourceBox": [
+        72,
+        7,
+        254,
+        303
+      ],
+      "sourceRoot": 160.14000000000001,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 13,
+      "sourceBox": [
+        106,
+        8,
+        242,
+        304
+      ],
+      "sourceRoot": 159.63,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 14,
+      "sourceBox": [
+        119,
+        8,
+        233,
+        305
+      ],
+      "sourceRoot": 159.63,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "walk",
+      "frame": 15,
+      "sourceBox": [
+        84,
+        8,
+        254,
+        304
+      ],
+      "sourceRoot": 160.14000000000001,
+      "familyScale": 0.6354515050167224,
+      "liftPx": 0
+    },
+    {
+      "family": "motion",
+      "frame": 0,
+      "sourceBox": [
+        4,
+        4,
+        130,
+        177
+      ],
+      "sourceRoot": 68.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        26,
+        8,
+        160,
+        189
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 1,
+      "sourceBox": [
+        4,
+        4,
+        87,
+        177
+      ],
+      "sourceRoot": 46.120000000000005,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        229,
+        8,
+        320,
+        189
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 2,
+      "sourceBox": [
+        4,
+        4,
+        87,
+        177
+      ],
+      "sourceRoot": 44.120000000000005,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        412,
+        8,
+        503,
+        189
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 3,
+      "sourceBox": [
+        4,
+        4,
+        101,
+        177
+      ],
+      "sourceRoot": 49.120000000000005,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        588,
+        8,
+        693,
+        189
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 4,
+      "sourceBox": [
+        4,
+        4,
+        136,
+        173
+      ],
+      "sourceRoot": 65.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        29,
+        192,
+        169,
+        369
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 5,
+      "sourceBox": [
+        4,
+        4,
+        86,
+        170
+      ],
+      "sourceRoot": 45.120000000000005,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        230,
+        195,
+        320,
+        369
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 6,
+      "sourceBox": [
+        4,
+        4,
+        75,
+        169
+      ],
+      "sourceRoot": 35.120000000000005,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        421,
+        196,
+        500,
+        369
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 7,
+      "sourceBox": [
+        4,
+        4,
+        84,
+        169
+      ],
+      "sourceRoot": 32.120000000000005,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        605,
+        195,
+        693,
+        368
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 8,
+      "sourceBox": [
+        4,
+        4,
+        166,
+        134
+      ],
+      "sourceRoot": 87.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        7,
+        385,
+        177,
+        523
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 9,
+      "sourceBox": [
+        4,
+        4,
+        150,
+        131
+      ],
+      "sourceRoot": 78.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        197,
+        377,
+        351,
+        512
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 10,
+      "sourceBox": [
+        4,
+        4,
+        153,
+        130
+      ],
+      "sourceRoot": 79.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        377,
+        374,
+        534,
+        508
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 11,
+      "sourceBox": [
+        4,
+        4,
+        168,
+        130
+      ],
+      "sourceRoot": 84.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        553,
+        391,
+        724,
+        525
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 12,
+      "sourceBox": [
+        4,
+        4,
+        152,
+        136
+      ],
+      "sourceRoot": 74.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        20,
+        555,
+        176,
+        695
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 13,
+      "sourceBox": [
+        4,
+        4,
+        143,
+        148
+      ],
+      "sourceRoot": 69.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        206,
+        543,
+        353,
+        695
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 14,
+      "sourceBox": [
+        4,
+        4,
+        168,
+        130
+      ],
+      "sourceRoot": 82.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        374,
+        547,
+        546,
+        681
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 15,
+      "sourceBox": [
+        4,
+        4,
+        156,
+        132
+      ],
+      "sourceRoot": 82.12,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        555,
+        563,
+        715,
+        699
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 16,
+      "sourceBox": [
+        4,
+        4,
+        172,
+        46
+      ],
+      "sourceRoot": 89.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        5,
+        794,
+        181,
+        844
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 17,
+      "sourceBox": [
+        4,
+        4,
+        152,
+        67
+      ],
+      "sourceRoot": 76.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        199,
+        773,
+        355,
+        844
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 18,
+      "sourceBox": [
+        4,
+        4,
+        144,
+        93
+      ],
+      "sourceRoot": 78.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        378,
+        753,
+        526,
+        850
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 19,
+      "sourceBox": [
+        4,
+        4,
+        126,
+        111
+      ],
+      "sourceRoot": 72.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        565,
+        734,
+        695,
+        849
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 20,
+      "sourceBox": [
+        4,
+        4,
+        132,
+        137
+      ],
+      "sourceRoot": 75.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        19,
+        905,
+        155,
+        1046
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 21,
+      "sourceBox": [
+        4,
+        4,
+        122,
+        148
+      ],
+      "sourceRoot": 66.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        209,
+        894,
+        335,
+        1046
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 22,
+      "sourceBox": [
+        4,
+        4,
+        120,
+        160
+      ],
+      "sourceRoot": 64.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        392,
+        883,
+        516,
+        1047
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 23,
+      "sourceBox": [
+        4,
+        4,
+        129,
+        191
+      ],
+      "sourceRoot": 73.12,
+      "familyScale": 1.0160427807486632,
+      "liftPx": 0,
+      "sourceRect": [
+        564,
+        853,
+        697,
+        1048
+      ],
+      "sequence": "get-up-R"
+    },
+    {
+      "family": "motion",
+      "frame": 24,
+      "sourceBox": [
+        4,
+        4,
+        130,
+        174
+      ],
+      "sourceRoot": 68.93,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        27,
+        1053,
+        161,
+        1231
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 25,
+      "sourceBox": [
+        4,
+        4,
+        86,
+        173
+      ],
+      "sourceRoot": 28.930000000000007,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        248,
+        1054,
+        338,
+        1231
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 26,
+      "sourceBox": [
+        4,
+        4,
+        88,
+        174
+      ],
+      "sourceRoot": 30.930000000000007,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        427,
+        1053,
+        519,
+        1231
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 27,
+      "sourceBox": [
+        4,
+        4,
+        97,
+        175
+      ],
+      "sourceRoot": 41.930000000000064,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        597,
+        1052,
+        698,
+        1231
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 28,
+      "sourceBox": [
+        4,
+        4,
+        91,
+        174
+      ],
+      "sourceRoot": 35.93000000000001,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        60,
+        1236,
+        155,
+        1414
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 29,
+      "sourceBox": [
+        4,
+        4,
+        79,
+        174
+      ],
+      "sourceRoot": 27.930000000000007,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        249,
+        1236,
+        332,
+        1414
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 30,
+      "sourceBox": [
+        4,
+        4,
+        83,
+        176
+      ],
+      "sourceRoot": 30.930000000000007,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        427,
+        1235,
+        514,
+        1415
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 31,
+      "sourceBox": [
+        4,
+        4,
+        73,
+        174
+      ],
+      "sourceRoot": 32.930000000000064,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 0,
+      "sourceRect": [
+        606,
+        1236,
+        683,
+        1414
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 32,
+      "sourceBox": [
+        4,
+        4,
+        159,
+        124
+      ],
+      "sourceRoot": 65.93,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        30,
+        1432,
+        193,
+        1560
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 33,
+      "sourceBox": [
+        4,
+        4,
+        151,
+        128
+      ],
+      "sourceRoot": 50.93000000000001,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        226,
+        1427,
+        381,
+        1559
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 34,
+      "sourceBox": [
+        4,
+        4,
+        151,
+        133
+      ],
+      "sourceRoot": 54.93000000000001,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        403,
+        1422,
+        558,
+        1559
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 35,
+      "sourceBox": [
+        4,
+        4,
+        136,
+        136
+      ],
+      "sourceRoot": 61.930000000000064,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        577,
+        1422,
+        717,
+        1562
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 36,
+      "sourceBox": [
+        4,
+        4,
+        161,
+        132
+      ],
+      "sourceRoot": 66.93,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        29,
+        1599,
+        194,
+        1735
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 37,
+      "sourceBox": [
+        4,
+        4,
+        150,
+        128
+      ],
+      "sourceRoot": 65.93,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        211,
+        1592,
+        365,
+        1724
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 38,
+      "sourceBox": [
+        4,
+        4,
+        143,
+        140
+      ],
+      "sourceRoot": 72.93,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        385,
+        1590,
+        532,
+        1734
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 39,
+      "sourceBox": [
+        4,
+        4,
+        154,
+        137
+      ],
+      "sourceRoot": 80.93000000000006,
+      "familyScale": 1.0497237569060773,
+      "liftPx": 10,
+      "sourceRect": [
+        558,
+        1594,
+        716,
+        1735
+      ],
+      "sequence": "motion"
+    },
+    {
+      "family": "motion",
+      "frame": 40,
+      "sourceBox": [
+        4,
+        4,
+        184,
+        60
+      ],
+      "sourceRoot": 89.93,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        6,
+        1797,
+        194,
+        1861
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 41,
+      "sourceBox": [
+        4,
+        4,
+        150,
+        76
+      ],
+      "sourceRoot": 67.93,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        209,
+        1780,
+        363,
+        1860
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 42,
+      "sourceBox": [
+        4,
+        4,
+        163,
+        92
+      ],
+      "sourceRoot": 74.93,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        383,
+        1771,
+        550,
+        1867
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 43,
+      "sourceBox": [
+        4,
+        4,
+        138,
+        92
+      ],
+      "sourceRoot": 64.93000000000006,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        574,
+        1776,
+        716,
+        1872
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 44,
+      "sourceBox": [
+        4,
+        4,
+        164,
+        157
+      ],
+      "sourceRoot": 81.93,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        14,
+        1963,
+        182,
+        2124
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 45,
+      "sourceBox": [
+        4,
+        4,
+        154,
+        186
+      ],
+      "sourceRoot": 73.93,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        203,
+        1934,
+        361,
+        2124
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 46,
+      "sourceBox": [
+        4,
+        4,
+        140,
+        182
+      ],
+      "sourceRoot": 60.93000000000001,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        397,
+        1938,
+        541,
+        2124
+      ],
+      "sequence": "get-up-L"
+    },
+    {
+      "family": "motion",
+      "frame": 47,
+      "sourceBox": [
+        4,
+        4,
+        142,
+        214
+      ],
+      "sourceRoot": 80.93000000000006,
+      "familyScale": 0.9047619047619048,
+      "liftPx": 0,
+      "sourceRect": [
+        558,
+        1907,
+        704,
+        2125
+      ],
+      "sequence": "get-up-L"
+    }
+  ]
+}
