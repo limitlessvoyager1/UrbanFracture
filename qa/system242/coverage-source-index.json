@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "ebda38eccee20c977dcda374c4a88088aa59f9fa",
+  "sourceCommit": "336b5a2312d9f45d266213da3de07a38517e720c",
   "runtimeTree": "03effe760c4b1ee90a320eec8dcc59bbda7dffca",
   "scope": [
     "dist (top-level modules and recursive assets)",
@@ -10169,7 +10169,7 @@
     },
     {
       "path": "tests/qa242-history-contract.cjs",
-      "sha": "b0d4590bb34943f1d0887b0fc76b6f16180d24ac"
+      "sha": "39d6bd2a408a2ef9abe704ec22b142160142a996"
     },
     {
       "path": "tests/qa242-integrity.cjs",
@@ -10198,6 +10198,10 @@
     {
       "path": "tests/qa242-readiness.cjs",
       "sha": "2ba36230008014d0232f2ddb45fbc3f253323720"
+    },
+    {
+      "path": "tests/qa242-recovered-history.cjs",
+      "sha": "48f506d7dca4664e24e223cdb46d9ecc2605145b"
     },
     {
       "path": "tests/qa242-release-integrity.cjs",
