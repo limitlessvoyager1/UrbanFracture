@@ -89,3 +89,7 @@ After posting the comment, rerun **failed jobs only** so the owner job reuses th
 ## Certification-readiness inventory and evidence comments
 
 See [the certification-readiness procedure](qa/system242/CERTIFICATION-READINESS.md) for pinned coverage inventory and separate owner comments for individual game-evidence records. Legacy authenticated GitHub reviews remain supported. Pilot acceptance never supplies game evidence. All source, scope, rendered-artifact, benchmark and full-release checks continue to apply; no certification labels are promoted by this readiness work.
+
+## Production ownership and character/move matrix
+
+See [the production coverage procedure](qa/system242/PRODUCTION-COVERAGE.md) for exact main-entrypoint ownership assignments and the initial source/assertion/execution matrix. Every feature remains partial and the registry remains pilot. A passing selected suite covers only the cited assertion scenarios; no test-name, definition, facing loop, shared input check or renderer bootstrap is a full move certificate.

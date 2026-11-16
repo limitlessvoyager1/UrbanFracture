@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "id": "production-move-coverage",
+  "description": "QA-only explicit ownership of main-entrypoint modules and initial seven-hero character/move definition/assertion/execution matrix. Preserve all game source, partial certification, branch settings and existing accepted PRs.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    ".github/workflows/qa242.yml",
+    "QA242-POLICY.md",
+    "QA242-RUNBOOK.md",
+    "qa/system242/PRODUCTION-COVERAGE.md",
+    "qa/system242/changes/production-move-coverage.json",
+    "qa/system242/character-moves.json",
+    "qa/system242/features.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/suites.json",
+    "tests/qa242-production-coverage.cjs",
+    "tools/qa242/production-coverage.cjs",
+    "tools/qa242/run-nova333.cjs"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": []
+}

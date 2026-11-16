@@ -4398,6 +4398,23 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "nova333-current",
+      "command": [
+        "node",
+        "tools/qa242/run-nova333.cjs",
+        "tests/nova333.cjs"
+      ],
+      "framework": "current-character-coverage",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports333/runtime-checks.json"
+      ]
     }
   ],
   "manualGates": [

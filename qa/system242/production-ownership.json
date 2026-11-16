@@ -1,0 +1,1158 @@
+{
+  "schema": 1,
+  "sourceCommit": "83c1c9311a835ec41867d41654d788eea6200002",
+  "runtimeTree": "893ef481dd7ec7f7d399a5e1ca1136840018431c",
+  "entrypoint": "dist/index.html",
+  "scope": "266 previously unmapped script modules directly loaded by the main entrypoint; not all runtime files or dynamic imports",
+  "certified": false,
+  "domains": [
+    {
+      "feature": "hero-reina",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-reina responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/reina-grip155.js",
+          "sha": "157a26b80204926997539c9ac9a72df9ff86fcb3"
+        },
+        {
+          "path": "dist/reina-hook272.js",
+          "sha": "b73e5c933b247c8fefa0fef5e734f707f8cddbfb"
+        },
+        {
+          "path": "dist/reina-repair147.js",
+          "sha": "f01412026a582b43d18d0df1bca5a69b870360cf"
+        },
+        {
+          "path": "dist/reina-stance378.js",
+          "sha": "0dde641b5d04af0af392bfa6369d78ae43917fc9"
+        },
+        {
+          "path": "dist/reina118.js",
+          "sha": "d22167f10d4f317eec854549923742ce37ddb4be"
+        },
+        {
+          "path": "dist/reina119.js",
+          "sha": "470f915433110937db7cad44af6c2f410f44b737"
+        },
+        {
+          "path": "dist/reina120.js",
+          "sha": "17800dc9ac9d54228ed7e076d096f3e140d9b3e8"
+        },
+        {
+          "path": "dist/reina123.js",
+          "sha": "4c3303c2c832d410b182b440accfeab25eab9031"
+        },
+        {
+          "path": "dist/reina279.js",
+          "sha": "0f5bfdb8b7870fdf09ecd53a613fc608dd7fc2a1"
+        },
+        {
+          "path": "dist/reina280.js",
+          "sha": "b3d0f7a48d1870d5579404cc37f411aa63880282"
+        },
+        {
+          "path": "dist/reina282.js",
+          "sha": "d772610b09246dcb9c589beb7d423903657c3f10"
+        },
+        {
+          "path": "dist/reina381.js",
+          "sha": "6077b3022758bda637eb95cbb99de0c1c32460c5"
+        },
+        {
+          "path": "dist/reina382.js",
+          "sha": "7c79b8eb88fbfd4602337cb1179297be6b2874b9"
+        },
+        {
+          "path": "dist/reina383.js",
+          "sha": "366cbc9a1cc662de8f3a3bbfd59ee89c7fba0af7"
+        },
+        {
+          "path": "dist/rising-blade187.js",
+          "sha": "3921a681209ef1959b50e7b3f054e462574e9db7"
+        },
+        {
+          "path": "dist/tornado130.js",
+          "sha": "925210a86256b3f80dd4d1df6b97b4fc74d334f9"
+        }
+      ]
+    },
+    {
+      "feature": "hero-broxton",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-broxton responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/backup-voice375.js",
+          "sha": "97401ca32745c7333dd8378b80b8e97b8f1ad339"
+        },
+        {
+          "path": "dist/backup365.js",
+          "sha": "c76e039aeba9e54451d1568ed9bc27798f70da09"
+        },
+        {
+          "path": "dist/backup371.js",
+          "sha": "d6a51f3b04cf8e6cdb9ba64f60d03bf29d1a838f"
+        },
+        {
+          "path": "dist/backup377.js",
+          "sha": "05cbba565d3d74b361e8cdaaaff48e329f5ead80"
+        },
+        {
+          "path": "dist/broxton-audit142.js",
+          "sha": "468818b0d1b7ef9027e2cc9986c3c1f62e4e56c4"
+        },
+        {
+          "path": "dist/broxton-counters51.js",
+          "sha": "eb2e4bb622507bc809c7abe77b1f7bb92b9e55b2"
+        },
+        {
+          "path": "dist/broxton-lariat244-data.js",
+          "sha": "dcc475be7b2cdbffb1e4eb7426aa3971cda3e6c9"
+        },
+        {
+          "path": "dist/broxton-repair189.js",
+          "sha": "eb895b3e456b2e56da678c9037cbe86f4e01ad5c"
+        },
+        {
+          "path": "dist/broxton-shuffle52.js",
+          "sha": "57ff36abf81434c1de1fe964f98bf7e0c614359a"
+        },
+        {
+          "path": "dist/broxton-throw245-data.js",
+          "sha": "356fa0bc8386cf3662ea5d91c160f10319953e87"
+        },
+        {
+          "path": "dist/broxton.js",
+          "sha": "1517d7d08b9c1b69af51d91d6178b1472790f62f"
+        },
+        {
+          "path": "dist/broxton179.js",
+          "sha": "69befdc877c6a7196547e82a366087140028d025"
+        },
+        {
+          "path": "dist/shield181.js",
+          "sha": "dd201558766c69c1b43cc98e4b1196b6b6101e90"
+        }
+      ]
+    },
+    {
+      "feature": "hero-nova",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-nova responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/nova-audio128.js",
+          "sha": "2666841b433bace7d635efc2b4ae900dd2bcd670"
+        },
+        {
+          "path": "dist/nova-shock130.js",
+          "sha": "70b93c5dbc04372d783b0def570de2cdd8f9882f"
+        },
+        {
+          "path": "dist/nova105.js",
+          "sha": "3c83fd998c1084b2e9f504c6c8d80261729a8763"
+        },
+        {
+          "path": "dist/nova107.js",
+          "sha": "f1bcfb65751e9c8730ee9c00600cac647f56531b"
+        },
+        {
+          "path": "dist/nova108.js",
+          "sha": "44361c220d55f6cc3b9972badd57ed91e3e2154d"
+        },
+        {
+          "path": "dist/nova116.js",
+          "sha": "2fccfc03953fd65369c0550d7f6496bb457a06f0"
+        },
+        {
+          "path": "dist/nova128.js",
+          "sha": "49a7e0dd88e353dc4c99735aa7603382b49c34ca"
+        },
+        {
+          "path": "dist/nova333.js",
+          "sha": "0718f3452350c02eaaf64a82364351964a58ac31"
+        },
+        {
+          "path": "dist/nova77.js",
+          "sha": "7f39343acba8d717230593a8fa2d9f30a945f0eb"
+        }
+      ]
+    },
+    {
+      "feature": "hero-forest-gunner",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-forest-gunner responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/companion126.js",
+          "sha": "bcd07c5605c34208f9cbcfc16c22277db67f3f5b"
+        },
+        {
+          "path": "dist/forest-ai177.js",
+          "sha": "c9916afa16dc27beb4d890fd56167aa83fed52c3"
+        },
+        {
+          "path": "dist/forest-counters127.js",
+          "sha": "2b4aa92228c022c10de24e51469de1698070136e"
+        },
+        {
+          "path": "dist/forest-grapples177.js",
+          "sha": "0701576693df5b699268595abd9332e6c174590a"
+        },
+        {
+          "path": "dist/forest-grip146.js",
+          "sha": "55b66d95bf755f2a8c1a50f17b5d96c16f994075"
+        },
+        {
+          "path": "dist/forest-qa239.js",
+          "sha": "902db9692828541973b0ec5e23d24f3aca11cc2a"
+        },
+        {
+          "path": "dist/forest125.js",
+          "sha": "d181eb3c5a52242b337d1b2aa07e72e74812f5d2"
+        },
+        {
+          "path": "dist/gunner-tactics173.js",
+          "sha": "8fce44fa47bdd5970d6804720cf763eece4c52c3"
+        },
+        {
+          "path": "dist/gunner-ui173.js",
+          "sha": "091aa517c673b8bb11bd687487783896a9b626c6"
+        },
+        {
+          "path": "dist/maul175.js",
+          "sha": "74ac3fe5ecc6a0d4e4c0a6ebdc3f8be905936a1e"
+        },
+        {
+          "path": "dist/spear137.js",
+          "sha": "dbd934e45f72f98e3a22958d80cc51cd2cdd45af"
+        },
+        {
+          "path": "dist/woods-traversal148.js",
+          "sha": "27719270c6ae7e07f1313e88992663412ac341ff"
+        },
+        {
+          "path": "dist/woods139.js",
+          "sha": "e85fb491b931730f7ee7b0f6e28577ab833305bc"
+        }
+      ]
+    },
+    {
+      "feature": "hero-niko",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-niko responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/legthrow-art286.js",
+          "sha": "a8f21658b2c0cc12cb156224f4bb99e3e1d8f7d1"
+        },
+        {
+          "path": "dist/legthrow-ui286.js",
+          "sha": "3a84e0c7dc63fa2956f83b3c82877ed0ca6b8d7d"
+        },
+        {
+          "path": "dist/legthrow286.js",
+          "sha": "406f9eea56c0a3047b8ea64af192d37624269237"
+        },
+        {
+          "path": "dist/niko-counters186.js",
+          "sha": "4aecac0097d669d2ac836a37531bfa23124201f6"
+        },
+        {
+          "path": "dist/niko185.js",
+          "sha": "8a274ce2f2ed01e7071a39193d342482f4718a00"
+        },
+        {
+          "path": "dist/niko283-data.js",
+          "sha": "05bc798f6921f30ef5475be83d5aad6c0b52ed81"
+        },
+        {
+          "path": "dist/niko283.js",
+          "sha": "60f395d029cc1eb2172f3a049d2e285199c47842"
+        },
+        {
+          "path": "dist/niko284.js",
+          "sha": "7323d03f6172e9f8c829a0b693f38305822b2615"
+        },
+        {
+          "path": "dist/reverse-ddt-ui285.js",
+          "sha": "0c4f76e84532220abaa14513a706e2e45191a99a"
+        },
+        {
+          "path": "dist/reverse-ddt285.js",
+          "sha": "79342a0410455690728799aa2419048a84274ccb"
+        }
+      ]
+    },
+    {
+      "feature": "hero-orion",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-orion responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/orion-combat205.js",
+          "sha": "14e168c6d33a0afc5a3cc4310099879112bd397c"
+        },
+        {
+          "path": "dist/orion-integration205.js",
+          "sha": "8f55fa0b1770b770d396b523eccc48fe3df1d927"
+        },
+        {
+          "path": "dist/orion-special205.js",
+          "sha": "5de4ea78b7abcba0104240e31eb89500f8268ca5"
+        },
+        {
+          "path": "dist/orion205.js",
+          "sha": "14de32a2a3bc7b9b19d0de96f8454ab14855049a"
+        }
+      ]
+    },
+    {
+      "feature": "hero-nightshade",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit hero-nightshade responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/nightshade-ammo-profiles256.js",
+          "sha": "72ae38c569ee8bba1970cb3ff6778f686e9974f0"
+        },
+        {
+          "path": "dist/nightshade-ammo-view256.js",
+          "sha": "38de7c949345e644a9c44cf9fb7c2afb15d5f4ed"
+        },
+        {
+          "path": "dist/nightshade-ammo256.js",
+          "sha": "69f088b1c6392626d0ed3dc13a245fa55c31a8cf"
+        },
+        {
+          "path": "dist/nightshade-blitz276-data.js",
+          "sha": "29801d7d15bad3a66fb22d35c8c0174f55d885f0"
+        },
+        {
+          "path": "dist/nightshade-counter-art264.js",
+          "sha": "df248cad26b82b3404dd031edb4039d49d0db9a7"
+        },
+        {
+          "path": "dist/nightshade-counter264.js",
+          "sha": "4a1d01a68245566d93700488d18e06f02270ec74"
+        },
+        {
+          "path": "dist/nightshade-grab-art258.js",
+          "sha": "21bbe8531e06005de166e07486f3fd5c071ae3b0"
+        },
+        {
+          "path": "dist/nightshade-grabs258.js",
+          "sha": "a8b7ed1f6f2fff5fa8499578e14216a34a174875"
+        },
+        {
+          "path": "dist/nightshade-gun-art255.js",
+          "sha": "e58ff36d90bc5c67a233396aba1e58f4690edae8"
+        },
+        {
+          "path": "dist/nightshade-gun255.js",
+          "sha": "ca948e01581a9d7d45be248f54cbca29075539c4"
+        },
+        {
+          "path": "dist/nightshade-melee-art257.js",
+          "sha": "4cb1c5dc61d5dc05593db4d79bd0f25110c2f309"
+        },
+        {
+          "path": "dist/nightshade-melee257.js",
+          "sha": "6a84bab74c1c060ca8d88101b116ebff50060aca"
+        },
+        {
+          "path": "dist/nightshade-special-art263.js",
+          "sha": "766a45cf666ad93993e0e3b3121c9b38b5acce6e"
+        },
+        {
+          "path": "dist/nightshade-special263.js",
+          "sha": "d98ea8d6018e6032980c18bdd52442b01ae92c33"
+        },
+        {
+          "path": "dist/nightshade-weapon276-data.js",
+          "sha": "1050a84ba6494823a079e1845fd3b554376801b7"
+        },
+        {
+          "path": "dist/nightshade251.js",
+          "sha": "aedbcc7971f39583bb97540b71c3aee0cd58494f"
+        },
+        {
+          "path": "dist/nightshade267.js",
+          "sha": "a38463a3f9c2c59987ace855f0dd0fc43af545e5"
+        },
+        {
+          "path": "dist/nightshade276.js",
+          "sha": "2c51e34780dadfa476d60cf25ec00866dce121ab"
+        }
+      ]
+    },
+    {
+      "feature": "npc-combat",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit npc-combat responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/aidan221.js",
+          "sha": "2aae1a3645ad42fd4c9c70d2a11db0433687a348"
+        },
+        {
+          "path": "dist/astro326.js",
+          "sha": "d89f09bda199d647f9758116a959024879e5ac37"
+        },
+        {
+          "path": "dist/baylor237.js",
+          "sha": "cb222601462ab01b7db36bad50623ae98f4040b8"
+        },
+        {
+          "path": "dist/bruno130.js",
+          "sha": "3afdbce4917b391d02292b6625a71c7ac347b5d2"
+        },
+        {
+          "path": "dist/chemical214.js",
+          "sha": "a67572db370ca00b801a6e234a961fb4784e634d"
+        },
+        {
+          "path": "dist/dorian153.js",
+          "sha": "23f3f43302511967048636f6442df5eac5808712"
+        },
+        {
+          "path": "dist/dragon121.js",
+          "sha": "d8144764723b242bf3d1e24e8ff9cc05a5b90c2a"
+        },
+        {
+          "path": "dist/enemies210.js",
+          "sha": "74b1ecafe86dff83e888edb606449b82ad4f515b"
+        },
+        {
+          "path": "dist/enemy-identity233.js",
+          "sha": "54be98c7e1f128d61422f8d9346312337d61d7e8"
+        },
+        {
+          "path": "dist/enemy-motion281.js",
+          "sha": "0c3107a6d320a45482f84c6bfe54da0154aa2f5b"
+        },
+        {
+          "path": "dist/flint208.js",
+          "sha": "1debf1d47cf6d2e9ce030824d2dc60868dd24fa8"
+        },
+        {
+          "path": "dist/flint211.js",
+          "sha": "ee4d6f3852e2d52a8bcbb83ebd2764b1dd8cc9e0"
+        },
+        {
+          "path": "dist/gus219.js",
+          "sha": "9badf69d29e1a2d5b47c2904d63315ba516c58cf"
+        },
+        {
+          "path": "dist/heavy-workers233.js",
+          "sha": "a4ce95fddee1fb399c01ecd412d5850d7995f17a"
+        },
+        {
+          "path": "dist/jackal100.js",
+          "sha": "94709dc6236afef6312f831467c762fcd04b95de"
+        },
+        {
+          "path": "dist/jesse213.js",
+          "sha": "4a8df2ef1585446783782aae687abfe6724bfa9e"
+        },
+        {
+          "path": "dist/leroy102.js",
+          "sha": "05d2d424e6978cf1e94f5de34a9714fafe1ec3ff"
+        },
+        {
+          "path": "dist/martial212.js",
+          "sha": "69c172272c871efd343e2c20e09f7bfad913af62"
+        },
+        {
+          "path": "dist/pool-boss193.js",
+          "sha": "4577227956e97ccb29b42d8c1d834d1014464c15"
+        },
+        {
+          "path": "dist/security216.js",
+          "sha": "7b48250474d17e2112a037310cd5ebf87a4e3443"
+        },
+        {
+          "path": "dist/unique311.js",
+          "sha": "b4b712a50b50631f49e57c2b9c2c453d1aa0a6e4"
+        },
+        {
+          "path": "dist/worker-encounters233.js",
+          "sha": "96a7544e5154f9bc6d326328c438ccf661a82b05"
+        },
+        {
+          "path": "dist/workers233.js",
+          "sha": "b5b777ec6eba89c4f09faeef77bfb6cbae4e9b50"
+        }
+      ]
+    },
+    {
+      "feature": "campaign-world",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit campaign-world responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/airport-view309.js",
+          "sha": "ad7b032ca947a750171e7a919c7e281a22bb257b"
+        },
+        {
+          "path": "dist/airport-view312.js",
+          "sha": "c17018a4ad39b9303d3090cadfe83fc8649ef69b"
+        },
+        {
+          "path": "dist/airport-weather312.js",
+          "sha": "e8f66b674a8b3135aca19c7157b66be1988fbc6f"
+        },
+        {
+          "path": "dist/airport309.js",
+          "sha": "7a7da3bd1db3097ea44d72b4ce816b279928c843"
+        },
+        {
+          "path": "dist/cache-rooms-view336.js",
+          "sha": "df3dc3958cee4d7d9d405c94daa14782b486f204"
+        },
+        {
+          "path": "dist/cache-rooms336.js",
+          "sha": "e8e95bccff9a41bf55669569825bc1157ca1b8cf"
+        },
+        {
+          "path": "dist/casino192.js",
+          "sha": "57ce752fd365a47e9a3066c306d884b5acf6aa78"
+        },
+        {
+          "path": "dist/chinatown-view235.js",
+          "sha": "65eb49ce133f9897339459e733ff18f13f9465e6"
+        },
+        {
+          "path": "dist/chinatown235.js",
+          "sha": "242b1f45e4a366b19bd90a632be3a572b201de73"
+        },
+        {
+          "path": "dist/city334.js",
+          "sha": "db72750e1dc08de53a697b35c69410115ea30669"
+        },
+        {
+          "path": "dist/civilians305.js",
+          "sha": "9ea371abc74a4cfba4ea510a726ecf069e4b600a"
+        },
+        {
+          "path": "dist/club76.js",
+          "sha": "e181a2c350d6ecdde4e87685bcec0ba6a20e5ee4"
+        },
+        {
+          "path": "dist/destination-ui183.js",
+          "sha": "21328953846bc1739c9769726f01d449c82a21d6"
+        },
+        {
+          "path": "dist/destination183.js",
+          "sha": "2665bfbe6796f186648c17635d75ff68992815e6"
+        },
+        {
+          "path": "dist/docks231.js",
+          "sha": "c5adfac0c2dd6059c4560f59c54d84edf78fbd6c"
+        },
+        {
+          "path": "dist/environment-controller162.js",
+          "sha": "6411a2d96dc55c173f470a73b614c40ad2b3fd19"
+        },
+        {
+          "path": "dist/environment-game156.js",
+          "sha": "14acd1e8731b00cc2b4a25f6ae4fbdd3cb3c0b00"
+        },
+        {
+          "path": "dist/environment-ui156.js",
+          "sha": "18286a521b43e180978a44db9e848209aa2cb378"
+        },
+        {
+          "path": "dist/environment-view156.js",
+          "sha": "c4ca906e0777e9c64bc6ab1059859eb837bc47a3"
+        },
+        {
+          "path": "dist/environment156.js",
+          "sha": "a7d4f53bb4a7ccc8d21dd3242338e779b1a20828"
+        },
+        {
+          "path": "dist/environment217.js",
+          "sha": "c7dd4dc110361f842fba0161b400b3bafb7be017"
+        },
+        {
+          "path": "dist/environment218.js",
+          "sha": "411489cac31f12d9db53464760ae22a9ddced0bc"
+        },
+        {
+          "path": "dist/estates-view196.js",
+          "sha": "d49bd8274f579b677991157e47da129221b36cd8"
+        },
+        {
+          "path": "dist/estates196.js",
+          "sha": "0b3a733d48fa12c88b89ec411fb3949cd7ca8e74"
+        },
+        {
+          "path": "dist/feds-view316.js",
+          "sha": "d65600b5f1e14d6fc3cc18689406bf55c8bab82d"
+        },
+        {
+          "path": "dist/feds316.js",
+          "sha": "ab8f78fb53ac480550113b20e0d2081408f4ce4a"
+        },
+        {
+          "path": "dist/financial.js",
+          "sha": "cd68628456c5e9f65961cd5b7791b481567e34c1"
+        },
+        {
+          "path": "dist/government-polish190.js",
+          "sha": "0ec0804d66427f60e905ba78b76a3987de13fcb3"
+        },
+        {
+          "path": "dist/government182.js",
+          "sha": "16b9a2feaa72febf3ace90c3d54fddab91617ad5"
+        },
+        {
+          "path": "dist/highway-view234.js",
+          "sha": "ea0865e24c224120c779cb2497dc3297b6ad2e2d"
+        },
+        {
+          "path": "dist/highway234.js",
+          "sha": "c5bdbe5df3b38cf13cade8b49d00538b4adb4804"
+        },
+        {
+          "path": "dist/home-interactions339.js",
+          "sha": "824bc3149ac2ed64287ba60305a72995eb03a032"
+        },
+        {
+          "path": "dist/home-room-ui339.js",
+          "sha": "56d78b3b1dbdc4d43b775bf9193125ba20cb6a46"
+        },
+        {
+          "path": "dist/home-ui327.js",
+          "sha": "b2f0d35c793443a4d5f6f2730200e7013a7e4439"
+        },
+        {
+          "path": "dist/home-view338.js",
+          "sha": "41b4929dbc709034b2aa0b668f583402a2b76a3d"
+        },
+        {
+          "path": "dist/home-view339.js",
+          "sha": "9a143281f8cfde76f6e412ee5af08c57215463f9"
+        },
+        {
+          "path": "dist/home327.js",
+          "sha": "85bc6499747b6fb3ae937c2c6902e7cc4fe0b973"
+        },
+        {
+          "path": "dist/home338.js",
+          "sha": "a4331cd8e51cb34c1782b268baafe8d70ebb3432"
+        },
+        {
+          "path": "dist/hospital-mission-view315.js",
+          "sha": "33d71f8fb6621533f5fe294abaeea9dacf8e46d0"
+        },
+        {
+          "path": "dist/hospital-mission315.js",
+          "sha": "69c4e5d4552d1dfc5391b418cccba389da461fc1"
+        },
+        {
+          "path": "dist/hospital314.js",
+          "sha": "9b067211c273b3ec305421b28b8b2273b917e9fa"
+        },
+        {
+          "path": "dist/hydro-view243.js",
+          "sha": "df5c76c9cbffcd4813aea4470c185c8263027d86"
+        },
+        {
+          "path": "dist/hydro243.js",
+          "sha": "d3135c083ee14c06c2d0842a6c6e89a963b86312"
+        },
+        {
+          "path": "dist/industrial-view317.js",
+          "sha": "86af2071d7e6b669928030b6ff4c9078fab759e0"
+        },
+        {
+          "path": "dist/industrial317.js",
+          "sha": "7d66fe02733174298e23bd13ec2b78102dac6387"
+        },
+        {
+          "path": "dist/lab-view149.js",
+          "sha": "5b5c3e26d3efad7b2a81516ba31ea7639845c489"
+        },
+        {
+          "path": "dist/lab-workers166.js",
+          "sha": "3223a7952c30c8edb32bbd0ec47bae4dc9183610"
+        },
+        {
+          "path": "dist/lab149.js",
+          "sha": "e1d2cbe9f4cda700a079b940dd7fd0f378df6fc2"
+        },
+        {
+          "path": "dist/mall-view236.js",
+          "sha": "97e1a20b4884f726db395182b0a409da97d655bb"
+        },
+        {
+          "path": "dist/mall236.js",
+          "sha": "c2ceae0e70c2c4a81f9922778793743497867806"
+        },
+        {
+          "path": "dist/messages-ui335.js",
+          "sha": "65da2607b52861e329fbd240e17244aa947a420b"
+        },
+        {
+          "path": "dist/messages335.js",
+          "sha": "8c9c2bf017062644171c284ed99fbdb7bb0b39dc"
+        },
+        {
+          "path": "dist/notifications-ui336.js",
+          "sha": "93ecb0a7ed6eed6a7ee5b8b83811e6737d368bed"
+        },
+        {
+          "path": "dist/notifications336.js",
+          "sha": "67361d8ae744a685c494633e1285f3f4c4522f31"
+        },
+        {
+          "path": "dist/outdoor-template-view162.js",
+          "sha": "e6c55a607f6c3229cd1ba2b907313ddc7ae9edb3"
+        },
+        {
+          "path": "dist/park-visitors-view161.js",
+          "sha": "45d7346ce8e8224fa7886ac00f07695edd3c7509"
+        },
+        {
+          "path": "dist/phone323.js",
+          "sha": "8758ff91616a10516d23c13dea1d5d993843309e"
+        },
+        {
+          "path": "dist/prison224.js",
+          "sha": "d0181bf6ae59659e19c67cd3dd90f00093900e04"
+        },
+        {
+          "path": "dist/riverfront-view151.js",
+          "sha": "7ab85c9e79d9589bf7728e77489bbcdc04f8ee88"
+        },
+        {
+          "path": "dist/riverfront151.js",
+          "sha": "1904a9569979f8ea077e9c27e38e7c358a8e36df"
+        },
+        {
+          "path": "dist/rooftop-ui201.js",
+          "sha": "0d749d12ad7346509e8ba9e65c22b641cf54a621"
+        },
+        {
+          "path": "dist/rooftop-view201.js",
+          "sha": "0fe80ab1ef88980e08d453ba6abee1eddb2d2be2"
+        },
+        {
+          "path": "dist/rooftop201.js",
+          "sha": "c7db91739e3e84c0ff3fb913493aa9cbb7ccf17e"
+        },
+        {
+          "path": "dist/route-view167.js",
+          "sha": "a926c9b1e2ea7e5ab6988e6dbcb099ef6d8aa7de"
+        },
+        {
+          "path": "dist/route74197.js",
+          "sha": "67dfbbbfc67fa4e4c847caac07fbfeb810a5a478"
+        },
+        {
+          "path": "dist/scenery230.js",
+          "sha": "98c423cf51b1afe166519ec8a3e4d5862d25bad3"
+        },
+        {
+          "path": "dist/scenes71.js",
+          "sha": "1520f79d7e9e4a4c4524e3e4048494a882c98777"
+        },
+        {
+          "path": "dist/slums-view202.js",
+          "sha": "dec510cb0990d78fde0fe04e701d3d5bd8d1cd56"
+        },
+        {
+          "path": "dist/slums-view203.js",
+          "sha": "efa9dd1475ddf9d226cde4bb944f53af2480c42e"
+        },
+        {
+          "path": "dist/slums202.js",
+          "sha": "1cef60700194d5f2c55a38a1a86baeda1ee7c7bd"
+        },
+        {
+          "path": "dist/slums203.js",
+          "sha": "c425c2c67944b0f0746b369b8cff85a5d4bd8112"
+        },
+        {
+          "path": "dist/slums204.js",
+          "sha": "5874da9e1daee98ec60a905fba1dc149b2f46afd"
+        },
+        {
+          "path": "dist/stadium-view237.js",
+          "sha": "3703e5b96dba6dde83636cb4f7433d6b670d2c77"
+        },
+        {
+          "path": "dist/stadium237.js",
+          "sha": "f1616d1b63fe8a5806423b5778df36b9afbcd735"
+        },
+        {
+          "path": "dist/stadium313.js",
+          "sha": "683dec63768bddb9635e4f6793ca80f88220172f"
+        },
+        {
+          "path": "dist/sterling-view152.js",
+          "sha": "92b7f44739b4d54bea8c396752ce549b42142636"
+        },
+        {
+          "path": "dist/sterling152.js",
+          "sha": "aef55c0bc0e5f30dd9be69bf942739d52bd93acc"
+        },
+        {
+          "path": "dist/street155.js",
+          "sha": "ee1fab475a3617b61319182b1396929f26ec5ee5"
+        },
+        {
+          "path": "dist/street209.js",
+          "sha": "9240e029244246dacdf09d31bbc30e0abf8100c2"
+        },
+        {
+          "path": "dist/subway-audio238.js",
+          "sha": "15b3dc55c2f86ca06594a4a0f3f6a21f88920d80"
+        },
+        {
+          "path": "dist/subway-ui238.js",
+          "sha": "845d061853a9ddce87d2201c1c48e22390cde9a0"
+        },
+        {
+          "path": "dist/subway-view238.js",
+          "sha": "a34d20b3e5cf98a970f543b8717b27ef4a991dec"
+        },
+        {
+          "path": "dist/subway238.js",
+          "sha": "3cc7d1e5d90efd5f382fee2f04afca3078bdcc86"
+        },
+        {
+          "path": "dist/traffic333-data.js",
+          "sha": "dce294825810e191ea72d73ddc659ed431ca2016"
+        },
+        {
+          "path": "dist/uptown-view113.js",
+          "sha": "3d8e4231f9c6ad900137521ad05f7ba5b9ba5ebe"
+        },
+        {
+          "path": "dist/uptown113.js",
+          "sha": "3cef4ba8c7bcaf5365926342d480b482053e4d8d"
+        },
+        {
+          "path": "dist/weather67.js",
+          "sha": "bdf999f275a1ef5a5fdb78b5ce2da40c7526b916"
+        },
+        {
+          "path": "dist/yacht195.js",
+          "sha": "b6252122222ed8ff422512f45d758f515259b0c6"
+        }
+      ]
+    },
+    {
+      "feature": "weapons-resources",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit weapons-resources responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/energy-settings316.js",
+          "sha": "0dc4ef3c7eb1af65ad63c55d428a832f4934340e"
+        },
+        {
+          "path": "dist/energy-ui316.js",
+          "sha": "125231e71f8576105b21588c3218c7b4c338247c"
+        },
+        {
+          "path": "dist/energy-view316.js",
+          "sha": "a8caae0a5d7b7239f2e3af88415a9ec8ab7f179e"
+        },
+        {
+          "path": "dist/energy316.js",
+          "sha": "529469026e0ea5e8780564bb0a22dfbc3771d2c2"
+        },
+        {
+          "path": "dist/item-view319.js",
+          "sha": "82e85ab55100db57a3b181ad139a6570b1d080e3"
+        },
+        {
+          "path": "dist/items319.js",
+          "sha": "72082168381c55e987a5acf4983155e35c4b5c4a"
+        },
+        {
+          "path": "dist/pcbi-combat316.js",
+          "sha": "720a16bc2ba597c0bf035ca641ce15511b400aa6"
+        },
+        {
+          "path": "dist/pcbi-ui316.js",
+          "sha": "60f2fa13871adda4f70840ef86eaecce32d3ab54"
+        },
+        {
+          "path": "dist/pcbi316-data.js",
+          "sha": "de6b11fed40a900574cee992bedc0c4588ff9896"
+        },
+        {
+          "path": "dist/pcbi316.js",
+          "sha": "b15440e07bb51df796737bc1330019482e5b6df6"
+        },
+        {
+          "path": "dist/player-resources-ui340.js",
+          "sha": "3ddc3379fa36f3e8e47fd527ad07ea944165614c"
+        },
+        {
+          "path": "dist/player-resources340.js",
+          "sha": "58a56a85e2e5a372decf86e26e1a8ec643c062b9"
+        },
+        {
+          "path": "dist/taser206.js",
+          "sha": "2e0cb84d5eed489ed837ed6a36e39288ef24ce39"
+        },
+        {
+          "path": "dist/weapon-counters122.js",
+          "sha": "cba22e98e38f365eb19f5fe04b944cccc08767cb"
+        },
+        {
+          "path": "dist/weapon-motion249.js",
+          "sha": "dbe83cb5f4e5171d5a7aaa800943dc021e9f32a2"
+        },
+        {
+          "path": "dist/weapons248.js",
+          "sha": "5b63714b5061fc51585e302da86641d0bb7b0249"
+        }
+      ]
+    },
+    {
+      "feature": "runtime-ui-diagnostics",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit runtime-ui-diagnostics responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/ai-inspector288.js",
+          "sha": "77a08413c85603e3a621885ecbbe96944300182f"
+        },
+        {
+          "path": "dist/ai-observer288.js",
+          "sha": "4ff6d1478dd9a5810cfd498a3c99a6ed7c8138d1"
+        },
+        {
+          "path": "dist/audit135.js",
+          "sha": "e0f96b4fd71cbced42e9a9774dccc92ddf8ddce7"
+        },
+        {
+          "path": "dist/diagnostics-ui307.js",
+          "sha": "48d7fe985b7175de8a42143a55caa1a20a68ff08"
+        },
+        {
+          "path": "dist/diagnostics307.js",
+          "sha": "4744efec8fed2956d52f0098e6e5e6618def90fd"
+        },
+        {
+          "path": "dist/experiments307.js",
+          "sha": "c28c2f040b79442275291047bf381e1d4484d85c"
+        },
+        {
+          "path": "dist/panel-options288.js",
+          "sha": "4cd05bdc012c605bdd8099739dcf02512340f626"
+        },
+        {
+          "path": "dist/playback-ui265.js",
+          "sha": "4a0c358d47305e9b1e41426142dbfa9af2fde3de"
+        },
+        {
+          "path": "dist/playback265.js",
+          "sha": "33c67ebde55086394607e5c643c0ec2a17a5dcec"
+        },
+        {
+          "path": "dist/practice278.js",
+          "sha": "e8941ee98b5c721c43b7a3b34e63b91b78afae0d"
+        },
+        {
+          "path": "dist/practice282.js",
+          "sha": "531d51b618ec700fee9edc2ea0f34ef458362685"
+        },
+        {
+          "path": "dist/reaction-settings274.js",
+          "sha": "1e8a7009b809be12f5656086c9080bded867c08a"
+        },
+        {
+          "path": "dist/reaction-ui274.js",
+          "sha": "0da2e4c24c4e8b36fcc0e7d140eb3608cbc19a1b"
+        },
+        {
+          "path": "dist/recording287-art.js",
+          "sha": "eb9b4a00f17c2ac3c7c2abd734739ed89afce51b"
+        },
+        {
+          "path": "dist/recording287.js",
+          "sha": "f18a5af2ad5b614c441f1e1fa66e224b498db40d"
+        },
+        {
+          "path": "dist/recording306.js",
+          "sha": "d4a66c10d60bd29b290c1807bf184e1357f04ac8"
+        },
+        {
+          "path": "dist/recording312-enemies.js",
+          "sha": "258f402ff4fe425c5c9101139d018659b4fb08a1"
+        },
+        {
+          "path": "dist/recording313-enemies.js",
+          "sha": "c179ea04d29a25579c5b1fe593ddd3a886a4b2ef"
+        },
+        {
+          "path": "dist/recording313.js",
+          "sha": "9f855f640a9bc56bf22abd45db9a9a13c1c4233d"
+        },
+        {
+          "path": "dist/review144.js",
+          "sha": "d2bc2bd9b20bc9dc5e2d47e5cda1871b4f8143a8"
+        },
+        {
+          "path": "dist/review287-ui.js",
+          "sha": "8204b8937eff50a9664d87bf576c457557282ec8"
+        },
+        {
+          "path": "dist/stats-ui266.js",
+          "sha": "0baac5d64545baedff87245b1edaa43796b0b093"
+        },
+        {
+          "path": "dist/stats266.js",
+          "sha": "db337a0ed9d60bc68f380ec154cf462abb1c7a93"
+        },
+        {
+          "path": "dist/video207.js",
+          "sha": "6baea5aedd1ef7a2d57587152517b0019bed82c9"
+        }
+      ]
+    },
+    {
+      "feature": "shared-combat-admission",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit shared-combat-admission responsibility mapping; mixed modules retain conservative shared-combat/render regression propagation. Suites are regression selections, not coverage certificates.",
+      "modules": [
+        {
+          "path": "dist/balance48.js",
+          "sha": "ada44f4735d53dab57970a32c9cbf37328c06a5e"
+        },
+        {
+          "path": "dist/balance49.js",
+          "sha": "676c6728019cd897baab3c3bb6b9bb4eb6be997a"
+        },
+        {
+          "path": "dist/charge130.js",
+          "sha": "1e7edb48e71ea927907ea8ccec0df4c7002dcd5d"
+        },
+        {
+          "path": "dist/combat-audio.js",
+          "sha": "a8221bfcf78f0fe4aff9995e35952a952886d74f"
+        },
+        {
+          "path": "dist/combat134.js",
+          "sha": "af5bbf1a2e6e4358fbe23c16b2f8d37ff7dafe6d"
+        },
+        {
+          "path": "dist/combat200.js",
+          "sha": "b5a9215fb6a59a45e619028633856d23325e8573"
+        },
+        {
+          "path": "dist/combat269.js",
+          "sha": "5064f3c9a50437fdba93e35f4acaae68e66a1236"
+        },
+        {
+          "path": "dist/combat274.js",
+          "sha": "72279b877ac97bf4e66851b5fd1c772283e88352"
+        },
+        {
+          "path": "dist/combo-confirm129.js",
+          "sha": "06d054ec948c9f938e39320ba6b6a541fabbb816"
+        },
+        {
+          "path": "dist/counters.js",
+          "sha": "ad6ab2cff0ba248f413aa498f543e0aba7795d68"
+        },
+        {
+          "path": "dist/counters248.js",
+          "sha": "3a00bc454c08a5da5fe702dc472735c1d606c350"
+        },
+        {
+          "path": "dist/encounter-config222.js",
+          "sha": "feedabb054343ca04cf2e7fa088357a73cae10b4"
+        },
+        {
+          "path": "dist/encounters.js",
+          "sha": "e48358113aedba4a2abf3dc647b683b815b9aeac"
+        },
+        {
+          "path": "dist/grab198.js",
+          "sha": "29994a7c3d49cee09be5b16212e0b4183132d6ba"
+        },
+        {
+          "path": "dist/grapple-recovery119.js",
+          "sha": "5bc86d71866cb483162198a0cd90720e3b22db65"
+        },
+        {
+          "path": "dist/grapples301.js",
+          "sha": "99fef84619c69d43c26d7a37e5f550fb4a32de42"
+        },
+        {
+          "path": "dist/grip124.js",
+          "sha": "f8901153368c035b9c14b08f23ac62a38446fdc4"
+        },
+        {
+          "path": "dist/hook-ground275.js",
+          "sha": "6f13c44dc647d5cfdafb54596302df6cf34acbce"
+        },
+        {
+          "path": "dist/input226.js",
+          "sha": "639b8cc55e1024542e5da1c0d856a4717114fcf0"
+        },
+        {
+          "path": "dist/locomotion127.js",
+          "sha": "0133e0995f23838c217a26bec2a47b196607978a"
+        },
+        {
+          "path": "dist/open-cue62.js",
+          "sha": "3942e7ff6eeeb0a3027e86e4649cc85220b95952"
+        },
+        {
+          "path": "dist/paired-motion.js",
+          "sha": "70dc2151b307f654beb34657d066a475e8890aaf"
+        },
+        {
+          "path": "dist/powerbomb136.js",
+          "sha": "c2aefc3844ebd0557a96556ea490ac4843730f09"
+        },
+        {
+          "path": "dist/pressure101.js",
+          "sha": "69adaf74085c8b83359ac85dedef8d883197505d"
+        },
+        {
+          "path": "dist/quality167.js",
+          "sha": "111a921beb6fbd2c1335bf8a82a9262dc2806fd8"
+        },
+        {
+          "path": "dist/repair259.js",
+          "sha": "ff26c1657ae6e36b9c0e2681bd65ba0c9dfe9de9"
+        },
+        {
+          "path": "dist/repair262-data.js",
+          "sha": "e1b92d0fbb18ffc05767851878e86b7c0c6a6471"
+        },
+        {
+          "path": "dist/repair277-data.js",
+          "sha": "663965381e9153f64faf9b8f41b1ceff0873befe"
+        },
+        {
+          "path": "dist/repairs330.js",
+          "sha": "061eeea3bfcaa1134b4d207c6e00a3645c4ef7a5"
+        },
+        {
+          "path": "dist/repairs337.js",
+          "sha": "e007dfa59bed93b0ebff913697d023396d4c1e51"
+        },
+        {
+          "path": "dist/stabilize143.js",
+          "sha": "5171edc1027fd3fc89eaf867a71b242665016848"
+        },
+        {
+          "path": "dist/support370.js",
+          "sha": "a78aac26eb49473cddf6a1885d6b6b7b000233dd"
+        }
+      ]
+    }
+  ]
+}
