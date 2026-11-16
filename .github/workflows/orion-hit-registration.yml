@@ -1,0 +1,40 @@
+name: Orion hit registration regression
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'dist/orion-combat205.js'
+      - 'tests/orion387*'
+      - 'tests/orion228*'
+      - 'source-archive/orion-combat205-before387.js'
+      - '.github/workflows/orion-hit-registration.yml'
+permissions:
+  contents: read
+jobs:
+  hit-registration:
+    name: Orion native contact retry and balance preservation
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - name: Current native hit registration and unchanged damage timing resources
+        run: node --test tests/orion387-hit-registration.cjs
+      - name: Retained Orion native gates
+        run: |
+          node tests/orion228-foundation.cjs
+          node tests/orion228-physical.cjs
+          node tests/orion228-repair.cjs
+          node tests/orion228-grabs.cjs
+          node tests/orion228-specials.cjs
+          node tests/orion228-integration.cjs
+      - name: Previous Orion and controller regressions
+        run: |
+          node --test tests/orion386-counters.cjs tests/orion385-locomotion.cjs
+          node tests/gamepad.test.cjs
+          node tests/controller157.cjs

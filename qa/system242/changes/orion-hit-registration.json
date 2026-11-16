@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "id": "orion-hit-registration",
+  "description": "ORION-A01: consume action/event/target ledger only after accepted damage or confirmed native guard, allowing retry only within existing active windows. No damage, timing, resource, geometry or art changes.",
+  "acceptanceScope": "game-change",
+  "files": [
+    "dist/orion-combat205.js",
+    "tests/orion387-hit-registration.cjs",
+    "source-archive/orion-combat205-before387.js",
+    "ORION387-HIT-REGISTRATION.md",
+    "qa/system242/suites.json",
+    "qa/system242/features.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/production-ownership.json",
+    ".github/workflows/orion-hit-registration.yml",
+    "qa/system242/changes/orion-hit-registration.json"
+  ],
+  "features": [
+    "qa242",
+    "hero-orion",
+    "shared-combat-admission"
+  ],
+  "entities": {
+    "characters": [
+      "orion"
+    ],
+    "moves": [
+      "orion/combat/grab",
+      "orion/combat/blast",
+      "orion/combat/robo",
+      "orion/combat/piston",
+      "orion/combat/inverted",
+      "orion/combat/counter",
+      "orion/combat/ascension",
+      "orion/air/airNeutral",
+      "orion/air/airKnee",
+      "orion/air/airDown",
+      "orion/combo/stage-1",
+      "orion/combo/stage-2",
+      "orion/combo/stage-3",
+      "orion/combo/stage-4",
+      "orion/dodge/definition",
+      "orion/repairMove/definition",
+      "orion/meteorMove/definition",
+      "orion/currentMove/definition",
+      "orion/laserMove/definition",
+      "orion/charged-ability/charged",
+      "orion/current-counter/punch",
+      "orion/current-counter/kick",
+      "orion/current-counter/short",
+      "orion/current-counter/long"
+    ],
+    "systems": [
+      "qa242",
+      "hero-orion",
+      "action-admission",
+      "hit-reactions",
+      "director"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "ORION-A01"
+  ]
+}
