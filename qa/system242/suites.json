@@ -4500,6 +4500,33 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "orion385-locomotion",
+      "command": [
+        "node",
+        "--test",
+        "tests/orion385-locomotion.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion385-walk-import",
+      "command": [
+        "python",
+        "tests/orion385-walk.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

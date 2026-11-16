@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "orion-walk-transitions",
+  "description": "ORION-001: retained side-facing walking art and presentation-only phase/stop transitions, with30/60/120Hz native player-state equivalence. Older GitHub production entry remains on205/271; the published source already consumes384.",
+  "files": [
+    "ORION385-LOCOMOTION-REPAIR.md",
+    "dist/orion384.js",
+    "dist/orion384-data.js",
+    "tools/orion384/pack_walk.py",
+    "tools/orion384/pack.py",
+    "source-archive/orion384-before385.js",
+    "source-archive/orion384-before385-data.js",
+    "tests/orion385-locomotion.cjs",
+    "tests/orion385-walk.py",
+    "reports385/walk-import.json",
+    "qa/system242/suites.json",
+    ".github/workflows/orion-locomotion.yml",
+    "dist/assets/orion385/walk.webp",
+    "qa/system242/changes/orion-walk-transitions.json"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering"
+  ],
+  "entities": {
+    "characters": [
+      "orion"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "ORION-001"
+  ]
+}

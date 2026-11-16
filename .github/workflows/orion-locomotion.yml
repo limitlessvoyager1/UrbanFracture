@@ -1,0 +1,46 @@
+name: Orion locomotion regression
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'dist/orion384.js'
+      - 'dist/orion384-data.js'
+      - 'dist/assets/orion385/walk.webp'
+      - 'source-archive/orion384-before385*'
+      - 'tests/orion385*'
+      - 'tools/orion384/**'
+      - 'reports385/walk-import.json'
+      - '.github/workflows/orion-locomotion.yml'
+permissions:
+  contents: read
+jobs:
+  locomotion:
+    name: Orion orientation transitions and native equivalence
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - run: python -m pip install Pillow==13.0.0 numpy==2.2.6
+      - name: Locomotion transitions and native player-state equivalence
+        run: node --test tests/orion385-locomotion.cjs
+      - name: Retained artwork facings anchors and hands
+        run: python tests/orion385-walk.py
+      - name: Reproduce walk atlas without disturbing get-up
+        run: |
+          python tools/orion384/pack_walk.py
+          python tests/orion385-walk.py
+          python tests/orion384-import.py
+          git diff --exit-code -- dist/assets/orion385/walk.webp dist/orion384-data.js reports385/walk-import.json
+      - name: Existing controller regression
+        run: |
+          node tests/gamepad.test.cjs
+          node tests/controller157.cjs

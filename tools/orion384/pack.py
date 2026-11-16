@@ -53,3 +53,6 @@ for name,rows,standing in [('core-R',8,[0,15,20,21]),('core-L',8,[0,15,20,21]),(
 (R/'dist/orion384-data.js').write_bytes(('globalThis.Orion384Data='+json.dumps(data,separators=(',',':'))+';\n').encode('utf-8'))
 (R/'reports384/import.json').write_text(json.dumps({'poses':len(receipts),'fixedLogicalStandingHeight':128,'facings':'independently authored','perPoseHeightNormalization':False,'receipts':receipts},indent=2)+'\n')
 print('Packed',len(receipts),'authored poses')
+if selected=='all':
+ import subprocess,sys
+ subprocess.run([sys.executable,str(R/'tools/orion384/pack_walk.py')],cwd=R,check=True)
