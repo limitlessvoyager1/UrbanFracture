@@ -1,0 +1,406 @@
+{
+  "schema": 1,
+  "coverage": "pilot",
+  "mandatorySmoke": [
+    "source-integrity",
+    "current-runtime-certification",
+    "validator-self-tests",
+    "qa242-integrity",
+    "qa242-release-integrity",
+    "qa242-policy",
+    "direct-start-director-admission",
+    "hitstun-eligibility",
+    "knockdown-admission",
+    "post-hit-reassessment",
+    "gamepad-current",
+    "controller157-current"
+  ],
+  "features": [
+    {
+      "id": "qa242",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "AGENTS.md",
+        "QA242-POLICY.md",
+        "QA242-ARCHITECTURE.md",
+        "QA242-RUNBOOK.md",
+        "QA242-STYLE-BIBLE.md",
+        ".github/**",
+        "qa/**",
+        "tools/qa242/**",
+        "tests/**"
+      ],
+      "entities": {
+        "characters": [],
+        "moves": [],
+        "systems": [
+          "qa242"
+        ],
+        "levels": []
+      },
+      "dependsOn": [],
+      "suites": [
+        "qa242-policy",
+        "qa242-integrity",
+        "qa242-release-integrity",
+        "validator-self-tests"
+      ],
+      "visualScenarios": [],
+      "performanceRisk": false,
+      "specs": [
+        "QA242-POLICY.md"
+      ],
+      "contentIds": [],
+      "certification": "partial"
+    },
+    {
+      "id": "shared-combat-admission",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "dist/core.js",
+        "dist/director148.js",
+        "dist/encounter222.js",
+        "dist/grab223.js",
+        "dist/combat-quality169.js",
+        "dist/reactions298.js",
+        "dist/knockdowns299.js",
+        "dist/crowd303.js",
+        "dist/plane304.js",
+        "dist/stabilization241.js",
+        "dist/attack297.js",
+        "dist/continuity296.js",
+        "dist/contact302.js"
+      ],
+      "entities": {
+        "characters": [
+          "all-fighters"
+        ],
+        "moves": [
+          "all-native-actions"
+        ],
+        "systems": [
+          "action-admission",
+          "hit-reactions",
+          "director"
+        ],
+        "levels": [
+          "all-combat-scenes"
+        ]
+      },
+      "dependsOn": [
+        "qa242"
+      ],
+      "suites": [
+        "direct-start-director-admission",
+        "hitstun-eligibility",
+        "knockdown-admission",
+        "post-hit-reassessment",
+        "support370-current"
+      ],
+      "visualScenarios": [
+        "combat-start-active-recovery"
+      ],
+      "performanceRisk": true,
+      "specs": [
+        "AGENTS.md",
+        "COMBAT_REPAIR_LOG.md"
+      ],
+      "contentIds": [],
+      "certification": "partial"
+    },
+    {
+      "id": "shared-fighter-rendering",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "dist/sprite-data.js",
+        "dist/frankie-data.js",
+        "dist/walk-data.js",
+        "dist/recovery-data.js",
+        "dist/reina-tech-data.js",
+        "dist/throw-tech-data.js",
+        "dist/spin-combat-data.js",
+        "dist/mobility-data.js",
+        "dist/refined-data.js",
+        "dist/run-data.js",
+        "dist/anti-air-data.js",
+        "dist/new-combat-data.js",
+        "dist/kevin-brick-data.js",
+        "dist/recovery-taser-data.js",
+        "dist/build22-data.js",
+        "dist/grab-air-data.js",
+        "dist/bruno-held-data.js",
+        "dist/financial-data.js",
+        "dist/financial-tech-data.js",
+        "dist/opening-data.js",
+        "dist/bank-furniture-data.js",
+        "dist/bruno-counter31-data.js",
+        "dist/animation31-data.js",
+        "dist/civilian-run31-data.js",
+        "dist/broxton-data.js",
+        "dist/broxton-refined-data.js",
+        "dist/enemies43-data.js",
+        "dist/neutral44-data.js",
+        "dist/combat45-data.js",
+        "dist/motion46-data.js",
+        "dist/combat47-data.js",
+        "dist/block48-data.js",
+        "dist/grapples49-data.js",
+        "dist/counters51-data.js",
+        "dist/walk52-data.js",
+        "dist/forest125-data.js",
+        "dist/forest-counters127-data.js",
+        "dist/locomotion127-data.js",
+        "dist/forest-run240-data.js",
+        "dist/nova128-data.js",
+        "dist/tornado130-data.js",
+        "dist/reactions130-data.js",
+        "dist/repair134-data.js",
+        "dist/charge-walk149-data.js",
+        "dist/river-traffic151-data.js",
+        "dist/sterling152-data.js",
+        "dist/dorian153-data.js",
+        "dist/lab-fighters166-data.js",
+        "dist/animation189-data.js",
+        "dist/government190-data.js",
+        "dist/niko-air191-data.js",
+        "dist/casino192-data.js",
+        "dist/pool-boss193-data.js",
+        "dist/yacht195-data.js",
+        "dist/estates196-data.js",
+        "dist/route74197-data.js",
+        "dist/rooftop201-data.js",
+        "dist/slums204-data.js",
+        "dist/orion205-data.js",
+        "dist/worker-regular233-data.js",
+        "dist/worker-heavy233-data.js",
+        "dist/highway-vehicles234-data.js",
+        "dist/baylor-data237.js",
+        "dist/fans-data237.js",
+        "dist/stadium313-data.js",
+        "dist/fans332-data.js",
+        "dist/frankie-held245-data.js",
+        "dist/scientist-held245-data.js",
+        "dist/financial-held245-data.js",
+        "dist/weapon-art248.js",
+        "dist/reina-idle-walk275-data.js",
+        "dist/reina-walk280-data.js",
+        "dist/nightshade-art252.js",
+        "dist/reina-hook272-data.js",
+        "dist/carmen-recoil274-data.js",
+        "dist/reina-grab279-data.js",
+        "dist/enemy281-data.js",
+        "dist/reina282-data.js",
+        "dist/niko284-data.js",
+        "dist/reverse-art285.js",
+        "dist/review287-falls.js",
+        "dist/marcus289-data.js",
+        "dist/bruno296-data.js",
+        "dist/attack297-data.js",
+        "dist/grapple301-data.js",
+        "dist/recoil306-data.js",
+        "dist/style310-data.js",
+        "dist/airport332-data.js",
+        "dist/reina312-data.js",
+        "dist/reina-dive313-data.js",
+        "dist/unique311-data.js",
+        "dist/enemies312-data.js",
+        "dist/enemy313-data.js",
+        "dist/hospital314-data.js",
+        "dist/hospital315-witness-data.js",
+        "dist/energy316-data.js",
+        "dist/feds316-data.js",
+        "dist/industrial317-data.js",
+        "dist/item319-data.js",
+        "dist/guard331-data.js",
+        "dist/home339-data.js",
+        "dist/reina354-data.js",
+        "dist/reina-bindings354.js",
+        "dist/katana355-data.js",
+        "dist/broxton359-data.js",
+        "dist/broxton-bindings356.js",
+        "dist/nightshade360-data.js",
+        "dist/flint-walk362-data.js",
+        "dist/backup371-data.js",
+        "dist/backup377-data.js",
+        "dist/reina381-data.js",
+        "dist/reina382-data.js",
+        "dist/reina383-data.js",
+        "dist/hospital314-materials.js",
+        "dist/sprites.js",
+        "dist/forest-view125.js",
+        "dist/nova-view128.js",
+        "dist/charge-view130.js",
+        "dist/reactions-view130.js",
+        "dist/repair-view134.js",
+        "dist/audit-view135.js",
+        "dist/spear137-view.js",
+        "dist/review-view144.js",
+        "dist/charge-walk149.js",
+        "dist/dorian-view153.js",
+        "dist/lab-fighters-view166.js",
+        "dist/kip-view169.js",
+        "dist/maul-view175.js",
+        "dist/forest-view177.js",
+        "dist/broxton-view179.js",
+        "dist/shield-view181.js",
+        "dist/government-view182.js",
+        "dist/niko-view185.js",
+        "dist/niko-counter-view186.js",
+        "dist/rising-blade-view187.js",
+        "dist/animation-view189.js",
+        "dist/government-view190.js",
+        "dist/niko-air-view191.js",
+        "dist/casino-view192.js",
+        "dist/pool-boss-view193.js",
+        "dist/yacht-view195.js",
+        "dist/route74-view197.js",
+        "dist/grab-view198.js",
+        "dist/slums-view204.js",
+        "dist/orion-view205.js",
+        "dist/chemical-view214.js",
+        "dist/aidan-view221.js",
+        "dist/gus-view219.js",
+        "dist/docks-view231.js",
+        "dist/prison-view224.js",
+        "dist/workers-view233.js",
+        "dist/baylor-view237.js",
+        "dist/broxton-lariat244-view.js",
+        "dist/grab-view245.js",
+        "dist/presentation-view275.js",
+        "dist/combat-view248.js",
+        "dist/nightshade-view251.js",
+        "dist/reina-hook-view272.js",
+        "dist/combat-view274.js",
+        "dist/reina-grab-view279.js",
+        "dist/enemy-view281.js",
+        "dist/reina-view282.js",
+        "dist/niko-view283.js",
+        "dist/niko-view284.js",
+        "dist/reverse-ddt-view285.js",
+        "dist/legthrow-view286.js",
+        "dist/review287-view.js",
+        "dist/reaction-templates289.js",
+        "dist/marcus289-view.js",
+        "dist/enemy-reactions290.js",
+        "dist/continuity-view296.js",
+        "dist/attack-view297.js",
+        "dist/reactions-view298.js",
+        "dist/reina291.js",
+        "dist/review-view294.js",
+        "dist/knockdowns-view299.js",
+        "dist/grapple-view301.js",
+        "dist/contact-view302.js",
+        "dist/plane-view304.js",
+        "dist/review-view306.js",
+        "dist/style310.js",
+        "dist/reina-view312.js",
+        "dist/reina-view313.js",
+        "dist/unique-view311.js",
+        "dist/enemy-view312.js",
+        "dist/enemy-view313.js",
+        "dist/hospital-view314.js",
+        "dist/pcbi-view316.js",
+        "dist/charge-view318.js",
+        "dist/guard-view331.js",
+        "dist/nova-view333.js",
+        "dist/slums-view337.js",
+        "dist/reina-view354.js",
+        "dist/katana-view355.js",
+        "dist/broxton-body359.js",
+        "dist/broxton-gait359.js",
+        "dist/nightshade-skin360.js",
+        "dist/nightshade-gait360.js",
+        "dist/visual362.js",
+        "dist/knife363.js",
+        "dist/backup-view365.js",
+        "dist/backup-view371.js",
+        "dist/backup-view377.js",
+        "dist/reina-view381.js",
+        "dist/reina-view382.js",
+        "dist/reina-view383.js",
+        "dist/game.js",
+        "dist/index.html",
+        "dist/style.css",
+        "dist/assets/**",
+        "tools/fighter-render/**",
+        "tools/grounded-cache/**",
+        "tools/grounded-surfaces/**"
+      ],
+      "entities": {
+        "characters": [
+          "all-fighters"
+        ],
+        "moves": [
+          "all-rendered-actions"
+        ],
+        "systems": [
+          "fighter-rendering",
+          "asset-loading"
+        ],
+        "levels": [
+          "all-rendered-scenes"
+        ]
+      },
+      "dependsOn": [
+        "qa242",
+        "shared-combat-admission"
+      ],
+      "suites": [
+        "fighter-render-prerequisites",
+        "fighter-render-bootstrap",
+        "reina383-render-audit",
+        "broxton369-gait-order"
+      ],
+      "visualScenarios": [
+        "reina383-native-frame-audit",
+        "broxton369-native-gait-order"
+      ],
+      "performanceRisk": true,
+      "specs": [
+        "QA242-STYLE-BIBLE.md",
+        "tools/fighter-render/README.txt"
+      ],
+      "contentIds": [],
+      "certification": "partial"
+    },
+    {
+      "id": "controller-input",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "dist/gamepad.js"
+      ],
+      "entities": {
+        "characters": [
+          "all-playable-heroes"
+        ],
+        "moves": [
+          "all-controller-actions"
+        ],
+        "systems": [
+          "input",
+          "controller-mapping"
+        ],
+        "levels": [
+          "all-playable-scenes"
+        ]
+      },
+      "dependsOn": [
+        "qa242",
+        "shared-combat-admission"
+      ],
+      "suites": [
+        "gamepad-current",
+        "controller157-current",
+        "controller240"
+      ],
+      "visualScenarios": [],
+      "performanceRisk": false,
+      "specs": [
+        "AGENTS.md",
+        "CONTROLLER157.md"
+      ],
+      "contentIds": [],
+      "certification": "partial"
+    }
+  ]
+}

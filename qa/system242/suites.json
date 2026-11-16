@@ -4344,6 +4344,46 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "qa242-policy",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-policy.cjs"
+      ],
+      "framework": "qa242-policy-and-shared-controls",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "gamepad-current",
+      "command": [
+        "node",
+        "tests/gamepad.test.cjs"
+      ],
+      "framework": "qa242-policy-and-shared-controls",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "controller157-current",
+      "command": [
+        "node",
+        "tests/controller157.cjs"
+      ],
+      "framework": "qa242-policy-and-shared-controls",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

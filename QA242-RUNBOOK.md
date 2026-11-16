@@ -1,5 +1,7 @@
 # QA242 — execution, acceptance and rollback
 
+Current change declarations, impact planning, immutable reports, CI and acceptance semantics are defined in [QA242-POLICY.md](QA242-POLICY.md). Use `preflight.cjs`, then `impact.cjs` with exact base/head and a reviewed declaration, and pass the generated plan using `run.cjs --impact`. A major integration or explicit release with an impact plan executes every registered release suite. `reports242/runs/<id>/` holds immutable reports/logs/artifacts; latest files are pointers. Exit 2 also represents unavailable/blocked execution. Do not interpret the historical build/module counts or the older Orion limitation below as current results; consult current catalog and source-bound reports. Current policy is a pilot, and branch protection remains disabled.
+
 Run from `/workspace/sites/urban-fracture`. No Node packages are required. Installed Node and Python/Pillow are used. Do not run two QA runner processes simultaneously because evidence paths are shared.
 
 ## Routine development

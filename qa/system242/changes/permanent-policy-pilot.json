@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "permanent-policy-pilot",
+  "description": "User-approved QA-only policy/impact/evidence/CI implementation. Preserve gameplay and branch settings. QA process/IO overhead and incomplete pilot coverage are explicit; no game release or artistic/performance certification is claimed.",
+  "files": [
+    ".github/workflows/qa242.yml",
+    "AGENTS.md",
+    "QA242-ARCHITECTURE.md",
+    "QA242-POLICY.md",
+    "QA242-RUNBOOK.md",
+    "qa/system242/certifications.json",
+    "qa/system242/certifications.schema.json",
+    "qa/system242/change.schema.json",
+    "qa/system242/changes/permanent-policy-pilot.json",
+    "qa/system242/features.json",
+    "qa/system242/features.schema.json",
+    "qa/system242/performance-baselines.json",
+    "qa/system242/report.schema.json",
+    "qa/system242/suites.json",
+    "tests/qa242-policy.cjs",
+    "tools/qa242/check-release.cjs",
+    "tools/qa242/ci.cjs",
+    "tools/qa242/evidence.cjs",
+    "tools/qa242/fingerprint.cjs",
+    "tools/qa242/impact.cjs",
+    "tools/qa242/preflight.cjs",
+    "tools/qa242/release.cjs",
+    "tools/qa242/report.cjs",
+    "tools/qa242/run.cjs",
+    "tools/qa242/schema.cjs",
+    "tools/qa242/validators.cjs"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "features": [
+    "qa242"
+  ],
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "https://github.com/limitlessvoyager1/UrbanFracture/issues/2",
+    "https://github.com/limitlessvoyager1/UrbanFracture/issues/4",
+    "https://github.com/limitlessvoyager1/UrbanFracture/issues/5",
+    "https://github.com/limitlessvoyager1/UrbanFracture/issues/6",
+    "https://github.com/limitlessvoyager1/UrbanFracture/issues/7"
+  ]
+}

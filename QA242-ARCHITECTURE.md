@@ -1,5 +1,9 @@
 # Urban Fracture QA architecture — Build242
 
+## Current policy extension
+
+[QA242-POLICY.md](QA242-POLICY.md) is the authoritative change/acceptance contract. This document's Build242 counts and environment descriptions below are historical, not current inventory. The existing suite catalog, native/render adapters and comparator remain the foundation. `features.json` and the impact planner add reviewed semantic ownership and reverse dependencies; they do not replace the catalog or prove full coverage. The initial pilots cover shared admission, fighter rendering and controls only. Immutable run evidence, explicit result classes, owner review ingestion and read-only PR automation extend the same runner. An empty baseline registry, unperformed human checks, unknown coverage and missing historical evidence remain blockers. No gameplay rewrite or branch-protection activation is included.
+
 Checkpoint: `checkpoint-before-qa242`, production source `7784bd683d851f6719b7c12f0f947720f7fa4ed4`. No game controller, character, asset or level has been rebuilt or resized by this task.
 
 ## Audit of operational infrastructure

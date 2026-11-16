@@ -1,0 +1,67 @@
+name: QA242
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, labeled, unlabeled]
+  workflow_dispatch:
+    inputs:
+      base_commit:
+        description: Exact approved comparison base commit (full release profile)
+        required: true
+        type: string
+      change_file:
+        description: Repository-relative QA242 change declaration
+        required: true
+        type: string
+permissions:
+  contents: read
+  pull-requests: read
+concurrency:
+  group: qa242-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+jobs:
+  qa242:
+    name: QA242 evidence and acceptance
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Install pinned test prerequisites
+        run: |
+          python -m pip install Pillow==13.0.0
+          npm ci --ignore-scripts --prefix tools/fighter-render
+          cd tools/fighter-render
+          npx playwright install --with-deps chromium
+      - name: Validate policy and negative fixtures
+        env:
+          NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
+        run: |
+          node tools/qa242/preflight.cjs
+          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs
+      - name: Impact, shared smoke and applicable QA242 profile
+        if: ${{ !cancelled() }}
+        env:
+          NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/qa242/ci.cjs
+      - name: Preserve QA evidence including failures
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: qa242-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            reports242/runs/
+            reports242/impact-plan.json
+            reports242/ci-status.json
+            reports242/latest-run.json
+          if-no-files-found: warn
+          retention-days: 30

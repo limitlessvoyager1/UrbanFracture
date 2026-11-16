@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "baseCommit",
+    "testedCommit",
+    "sourceFingerprint",
+    "runId",
+    "changedFiles",
+    "affectedSystems",
+    "selectionReasons",
+    "results",
+    "visualEvidence",
+    "performance",
+    "remainingRisks",
+    "recommendation",
+    "environment",
+    "counts"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schema": {
+      "const": 2
+    },
+    "baseCommit": {
+      "type": "string",
+      "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"
+    },
+    "testedCommit": {
+      "type": "string",
+      "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"
+    },
+    "sourceFingerprint": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "runId": {
+      "type": "string",
+      "pattern": "^[0-9TZ]+-[a-f0-9]{8}$"
+    },
+    "changedFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "status",
+          "path"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "previousPath": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "affectedSystems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "selectionReasons": {
+      "type": "object"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "passed",
+              "failed",
+              "blocked",
+              "not-tested",
+              "needs-review"
+            ]
+          }
+        }
+      }
+    },
+    "visualEvidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "performance": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "passed",
+            "failed",
+            "blocked",
+            "not-tested",
+            "needs-review"
+          ]
+        }
+      }
+    },
+    "remainingRisks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "recommendation": {
+      "type": "string",
+      "enum": [
+        "Approve",
+        "Needs Review",
+        "Reject"
+      ]
+    },
+    "environment": {
+      "type": "object"
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "executed",
+        "passed",
+        "failed",
+        "blocked",
+        "notExecuted",
+        "needsReview"
+      ],
+      "properties": {
+        "executed": {
+          "type": "number",
+          "minimum": 0
+        },
+        "passed": {
+          "type": "number",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "number",
+          "minimum": 0
+        },
+        "blocked": {
+          "type": "number",
+          "minimum": 0
+        },
+        "notExecuted": {
+          "type": "number",
+          "minimum": 0
+        },
+        "needsReview": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

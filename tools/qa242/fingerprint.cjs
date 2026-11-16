@@ -3,7 +3,7 @@ function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).filter(e=>!['
 function fingerprint(root=path.resolve(__dirname,'../..')){
  const h=crypto.createHash('sha256'),files=[];
  // Helpers outside qa242 and render package policies are actual test inputs.
- for(const dir of ['dist','tools','qa','tests','design','templates'])if(fs.existsSync(path.join(root,dir)))files.push(...walk(path.join(root,dir)));
+ for(const dir of ['dist','tools','qa','tests','design','templates','.github'])if(fs.existsSync(path.join(root,dir)))files.push(...walk(path.join(root,dir)));
  for(const entry of fs.readdirSync(root,{withFileTypes:true})){
   if(entry.isFile()&&(/\.md$/.test(entry.name)||/^(?:package(?:-lock)?\.json|PACKAGE-MANIFEST\.json)$/.test(entry.name)))files.push(path.join(root,entry.name));
   if(entry.isDirectory()&&/^reports\d+$/.test(entry.name)&&fs.existsSync(path.join(root,entry.name,'package.json')))files.push(path.join(root,entry.name,'package.json'));

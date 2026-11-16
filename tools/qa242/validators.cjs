@@ -7,12 +7,12 @@ function movement(samples){const out=[];for(let i=1;i<samples.length;i++){const 
 function attack(q){const out=[];if(![q.startup,q.active,q.recovery].every(v=>Number.isFinite(v)&&v>=0)||q.active===0)out.push(issue('attack-phases',q.id,q,'Define finite startup, positive active duration and recovery.'));if(!Number.isFinite(q.exitAt)||q.exitAt<q.startup+q.active+q.recovery-1e-6)out.push(issue('missing-state-exit',q.id,q,'Restore a completion event after mandatory recovery.'));return out;}
 function attachment(q){if(!q.parent||!q.parentBounds||!q.bounds)return[issue('missing-attachment',q.id,q,'Declare the actual supporting wall/structure.','review')];const a=q.bounds,b=q.parentBounds,t=q.tolerance??4,overlap=a.x+a.w>=b.x-t&&a.x<=b.x+b.w+t&&a.y+a.h>=b.y-t&&a.y<=b.y+b.h+t;return overlap?[]:[issue('detached-scenery',q.id,q,'Review attachment coordinates without redesigning the scenery.')];}
 function gate(rows,{required=[],visualRequired=true,criticalIssues=[]}={}){
- const allowed=new Set(['passed','failed','not-executed','needs-review']),seen=new Set(),invalid=[];
+ const allowed=new Set(['passed','failed','blocked','not-tested','not-executed','needs-review']),seen=new Set(),invalid=[];
  for(const q of rows){if(!q||typeof q.id!=='string'||!q.id||!allowed.has(q.status)||seen.has(q.id))invalid.push(q?.id||'[invalid receipt]');seen.add(q?.id);}
  const by=new Map(rows.filter(Boolean).map(q=>[q.id,q])),missing=required.filter(id=>!by.has(id)||!['passed','failed'].includes(by.get(id).status));
  const failed=rows.filter(q=>q?.status==='failed'&&(q.critical!==false||required.includes(q.id)));
- if(invalid.length||failed.length||criticalIssues.some(q=>q.severity==='error'))return{status:'blocked',stable:false,failed:failed.map(q=>q.id),missing,invalid};
- if(criticalIssues.some(q=>q.severity==='review')||missing.length||rows.some(q=>['not-executed','needs-review'].includes(q.status))||visualRequired&&!rows.some(q=>q.id==='approved-screenshots'&&q.status==='passed'))return{status:'needs-review',stable:false,failed:[],missing};
+ if(invalid.length||failed.length||rows.some(q=>q.status==='blocked'&&(q.critical!==false||required.includes(q.id)))||criticalIssues.some(q=>q.severity==='error'))return{status:'blocked',stable:false,failed:failed.map(q=>q.id),missing,invalid};
+ if(criticalIssues.some(q=>q.severity==='review')||missing.length||rows.some(q=>['blocked','not-tested','not-executed','needs-review'].includes(q.status))||visualRequired&&!rows.some(q=>q.id==='approved-screenshots'&&q.status==='passed'))return{status:'needs-review',stable:false,failed:[],missing};
  return{status:'stable-candidate',stable:false,failed:[],missing,reason:'Automated gates pass; owner acceptance still required.'};
 }
 module.exports={aspect,scale,ground,movement,attack,attachment,gate};
