@@ -4558,6 +4558,98 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "orion387-hit-registration",
+      "command": [
+        "node",
+        "--test",
+        "tests/orion387-hit-registration.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion228-foundation",
+      "command": [
+        "node",
+        "tests/orion228-foundation.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion228-physical",
+      "command": [
+        "node",
+        "tests/orion228-physical.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion228-repair",
+      "command": [
+        "node",
+        "tests/orion228-repair.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion228-grabs",
+      "command": [
+        "node",
+        "tests/orion228-grabs.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion228-specials",
+      "command": [
+        "node",
+        "tests/orion228-specials.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion228-integration",
+      "command": [
+        "node",
+        "tests/orion228-integration.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [
