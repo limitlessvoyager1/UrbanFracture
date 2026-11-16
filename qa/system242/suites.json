@@ -194,7 +194,7 @@
       "id": "subway238",
       "command": [
         "node",
-        "tests/subway238.cjs"
+        "tools/qa242/run-subway238.cjs"
       ],
       "framework": "existing-progression",
       "profiles": [

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "id": "orion-move-coverage",
-  "description": "QA-only Orion coverage and regression triage: explicit approved current controller charge assertions and pinned NumPy prerequisite. Unresolved assertions and historical evidence remain acceptance blockers. No gameplay, protection or merge changes.",
+  "description": "QA-only Orion coverage and regression corrections: current controller thresholds, pinned NumPy and native Subway completion choice. Four missing historical baselines remain blockers. No gameplay, protection or merge changes.",
   "acceptanceScope": "qa-infrastructure-pilot",
   "files": [
     ".github/workflows/qa242.yml",
@@ -17,7 +17,9 @@
     "tools/qa242/production-coverage.cjs",
     "tools/qa242/run-prison224.cjs",
     "tests/qa242-controller-charge.cjs",
-    "tools/qa242/run-current150.cjs"
+    "tools/qa242/run-current150.cjs",
+    "tools/qa242/run-subway238.cjs",
+    "tests/qa242-subway-coverage.cjs"
   ],
   "features": [
     "qa242"
