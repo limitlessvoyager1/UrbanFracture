@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "recovered-history-readiness",
+  "description": "QA-only exact repaired-source inventory and authentic historical object projection; strict reversible diagnostics comparison, retained failed identity and owner gates.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    ".github/workflows/qa242.yml",
+    "QA242-POLICY.md",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/features.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/suites.json",
+    "qa/system242/RECOVERED-HISTORY.md",
+    "qa/system242/history-loss-v1/imported-game.js.txt",
+    "qa/system242/recovered-history-v1/baseline-objects.pack",
+    "qa/system242/recovered-history-v1/manifest.json",
+    "qa/system242/recovered-history-v1/diagnostics-game-delta.json",
+    "tests/qa242-history-contract.cjs",
+    "tests/qa242-recovered-history.cjs",
+    "tools/qa242/ci.cjs",
+    "tools/qa242/history-contract.cjs",
+    "tools/qa242/recovered-history.cjs",
+    "tools/qa242/diagnostics-history.cjs",
+    "tools/qa242/refresh-coverage.cjs",
+    "tools/qa242/export-history.cjs",
+    "qa/system242/changes/recovered-history-readiness.json"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "QA-HISTORICAL-BASELINES",
+    "QA-COVERAGE-INVENTORY"
+  ]
+}

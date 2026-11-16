@@ -42,6 +42,8 @@ jobs:
           npm ci --ignore-scripts --prefix tools/fighter-render
           cd tools/fighter-render
           npx playwright install --with-deps chromium
+      - name: Verify recovered historical Git object projection
+        run: node tools/qa242/recovered-history.cjs --github-env
       - name: Inventory pinned game coverage without certifying it
         run: node tools/qa242/coverage.cjs --require-current
       - name: Validate policy and negative fixtures
@@ -49,7 +51,7 @@ jobs:
           NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
         run: |
           node tools/qa242/preflight.cjs
-          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs tests/qa242-subway-coverage.cjs tests/qa242-history-contract.cjs
+          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs tests/qa242-subway-coverage.cjs tests/qa242-history-contract.cjs tests/qa242-recovered-history.cjs
           node tests/qa242-controller-charge.cjs
       - name: Production ownership and selected character move assertions
         env:
@@ -75,6 +77,8 @@ jobs:
             reports242/production-coverage/
             qa/system242/history-loss-v1/
             qa/system242/history-replacement-v1.json
+            qa/system242/recovered-history-v1/manifest.json
+            qa/system242/recovered-history-v1/diagnostics-game-delta.json
           if-no-files-found: warn
           retention-days: 30
   pilot-owner:

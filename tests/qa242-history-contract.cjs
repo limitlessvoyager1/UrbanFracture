@@ -1,9 +1,9 @@
 'use strict';
 const {test}=require('node:test'),A=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os');
 const H=require('../tools/qa242/history-contract.cjs'),P=require('../tools/qa242/pilot.cjs'),E=require('../tools/qa242/evidence.cjs'),W=require('../tools/qa242/current-evidence.cjs');
-const root=path.resolve(__dirname,'..'),catalog=require('../qa/system242/suites.json');
+const root=path.resolve(__dirname,'..'),catalog=require('../qa/system242/suites.json');const legacyCatalog=JSON.parse(JSON.stringify(catalog));legacyCatalog.suites.find(s=>s.id==='diagnostics307-input').command=['node','tests/diagnostics307-input.cjs'];
 function plan(){return{acceptanceScope:P.scope,fullReleaseRequired:false,problems:[],review:[],selection:H.expected.map(q=>q[0]),reasons:{}};}
-function mapped(){return H.apply(plan(),{root,declaration:{replacementContract:H.contractPath},catalog,runtimeTree:'893ef481dd7ec7f7d399a5e1ca1136840018431c'});}
+function mapped(){return H.apply(plan(),{root,declaration:{replacementContract:H.contractPath},catalog:legacyCatalog,runtimeTree:'893ef481dd7ec7f7d399a5e1ca1136840018431c'});}
 test('replacement is explicit, source-bound, pilot-only and keeps originals mandatory for release',()=>{
  const p=mapped();A.equal(p.selection.length,4);A.equal(p.historyReplacement.historicalEvidence,'blocked');A.equal(p.historyReplacement.gameCertified,false);
  for(const [old,current]of H.expected){A(!p.selection.includes(old));A(p.selection.includes(current));const suite=catalog.suites.find(q=>q.id===old);A(suite.profiles.includes('release'));A.equal(require('../tools/qa242/run.cjs').shouldRun(suite,'release',new Set([old]),true),true);}
@@ -13,7 +13,7 @@ test('replacement is explicit, source-bound, pilot-only and keeps originals mand
 });
 test('missing/altered frozen receipts and source anchors fail closed',()=>{
  const c=require('../qa/system242/history-replacement-v1.json'),dir=fs.mkdtempSync(path.join(os.tmpdir(),'uf-history-contract-'));
- try{for(const file of [H.contractPath,c.lossReceipt.path,...JSON.parse(fs.readFileSync(c.lossReceipt.path)).results.map(q=>q.log),...c.mappings.flatMap(m=>[m.sourcePath,...m.inputs.map(q=>q.path)]),c.runtimeAnchor.gameFile]){const dest=path.join(dir,file);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(path.join(root,file),dest);}H.load(dir);const log=JSON.parse(fs.readFileSync(c.lossReceipt.path)).results[0].log;fs.appendFileSync(path.join(dir,log),'altered');A.throws(()=>H.load(dir));fs.copyFileSync(path.join(root,log),path.join(dir,log));fs.appendFileSync(path.join(dir,'dist/game.js'),'\n');A.throws(()=>H.load(dir));}
+ try{for(const file of [H.contractPath,c.lossReceipt.path,...JSON.parse(fs.readFileSync(c.lossReceipt.path)).results.map(q=>q.log),...c.mappings.flatMap(m=>[m.sourcePath,...m.inputs.map(q=>q.path)]),'qa/system242/history-loss-v1/imported-game.js.txt']){const dest=path.join(dir,file);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(path.join(root,file),dest);}H.load(dir);const log=JSON.parse(fs.readFileSync(c.lossReceipt.path)).results[0].log;fs.appendFileSync(path.join(dir,log),'altered');A.throws(()=>H.load(dir));fs.copyFileSync(path.join(root,log),path.join(dir,log));fs.appendFileSync(path.join(dir,'qa/system242/history-loss-v1/imported-game.js.txt'),'\n');A.throws(()=>H.load(dir));}
  finally{A.equal(path.dirname(dir),os.tmpdir());fs.rmSync(dir,{recursive:true,force:true});}
 });
 function report(){const p=mapped(),runId='20261116T000000Z-aabbccdd';return{runId,impact:p,historyReplacement:p.historyReplacement,sourceChangedDuringTests:false,uncommittedInputs:[],results:[...p.selection.map(id=>({...catalog.suites.find(q=>q.id===id),status:'passed',exitCode:0,log:'reports242/runs/'+runId+'/logs/'+id+'.log',logSha256:E.hash('ok'),artifacts:[]})),...H.expected.map(q=>({...catalog.suites.find(s=>s.id===q[0]),status:'not-tested',reason:'Historical evidence unavailable; frozen failed receipt retained'}))]};}

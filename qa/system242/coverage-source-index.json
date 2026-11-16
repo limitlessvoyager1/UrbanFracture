@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "83c1c9311a835ec41867d41654d788eea6200002",
-  "runtimeTree": "893ef481dd7ec7f7d399a5e1ca1136840018431c",
+  "sourceCommit": "ebda38eccee20c977dcda374c4a88088aa59f9fa",
+  "runtimeTree": "03effe760c4b1ee90a320eec8dcc59bbda7dffca",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -3178,6 +3178,14 @@
     {
       "path": "dist/assets/orion205/locomotion-R-9.webp",
       "sha": "24fd721e82cef706d3d8116cde3ee4b6173b6076"
+    },
+    {
+      "path": "dist/assets/orion384/motion.webp",
+      "sha": "5604617a72f3f007e86fa236c273edb671131622"
+    },
+    {
+      "path": "dist/assets/orion385/walk.webp",
+      "sha": "3f403317508e59aab102c430dfacc5cf8fbc83e1"
     },
     {
       "path": "dist/assets/park-visitors161.webp",
@@ -6497,7 +6505,7 @@
     },
     {
       "path": "dist/game.js",
-      "sha": "bd7b4b1504ac81ff1e3e58ac833a341d2777582c"
+      "sha": "0b41c2f7c7cfb2da975318dbc8c0aab1ae7e0c60"
     },
     {
       "path": "dist/game344.js",
@@ -6789,7 +6797,7 @@
     },
     {
       "path": "dist/index.html",
-      "sha": "02df59cc36b62d4750a21874dff996b651003c70"
+      "sha": "29f1c275b598cae433a6f4d95843e4ce4ae1d9d7"
     },
     {
       "path": "dist/industrial-view317.js",
@@ -7380,6 +7388,10 @@
       "sha": "ef5966762bc7bc78c03e931aa0c73c1c4a270bd7"
     },
     {
+      "path": "dist/orion-view384.js",
+      "sha": "b57432df27bb8c2836bf8f1ef1de7f08e91828f4"
+    },
+    {
       "path": "dist/orion205-data.js",
       "sha": "da8149e90496de9a78018c8ac5d684df48ef1cb4"
     },
@@ -7390,6 +7402,14 @@
     {
       "path": "dist/orion205.js",
       "sha": "14de32a2a3bc7b9b19d0de96f8454ab14855049a"
+    },
+    {
+      "path": "dist/orion384-data.js",
+      "sha": "2e392d852586d0bd0f0a99d09ec5018b585866cb"
+    },
+    {
+      "path": "dist/orion384.js",
+      "sha": "03917171622b9c9af6726db29ec800241c333a83"
     },
     {
       "path": "dist/outdoor-template-view162.js",
@@ -8796,6 +8816,10 @@
       "sha": "1e379997c9de1324ca8644f1540ed766712b999c"
     },
     {
+      "path": "tests/controller-current-seven-heroes.cjs",
+      "sha": "4b761bc603b63f633ef7cabd7e4c3051f66d21fc"
+    },
+    {
       "path": "tests/controller-recovery.test.cjs",
       "sha": "37a6a2c6fe54d557a2e72ef0ddddc5769de0a1b6"
     },
@@ -9976,6 +10000,22 @@
       "sha": "e2ac336ad70b7e53b7696123c5b4c8c5cd48f52f"
     },
     {
+      "path": "tests/orion384-import.py",
+      "sha": "40aad299f0f2be4613875572b50a235e8b64fac4"
+    },
+    {
+      "path": "tests/orion385-locomotion.cjs",
+      "sha": "9ef7f1daef6b2752f120b09edd8bace3dab5eac2"
+    },
+    {
+      "path": "tests/orion385-walk.py",
+      "sha": "a49e7fabf28075130c93382ebda7d881849d3bf3"
+    },
+    {
+      "path": "tests/orion386-counters.cjs",
+      "sha": "d079d8a88c6fcf51b8c80c3570244d774ca8c83d"
+    },
+    {
       "path": "tests/park-visitors161.cjs",
       "sha": "a1251704563b566d4c40d14c8ed0a4f7817f853d"
     },
@@ -10124,8 +10164,24 @@
       "sha": "d781a930d7aca4540dfdeda2e4f04211fe7317bd"
     },
     {
+      "path": "tests/qa242-controller-charge.cjs",
+      "sha": "51101b930b4ddcdf3ee4c52b196dbef9c8943acc"
+    },
+    {
+      "path": "tests/qa242-history-contract.cjs",
+      "sha": "b0d4590bb34943f1d0887b0fc76b6f16180d24ac"
+    },
+    {
       "path": "tests/qa242-integrity.cjs",
       "sha": "bd86d640039b45445ebb97900f56b4e8171e9a9e"
+    },
+    {
+      "path": "tests/qa242-orion-coverage.cjs",
+      "sha": "c2586ee9598f5a6e28e0beef189400db1a23668d"
+    },
+    {
+      "path": "tests/qa242-orion-current.cjs",
+      "sha": "21212c155994a46bb6e8adab939c0bf2dee85492"
     },
     {
       "path": "tests/qa242-pilot.cjs",
@@ -10134,6 +10190,14 @@
     {
       "path": "tests/qa242-policy.cjs",
       "sha": "cd4f0415fbb75e66445851d87aa90a8c036d3bb2"
+    },
+    {
+      "path": "tests/qa242-production-coverage.cjs",
+      "sha": "92a144b20e38f0a94d956f08076684b606285ff5"
+    },
+    {
+      "path": "tests/qa242-readiness.cjs",
+      "sha": "2ba36230008014d0232f2ddb45fbc3f253323720"
     },
     {
       "path": "tests/qa242-release-integrity.cjs",
@@ -10150,6 +10214,10 @@
     {
       "path": "tests/qa242-scenes.cjs",
       "sha": "9c508d69da2fb94abaabff173db24c45103df1c7"
+    },
+    {
+      "path": "tests/qa242-subway-coverage.cjs",
+      "sha": "7aada36dde150ab2f34a6118c7dd8796caeed81f"
     },
     {
       "path": "tests/qa242-validators.cjs",
@@ -10626,6 +10694,10 @@
     {
       "path": "tests/stadium240-controller.cjs",
       "sha": "6112eca3f66cfa42896e66866aaff3c19ef8df2d"
+    },
+    {
+      "path": "tests/startup-readiness.cjs",
+      "sha": "4a32d117a54634eddfa54d440cd149c6fe8f03cf"
     },
     {
       "path": "tests/startup133.test.cjs",
