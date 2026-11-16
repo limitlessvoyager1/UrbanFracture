@@ -1,0 +1,765 @@
+{
+  "schema": 1,
+  "scope": "Initial seven-playable-hero definition/assertion matrix. Not an exhaustive move, enemy/NPC or browser/hardware certificate.",
+  "requiredDimensions": [
+    "startup",
+    "active-contact",
+    "recovery",
+    "damage",
+    "facing",
+    "interruption",
+    "simulated-input",
+    "rendered-evidence",
+    "physical-controller"
+  ],
+  "executionSuites": [
+    "reina381-current",
+    "reina382-current",
+    "forest-grapples177",
+    "niko283-runtime",
+    "nightshade-directional258",
+    "broxton244",
+    "nova333-current",
+    "forest-protection177"
+  ],
+  "selectors": [
+    {
+      "hero": "reina",
+      "family": "sword",
+      "selector": "SwordCombat381.moves",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/reina381.js",
+        "dist/reina382.js"
+      ]
+    },
+    {
+      "hero": "reina",
+      "family": "stance",
+      "selector": "SwordStance378.config",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/reina-stance378.js"
+      ]
+    },
+    {
+      "hero": "broxton",
+      "family": "grapple",
+      "selector": "Broxton179.config.moves",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/broxton179.js",
+        "dist/broxton-lariat244-data.js"
+      ]
+    },
+    {
+      "hero": "broxton",
+      "family": "blitz",
+      "selector": "Broxton179.config.blitz",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/broxton179.js",
+        "dist/broxton-lariat244-data.js"
+      ]
+    },
+    {
+      "hero": "broxton",
+      "family": "combo",
+      "selector": "Broxton179.config.combo",
+      "mode": "stages",
+      "sourcePaths": [
+        "dist/broxton179.js"
+      ]
+    },
+    {
+      "hero": "broxton",
+      "family": "support-call",
+      "selector": "SyndicateBackup365.config",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/backup365.js",
+        "dist/backup371.js",
+        "dist/backup377.js"
+      ]
+    },
+    {
+      "hero": "forest",
+      "family": "grapple",
+      "selector": "Forest177.config.moves",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/forest-grapples177.js"
+      ]
+    },
+    {
+      "hero": "forest",
+      "family": "combo",
+      "selector": "Forest125.config.comboDamage",
+      "mode": "stages",
+      "sourcePaths": [
+        "dist/forest125.js"
+      ]
+    },
+    {
+      "hero": "niko",
+      "family": "coordinated",
+      "selector": "Niko185.config.moves",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/niko185.js",
+        "dist/niko283.js",
+        "dist/niko284.js"
+      ]
+    },
+    {
+      "hero": "niko",
+      "family": "combo",
+      "selector": "Niko185.config.combo",
+      "mode": "stages",
+      "sourcePaths": [
+        "dist/niko185.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "combat",
+      "selector": "Orion205.config.moves",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-special205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "air",
+      "selector": "Orion205.config.airMoves",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "combo",
+      "selector": "Orion205.config.combo.damage",
+      "mode": "stages",
+      "sourcePaths": [
+        "dist/orion-combat205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "dodge",
+      "selector": "Orion205.config.dodge",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-special205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "repairMove",
+      "selector": "Orion205.config.repairMove",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-special205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "meteorMove",
+      "selector": "Orion205.config.meteorMove",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-special205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "currentMove",
+      "selector": "Orion205.config.currentMove",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-special205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "laserMove",
+      "selector": "Orion205.config.laserMove",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/orion-combat205.js",
+        "dist/orion-special205.js",
+        "dist/orion-integration205.js"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "combo",
+      "selector": "NightshadeMelee257.config.combo",
+      "mode": "stages",
+      "sourcePaths": [
+        "dist/nightshade-melee257.js"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "melee",
+      "selector": "NightshadeMelee257.config",
+      "mode": "keys",
+      "sourcePaths": [
+        "dist/nightshade-melee257.js"
+      ],
+      "keys": [
+        "dart",
+        "grab",
+        "airNeutral",
+        "airForward",
+        "airDown"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "directional",
+      "selector": "NightshadeGrabs258.defs",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/nightshade-grabs258.js"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "special",
+      "selector": "NightshadeSpecial263.defs",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/nightshade-special263.js"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "counter",
+      "selector": "NightshadeCounter264.defs",
+      "mode": "entries",
+      "sourcePaths": [
+        "dist/nightshade-counter264.js"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "gun",
+      "selector": "NightshadeGun255.config",
+      "mode": "single",
+      "sourcePaths": [
+        "dist/nightshade-gun255.js"
+      ]
+    },
+    {
+      "hero": "nova",
+      "family": "throw",
+      "selector": "Nova333.moves",
+      "mode": "set",
+      "sourcePaths": [
+        "dist/nova333.js",
+        "dist/nova105.js"
+      ]
+    },
+    {
+      "hero": "reina",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    },
+    {
+      "hero": "broxton",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    },
+    {
+      "hero": "nova",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    },
+    {
+      "hero": "forest",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    },
+    {
+      "hero": "niko",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    },
+    {
+      "hero": "orion",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    },
+    {
+      "hero": "nightshade",
+      "family": "charged-ability",
+      "selector": "Charge130.config.names",
+      "mode": "hero-label",
+      "sourcePaths": [
+        "dist/charge130.js"
+      ]
+    }
+  ],
+  "literalRows": [
+    {
+      "hero": "reina",
+      "family": "throw",
+      "key": "german",
+      "sourcePath": "dist/reina381.js",
+      "needle": "a?.german123",
+      "definitionStatus": "source-literal; effective command/clock requires review"
+    },
+    {
+      "hero": "reina",
+      "family": "counter",
+      "key": "dragon-tail",
+      "sourcePath": "dist/reina382.js",
+      "needle": "dragonTail382",
+      "definitionStatus": "source-literal; effective command/clock requires review"
+    },
+    {
+      "hero": "nova",
+      "family": "air",
+      "key": "dropkick",
+      "sourcePath": "dist/nova77.js",
+      "needle": "'novaDropkick'",
+      "definitionStatus": "source-literal; effective command/clock requires review"
+    },
+    {
+      "hero": "nova",
+      "family": "special",
+      "key": "rush",
+      "sourcePath": "dist/nova333.js",
+      "needle": "a.name==='novaRush'",
+      "definitionStatus": "source-literal; effective command/clock requires review"
+    }
+  ],
+  "bindings": [
+    {
+      "hero": "forest",
+      "family": "grapple",
+      "keys": [],
+      "suite": "forest-grapples177",
+      "test": "tests/forest177.cjs",
+      "gitBlob": "a33cb10a2ef93a1d68a70bcc0ce8630ec1ae7d9f",
+      "dimension": "startup",
+      "needle": "assert(!F.protected(g));assert(g.damage(p,10,-1,false,{attacker:e,force:true}))",
+      "scenario": "six registered grapples; both facings, 30/60/120Hz; regular 1000HP fixture",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "forest",
+      "family": "grapple",
+      "keys": [],
+      "suite": "forest-grapples177",
+      "test": "tests/forest177.cjs",
+      "gitBlob": "a33cb10a2ef93a1d68a70bcc0ce8630ec1ae7d9f",
+      "dimension": "recovery",
+      "needle": "assert(recoveryCount>0,move+' recovery')",
+      "scenario": "six registered grapples; both facings, 30/60/120Hz; regular 1000HP fixture",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "forest",
+      "family": "grapple",
+      "keys": [],
+      "suite": "forest-grapples177",
+      "test": "tests/forest177.cjs",
+      "gitBlob": "a33cb10a2ef93a1d68a70bcc0ce8630ec1ae7d9f",
+      "dimension": "damage",
+      "needle": "assert.equal(1000-e.hp,damage[move],move+' budget '+dir+' '+fps)",
+      "scenario": "six registered grapples; both facings, 30/60/120Hz; regular 1000HP fixture",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "forest",
+      "family": "grapple",
+      "keys": [],
+      "suite": "forest-grapples177",
+      "test": "tests/forest177.cjs",
+      "gitBlob": "a33cb10a2ef93a1d68a70bcc0ce8630ec1ae7d9f",
+      "dimension": "facing",
+      "needle": "for(const dir of [1,-1])",
+      "scenario": "six registered grapples; both facings, 30/60/120Hz; regular 1000HP fixture",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "scenario-loop"
+    },
+    {
+      "hero": "forest",
+      "family": "grapple",
+      "keys": [],
+      "suite": "forest-protection177",
+      "test": "tests/forest-protection177.cjs",
+      "gitBlob": "5efa4eea01e1894bbfbd3851b5c1794bf6b744b5",
+      "dimension": "interruption",
+      "needle": "assert(!e.grappleOwner177&&!e.maulOwner175&&!e.heldBy,why+move)",
+      "scenario": "all six grapples; removed/canceled/scene/defeat/reset/stun invalidation",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "sword",
+      "keys": [],
+      "suite": "reina381-current",
+      "test": "tests/reina381.cjs",
+      "gitBlob": "9909d4960242b204cc8e68b97e14be3d15d850e5",
+      "dimension": "startup",
+      "needle": "ok(e.hp===200,'no startup damage')",
+      "scenario": "rise/sweep/cleaver; both facings, 30/60/120Hz; regular target",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "sword",
+      "keys": [],
+      "suite": "reina381-current",
+      "test": "tests/reina381.cjs",
+      "gitBlob": "9909d4960242b204cc8e68b97e14be3d15d850e5",
+      "dimension": "active-contact",
+      "needle": "ok(e.hp===200-m.damage,'one exact damage event ",
+      "scenario": "rise/sweep/cleaver; both facings, 30/60/120Hz; regular target",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "sword",
+      "keys": [],
+      "suite": "reina381-current",
+      "test": "tests/reina381.cjs",
+      "gitBlob": "9909d4960242b204cc8e68b97e14be3d15d850e5",
+      "dimension": "damage",
+      "needle": "ok(e.hp===200-m.damage,'one exact damage event ",
+      "scenario": "rise/sweep/cleaver; both facings, 30/60/120Hz; regular target",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "sword",
+      "keys": [],
+      "suite": "reina381-current",
+      "test": "tests/reina381.cjs",
+      "gitBlob": "9909d4960242b204cc8e68b97e14be3d15d850e5",
+      "dimension": "recovery",
+      "needle": "ok(g.player.act!==a,'recovery finishes')",
+      "scenario": "rise/sweep/cleaver; both facings, 30/60/120Hz; regular target",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "sword",
+      "keys": [],
+      "suite": "reina381-current",
+      "test": "tests/reina381.cjs",
+      "gitBlob": "9909d4960242b204cc8e68b97e14be3d15d850e5",
+      "dimension": "facing",
+      "needle": "ok(g.player.dir===d,'facing remains locked')",
+      "scenario": "rise/sweep/cleaver; both facings, 30/60/120Hz; regular target",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "counter",
+      "keys": [
+        "dragon-tail"
+      ],
+      "suite": "reina382-current",
+      "test": "tests/reina382.cjs",
+      "gitBlob": "b076937671a8712f3640dfb8635553b0428c24e6",
+      "dimension": "damage",
+      "needle": "ok(e.hp===944,'single56 damage at rising impact')",
+      "scenario": "captured hook to Dragon Tail special; both facings, 60Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "reina",
+      "family": "counter",
+      "keys": [
+        "dragon-tail"
+      ],
+      "suite": "reina382-current",
+      "test": "tests/reina382.cjs",
+      "gitBlob": "b076937671a8712f3640dfb8635553b0428c24e6",
+      "dimension": "recovery",
+      "needle": "ok(!p.act&&!p.hold&&!e.heldBy&&p.grappleZ===0,'land and counter cleanup')",
+      "scenario": "captured hook to Dragon Tail special; both facings, 60Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "niko",
+      "family": "coordinated",
+      "keys": [
+        "armbar"
+      ],
+      "suite": "niko283-runtime",
+      "test": "tests/niko283.cjs",
+      "gitBlob": "fbd1c1bc0543eee3356e7c24e6dd9b2ac355cb39",
+      "dimension": "recovery",
+      "needle": "ok(!p.act&&!p.hold&&!e.forestLock125&&!e.grappleSession119?.active&&!e.pairVisual,'all native locks released')",
+      "scenario": "armbar only; eleven target classes, both facings, 30/60/120Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "niko",
+      "family": "coordinated",
+      "keys": [
+        "armbar"
+      ],
+      "suite": "niko283-runtime",
+      "test": "tests/niko283.cjs",
+      "gitBlob": "fbd1c1bc0543eee3356e7c24e6dd9b2ac355cb39",
+      "dimension": "damage",
+      "needle": "ok(Math.abs(hp-e.hp-(kind==='throat'?14:12))<1e-7,'original base damage retained')",
+      "scenario": "armbar only; eleven target classes, both facings, 30/60/120Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "niko",
+      "family": "coordinated",
+      "keys": [
+        "armbar"
+      ],
+      "suite": "niko283-runtime",
+      "test": "tests/niko283.cjs",
+      "gitBlob": "fbd1c1bc0543eee3356e7c24e6dd9b2ac355cb39",
+      "dimension": "facing",
+      "needle": "for(const dir of[-1,1])",
+      "scenario": "armbar only; eleven target classes, both facings, 30/60/120Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "scenario-loop"
+    },
+    {
+      "hero": "nightshade",
+      "family": "directional",
+      "keys": [],
+      "suite": "nightshade-directional258",
+      "test": "tests/nightshade258.cjs",
+      "gitBlob": "36e90da0729f9e2f1c1112cb9705ec38440b92bf",
+      "dimension": "damage",
+      "needle": "ok(e.hp===300-G.defs[name].damage.reduce((x,y)=>x+y,0),'exact contact damage')",
+      "scenario": "four directional throws; both facings, 30/60/120Hz; regular fixture, separate heavy contest cases",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "nightshade",
+      "family": "directional",
+      "keys": [],
+      "suite": "nightshade-directional258",
+      "test": "tests/nightshade258.cjs",
+      "gitBlob": "36e90da0729f9e2f1c1112cb9705ec38440b92bf",
+      "dimension": "recovery",
+      "needle": "ok(!p.act&&!p.hold&&!e.heldBy&&!e.grappleSession119?.active&&!e.pairVisual,'released refs and recovery')",
+      "scenario": "four directional throws; both facings, 30/60/120Hz; regular fixture, separate heavy contest cases",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "nightshade",
+      "family": "directional",
+      "keys": [],
+      "suite": "nightshade-directional258",
+      "test": "tests/nightshade258.cjs",
+      "gitBlob": "36e90da0729f9e2f1c1112cb9705ec38440b92bf",
+      "dimension": "facing",
+      "needle": "ok(G.pick(p,input(dir,forward))===name,'direction relative to facing')",
+      "scenario": "four directional throws; both facings, 30/60/120Hz; regular fixture, separate heavy contest cases",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "broxton",
+      "family": "blitz",
+      "keys": [],
+      "suite": "broxton244",
+      "test": "tests/broxton244.cjs",
+      "gitBlob": "de206d9bdddc3cca1e7198aad8bd6076236cbdb6",
+      "dimension": "damage",
+      "needle": "assert.equal(1000-e.hp,64,'actual arm ",
+      "scenario": "lariat; both facings, 30/60/120Hz; close/far regular targets",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "broxton",
+      "family": "blitz",
+      "keys": [],
+      "suite": "broxton244",
+      "test": "tests/broxton244.cjs",
+      "gitBlob": "de206d9bdddc3cca1e7198aad8bd6076236cbdb6",
+      "dimension": "recovery",
+      "needle": "assert(!p.act,'complete landing and get-up')",
+      "scenario": "lariat; both facings, 30/60/120Hz; close/far regular targets",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "broxton",
+      "family": "blitz",
+      "keys": [],
+      "suite": "broxton244",
+      "test": "tests/broxton244.cjs",
+      "gitBlob": "de206d9bdddc3cca1e7198aad8bd6076236cbdb6",
+      "dimension": "facing",
+      "needle": "for(const dir of[-1,1])",
+      "scenario": "lariat; both facings, 30/60/120Hz; close/far regular targets",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "scenario-loop"
+    },
+    {
+      "hero": "nova",
+      "family": "throw",
+      "keys": [
+        "novaFranken",
+        "novaFace",
+        "novaBelly"
+      ],
+      "suite": "nova333-current",
+      "test": "tests/nova333.cjs",
+      "gitBlob": "6f8d6edf38a13dbfc6cf5d506831a4f23b369a32",
+      "dimension": "damage",
+      "needle": "ok(e.hp===1000-({novaFranken:30,novaFace:28,novaBelly:29}[name]),'approved damage unchanged '+name)",
+      "scenario": "three throws only; six target classes and both facings at 60Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "nova",
+      "family": "throw",
+      "keys": [
+        "novaFranken",
+        "novaFace",
+        "novaBelly"
+      ],
+      "suite": "nova333-current",
+      "test": "tests/nova333.cjs",
+      "gitBlob": "6f8d6edf38a13dbfc6cf5d506831a4f23b369a32",
+      "dimension": "recovery",
+      "needle": "ok(!p.act&&!e.pairVisual?.nova333,'finite throw and paired release')",
+      "scenario": "three throws only; six target classes and both facings at 60Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    },
+    {
+      "hero": "nova",
+      "family": "throw",
+      "keys": [
+        "novaFranken",
+        "novaFace",
+        "novaBelly"
+      ],
+      "suite": "nova333-current",
+      "test": "tests/nova333.cjs",
+      "gitBlob": "6f8d6edf38a13dbfc6cf5d506831a4f23b369a32",
+      "dimension": "facing",
+      "needle": "for(const dir of[1,-1])",
+      "scenario": "three throws only; six target classes and both facings at 60Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "scenario-loop"
+    },
+    {
+      "hero": "nova",
+      "family": "air",
+      "keys": [
+        "dropkick"
+      ],
+      "suite": "nova333-current",
+      "test": "tests/nova333.cjs",
+      "gitBlob": "6f8d6edf38a13dbfc6cf5d506831a4f23b369a32",
+      "dimension": "active-contact",
+      "needle": "ok(e.hp<hp,'late visible contact registers during active dropkick')",
+      "scenario": "forward dropkick regular target; one facing, 60Hz",
+      "loaderScope": "current simulation adapter (219 modules; not full browser)",
+      "evidenceType": "assertion"
+    }
+  ],
+  "openFamilies": {
+    "reina": [
+      "unarmed/weapon combo variants",
+      "ordinary counters and airborne moves",
+      "stance input interruption and full rendered body review"
+    ],
+    "broxton": [
+      "all directional throws and shield under current full adapter",
+      "Iron Will/support call interactions",
+      "weapon/airborne/counter variants"
+    ],
+    "nova": [
+      "all normal combo stages and counters",
+      "DDT/trampoline full matrix",
+      "charge and all weapon/airborne variants"
+    ],
+    "forest": [
+      "all ranged/charge/Gunner state combinations",
+      "all companion interruption hazards",
+      "weapons and ordinary counters"
+    ],
+    "niko": [
+      "all coordinated moves beyond reviewed armbar",
+      "injuries, counter placeholders and charge interactions",
+      "weapons and air moves"
+    ],
+    "orion": [
+      "all current combat timing/damage assertions",
+      "repair/meteor/laser/current interactions",
+      "full per-move interruption/facing matrix"
+    ],
+    "nightshade": [
+      "all primary combos, charged dart and firearms",
+      "all special/counter/weapon variants",
+      "drone/Blitz interactions and rendered scenarios"
+    ]
+  }
+}
