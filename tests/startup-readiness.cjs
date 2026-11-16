@@ -1,0 +1,14 @@
+'use strict';
+const {test}=require('node:test'),A=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const source=fs.readFileSync('dist/game.js','utf8'),start=source.indexOf('let assets='),end=source.indexOf('function tone(',start);A(start>0&&end>start);const startup=source.slice(start,end);
+const paths=vm.runInNewContext('('+source.match(/const paths=(\{[^;]+\});/)[1]+')'),keys=Object.keys(paths);
+const views=['PolishedSprites','NeonUptown','PrisonView224','DocksView231','ChinatownView235','MallView236','StadiumView237','SubwayView238','BaylorView237','HighwayView234','WorkersView233'];
+function fixture({failedIndex=-1,view,readiness=true}={}){
+ let index=0;const warning={hidden:true},play={disabled:true,textContent:'LOADING'},status={textContent:'LOADING'},sb={images:{},paths,ready:false,play,status,document:{querySelector:s=>{A.equal(s,'#loadError');return warning;}},PolishedSprites:{ready:Promise.resolve([true,[true]])},Image:class{constructor(){this.index=index++;}set src(value){this.request=value;queueMicrotask(()=>this.index===failedIndex?this.onerror():this.onload());}}};if(view)sb[view]={ready:readiness};vm.createContext(sb);const completion=vm.runInContext(startup,sb);return{sb,warning,play,status,completion};
+}
+function blocked(f){A.equal(f.sb.ready,false);A.equal(f.play.disabled,true);A.equal(f.warning.hidden,false);A.match(f.status.textContent,/reload/i);}
+test('healthy assets and nested renderer readiness enable Play without a warning',async()=>{const f=fixture();await f.completion;A.equal(f.sb.ready,true);A.equal(f.play.disabled,false);A.equal(f.warning.hidden,true);});
+for(const [index,key]of keys.entries())test('a failed base asset blocks startup and exposes retry: '+key,async()=>{const f=fixture({failedIndex:index});await f.completion;blocked(f);});
+for(const view of views){test('false readiness blocks startup: '+view,async()=>{const f=fixture({view,readiness:Promise.resolve(false)});await f.completion;blocked(f);});test('nested false readiness blocks startup: '+view,async()=>{const f=fixture({view,readiness:Promise.resolve([true,[true,false]])});await f.completion;blocked(f);});test('rejected readiness shows a retry message instead of an unhandled rejection: '+view,async()=>{const f=fixture({view,readiness:Promise.reject(Error('fixture artwork failure'))});await f.completion;blocked(f);});}
+test('pending artwork cannot enable Play; later failure remains blocked',async()=>{let resolve;const pending=new Promise(r=>resolve=r),f=fixture({view:'PolishedSprites',readiness:pending});await Promise.resolve();A.equal(f.sb.ready,false);A.equal(f.play.disabled,true);resolve([false]);await f.completion;blocked(f);});
+test('absent optional renderers are neutral when all loaded assets are healthy',async()=>{const f=fixture();await f.completion;A.equal(f.sb.ready,true);});
