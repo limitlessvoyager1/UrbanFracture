@@ -1,0 +1,6221 @@
+{
+  "scope": "168 deterministic scripted20s policy fixtures. No human-play or hardware certification; ranged policy is meaningful mainly for Forest. Seed controls AI separately from environment.",
+  "rows": [
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 12.45,
+      "completed": true,
+      "survived": true,
+      "hp": 74,
+      "damageDealt": 60,
+      "damageTaken": 36,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 8.9,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 10.8,
+      "completed": true,
+      "survived": true,
+      "hp": 56,
+      "damageDealt": 60,
+      "damageTaken": 36,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 7.95,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 5.467,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.22,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 6.617,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 6.617,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 6.617,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 19.383,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 43,
+      "damageTaken": 110,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 13.98,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 17.567,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 82,
+      "damageTaken": 92,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 7,
+      "counterSuccess": 0,
+      "knockdowns": 3,
+      "unableSeconds": 12.63,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 17.967,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 84,
+      "damageTaken": 92,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 3,
+      "unableSeconds": 13.02,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 15.3,
+      "completed": true,
+      "survived": true,
+      "hp": 62,
+      "damageDealt": 95,
+      "damageTaken": 48,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 10.05,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 13.2,
+      "completed": true,
+      "survived": true,
+      "hp": 72,
+      "damageDealt": 95,
+      "damageTaken": 38,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.27,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 13.283,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 38,
+      "damageTaken": 92,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 10.35,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 8.75,
+      "completed": true,
+      "survived": true,
+      "hp": 96,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.2,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 6.883,
+      "completed": true,
+      "survived": true,
+      "hp": 78,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.2,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 6.6,
+      "completed": true,
+      "survived": true,
+      "hp": 78,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.92,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 10.217,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 65,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.15,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 7.217,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 65,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.97,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 6.917,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 65,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.85,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 16.967,
+      "completed": true,
+      "survived": true,
+      "hp": 42,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 11.43,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 15.55,
+      "completed": true,
+      "survived": true,
+      "hp": 37,
+      "damageDealt": 215,
+      "damageTaken": 55,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 6,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 10.5,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "reina",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 16.967,
+      "completed": true,
+      "survived": true,
+      "hp": 24,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 11.43,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 7.283,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 6.683,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.32,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 7.283,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 6.083,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 2.88,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 6.083,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 2.88,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 6.083,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 2.88,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 26,
+      "damageDealt": 101,
+      "damageTaken": 89,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 3,
+      "unableSeconds": 14.1,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 32,
+      "damageDealt": 109,
+      "damageTaken": 83,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 8,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 13.18,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 26,
+      "damageDealt": 101,
+      "damageTaken": 89,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 3,
+      "unableSeconds": 14.1,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 15.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 66,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.7,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 15.4,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 45,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 6,
+      "counterSuccess": 0,
+      "knockdowns": 5,
+      "unableSeconds": 11.55,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 15.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 66,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.7,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 7.583,
+      "completed": true,
+      "survived": true,
+      "hp": 101,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.93,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 7.583,
+      "completed": true,
+      "survived": true,
+      "hp": 101,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.93,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 7.583,
+      "completed": true,
+      "survived": true,
+      "hp": 101,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.93,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 12.683,
+      "completed": true,
+      "survived": true,
+      "hp": 71,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.42,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 9.383,
+      "completed": true,
+      "survived": true,
+      "hp": 53,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.08,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 12.683,
+      "completed": true,
+      "survived": true,
+      "hp": 71,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.42,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 17.467,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 179,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 12.98,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 12.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 68,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.13,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "nova",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 17.467,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 179,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 12.98,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 6.6,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 10,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.47,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 5.267,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 2,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.1,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 5.483,
+      "completed": true,
+      "survived": true,
+      "hp": 79,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.1,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 5.4,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.8,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 5.4,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 2,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.8,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 5.4,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.8,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 13.967,
+      "completed": true,
+      "survived": true,
+      "hp": 70,
+      "damageDealt": 115,
+      "damageTaken": 55,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 10.55,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 11.667,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 115,
+      "damageTaken": 33,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 9.4,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 10.333,
+      "completed": true,
+      "survived": true,
+      "hp": 69,
+      "damageDealt": 115,
+      "damageTaken": 33,
+      "grabAttempts": 1,
+      "grabSuccess": 1,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 7.83,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 11.217,
+      "completed": true,
+      "survived": true,
+      "hp": 91,
+      "damageDealt": 95,
+      "damageTaken": 34,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.05,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 8.633,
+      "completed": true,
+      "survived": true,
+      "hp": 68,
+      "damageDealt": 95,
+      "damageTaken": 34,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 7.07,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 11.217,
+      "completed": true,
+      "survived": true,
+      "hp": 91,
+      "damageDealt": 95,
+      "damageTaken": 34,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.05,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 10.5,
+      "completed": true,
+      "survived": true,
+      "hp": 97,
+      "damageDealt": 73,
+      "damageTaken": 28,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.27,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 10.133,
+      "completed": true,
+      "survived": true,
+      "hp": 97,
+      "damageDealt": 73,
+      "damageTaken": 28,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.23,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 8.483,
+      "completed": true,
+      "survived": true,
+      "hp": 51,
+      "damageDealt": 73,
+      "damageTaken": 28,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 6.18,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 9.6,
+      "completed": true,
+      "survived": true,
+      "hp": 81,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 6.6,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 8.8,
+      "completed": true,
+      "survived": true,
+      "hp": 58,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 6.17,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 8.483,
+      "completed": true,
+      "survived": true,
+      "hp": 35,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 1,
+      "grabSuccess": 1,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.9,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 16.033,
+      "completed": true,
+      "survived": true,
+      "hp": 57,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 12.13,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 17.067,
+      "completed": true,
+      "survived": true,
+      "hp": 31,
+      "damageDealt": 215,
+      "damageTaken": 48,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 7,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 13.32,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "broxton",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 16.033,
+      "completed": true,
+      "survived": true,
+      "hp": 57,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 12.13,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 15.383,
+      "completed": true,
+      "survived": true,
+      "hp": 77,
+      "damageDealt": 60,
+      "damageTaken": 43,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.47,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 8.633,
+      "completed": true,
+      "survived": true,
+      "hp": 80,
+      "damageDealt": 60,
+      "damageTaken": 20,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 7.08,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 5.317,
+      "completed": true,
+      "survived": true,
+      "hp": 80,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.78,
+      "maxPressure": 0,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 30,
+      "damageDealt": 28,
+      "damageTaken": 90,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 11.3,
+      "maxPressure": 1,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 20,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 41,
+      "damageTaken": 80,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 7,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 12.43,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 5.417,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.23,
+      "maxPressure": 0,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 18.1,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 52,
+      "damageTaken": 120,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 13.58,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 16.8,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 48,
+      "damageTaken": 120,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 6,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 13.08,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 9.533,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 115,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.87,
+      "maxPressure": 0,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 12.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 42,
+      "damageTaken": 120,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 10.48,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 11.183,
+      "completed": true,
+      "survived": true,
+      "hp": 32,
+      "damageDealt": 95,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 8.67,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 8.033,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 95,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.02,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 11.617,
+      "completed": true,
+      "survived": true,
+      "hp": 104,
+      "damageDealt": 73,
+      "damageTaken": 16,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 7.47,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 11.717,
+      "completed": true,
+      "survived": true,
+      "hp": 61,
+      "damageDealt": 73,
+      "damageTaken": 39,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 8.1,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 5.817,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 73,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.63,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 2,
+      "damageDealt": 44,
+      "damageTaken": 118,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 10.83,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 8.917,
+      "completed": true,
+      "survived": true,
+      "hp": 36,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.8,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 14.033,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 40,
+      "damageTaken": 100,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.7,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 5,
+      "damageDealt": 187,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 12.43,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 19.15,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 202,
+      "damageTaken": 120,
+      "grabAttempts": 1,
+      "grabSuccess": 1,
+      "counterAttempts": 8,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 15.27,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "baseline168",
+      "hero": "forest",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 11.2,
+      "completed": true,
+      "survived": true,
+      "hp": 60,
+      "damageDealt": 215,
+      "damageTaken": 20,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.4,
+      "maxPressure": 2,
+      "metrics169": null
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 12.45,
+      "completed": true,
+      "survived": true,
+      "hp": 74,
+      "damageDealt": 60,
+      "damageTaken": 36,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 8.9,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 36,
+        "attacks": 25,
+        "connectedActions": 12,
+        "hitRate": 0.48,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 8.900000000000022,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 10.8,
+      "completed": true,
+      "survived": true,
+      "hp": 56,
+      "damageDealt": 60,
+      "damageTaken": 36,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 7.95,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 36,
+        "attacks": 21,
+        "connectedActions": 10,
+        "hitRate": 0.47619047619047616,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 2.533333333333329,
+        "unableSeconds": 7.949999999999977,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 5.467,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.22,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 16,
+        "connectedActions": 7,
+        "hitRate": 0.4375,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.21666666666666,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 6.617,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 21,
+        "connectedActions": 11,
+        "hitRate": 0.5238095238095238,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7499999999999916,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 6.617,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 21,
+        "connectedActions": 11,
+        "hitRate": 0.5238095238095238,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7499999999999916,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 6.617,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 21,
+        "connectedActions": 11,
+        "hitRate": 0.5238095238095238,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7499999999999916,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 18.567,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 32,
+      "damageTaken": 110,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 13.8,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 32,
+        "damageTaken": 110,
+        "attacks": 35,
+        "connectedActions": 19,
+        "hitRate": 0.5428571428571428,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 9,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 13.800000000000265,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 17.567,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 82,
+      "damageTaken": 92,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 7,
+      "counterSuccess": 0,
+      "knockdowns": 3,
+      "unableSeconds": 12.63,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 82,
+        "damageTaken": 92,
+        "attacks": 37,
+        "connectedActions": 17,
+        "hitRate": 0.4594594594594595,
+        "counters": {
+          "attempts": 7,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 8,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.016666666666661,
+        "unableSeconds": 12.63333333333354,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 19.8,
+      "completed": false,
+      "survived": true,
+      "hp": 16,
+      "damageDealt": 98,
+      "damageTaken": 76,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 13.78,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 98,
+        "damageTaken": 76,
+        "attacks": 45,
+        "connectedActions": 25,
+        "hitRate": 0.5555555555555556,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 9,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 13.783333333333598,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 15.3,
+      "completed": true,
+      "survived": true,
+      "hp": 62,
+      "damageDealt": 95,
+      "damageTaken": 48,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 10.05,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 48,
+        "attacks": 36,
+        "connectedActions": 17,
+        "hitRate": 0.4722222222222222,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 10.050000000000079,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 13.2,
+      "completed": true,
+      "survived": true,
+      "hp": 72,
+      "damageDealt": 95,
+      "damageTaken": 38,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.27,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 38,
+        "attacks": 35,
+        "connectedActions": 16,
+        "hitRate": 0.45714285714285713,
+        "counters": {
+          "attempts": 5,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.6666666666666656,
+        "unableSeconds": 8.266666666666657,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 13.283,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 38,
+      "damageTaken": 92,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 10.35,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 38,
+        "damageTaken": 92,
+        "attacks": 19,
+        "connectedActions": 7,
+        "hitRate": 0.3684210526315789,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 10.350000000000094,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 8.75,
+      "completed": true,
+      "survived": true,
+      "hp": 96,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.2,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 14,
+        "attacks": 25,
+        "connectedActions": 10,
+        "hitRate": 0.4,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 5.199999999999987,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 6.883,
+      "completed": true,
+      "survived": true,
+      "hp": 78,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.2,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 14,
+        "attacks": 19,
+        "connectedActions": 8,
+        "hitRate": 0.42105263157894735,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 4.19999999999999,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 6.6,
+      "completed": true,
+      "survived": true,
+      "hp": 78,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.92,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 14,
+        "attacks": 19,
+        "connectedActions": 8,
+        "hitRate": 0.42105263157894735,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.9166666666666576,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 10.217,
+      "completed": true,
+      "survived": true,
+      "hp": 110,
+      "damageDealt": 65,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.15,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 0,
+        "attacks": 33,
+        "connectedActions": 11,
+        "hitRate": 0.3333333333333333,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 5.149999999999987,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 7.217,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 65,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.97,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 0,
+        "attacks": 22,
+        "connectedActions": 7,
+        "hitRate": 0.3181818181818182,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.9666666666666575,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 6.917,
+      "completed": true,
+      "survived": true,
+      "hp": 92,
+      "damageDealt": 65,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.85,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 0,
+        "attacks": 21,
+        "connectedActions": 7,
+        "hitRate": 0.3333333333333333,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.849999999999991,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 16.967,
+      "completed": true,
+      "survived": true,
+      "hp": 42,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 11.43,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 68,
+        "attacks": 39,
+        "connectedActions": 23,
+        "hitRate": 0.5897435897435898,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 3,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 11.433333333333481,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 15.55,
+      "completed": true,
+      "survived": true,
+      "hp": 37,
+      "damageDealt": 215,
+      "damageTaken": 55,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 6,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 10.5,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 55,
+        "attacks": 34,
+        "connectedActions": 14,
+        "hitRate": 0.4117647058823529,
+        "counters": {
+          "attempts": 6,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 10.500000000000101,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "reina",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 16.967,
+      "completed": true,
+      "survived": true,
+      "hp": 24,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 11.43,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 68,
+        "attacks": 40,
+        "connectedActions": 23,
+        "hitRate": 0.575,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 3,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 11.433333333333481,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 7.283,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 17,
+        "connectedActions": 11,
+        "hitRate": 0.6470588235294118,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7499999999999916,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 6.683,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.32,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 15,
+        "connectedActions": 11,
+        "hitRate": 0.7333333333333333,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.3166666666666598,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 7.283,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.75,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 17,
+        "connectedActions": 11,
+        "hitRate": 0.6470588235294118,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7499999999999916,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 6.083,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 2.88,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 13,
+        "connectedActions": 11,
+        "hitRate": 0.8461538461538461,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 2.883333333333328,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 6.083,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 2.88,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 13,
+        "connectedActions": 11,
+        "hitRate": 0.8461538461538461,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 2.883333333333328,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 6.083,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 2.88,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 13,
+        "connectedActions": 11,
+        "hitRate": 0.8461538461538461,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 2.883333333333328,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 17.883,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 39,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 14.43,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 39,
+        "damageTaken": 115,
+        "attacks": 23,
+        "connectedActions": 16,
+        "hitRate": 0.6956521739130435,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.733333333333322,
+        "unableSeconds": 14.43333333333363,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 27,
+      "damageDealt": 96,
+      "damageTaken": 88,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 8,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 13.23,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 96,
+        "damageTaken": 88,
+        "attacks": 36,
+        "connectedActions": 28,
+        "hitRate": 0.7777777777777778,
+        "counters": {
+          "attempts": 8,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 9,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 13.23333333333357,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 17.883,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 39,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 14.43,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 39,
+        "damageTaken": 115,
+        "attacks": 23,
+        "connectedActions": 16,
+        "hitRate": 0.6956521739130435,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.733333333333322,
+        "unableSeconds": 14.43333333333363,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 15.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 66,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.7,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 66,
+        "damageTaken": 115,
+        "attacks": 21,
+        "connectedActions": 12,
+        "hitRate": 0.5714285714285714,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 11.700000000000161,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 15.4,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 45,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 6,
+      "counterSuccess": 0,
+      "knockdowns": 5,
+      "unableSeconds": 11.55,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 45,
+        "damageTaken": 115,
+        "attacks": 29,
+        "connectedActions": 9,
+        "hitRate": 0.3103448275862069,
+        "counters": {
+          "attempts": 6,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 5,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 2.749999999999995,
+        "unableSeconds": 11.550000000000153,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 15.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 66,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.7,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 66,
+        "damageTaken": 115,
+        "attacks": 21,
+        "connectedActions": 12,
+        "hitRate": 0.5714285714285714,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 11.700000000000161,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 7.583,
+      "completed": true,
+      "survived": true,
+      "hp": 101,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.93,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 14,
+        "attacks": 17,
+        "connectedActions": 14,
+        "hitRate": 0.8235294117647058,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.9333333333333242,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 7.583,
+      "completed": true,
+      "survived": true,
+      "hp": 101,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 3,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.93,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 14,
+        "attacks": 17,
+        "connectedActions": 14,
+        "hitRate": 0.8235294117647058,
+        "counters": {
+          "attempts": 3,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.9333333333333242,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 7.583,
+      "completed": true,
+      "survived": true,
+      "hp": 101,
+      "damageDealt": 73,
+      "damageTaken": 14,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.93,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 14,
+        "attacks": 17,
+        "connectedActions": 14,
+        "hitRate": 0.8235294117647058,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.9333333333333242,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 12.683,
+      "completed": true,
+      "survived": true,
+      "hp": 71,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.42,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 33,
+        "connectedActions": 12,
+        "hitRate": 0.36363636363636365,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 7.416666666666646,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 9.383,
+      "completed": true,
+      "survived": true,
+      "hp": 53,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.08,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 25,
+        "connectedActions": 6,
+        "hitRate": 0.24,
+        "counters": {
+          "attempts": 4,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 7.0833333333333135,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 12.683,
+      "completed": true,
+      "survived": true,
+      "hp": 71,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.42,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 33,
+        "connectedActions": 12,
+        "hitRate": 0.36363636363636365,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 7.416666666666646,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 17.467,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 179,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 12.98,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 179,
+        "damageTaken": 115,
+        "attacks": 28,
+        "connectedActions": 19,
+        "hitRate": 0.6785714285714286,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 5,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 12.983333333333558,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 12.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 68,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.13,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 68,
+        "damageTaken": 115,
+        "attacks": 19,
+        "connectedActions": 10,
+        "hitRate": 0.5263157894736842,
+        "counters": {
+          "attempts": 5,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.949999999999991,
+        "unableSeconds": 11.133333333333466,
+        "maxCommitments": 2,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "nova",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 17.467,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 179,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 12.98,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 179,
+        "damageTaken": 115,
+        "attacks": 28,
+        "connectedActions": 19,
+        "hitRate": 0.6785714285714286,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 5,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 12.983333333333558,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 6.6,
+      "completed": true,
+      "survived": true,
+      "hp": 115,
+      "damageDealt": 60,
+      "damageTaken": 10,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.47,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 10,
+        "attacks": 12,
+        "connectedActions": 8,
+        "hitRate": 0.6666666666666666,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 4.466666666666656,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 5.267,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 2,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.1,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 10,
+        "connectedActions": 7,
+        "hitRate": 0.7,
+        "counters": {
+          "attempts": 2,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 4.099999999999991,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 5.483,
+      "completed": true,
+      "survived": true,
+      "hp": 79,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 4.1,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 10,
+        "connectedActions": 3,
+        "hitRate": 0.3,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 2,
+          "success": 2,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 4.099999999999991,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 5.4,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.8,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 10,
+        "connectedActions": 8,
+        "hitRate": 0.8,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7999999999999914,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 5.4,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 2,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.8,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 10,
+        "connectedActions": 8,
+        "hitRate": 0.8,
+        "counters": {
+          "attempts": 2,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7999999999999914,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 5.4,
+      "completed": true,
+      "survived": true,
+      "hp": 125,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.8,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 10,
+        "connectedActions": 8,
+        "hitRate": 0.8,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.7999999999999914,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 14.667,
+      "completed": true,
+      "survived": true,
+      "hp": 65,
+      "damageDealt": 115,
+      "damageTaken": 60,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 11.25,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 115,
+        "damageTaken": 60,
+        "attacks": 21,
+        "connectedActions": 15,
+        "hitRate": 0.7142857142857143,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 11.250000000000139,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 11.483,
+      "completed": true,
+      "survived": true,
+      "hp": 41,
+      "damageDealt": 115,
+      "damageTaken": 38,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 9.13,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 115,
+        "damageTaken": 38,
+        "attacks": 17,
+        "connectedActions": 9,
+        "hitRate": 0.5294117647058824,
+        "counters": {
+          "attempts": 5,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 2,
+          "success": 2,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.4499999999999997,
+        "unableSeconds": 9.133333333333367,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 14.667,
+      "completed": true,
+      "survived": true,
+      "hp": 65,
+      "damageDealt": 115,
+      "damageTaken": 60,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 11.25,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 115,
+        "damageTaken": 60,
+        "attacks": 21,
+        "connectedActions": 15,
+        "hitRate": 0.7142857142857143,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 11.250000000000139,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 11.217,
+      "completed": true,
+      "survived": true,
+      "hp": 91,
+      "damageDealt": 95,
+      "damageTaken": 34,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.05,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 34,
+        "attacks": 16,
+        "connectedActions": 10,
+        "hitRate": 0.625,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 1,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.6666666666666656,
+        "unableSeconds": 8.04999999999998,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 8.633,
+      "completed": true,
+      "survived": true,
+      "hp": 68,
+      "damageDealt": 95,
+      "damageTaken": 34,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 7.07,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 34,
+        "attacks": 12,
+        "connectedActions": 6,
+        "hitRate": 0.5,
+        "counters": {
+          "attempts": 4,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 2,
+          "success": 2,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.6666666666666656,
+        "unableSeconds": 7.066666666666647,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 11.217,
+      "completed": true,
+      "survived": true,
+      "hp": 91,
+      "damageDealt": 95,
+      "damageTaken": 34,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.05,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 34,
+        "attacks": 16,
+        "connectedActions": 10,
+        "hitRate": 0.625,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 1,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.6666666666666656,
+        "unableSeconds": 8.04999999999998,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 10.5,
+      "completed": true,
+      "survived": true,
+      "hp": 97,
+      "damageDealt": 73,
+      "damageTaken": 28,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.27,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 28,
+        "attacks": 17,
+        "connectedActions": 10,
+        "hitRate": 0.5882352941176471,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 7.266666666666646,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 10.133,
+      "completed": true,
+      "survived": true,
+      "hp": 97,
+      "damageDealt": 73,
+      "damageTaken": 28,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.23,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 28,
+        "attacks": 17,
+        "connectedActions": 9,
+        "hitRate": 0.5294117647058824,
+        "counters": {
+          "attempts": 4,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 7.233333333333313,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 8.483,
+      "completed": true,
+      "survived": true,
+      "hp": 51,
+      "damageDealt": 73,
+      "damageTaken": 28,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 6.18,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 28,
+        "attacks": 14,
+        "connectedActions": 5,
+        "hitRate": 0.35714285714285715,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 2,
+          "success": 2,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 6.183333333333317,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 9.6,
+      "completed": true,
+      "survived": true,
+      "hp": 81,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 6.6,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 17,
+        "connectedActions": 8,
+        "hitRate": 0.47058823529411764,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 6.599999999999982,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 8.8,
+      "completed": true,
+      "survived": true,
+      "hp": 58,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 6.17,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 16,
+        "connectedActions": 8,
+        "hitRate": 0.5,
+        "counters": {
+          "attempts": 4,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 6.16666666666665,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 8.483,
+      "completed": true,
+      "survived": true,
+      "hp": 35,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 1,
+      "grabSuccess": 1,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.9,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 15,
+        "connectedActions": 6,
+        "hitRate": 0.4,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 1,
+          "success": 1,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 5.899999999999984,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 16.033,
+      "completed": true,
+      "survived": true,
+      "hp": 57,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 12.13,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 68,
+        "attacks": 22,
+        "connectedActions": 16,
+        "hitRate": 0.7272727272727273,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 12.133333333333516,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 17.067,
+      "completed": true,
+      "survived": true,
+      "hp": 31,
+      "damageDealt": 215,
+      "damageTaken": 48,
+      "grabAttempts": 2,
+      "grabSuccess": 2,
+      "counterAttempts": 7,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 13.32,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 48,
+        "attacks": 25,
+        "connectedActions": 12,
+        "hitRate": 0.48,
+        "counters": {
+          "attempts": 7,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 2,
+          "success": 2,
+          "regrabRejected": 0
+        },
+        "armorActivations": 3,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 2.0999999999999974,
+        "unableSeconds": 13.316666666666908,
+        "maxCommitments": 2,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "broxton",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 16.033,
+      "completed": true,
+      "survived": true,
+      "hp": 57,
+      "damageDealt": 215,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 12.13,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 68,
+        "attacks": 22,
+        "connectedActions": 16,
+        "hitRate": 0.7272727272727273,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 3.3333333333333264,
+        "unableSeconds": 12.133333333333516,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Marcus",
+      "policy": "close",
+      "seconds": 15.383,
+      "completed": true,
+      "survived": true,
+      "hp": 77,
+      "damageDealt": 60,
+      "damageTaken": 43,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 11.47,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 43,
+        "attacks": 22,
+        "connectedActions": 13,
+        "hitRate": 0.5909090909090909,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 6.666666666666648,
+        "unableSeconds": 11.466666666666816,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Marcus",
+      "policy": "varied",
+      "seconds": 8.767,
+      "completed": true,
+      "survived": true,
+      "hp": 80,
+      "damageDealt": 60,
+      "damageTaken": 20,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 7.22,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 20,
+        "attacks": 15,
+        "connectedActions": 8,
+        "hitRate": 0.5333333333333333,
+        "counters": {
+          "attempts": 4,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 2.6999999999999953,
+        "unableSeconds": 7.216666666666646,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Marcus",
+      "policy": "ranged",
+      "seconds": 5.417,
+      "completed": true,
+      "survived": true,
+      "hp": 80,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.97,
+      "maxPressure": 0,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 12,
+        "connectedActions": 3,
+        "hitRate": 0.25,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.9666666666666575,
+        "maxCommitments": 0,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Kevin",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 30,
+      "damageDealt": 28,
+      "damageTaken": 90,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 11.3,
+      "maxPressure": 1,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 28,
+        "damageTaken": 90,
+        "attacks": 55,
+        "connectedActions": 6,
+        "hitRate": 0.10909090909090909,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 11.300000000000141,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Kevin",
+      "policy": "varied",
+      "seconds": 20,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 41,
+      "damageTaken": 80,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 7,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 12.52,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 41,
+        "damageTaken": 80,
+        "attacks": 51,
+        "connectedActions": 6,
+        "hitRate": 0.11764705882352941,
+        "counters": {
+          "attempts": 7,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 12.516666666666868,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 1,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Kevin",
+      "policy": "ranged",
+      "seconds": 5.533,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 60,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.35,
+      "maxPressure": 0,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 60,
+        "damageTaken": 0,
+        "attacks": 12,
+        "connectedActions": 8,
+        "hitRate": 0.6666666666666666,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.349999999999993,
+        "maxCommitments": 0,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Bruno",
+      "policy": "close",
+      "seconds": 18.1,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 52,
+      "damageTaken": 120,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 13.58,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 52,
+        "damageTaken": 120,
+        "attacks": 26,
+        "connectedActions": 11,
+        "hitRate": 0.4230769230769231,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 12,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 13.583333333333588,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 2,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Bruno",
+      "policy": "varied",
+      "seconds": 16.8,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 43,
+      "damageTaken": 120,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 6,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 13.07,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 43,
+        "damageTaken": 120,
+        "attacks": 23,
+        "connectedActions": 10,
+        "hitRate": 0.43478260869565216,
+        "counters": {
+          "attempts": 6,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 9,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.649999999999989,
+        "unableSeconds": 13.066666666666896,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Bruno",
+      "policy": "ranged",
+      "seconds": 8.75,
+      "completed": true,
+      "survived": true,
+      "hp": 80,
+      "damageDealt": 115,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.88,
+      "maxPressure": 0,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 115,
+        "damageTaken": 0,
+        "attacks": 17,
+        "connectedActions": 10,
+        "hitRate": 0.5882352941176471,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 1,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 5.883333333333318,
+        "maxCommitments": 0,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Flint",
+      "policy": "close",
+      "seconds": 12.9,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 42,
+      "damageTaken": 120,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 10.48,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 42,
+        "damageTaken": 120,
+        "attacks": 16,
+        "connectedActions": 9,
+        "hitRate": 0.5625,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 10.483333333333434,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Flint",
+      "policy": "varied",
+      "seconds": 11.183,
+      "completed": true,
+      "survived": true,
+      "hp": 32,
+      "damageDealt": 95,
+      "damageTaken": 68,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 8.6,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 68,
+        "attacks": 18,
+        "connectedActions": 12,
+        "hitRate": 0.6666666666666666,
+        "counters": {
+          "attempts": 5,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.8333333333333317,
+        "unableSeconds": 8.600000000000007,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Flint",
+      "policy": "ranged",
+      "seconds": 8.033,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 95,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.1,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 95,
+        "damageTaken": 0,
+        "attacks": 17,
+        "connectedActions": 11,
+        "hitRate": 0.6470588235294118,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 5.099999999999987,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Frankie",
+      "policy": "close",
+      "seconds": 11.617,
+      "completed": true,
+      "survived": true,
+      "hp": 104,
+      "damageDealt": 73,
+      "damageTaken": 16,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 7.47,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 16,
+        "attacks": 24,
+        "connectedActions": 12,
+        "hitRate": 0.5,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.6666666666666656,
+        "unableSeconds": 7.4666666666666455,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 1,
+          "completions": 1
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Frankie",
+      "policy": "varied",
+      "seconds": 11.85,
+      "completed": true,
+      "survived": true,
+      "hp": 61,
+      "damageDealt": 73,
+      "damageTaken": 39,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 5,
+      "counterSuccess": 0,
+      "knockdowns": 2,
+      "unableSeconds": 8.23,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 39,
+        "attacks": 20,
+        "connectedActions": 9,
+        "hitRate": 0.45,
+        "counters": {
+          "attempts": 5,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 2.0999999999999974,
+        "unableSeconds": 8.233333333333322,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Frankie",
+      "policy": "ranged",
+      "seconds": 5.95,
+      "completed": true,
+      "survived": true,
+      "hp": 100,
+      "damageDealt": 73,
+      "damageTaken": 0,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 3.77,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 73,
+        "damageTaken": 0,
+        "attacks": 12,
+        "connectedActions": 7,
+        "hitRate": 0.5833333333333334,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 3.766666666666658,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Jesse",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 2,
+      "damageDealt": 44,
+      "damageTaken": 118,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 10.83,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 44,
+        "damageTaken": 118,
+        "attacks": 55,
+        "connectedActions": 8,
+        "hitRate": 0.14545454545454545,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 10.833333333333451,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Jesse",
+      "policy": "varied",
+      "seconds": 8.617,
+      "completed": true,
+      "survived": true,
+      "hp": 36,
+      "damageDealt": 65,
+      "damageTaken": 44,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 4,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 5.63,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 65,
+        "damageTaken": 44,
+        "attacks": 22,
+        "connectedActions": 6,
+        "hitRate": 0.2727272727272727,
+        "counters": {
+          "attempts": 4,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 5.633333333333319,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Jesse",
+      "policy": "ranged",
+      "seconds": 14.017,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 40,
+      "damageTaken": 100,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 8.78,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 40,
+        "damageTaken": 100,
+        "attacks": 35,
+        "connectedActions": 1,
+        "hitRate": 0.02857142857142857,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 0,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 8.78333333333335,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Mixed",
+      "policy": "close",
+      "seconds": 20,
+      "completed": false,
+      "survived": true,
+      "hp": 5,
+      "damageDealt": 187,
+      "damageTaken": 115,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 1,
+      "unableSeconds": 12.43,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 187,
+        "damageTaken": 115,
+        "attacks": 41,
+        "connectedActions": 25,
+        "hitRate": 0.6097560975609756,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 2,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 1.6666666666666656,
+        "unableSeconds": 12.43333333333353,
+        "maxCommitments": 2,
+        "gunner": {
+          "commands": 1,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Mixed",
+      "policy": "varied",
+      "seconds": 19.15,
+      "completed": false,
+      "survived": false,
+      "hp": 0,
+      "damageDealt": 202,
+      "damageTaken": 120,
+      "grabAttempts": 1,
+      "grabSuccess": 1,
+      "counterAttempts": 8,
+      "counterSuccess": 0,
+      "knockdowns": 4,
+      "unableSeconds": 15.27,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 202,
+        "damageTaken": 120,
+        "attacks": 30,
+        "connectedActions": 24,
+        "hitRate": 0.8,
+        "counters": {
+          "attempts": 8,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 1,
+          "success": 1,
+          "regrabRejected": 0
+        },
+        "armorActivations": 4,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 4.999999999999988,
+        "unableSeconds": 15.266666666667005,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 1,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    },
+    {
+      "version": "quality169",
+      "hero": "forest",
+      "group": "Mixed",
+      "policy": "ranged",
+      "seconds": 11.417,
+      "completed": true,
+      "survived": true,
+      "hp": 60,
+      "damageDealt": 215,
+      "damageTaken": 20,
+      "grabAttempts": 0,
+      "grabSuccess": 0,
+      "counterAttempts": 0,
+      "counterSuccess": 0,
+      "knockdowns": 0,
+      "unableSeconds": 7.7,
+      "maxPressure": 2,
+      "metrics169": {
+        "config": {
+          "grabRecovery": 0.75,
+          "repeatWindow": 6,
+          "repeatCount": 2,
+          "repeatExtra": 1.5
+        },
+        "damageDealt": 215,
+        "damageTaken": 20,
+        "attacks": 23,
+        "connectedActions": 17,
+        "hitRate": 0.7391304347826086,
+        "counters": {
+          "attempts": 0,
+          "success": 0
+        },
+        "grabs": {
+          "attempts": 0,
+          "success": 0,
+          "regrabRejected": 0
+        },
+        "armorActivations": 1,
+        "antiAirAttempts": 0,
+        "knockdownSeconds": 0,
+        "unableSeconds": 7.699999999999978,
+        "maxCommitments": 1,
+        "gunner": {
+          "commands": 0,
+          "completions": 0
+        },
+        "crossbow": {
+          "blockedHits": 0,
+          "chipDamage": 0
+        }
+      }
+    }
+  ]
+}

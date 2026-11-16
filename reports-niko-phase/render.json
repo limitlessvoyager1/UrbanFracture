@@ -1,0 +1,407 @@
+{
+  "errors": [],
+  "failed": [
+    {
+      "version": "baseline",
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "version": "baseline",
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "version": "fixed",
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "version": "fixed",
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "matchedNativeBodyPairs": 12,
+  "scope": "Native production index/renderer/playback UI. Old Audit135 module only on baseline page.12native pose pairs compared; fixed playback panel captured for4combo stages in isolated test host.",
+  "rows": [
+    {
+      "version": "baseline",
+      "stage": 1,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 6,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 8,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        }
+      ],
+      "selectedPhase": "utility / recovery",
+      "selectedFrame": 6,
+      "liveFrame": 8,
+      "hitAt": 999,
+      "hitFrame185": 6,
+      "timelineTitles": [
+        "frame 1: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 2: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 3: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 4: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 5: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 6: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 7: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 8: niko185 / utility / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "baseline",
+      "stage": 2,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 6,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 8,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        }
+      ],
+      "selectedPhase": "utility / recovery",
+      "selectedFrame": 6,
+      "liveFrame": 8,
+      "hitAt": 999,
+      "hitFrame185": 6,
+      "timelineTitles": [
+        "frame 1: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 2: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 3: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 4: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 5: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 6: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 7: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 8: niko185 / utility / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "baseline",
+      "stage": 3,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 8
+        },
+        {
+          "frame": 8,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 56,
+          "hitAt": 999,
+          "hitFrame185": 8
+        },
+        {
+          "frame": 10,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 56,
+          "hitAt": 999,
+          "hitFrame185": 8
+        }
+      ],
+      "selectedPhase": "utility / recovery",
+      "selectedFrame": 8,
+      "liveFrame": 10,
+      "hitAt": 999,
+      "hitFrame185": 8,
+      "timelineTitles": [
+        "frame 1: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 2: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 3: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 4: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 5: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 6: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 7: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 8: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 9: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 10: niko185 / utility / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "baseline",
+      "stage": 4,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 11
+        },
+        {
+          "frame": 11,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 54,
+          "hitAt": 999,
+          "hitFrame185": 11
+        },
+        {
+          "frame": 13,
+          "phase": "utility / recovery",
+          "presentation": "utility / recovery",
+          "hp": 54,
+          "hitAt": 999,
+          "hitFrame185": 11
+        }
+      ],
+      "selectedPhase": "utility / recovery",
+      "selectedFrame": 11,
+      "liveFrame": 13,
+      "hitAt": 999,
+      "hitFrame185": 11,
+      "timelineTitles": [
+        "frame 1: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 2: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 3: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 4: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 5: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 6: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 7: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 8: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 9: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 10: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 11: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 12: niko185 / utility / recovery · last contact none · ΔHP 0",
+        "frame 13: niko185 / utility / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "fixed",
+      "stage": 1,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "startup",
+          "presentation": "startup",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 6,
+          "phase": "active",
+          "presentation": "active",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 8,
+          "phase": "recovery",
+          "presentation": "recovery",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        }
+      ],
+      "selectedPhase": "active",
+      "selectedFrame": 6,
+      "liveFrame": 8,
+      "hitAt": 999,
+      "hitFrame185": 6,
+      "timelineTitles": [
+        "frame 1: niko185 / startup · last contact none · ΔHP 0",
+        "frame 2: niko185 / startup · last contact none · ΔHP 0",
+        "frame 3: niko185 / startup · last contact none · ΔHP 0",
+        "frame 4: niko185 / startup · last contact none · ΔHP 0",
+        "frame 5: niko185 / startup · last contact none · ΔHP 0",
+        "frame 6: niko185 / active · last contact none · ΔHP 0",
+        "frame 7: niko185 / active · last contact none · ΔHP 0",
+        "frame 8: niko185 / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "fixed",
+      "stage": 2,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "startup",
+          "presentation": "startup",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 6,
+          "phase": "active",
+          "presentation": "active",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        },
+        {
+          "frame": 8,
+          "phase": "recovery",
+          "presentation": "recovery",
+          "hp": 57,
+          "hitAt": 999,
+          "hitFrame185": 6
+        }
+      ],
+      "selectedPhase": "active",
+      "selectedFrame": 6,
+      "liveFrame": 8,
+      "hitAt": 999,
+      "hitFrame185": 6,
+      "timelineTitles": [
+        "frame 1: niko185 / startup · last contact none · ΔHP 0",
+        "frame 2: niko185 / startup · last contact none · ΔHP 0",
+        "frame 3: niko185 / startup · last contact none · ΔHP 0",
+        "frame 4: niko185 / startup · last contact none · ΔHP 0",
+        "frame 5: niko185 / startup · last contact none · ΔHP 0",
+        "frame 6: niko185 / active · last contact none · ΔHP 0",
+        "frame 7: niko185 / active · last contact none · ΔHP 0",
+        "frame 8: niko185 / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "fixed",
+      "stage": 3,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "startup",
+          "presentation": "startup",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 8
+        },
+        {
+          "frame": 8,
+          "phase": "active",
+          "presentation": "active",
+          "hp": 56,
+          "hitAt": 999,
+          "hitFrame185": 8
+        },
+        {
+          "frame": 10,
+          "phase": "recovery",
+          "presentation": "recovery",
+          "hp": 56,
+          "hitAt": 999,
+          "hitFrame185": 8
+        }
+      ],
+      "selectedPhase": "active",
+      "selectedFrame": 8,
+      "liveFrame": 10,
+      "hitAt": 999,
+      "hitFrame185": 8,
+      "timelineTitles": [
+        "frame 1: niko185 / startup · last contact none · ΔHP 0",
+        "frame 2: niko185 / startup · last contact none · ΔHP 0",
+        "frame 3: niko185 / startup · last contact none · ΔHP 0",
+        "frame 4: niko185 / startup · last contact none · ΔHP 0",
+        "frame 5: niko185 / startup · last contact none · ΔHP 0",
+        "frame 6: niko185 / startup · last contact none · ΔHP 0",
+        "frame 7: niko185 / startup · last contact none · ΔHP 0",
+        "frame 8: niko185 / active · last contact none · ΔHP 0",
+        "frame 9: niko185 / active · last contact none · ΔHP 0",
+        "frame 10: niko185 / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    },
+    {
+      "version": "fixed",
+      "stage": 4,
+      "samples": [
+        {
+          "frame": 1,
+          "phase": "startup",
+          "presentation": "startup",
+          "hp": 60,
+          "hitAt": 999,
+          "hitFrame185": 11
+        },
+        {
+          "frame": 11,
+          "phase": "active",
+          "presentation": "active",
+          "hp": 54,
+          "hitAt": 999,
+          "hitFrame185": 11
+        },
+        {
+          "frame": 13,
+          "phase": "recovery",
+          "presentation": "recovery",
+          "hp": 54,
+          "hitAt": 999,
+          "hitFrame185": 11
+        }
+      ],
+      "selectedPhase": "active",
+      "selectedFrame": 11,
+      "liveFrame": 13,
+      "hitAt": 999,
+      "hitFrame185": 11,
+      "timelineTitles": [
+        "frame 1: niko185 / startup · last contact none · ΔHP 0",
+        "frame 2: niko185 / startup · last contact none · ΔHP 0",
+        "frame 3: niko185 / startup · last contact none · ΔHP 0",
+        "frame 4: niko185 / startup · last contact none · ΔHP 0",
+        "frame 5: niko185 / startup · last contact none · ΔHP 0",
+        "frame 6: niko185 / startup · last contact none · ΔHP 0",
+        "frame 7: niko185 / startup · last contact none · ΔHP 0",
+        "frame 8: niko185 / startup · last contact none · ΔHP 0",
+        "frame 9: niko185 / startup · last contact none · ΔHP 0",
+        "frame 10: niko185 / startup · last contact none · ΔHP 0",
+        "frame 11: niko185 / active · last contact none · ΔHP 0",
+        "frame 12: niko185 / active · last contact none · ΔHP 0",
+        "frame 13: niko185 / recovery · last contact none · ΔHP 0"
+      ],
+      "scope": "Native single-stage generator fixture; not an earned combo claim. Selected historical contact frame; live world is2frames later."
+    }
+  ]
+}

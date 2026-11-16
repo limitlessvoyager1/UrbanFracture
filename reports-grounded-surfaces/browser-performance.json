@@ -1,0 +1,613 @@
+{
+  "status": "passed",
+  "mode": "performance",
+  "sourceFingerprint": "24c551c639dc4b0d70e8bb2bfbbf7b8bef32348b127e49288eaaef722742a64a",
+  "baselineSHA256": "5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1",
+  "candidateSHA256": "2545fb731f8fbb781dd03f235914516368b6d014469e934143efbdebfcfd0280",
+  "comparisons": [],
+  "scenes": [
+    {
+      "version": "candidate",
+      "roster": "mixed",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-1-candidate-mixed-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "changing",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-1-candidate-changing-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "mixed",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-2-baseline-mixed-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "changing",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-2-baseline-changing-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "mixed",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-3-baseline-mixed-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "changing",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-3-baseline-changing-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "mixed",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-4-candidate-mixed-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "changing",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\performance-4-candidate-changing-8.png",
+      "time": 6.499999999999982
+    }
+  ],
+  "performance": [
+    {
+      "version": "candidate",
+      "before": {
+        "usedSize": 4398828,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11738040,
+        "backingStorageSize": 3856119
+      },
+      "after": {
+        "usedSize": 9324532,
+        "totalSize": 10526720,
+        "embedderHeapUsedSize": 12224104,
+        "backingStorageSize": 5429393
+      },
+      "rows": [
+        {
+          "roster": "mixed",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 13.793055555886692,
+          "p50Ms": 11.5,
+          "p95Ms": 25.80000001192093,
+          "maxMs": 46.10000002384186,
+          "over16ms": 83,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 17.828333333051866,
+          "p50Ms": 15.300000011920929,
+          "p95Ms": 32.400000005960464,
+          "maxMs": 47.80000001192093,
+          "over16ms": 140,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0.2,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "before": {
+        "usedSize": 4395424,
+        "totalSize": 4759552,
+        "embedderHeapUsedSize": 11902952,
+        "backingStorageSize": 3854844
+      },
+      "after": {
+        "usedSize": 9294164,
+        "totalSize": 10526720,
+        "embedderHeapUsedSize": 12184656,
+        "backingStorageSize": 5428118
+      },
+      "rows": [
+        {
+          "roster": "mixed",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 13.883888889186911,
+          "p50Ms": 12.199999988079071,
+          "p95Ms": 24.600000023841858,
+          "maxMs": 35.10000002384186,
+          "over16ms": 81,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 17.818611109836233,
+          "p50Ms": 15.299999982118607,
+          "p95Ms": 32.19999998807907,
+          "maxMs": 49.79999998211861,
+          "over16ms": 152,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0.2,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "before": {
+        "usedSize": 4393384,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11712208,
+        "backingStorageSize": 3854833
+      },
+      "after": {
+        "usedSize": 9292020,
+        "totalSize": 10526720,
+        "embedderHeapUsedSize": 12114208,
+        "backingStorageSize": 5428187
+      },
+      "rows": [
+        {
+          "roster": "mixed",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 13.888333332952525,
+          "p50Ms": 11.799999982118607,
+          "p95Ms": 27.799999982118607,
+          "maxMs": 36.599999994039536,
+          "over16ms": 72,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 18.640555555870137,
+          "p50Ms": 16,
+          "p95Ms": 34.099999994039536,
+          "maxMs": 49.400000005960464,
+          "over16ms": 168,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0.2,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        }
+      ]
+    },
+    {
+      "version": "candidate",
+      "before": {
+        "usedSize": 4408648,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11786080,
+        "backingStorageSize": 3856119
+      },
+      "after": {
+        "usedSize": 9333876,
+        "totalSize": 10264576,
+        "embedderHeapUsedSize": 12180992,
+        "backingStorageSize": 5429462
+      },
+      "rows": [
+        {
+          "roster": "mixed",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 14.009999999486737,
+          "p50Ms": 12,
+          "p95Ms": 25.5,
+          "maxMs": 46.400000005960464,
+          "over16ms": 78,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 16.857499999718534,
+          "p50Ms": 14.699999988079071,
+          "p95Ms": 30,
+          "maxMs": 40.89999997615814,
+          "over16ms": 128,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0.2,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        }
+      ]
+    }
+  ],
+  "allocation": [],
+  "errors": [],
+  "requests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "browser": "143.0.7499.4"
+}

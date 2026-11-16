@@ -1,0 +1,106 @@
+{
+  "baseline": "a973216b910e63964f5b8400c1f8a517ba6d0999",
+  "suites": [
+    {
+      "suite": "reaction-deadline-metadata",
+      "exitCode": 0,
+      "output": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exitCode": 0,
+      "output": "PASS actionability diagnostics 6805 checks; 2 heroes x8 native families x3 rates; actual deadlines, cooldown boundaries, read-only state, presentation, players and paired states\n"
+    },
+    {
+      "suite": "continuity296",
+      "exitCode": 0,
+      "output": "PASS296 30272 native pose ownership, interruption, recovery labels, 1440 actor-ticks of unchanged mechanics, archived fallback\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exitCode": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exitCode": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "post-hit-reassessment",
+      "exitCode": 0,
+      "output": "PASS post-hit reassessment 1192 checks: 7 heroes, 6 enemy families, 30/60/120Hz, both admission paths, exact deadlines and choreography exemptions\n"
+    },
+    {
+      "suite": "reactions298",
+      "exitCode": 0,
+      "output": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n"
+    },
+    {
+      "suite": "combat274",
+      "exitCode": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "repairs330",
+      "exitCode": 0,
+      "output": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n"
+    },
+    {
+      "suite": "enemies210",
+      "exitCode": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\n"
+    },
+    {
+      "suite": "martial212",
+      "exitCode": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits\nPASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{\"type\":\"sato\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":6},{\"type\":\"sato\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":11},{\"type\":\"akari\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":13},{\"type\":\"akari\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":20},{\"type\":\"akari\",\"hero\":\"nova\",\"pressure\":1,\"actors\":1,\"attacks\":16},{\"type\":\"akari\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"akari\",\"hero\":\"orion\",\"pressure\":1,\"actors\":1,\"attacks\":15}]\nPASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches\n"
+    },
+    {
+      "suite": "counters248",
+      "exitCode": 0,
+      "output": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n"
+    },
+    {
+      "suite": "flint211",
+      "exitCode": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS211 four weapon profiles, exact phase values at30/60/120Hz, distinct measured reach, mirrored rear damage/single swing ownership,120deg damage-taking frontal armor, side/rear interrupts, vulnerable noncancelable recovery without stacked timers\nPASS211 physical misses, six-hero weaponless fallback, counter eligibility and dodge/lane regression, seeded mixed AI wild/power choices with3-point/two-commitment admission\nPASS211 Director reposition cannot bypass mandatory recovery; recovery punishment does not restart the full timer; rear swing threats are included in shared coordination\nPASS21124 live mirrored Reina/Forest/Niko weapon counter interceptions through the existing controllers\nPASS211 all four actual weapon paths can be intercepted by a physically aligned Human Shield without duplicated player damage\nPASS211 armed Flint completes left, lift and bottom reinforcements before weapon AI takes over\n"
+    },
+    {
+      "suite": "gamepad.test",
+      "exitCode": 0,
+      "output": "PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection\nPASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery\n"
+    },
+    {
+      "suite": "controller157",
+      "exitCode": 0,
+      "output": "PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override\n"
+    },
+    {
+      "suite": "reactions298-receipts",
+      "exitCode": 0,
+      "output": "TAP version 13\n# Subtest: missing Git is unavailable, never historical approval\nok 1 - missing Git is unavailable, never historical approval\n  ---\n  duration_ms: 3.9104\n  type: 'test'\n  ...\n# Subtest: ZIP export without a repository is explicitly unavailable\nok 2 - ZIP export without a repository is explicitly unavailable\n  ---\n  duration_ms: 0.7154\n  type: 'test'\n  ...\n# Subtest: missing historical commit is unavailable and skips source adapters\nok 3 - missing historical commit is unavailable and skips source adapters\n  ---\n  duration_ms: 0.5737\n  type: 'test'\n  ...\n# Subtest: all available equal receipts pass and contain both hashes\nok 4 - all available equal receipts pass and contain both hashes\n  ---\n  duration_ms: 2.8325\n  type: 'test'\n  ...\n# Subtest: missing source blob remains unavailable alongside verified receipts\nok 5 - missing source blob remains unavailable alongside verified receipts\n  ---\n  duration_ms: 0.6501\n  type: 'test'\n  ...\n# Subtest: available byte mismatch fails, never unavailable or skipped\nok 6 - available byte mismatch fails, never unavailable or skipped\n  ---\n  duration_ms: 0.647\n  type: 'test'\n  ...\n# Subtest: mismatch still fails when another receipt is unavailable\nok 7 - mismatch still fails when another receipt is unavailable\n  ---\n  duration_ms: 0.4854\n  type: 'test'\n  ...\n# Subtest: normalizer failure is a failed proof, not missing history\nok 8 - normalizer failure is a failed proof, not missing history\n  ---\n  duration_ms: 0.5365\n  type: 'test'\n  ...\n# Subtest: source read errors and historical blob read errors fail\nok 9 - source read errors and historical blob read errors fail\n  ---\n  duration_ms: 1.0149\n  type: 'test'\n  ...\n# Subtest: unexpected Git failures are not treated as unavailable\nok 10 - unexpected Git failures are not treated as unavailable\n  ---\n  duration_ms: 1.9459\n  type: 'test'\n  ...\n# Subtest: malformed object responses fail closed\nok 11 - malformed object responses fail closed\n  ---\n  duration_ms: 0.3331\n  type: 'test'\n  ...\n1..11\n# tests 11\n# suites 0\n# pass 11\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 203.0003\n"
+    },
+    {
+      "suite": "qa242-validators",
+      "exitCode": 0,
+      "output": "TAP version 13\n# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass\nok 1 - stretched scenery fails; correct source crop and reviewed perspective pass\n  ---\n  duration_ms: 2.7861\n  type: 'test'\n  ...\n# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid\nok 2 - miniature adult and undersized forklift flag review; real perspective remains valid\n  ---\n  duration_ms: 0.4708\n  type: 'test'\n  ...\n# Subtest: floating get-up flags; grounded and real aerial motion pass\nok 3 - floating get-up flags; grounded and real aerial motion pass\n  ---\n  duration_ms: 0.5871\n  type: 'test'\n  ...\n# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\nok 4 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\n  ---\n  duration_ms: 0.6311\n  type: 'test'\n  ...\n# Subtest: missing recovery, missing completion and detached doorway detected\nok 5 - missing recovery, missing completion and detached doorway detected\n  ---\n  duration_ms: 0.5422\n  type: 'test'\n  ...\n# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable\nok 6 - release gate fails closed; unexecuted/missing visual evidence never becomes stable\n  ---\n  duration_ms: 2.677\n  type: 'test'\n  ...\n1..6\n# tests 6\n# suites 0\n# pass 6\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 199.0135\n"
+    }
+  ],
+  "passedSuites": 17,
+  "failedSuitesFinal": 0,
+  "expectedBaselineFailure": "ordinary metadata mirrors effective enforced deadline",
+  "newRegressionChecks": 49620,
+  "historicalReceipts": {
+    "status": "unavailable",
+    "count": 9,
+    "strictExit": 2,
+    "reason": "Historical commit3ecb645f0c84a4ea6117519a42f08de2bd001dda absent; portable Git checked on PATH"
+  },
+  "visualVerification": "Not rerun for this metadata-only repair. No visual defect correction claimed. Rendering/animation source and timers unchanged.",
+  "limitations": [
+    "No full release/campaign/physical controller certification",
+    "Optional Node canvas view suite not run",
+    "Historical byte equivalence unverified; receipt assertions/normalizers unchanged"
+  ]
+}

@@ -1,0 +1,753 @@
+{
+  "baseline": "a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0",
+  "result": "passed",
+  "cases": 66,
+  "snapshots": 32185,
+  "scope": "Accepted native AI, shared pairs and direct/AI wake controls: actor primitive state, native action data, physical clocks, damage, raw reaction metadata, pressure and RNG match baseline. Deliberately rejected new direct threats are tested separately.",
+  "rows": [
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "snapshots": 360,
+      "sha256": "37e6ea1f28b1918e91e6025dc4a8b67054fe8496cdaf73f6c005600a83b3b9a2",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "snapshots": 313,
+      "sha256": "78597088af5fdcc32bc5762ff725cc4e8a01f82850e21b9cd17a0c2aa20a479a",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "snapshots": 360,
+      "sha256": "eb17541a331262604a4a1aa4bf970715c8b2e35de561d269ef88f86335168904",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "snapshots": 360,
+      "sha256": "90f31e504a11163b66575764282a085981944594345983451e3f62f2ba93d5ab",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "snapshots": 143,
+      "sha256": "4d80183f13f7c263e07340ed4392de1265113ed60d143e34c275b0bdf7aeb798",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "snapshots": 720,
+      "sha256": "2c6c66de4abbca5d008dc17deaa283bab2f512b3954300d186b2ec96a11e11d3",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "snapshots": 694,
+      "sha256": "83c7a3795f2457732b746195d752d4f6b80186d2245fcc9433661adf3805fc4e",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "snapshots": 720,
+      "sha256": "e5e50259a5824b9925385fa7587f2a2bc44e52d04792517b07b423d5ecba6942",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "snapshots": 720,
+      "sha256": "a9dba512e8756cef631b6bd50844d8409155ccfd78f2483a000220047fb9b1b3",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "snapshots": 588,
+      "sha256": "eca4d31a218bc2abba1dbe1d05bf64cf122fc913bcd1c9af2d7ab1a46ef5a4b8",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "snapshots": 1440,
+      "sha256": "e30ceed7b4f7da766ab4f0a288de640a0049b6430d636ca93d2a0719587ea423",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "snapshots": 1377,
+      "sha256": "e368cfbc4e1a86552a2f2243fc0bdb28f0659a248a8005974042037f5200fa71",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "snapshots": 1440,
+      "sha256": "0e2656d3d37962664c52c9a49b9d1dba48f3f75062c29a9cd55c43a396f4f001",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "snapshots": 1440,
+      "sha256": "3a778d0ed2fb64ea836ed4a8e4b100ef43d4bc99ee34b2f2dcf7b715a03343b6",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "snapshots": 972,
+      "sha256": "ad9c63038f9f55519c791bb60e005564e4633cf748470338295bb3162e41fe03",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "snapshots": 360,
+      "sha256": "6b1961d015ce9b615851b7742e963cc4bf358403b975024782456203be51d61a",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "snapshots": 285,
+      "sha256": "bc3eeb0e5ad3cf4020b3d806eb6a00ecc51abf2a0ee66d9eb4581a52c2738b1c",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "snapshots": 360,
+      "sha256": "3afd7b62ec4c1112e61ec3c83d958e5721e3a105df97a020163cfc2aca602d56",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "snapshots": 360,
+      "sha256": "5ce9de153d352d41342f47426928d702a01e29384b837b3ed16eca3bde234c97",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "snapshots": 143,
+      "sha256": "7a3b50b9424b862b9f24fc840fa5f542c62b10d9257e8618d6ac359e686a8e16",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "snapshots": 720,
+      "sha256": "8858c6b988919cd8359c9b24cffa336e70b9a48429aef3ab93dae8deb6f9d23f",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "snapshots": 457,
+      "sha256": "4946c78d30e82637f8c0134826181b622e2d184926516cd3b24accf5175c8f7a",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "snapshots": 720,
+      "sha256": "6ee5f8eafb8ad14a64d6266a3894cb79035d7f6e47bebf76a22579adb6842470",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "snapshots": 720,
+      "sha256": "72c7476e5cfb883d6c03de8cddd203e8597451e9d165fbbf0f07814e5f22e3ed",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "snapshots": 588,
+      "sha256": "8d5bdd1a4111f3de39492870965d09d57414982aed149819b2b069dc27131aea",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "snapshots": 1440,
+      "sha256": "2bbaa9d85e1cdaaa09010388f28a92bc70eedbc68e10e709cab4a62fba405ac8",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "snapshots": 1053,
+      "sha256": "3b1d5e5522ad61f9ec434947c01b3740a7fd2d3f5f8d9bee94fbe84f4f745a42",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "snapshots": 1440,
+      "sha256": "b1e83c66531e70d51964a3ee482e71a9a51d6aca6c476bdf2c5c404fbe56f538",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "snapshots": 1440,
+      "sha256": "8277d88d267bdd4c8e1b2c6012e5efa4461976980b2f1104b4b9a62a5e45ebe5",
+      "result": "identical"
+    },
+    {
+      "kind": "native AI",
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "snapshots": 972,
+      "sha256": "60d0c6da5052cfadf48601baa76039c2c39fd5eca6f214c2726cc3c2f9835347",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "542ada6e39255deb8b18a030e0063afb88d91f057f65a181706022eca56a378c",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "db149223df16be35ee292ede1146b9e2b841a5ccc45470f007bfda5fe61d8cf2",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "67aaf398ecdfd542af8207a2e42ce3c45cacc2a8a18bac398976278c5a7f4172",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "3d698846b14e49f6d6862138714429feb1bf4caf17c8a8324e32c87557ede477",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "1efe40d115f1cb227651cc137e8e467a65f614cc42482fc00932b6f429470add",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "6be445e5d0bd7e30bbf12f6739148a0d9ec9177ac296d1c7acbb880b3a6a8df7",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "f89a2be2a19aef985487bf0985dcc64878019c1874224f06dc2337a7c79a97c0",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "6433d0738f600536108ae89eb591637798ca51d8094b2ca2e62dca41d3ddd8a9",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "bc75f11db07a947766e20095735056ebfc59d63b98f28ab9aad1b7aa9d3f0cbf",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "13f1e0f25ae21a3e0c96017880e672a0c1c154b8179fcea2b549262aa5282c1b",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "dd7f710c96197a6255c86c2e72394529bb487ad7bc86a26205605502dcd19223",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "833a0cc4aeb9ed6f053d986843ccd4a2c960ceef9498d8788cfae8b7d7b1719c",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "ed53615f0bc7aedf541e8663f3f48b6bf68c326ec480fd1b735f67d97685122f",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "02ce1086987ced306ab173913964559c8f9014e9c2af249211403220d8b6f4aa",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "854cfaf6f7a014766adb4596b9ae0b07dba51ba0eb820f89b994db16cac31cb9",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "2256ed36198332939def516c1c224f38e10b0f77ced2122a7678a9a061fafcca",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "ac7c95744ed4221e81e798341fabec628f52043fb030da99d5e27b1a96fa3034",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "ebd3729754e6f4e051185ef515cd5396fd08195c34a831d29e2c644529e83033",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "6ac92318917dbf096862ae5b4a3345987ab2f5ae72a767f1923a85282f1f55cb",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "118967f00e5d42e57c79abc13062dc57de2e183222ad51dd21820c9352f39436",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "7546a5365c947779ebda865e4a3ecd82216c2f6b962a7d98057f1c7b74ab140c",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "3d7c44b49136768345da99dd6396e2e3b658ad6bf4aa1d2144451f5b54fbcde0",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "a9e48141f91dc39049553764e39ac288de5b7678c7b198d5de015c5be9852fa5",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "e7b82749a0d329e17699d61eb07d8210491c83e20619c6fd1c617a6ee37e2841",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "3f7b3c5d28f1371b00e50c6ff0203fe7370ac8ed83a1187e666889cfc3708520",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "15f49a23fd068b10ff459ef4a7c4c3e6e21e7ab2ff3c88db03ffe0ca3cbed19d",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "ef0f650257482e01abf48bd119e8bcd878995530bb5f073ca6405ab0ce1b4f5c",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 30,
+      "snapshots": 120,
+      "sha256": "2d0b19ed38313dfe85975f9444ef95e4e95492624728f48dd863af2abbafa61f",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 60,
+      "snapshots": 240,
+      "sha256": "c4057727b91d8eee979fbc5d8706acfd7a06a250e36fb1f895946ccf689eda6d",
+      "result": "identical"
+    },
+    {
+      "kind": "native shared pair",
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 120,
+      "snapshots": 480,
+      "sha256": "ea9700a6f9f6811ec4ad159bbf381da399f66ddb4f36c64f48f98087322e8afd",
+      "result": "identical"
+    },
+    {
+      "kind": "native wake",
+      "type": "sato",
+      "name": "saitoKipUp",
+      "path": "start",
+      "snapshots": 180,
+      "sha256": "d38aeab6590e074d5972e695673b4badcf4b5140b43a3eedb5c0a9093e5ed6cd",
+      "result": "identical"
+    },
+    {
+      "kind": "native wake",
+      "type": "akari",
+      "name": "akariWakeSweep",
+      "path": "start",
+      "snapshots": 180,
+      "sha256": "2e51ed0e9246b31b9e3ed7c521b2297efd0f5c0bb49922d4d4e57a4771e1caea",
+      "result": "identical"
+    },
+    {
+      "kind": "native wake",
+      "type": "cop",
+      "name": "wakeSweep",
+      "path": "start",
+      "snapshots": 180,
+      "sha256": "e50546eb4a630a1c5810b1ef7e1500110d337e60bc4e7a640fa0f655347b3857",
+      "result": "identical"
+    },
+    {
+      "kind": "native wake",
+      "type": "sato",
+      "name": "saitoKipUp",
+      "path": "enemyAct",
+      "snapshots": 180,
+      "sha256": "f5e838f985f4d03a24d4c0947c388a30419a2b1b1e0a9ddcfd66ca91021ec6bd",
+      "result": "identical"
+    },
+    {
+      "kind": "native wake",
+      "type": "akari",
+      "name": "akariWakeSweep",
+      "path": "enemyAct",
+      "snapshots": 180,
+      "sha256": "8201c8e34dd68b2bbf4941183cb119cb27c36173085300f336d068855c0d958e",
+      "result": "identical"
+    },
+    {
+      "kind": "native wake",
+      "type": "cop",
+      "name": "wakeSweep",
+      "path": "enemyAct",
+      "snapshots": 180,
+      "sha256": "317d13e09ce498613253cb51ff26d6887ceba718dca48ff923aae7ecf8cc92d4",
+      "result": "identical"
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "baseline": "f00cc9c9fdce8f2c70a875a2de6e380371c67720",
+  "node": "v22.21.0",
+  "platform": "win32",
+  "arch": "x64",
+  "packageManifestPresent": false,
+  "canvas": {
+    "status": "unavailable",
+    "code": "MODULE_NOT_FOUND"
+  },
+  "shippingScripts": 446,
+  "currentSimulationScripts": 209,
+  "legacyRenderSelected": 166,
+  "scriptIndices": {
+    "broxton179.js": 68,
+    "shield181.js": 69,
+    "powerbomb136.js": 45,
+    "forest-grapples177.js": 64,
+    "environment-controller162.js": 73,
+    "niko185.js": 76,
+    "grab223.js": 111,
+    "woods139.js": 208,
+    "repairs330.js": 205
+  },
+  "renderOwners": [
+    {
+      "file": "grapple-view301.js",
+      "shippingIndex": 392,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "forest-view177.js",
+      "shippingIndex": 286,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "broxton-view179.js",
+      "shippingIndex": 287,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "shield-view181.js",
+      "shippingIndex": 288,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "niko-view185.js",
+      "shippingIndex": 291,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "niko-view283.js",
+      "shippingIndex": 370,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "reverse-ddt-view285.js",
+      "shippingIndex": 374,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "legthrow-view286.js",
+      "shippingIndex": 375,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "nightshade-view251.js",
+      "shippingIndex": 355,
+      "loadedByLegacyRenderAdapter": true,
+      "exists": true
+    },
+    {
+      "file": "enemy-view313.js",
+      "shippingIndex": 413,
+      "loadedByLegacyRenderAdapter": false,
+      "exists": true
+    },
+    {
+      "file": "enemy-view312.js",
+      "shippingIndex": 411,
+      "loadedByLegacyRenderAdapter": false,
+      "exists": true
+    },
+    {
+      "file": "unique-view311.js",
+      "shippingIndex": 409,
+      "loadedByLegacyRenderAdapter": false,
+      "exists": true
+    }
+  ],
+  "suites": [
+    {
+      "id": "grapples301",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": [
+        {
+          "id": "grapples301-runtime",
+          "profiles": [
+            "release"
+          ],
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "forest177",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [
+        "gunner173.cjs"
+      ],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "forest-protection177",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [
+        "forest177.cjs",
+        "gunner173.cjs"
+      ],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "forest-balance177",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [
+        "forest177.cjs",
+        "gunner173.cjs"
+      ],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "gunner173",
+      "declaredLoaderBoundaries": [
+        "environment-controller162.js"
+      ],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "broxton179",
+      "declaredLoaderBoundaries": [
+        "environment-controller162.js"
+      ],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "shield181",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [
+        "broxton179.cjs"
+      ],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "niko185",
+      "declaredLoaderBoundaries": [
+        "niko185.js"
+      ],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "niko283",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": [
+        {
+          "id": "niko283-runtime",
+          "profiles": [
+            "release"
+          ],
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "niko284",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": [
+        {
+          "id": "niko284-regression",
+          "profiles": [
+            "release"
+          ],
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "reverse285",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": [
+        {
+          "id": "reverse-ddt285",
+          "profiles": [
+            "release"
+          ],
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "legthrow286",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": [
+        {
+          "id": "legthrow286",
+          "profiles": [
+            "release"
+          ],
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "nightshade258",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": [
+        {
+          "id": "nightshade-directional258",
+          "profiles": [
+            "initial",
+            "release"
+          ],
+          "critical": true
+        }
+      ]
+    },
+    {
+      "id": "nightshade329",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "repairs330",
+      "declaredLoaderBoundaries": [],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": true,
+      "directRegistryEntries": []
+    },
+    {
+      "id": "powerbomb136.test",
+      "declaredLoaderBoundaries": [
+        "powerbomb136.js"
+      ],
+      "importsOtherTestEntries": [],
+      "usesCurrentProductionRuntime": false,
+      "directRegistryEntries": []
+    }
+  ],
+  "literalAssets": [
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-0.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-1.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-2.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-3.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-4.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-5.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-6.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-7.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-8.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-9.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-10.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-11.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-12.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-13.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-14.webp",
+      "exists": true
+    },
+    {
+      "owner": "niko284-data.js",
+      "asset": "assets/niko284/gait-15.webp",
+      "exists": true
+    },
+    {
+      "owner": "enemy313-data.js",
+      "asset": "assets/enemies313/baylor-walk.webp",
+      "exists": true
+    },
+    {
+      "owner": "enemy313-data.js",
+      "asset": "assets/enemies313/baylor-helmet.webp",
+      "exists": true
+    },
+    {
+      "owner": "enemy313-data.js",
+      "asset": "assets/enemies313/frankie-getup322.webp",
+      "exists": true
+    }
+  ],
+  "assetScope": "Literal references from five relevant data modules only; dynamic aliases/embedded paths and every pose are not certified.",
+  "interpretation": "Omitted shipping fighter dispatchers are a confirmed harness coverage gap, not proof of a rendered gameplay defect. No dependency installed."
+}

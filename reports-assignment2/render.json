@@ -1,0 +1,1476 @@
+{
+  "scope": "Native production index/canvas. Animation samples are representative stills. Air rows use continuous native actions; geometry drawn only on a copied canvas. AI disabled. No repair implemented.",
+  "errors": [],
+  "failed": [
+    "/assets/enforcer-concept-v1.png",
+    "/assets/thug-leader-concept-v1.png"
+  ],
+  "rows": [
+    {
+      "hero": "reina",
+      "label": "idle",
+      "time": 0,
+      "state": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "walk",
+      "time": 0.19999999999999998,
+      "state": {
+        "state": "walk",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 438.85000000000014,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.19999999999999998
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "state": null,
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "run",
+      "time": 0.26666666666666666,
+      "state": {
+        "state": "run",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 474.1999999999998,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.26666666666666666
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "state": null,
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "attack-startup",
+      "time": 0.05,
+      "state": {
+        "state": "startup",
+        "owner": "native action",
+        "action": "combo",
+        "actionFrame": 3,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 404.752,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.05
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": "combo",
+      "actionFrame": 3,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "attack-active",
+      "time": 0.16666666666666666,
+      "state": {
+        "state": "active",
+        "owner": "native action",
+        "action": "combo",
+        "actionFrame": 10,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 415,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.16666666666666666
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": "combo",
+      "actionFrame": 10,
+      "target": {
+        "hp": 53,
+        "state": "hitstun",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "attack-recovery",
+      "time": 0.3,
+      "state": {
+        "state": "recovery",
+        "owner": "native action",
+        "action": "combo",
+        "actionFrame": 18,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 415,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.3
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": "combo",
+      "actionFrame": 18,
+      "target": {
+        "hp": 53,
+        "state": "hitstun",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "jump",
+      "time": 0.19999999999999998,
+      "state": {
+        "state": "jump",
+        "owner": "native flight",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native flight",
+        "time": 0.19999999999999998
+      },
+      "scale": 1.3362225912,
+      "elevation": 103.07828921333417,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "dodge",
+      "time": 0.08333333333333333,
+      "state": {
+        "state": "utility / recovery",
+        "owner": "native action",
+        "action": "dodge",
+        "actionFrame": 5,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 432.5,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.08333333333333333
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": "dodge",
+      "actionFrame": 5,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "hitstun",
+      "time": 0.09999999999999999,
+      "state": {
+        "state": "hitstun",
+        "owner": "native damage",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "stun",
+            "seconds": 0.18000000000000005
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "stun",
+            "seconds": 0.18000000000000005
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 395,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native damage",
+        "time": 0.09999999999999999
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "fall",
+      "time": 0.03333333333333333,
+      "state": {
+        "state": "knockdown",
+        "owner": "native knockdown",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "down",
+            "seconds": 1.6166666666666665
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.9666666666666666
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "down",
+            "seconds": 1.6166666666666665
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.9666666666666666
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 391.7057291666667,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native knockdown",
+        "time": 0.03333333333333333
+      },
+      "scale": 1.3362225912,
+      "elevation": 6.428789306063231,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "ground",
+      "time": 0.3333333333333333,
+      "state": {
+        "state": "knockdown",
+        "owner": "native knockdown",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "down",
+            "seconds": 1.3166666666666667
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.6666666666666656
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "down",
+            "seconds": 1.3166666666666667
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.6666666666666656
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 358,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native knockdown",
+        "time": 0.3333333333333333
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "get-up",
+      "time": 1.3333333333333335,
+      "state": {
+        "state": "get-up",
+        "owner": "native knockdown",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "down",
+            "seconds": 0.31666666666666643
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "down",
+            "seconds": 0.31666666666666643
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 358,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native knockdown",
+        "time": 1.3333333333333335
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "standing-recovery",
+      "time": 1.6666666666666656,
+      "state": {
+        "state": "recovery",
+        "owner": "native recovery",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "recovering",
+            "seconds": 0.4
+          },
+          {
+            "field": "standingLock",
+            "seconds": 1
+          },
+          {
+            "field": "wakeInv",
+            "seconds": 1
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "recovering",
+            "seconds": 0.4
+          },
+          {
+            "field": "standingLock",
+            "seconds": 1
+          },
+          {
+            "field": "wakeInv",
+            "seconds": 1
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 358,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native recovery",
+        "time": 1.6666666666666656
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "grab",
+      "time": 0.03333333333333333,
+      "state": {
+        "state": "synchronized",
+        "owner": "native grapple",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native grapple",
+        "time": 0.03333333333333333
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "synchronized",
+        "flight": false,
+        "held": true
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "rear-throw-5f",
+      "time": 0.08333333333333333,
+      "state": {
+        "state": "synchronized",
+        "owner": "native grapple",
+        "action": "rearTakedown",
+        "actionFrame": 5,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native grapple",
+        "time": 0.08333333333333333
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": "rearTakedown",
+      "actionFrame": 5,
+      "target": {
+        "hp": 60,
+        "state": "synchronized",
+        "flight": false,
+        "held": true
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "rear-throw-45f",
+      "time": 0.7500000000000007,
+      "state": {
+        "state": "recovery",
+        "owner": "native action",
+        "action": "rearTakedown",
+        "actionFrame": 45.00000000000004,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 331.2,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.7500000000000007
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": "rearTakedown",
+      "actionFrame": 45.00000000000004,
+      "target": {
+        "hp": 20,
+        "state": "synchronized",
+        "flight": true,
+        "held": false
+      }
+    },
+    {
+      "hero": "reina",
+      "label": "rear-throw-90f",
+      "time": 1.4999999999999996,
+      "state": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 331.2,
+          "y": 480
+        },
+        "scale": 1.3362225912,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 1.4999999999999996
+      },
+      "scale": 1.3362225912,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 20,
+        "state": "knockdown",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "idle",
+      "time": 0,
+      "state": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "walk",
+      "time": 0.19999999999999998,
+      "state": {
+        "state": "walk",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 435.0000000000002,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.19999999999999998
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "state": null,
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "run",
+      "time": 0.26666666666666666,
+      "state": {
+        "state": "run",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 465.33333333333303,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.26666666666666666
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "state": null,
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "attack-startup",
+      "time": 0.05,
+      "state": {
+        "state": "utility / recovery",
+        "owner": "native action",
+        "action": "niko185",
+        "actionFrame": 3,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.05
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": "niko185",
+      "actionFrame": 3,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "attack-active",
+      "time": 0.09999999999999999,
+      "state": {
+        "state": "utility / recovery",
+        "owner": "native action",
+        "action": "niko185",
+        "actionFrame": 5.999999999999999,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.09999999999999999
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": "niko185",
+      "actionFrame": 5.999999999999999,
+      "target": {
+        "hp": 57,
+        "state": "hitstun",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "attack-recovery",
+      "time": 0.19999999999999998,
+      "state": {
+        "state": "utility / recovery",
+        "owner": "native action",
+        "action": "niko185",
+        "actionFrame": 11.999999999999998,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.19999999999999998
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": "niko185",
+      "actionFrame": 11.999999999999998,
+      "target": {
+        "hp": 57,
+        "state": "hitstun",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "jump",
+      "time": 0.19999999999999998,
+      "state": {
+        "state": "jump",
+        "owner": "native flight",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native flight",
+        "time": 0.19999999999999998
+      },
+      "scale": 1.46515635,
+      "elevation": 91.77198113722771,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "dodge",
+      "time": 0.08333333333333333,
+      "state": {
+        "state": "utility / recovery",
+        "owner": "native action",
+        "action": "niko185",
+        "actionFrame": 5,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 404.18332081142,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.08333333333333333
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": "niko185",
+      "actionFrame": 5,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "hitstun",
+      "time": 0.09999999999999999,
+      "state": {
+        "state": "hitstun",
+        "owner": "native damage",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "stun",
+            "seconds": 0.18000000000000005
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "stun",
+            "seconds": 0.18000000000000005
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 395,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native damage",
+        "time": 0.09999999999999999
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "fall",
+      "time": 0.03333333333333333,
+      "state": {
+        "state": "knockdown",
+        "owner": "native knockdown",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "down",
+            "seconds": 1.6166666666666665
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.9666666666666666
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "down",
+            "seconds": 1.6166666666666665
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.9666666666666666
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 391.7057291666667,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native knockdown",
+        "time": 0.03333333333333333
+      },
+      "scale": 1.46515635,
+      "elevation": 6.428789306063231,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "ground",
+      "time": 0.3333333333333333,
+      "state": {
+        "state": "knockdown",
+        "owner": "native knockdown",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "down",
+            "seconds": 1.3166666666666667
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.6666666666666656
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "down",
+            "seconds": 1.3166666666666667
+          },
+          {
+            "field": "standingLock",
+            "seconds": 0.6666666666666656
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 358,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native knockdown",
+        "time": 0.3333333333333333
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "get-up",
+      "time": 1.3333333333333335,
+      "state": {
+        "state": "get-up",
+        "owner": "native knockdown",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "down",
+            "seconds": 0.31666666666666643
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "down",
+            "seconds": 0.31666666666666643
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 358,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native knockdown",
+        "time": 1.3333333333333335
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "standing-recovery",
+      "time": 1.6666666666666656,
+      "state": {
+        "state": "recovery",
+        "owner": "native recovery",
+        "action": null,
+        "actionFrame": null,
+        "locks": [
+          {
+            "field": "recovering",
+            "seconds": 0.4
+          },
+          {
+            "field": "standingLock",
+            "seconds": 1
+          },
+          {
+            "field": "wakeInv",
+            "seconds": 1
+          }
+        ],
+        "nativeStateActionable": false,
+        "offensiveLocks": [
+          {
+            "field": "recovering",
+            "seconds": 0.4
+          },
+          {
+            "field": "standingLock",
+            "seconds": 1
+          },
+          {
+            "field": "wakeInv",
+            "seconds": 1
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 358,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native recovery",
+        "time": 1.6666666666666656
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "idle",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "grab",
+      "time": 0.03333333333333333,
+      "state": {
+        "state": "synchronized",
+        "owner": "native grapple",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native grapple",
+        "time": 0.03333333333333333
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 60,
+        "state": "synchronized",
+        "flight": false,
+        "held": true
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "rear-throw-5f",
+      "time": 0.08333333333333333,
+      "state": {
+        "state": "synchronized",
+        "owner": "native grapple",
+        "action": "nikoPair185",
+        "actionFrame": 5,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native grapple",
+        "time": 0.08333333333333333
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": "nikoPair185",
+      "actionFrame": 5,
+      "target": {
+        "hp": 60,
+        "state": "synchronized",
+        "flight": false,
+        "held": true
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "rear-throw-45f",
+      "time": 0.7500000000000007,
+      "state": {
+        "state": "utility / recovery",
+        "owner": "native action",
+        "action": "nikoPair185",
+        "actionFrame": 45.00000000000004,
+        "locks": [],
+        "nativeStateActionable": false,
+        "offensiveLocks": [],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native action",
+        "time": 0.7500000000000007
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": "nikoPair185",
+      "actionFrame": 45.00000000000004,
+      "target": {
+        "hp": 42.5,
+        "state": "synchronized",
+        "flight": false,
+        "held": false
+      }
+    },
+    {
+      "hero": "niko",
+      "label": "rear-throw-90f",
+      "time": 1.4999999999999996,
+      "state": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [],
+        "offensiveReady": true,
+        "actionable": true,
+        "world": {
+          "x": 400,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 1.4999999999999996
+      },
+      "scale": 1.46515635,
+      "elevation": 0,
+      "action": null,
+      "actionFrame": null,
+      "target": {
+        "hp": 42.5,
+        "state": "knockdown",
+        "flight": false,
+        "held": false
+      }
+    }
+  ],
+  "air": [
+    {
+      "dir": -1,
+      "delay": 6,
+      "time": 0.26666666666666666,
+      "height": 57.35218792105746,
+      "heroX": 385.744,
+      "enemyX": 366.7175572519084,
+      "points": [
+        {
+          "x": 347.7462641314655,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 328.74739619719827,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 265.7056980516751,
+          "y": 357.3709433333659
+        }
+      ],
+      "raw": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "rawContact": true,
+      "projectedContact": false,
+      "actualDamage": 7
+    },
+    {
+      "dir": -1,
+      "delay": 8,
+      "time": 0.3,
+      "height": 53.44562028848364,
+      "heroX": 391.6793893129771,
+      "enemyX": 380.07633587786256,
+      "points": [
+        {
+          "x": 353.6816534444426,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 334.68278551017534,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 271.6410873646522,
+          "y": 357.3709433333659
+        }
+      ],
+      "raw": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "rawContact": true,
+      "projectedContact": false,
+      "actualDamage": 7
+    },
+    {
+      "dir": 1,
+      "delay": 6,
+      "time": 0.26666666666666666,
+      "height": 57.35218792105746,
+      "heroX": 414.256,
+      "enemyX": 433.2824427480916,
+      "points": [
+        {
+          "x": 452.2537358685345,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 471.25260380280173,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 534.2943019483249,
+          "y": 357.3709433333659
+        }
+      ],
+      "raw": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "rawContact": true,
+      "projectedContact": false,
+      "actualDamage": 7
+    },
+    {
+      "dir": 1,
+      "delay": 8,
+      "time": 0.3,
+      "height": 53.44562028848364,
+      "heroX": 408.3206106870229,
+      "enemyX": 419.92366412213744,
+      "points": [
+        {
+          "x": 446.3183465555574,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 465.31721448982466,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 528.3589126353478,
+          "y": 357.3709433333659
+        }
+      ],
+      "raw": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "rawContact": true,
+      "projectedContact": false,
+      "actualDamage": 7
+    }
+  ]
+}

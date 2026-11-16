@@ -1,0 +1,57 @@
+URBAN FRACTURE — REINA AIRBORNE HURTBOX PROJECTION (A2-01)
+Date:2026-11-12. Approved scoped repair.
+Branch:fix/reina-airborne-hurtbox
+Starting commit:1af7ae25c83d01816cc92957e702e418b0225935 (audit branch, production identical to stable6de9940).
+
+ROOT CAUSE
+Reina's active contact override and diagnostic candidate used Combat134.box in ground space while rendering raised Saito during martialFly. A strike below his raised body could intersect that old rectangle and apply7HP. Weapon and martial contact paths already handled elevation, so changing the generic base rectangle would risk subtracting height twice.
+
+CORRECTION
+Add one Plane304.reinaHurtbox helper:retain existing base bounds and subtract the existing renderer world elevation from top/bottom once. Both actual Reina contact and its diagnostic candidate call that helper. Zero elevation returns the original unchanged base rectangle. Keep Combat134.box, height calculation, segment geometry, active frames, move data, lane/range/protection rules and Saito's defenses unchanged.
+Valid contacts retain their existing damage and timings. Eligibility intentionally changes for previously phantom below-body contacts; this is not a promise that the old erroneous damage or its resulting interrupted flight trajectory stays identical. Grounded gameplay must and does retain exact parity. Niko phase labels and all other melee-family geometry remain separate.
+
+FILES CHANGED
+-dist/plane304.js:one projected target helper, two call sites, exported helper for explicit diagnostic/test contract.
+-dist/index.html:plane304cache token338-reina-airborne only.
+-tests/reina-airborne-hurtbox.cjs:portable native regression.
+-qa/system242/suites.json:critical initial/release registry entry.
+-tools/reina-airborne/{compare.cjs,render.cjs}:optional local-baseline parity/browser verification.
+-reports-reina-airborne:test/parity/render evidence and this report.
+-COMBAT_REPAIR_LOG.md:cumulative repair entry.
+Exact source comparison removes only the helper/comments, two call-site replacements and export to recover baseline bytes. All other dist files, including damage/frame data, specialist defenses, Niko diagnostics, renderers and artwork, are unchanged except the cache token.
+
+REGRESSION TESTS
+New suite fails baseline at a native positive-damage callback whose strike misses the elevated body. Corrected suite passes3,206checks:
+-Continuous native Saito flying-kick/Reina-opener timing at30/60/120Hz, both facings, multiple starting distances/delays. Every accepted native hit intersects the projected rectangle; valid airborne contacts remain hittable and rejected candidates record explicit misses.
+-Native Saito/Akari, all3Reina combo stages with explicit stage prerequisites, both facings, restaurant/bank scale and sampled flight elevations. Frozen-stage fixtures are not claimed as earned combos. Actual contact and diagnostic hurtbox/intersection agree; projection does not mutate actors or subtract elevation twice.
+-Zero-height box equality, native guard2chip/rear7damage/counter capture, invulnerability/wake/entry/down/flight/held exclusions and no duplicate opener damage.
+
+23executed top-level suites passed, no final behavioral failures:
+reina-airborne-hurtbox3206;plane304-weapons7754;plane304-ui11;continuity29630272;playback-flight-diagnostics1941;playback265137cumulative;niko2841245;reaction-deadline-metadata49620;actionability-diagnostics6805;knockdown-admission89115;hitstun-eligibility19208;post-hit-reassessment1192;reactions298742;combat274;repairs330788;enemies210;martial212;counters248;flint211;gamepad.test;controller157;reactions298-receipts11;qa242-validators6.
+Syntax/registry/diff checks passed. Existing tests/assertions and historical normalizers were not weakened or edited.
+
+GROUNDED / DEFENSE / DATA PRESERVATION
+1,176before/after native trajectories,119,280snapshots, collision receipts and RNG match exactly:
+-1,080Saito opener cases:Reina/Niko x3rates x2facings x5distances x6depths xidle/guard/counter.
+-96earned combo traces:Reina/Niko x8native enemy families x3rates x2facings.
+Native maxHP/identity is retained. Compared hero/enemy HP/defense, action name/timing/data, movement/positions, physical timers, wake/invulnerability, actual reassessment, paired/flight flags and actual collision reasons/geometry. No normalizer removes damage/timing differences. Existing guard, paid counter, armor, native wake, weapon and Director suites also pass within their recorded scope. Bank1.12projection is explicitly checked in the new frozen native tests; this is not a bank campaign playthrough.
+
+RENDERED CONTACT VERIFICATION
+Native Chromium loads the real production index/canvas. Baseline page serves only the recorded old Plane304 module; fixed page uses current source. Continuous native Saito fly/Reina opener actions are mirrored, with6/8tick attack delays. No frozen action time or invulnerability is inserted. Native frame10renders before contact, with actual hurtbox/strike overlay drawn on a copied canvas only.
+Four baseline phantom contacts deal7HP at the erroneous frame; fixed contacts deal0HP at that frame. The corrected cyan rectangle tracks the raised body and the magenta strike passes below it. Two separate mirrored valid-air controls still deal7HP in both baseline and fixed. All positive fixed-page contacts in these runs intersect the projected body. The contact-before-after sheet (12samples) was visually inspected.
+The per-run trace records subsequent contacts/final HP separately:rejection of an early false contact does not forbid a later real intersection within the unchanged active window. No assertion forces the whole attack to miss regardless of later geometry.
+Browser JavaScript errors0. The same two legacy concept preload404s occur on both pages:assets/enforcer-concept-v1.png and assets/thug-leader-concept-v1.png. No art/animation rework or full-motion/all-content certification claimed. This verifies targeted rendered contact correction, not a universal collision overhaul.
+
+HISTORICAL EVIDENCE / REMAINING LIMITATIONS
+9original reaction receipts remain explicitly UNAVAILABLE; strict CLI exits2 with portable Git. The existing plane304/plane304-height historical-source gates remain unavailable before runtime assertions, as recorded in Assignment2; not rerun or claimed passed here. The legacy niko185 loader issue also remains separate. No unavailable evidence fabricated or assertions waived.
+No full release/campaign or physical-controller certification. Optional Node canvas view suite not run; native Chromium verification is separate. Other melee families' airborne geometry and Niko's phase-label diagnostic issue are unchanged. Native eligibility may still reject an intersecting box for a legitimate protection/defense reason; intersection is not itself a guarantee of HP loss.
+
+REPEAT
+From project root:node tests/reina-airborne-hurtbox.cjs
+Optional baseline parity:set UF_GIT to installed Git, then node tools/reina-airborne/compare.cjs.
+Optional browser:set UF_GIT,UF_PLAYWRIGHT_MODULE,PLAYWRIGHT_BROWSERS_PATH to installed runtimes; allow localhost; node tools/reina-airborne/render.cjs.
+Regression requires no historical Git objects. Comparison uses the real locally available starting commit. Plain JavaScript has no separate bundle compilation step.
+
+RISKS / INTEGRATION / NEXT
+Risks:double elevation, lost valid aerial punishments, bank scaling, altered specialist protection or accidental grounded changes. Shared helper, valid-air controls, explicit defenses/protections, exact grounded parity and native rendering address the scoped risk. All prior approved repairs remain preserved; verified correction is integrated into the cumulative stable line after evidence is recorded. Original import/source archives remain recoverable; cumulative update ZIP is an overlay, not the complete game export.
+Recommended separate next issue:A2-02Niko phase-label audit/diagnostic adapter, preserving native hitAt999/once-event timing. No Niko phase-label or feedback-deduplication repair is included here.

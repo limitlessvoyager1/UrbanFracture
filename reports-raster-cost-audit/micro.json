@@ -1,0 +1,865 @@
+{
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "errors": [],
+  "scope": "Analytical crop CPU models and scratch API probes; production function never replaced",
+  "browser": "143.0.7499.4",
+  "scans": {
+    "rows": [
+      {
+        "dataset": "all-api168",
+        "round": 0,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 84.59999999403954
+      },
+      {
+        "dataset": "all-api168",
+        "round": 0,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 83.10000002384186
+      },
+      {
+        "dataset": "all-api168",
+        "round": 0,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 99
+      },
+      {
+        "dataset": "all-api168",
+        "round": 0,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 101.5
+      },
+      {
+        "dataset": "all-api168",
+        "round": 1,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 106.19999998807907
+      },
+      {
+        "dataset": "all-api168",
+        "round": 1,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 109.5
+      },
+      {
+        "dataset": "all-api168",
+        "round": 1,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 91
+      },
+      {
+        "dataset": "all-api168",
+        "round": 1,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 96.30000001192093
+      },
+      {
+        "dataset": "all-api168",
+        "round": 2,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 94.7999999821186
+      },
+      {
+        "dataset": "all-api168",
+        "round": 2,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 91.09999999403954
+      },
+      {
+        "dataset": "all-api168",
+        "round": 2,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 103.90000000596046
+      },
+      {
+        "dataset": "all-api168",
+        "round": 2,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 101.7000000178814
+      },
+      {
+        "dataset": "all-api168",
+        "round": 3,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 101.59999999403954
+      },
+      {
+        "dataset": "all-api168",
+        "round": 3,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 97.7999999821186
+      },
+      {
+        "dataset": "all-api168",
+        "round": 3,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 84
+      },
+      {
+        "dataset": "all-api168",
+        "round": 3,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 87.69999998807907
+      },
+      {
+        "dataset": "all-api168",
+        "round": 4,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 86.90000000596046
+      },
+      {
+        "dataset": "all-api168",
+        "round": 4,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 84.59999999403954
+      },
+      {
+        "dataset": "all-api168",
+        "round": 4,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 104.30000001192093
+      },
+      {
+        "dataset": "all-api168",
+        "round": 4,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 102.40000000596046
+      },
+      {
+        "dataset": "all-api168",
+        "round": 5,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 101.2999999821186
+      },
+      {
+        "dataset": "all-api168",
+        "round": 5,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 98.60000002384186
+      },
+      {
+        "dataset": "all-api168",
+        "round": 5,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 82.59999999403954
+      },
+      {
+        "dataset": "all-api168",
+        "round": 5,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 91.09999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 0,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 91.19999998807907
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 0,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 80
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 0,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 94.80000001192093
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 0,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 94.5
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 1,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 95.09999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 1,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 91.09999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 1,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 71.80000001192093
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 1,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 78.09999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 2,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 75.59999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 2,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 71.30000001192093
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 2,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 91.59999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 2,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 92.90000000596046
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 3,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 93.80000001192093
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 3,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 90.19999998807907
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 3,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 71.69999998807907
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 3,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 75.5
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 4,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 75.60000002384186
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 4,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 75.69999998807907
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 4,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 100.69999998807907
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 4,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 104.40000000596046
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 5,
+        "name": "words",
+        "calls": 504,
+        "totalMs": 105.5
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 5,
+        "name": "stride",
+        "calls": 504,
+        "totalMs": 103.09999999403954
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 5,
+        "name": "edge",
+        "calls": 504,
+        "totalMs": 78.30000001192093
+      },
+      {
+        "dataset": "mixed-idle7",
+        "round": 5,
+        "name": "legacy",
+        "calls": 504,
+        "totalMs": 76
+      }
+    ],
+    "captures": 168,
+    "checksum": 16762536,
+    "scope": "Exact same RGBA byte layout; data conversion outside timings; no integrated FPS claim"
+  },
+  "api": {
+    "rows": [
+      {
+        "mode": "shipping-hint",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": false,
+        "rect": [
+          0,
+          0,
+          512,
+          384
+        ],
+        "samples": 240,
+        "meanMs": 0.32916666666666666,
+        "p95Ms": 0.5
+      },
+      {
+        "mode": "shipping-hint",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": false,
+        "rect": [
+          128,
+          96,
+          256,
+          256
+        ],
+        "samples": 240,
+        "meanMs": 0.13624999995032946,
+        "p95Ms": 0.20000001788139343
+      },
+      {
+        "mode": "shipping-hint",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": false,
+        "rect": [
+          192,
+          128,
+          128,
+          192
+        ],
+        "samples": 240,
+        "meanMs": 0.05208333345750968,
+        "p95Ms": 0.10000002384185791
+      },
+      {
+        "mode": "shipping-hint",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": true,
+        "rect": [
+          0,
+          0,
+          512,
+          384
+        ],
+        "samples": 240,
+        "meanMs": 0.8220833321412404,
+        "p95Ms": 1.5999999940395355
+      },
+      {
+        "mode": "shipping-hint",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": true,
+        "rect": [
+          128,
+          96,
+          256,
+          256
+        ],
+        "samples": 240,
+        "meanMs": 0.7349999995281299,
+        "p95Ms": 1.5
+      },
+      {
+        "mode": "shipping-hint",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": true,
+        "rect": [
+          192,
+          128,
+          128,
+          192
+        ],
+        "samples": 240,
+        "meanMs": 0.6395833333333333,
+        "p95Ms": 1.4000000059604645
+      },
+      {
+        "mode": "default",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": false
+        },
+        "pendingPaint": false,
+        "rect": [
+          0,
+          0,
+          512,
+          384
+        ],
+        "samples": 240,
+        "meanMs": 0.35875000022351744,
+        "p95Ms": 0.5
+      },
+      {
+        "mode": "default",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": false
+        },
+        "pendingPaint": false,
+        "rect": [
+          128,
+          96,
+          256,
+          256
+        ],
+        "samples": 240,
+        "meanMs": 0.1329166668156783,
+        "p95Ms": 0.29999998211860657
+      },
+      {
+        "mode": "default",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": false
+        },
+        "pendingPaint": false,
+        "rect": [
+          192,
+          128,
+          128,
+          192
+        ],
+        "samples": 240,
+        "meanMs": 0.08250000004967054,
+        "p95Ms": 0.19999998807907104
+      },
+      {
+        "mode": "default",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": false
+        },
+        "pendingPaint": true,
+        "rect": [
+          0,
+          0,
+          512,
+          384
+        ],
+        "samples": 240,
+        "meanMs": 0.9091666667411725,
+        "p95Ms": 1.699999988079071
+      },
+      {
+        "mode": "default",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": false
+        },
+        "pendingPaint": true,
+        "rect": [
+          128,
+          96,
+          256,
+          256
+        ],
+        "samples": 240,
+        "meanMs": 0.7324999998013179,
+        "p95Ms": 1.5
+      },
+      {
+        "mode": "default",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": false,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": false
+        },
+        "pendingPaint": true,
+        "rect": [
+          192,
+          128,
+          128,
+          192
+        ],
+        "samples": 240,
+        "meanMs": 0.6754166672627131,
+        "p95Ms": 1.5
+      },
+      {
+        "mode": "desynchronized",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": true,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": false,
+        "rect": [
+          0,
+          0,
+          512,
+          384
+        ],
+        "samples": 240,
+        "meanMs": 0.37374999982615315,
+        "p95Ms": 0.4000000059604645
+      },
+      {
+        "mode": "desynchronized",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": true,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": false,
+        "rect": [
+          128,
+          96,
+          256,
+          256
+        ],
+        "samples": 240,
+        "meanMs": 0.13541666679084302,
+        "p95Ms": 0.20000001788139343
+      },
+      {
+        "mode": "desynchronized",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": true,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": false,
+        "rect": [
+          192,
+          128,
+          128,
+          192
+        ],
+        "samples": 240,
+        "meanMs": 0.09291666684051354,
+        "p95Ms": 0.10000002384185791
+      },
+      {
+        "mode": "desynchronized",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": true,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": true,
+        "rect": [
+          0,
+          0,
+          512,
+          384
+        ],
+        "samples": 240,
+        "meanMs": 0.8829166660706202,
+        "p95Ms": 1.5999999940395355
+      },
+      {
+        "mode": "desynchronized",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": true,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": true,
+        "rect": [
+          128,
+          96,
+          256,
+          256
+        ],
+        "samples": 240,
+        "meanMs": 0.6762499990562598,
+        "p95Ms": 1.4000000059604645
+      },
+      {
+        "mode": "desynchronized",
+        "attributes": {
+          "alpha": true,
+          "colorSpace": "srgb",
+          "colorType": "unorm8",
+          "desynchronized": true,
+          "toneMapping": {
+            "mode": "standard"
+          },
+          "willReadFrequently": true
+        },
+        "pendingPaint": true,
+        "rect": [
+          192,
+          128,
+          128,
+          192
+        ],
+        "samples": 240,
+        "meanMs": 0.5837499999751647,
+        "p95Ms": 1.2000000178813934
+      }
+    ],
+    "equality": [
+      {
+        "mode": "default",
+        "type": "thug",
+        "changedBytes": 0
+      },
+      {
+        "mode": "default",
+        "type": "enforcer",
+        "changedBytes": 0
+      },
+      {
+        "mode": "default",
+        "type": "biker",
+        "changedBytes": 0
+      },
+      {
+        "mode": "default",
+        "type": "knifeThug",
+        "changedBytes": 0
+      },
+      {
+        "mode": "default",
+        "type": "sato",
+        "changedBytes": 0
+      },
+      {
+        "mode": "default",
+        "type": "akari",
+        "changedBytes": 0
+      },
+      {
+        "mode": "default",
+        "type": "bouncer",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "thug",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "enforcer",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "biker",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "knifeThug",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "sato",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "akari",
+        "changedBytes": 0
+      },
+      {
+        "mode": "desynchronized",
+        "type": "bouncer",
+        "changedBytes": 0
+      }
+    ],
+    "allocation": [
+      {
+        "reuse": false,
+        "samples": 300,
+        "meanMs": 0.07133333335320155
+      },
+      {
+        "reuse": true,
+        "samples": 300,
+        "meanMs": 0.0033333333333333335
+      },
+      {
+        "reuse": true,
+        "samples": 300,
+        "meanMs": 0.001999999980131785
+      },
+      {
+        "reuse": false,
+        "samples": 300,
+        "meanMs": 0.05533333341280619
+      }
+    ],
+    "poolPixelComparisons": 48,
+    "sink": 0,
+    "limits": "ROI rectangles are experiments only, NOT proven safe bounds. Smaller readback requires coverage proof. Context pixel probes are seven synthetic API states only; pooled-copy timing/pixel tests are isolated work, not an integrated pool or full-game performance result."
+  },
+  "completed": true
+}

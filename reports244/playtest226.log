@@ -1,0 +1,4 @@
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS226 six heroes x30/60/120Hz attack/special recovery buffering; Nova planted charge; six-hero Special overrides charge.
+PASS226 six-hero buffered Blitz intent persists through valid final recovery.
+PASS226 buffered Special waits for eligible cooldown, expires, and never repeats or cancels recovery.

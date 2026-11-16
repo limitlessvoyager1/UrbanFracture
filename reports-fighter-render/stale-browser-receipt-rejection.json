@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "sourceFingerprint": "7ee9694e6fbfbe9a075fcaa9ea2a0138e54e3fbc2793f2dd97709bee9f1b4095",
+  "backend": "shipping index.html / Chromium",
+  "comparisons": [],
+  "nativeFrames": [],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "tolerances": {
+    "alphaIoU": 0.96,
+    "boundsPixels": 3,
+    "physicalEpsilon": 0.000001
+  },
+  "browserVersion": "143.0.7499.4",
+  "playwrightVersion": "1.57.0",
+  "reason": "AssertionError [ERR_ASSERTION]: current successful Node render receipt required: forest\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\fighter-render\\browser.cjs:17:157",
+  "negativeControl": {
+    "expectedFailure": "Reject stale/unverified Node captures before browser certification",
+    "detected": true
+  }
+}

@@ -1,0 +1,16 @@
+evalmachine.<anonymous>:13
+function feedback(g){const p=g.player,u=p.foundationInput252;if(g.player.charge130?.ready)return 'POISON DART PEN · RELEASE ATTACK';if(g.player.charge130?.state==='Charging')return 'POISON DART PEN · '+Math.min(100,Math.floor(g.player.charge130.age/3*100))+'%';if(!u||g.time-u.at>1.5)return 'R2 / F · HANDGUN';return u.key==='unique'?(u.accepted?(p.act?.empty255?'EMPTY · FIND AMMUNITION':'R2 · HANDGUN'):'R2 · STATE LOCK'):u.key==='attack'?(u.buffered?'BUFFERED · ATTACK':u.accepted?'ATTACK · '+u.reason:u.reason.toUpperCase()):u.key.toUpperCase()+' · LATER COMBAT GATE';}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+
+TypeError: Cannot read properties of undefined (reading 'toUpperCase')
+    at Object.feedback (evalmachine.<anonymous>:13:515)
+    at Object.<anonymous> (/workspace/sites/urban-fracture/.sites-checkout/tests/nightshade252-view.cjs:4:260)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.22.1

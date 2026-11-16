@@ -1,0 +1,118 @@
+{
+  "scope": "Native production index/canvas and production diagnostic panel, mounted in isolated test host. Real Niko palms at frame25. Static UI/flight observation, not animation repair certification.",
+  "errors": [],
+  "failed": [
+    "/assets/enforcer-concept-v1.png",
+    "/assets/thug-leader-concept-v1.png"
+  ],
+  "time": 0.41666666666666663,
+  "actor": {
+    "id": 24,
+    "name": "Marcus",
+    "type": "thug",
+    "x": 470,
+    "y": 480,
+    "hp": 42,
+    "jump": 0,
+    "action": null,
+    "actionId": null,
+    "actionFrame": null,
+    "phase": "fall",
+    "configured": null,
+    "inv": 0.07333333333333333,
+    "heldBy": null,
+    "holding": null,
+    "animationFrame": null,
+    "presentation": {
+      "state": "fall",
+      "owner": "native flight",
+      "action": null,
+      "actionFrame": null,
+      "locks": [],
+      "nativeStateActionable": false,
+      "offensiveLocks": [
+        {
+          "field": "reassessUntil274",
+          "seconds": 0.5
+        }
+      ],
+      "offensiveReady": false,
+      "actionable": false,
+      "world": {
+        "x": 470,
+        "y": 480
+      },
+      "scale": 1.347943842,
+      "ground": 480,
+      "visualElevationOwner": "native flight",
+      "time": 0.41666666666666663
+    },
+    "reactionDiagnostics": {
+      "contactOutcome": "clean",
+      "contactAt": 0.41666666666666663,
+      "currentPhysicalState": "fall",
+      "commonOffensiveReady": false,
+      "stunLockActive": false,
+      "stunClearObservedAt": 0.41666666666666663,
+      "stunClearElapsedSeconds": 0
+    },
+    "grapple": null,
+    "knockdown": {
+      "nativeLanded": false,
+      "phase": "fall",
+      "downFrames": 0,
+      "timeline": null
+    },
+    "hitReaction": {
+      "at": 0.41666666666666663,
+      "outcome": "clean",
+      "kind": "medium",
+      "dir": 1,
+      "damage": 18,
+      "armor": "none",
+      "interrupted": false,
+      "sourceAction": null,
+      "durationAtHit": 0.5,
+      "visualDelay": 0,
+      "releasedAt": 0.41666666666666663,
+      "id": 1,
+      "enemy": 24,
+      "actualSeconds": 0,
+      "remainingFrames": 0,
+      "locked": false
+    },
+    "stunFrames": 0,
+    "recoveryFrames": 0,
+    "standingLockFrames": 0,
+    "animationNote": "N/A: no fresh rendered-frame receipt",
+    "dx": 10,
+    "dy": 0,
+    "hpDelta": -18
+  },
+  "rawReceipt": {
+    "at": 0.41666666666666663,
+    "outcome": "clean",
+    "kind": "medium",
+    "dir": 1,
+    "damage": 18,
+    "armor": "none",
+    "interrupted": false,
+    "sourceAction": null,
+    "durationAtHit": 0.5,
+    "visualDelay": 0,
+    "releasedAt": 0.41666666666666663,
+    "id": 1,
+    "enemy": 24,
+    "actualSeconds": 0
+  },
+  "feedbackCount": 2,
+  "timelineTitles": [
+    "frame 25: no action / fall · last contact clean · ΔHP -18"
+  ],
+  "notes": [
+    "Configured contacts are opportunities, not confirmed hits. Gate11 has registered native-window/contact adapters; unsupported spans remain N/A.",
+    "Only fresh renderer receipts supply animation indices; unknown indices stay N/A. HP delta is observed change.",
+    "Contact outcome describes the last resolved contact; physical state describes this recorded frame.",
+    "Stun-clear timestamps and elapsed seconds observe remaining stun/shock reaching zero. Launch may clear stun immediately; these are not flight, knockdown or total recovery durations. Raw releasedAt/actualSeconds are preserved."
+  ]
+}

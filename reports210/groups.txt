@@ -1,0 +1,26 @@
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP
+PASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision
+PASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions
+PASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay
+PASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over
+{
+  "pass": true,
+  "fixtures": 60,
+  "secondsEach": 20,
+  "maxPressure": 3,
+  "selected": {
+    "oneTwo": 62,
+    "frontKick": 76,
+    "chainSweep": 106,
+    "chainLash": 106,
+    "batonCombo": 157,
+    "batonStrike210": 55,
+    "copDash": 42,
+    "taserShot": 6,
+    "hook": 41,
+    "marcusCombo": 14,
+    "knifeSlash": 24,
+    "knife": 5
+  }
+}

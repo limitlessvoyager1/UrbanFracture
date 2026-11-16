@@ -1,0 +1,17 @@
+# Build 24 — normal difficulty, weapon defense and grappling
+
+Bruno identity correction: replaced the generic gray-tank held pose with two reference-derived maroon-tank poses preserving original short dark hair/stubble/face, gloves/wristwraps, gray cargo pants, boots and shoulder tattoo. Both front/rear holds and held-to-throw interpolation use the replacement. Asset `bruno-held-v2.png`, metadata `bruno-held-data.js`, atlas scale.16. Built-in imagegen used reference `enforcer-v1.png` after visual inspection. Prompt: identity-preserving two-frame transparent held-victim atlas; front torso slightly bent, wrists drawn inward; rear arms restrained behind ribs; same exact Bruno, no captor, no text/floor. Actual generated image1774x887 with two isolated components.
+
+Normal difficulty tuning: non-player attacker damage is rounded90% of base, including grabs/taser/projectiles. Enemy post-action gaps modestly longer (Marcus.55, other standard heavies/biker.75, Carmen.95, Brick1.2); common horizontal pursuit speeds slightly reduced. Jackal is the requested faster exception, with.75 recovery and faster weapon windups. HUD/page identifies Normal.
+
+Jackal351HP, knife first; switches at234HP to pipe,117HP to metal bat, dropping previous weapon. Knife reach70/base21damage, pipe132/base21, bat105/base26; after normal modifier19/19/23HP. Knife.30windup/.94action, pipe/bat.48/1.15. Active attack protection retained, late recovery vulnerable. Long range>260 starts1.2second weapon rush at380units/sec, hit.62,3.5second rush cooldown; same weapon profile and a running animation. Stops near aimed location; can whiff if Reina evades.
+
+Brick225HP. Existing40%grab threshold scales with new maximum. Dormant lineup, protections, attack variety and fight gate retained.
+
+Timed defense: unarmed catches100/3meter; knife arm catches50; all Jackal counters75. Non-knife weapon counters cost50 (Jackal75) and perform a.36second cartwheel/slip behind attacker rather than creating another grab. Attacker's current action is canceled, stun.95, turnlock1.05 and recovery1.1 give a rear opening. Knife catches retain punch/throw/leg-counter choices as appropriate. Insufficient meter preserves normal guard behavior. Defense regen9/sec instead of7, same1.5second delay.
+
+Jump while holding uses grounded.42second gripSwitch around stationary victim, keeps pair linked, toggles front/rear and facing at end. No vertical vault. Works on all successfully grabbed enemy types, max3switches perhold, retains wall-room checks. Jump button/controller Cross remains trigger. Idle escape timers depend on strength: Marcus/Kevin2.2s, Frankie/Carmen1.5, Bruno1.1, Brick.9, Jackal.75. Active strikes/reposition reset idle timer; idle escape breaks pair and briefly stuns Reina. Counter follow-ups retain short reaction opportunity.
+
+## Validation
+
+All26 test suites pass. New tests cover HP/phases, weapon order/ranges/damage/rush, active versus recovery,33⅓/50/75meter priorities, knife catch/weapon slip rear opening, grounded front-rear switches, strength-weighted idle breaks,9/sec recharge and normal damage reduction. Simulated standard/raw/custom/DSX controller suites preserved; physical DualSense unavailable. Full ordinary-input route:44kills,430.8simseconds,6HP, zero checkpoint retries. Browser QA verified Bruno front/rear identity, grounded switch and boss weapon evade/75meter deduction. Temporary QA removed before packaging.

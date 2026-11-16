@@ -1,0 +1,28 @@
+{
+  "baseline": "db2e17b50472ca43757e90ac9bdf8bc7b0b48abb",
+  "audit": "0701ba46381a56d4fedda858505a3787d9b781f0",
+  "result": "passed",
+  "scope": "Local repair preservation checks; historical certification remains separately reported.",
+  "productionChanged": false,
+  "fixturesAndExistingNormalizersChanged": false,
+  "existingBehaviorAssertions": "byte-identical",
+  "existingBehaviorResults": "identical",
+  "rows": [
+    {
+      "suite": "crowd",
+      "checks": 163200,
+      "rows": 28,
+      "assertionBodySha256": "6e0accc8a394eae868de449a3832cafe016d2cae0931145648412c9da50facd4",
+      "behaviorResults": "identical to pre-repair audit",
+      "historicalSourceProof": null
+    },
+    {
+      "suite": "grapple",
+      "checks": 22791,
+      "rows": 40,
+      "assertionBodySha256": "8092edc2592b7c83fd0efd0abd880f5bb15848098c6e04407a53437a7b4ca883",
+      "behaviorResults": "identical to pre-repair audit",
+      "historicalSourceProof": null
+    }
+  ]
+}

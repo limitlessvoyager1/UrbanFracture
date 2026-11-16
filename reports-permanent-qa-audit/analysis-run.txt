@@ -1,0 +1,151 @@
+{
+  "status": "audit-analysis-complete",
+  "sourceBase": "see inventory.json",
+  "originalCompleteness": {
+    "counts": {
+      "original-match": 2765,
+      "missing": 6460,
+      "changed": 33
+    },
+    "dist": {
+      "changed": 14,
+      "original-match": 1661
+    },
+    "all1126CurrentImagesMatchOriginalExport": true,
+    "missingBytes": 1486953612
+  },
+  "assetChecker": {
+    "rawInventoryCount": 1126,
+    "retainedInventoryCount": 682,
+    "rawIssueCount": 1812,
+    "rawCodes": {
+      "asset-review-required": 1126,
+      "asset-removed": 682,
+      "invalid-reversible-background-derivative": 4
+    },
+    "pathMismatchExample": {
+      "actual": "dist\\assets\\arthur195-0.webp",
+      "retained": "dist/assets/armored-truck-v1.webp"
+    },
+    "analyticalNormalizationOnly": {
+      "originalMatch": 555,
+      "changed": 119,
+      "added": 452,
+      "missing": [
+        {
+          "path": "dist/assets/armored-truck-v1.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": true,
+          "backup": "source-art/hospital314/retired/armored-truck-v1.webp",
+          "backupPresent": false
+        },
+        {
+          "path": "dist/assets/repair262/vault-8.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": false,
+          "backupPresent": null
+        },
+        {
+          "path": "dist/assets/repair262/vault-9.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": false,
+          "backupPresent": null
+        },
+        {
+          "path": "dist/assets/stadium/fans-4237.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": true,
+          "backup": "source-art/stadium313/fans-4237.webp",
+          "backupPresent": false
+        },
+        {
+          "path": "dist/assets/stadium/fans-5237.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": true,
+          "backup": "source-art/stadium313/fans-5237.webp",
+          "backupPresent": false
+        },
+        {
+          "path": "dist/assets/stadium/fans-6237.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": true,
+          "backup": "source-art/stadium313/fans-6237.webp",
+          "backupPresent": false
+        },
+        {
+          "path": "dist/assets/stadium/fans-7237.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": true,
+          "backup": "source-art/stadium313/fans-7237.webp",
+          "backupPresent": false
+        },
+        {
+          "path": "dist/assets/stadium/parking237.webp",
+          "inOriginalExport": false,
+          "recognizedRetirement": true,
+          "backup": "source-art/recording313/parking237-unused.webp",
+          "backupPresent": false
+        }
+      ]
+    },
+    "derivativeBackups": [
+      {
+        "path": "dist/assets/estates-avenue196.webp",
+        "backup": "source-art/budget316/originals/estates-avenue196.webp",
+        "exists": false,
+        "originalHashVerifiedField": true
+      },
+      {
+        "path": "dist/assets/uptown-block-c155.webp",
+        "backup": "source-art/budget316/originals/uptown-block-c155.webp",
+        "exists": false,
+        "originalHashVerifiedField": true
+      },
+      {
+        "path": "dist/assets/uptown-block-a155.webp",
+        "backup": "source-art/budget316/originals/uptown-block-a155.webp",
+        "exists": false,
+        "originalHashVerifiedField": true
+      },
+      {
+        "path": "dist/assets/grand-hotel-lobby96.webp",
+        "backup": "source-art/budget316/originals/grand-hotel-lobby96.webp",
+        "exists": false,
+        "originalHashVerifiedField": true
+      }
+    ],
+    "note": "Raw checker remains FAILED. Normalization is analysis, not a repaired checker or approved artistic certificate. All current image bytes match supplied338export; older-inventory differences are not new asset damage."
+  },
+  "stableRegistry": {
+    "suites": 258,
+    "currentSuites": 273,
+    "allOldEntriesUnchanged": true,
+    "allOldPolicyUnchanged": true,
+    "newIds": [
+      "grounded-crop-surfaces",
+      "grounded-pose-cache",
+      "fighter-render-prerequisites",
+      "fighter-render-prerequisite-tests",
+      "fighter-render-bootstrap",
+      "fighter-grapples-forest",
+      "fighter-grapples-niko",
+      "fighter-grapples-broxton",
+      "fighter-grapples-nightshade",
+      "fighter-grapples-shared",
+      "fighter-render-shipping-browser",
+      "forest-grapples177",
+      "forest-protection177",
+      "forest-balance177",
+      "forest-fixture177"
+    ]
+  },
+  "structuredReportInventory": 148,
+  "registryCoverage": {
+    "missingFramework": 38,
+    "featureMetadataEntries": 0,
+    "performanceCommands": 0,
+    "unregisteredFiles": 338,
+    "unregisteredAreNotAllRunnable": true
+  },
+  "auditNoImplementation": true
+}

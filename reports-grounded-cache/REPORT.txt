@@ -1,0 +1,130 @@
+URBAN FRACTURE — UF-RENDER-025
+Grounded-pose cache validity / flash identity
+2026-11-12 | fix/grounded-pose-cache-validity
+Base b0a43d783729be9bd9445c9409f69d25c5ef6ef4
+
+Outcome: FUNCTIONAL PASS; PERFORMANCE ACCEPTANCE NOT CLEARED.
+The authorized correction is implemented and retained on the separate review
+branch. Stable remains f00cc9c. It has not been merged or promoted.
+
+Root cause and correction
+The shared bitmap map outlived the validity of its coarse repeating idle key.
+Native pose selection and continuous squash depend on exact supplied render time;
+native flash pixels depend on hitFlash>0. Reuse now belongs to one exact render
+time batch, with a distinct flash-presence key. Unsupported/nonfinite time cannot
+reuse old entries. Identical same-time peers still share.
+
+Production edits are limited to sprites.js cache declaration/invalidation/key and
+its index.html cache token. Exact source-reversal and diff checks preserve every
+other production byte, existing test body, fixture/native loader, source adapter,
+QA entry/policy and artwork. Original draw dispatch/crop/sole/pivots/size guard,
+native clocks/selectors/squash, AI, damage, frame/timing and grapple/counter/wake
+behavior are unchanged. No animation clock rounding or new combat clock.
+
+Changed files
+- dist/sprites.js, dist/index.html
+- tests/grounded-pose-cache.cjs
+- tools/grounded-cache/{load,negative,browser,preservation,refresh,verify}.cjs,
+  gallery.py, README.txt
+- qa/system242/suites.json: one new critical initial/release regression entry
+- refreshed reports-fighter-render receipts, reports-grounded-cache evidence,
+  COMBAT_REPAIR_LOG.md
+
+Tests and rendered verification
+New runtime: 1,158 checks, 224 comparisons, eleven types/both facings. Exact original
+floating times, same-index squash, within-bucket pose, forward/rewind/boundary,
+hero/reset, moving controls, same-time peers, both flash orders, positive-flash
+equivalence, unsupported time and original actor-field invariance. Final run passes
+with PATH empty and Git unavailable. Private read-buffer export observes actual
+native cache/functions; no executable historical tests/commits imported.
+Three deliberate read-buffer regressions are correctly rejected with exit1:
+no time invalidation, no flash key, quantized cache clock. Production disk untouched.
+
+Existing selected behavior:26/26 pass, including Forest/current grapples, crowd,
+Director, reaction/hitstun/knockdown/deadline, AI observer, plane, energy/counters,
+input/controller simulation. Existing render entries8/8 pass, original shared view
+9,434checks retained.48mirrored family cases/480Node samples/1,540checks, bootstrap
+179modules/73owners/1,041decoded requests.49receipt self-tests and6QA validators pass.
+
+Ten original shipping drawActor history pairs match fresh cold pixels exactly.
+Both original Nightshade cases and every other sampled family now pass on ONE
+persistent shipping page:480comparisons, minIoU .9999537743, maxboundsdelta0.
+No fixture-side cache clears or family context resets. Separate fresh-family
+480comparisons and40native game frames pass. HP/action/time/elevation/events retain
+native values. Original shipping static index was launched in actual Chromium
+143.0.7499.4; no separate build pipeline was needed for this bundled JS runtime.
+Zero page JS errors; existing enforcer/thug-leader concept portrait404s remain.
+
+Visual review: inspected pose-verification.png (original stale pose, repaired warm
+versus cold, conditional flash both orders, original mixed Nightshade both facings
+and native launch) and corrected scene-verification.png (12native full-scene
+matrix frames with all roster roots visible). This establishes the scoped rendered
+cache correction; no all-animation/artistic/campaign/hardware certification.
+Flash natural-contact incidence remains unmeasured; controlled flag coverage is
+not evidence of damage/hitstun failure or a natural encounter-frequency claim.
+
+Performance — HOLD, not an accepted performance pass
+Native world/HUD/weather draw,1/4/8visible enemies PLUS hero, same/mixed rosters.
+30warm-up +180measured frames per condition; seeded game, manual native ticks, AI
+disabled in fixture, fixture camera held after ticks, all enemy roots asserted in
+viewport and physical state matched between baseline/current. Source-reversed
+HTTP-only baseline has exact audited SHA256 fc076c85773be78d34863014393a475f8cd23a90145ebec1d9fbf7c0cdf8cbfe.
+No historical Git lookup, substituted fast renderer or native timing change.
+
+Corrected matrix, mean / p95 milliseconds:
+Roster  Enemies   Audited baseline    Repair
+Same    1         7.466 /16.5         9.001 /17.0
+Same    4         7.741 /11.8         8.228 /17.5
+Same    8         6.582 /15.0         7.954 /17.1
+Mixed   1         6.627 /15.5         8.764 /18.5
+Mixed   4         7.066 /17.7        11.733 /20.6
+Mixed   8         6.942 /15.1        14.904 /24.6
+
+Independent mixed-eight repeat, repair/baseline/baseline/repair order:
+Repair means14.119/15.460ms, p95 25.4/27.0ms.
+Baseline means8.089/8.464ms, p95 18.4/17.2ms.
+Even baseline has headless tail spikes; repair adds material readback/allocation
+cost and exceeds the16.667ms 60Hz frame budget. No claim of universal60FPS or
+acceptable hardware performance. The final verifier exits1 for this review hold
+while recording12passed functional/evidence checks and0failed functional checks.
+Do not silently recover speed by freezing or quantizing native poses. No further
+production optimization is included in this scoped repair.
+
+Post-GC CDP snapshots after mixed-eight runs:
+Repair JS heap8.597/8.607MB; baseline8.379/8.426MB.
+Repair embedder heap12.096/12.044MB; baseline12.440/12.519MB.
+These short snapshots include scene initialization and do not establish leak,
+process memory, backing canvas/GPU allocation or long-run stability. Raw per-page
+before/after heap metrics and complete draw-cost samples summaries are retained.
+
+Fixture correction and authoring record
+The first nominal-roster performance trial allowed camera follow to move some
+enemies offscreen. Its browser.json performance and exploratory-camera-drift
+records are retained as EXPLORATORY, superseded by performance-matrix.json and
+performance-confirmation.json. Visual review of corrected scenes confirms all
+roots in view. Production camera behavior is unmodified.
+Other corrected authoring assumptions: native source inspection reads more than
+once; renderer cosmetic diagnostics write to render copies; initial verbose byte
+diff negative interrupted and rerun with bounded pixel assertions; cache-token
+change invalidated early captures and all stale family receipts were refreshed.
+No harness error was treated as a shipping combat defect or assertion waived.
+
+Tests failed / unavailable / remaining limitations
+No outstanding functional suite failure. Deliberate negatives fail as expected.
+Final acceptance verifier exits1 because performance is not cleared.
+45historical receipts remain explicitly UNAVAILABLE:11crowd+7grapple+17collision
++1height+9reaction. All three strict CLIs exit2 using real Git. Existing adapters,
+source proof distinctions and release gates are retained. Full release, physical
+controllers/GPU, natural contact-frequency and campaign play are not certified.
+Known unrelated legacy controller failures, portrait404s, Niko seams, Broxton root
+projection and other suspected key omissions remain separate.
+
+Recommended next issue
+Audit grounded raster readback/cropping cost and present a scoped performance
+proposal before additional source changes. Preserve cold native pixels, opaque
+sole anchoring, same-time sharing and exact clocks; do not restore cache-history
+sensitivity. Stable promotion remains on hold pending that performance decision.
+
+Repeat commands are in tools/grounded-cache/README.txt. Raw source fingerprints,
+preservation, negative/runtime/browser/matrix/confirmation/final reports and PNGs
+are retained. A passing measurement collection is not performance acceptance.

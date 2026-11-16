@@ -1,0 +1,48 @@
+{
+  "rows": [
+    {
+      "case": "two heavy shared entry calls",
+      "path": "enemyAct",
+      "reserved": 2,
+      "commitments": 1,
+      "actions": [
+        "oneTwo",
+        null
+      ]
+    },
+    {
+      "case": "two heavy shared entry calls",
+      "path": "start",
+      "reserved": 4,
+      "commitments": 2,
+      "actions": [
+        "oneTwo",
+        "oneTwo"
+      ]
+    },
+    {
+      "case": "stale AI reason after granted retry",
+      "action": "kick",
+      "latestRequest": {
+        "at": 0,
+        "enemy": 9,
+        "attack": "kick",
+        "cost": 1,
+        "category": "light",
+        "target": "hero",
+        "duration": 1.8,
+        "distance": 240,
+        "depth": 0,
+        "priority": 1,
+        "granted": true,
+        "reason": null
+      },
+      "selectionReason": "pressure budget",
+      "denied": {
+        "at": 0,
+        "reason": "pressure budget"
+      }
+    }
+  ],
+  "scope": "Controlled API entry calls; does not establish native encounter occurrence frequency."
+}

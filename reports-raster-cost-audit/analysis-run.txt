@@ -1,0 +1,147 @@
+{
+  "comparisons": 9,
+  "scans": [
+    {
+      "dataset": "all-api168",
+      "name": "legacy",
+      "rounds": 6,
+      "meanMsPerCrop": 0.17903439152650732,
+      "roundMsPerCrop": [
+        0.16785714284531653,
+        0.19107142859508122,
+        0.18809523805975914,
+        0.17400793648428386,
+        0.17242063493246124,
+        0.18075396824214193
+      ]
+    },
+    {
+      "dataset": "all-api168",
+      "name": "edge",
+      "rounds": 6,
+      "meanMsPerCrop": 0.17076719576916682,
+      "roundMsPerCrop": [
+        0.16488095242825765,
+        0.18055555555555555,
+        0.18075396824214193,
+        0.16666666666666666,
+        0.16785714284531653,
+        0.16388888887706257
+      ]
+    },
+    {
+      "dataset": "all-api168",
+      "name": "stride",
+      "rounds": 6,
+      "meanMsPerCrop": 0.2027447090025932,
+      "roundMsPerCrop": [
+        0.19642857142857142,
+        0.21726190476190477,
+        0.20615079366261996,
+        0.1940476190121401,
+        0.2069444444680971,
+        0.1956349206822259
+      ]
+    },
+    {
+      "dataset": "all-api168",
+      "name": "words",
+      "rounds": 6,
+      "meanMsPerCrop": 0.20327380951986743,
+      "roundMsPerCrop": [
+        0.2013888888888889,
+        0.21071428569063308,
+        0.20178571432119324,
+        0.20158730157547528,
+        0.2031746031864295,
+        0.20099206345658455
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "legacy",
+      "rounds": 6,
+      "meanMsPerCrop": 0.15608465608465608,
+      "roundMsPerCrop": [
+        0.1809523809287283,
+        0.15496031744849115,
+        0.14999999998817368,
+        0.1498015873015873,
+        0.15000000004730527,
+        0.15079365079365079
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "edge",
+      "rounds": 6,
+      "meanMsPerCrop": 0.1484126984166405,
+      "roundMsPerCrop": [
+        0.15873015873015872,
+        0.1424603174839701,
+        0.1414682539919066,
+        0.14226190473825212,
+        0.15019841267476006,
+        0.1553571428807955
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "stride",
+      "rounds": 6,
+      "meanMsPerCrop": 0.18898809522823998,
+      "roundMsPerCrop": [
+        0.18809523811889073,
+        0.18075396824214193,
+        0.18174603173420542,
+        0.17896825394460134,
+        0.19980158727793468,
+        0.20456349205166574
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "words",
+      "rounds": 6,
+      "meanMsPerCrop": 0.1938492063551195,
+      "roundMsPerCrop": [
+        0.1875,
+        0.18869047617864987,
+        0.18432539683722315,
+        0.18611111113476375,
+        0.20714285715468347,
+        0.20932539682539683
+      ]
+    }
+  ],
+  "allocationMsPerCopy": {
+    "fresh": 0.06333333338300387,
+    "reuse": 0.0026666666567325592
+  },
+  "contextHintPixelPairs": 14,
+  "isolatedReusePixelPairs": 48,
+  "poolTrace": [
+    {
+      "reused": 1241,
+      "fresh": 19,
+      "dropped": 0,
+      "reuseRate": 0.984920634920635,
+      "peakIdleBytes": 953760,
+      "peakIdleEntries": 19,
+      "limitBytes": 4194304,
+      "limitEntries": 32,
+      "scope": "Trace-only exact-size availability model, cold at measured-frame start, no production pool or integrated speed result"
+    },
+    {
+      "reused": 1241,
+      "fresh": 19,
+      "dropped": 0,
+      "reuseRate": 0.984920634920635,
+      "peakIdleBytes": 953760,
+      "peakIdleEntries": 19,
+      "limitBytes": 4194304,
+      "limitEntries": 32,
+      "scope": "Trace-only exact-size availability model, cold at measured-frame start, no production pool or integrated speed result"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "baseline": "dd07a7a819eca2c3b8753ba80c76fc3b3ac2554d",
+  "result": "passed",
+  "files": [
+    "dist/ai-inspector288.js",
+    "dist/ai-observer288.js",
+    "dist/index.html"
+  ],
+  "scope": "Observer-private correlation, additive diagnostic context, inspector presentation and two cache tokens only. Native controller/Director/state/denial/damage/move data unchanged; old AI/damage observation, copy and source adapters and inspector controls preserved.",
+  "hashes": {
+    "dist/ai-inspector288.js": "9335eecdfc2914211e84491a1206b3ce8f032860d4065b16710bbb4d9f4b81a6",
+    "dist/ai-observer288.js": "816a537bc48abe92bc811612d0e312c2727e5b8956cf6178d2220105ce9dce0c",
+    "dist/index.html": "c8fe0e6b811e65109e9a5e475d3217660ec65c865eb7e923b7e95451adecd154"
+  }
+}

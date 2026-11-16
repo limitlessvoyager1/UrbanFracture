@@ -1,0 +1,102 @@
+URBAN FRACTURE — ASSIGNMENT 2: ANIMATION / COLLISION AUDIT
+Date:2026-11-12. AUDIT ONLY. No production repair implemented.
+Branch:audit/assignment2-animation-collision
+Starting/stable commit:6de994084c161bcff658d9ba02bfbb87e0b2287b
+Scope:Master-program Phases3and4. Preserve approved prior repairs; stop with a scoped proposal before production changes. Feedback deduplication and AI/grapple subsystem repairs remain separate.
+
+DECISION
+Recommend A2-01 first:make Reina's active strike hurtbox evaluation use the same target elevation as rendering, with one shared projection for actual contact and collision diagnostics. A continuous native Saito flying-kick scenario currently receives7HPdamage from a kick below the elevated body. This is a collision-space inconsistency, not missing artwork or an approved timing value that needs changing.
+Do not rewrite the animation engine, change damage/active frames, or make Saito broadly easier to hit. Most recorded misses are legitimate lane/facing/range, guard/counter or active-window decisions. Niko's generic phase label is also inaccurate, but is a separate diagnostic issue rather than evidence that his artwork is absent.
+
+BASELINE / INTEGRITY
+Current cumulative repaired Build338 baseline6de9940 verified; no old overlays applied. No diff in dist/, existing tests/ or qa/ versus that baseline. Audit adds tools, evidence and this log entry only. Stable remains unchanged. Original import/eight ZIParchives retained; this is not a complete game export or full certification. Prior approved physical-admission, reaction-deadline and playback fixes remain present.
+
+PHASE 4 — PRIORITY REINA/NIKO VS SAITO MATRIX
+tools/assignment2/audit.cjs uses current production-order simulation and native actor HP.1,080isolated native-opener cases:2heroes x3rates x2facings x5distances(-30,40,70,110,160) x6depths(0,23,24,26,27,32) x3native defensive states(idle,guard,ready-counter). Normal inputs create openers; defensive lab setups do not claim natural AI selection.
+6,451observational assertions pass across this matrix,21seven-hero locomotion cases,4invulnerability/wake-protection cases and explicit native-stage fixture checks. No opener applies target HP twice; attacks preserve the initial combat plane. These are observations of current behavior, not passing certification of the identified defect.
+
+Reina:540cases;108clean-hit cases,54block/chip cases,54successful counter cases. Niko:540cases;72clean-hit cases,0block/counter cases in this particular timing setup. Niko's first punch contacts before the guard/response startup in these fixtures; this does not mean Niko ignores all guards/counters. Authored specialist windows remain intact.
+Unique per-case receipt coverage (categories overlap; do not sum as exclusive outcomes):combat-plane depth540;behind attack108;outside reach144;hit invulnerability162;outside native active window324;block54;counter54;cancelled/superseded owner54.234cases lose target HP (180clean,54chip). No target damage at depths>26; Niko's distinct depth>=24 rejection is retained. Candidate intersections are not automatically counted as successful damage.
+
+AIRBORNE FOLLOW-UP
+A frozen native-active-frame sweep compares the actual grounded hurtbox to that same box shifted by the renderer elevation.18valid disagreements are recorded (12stage1,6stage2, mirrored). All18apply native damage despite missing the elevated reference box. Stage prerequisites are explicitly initialized and actual combo stage asserted; these are isolated, unearned-combo geometry fixtures, not a live full combo claim. Stage3has no disagreement in this sampled sweep.
+tools/assignment2/air-trace.cjs then runs72continuous native Saito martialFly/Reina-opener schedules (2facings x6starting distances x6attack delays). No action times or invulnerability are injected.64contacts occur;4actual damaging contacts disagree with the elevated hurtbox. This confirms gameplay reachability beyond the frozen geometry lab.
+
+Repeatable continuous reproduction,60Hz:
+1.Native Reina at x500,y480,facing+1; native Saito90HP at x560,y480,facing-1. Disable AI/reinforcements to isolate the authored actions; clear props/pending encounter data. Native inv/wakeInv/cooldown0.
+2.Start Saito's native martialFly with enemyAct, then advance6simulation ticks before commanding Reina attack. A delay of8ticks also reproduces; mirror both facings.
+3.At t0.266667(for6tick delay), Reina's action reaches10frames; Saito remains in martialFly at0.25seconds and renderer elevation57.352188world units. World positions are approximately Reina514.256/Saito533.282 for facing+1 (mirrored case also stored).
+4.Native actual contact uses the ground-level box and applies7HP. The same box shifted upward57.352188does not intersect the strike segment. For8tick delay, mismatch occurs at t0.3/elevation53.445620.
+5.Native Chromium reproduces all4cases. The copied-canvas overlay shows gold=current grounded hurtbox, cyan=same box shifted by renderer height, magenta=actual strike segment. The kick passes below the raised body but damage still registers. Source-renderer correspondence and the four images were visually inspected. This is an observed current defect; no correction is claimed.
+
+PHASE 3 — ANIMATION / TRANSITIONS
+21locomotion traces cover all7heroes at30/60/120Hz:idle->walk->run->stop. Logical positions stay finite and per-hero world scale remains constant. This does not equate differing pose silhouettes with sprite resizing or prove every opaque sole pixel is stationary.
+Native Chromium:34representative animation samples for Reina/Niko, plus4air-contact overlays. Sampled states include idle,walk,run,startup,active/recovery,neutral jump,dodge,hitstun,fall,ground,get-up,standing recovery,rear grab, and directional rear-grab move samples at5/45/90frames. Native move/hold transitions and target release/down flags recorded; these are smoke samples, not a full synchronized-grapple certification (Assignment3).
+The sampled body poses render. No missing body asset was confirmed in these samples. Art/pose differences and coarse still intervals are not called skipped mandatory states without further temporal evidence. Niko startup/contact frames visibly differ, although the generic state label remains utility/recovery. Fixed-frame review is represented by the saved stills; no full normal-speed human playthrough or exhaustive frame-by-frame/art catalog certification was performed.
+Shared reaction/knockdown guards remain protected in their current portable regressions. Existing continuity296 covers source pose ownership, native withdrawal, walk/run handoff and stop settling. The Broxton189art suite validates only its16whole-body/4NPCmanifest assets, not every hero's atlas.
+No JavaScript browser errors. Two preexisting preload404s persist:assets/enforcer-concept-v1.png and assets/thug-leader-concept-v1.png. Original export manifest contains their PNGnames under concept-art/art-archive193, not those dist/assets paths. Other native portraits/bodies are visible; missing preload references are not treated as proof that their shipping animation sheets are absent.
+
+PRIORITIES (severity / confirmed breadth / observed frequency / impact / regression risk / complexity)
+A2-01:high collision correctness /Reina vs airborne Saito /4of72continuous schedules /phantom contact /medium-high /small targeted helper.
+A2-02:medium diagnostics /Niko combo phase /all3reviewed startup/contact/recovery samples /misleading animation investigation /medium if timing owners touched /small diagnostic adapter after consumer review.
+A2-03:medium coverage /shared collision/height suites /2suite entry points /historical gate prevents runtime checks /low-medium /medium portable test separation.
+A2-04:low preload integrity /2legacy PNGreferences /every browser load /404noise, no body loss established /low /small after asset-alias review.
+A2-S1:suspected broader geometry inconsistency /other melee families /unknown /unmeasured /high if generalized /unknown. Do not combine with A2-01.
+
+A2-01 — REINA ACTIVE CONTACT DOES NOT APPLY AIRBORNE TARGET ELEVATION
+1.Issue:actual strike and diagnostic candidate use a grounded rectangle while rendering raises the target body.
+2.Status:CONFIRMED source inconsistency, continuous native damage reproduction and rendered geometry mismatch. No missing artwork cause established.
+3.Root cause:Combat134.box supplies base ground-space bounds. Plane304's Reina contact override and reinaCandidate use those bounds unchanged. Plane304.height is authoritative for rendered elevation; weaponBox and martial-target contact already subtract elevation. The shared conversion is applied inconsistently.
+4.Affected:confirmed Reina vs Saito martialFly in both facings; frozen first/second combo cases. Other airborne targets/scenes are plausible shared reach, not counted as tested defects. Niko's melee uses a different model and is not proven affected by this same repair.
+5.Sources:dist/combat134.js8(basebox); dist/plane304.js9(Reina contact),11-28(height),43-45(Reina candidate); dist/game.js zheight delegation; martial212 native flying action. Exact source points/rectangles/times in audit.json/air-traces.json/render.json.
+6.Reproduce:continuous steps above; node tools/assignment2/air-trace.cjs; optional native render tool. Compare actual damage with active segment against the height-shifted box, not merely sprite proximity.
+7.Proposed correction:one Plane304 Reina-target projected-hurtbox helper based on existing Combat134.box and Plane304.height, used by BOTH actual Reina contact and its diagnostic candidate. Preserve Xbounds, ground-plane eligibility, active windows, damage/timing, flags, armor, block/counter rules and artwork. Do NOT globally change Combat134.box:existing weapon/martial paths already apply height and could then subtract it twice. Keep grounded behavior exactly equal. Apply only this shared Reina projection on a new repair branch after approval.
+8.Risks:bank1.12scale, genuine aerial punishments, elevation branches(jump,fly,kip), protection/counter interactions, accidental double-height subtraction, differing native box exclusions. A geometry correction intentionally changes which formerly phantom contacts register; it must not alter damage amount or frame data for valid contacts.
+9.Repeatable acceptance:regression fails baseline in the4continuous cases and18frozen cases; fixed actual contact matches the correct projected box. Sweep valid/missing aerial intersections at30/60/120Hz/mirrored/grounded/bank scale, retain legitimate air hits, invulnerability/entry/down/flight eligibility and guard/counter cases. Prove grounded trajectories/contact amounts/frame windows identical, no duplicates/stale owners; run current portable guards/weapons/martial/continuity suites. Render the same four frames before/after and inspect actual body/segment. No unapproved timing/art changes.
+10.Priority:first repair proposal. STOP:approval required before implementation.
+
+A2-02 — NIKO ATTACK PHASE FALLS THROUGH TO UTILITY/RECOVERY
+1.Issue:generic diagnostic phase fails to identify Niko's actual startup/contact timeline, despite native poses and damage executing.
+2.Status:CONFIRMED diagnostic mismatch; no missing-art or hit-registration defect inferred solely from the label.
+3.Root cause:Audit135.phase/times uses generic hitAt/Director timing. Native Niko actions deliberately use hitAt999 and actual hitFrame185/configured once-events. Plane304 has a special native contactTime adapter for martial counters, but the generic phase projection does not reflect it.
+4.Affected:confirmed Niko first combo at3/6/12frames; other Niko moves require per-move inventory.
+5.Sources:dist/audit135.js17-18; dist/niko185.js native begin/combo/once; dist/plane304.js contactTime; continuity296/playback diagnostics. Native renderer uses Niko pose data independently.
+6.Reproduce:render.json Niko attack-startup/active/recovery samples; Audit135.phase returns utility/recovery at all three, while frame6hits3HP.
+7.Proposal:separate diagnostic-only native Niko phase adapter after consumer audit. Preserve hitAt999, once-event timings and Director behavior; do not replace real move clocks with a generic hitAt to fix a label.
+8.Risks:generic phase may feed withdrawal presentation or other consumers; repeated-contact moves and paired choreographies are not one strike. Avoid blanket Niko mapping.
+9.Tests:per-native-move phase boundaries, real damage-event correlation, paused playback and detached history; exact HP/frame/Director parity; rendered diagnostic/pose checks.
+10.Priority:second, separate from collision geometry.
+
+A2-03 — COLLISION/HEIGHT SUITES ABORT AT UNAVAILABLE HISTORICAL SOURCE
+1.Issue:tests/plane304.cjs and plane304-height.cjs cannot reach their runtime assertions.
+2.Status:CONFIRMED infrastructure limitation; no historical proof claimed passed and no gameplay failure inferred from missing blobs.
+3.Root cause:unconditional git show for2d8f4e3b154d769bac2ced871f66832563528b2d:dist/game.js fails because that source is not available in this supplied repository.
+4.Affected:shared collision/height regression confidence, all their intended heroes/scenes.
+5.Sources:tests/plane304.cjs2;tests/plane304-height.cjs1;tools/plane304/approved.cjs. Existing fixtures also inflate maxHP1000; native-identity coverage must remain distinct.
+6.Reproduce:run either test with portable Git on PATH; fails before behavioral section at historical source fetch.
+7.Proposal:separate approved portability task following the existing reaction-suite pattern:behavior always executable, strict historical evidence remains unavailable/failed/passed separately, actual mismatches still fail. Preserve assertions; no fake history or silent skip.
+8.Risks:normalizer drift, weakening strict proof gates, inadvertently replacing native fixtures with easier variants. Keep semantics explicit.
+9.Tests:missing Git/commit/blob, real mismatch, mixed proof status, full current behavior and native identity controls.
+10.Priority:coverage follow-up; the new audit is supplementary, not a claim that these old suites passed.
+
+A2-04 — TWO ACTIVE PRELOAD REFERENCES DO NOT EXIST AT SHIPPING PATHS
+1.Issue:browser requests two old concept PNGpaths and receives404.
+2.Status:CONFIRMED failed requests; missing gameplay body/portrait display not established.
+3.Root cause:legacy preload paths refer to files now present only in concept-art/archive locations in the export manifest.
+4.Affected:legacy Bruno/Marcus conceptual preload references; no quantified gameplay impact.
+5.Sources:dist/game.js preload paths and archived/export manifests; browser failed-request log.
+6.Reproduce:load native index; render.json lists both404s.
+7.Proposal:separate alias/unused-preload audit. Prefer actual current shipping portraits if the references are needed; otherwise remove only proven unused requests. Do not copy concept artwork into shipping or replace established character appearance without review.
+8.Risks:fallback/menu dependencies, accidentally removing a required alias or substituting obsolete art.
+9.Tests:preload completion, existing HUD/menu/fallback portraits and selected native bodies in browser.
+10.Priority:low; not a cause of the confirmed airborne collision error.
+
+SUSPECTED / NOT CERTIFIED
+Niko's melee uses directed reach/plane thresholds rather than Reina's limb-segment geometry; source differences alone do not prove a visible hit/miss defect. Other grounded melee/airborne projections require targeted reproductions before shared conversion changes. No new duplicate-HP, universal Saito armor, or missing whole-body art defect established in covered cases. All interpolation, all hero/enemy move atlases, every turn/facing transition, all throws/projectiles and every airborne target are not certified by this representative audit. Existing enemy/projectile and combat274collateral suites passed within their own loader/fixture scopes; that is not an exhaustive weapon/projectile visual audit. Full synchronized grapples and AI selection remain Assignment3, not repaired here.
+
+TEST / FAILURE ACCOUNTING
+10existing suites passed:plane304-weapons7754checks/52profiles;plane304-ui11;continuity29630272;animation-art189;playback-flight-diagnostics1941;hitstun-eligibility19208;knockdown-admission89115;martial212;enemies210;combat274. Two historical-dependent suites above abort before behavior and are NOT passes. Initially UI/weapons suites failed writing to missing reports304output directory; creating the directory and rerunning the unchanged suites resolved that environmental issue. No assertions or source-proof normalizers were removed/weakened.
+Original9reaction historical receipts remain explicitly UNAVAILABLE; strict CLI exits2. This is separate from the two historical304suite failures. No full release/campaign/hardware certification. Raw current results and corrected native-stage fixture prerequisite assertions retained in tests.json/audit.json.
+
+DELIVERABLE / APPROVAL BOUNDARY
+tools/assignment2 contains repeatable observational matrix, continuous-air probe and optional native browser capture. reports-assignment2 contains JSONevidence, current UI/weapon reports, animation sheet and airborne overlay. Production/existing tests/QAconfiguration remain identical to6de9940; audit/log only on separate branch. Recommend approving A2-01 as one dedicated geometry repair. Do not implement A2-02/03/04, feedback deduplication, engine consolidation or later assignments as incidental changes.

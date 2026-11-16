@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "branch": "audit/assignment1-combat-state",
+  "auditStartingCommit": "1edfa61bf299c79c33b8e492d36a99b323770e73",
+  "currentCommit": "1edfa61bf299c79c33b8e492d36a99b323770e73",
+  "stableCommit": "1edfa61bf299c79c33b8e492d36a99b323770e73",
+  "originalImport": "a0c8c1dcf75b340ddf73aa80d6a7066ef5f6e6e5",
+  "manifest": {
+    "snapshot": "Build338 navigation candidate",
+    "upstreamCommitClaim": "0f095736d6043de75a8b3d410354bde39fb0223f",
+    "originalTrackedFiles": 9258,
+    "originalBytes": 1767580098,
+    "filesNotMaterialized": 6486
+  },
+  "ancestry": [
+    {
+      "commit": "9c17d0185e39027fae6f61d2867c5162e49f4910",
+      "presentInStable": true
+    },
+    {
+      "commit": "1985984ef166ccafe57cbd02f88e21f20af33c32",
+      "presentInStable": true
+    },
+    {
+      "commit": "f0e71cb52552235f01087c6567d783bf828193a4",
+      "presentInStable": true
+    },
+    {
+      "commit": "2732c6145de592a5e9d11365ec022b86ec0806f8",
+      "presentInStable": true
+    }
+  ],
+  "productionTestConfigDiff": [],
+  "dist": {
+    "trackedFiles": 1675,
+    "sha256PathNulBytes": "c78a6cb5a1a3beadd1cae1d1469635f561e3df187b8269e82ee64a2de1a6a218"
+  },
+  "originalArchives": "All eight original archives still present in Downloads/Urban Fracture files. Earlier archive hashes retained in outputs/Phase2-Original-Archive-Hashes.json; not rehashed by this audit.",
+  "recoverability": "Original imported Git checkpoint and original eight archives retained. Checkout is selectively materialized, not a complete export."
+}

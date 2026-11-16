@@ -1,0 +1,63 @@
+{
+  "baseline": "dd07a7a819eca2c3b8753ba80c76fc3b3ac2554d",
+  "tests": [
+    {
+      "suite": "diagnostic288",
+      "exit": 0,
+      "output": "PASS288 observer-on/off360-frame equivalence, actual admission/damage records, honest missing reasons, native selection source, local selection-only persistence\n"
+    },
+    {
+      "suite": "direct-start-director-admission",
+      "exit": 0,
+      "output": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exit": 0,
+      "output": "PASS actionability diagnostics 6813 checks; 2 heroes x8 native families x3 rates; actual deadlines, cooldown boundaries, read-only state, presentation, players and paired states\n"
+    },
+    {
+      "suite": "director148",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\n"
+    },
+    {
+      "suite": "combat274",
+      "exit": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exit": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exit": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "post-hit-reassessment",
+      "exit": 0,
+      "output": "PASS post-hit reassessment 1192 checks: 7 heroes, 6 enemy families, 30/60/120Hz, both admission paths, exact deadlines and choreography exemptions\n"
+    },
+    {
+      "suite": "playback-flight-diagnostics",
+      "exit": 0,
+      "output": "PASS playback flight diagnostics 1941 checks; 8native families x2facings, contact/flight/recovery, raw receipts, detached history, report semantics and unchanged feedback\n"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "observationalChecks": 189,
+    "controlledCases": 23,
+    "parityCases": 18,
+    "parityRuns": 54,
+    "matchedSnapshots": 24350
+  },
+  "productionChanged": false,
+  "existingTestsChanged": false,
+  "visual": "No rendered UI or animation inspection performed in this audit; consumer mismatch confirmed by source and runtime data.",
+  "limitations": "Previously documented Gus/aggregate legacy failures and unavailable historical receipts were not rerun or resolved; no full release certification."
+}

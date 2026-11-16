@@ -1,0 +1,757 @@
+# URBAN FRACTURE — SAITO COMPLETE ENEMY COMBAT & AI OVERHAUL
+## Build 205 | Defensive Martial Artist | Consolidated Implementation Specification | Normal Difficulty
+
+### PRIMARY OBJECTIVE
+
+Refine Saito into an intelligent, highly defensive martial-arts specialist who severely punishes predictable aggression.
+
+Saito's combat identity must emphasize:
+
+1. Intimidation through deliberate movement and patience.
+2. Strong frontal blocking with chip damage.
+3. High-damage counters against punches and kicks.
+4. Occasional grab reversals.
+5. A powerful three-kick combination.
+6. A medium-range flying kick.
+7. An intercepting kick against eligible Blitz attacks.
+8. A rising high-kick anti-air.
+9. Intelligent evasion against unblockable specials.
+10. Faster kip-up recovery.
+11. A hidden Defensive Composure system.
+12. Tactical adaptation to repeated player behavior.
+13. Punishable mistakes and meaningful weaknesses.
+
+**Saito should punish careless aggression, not automatically defeat every attack.**
+
+His weaknesses must remain:
+
+- Vulnerability to legitimate grabs.
+- Vulnerability to attacks from behind.
+- No attack armor.
+- Punishable missed counters.
+- Punishable kick combinations.
+- Punishable flying kicks.
+- Limited defensive cooldowns.
+- No universal defense against unblockable specials.
+
+Preserve existing playable heroes, enemies, levels, environmental systems, and controls.
+
+Create a reversible checkpoint before implementation.
+
+---
+
+# PHASE 1 — INSPECT THE EXISTING IMPLEMENTATION
+
+Inspect Saito's active Build 205 code and the Enemy Field Guide.
+
+Identify the active functions controlling:
+
+- Enemy movement.
+- Guarding.
+- Counterattack selection.
+- Punch interception.
+- Kick interception.
+- Grab reversals.
+- Kick combinations.
+- Flying kick.
+- Knockdown recovery.
+- Kip-up animation.
+- Wake-up attacks.
+- Anti-air decisions.
+- Blitz recognition.
+- Special-attack classification.
+- Smart AI Director coordination.
+- Damage and hit reactions.
+
+Inspect later-loaded modules that may override existing behavior.
+
+Do not create duplicate AI controllers or independent combat state machines.
+
+Reuse the existing enemy AI, defense, attack, and synchronized-grappling frameworks wherever possible.
+
+Document confirmed defects before making changes.
+
+---
+
+# PHASE 2 — CHARACTER IDENTITY
+
+Saito is a disciplined, confident martial artist who prefers to control the pace of a fight.
+
+He should appear calm and intimidating.
+
+### Strengths
+
+- Excellent frontal defense.
+- Powerful counters.
+- Strong close-range kicking.
+- Good anticipation of predictable attacks.
+- Faster knockdown recovery.
+- Controlled movement.
+- Strong punishment against reckless aggression.
+
+### Weaknesses
+
+- Grab attacks.
+- Attacks from behind.
+- Missed counter recovery.
+- Missed flying-kick recovery.
+- Interrupted kick combinations.
+- Limited defense against unblockable specials.
+- Reduced defensive effectiveness after losing Composure.
+
+### Important
+
+Do not give Saito permanent armor, automatic invulnerability, or perfect reaction timing.
+
+---
+
+# PHASE 3 — INTIMIDATION WALK
+
+## Primary AI behavior
+
+Saito should frequently approach the player without immediately attacking.
+
+### Animation
+
+1. Saito faces the player.
+2. He walks forward slowly and confidently.
+3. He maintains a relaxed martial-arts guard.
+4. His steps remain deliberate.
+5. He stops near threatening range.
+6. He observes the player.
+7. He may attack, guard, counter, reposition, or continue walking.
+
+### Important
+
+Saito must not constantly rush toward the player.
+
+His controlled advance should communicate confidence.
+
+### Movement requirements
+
+- Natural foot placement.
+- No sliding.
+- No teleportation.
+- Consistent sprite scale.
+- Correct combat-plane alignment.
+
+---
+
+# PHASE 4 — INTIMIDATION PAUSE
+
+Saito occasionally stops within threatening distance and does nothing.
+
+### Initial duration
+
+0.6–1.2 seconds.
+
+Allow slight variation.
+
+### Purpose
+
+Bait impatient players into initiating attacks.
+
+### Possible outcomes
+
+- Continue standing.
+- Raise guard.
+- Prepare a counter.
+- Begin a kick combination.
+- Advance again.
+- Reposition.
+
+### Important
+
+The pause must not secretly grant automatic counter success.
+
+Saito must still satisfy normal defensive eligibility.
+
+Do not allow indefinite inactivity.
+
+---
+
+# PHASE 5 — NEUTRAL AI DECISION WEIGHTS
+
+When Saito is actionable at close-to-medium range:
+
+| Action | Initial relative weight |
+|---|---:|
+| Controlled advance | 25% |
+| Intimidation pause | 25% |
+| Guard preparation | 20% |
+| Three-kick combination | 20% |
+| Flying kick | 10% |
+
+These are relative decision weights among eligible actions, not percentages of all gameplay time.
+
+### Important
+
+Incoming threats use a separate defensive-response evaluation.
+
+Do not let neutral decision-making prevent legitimate counter or anti-air opportunities.
+
+If the player remains passive for too long, gradually increase Saito's willingness to initiate offense.
+
+---
+
+# PHASE 6 — FRONTAL BLOCKING
+
+Saito should be substantially more effective at blocking than ordinary enemies.
+
+### Initial Normal difficulty probabilities
+
+| Situation | Guard attempt chance |
+|---|---:|
+| Eligible ordinary frontal attack | 35–45% |
+| Repeated predictable attack string | 50–60% |
+| Attack from behind | 0% |
+| Mandatory recovery | 0% |
+| Knockdown or stun | 0% |
+
+### Blocking behavior
+
+1. Recognize an observable incoming attack.
+2. Verify Saito is actionable.
+3. Verify attack eligibility.
+4. Raise guard with a visible animation.
+5. Resolve incoming contact through the existing block system.
+6. Apply chip damage and appropriate guard pressure.
+7. Return to stance or continue guarding briefly.
+
+### Requirements
+
+- Blocking is directional.
+- Blocking consumes or stresses the existing guard resource where applicable.
+- No blocking attacks from behind.
+- No instant guard during recovery.
+- No blocking explicitly unblockable attacks.
+- No automatic counter after every successful block.
+
+### Important
+
+Saito must still take chip damage when blocking eligible attacks.
+
+---
+
+# PHASE 7 — COUNTER SYSTEM
+
+Saito should use a dedicated defensive counter-selection layer built on the existing combat system.
+
+### Initial probabilities
+
+| Situation | Counter attempt chance |
+|---|---:|
+| Eligible ordinary punch or kick | 20–25% |
+| Repeated predictable attack | 30–35% |
+| Eligible frontal grab attempt | 10–15% |
+
+These probabilities are evaluated only when the counter is eligible.
+
+### Restrictions
+
+- No counters from behind.
+- No counters during recovery.
+- No counters while stunned.
+- No counters while knocked down.
+- No counters during committed attacks.
+- No counters against explicitly uncounterable moves.
+- No automatic counter success based solely on probability.
+
+### Important
+
+The AI first decides whether to attempt a counter.
+
+The counter must then succeed through actual timing and collision eligibility.
+
+---
+
+# PHASE 8 — PUNCH COUNTER
+## INTERCEPTING PALM STRIKE
+
+### Trigger
+
+An eligible frontal punch approaches while Saito is actionable.
+
+### Animation
+
+1. Saito shifts slightly off the punch line.
+2. He catches or redirects the attacking wrist.
+3. He controls the opponent's arm.
+4. He rotates his hips.
+5. He drives a powerful palm strike into the hero's torso.
+6. The hero staggers backward.
+7. Saito releases the arm.
+8. He returns to stance.
+
+### Properties
+
+- High counter damage.
+- Strong standing stagger.
+- Moderate pushback.
+- No automatic knockdown unless the existing counter definition explicitly permits it.
+
+### Requirements
+
+- Continuous hand-to-arm contact.
+- Correct synchronized animation.
+- No teleportation.
+- No invisible counter damage.
+- Punishable failure.
+
+---
+
+# PHASE 9 — KICK COUNTER
+## LEG DEFLECTION AND RETALIATORY KICK
+
+### Trigger
+
+An eligible frontal kick approaches.
+
+### Animation
+
+1. Saito intercepts or deflects the incoming leg.
+2. He shifts his body away from the strike.
+3. He pivots.
+4. He delivers a powerful retaliatory kick.
+5. The hero is knocked backward.
+6. Saito returns to stance.
+
+### Properties
+
+- High damage.
+- Strong knockback.
+- Knockdown on eligible clean counter impact.
+
+### Important
+
+The hero's kicking leg must visibly be intercepted before Saito retaliates.
+
+Do not automatically apply counter damage at the beginning of the animation.
+
+---
+
+# PHASE 10 — GRAB REVERSAL
+## MARTIAL-ARTS REVERSAL THROW
+
+### Trigger
+
+An eligible frontal player grab attempt.
+
+### Initial probability
+
+10–15%.
+
+### Cooldown
+
+8–10 seconds.
+
+### Animation
+
+1. Saito recognizes the approaching grab.
+2. He redirects the hero's arm or upper body.
+3. He pivots.
+4. He uses the hero's momentum to execute a short reversal throw.
+5. The hero lands.
+6. Saito releases and returns to stance.
+
+### Restrictions
+
+- Frontal grabs only.
+- No automatic reversal of rear grabs.
+- No reversal during recovery.
+- No reversal after the player's grab has already been successfully confirmed and synchronized.
+- No reversal against explicitly protected grabs.
+
+### Important
+
+Grabs must remain one of Saito's primary weaknesses.
+
+---
+
+# PHASE 11 — COUNTER DAMAGE AND RECOVERY
+
+Saito's counters should be highly damaging but remain below Niko's strongest successful manual counters.
+
+### Failed-counter recovery
+
+18–24 frames.
+
+### Requirements
+
+- Failed counter attempts create real vulnerability.
+- No instant guard after a failed counter.
+- No instant second counter.
+- No armor during failure recovery.
+- No automatic tracking after commitment.
+
+### Counter cooldown
+
+4–5 seconds for ordinary strike counters.
+
+### Important
+
+Players should be able to bait Saito into an unsuccessful counter and punish him.
+
+---
+
+# PHASE 12 — THREE-KICK COMBINATION
+
+## Required sequence
+
+1. Front Kick.
+2. Turning Kick.
+3. Spinning Heel Kick.
+
+### Initial frame data at 60 FPS
+
+| Strike | Startup | Active | Transition / recovery |
+|---|---:|---:|---:|
+| Front Kick | 14 | 4 | 7 transition |
+| Turning Kick | 17 | 5 | 8 transition |
+| Spinning Heel Kick | 22 | 6 | 32 final recovery |
+
+### Animation
+
+#### Hit 1 — Front Kick
+
+Saito steps forward and delivers a fast front kick to the hero's torso.
+
+#### Hit 2 — Turning Kick
+
+He rotates his hips and delivers a powerful turning kick to the midsection.
+
+#### Hit 3 — Spinning Heel Kick
+
+He performs a committed spinning heel kick toward the hero's upper body.
+
+### Final effect
+
+Knockdown on eligible clean hit.
+
+### Requirements
+
+- Separate hitboxes.
+- Separate damage events.
+- Correct kick reach.
+- No guaranteed continuation after an invalid opener.
+- No automatic tracking after commitment.
+- No attack armor.
+- Punishable recovery.
+
+### Critical weakness
+
+A successful player counter against the combination must interrupt the sequence.
+
+Do not allow Saito to continue attacking through a valid counter.
+
+---
+
+# PHASE 13 — FLYING KICK
+
+## Purpose
+
+Threaten players at medium range and punish excessive retreating.
+
+### Initial frame data
+
+| Property | Value |
+|---|---:|
+| Startup | 23 frames |
+| Active | 7 frames |
+| Recovery | 36 frames |
+| Cooldown | 5–7 seconds |
+| Armor | None |
+| Knockdown | Yes on clean hit |
+
+### Animation
+
+1. Saito plants his feet.
+2. He lowers his stance.
+3. He launches forward.
+4. He extends a powerful flying side kick.
+5. He travels through a controlled aerial arc.
+6. He lands naturally.
+7. He enters recovery.
+
+### Trigger conditions
+
+- Player repeatedly retreats.
+- Player is at medium range.
+- Player has missed a committed attack.
+- Player has remained passive at a suitable distance.
+
+### Important
+
+- No homing after launch.
+- No teleportation.
+- No sprite scaling.
+- No combat-plane drift.
+- No attack armor.
+- Missed flying kicks must be punishable.
+
+---
+
+# PHASE 14 — BLITZ INTERCEPTING KICK
+## NEW DEFENSIVE MOVE
+
+### Purpose
+
+Occasionally intercept eligible frontal Blitz attacks.
+
+### Animation
+
+1. Saito recognizes an already committed Blitz.
+2. He plants his supporting foot.
+3. He raises his lead knee.
+4. He extends a powerful side kick into the approaching hero.
+5. The kick contacts the hero if the timing and collision are valid.
+6. The hero receives knockback or knockdown according to the attack interaction.
+7. Saito retracts his leg.
+8. He enters recovery.
+
+### Initial frame data
+
+| Property | Value |
+|---|---:|
+| Startup | 13 frames |
+| Active | 5 frames |
+| Recovery | 30 frames |
+| Cooldown | 6 seconds |
+| Damage | High |
+| Knockback | Strong |
+| Armor | None |
+
+### Initial attempt probability
+
+15–20% against eligible frontal Blitz attacks.
+
+### Eligibility
+
+- Blitz is visibly committed.
+- Saito faces the hero.
+- Correct distance.
+- Correct combat-plane alignment.
+- Saito actionable.
+- Cooldown ready.
+- AI Director permits the response.
+
+### Important
+
+The intercepting kick must not automatically defeat every Blitz.
+
+Resolve the interaction through existing hitbox, attack-priority, armor, and invulnerability rules.
+
+Broxton's Iron Will must retain its established effects.
+
+---
+
+# PHASE 15 — BLITZ BLOCKING
+
+Saito may attempt to guard against eligible frontal Blitz attacks.
+
+### Initial guard-attempt probability
+
+25–35%.
+
+### Requirements
+
+- Blitz must be blockable.
+- Saito must be actionable.
+- Guard must begin before impact.
+- Apply chip damage.
+- Apply substantial defense-meter pressure.
+- Apply meaningful pushback.
+- Preserve explicit guard-breaking properties.
+
+### Important
+
+A blocked Blitz must not automatically trigger a high-damage counter.
+
+Do not block Blitz attacks explicitly designated unblockable.
+
+---
+
+# PHASE 16 — BLITZ DEFENSIVE DECISION
+
+When an eligible frontal Blitz approaches, Saito may choose:
+
+- Guard.
+- Intercepting Side Kick.
+- Evasion.
+- No successful defensive response.
+
+### Requirements
+
+Select one response per incoming Blitz commitment.
+
+Do not repeatedly roll until a defense succeeds.
+
+Do not instantly switch defenses if the selected response fails.
+
+### Important
+
+Most well-timed, well-positioned Blitz attacks should remain effective.
+
+---
+
+# PHASE 17 — DEFENSE AGAINST UNBLOCKABLE SPECIALS
+
+## Core rule
+
+**Saito must not block specials that are explicitly unblockable.**
+
+He should respond through positioning, evasion, or legitimate startup interruption.
+
+### Available responses
+
+#### Sidestep
+
+Move out of the path of a directional special before contact.
+
+#### Controlled retreat
+
+Move backward from short-range specials when sufficient space exists.
+
+#### Startup interruption
+
+Attempt a legitimate attack during the hero's vulnerable special startup.
+
+### Initial response-attempt probability
+
+15–25% against eligible telegraphed specials.
+
+### Requirements
+
+- No automatic special immunity.
+- No universal special counter.
+- No blocking unblockable attacks.
+- No evasion after an attack has already connected.
+- No instant teleportation.
+- No perfect input prediction.
+
+### Important
+
+A special that successfully connects must resolve normally.
+
+---
+
+# PHASE 18 — SPECIAL-ATTACK RESPONSE TABLE
+
+| Special type | Preferred response |
+|---|---|
+| Short-range unblockable | Retreat or sidestep |
+| Directional dash special | Sidestep before contact |
+| Long-range projectile | Reposition when telegraph permits |
+| Wide-area special | Attempt to leave the affected area |
+| Committed aerial special | Rising High Kick if eligible |
+| Synchronized grab special | Respect grab eligibility |
+| Already-active unavoidable attack | Take the hit if no valid defense remains |
+
+### Important
+
+Do not grant Saito the ability to escape a confirmed synchronized grab special.
+
+---
+
+# PHASE 19 — RISING HIGH KICK ANTI-AIR
+## NEW MOVE
+
+### Purpose
+
+Punish predictable aerial approaches.
+
+### Animation
+
+1. Saito recognizes the airborne threat.
+2. He shifts his weight onto his supporting leg.
+3. He raises his knee.
+4. He executes a powerful rising high kick.
+5. The kick intersects the hero's aerial path.
+6. The hero receives appropriate airborne knockback.
+7. Saito retracts his leg.
+8. He returns to stance.
+
+### Initial frame data
+
+| Property | Value |
+|---|---:|
+| Startup | 15 frames |
+| Active | 6 frames |
+| Recovery | 29 frames |
+| Cooldown | 2 seconds |
+| Damage | Moderate–high |
+| Armor | None |
+
+### Initial attempt probability
+
+25–35% against eligible aerial approaches.
+
+### Requirements
+
+- Player visibly airborne.
+- Correct distance.
+- Correct combat-plane alignment.
+- Saito actionable.
+- Cooldown ready.
+- AI Director permits attack.
+- No automatic response to every jump.
+- No anti-air while knocked down or recovering.
+
+### Important
+
+The kick must remain grounded and controlled.
+
+Do not turn it into an acrobatic jumping attack.
+
+---
+
+# PHASE 20 — DEFENSIVE COMMITMENT
+## CRITICAL FAIRNESS SYSTEM
+
+Once Saito commits to a defensive response, he cannot instantly switch to another response because the player changes tactics.
+
+### Examples
+
+If Saito commits to Intercepting Kick:
+
+- He must complete the kick.
+- If the player avoids it, he misses.
+- He enters recovery.
+- The player may punish.
+
+If Saito commits to Sidestep:
+
+- He cannot instantly reverse direction.
+- He must complete the movement.
+- He cannot automatically guard the next attack during the same action.
+
+If Saito commits to Counter:
+
+- He must attempt the counter.
+- If no valid attack arrives, he fails.
+- He enters punishable recovery.
+
+### Important
+
+No perfect defensive adaptation after commitment.
+
+No instant defense chaining.
+
+---
+
+# PHASE 21 — DEFENSIVE COOLDOWNS
+
+### Initial Normal values
+
+| Action | Cooldown |
+|---|---|
+| Ordinary guard | Existing guard recovery |
+| Strike counter | 4–5 seconds |
+| Grab reversal | 8–10 seconds |
+| Blitz Intercepting Kick | 6 seconds |
+| Special evasion | 5–7 seconds |
+| Rising High Kick | 2 seconds |
+
+### Important
+
+Cooldowns must not reset through knockdowns, animation cancellations, or AI state changes

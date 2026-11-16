@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass
+ok 1 - stretched scenery fails; correct source crop and reviewed perspective pass
+  ---
+  duration_ms: 1.5014
+  type: 'test'
+  ...
+# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid
+ok 2 - miniature adult and undersized forklift flag review; real perspective remains valid
+  ---
+  duration_ms: 0.1953
+  type: 'test'
+  ...
+# Subtest: floating get-up flags; grounded and real aerial motion pass
+ok 3 - floating get-up flags; grounded and real aerial motion pass
+  ---
+  duration_ms: 0.1928
+  type: 'test'
+  ...
+# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly
+ok 4 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly
+  ---
+  duration_ms: 0.3008
+  type: 'test'
+  ...
+# Subtest: missing recovery, missing completion and detached doorway detected
+ok 5 - missing recovery, missing completion and detached doorway detected
+  ---
+  duration_ms: 0.3168
+  type: 'test'
+  ...
+# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable
+ok 6 - release gate fails closed; unexecuted/missing visual evidence never becomes stable
+  ---
+  duration_ms: 0.8317
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 90.1183

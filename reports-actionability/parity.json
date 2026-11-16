@@ -1,0 +1,13 @@
+{
+  "baseline": "167b3cd7c36d440b90bd0a26aef6742a358ef555",
+  "sourceOutsideResolverUnchanged": true,
+  "otherDistFilesUnchanged": true,
+  "changedDistFiles": [
+    "dist/continuity296.js",
+    "dist/index.html"
+  ],
+  "cases": 192,
+  "snapshots": 40320,
+  "result": "passed",
+  "scope": "Exact selected actor/action/damage/reaction/position/timer trajectories. Four modes: direct heavy, knockdown, native opener, native AI. Not exhaustive all-move certification."
+}

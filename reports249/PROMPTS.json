@@ -1,0 +1,20 @@
+{
+  "method": "Built-in image tool; crops/alpha normalization are technical import only.",
+  "sources": [
+    "art-source249/broxton-motion.png",
+    "art-source249/niko-motion.png",
+    "art-source249/nova-motion.png",
+    "art-source249/orion-motion.png",
+    "art-source249/orionLeft-motion.png",
+    "art-source249/reina-motion.png"
+  ],
+  "shared": "Transparent4columns2rows full-body atlas, exact existing hero identity/outfit/colors, fixed proportions and detailed16-bit finish, two connected arms, no drawn weapons; empty authored grip points for code-native props. Top row knife anticipation/early/late/recovery; bottom row long anticipation/early/late/recovery.",
+  "heroes": {
+    "reina": "Skilled knife hyper slash; average long cross swing.",
+    "broxton": "Poor short stab. Final bottom row: step-forward TWO-HANDED BASEBALL CROSS SWING, rear shoulder load, forward boot step and hip rotation, horizontal chest-height sweep, opposite-shoulder follow-through. Keep top row unchanged.",
+    "nova": "Awkward downward knife slash and wild overcommitted long sweep.",
+    "niko": "Average diagonal slice and downward chop. Edited open palms to empty closed grips while preserving poses.",
+    "orion": "Deliberate clumsy diagonal knife cut and long chop. Robotic RIGHT hand, human LEFT hand, yellow visor and right face metal. Separate left-facing anatomy. Final long contact extends gripping arm forward at lower chest height."
+  },
+  "review": "New candidates require human artistic review; no baseline promotion."
+}

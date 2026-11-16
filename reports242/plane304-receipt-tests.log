@@ -1,0 +1,24 @@
+✔ collision: missing Git/repository/commit remain unavailable and skip source checks (1.778797ms)
+✔ collision: matching available proofs pass with hashes and correct comparator (1.425267ms)
+✔ collision: missing blob is unavailable; available mismatch/error remains failed (1.893208ms)
+✔ collision: unexpected Git errors and malformed object responses fail closed (0.274441ms)
+✔ collision: behavioral assertions still execute on unavailable/failed/thrown receipt checks (0.653581ms)
+✔ collision: real behavioral failure is saved and not hidden by missing receipts (0.206219ms)
+✔ height: missing Git/repository/commit remain unavailable and skip source checks (0.172999ms)
+✔ height: matching available proofs pass with hashes and correct comparator (0.206239ms)
+✔ height: missing blob is unavailable; available mismatch/error remains failed (0.407301ms)
+✔ height: unexpected Git errors and malformed object responses fail closed (0.201182ms)
+✔ height: behavioral assertions still execute on unavailable/failed/thrown receipt checks (0.164757ms)
+✔ height: real behavioral failure is saved and not hidden by missing receipts (0.088052ms)
+✔ collision: mismatch wins over another unavailable source (0.888662ms)
+✔ height: fixed supplied-renderer contract detects a real height deviation (395.065482ms)
+✔ height: missing/malformed historical height function is not a successful proof (0.129114ms)
+✔ release keeps a critical historical gate separate from runnable behavior (0.662864ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 496.418641

@@ -1,0 +1,149 @@
+{
+  "kind": "Audit-only eviction model, no source repair",
+  "cases": [
+    {
+      "type": "thug",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "thug",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "knifeThug",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "knifeThug",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "enforcer",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "enforcer",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "biker",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "biker",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "sato",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "sato",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "akari",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "akari",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "flint",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "flint",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "bouncer",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "bouncer",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "broxton",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "broxton",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "forest",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "forest",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    },
+    {
+      "type": "reina",
+      "variant": "idle-clock",
+      "identicalPNG": true
+    },
+    {
+      "type": "reina",
+      "variant": "hit-flash",
+      "identicalPNG": true
+    }
+  ],
+  "performance": [
+    {
+      "actors": 1,
+      "mode": "time-scoped sharing model",
+      "samples": 60,
+      "meanMs": 0.6566666667660077,
+      "medianMs": 0.5999999940395355,
+      "p95Ms": 0.7999999821186066,
+      "maxMs": 3.699999988079071,
+      "scope": "Headless actor CPU-wall cost, identical inputs share within a frame; not full-game/hardware certification"
+    },
+    {
+      "actors": 4,
+      "mode": "time-scoped sharing model",
+      "samples": 60,
+      "meanMs": 0.8366666664679845,
+      "medianMs": 0.6000000238418579,
+      "p95Ms": 3.0999999940395355,
+      "maxMs": 5.4000000059604645,
+      "scope": "Headless actor CPU-wall cost, identical inputs share within a frame; not full-game/hardware certification"
+    },
+    {
+      "actors": 8,
+      "mode": "time-scoped sharing model",
+      "samples": 60,
+      "meanMs": 0.8383333335320154,
+      "medianMs": 0.699999988079071,
+      "p95Ms": 3.4000000059604645,
+      "maxMs": 4,
+      "scope": "Headless actor CPU-wall cost, identical inputs share within a frame; not full-game/hardware certification"
+    }
+  ],
+  "errors": [],
+  "completed": true
+}

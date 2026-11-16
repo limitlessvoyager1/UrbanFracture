@@ -1,0 +1,348 @@
+{
+  "rows": [
+    {
+      "label": "forest177",
+      "args": [
+        "tests/forest177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 six revised moves x2 facings x30/60/120Hz: protection, vulnerable recovery, fixed lanes, exact budgets, timed events, standing leg finish, independent Gunner, cleanup\nPASS177 vulnerable hold/startup/recovery, no damage debt, unavailable special no cost, solo overhead18\n",
+      "stderr": "",
+      "elapsedMs": 4916,
+      "passed": true
+    },
+    {
+      "label": "forest-balance177",
+      "args": [
+        "tests/forest-balance177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 confirmed guard bypass/offlane exclusion,5-bolt40/28/20 piercing budgets18% chip,poison power/guard,30% delayed defenses,standard/rawSony/DSX all6 grabs\n",
+      "stderr": "",
+      "elapsedMs": 867,
+      "passed": true
+    },
+    {
+      "label": "forest-protection177",
+      "args": [
+        "tests/forest-protection177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 cleanup36 forced cases, ordinary strikes/grabs/projectiles rejected, capped nonqueued fire heat, Gunner stun and independent finish, poison categories/no stack/expiry, finite theft\nPASS177 all4 Gunner modes: identical scripted damage and automatic cooldowns preserved\n",
+      "stderr": "",
+      "elapsedMs": 11964,
+      "passed": true
+    },
+    {
+      "label": "forest-fixture177",
+      "args": [
+        "tests/forest-fixture177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS Forest fixture/current runtime 343 checks; isolated imports, 36 mirrored/rate timing cases, 12 native-HP + 12 lethal cases, energy and ownership\n",
+      "stderr": "",
+      "elapsedMs": 10151,
+      "passed": true
+    },
+    {
+      "label": "grapples301",
+      "args": [
+        "tests/grapples301.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "grapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS grapple behavioral 22791\n",
+      "stderr": "",
+      "elapsedMs": 6353,
+      "passed": true
+    },
+    {
+      "label": "nightshade258",
+      "args": [
+        "tests/nightshade258.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS258 11320 all4 moves × both facings ×30/60/120Hz, exact contacts, shared sync/contest, vulnerable beatdown/recovery, cleanup, collision, lethality.\nPASS258 ARENAS 12376 also native222 tracking/bounds, post-get-up protection/expiry, checkpoint cleanup.\nPASS258 TARGETS 12568 12 native target archetypes ×4 directional moves, no lingering references or damage changes.\n",
+      "stderr": "",
+      "elapsedMs": 7486,
+      "passed": true
+    },
+    {
+      "label": "repairs330",
+      "args": [
+        "tests/repairs330.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n",
+      "stderr": "",
+      "elapsedMs": 947,
+      "passed": true
+    },
+    {
+      "label": "crowd303",
+      "args": [
+        "tests/crowd303.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS crowd behavioral 163200\n",
+      "stderr": "",
+      "elapsedMs": 29867,
+      "passed": true
+    },
+    {
+      "label": "niko284",
+      "args": [
+        "tests/niko284.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "Niko284: 1245 assertions passed\n",
+      "stderr": "",
+      "elapsedMs": 16289,
+      "passed": true
+    },
+    {
+      "label": "niko283",
+      "args": [
+        "tests/niko283.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS283 55061 native paired steps, all ordinary families, both facings at30/60/120Hz, actual contacts, floor/facing/death/interruption cleanup and hidden-hit rejection\n",
+      "stderr": "",
+      "elapsedMs": 33572,
+      "passed": true
+    },
+    {
+      "label": "reverse285",
+      "args": [
+        "tests/reverse285.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS285 135812 all native practice enemies, both directions, 30/60/120Hz, shared head, floor, once-only impact and cleanup\n",
+      "stderr": "",
+      "elapsedMs": 10641,
+      "passed": true
+    },
+    {
+      "label": "broxton179",
+      "args": [
+        "tests/broxton179.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS179 three throws x2 facings x30/60/120: damage, retained backbreaker grip, protection, recovery, cleanup, grounded plane\nPASS179 vulnerable startup/recovery and interrupted session cleanup\nPASS179 3s release-only Iron Will, one half reduction, hazards, grab resistance, death, 75s post-expiry CD, room/pause persistence\nPASS179 four separate confirmed combo presses,40 total, final standing stagger, whiff cannot continue\nPASS179 clothesline fixed170 travel,64/48 damage, one hit each, lane exclusion, cooldown at30/60/120\nPASS179 thrown-body collision once/offlane/staging exclusions, armor time continues in protected throws, bullets remain half damage\n",
+      "stderr": "",
+      "elapsedMs": 1590,
+      "passed": true
+    },
+    {
+      "label": "shield181",
+      "args": [
+        "tests/shield181.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS179 three throws x2 facings x30/60/120: damage, retained backbreaker grip, protection, recovery, cleanup, grounded plane\nPASS179 vulnerable startup/recovery and interrupted session cleanup\nPASS179 3s release-only Iron Will, one half reduction, hazards, grab resistance, death, 75s post-expiry CD, room/pause persistence\nPASS179 four separate confirmed combo presses,40 total, final standing stagger, whiff cannot continue\nPASS179 clothesline fixed170 travel,64/48 damage, one hit each, lane exclusion, cooldown at30/60/120\nPASS179 thrown-body collision once/offlane/staging exclusions, armor time continues in protected throws, bullets remain half damage\nPASS181 shield startup, outward orientation without reclassification, one physical frontal interception, fall/recovery at30/60/120Hz x2facings x2grab orientations\nPASS181 startup/rear/physical side bypass/reposition damage and interruption; in-arc attack without a collision cannot intercept\nPASS181 actual firearm ammo/one shot, moving taser and knife paths intercepted once without duplicate player damage\nPASS1812.5s escape, zero-damage/nonstagger early shove and short recovery; one-width cumulative reposition without orientation/timer resets\nPASS181 separate Iron Will half damage, no new immunity/timer extension, and all hold cleanup paths\nPASS181 universal two-second dodge retained for all4 heroes\nPASS181 delayed30/70 mixed AI responses with pressure budget, no timer cycling, rear lethal defeat, standard/raw Sony/DSX held transition and early release\nPASS181 real acid DOT remains full damage through Iron Will/tactical hold; sticky ground breaks the hold\nPASS181 tactical hold cannot defer lethal cabin fire, including during Iron Will\nPASS181 persistent weapon contact is consumed by the captive and cannot retry the same strike against Broxton\n",
+      "stderr": "",
+      "elapsedMs": 1938,
+      "passed": true
+    },
+    {
+      "label": "legthrow286",
+      "args": [
+        "tests/legthrow286.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS286 178190 23 native enemies, all132 frames, both directions,30/60/120Hz, shared contacts, snap, recovery, eligibility and cleanup\n",
+      "stderr": "",
+      "elapsedMs": 19396,
+      "passed": true
+    },
+    {
+      "label": "ai-decision-reasons",
+      "args": [
+        "tests/ai-decision-reasons.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS AI decision reasons 353 checks; same-time identity correlation, native history, direct/nested calls, missing reasons and lifecycle purity\n",
+      "stderr": "",
+      "elapsedMs": 9072,
+      "passed": true
+    },
+    {
+      "label": "hitstun-eligibility",
+      "args": [
+        "tests/hitstun-eligibility.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n",
+      "stderr": "",
+      "elapsedMs": 3135,
+      "passed": true
+    },
+    {
+      "label": "direct-start-director-admission",
+      "args": [
+        "tests/direct-start-director-admission.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n",
+      "stderr": "",
+      "elapsedMs": 23371,
+      "passed": true
+    },
+    {
+      "label": "knockdown-admission",
+      "args": [
+        "tests/knockdown-admission.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n",
+      "stderr": "",
+      "elapsedMs": 8896,
+      "passed": true
+    },
+    {
+      "label": "energy316",
+      "args": [
+        "tests/energy316.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nPASS316 HERO / PICKUP INTEGRATION 168\nPASS316 ENERGY RESTORE / PRESETS 180\nPASS316 ENERGY SAFE MOVE PRICING / RESTART 189\nPASS316 DEFENSIVE COST OVERRIDES 199\nPASS316 DEFENSIVE INPUTS / ACTUAL DIAGNOSTICS 215\nPASS316 CAMPAIGN POLICY / EVENT OWNER 221\nPASS316 EXPLICIT FUTURE MOVE CLASSIFICATION 223\nPASS316 ACTUAL GRAPPLE ENERGY 249\n",
+      "stderr": "",
+      "elapsedMs": 1520,
+      "passed": true
+    },
+    {
+      "label": "reaction-deadline-metadata",
+      "args": [
+        "tests/reaction-deadline-metadata.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n",
+      "stderr": "",
+      "elapsedMs": 5807,
+      "passed": true
+    },
+    {
+      "label": "counter331-input",
+      "args": [
+        "tests/counter331-input.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS331 56 seven-hero keyboard and standard/rawSony/DSX counter inputs, ready and post-rise\n",
+      "stderr": "",
+      "elapsedMs": 1157,
+      "passed": true
+    },
+    {
+      "label": "controls260-input",
+      "args": [
+        "tests/controls260-input.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS260 INPUT 12 actual game.js pad pump: early L2→Attack buffers, Jump switches rear grip without jumping; standard/raw Sony/DSX simulated.\n",
+      "stderr": "",
+      "elapsedMs": 400,
+      "passed": true
+    },
+    {
+      "label": "gamepad.test",
+      "args": [
+        "tests/gamepad.test.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection\nPASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery\n",
+      "stderr": "",
+      "elapsedMs": 108,
+      "passed": true
+    },
+    {
+      "label": "combat274",
+      "args": [
+        "tests/combat274.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n",
+      "stderr": "",
+      "elapsedMs": 17749,
+      "passed": true
+    },
+    {
+      "label": "counters248",
+      "args": [
+        "tests/counters248.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n",
+      "stderr": "",
+      "elapsedMs": 67571,
+      "passed": true
+    },
+    {
+      "label": "plane304",
+      "args": [
+        "tests/plane304.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n",
+      "stderr": "",
+      "elapsedMs": 61700,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "executed": 26,
+    "passed": 26,
+    "failed": 0
+  },
+  "initialRun": "reports-grounded-surfaces/initial-behavior.json"
+}

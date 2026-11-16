@@ -1,0 +1,4122 @@
+{
+  "schema": 1,
+  "checkpoint": "checkpoint-before-casino-ai293",
+  "lastProductionCommit": "816960070ec4bb55243741bc19615b222d5b8d7d",
+  "suites": [
+    {
+      "id": "validator-self-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-validators.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "guarded-repair-self-tests",
+      "command": [
+        "node",
+        "tests/qa242-repair.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "image-certification",
+      "command": [
+        "python",
+        "tools/qa242/assets.py",
+        "--output",
+        "reports242/assets.json"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "screenshot-comparator-self-tests",
+      "command": [
+        "python",
+        "tests/qa242-compare.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "current-runtime-certification",
+      "command": [
+        "node",
+        "tests/qa242-runtime.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "scene-scale-certification",
+      "command": [
+        "node",
+        "tests/qa242-scenes.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "prior-fixes241",
+      "command": [
+        "node",
+        "tests/stabilization241.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "movement240",
+      "command": [
+        "node",
+        "tests/stabilization240.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "run-art240",
+      "command": [
+        "python",
+        "tests/run240-art.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "controller240",
+      "command": [
+        "node",
+        "tests/stadium240-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "lab-fire168",
+      "command": [
+        "node",
+        "tests/cabin168.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "lab-scientists166",
+      "command": [
+        "node",
+        "tests/lab-fighters166.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "casino192",
+      "command": [
+        "node",
+        "tests/casino192.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "campaign224",
+      "command": [
+        "node",
+        "tests/prison224-all.cjs"
+      ],
+      "framework": "existing-cross-system",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "PRISON224-results.json"
+      ]
+    },
+    {
+      "id": "subway238",
+      "command": [
+        "node",
+        "tests/subway238.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "stadium237",
+      "command": [
+        "node",
+        "tests/stadium237.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "security216-legacy",
+      "command": [
+        "node",
+        "tests/security216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "current216-legacy",
+      "command": [
+        "node",
+        "tests/current216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hydro243-progression",
+      "command": [
+        "node",
+        "tests/hydro243.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hydro243-view",
+      "command": [
+        "node",
+        "tests/hydro243-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hydro243-controller",
+      "command": [
+        "node",
+        "tests/hydro243-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "broxton244",
+      "command": [
+        "node",
+        "tests/broxton244.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "broxton244-controller",
+      "command": [
+        "node",
+        "tests/broxton244-controller.cjs"
+      ],
+      "framework": "controller-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "broxton244-view",
+      "command": [
+        "node",
+        "tests/broxton244-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "subway245",
+      "command": [
+        "node",
+        "tests/subway245.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "subway245-view",
+      "command": [
+        "node",
+        "tests/subway245-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "continuation246",
+      "command": [
+        "node",
+        "tests/continuation246.cjs"
+      ],
+      "framework": "cross-system-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grab-variants246",
+      "command": [
+        "node",
+        "tests/grab-variants246.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "subway-audio246",
+      "command": [
+        "node",
+        "tests/subway-audio246.cjs"
+      ],
+      "framework": "environment-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "worker-reaction246",
+      "command": [
+        "python",
+        "tests/worker-reaction246.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "subway247",
+      "command": [
+        "node",
+        "tests/subway247.cjs"
+      ],
+      "framework": "combat-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "subway247-view",
+      "command": [
+        "node",
+        "tests/subway247-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "counter-weapon248",
+      "command": [
+        "node",
+        "tests/counters248.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "combat-art248",
+      "command": [
+        "python",
+        "tests/art248.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "weapon-render248",
+      "command": [
+        "node",
+        "tests/counters248-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "weapon-proficiency249",
+      "command": [
+        "node",
+        "tests/weapons249.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "weapon-art249",
+      "command": [
+        "python",
+        "tests/art249.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "weapon-render249",
+      "command": [
+        "node",
+        "tests/weapons249-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "worker-crew250",
+      "command": [
+        "node",
+        "tests/workers250.cjs"
+      ],
+      "framework": "ai-behavior-validation",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "worker-regular233",
+      "command": [
+        "node",
+        "tests/workers233-regular.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "worker-heavy233",
+      "command": [
+        "node",
+        "tests/workers233-heavy.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "worker-grabs233",
+      "command": [
+        "node",
+        "tests/workers233-grabs.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "worker-integration233",
+      "command": [
+        "node",
+        "tests/workers233-integration.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-foundation251",
+      "command": [
+        "node",
+        "tests/nightshade251.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-art252",
+      "command": [
+        "python",
+        "tests/nightshade252-art.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-input251",
+      "command": [
+        "node",
+        "tests/nightshade251-input.cjs"
+      ],
+      "framework": "controller-input",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-view252",
+      "command": [
+        "node",
+        "tests/nightshade252-view.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-repair252",
+      "command": [
+        "node",
+        "tests/nightshade252.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-size-quality253",
+      "command": [
+        "node",
+        "tests/nightshade253.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gun255",
+      "command": [
+        "node",
+        "tests/nightshade255.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gun-view255",
+      "command": [
+        "node",
+        "tests/nightshade255-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-ammo256",
+      "command": [
+        "node",
+        "tests/nightshade256.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-ammo-levels256",
+      "command": [
+        "node",
+        "tests/nightshade256-levels.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-ammo-view256",
+      "command": [
+        "node",
+        "tests/nightshade256-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-ammo-economy256",
+      "command": [
+        "node",
+        "tests/nightshade256-economy.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate4-melee257",
+      "command": [
+        "node",
+        "tests/nightshade257.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate4-input257",
+      "command": [
+        "node",
+        "tests/nightshade257-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate4-view257",
+      "command": [
+        "node",
+        "tests/nightshade257-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-directional258",
+      "command": [
+        "node",
+        "tests/nightshade258.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-directional-input258",
+      "command": [
+        "node",
+        "tests/nightshade258-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-directional-view258",
+      "command": [
+        "node",
+        "tests/nightshade258-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repair259-regressions",
+      "command": [
+        "node",
+        "tests/repair259.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade259-input-recovery",
+      "command": [
+        "node",
+        "tests/nightshade259.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "controls260-negative-fixtures",
+      "command": [
+        "node",
+        "tests/controls260-negative.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "controls260-policy",
+      "command": [
+        "node",
+        "tests/controls260.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "controls260-input",
+      "command": [
+        "node",
+        "tests/controls260-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "flint211-full",
+      "command": [
+        "node",
+        "tests/flint211.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fairways261-view-status",
+      "command": [
+        "node",
+        "tests/fairways261.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fairways196-progression",
+      "command": [
+        "node",
+        "tests/estates196.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fairways261-art-import",
+      "command": [
+        "python",
+        "tests/fairways261-art.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fairways-nightshade262",
+      "command": [
+        "node",
+        "tests/repair262.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repair262-asset-certification",
+      "command": [
+        "python",
+        "tests/repair262-art.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repair262-prone-view",
+      "command": [
+        "node",
+        "tests/repair262-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate6-263",
+      "command": [
+        "node",
+        "tests/nightshade263.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate6-input263",
+      "command": [
+        "node",
+        "tests/nightshade263-input.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate6-view263",
+      "command": [
+        "node",
+        "tests/nightshade263-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-gate7-264",
+      "command": [
+        "node",
+        "tests/nightshade264.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ]
+    },
+    {
+      "id": "nightshade-gate7-input264",
+      "command": [
+        "node",
+        "tests/nightshade264-input.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ]
+    },
+    {
+      "id": "nightshade-gate7-view264",
+      "command": [
+        "node",
+        "tests/nightshade264-view.cjs"
+      ],
+      "critical": true,
+      "profiles": [
+        "initial",
+        "release"
+      ]
+    },
+    {
+      "id": "playback265",
+      "command": [
+        "node",
+        "tests/playback265.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "playback265-input",
+      "command": [
+        "node",
+        "tests/playback265-input.cjs"
+      ],
+      "framework": "precision-playback",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "stats266",
+      "command": [
+        "node",
+        "tests/stats266.cjs"
+      ],
+      "framework": "character-statistics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade267",
+      "command": [
+        "node",
+        "tests/nightshade267.cjs"
+      ],
+      "framework": "nightshade-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "devmenu268",
+      "command": [
+        "node",
+        "tests/devmenu268.cjs"
+      ],
+      "framework": "controller-input-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina269",
+      "command": [
+        "node",
+        "tests/reina269.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina269-view",
+      "command": [
+        "node",
+        "tests/reina269-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina270",
+      "command": [
+        "node",
+        "tests/reina270.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina270-view",
+      "command": [
+        "node",
+        "tests/reina270-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion271-assets",
+      "command": [
+        "python",
+        "tests/orion271-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion271-view",
+      "command": [
+        "node",
+        "tests/orion271-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hook272",
+      "command": [
+        "node",
+        "tests/hook272.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hook272-view",
+      "command": [
+        "node",
+        "tests/hook272-view.cjs"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hook272-assets",
+      "command": [
+        "python",
+        "tests/hook272-assets.py"
+      ],
+      "framework": "combat-animation-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "combat274",
+      "command": [
+        "node",
+        "tests/combat274.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "combat274-view",
+      "command": [
+        "node",
+        "tests/combat274-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "combat274-assets",
+      "command": [
+        "python",
+        "tests/combat274-assets.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reaction-settings274",
+      "command": [
+        "node",
+        "tests/reaction-settings274.cjs"
+      ],
+      "framework": "developer-overrides",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "presentation275",
+      "command": [
+        "node",
+        "tests/presentation275.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "presentation275-assets",
+      "command": [
+        "python",
+        "tests/presentation275-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade276-runtime",
+      "command": [
+        "node",
+        "tests/nightshade276.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade276-input",
+      "command": [
+        "node",
+        "tests/nightshade276-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade276-view",
+      "command": [
+        "node",
+        "tests/nightshade276-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade276-water",
+      "command": [
+        "node",
+        "tests/nightshade276-water.cjs"
+      ],
+      "framework": "environment-simulation",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repair277-runtime",
+      "command": [
+        "node",
+        "tests/repair277.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repair277-assets",
+      "command": [
+        "python",
+        "tests/repair277-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina278-runtime",
+      "command": [
+        "node",
+        "tests/reina278.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina278-assets",
+      "command": [
+        "python",
+        "tests/reina278-assets.py"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina279-runtime",
+      "command": [
+        "node",
+        "tests/reina279.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina279-input",
+      "command": [
+        "node",
+        "tests/reina279-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina279-view",
+      "command": [
+        "node",
+        "tests/reina279-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina279-assets",
+      "command": [
+        "python",
+        "tests/reina279-assets.py"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review280-runtime",
+      "command": [
+        "node",
+        "tests/review280.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review280-input",
+      "command": [
+        "node",
+        "tests/review280-input.cjs"
+      ],
+      "framework": "input-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review280-assets",
+      "command": [
+        "python",
+        "tests/review280-assets.py"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review280-view",
+      "command": [
+        "node",
+        "tests/review280-view.cjs"
+      ],
+      "framework": "asset-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review280-levels",
+      "command": [
+        "node",
+        "tests/review280-levels.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review281-runtime",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281.cjs"
+      ],
+      "framework": "level-integrity"
+    },
+    {
+      "id": "review281-view",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281-view.cjs"
+      ],
+      "framework": "asset-animation-certification"
+    },
+    {
+      "id": "review281-assets",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "python",
+        "tests/review281-assets.py"
+      ],
+      "framework": "asset-animation-certification"
+    },
+    {
+      "id": "review281-baseline",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/review281-baseline.cjs"
+      ],
+      "framework": "level-integrity"
+    },
+    {
+      "id": "review282-runtime",
+      "command": [
+        "node",
+        "tests/review282.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review282-view",
+      "command": [
+        "node",
+        "tests/review282-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review282-assets",
+      "command": [
+        "python",
+        "tests/review282-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review282-water",
+      "command": [
+        "python",
+        "tests/review282-water.py"
+      ],
+      "framework": "environmental-simulation",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review282-baseline",
+      "command": [
+        "node",
+        "tests/review282-baseline.cjs"
+      ],
+      "framework": "level-integrity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "practice282",
+      "command": [
+        "node",
+        "tests/practice282.cjs"
+      ],
+      "framework": "cross-system-interaction",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "niko283-runtime",
+      "command": [
+        "node",
+        "tests/niko283.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "niko283-view",
+      "command": [
+        "node",
+        "tests/niko283-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "niko283-assets",
+      "command": [
+        "python",
+        "tests/niko283-assets.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "niko283-baseline",
+      "command": [
+        "node",
+        "tests/niko283-baseline.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "niko284-regression",
+      "command": [
+        "node",
+        "tests/niko284.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression"
+    },
+    {
+      "id": "niko284-view",
+      "command": [
+        "node",
+        "tests/niko284-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reverse-ddt285",
+      "command": [
+        "node",
+        "tests/reverse285.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reverse-ddt285-view",
+      "command": [
+        "node",
+        "tests/reverse285-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "legthrow286",
+      "command": [
+        "node",
+        "tests/legthrow286.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "legthrow286-view",
+      "command": [
+        "node",
+        "tests/legthrow286-view.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "legthrow286-assets",
+      "command": [
+        "python",
+        "tests/legthrow286-assets.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording287-runtime",
+      "command": [
+        "node",
+        "tests/recording287.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression"
+    },
+    {
+      "id": "recording287-pixels",
+      "command": [
+        "node",
+        "tests/recording287-render.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression"
+    },
+    {
+      "id": "recording287-assets",
+      "command": [
+        "python",
+        "tests/recording287-assets.py"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression"
+    },
+    {
+      "id": "recording287-view",
+      "command": [
+        "node",
+        "tests/recording287-view.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression"
+    },
+    {
+      "id": "recording287-baseline",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/recording287-baseline.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "framework": "existing-regression"
+    },
+    {
+      "id": "casino293",
+      "command": [
+        "node",
+        "tools/casino293/test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "review294",
+      "command": [
+        "node",
+        "tests/review294.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "ground294-world",
+      "command": [
+        "node",
+        "tools/review294/world-anchor.cjs"
+      ],
+      "framework": "animation-ground-contact",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "ground294-pixels",
+      "command": [
+        "node",
+        "tools/review294/render.cjs"
+      ],
+      "framework": "animation-ground-contact",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "continuity296-runtime",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/continuity296.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "continuity296-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/continuity296-view.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "continuity296-equivalence",
+      "command": [
+        "node",
+        "tools/continuity296/equivalence.cjs"
+      ],
+      "framework": "animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "attack297-runtime",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/attack297.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "attack297-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/attack297-view.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "attack297-equivalence",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tools/attack297/equivalence.cjs"
+      ],
+      "framework": "attack-animation-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reactions298-runtime",
+      "command": [
+        "node",
+        "tests/reactions298.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports298/runtime-validation.json",
+        "reports298/historical-receipts.json"
+      ]
+    },
+    {
+      "id": "reactions298-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/reactions298-view.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "knockdowns299-runtime",
+      "command": [
+        "node",
+        "tests/knockdowns299.cjs"
+      ],
+      "framework": "knockdown-and-getup-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "knockdowns299-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/knockdowns299-view.cjs"
+      ],
+      "framework": "knockdown-and-getup-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grapples301-runtime",
+      "command": [
+        "node",
+        "tests/grapples301.cjs"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grapples301-view-reap-thug",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "reap-thug"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grapples301-view-reap-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "reap-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grapples301-view-german-thug",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "german-thug"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grapples301-view-german-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "german-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grapples301-view-powerbomb-enforcer",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grapples301-view.cjs",
+        "powerbomb-enforcer"
+      ],
+      "framework": "synchronized-grapple-continuity",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "contact302-runtime",
+      "command": [
+        "node",
+        "tests/contact302.cjs"
+      ],
+      "framework": "contact-feedback",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "contact302-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/contact302-view.cjs"
+      ],
+      "framework": "contact-feedback",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "crowd303-runtime",
+      "command": [
+        "node",
+        "tests/crowd303.cjs"
+      ],
+      "framework": "crowd-coordination",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "crowd303-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/crowd303-view.cjs"
+      ],
+      "framework": "crowd-coordination",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-runtime",
+      "command": [
+        "node",
+        "tests/plane304.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-weapons",
+      "command": [
+        "node",
+        "tests/plane304-weapons.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-ui",
+      "command": [
+        "node",
+        "tests/plane304-ui.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/plane304-view.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-height",
+      "command": [
+        "node",
+        "tests/plane304-height.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-runtime",
+      "command": [
+        "node",
+        "tests/civilians305.cjs"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-source",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "source"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-subway",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "subway"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-mall",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "mall"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-fairways",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "fairways"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-spa",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "spa"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-uptown",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "uptown"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "civilians305-view-train",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/civilians305-view.cjs",
+        "train"
+      ],
+      "framework": "background-civilian-continuity",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording306-runtime",
+      "command": [
+        "node",
+        "tests/recording306.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording306-ai",
+      "command": [
+        "node",
+        "tests/recording306-ai.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording306-view",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/recording306-view.cjs"
+      ],
+      "framework": "mall-recording-regressions",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "diagnostics307-runtime",
+      "command": [
+        "node",
+        "tests/diagnostics307.cjs"
+      ],
+      "framework": "developer-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "diagnostics307-input",
+      "command": [
+        "node",
+        "tests/diagnostics307-input.cjs"
+      ],
+      "framework": "developer-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "diagnostics307-ui",
+      "command": [
+        "node",
+        "tests/diagnostics307-ui.cjs"
+      ],
+      "framework": "developer-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "quality308-A",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "A"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "quality308-B",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "B"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "quality308-C",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "C"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "quality308-D",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "D"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "quality308-E",
+      "command": [
+        "node",
+        "tests/quality308.cjs",
+        "E"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "quality308-specialists",
+      "command": [
+        "node",
+        "tests/quality308-specialists.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "airport309",
+      "command": [
+        "node",
+        "tests/airport309.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "airport310-progression",
+      "command": [
+        "node",
+        "tests/airport310-progression.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "style310-view",
+      "command": [
+        "node",
+        "tests/style310-view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "style310-native",
+      "command": [
+        "node",
+        "tests/style310-native.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "style310-mechanics",
+      "command": [
+        "node",
+        "tests/style310-mechanics.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "unique311-runtime",
+      "command": [
+        "node",
+        "tests/unique311.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "unique311-input",
+      "command": [
+        "node",
+        "tests/unique311-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "unique311-render",
+      "command": [
+        "node",
+        "tools/unique311/render.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording312-enemies",
+      "command": [
+        "node",
+        "tools/recording312/enemy-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording312-enemy-view",
+      "command": [
+        "node",
+        "tools/recording312/enemy-view-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording312-reina",
+      "command": [
+        "node",
+        "tools/recording312/reina-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording312-weather",
+      "command": [
+        "node",
+        "tools/recording312/weather-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording313-runtime",
+      "command": [
+        "node",
+        "tools/recording313/runtime-test.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "recording313-render",
+      "command": [
+        "node",
+        "tools/recording313/view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "stadium313-runtime",
+      "command": [
+        "node",
+        "tools/stadium313/runtime.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "stadium313-render",
+      "command": [
+        "node",
+        "tools/stadium313/render.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "enemy313-runtime",
+      "command": [
+        "node",
+        "tools/enemy313/runtime.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "enemy313-render",
+      "command": [
+        "node",
+        "tools/enemy313/view.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hospital314-runtime",
+      "command": [
+        "node",
+        "tests/hospital314.cjs"
+      ],
+      "framework": "level-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hospital314-render",
+      "command": [
+        "node",
+        "tools/hospital314/render.cjs"
+      ],
+      "framework": "level-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hospital315-runtime",
+      "command": [
+        "node",
+        "tests/hospital315.cjs"
+      ],
+      "framework": "mission-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "hospital315-render",
+      "command": [
+        "node",
+        "tools/hospital315/render.cjs"
+      ],
+      "framework": "mission-integration",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "pcbi316-combat",
+      "command": [
+        "node",
+        "tests/pcbi316-gates.cjs"
+      ],
+      "framework": "integration316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "feds316-runtime",
+      "command": [
+        "node",
+        "tests/feds316.cjs"
+      ],
+      "framework": "integration316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "energy316-runtime",
+      "command": [
+        "node",
+        "tests/energy316.cjs"
+      ],
+      "framework": "integration316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "pcbi316-art",
+      "command": [
+        "node",
+        "tools/pcbi316/check.cjs"
+      ],
+      "framework": "integration316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "feds316-render",
+      "command": [
+        "node",
+        "tools/feds316/render.cjs"
+      ],
+      "framework": "integration316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "energy316-baseline-comparison",
+      "command": [
+        "node",
+        "tools/energy316/balance.cjs"
+      ],
+      "framework": "integration316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "energy316-ui",
+      "command": [
+        "node",
+        "tests/energy316-ui.cjs"
+      ],
+      "framework": "developer-ui316",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "industrial317-runtime",
+      "command": [
+        "node",
+        "tests/industrial317.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "industrial317-render",
+      "command": [
+        "node",
+        "tools/industrial317/render.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "charge318-runtime",
+      "command": [
+        "node",
+        "tests/charge318.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "items319-runtime",
+      "command": [
+        "node",
+        "tests/items319.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "items319-loot-baseline",
+      "command": [
+        "node",
+        "tests/items319-loot.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "items319-render",
+      "command": [
+        "node",
+        "tools/items319/render.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reserve320-runtime",
+      "command": [
+        "node",
+        "tests/reserve320.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reserve320-ui",
+      "command": [
+        "node",
+        "tests/reserve320-ui.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reserve320-render",
+      "command": [
+        "node",
+        "tools/reserve320/render.cjs"
+      ],
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reserve320-equivalence",
+      "command": [
+        "node",
+        "tests/reserve320-equivalence.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "pickups321-runtime",
+      "command": [
+        "node",
+        "tests/pickups321.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repairs322-runtime",
+      "command": [
+        "node",
+        "tests/repairs322.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "repairs322-visual",
+      "command": [
+        "node",
+        "tools/repairs322/visual.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "phone323-ui",
+      "command": [
+        "node",
+        "tests/phone323-ui.cjs"
+      ],
+      "framework": "input-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "industrial324",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/industrial324.cjs"
+      ]
+    },
+    {
+      "id": "promptdrop325",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/promptdrop325.cjs"
+      ]
+    },
+    {
+      "id": "promptdrop325-ui",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/promptdrop325-ui.cjs"
+      ]
+    },
+    {
+      "id": "astro326",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/astro326.cjs"
+      ]
+    },
+    {
+      "id": "astro326-ui",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/astro326-ui.cjs"
+      ]
+    },
+    {
+      "id": "astro326-loaders",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/astro326-loaders.cjs"
+      ]
+    },
+    {
+      "id": "home327",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/home327.cjs"
+      ]
+    },
+    {
+      "id": "home327-ui",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/home327-ui.cjs"
+      ]
+    },
+    {
+      "id": "home327-data",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/home327-data.cjs"
+      ]
+    },
+    {
+      "id": "home328-ui",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "command": [
+        "node",
+        "tests/home328-ui.cjs"
+      ]
+    },
+    {
+      "id": "home338-navigation",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/home338.cjs"
+      ]
+    },
+    {
+      "id": "home338-input",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tools/home338/ui-flow.cjs"
+      ]
+    },
+    {
+      "id": "home338-weather",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tools/home338/weather.cjs"
+      ]
+    },
+    {
+      "id": "home338-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tools/home338/heroes.cjs"
+      ],
+      "generatedArtifacts": [
+        "reports338/four-heroes.png",
+        "reports338/hero-render-checks.json"
+      ]
+    },
+    {
+      "id": "home339-interactions",
+      "command": [
+        "node",
+        "tests/home339.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports339/restoration-checks.json"
+      ]
+    },
+    {
+      "id": "home339-integration",
+      "command": [
+        "node",
+        "tests/home339-extra.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports339/extra-checks.json"
+      ]
+    },
+    {
+      "id": "home339-ui",
+      "command": [
+        "node",
+        "tools/home339/ui.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": []
+    },
+    {
+      "id": "home339-assets",
+      "command": [
+        "python",
+        "tests/home339-art.py"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports339/art-checks.json"
+      ]
+    },
+    {
+      "id": "home339-render",
+      "command": [
+        "node",
+        "tools/home339/render.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports339/render-checks.json",
+        "reports339/visual/seven-heroes-seating.png"
+      ]
+    },
+    {
+      "id": "home339-replay",
+      "command": [
+        "node",
+        "tests/home339-replay.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports339/replay-checks.json"
+      ]
+    },
+    {
+      "id": "player-resources340",
+      "command": [
+        "node",
+        "tests/player-resources340.cjs"
+      ],
+      "framework": "combat-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "player-resources340-ui",
+      "command": [
+        "node",
+        "tests/player-resources340-ui.cjs"
+      ],
+      "framework": "combat-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grounded-crop-surfaces",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grounded-crop-surfaces.cjs"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "grounded-pose-cache",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/grounded-pose-cache.cjs"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-render-prerequisites",
+      "command": [
+        "node",
+        "tools/fighter-render/prerequisites.cjs"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-render-prerequisite-tests",
+      "command": [
+        "node",
+        "tests/fighter-render-prerequisites.cjs"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-render-bootstrap",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/fighter-render-bootstrap.cjs"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-grapples-forest",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "forest"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-grapples-niko",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "niko"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-grapples-broxton",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "broxton"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-grapples-nightshade",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "nightshade"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-grapples-shared",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "shared"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "fighter-render-shipping-browser",
+      "command": [
+        "node",
+        "tools/fighter-render/browser.cjs"
+      ],
+      "framework": "current-fighter-render",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "forest-grapples177",
+      "command": [
+        "node",
+        "tests/forest177.cjs"
+      ],
+      "framework": "forest-current-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "forest-protection177",
+      "command": [
+        "node",
+        "tests/forest-protection177.cjs"
+      ],
+      "framework": "forest-current-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "forest-balance177",
+      "command": [
+        "node",
+        "tests/forest-balance177.cjs"
+      ],
+      "framework": "forest-current-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "forest-fixture177",
+      "command": [
+        "node",
+        "tests/forest-fixture177.cjs"
+      ],
+      "framework": "forest-current-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "crowd-grapple-receipt-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/crowd-grapple-receipts.cjs"
+      ],
+      "framework": "crowd-grapple-source-provenance",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "crowd-grapple-historical-receipts",
+      "command": [
+        "node",
+        "tools/crowd-grapple/receipts.cjs"
+      ],
+      "framework": "crowd-grapple-source-provenance",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "ai-decision-reasons",
+      "command": [
+        "node",
+        "tests/ai-decision-reasons.cjs"
+      ],
+      "framework": "ai-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "direct-start-director-admission",
+      "command": [
+        "node",
+        "tests/direct-start-director-admission.cjs"
+      ],
+      "framework": "combat-state-transition",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reactions298-receipt-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/reactions298-receipts.cjs"
+      ],
+      "framework": "historical-source-evidence",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reactions298-historical-receipts",
+      "command": [
+        "node",
+        "tools/reactions298/receipts.cjs"
+      ],
+      "framework": "historical-source-evidence",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports298/historical-receipts.json"
+      ]
+    },
+    {
+      "id": "post-hit-reassessment",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "command": [
+        "node",
+        "tests/post-hit-reassessment.cjs"
+      ]
+    },
+    {
+      "id": "hitstun-eligibility",
+      "command": [
+        "node",
+        "tests/hitstun-eligibility.cjs"
+      ],
+      "framework": "hit-reactions-and-stun",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "knockdown-admission",
+      "command": [
+        "node",
+        "tests/knockdown-admission.cjs"
+      ],
+      "framework": "knockdown-recovery-admission",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "actionability-diagnostics",
+      "command": [
+        "node",
+        "tests/actionability-diagnostics.cjs"
+      ],
+      "framework": "combat-state-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reaction-deadline-metadata",
+      "command": [
+        "node",
+        "tests/reaction-deadline-metadata.cjs"
+      ],
+      "framework": "combat-state-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "playback-flight-diagnostics",
+      "command": [
+        "node",
+        "tests/playback-flight-diagnostics.cjs"
+      ],
+      "framework": "combat-state-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina-airborne-hurtbox",
+      "command": [
+        "node",
+        "tests/reina-airborne-hurtbox.cjs"
+      ],
+      "framework": "collision-projection",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "niko-phase-labels",
+      "command": [
+        "node",
+        "tests/niko-phase-labels.cjs"
+      ],
+      "framework": "combat-state-diagnostics",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-receipt-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/plane304-receipts.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "plane304-historical-receipts",
+      "command": [
+        "node",
+        "tools/plane304/receipts.cjs"
+      ],
+      "framework": "combat-plane-accuracy",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "downtown345-runtime",
+      "command": [
+        "node",
+        "tests/downtown345.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "downtown345-optional-rooms",
+      "command": [
+        "node",
+        "tests/downtown-rooms345.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade345-drone",
+      "command": [
+        "node",
+        "tests/nightshade345.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade346-choreography",
+      "command": [
+        "node",
+        "tests/nightshade346.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade346-authored-art",
+      "command": [
+        "node",
+        "tests/nightshade346-art.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade347-runtime",
+      "command": [
+        "node",
+        "tests/nightshade347.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade347-presentation",
+      "command": [
+        "node",
+        "tests/nightshade347-art.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade348-runtime",
+      "command": [
+        "node",
+        "tests/nightshade348.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade348-presentation",
+      "command": [
+        "node",
+        "tests/nightshade348-art.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade348-input",
+      "command": [
+        "node",
+        "tests/nightshade348-input.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade349",
+      "command": [
+        "node",
+        "tests/nightshade349.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade349-combat",
+      "command": [
+        "node",
+        "tests/nightshade349-combat.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "flint350",
+      "command": [
+        "node",
+        "tests/flint350.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "downtown350",
+      "command": [
+        "node",
+        "tests/downtown350.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade350",
+      "command": [
+        "node",
+        "tests/nightshade350.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade350-combat",
+      "command": [
+        "node",
+        "tests/nightshade350-combat.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "effects350",
+      "command": [
+        "node",
+        "tests/effects350.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "flint351",
+      "command": [
+        "node",
+        "tests/flint351.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "aerial351",
+      "command": [
+        "node",
+        "tests/aerial351.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "interactions351",
+      "command": [
+        "node",
+        "tests/interactions351.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade351",
+      "command": [
+        "node",
+        "tests/nightshade351.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade351-combat",
+      "command": [
+        "node",
+        "tests/nightshade351-combat.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "effects351",
+      "command": [
+        "node",
+        "tests/effects351.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "blitz352",
+      "command": [
+        "node",
+        "tests/blitz352.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade352",
+      "command": [
+        "node",
+        "tests/nightshade352.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade352-combat",
+      "command": [
+        "node",
+        "tests/nightshade352-combat.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade353",
+      "command": [
+        "node",
+        "tests/nightshade353.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade353-combat",
+      "command": [
+        "node",
+        "tests/nightshade353-combat.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "blitz353",
+      "command": [
+        "node",
+        "tests/blitz353.cjs"
+      ],
+      "framework": "native-runtime",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina354-palette",
+      "command": [
+        "node",
+        "tests/reina354-palette.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "katana355-render",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tools/katana355/check.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "broxton356-native-render",
+      "command": [
+        "node",
+        "--expose-gc",
+        "tools/broxton356/capture.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "release"
+      ],
+      "critical": true
+    }
+  ],
+  "manualGates": [
+    "approved-screenshots",
+    "art-style-review",
+    "all-moves-coverage",
+    "physical-dualsense",
+    "human-balance"
+  ],
+  "policy": "No failed test is waived by a known-issue entry. Release remains blocked until critical failures are resolved."
+}

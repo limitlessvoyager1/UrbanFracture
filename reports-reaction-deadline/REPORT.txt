@@ -1,0 +1,47 @@
+URBAN FRACTURE — STALE REACTION-DEADLINE METADATA REPAIR (A1-02)
+Date:2026-11-12
+Branch:fix/reaction-deadline-metadata
+Starting commit:a973216b910e63964f5b8400c1f8a517ba6d0999, cumulative repaired baseline.
+
+ROOT CAUSE
+combat274 initially records a hit's duration/until/reassessment. The later niko284 ordinary-enemy adjustment floors Marcus/Kevin hitstun to0.5seconds and updates the enforced actor deadline, duration and until, but previously left reaction274.reassessUntil stale. This module's ordinary rule applies across heroes, not just Niko.
+
+CORRECTION
+Copy the already-computed e.reassessUntil274 into the existing ordinary reaction receipt after the stun-floor adjustment. Do not recalculate, shorten or extend any actual combat deadline. Preserve the existing conditions and all force/grab/status/knockdown/synchronized behavior. Preserve the receipt's existing duration/until and damage data. No receipt is created where one did not previously exist.
+
+Example, fresh native Marcus at time0, medium4damage hit: actual stun0.5, receipt.until0.5, actual actor deadline0.5. Previously receipt.reassessUntil0.413333; now0.5. A heavy hit's existing0.566667deadline stays0.566667. If an earlier hit left a longer deadline, the receipt now reflects that unchanged effective deadline. No extra6/8/10post-floor frames are added.
+
+SCOPE / CONSUMERS
+The changed field is diagnostic; the shared admission guards use the actor deadline. Code search found no gameplay timer or renderer using receipt.reassessUntil as authority. Existing contact-time audit-event snapshots remain historical and are not rewritten. This does not unify all contact/final-state receipts or change other enemy families' per-hit descriptor policy. Niko palms post-damage launch receipt semantics (A1-03) remain separate.
+
+FILES CHANGED
+-dist/niko284.js: one metadata assignment and explanatory comment.
+-dist/index.html: niko284 cache token338-deadline-metadata.
+-tests/reaction-deadline-metadata.cjs: portable regression.
+-qa/system242/suites.json: initial/release critical registry entry.
+-tools/reaction-deadline/compare.cjs: optional local-baseline source/mechanical parity.
+-reports-reaction-deadline/{REPORT.txt,tests.json,parity.json}: evidence.
+-COMBAT_REPAIR_LOG.md: cumulative record.
+Source comparison confirms that removing exactly the new receipt field/comment reproduces baseline niko284 bytes; index differs only by the cache token; all other dist files are unchanged.
+
+REGRESSION TESTS
+New suite fails on the starting commit at 'ordinary metadata mirrors effective enforced deadline', then passes49,620checks after correction. It uses native Marcus/Kevin identity with all7heroes, light/medium/heavy categories,30/60/120Hz, absent or longer prior deadlines, actual lock expiry and both entry paths. Repeated hits retain a longer deadline. Force/grab/status/failed-hit receipts remain untouched; nonordinary and knockdown receipt policy stays unchanged. Expected actual deadline formula explicitly retains baseline behavior, preventing an incidental balance extension.
+
+All17top-level suites passed:
+reaction-deadline-metadata49620; actionability-diagnostics6805; continuity29630272; knockdown-admission89115; hitstun-eligibility19208; post-hit-reassessment1192; reactions298742; reactions298-receipts11; combat274; repairs330788; enemies210; martial212; counters248; flint211; gamepad.test; controller157; qa242-validators6.
+No final behavioral failures. Syntax, registry entry and diff-whitespace checks passed. Existing test assertions and historical proof normalizers were not weakened or changed.
+
+PRESERVATION EVIDENCE
+358before/after trajectories,73,080snapshots matched the actual starting commit. Cases include Reina/Niko vs8families at3rates for light/medium/heavy, knockdown, native opener and live AI; all7heroes vs2ordinary families for force/grab/status damage, longer prior deadlines and repeated hits. Compared selected HP/defense, movement/positions, action data/clock, physical timers, actual actor reassessment, wake/invulnerability and reaction fields other than the deliberately corrected reassessUntil metadata. Physical deadlines are included, not normalized away. See parity.json and tools/reaction-deadline/compare.cjs.
+
+HISTORICAL EVIDENCE / LIMITATIONS
+All9historical reaction receipts remain explicitly UNAVAILABLE because original reference3ecb645f0c84a4ea6117519a42f08de2bd001dda is absent; portable Git confirms this, strict CLI exits2. No historical equivalence claim. Any future restored historical proof must still pass its strict normalizer/mismatch checks; this repair does not waive that gate.
+No full release/campaign or physical-controller certification. Some older suites use narrower loaders; new tests/parity use the current production-order simulation. Optional Node canvas suite not run. No rendered gameplay rerun for this metadata-only change, and no visual correction claimed. Renderer/animation source and physical timing are unchanged. Existing prior visual evidence is not relabeled as verification of this commit. Plain JS requires no bundling/build compilation.
+
+REPEAT
+From project root: node tests/reaction-deadline-metadata.cjs
+Optional exact local-baseline parity: set UF_GIT to an available Git executable, then node tools/reaction-deadline/compare.cjs. The portable regression itself needs no historical Git commits.
+
+RISKS / INTEGRATION / NEXT ISSUE
+The principal risk was accidentally deriving a new clock from corrected metadata or replacing a longer effective deadline. The one-field copy, explicit expected-deadline tests, source check and baseline trajectories cover that risk. Prior approved repairs are retained; the verified scoped repair is integrated into the cumulative stable line on completion. Original archives/import remain recoverable. Update archive is a cumulative overlay, not a complete game export.
+Recommended next: audit A1-03 contact-time versus post-launch receipt semantics, beginning with native Niko palms. Define historical contact outcome versus final physical-state diagnostics before proposing code; preserve launch damage/physics/timing and keep architectural consolidation separate.

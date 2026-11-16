@@ -1,0 +1,662 @@
+{
+  "reason": "Hosting expanded-tar cap. Leading internal comments only; all executable body bytes unchanged. Headers retained here and prior Git checkpoint. Build267 restores/excludes melee257 and gun255 headers before intentional integration fixes. Build268 excludes modified playback-ui265. Build269 excludes intentionally modified combat/renderer modules. Build276 intentionally changes/excludes dist/nightshade-view251.js. Build277 intentionally changes/excludes dist/flint211.js, dist/paired-motion.js. Build278 excludes deliberately changed combo/contact/QA menu modules; originals remain in checkpoint. Build279 excludes deliberately edited grapple/Director/reaction source; originals remain in checkpoint. Build279 excludes the superseded special chord path. Build280 excludes intentionally edited slums/mall/weapon/gait modules; their prior source remains in checkpoint. Build280 excludes intentionally edited slums/mall/weapon/gait modules; prior source remains in checkpoint. Build283 excludes deliberately edited Niko/native paired source; originals retained at recovery checkpoint. Build293 excludes intentionally changed Build292 Chinatown/stabilization and current pool logic; prior bodies remain in Git checkpoints.",
+  "savedBytes": 9235,
+  "files": [
+    {
+      "path": "dist/animation-view169.js",
+      "header": "/* Read-only inspection of the actual action clocks and anchors; no simulation writes. */",
+      "bodySHA256": "bdc4f75b8b9bfb5386c7eaadb86cfe1fe0febba458e5d80a6e6a245c8f4d828f",
+      "savedBytes": 89
+    },
+    {
+      "path": "dist/balance49.js",
+      "header": "/* Build49: defensive specials, adaptive range pressure, and committed sword dash. */",
+      "bodySHA256": "8649fde2008185b93ba089930420466669474d773c63a7844f5be271ae88082d",
+      "savedBytes": 85
+    },
+    {
+      "path": "dist/baylor-view237.js",
+      "header": "/* Fixed-import-scale whole-body football sprites, shared root/lane/throw transforms. */",
+      "bodySHA256": "cdcde70e6a87420c116646c0c9c5efa8d317c574451db8ec449d228cd31644ee",
+      "savedBytes": 88
+    },
+    {
+      "path": "dist/broxton-audit142.js",
+      "header": "/* Focused Broxton audit: integer scoring and explicit persistent active contacts. */",
+      "bodySHA256": "63d7bf72d3c337fbfa19c8b6648cde61754e76a222e168976d95ed4f4a4fb691",
+      "savedBytes": 85
+    },
+    {
+      "path": "dist/broxton-counters51.js",
+      "header": "/* Broxton's automatic directional counter responses, after the shared capture beat. */",
+      "bodySHA256": "c9dbe6114cfab821f0f53b901878bf54b3c4c23cce82fa3ee9bf6267fffcb2f6",
+      "savedBytes": 87
+    },
+    {
+      "path": "dist/broxton-lariat244-view.js",
+      "header": "/* Replaces only Broxton's Rush artwork with one coherent twelve-pose lariat. */",
+      "bodySHA256": "6a20b8317b3d982e1c2647ca887b26ce5b276b6fdd79f183ea926e6580a63a0b",
+      "savedBytes": 80
+    },
+    {
+      "path": "dist/broxton-repair189.js",
+      "header": "/* Animation repair: paid visible boxing footwork and nonoffensive wake protection. */",
+      "bodySHA256": "805ebdecb4798c87db2c1ac990ace035f34cc4ca1565c611fd1e4d4056016d80",
+      "savedBytes": 86
+    },
+    {
+      "path": "dist/broxton-shuffle52.js",
+      "header": "/* Short defensive boxing shuffle, crossing a nearby opponent when space permits. */",
+      "bodySHA256": "1cb366d2665fd77dd0d4211e1d0ed9fb25f401ec7b92be6591d7aa0c6fb738d7",
+      "savedBytes": 84
+    },
+    {
+      "path": "dist/broxton-view179.js",
+      "header": "/* Constant import scale, grounded supplemental art; existing locomotion and reaction sheets retained. */",
+      "bodySHA256": "06449c1fc6ce9ed8b91c7252d731e051f0e5d434aeae076721bb54ebd36df355",
+      "savedBytes": 105
+    },
+    {
+      "path": "dist/bruno130.js",
+      "header": "/* Rear openings stay open, and heavy footwork follows actual travel. */",
+      "bodySHA256": "8fc7373a0a5f917887e212ba68e6ae0ff231923abba385fdd551450fe6fa13fa",
+      "savedBytes": 72
+    },
+    {
+      "path": "dist/charge-walk149.js",
+      "header": "/* Dedicated flat-support charge walk, opaque full bodies at one fixed import scale. */",
+      "bodySHA256": "b5a4fe3d1d2eab3b0c560ceeccceb4cf1137fb9f9b750ed61a1da5ec94169240",
+      "savedBytes": 87
+    },
+    {
+      "path": "dist/charge130.js",
+      "header": "/* One edge-driven, simulation-clock charge owner for all four heroes. */",
+      "bodySHA256": "d79049e4f9a6f1087f4f5797af994f1c396165a6cf8b24668d21013642d747ff",
+      "savedBytes": 73
+    },
+    {
+      "path": "dist/chemical-view214.js",
+      "header": "/* Final six-hero renderer: planted legs, native guard torso; no sprite scaling. */",
+      "bodySHA256": "b1a4d607ed9d6263b5e1863e7fea3f34229e57401025c91344f453a2941eb64f",
+      "savedBytes": 83
+    },
+    {
+      "path": "dist/chinatown235.js",
+      "header": "/* Chinatown level content and explicit campaign links. Native212 martial AI,\n   Director148, Adaptive/Locked222,119/223 grapples and162 environment stay authoritative. */",
+      "bodySHA256": "3f31f2ce69edc2ee1f629e791638c8d9076391ad716ef04e67b59a0e1e8f45df",
+      "savedBytes": 171
+    },
+    {
+      "path": "dist/club76.js",
+      "header": "/* Alternate nightclub and VIP encounter; original lounge and alley stay intact. */",
+      "bodySHA256": "322de809b678c54d9d81f234aa867a27ebec8a0f299424774415986ab13d8c93",
+      "savedBytes": 83
+    },
+    {
+      "path": "dist/combat-audio.js",
+      "header": "/* Original procedural arcade audio: no external samples or speech service. */",
+      "bodySHA256": "625acb5e461bcd9a7a5aabca7d82e431db968c767297039c30491d309786c2a3",
+      "savedBytes": 78
+    },
+    {
+      "path": "dist/combat-quality169.js",
+      "header": "/* Small Normal-difficulty contracts atop existing grapples/telemetry, never a second AI controller. */",
+      "bodySHA256": "4411848e430a6bbae597b129fbccaead8a159a400aac43cd3ae1db554fc959b0",
+      "savedBytes": 103
+    },
+    {
+      "path": "dist/counters.js",
+      "header": "/* Directional, automatically resolved counters; loaded after the shared hero/grapple engine. */",
+      "bodySHA256": "46cf86a81aa786049666870ffec7db3baf44f484f169f57da8ebe83b7ac5ec93",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/destination-ui183.js",
+      "header": "/* DOM route screen uses the same simulation selection state as controller input. */",
+      "bodySHA256": "f886084457c4b99f28707f9198c28b14b48ae3173fc97d748455d73e4444a602",
+      "savedBytes": 84
+    },
+    {
+      "path": "dist/destination183.js",
+      "header": "/* Downtown completion is a deliberate campaign branch, shared by alley and VIP Jackal. */",
+      "bodySHA256": "0635625a49af91a6145ee4f6ccda2c18be8eb3ecbd2d9e9125edb19e41747428",
+      "savedBytes": 90
+    },
+    {
+      "path": "dist/docks-view231.js",
+      "header": "/* Docks scenery: fixed geometry and native fighters; pooled asset imports, no world controller. */",
+      "bodySHA256": "e59eacebb6b01368c946193e20f5b68e8623b66e4e08ff0790caa6999ac115e3",
+      "savedBytes": 99
+    },
+    {
+      "path": "dist/dorian-view153.js",
+      "header": "/* Full-body suited bodyguard poses. Fixed atlas scale, grounded gait, dedicated flat knockdown. */",
+      "bodySHA256": "c88496aca29bb17b4e6a72d65946160d4c22858f1fee73eac3cb3aa4c53bfc35",
+      "savedBytes": 99
+    },
+    {
+      "path": "dist/dorian153.js",
+      "header": "/* Suited chase bodyguard: offensive Bruno variant, deliberately no Bruno guard/armor logic. */",
+      "bodySHA256": "8dbacbf8617f0d89e1ce4e13de609efea0a3e0463413042bef838ae292b42055",
+      "savedBytes": 95
+    },
+    {
+      "path": "dist/encounters.js",
+      "header": "/* Visible-edge arenas, readable capture beat, and specialist enemies. */",
+      "bodySHA256": "221f3bfaf73167230c961d3ac32a9b33186efc5c8aadc70f30ad8ea0ed967e70",
+      "savedBytes": 73
+    },
+    {
+      "path": "dist/enemy-identity233.js",
+      "header": "/* Cosmetic identity and enemy metadata. No combat/encounter controller. */",
+      "bodySHA256": "4108dafd3bd8ac5a560a130ad661c07a6d3b690945873f4c54a3763625b1684b",
+      "savedBytes": 75
+    },
+    {
+      "path": "dist/environment-controller162.js",
+      "header": "/* Automatic scene enrollment; the run owns the simulation, levels own only visual metadata. */",
+      "bodySHA256": "82a955dc9b65afbb7de40450d1901074f1ec2e52f304b5b0e978c9e5145a8900",
+      "savedBytes": 95
+    },
+    {
+      "path": "dist/environment-sample162.js",
+      "header": "/* An actual new outdoor definition: no weather/time implementation in its level art. */",
+      "bodySHA256": "5d02f912c3212a6d6c04b20c7b05a30328810680d0e6cf6c16b645a7aee8dc64",
+      "savedBytes": 88
+    },
+    {
+      "path": "dist/financial.js",
+      "header": "/* Stage 02 campaign, encounter pacing, scene transitions and original enemies. */",
+      "bodySHA256": "d29872801b319937a6bf5010e87cd1aebc7648e5fe1853a654fab69acfb20c69",
+      "savedBytes": 82
+    },
+    {
+      "path": "dist/flint208.js",
+      "header": "/* One visual timeline sampled from Flint's existing authoritative contact times. */",
+      "bodySHA256": "452d44b4a0318c8589d98957f75a38bdbb560d0d7238083a87db6963e6a0ccce",
+      "savedBytes": 84
+    },
+    {
+      "path": "dist/forest-ai177.js",
+      "header": "/* Observable crossbow preparation and existing Director148 budgets, not projectile prediction. */",
+      "bodySHA256": "7222740ba84f0d27eff2901126b7a0e71cdb457e1934928a26e997413b30ea07",
+      "savedBytes": 98
+    },
+    {
+      "path": "dist/forest-counters127.js",
+      "header": "/* Forest's five directional counters: one shared clock, explicit contacts, inherited disarm state. */",
+      "bodySHA256": "1fea4a4ef497b6ae0a6db600ea8749b3cc301490b992a343e2d1d94f608b8c90",
+      "savedBytes": 102
+    },
+    {
+      "path": "dist/forest-grapples177.js",
+      "header": "/* Forest's grab moves use the shared GrappleRecovery119 session and Companion126 owner. */",
+      "bodySHA256": "940e12e6fe1168a2b63ec16addcfb14379fe64bbf6586f4d1b8a66baa11de541",
+      "savedBytes": 91
+    },
+    {
+      "path": "dist/forest-grip146.js",
+      "header": "/* A shoulder grip has three layers: Forest/far arm, victim, near forearm. */",
+      "bodySHA256": "2758afb7f7838806efdf37ccdbfdb45cbea9b39b41de831671b765985aa2cb03",
+      "savedBytes": 77
+    },
+    {
+      "path": "dist/forest-qa239.js",
+      "header": "/* Observes native inputs/tasks; no second input, companion or knockdown controller. */",
+      "bodySHA256": "194eed5a9cade3bfbc5a1e440161f285982e1a386b5bdc8d8ebf054c0797e27a",
+      "savedBytes": 87
+    },
+    {
+      "path": "dist/forest-view125.js",
+      "header": "/* Forest and Gunner artwork is normalized once at import, never stretched in combat. */",
+      "bodySHA256": "96f08d65dc81754c708b0bda5ece396e4ee6d32f0154bba993b32a8da5152e4b",
+      "savedBytes": 88
+    },
+    {
+      "path": "dist/forest-view177.js",
+      "header": "/* Matching supplemental poses; immutable import scale and opaque full-body frames. */",
+      "bodySHA256": "57179a7c8a6951c90b408de866bfb30c4f4ac62481d0939ee2f6337c336a6c59",
+      "savedBytes": 86
+    },
+    {
+      "path": "dist/government-polish190.js",
+      "header": "/* Floor-correct spinning throw, planted Iron Will charge, explicit open-cell entrances. */",
+      "bodySHA256": "4651ab2cd69b0ab8317a3704b0afa754a68745b4b49dbb272c6af8f9aac63f4b",
+      "savedBytes": 91
+    },
+    {
+      "path": "dist/grab-cases246.js",
+      "header": "/* Developer-only native spawn cases. Not loaded by the production game. */",
+      "bodySHA256": "168a5455b0c38ae06ad12cba3a11626cc8f74996ac2902475b7c67c6b9513d72",
+      "savedBytes": 75
+    },
+    {
+      "path": "dist/grab-view198.js",
+      "header": "/* Reuse each enemy's own full-body poses for shared reversals; never replace identity/scale. */",
+      "bodySHA256": "c67f9164455e16168b8a4a740bd1f3bf3d338285729a1b87054d87ad2e8670d7",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/grab-view245.js",
+      "header": "/* Presentation only: ordinary held bodies and contact reactions; shared sync owns all motion. */",
+      "bodySHA256": "f54f6089bbbe738d4eda0b6c6a2241c2826778eb30bdc7a7fd2b462e2e0eca6b",
+      "savedBytes": 97
+    },
+    {
+      "path": "dist/grapple-recovery119.js",
+      "header": "/* Shared recovery ordering. Knockdown clocks and wake invulnerability remain separate. */",
+      "bodySHA256": "1b747454858e5c73ff72f6060bdde19fb532a0bf6e17fc7fc39a041de85210b2",
+      "savedBytes": 90
+    },
+    {
+      "path": "dist/gunner-ui173.js",
+      "header": "/* Native pixel HUD glyphs and keyboard/DualSense-accessible tactics dialog. */",
+      "bodySHA256": "4a3922d37a4fde76ab660295412fa94add40dcc8a8911edac9bd22776f2d4f23",
+      "savedBytes": 79
+    },
+    {
+      "path": "dist/gus-view219.js",
+      "header": "/* Fixed-scale original trucker art with articulated pixel limbs and a hand-anchored crowbar. */",
+      "bodySHA256": "16830ca5afc0c1d010d748d593ed28c337ce2339ebb4786fea14f3382daf9a57",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/heavy-workers233.js",
+      "header": "/* Heavy profile extends the already-verified Worker233 controller; no second AI. */",
+      "bodySHA256": "e44d2a2e1b8696bef754cd954a5b52be71c5d01d715b3e28a55dd906b428eb0c",
+      "savedBytes": 84
+    },
+    {
+      "path": "dist/highway-view234.js",
+      "header": "/* Authored highway scenery and road furniture. No simulation/encounter ownership. */",
+      "bodySHA256": "aef27c07ba9dd0732245918c434458f59176b8ccc574f7d14d1b15ab406239f5",
+      "savedBytes": 85
+    },
+    {
+      "path": "dist/hydro-view243.js",
+      "header": "/* Detailed hydro panoramas: uniform architecture, projected floor only, native weather sample. */",
+      "bodySHA256": "3c2bf990c067cc7bdbe2eeb66b13c14ed64ebe1a0d685f9044eb8853068a6b1f",
+      "savedBytes": 98
+    },
+    {
+      "path": "dist/input226.js",
+      "header": "/* Reuse the native one-intent buffer; never cancel mandatory recovery. */",
+      "bodySHA256": "5e12ad7ab4510e708e14b2770b76ec5637117a55565d07a3e268d6c0aa555192",
+      "savedBytes": 74
+    },
+    {
+      "path": "dist/jackal100.js",
+      "header": "/* Jackal: close knife pressure, measured bat control, and punishable commitments. */",
+      "bodySHA256": "42d458755057f39eb956808a04e28031b13d69a1e54110cc9e576e3a732a9d9f",
+      "savedBytes": 85
+    },
+    {
+      "path": "dist/jesse213.js",
+      "header": "/* Jesse inventory and ranged decisions use native actions, hitscan, damage and the single Director. */",
+      "bodySHA256": "0d588b8ad37eaef4d558f8a9cad9b1a11305d09c1b3d3ea0b08b8d3ff8ac4847",
+      "savedBytes": 103
+    },
+    {
+      "path": "dist/kip-view169.js",
+      "header": "/* Dedicated same-size recovery art only; shared suplex clock/impact/ground root stay authoritative. */",
+      "bodySHA256": "f1d136f4e78bc614c5cd80b6d4331b676f51ce588b21e3c47f2bff5559c8e5a3",
+      "savedBytes": 103
+    },
+    {
+      "path": "dist/lab-workers166.js",
+      "header": "/* Cabin chemists: independent actor AI, shared two-slot flask/puddle pool, standard combat director. */",
+      "bodySHA256": "8cc620834f62b03c6f41d7edb6021cec586b8e45b547c7f15df29975e7aa65f5",
+      "savedBytes": 104
+    },
+    {
+      "path": "dist/leroy102.js",
+      "header": "/* Evasive vault finale, firearm feedback, and fair telegraphed explosives. */",
+      "bodySHA256": "e51a134a2bbcc91f56ddbd06d0a5f4d217827f947168e579fed8727c3a047399",
+      "savedBytes": 78
+    },
+    {
+      "path": "dist/locomotion127.js",
+      "header": "/* Distance-based whole-body locomotion; no blended/ghosted frames or forced owner mirroring. */",
+      "bodySHA256": "48901c6d8b125edc62981871c34603938e197f1e36dd3bd82e8c186af8ff8f18",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/maul-view175.js",
+      "header": "/* Existing anchored figures: guarded upper body, distance-driven gait, brief command. */",
+      "bodySHA256": "cf60917a9792ee910c4c56a83f0681a36dd0d6d3dfbc473972274d63b1664426",
+      "savedBytes": 89
+    },
+    {
+      "path": "dist/maul175.js",
+      "header": "/* Gunner Maul: a short hero command, owned by the existing companion task machine. */",
+      "bodySHA256": "afbd80eb8c3ba1afe0a6218dc1d3b23654146657178bca85e9e1ef538dfee2b0",
+      "savedBytes": 86
+    },
+    {
+      "path": "dist/nightshade-ammo-profiles256.js",
+      "header": "/* Normal initial estimates, whole-level profiles. Alternate routes share each slot ID. */",
+      "bodySHA256": "244d92bbcea4cc2a18612b320ad100a76140d00560538c8b526c53d596fe8f4c",
+      "savedBytes": 90
+    },
+    {
+      "path": "dist/nightshade-ammo-view256.js",
+      "header": "/* Pixel magazine pickup icons on the logical ground; no bobbing or second inventory HUD. */",
+      "bodySHA256": "7c4c86d4674549a404c14fb7a1f2022b01d6d2578e75b2cb92a1702f094fdb05",
+      "savedBytes": 92
+    },
+    {
+      "path": "dist/nightshade-ammo256.js",
+      "header": "/* Gate3: ammo category on native loot/pickup hooks; one run ledger, level-wide budgets. */",
+      "bodySHA256": "c5463b88ad4741f07f9483230763cd8cc5e6463951445d829e98cb6eac642b29",
+      "savedBytes": 91
+    },
+    {
+      "path": "dist/nightshade-counter264.js",
+      "header": "/* Gate7 adapter: Counter248 sole admission +119/223 ownership; Gun255 sole projectile owner. */",
+      "bodySHA256": "d38f37075935d9199b47dd24698b4717659258edd279a56bf000a41c78933d19",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/niko-air-view191.js",
+      "header": "/* Fixed anatomical import: jump alone never uses an attacking pose. */",
+      "bodySHA256": "735bd98088645fe6c27bf37f1ecddff57797f0173788ebf32d141b7097a4749a",
+      "savedBytes": 71
+    },
+    {
+      "path": "dist/niko-counter-view186.js",
+      "header": "/* Reuse Niko185 full-body poses; held weapon and fragments never become pickups. */",
+      "bodySHA256": "ae279653be9422883b2ff3e611d84e8318f1748f216ee1adea4be342fef77436",
+      "savedBytes": 84
+    },
+    {
+      "path": "dist/nova-audio128.js",
+      "header": "/* Original procedural crowd, mechanical shutters and movement air. No external recordings. */",
+      "bodySHA256": "acf9c52c275a655fd256fa08ed5124bed6f80576cc8ccb62126ceacaf6ad3f95",
+      "savedBytes": 94
+    },
+    {
+      "path": "dist/nova-view128.js",
+      "header": "/* Articulated axial-turn poses at one constant atlas scale; no wheel rotation or perspective squash. */",
+      "bodySHA256": "e17f4421b640986ae74f1998cb2e9016ed1e8a7d15ea528bfdecbbdd8e5a8d1f",
+      "savedBytes": 104
+    },
+    {
+      "path": "dist/nova107.js",
+      "header": "/* DDT grip anchor, weight-sensitive tempo, grounded followup and safe release. */",
+      "bodySHA256": "d972c6ac98a9c3c99fc69a26fc1e4cef11b3806d85ab8af42bbf5292a7672c20",
+      "savedBytes": 82
+    },
+    {
+      "path": "dist/nova128.js",
+      "header": "/* Exploding Nova only: shared choreography, projected-ground suppression and one impact. */",
+      "bodySHA256": "44301998da9f0bfba03124d6c08530d5dd66335caccd64a7641308f6a0d92f21",
+      "savedBytes": 92
+    },
+    {
+      "path": "dist/open-cue62.js",
+      "header": "/* Threshold notices are overlays, never immunity or a blocked grab window. */",
+      "bodySHA256": "e1576f7da21643458b9a47f5d0975edec49c630adeee76bde67af48d42a166e9",
+      "savedBytes": 78
+    },
+    {
+      "path": "dist/orion-combat205.js",
+      "header": "/* Orion228 physical moves: one dispatch, native damage and shared119/198/223 ownership. */",
+      "bodySHA256": "69945749af654432d79640dd83db8d67b0859e9fb65f184d4c39f0ec5a6654fe",
+      "savedBytes": 91
+    },
+    {
+      "path": "dist/orion-integration205.js",
+      "header": "/* Read-only diagnostics; gameplay ownership stays in the single Orion228 dispatcher. */",
+      "bodySHA256": "f09de24b6db5cb94448e40b061936092c027c52452d0308b97894b8c51e851c6",
+      "savedBytes": 88
+    },
+    {
+      "path": "dist/orion-special205.js",
+      "header": "/* Orion228 electrical moves. Native damage, finite event ownership and existing resistance. */",
+      "bodySHA256": "ebd2442db33b22c36c88c1eeed68c51d7c3029719e3ce5192029218ef69b05db",
+      "savedBytes": 95
+    },
+    {
+      "path": "dist/outdoor-template-view162.js",
+      "header": "/* Reusable semantic layers. Call render; levels supply scenery/assets, never a clock or RNG. */",
+      "bodySHA256": "3e3009e2a1f4708650e12a1021141fc69d84d961aa30e815a867aa4262c458eb",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/park-visitors-view161.js",
+      "header": "/* Park-only opaque casual visitors: one idle pose and four genuine run frames. */",
+      "bodySHA256": "db1a89ff95430c1ba39a7d1720a707af3e91ffd7b62ba2f4ebdcf7f388993a9d",
+      "savedBytes": 82
+    },
+    {
+      "path": "dist/powerbomb136.js",
+      "header": "/* Broxton held Special: one shared-clock jumping powerbomb; direct body contact precedes shockwave. */",
+      "bodySHA256": "374810ec5d9f9cdc7e49c8e01c8020ec23df9c45072e3a7d1991264d9b4d80d6",
+      "savedBytes": 103
+    },
+    {
+      "path": "dist/pressure101.js",
+      "header": "/* More deliberate weapon pressure and reliable swept contact windows. */",
+      "bodySHA256": "55412c42292cea6a38092f256599d680f2fb9c3ce53d3f67267a2daf08ade908",
+      "savedBytes": 73
+    },
+    {
+      "path": "dist/prison-view224.js",
+      "header": "/* World-locked pixel architecture with original full-body fighters; background rioters are scenery only. */",
+      "bodySHA256": "9ce27240db351f987eb3842d72b90b98fa514432c088623ca3bb758ea026269c",
+      "savedBytes": 108
+    },
+    {
+      "path": "dist/quality167.js",
+      "header": "/* Universal player death normalization and occasional Frankie close-pressure decisions. */",
+      "bodySHA256": "879434a744eda87793d9637ef6343152c89c558af20e992e45b7997d83553a8e",
+      "savedBytes": 91
+    },
+    {
+      "path": "dist/reactions-view130.js",
+      "header": "/* Whole connected suplex poses, actual alternating Bruno gait, dedicated electrical recoil. */",
+      "bodySHA256": "6256720cf84e330aa12ff98345b30ccd53f9a8d78d2caccbaef20a4b8aa1375e",
+      "savedBytes": 95
+    },
+    {
+      "path": "dist/reina-repair147.js",
+      "header": "/* Readable enemy commitments; no health, damage, grab gates or director budget changes. */",
+      "bodySHA256": "d7e61ad9bcc7a8b6e356a07dfc85c5ef54335ba3244cf72d82a52eb1fac2e493",
+      "savedBytes": 91
+    },
+    {
+      "path": "dist/repair-view134.js",
+      "header": "/* Fixed import scales, full connected figures and a single neutral coat palette. */",
+      "bodySHA256": "a87321379fc4f91ee4001dbdc196d7ec366eefa6f93946e45c2ab2c793d2b136",
+      "savedBytes": 84
+    },
+    {
+      "path": "dist/review144.js",
+      "header": "/* Local playtest comparison and sequential, nonblocking scene cues. */",
+      "bodySHA256": "43630207ddc972a5e903c20299012fcd2de9af9474934e8f39ef08cabb839a14",
+      "savedBytes": 71
+    },
+    {
+      "path": "dist/rising-blade-view187.js",
+      "header": "/* Fixed-scale whole-body poses, hand-attached short sword and bounded rising trail. */",
+      "bodySHA256": "04e1ed9d786b506f749c79db0a331eab27756f3aee71a466cef7ff1f92b73ac7",
+      "savedBytes": 87
+    },
+    {
+      "path": "dist/riverfront151.js",
+      "header": "/* Lakeside Park's forward route. Existing combat/controllers remain authoritative. */",
+      "bodySHA256": "10780ae02cc0613b719f94c3c807751f73eee0e081072f071162db6b3ac364ee",
+      "savedBytes": 86
+    },
+    {
+      "path": "dist/rooftop-lab201.js",
+      "header": "/* Explicit inspector staging; production simulation/render are unchanged. */",
+      "bodySHA256": "c28216938c23e59646e046d398886dd36a05d40b6e5c136d4af85b853a79b664",
+      "savedBytes": 77
+    },
+    {
+      "path": "dist/rooftop-ui201.js",
+      "header": "/* Input-neutral two-route ending. Destinations are retained without inventing unbuilt levels. */",
+      "bodySHA256": "a869e253c77b90cf32cccb02b972b2c95d11092c98b63993b23bc9f526a5c097",
+      "savedBytes": 97
+    },
+    {
+      "path": "dist/route-view167.js",
+      "header": "/* One unlit route-marker style, painted after weather and before HUD/transition fades. */",
+      "bodySHA256": "277269b4aebc8e7a0bfc2b41e13c26e2385005e43f0400c86c53b5be2543bd0a",
+      "savedBytes": 90
+    },
+    {
+      "path": "dist/scenes71.js",
+      "header": "/* Selectable starting scenes for testing; each continues the normal campaign. */",
+      "bodySHA256": "25f81a5bf311d90c74b3b0d80cb7008b6cdc9660aefdf86bf624b0baa2cccacd",
+      "savedBytes": 81
+    },
+    {
+      "path": "dist/shield-view181.js",
+      "header": "/* Reuse the established opaque hold/standing/gait art at its original world scale. */",
+      "bodySHA256": "1be531fcf050087088b664092235e64d211da14d8a59425e60faa58c668aedb4",
+      "savedBytes": 86
+    },
+    {
+      "path": "dist/shield181.js",
+      "header": "/* Broxton's hold-transition is a vulnerable tactical state, not a synchronized throw. */",
+      "bodySHA256": "4d6bdca96ca9ff1e1c07e7c5e791ae731e61d94e5cbb1c662203e05e9d7261ae",
+      "savedBytes": 89
+    },
+    {
+      "path": "dist/slums-view204.js",
+      "header": "/* Finale presentation: fixed-scale SWAT atlas, Kevin red-tank palette and local hazard feedback. */",
+      "bodySHA256": "e4450377ff2b6e565b0794dc48b6c437ab543e024745b7bb696613ae468ac3de",
+      "savedBytes": 100
+    },
+    {
+      "path": "dist/slums203.js",
+      "header": "/* Expanded Slums routes. Reuses Slums202 scenes, native actors/Director, damage and shared world. */",
+      "bodySHA256": "47170ae2a85ca88351a1895b8ee82fa543bdd2181b80c30b9156eab546b1b6f7",
+      "savedBytes": 101
+    },
+    {
+      "path": "dist/slums204.js",
+      "header": "/* Slums finales: native Director actors, finite waves and shared friendly-fire ordnance. */",
+      "bodySHA256": "2e38784380b382e64b745fffa66f95d092cd7d81c71b3cbac9a6248814645a2d",
+      "savedBytes": 92
+    },
+    {
+      "path": "dist/spear137-view.js",
+      "header": "/* Connected whole-body punch poses. Import scale stays fixed through every phase. */",
+      "bodySHA256": "568f175ebbaf653e2445d368341079d2c1a39c83ed84abba1d449e1f32cde126",
+      "savedBytes": 85
+    },
+    {
+      "path": "dist/spear137.js",
+      "header": "/* One shared clock for Broxton's normal front-forward football tackle and four mounted punches. */",
+      "bodySHA256": "ab591cef2368fb8777c55ab5b62cfbab952ac68afc970fce76340d70c3e64d57",
+      "savedBytes": 99
+    },
+    {
+      "path": "dist/sprite-data.js",
+      "header": "/* Alpha-component bounds from original generated sprite atlases. */",
+      "bodySHA256": "a45727eddbab29a19b0fc74c1eeca53a4d70f7ac81d6d4872bde8d011032f510",
+      "savedBytes": 68
+    },
+    {
+      "path": "dist/street155.js",
+      "header": "/* Two existing promenade Frankies arrive on motorcycles; shared spawn cap stays three. */",
+      "bodySHA256": "aa9018308230966c0fc750eee00bb88f0fad52a4b248264a0ac3ad94d1f8749d",
+      "savedBytes": 90
+    },
+    {
+      "path": "dist/subway-audio238.js",
+      "header": "/* One pooled procedural transit bed: traction motor, rail roar, wheel joints, brakes and door chime. */",
+      "bodySHA256": "653fa2e2d1bcc650c7610e55c062277ad20ca2c6c22ad41248eecf25a6ef82ef",
+      "savedBytes": 104
+    },
+    {
+      "path": "dist/subway-ui238.js",
+      "header": "/* Destination choices use the native keyboard/gamepad reader; routes are configured later. */",
+      "bodySHA256": "99462f69ea430e76279afcfc2e70120cd7c5ecb90e7876f6f0a2f5e36e80e808",
+      "savedBytes": 94
+    },
+    {
+      "path": "dist/uptown113.js",
+      "header": "/* Uptown: a sunny alternate opening, Promenade -> Strip Mall -> Lakeside Park -> route fork. */",
+      "bodySHA256": "59c793a621a63811b8047dd0286384e4975cb0b6ca35766b45ae580f03e45c62",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/video207.js",
+      "header": "/* Presentation and existing-Director spacing for the recorded park encounter. */",
+      "bodySHA256": "dcfef11e223661bdb760389cd85a313227bab7329dbb3cf9b11ae3cbdc89c0ea",
+      "savedBytes": 81
+    },
+    {
+      "path": "dist/weather67.js",
+      "header": "/* Rain exposure and indoor drying are cosmetic and never affect combat. */",
+      "bodySHA256": "b2ac1d8dadf10fe40a9bafe958a2c5ec99a49905eced088b82812639925c5418",
+      "savedBytes": 75
+    },
+    {
+      "path": "dist/worker-encounters233.js",
+      "header": "/* Docks-only content enrollment, through the existing finite plans and Adaptive222 registry. */",
+      "bodySHA256": "50a74edf2f3257007a133c793efb1fd2cd4a2b69ccdb57e7b9f0ae1f6a74657e",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/workers-view233.js",
+      "header": "/* Stable palette variants of original whole-body dock art; never recolors instance identity. */",
+      "bodySHA256": "c500527ba21ef1c991c5e645eb4d3f75830454246793783ab3d6da4b2762cf55",
+      "savedBytes": 96
+    },
+    {
+      "path": "dist/yacht-view195.js",
+      "header": "/* Yacht artwork, inertial skyline, shared ship motion and restrained marine audio. */",
+      "bodySHA256": "7bcb20bc40a3509fb1643c21aa1acda9bf7aa41aeebf973de3e2e1f8a46b7adc",
+      "savedBytes": 86
+    },
+    {
+      "path": "dist/yacht195.js",
+      "header": "/* Moving yacht continuation. Shared combat, Director admission, clock and environment ownership. */",
+      "bodySHA256": "6476fe06c5a303a1727a9d948665fefdb15383e44261ecd1522890b5b861619f",
+      "savedBytes": 100
+    }
+  ],
+  "build275IntentionalEditsExcluded": [
+    "dist/broxton.js",
+    "dist/cabin-debug168.js",
+    "dist/dragon121.js",
+    "dist/estates-view196.js",
+    "dist/government-view190.js",
+    "dist/grip124.js",
+    "dist/nightshade-grabs258.js",
+    "dist/nightshade-special263.js",
+    "dist/nightshade251.js",
+    "dist/niko-view185.js",
+    "dist/niko185.js",
+    "dist/nova105.js",
+    "dist/nova108.js",
+    "dist/orion205.js",
+    "dist/reina-grip155.js",
+    "dist/reina119.js",
+    "dist/reina123.js",
+    "dist/rooftop-view201.js",
+    "dist/stadium-view237.js",
+    "dist/tornado130.js",
+    "dist/weapon-counters122.js"
+  ],
+  "note": " Build282 intentionally changes core/companion/game pickup healing; previous source remains at checkpoint-before-reina-scale282.",
+  "intentionalEdits284": [
+    "dist/rooftop201.js"
+  ],
+  "intentionalEdits287": {
+    "files": [
+      {
+        "path": "dist/martial212.js",
+        "header": "/* Saito / Akari: definitions on the native enemyAct, damage, counter, Director and119 ownership paths. */",
+        "bodySHA256": "589f6f654c52021bad5e38b2336dd28470fb82e558a8d4e067d27d4532bf7107",
+        "savedBytes": 106
+      }
+    ],
+    "reason": "Actual fly-lift termination and linked combo hitstun/approach changed in recording287; not claimed byte-identical. Original executable retained in checkpoint a7f8eb77."
+  }
+}

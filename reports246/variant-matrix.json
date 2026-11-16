@@ -1,0 +1,5191 @@
+{
+  "seed": 246,
+  "baylorRandom": 0.9,
+  "coverage": "Native spawn/acquire/first held contact, both facings/front/rear; seeded successful Baylor individual branch, not a change to its probability.",
+  "rows": [
+    {
+      "hero": "reina",
+      "id": "thug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "thug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "thug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "thug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "biker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "biker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "biker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "biker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "cop",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "cop",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "cop",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "cop",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "flint",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "flint",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "flint",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "flint",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "sato",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "sato",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "sato",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "sato",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "akari",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "akari",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "akari",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "akari",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "robber",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "robber",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "robber",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "robber",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "ethan",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "ethan",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "ethan",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "ethan",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "nora",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "nora",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "nora",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "nora",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "enforcer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "enforcer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "enforcer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "enforcer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "security",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "security",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "security",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "security",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "dorian",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "dorian",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "dorian",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "dorian",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "bouncer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "bouncer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "bouncer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "bouncer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "boss",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "boss",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "boss",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "boss",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "gangster",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "gangster",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "gangster",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "gangster",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "gus",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "gus",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "gus",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "gus",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "colt",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "colt",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "colt",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "colt",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "baylor",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "baylor",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "baylor",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "baylor",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "dirk",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "dirk",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 6
+    },
+    {
+      "hero": "reina",
+      "id": "dirk",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "reina",
+      "id": "dirk",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 8
+    },
+    {
+      "hero": "nova",
+      "id": "thug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "thug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "thug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "thug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "biker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "biker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "biker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "biker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "cop",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "cop",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "cop",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "cop",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flint",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flint",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flint",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flint",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "sato",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "sato",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "sato",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "sato",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "akari",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "akari",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "akari",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "akari",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "robber",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "robber",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "robber",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "robber",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "ethan",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "ethan",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "ethan",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "ethan",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "nora",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "nora",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "nora",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "nora",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "enforcer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "enforcer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "enforcer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "enforcer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "security",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "security",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "security",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "security",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dorian",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dorian",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dorian",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dorian",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "bouncer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "bouncer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "bouncer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "bouncer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "boss",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "boss",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "boss",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "boss",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gangster",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gangster",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gangster",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gangster",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gus",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gus",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gus",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "gus",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "colt",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "colt",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "colt",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "colt",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "baylor",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "baylor",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "baylor",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "baylor",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dirk",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dirk",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dirk",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "nova",
+      "id": "dirk",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 7
+    },
+    {
+      "hero": "broxton",
+      "id": "thug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "thug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "thug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "thug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "biker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "biker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "biker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "biker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "cop",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "cop",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "cop",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "cop",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flint",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flint",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flint",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flint",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "sato",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "sato",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "sato",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "sato",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "akari",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "akari",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "akari",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "akari",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "robber",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "robber",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "robber",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "robber",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "ethan",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "ethan",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "ethan",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "ethan",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "nora",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "nora",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "nora",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "nora",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "enforcer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "enforcer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "enforcer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "enforcer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "security",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "security",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "security",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "security",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dorian",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dorian",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dorian",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dorian",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "bouncer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "bouncer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "bouncer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "bouncer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "boss",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "boss",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "boss",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "boss",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gangster",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gangster",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gangster",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gangster",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gus",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gus",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gus",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "gus",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "colt",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "colt",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "colt",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "colt",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "baylor",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "baylor",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "baylor",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "baylor",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dirk",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dirk",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dirk",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "broxton",
+      "id": "dirk",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 10
+    },
+    {
+      "hero": "forest",
+      "id": "thug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "thug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "thug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "thug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "biker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "biker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "biker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "biker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "cop",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "cop",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "cop",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "cop",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "flint",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "flint",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "flint",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "flint",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "sato",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "sato",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "sato",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "sato",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "akari",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "akari",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "akari",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "akari",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "robber",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "robber",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "robber",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "robber",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "ethan",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "ethan",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "ethan",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "ethan",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "nora",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "nora",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "nora",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "nora",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "enforcer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "enforcer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "enforcer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "enforcer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "security",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "security",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "security",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "security",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "dorian",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "dorian",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "dorian",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "dorian",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "bouncer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "bouncer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "bouncer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "bouncer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "boss",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "boss",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "boss",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "boss",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "gangster",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "gangster",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "gangster",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "gangster",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "gus",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "gus",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "gus",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "gus",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "colt",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "colt",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "colt",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "colt",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "baylor",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "baylor",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "baylor",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "baylor",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "dirk",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "dirk",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "forest",
+      "id": "dirk",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "forest",
+      "id": "dirk",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 5
+    },
+    {
+      "hero": "niko",
+      "id": "thug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "thug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "thug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "thug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "biker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "biker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "biker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "biker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "cop",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "cop",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "cop",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "cop",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flint",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flint",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flint",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flint",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "sato",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "sato",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "sato",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "sato",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "akari",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "akari",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "akari",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "akari",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "robber",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "robber",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "robber",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "robber",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "ethan",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "ethan",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "ethan",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "ethan",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "nora",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "nora",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "nora",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "nora",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "enforcer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "enforcer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "enforcer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "enforcer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "security",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "security",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "security",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "security",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dorian",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dorian",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dorian",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dorian",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "bouncer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "bouncer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "bouncer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "bouncer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "boss",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "boss",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "boss",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "boss",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gangster",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gangster",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gangster",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gangster",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gus",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gus",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gus",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "gus",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "colt",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "colt",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "colt",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "colt",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "baylor",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "baylor",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "baylor",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "baylor",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dirk",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dirk",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dirk",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "niko",
+      "id": "dirk",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "thug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "thug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "thug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "thug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "knifeThug",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "knifeThug",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "biker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "biker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "biker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "biker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "cop",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "cop",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "cop",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "cop",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flint",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flint",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flint",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flint",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "sato",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "sato",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "sato",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "sato",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "akari",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "akari",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "akari",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "akari",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "robber",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "robber",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "robber",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "robber",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "ethan",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "ethan",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "ethan",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "ethan",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "nora",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "nora",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "nora",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "nora",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "enforcer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "enforcer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "enforcer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "enforcer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "security",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "security",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "security",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "security",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dorian",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dorian",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dorian",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dorian",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "bouncer",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "bouncer",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "bouncer",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "bouncer",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "boss",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "boss",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "boss",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "boss",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gangster",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gangster",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gangster",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gangster",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "prisonGuard",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "prisonGuard",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "casinoSecurity",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "casinoSecurity",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanRegular",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanRegular",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanTavern",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "aidanTavern",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "heavyDockWorker",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "heavyDockWorker",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gus",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gus",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gus",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "gus",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flintUnarmed",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "flintUnarmed",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "colt",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "colt",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "colt",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "colt",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "baylor",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "baylor",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "baylor",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "baylor",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dirk",
+      "rear": false,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dirk",
+      "rear": false,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dirk",
+      "rear": true,
+      "dir": -1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    },
+    {
+      "hero": "orion",
+      "id": "dirk",
+      "rear": true,
+      "dir": 1,
+      "ratio": 0.35,
+      "hpDamage": 4
+    }
+  ]
+}

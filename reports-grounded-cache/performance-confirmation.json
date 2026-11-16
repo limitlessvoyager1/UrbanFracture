@@ -1,0 +1,374 @@
+{
+  "status": "passed",
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "productionHash": "5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1",
+  "performanceBaselineHash": "fc076c85773be78d34863014393a475f8cd23a90145ebec1d9fbf7c0cdf8cbfe",
+  "primary": [],
+  "mixed": [],
+  "nativeFrames": [
+    {
+      "baseline": false,
+      "roster": "mixed",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\confirmation-scene-current-mixed-8.png"
+    },
+    {
+      "baseline": true,
+      "roster": "mixed",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\confirmation-scene-baseline-mixed-8.png"
+    },
+    {
+      "baseline": true,
+      "roster": "mixed",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\confirmation-scene-baseline-mixed-8.png"
+    },
+    {
+      "baseline": false,
+      "roster": "mixed",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\confirmation-scene-current-mixed-8.png"
+    }
+  ],
+  "performance": [
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 14.119444444775581,
+      "p50Ms": 11.799999982118607,
+      "p95Ms": 25.400000005960464,
+      "maxMs": 39,
+      "over16ms": 45,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.088888888061046,
+      "p50Ms": 6.0999999940395355,
+      "p95Ms": 18.400000005960464,
+      "maxMs": 26.80000001192093,
+      "over16ms": 14,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.464444444245762,
+      "p50Ms": 6.699999988079071,
+      "p95Ms": 17.19999998807907,
+      "maxMs": 26.5,
+      "over16ms": 10,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 15.459999999403953,
+      "p50Ms": 13.799999982118607,
+      "p95Ms": 27,
+      "maxMs": 39.599999994039536,
+      "over16ms": 47,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    }
+  ],
+  "heap": [
+    {
+      "baseline": false,
+      "before": {
+        "usedSize": 4405528,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11812120,
+        "backingStorageSize": 3854852
+      },
+      "after": {
+        "usedSize": 8597008,
+        "totalSize": 9478144,
+        "embedderHeapUsedSize": 12095624,
+        "backingStorageSize": 5428024
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": true,
+      "before": {
+        "usedSize": 4390964,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11765344,
+        "backingStorageSize": 3854638
+      },
+      "after": {
+        "usedSize": 8379068,
+        "totalSize": 9478144,
+        "embedderHeapUsedSize": 12440144,
+        "backingStorageSize": 5427810
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": true,
+      "before": {
+        "usedSize": 4543620,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11882096,
+        "backingStorageSize": 3859832
+      },
+      "after": {
+        "usedSize": 8426344,
+        "totalSize": 9740288,
+        "embedderHeapUsedSize": 12518992,
+        "backingStorageSize": 5427870
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": false,
+      "before": {
+        "usedSize": 4413412,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11820320,
+        "backingStorageSize": 3854841
+      },
+      "after": {
+        "usedSize": 8607124,
+        "totalSize": 9478144,
+        "embedderHeapUsedSize": 12044400,
+        "backingStorageSize": 5428013
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "browser": "143.0.7499.4"
+}

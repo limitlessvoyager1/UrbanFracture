@@ -1,0 +1,13 @@
+# Build 10 — Bruno, Jackal and technical throws
+
+Bruno's clinch now winds up for .30 seconds with only a .10-second connection window, ending at .62 seconds. His power-bomb grab connects at .34 seconds with the same narrow window. Both miss into recovery/stagger and cannot catch during their recovery poses. His attack rotation includes clinch, 20-damage power hook, 18-damage front kick, power-bomb grab and strong two-punch attacks.
+
+A regular clinch deals two 5-damage body blows at .4/.8 seconds, then starts an 18-damage knockdown knee at 1.1 seconds. Escape taps work during the early clinch. The separate power-bomb grab immediately starts a committed .86-second lift/drop on connection, dealing 28 damage at .64 seconds without the body-blow hold. Its commitment cannot be mashed out of after connection; dodge its telegraphed grab. Both finishers release paired state and preserve Reina's recovery protection. Power bomb uses an inverted lift with floor-aligned rotation at impact. Bruno's front kick is catchable with B and retains a leg-catch pose during the counter hold.
+
+Jackal's bat damage 24→20, knife 18→15, pipe 26→22, initial punch 10→8, second punch 14→11, ground hits 8→6 each. Post-action cooldown .45→.70 seconds; weapon/punch animations have slightly longer recovery. Ground follow-up cooldown 5→6 seconds.
+
+Reina front hold: forward+J outer reap takedown (24), back+J hip throw (26). Rear hold: direction+J German suplex (34), including staggered heavy enemies. Each has distinct caster art, paired victim positioning and trajectory: low/short reap, high hip arc and rear suplex arc. Heavy front-grab leg reap/boss shove rules remain.
+
+Built-in image generation produced four transparent pixel-art poses based on existing Reina and Bruno sheets: hip pivot, outer reap, German arch and Bruno front kick. Stored at dist/assets/sprites/throw-tech-v1.png, metadata dist/throw-tech-data.js. Prompt requested four isolated full-body sprites in a 2x2 grid, exact existing identity/costume/style, no opponents/text/shadows, with the specified throwing/kicking actions. Existing Bruno lift and knee art drives his new grab finishers.
+
+Validation: combat, defense/catches/meter, actual renderer, sprite loading, recovery, HUD and full-level regressions pass. Dedicated balance tests verify the active grab cutoff, two body blows/knee, immediate power bomb, five-move AI variety, real front-kick catch, throw damage/arcs and Jackal cooldown/damage. Browser QA inspected paired hip throw, rear German suplex, inverted power bomb and front kick in the stage. New throw atlas initialization and pose selection covered by actual renderer tests.

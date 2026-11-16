@@ -1,0 +1,469 @@
+{
+  "atlas": "dist/assets/nightshade257/foundation-pack.webp",
+  "atlasDimensions": [
+    2048,
+    2080
+  ],
+  "beforeBytes": 2291264,
+  "afterBytes": 2407524,
+  "policy": "Pixel-identical packing only; metadata/anchors/scales unchanged; original files retained in source archive.",
+  "frames": [
+    {
+      "path": "dist/assets/nightshade252/walk-0.webp",
+      "sha256": "a833c64191529d4e9f00bbec4c355aafb202f04ea5cfff4ba06a46f388fbf6ea",
+      "rect": [
+        0,
+        0,
+        244,
+        413
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-1.webp",
+      "sha256": "868cf80f80cdd600ffdef9139d897c3e4ccb08323296531406635df8d8ebac08",
+      "rect": [
+        247,
+        0,
+        219,
+        413
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-2.webp",
+      "sha256": "e73cf6ae9ef3359ef609f0c51017a6ee790f9d2c1f415ddf51a5e4a1a3702b1d",
+      "rect": [
+        469,
+        0,
+        168,
+        413
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-3.webp",
+      "sha256": "ee00a08bbdffdc549e927cf2c2a60fd02b338e2751c730b46f603b71c69b9f96",
+      "rect": [
+        640,
+        0,
+        277,
+        413
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-4.webp",
+      "sha256": "a378d2f63a3edfa5ceee9c5d33347f010967ed8ed912423400008a0239418dc6",
+      "rect": [
+        920,
+        0,
+        280,
+        414
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-5.webp",
+      "sha256": "f7278a5e26f26a2b513f7a3d2bf90aab437b4e816737caaba6dda8ed14bd4418",
+      "rect": [
+        1203,
+        0,
+        196,
+        416
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-6.webp",
+      "sha256": "f8bb903ee3a13617d94aa1a536e352c76b361267c2c17c6c5751ee08c31b5b9a",
+      "rect": [
+        1402,
+        0,
+        157,
+        415
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/walk-7.webp",
+      "sha256": "815993f18165c1d8ea8f334cfd968a3f035d330e9be074a695dd972f1d20f6dc",
+      "rect": [
+        1562,
+        0,
+        278,
+        414
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-0.webp",
+      "sha256": "88126a311d2886af99a47d395c7529807f90d8870fbb94ad33f0d27f37c8f86a",
+      "rect": [
+        0,
+        419,
+        288,
+        412
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-1.webp",
+      "sha256": "9ab69c4e5840bfe1fd556661468bed8f5e2fc3550a62c90dabbb9fff16db4b8d",
+      "rect": [
+        291,
+        419,
+        198,
+        412
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-2.webp",
+      "sha256": "e0a9fbb5976616fef159761bbf58f0ecdb386b5333089daad6cd6db2731e2040",
+      "rect": [
+        492,
+        419,
+        249,
+        411
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-3.webp",
+      "sha256": "6fda5a13291de03c6e155ec0351594b6bf078039b106466d50c5751195fa1614",
+      "rect": [
+        744,
+        419,
+        330,
+        411
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-4.webp",
+      "sha256": "ca7c5badc3c64a690568e6dd5f3e48b5bd5d71b1169e5b25ba612e7382f91b98",
+      "rect": [
+        1077,
+        419,
+        327,
+        410
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-5.webp",
+      "sha256": "e05ce7292610efd21b01482633a6dd45a2e56fdfd9d9b2e6a4167f2370599396",
+      "rect": [
+        1407,
+        419,
+        211,
+        411
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-6.webp",
+      "sha256": "798671a57dcea330c148ceaad8198b0867b7c14420c9e2ad9d79dd4230e0b0d8",
+      "rect": [
+        1621,
+        419,
+        220,
+        410
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/run-7.webp",
+      "sha256": "1a1e1687a94da1c3cc726040f370f1e634e17bc7bc530b1c651b1bf6d3648c92",
+      "rect": [
+        0,
+        834,
+        344,
+        408
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-0.webp",
+      "sha256": "bcc8743d9b7f925c69287586c1efc1ee39021655e1c873df27a5e55dda12f9be",
+      "rect": [
+        347,
+        834,
+        130,
+        335
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-1.webp",
+      "sha256": "436b0c2e01c3ec754e6950542b6eec569a6d6a3b39e6efb2a0deaef8fcfd5eb0",
+      "rect": [
+        480,
+        834,
+        173,
+        313
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-2.webp",
+      "sha256": "b220dac3ad21ea3b8856c66b07cacbc214df818a0440c41ae24cc6e9f5bb8a0d",
+      "rect": [
+        656,
+        834,
+        266,
+        286
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-3.webp",
+      "sha256": "930a8a9ed410e594eae77c9696749f0b50d69d1d3c33641d711e7db9fa6d5e3f",
+      "rect": [
+        925,
+        834,
+        374,
+        72
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-4.webp",
+      "sha256": "5990e784a67464c970dba344896cc06b80df1e9ffa4b5f62f4d7f63183696736",
+      "rect": [
+        1302,
+        834,
+        329,
+        173
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-5.webp",
+      "sha256": "b7b812807265282a566bb22b7e47b291b1111b4d2305b3b1143c449a1bc44c2a",
+      "rect": [
+        1634,
+        834,
+        208,
+        232
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-6.webp",
+      "sha256": "e2ad9a888589b6d5ca7026198602f7d8a9d0b8f5100e6459b36ec9bb6d55acb2",
+      "rect": [
+        1845,
+        834,
+        171,
+        249
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-7.webp",
+      "sha256": "fe69807d5a39c71c58633803c94f6764b9fccb2304dabe3ff84929c0b0dabc9c",
+      "rect": [
+        0,
+        1245,
+        178,
+        322
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-8.webp",
+      "sha256": "92ee2627787c00dbf778781cb01a06de1dbb897380e0dc0c6a267105f6d247f1",
+      "rect": [
+        181,
+        1245,
+        167,
+        265
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-9.webp",
+      "sha256": "38d33c5b1714b075ba97e20503dd9fd679ea0555fddf901bfbb2df37a3b01fbb",
+      "rect": [
+        351,
+        1245,
+        204,
+        331
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-10.webp",
+      "sha256": "9fce53cd436b6a4edad0b388b7396a55ab59aeafe51581b2c7d5cb8983023d98",
+      "rect": [
+        558,
+        1245,
+        170,
+        292
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade252/foundation-11.webp",
+      "sha256": "b51f2651fda1901ac8b7e9be39127c6724ba5ec793169760c5a5405ea71e2025",
+      "rect": [
+        731,
+        1245,
+        152,
+        344
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-0.webp",
+      "sha256": "bb73c29c2ac546fded450047f22364ce778da2eb4761c1ae9335ae43e5aa55b0",
+      "rect": [
+        886,
+        1245,
+        177,
+        415
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-1.webp",
+      "sha256": "775c8860a71de77c87181cbf0dcb1fd5ec85ed0469ceac26cfb46ef6b87122cd",
+      "rect": [
+        1066,
+        1245,
+        182,
+        416
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-2.webp",
+      "sha256": "4947b2533a8d3dc82ecb59e3c8dd4f20e012d9bbc906a11425b9fe13990062fe",
+      "rect": [
+        1251,
+        1245,
+        174,
+        415
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-3.webp",
+      "sha256": "8093f5167ffd931cfa23748019e42c74023f0339f1daae093ee5fd4295715bed",
+      "rect": [
+        1428,
+        1245,
+        214,
+        416
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-4.webp",
+      "sha256": "3e18858042ffc0569fc9523037d375444514e73d6e595b3b4476ca1b63b5600c",
+      "rect": [
+        1645,
+        1245,
+        206,
+        415
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-5.webp",
+      "sha256": "c7e11a1aedc0c74b0a025cc4fe09815b607d17fe20c1f6d2c7a17a38530b75ed",
+      "rect": [
+        0,
+        1664,
+        217,
+        416
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    },
+    {
+      "path": "dist/assets/nightshade255/gun-6.webp",
+      "sha256": "b19af008340d124ef4c9a6cc535ebae52d42c48dc21dc39471d9d6d56c59af6f",
+      "rect": [
+        220,
+        1664,
+        185,
+        416
+      ],
+      "alphaIdentical": true,
+      "visibleRGBAIdentical": true,
+      "dimensionsIdentical": true
+    }
+  ],
+  "applied": false,
+  "reason": "Combined atlas was larger; original runtime assets restored without changes."
+}

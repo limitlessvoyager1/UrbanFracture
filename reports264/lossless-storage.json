@@ -1,0 +1,24 @@
+{
+  "savedBytes": 106574,
+  "proof": "Identical decoded full RGBA, alpha and dimensions; no art/screenshot approval.",
+  "assets": [
+    {
+      "path": "dist/assets/estates-avenue196.webp",
+      "before": "1b880e554d1a8e407afc79600c8e80075bb6f1761acf787fe3486ccaaa41f5bf",
+      "after": "26b5883bd277c091f4a557fba04accd22ae4213ca1d7abada6cca425ca92aeb1",
+      "saved": 53950,
+      "rgbaIdentical": true,
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "path": "dist/assets/estates-tennis196.webp",
+      "before": "4f3bf2ac04e229863436615443d61ae5706b38dec656b98913dec2071c8d4894",
+      "after": "ba07975efa0413b572c6a6b451fc775dff9ef3fd8414310f42811131766cb5d0",
+      "saved": 52624,
+      "rgbaIdentical": true,
+      "width": 2172,
+      "height": 724
+    }
+  ]
+}

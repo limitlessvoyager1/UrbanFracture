@@ -1,0 +1,329 @@
+{
+  "assertions": 3627,
+  "trials": [
+    {
+      "hz": 30,
+      "dir": -1,
+      "edge": false,
+      "heroTravel": 99.99999999999994,
+      "targetTravel": 144.00000000000006,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5166666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4166666666666665
+        }
+      ]
+    },
+    {
+      "hz": 30,
+      "dir": -1,
+      "edge": true,
+      "heroTravel": 45,
+      "targetTravel": 20,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5166666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4166666666666665
+        }
+      ]
+    },
+    {
+      "hz": 30,
+      "dir": 1,
+      "edge": false,
+      "heroTravel": 100.00000000000023,
+      "targetTravel": 143.9999999999999,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5166666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4166666666666665
+        }
+      ]
+    },
+    {
+      "hz": 30,
+      "dir": 1,
+      "edge": true,
+      "heroTravel": 100.00000000000023,
+      "targetTravel": 144,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5166666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4166666666666665
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "dir": -1,
+      "edge": false,
+      "heroTravel": 99.99999999999983,
+      "targetTravel": 144,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5333333333333333,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6166666666666666,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4333333333333333
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "dir": -1,
+      "edge": true,
+      "heroTravel": 45,
+      "targetTravel": 20,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5333333333333333,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6166666666666666,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4333333333333333
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "dir": 1,
+      "edge": false,
+      "heroTravel": 99.99999999999977,
+      "targetTravel": 143.99999999999977,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5333333333333333,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6166666666666666,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4333333333333333
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "dir": 1,
+      "edge": true,
+      "heroTravel": 99.99999999999977,
+      "targetTravel": 143.99999999999977,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5333333333333333,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.6166666666666666,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4333333333333333
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "dir": -1,
+      "edge": false,
+      "heroTravel": 100,
+      "targetTravel": 144,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5416666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.625,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4416666666666667
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "dir": -1,
+      "edge": true,
+      "heroTravel": 45,
+      "targetTravel": 20,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5416666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.625,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4416666666666667
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "dir": 1,
+      "edge": false,
+      "heroTravel": 99.99999999999966,
+      "targetTravel": 144,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5416666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.625,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4416666666666667
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "dir": 1,
+      "edge": true,
+      "heroTravel": 99.99999999999955,
+      "targetTravel": 144,
+      "hits": [
+        {
+          "stage": 1,
+          "damage": 7,
+          "stun": 0.5416666666666667,
+          "down": 0
+        },
+        {
+          "stage": 2,
+          "damage": 8,
+          "stun": 0.625,
+          "down": 0
+        },
+        {
+          "stage": 3,
+          "damage": 10,
+          "stun": 0,
+          "down": 1.4416666666666667
+        }
+      ]
+    }
+  ]
+}

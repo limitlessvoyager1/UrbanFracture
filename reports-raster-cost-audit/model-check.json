@@ -1,0 +1,850 @@
+{
+  "status": "passed",
+  "comparisons": 1170,
+  "synthetic": 1002,
+  "nativeCaptures": 168,
+  "alternatives": 3,
+  "labels": [
+    {
+      "type": "thug",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "thug",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "thug",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "thug",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "thug",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "thug",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "thug",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "thug",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "knifeThug",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "enforcer",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "enforcer",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "biker",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "biker",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "sato",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "sato",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "akari",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "akari",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "bouncer",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "bouncer",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "cop",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "cop",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "boss",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "boss",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "flint",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "flint",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "gangster",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "gangster",
+      "variant": "flash",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "idle",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "idle",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "walk",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "walk",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "stun",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "stun",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "down",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "down",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "getup",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "getup",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "dead",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "dead",
+      "dir": 1
+    },
+    {
+      "type": "security",
+      "variant": "flash",
+      "dir": -1
+    },
+    {
+      "type": "security",
+      "variant": "flash",
+      "dir": 1
+    }
+  ],
+  "scope": "Analytical alpha-only crop metadata equivalence on unchanged RGBA access layout; not an integrated repair, readback reduction or shipped-pixel/performance claim"
+}

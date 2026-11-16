@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "mutation": "no-clear",
+      "exit": 1,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: borrow clears all previous pixels\n    at ok (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:3:57)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:6:364 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "elapsedMs": 29355,
+      "detected": true
+    },
+    {
+      "mutation": "live-alias",
+      "exit": 1,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: no active surface in free pool\n    at ok (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:3:57)\n    at invariant (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:5:228)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:6:455 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "elapsedMs": 34368,
+      "detected": true
+    },
+    {
+      "mutation": "no-caps",
+      "exit": 1,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: both free pool caps enforced\n    at ok (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:3:57)\n    at invariant (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:5:576)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-crop-surfaces.cjs:7:94 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "elapsedMs": 28203,
+      "detected": true
+    }
+  ],
+  "passed": true,
+  "scope": "Read-buffer-only mutations, original native files untouched"
+}

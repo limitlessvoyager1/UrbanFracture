@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "issues": [
+    {
+      "id": "QA242-001",
+      "severity": "critical",
+      "kind": "obsolete-test-contract",
+      "status": "resolved",
+      "suites": [
+        "security216-legacy",
+        "current216-legacy"
+      ],
+      "evidence": "QA243 updated obsolete no-counter assertions to require existing eligible Orion counters. security216 and current216 both pass; no player move code changed.",
+      "next": "Retain current Orion228 counter regression assertions.",
+      "waivesFailure": false
+    },
+    {
+      "id": "QA242-002",
+      "severity": "review",
+      "kind": "visual-baselines",
+      "status": "open",
+      "evidence": "Historical screenshots exist but no versioned owner-approved screenshot registry exists.",
+      "next": "Review deterministic candidates in the developer gallery, approve specific image+scenario+renderer hashes. No baseline overwrite or automatic approval.",
+      "waivesFailure": false
+    },
+    {
+      "id": "QA242-003",
+      "severity": "review",
+      "kind": "coverage",
+      "status": "open",
+      "evidence": "616 retained source images are inventoried; first opaque-foot adapter covers Forest contact frames only.",
+      "next": "Add source-derived foot/scale certificates per character, NPC, prop and scenery family. Missing coverage stays explicit.",
+      "waivesFailure": false
+    }
+  ]
+}

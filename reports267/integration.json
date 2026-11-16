@@ -1,0 +1,1628 @@
+{
+  "build": 267,
+  "scenes": [
+    {
+      "id": "restaurant",
+      "ammo": 0,
+      "zone": 0,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "restaurant",
+      "ammo": 1,
+      "zone": 0,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "restaurant",
+      "ammo": 3,
+      "zone": 0,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "restaurant",
+      "ammo": 6,
+      "zone": 0,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "retail",
+      "ammo": 0,
+      "zone": 1,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "retail",
+      "ammo": 1,
+      "zone": 1,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "retail",
+      "ammo": 3,
+      "zone": 1,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "retail",
+      "ammo": 6,
+      "zone": 1,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "financial",
+      "ammo": 0,
+      "zone": 7,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "financial",
+      "ammo": 1,
+      "zone": 7,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "financial",
+      "ammo": 3,
+      "zone": 7,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "financial",
+      "ammo": 6,
+      "zone": 7,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "bank",
+      "ammo": 0,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "bank",
+      "ammo": 1,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "bank",
+      "ammo": 3,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "bank",
+      "ammo": 6,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "otis",
+      "ammo": 0,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "otis",
+      "ammo": 1,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "otis",
+      "ammo": 3,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "otis",
+      "ammo": 6,
+      "zone": 10,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "leroy",
+      "ammo": 0,
+      "zone": 13,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "leroy",
+      "ammo": 1,
+      "zone": 13,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "leroy",
+      "ammo": 3,
+      "zone": 13,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "leroy",
+      "ammo": 6,
+      "zone": 13,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-floor",
+      "ammo": 0,
+      "zone": 22,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-floor",
+      "ammo": 1,
+      "zone": 22,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-floor",
+      "ammo": 3,
+      "zone": 22,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-floor",
+      "ammo": 6,
+      "zone": 22,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-penthouse",
+      "ammo": 0,
+      "zone": 23,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-penthouse",
+      "ammo": 1,
+      "zone": 23,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-penthouse",
+      "ammo": 3,
+      "zone": 23,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "casino-penthouse",
+      "ammo": 6,
+      "zone": 23,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-parking",
+      "ammo": 0,
+      "zone": 111,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-parking",
+      "ammo": 1,
+      "zone": 111,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-parking",
+      "ammo": 3,
+      "zone": 111,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-parking",
+      "ammo": 6,
+      "zone": 111,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-concourse",
+      "ammo": 0,
+      "zone": 113,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-concourse",
+      "ammo": 1,
+      "zone": 113,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-concourse",
+      "ammo": 3,
+      "zone": 113,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-concourse",
+      "ammo": 6,
+      "zone": 113,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-facilities",
+      "ammo": 0,
+      "zone": 116,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-facilities",
+      "ammo": 1,
+      "zone": 116,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-facilities",
+      "ammo": 3,
+      "zone": 116,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "stadium-facilities",
+      "ammo": 6,
+      "zone": 116,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-storage",
+      "ammo": 0,
+      "zone": 5,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-storage",
+      "ammo": 1,
+      "zone": 5,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-storage",
+      "ammo": 3,
+      "zone": 5,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-storage",
+      "ammo": 6,
+      "zone": 5,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-workroom",
+      "ammo": 0,
+      "zone": 6,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-workroom",
+      "ammo": 1,
+      "zone": 6,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-workroom",
+      "ammo": 3,
+      "zone": 6,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "uptown-lab-workroom",
+      "ammo": 6,
+      "zone": 6,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "fairways-spa",
+      "ammo": 0,
+      "zone": 29,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "fairways-spa",
+      "ammo": 1,
+      "zone": 29,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "fairways-spa",
+      "ammo": 3,
+      "zone": 29,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "fairways-spa",
+      "ammo": 6,
+      "zone": 29,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "prison-yard",
+      "ammo": 0,
+      "zone": 63,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "prison-yard",
+      "ammo": 1,
+      "zone": 63,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "prison-yard",
+      "ammo": 3,
+      "zone": 63,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "prison-yard",
+      "ammo": 6,
+      "zone": 63,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "docks-shepard",
+      "ammo": 0,
+      "zone": 80,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "docks-shepard",
+      "ammo": 1,
+      "zone": 80,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "docks-shepard",
+      "ammo": 3,
+      "zone": 80,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "docks-shepard",
+      "ammo": 6,
+      "zone": 80,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "highway-approach",
+      "ammo": 0,
+      "zone": 90,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "highway-approach",
+      "ammo": 1,
+      "zone": 90,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "highway-approach",
+      "ammo": 3,
+      "zone": 90,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "highway-approach",
+      "ammo": 6,
+      "zone": 90,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "chinatown-gate",
+      "ammo": 0,
+      "zone": 95,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "chinatown-gate",
+      "ammo": 1,
+      "zone": 95,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "chinatown-gate",
+      "ammo": 3,
+      "zone": 95,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "chinatown-gate",
+      "ammo": 6,
+      "zone": 95,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "mall-lower",
+      "ammo": 0,
+      "zone": 100,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "mall-lower",
+      "ammo": 1,
+      "zone": 100,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "mall-lower",
+      "ammo": 3,
+      "zone": 100,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "mall-lower",
+      "ammo": 6,
+      "zone": 100,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "subway-arrival",
+      "ammo": 0,
+      "zone": 120,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "subway-arrival",
+      "ammo": 1,
+      "zone": 120,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "subway-arrival",
+      "ammo": 3,
+      "zone": 120,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "subway-arrival",
+      "ammo": 6,
+      "zone": 120,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "hydro-turbine-hall",
+      "ammo": 0,
+      "zone": 125,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "hydro-turbine-hall",
+      "ammo": 1,
+      "zone": 125,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "hydro-turbine-hall",
+      "ammo": 3,
+      "zone": 125,
+      "health": 110,
+      "playing": true
+    },
+    {
+      "id": "hydro-turbine-hall",
+      "ammo": 6,
+      "zone": 125,
+      "health": 110,
+      "playing": true
+    }
+  ],
+  "combats": [
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 467,
+      "seconds": 7.783333333333333,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 267,
+      "enemy": "thug"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 1002,
+      "seconds": 16.7,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 0,
+          "maxHP": 115
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 267,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 178,
+          "maxHP": 300
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 267,
+      "enemy": "boss"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 454,
+      "seconds": 7.566666666666666,
+      "hp": 110,
+      "remainingAmmo": 5,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 1,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 267,
+      "enemy": "thug"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 730,
+      "seconds": 12.166666666666666,
+      "hp": 110,
+      "remainingAmmo": 3,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 0,
+          "maxHP": 115
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 3,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 267,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 110,
+      "remainingAmmo": 5,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 173,
+          "maxHP": 300
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 1,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 267,
+      "enemy": "boss"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 138,
+      "seconds": 2.3,
+      "hp": 110,
+      "remainingAmmo": 1,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 5,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 267,
+      "enemy": "thug"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 966,
+      "seconds": 16.1,
+      "hp": 0,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 43,
+          "maxHP": 115
+        }
+      ],
+      "won": false,
+      "defeated": true,
+      "shots": 6,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 110,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 267,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 100,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 228,
+          "maxHP": 300
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 6,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 10,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 267,
+      "enemy": "boss"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 467,
+      "seconds": 7.783333333333333,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 268,
+      "enemy": "thug"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 1002,
+      "seconds": 16.7,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 0,
+          "maxHP": 115
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 268,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 178,
+          "maxHP": 300
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 268,
+      "enemy": "boss"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 482,
+      "seconds": 8.033333333333333,
+      "hp": 110,
+      "remainingAmmo": 5,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 1,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 268,
+      "enemy": "thug"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 910,
+      "seconds": 15.166666666666666,
+      "hp": 110,
+      "remainingAmmo": 3,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 0,
+          "maxHP": 115
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 3,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 268,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 110,
+      "remainingAmmo": 5,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 173,
+          "maxHP": 300
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 1,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 268,
+      "enemy": "boss"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 138,
+      "seconds": 2.3,
+      "hp": 110,
+      "remainingAmmo": 1,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 5,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 268,
+      "enemy": "thug"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 6,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 43,
+          "maxHP": 115
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 6,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 104,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 268,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 100,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 228,
+          "maxHP": 300
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 6,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 10,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 268,
+      "enemy": "boss"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 467,
+      "seconds": 7.783333333333333,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 269,
+      "enemy": "thug"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 1002,
+      "seconds": 16.7,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 0,
+          "maxHP": 115
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 269,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 178,
+          "maxHP": 300
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 269,
+      "enemy": "boss"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 454,
+      "seconds": 7.566666666666666,
+      "hp": 110,
+      "remainingAmmo": 5,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 1,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 269,
+      "enemy": "thug"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 792,
+      "seconds": 13.2,
+      "hp": 110,
+      "remainingAmmo": 3,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 0,
+          "maxHP": 115
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 3,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 269,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 110,
+      "remainingAmmo": 5,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 173,
+          "maxHP": 300
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 1,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "seed": 269,
+      "enemy": "boss"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 138,
+      "seconds": 2.3,
+      "hp": 110,
+      "remainingAmmo": 1,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 5,
+      "ammoCollected": 0,
+      "maxCommitted": 0,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 269,
+      "enemy": "thug"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 6,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "enforcer",
+          "hp": 43,
+          "maxHP": 115
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 6,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 104,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 269,
+      "enemy": "enforcer"
+    },
+    {
+      "style": "firearm-only",
+      "startingAmmo": 6,
+      "frames": 1200,
+      "seconds": 20,
+      "hp": 94,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "boss",
+          "hp": 228,
+          "maxHP": 300
+        },
+        {
+          "type": "knifeThug",
+          "hp": 60,
+          "maxHP": 60
+        },
+        {
+          "type": "thug",
+          "hp": 60,
+          "maxHP": 60
+        }
+      ],
+      "won": false,
+      "defeated": false,
+      "shots": 6,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 16,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [],
+      "seed": 269,
+      "enemy": "boss"
+    }
+  ],
+  "limitations": [
+    "Scripted test policies are not human balance approval.",
+    "Native-model tests do not certify physical controller hardware, rendered artwork or every full campaign route."
+  ],
+  "crowds": [
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 725,
+      "seconds": 12.083333333333334,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "unlocked": true,
+      "seed": 267
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 688,
+      "seconds": 11.466666666666667,
+      "hp": 110,
+      "remainingAmmo": 4,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 2,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "unlocked": true,
+      "seed": 267
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 725,
+      "seconds": 12.083333333333334,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "unlocked": true,
+      "seed": 941
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 688,
+      "seconds": 11.466666666666667,
+      "hp": 110,
+      "remainingAmmo": 4,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 2,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "unlocked": true,
+      "seed": 941
+    },
+    {
+      "style": "zero",
+      "startingAmmo": 0,
+      "frames": 725,
+      "seconds": 12.083333333333334,
+      "hp": 110,
+      "remainingAmmo": 0,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 0,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "unlocked": true,
+      "seed": 42017
+    },
+    {
+      "style": "balanced",
+      "startingAmmo": 6,
+      "frames": 688,
+      "seconds": 11.466666666666667,
+      "hp": 110,
+      "remainingAmmo": 4,
+      "enemyHP": [
+        {
+          "type": "thug",
+          "hp": 0,
+          "maxHP": 60
+        },
+        {
+          "type": "knifeThug",
+          "hp": 0,
+          "maxHP": 60
+        }
+      ],
+      "won": true,
+      "defeated": false,
+      "shots": 2,
+      "ammoCollected": 0,
+      "maxCommitted": 1,
+      "damageTaken": 0,
+      "attacks": 0,
+      "grabs": 0,
+      "actions": [
+        "nightshade257"
+      ],
+      "unlocked": true,
+      "seed": 42017
+    }
+  ],
+  "assertions": 803
+}

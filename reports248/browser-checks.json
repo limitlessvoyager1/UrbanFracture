@@ -1,0 +1,33 @@
+{
+  "environment": "managed browser preview",
+  "checks": [
+    {
+      "test": "native counter hold",
+      "observed": "actual incoming punch held, defense60 after regular capture, no follow-up damage before Attack"
+    },
+    {
+      "test": "weapon pickup",
+      "observed": "Broxton pickup completes; five-use pipe inventory; final ready pose hand-attached after correcting layer order",
+      "evidence": "weapon-grip248.jpg"
+    },
+    {
+      "test": "Human Shield",
+      "observed": "Frankie arms restrained behind his body; Broxton and victim share a planted sole baseline",
+      "evidence": "human-shield248.jpg"
+    },
+    {
+      "test": "Orion Rugbeat impact and release",
+      "observed": "Three impacts total48 damage; native grounded victim art during recovery; COMPLETE at2.0s with held=false and synchronized=false",
+      "evidence": "counter-grounding248.jpg"
+    },
+    {
+      "test": "main game launch",
+      "observed": "Build248 starts Broxton in Downtown with active enemies and the new pickup button. Browser gamepad status reports no physical controller connected."
+    }
+  ],
+  "limitations": [
+    "Not all hero/enemy artistic pairings visually certified.",
+    "Physical DualSense hardware unavailable.",
+    "No human Normal-difficulty balance certification."
+  ]
+}

@@ -1,0 +1,16 @@
+Initial browser matrix invocation, before isolated serial rerun:
+Measurement receipt: initial-matrix-before-host-crash.json, status passed.
+The process then exited -2147483645 during native Node/V8 cleanup.
+Captured tool output began:
+  Measured matrix candidate
+  PASS browser matrix
+  Unknown type: 532
+  Fatal error in , line 0: unreachable code
+  Native stack: node::SetCppgcReference; node::TriggerNodeReport;
+  V8_Fatal; v8::FixedArray::Length; v8::PropertyDescriptor::writable;
+  X509_STORE_get_cleanup; uv_poll_stop; inflateValidate.
+This is not counted as a clean verification pass. Raw completed measurements are
+retained separately. No game-page JavaScript error was recorded. The host crash
+cause is unproven; no production correction or Node-runtime upgrade was made to
+explain it away. Fresh isolated processes must exit0 as well as write successful
+receipts. See browser-processes.json for the actual rerun outcomes.

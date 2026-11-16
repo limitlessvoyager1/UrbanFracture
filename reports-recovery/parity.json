@@ -1,0 +1,1035 @@
+{
+  "baseline": "004585024f5579cfbbb7413916ac2d2e246eca38",
+  "physicsCases": 24,
+  "nativeAIWakeCases": 48,
+  "passed": true,
+  "explicitWake": [
+    {
+      "type": "sato",
+      "name": "saitoKipUp",
+      "data": [
+        0.8666666666666677,
+        0.9333333333333333,
+        0.3333333333333333,
+        14
+      ]
+    },
+    {
+      "type": "akari",
+      "name": "akariWakeSweep",
+      "data": [
+        0.8666666666666677,
+        0.8666666666666667,
+        0.3,
+        12
+      ]
+    },
+    {
+      "type": "cop",
+      "name": "wakeSweep",
+      "data": [
+        2.466666666666663,
+        0.8999999999999999,
+        0.31666666666666665,
+        18
+      ]
+    }
+  ],
+  "wakes": [
+    {
+      "type": "sato",
+      "seed": 1,
+      "births": [
+        {
+          "name": "martialBlock",
+          "time": 1.35,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.116666666666664,
+          "total": 0.9544141184538603,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.099999999999994,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 2,
+      "births": [
+        {
+          "name": "martialBlock",
+          "time": 0.8833333333333344,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 1.649999999999999,
+          "total": 0.9151250214781612,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialBlock",
+          "time": 2.583333333333329,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 3.349999999999993,
+          "total": 0.6084247840102762,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.983333333333324,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 3,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 0.8833333333333344,
+          "total": 1.1189640530850737,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.533333333333329,
+          "total": 1.0443413426633925,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.599999999999992,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 4,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 1.3666666666666667,
+          "total": 0.9255831815768033,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.3166666666666633,
+          "total": 1.0154319162480534,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.349999999999993,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 5,
+      "births": [
+        {
+          "name": "martialBlock",
+          "time": 0.8833333333333344,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 3.0833333333333273,
+          "total": 1.1261637437157332,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 6,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 0.8833333333333344,
+          "total": 0.6648436138406396,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialBlock",
+          "time": 1.566666666666666,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.33333333333333,
+          "total": 0.9576130634173751,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialBlock",
+          "time": 3.3166666666666598,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 7,
+      "births": [
+        {
+          "name": "martialCombo",
+          "time": 1.949999999999998,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 8,
+      "births": [
+        {
+          "name": "saitoKipUp",
+          "time": 0.8666666666666677,
+          "total": 0.9333333333333333,
+          "hitAt": 0.3333333333333333,
+          "damage": 14
+        },
+        {
+          "name": "martialBlock",
+          "time": 3.4666666666666592,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 9,
+      "births": [
+        {
+          "name": "saitoKipUp",
+          "time": 0.8666666666666677,
+          "total": 0.9333333333333333,
+          "hitAt": 0.3333333333333333,
+          "damage": 14
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.599999999999992,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 10,
+      "births": [
+        {
+          "name": "saitoKipUp",
+          "time": 0.8666666666666677,
+          "total": 0.9333333333333333,
+          "hitAt": 0.3333333333333333,
+          "damage": 14
+        },
+        {
+          "name": "martialFly",
+          "time": 2.8666666666666614,
+          "total": 1.1,
+          "hitAt": 0.3833333333333333,
+          "damage": 20
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 11,
+      "births": [
+        {
+          "name": "martialBlock",
+          "time": 0.8833333333333344,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialBlock",
+          "time": 1.649999999999999,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.7833333333333283,
+          "total": 0.9850789227057248,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 3.7999999999999914,
+          "total": 0.6760871107690036,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 12,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 0.8833333333333344,
+          "total": 0.9566027353517711,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialBlock",
+          "time": 1.866666666666665,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.633333333333329,
+          "total": 0.7841565049253404,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.4499999999999926,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 13,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 1.4,
+          "total": 0.6726449020206928,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.0999999999999974,
+          "total": 0.7552470785100013,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialBlock",
+          "time": 2.883333333333328,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.649999999999992,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 14,
+      "births": [
+        {
+          "name": "martialBlock",
+          "time": 0.8833333333333344,
+          "total": 0.7366666666666666,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 1.649999999999999,
+          "total": 0.9778739820700139,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.6499999999999955,
+          "total": 0.7263376520946622,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.399999999999993,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 15,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 0.8833333333333344,
+          "total": 1.1024822961073368,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 3.049999999999994,
+          "total": 0.6030276398174464,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.683333333333325,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "sato",
+      "seed": 16,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 1.4166666666666665,
+          "total": 0.988332142168656,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 2.7666666666666617,
+          "total": 1.9166666666666667,
+          "hitAt": 0.23333333333333334,
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 1,
+      "births": [
+        {
+          "name": "martialCombo",
+          "time": 0.8833333333333344,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 2,
+      "births": [
+        {
+          "name": "martialCombo",
+          "time": 0.8833333333333344,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 3,
+      "births": [
+        {
+          "name": "martialStep212",
+          "time": 0.8833333333333344,
+          "total": 0.6166666666666667,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 1.6833333333333322,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.449999999999996,
+          "total": 0.926647603791207,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 3.399999999999993,
+          "total": 1.1478218462783842,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 4,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 0.8833333333333344,
+          "total": 0.6407244355883449,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 1.5499999999999994,
+          "total": 1.0869549122639,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 2.666666666666662,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 5,
+      "births": [
+        {
+          "name": "martialCombo",
+          "time": 0.8833333333333344,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 6,
+      "births": [
+        {
+          "name": "martialCombo",
+          "time": 0.8833333333333344,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        },
+        {
+          "name": "martialFeint212",
+          "time": 3.9666666666666575,
+          "total": 0.8384087089449167,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 7,
+      "births": [
+        {
+          "name": "martialFeint212",
+          "time": 0.8833333333333344,
+          "total": 0.7443940624594688,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialStep212",
+          "time": 1.649999999999999,
+          "total": 0.6166666666666667,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 2.5166666666666626,
+          "total": 1.0678874208591878,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 3.6166666666666587,
+          "total": 0.8174783480353653,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 8,
+      "births": [
+        {
+          "name": "martialCombo",
+          "time": 0.8833333333333344,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        },
+        {
+          "name": "martialFeint212",
+          "time": 3.9333333333333242,
+          "total": 0.7998628070577979,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 9,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialFly",
+          "time": 2.833333333333328,
+          "total": 0.9166666666666666,
+          "hitAt": 0.31666666666666665,
+          "damage": 16
+        },
+        {
+          "name": "martialStep212",
+          "time": 3.849999999999991,
+          "total": 0.6166666666666667,
+          "hitAt": 999,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 10,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.7166666666666583,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 11,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialFly",
+          "time": 2.833333333333328,
+          "total": 0.9166666666666666,
+          "hitAt": 0.31666666666666665,
+          "damage": 16
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.849999999999991,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 12,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.3166666666666598,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 13,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.2499999999999933,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 14,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.6166666666666587,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 15,
+      "births": [
+        {
+          "name": "akariWakeSweep",
+          "time": 0.8666666666666677,
+          "total": 0.8666666666666667,
+          "hitAt": 0.3,
+          "damage": 12
+        },
+        {
+          "name": "martialCombo",
+          "time": 3.399999999999993,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "akari",
+      "seed": 16,
+      "births": [
+        {
+          "name": "martialPause212",
+          "time": 0.8833333333333344,
+          "total": 0.7441910679917783,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialPause212",
+          "time": 1.649999999999999,
+          "total": 0.9005840658210218,
+          "hitAt": 999,
+          "damage": 0
+        },
+        {
+          "name": "martialCombo",
+          "time": 2.583333333333329,
+          "total": 1.5833333333333333,
+          "hitAt": 0.18333333333333332,
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 1,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 2,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 3,
+      "births": [
+        {
+          "name": "batonStrike210",
+          "time": 2.466666666666663,
+          "total": 0.7333333333333334,
+          "hitAt": 0.26666666666666666,
+          "damage": 11
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 4,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 5,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 6,
+      "births": [
+        {
+          "name": "enemyStep210",
+          "time": 2.466666666666663,
+          "total": 0.4,
+          "hitAt": 99,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 7,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 8,
+      "births": [
+        {
+          "name": "enemyStep210",
+          "time": 2.466666666666663,
+          "total": 0.4,
+          "hitAt": 99,
+          "damage": 0
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 9,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 10,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 11,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 12,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 13,
+      "births": [
+        {
+          "name": "batonStrike210",
+          "time": 2.466666666666663,
+          "total": 0.7333333333333334,
+          "hitAt": 0.26666666666666666,
+          "damage": 11
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 14,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 15,
+      "births": [
+        {
+          "name": "batonCombo",
+          "time": 2.466666666666663,
+          "total": 1.2333333333333334,
+          "hitAt": 0.2,
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "type": "cop",
+      "seed": 16,
+      "births": [
+        {
+          "name": "batonStrike210",
+          "time": 2.466666666666663,
+          "total": 0.7333333333333334,
+          "hitAt": 0.26666666666666666,
+          "damage": 11
+        }
+      ]
+    }
+  ]
+}

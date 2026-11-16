@@ -1,0 +1,76 @@
+URBAN FRACTURE — PORTABLE CROWD / GRAPPLE REGRESSIONS (A3-03)
+Date: 2026-11-12
+Branch: fix/portable-crowd-grapple-tests
+Production baseline: db2e17b50472ca43757e90ac9bdf8bc7b0b48abb
+Audit retained: 0701ba46381a56d4fedda858505a3787d9b781f0
+
+RESULT
+Both runtime suites now run without historical Git commits, without a repository and without a Git executable. All36distinct executed suites passed.
+Crowd:163,200behavior checks/28scenarios.
+Grapple:22,791behavior checks/40mirrored fixtures plus original lifecycle controls.
+11crowd+7grapple historical receipts remain explicitly UNAVAILABLE. Strict CLI exits2, keeping release certification blocked.
+No production source, AI, grapple mechanics, damage/frame data, native runtime loader, fixtures or existing normalization adapters changed.
+
+ROOT CAUSE / CORRECTION
+The original scripts unconditionally fetched historical bytes before behavior. Missing Git/history aborted runtime checks. Their report booleans would falsely claim historical preservation if the gates were simply skipped.
+The two entry scripts now wrap unchanged behavioral assertions with a narrow receipt/report runner. It collects provenance separately and executes behavior even when a proof is unavailable or failed. Partial behavior failure is saved and remains a failure; receipt/report errors cannot turn into success.
+Source proof is true only for a fully passed protected-file receipt group, null when unavailable and false on a failed proof. Legacy approvedSourceUnchanged / approvedTimingAndDamagePreserved are nullable aliases with an explicit protected-file scope, not full-game certification.
+
+EXACT HISTORICAL PROOFS RETAINED
+Crowd:027ed578b782d4fc437e84c637d9ab37de7172d6,11files, original plane304.approved transform.
+Grapple:9f9584f044807d7be6f062c19263eeec221afcca,7files, original recording313->recording306 transform plus exact single nativeArmor302 literal removal.
+Configuration is byte-identical to the audited specification. Protected file lists/order, adapter composition and existing adapter source are unchanged. Available source is compared as strict bytes, with hashes and declared blob-size consistency.
+Missing Git/repo/commit/blob is UNAVAILABLE; malformed/unexpected Git results, permission/timeout/read/adapter errors and actual mismatches are FAILED. A failure wins over other unavailable rows. No synthetic/current source impersonates real history.
+
+RELEASE GATES
+Existing critical runtime entries/profiles retained unchanged.
+Added critical initial/release crowd-grapple-receipt-tests and separate critical release crowd-grapple-historical-receipts.
+Strict receipt CLI codes:0all passed,1failed,2unavailable. Runtime-only success may exit0 when proofs are unavailable, with explicit warning and nullable flags. Any actual proof or behavior failure still exits nonzero.
+The generic QA runner classifies nonzero gate exits as failed; the underlying receipts retain UNAVAILABLE status. This is a blocked certification gate, not a historical mismatch claim.
+Older17collision+1height+9reaction receipts remain independently UNAVAILABLE; their CLIs still exit2. No missing evidence marked passed and no adapters weakened.
+
+AUTOMATED VERIFICATION
+22receipt self-tests passed, covering both configurations:
+missing executable/repository/commit/blob, matching UTF8bytes/hashes, mixed unavailable+mismatch, current/historical read and adapter errors, malformed object types/responses, timeout/permission errors, blob-size mismatch, collector exceptions, behavior execution after failed proof, genuine behavior failure with partial progress, report-write/save failures, exact specification and critical registry gates.
+10actual isolated-copy scenarios passed;525declared/root-runtime files copied, no .git, inherited Git overrides removed and parent-repository discovery prevented:
+- Both suite entries pass without Git and repository.
+- Both pass with real Git but no repository.
+- Both run behavior then exit1 on available synthetic historical byte mismatches, using the real approved normalization chain.
+- Actual copied Director budget/commitment mutation and copied grapple pose-clock mutation each fail behavior with receipts still unavailable.
+- Strict CLI exits2without history and1for available mismatches.
+Synthetic receipts are explicitly negative test fixtures, not evidence about real historical commits. Isolated mutations never touch production.
+All36distinct relevant suites passed; names/codes/output in tests.json. No final behavioral failures among those suites. Prior unrelated known failures were not rerun or fixed.
+Syntax, registry and whitespace checks passed.
+
+PRESERVATION EVIDENCE
+tools/crowd-grapple/source-proof.cjs confirms:
+- Every original behavioral assertion byte remains unchanged, including direct assertions outside the checks counter.
+- Native scenario result rows/check counters exactly match the pre-repair audit.
+- Original fixtures, native loader, proof adapters and all production dist source match baseline.
+- Existing QA entries and profiles/criticality are unchanged after removing the two new entries.
+Assertion-body hashes (exclude only old proof loop/report footer):
+crowd:6e0accc8a394eae868de449a3832cafe016d2cae0931145648412c9da50facd4
+grapple:8092edc2592b7c83fd0efd0abd880f5bb15848098c6e04407a53437a7b4ca883
+Existing unlimited-practice/injured/lethal fixture conditions preserved. These checks are not every-hero/every-grapple/campaign certification.
+
+FILES CHANGED
+tests/crowd303.cjs,tests/grapples301.cjs wrappers/imports/report handling.
+tools/crowd-grapple/{spec,receipts,suite,verify-portability,source-proof}.cjs.
+tests/crowd-grapple-receipts.cjs; qa/system242/suites.json two new entries.
+reports-crowd-grapple-portability and COMBAT_REPAIR_LOG.md.
+Production/fixtures/existing normalization helpers untouched.
+
+RUN FROM PROJECT ROOT
+  node tests/crowd303.cjs
+  node tests/grapples301.cjs
+  node --test tests/crowd-grapple-receipts.cjs
+  node tools/crowd-grapple/receipts.cjs
+  node tools/crowd-grapple/verify-portability.cjs
+Optional preservation comparison:
+  node tools/crowd-grapple/source-proof.cjs
+UF_GIT can name a Git executable. Runtime/receipt self-tests do not require historical objects; the optional source-preservation tool uses the locally available approved baseline. Reports are under reports303/reports301; retained evidence is under reports-crowd-grapple-portability.
+
+LIMITATIONS / NEXT
+No rendered rerun or visual correction claim for this infrastructure-only repair. Optional sibling Node view suites still require @napi-rs/canvas/assets and remain separate; no image gate waived. Full release/campaign/physical hardware certification remains unperformed and historical proof blocks release.
+Original source/eight archives retained; audit observations remain preserved as pre-repair evidence. Repair branch integrated into cumulative stable after verification. Delivered ZIP is a cumulative overlay against export-baseline, not a complete project export.
+Recommended next:separate audit of remaining Assignment3 grapple coverage gaps and rendering prerequisites; do not alter mechanics to satisfy missing historical evidence. Recover authoritative historical objects when available and run strict proofs.

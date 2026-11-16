@@ -1,0 +1,861 @@
+{
+  "frames": [
+    {
+      "src": "assets/nightshade257/main-0.webp?v=257",
+      "w": 204,
+      "h": 251,
+      "ax": 125.0,
+      "ay": 251,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 0,
+      "hand": [
+        50,
+        140
+      ],
+      "tip": [
+        1,
+        193
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        0,
+        0,
+        362,
+        272
+      ],
+      "componentRect": [
+        55,
+        10,
+        259,
+        261
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.4,
+        "tip": 6.49
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-1.webp?v=257",
+      "w": 198,
+      "h": 251,
+      "ax": 105.0,
+      "ay": 251,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 1,
+      "hand": [
+        11,
+        50
+      ],
+      "tip": [
+        111,
+        8
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        362,
+        0,
+        724,
+        272
+      ],
+      "componentRect": [
+        72,
+        10,
+        270,
+        261
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.31,
+        "tip": 16.15
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-2.webp?v=257",
+      "w": 239,
+      "h": 251,
+      "ax": 96.5,
+      "ay": 251,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 2,
+      "hand": [
+        165,
+        72
+      ],
+      "tip": [
+        238,
+        37
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        724,
+        0,
+        1086,
+        272
+      ],
+      "componentRect": [
+        78,
+        10,
+        317,
+        261
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.61,
+        "tip": 10.4
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-3.webp?v=257",
+      "w": 239,
+      "h": 247,
+      "ax": 154.0,
+      "ay": 247,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 3,
+      "hand": [
+        67,
+        119
+      ],
+      "tip": [
+        2,
+        157
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        1086,
+        0,
+        1448,
+        272
+      ],
+      "componentRect": [
+        34,
+        14,
+        273,
+        261
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.46,
+        "tip": 0.41
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-4.webp?v=257",
+      "w": 272,
+      "h": 252,
+      "ax": 87.5,
+      "ay": 252,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 4,
+      "hand": [
+        163,
+        71
+      ],
+      "tip": [
+        265,
+        71
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        0,
+        272,
+        362,
+        543
+      ],
+      "componentRect": [
+        83,
+        10,
+        355,
+        262
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.34,
+        "tip": 0.57
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-5.webp?v=257",
+      "w": 178,
+      "h": 253,
+      "ax": 72.5,
+      "ay": 253,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 5,
+      "wrist": [
+        156,
+        72
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        362,
+        272,
+        724,
+        543
+      ],
+      "componentRect": [
+        90,
+        9,
+        268,
+        262
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "wrist": 0.34
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-6.webp?v=257",
+      "w": 182,
+      "h": 252,
+      "ax": 75.0,
+      "ay": 252,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 6,
+      "wrist": [
+        153,
+        71
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        724,
+        272,
+        1086,
+        543
+      ],
+      "componentRect": [
+        93,
+        10,
+        275,
+        262
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "wrist": 0.34
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-7.webp?v=257",
+      "w": 138,
+      "h": 230,
+      "ax": 70.52000000000001,
+      "ay": 264.54999999999995,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 7,
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        1086,
+        272,
+        1448,
+        543
+      ],
+      "componentRect": [
+        96,
+        10,
+        234,
+        240
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {}
+    },
+    {
+      "src": "assets/nightshade257/main-8.webp?v=257",
+      "w": 268,
+      "h": 173,
+      "ax": 74.80000000000001,
+      "ay": 242.0,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 8,
+      "hand": [
+        75,
+        130
+      ],
+      "tip": [
+        259,
+        111
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        0,
+        543,
+        362,
+        814
+      ],
+      "componentRect": [
+        70,
+        19,
+        338,
+        192
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.21,
+        "tip": 0.43
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-9.webp?v=257",
+      "w": 205,
+      "h": 203,
+      "ax": 106.0,
+      "ay": 203,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 9,
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        362,
+        543,
+        724,
+        814
+      ],
+      "componentRect": [
+        66,
+        39,
+        271,
+        242
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {}
+    },
+    {
+      "src": "assets/nightshade257/main-10.webp?v=257",
+      "w": 222,
+      "h": 211,
+      "ax": 84.28,
+      "ay": 247.87,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 10,
+      "hand": [
+        84,
+        136
+      ],
+      "tip": [
+        206,
+        110
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        724,
+        543,
+        1086,
+        814
+      ],
+      "componentRect": [
+        75,
+        5,
+        297,
+        216
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.29,
+        "tip": 16.4
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-11.webp?v=257",
+      "w": 252,
+      "h": 241,
+      "ax": 113.03999999999999,
+      "ay": 264.54999999999995,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 11,
+      "hand": [
+        103,
+        148
+      ],
+      "tip": [
+        251,
+        57
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        1086,
+        543,
+        1448,
+        814
+      ],
+      "componentRect": [
+        39,
+        10,
+        291,
+        251
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 11.04,
+        "tip": 29.04
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-12.webp?v=257",
+      "w": 172,
+      "h": 255,
+      "ax": 73.28,
+      "ay": 280.03999999999996,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 12,
+      "hand": [
+        15,
+        41
+      ],
+      "tip": [
+        105,
+        31
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        0,
+        814,
+        362,
+        1086
+      ],
+      "componentRect": [
+        86,
+        0,
+        258,
+        255
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.41,
+        "tip": 36.19
+      }
+    },
+    {
+      "src": "assets/nightshade257/main-13.webp?v=257",
+      "w": 250,
+      "h": 233,
+      "ax": 91.5,
+      "ay": 233,
+      "scale": 0.4900398406374502,
+      "kind": "main",
+      "index": 13,
+      "hand": [
+        150,
+        141
+      ],
+      "tip": [
+        247,
+        177
+      ],
+      "source": "art-source257/melee.png",
+      "sourceSHA256": "1dde7c56f0e906d61f3c48c17c56acb4bde859a92d338e0e4bc01d06b5d7e13b",
+      "sourceRect": [
+        362,
+        814,
+        724,
+        1086
+      ],
+      "componentRect": [
+        59,
+        30,
+        309,
+        263
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 1.03,
+        "tip": 70.47
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-0.webp?v=257",
+      "w": 264,
+      "h": 415,
+      "ax": 89.5,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 0,
+      "grip": [
+        252,
+        103
+      ],
+      "hand": [
+        203,
+        124
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "componentRect": [
+        121,
+        8,
+        385,
+        423
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 1.21,
+        "grip": 0.04
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-1.webp?v=257",
+      "w": 258,
+      "h": 414,
+      "ax": 90.0,
+      "ay": 414,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 1,
+      "grip": [
+        252,
+        102
+      ],
+      "hand": [
+        203,
+        122
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "componentRect": [
+        120,
+        9,
+        378,
+        423
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 2.23,
+        "grip": 0.12
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-2.webp?v=257",
+      "w": 244,
+      "h": 415,
+      "ax": 87.0,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 2,
+      "grip": [
+        240,
+        102
+      ],
+      "hand": [
+        191,
+        122
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "componentRect": [
+        132,
+        9,
+        376,
+        424
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 2.23,
+        "grip": 0.12
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-3.webp?v=257",
+      "w": 243,
+      "h": 415,
+      "ax": 104.5,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 3,
+      "grip": [
+        238,
+        103
+      ],
+      "hand": [
+        188,
+        124
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "componentRect": [
+        135,
+        8,
+        378,
+        423
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 1.64,
+        "grip": 0.04
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-4.webp?v=257",
+      "w": 239,
+      "h": 415,
+      "ax": 106.5,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 4,
+      "grip": [
+        235,
+        101
+      ],
+      "hand": [
+        186,
+        122
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "componentRect": [
+        138,
+        10,
+        377,
+        425
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 0.91,
+        "grip": 0.25
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-5.webp?v=257",
+      "w": 258,
+      "h": 416,
+      "ax": 89.5,
+      "ay": 416,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 5,
+      "grip": [
+        252,
+        102
+      ],
+      "hand": [
+        202,
+        123
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "componentRect": [
+        120,
+        9,
+        378,
+        425
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 1.66,
+        "grip": 0.28
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-6.webp?v=257",
+      "w": 284,
+      "h": 415,
+      "ax": 121.0,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 6,
+      "grip": [
+        271,
+        125
+      ],
+      "hand": [
+        224,
+        149
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "componentRect": [
+        101,
+        10,
+        385,
+        425
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 26.15,
+        "grip": 24.25
+      }
+    },
+    {
+      "src": "assets/nightshade257/grab-7.webp?v=257",
+      "w": 190,
+      "h": 415,
+      "ax": 89.5,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "grab",
+      "index": 7,
+      "grip": [
+        169,
+        101
+      ],
+      "hand": [
+        167,
+        116
+      ],
+      "source": "art-source257/grab.png",
+      "sourceSHA256": "e65922d56cc6aecb71ca7d9ce52f050316f3f5c3829d8860ddcd67699a37bd8a",
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "componentRect": [
+        121,
+        10,
+        311,
+        425
+      ],
+      "sourceDensityFactor": 1,
+      "anchorSnapDistances": {
+        "hand": 36.77,
+        "grip": 82.96
+      }
+    },
+    {
+      "src": "assets/nightshade257/pen-0.webp?v=257",
+      "w": 156,
+      "h": 433,
+      "ax": 73.5,
+      "ay": 433,
+      "scale": 0.2840646651270208,
+      "kind": "pen",
+      "index": 0,
+      "hand": [
+        87,
+        118
+      ],
+      "tip": [
+        118,
+        94
+      ],
+      "source": "art-source257/pen.png",
+      "sourceSHA256": "a35b549aac5a3f720c88080f8881c0ad40937fde1b2f87a070cb565ab935af14",
+      "sourceRect": [
+        0,
+        0,
+        444,
+        443
+      ],
+      "componentRect": [
+        188,
+        6,
+        344,
+        439
+      ],
+      "sourceDensityFactor": 0.5,
+      "anchorSnapDistances": {
+        "hand": 0.28,
+        "tip": 9.58
+      }
+    },
+    {
+      "src": "assets/nightshade257/pen-1.webp?v=257",
+      "w": 271,
+      "h": 434,
+      "ax": 74.5,
+      "ay": 434,
+      "scale": 0.2840646651270208,
+      "kind": "pen",
+      "index": 1,
+      "hand": [
+        218,
+        83
+      ],
+      "tip": [
+        270,
+        85
+      ],
+      "source": "art-source257/pen.png",
+      "sourceSHA256": "a35b549aac5a3f720c88080f8881c0ad40937fde1b2f87a070cb565ab935af14",
+      "sourceRect": [
+        444,
+        0,
+        887,
+        443
+      ],
+      "componentRect": [
+        39,
+        6,
+        310,
+        440
+      ],
+      "sourceDensityFactor": 0.5,
+      "anchorSnapDistances": {
+        "hand": 0.4,
+        "tip": 2.64
+      }
+    }
+  ],
+  "encoding": "WebP90 with alpha; new review-candidate artwork only; approved artwork unchanged."
+}

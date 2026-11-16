@@ -1,0 +1,869 @@
+{
+  "kind": "actual-native-AI-observations",
+  "events": [
+    {
+      "sequence": 1,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 24,
+      "kind": "action admitted",
+      "requestedAction": "kick",
+      "chosenAction": "kick",
+      "entryPath": "enemyAct",
+      "attemptSequence": 1,
+      "outcome": "admitted",
+      "reason": null,
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 1,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": "kick",
+            "outcome": "admitted",
+            "rejectionReason": null,
+            "reasonSource": null
+          },
+          "currentActionCorrelation": "matches observed admission",
+          "currentActionAttemptSequence": 1,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 24,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 21,
+        "distance": 50,
+        "planeDifference": 0,
+        "position": {
+          "x": 650,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 24,
+          "secondary": null,
+          "roles": {
+            "24": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "25": {
+              "type": "thug",
+              "role": "ApproachSupport"
+            },
+            "26": {
+              "type": "thug",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 24,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 50,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 2,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 25,
+      "kind": "action admitted",
+      "requestedAction": "kick",
+      "chosenAction": "kick",
+      "entryPath": "enemyAct",
+      "attemptSequence": 2,
+      "outcome": "admitted",
+      "reason": null,
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 2,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": "kick",
+            "outcome": "admitted",
+            "rejectionReason": null,
+            "reasonSource": null
+          },
+          "currentActionCorrelation": "matches observed admission",
+          "currentActionAttemptSequence": 2,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 25,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 21,
+        "distance": 145,
+        "planeDifference": 0,
+        "position": {
+          "x": 745,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 24,
+          "secondary": 25,
+          "roles": {
+            "24": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "25": {
+              "type": "thug",
+              "role": "SecondaryAttacker"
+            },
+            "26": {
+              "type": "thug",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 25,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 145,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 3,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 26,
+      "kind": "action rejected",
+      "requestedAction": "kick",
+      "chosenAction": null,
+      "entryPath": "enemyAct",
+      "attemptSequence": 3,
+      "outcome": "rejected",
+      "reason": "pressure budget",
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 3,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": null,
+            "outcome": "rejected",
+            "rejectionReason": "pressure budget",
+            "reasonSource": "new native denial"
+          },
+          "currentActionCorrelation": "no active action",
+          "currentActionAttemptSequence": null,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 26,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 21,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "idle",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 24,
+          "secondary": 25,
+          "roles": {
+            "24": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "25": {
+              "type": "thug",
+              "role": "SecondaryAttacker"
+            },
+            "26": {
+              "type": "thug",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 26,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": false,
+            "reason": "pressure budget"
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 4,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 26,
+      "kind": "action admitted",
+      "requestedAction": "kick",
+      "chosenAction": "kick",
+      "entryPath": "enemyAct",
+      "attemptSequence": 4,
+      "outcome": "admitted",
+      "reason": null,
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 4,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": "kick",
+            "outcome": "admitted",
+            "rejectionReason": null,
+            "reasonSource": null
+          },
+          "currentActionCorrelation": "matches observed admission",
+          "currentActionAttemptSequence": 4,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 26,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 21,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 26,
+          "secondary": null,
+          "roles": {
+            "24": {
+              "type": "thug",
+              "role": "ApproachSupport"
+            },
+            "25": {
+              "type": "thug",
+              "role": "SupportThreat"
+            },
+            "26": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 26,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 5,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 33,
+      "kind": "action admitted",
+      "requestedAction": "kick",
+      "chosenAction": "kick",
+      "entryPath": "enemyAct",
+      "attemptSequence": 5,
+      "outcome": "admitted",
+      "reason": null,
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 5,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": "kick",
+            "outcome": "admitted",
+            "rejectionReason": null,
+            "reasonSource": null
+          },
+          "currentActionCorrelation": "matches observed admission",
+          "currentActionAttemptSequence": 5,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 33,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 115,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 30,
+        "distance": 50,
+        "planeDifference": 0,
+        "position": {
+          "x": 650,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 33,
+          "secondary": null,
+          "roles": {
+            "33": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            },
+            "34": {
+              "type": "enforcer",
+              "role": "ApproachSupport"
+            },
+            "35": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 33,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 50,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 6,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 34,
+      "kind": "action admitted",
+      "requestedAction": "kick",
+      "chosenAction": "kick",
+      "entryPath": "enemyAct",
+      "attemptSequence": 6,
+      "outcome": "admitted",
+      "reason": null,
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 6,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": "kick",
+            "outcome": "admitted",
+            "rejectionReason": null,
+            "reasonSource": null
+          },
+          "currentActionCorrelation": "matches observed admission",
+          "currentActionAttemptSequence": 6,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 34,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 115,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 30,
+        "distance": 145,
+        "planeDifference": 0,
+        "position": {
+          "x": 745,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 33,
+          "secondary": 34,
+          "roles": {
+            "33": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            },
+            "34": {
+              "type": "enforcer",
+              "role": "SecondaryAttacker"
+            },
+            "35": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 34,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 145,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 7,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 35,
+      "kind": "action rejected",
+      "requestedAction": "kick",
+      "chosenAction": null,
+      "entryPath": "enemyAct",
+      "attemptSequence": 7,
+      "outcome": "rejected",
+      "reason": "pressure budget",
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 7,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "kick",
+            "chosenAction": null,
+            "outcome": "rejected",
+            "rejectionReason": "pressure budget",
+            "reasonSource": "new native denial"
+          },
+          "currentActionCorrelation": "no active action",
+          "currentActionAttemptSequence": null,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 35,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 115,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 30,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "idle",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 33,
+          "secondary": 34,
+          "roles": {
+            "33": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            },
+            "34": {
+              "type": "enforcer",
+              "role": "SecondaryAttacker"
+            },
+            "35": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 35,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": false,
+            "reason": "pressure budget"
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "sequence": 8,
+      "simulationFrame": 0,
+      "time": 0,
+      "enemy": 35,
+      "kind": "action rejected",
+      "requestedAction": "frontKick",
+      "chosenAction": null,
+      "entryPath": "enemyAct",
+      "attemptSequence": 8,
+      "outcome": "rejected",
+      "reason": "N/A: native controller supplied no correlated rejection reason",
+      "snapshot": {
+        "decisionContext": {
+          "recording": true,
+          "lastObservedAttempt": {
+            "sequence": 8,
+            "observedAt": 0,
+            "completedAt": 0,
+            "entryPath": "enemyAct",
+            "requestedAction": "frontKick",
+            "chosenAction": null,
+            "outcome": "rejected",
+            "rejectionReason": "N/A: native controller supplied no correlated rejection reason",
+            "reasonSource": "unavailable"
+          },
+          "currentActionCorrelation": "no active action",
+          "currentActionAttemptSequence": null,
+          "coverage": "Observed calls at this layer only; outer guards may reject without an event. Last observed attempts are history, not proof that no later decision occurred."
+        },
+        "id": 35,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 115,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 30,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "idle",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0.2,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 33,
+          "secondary": 34,
+          "roles": {
+            "33": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            },
+            "34": {
+              "type": "enforcer",
+              "role": "SecondaryAttacker"
+            },
+            "35": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 35,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": false,
+            "reason": "pressure budget"
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "N/A: native move-selection reasoning is not exposed; see last observed attempt and native history",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    }
+  ]
+}

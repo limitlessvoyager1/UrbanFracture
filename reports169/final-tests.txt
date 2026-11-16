@@ -1,0 +1,101 @@
+Final validation169. A test-runner filename typo (german123.cjs) was corrected to reina-german123.test.cjs; the corrected suite and remaining suites passed below. No gameplay assertion was removed.
+
+
+Running tests/current150.cjs
+PASS134 maul approach/return/retrieval ownership,32/20 blitz budgets and rebound, mirrored blade contacts across lanes, grip sessions6 sizes, deliberate25 damage Taekwondo combo and whiff locks, smooth leash
+PASS134 moving three-slash chains, armor takes damage, protected/offlane misses, unreachable and lethal Maul cleanup
+PASS134 boss blitz guard and mid-command Dog stun cleanup
+PASS Reina130:16 mirrored normal/heavy punch and kick counters retain the capture grip, automatically execute followups, pay meter once, take no hit and preserve neutral rear-grab result
+PASS four weapon variations, mirrored lanes, one disarm/kick, 50/100 success and15 failure costs, 60% gates,7/10/5 frame timing, forbidden attacks, Forward/L1 restrictions, lethal and interruption cleanup
+PASS84 hero/size/facing/direction transitions, session/contact/lane/scale/timer continuity, one buffered attack, no damage/regrab/restart, boundaries and interruption cleanup
+PASS52 outer reaps: preserved target-specific totals, two impacts, two real steps, one lane, lethal/interruption cleanup;24 existing throws plus enemy powerbomb enforce attacker-first recovery
+PASS Forest127: six variations mirrored, explicit damage/meter/bonus, contact lanes, targeted projectiles, disarm, timing, health/armor gates, Gunner availability/retrieval, miss/interruption/phase/stage cleanup
+PASS companion126: difficulty stun/immunity, one-hit identity, five-second reset, HP gates, interrupt/armor, genuine knockdown, cooldowns, same-item delivery/drop/cancel, retained Maul charge, unavailable Dog attack fallbacks
+PASS all4 heroes / both facings: hit and guard contact unlock; distance, plane, immunity and prop whiffs cannot chain; queued Nova whiffs finish naturally; later misses retain confirmed string
+PASS104 grounded suplexes: fixed hero root/feet/scale, no jump or kip/roll, release43 continuous momentum, impact61 single28 damage, mirrored foreground/background lanes, separation, recovery/death/interruption and grab gates
+PASS24 DDTs:72-frame shared clock, full360 turn, held head anchor, both directions, one32-damage impact, plane lock and cleanup
+PASS live standard/raw DualSense strip-mall selection, checkpoint retry/restart, paused R1 scene menu, park start and park retry
+PASS133 delayed Reina art never exposes placeholder, dry/wet paths and loaded artwork preserved
+PASS14472 live standard/raw/DSX charge timing fixtures: immediate taps,2s ready, Nova automatic, release-only others
+PASS147 charge lanes/60% gait/fixed root, enemy timing/armor/punish/reset, unchanged damage and other hero charge factors
+PASS147 12 all-hero woods/lab clear-to-right fixtures: no reverse walking or Downtown door transition
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS149 4 heroes: grounded-body trigger, arson worker entry/throws/escape/fire transition, input safety, exactly3 foreground entrants/45s, stopped clear timer, right-side wall passage, escape and unconditional timeout Game Over
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS149 8 Uptown scenes: every raster ground/scenery layer shifts exactly -10 for a +10 camera move; no independent foreground parallax
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS148 all heroes: solid log-only crossing, vertical limits, jump preservation, upward-only lab door approach, grounded workers and bounded walking speed
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS143 4 heroes ×2 routes: director scope, locked-input cleanup, diagnostics, nonblocking dialogue expiry
+PASS145 308 grapples at120Hz:11 moves×7 victims×2 facings×2 lanes, no premature wake, no stuck action, release and plane invariants
+PASS136 standard/raw DualSense/DSX grab+Triangle, both facings, one cost/impact, recovery ordering
+PASS137 standard/raw Sony/DSX front-forward Attack, both facings, exact26 damage/no cost/no repeat, recovery order, L1 defensive cancel
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS148 240 seeded solo/mixed hero/route/style fixtures: <=3 pressure, <=2 commitments, finite coordinates, integer score
+PASS152 4heroes x60/120Hz: staged guards do not starve regular waves, one order, input-safe cutscene, released trio, visible dock escape, body-landing clear gate, up-only dock approach/boarding, no Financial leak, retry/reset
+PASS152 standard/raw Sony: Riverfront menu start, same-route retry/restart and paused R1 scene picker, fresh Sterling trio on retry
+PASS153 Dorian:135HP, unarmored damage/stagger, no guard, heavy director cost, near-only one wake uppercut/1s immunity at60/120Hz, expiry, faster pursuit/gait, frequent commitments 18 vs Bruno 11, Marcus/Kevin/Dorian trio
+PASS153 Dorian:135HP, unarmored damage/stagger, no guard, heavy director cost, near-only one wake uppercut/1s immunity at60/120Hz, expiry, faster pursuit/gait, frequent commitments 18 vs Bruno 11, Marcus/Kevin/Dorian trio
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS143 4 heroes ×2 routes: director scope, locked-input cleanup, diagnostics, nonblocking dialogue expiry
+PASS145 44 grapples at120Hz:11 moves×Dorian×2 facings×2 lanes, no premature wake, no stuck action, release and plane invariants
+PASS150 current-contract regression entry point:26 suites, full current combat chain where supported; established character mechanics preserved
+
+Running tests/quality169.cjs
+PASS169 projectile5-shot ownership/27f startup/11f spacing/33f recovery,4-target100/70/50% falloff both facings,18% guarded chip and15% push/no guard break, per-projectile target uniqueness; four-hero contact IDs/depth exclusion
+PASS169 24 hero/victim ground/recovery/repeated-grab cases: ordinary grounded grabs refused, .75s wake and additional1.5s after two within6s, no melee immunity
+PASS169 observed3-use/8s adaptation with delayed visibility and confidence decay; existing shared director retained
+PASS169 stale guard flash cannot mark unrelated rejected damage as attack contact
+
+Running tests/render169.cjs
+PASS169 render: one shared environment sample across8 fighter shadows/foreground, live override refresh, indoor suppression and unchanged seed/clock; all4 kip-up cells bounded, fixed scale and grounded anchors, ordinary draw fallback
+
+Running tests/grapple145.cjs
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS143 4 heroes ×2 routes: director scope, locked-input cleanup, diagnostics, nonblocking dialogue expiry
+PASS145 308 grapples at120Hz:11 moves×7 victims×2 facings×2 lanes, no premature wake, no stuck action, release and plane invariants
+
+
+Running tests/reina-german123.test.cjs
+PASS104 grounded suplexes: fixed hero root/feet/scale, no jump or kip/roll, release43 continuous momentum, impact61 single28 damage, mirrored foreground/background lanes, separation, recovery/death/interruption and grab gates
+
+Running tests/cabin168.cjs
+PASS168 all4 heroes: connected right-only storage passage, left workroom placement;12 arson timelines/3 bottom entrants/45s, connected shrinking safe area, pause and clock continuity, stopped victory timer/automatic foreground escape+Gunner; friendly fire intervals/no stunlock/paired lethal release; terminal collapse and no late win/duplicate event
+PASS168 four live director fire battles: bounded pressure and finite actor positions through shrinking arena, no forced player damage while protected
+
+Running tests/lab-fighters166.cjs
+PASS166:16 hero/room/variant throws, telegraph/tracked release/fixed arc, shared2-slot reservations, full-pool melee/evasion, acid friendly fire/5s/60vs120Hz, sticky controls/grace, quick wake/retreat/interruption, one-worker rooms/nonblocking waves/reset
+PASS166 coordinated rear flask/front melee respects pressure cap; sticky aggression and exported diagnostics
+PASS166 88 synchronized worker-victim grapples across11 moves/both variants/facings/lanes; no premature wake or lane drift
+PASS166 moving attacks cancel immediately on sticky contact before strike, including attack immunity; all4 heroes
+PASS166 both variants:8 dedicated gait poses, grounded support/stable scale;4 heroes immediately render distinct planted stuck stance
+PASS166 actual moving-attack ticks enter sticky pool, stop immediately and remain in stuck stance despite held attack/movement, all4 heroes
+
+Running tests/quality167.cjs
+PASS167 36 lethal hero/attack cases including real Carmen taser/projectile and acid, no standing death/shock; Frankie range/approach branches;8 arson intros with3 impacts/exit before45s wave, timeout; irregular growing puddles; universal unlit yellow GO; Kevin source and standard Frankie grip
+
+Running tests/environment156.cjs
+PASS156 seeds, random independence,30/60/120FPS exact1020s, seek/save/replay/temporary overrides, script return, full24h cycle, indoor/future profiles;24h seek 7.2ms
+PASS156 preview clock isolation,15s forced blend,test lightning,transition save/load and no Math.random calls
+
+Running tests/environment162.cjs
+PASS162 automatic future enrollment; same object/seed/state across outdoors/interior; indoor clock; temporary overrides/save; validation and deduplicated warnings; identical30/60/120Hz progression without combat RNG
+PASS162 transition continuity and pooled environment audio: one noise buffer, exterior sound, indoor/mute silence
+PASS162 future indoor/outdoor metadata and ground-floor configuration automatically honored
+
+Running tests/environment-integration156.cjs
+PASS156 all four heroes: identical combat/geometry/score and AI RNG with/without storm; pause/interior clock and world continuity;22 scene classifications
+PASS156 16 storm/clear grapple comparisons: all heroes, both facings and lanes, ordinary throws and grab specials, identical damage/attachment/recovery/positions
+
+Running tests/gamepad.test.cjs
+PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+
+Running tests/controller157.cjs
+PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+
+PASS104 grounded suplexes: fixed hero root/feet/scale, no logical root jump/roll (kip-up art only), release43 continuous momentum, impact61 single28 damage, mirrored foreground/background lanes, separation, recovery/death/interruption and grab gates
+
+PASS169 baseline84 controlled20s encounters
+PASS169 current84 controlled20s encounters

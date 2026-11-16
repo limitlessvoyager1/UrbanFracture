@@ -1,0 +1,654 @@
+# URBAN FRACTURE — PERMANENT QA & REGRESSION CERTIFICATION SYSTEM
+## Master Implementation Instructions for OpenAI Codex
+### Applies to All Existing and Future Characters, Moves, Levels, Art, and Gameplay Systems
+
+---
+
+# PRIMARY OBJECTIVE
+
+Establish a permanent, reusable quality-assurance system for Urban Fracture.
+
+Whenever the game is modified, Codex must identify the changes, determine affected systems, execute appropriate tests, and report whether the update is safe to integrate into the approved stable version.
+
+This system must support:
+
+- New playable characters.
+- Existing character moveset changes.
+- New enemies and bosses.
+- Changes to AI behavior.
+- Animation additions and corrections.
+- Character sprite replacements.
+- Complete art-style upgrades.
+- New levels and branching paths.
+- New environments.
+- New gameplay mechanics.
+- UI and controller changes.
+- Save/load modifications.
+
+**Do not assume a feature is complete merely because it exists in the source code or passes unit tests.**
+
+Certification must include mechanical correctness, visual integrity, integration, and regression coverage.
+
+---
+
+# GATE 0 — VERIFY THE BASELINE
+
+Before implementing the QA system or reviewing a future change:
+
+1. Identify the exact current Git branch and commit.
+2. Identify the last approved stable commit.
+3. Verify that all previously approved repairs are present.
+4. Compare the updated project against the stable baseline.
+5. Identify files added, modified, deleted, or replaced.
+6. Identify the game systems affected by those changes.
+7. Preserve a recoverable checkpoint.
+
+### Existing repair history
+
+Consult `COMBAT_REPAIR_LOG.md` and all current QA reports.
+
+Preserve the approved combat fixes through UF-COMBAT-018 and the subsequent approved test infrastructure improvements.
+
+### Rendering warning
+
+The UF-RENDER-025 and UF-RENDER-027 changes have demonstrated functional correctness but have not passed the broader performance gate.
+
+Do not automatically promote those review branches to stable.
+
+Preserve their evidence and require explicit performance approval.
+
+### Project completeness
+
+The previous repair log reported 6,486 original-manifest files not yet materialized in the working checkout.
+
+Verify that the project under test contains the required complete source and assets.
+
+Do not certify a partial checkout as a complete game.
+
+---
+
+# GATE 1 — AUTOMATIC CHANGE DETECTION
+
+Create a change-impact analyzer.
+
+Compare the current development branch against the approved stable baseline.
+
+Classify changes into:
+
+- Combat mechanics.
+- Animation.
+- Sprite artwork.
+- Character definitions.
+- Enemy AI.
+- Grapples.
+- Physics and collision.
+- Levels and navigation.
+- Environment and weather.
+- UI and HUD.
+- Controller inputs.
+- Save/load.
+- Rendering and performance.
+- Shared infrastructure.
+
+Identify direct dependencies and shared systems affected indirectly.
+
+### Example
+
+If Jaguar's punch animation changes, test Jaguar's punches, animation lifecycle, collision, and recovery.
+
+Also test representative other enemies using the same shared action controller.
+
+Do not assume a change affects only the character whose name appears in the modified file.
+
+---
+
+# GATE 2 — UNIVERSAL ACTION LIFECYCLE CERTIFICATION
+
+Every attack and committed movement action must have an explicit, valid lifecycle.
+
+Check:
+
+1. Preparation where appropriate.
+2. Visible startup.
+3. Active or effect frames.
+4. Follow-through.
+5. On-hit recovery.
+6. On-block recovery.
+7. On-miss recovery.
+8. Interruption behavior.
+9. Legal cancel windows.
+10. Return to actionable state.
+
+### Critical animation requirement
+
+Recovery must contain meaningful physical movement.
+
+Do not certify a move whose recovery is implemented solely by freezing the final attack pose and then snapping to idle.
+
+Check for:
+
+- Missing intermediate poses.
+- Incorrect foot placement.
+- Unnatural balance recovery.
+- Abrupt transitions.
+- Invalid sprite scale changes.
+- Missing recovery animations.
+- Premature actionability.
+
+### Reference cases
+
+Use:
+
+- Nova's Blitz.
+- Jaguar's punch combination.
+- Reina's charged Tornado Kick.
+- Representative heavy enemy attacks.
+- Representative dodges and counters.
+
+These are certification examples, not authorization to change approved move timing.
+
+### Important
+
+Do not automatically assign new startup or recovery values to every move.
+
+Use archetype recommendations to identify questionable timings, then validate animation and gameplay.
+
+---
+
+# GATE 3 — CHARACTER VISUAL CONSISTENCY
+
+Maintain an approved visual identity reference for every character.
+
+Compare registered animations against that reference.
+
+Check:
+
+- Face.
+- Hair.
+- Clothing.
+- Accessories.
+- Body proportions.
+- Outline style.
+- Shading.
+- Pixel density.
+- World scale.
+- Sprite anchors.
+- Foot placement.
+
+### Required sprite comparisons
+
+For each affected character, generate a contact sheet containing representative:
+
+- Idle.
+- Walk.
+- Run.
+- Jump.
+- Attack.
+- Blitz.
+- Grab.
+- Throw.
+- Hit reaction.
+- Knockdown.
+- Get-up.
+- Recovery.
+
+Compare at consistent world scale.
+
+### Known reference issues
+
+Include Reina's previously reported Blitz, grab, standing-combo, and neutral jump-kick inconsistencies.
+
+Include Marcus's changing prone pose after knockdown.
+
+### Artwork limitations
+
+If source artwork is inconsistent, flag it as Requires Artwork Review.
+
+Do not claim that code changes corrected artistic inconsistencies unless the actual artwork was replaced or visibly corrected.
+
+---
+
+# GATE 4 — COMBAT AND COLLISION REGRESSION
+
+Verify:
+
+- Damage registration.
+- Hitboxes.
+- Hurtboxes.
+- Combat-plane alignment.
+- Facing.
+- Blocking.
+- Armor.
+- Invulnerability.
+- Hitstun.
+- Knockback.
+- Knockdowns.
+- Recovery.
+- Counters.
+- Grapple eligibility.
+- Energy spending and generation.
+
+Preserve the previously repaired shared combat-state protections.
+
+### Required pairings
+
+Automatically enumerate the implemented playable heroes and enemy registry.
+
+Run basic mechanical checks for all compatible hero/enemy pairings where feasible.
+
+Run deeper tests for:
+
+- Newly changed moves.
+- Changed enemy behavior.
+- Shared combat modules.
+- Known historical regression cases.
+
+Do not claim every unique move has been visually tested merely because basic pairwise tests passed.
+
+---
+
+# GATE 5 — ENEMY AI CERTIFICATION
+
+Verify that enemies:
+
+- Respect mandatory startup and recovery.
+- Respect hitstun and knockdowns.
+- Use legal moves.
+- Observe cooldowns.
+- Maintain valid combat-plane alignment.
+- Recognize observable punish opportunities.
+- Do not read future player inputs.
+- Respect the AI Director.
+- Do not excessively spam grabs or anti-air attacks.
+
+### Normal difficulty
+
+Preserve:
+
+- Three-point threat budget.
+- Maximum two simultaneous offensive commitments.
+
+### Punishment behavior
+
+Advanced enemies may attempt to exploit a player's missed or blocked attack during recovery.
+
+However, they must have:
+
+- Valid observation.
+- Reaction delay.
+- Appropriate range.
+- Legal attack eligibility.
+- AI Director approval.
+
+Do not permit instantaneous or impossible reactions.
+
+---
+
+# GATE 6 — GRAPPLE AND THROW CERTIFICATION
+
+Verify:
+
+- Capture.
+- Attachment.
+- Body alignment.
+- Lift or movement.
+- Release.
+- Throw trajectory.
+- Landing.
+- Recovery.
+- Secondary enemy collisions where applicable.
+
+Check for:
+
+- Teleportation.
+- Detached limbs.
+- Incorrect scaling.
+- Duplicate damage.
+- Incorrect collision.
+- Stuck grapple ownership.
+- Invalid recovery.
+- Broken mirrored animations.
+
+Test representative grapples across ordinary, heavy, and boss targets.
+
+Preserve approved grab resistance and wake-up protections.
+
+---
+
+# GATE 7 — LEVEL CERTIFICATION
+
+Every newly created or substantially modified level must pass:
+
+## Navigation
+
+- Valid entrances.
+- Valid exits.
+- Reachable objectives.
+- Functional doors.
+- Correct collision.
+- No progression softlocks.
+
+## Encounters
+
+- Correct enemy spawning.
+- Correct AI coordination.
+- Functional locked encounters.
+- Correct boss triggers.
+- Correct GO indicators.
+- No unreachable mandatory enemies.
+
+## Branching paths
+
+- Every intended branch is accessible.
+- Route choices lead to valid destinations.
+- Mission progression persists.
+- Hidden routes remain appropriately hidden.
+
+## Environment
+
+- Appropriate weather.
+- Day/night lighting.
+- Wind and foliage.
+- Snow restrictions and accumulation.
+- Correct scenery depth.
+- Correct civilian scale and navigation.
+
+## World integration
+
+- Level registry updated.
+- City Map association updated where applicable.
+- Actual level connections represented.
+- Mission and travel systems remain valid.
+- Save/load works at checkpoints.
+
+Do not invent missing map connections.
+
+---
+
+# GATE 8 — ART-STYLE OVERHAUL CERTIFICATION
+
+When the game's overall art style changes, run a broader visual and rendering review.
+
+Check:
+
+- All playable heroes.
+- All implemented enemy classes.
+- Bosses.
+- Civilians.
+- Foreground scenery.
+- Background scenery.
+- Weather effects.
+- Hit effects.
+- HUD.
+- Menus.
+- Interior and exterior environments.
+
+### Rendering checks
+
+Verify:
+
+- Sprite cache correctness.
+- Transparent pixels.
+- Texture cropping.
+- Anchor positions.
+- Sprite layering.
+- Pixel artifacts.
+- Animation consistency.
+- Character scale.
+- Memory usage.
+- Frame rendering time.
+
+### Performance
+
+Measure representative scenes with:
+
+- One enemy.
+- Four enemies.
+- Eight enemies where supported.
+- Mixed enemy classes.
+- Multiple active effects.
+- Weather and background animation.
+
+Report average frame time, p95 frame time, and relevant memory measurements.
+
+Distinguish rendering-only measurements from actual full-game frame pacing.
+
+Do not sacrifice sprite correctness to improve performance.
+
+Do not mark an art overhaul complete without visual review.
+
+---
+
+# GATE 9 — DEVELOPER PANEL AND REPLAY
+
+Use or extend the existing Developer Panel.
+
+Support:
+
+- Character selection.
+- Enemy selection.
+- Move selection.
+- Animation phase inspection.
+- Hitbox/hurtbox overlays.
+- Frame stepping.
+- Slow motion.
+- AI decision inspection.
+- Recovery timing.
+- Collision diagnostics.
+- Grapple attachment diagnostics.
+- Deterministic replay.
+- Before/after comparisons.
+
+Use actual runtime values.
+
+Do not fabricate animation phases or AI explanations.
+
+---
+
+# GATE 10 — TEST REGISTRY AND AUTOMATION
+
+Create a central registry of QA checks.
+
+Every registered feature must declare:
+
+- Feature ID.
+- Owning subsystem.
+- Relevant source files.
+- Required mechanical tests.
+- Required rendering tests.
+- Required integration tests.
+- Manual review requirements.
+- Known limitations.
+
+### Test profiles
+
+Create three reusable profiles.
+
+**Quick QA**
+- Changed feature tests.
+- Direct dependency tests.
+- Critical combat protections.
+- Build/syntax validation.
+
+**Standard QA**
+- All Quick QA tests.
+- Broader affected-system regression.
+- Representative rendered gameplay.
+- Relevant controller and save/load tests.
+- Performance smoke tests.
+
+**Full Certification**
+- All available automated suites.
+- Complete registered hero/enemy compatibility matrix.
+- All implemented level progression checks.
+- Representative unique-move visual review.
+- Art and animation consistency review.
+- Full-scene performance testing.
+- Save/load and controller testing.
+- Release-critical evidence validation.
+
+A Full Certification run must not be called passed if required checks are blocked or unperformed.
+
+---
+
+# GATE 11 — QA REPORTING
+
+After every QA run, generate:
+
+`QA_REPORT.md`
+
+Include:
+
+1. Current branch and commit.
+2. Approved baseline commit.
+3. Changed files.
+4. Changed systems.
+5. Tests selected and why.
+6. Tests executed.
+7. Passed tests.
+8. Failed tests.
+9. Blocked tests.
+10. Visual review results.
+11. Performance measurements.
+12. Known regressions.
+13. Required repairs.
+14. Release readiness.
+
+### Certification statuses
+
+Use:
+
+- Passed.
+- Failed.
+- Not Tested.
+- Requires Visual Review.
+- Blocked.
+
+Do not count unavailable historical receipts as passes.
+
+Preserve evidence of existing failures rather than silently waiving them.
+
+---
+
+# GATE 12 — REPAIR AND APPROVAL WORKFLOW
+
+For every confirmed defect:
+
+1. Reproduce it.
+2. Identify its root cause.
+3. Propose the smallest safe repair.
+4. Create a separate Git branch.
+5. Implement after approval.
+6. Add regression coverage.
+7. Run affected tests.
+8. Run critical shared-system tests.
+9. Inspect rendered gameplay when relevant.
+10. Update the repair log.
+11. Present results for approval.
+
+Do not automatically merge into the stable branch.
+
+Do not rewrite large shared systems without authorization.
+
+---
+
+# GATE 13 — FUTURE CONTENT REQUIREMENTS
+
+All newly introduced heroes, enemies, moves, levels, and major visual assets must register with the QA system.
+
+New content cannot receive full certification if it lacks:
+
+- Required move definitions.
+- Appropriate startup/recovery behavior.
+- Valid animation assets.
+- Valid collision data.
+- Appropriate AI integration.
+- Correct level progression.
+- Save/load compatibility.
+- Relevant visual review.
+
+### Important
+
+Automated checks must detect missing requirements.
+
+Do not automatically block development merely because an unfinished prototype is incomplete.
+
+Instead, clearly label prototype content as uncertified.
+
+Only approved, certified content should enter the stable development branch.
+
+---
+
+# INITIAL EXECUTION PLAN
+
+Do not implement every gate in one task.
+
+## Assignment 1 — Audit existing QA infrastructure
+
+Inspect current tests, render tools, Developer Panel diagnostics, and repair history.
+
+Identify what already exists and what is missing.
+
+Produce a gap analysis.
+
+Stop for approval.
+
+## Assignment 2 — Change-impact analysis and test profiles
+
+Implement Gates 1 and 10 using existing infrastructure where possible.
+
+Verify Quick, Standard, and Full Certification selection.
+
+Stop and test.
+
+## Assignment 3 — Combat and animation certification
+
+Implement Gates 2–6 incrementally.
+
+Start with representative moves and enemy families.
+
+Stop and verify.
+
+## Assignment 4 — Levels and art certification
+
+Implement Gates 7–8.
+
+Use representative existing levels and artwork.
+
+Stop and verify.
+
+## Assignment 5 — Reporting and permanent integration
+
+Implement Gates 9 and 11–13.
+
+Verify report accuracy and future-content registration.
+
+Stop for final approval.
+
+---
+
+# FINAL REQUIREMENT
+
+The QA system must be reusable after every future Urban Fracture update.
+
+It must detect previously fixed problems if they return.
+
+It must identify missing or invalid animation behavior.
+
+It must distinguish technical correctness from artistic quality.
+
+It must verify affected systems without unnecessarily repeating every expensive test after minor changes.
+
+It must preserve the approved stable project and never silently overwrite previous repairs.
+
+## IMMEDIATE INSTRUCTION
+
+Begin with Assignment 1 only.
+
+Audit the existing QA infrastructure, including the latest UF-RENDER-027 performance hold and all previous combat repairs.
+
+Identify reusable components and missing certification coverage.
+
+Do not modify production gameplay code.
+
+Present the proposed permanent QA architecture and stop for approval.

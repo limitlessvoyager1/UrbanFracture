@@ -1,0 +1,51 @@
+URBAN FRACTURE — OFFENSIVE ACTIONABILITY DIAGNOSTICS REPAIR
+Date: 2026-11-12. Scope: Assignment1 finding A1-01 only.
+Branch: fix/combat-actionability-diagnostics
+Starting commit:167b3cd7c36d440b90bd0a26aef6742a358ef555 (audit branch; gameplay identical to stable1edfa61).
+
+ROOT CAUSE AND CORRECTION
+Continuity296.resolve projected native physical/presentation state but called its result actionable without accounting for the enforced post-hit deadline or native cooldown. The real start/enemyAct guards already denied offense. This was a misleading diagnostic, not a renewed gameplay bypass.
+
+The resolver now retains its former assessment under nativeStateActionable, reports common offensive readiness under offensiveReady and its compatibility alias actionable, and adds offensiveLocks with actual remaining cooldown/reassessment seconds. Existing physical locks and state/owner/visual state fields retain their meanings. Reassessment uses the actual actor deadline, never stale reaction274.reassessUntil; exact boundary comparison matches the existing guard. Heroes retain the enemy-reassessment exemption. Paired actors remain non-neutral; this does not forbid their authored continuations.
+
+These fields describe common neutral readiness, not a universal authorization API. Per-move, range, Director, environmental and specialized AI requirements still belong to their native owners. Cooldown is advisory native readiness: direct start is not newly blocked by cd. nativeStateActionable preserves the previous assessment; it is not an exhaustive locomotion permission API. A presentation state may correctly be idle/walk during offensive reassessment. Callers must pass current simulation time when evaluating absolute deadlines.
+
+CONSUMER REVIEW
+Search found no runtime consumer of resolve(...).actionable that drives mechanics. knockdowns299 report reads resolve(...).state, unchanged. Existing tests and audit tooling inspect the diagnostics. Shared action guards, AI selection, physical movement, damage, animation clocks, armor, counters and wake rules are unchanged. Module bytes outside resolve match the starting commit exactly. All other dist files are unchanged except index.html's continuity296 cache token338-actionability.
+
+FILES
+-dist/continuity296.js: read-only resolver correction and field documentation.
+-dist/index.html: cache token only.
+-tests/actionability-diagnostics.cjs: portable native regression.
+-qa/system242/suites.json: critical initial/release registry entry.
+-tools/actionability/compare.cjs and render.cjs: optional baseline parity/browser evidence.
+-reports-actionability: test/parity/render/report evidence.
+-COMBAT_REPAIR_LOG.md: cumulative record.
+-Six unchanged original dependencies recovered from supplied ZIPs, hash-verified against EXPORT-MANIFEST.json and retained for the existing continuity suite: reports296/{before,after/current}/reina-{thug,enforcer}.json, reports296/asset-migration.json, source-archive/build296/assets/sprites/enforcer-walk-v1.webp. These restore original fixtures/archive art; no shipping artwork changed.
+
+TESTS
+New regression failed on the recorded baseline at the incorrect actionable report, then passed6,805checks. Coverage: Reina/Niko x8native families x30/60/120Hz, actual heavy-hit post-stun intervals, both offensive entry paths, exact deadline boundaries, tiny positive cooldowns, actor immutability, unchanged presentation locks, player exemptions,19paired-state flags and preserved direct-start cooldown behavior.
+
+All16top-level suites passed:
+actionability-diagnostics6805; continuity29630272; knockdown-admission89115; hitstun-eligibility19208; post-hit-reassessment1192; reactions298742; reactions298-receipts11; combat274; repairs330788; enemies210; martial212; counters248; flint211; gamepad.test; controller157; qa242-validators6.
+No final behavioral test failures. Some legacy suites use narrower loaders; the new regression and parity use current production-order simulation. Controller checks are simulated, not physical hardware certification.
+
+Exact before/after parity passed192trajectories/40,320snapshots:2heroes x8families x3rates x4modes (heavy hit, knockdown, actual native opener, live native AI). Compared selected actor HP/defense, positions, movement flags, action name/frame/data, stun/shock, knockdown/landing/recovery, cooldown, wake/invulnerability, enforced reassessment, reaction duration/deadline/damage, and player state. No damage, timing, physics, native action or reaction-receipt change occurred. This is not exhaustive all-move certification.
+
+Historical reaction receipts:9UNAVAILABLE, no claimed pass or fabricated proof. Portable Git confirms the original reference commit is absent; strict CLI exits2. Actual mismatch semantics remain covered by11receipt self-tests. Optional Node canvas view suite remains unavailable/not run. Original historical knockdown receipt suite was not claimed passed.
+
+Initial existing continuity suite stopped on missing archived JSON; six original dependencies were recovered and hash-verified, then the unchanged suite passed. Browser initially could not access localhost; explicit turn-scoped network permission resolved it. These initial blocks are recorded rather than counted as final passes before resolution.
+
+RENDERED GAMEPLAY
+Native Chromium loaded the production index/canvas. In16controlled heavy-hit cases (both heroes/eight enemies), wait until stun ends while reassessment remains. Swap only the old/fixed read-only resolver at the same physical state/time. Old actionabletrue becomes false; presentation state stays idle; all16cropped native canvas images are byte-identical. The contact sheet was visually inspected. The unchanged direct offensive guard still rejects the attempted action. This proves targeted presentation preservation, not a visual defect correction or full-motion certification.
+Browser JavaScript errors0; two preexisting portrait404s persist:assets/enforcer-concept-v1.png and assets/thug-leader-concept-v1.png.
+
+REPEAT
+From project root: node tests/actionability-diagnostics.cjs
+Parity: set UF_GIT to available Git, then node tools/actionability/compare.cjs.
+Browser: set UF_GIT, UF_PLAYWRIGHT_MODULE and PLAYWRIGHT_BROWSERS_PATH to installed Git/Playwright/browser runtimes, allow localhost access, then node tools/actionability/render.cjs. Browser tooling is optional and not a portable bundled dependency.
+
+RISKS / LIMITATIONS / NEXT ISSUE
+Risk: consumers misread presentation freedom as attack permission, or treat common readiness as universal permission. Field comments/tests distinguish these; no gameplay gate reads this resolver. Physical locks, strict time boundaries, players and pairing are tested. Nine historical proofs, full campaign/release tests and physical-controller checks remain unresolved. No all-content certification or complete project export claimed.
+
+All previously approved repairs are retained. Recommended next scoped issue: A1-02 stale reaction deadline metadata after the ordinary Marcus/Kevin stun floor. Preserve actual mechanical deadlines if approved; do not silently add reassessment frames. A1-03 launch receipt semantics and broader architecture work remain separate.

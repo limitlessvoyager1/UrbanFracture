@@ -1,0 +1,246 @@
+{
+  "baseline": "db2e17b50472ca43757e90ac9bdf8bc7b0b48abb",
+  "rows": [
+    {
+      "suite": "crowd",
+      "commit": "027ed578b782d4fc437e84c637d9ab37de7172d6",
+      "gitExit": 0,
+      "gitError": null,
+      "commitObjectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6 missing",
+      "historicalSourceReceipts": [
+        {
+          "file": "core.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/core.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/core.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "director148.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/director148.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/director148.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "combat274.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/combat274.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/combat274.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "street209.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/street209.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/street209.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "enemies210.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/enemies210.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/enemies210.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "martial212.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/martial212.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/martial212.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "workers233.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/workers233.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/workers233.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "counters248.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/counters248.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/counters248.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "reactions298.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/reactions298.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/reactions298.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "grapples301.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/grapples301.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/grapples301.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "contact302.js",
+          "ref": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/contact302.js",
+          "objectResponse": "027ed578b782d4fc437e84c637d9ab37de7172d6:dist/contact302.js missing",
+          "status": "unavailable"
+        }
+      ],
+      "adapterPreflight": [
+        {
+          "file": "core.js",
+          "status": "transform executed",
+          "normalizedSha256": "7efc33f36e2b9dfd8ebcbfd9d33aa32970e1367f5d01ed1042f3218c763c4d85",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "director148.js",
+          "status": "transform executed",
+          "normalizedSha256": "cd2f6257dcfe9fb0d5d8f81adbb5d01ca6f9a72b666dd09cda78b66ea322f276",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "combat274.js",
+          "status": "transform executed",
+          "normalizedSha256": "44b34a85296a4f542b2a94adc50cf62ca4aac02e5629b492f102f3b73dd56af5",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "street209.js",
+          "status": "transform executed",
+          "normalizedSha256": "01b93438b1fc8c18fbfba7e7924032a114daa7dfa8b3cee70d76c887812b1d8c",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "enemies210.js",
+          "status": "transform executed",
+          "normalizedSha256": "b68a7adb37db78eb897b99c402135395f757cc521472bdcc29a27457ba863cc7",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "martial212.js",
+          "status": "transform executed",
+          "normalizedSha256": "b70e0607a1669461c32bb7f0aed0c20b0fb4047b3e93acc0056adeb4c01cc4a5",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "workers233.js",
+          "status": "transform executed",
+          "normalizedSha256": "a4838618f42ab7aa280794221e6e598094bbe4cc0c29c46b08fa96e05e98fa5e",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "counters248.js",
+          "status": "transform executed",
+          "normalizedSha256": "047b28f6820b45adbb1a095ce29e1216d1e65a170b0a32919627902a39044af6",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "reactions298.js",
+          "status": "transform executed",
+          "normalizedSha256": "207aaf362a83ab0dcb99ad844510b4cba6fc84de5a921fa5859aca7c2fcc0794",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "grapples301.js",
+          "status": "transform executed",
+          "normalizedSha256": "577222cd814b289298824aad9b366f8e7eef1839d918e9db48ac781459edd88b",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "contact302.js",
+          "status": "transform executed",
+          "normalizedSha256": "9d6e4eac1be94dd6acac83773276d96bba6c5a9334ff0d89b657e80f406cee60",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        }
+      ],
+      "entrySha256": "b41aa258c401552b6ed715ff925964947b3702be015ce3899f4490586e5dd3c5"
+    },
+    {
+      "suite": "grapple",
+      "commit": "9f9584f044807d7be6f062c19263eeec221afcca",
+      "gitExit": 0,
+      "gitError": null,
+      "commitObjectResponse": "9f9584f044807d7be6f062c19263eeec221afcca missing",
+      "historicalSourceReceipts": [
+        {
+          "file": "core.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/core.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/core.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "combat134.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/combat134.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/combat134.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "enemies210.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/enemies210.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/enemies210.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "grapple-recovery119.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/grapple-recovery119.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/grapple-recovery119.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "paired-motion.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/paired-motion.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/paired-motion.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "reactions298.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/reactions298.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/reactions298.js missing",
+          "status": "unavailable"
+        },
+        {
+          "file": "knockdowns299.js",
+          "ref": "9f9584f044807d7be6f062c19263eeec221afcca:dist/knockdowns299.js",
+          "objectResponse": "9f9584f044807d7be6f062c19263eeec221afcca:dist/knockdowns299.js missing",
+          "status": "unavailable"
+        }
+      ],
+      "adapterPreflight": [
+        {
+          "file": "core.js",
+          "status": "transform executed",
+          "normalizedSha256": "1374dcd56c43546bda047771bcf36dd862640999fa0f69ca72e22dbadf9c2a10",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "combat134.js",
+          "status": "transform executed",
+          "normalizedSha256": "cc3bae5e718aa09389fea2e5da4a15a6af16b6617ad345302b1acaa6a0f151f6",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "enemies210.js",
+          "status": "transform executed",
+          "normalizedSha256": "b68a7adb37db78eb897b99c402135395f757cc521472bdcc29a27457ba863cc7",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "grapple-recovery119.js",
+          "status": "transform executed",
+          "normalizedSha256": "1b747454858e5c73ff72f6060bdde19fb532a0bf6e17fc7fc39a041de85210b2",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "paired-motion.js",
+          "status": "transform executed",
+          "normalizedSha256": "0367cee5756b3a65e654ee3ade3ac61940c197472c3c08c3200b20b6718c097e",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "reactions298.js",
+          "status": "transform executed",
+          "normalizedSha256": "207aaf362a83ab0dcb99ad844510b4cba6fc84de5a921fa5859aca7c2fcc0794",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        },
+        {
+          "file": "knockdowns299.js",
+          "status": "transform executed",
+          "normalizedSha256": "43825bd84b2a18fd4fa8bc5db0be4e46542104f91ebb782712fb5206219baa01",
+          "equivalence": "UNAVAILABLE; historical bytes missing"
+        }
+      ],
+      "entrySha256": "983df106e7c8621778e09116e993c3d441446752d751458fceb36e1d684daefd"
+    }
+  ],
+  "note": "Read-only object inventory and independent adapter preflight. No historical receipt is certified by a successful transform."
+}

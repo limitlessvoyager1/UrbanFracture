@@ -1,0 +1,1953 @@
+{
+  "baseline": "f00cc9c9fdce8f2c70a875a2de6e380371c67720",
+  "cases": 38,
+  "rows": [
+    {
+      "label": "Forest combo",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "combo",
+        "total": 1.9666666666666666,
+        "hitAt": 999
+      },
+      "damage": 30,
+      "hits": 6,
+      "transitions": [
+        {
+          "at": 1.9833333333333312,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "combo",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "combo",
+          "session": 1,
+          "time": 0.08333333333333333,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:knee1",
+          "move": "combo",
+          "session": 1,
+          "time": 0.19999999999999998,
+          "amount": 4
+        },
+        {
+          "type": "GrappleImpact:knee2",
+          "move": "combo",
+          "session": 1,
+          "time": 0.39999999999999997,
+          "amount": 4
+        },
+        {
+          "type": "GrappleImpact:bowStrike",
+          "move": "combo",
+          "session": 1,
+          "time": 0.6000000000000002,
+          "amount": 6
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "combo",
+          "session": 1,
+          "time": 1.733333333333332,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "combo",
+          "session": 1,
+          "time": 1.7499999999999987
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "combo",
+          "session": 1,
+          "time": 1.7499999999999987
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "combo",
+          "session": 1,
+          "time": 1.9833333333333312
+        }
+      ]
+    },
+    {
+      "label": "Forest poison",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "poison",
+        "total": 1.4333333333333333,
+        "hitAt": 999
+      },
+      "damage": 20,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.4499999999999997,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "poison",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "poison",
+          "session": 1,
+          "time": 0.09999999999999999,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:poisonStab",
+          "move": "poison",
+          "session": 1,
+          "time": 0.2333333333333333,
+          "amount": 8
+        },
+        {
+          "type": "GrappleImpact:slam",
+          "move": "poison",
+          "session": 1,
+          "time": 0.6000000000000002,
+          "amount": 12
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "poison",
+          "session": 1,
+          "time": 1.1333333333333342,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "poison",
+          "session": 1,
+          "time": 1.1333333333333342
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "poison",
+          "session": 1,
+          "time": 1.1333333333333342
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "poison",
+          "session": 1,
+          "time": 1.4499999999999997
+        }
+      ]
+    },
+    {
+      "label": "Forest spine",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "spine",
+        "total": 2.2,
+        "hitAt": 999
+      },
+      "damage": 24,
+      "hits": 3,
+      "transitions": [
+        {
+          "at": 2.2166666666666637,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "spine",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "spine",
+          "session": 1,
+          "time": 0.11666666666666665,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:slam",
+          "move": "spine",
+          "session": 1,
+          "time": 0.7166666666666672,
+          "amount": 10
+        },
+        {
+          "type": "GrappleImpact:groundKnife1",
+          "move": "spine",
+          "session": 1,
+          "time": 1.100000000000001,
+          "amount": 6
+        },
+        {
+          "type": "GrappleImpact:groundKnife2",
+          "move": "spine",
+          "session": 1,
+          "time": 1.4,
+          "amount": 8
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "spine",
+          "session": 1,
+          "time": 1.8333333333333317,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "spine",
+          "session": 1,
+          "time": 1.8499999999999983
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "spine",
+          "session": 1,
+          "time": 1.8499999999999983
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "spine",
+          "session": 1,
+          "time": 2.2166666666666637
+        }
+      ]
+    },
+    {
+      "label": "Forest legs",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "legs",
+        "total": 1.3333333333333333,
+        "hitAt": 999
+      },
+      "damage": 28,
+      "hits": 5,
+      "transitions": [
+        {
+          "at": 1.3333333333333335,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 10.33333333333212,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "legs",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "legs",
+          "session": 1,
+          "time": 0.08333333333333333,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:slash1",
+          "move": "legs",
+          "session": 1,
+          "time": 0.41666666666666663,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:legBite0",
+          "move": "legs",
+          "session": 1,
+          "time": 0.4333333333333333,
+          "amount": 6
+        },
+        {
+          "type": "GrappleImpact:legBite1",
+          "move": "legs",
+          "session": 1,
+          "time": 0.6000000000000002,
+          "amount": 6
+        },
+        {
+          "type": "GrappleImpact:slash2",
+          "move": "legs",
+          "session": 1,
+          "time": 0.6333333333333336,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:legBite2",
+          "move": "legs",
+          "session": 1,
+          "time": 0.7666666666666674,
+          "amount": 6
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "legs",
+          "session": 1,
+          "time": 1.100000000000001,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "legs",
+          "session": 1,
+          "time": 1.100000000000001
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "legs",
+          "session": 1,
+          "time": 1.100000000000001
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "legs",
+          "session": 1,
+          "time": 1.3333333333333335
+        }
+      ]
+    },
+    {
+      "label": "Forest overhead",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "overhead",
+        "total": 1.5,
+        "hitAt": 999
+      },
+      "damage": 30,
+      "hits": 4,
+      "transitions": [
+        {
+          "at": 1.5166666666666662,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 11.991109713424521,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "overhead",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.11666666666666665,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:slam",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.8333333333333343,
+          "amount": 18
+        },
+        {
+          "type": "GunnerFinishStarted",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.8333333333333343
+        },
+        {
+          "type": "GunnerTackleContact",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.966666666666668
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.1666666666666674,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.1666666666666674
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.1666666666666674
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.5166666666666662
+        }
+      ]
+    },
+    {
+      "label": "Forest special",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "special",
+        "total": 1.8333333333333333,
+        "hitAt": 999
+      },
+      "damage": 46,
+      "hits": 8,
+      "transitions": [
+        {
+          "at": 1.8499999999999983,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 9.841716187725979,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "special",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "special",
+          "session": 1,
+          "time": 0.08333333333333333,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:stab0",
+          "move": "special",
+          "session": 1,
+          "time": 0.2333333333333333,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:stab1",
+          "move": "special",
+          "session": 1,
+          "time": 0.4666666666666666,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:stab2",
+          "move": "special",
+          "session": 1,
+          "time": 0.7000000000000005,
+          "amount": 5
+        },
+        {
+          "type": "GunnerFinishStarted",
+          "move": "special",
+          "session": 1,
+          "time": 1.0000000000000013
+        },
+        {
+          "type": "GunnerTackleContact",
+          "move": "special",
+          "session": 1,
+          "time": 1.1333333333333342
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "special",
+          "session": 1,
+          "time": 1.4333333333333331,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "special",
+          "session": 1,
+          "time": 1.4499999999999997
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "special",
+          "session": 1,
+          "time": 1.4499999999999997
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "special",
+          "session": 1,
+          "time": 1.8499999999999983
+        }
+      ]
+    },
+    {
+      "label": "Forest combo",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "combo",
+        "total": 1.9666666666666666,
+        "hitAt": 999
+      },
+      "damage": 30,
+      "hits": 6,
+      "transitions": [
+        {
+          "at": 1.9833333333333312,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "combo",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "combo",
+          "session": 1,
+          "time": 0.08333333333333333,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:knee1",
+          "move": "combo",
+          "session": 1,
+          "time": 0.19999999999999998,
+          "amount": 4
+        },
+        {
+          "type": "GrappleImpact:knee2",
+          "move": "combo",
+          "session": 1,
+          "time": 0.39999999999999997,
+          "amount": 4
+        },
+        {
+          "type": "GrappleImpact:bowStrike",
+          "move": "combo",
+          "session": 1,
+          "time": 0.6000000000000002,
+          "amount": 6
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "combo",
+          "session": 1,
+          "time": 1.733333333333332,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "combo",
+          "session": 1,
+          "time": 1.7499999999999987
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "combo",
+          "session": 1,
+          "time": 1.7499999999999987
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "combo",
+          "session": 1,
+          "time": 1.9833333333333312
+        }
+      ]
+    },
+    {
+      "label": "Forest poison",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "poison",
+        "total": 1.4333333333333333,
+        "hitAt": 999
+      },
+      "damage": 20,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.4499999999999997,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "poison",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "poison",
+          "session": 1,
+          "time": 0.09999999999999999,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:poisonStab",
+          "move": "poison",
+          "session": 1,
+          "time": 0.2333333333333333,
+          "amount": 8
+        },
+        {
+          "type": "GrappleImpact:slam",
+          "move": "poison",
+          "session": 1,
+          "time": 0.6000000000000002,
+          "amount": 12
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "poison",
+          "session": 1,
+          "time": 1.1333333333333342,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "poison",
+          "session": 1,
+          "time": 1.1333333333333342
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "poison",
+          "session": 1,
+          "time": 1.1333333333333342
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "poison",
+          "session": 1,
+          "time": 1.4499999999999997
+        }
+      ]
+    },
+    {
+      "label": "Forest spine",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "spine",
+        "total": 2.2,
+        "hitAt": 999
+      },
+      "damage": 24,
+      "hits": 3,
+      "transitions": [
+        {
+          "at": 2.2166666666666637,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "spine",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "spine",
+          "session": 1,
+          "time": 0.11666666666666665,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:slam",
+          "move": "spine",
+          "session": 1,
+          "time": 0.7166666666666672,
+          "amount": 10
+        },
+        {
+          "type": "GrappleImpact:groundKnife1",
+          "move": "spine",
+          "session": 1,
+          "time": 1.100000000000001,
+          "amount": 6
+        },
+        {
+          "type": "GrappleImpact:groundKnife2",
+          "move": "spine",
+          "session": 1,
+          "time": 1.4,
+          "amount": 8
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "spine",
+          "session": 1,
+          "time": 1.8333333333333317,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "spine",
+          "session": 1,
+          "time": 1.8499999999999983
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "spine",
+          "session": 1,
+          "time": 1.8499999999999983
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "spine",
+          "session": 1,
+          "time": 2.2166666666666637
+        }
+      ]
+    },
+    {
+      "label": "Forest legs",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "legs",
+        "total": 1.3333333333333333,
+        "hitAt": 999
+      },
+      "damage": 28,
+      "hits": 5,
+      "transitions": [
+        {
+          "at": 1.3333333333333335,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 10.33333333333212,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "legs",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "legs",
+          "session": 1,
+          "time": 0.08333333333333333,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:slash1",
+          "move": "legs",
+          "session": 1,
+          "time": 0.41666666666666663,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:legBite0",
+          "move": "legs",
+          "session": 1,
+          "time": 0.4333333333333333,
+          "amount": 6
+        },
+        {
+          "type": "GrappleImpact:legBite1",
+          "move": "legs",
+          "session": 1,
+          "time": 0.6000000000000002,
+          "amount": 6
+        },
+        {
+          "type": "GrappleImpact:slash2",
+          "move": "legs",
+          "session": 1,
+          "time": 0.6333333333333336,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:legBite2",
+          "move": "legs",
+          "session": 1,
+          "time": 0.7666666666666674,
+          "amount": 6
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "legs",
+          "session": 1,
+          "time": 1.100000000000001,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "legs",
+          "session": 1,
+          "time": 1.100000000000001
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "legs",
+          "session": 1,
+          "time": 1.100000000000001
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "legs",
+          "session": 1,
+          "time": 1.3333333333333335
+        }
+      ]
+    },
+    {
+      "label": "Forest overhead",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "overhead",
+        "total": 1.5,
+        "hitAt": 999
+      },
+      "damage": 30,
+      "hits": 4,
+      "transitions": [
+        {
+          "at": 1.5166666666666662,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 11.991109713424521,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "overhead",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.11666666666666665,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:slam",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.8333333333333343,
+          "amount": 18
+        },
+        {
+          "type": "GunnerFinishStarted",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.8333333333333343
+        },
+        {
+          "type": "GunnerTackleContact",
+          "move": "overhead",
+          "session": 1,
+          "time": 0.966666666666668
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.1666666666666674,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.1666666666666674
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.1666666666666674
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "overhead",
+          "session": 1,
+          "time": 1.5166666666666662
+        }
+      ]
+    },
+    {
+      "label": "Forest special",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "forestGrapple177",
+        "move177": "special",
+        "total": 1.8333333333333333,
+        "hitAt": 999
+      },
+      "damage": 46,
+      "hits": 8,
+      "transitions": [
+        {
+          "at": 1.8499999999999983,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 9.841716187725979,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [
+        {
+          "type": "GrabMoveCommitted",
+          "move": "special",
+          "session": 1,
+          "time": 0
+        },
+        {
+          "type": "GrappleProtectionStarted",
+          "move": "special",
+          "session": 1,
+          "time": 0.08333333333333333,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleImpact:stab0",
+          "move": "special",
+          "session": 1,
+          "time": 0.2333333333333333,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:stab1",
+          "move": "special",
+          "session": 1,
+          "time": 0.4666666666666666,
+          "amount": 5
+        },
+        {
+          "type": "GrappleImpact:stab2",
+          "move": "special",
+          "session": 1,
+          "time": 0.7000000000000005,
+          "amount": 5
+        },
+        {
+          "type": "GunnerFinishStarted",
+          "move": "special",
+          "session": 1,
+          "time": 1.0000000000000013
+        },
+        {
+          "type": "GunnerTackleContact",
+          "move": "special",
+          "session": 1,
+          "time": 1.1333333333333342
+        },
+        {
+          "type": "GrappleProtectionEnded",
+          "move": "special",
+          "session": 1,
+          "time": 1.4333333333333331,
+          "reason": "SynchronizedGrapple"
+        },
+        {
+          "type": "GrappleAttackerReleased",
+          "move": "special",
+          "session": 1,
+          "time": 1.4499999999999997
+        },
+        {
+          "type": "GrappleRecoveryStarted",
+          "move": "special",
+          "session": 1,
+          "time": 1.4499999999999997
+        },
+        {
+          "type": "GrappleRecoveryCompleted",
+          "move": "special",
+          "session": 1,
+          "time": 1.8499999999999983
+        }
+      ]
+    },
+    {
+      "label": "Niko throat",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "throat",
+        "total": 2.2,
+        "hitAt": 999
+      },
+      "damage": 17.5,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 2.2166666666666637,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko armbar",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "armbar",
+        "total": 1.8,
+        "hitAt": 999
+      },
+      "damage": 15,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.816666666666665,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko rearLeg",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "rearLeg",
+        "total": 1.4166666666666667,
+        "hitAt": 999
+      },
+      "damage": 14,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.4333333333333331,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko reverse",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "reverse",
+        "total": 2,
+        "hitAt": 999
+      },
+      "damage": 18.75,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 2.0166666666666644,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko ground",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "ground",
+        "total": 1.1666666666666667,
+        "hitAt": 999
+      },
+      "damage": 8.75,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.1666666666666674,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko special",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "special",
+        "total": 2.2,
+        "hitAt": 999
+      },
+      "damage": 22.5,
+      "hits": 4,
+      "transitions": [
+        {
+          "at": 2.2166666666666637,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko mount",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "mount",
+        "total": 1.3333333333333333,
+        "hitAt": 999
+      },
+      "damage": 10,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.3333333333333335,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko throat",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "throat",
+        "total": 2.2,
+        "hitAt": 999
+      },
+      "damage": 17.5,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 2.2166666666666637,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko armbar",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "armbar",
+        "total": 1.8,
+        "hitAt": 999
+      },
+      "damage": 15,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.816666666666665,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko rearLeg",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "rearLeg",
+        "total": 1.4166666666666667,
+        "hitAt": 999
+      },
+      "damage": 14,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.4333333333333331,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko reverse",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "reverse",
+        "total": 2,
+        "hitAt": 999
+      },
+      "damage": 18.75,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 2.0166666666666644,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko ground",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "ground",
+        "total": 1.1666666666666667,
+        "hitAt": 999
+      },
+      "damage": 8.75,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.1666666666666674,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko special",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "special",
+        "total": 2.2,
+        "hitAt": 999
+      },
+      "damage": 22.5,
+      "hits": 4,
+      "transitions": [
+        {
+          "at": 2.2166666666666637,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Niko mount",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "nikoPair185",
+        "kind185": "mount",
+        "total": 1.3333333333333333,
+        "hitAt": 999
+      },
+      "damage": 10,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.3333333333333335,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton forward",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "forward",
+        "total": 0.9333333333333333,
+        "hitAt": 999
+      },
+      "damage": 48,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 0.9333333333333346,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton back",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "back",
+        "total": 1.5333333333333334,
+        "hitAt": 999
+      },
+      "damage": 60,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.5499999999999994,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton choke",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "choke",
+        "total": 1.4666666666666666,
+        "hitAt": 999
+      },
+      "damage": 72,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.483333333333333,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton forward",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "forward",
+        "total": 0.9333333333333333,
+        "hitAt": 999
+      },
+      "damage": 48,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 0.9333333333333346,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton back",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "back",
+        "total": 1.5333333333333334,
+        "hitAt": 999
+      },
+      "damage": 60,
+      "hits": 2,
+      "transitions": [
+        {
+          "at": 1.5499999999999994,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton choke",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "choke",
+        "total": 1.4666666666666666,
+        "hitAt": 999
+      },
+      "damage": 72,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.483333333333333,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton native front-hold Special",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "choke",
+        "total": 1.4666666666666666,
+        "hitAt": 999
+      },
+      "damage": 72,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.483333333333333,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [],
+      "commandResult": true,
+      "heroHpBefore": 125,
+      "nativePowerbombFlag": false,
+      "note": "Current native dispatch observed; do not restore an earlier Powerbomb136 test contract without approved design review."
+    },
+    {
+      "label": "Broxton native front-hold Special",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrapple179",
+        "move179": "choke",
+        "total": 1.4666666666666666,
+        "hitAt": 999
+      },
+      "damage": 72,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 1.483333333333333,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": true,
+      "maxLaneGap": 0,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": [],
+      "commandResult": true,
+      "heroHpBefore": 125,
+      "nativePowerbombFlag": false,
+      "note": "Current native dispatch observed; do not restore an earlier Powerbomb136 test contract without approved design review."
+    },
+    {
+      "label": "Broxton native standing forward Special",
+      "dir": -1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrabDash",
+        "total": 0.62,
+        "hitAt": 0.12
+      },
+      "damage": 47,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 0.11666666666666665,
+          "name": "broxPowerSlam",
+          "powerbomb136": false
+        },
+        {
+          "at": 1.266666666666667,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": false,
+      "maxLaneGap": 1,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton native standing forward Special",
+      "dir": 1,
+      "hz": 60,
+      "started": true,
+      "selected": {
+        "name": "broxGrabDash",
+        "total": 0.62,
+        "hitAt": 0.12
+      },
+      "damage": 47,
+      "hits": 1,
+      "transitions": [
+        {
+          "at": 0.11666666666666665,
+          "name": "broxPowerSlam",
+          "powerbomb136": false
+        },
+        {
+          "at": 1.266666666666667,
+          "name": null,
+          "powerbomb136": false
+        }
+      ],
+      "finite": true,
+      "exactFixtureLane": false,
+      "maxLaneGap": 1,
+      "maxDogStep": 0,
+      "maxHeroElevation": 0,
+      "completed": true,
+      "held": false,
+      "holding": false,
+      "activeSession": false,
+      "forestOwner": false,
+      "nativeLog": []
+    },
+    {
+      "label": "Broxton current native shield hook",
+      "dir": -1,
+      "started": true,
+      "admitted": true,
+      "heroDamage": 0,
+      "captiveDamage": 21.600000000000023,
+      "redirected": 21.600000000000023,
+      "held": false,
+      "holding": false,
+      "nativeDenied": null
+    },
+    {
+      "label": "Broxton current native shield hook",
+      "dir": 1,
+      "started": true,
+      "admitted": true,
+      "heroDamage": 0,
+      "captiveDamage": 21.600000000000023,
+      "redirected": 21.600000000000023,
+      "held": false,
+      "holding": false,
+      "nativeDenied": null
+    }
+  ],
+  "scope": "Current-production observational smoke at60Hz/both facings, native move APIs and front-hold Special. AI disabled, regular1000HP fixture target prevents incidental lethal cleanup. No legacy damage expectation is imposed and no every-move certification claimed."
+}

@@ -1,0 +1,476 @@
+{
+  "suite": "crowd",
+  "entry": "tests/crowd303.cjs",
+  "behaviorBodySha256": "29857b8745c0d94275eca7fac7745a95f1566f9b9fe319e04ef5d7b1f21a1a60",
+  "assertionsUnchanged": true,
+  "historicalSourceProof": null,
+  "excludedHistoricalChecks": 11,
+  "status": "passed",
+  "progress": {
+    "checks": 163200,
+    "rows": [
+      {
+        "scenario": "street",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 8,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 3,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "street",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 8,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "edge",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 8,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "edge",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "edge",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 4,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 4,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 9,
+        "maxCost": 2,
+        "maxCommit": 1
+      }
+    ]
+  },
+  "report": {
+    "checks": 163200,
+    "rows": [
+      {
+        "scenario": "street",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 8,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 3,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "street",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 8,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "street",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "edge",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 8,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "edge",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "edge",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "edge",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 2
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 4,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 5,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "obstacle",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 4,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "reina",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "niko",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "broxton",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "forest",
+        "hz": 60,
+        "attacks": 7,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "nova",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "orion",
+        "hz": 60,
+        "attacks": 6,
+        "maxCost": 2,
+        "maxCommit": 1
+      },
+      {
+        "scenario": "mixed",
+        "hero": "nightshade",
+        "hz": 60,
+        "attacks": 9,
+        "maxCost": 2,
+        "maxCommit": 1
+      }
+    ],
+    "approvedSourceUnchanged": null,
+    "budget": 3,
+    "maxCommitments": 2,
+    "historicalReceipts": {
+      "status": "unavailable",
+      "commit": "027ed578b782d4fc437e84c637d9ab37de7172d6",
+      "unavailable": 11
+    },
+    "scope": "Audit-only execution of the unchanged original behavioral body; historical source equivalence unverified."
+  }
+}

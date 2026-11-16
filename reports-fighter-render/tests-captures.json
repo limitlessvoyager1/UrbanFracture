@@ -1,0 +1,111 @@
+{
+  "rows": [
+    {
+      "label": "fighter-render-prerequisites",
+      "args": [
+        "tests/fighter-render-prerequisites.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS fighter render prerequisites 38 checks; pin/API, unavailable states, owner coverage/order and exclusions\n",
+      "stderr": "",
+      "elapsedMs": 957,
+      "passed": true
+    },
+    {
+      "label": "fighter-render-bootstrap",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-render-bootstrap.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS current fighter bootstrap: 179 modules, 73 owners, 1041 decoded requests; combat descriptors/data unchanged; missing asset unavailable\n",
+      "stderr": "",
+      "elapsedMs": 20409,
+      "passed": true
+    },
+    {
+      "label": "render-forest",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "forest"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered forest: 12 cases, 384 checks\n",
+      "stderr": "",
+      "elapsedMs": 28126,
+      "passed": true
+    },
+    {
+      "label": "render-niko",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "niko"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered niko: 14 cases, 448 checks\n",
+      "stderr": "",
+      "elapsedMs": 29658,
+      "passed": true
+    },
+    {
+      "label": "render-broxton",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "broxton"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered broxton: 8 cases, 256 checks\n",
+      "stderr": "",
+      "elapsedMs": 25728,
+      "passed": true
+    },
+    {
+      "label": "render-nightshade",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "nightshade"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered nightshade: 4 cases, 132 checks\n",
+      "stderr": "",
+      "elapsedMs": 23261,
+      "passed": true
+    },
+    {
+      "label": "render-shared",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "shared"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered shared: 10 cases, 320 checks\n",
+      "stderr": "",
+      "elapsedMs": 27491,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "executed": 7,
+    "passed": 7,
+    "failed": 0
+  }
+}

@@ -1,0 +1,53 @@
+URBAN FRACTURE — COLLISION / HEIGHT REGRESSION PORTABILITY (A2-03)
+Date: 2026-11-12
+Branch: fix/portable-collision-height-tests
+Baseline: 7523715d5cebba5cdfda11d4525b6215f46e41ac
+
+RESULT
+Both behavioral suites run without historical commits, without .git, and without a Git executable. All 27 relevant top-level suites passed. No production files changed; actual damage, timing, collision behavior, and prior approved repairs are preserved.
+
+ROOT CAUSE AND CORRECTION
+Collision previously fetched 17 historical source files before running behavioral checks. Height fetched historical game.js as its expected-value oracle. Missing commit 2d8f4e3b154d769bac2ced871f66832563528b2d aborted both suites before behavior.
+
+Separate historical receipts from behavior, preserving explicit PASSED / FAILED / UNAVAILABLE evidence. Available collision history retains approved-adapter byte comparisons; available height history retains the original seven-hero, two-actor matrix. Mismatches, malformed history, read/adapter errors fail. Behavior runs even when receipts fail, then the overall suite fails.
+
+The portable height matrix uses a fixed, SHA256-pinned renderer fallback from supplied Build338 game.js, removing only Plane304 delegation. This independently checks the live implementation rather than comparing its delegate to itself. Fixture provenance is recorded. It is a supplied-build regression contract, NOT proof of the unavailable historical commit. The original behavioral collision body, height matrix, and height contact assertions are retained unchanged.
+
+EVIDENCE
+Collision behavior: 4,563 checks passed.
+Height behavior: 1,774 checks passed.
+Receipt regression tests: 16 subtests passed.
+Isolated actual-entry-script scenarios: 7 passed; no Git/no repository; real Git/no repository; available corrupt collision history; malformed height history; deliberate live height mutation detected with history absent. Negative scenarios intentionally exit 1 and are successful failure-detection tests.
+27 relevant suites: all passed; see tests.json for names and outputs.
+Existing reaction receipt self-tests: 11 passed. QA validator self-tests: 6 passed.
+Source comparison: dist unchanged from baseline; existing approved normalizers unchanged. Syntax and Git diff whitespace checks passed.
+
+HISTORICAL EVIDENCE AND RELEASE
+17 collision receipts: UNAVAILABLE.
+1 height receipt: UNAVAILABLE.
+9 existing reaction receipts: UNAVAILABLE, unchanged separate historical commit.
+Strict collision/height CLI exit 2; strict reaction CLI exit 2. No unavailable receipt is claimed passed; historical source equivalence remains unverified.
+QA registry retains critical behavioral suites and adds receipt self-tests plus a separate critical release-profile historical gate. Release certification remains blocked until historical evidence is available and passes.
+
+RUN
+From the project root with Node:
+  node tests/plane304.cjs
+  node tests/plane304-height.cjs
+  node --test tests/plane304-receipts.cjs
+  node tools/plane304/verify-portability.cjs
+Strict historical proof:
+  node tools/plane304/receipts.cjs
+UF_GIT can name a Git executable; absent Git is explicitly UNAVAILABLE. Strict CLI codes: 0 passed, 1 failed, 2 unavailable. Reports are written under reports304; retained evidence is under reports-plane304-portability.
+
+CHANGED FILE GROUPS
+tests/plane304.cjs, tests/plane304-height.cjs, tests/plane304-receipts.cjs
+tests/fixtures/plane304-renderer-height.js and .json
+tools/plane304/height-proof.cjs, receipts.cjs, suite.cjs, verify-portability.cjs
+qa/system242/suites.json; reports-plane304-portability; COMBAT_REPAIR_LOG.md
+
+LIMITATIONS / NEXT
+No rendered gameplay rerun: this changes test infrastructure only, and makes no visual repair claim. Full release, campaign, hardware, optional Node canvas certification, and known separate legacy niko185 loader work remain unperformed. Portable height checks cover the retained original matrix, not every game state. Historical normalizers still require separately validated updates when future approved production changes demand them.
+Recommended next: recover original historical objects from an authoritative source and run strict receipts; keep any mismatch review separate from this portability repair.
+
+DELIVERY
+Repair branch retained and integrated into cumulative stable after verification. Delivered ZIP is a cumulative overlay against the original import, including earlier approved repairs; it is not a complete game project. Original source archives remain recoverable.

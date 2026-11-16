@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "baseline": "79dfd8d83d64f1aa25256799c3dd1b4788fa67e8",
+  "sourceFingerprint": "24c551c639dc4b0d70e8bb2bfbbf7b8bef32348b127e49288eaaef722742a64a",
+  "checks": [
+    "Only sprites cache/pool and its index token changed in production",
+    "Exact literal source reversal preserves all native rendering/scan/anchor/combat code",
+    "Only pool browser cache token changes index",
+    "All existing tests, native loader, fixtures and receipt adapters unchanged",
+    "Earlier mutation harness only gains the exact new guard spelling",
+    "Every old QA entry and gate policy retained; one new critical suite",
+    "Stable remains unadvanced"
+  ],
+  "historical": [
+    {
+      "tool": "tools/crowd-grapple/receipts.cjs",
+      "exit": 2,
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\ncore.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ndirector148.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ncombat274.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nstreet209.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nenemies210.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nmartial212.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nworkers233.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ncounters248.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nreactions298.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ngrapples301.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ncontact302.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ngrapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\ncore.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\ncombat134.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\nenemies210.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\ngrapple-recovery119.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\npaired-motion.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\nreactions298.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\nknockdowns299.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\n",
+      "stderr": ""
+    },
+    {
+      "tool": "tools/plane304/receipts.cjs",
+      "exit": 2,
+      "stdout": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\ngame.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncore.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ndirector148.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncombat134.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\naudit135.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncombat274.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nstreet209.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nenemies210.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nmartial212.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nniko185.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nweapons248.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nworkers233.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncounters248.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nreactions298.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ngrapples301.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncontact302.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncrowd303.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nheight historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\ngame.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\n",
+      "stderr": ""
+    },
+    {
+      "tool": "tools/reactions298/receipts.cjs",
+      "exit": 2,
+      "stdout": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\ncore.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\ncombat134.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\naudit135.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\nstreet209.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\nenemies210.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\nmartial212.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\nniko284.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\ncounters248.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\npaired-motion.js: Historical commit unavailable: 3ecb645f0c84a4ea6117519a42f08de2bd001dda\n",
+      "stderr": ""
+    }
+  ],
+  "historicalReceipts": 45
+}

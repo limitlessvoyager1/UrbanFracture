@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "mode": "matrix",
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "Measured matrix baseline\nMeasured matrix candidate\nPASS browser matrix\n",
+      "stderr": "",
+      "elapsedMs": 109005,
+      "passed": true
+    },
+    {
+      "mode": "performance",
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "Measured performance candidate\nMeasured performance baseline\nMeasured performance baseline\nMeasured performance candidate\nPASS browser performance\n",
+      "stderr": "",
+      "elapsedMs": 102814,
+      "passed": true
+    },
+    {
+      "mode": "allocation",
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "Measured allocation observed\nPASS browser allocation\n",
+      "stderr": "",
+      "elapsedMs": 57190,
+      "passed": true
+    },
+    {
+      "mode": "lifetime",
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS browser lifetime\n",
+      "stderr": "",
+      "elapsedMs": 21244,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

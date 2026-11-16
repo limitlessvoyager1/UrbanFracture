@@ -1,0 +1,20 @@
+URBAN FRACTURE 338 — KNOCKDOWN/RECOVERY ADMISSION REPAIR
+Branch: fix/shared-knockdown-recovery-admission
+Starting commit: 004585024f5579cfbbb7413916ac2d2e246eca38
+Repair commit: 2732c6145de592a5e9d11365ec022b86ec0806f8
+
+The shared offensive admission guard now reads down/recovering/standingLock directly for the roster, independently of the presentation pilot and optional receipt. Both start and enemyAct use that guard. Existing paired/counter continuations, player exemption, offensive classification and nonoffensive utility permissions are preserved. A counter:true flag alone cannot bypass recovery.
+
+Production files: dist/knockdowns299.js (one predicate plus explanatory comment) and dist/index.html (cache token only). No damage/frame definitions, enemy controllers, physics or rendering code changed. Added tests/knockdown-admission.cjs, its critical initial/release registration, optional comparison/render tools, repair log and evidence.
+
+Tests:14 suites passed, including89,115 new checks; the13 prior passing suites (hitstun eligibility, post-hit reassessment, reactions298, receipt self-tests, combat274, repairs330, enemies210, martial212, counters248, flint211, gamepad, controller157, QA validators) remain passing. The new test failed on baseline before repair. No final behavioral assertion failures.
+
+Baseline parity:24 complete physical trajectories at30/60/120Hz and48 seeded native AI/wake traces matched the recorded starting version. Saito/Akari natural wakes were exercised. Explicit legal native Saito/Akari/Carmen wake actions were exercised after recovery and retained identical start time, total duration, contact time and damage. The sampled natural Carmen traces did not select its wake sweep; that is not presented as natural wake coverage.
+
+Rendered verification: native Chromium game, real Reina sweep, eight native enemy families, AI disabled for controlled visualization. Forty game-canvas keyframes cover fall, ground, rise, standing recovery and ready. During protected phases a direct offensive start is attempted and must return false without creating an action. Native draw observations during fall/get-up windows are recorded. The contact sheet was inspected. This verifies preserved rendered lifecycle and rejection of queued offense; it is not certification that all existing art transitions are aesthetically correct. Browser JavaScript errors0. Two known portrait PNG404s remain unchanged.
+
+New regression checks native actor identity/HP, seven heroes, eight families,30/60/120Hz, both entry paths, receipt independence, immutable physics/timers on denial, one landing/stand, pending-attack damage prevention, legitimate wakes, counter-flag rejection and paired exemptions. It requires Node built-ins and no historical Git history. Optional compare/render tools require the recorded local baseline; rendering additionally uses Playwright/Chromium.
+
+Nine original reaction source receipts remain explicitly unavailable. Historical knockdowns299 source-receipt tests are not claimed passed without their missing commit. Full release, all campaign/hardware testing and final complete game export remain outstanding. No deployed version was changed.
+
+The cumulative source ZIP contains all approved source/test/tool/log updates relative to the supplied338 export. It is an overlay, not a complete game archive. Apply only to a matching338 source copy, preserving paths; do not blindly overwrite a newer game version.

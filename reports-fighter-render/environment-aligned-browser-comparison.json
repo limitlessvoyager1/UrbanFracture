@@ -1,0 +1,4424 @@
+{
+  "status": "failed",
+  "sourceFingerprint": "39ead8e91358eb0268afca577b5e001095f8cdce24bed444b5b924b47e0b1c1a",
+  "backend": "shipping index.html / Chromium",
+  "comparisons": [
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/throat_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/armbar_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/reverse_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/ground_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0.00008089866863905326,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/special_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/mount_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0.00005089058524173028,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/throat_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\throat_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/armbar_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\armbar_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/rearLeg_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\rearLeg_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/reverse_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\reverse_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/ground_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\ground_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/special_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/special_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/special_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/special_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_44.png",
+      "alphaIoU": 0.9999537743262608,
+      "rgbaMeanAbsoluteDifference": 0.0021610502473073546,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/special_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/special_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/special_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/special_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/special_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/special_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\special_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-niko/mount_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-niko\\mount_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_154.png",
+      "alphaIoU": 0.8758884150675196,
+      "rgbaMeanAbsoluteDifference": 22.182680348258707,
+      "boundsDelta": 2,
+      "physicalEqual": true,
+      "passed": false,
+      "nodeState": {
+        "time": 2.8166666666666615,
+        "primitive": {
+          "hero": {
+            "id": 7,
+            "type": "nightshade",
+            "name": "Nightshade",
+            "x": 17150,
+            "y": 475,
+            "dir": -1,
+            "hp": 110,
+            "maxHp": 110,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 0,
+            "downTotal": 0,
+            "fallDir": 1,
+            "fallFrom": 125,
+            "fallTo": 125,
+            "landed": false,
+            "prevX": 17150,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 0,
+            "specialCd": 0,
+            "grabImmune": 0,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": false,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": false,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": null,
+            "pcbiAboard316": false,
+            "hospitalInside314": false,
+            "sticky166": null,
+            "stickyGrace166": 0,
+            "acidNext214": null,
+            "walkSpeed": 220,
+            "runSpeed": 325,
+            "airSpeed": 260,
+            "jumpApex": 119.6,
+            "pairVisual": null,
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "heldWeapon248": null,
+            "nightshade251": true,
+            "uniqueInput251": null,
+            "nightshadeLanding251": 0,
+            "nightshadeGait252": 0,
+            "nightshadeAmmo255": 6,
+            "counter248": null,
+            "frontBonus264": null,
+            "dragonCharge121": null,
+            "forestCharge125": null,
+            "dragonLatch121": false,
+            "forestChargeLatch125": false,
+            "chargeLatch130": false,
+            "novaQueued": false,
+            "runDir": 0,
+            "reinaCombo134": null,
+            "deathFall167": false,
+            "poiseFlash244": 0,
+            "nightshadeIdle251": 1.1333333333333342,
+            "niko283": null,
+            "reverse285": null,
+            "leg286": null,
+            "chain257": null,
+            "grappleZ": 0,
+            "grappleAngle": 0,
+            "grapplePivot": 0,
+            "shoulder134": null
+          },
+          "victim": {
+            "id": 10,
+            "type": "thug",
+            "name": "Marcus",
+            "x": 16830,
+            "y": 475,
+            "dir": -1,
+            "hp": 973,
+            "maxHp": 1000,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 1.4533333333333331,
+            "downTotal": 1.45,
+            "fallDir": -1,
+            "fallFrom": 16830,
+            "fallTo": 16830,
+            "landed": true,
+            "prevX": 16830,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 996.1833333333359,
+            "specialCd": 0,
+            "grabImmune": 0.4666666666666681,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": 0,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": true,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0.6666666666666656,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0.06666666666666676,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": "flank",
+            "grabClassification223": "REGULAR",
+            "directorRole148": "Recovering",
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "grabReady169": 3.2833333333333297,
+            "novaNoGrabUntil": 3.2833333333333297,
+            "repeatProtection169": false,
+            "flanking": false,
+            "heldRear": true,
+            "grappleSession119": null,
+            "recoveryState119": "POST-MOVE KNOCKDOWN",
+            "forestLock125": null,
+            "grapplePivot": 0,
+            "grappleAngle": 0,
+            "grappleZ": 0,
+            "pairVisual": null,
+            "recoveryNotBefore119": 1.3333333333333348,
+            "nikoGround283": null,
+            "reverseGround285": null,
+            "legGround286": null,
+            "faceSmash91": false,
+            "knockSerial": 1
+          }
+        },
+        "hero": "standing",
+        "victim": "standing",
+        "heroHP": 110,
+        "victimHP": 973,
+        "heroZ": 0,
+        "victimZ": 0,
+        "action": null,
+        "nativeFrame": 86.99999999999999,
+        "throw": null,
+        "joint": null
+      },
+      "browserState": {
+        "time": 2.8166666666666615,
+        "primitive": {
+          "hero": {
+            "id": 160,
+            "type": "nightshade",
+            "name": "Nightshade",
+            "x": 17150,
+            "y": 475,
+            "dir": -1,
+            "hp": 110,
+            "maxHp": 110,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 0,
+            "downTotal": 0,
+            "fallDir": 1,
+            "fallFrom": 125,
+            "fallTo": 125,
+            "landed": false,
+            "prevX": 17150,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 0,
+            "specialCd": 0,
+            "grabImmune": 0,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": false,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": false,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": null,
+            "pcbiAboard316": false,
+            "hospitalInside314": false,
+            "sticky166": null,
+            "stickyGrace166": 0,
+            "acidNext214": null,
+            "walkSpeed": 220,
+            "runSpeed": 325,
+            "airSpeed": 260,
+            "jumpApex": 119.6,
+            "pairVisual": null,
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "heldWeapon248": null,
+            "nightshade251": true,
+            "uniqueInput251": null,
+            "nightshadeLanding251": 0,
+            "nightshadeGait252": 0,
+            "nightshadeAmmo255": 6,
+            "counter248": null,
+            "frontBonus264": null,
+            "dragonCharge121": null,
+            "forestCharge125": null,
+            "dragonLatch121": false,
+            "forestChargeLatch125": false,
+            "chargeLatch130": false,
+            "novaQueued": false,
+            "runDir": 0,
+            "reinaCombo134": null,
+            "deathFall167": false,
+            "poiseFlash244": 0,
+            "nightshadeIdle251": 1.1333333333333342,
+            "niko283": null,
+            "reverse285": null,
+            "leg286": null,
+            "chain257": null,
+            "grappleZ": 0,
+            "grappleAngle": 0,
+            "grapplePivot": 0,
+            "shoulder134": null
+          },
+          "victim": {
+            "id": 163,
+            "type": "thug",
+            "name": "Marcus",
+            "x": 16830,
+            "y": 475,
+            "dir": -1,
+            "hp": 973,
+            "maxHp": 1000,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 1.4533333333333331,
+            "downTotal": 1.45,
+            "fallDir": -1,
+            "fallFrom": 16830,
+            "fallTo": 16830,
+            "landed": true,
+            "prevX": 16830,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 996.1833333333359,
+            "specialCd": 0,
+            "grabImmune": 0.4666666666666681,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": 0,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": true,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0.6666666666666656,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0.06666666666666676,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": "rush",
+            "grabClassification223": "REGULAR",
+            "directorRole148": "Recovering",
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "grabReady169": 3.2833333333333297,
+            "novaNoGrabUntil": 3.2833333333333297,
+            "repeatProtection169": false,
+            "flanking": false,
+            "heldRear": true,
+            "grappleSession119": null,
+            "recoveryState119": "POST-MOVE KNOCKDOWN",
+            "forestLock125": null,
+            "grapplePivot": 0,
+            "grappleAngle": 0,
+            "grappleZ": 0,
+            "pairVisual": null,
+            "recoveryNotBefore119": 1.3333333333333348,
+            "nikoGround283": null,
+            "reverseGround285": null,
+            "legGround286": null,
+            "faceSmash91": false,
+            "knockSerial": 1
+          }
+        },
+        "hero": "standing",
+        "victim": "standing",
+        "heroHP": 110,
+        "victimHP": 973,
+        "heroZ": 0,
+        "victimZ": 0,
+        "action": null,
+        "nativeFrame": 86.99999999999999,
+        "throw": null,
+        "joint": null
+      }
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_0.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_12.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_28.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_44.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_62.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_86.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_116.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_154.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_220.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_-1_300.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_-1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_0.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_12.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_28.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_44.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_62.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_86.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_116.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_154.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_154.png",
+      "alphaIoU": 0.8760940068417078,
+      "rgbaMeanAbsoluteDifference": 22.260062641610023,
+      "boundsDelta": 3,
+      "physicalEqual": true,
+      "passed": false,
+      "nodeState": {
+        "time": 2.8166666666666615,
+        "primitive": {
+          "hero": {
+            "id": 27,
+            "type": "nightshade",
+            "name": "Nightshade",
+            "x": 17370,
+            "y": 475,
+            "dir": 1,
+            "hp": 110,
+            "maxHp": 110,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 0,
+            "downTotal": 0,
+            "fallDir": 1,
+            "fallFrom": 125,
+            "fallTo": 125,
+            "landed": false,
+            "prevX": 17370,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 0,
+            "specialCd": 0,
+            "grabImmune": 0,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": false,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": false,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": null,
+            "pcbiAboard316": false,
+            "hospitalInside314": false,
+            "sticky166": null,
+            "stickyGrace166": 0,
+            "acidNext214": null,
+            "walkSpeed": 220,
+            "runSpeed": 325,
+            "airSpeed": 260,
+            "jumpApex": 119.6,
+            "pairVisual": null,
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "heldWeapon248": null,
+            "nightshade251": true,
+            "uniqueInput251": null,
+            "nightshadeLanding251": 0,
+            "nightshadeGait252": 0,
+            "nightshadeAmmo255": 6,
+            "counter248": null,
+            "frontBonus264": null,
+            "dragonCharge121": null,
+            "forestCharge125": null,
+            "dragonLatch121": false,
+            "forestChargeLatch125": false,
+            "chargeLatch130": false,
+            "novaQueued": false,
+            "runDir": 0,
+            "reinaCombo134": null,
+            "deathFall167": false,
+            "poiseFlash244": 0,
+            "nightshadeIdle251": 1.1333333333333342,
+            "niko283": null,
+            "reverse285": null,
+            "leg286": null,
+            "chain257": null,
+            "grappleZ": 0,
+            "grappleAngle": 0,
+            "grapplePivot": 0,
+            "shoulder134": null
+          },
+          "victim": {
+            "id": 30,
+            "type": "thug",
+            "name": "Marcus",
+            "x": 17784.567130194242,
+            "y": 475,
+            "dir": 1,
+            "hp": 973,
+            "maxHp": 1000,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 1.4533333333333331,
+            "downTotal": 1.45,
+            "fallDir": 1,
+            "fallFrom": 17784.567130194242,
+            "fallTo": 17784.567130194242,
+            "landed": true,
+            "prevX": 17784.567130194242,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 996.1833333333359,
+            "specialCd": 0,
+            "grabImmune": 0.6333333333333342,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": 0,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": true,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0.8333333333333328,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0.2333333333333334,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": "flank",
+            "grabClassification223": "REGULAR",
+            "directorRole148": "Recovering",
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "grabReady169": 3.4499999999999957,
+            "novaNoGrabUntil": 3.4499999999999957,
+            "repeatProtection169": false,
+            "flanking": false,
+            "heldRear": true,
+            "grappleSession119": null,
+            "recoveryState119": "POST-MOVE KNOCKDOWN",
+            "forestLock125": null,
+            "grapplePivot": 0,
+            "grappleAngle": 0,
+            "grappleZ": 0,
+            "pairVisual": null,
+            "recoveryNotBefore119": 1.3333333333333348,
+            "nikoGround283": null,
+            "reverseGround285": null,
+            "legGround286": null,
+            "faceSmash91": false,
+            "knockSerial": 1
+          }
+        },
+        "hero": "standing",
+        "victim": "standing",
+        "heroHP": 110,
+        "victimHP": 973,
+        "heroZ": 0,
+        "victimZ": 0,
+        "action": null,
+        "nativeFrame": 86.99999999999999,
+        "throw": null,
+        "joint": null
+      },
+      "browserState": {
+        "time": 2.8166666666666615,
+        "primitive": {
+          "hero": {
+            "id": 180,
+            "type": "nightshade",
+            "name": "Nightshade",
+            "x": 17370,
+            "y": 475,
+            "dir": 1,
+            "hp": 110,
+            "maxHp": 110,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 0,
+            "downTotal": 0,
+            "fallDir": 1,
+            "fallFrom": 125,
+            "fallTo": 125,
+            "landed": false,
+            "prevX": 17370,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 0,
+            "specialCd": 0,
+            "grabImmune": 0,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": false,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": false,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": null,
+            "pcbiAboard316": false,
+            "hospitalInside314": false,
+            "sticky166": null,
+            "stickyGrace166": 0,
+            "acidNext214": null,
+            "walkSpeed": 220,
+            "runSpeed": 325,
+            "airSpeed": 260,
+            "jumpApex": 119.6,
+            "pairVisual": null,
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "heldWeapon248": null,
+            "nightshade251": true,
+            "uniqueInput251": null,
+            "nightshadeLanding251": 0,
+            "nightshadeGait252": 0,
+            "nightshadeAmmo255": 6,
+            "counter248": null,
+            "frontBonus264": null,
+            "dragonCharge121": null,
+            "forestCharge125": null,
+            "dragonLatch121": false,
+            "forestChargeLatch125": false,
+            "chargeLatch130": false,
+            "novaQueued": false,
+            "runDir": 0,
+            "reinaCombo134": null,
+            "deathFall167": false,
+            "poiseFlash244": 0,
+            "nightshadeIdle251": 1.1333333333333342,
+            "niko283": null,
+            "reverse285": null,
+            "leg286": null,
+            "chain257": null,
+            "grappleZ": 0,
+            "grappleAngle": 0,
+            "grapplePivot": 0,
+            "shoulder134": null
+          },
+          "victim": {
+            "id": 183,
+            "type": "thug",
+            "name": "Marcus",
+            "x": 17784.567130194242,
+            "y": 475,
+            "dir": 1,
+            "hp": 973,
+            "maxHp": 1000,
+            "stun": 0,
+            "inv": 0,
+            "wakeInv": 0,
+            "wakeArmor": 0,
+            "down": 0,
+            "downAge": 1.4533333333333331,
+            "downTotal": 1.45,
+            "fallDir": 1,
+            "fallFrom": 17784.567130194242,
+            "fallTo": 17784.567130194242,
+            "landed": true,
+            "prevX": 17784.567130194242,
+            "prevY": 475,
+            "activeAt": 0,
+            "aggroX": null,
+            "cd": 996.1833333333359,
+            "specialCd": 0,
+            "grabImmune": 0.6333333333333342,
+            "stagger": 0,
+            "act": null,
+            "knifeRollDone": false,
+            "throwCd": 0,
+            "throwThink": 0,
+            "dormant": false,
+            "fleeing": false,
+            "weapon": null,
+            "phase": 0,
+            "walk": 0,
+            "walkPhase": 0,
+            "jump": 0,
+            "airHit": false,
+            "hold": null,
+            "heldBy": null,
+            "flight": null,
+            "fade": 1,
+            "hitFlash": 0,
+            "knocked": false,
+            "think": 0,
+            "groundCd": 0,
+            "rushCd": 0,
+            "drawn": false,
+            "dodgeCd": 0,
+            "combo": 0,
+            "lastAttack": -10,
+            "escape": 0,
+            "turnLock": 0,
+            "groundHit": false,
+            "blocking": 0,
+            "blockStarted": -10,
+            "parryCd": 0,
+            "blockFlash": 0,
+            "defense": 100,
+            "maxDefense": 100,
+            "defenseDelay": 0,
+            "guardBreak": 0,
+            "catchUntil": -1,
+            "counterCd": 0,
+            "counterPaid": 0,
+            "counterCue": 0,
+            "attackCycle": 0,
+            "holdBuffer": null,
+            "palmCd": 0,
+            "attackGesture": null,
+            "physicalAttack": false,
+            "attackCanceled": false,
+            "noBounce": true,
+            "flankCd": 0,
+            "entering": false,
+            "enterAt": 0,
+            "jumpVx": 0,
+            "jumpVy": 0,
+            "jumpNeutral": false,
+            "jumpTarget": null,
+            "kneeGrabUntil": -1,
+            "kneeFollowTarget": null,
+            "prevMoveX": 0,
+            "lastTapDir": 0,
+            "lastTapAt": -10,
+            "blitzUntil": -1,
+            "blitzDir": 1,
+            "running": false,
+            "runPhase": 0,
+            "antiAirCd": 0,
+            "standingLock": 0.8333333333333328,
+            "dashPunchCd": 0,
+            "shock": 0,
+            "guarding": 0,
+            "blockCount": 0,
+            "lastBlockAt": -10,
+            "defendThink": 0,
+            "recovering": 0.2333333333333334,
+            "blitzRecovery": 0,
+            "wakeSweepUsed": false,
+            "tactic": "rush",
+            "grabClassification223": "REGULAR",
+            "directorRole148": "Recovering",
+            "wetness": 0.14924230263613103,
+            "wetness156": 0.14924230263613103,
+            "grabReady169": 3.4499999999999957,
+            "novaNoGrabUntil": 3.4499999999999957,
+            "repeatProtection169": false,
+            "flanking": false,
+            "heldRear": true,
+            "grappleSession119": null,
+            "recoveryState119": "POST-MOVE KNOCKDOWN",
+            "forestLock125": null,
+            "grapplePivot": 0,
+            "grappleAngle": 0,
+            "grappleZ": 0,
+            "pairVisual": null,
+            "recoveryNotBefore119": 1.3333333333333348,
+            "nikoGround283": null,
+            "reverseGround285": null,
+            "legGround286": null,
+            "faceSmash91": false,
+            "knockSerial": 1
+          }
+        },
+        "hero": "standing",
+        "victim": "standing",
+        "heroHP": 110,
+        "victimHP": 973,
+        "heroZ": 0,
+        "victimZ": 0,
+        "action": null,
+        "nativeFrame": 86.99999999999999,
+        "throw": null,
+        "joint": null
+      }
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_220.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-nightshade/leap_thug_1_300.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_thug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 0,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_0.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_0.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 12,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_12.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_12.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 28,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_28.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_28.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 44,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_44.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_44.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 62,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_62.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_62.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 86,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_86.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_86.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 116,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_116.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_116.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 154,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_154.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_154.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 220,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_220.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_220.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 300,
+      "node": "reports-fighter-render/node-nightshade/leap_knifeThug_1_300.png",
+      "browser": "reports-fighter-render\\browser-nightshade\\leap_knifeThug_1_300.png",
+      "alphaIoU": 1,
+      "rgbaMeanAbsoluteDifference": 0,
+      "boundsDelta": 0,
+      "physicalEqual": true,
+      "passed": true
+    }
+  ],
+  "nativeFrames": [
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 120,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\forest_special_-1_12.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 120,
+      "victimHP": 985,
+      "file": "reports-fighter-render\\native-game\\forest_special_-1_44.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 120,
+      "victimHP": 978,
+      "file": "reports-fighter-render\\native-game\\forest_special_-1_86.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 120,
+      "victimHP": 960,
+      "file": "reports-fighter-render\\native-game\\forest_special_-1_154.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 120,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\forest_special_1_12.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 120,
+      "victimHP": 985,
+      "file": "reports-fighter-render\\native-game\\forest_special_1_44.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 120,
+      "victimHP": 978,
+      "file": "reports-fighter-render\\native-game\\forest_special_1_86.png"
+    },
+    {
+      "spec": {
+        "group": "forest",
+        "move": "special",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 120,
+      "victimHP": 960,
+      "file": "reports-fighter-render\\native-game\\forest_special_1_154.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_-1_12.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_-1_44.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 110,
+      "victimHP": 981.25,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_-1_86.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 110,
+      "victimHP": 981.25,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_-1_154.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_1_12.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_1_44.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 110,
+      "victimHP": 981.25,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_1_86.png"
+    },
+    {
+      "spec": {
+        "group": "niko",
+        "move": "reverse",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 110,
+      "victimHP": 981.25,
+      "file": "reports-fighter-render\\native-game\\niko_reverse_1_154.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_-1_12.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_-1_44.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_-1_86.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_-1_154.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_1_12.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_1_44.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_1_86.png"
+    },
+    {
+      "spec": {
+        "group": "broxton",
+        "move": "shield",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 125,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\broxton_shield_1_154.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 12,
+      "time": 0.44999999999999996,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_-1_12.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 44,
+      "time": 0.9833333333333347,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_-1_44.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 86,
+      "time": 1.6833333333333322,
+      "heroHP": 110,
+      "victimHP": 973,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_-1_86.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1
+      },
+      "tick": 154,
+      "time": 2.8166666666666615,
+      "heroHP": 110,
+      "victimHP": 973,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_-1_154.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 12,
+      "time": 0.44999999999999996,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_1_12.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 44,
+      "time": 0.9833333333333347,
+      "heroHP": 110,
+      "victimHP": 1000,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_1_44.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 86,
+      "time": 1.6833333333333322,
+      "heroHP": 110,
+      "victimHP": 973,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_1_86.png"
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1
+      },
+      "tick": 154,
+      "time": 2.8166666666666615,
+      "heroHP": 110,
+      "victimHP": 973,
+      "file": "reports-fighter-render\\native-game\\nightshade_leap_1_154.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 105,
+      "victimHP": 60,
+      "file": "reports-fighter-render\\native-game\\shared_german_-1_12.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 105,
+      "victimHP": 60,
+      "file": "reports-fighter-render\\native-game\\shared_german_-1_44.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 105,
+      "victimHP": 32,
+      "file": "reports-fighter-render\\native-game\\shared_german_-1_86.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 105,
+      "victimHP": 32,
+      "file": "reports-fighter-render\\native-game\\shared_german_-1_154.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 12,
+      "time": 0.19999999999999998,
+      "heroHP": 105,
+      "victimHP": 60,
+      "file": "reports-fighter-render\\native-game\\shared_german_1_12.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 44,
+      "time": 0.733333333333334,
+      "heroHP": 105,
+      "victimHP": 60,
+      "file": "reports-fighter-render\\native-game\\shared_german_1_44.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 86,
+      "time": 1.4333333333333331,
+      "heroHP": 105,
+      "victimHP": 32,
+      "file": "reports-fighter-render\\native-game\\shared_german_1_86.png"
+    },
+    {
+      "spec": {
+        "group": "shared",
+        "move": "german",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 154,
+      "time": 2.5666666666666624,
+      "heroHP": 105,
+      "victimHP": 32,
+      "file": "reports-fighter-render\\native-game\\shared_german_1_154.png"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "tolerances": {
+    "alphaIoU": 0.96,
+    "boundsPixels": 3,
+    "physicalEpsilon": 0.000001
+  },
+  "browserVersion": "143.0.7499.4",
+  "playwrightVersion": "1.57.0",
+  "reason": "AssertionError [ERR_ASSERTION]: Node/current shipping renderer comparison\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\fighter-render\\browser.cjs:37:72"
+}

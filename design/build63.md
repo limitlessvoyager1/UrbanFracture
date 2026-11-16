@@ -1,0 +1,3 @@
+# Build 63: Grand Hotel alternate route
+
+After clearing the Hotel District, approach the Grand Hotel entrance and hold up to enter; continuing right retains the original route. The branch traverses the lobby, gift shop, fountain, restaurant and kitchen, then fades to an alternate nightlife street. Brick and his guards use the existing dormant/invulnerable encounter logic. Sound-enabled nightlife uses a quiet synthesized bar melody. The interior and nightlife backdrops were generated with the built-in image generation tool as 16-bit side-scrolling arcade stage assets: `dist/assets/grand-hotel-interior63.png` and `dist/assets/hotel-nightlife63.png`.

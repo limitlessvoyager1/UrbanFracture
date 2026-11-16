@@ -1,0 +1,395 @@
+{
+  "rows": [
+    {
+      "label": "forest177",
+      "args": [
+        "tests/forest177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 six revised moves x2 facings x30/60/120Hz: protection, vulnerable recovery, fixed lanes, exact budgets, timed events, standing leg finish, independent Gunner, cleanup\nPASS177 vulnerable hold/startup/recovery, no damage debt, unavailable special no cost, solo overhead18\n",
+      "stderr": "",
+      "elapsedMs": 4057,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "forest-balance177",
+      "args": [
+        "tests/forest-balance177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 confirmed guard bypass/offlane exclusion,5-bolt40/28/20 piercing budgets18% chip,poison power/guard,30% delayed defenses,standard/rawSony/DSX all6 grabs\n",
+      "stderr": "",
+      "elapsedMs": 891,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "forest-protection177",
+      "args": [
+        "tests/forest-protection177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 cleanup36 forced cases, ordinary strikes/grabs/projectiles rejected, capped nonqueued fire heat, Gunner stun and independent finish, poison categories/no stack/expiry, finite theft\nPASS177 all4 Gunner modes: identical scripted damage and automatic cooldowns preserved\n",
+      "stderr": "",
+      "elapsedMs": 8526,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "forest-fixture177",
+      "args": [
+        "tests/forest-fixture177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS Forest fixture/current runtime 343 checks; isolated imports, 36 mirrored/rate timing cases, 12 native-HP + 12 lethal cases, energy and ownership\n",
+      "stderr": "",
+      "elapsedMs": 7130,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "grapples301",
+      "args": [
+        "tests/grapples301.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "grapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS grapple behavioral 22791\n",
+      "stderr": "",
+      "elapsedMs": 4696,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "direct-start-director-admission",
+      "args": [
+        "tests/direct-start-director-admission.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n",
+      "stderr": "",
+      "elapsedMs": 19437,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "crowd303",
+      "args": [
+        "tests/crowd303.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS crowd behavioral 163200\n",
+      "stderr": "",
+      "elapsedMs": 21365,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "hitstun-eligibility",
+      "args": [
+        "tests/hitstun-eligibility.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n",
+      "stderr": "",
+      "elapsedMs": 2667,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "ai-decision-reasons",
+      "args": [
+        "tests/ai-decision-reasons.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS AI decision reasons 353 checks; same-time identity correlation, native history, direct/nested calls, missing reasons and lifecycle purity\n",
+      "stderr": "",
+      "elapsedMs": 8065,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "knockdown-admission",
+      "args": [
+        "tests/knockdown-admission.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n",
+      "stderr": "",
+      "elapsedMs": 5688,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "reactions298",
+      "args": [
+        "tests/reactions298.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n",
+      "stderr": "",
+      "elapsedMs": 554,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "collisions274",
+      "args": [
+        "tests/collisions274.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:internal/modules/cjs/loader:1386\r\n  throw err;\r\n  ^\r\n\r\nError: Cannot find module 'C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\collisions274.cjs'\r\n    at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)\r\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)\r\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)\r\n    at Function._load (node:internal/modules/cjs/loader:1192:37)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  code: 'MODULE_NOT_FOUND',\r\n  requireStack: []\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 63,
+      "expectedExit": 0,
+      "passed": false
+    },
+    {
+      "label": "reaction-deadline-metadata",
+      "args": [
+        "tests/reaction-deadline-metadata.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n",
+      "stderr": "",
+      "elapsedMs": 4041,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "energy316",
+      "args": [
+        "tests/energy316.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS316 ENERGY GENERATION 27\nPASS316 ENERGY SPENDING / OVERFLOW 140\nPASS316 HERO / PICKUP INTEGRATION 168\nPASS316 ENERGY RESTORE / PRESETS 180\nPASS316 ENERGY SAFE MOVE PRICING / RESTART 189\nPASS316 DEFENSIVE COST OVERRIDES 199\nPASS316 DEFENSIVE INPUTS / ACTUAL DIAGNOSTICS 215\nPASS316 CAMPAIGN POLICY / EVENT OWNER 221\nPASS316 EXPLICIT FUTURE MOVE CLASSIFICATION 223\nPASS316 ACTUAL GRAPPLE ENERGY 249\n",
+      "stderr": "",
+      "elapsedMs": 1258,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "plane304",
+      "args": [
+        "tests/plane304.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n",
+      "stderr": "",
+      "elapsedMs": 48952,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "guard331",
+      "args": [
+        "tests/guard331.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:fs:2425\r\n    return binding.writeFileUtf8(\r\n                   ^\r\n\r\nError: ENOENT: no such file or directory, open 'C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\reports331\\counter-results.json'\r\n    at Object.writeFileSync (node:fs:2425:20)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\guard331.cjs:4:4)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  errno: -4058,\r\n  code: 'ENOENT',\r\n  syscall: 'open',\r\n  path: 'C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\reports331\\\\counter-results.json'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 659,
+      "expectedExit": 0,
+      "passed": false
+    },
+    {
+      "label": "counter331-input",
+      "args": [
+        "tests/counter331-input.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS331 56 seven-hero keyboard and standard/rawSony/DSX counter inputs, ready and post-rise\n",
+      "stderr": "",
+      "elapsedMs": 993,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "controls260-input",
+      "args": [
+        "tests/controls260-input.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS260 INPUT 12 actual game.js pad pump: early L2→Attack buffers, Jump switches rear grip without jumping; standard/raw Sony/DSX simulated.\n",
+      "stderr": "",
+      "elapsedMs": 343,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "gamepad.test",
+      "args": [
+        "tests/gamepad.test.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection\nPASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery\n",
+      "stderr": "",
+      "elapsedMs": 96,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "controller-recovery.test",
+      "args": [
+        "tests/controller-recovery.test.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS raw Sony centered hat/discrete D-pad, neutral rearming with drift, DSX virtual selection, full custom calibration and axes/buttons\n",
+      "stderr": "",
+      "elapsedMs": 61,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "forest-controller125.test",
+      "args": [
+        "tests/forest-controller125.test.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:internal/assert/utils:77\r\n    throw err;\r\n    ^\r\n\r\nAssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\r\n\r\n  assert(run('started&&!paused'))\r\n\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest-controller125.test.cjs:3:1089)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: false,\r\n  expected: true,\r\n  operator: '==',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 130,
+      "expectedExit": 0,
+      "passed": false
+    },
+    {
+      "label": "forest-counter-controller127.test",
+      "args": [
+        "tests/forest-counter-controller127.test.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:internal/assert/utils:77\r\n    throw err;\r\n    ^\r\n\r\nAssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\r\n\r\n  assert(run('started&&!paused'))\r\n\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest-counter-controller127.test.cjs:3:1089)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: false,\r\n  expected: true,\r\n  operator: '==',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 123,
+      "expectedExit": 0,
+      "passed": false
+    },
+    {
+      "label": "counters248",
+      "args": [
+        "tests/counters248.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n",
+      "stderr": "",
+      "elapsedMs": 49797,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "grab223-recovery",
+      "args": [
+        "tests/grab223-recovery.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×four regular/heavy types ×30/60/120Hz, true throw impact/get-up, exact.8/1.2 post-standing protection, damage through protection, no hit refresh and reliable expiry\nPASS223 ordinary-KD source distinction, per-target8s repetition memory, visible third/fourth positioning with no hidden immunity, finite expiry/death cleanup\n",
+      "stderr": "",
+      "elapsedMs": 2670,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "negative: fixture imports executable test",
+      "args": [
+        "-e",
+        "const fs=require('node:fs'),path=require('node:path'),read=fs.readFileSync;fs.readFileSync=function(file,...args){const value=read.call(this,file,...args);if(path.resolve(String(file))===\"C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\tools\\\\forest177\\\\fixture.cjs\"){if(typeof value!=='string')throw Error('Expected text read');return value.replace(\"const runtime=load(177)\",\"require('../../tests/gunner173.cjs');const runtime=load(177)\");}return value;};require('./tests/forest-fixture177.cjs');"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n+ actual - expected\r\n\r\n+ undefined\r\n- 'intercept'\r\n\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\gunner173.cjs:13:142)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Module.require (node:internal/modules/cjs/loader:1463:12)\r\n    at require (node:internal/modules/helpers:147:16)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\forest177\\fixture.cjs:5:1) {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: undefined,\r\n  expected: 'intercept',\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 590,
+      "expectedExit": 1,
+      "expectedText": "Executable test imported",
+      "passed": false
+    },
+    {
+      "label": "negative: strike adds one damage",
+      "args": [
+        "-e",
+        "const fs=require('node:fs'),path=require('node:path'),read=fs.readFileSync;fs.readFileSync=function(file,...args){const value=read.call(this,file,...args);if(path.resolve(String(file))===\"C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\dist\\\\forest-grapples177.js\"){if(typeof value!=='string')throw Error('Expected text read');return value.replace(\"F.hit(g,a,a.victim,amount,false\",\"F.hit(g,a,a.victim,amount+1,false\");}return value;};require('./tests/forest177.cjs');"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "[eval]:1\r\nconst fs=require('node:fs'),path=require('node:path'),read=fs.readFileSync;fs.readFileSync=function(file,...args){const value=read.call(this,file,...args);if(path.resolve(String(file))===\"C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\dist\\\\forest-grapples177.js\"){if(typeof value!=='string')throw Error('Expected text read');return value.replace(\"F.hit(g,a,a.victim,amount,false\",\"F.hit(g,a,a.victim,amount+1,false\");}return value;};require('./tests/forest177.cjs');\r\n                                                                                                                                                                                                                                                                                                                                                                 ^\r\n\r\nError: Expected text read\r\n    at fs.readFileSync ([eval]:1:360)\r\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\qa242\\runtime.cjs:4:1132\r\n    at Array.map (<anonymous>)\r\n    at load (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\qa242\\runtime.cjs:4:1122)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\forest177\\fixture.cjs:5:15)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 272,
+      "expectedExit": 1,
+      "expectedText": "budget",
+      "passed": false
+    },
+    {
+      "label": "negative: action adds one frame",
+      "args": [
+        "-e",
+        "const fs=require('node:fs'),path=require('node:path'),read=fs.readFileSync;fs.readFileSync=function(file,...args){const value=read.call(this,file,...args);if(path.resolve(String(file))===\"C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\dist\\\\forest-grapples177.js\"){if(typeof value!=='string')throw Error('Expected text read');return value.replace(\"(d.mandatory+d.recovery)/60\",\"(d.mandatory+d.recovery+1)/60\");}return value;};require('./tests/forest-fixture177.cjs');"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "[eval]:1\r\nconst fs=require('node:fs'),path=require('node:path'),read=fs.readFileSync;fs.readFileSync=function(file,...args){const value=read.call(this,file,...args);if(path.resolve(String(file))===\"C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\dist\\\\forest-grapples177.js\"){if(typeof value!=='string')throw Error('Expected text read');return value.replace(\"(d.mandatory+d.recovery)/60\",\"(d.mandatory+d.recovery+1)/60\");}return value;};require('./tests/forest-fixture177.cjs');\r\n                                                                                                                                                                                                                                                                                                                                                                 ^\r\n\r\nError: Expected text read\r\n    at fs.readFileSync ([eval]:1:360)\r\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\qa242\\runtime.cjs:4:1132\r\n    at Array.map (<anonymous>)\r\n    at load (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\qa242\\runtime.cjs:4:1122)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\forest177\\fixture.cjs:5:15)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 606,
+      "expectedExit": 1,
+      "expectedText": "native action duration",
+      "passed": false
+    }
+  ],
+  "summary": {
+    "total": 27,
+    "passed": 20,
+    "failed": 7
+  },
+  "visual": "Not executed; rendering repair remains separate",
+  "historical": "Missing historical receipts remain unavailable; behavioral pass is not historical certification"
+}

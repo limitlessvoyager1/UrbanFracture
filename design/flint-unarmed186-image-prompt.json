@@ -1,0 +1,8 @@
+{
+  "mode": "built-in imagegen",
+  "transparent_background": true,
+  "reference": "dist/assets/sprites/flint-v1.png",
+  "prompt": "Use case: identity-preserve. Production 16-bit illustrated pixel-art game sprite atlas. Image1 is reference FLINT enemy: short black hair, dark moustache/stubble, muscular average-tall orange short-sleeved prison jumpsuit, gray undershirt and sleeve cuffs, black boots. Preserve same man, face, orange uniform, proportions and art style. Generate exactly FOUR full-body poses in a TWO column by TWO row square atlas, genuinely transparent background, no text/grid/shadows/weapons. All face RIGHT, equal character scale and fixed foot baseline inside each equal cell; generous transparent gutters. Top left: fighting guard, both bare fists raised; top right: strong straight punch extended. Bottom left: powerful front kick at waist height, other foot firmly planted, both fists up. Bottom right: strong hook punch torso rotated. Complete bodies head-to-toe, no clipping, consistent height, illustrated retro game pixel edges. This is his unarmed fallback; no weapon in any frame.",
+  "output": "dist/assets/sprites/flint-unarmed186.webp",
+  "source_png": "generated_images/exec-b0e428e3-9c5f-4bca-a6df-14f73185fa07.png"
+}

@@ -1,0 +1,308 @@
+{
+  "ready": true,
+  "build": 246,
+  "seed": 246,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "clock": 30,
+  "group": 5,
+  "hero": "orion",
+  "facing": 1,
+  "rows": [
+    {
+      "id": "dockWorker",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 80,
+      "name": "Ryan",
+      "weapon": "crowbar",
+      "classification": "REGULAR",
+      "variant": "dockWorker",
+      "visual": {
+        "pose": "front restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "dockWorker",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 80,
+      "name": "Ryan",
+      "weapon": "crowbar",
+      "classification": "REGULAR",
+      "variant": "dockWorker",
+      "visual": {
+        "pose": "front restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "dockWorker",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 80,
+      "name": "Tony",
+      "weapon": "crowbar",
+      "classification": "REGULAR",
+      "variant": "dockWorker",
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "dockWorker",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 80,
+      "name": "Tony",
+      "weapon": "crowbar",
+      "classification": "REGULAR",
+      "variant": "dockWorker",
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "heavyDockWorker",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 105,
+      "name": "Tony",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "heavyDockWorker",
+      "visual": {
+        "pose": "front restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "heavyDockWorker",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 105,
+      "name": "Tony",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "heavyDockWorker",
+      "visual": {
+        "pose": "front restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "heavyDockWorker",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 105,
+      "name": "Carl",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "heavyDockWorker",
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "heavyDockWorker",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 105,
+      "name": "Carl",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "heavyDockWorker",
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "gus",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 115,
+      "name": "Gus",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "gus",
+      "visual": {
+        "pose": "front restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "gus",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 115,
+      "name": "Gus",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "gus",
+      "visual": {
+        "pose": "front restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "gus",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 115,
+      "name": "Gus",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "gus",
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "gus",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 115,
+      "name": "Gus",
+      "weapon": "crowbar",
+      "classification": "HEAVY_BOSS",
+      "variant": "gus",
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "flintUnarmed",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 95,
+      "name": "Flint",
+      "weapon": null,
+      "classification": "REGULAR",
+      "variant": null,
+      "visual": {
+        "pose": "front restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "flintUnarmed",
+      "hero": "orion",
+      "rear": false,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 95,
+      "name": "Flint",
+      "weapon": null,
+      "classification": "REGULAR",
+      "variant": null,
+      "visual": {
+        "pose": "front restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "flintUnarmed",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": false,
+      "acquired": true,
+      "maxHP": 95,
+      "name": "Flint",
+      "weapon": null,
+      "classification": "REGULAR",
+      "variant": null,
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": false,
+        "owner": "orion"
+      }
+    },
+    {
+      "id": "flintUnarmed",
+      "hero": "orion",
+      "rear": true,
+      "dir": 1,
+      "recoil": true,
+      "acquired": true,
+      "maxHP": 95,
+      "name": "Flint",
+      "weapon": null,
+      "classification": "REGULAR",
+      "variant": null,
+      "visual": {
+        "pose": "rear restrained",
+        "recoil": true,
+        "owner": "orion"
+      }
+    }
+  ],
+  "notCertification": [
+    "approved screenshot baseline",
+    "physical controller",
+    "human balance"
+  ]
+}

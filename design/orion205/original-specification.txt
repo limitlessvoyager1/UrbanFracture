@@ -1,0 +1,825 @@
+# URBAN FRACTURE — ORION COMPLETE PLAYABLE CHARACTER IMPLEMENTATION
+## Half-Human Cyborg, Electrical Crowd Control, Ranged Combat, Boosters, and System Repair
+
+### PRIMARY OBJECTIVE
+
+Create Orion as the sixth playable hero in Urban Fracture.
+
+Orion is a half-human, half-cyborg who escaped an unfinished forced cybernetic conversion performed by the criminal syndicate.
+
+His specialty is:
+
+- Crowd control.
+- Ranged attacks.
+- Electrical damage.
+- Multi-target knockback.
+- Enhanced durability.
+- Mechanical strength.
+- Short-distance booster mobility.
+
+Orion should be especially effective against groups but less efficient against isolated enemies.
+
+**Do not make Orion the strongest hero in every situation.**
+
+Preserve all existing playable heroes, levels, enemy AI, weather systems, controls, and combat mechanics.
+
+Create a reversible checkpoint before implementation.
+
+---
+
+# PART 1 — CHARACTER BACKSTORY
+
+Orion was once an ordinary office worker.
+
+The syndicate kidnapped him and subjected him to an experimental program intended to create controllable cyborg soldiers.
+
+The procedure involved:
+
+- Cybernetic skeletal reinforcement.
+- Robotic limb replacement.
+- Neural combat programming.
+- Enhanced physical strength.
+- Enhanced durability.
+- Electrical weapon systems.
+- Booster-assisted movement.
+
+Orion escaped before the procedure was completed.
+
+As a result, he remains visibly half-human and half-machine.
+
+He retains his personality, memories, and free will.
+
+He is determined to take revenge on the syndicate responsible for his transformation.
+
+### Personality
+
+Orion tries to maintain his sense of humor.
+
+He occasionally makes sarcastic remarks.
+
+However, his physical condition and memories of the experiment can trigger visible anger.
+
+His dialogue and idle behavior should reflect this contrast.
+
+---
+
+# PART 2 — CHARACTER APPEARANCE
+
+Use the supplied reference image as the primary clothing reference.
+
+### Clothing
+
+- Long, weathered brown leather trench coat.
+- Black high-neck shirt or turtleneck.
+- Black pants.
+- Dark boots.
+- Dark, understated clothing beneath the coat.
+
+The clothing is intended to conceal his cybernetic alterations.
+
+### Cybernetic appearance
+
+- Golden-yellow visor covering the eye area.
+- Large portion of the right side of his face missing skin, exposing a metallic skull.
+- Right hand visibly robotic.
+- Left hand remains human.
+- Subtle mechanical features visible around the neck and right wrist.
+- Boot-mounted boosters.
+- Metallic structural details beneath damaged portions of the face.
+
+### Important
+
+Do not make Orion completely robotic.
+
+His appearance must clearly communicate that he is still partially human.
+
+Preserve his human facial structure and expressions where visible.
+
+### Sprite consistency
+
+Maintain identical proportions and clothing colors across:
+
+- Idle.
+- Walking.
+- Running.
+- Jumping.
+- Attacking.
+- Grabbing.
+- Throws.
+- Specials.
+- Knockdowns.
+- Recovery.
+
+Do not allow his trench coat to disappear or change color between animations.
+
+---
+
+# PART 3 — COMBAT IDENTITY
+
+### Health
+
+**130 maximum HP.**
+
+### Strengths
+
+- High durability.
+- Strong crowd control.
+- Multiple ranged attacks.
+- Electrical stun effects.
+- Multi-target knockback.
+- Strong area attacks.
+- Limited self-repair.
+- Booster-assisted movement.
+
+### Weaknesses
+
+- Slow ordinary walking.
+- Noticeable attack startup.
+- Longer recovery after powerful specials.
+- Vulnerable while charging System Repair.
+- Limited defensive mobility.
+- Some attacks inefficient against single enemies.
+- Long-range attacks require commitment.
+- Susceptible to anti-air attacks during airborne Blitz.
+
+### Important
+
+Orion should not outperform Broxton in raw close-range damage.
+
+He should not outperform Niko in counter effectiveness.
+
+He should not outperform Reina or Nova in ordinary mobility.
+
+---
+
+# PART 4 — WALKING AND RUNNING
+
+## Walking
+
+Orion walks slowly and confidently.
+
+His movements should have a slightly robotic quality.
+
+### Animation
+
+- Deliberate foot placement.
+- Subtle mechanical stiffness.
+- Natural weight transfer.
+- Slight trench-coat movement.
+- Visible alternating steps.
+- Proper ground contact.
+
+### Important
+
+Do not move a stationary sprite across the ground.
+
+His legs must animate.
+
+## Running — Heel Boosters
+
+Preserve the game's existing double-tap-forward-and-hold run input.
+
+Orion does not perform an ordinary running animation.
+
+Instead:
+
+1. He leans forward.
+2. His boot boosters activate.
+3. Small golden-yellow exhaust effects appear.
+4. His feet remain near the ground.
+5. He accelerates forward.
+6. He maintains a controlled boosted movement.
+7. Releasing Forward deactivates the boosters.
+8. He decelerates and returns to walking or idle.
+
+### Important
+
+The booster run must not resemble uncontrolled sliding.
+
+Use appropriate body lean, leg positioning, acceleration, and deceleration.
+
+Do not let him float above the combat plane.
+
+---
+
+# PART 5 — STANDARD FOUR-HIT COMBO
+
+## Three Kicks → Spinning Piston Punch
+
+### Sequence
+
+1. Fast front kick.
+2. Second kick.
+3. Stronger turning kick.
+4. Spinning piston punch with robotic right arm.
+
+### Final attack
+
+The robotic fist extends explosively.
+
+The enemy is launched backward.
+
+If the enemy collides with another opponent, apply light collision damage.
+
+### Balance
+
+Moderate total damage.
+
+The final punch provides the main knockback.
+
+### Important
+
+Keep the opponent within range through the first three kicks.
+
+Do not allow the final piston punch to miss because earlier hits push the opponent too far away.
+
+---
+
+# PART 6 — GRAB COMBO
+
+## One-Handed Lift and Ground Smash
+
+### Sequence
+
+1. Orion grabs the opponent with his robotic right hand.
+2. He lifts them slightly above the ground.
+3. He holds them securely.
+4. He delivers multiple punches.
+5. The final strike drives the opponent toward the ground.
+6. The opponent crashes onto the floor.
+7. Orion releases them.
+8. He returns to stance.
+
+### Balance
+
+Moderate damage.
+
+Preserve synchronized grappling protection.
+
+### Important
+
+Do not allow the opponent to float independently of Orion's grip.
+
+---
+
+# PART 7 — CHARGED ATTACK
+## SYSTEM REPAIR
+
+### Input
+
+Hold Attack for three seconds, then release.
+
+### Function
+
+Restore:
+
+- **17% of Orion's maximum HP.**
+- **100% of his defense meter.**
+
+### Health calculation
+
+130 × 0.17 = 22.1 HP.
+
+Use the game's established HP rounding rules.
+
+Do not exceed 130 HP.
+
+### Usage limit
+
+**Once per life.**
+
+The ability must not become available again until Orion loses a life and respawns.
+
+Do not reset usage when entering another room or level.
+
+### Charging restrictions
+
+- Orion cannot move while charging.
+- Orion remains vulnerable to attacks.
+- Enemy attacks may interrupt charging.
+- No invulnerability during charging.
+- No Super Armor during charging.
+
+### Animation
+
+1. Orion plants his feet.
+2. He lowers his head slightly.
+3. Electricity begins flowing through his body.
+4. The electrical effect intensifies during charging.
+5. At three seconds, a full-charge cue activates.
+6. On release, electricity surges through his cybernetic systems.
+7. His HP increases.
+8. His defense meter refills.
+9. He returns to stance.
+
+### Important
+
+Do not restore HP or defense meter before successful activation.
+
+Do not consume the once-per-life use if charging is interrupted before activation.
+
+---
+
+# PART 8 — FRONT GRAB → FORWARD + ATTACK
+## SHOCK BLAST
+
+### Sequence
+
+1. Orion lifts the opponent with his robotic arm.
+2. He holds them in front of his body.
+3. Electricity begins flowing into the opponent.
+4. The opponent visibly reacts.
+5. Electrical arcs extend to nearby eligible enemies.
+6. Orion releases a final electrical blast.
+7. The primary opponent is launched away.
+8. Nearby enemies receive reduced electrical damage.
+
+### Balance
+
+High crowd-control value.
+
+Moderate direct damage.
+
+Electrical chaining must have a limited radius and target count.
+
+### Important
+
+Do not allow electricity to chain indefinitely.
+
+---
+
+# PART 9 — FRONT GRAB → AWAY + ATTACK
+## ROBO SLAM
+
+### Sequence
+
+1. Orion lifts the opponent with his robotic arm.
+2. He swings them toward one side.
+3. He slams them into the ground.
+4. He lifts them again.
+5. He swings them toward the opposite side.
+6. He performs a second slam.
+7. He tosses the opponent away.
+8. Orion returns to stance.
+
+### Gameplay effect
+
+Enemies on both sides may be struck by the swinging opponent.
+
+### Balance
+
+Primary target receives strong damage.
+
+Secondary targets receive reduced collision damage.
+
+### Important
+
+Maintain synchronized attachment throughout both slams.
+
+---
+
+# PART 10 — REAR GRAB → FORWARD + ATTACK
+## CHARGED PISTON PUNCH
+
+### Sequence
+
+1. Orion maintains a rear grab.
+2. His robotic fist begins charging with electricity.
+3. He pulls his fist backward.
+4. Electrical arcs intensify.
+5. He drives the fist into the opponent's back.
+6. The opponent is launched forward.
+7. Orion returns to stance.
+
+### Gameplay effect
+
+Strong knockback.
+
+Light collision damage to additional enemies.
+
+### Balance
+
+Noticeable startup before the punch.
+
+---
+
+# PART 11 — REAR GRAB → AWAY + ATTACK
+## INVERTED BOOSTER SLAM
+
+### Sequence
+
+1. Orion establishes a secure rear grab.
+2. His boot boosters activate.
+3. He lifts off the ground with the opponent.
+4. He rotates into an inverted position.
+5. He drives the opponent downward head-first in a stylized slam.
+6. The opponent impacts the ground.
+7. Orion rebounds away using his boosters.
+8. He lands on his feet.
+9. He turns to face the grounded opponent.
+
+### Important
+
+Use synchronized aerial grappling.
+
+Do not teleport either character.
+
+Preserve combat-plane alignment.
+
+Prevent premature opponent recovery.
+
+---
+
+# PART 12 — BLITZ
+## ELECTRIC METEOR
+
+### Sequence
+
+1. Orion crouches.
+2. His boot boosters ignite.
+3. He leaps forward in a short arc.
+4. His robotic fist becomes electrically charged.
+5. He descends toward the ground.
+6. He strikes the floor with his fist.
+7. An electrical shockwave expands outward.
+8. Nearby eligible enemies are launched away.
+9. Orion recovers.
+
+### Anti-air interaction
+
+Enemies with anti-air abilities may react during his airborne approach.
+
+### Balance
+
+- Noticeable startup.
+- Limited landing radius.
+- Strong crowd control.
+- Reduced efficiency against one target.
+- Punishable landing recovery.
+
+### Important
+
+Do not make Orion invulnerable throughout the entire airborne attack.
+
+---
+
+# PART 13 — NEUTRAL SPECIAL
+## GROUND CURRENT
+
+### Sequence
+
+1. Orion plants his feet.
+2. He aims both fists toward the ground.
+3. Electricity charges around his arms.
+4. He fires electrical energy into the floor.
+5. Currents travel left and right.
+6. Enemies contacting the currents take electrical damage and brief shock reactions.
+7. The currents dissipate.
+
+### Balance
+
+Strong against groups on both sides.
+
+Limited range and duration.
+
+Moderate startup and recovery.
+
+### Important
+
+Do not allow repeated damage every rendering frame.
+
+---
+
+# PART 14 — FORWARD SPECIAL
+## GOLDEN VISOR LASER
+
+### Sequence
+
+1. Orion turns toward the selected direction.
+2. His yellow visor begins glowing.
+3. He braces his stance.
+4. A golden-yellow laser fires from the visor.
+5. The beam travels to the visible screen edge.
+6. Eligible enemies intersecting the beam receive damage and a brief stun.
+7. The beam disappears.
+8. Orion enters recovery.
+
+### Balance
+
+This is a powerful ranged crowd-control move.
+
+However:
+
+- It has a clearly readable charge-up.
+- Orion cannot move while firing.
+- It has substantial recovery.
+- Damage is lower against a single target than his strongest focused attacks.
+- Bosses have reduced stun duration.
+- The beam does not pass through solid level geometry unless explicitly permitted.
+
+### Important
+
+Do not make the beam continuously damage enemies every frame.
+
+Use controlled damage events.
+
+---
+
+# PART 15 — GRAB SPECIAL
+## ELECTRIC ASCENSION SLAM
+
+### Sequence
+
+1. Orion uppercuts the grabbed opponent.
+2. The opponent rises into the air.
+3. Orion activates his boot boosters.
+4. He launches upward after them.
+5. He catches the opponent in midair.
+6. He rotates his body.
+7. He drives the opponent toward the ground.
+8. The opponent impacts the floor.
+9. A large electrical explosion expands outward.
+10. Nearby enemies receive reduced electrical damage.
+11. Orion lands and returns to stance.
+
+### Balance
+
+Heavy damage to the primary target.
+
+Moderate area damage.
+
+Longer recovery than ordinary grabs.
+
+### Important
+
+The opponent must not recover before Orion completes the mandatory animation.
+
+---
+
+# PART 16 — AERIAL ATTACKS
+
+## Neutral jump attack
+
+A straightforward jumping kick.
+
+## Forward jump attack
+
+An advancing knee smash.
+
+## Down + Attack
+
+A downward hammer-fist bash using the robotic arm.
+
+### Critical requirement
+
+All aerial attacks must preserve the correct combat-plane depth.
+
+Do not allow Orion to pass in front of or behind the enemy unintentionally.
+
+Use visual elevation separately from logical combat-plane position.
+
+---
+
+# PART 17 — DODGE
+## RETREATING BOOST
+
+### Input
+
+Existing Dodge button.
+
+### Sequence
+
+1. Orion shifts his weight backward.
+2. His boot boosters activate briefly.
+3. He retreats a short distance.
+4. The boosters shut off.
+5. He lands or settles into stance.
+
+### Cooldown
+
+**Two seconds.**
+
+### Important
+
+- No teleportation.
+- No excessive retreat distance.
+- No permanent invulnerability.
+- Preserve combat-plane alignment.
+
+---
+
+# PART 18 — IDLE ANIMATION
+
+After several seconds of inactivity:
+
+1. Orion raises his robotic right fist.
+2. Electricity travels across the fist.
+3. Electrical arcs move along the forearm.
+4. He examines the arm briefly.
+5. He lowers it.
+6. He returns to stance.
+
+The animation may suggest frustration or grim amusement.
+
+### Important
+
+Idle animation must be immediately cancelable.
+
+Do not interrupt combat input.
+
+---
+
+# PART 19 — ELECTRICAL DAMAGE SYSTEM
+
+Use the existing damage framework.
+
+Add electrical attack properties where necessary.
+
+### Electrical effects
+
+- Brief shock reactions.
+- Limited stun.
+- Electrical arcs.
+- Controlled multi-target damage.
+- Appropriate sound effects.
+
+### Anti-stunlock rules
+
+- Electrical stun cannot trigger continuously.
+- Repeated shocks use diminishing stun effectiveness.
+- Strong enemies have resistance.
+- Bosses have substantial resistance.
+- Scripted boss attacks retain appropriate protection.
+
+### Important
+
+Do not create permanent stun loops.
+
+---
+
+# PART 20 — NORMAL DIFFICULTY BALANCING
+
+Orion's greatest strength is fighting groups.
+
+### Against multiple enemies
+
+He should excel at:
+
+- Creating distance.
+- Interrupting coordinated attacks.
+- Knocking enemies apart.
+- Controlling space.
+- Damaging several enemies at once.
+
+### Against one enemy
+
+His crowd-control attacks should be less efficient.
+
+For example:
+
+- Ground Current loses value when only one enemy is present.
+- Electric Meteor has a long commitment for one target.
+- Golden Visor Laser has high startup and recovery relative to single-target damage.
+- Shock Blast's chain damage provides no benefit without nearby enemies.
+
+### Important
+
+Do not artificially reduce every attack's damage against a single enemy.
+
+Balance primarily through opportunity cost, area coverage, and recovery.
+
+---
+
+# PART 21 — SMART AI DIRECTOR INTEGRATION
+
+Enemies should recognize Orion's ranged and electrical abilities.
+
+### Possible responses
+
+- Reposition to avoid clustering.
+- Flank during laser startup.
+- Attempt anti-air against Electric Meteor.
+- Approach during System Repair charging.
+- Punish missed ranged specials.
+- Avoid repeatedly standing in electrical hazard zones.
+
+### Important
+
+Do not make every enemy automatically evade Orion's attacks.
+
+Preserve Normal difficulty fairness.
+
+---
+
+# PART 22 — SYNCHRONIZED GRAPPLING
+
+Use the existing synchronized-grappling framework for Orion's throws and Grab Special.
+
+### Requirements
+
+- Continuous contact anchors.
+- Correct lift trajectories.
+- Correct impact timing.
+- Proper release events.
+- No sprite scaling.
+- No floating.
+- No teleportation.
+- Correct opponent recovery order.
+
+Protect Orion during committed noncancelable synchronized throws.
+
+End protection before punishable recovery.
+
+---
+
+# PART 23 — ANIMATION CONSISTENCY
+
+Audit every Orion animation for:
+
+- Identical character proportions.
+- Consistent trench-coat colors.
+- Consistent visor appearance.
+- Consistent robotic right arm.
+- Consistent human left arm.
+- Proper leg movement.
+- Correct ground alignment.
+- Natural coat movement.
+- Correct booster effects.
+
+### Important
+
+Do not allow the robotic arm to switch sides when Orion changes facing direction.
+
+Use correct left-facing and right-facing sprite handling.
+
+---
+
+# PART 24 — DEVELOPER DASHBOARD
+
+Add Orion-specific diagnostics:
+
+- HP.
+- Defense meter.
+- System Repair availability.
+- System Repair charge progress.
+- Electrical attack state.
+- Electrical stun cooldowns.
+- Booster state.
+- Active hitboxes.
+- Current combat-plane depth.
+- Current animation.
+- Sprite scale.
+- Attack startup.
+- Attack recovery.
+- Grapple synchronization.
+
+---
+
+# PART 25 — TESTING
+
+Test Orion against:
+
+- Marcus.
+- Kevin.
+- Bruno.
+- Frankie.
+- Flint.
+- Carmen.
+- Jesse.
+- Brick.
+- Jackal.
+- Mixed enemy groups.
+
+### Verify
+
+1. Orion has 130 maximum HP.
+2. System Repair restores 17% maximum HP.
+3. Defense meter fully refills.
+4. System Repair is usable once per life.
+5. Charging is stationary and interruptible.
+6. All attacks execute their intended animations.
+7. Electrical attacks affect multiple enemies appropriately.
+8. Stun cannot be infinitely repeated.
+9. Booster movement is smooth.
+10. Walking has natural foot movement.
+11. Running does not glide.
+12. Aerial attacks preserve combat-plane alignment.
+13. Grab animations remain synchronized.
+14. Enemy recovery occurs at the correct time.
+15. Strong enemies and bosses retain appropriate resistance.
+16. Existing characters remain functional.
+17. Dynamic weather and day/night systems remain functional.
+18. PS5 DualSense controls remain functional.
+
+---
+
+# IMPLEMENTATION ORDER
+
+1. Inspect existing character architecture.
+2. Create a reversible checkpoint.
+3. Implement Orion's appearance and animation foundations.
+4. Implement walking and booster running.
+5. Implement standard combo and grab combo.
+6. Implement ordinary throws.
+7. Implement System Repair.
+8

@@ -1,0 +1,91 @@
+URBAN FRACTURE — STALE AI DECISION-REASON AUDIT (A3-02)
+Date: 2026-11-12
+Branch: audit/ai-decision-reason-freshness
+Baseline / cumulative stable: dd07a7a819eca2c3b8753ba80c76fc3b3ac2554d
+AUDIT ONLY. No production, existing test, or QA configuration changes.
+
+DECISION
+Recommend one read-only diagnostic repair: correlate observed attempts with fresh native evidence and label native denial/request history separately from current actor state and last observed decisions.
+Do not clear denied135, change controller state, retime attacks, or reinterpret admission as a reason why a move was selected. Stop for approval before implementation.
+
+CONFIRMED FINDINGS / PRIORITY
+AI-R01 — Medium diagnostic correctness; broad shared observer; highest priority.
+snapshot.selectionReason directly uses e.denied135.reason. A successful retry can leave that historical denial in place while the new request is granted and the actor attacks. Confirmed on all8reviewed shared enemy families through both enemyAct and direct start (16controlled cases). Admitted event.reason correctly becomes null but its nested snapshot still says pressure budget.
+No natural encounter frequency estimate or combat defect is inferred from these manual API cases.
+
+AI-R02 — Medium diagnostic correctness; same attribution root cause, include in the same scoped repair.
+enemyAct observer labels a new rejection with the preexisting denied135 reason even when the current controller returns before making a new Director request or native denial. An enforcer with positive cooldown rejects frontKick early, but the recorded reason incorrectly says pressure budget from an earlier attempt. The current controller exposes no fresh rejection explanation; the correct diagnostic answer must be unavailable rather than an inferred cooldown reason.
+
+AI-R03 — Confirmed coverage limit; handle honestly within this diagnostic repair.
+AIObserver288 wraps enemyAct/ai/damage but not direct start. Direct starts can create no AI attempt event even though the repaired Director records their request. Some later physical guards wrap outside AIObserver and reject before it runs. A private attempt tracker must not claim complete coverage or manufacture reasons for unobserved paths.
+Native controller reason/adaptation fields already carry an explicit persistence warning. No incorrect native selection weight was confirmed; keep unexplained candidates, rolls and weights unavailable.
+
+SEVERITY / FREQUENCY / RISK / COMPLEXITY
+Shared diagnostic integrity: medium severity, all consumers of the observer, repeatable controlled cases, natural frequency unmeasured. Misattributes current decisions and can steer repairs toward the wrong subsystem. No new damage/timing defect found.
+Scoped observer/UI repair: medium complexity; low gameplay risk only if strictly private/read-only, medium diagnostic compatibility risk around nesting, history, recorder lifecycle and unknown coverage.
+Global denial clearing or controller instrumentation would increase gameplay risk and is not proposed.
+
+ROOT CAUSE / PRODUCERS / CONSUMERS
+dist/ai-observer288.js:
+- snapshot(): selectionReason = e.denied135?.reason || unavailable text.
+- enemyAct wrapper: unchanged action falls back to that same persistent field for a new event.reason without checking whether the field was produced by this attempt.
+- latestRequest is the latest retained Director row for that actor, not proof of a current selection. Nonthreat utility actions may generate no new row. The Director list is bounded40.
+- nativeReasonFields already says fields may persist; this caution does not apply to the unqualified selectionReason.
+- historical event snapshots are detached copies; earlier records remained unchanged in the audit. Preserve that behavior.
+
+dist/director148.js request(): denial writes denied135, grant appends a granted request without clearing the old denial.
+Other request/start wrappers can reject before that base request and may write no new Director row.
+dist/audit135.js ai(): clears denied135 in some native evaluations and CONSUMES it after controller evaluation to restore counters/cooldowns and reposition. Some beforeAI returns occur before its clear. Therefore denial lifetime is gameplay-owned; clearing it to repair the display is unsafe.
+Gus/Aidan and other native modules have their own clearing policies; do not unify them for this task.
+
+dist/ai-inspector288.js: calls snapshot and renders its full JSON under Current native evaluation; event history/export displays detached observer rows. This exposes the misleading live selectionReason and embedded stale reasons.
+dist/diagnostics307.js report(): exports AIObserver288.events; corrected event data will propagate without a new combat controller. Its separate Director.debug behavior is outside this proposal; observer parity does not certify every diagnostic helper globally pure.
+dist/diagnostics-ui307.js links to the AI inspector and toggles/clears recording. No new full panel architecture is needed.
+
+EVIDENCE / REPRODUCTION
+Run node tools/ai-reason-audit/audit.cjs from project root.
+189observational assertions /23controlled cases:
+1. Three clean native actors; first two shared kick requests reserve slots, third is denied pressure budget.
+2. Clear the first two active fixture actions to isolate a retry; immediately retry the third through enemyAct or direct start.
+3. Actor receives a new action; Director latestRequest.granted=true. Its raw denied135 remains the earlier object; snapshot.selectionReason still says pressure budget.
+4. Both denial and grant may have at=0 and g.time=0. Timestamp equality cannot determine freshness or ordering. Do not repair using only denied.at===g.time or a time-to-live.
+5. Separate enforcer case: after pressure denial, set positive cooldown and request native frontKick. The controller rejects early; no new Director row or denial object exists. A new observer rejection event still attributes pressure budget.
+6. Separate utility case: reload is admitted without a new Director request; the old request/denial is still visible as live reason.
+7. Older-time snapshots, disabled recording and clear-history cases retain native history. Clearing observer history must not clear gameplay-native fields.
+8. Actual native hitstun can reject outside the observer wrapper; missing coverage must be explicit.
+9. Old event copies and repeated snapshot reads preserve actor data, raw denial/action references and RNG.
+These are intentional diagnostic fixtures, not claimed native moveset balance values, natural frequency or real-world encounter distributions.
+
+BEHAVIOR / TEST VERIFICATION
+tools/ai-reason-audit/parity.cjs:
+18native scenarios,54runs (off/on/frequent snapshot+event reads),24,350matched snapshots.
+Reina/Niko at30/60/120Hz against street3, Saito/Akari/Flint and Jesse/Talon/Jaguar groups. Native HP, passive player, at most12seconds/death. Actor primitives, action/controller data, physical clocks, HP, raw denial/reaction metadata, Director requests/pressure and RNG hashes match. No production patch exists; this establishes observation controls for the future repair.
+Nine existing suites passed: diagnostic288, direct-start-director-admission517, actionability-diagnostics6813, director148, combat274, hitstun-eligibility19208, knockdown-admission89115, post-hit-reassessment1192, playback-flight-diagnostics1941.
+No failures in those nine. Previously documented unrelated Gus/legacy aggregate failures and missing historical receipts remain unresolved and were not claimed rerun/passed here.
+dist/tests/qa identical to dd07a7a; approved direct admission commit f1bad73 is an ancestor. Stable remains dd07a7a.
+No rendered AI inspector/animation review, physical hardware, full campaign or release certification in this audit. Consumer label mismatch is source/runtime-data confirmed, not a visual correction.
+
+PROPOSED CORRECTION — AFTER APPROVAL ON A NEW BRANCH
+Production scope:
+1. dist/ai-observer288.js only for attribution: maintain bounded private per-game/per-actor attempt/decision correlation, with private sequence/identity tokens and observedAt. Never write actor denials/controllers, call admission again, consume RNG, or allocate gameplay action IDs merely to label diagnostics.
+2. For an observed attempt, capture before/after action identity and available native evidence. A newly admitted action is an admission outcome; its rejection reason is null. A rejected/no-new-action attempt only uses a reason newly produced and correlated to that attempt. Missing/unobserved reasons remain explicitly unavailable.
+3. Use object/sequence correlation, not timestamps alone or request-array length (bounded lists can roll over). Native wrappers may reject with a new denial but no Director row, so Director history alone is insufficient.
+4. Observe direct start when it reaches this layer and deduplicate nested enemyAct->start attempts. Preserve original calls, arguments, return values and exceptions. Later outer guards can remain outside coverage; label such state unknown rather than instrumenting every gameplay guard.
+5. Add a read-only decision-context projection distinguishing LIVE ACTOR STATE, LAST OBSERVED ATTEMPT, and HISTORICAL NATIVE DENIAL / LAST DIRECTOR REQUEST. Keep raw denied/latestRequest values and timestamps available; make legacy selectionReason refer only to supported current correlation or unavailable text. Do not invent an affirmative why-selected explanation from granted=true.
+6. Correlate a last observed admission with the current action only while the action identity still matches; if actions change while recording is off, expire the correlation. Last observed decision remains timestamped history, not an assertion that no later decision occurred.
+7. Preserve detached historical rows. New records should carry corrected context; do not rewrite earlier raw outcomes/timestamps. Clear/toggle/reset/time-rewind/actor replacement must reset or invalidate ONLY private observer correlation; raw native state remains untouched.
+8. dist/ai-inspector288.js: label raw native history and last observed decision separately from live state, and explain unknown coverage. Keep existing recording controls/source view/exports. Update affected index cache tokens. No change expected in Diagnostics307 because it already consumes observer rows; touch it only if a consumer test proves necessary.
+Tests/QA/log: new focused regression suite plus critical registry entry and repair-log update. Update the existing observer assertions only to the clarified diagnostic contract; do not weaken combat/admission checks.
+
+ACCEPTANCE / REGRESSION RISKS
+- Same-time deny->grant and deny->unexplained-rejection must fail on baseline, pass after repair.
+- Preserve native raw denials/requests/actions/timestamps; grant does not erase history.
+- Fresh denial correctly reports its native reason; unexposed reason remains unavailable. Utility, no new Director row, record-off, late enabling, direct starts, nested calls, clear/reset/rewind, actor replacement and bounded-list rollover covered.
+- Existing historical copies stay detached; no global serial or native action-ID side effect.
+- No new request/admission, additional RNG evaluation, altered return/exception, cooldown, damage, state transition or timing change. This is the critical gameplay risk if the tracker crosses ownership boundaries.
+- Rerun observer off/on/read controls AND compare pre/post production baseline with recording off/on using native trajectories, raw states/receipts and RNG. Run the nine retained suites plus relevant export/UI tests.
+- Render actual AI inspector before/after for same-time retry and unexplained rejection. Confirm current outcome and historical denial are visually distinguished; preserve gameplay canvas/HP/timing. Do not claim a rendered correction without inspection.
+- Keep AI selection weights, native denial-clearing behavior, Director admission repair, feedback deduplication, grapple/height/collision test portability and unrelated counter/input failures separate.
+
+STOP
+No repair implemented. Request approval for the observer/UI-only attribution correction above; stable and combat behavior remain unchanged.

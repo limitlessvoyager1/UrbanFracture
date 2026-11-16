@@ -1,0 +1,1036 @@
+{
+  "baseline": "dd07a7a819eca2c3b8753ba80c76fc3b3ac2554d",
+  "result": "passed",
+  "cases": 18,
+  "runs": 108,
+  "matchedSnapshots": 36525,
+  "scope": "Pre/post production-order native AI with observer off/on/frequent reads: actor primitives, action/controller data, HP/physical clocks, raw denial/reaction metadata, Director requests/pressure and RNG. Passive-player native HP traces bounded at12s/death; diagnostic events intentionally differ.",
+  "rows": [
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 360,
+            "sha256": "4123fc217648f168a04fb8a2b38fc69882ff54040bef4af6f37c433dbcab6e1c",
+            "rng": 787781285,
+            "events": 0
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "4123fc217648f168a04fb8a2b38fc69882ff54040bef4af6f37c433dbcab6e1c",
+            "rng": 787781285,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 360,
+            "sha256": "4123fc217648f168a04fb8a2b38fc69882ff54040bef4af6f37c433dbcab6e1c",
+            "rng": 787781285,
+            "events": 59
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "4123fc217648f168a04fb8a2b38fc69882ff54040bef4af6f37c433dbcab6e1c",
+            "rng": 787781285,
+            "events": 59
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 360,
+            "sha256": "4123fc217648f168a04fb8a2b38fc69882ff54040bef4af6f37c433dbcab6e1c",
+            "rng": 787781285,
+            "events": 59
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "4123fc217648f168a04fb8a2b38fc69882ff54040bef4af6f37c433dbcab6e1c",
+            "rng": 787781285,
+            "events": 59
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "sato",
+        "akari",
+        "flint"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 360,
+            "sha256": "6337b3fa572b526badcd9ca3a47c2e7c76f15ac5d8dce5dee0dc45b4c9cf857d",
+            "rng": 2770392400,
+            "events": 0
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "6337b3fa572b526badcd9ca3a47c2e7c76f15ac5d8dce5dee0dc45b4c9cf857d",
+            "rng": 2770392400,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 360,
+            "sha256": "6337b3fa572b526badcd9ca3a47c2e7c76f15ac5d8dce5dee0dc45b4c9cf857d",
+            "rng": 2770392400,
+            "events": 90
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "6337b3fa572b526badcd9ca3a47c2e7c76f15ac5d8dce5dee0dc45b4c9cf857d",
+            "rng": 2770392400,
+            "events": 90
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 360,
+            "sha256": "6337b3fa572b526badcd9ca3a47c2e7c76f15ac5d8dce5dee0dc45b4c9cf857d",
+            "rng": 2770392400,
+            "events": 90
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "6337b3fa572b526badcd9ca3a47c2e7c76f15ac5d8dce5dee0dc45b4c9cf857d",
+            "rng": 2770392400,
+            "events": 90
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "robber",
+        "talon",
+        "jaguar"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 172,
+            "sha256": "5c583510d722a56e8554bb0af8c022b769854a90b43b389007421ab2e6c0afa4",
+            "rng": 1304020419,
+            "events": 0
+          },
+          "now": {
+            "ticks": 172,
+            "sha256": "5c583510d722a56e8554bb0af8c022b769854a90b43b389007421ab2e6c0afa4",
+            "rng": 1304020419,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 172,
+            "sha256": "5c583510d722a56e8554bb0af8c022b769854a90b43b389007421ab2e6c0afa4",
+            "rng": 1304020419,
+            "events": 17
+          },
+          "now": {
+            "ticks": 172,
+            "sha256": "5c583510d722a56e8554bb0af8c022b769854a90b43b389007421ab2e6c0afa4",
+            "rng": 1304020419,
+            "events": 17
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 172,
+            "sha256": "5c583510d722a56e8554bb0af8c022b769854a90b43b389007421ab2e6c0afa4",
+            "rng": 1304020419,
+            "events": 17
+          },
+          "now": {
+            "ticks": 172,
+            "sha256": "5c583510d722a56e8554bb0af8c022b769854a90b43b389007421ab2e6c0afa4",
+            "rng": 1304020419,
+            "events": 17
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 720,
+            "sha256": "5d68a3f136b35c65b4ad58a2fb73efc4b904ba5c4d88cedd780cbdb80257ba80",
+            "rng": 3795236062,
+            "events": 0
+          },
+          "now": {
+            "ticks": 720,
+            "sha256": "5d68a3f136b35c65b4ad58a2fb73efc4b904ba5c4d88cedd780cbdb80257ba80",
+            "rng": 3795236062,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 720,
+            "sha256": "5d68a3f136b35c65b4ad58a2fb73efc4b904ba5c4d88cedd780cbdb80257ba80",
+            "rng": 3795236062,
+            "events": 64
+          },
+          "now": {
+            "ticks": 720,
+            "sha256": "5d68a3f136b35c65b4ad58a2fb73efc4b904ba5c4d88cedd780cbdb80257ba80",
+            "rng": 3795236062,
+            "events": 64
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 720,
+            "sha256": "5d68a3f136b35c65b4ad58a2fb73efc4b904ba5c4d88cedd780cbdb80257ba80",
+            "rng": 3795236062,
+            "events": 64
+          },
+          "now": {
+            "ticks": 720,
+            "sha256": "5d68a3f136b35c65b4ad58a2fb73efc4b904ba5c4d88cedd780cbdb80257ba80",
+            "rng": 3795236062,
+            "events": 64
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "sato",
+        "akari",
+        "flint"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 663,
+            "sha256": "8fb9b9760ba57343bba6dd8fce6884d2e9fc78aa6271886db85fd0f905338cba",
+            "rng": 3774194179,
+            "events": 0
+          },
+          "now": {
+            "ticks": 663,
+            "sha256": "8fb9b9760ba57343bba6dd8fce6884d2e9fc78aa6271886db85fd0f905338cba",
+            "rng": 3774194179,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 663,
+            "sha256": "8fb9b9760ba57343bba6dd8fce6884d2e9fc78aa6271886db85fd0f905338cba",
+            "rng": 3774194179,
+            "events": 88
+          },
+          "now": {
+            "ticks": 663,
+            "sha256": "8fb9b9760ba57343bba6dd8fce6884d2e9fc78aa6271886db85fd0f905338cba",
+            "rng": 3774194179,
+            "events": 88
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 663,
+            "sha256": "8fb9b9760ba57343bba6dd8fce6884d2e9fc78aa6271886db85fd0f905338cba",
+            "rng": 3774194179,
+            "events": 88
+          },
+          "now": {
+            "ticks": 663,
+            "sha256": "8fb9b9760ba57343bba6dd8fce6884d2e9fc78aa6271886db85fd0f905338cba",
+            "rng": 3774194179,
+            "events": 88
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "robber",
+        "talon",
+        "jaguar"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 322,
+            "sha256": "4649a6b624f45147798a4d95740ea621f9e309ec45ba3188bbf020c293b76421",
+            "rng": 565037805,
+            "events": 0
+          },
+          "now": {
+            "ticks": 322,
+            "sha256": "4649a6b624f45147798a4d95740ea621f9e309ec45ba3188bbf020c293b76421",
+            "rng": 565037805,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 322,
+            "sha256": "4649a6b624f45147798a4d95740ea621f9e309ec45ba3188bbf020c293b76421",
+            "rng": 565037805,
+            "events": 17
+          },
+          "now": {
+            "ticks": 322,
+            "sha256": "4649a6b624f45147798a4d95740ea621f9e309ec45ba3188bbf020c293b76421",
+            "rng": 565037805,
+            "events": 17
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 322,
+            "sha256": "4649a6b624f45147798a4d95740ea621f9e309ec45ba3188bbf020c293b76421",
+            "rng": 565037805,
+            "events": 17
+          },
+          "now": {
+            "ticks": 322,
+            "sha256": "4649a6b624f45147798a4d95740ea621f9e309ec45ba3188bbf020c293b76421",
+            "rng": 565037805,
+            "events": 17
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 1440,
+            "sha256": "c5fe19db394f1461e2d13102d6d0fd408c29802f1f1f43b35bed6b1c5073378d",
+            "rng": 2388364987,
+            "events": 0
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "c5fe19db394f1461e2d13102d6d0fd408c29802f1f1f43b35bed6b1c5073378d",
+            "rng": 2388364987,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 1440,
+            "sha256": "c5fe19db394f1461e2d13102d6d0fd408c29802f1f1f43b35bed6b1c5073378d",
+            "rng": 2388364987,
+            "events": 66
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "c5fe19db394f1461e2d13102d6d0fd408c29802f1f1f43b35bed6b1c5073378d",
+            "rng": 2388364987,
+            "events": 66
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 1440,
+            "sha256": "c5fe19db394f1461e2d13102d6d0fd408c29802f1f1f43b35bed6b1c5073378d",
+            "rng": 2388364987,
+            "events": 66
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "c5fe19db394f1461e2d13102d6d0fd408c29802f1f1f43b35bed6b1c5073378d",
+            "rng": 2388364987,
+            "events": 66
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "sato",
+        "akari",
+        "flint"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 1316,
+            "sha256": "64b476a837c57e26217434194db404f227f80a1b70c935a3ffdf821f57120b5d",
+            "rng": 3774194179,
+            "events": 0
+          },
+          "now": {
+            "ticks": 1316,
+            "sha256": "64b476a837c57e26217434194db404f227f80a1b70c935a3ffdf821f57120b5d",
+            "rng": 3774194179,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 1316,
+            "sha256": "64b476a837c57e26217434194db404f227f80a1b70c935a3ffdf821f57120b5d",
+            "rng": 3774194179,
+            "events": 97
+          },
+          "now": {
+            "ticks": 1316,
+            "sha256": "64b476a837c57e26217434194db404f227f80a1b70c935a3ffdf821f57120b5d",
+            "rng": 3774194179,
+            "events": 97
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 1316,
+            "sha256": "64b476a837c57e26217434194db404f227f80a1b70c935a3ffdf821f57120b5d",
+            "rng": 3774194179,
+            "events": 97
+          },
+          "now": {
+            "ticks": 1316,
+            "sha256": "64b476a837c57e26217434194db404f227f80a1b70c935a3ffdf821f57120b5d",
+            "rng": 3774194179,
+            "events": 97
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "robber",
+        "talon",
+        "jaguar"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 664,
+            "sha256": "91b40349dc90b0bdcf63208376da26c8aa8720674c6ebd755d944dbfaa3f9066",
+            "rng": 2798668711,
+            "events": 0
+          },
+          "now": {
+            "ticks": 664,
+            "sha256": "91b40349dc90b0bdcf63208376da26c8aa8720674c6ebd755d944dbfaa3f9066",
+            "rng": 2798668711,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 664,
+            "sha256": "91b40349dc90b0bdcf63208376da26c8aa8720674c6ebd755d944dbfaa3f9066",
+            "rng": 2798668711,
+            "events": 19
+          },
+          "now": {
+            "ticks": 664,
+            "sha256": "91b40349dc90b0bdcf63208376da26c8aa8720674c6ebd755d944dbfaa3f9066",
+            "rng": 2798668711,
+            "events": 19
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 664,
+            "sha256": "91b40349dc90b0bdcf63208376da26c8aa8720674c6ebd755d944dbfaa3f9066",
+            "rng": 2798668711,
+            "events": 19
+          },
+          "now": {
+            "ticks": 664,
+            "sha256": "91b40349dc90b0bdcf63208376da26c8aa8720674c6ebd755d944dbfaa3f9066",
+            "rng": 2798668711,
+            "events": 19
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 360,
+            "sha256": "96447120ce6035d68120cac610c8f518e7f1ca8ba559f5dfc8c77120d3cee749",
+            "rng": 2388364987,
+            "events": 0
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "96447120ce6035d68120cac610c8f518e7f1ca8ba559f5dfc8c77120d3cee749",
+            "rng": 2388364987,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 360,
+            "sha256": "96447120ce6035d68120cac610c8f518e7f1ca8ba559f5dfc8c77120d3cee749",
+            "rng": 2388364987,
+            "events": 63
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "96447120ce6035d68120cac610c8f518e7f1ca8ba559f5dfc8c77120d3cee749",
+            "rng": 2388364987,
+            "events": 63
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 360,
+            "sha256": "96447120ce6035d68120cac610c8f518e7f1ca8ba559f5dfc8c77120d3cee749",
+            "rng": 2388364987,
+            "events": 63
+          },
+          "now": {
+            "ticks": 360,
+            "sha256": "96447120ce6035d68120cac610c8f518e7f1ca8ba559f5dfc8c77120d3cee749",
+            "rng": 2388364987,
+            "events": 63
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "sato",
+        "akari",
+        "flint"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 350,
+            "sha256": "6c0b0dedf398021735df4f8ec1fff012d99872bc578926e0deed273f7049d83d",
+            "rng": 2566086824,
+            "events": 0
+          },
+          "now": {
+            "ticks": 350,
+            "sha256": "6c0b0dedf398021735df4f8ec1fff012d99872bc578926e0deed273f7049d83d",
+            "rng": 2566086824,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 350,
+            "sha256": "6c0b0dedf398021735df4f8ec1fff012d99872bc578926e0deed273f7049d83d",
+            "rng": 2566086824,
+            "events": 101
+          },
+          "now": {
+            "ticks": 350,
+            "sha256": "6c0b0dedf398021735df4f8ec1fff012d99872bc578926e0deed273f7049d83d",
+            "rng": 2566086824,
+            "events": 101
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 350,
+            "sha256": "6c0b0dedf398021735df4f8ec1fff012d99872bc578926e0deed273f7049d83d",
+            "rng": 2566086824,
+            "events": 101
+          },
+          "now": {
+            "ticks": 350,
+            "sha256": "6c0b0dedf398021735df4f8ec1fff012d99872bc578926e0deed273f7049d83d",
+            "rng": 2566086824,
+            "events": 101
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "robber",
+        "talon",
+        "jaguar"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 172,
+            "sha256": "e97d942cbb14365f1b063337e7ba9f7c44f8aae077dc14cdcb0402a8fb184f2a",
+            "rng": 1304020419,
+            "events": 0
+          },
+          "now": {
+            "ticks": 172,
+            "sha256": "e97d942cbb14365f1b063337e7ba9f7c44f8aae077dc14cdcb0402a8fb184f2a",
+            "rng": 1304020419,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 172,
+            "sha256": "e97d942cbb14365f1b063337e7ba9f7c44f8aae077dc14cdcb0402a8fb184f2a",
+            "rng": 1304020419,
+            "events": 17
+          },
+          "now": {
+            "ticks": 172,
+            "sha256": "e97d942cbb14365f1b063337e7ba9f7c44f8aae077dc14cdcb0402a8fb184f2a",
+            "rng": 1304020419,
+            "events": 17
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 172,
+            "sha256": "e97d942cbb14365f1b063337e7ba9f7c44f8aae077dc14cdcb0402a8fb184f2a",
+            "rng": 1304020419,
+            "events": 17
+          },
+          "now": {
+            "ticks": 172,
+            "sha256": "e97d942cbb14365f1b063337e7ba9f7c44f8aae077dc14cdcb0402a8fb184f2a",
+            "rng": 1304020419,
+            "events": 17
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 720,
+            "sha256": "3ae8f6f12fc47bbe7f078633ea9ee0e73f8b37e0c514b816493fa3a7bec86786",
+            "rng": 4032812439,
+            "events": 0
+          },
+          "now": {
+            "ticks": 720,
+            "sha256": "3ae8f6f12fc47bbe7f078633ea9ee0e73f8b37e0c514b816493fa3a7bec86786",
+            "rng": 4032812439,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 720,
+            "sha256": "3ae8f6f12fc47bbe7f078633ea9ee0e73f8b37e0c514b816493fa3a7bec86786",
+            "rng": 4032812439,
+            "events": 58
+          },
+          "now": {
+            "ticks": 720,
+            "sha256": "3ae8f6f12fc47bbe7f078633ea9ee0e73f8b37e0c514b816493fa3a7bec86786",
+            "rng": 4032812439,
+            "events": 58
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 720,
+            "sha256": "3ae8f6f12fc47bbe7f078633ea9ee0e73f8b37e0c514b816493fa3a7bec86786",
+            "rng": 4032812439,
+            "events": 58
+          },
+          "now": {
+            "ticks": 720,
+            "sha256": "3ae8f6f12fc47bbe7f078633ea9ee0e73f8b37e0c514b816493fa3a7bec86786",
+            "rng": 4032812439,
+            "events": 58
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "sato",
+        "akari",
+        "flint"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 690,
+            "sha256": "9a0557d20aaba82abf7b06263c4ba6778cad4ee564e5ba0461e3befc552edd68",
+            "rng": 2566086824,
+            "events": 0
+          },
+          "now": {
+            "ticks": 690,
+            "sha256": "9a0557d20aaba82abf7b06263c4ba6778cad4ee564e5ba0461e3befc552edd68",
+            "rng": 2566086824,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 690,
+            "sha256": "9a0557d20aaba82abf7b06263c4ba6778cad4ee564e5ba0461e3befc552edd68",
+            "rng": 2566086824,
+            "events": 113
+          },
+          "now": {
+            "ticks": 690,
+            "sha256": "9a0557d20aaba82abf7b06263c4ba6778cad4ee564e5ba0461e3befc552edd68",
+            "rng": 2566086824,
+            "events": 113
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 690,
+            "sha256": "9a0557d20aaba82abf7b06263c4ba6778cad4ee564e5ba0461e3befc552edd68",
+            "rng": 2566086824,
+            "events": 113
+          },
+          "now": {
+            "ticks": 690,
+            "sha256": "9a0557d20aaba82abf7b06263c4ba6778cad4ee564e5ba0461e3befc552edd68",
+            "rng": 2566086824,
+            "events": 113
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "robber",
+        "talon",
+        "jaguar"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 322,
+            "sha256": "32281012f77a57de97dd7196fcc64a45280d8db0a0472090250b9e437d7d3af2",
+            "rng": 565037805,
+            "events": 0
+          },
+          "now": {
+            "ticks": 322,
+            "sha256": "32281012f77a57de97dd7196fcc64a45280d8db0a0472090250b9e437d7d3af2",
+            "rng": 565037805,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 322,
+            "sha256": "32281012f77a57de97dd7196fcc64a45280d8db0a0472090250b9e437d7d3af2",
+            "rng": 565037805,
+            "events": 17
+          },
+          "now": {
+            "ticks": 322,
+            "sha256": "32281012f77a57de97dd7196fcc64a45280d8db0a0472090250b9e437d7d3af2",
+            "rng": 565037805,
+            "events": 17
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 322,
+            "sha256": "32281012f77a57de97dd7196fcc64a45280d8db0a0472090250b9e437d7d3af2",
+            "rng": 565037805,
+            "events": 17
+          },
+          "now": {
+            "ticks": 322,
+            "sha256": "32281012f77a57de97dd7196fcc64a45280d8db0a0472090250b9e437d7d3af2",
+            "rng": 565037805,
+            "events": 17
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 1440,
+            "sha256": "3d61adc2f14d28c4d5e999aec1094c95cac786fb7256ea93a6f6e608d204e860",
+            "rng": 2566598092,
+            "events": 0
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "3d61adc2f14d28c4d5e999aec1094c95cac786fb7256ea93a6f6e608d204e860",
+            "rng": 2566598092,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 1440,
+            "sha256": "3d61adc2f14d28c4d5e999aec1094c95cac786fb7256ea93a6f6e608d204e860",
+            "rng": 2566598092,
+            "events": 61
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "3d61adc2f14d28c4d5e999aec1094c95cac786fb7256ea93a6f6e608d204e860",
+            "rng": 2566598092,
+            "events": 61
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 1440,
+            "sha256": "3d61adc2f14d28c4d5e999aec1094c95cac786fb7256ea93a6f6e608d204e860",
+            "rng": 2566598092,
+            "events": 61
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "3d61adc2f14d28c4d5e999aec1094c95cac786fb7256ea93a6f6e608d204e860",
+            "rng": 2566598092,
+            "events": 61
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "sato",
+        "akari",
+        "flint"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 1440,
+            "sha256": "eb7b18296451c9294f89a901aacd21d7c08c9eacf9ca2b2e8116099aba9608b9",
+            "rng": 3310956845,
+            "events": 0
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "eb7b18296451c9294f89a901aacd21d7c08c9eacf9ca2b2e8116099aba9608b9",
+            "rng": 3310956845,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 1440,
+            "sha256": "eb7b18296451c9294f89a901aacd21d7c08c9eacf9ca2b2e8116099aba9608b9",
+            "rng": 3310956845,
+            "events": 150
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "eb7b18296451c9294f89a901aacd21d7c08c9eacf9ca2b2e8116099aba9608b9",
+            "rng": 3310956845,
+            "events": 150
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 1440,
+            "sha256": "eb7b18296451c9294f89a901aacd21d7c08c9eacf9ca2b2e8116099aba9608b9",
+            "rng": 3310956845,
+            "events": 150
+          },
+          "now": {
+            "ticks": 1440,
+            "sha256": "eb7b18296451c9294f89a901aacd21d7c08c9eacf9ca2b2e8116099aba9608b9",
+            "rng": 3310956845,
+            "events": 150
+          }
+        }
+      ],
+      "result": "identical"
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "robber",
+        "talon",
+        "jaguar"
+      ],
+      "pairs": [
+        {
+          "mode": "disabled",
+          "old": {
+            "ticks": 664,
+            "sha256": "d424c58eb1471c4a2aa01173a9d2a05413cda2c41de525ebd8600ba691ca73f5",
+            "rng": 2798668711,
+            "events": 0
+          },
+          "now": {
+            "ticks": 664,
+            "sha256": "d424c58eb1471c4a2aa01173a9d2a05413cda2c41de525ebd8600ba691ca73f5",
+            "rng": 2798668711,
+            "events": 0
+          }
+        },
+        {
+          "mode": "enabled",
+          "old": {
+            "ticks": 664,
+            "sha256": "d424c58eb1471c4a2aa01173a9d2a05413cda2c41de525ebd8600ba691ca73f5",
+            "rng": 2798668711,
+            "events": 19
+          },
+          "now": {
+            "ticks": 664,
+            "sha256": "d424c58eb1471c4a2aa01173a9d2a05413cda2c41de525ebd8600ba691ca73f5",
+            "rng": 2798668711,
+            "events": 19
+          }
+        },
+        {
+          "mode": "frequent reads",
+          "old": {
+            "ticks": 664,
+            "sha256": "d424c58eb1471c4a2aa01173a9d2a05413cda2c41de525ebd8600ba691ca73f5",
+            "rng": 2798668711,
+            "events": 19
+          },
+          "now": {
+            "ticks": 664,
+            "sha256": "d424c58eb1471c4a2aa01173a9d2a05413cda2c41de525ebd8600ba691ca73f5",
+            "rng": 2798668711,
+            "events": 19
+          }
+        }
+      ],
+      "result": "identical"
+    }
+  ]
+}

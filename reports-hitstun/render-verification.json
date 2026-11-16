@@ -1,0 +1,1207 @@
+{
+  "baselineCommit": "3ee2b86e37f581bb0087d108293fb2cc6eadc586",
+  "scope": "Real native hero contact and Chromium game rendering; current production sprite renderer also captures isolated native bodies for exact same-frame pixel comparison. AI disabled for repeatability; eight enemy families; not all moves/campaign/hardware.",
+  "passed": true,
+  "evidence": [
+    {
+      "version": "baseline",
+      "rows": [
+        {
+          "type": "thug",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/sprites/marcus-reactions289.webp",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/marcus289-view.js?v=289:4:327)",
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:100)"
+                ]
+              }
+            ],
+            "bodySha256": "d313fc928d43a27e562a6c2e1b600ea97b386909579527ba2ce6983992fd0361"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:259x305",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "afa6d16352a8ca46cb00b06d1c0799e603826a56c79c83d15e74f0bb6facf7aa"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:247x342",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "4b791423af6c364c4cefb61f76173305405ed4db8468bd2cf5d10c9c422d22e7"
+          }
+        },
+        {
+          "type": "knifeThug",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/enemies312/kevin-reactions.webp",
+                "writer": [
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view312.js?v=313:4:249)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:540)"
+                ]
+              }
+            ],
+            "bodySha256": "6525b02402e6ffb328e4c47cd0f85ab82ebbdcfe442c6a3630763e949e48c923"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:216x301",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawNewEnemy (http://127.0.0.1:57436/sprites.js?v=337:276:990)"
+                ]
+              }
+            ],
+            "bodySha256": "628ee3bfbd882fe6df52eccb1c52ecb9d395b98f471e35f12e87130f50f29434"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:216x301",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawNewEnemy (http://127.0.0.1:57436/sprites.js?v=337:276:990)"
+                ]
+              }
+            ],
+            "bodySha256": "cf265988fd9fc2c321e0763f43f2d2a6f0bdbdf264cb1a3505caa1ef8f9e50bd"
+          }
+        },
+        {
+          "type": "enforcer",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 108,
+            "maxHp": 115,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/enemies312/bruno-reactions.webp",
+                "writer": [
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view312.js?v=313:4:249)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:540)"
+                ]
+              }
+            ],
+            "bodySha256": "8cf1ffcec62c17e3796729ce302cf55a3414185ad67b4f65f2141e593cb349a5"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 108,
+            "maxHp": 115,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:230x266",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "5ed101538eef083be2ecd3942c4d63ccb39b78333f4d89a4daafb1682589b6b1"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 108,
+            "maxHp": 115,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:222x335",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "41f7124ae035f883c073ccffb27813a0916bcb93a74c81ec8de51f9f58d4af70"
+          }
+        },
+        {
+          "type": "biker",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 66,
+            "maxHp": 73,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:113x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "dbed08d92edd3cc680c97ba998090ffae48e1513f3a65cc89883287086976ed3"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 66,
+            "maxHp": 73,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:259x438",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "a9d8f2ce1acbde9bb328681fbd026cc1943bcc2b280a23740accfc58e4118a63"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 66,
+            "maxHp": 73,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:259x438",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "40e939d7bea5b63114a86241755ccdf7fb95ed30cd1ae760f9578ee11921a4ef"
+          }
+        },
+        {
+          "type": "cop",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 58,
+            "maxHp": 65,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:108x144",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "2c326b82124002c0a32b4cc28da4d8c2ced572f7b36b2ae05ef3a245b43300de"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 58,
+            "maxHp": 65,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:203x347",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawCarmen (http://127.0.0.1:57436/sprites.js?v=337:237:956)"
+                ]
+              }
+            ],
+            "bodySha256": "48ee9c1351c5de5b4b053a1c40049241644d7ba12af67a0b6945915e03f0b082"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 58,
+            "maxHp": 65,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:203x347",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawCarmen (http://127.0.0.1:57436/sprites.js?v=337:237:956)"
+                ]
+              }
+            ],
+            "bodySha256": "48ee9c1351c5de5b4b053a1c40049241644d7ba12af67a0b6945915e03f0b082"
+          }
+        },
+        {
+          "type": "flint",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 88,
+            "maxHp": 95,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:420x360",
+                "writer": [
+                  "    at groundFlint (http://127.0.0.1:57436/enemy-view313.js?v=330:8:1251)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:500)"
+                ]
+              }
+            ],
+            "bodySha256": "e4017c84be6a07b57cf69958facf270276b0a75f8922773772befa2f969560a9"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 88,
+            "maxHp": 95,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:420x360",
+                "writer": [
+                  "    at groundFlint (http://127.0.0.1:57436/enemy-view313.js?v=330:8:1251)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:500)"
+                ]
+              }
+            ],
+            "bodySha256": "81cf247479bbb59053df5dadff702f406c4f7d36cf1fc06f3bd951954f7bb7cc"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 88,
+            "maxHp": 95,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:420x360",
+                "writer": [
+                  "    at groundFlint (http://127.0.0.1:57436/enemy-view313.js?v=330:8:1251)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:500)"
+                ]
+              }
+            ],
+            "bodySha256": "d1a92e9ecfbf08e49fb0fc75b2d7b264bba7533fe1c7cd3665ddd9f48273f0fc"
+          }
+        },
+        {
+          "type": "sato",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 83,
+            "maxHp": 90,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:140x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "400d74ed7afa372b323e42a1c6c8f3bb6dcddcfa03d060f13716158ef7d93133"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 83,
+            "maxHp": 90,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:186x275",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawExtra43 (http://127.0.0.1:57436/sprites.js?v=337:285:53)"
+                ]
+              }
+            ],
+            "bodySha256": "8312625ac018c0aef5f46531a41937b4cf781c3e152dab0a93685deebb4d4a28"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 83,
+            "maxHp": 90,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:251x310",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawExtra43 (http://127.0.0.1:57436/sprites.js?v=337:285:53)"
+                ]
+              }
+            ],
+            "bodySha256": "0023acbc4816818d075545924ee7d14e6316b19876b139799ee319d957fa12e7"
+          }
+        },
+        {
+          "type": "akari",
+          "denied": false,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 65,
+            "maxHp": 72,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:138x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "6078d370ce8387fe3149a8cdfbab4b26b869a1469ff610e2c8748df70c136f9a"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 65,
+            "maxHp": 72,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:201x254",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawExtra43 (http://127.0.0.1:57436/sprites.js?v=337:285:53)"
+                ]
+              }
+            ],
+            "bodySha256": "0b0a378edfa9febe10ae070acfbd70c83198f34a7eb5c850b43f83868dfdce52"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 65,
+            "maxHp": 72,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:273x334",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawExtra43 (http://127.0.0.1:57436/sprites.js?v=337:285:53)"
+                ]
+              }
+            ],
+            "bodySha256": "e085b808319afd0ae21afd836e82ceaeee1cf7dece43d5cb254062918d74b52f"
+          }
+        }
+      ],
+      "errors": [],
+      "failed": [
+        {
+          "status": 404,
+          "path": "/assets/thug-leader-concept-v1.png"
+        },
+        {
+          "status": 404,
+          "path": "/assets/enforcer-concept-v1.png"
+        }
+      ]
+    },
+    {
+      "version": "fixed",
+      "rows": [
+        {
+          "type": "thug",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/sprites/marcus-reactions289.webp",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/marcus289-view.js?v=289:4:327)",
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:100)"
+                ]
+              }
+            ],
+            "bodySha256": "d313fc928d43a27e562a6c2e1b600ea97b386909579527ba2ce6983992fd0361"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/sprites/marcus-reactions289.webp",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/marcus289-view.js?v=289:4:327)",
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:100)"
+                ]
+              }
+            ],
+            "bodySha256": "d313fc928d43a27e562a6c2e1b600ea97b386909579527ba2ce6983992fd0361"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:247x342",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "4b791423af6c364c4cefb61f76173305405ed4db8468bd2cf5d10c9c422d22e7"
+          }
+        },
+        {
+          "type": "knifeThug",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/enemies312/kevin-reactions.webp",
+                "writer": [
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view312.js?v=313:4:249)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:540)"
+                ]
+              }
+            ],
+            "bodySha256": "6525b02402e6ffb328e4c47cd0f85ab82ebbdcfe442c6a3630763e949e48c923"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/enemies312/kevin-reactions.webp",
+                "writer": [
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view312.js?v=313:4:249)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:540)"
+                ]
+              }
+            ],
+            "bodySha256": "6525b02402e6ffb328e4c47cd0f85ab82ebbdcfe442c6a3630763e949e48c923"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 53,
+            "maxHp": 60,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:216x301",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawNewEnemy (http://127.0.0.1:57436/sprites.js?v=337:276:990)"
+                ]
+              }
+            ],
+            "bodySha256": "cf265988fd9fc2c321e0763f43f2d2a6f0bdbdf264cb1a3505caa1ef8f9e50bd"
+          }
+        },
+        {
+          "type": "enforcer",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 108,
+            "maxHp": 115,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/enemies312/bruno-reactions.webp",
+                "writer": [
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view312.js?v=313:4:249)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:540)"
+                ]
+              }
+            ],
+            "bodySha256": "8cf1ffcec62c17e3796729ce302cf55a3414185ad67b4f65f2141e593cb349a5"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 108,
+            "maxHp": 115,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "/assets/enemies312/bruno-reactions.webp",
+                "writer": [
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view312.js?v=313:4:249)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:540)"
+                ]
+              }
+            ],
+            "bodySha256": "8cf1ffcec62c17e3796729ce302cf55a3414185ad67b4f65f2141e593cb349a5"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 108,
+            "maxHp": 115,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:222x335",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "41f7124ae035f883c073ccffb27813a0916bcb93a74c81ec8de51f9f58d4af70"
+          }
+        },
+        {
+          "type": "biker",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 66,
+            "maxHp": 73,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:113x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "dbed08d92edd3cc680c97ba998090ffae48e1513f3a65cc89883287086976ed3"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 66,
+            "maxHp": 73,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:113x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "dbed08d92edd3cc680c97ba998090ffae48e1513f3a65cc89883287086976ed3"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 66,
+            "maxHp": 73,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:259x438",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawSprite48 (http://127.0.0.1:57436/sprites.js?v=337:329:227)"
+                ]
+              }
+            ],
+            "bodySha256": "40e939d7bea5b63114a86241755ccdf7fb95ed30cd1ae760f9578ee11921a4ef"
+          }
+        },
+        {
+          "type": "cop",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 58,
+            "maxHp": 65,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:108x144",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "2c326b82124002c0a32b4cc28da4d8c2ced572f7b36b2ae05ef3a245b43300de"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 58,
+            "maxHp": 65,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:108x144",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "2c326b82124002c0a32b4cc28da4d8c2ced572f7b36b2ae05ef3a245b43300de"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 58,
+            "maxHp": 65,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:203x347",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawCarmen (http://127.0.0.1:57436/sprites.js?v=337:237:956)"
+                ]
+              }
+            ],
+            "bodySha256": "48ee9c1351c5de5b4b053a1c40049241644d7ba12af67a0b6945915e03f0b082"
+          }
+        },
+        {
+          "type": "flint",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 88,
+            "maxHp": 95,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:420x360",
+                "writer": [
+                  "    at groundFlint (http://127.0.0.1:57436/enemy-view313.js?v=330:8:1251)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:500)"
+                ]
+              }
+            ],
+            "bodySha256": "e4017c84be6a07b57cf69958facf270276b0a75f8922773772befa2f969560a9"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 88,
+            "maxHp": 95,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:420x360",
+                "writer": [
+                  "    at groundFlint (http://127.0.0.1:57436/enemy-view313.js?v=330:8:1251)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:500)"
+                ]
+              }
+            ],
+            "bodySha256": "e4017c84be6a07b57cf69958facf270276b0a75f8922773772befa2f969560a9"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 88,
+            "maxHp": 95,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:420x360",
+                "writer": [
+                  "    at groundFlint (http://127.0.0.1:57436/enemy-view313.js?v=330:8:1251)",
+                  "    at S.draw (http://127.0.0.1:57436/enemy-view313.js?v=330:9:500)"
+                ]
+              }
+            ],
+            "bodySha256": "d1a92e9ecfbf08e49fb0fc75b2d7b264bba7533fe1c7cd3665ddd9f48273f0fc"
+          }
+        },
+        {
+          "type": "sato",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 83,
+            "maxHp": 90,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:140x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "400d74ed7afa372b323e42a1c6c8f3bb6dcddcfa03d060f13716158ef7d93133"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 83,
+            "maxHp": 90,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:140x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "400d74ed7afa372b323e42a1c6c8f3bb6dcddcfa03d060f13716158ef7d93133"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 83,
+            "maxHp": 90,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:251x310",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawExtra43 (http://127.0.0.1:57436/sprites.js?v=337:285:53)"
+                ]
+              }
+            ],
+            "bodySha256": "0023acbc4816818d075545924ee7d14e6316b19876b139799ee319d957fa12e7"
+          }
+        },
+        {
+          "type": "akari",
+          "denied": true,
+          "before": {
+            "label": "before-idle",
+            "time": 0.3333333333333333,
+            "hp": 65,
+            "maxHp": 72,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:138x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "6078d370ce8387fe3149a8cdfbab4b26b869a1469ff610e2c8748df70c136f9a"
+          },
+          "after": {
+            "label": "after-idle",
+            "time": 0.3333333333333333,
+            "hp": 65,
+            "maxHp": 72,
+            "stun": 0.36666666666666664,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": null,
+            "classifier": {
+              "phase": "medium",
+              "u": 0.303030303030303,
+              "dir": -1
+            },
+            "drawCalls": [
+              {
+                "source": "canvas:138x148",
+                "writer": [
+                  "    at draw (http://127.0.0.1:57436/enemy-reactions290.js?v=306:26:383)",
+                  "    at S.draw (http://127.0.0.1:57436/continuity-view296.js?v=313:9:472)"
+                ]
+              }
+            ],
+            "bodySha256": "6078d370ce8387fe3149a8cdfbab4b26b869a1469ff610e2c8748df70c136f9a"
+          },
+          "released": {
+            "label": "after-stun",
+            "time": 0.7166666666666672,
+            "hp": 65,
+            "maxHp": 72,
+            "stun": 0,
+            "shock": 0,
+            "reassessmentDeadline": 0.85,
+            "action": "idle",
+            "classifier": null,
+            "drawCalls": [
+              {
+                "source": "canvas:273x334",
+                "writer": [
+                  "    at drawFrame (http://127.0.0.1:57436/sprites.js?v=337:232:139)",
+                  "    at drawExtra43 (http://127.0.0.1:57436/sprites.js?v=337:285:53)"
+                ]
+              }
+            ],
+            "bodySha256": "e085b808319afd0ae21afd836e82ceaeee1cf7dece43d5cb254062918d74b52f"
+          }
+        }
+      ],
+      "errors": [],
+      "failed": [
+        {
+          "status": 404,
+          "path": "/assets/enforcer-concept-v1.png"
+        },
+        {
+          "status": 404,
+          "path": "/assets/thug-leader-concept-v1.png"
+        }
+      ]
+    }
+  ]
+}

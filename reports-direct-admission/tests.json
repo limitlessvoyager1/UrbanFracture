@@ -1,0 +1,509 @@
+{
+  "date": "2026-11-12",
+  "branch": "fix/direct-start-director-admission",
+  "productionBaseline": "a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0",
+  "auditCommit": "11d1ac1f2d4a184b4f4a886ea49fcbf23942bb28",
+  "final": {
+    "passedSuites": 42,
+    "failedSuites": 2,
+    "regressionChecks": 517,
+    "actionabilityChecks": 6813,
+    "parityCases": 66,
+    "paritySnapshots": 32185,
+    "renderedExceptionBodyPairs": 12
+  },
+  "runs": [
+    {
+      "suite": "direct-start-director-admission",
+      "exit": 0,
+      "output": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n"
+    },
+    {
+      "suite": "director148",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\n"
+    },
+    {
+      "suite": "director148-stress",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\nPASS148 240 seeded solo/mixed hero/route/style fixtures: <=3 pressure, <=2 commitments, finite coordinates, integer score\n"
+    },
+    {
+      "suite": "combat274",
+      "exit": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "enemies210",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\n"
+    },
+    {
+      "suite": "martial212",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits\nPASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{\"type\":\"sato\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":6},{\"type\":\"sato\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"orion\",\"pressure\":1,\"actors\":1,\"attacks\":7},{\"type\":\"akari\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":13},{\"type\":\"akari\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":10},{\"type\":\"akari\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":5},{\"type\":\"akari\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":9}]\nPASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches\n"
+    },
+    {
+      "suite": "flint211",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS211 four weapon profiles, exact phase values at30/60/120Hz, distinct measured reach, mirrored rear damage/single swing ownership,120deg damage-taking frontal armor, side/rear interrupts, vulnerable noncancelable recovery without stacked timers\nPASS211 physical misses, six-hero weaponless fallback, counter eligibility and dodge/lane regression, seeded mixed AI wild/power choices with3-point/two-commitment admission\nPASS211 Director reposition cannot bypass mandatory recovery; recovery punishment does not restart the full timer; rear swing threats are included in shared coordination\nPASS21124 live mirrored Reina/Forest/Niko weapon counter interceptions through the existing controllers\nPASS211 all four actual weapon paths can be intercepted by a physically aligned Human Shield without duplicated player damage\nPASS211 armed Flint completes left, lift and bottom reinforcements before weapon AI takes over\n"
+    },
+    {
+      "suite": "jesse213",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS213 single native hitscan/event/ammo at30/60/120Hz; all six heroes block/startup vulnerability, apex/dodge/lane/cover avoidance; real Reina/Niko/Broxton/Forest knife disarms; permanent loss through reload/down/roll/rearm; no melee fallback; finite physical retreat/corner vulnerability; locked vulnerable reload; one firearm commitment\nPASS213 six rounds force native reload, committed aim cannot home, HP-based roll15/25/40%, four30s mixed gunfire fixtures /3point2attacker ceiling, all six actual hero dodges\n"
+    },
+    {
+      "suite": "pcbi316-gates",
+      "exit": 0,
+      "output": "PASS316 PCBI GATES1/2 55\nPASS316 ACTUAL PHASES / DISARM 67\n"
+    },
+    {
+      "suite": "counters248",
+      "exit": 0,
+      "output": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n"
+    },
+    {
+      "suite": "grab223-all",
+      "exit": 1,
+      "output": "Warning: truncated output (original token count: 698)\nTotal output lines: 18\n\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×regular/heavy classification and inclusive40% HP threshold; regular initial grabs never roll, valid high-HP commitments roll once\nPASS223 exact25% boundary at30/60/120Hz, six heroes, inescapable confirmed retaliation, single contact events, shared119 cleanup\nPASS223 nondamaging contested timeout, Iron Will bypass and paid dash contact/contested decision\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×four regular/heavy types ×30/60/120Hz, true throw impact/get-up, exact.8/1.2 post-standing protection, damage through protection, no hit refresh and reliable expiry\nPASS223 ordinary-KD source distinction, per-target8s repetition memory, visible third/fourth positioning with no hidden immunity, finite expiry/death cleanup\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×Carmen/Saito/Akari/Dorian ×30/60/1…48 tokens truncated… attack spam cannot freeze wake behavior, and no unauthorized rolls/kips/wake attacks\nPASS223 one confirmed retaliation owner, no unavoidable third-party stacking, committed actions preserved, shared Director reservations restored/cleaned\nPASS223 existing authorized wake attacks retain visible startup and damaging contact once the response safeguard is satisfied\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 A/B baseline versus current: all six heroes ×four directional throws retain identical action selection and full damage; synchronized sessions end\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 Aidan variants regular, explicit Dirk/pool/class overrides, exact100/400 successful rolls, dev-only outcome forcing/reset, authorized kip completes before protection starts\nPASS223 reversal interruption/death/removal/reset cleanup and mandatory recovery delays physical retaliation/contact\nPASS223 six dedicated counter-origin holds preserve their existing gates and never inherit ordinary high-HP risk or anti-regrab rolls\nWarning: truncated output (original token count: 1419)\nTotal output lines: 60\n\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS222 story/section/difficulty/performance filtering, transient relief, complexity, one-heavy/one-control limits and boss/mini-boss exclusion\nPASS222 future configuration uses shared native spawning and identity-deduplicated transfer; no competing encounter controller\nPASS222 global offscreen admission, missing living actor tracking, landing gate, exactly-once completion and GO rendering restrictions\nPASS222 injury-safe physical return and Gus/Security/Aidan mandatory recovery/state preservation\nPASS222 same-object restoration after legacy culling and bounded detour around persistent solid wrecks\nPASS222 six-hero Tavern pair110HP/standard protections, first-Aidan defeat cannot clear, all support waves required, one scripted lock and native level clear\nPASS222 Colt-only route, protected native introduction, script…919 tokens truncated… delayed Reina art never exposes placeholder, dry/wet paths and loaded artwork preserved\nnode:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\n1 !== 0\r\n\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\controller144.cjs:7:532)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at [eval]:1:489\r\n    at runScriptInThisContext (node:internal/vm:209:10)\r\n    at node:internal/process/execution:446:12\r\n    at [eval]-wrapper:6:24\r\n    at runScriptInContext (node:internal/process/execution:444:60)\r\n    at evalFunction (node:internal/process/execution:279:30)\r\n    at evalTypeScript (node:internal/process/execution:291:3)\r\n    at node:internal/main/eval_string:74:3 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 1,\r\n  expected: 0,\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "grab198",
+      "exit": 0,
+      "output": "PASS198 all5heroes ×7 strong/boss types: animated attempts, inclusive40% threshold and provisional highHP holds\nPASS198 exact one-in-four decision,5heroes×2facings×30/60/120Hz; reversal damage/cleanup and combat-plane invariants\nPASS198 all heroes retain ordinary lowHP grab attacks without risk roll\nPASS198 legal holds expire without a quick move; resisted holds expire sooner\nPASS198 every hero transitions visibly before one probabilistic escape; Broxton tactical reposition remains vulnerable\nPASS198 active Iron Will alone bypasses strong HP/wake/down/regrab/breakout rules; duration continues through grabs\nPASS198 Iron Will expiration immediately restores rules; dormant story actors cannot be stolen from staging\nPASS198 three native synchronized reversal patterns: cannot block/counter/dodge/jump/special/escape-mash; intended damage events once\nPASS198 reversal owner interruption/death/scene/victim death cleanup, no floating victim or stuck session\nPASS198 paid manual counters retain existing health/timing categories and do not enter ordinary grab lottery\nPASS198 all5 grab specials use one risk decision; success preserves original cost, reversal does not charge an unexecuted special\nPASS198 standard-enemy grabs remain unchanged; mirrored reversals keep both upper/lower combat lanes\nPASS198 Iron Will remains damage reduction, not invulnerability; resets clear reversal ownership/session\nPASS198 trucker stagger identity preserved outside Iron Will; armor bypasses aerial/regrab gates; transition cycling cannot reset escape deadline\nPASS198 actual paid forward-special dash capture respects the same lottery, with guaranteed Iron Will bypass\nPASS198 preserves Dirk’s undefended design and the enraged casino survivor’s removed defenses\n"
+    },
+    {
+      "suite": "security216",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS216 basic native timelines and all move contacts at30/60/120Hz\nPASS216 committed follow-up, finite timelines, missed-opener47f, no stacked cooldown; selective damage-taking armor; six heroes×two grabs×two facings separate contacts/actual flight/continuous plane/recovery; inv/armor/miss capture gates; no inherited guard counter; offscreen return/native entry; native Director budget and nonoffensive guard\nPASS216 12 real manual-counter interactions (Orion reserved), six dodge regressions, Iron Will damage/KD, one-living Security queue/130HP/Otis exclusion; six seeded35s mixed encounters [{\"hero\":\"reina\",\"starts\":12,\"budget\":2,\"actors\":1},{\"hero\":\"broxton\",\"starts\":15,\"budget\":2,\"actors\":1},{\"hero\":\"nova\",\"starts\":18,\"budget\":2,\"actors\":1},{\"hero\":\"forest\",\"starts\":20,\"budget\":2,\"actors\":1},{\"hero\":\"niko\",\"starts\":14,\"budget\":2,\"actors\":1},{\"hero\":\"orion\",\"starts\":14,\"budget\":2,\"actors\":1}]\nPASS216 live capture reservation transfer, death cleanup, frontal-only guard, exact last-active reservation end\nPASS216 recovery deadline survives interruption; no hit-assisted early AI reset\nPASS216 public spawn limit and actual two-second anti-air cooldown\n"
+    },
+    {
+      "suite": "gus219",
+      "exit": 1,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS219 all standing contacts and native timelines at30/60/120Hz\nPASS219 separate jab/bash, evasion, missed moves and recovery survives hit/state changes\nWarning: truncated output (original token count: 1067)\nTotal output lines: 159\n\nPASS219 six heroes×both facings×30/60/120Hz aerial synchronization, actual contacts/impact/recovery; lane/range/immunity/neutral-bait/interruption exclusions\nPASS219 stomp eligibility, synchronized protection, no KD extension, finite cooldown\nPASS219 single exact25% roll, delayed25% healing, hit/death/grab interruption, one persistent collectible and no retry\nnode:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: no new Orion counter\r\n+ actual - expected\r\n\r\n+ null\r\n- {\r\n-   actionInstance169: 133,\r\n-   active219: [\r\n-     0.08333333333333333\r\n-   ],\r\n-   active: 0.08333333333333333,\r\n-   aimX: 500,\r\n-   aimY: 480,\r\n-   antiAir: false,\r\n-   armorProfile143: {\r\n-     class: 'designated strong windows',\r\n-     source: 'existing armor classifier'\r\n-   },\r\n-   attempts219: Set(0) {},\r\n-   category219: 'weaponString',\r\n-   commitment147: true,\r\n-   contacts219: Set(0) {},\r\n-   counterable: true,\r\n-   damage: 18,\r\n-   damages219: [\r\n-     18\r\n-   ],\r\n-   def219: {\r\n-     active: [\r\n-       5\r\n-     ],\r\n-     category: 'weaponString',\r\n-     damage: [\r\n-       18\r\n-     ],\r\n-     name: 'crowbarQuick219',\r\n-     reach: 150,\r\n-     recovery: 30,\r\n-     times: [\r\n-       17\r\n-     ],\r\n-     weapon: true\r\n-   },\r\n-   dir219: 1,\r\n-   done: true,\r\n-   enemy…417 tokens truncated…) {},\r\n    aimX: 500,\r\n    aimY: 480,\r\n    iFrames: false,\r\n    gusKind219: 'quick',\r\n    gus219: true,\r\n    kind219: 'quick',\r\n    def219: {\r\n      name: 'crowbarQuick219',\r\n      times: [ 17 ],\r\n      active: [ 5 ],\r\n      recovery: 30,\r\n      damage: [ 18 ],\r\n      reach: 150,\r\n      weapon: true,\r\n      category: 'weaponString'\r\n    },\r\n    category219: 'weaponString',\r\n    times219: [ 0.2833333333333333 ],\r\n    times: [ 0.2833333333333333 ],\r\n    active: 0.08333333333333333,\r\n    active219: [ 0.08333333333333333 ],\r\n    damage: 18,\r\n    damages219: [ 18 ],\r\n    reach: 150,\r\n    weapon: 'crowbar',\r\n    antiAir: false,\r\n    counterable: true,\r\n    dir219: 1,\r\n    plane219: 480,\r\n    fromX219: 420,\r\n    recovery219: 0.36666666666666664,\r\n    contacts219: Set(0) {},\r\n    attempts219: Set(0) {},\r\n    actionInstance169: 133,\r\n    firstHit135: 0.2833333333333333,\r\n    enemyType148: 'enforcer',\r\n    armorProfile143: {\r\n      class: 'designated strong windows',\r\n      source: 'existing armor classifier'\r\n    },\r\n    commitment147: true,\r\n    strike: 0,\r\n    hitbox219: {\r\n      A: { x: 461.2006410524456, y: 345.9719618619937 },\r\n      B: { x: 546.294748796045, y: 249.10655531446892 },\r\n      plane: 480\r\n    }\r\n  },\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "workers233-grabs",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS233 twelve hero/worker valid-grab paths retain identity, heavy high-HP failed throw uses protected native retaliation and finite cleanup\n"
+    },
+    {
+      "suite": "workers233-heavy",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS233 heavy105HP/40% contested/1.2s protection, mandatory full recovery, separately contacting moves, frontal damage-taking armor/rear interruption, safe stomp/air/throw/disarm at30/60/120Hz\n"
+    },
+    {
+      "suite": "workers233-regular",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS233 regular80HP,five approved regular names, unique living names and five-worker cap, stable independent appearances,7 moves/3rates, real synchronized grab, full recovery/disarm and spawn boundaries\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exit": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exit": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "post-hit-reassessment",
+      "exit": 0,
+      "output": "PASS post-hit reassessment 1192 checks: 7 heroes, 6 enemy families, 30/60/120Hz, both admission paths, exact deadlines and choreography exemptions\n"
+    },
+    {
+      "suite": "reaction-deadline-metadata",
+      "exit": 0,
+      "output": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exit": 1,
+      "output": "node:internal/assert/utils:77\r\n    throw err;\r\n    ^\r\n\r\nAssertionError [ERR_ASSERTION]: diagnostic cooldown does not alter direct-start behavior\r\n    at ok (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\actionability-diagnostics.cjs:4:29)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\actionability-diagnostics.cjs:29:56)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: false,\r\n  expected: true,\r\n  operator: '==',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "reactions298",
+      "exit": 0,
+      "output": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n"
+    },
+    {
+      "suite": "plane304",
+      "exit": 0,
+      "output": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n"
+    },
+    {
+      "suite": "plane304-height",
+      "exit": 0,
+      "output": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 height behavioral 1774\n"
+    },
+    {
+      "suite": "plane304-weapons",
+      "exit": 0,
+      "output": "PASS304 WEAPONS 7754 native swept geometry checks 52 profiles / facings / scenes\n"
+    },
+    {
+      "suite": "reina-airborne-hurtbox",
+      "exit": 0,
+      "output": "PASS Reina airborne hurtbox 3206 checks; native fly/contact at3rates, valid air hits, mirrored stages, bank scale, unchanged ground/protections/Saito defenses\n"
+    },
+    {
+      "suite": "niko-phase-labels",
+      "exit": 0,
+      "output": "PASS Niko phase labels 204 checks; 4native combo stages,3rates,both facings,once-contact timing,playback/history,pure lookup and unchanged fallback\n"
+    },
+    {
+      "suite": "playback-flight-diagnostics",
+      "exit": 0,
+      "output": "PASS playback flight diagnostics 1941 checks; 8native families x2facings, contact/flight/recovery, raw receipts, detached history, report semantics and unchanged feedback\n"
+    },
+    {
+      "suite": "playback265",
+      "exit": 0,
+      "output": "PASS265 87 fixed-step, all speeds/refresh rates, pause, exact manual ticks, queued input, bounded detached records, disabled restoration\nPASS265 FULL WORLD 136 seven heroes; identical native projectile, hero/enemy cooldown and environment clocks at equal simulation time\nPASS265 RESET QUEUE 137\n"
+    },
+    {
+      "suite": "continuity296",
+      "exit": 0,
+      "output": "PASS296 30272 native pose ownership, interruption, recovery labels, 1440 actor-ticks of unchanged mechanics, archived fallback\n"
+    },
+    {
+      "suite": "repairs330",
+      "exit": 0,
+      "output": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n"
+    },
+    {
+      "suite": "diagnostic288",
+      "exit": 0,
+      "output": "PASS288 observer-on/off360-frame equivalence, actual admission/damage records, honest missing reasons, native selection source, local selection-only persistence\n"
+    },
+    {
+      "suite": "gamepad.test",
+      "exit": 0,
+      "output": "PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection\nPASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery\n"
+    },
+    {
+      "suite": "controller157",
+      "exit": 0,
+      "output": "PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exit": 0,
+      "output": "PASS actionability diagnostics 6813 checks; 2 heroes x8 native families x3 rates; actual deadlines, cooldown boundaries, read-only state, presentation, players and paired states\n"
+    },
+    {
+      "suite": "grab223-contested",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×regular/heavy classification and inclusive40% HP threshold; regular initial grabs never roll, valid high-HP commitments roll once\nPASS223 exact25% boundary at30/60/120Hz, six heroes, inescapable confirmed retaliation, single contact events, shared119 cleanup\nPASS223 nondamaging contested timeout, Iron Will bypass and paid dash contact/contested decision\n"
+    },
+    {
+      "suite": "grab223-recovery",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×four regular/heavy types ×30/60/120Hz, true throw impact/get-up, exact.8/1.2 post-standing protection, damage through protection, no hit refresh and reliable expiry\nPASS223 ordinary-KD source distinction, per-target8s repetition memory, visible third/fourth positioning with no hidden immunity, finite expiry/death cleanup\n"
+    },
+    {
+      "suite": "grab223-fairness",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×Carmen/Saito/Akari/Dorian ×30/60/120Hz: mandatory throw recovery plus at least.3s defensive actionability, direct/normal wake gates and no added invulnerability\nPASS223 response pauses during forced incapacitation, voluntary attack spam cannot freeze wake behavior, and no unauthorized rolls/kips/wake attacks\nPASS223 one confirmed retaliation owner, no unavoidable third-party stacking, committed actions preserved, shared Director reservations restored/cleaned\nPASS223 existing authorized wake attacks retain visible startup and damaging contact once the response safeguard is satisfied\n"
+    },
+    {
+      "suite": "grab223-damage",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 A/B baseline versus current: all six heroes ×four directional throws retain identical action selection and full damage; synchronized sessions end\n"
+    },
+    {
+      "suite": "grab223-exceptions",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 Aidan variants regular, explicit Dirk/pool/class overrides, exact100/400 successful rolls, dev-only outcome forcing/reset, authorized kip completes before protection starts\nPASS223 reversal interruption/death/removal/reset cleanup and mandatory recovery delays physical retaliation/contact\nPASS223 six dedicated counter-origin holds preserve their existing gates and never inherit ordinary high-HP risk or anti-regrab rolls\n"
+    },
+    {
+      "suite": "grab223-encounters",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS222 story/section/difficulty/performance filtering, transient relief, complexity, one-heavy/one-control limits and boss/mini-boss exclusion\nPASS222 future configuration uses shared native spawning and identity-deduplicated transfer; no competing encounter controller\nPASS222 global offscreen admission, missing living actor tracking, landing gate, exactly-once completion and GO rendering restrictions\nPASS222 injury-safe physical return and Gus/Security/Aidan mandatory recovery/state preservation\nPASS222 same-object restoration after legacy culling and bounded detour around persistent solid wrecks\nPASS222 six-hero Tavern pair110HP/standard protections, first-Aidan defeat cannot clear, all support waves required, one scripted lock and native level clear\nPASS222 Colt-only route, protected native introduction, scripted fight and outro preserved\nPASS222 armored-car pair plus one ordinary lock, and all three native elevator stops within one scripted lock\nPASS222 bank ordinary waves plus preserved Otis in reserved second slot\nPASS222 laboratory storage/initial combat, native three-flask arson, three-person timed fire wave and escape retain phase ownership\nPASS222 pool/yacht/Riverfront reserved finales, original boss phases, two-lock cap and physical return without native enemy clamping\nPASS222 eighteen15s mixed encounters, six heroes ×Gus/Aidan/Security with Jesse/Marcus, 188 attack commitments, native3/2 limits, visibility and unique actor identities\nPASS222 PILOT all six heroes ×30/60/120Hz, finite native enemies/waves, same-object roaming transfer, camera/bounds/GO lock and native section transition\nPASS222 PILOT offscreen attack denial, grounded recovery then bounded physical reentry, persistent HP/weapon/debuff identity\nPASS222 PILOT six20s live-combat runs retain native attack admissions and Normal3-point/two-attacker pressure limits\nPASS222 enrollment 76 existing checkpoints; explicit section pools, scripted/endpoint ownership and two-lock cap\nPASS222 native finite-wave progression and lock completion across 64 ordinary sections\nPASS223 six-hero locked reentry preserves enemy identity, shared protection deadline and repetition memory; no offscreen attack or duplication\n"
+    },
+    {
+      "suite": "plane304-receipts",
+      "exit": 0,
+      "output": "Warning: truncated output (original token count: 919)\nTotal output lines: 106\n\nTAP version 13\n# Subtest: collision: missing Git/repository/commit remain unavailable and skip source checks\nok 1 - collision: missing Git/repository/commit remain unavailable and skip source checks\n  ---\n  duration_ms: 5.9277\n  type: 'test'\n  ...\n# Subtest: collision: matching available proofs pass with hashes and correct comparator\nok 2 - collision: matching available proofs pass with hashes and correct comparator\n  ---\n  duration_ms: 5.2435\n  type: 'test'\n  ...\n# Subtest: collision: missing blob is unavailable; available mismatch/error remains failed\nok 3 - collision: missing blob is unavailable; available mismatch/error remains failed\n  ---\n  duration_ms: 3.5892\n  type: 'test'\n  ...\n# Subtest: collision: unexpected Git errors and malformed object responses fail closed\nok 4 - collision: unexpected Git errors and malformed object responses fail closed\n  ---\n  duration_ms: 0.3365\n  type: 'test'\n  ...\n# Subtest: collision: behavioral assertions still execute on unavailable/failed/throw…419 tokens truncated…eipts\n  ---\n  duration_ms: 0.0795\n  type: 'test'\n  ...\n# Subtest: collision: mismatch wins over another unavailable source\nok 13 - collision: mismatch wins over another unavailable source\n  ---\n  duration_ms: 2.2436\n  type: 'test'\n  ...\n# Subtest: height: fixed supplied-renderer contract detects a real height deviation\nok 14 - height: fixed supplied-renderer contract detects a real height deviation\n  ---\n  duration_ms: 2295.6055\n  type: 'test'\n  ...\n# Subtest: height: missing/malformed historical height function is not a successful proof\nok 15 - height: missing/malformed historical height function is not a successful proof\n  ---\n  duration_ms: 0.1227\n  type: 'test'\n  ...\n# Subtest: release keeps a critical historical gate separate from runnable behavior\nok 16 - release keeps a critical historical gate separate from runnable behavior\n  ---\n  duration_ms: 0.7835\n  type: 'test'\n  ...\n1..16\n# tests 16\n# suites 0\n# pass 16\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 2452.6882\n"
+    },
+    {
+      "suite": "reactions298-receipts",
+      "exit": 0,
+      "output": "Warning: truncated output (original token count: 530)\nTotal output lines: 76\n\nTAP version 13\n# Subtest: missing Git is unavailable, never historical approval\nok 1 - missing Git is unavailable, never historical approval\n  ---\n  duration_ms: 1.8487\n  type: 'test'\n  ...\n# Subtest: ZIP export without a repository is explicitly unavailable\nok 2 - ZIP export without a repository is explicitly unavailable\n  ---\n  duration_ms: 0.2485\n  type: 'test'\n  ...\n# Subtest: missing historical commit is unavailable and skips source adapters\nok 3 - missing historical commit is unavailable and skips source adapters\n  ---\n  duration_ms: 0.2486\n  type: 'test'\n  ...\n# Subtest: all available equal receipts pass and contain both hashes\nok 4 - all available equal receipts pass and contain both hashes\n  ---\n  duration_ms: 1.4744\n  type: 'test'\n  ...\n# Subtest: missing source blob remains unavailable alongside verified receipts\nok 5 - missing source blob remains unavailable alongside verified receipts\n  ---\n  duration_ms: 0.329\n  type: 'test'\n  ...\n# Subtest: available byte mismatch fails,…30 tokens truncated… 0.4493\n  type: 'test'\n  ...\n# Subtest: mismatch still fails when another receipt is unavailable\nok 7 - mismatch still fails when another receipt is unavailable\n  ---\n  duration_ms: 0.4274\n  type: 'test'\n  ...\n# Subtest: normalizer failure is a failed proof, not missing history\nok 8 - normalizer failure is a failed proof, not missing history\n  ---\n  duration_ms: 0.5353\n  type: 'test'\n  ...\n# Subtest: source read errors and historical blob read errors fail\nok 9 - source read errors and historical blob read errors fail\n  ---\n  duration_ms: 1.7841\n  type: 'test'\n  ...\n# Subtest: unexpected Git failures are not treated as unavailable\nok 10 - unexpected Git failures are not treated as unavailable\n  ---\n  duration_ms: 1.0992\n  type: 'test'\n  ...\n# Subtest: malformed object responses fail closed\nok 11 - malformed object responses fail closed\n  ---\n  duration_ms: 1.717\n  type: 'test'\n  ...\n1..11\n# tests 11\n# suites 0\n# pass 11\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 147.8488\n"
+    },
+    {
+      "suite": "qa242-validators",
+      "exit": 0,
+      "output": "TAP version 13\n# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass\nok 1 - stretched scenery fails; correct source crop and reviewed perspective pass\n  ---\n  duration_ms: 1.5977\n  type: 'test'\n  ...\n# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid\nok 2 - miniature adult and undersized forklift flag review; real perspective remains valid\n  ---\n  duration_ms: 0.2594\n  type: 'test'\n  ...\n# Subtest: floating get-up flags; grounded and real aerial motion pass\nok 3 - floating get-up flags; grounded and real aerial motion pass\n  ---\n  duration_ms: 0.2259\n  type: 'test'\n  ...\n# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\nok 4 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\n  ---\n  duration_ms: 0.3221\n  type: 'test'\n  ...\n# Subtest: missing recovery, missing completion and detached doorway detected\nok 5 - missing recovery, missing completion and detached doorway detected\n  ---\n  duration_ms: 0.3784\n  type: 'test'\n  ...\n# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable\nok 6 - release gate fails closed; unexecuted/missing visual evidence never becomes stable\n  ---\n  duration_ms: 0.8006\n  type: 'test'\n  ...\n1..6\n# tests 6\n# suites 0\n# pass 6\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 130.626\n"
+    }
+  ],
+  "latest": [
+    {
+      "suite": "direct-start-director-admission",
+      "exit": 0,
+      "output": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n"
+    },
+    {
+      "suite": "director148",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\n"
+    },
+    {
+      "suite": "director148-stress",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\nPASS148 240 seeded solo/mixed hero/route/style fixtures: <=3 pressure, <=2 commitments, finite coordinates, integer score\n"
+    },
+    {
+      "suite": "combat274",
+      "exit": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "enemies210",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\n"
+    },
+    {
+      "suite": "martial212",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits\nPASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{\"type\":\"sato\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":6},{\"type\":\"sato\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"orion\",\"pressure\":1,\"actors\":1,\"attacks\":7},{\"type\":\"akari\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":13},{\"type\":\"akari\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":10},{\"type\":\"akari\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":5},{\"type\":\"akari\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":9}]\nPASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches\n"
+    },
+    {
+      "suite": "flint211",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS211 four weapon profiles, exact phase values at30/60/120Hz, distinct measured reach, mirrored rear damage/single swing ownership,120deg damage-taking frontal armor, side/rear interrupts, vulnerable noncancelable recovery without stacked timers\nPASS211 physical misses, six-hero weaponless fallback, counter eligibility and dodge/lane regression, seeded mixed AI wild/power choices with3-point/two-commitment admission\nPASS211 Director reposition cannot bypass mandatory recovery; recovery punishment does not restart the full timer; rear swing threats are included in shared coordination\nPASS21124 live mirrored Reina/Forest/Niko weapon counter interceptions through the existing controllers\nPASS211 all four actual weapon paths can be intercepted by a physically aligned Human Shield without duplicated player damage\nPASS211 armed Flint completes left, lift and bottom reinforcements before weapon AI takes over\n"
+    },
+    {
+      "suite": "jesse213",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS213 single native hitscan/event/ammo at30/60/120Hz; all six heroes block/startup vulnerability, apex/dodge/lane/cover avoidance; real Reina/Niko/Broxton/Forest knife disarms; permanent loss through reload/down/roll/rearm; no melee fallback; finite physical retreat/corner vulnerability; locked vulnerable reload; one firearm commitment\nPASS213 six rounds force native reload, committed aim cannot home, HP-based roll15/25/40%, four30s mixed gunfire fixtures /3point2attacker ceiling, all six actual hero dodges\n"
+    },
+    {
+      "suite": "pcbi316-gates",
+      "exit": 0,
+      "output": "PASS316 PCBI GATES1/2 55\nPASS316 ACTUAL PHASES / DISARM 67\n"
+    },
+    {
+      "suite": "counters248",
+      "exit": 0,
+      "output": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n"
+    },
+    {
+      "suite": "grab223-all",
+      "exit": 1,
+      "output": "Warning: truncated output (original token count: 698)\nTotal output lines: 18\n\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×regular/heavy classification and inclusive40% HP threshold; regular initial grabs never roll, valid high-HP commitments roll once\nPASS223 exact25% boundary at30/60/120Hz, six heroes, inescapable confirmed retaliation, single contact events, shared119 cleanup\nPASS223 nondamaging contested timeout, Iron Will bypass and paid dash contact/contested decision\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×four regular/heavy types ×30/60/120Hz, true throw impact/get-up, exact.8/1.2 post-standing protection, damage through protection, no hit refresh and reliable expiry\nPASS223 ordinary-KD source distinction, per-target8s repetition memory, visible third/fourth positioning with no hidden immunity, finite expiry/death cleanup\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×Carmen/Saito/Akari/Dorian ×30/60/1…48 tokens truncated… attack spam cannot freeze wake behavior, and no unauthorized rolls/kips/wake attacks\nPASS223 one confirmed retaliation owner, no unavoidable third-party stacking, committed actions preserved, shared Director reservations restored/cleaned\nPASS223 existing authorized wake attacks retain visible startup and damaging contact once the response safeguard is satisfied\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 A/B baseline versus current: all six heroes ×four directional throws retain identical action selection and full damage; synchronized sessions end\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 Aidan variants regular, explicit Dirk/pool/class overrides, exact100/400 successful rolls, dev-only outcome forcing/reset, authorized kip completes before protection starts\nPASS223 reversal interruption/death/removal/reset cleanup and mandatory recovery delays physical retaliation/contact\nPASS223 six dedicated counter-origin holds preserve their existing gates and never inherit ordinary high-HP risk or anti-regrab rolls\nWarning: truncated output (original token count: 1419)\nTotal output lines: 60\n\nPASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS222 story/section/difficulty/performance filtering, transient relief, complexity, one-heavy/one-control limits and boss/mini-boss exclusion\nPASS222 future configuration uses shared native spawning and identity-deduplicated transfer; no competing encounter controller\nPASS222 global offscreen admission, missing living actor tracking, landing gate, exactly-once completion and GO rendering restrictions\nPASS222 injury-safe physical return and Gus/Security/Aidan mandatory recovery/state preservation\nPASS222 same-object restoration after legacy culling and bounded detour around persistent solid wrecks\nPASS222 six-hero Tavern pair110HP/standard protections, first-Aidan defeat cannot clear, all support waves required, one scripted lock and native level clear\nPASS222 Colt-only route, protected native introduction, script…919 tokens truncated… delayed Reina art never exposes placeholder, dry/wet paths and loaded artwork preserved\nnode:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\n1 !== 0\r\n\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\controller144.cjs:7:532)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at [eval]:1:489\r\n    at runScriptInThisContext (node:internal/vm:209:10)\r\n    at node:internal/process/execution:446:12\r\n    at [eval]-wrapper:6:24\r\n    at runScriptInContext (node:internal/process/execution:444:60)\r\n    at evalFunction (node:internal/process/execution:279:30)\r\n    at evalTypeScript (node:internal/process/execution:291:3)\r\n    at node:internal/main/eval_string:74:3 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 1,\r\n  expected: 0,\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "grab198",
+      "exit": 0,
+      "output": "PASS198 all5heroes ×7 strong/boss types: animated attempts, inclusive40% threshold and provisional highHP holds\nPASS198 exact one-in-four decision,5heroes×2facings×30/60/120Hz; reversal damage/cleanup and combat-plane invariants\nPASS198 all heroes retain ordinary lowHP grab attacks without risk roll\nPASS198 legal holds expire without a quick move; resisted holds expire sooner\nPASS198 every hero transitions visibly before one probabilistic escape; Broxton tactical reposition remains vulnerable\nPASS198 active Iron Will alone bypasses strong HP/wake/down/regrab/breakout rules; duration continues through grabs\nPASS198 Iron Will expiration immediately restores rules; dormant story actors cannot be stolen from staging\nPASS198 three native synchronized reversal patterns: cannot block/counter/dodge/jump/special/escape-mash; intended damage events once\nPASS198 reversal owner interruption/death/scene/victim death cleanup, no floating victim or stuck session\nPASS198 paid manual counters retain existing health/timing categories and do not enter ordinary grab lottery\nPASS198 all5 grab specials use one risk decision; success preserves original cost, reversal does not charge an unexecuted special\nPASS198 standard-enemy grabs remain unchanged; mirrored reversals keep both upper/lower combat lanes\nPASS198 Iron Will remains damage reduction, not invulnerability; resets clear reversal ownership/session\nPASS198 trucker stagger identity preserved outside Iron Will; armor bypasses aerial/regrab gates; transition cycling cannot reset escape deadline\nPASS198 actual paid forward-special dash capture respects the same lottery, with guaranteed Iron Will bypass\nPASS198 preserves Dirk’s undefended design and the enraged casino survivor’s removed defenses\n"
+    },
+    {
+      "suite": "security216",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS216 basic native timelines and all move contacts at30/60/120Hz\nPASS216 committed follow-up, finite timelines, missed-opener47f, no stacked cooldown; selective damage-taking armor; six heroes×two grabs×two facings separate contacts/actual flight/continuous plane/recovery; inv/armor/miss capture gates; no inherited guard counter; offscreen return/native entry; native Director budget and nonoffensive guard\nPASS216 12 real manual-counter interactions (Orion reserved), six dodge regressions, Iron Will damage/KD, one-living Security queue/130HP/Otis exclusion; six seeded35s mixed encounters [{\"hero\":\"reina\",\"starts\":12,\"budget\":2,\"actors\":1},{\"hero\":\"broxton\",\"starts\":15,\"budget\":2,\"actors\":1},{\"hero\":\"nova\",\"starts\":18,\"budget\":2,\"actors\":1},{\"hero\":\"forest\",\"starts\":20,\"budget\":2,\"actors\":1},{\"hero\":\"niko\",\"starts\":14,\"budget\":2,\"actors\":1},{\"hero\":\"orion\",\"starts\":14,\"budget\":2,\"actors\":1}]\nPASS216 live capture reservation transfer, death cleanup, frontal-only guard, exact last-active reservation end\nPASS216 recovery deadline survives interruption; no hit-assisted early AI reset\nPASS216 public spawn limit and actual two-second anti-air cooldown\n"
+    },
+    {
+      "suite": "gus219",
+      "exit": 1,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS219 all standing contacts and native timelines at30/60/120Hz\nPASS219 separate jab/bash, evasion, missed moves and recovery survives hit/state changes\nWarning: truncated output (original token count: 1067)\nTotal output lines: 159\n\nPASS219 six heroes×both facings×30/60/120Hz aerial synchronization, actual contacts/impact/recovery; lane/range/immunity/neutral-bait/interruption exclusions\nPASS219 stomp eligibility, synchronized protection, no KD extension, finite cooldown\nPASS219 single exact25% roll, delayed25% healing, hit/death/grab interruption, one persistent collectible and no retry\nnode:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: no new Orion counter\r\n+ actual - expected\r\n\r\n+ null\r\n- {\r\n-   actionInstance169: 133,\r\n-   active219: [\r\n-     0.08333333333333333\r\n-   ],\r\n-   active: 0.08333333333333333,\r\n-   aimX: 500,\r\n-   aimY: 480,\r\n-   antiAir: false,\r\n-   armorProfile143: {\r\n-     class: 'designated strong windows',\r\n-     source: 'existing armor classifier'\r\n-   },\r\n-   attempts219: Set(0) {},\r\n-   category219: 'weaponString',\r\n-   commitment147: true,\r\n-   contacts219: Set(0) {},\r\n-   counterable: true,\r\n-   damage: 18,\r\n-   damages219: [\r\n-     18\r\n-   ],\r\n-   def219: {\r\n-     active: [\r\n-       5\r\n-     ],\r\n-     category: 'weaponString',\r\n-     damage: [\r\n-       18\r\n-     ],\r\n-     name: 'crowbarQuick219',\r\n-     reach: 150,\r\n-     recovery: 30,\r\n-     times: [\r\n-       17\r\n-     ],\r\n-     weapon: true\r\n-   },\r\n-   dir219: 1,\r\n-   done: true,\r\n-   enemy…417 tokens truncated…) {},\r\n    aimX: 500,\r\n    aimY: 480,\r\n    iFrames: false,\r\n    gusKind219: 'quick',\r\n    gus219: true,\r\n    kind219: 'quick',\r\n    def219: {\r\n      name: 'crowbarQuick219',\r\n      times: [ 17 ],\r\n      active: [ 5 ],\r\n      recovery: 30,\r\n      damage: [ 18 ],\r\n      reach: 150,\r\n      weapon: true,\r\n      category: 'weaponString'\r\n    },\r\n    category219: 'weaponString',\r\n    times219: [ 0.2833333333333333 ],\r\n    times: [ 0.2833333333333333 ],\r\n    active: 0.08333333333333333,\r\n    active219: [ 0.08333333333333333 ],\r\n    damage: 18,\r\n    damages219: [ 18 ],\r\n    reach: 150,\r\n    weapon: 'crowbar',\r\n    antiAir: false,\r\n    counterable: true,\r\n    dir219: 1,\r\n    plane219: 480,\r\n    fromX219: 420,\r\n    recovery219: 0.36666666666666664,\r\n    contacts219: Set(0) {},\r\n    attempts219: Set(0) {},\r\n    actionInstance169: 133,\r\n    firstHit135: 0.2833333333333333,\r\n    enemyType148: 'enforcer',\r\n    armorProfile143: {\r\n      class: 'designated strong windows',\r\n      source: 'existing armor classifier'\r\n    },\r\n    commitment147: true,\r\n    strike: 0,\r\n    hitbox219: {\r\n      A: { x: 461.2006410524456, y: 345.9719618619937 },\r\n      B: { x: 546.294748796045, y: 249.10655531446892 },\r\n      plane: 480\r\n    }\r\n  },\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "workers233-grabs",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS233 twelve hero/worker valid-grab paths retain identity, heavy high-HP failed throw uses protected native retaliation and finite cleanup\n"
+    },
+    {
+      "suite": "workers233-heavy",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS233 heavy105HP/40% contested/1.2s protection, mandatory full recovery, separately contacting moves, frontal damage-taking armor/rear interruption, safe stomp/air/throw/disarm at30/60/120Hz\n"
+    },
+    {
+      "suite": "workers233-regular",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS233 regular80HP,five approved regular names, unique living names and five-worker cap, stable independent appearances,7 moves/3rates, real synchronized grab, full recovery/disarm and spawn boundaries\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exit": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exit": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "post-hit-reassessment",
+      "exit": 0,
+      "output": "PASS post-hit reassessment 1192 checks: 7 heroes, 6 enemy families, 30/60/120Hz, both admission paths, exact deadlines and choreography exemptions\n"
+    },
+    {
+      "suite": "reaction-deadline-metadata",
+      "exit": 0,
+      "output": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exit": 0,
+      "output": "PASS actionability diagnostics 6813 checks; 2 heroes x8 native families x3 rates; actual deadlines, cooldown boundaries, read-only state, presentation, players and paired states\n"
+    },
+    {
+      "suite": "reactions298",
+      "exit": 0,
+      "output": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n"
+    },
+    {
+      "suite": "plane304",
+      "exit": 0,
+      "output": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n"
+    },
+    {
+      "suite": "plane304-height",
+      "exit": 0,
+      "output": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 height behavioral 1774\n"
+    },
+    {
+      "suite": "plane304-weapons",
+      "exit": 0,
+      "output": "PASS304 WEAPONS 7754 native swept geometry checks 52 profiles / facings / scenes\n"
+    },
+    {
+      "suite": "reina-airborne-hurtbox",
+      "exit": 0,
+      "output": "PASS Reina airborne hurtbox 3206 checks; native fly/contact at3rates, valid air hits, mirrored stages, bank scale, unchanged ground/protections/Saito defenses\n"
+    },
+    {
+      "suite": "niko-phase-labels",
+      "exit": 0,
+      "output": "PASS Niko phase labels 204 checks; 4native combo stages,3rates,both facings,once-contact timing,playback/history,pure lookup and unchanged fallback\n"
+    },
+    {
+      "suite": "playback-flight-diagnostics",
+      "exit": 0,
+      "output": "PASS playback flight diagnostics 1941 checks; 8native families x2facings, contact/flight/recovery, raw receipts, detached history, report semantics and unchanged feedback\n"
+    },
+    {
+      "suite": "playback265",
+      "exit": 0,
+      "output": "PASS265 87 fixed-step, all speeds/refresh rates, pause, exact manual ticks, queued input, bounded detached records, disabled restoration\nPASS265 FULL WORLD 136 seven heroes; identical native projectile, hero/enemy cooldown and environment clocks at equal simulation time\nPASS265 RESET QUEUE 137\n"
+    },
+    {
+      "suite": "continuity296",
+      "exit": 0,
+      "output": "PASS296 30272 native pose ownership, interruption, recovery labels, 1440 actor-ticks of unchanged mechanics, archived fallback\n"
+    },
+    {
+      "suite": "repairs330",
+      "exit": 0,
+      "output": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n"
+    },
+    {
+      "suite": "diagnostic288",
+      "exit": 0,
+      "output": "PASS288 observer-on/off360-frame equivalence, actual admission/damage records, honest missing reasons, native selection source, local selection-only persistence\n"
+    },
+    {
+      "suite": "gamepad.test",
+      "exit": 0,
+      "output": "PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection\nPASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery\n"
+    },
+    {
+      "suite": "controller157",
+      "exit": 0,
+      "output": "PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override\n"
+    },
+    {
+      "suite": "grab223-contested",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×regular/heavy classification and inclusive40% HP threshold; regular initial grabs never roll, valid high-HP commitments roll once\nPASS223 exact25% boundary at30/60/120Hz, six heroes, inescapable confirmed retaliation, single contact events, shared119 cleanup\nPASS223 nondamaging contested timeout, Iron Will bypass and paid dash contact/contested decision\n"
+    },
+    {
+      "suite": "grab223-recovery",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×four regular/heavy types ×30/60/120Hz, true throw impact/get-up, exact.8/1.2 post-standing protection, damage through protection, no hit refresh and reliable expiry\nPASS223 ordinary-KD source distinction, per-target8s repetition memory, visible third/fourth positioning with no hidden immunity, finite expiry/death cleanup\n"
+    },
+    {
+      "suite": "grab223-fairness",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 six heroes ×Carmen/Saito/Akari/Dorian ×30/60/120Hz: mandatory throw recovery plus at least.3s defensive actionability, direct/normal wake gates and no added invulnerability\nPASS223 response pauses during forced incapacitation, voluntary attack spam cannot freeze wake behavior, and no unauthorized rolls/kips/wake attacks\nPASS223 one confirmed retaliation owner, no unavoidable third-party stacking, committed actions preserved, shared Director reservations restored/cleaned\nPASS223 existing authorized wake attacks retain visible startup and damaging contact once the response safeguard is satisfied\n"
+    },
+    {
+      "suite": "grab223-damage",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 A/B baseline versus current: all six heroes ×four directional throws retain identical action selection and full damage; synchronized sessions end\n"
+    },
+    {
+      "suite": "grab223-exceptions",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS223 Aidan variants regular, explicit Dirk/pool/class overrides, exact100/400 successful rolls, dev-only outcome forcing/reset, authorized kip completes before protection starts\nPASS223 reversal interruption/death/removal/reset cleanup and mandatory recovery delays physical retaliation/contact\nPASS223 six dedicated counter-origin holds preserve their existing gates and never inherit ordinary high-HP risk or anti-regrab rolls\n"
+    },
+    {
+      "suite": "grab223-encounters",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS222 story/section/difficulty/performance filtering, transient relief, complexity, one-heavy/one-control limits and boss/mini-boss exclusion\nPASS222 future configuration uses shared native spawning and identity-deduplicated transfer; no competing encounter controller\nPASS222 global offscreen admission, missing living actor tracking, landing gate, exactly-once completion and GO rendering restrictions\nPASS222 injury-safe physical return and Gus/Security/Aidan mandatory recovery/state preservation\nPASS222 same-object restoration after legacy culling and bounded detour around persistent solid wrecks\nPASS222 six-hero Tavern pair110HP/standard protections, first-Aidan defeat cannot clear, all support waves required, one scripted lock and native level clear\nPASS222 Colt-only route, protected native introduction, scripted fight and outro preserved\nPASS222 armored-car pair plus one ordinary lock, and all three native elevator stops within one scripted lock\nPASS222 bank ordinary waves plus preserved Otis in reserved second slot\nPASS222 laboratory storage/initial combat, native three-flask arson, three-person timed fire wave and escape retain phase ownership\nPASS222 pool/yacht/Riverfront reserved finales, original boss phases, two-lock cap and physical return without native enemy clamping\nPASS222 eighteen15s mixed encounters, six heroes ×Gus/Aidan/Security with Jesse/Marcus, 188 attack commitments, native3/2 limits, visibility and unique actor identities\nPASS222 PILOT all six heroes ×30/60/120Hz, finite native enemies/waves, same-object roaming transfer, camera/bounds/GO lock and native section transition\nPASS222 PILOT offscreen attack denial, grounded recovery then bounded physical reentry, persistent HP/weapon/debuff identity\nPASS222 PILOT six20s live-combat runs retain native attack admissions and Normal3-point/two-attacker pressure limits\nPASS222 enrollment 76 existing checkpoints; explicit section pools, scripted/endpoint ownership and two-lock cap\nPASS222 native finite-wave progression and lock completion across 64 ordinary sections\nPASS223 six-hero locked reentry preserves enemy identity, shared protection deadline and repetition memory; no offscreen attack or duplication\n"
+    },
+    {
+      "suite": "plane304-receipts",
+      "exit": 0,
+      "output": "Warning: truncated output (original token count: 919)\nTotal output lines: 106\n\nTAP version 13\n# Subtest: collision: missing Git/repository/commit remain unavailable and skip source checks\nok 1 - collision: missing Git/repository/commit remain unavailable and skip source checks\n  ---\n  duration_ms: 5.9277\n  type: 'test'\n  ...\n# Subtest: collision: matching available proofs pass with hashes and correct comparator\nok 2 - collision: matching available proofs pass with hashes and correct comparator\n  ---\n  duration_ms: 5.2435\n  type: 'test'\n  ...\n# Subtest: collision: missing blob is unavailable; available mismatch/error remains failed\nok 3 - collision: missing blob is unavailable; available mismatch/error remains failed\n  ---\n  duration_ms: 3.5892\n  type: 'test'\n  ...\n# Subtest: collision: unexpected Git errors and malformed object responses fail closed\nok 4 - collision: unexpected Git errors and malformed object responses fail closed\n  ---\n  duration_ms: 0.3365\n  type: 'test'\n  ...\n# Subtest: collision: behavioral assertions still execute on unavailable/failed/throw…419 tokens truncated…eipts\n  ---\n  duration_ms: 0.0795\n  type: 'test'\n  ...\n# Subtest: collision: mismatch wins over another unavailable source\nok 13 - collision: mismatch wins over another unavailable source\n  ---\n  duration_ms: 2.2436\n  type: 'test'\n  ...\n# Subtest: height: fixed supplied-renderer contract detects a real height deviation\nok 14 - height: fixed supplied-renderer contract detects a real height deviation\n  ---\n  duration_ms: 2295.6055\n  type: 'test'\n  ...\n# Subtest: height: missing/malformed historical height function is not a successful proof\nok 15 - height: missing/malformed historical height function is not a successful proof\n  ---\n  duration_ms: 0.1227\n  type: 'test'\n  ...\n# Subtest: release keeps a critical historical gate separate from runnable behavior\nok 16 - release keeps a critical historical gate separate from runnable behavior\n  ---\n  duration_ms: 0.7835\n  type: 'test'\n  ...\n1..16\n# tests 16\n# suites 0\n# pass 16\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 2452.6882\n"
+    },
+    {
+      "suite": "reactions298-receipts",
+      "exit": 0,
+      "output": "Warning: truncated output (original token count: 530)\nTotal output lines: 76\n\nTAP version 13\n# Subtest: missing Git is unavailable, never historical approval\nok 1 - missing Git is unavailable, never historical approval\n  ---\n  duration_ms: 1.8487\n  type: 'test'\n  ...\n# Subtest: ZIP export without a repository is explicitly unavailable\nok 2 - ZIP export without a repository is explicitly unavailable\n  ---\n  duration_ms: 0.2485\n  type: 'test'\n  ...\n# Subtest: missing historical commit is unavailable and skips source adapters\nok 3 - missing historical commit is unavailable and skips source adapters\n  ---\n  duration_ms: 0.2486\n  type: 'test'\n  ...\n# Subtest: all available equal receipts pass and contain both hashes\nok 4 - all available equal receipts pass and contain both hashes\n  ---\n  duration_ms: 1.4744\n  type: 'test'\n  ...\n# Subtest: missing source blob remains unavailable alongside verified receipts\nok 5 - missing source blob remains unavailable alongside verified receipts\n  ---\n  duration_ms: 0.329\n  type: 'test'\n  ...\n# Subtest: available byte mismatch fails,…30 tokens truncated… 0.4493\n  type: 'test'\n  ...\n# Subtest: mismatch still fails when another receipt is unavailable\nok 7 - mismatch still fails when another receipt is unavailable\n  ---\n  duration_ms: 0.4274\n  type: 'test'\n  ...\n# Subtest: normalizer failure is a failed proof, not missing history\nok 8 - normalizer failure is a failed proof, not missing history\n  ---\n  duration_ms: 0.5353\n  type: 'test'\n  ...\n# Subtest: source read errors and historical blob read errors fail\nok 9 - source read errors and historical blob read errors fail\n  ---\n  duration_ms: 1.7841\n  type: 'test'\n  ...\n# Subtest: unexpected Git failures are not treated as unavailable\nok 10 - unexpected Git failures are not treated as unavailable\n  ---\n  duration_ms: 1.0992\n  type: 'test'\n  ...\n# Subtest: malformed object responses fail closed\nok 11 - malformed object responses fail closed\n  ---\n  duration_ms: 1.717\n  type: 'test'\n  ...\n1..11\n# tests 11\n# suites 0\n# pass 11\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 147.8488\n"
+    },
+    {
+      "suite": "qa242-validators",
+      "exit": 0,
+      "output": "TAP version 13\n# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass\nok 1 - stretched scenery fails; correct source crop and reviewed perspective pass\n  ---\n  duration_ms: 1.5977\n  type: 'test'\n  ...\n# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid\nok 2 - miniature adult and undersized forklift flag review; real perspective remains valid\n  ---\n  duration_ms: 0.2594\n  type: 'test'\n  ...\n# Subtest: floating get-up flags; grounded and real aerial motion pass\nok 3 - floating get-up flags; grounded and real aerial motion pass\n  ---\n  duration_ms: 0.2259\n  type: 'test'\n  ...\n# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\nok 4 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\n  ---\n  duration_ms: 0.3221\n  type: 'test'\n  ...\n# Subtest: missing recovery, missing completion and detached doorway detected\nok 5 - missing recovery, missing completion and detached doorway detected\n  ---\n  duration_ms: 0.3784\n  type: 'test'\n  ...\n# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable\nok 6 - release gate fails closed; unexecuted/missing visual evidence never becomes stable\n  ---\n  duration_ms: 0.8006\n  type: 'test'\n  ...\n1..6\n# tests 6\n# suites 0\n# pass 6\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 130.626\n"
+    }
+  ],
+  "baselineComparisonFailures": [
+    {
+      "suite": "gus219",
+      "baselineExit": 1,
+      "currentExit": 1,
+      "assertion": "no new Orion counter",
+      "classification": "preexisting, unchanged; not claimed passed"
+    },
+    {
+      "suite": "grab223-all",
+      "baselineExit": 1,
+      "currentExit": 1,
+      "assertion": "controller144.cjs:7 expected0 actual1",
+      "classification": "preexisting aggregate failure, unchanged; individual grab suites pass"
+    }
+  ],
+  "regressionBaseline": {
+    "exit": 1,
+    "assertion": "third light rejected thugstart",
+    "meaning": "expected failure proving the bypass"
+  },
+  "historicalReceipts": {
+    "collisionUnavailable": 17,
+    "heightUnavailable": 1,
+    "reactionUnavailable": 9,
+    "strictExit": 2,
+    "meaning": "Unverified source equivalence; no missing receipts claimed passed; release gate blocked"
+  },
+  "visual": {
+    "result": "passed",
+    "inspected": "rendered-contact-sheet.png",
+    "bodyPairs": 12,
+    "errors": 0,
+    "preexistingMissingPreloads": [
+      "enforcer-concept-v1.png",
+      "thug-leader-concept-v1.png"
+    ],
+    "scope": "Controlled native production canvas keyframes; no full motion/campaign/hardware certification"
+  },
+  "harnessNotes": [
+    "Original actionability test expected the now-approved direct cooldown bypass; updated to require rejection without retiming while preserving read-only diagnostic assertions.",
+    "A raw direct wake fixture lacked full native combat arguments and produced nonfinite HP in both versions. Replaced by authoritative native definition/options and added finite-HP checks; final parity and render evidence was regenerated.",
+    "Initial browser local-server access denied; user granted network permission and final native browser run passed."
+  ],
+  "otherIssues": "AI diagnostic freshness, feedback deduplication, historical crowd/grapple test portability, obsolete Nightshade test and unrelated input/counter failures unchanged."
+}

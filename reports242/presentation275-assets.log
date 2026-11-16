@@ -1,0 +1,3 @@
+PASS275 ten binary-alpha, uncropped, fixed-scale gait sprites and valid glove anchors
+/workspace/scratch/96a3e452279b/recovered327/.sites-checkout/tests/presentation275-assets.py:8: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  assert set(im.getchannel('A').getdata()) <= {0,255}

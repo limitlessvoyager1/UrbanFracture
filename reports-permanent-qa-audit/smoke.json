@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "id": "validators",
+      "args": [
+        "--test",
+        "tests/qa242-validators.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "TAP version 13\n# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass\nok 1 - stretched scenery fails; correct source crop and reviewed perspective pass\n  ---\n  duration_ms: 1.179\n  type: 'test'\n  ...\n# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid\nok 2 - miniature adult and undersized forklift flag review; real perspective remains valid\n  ---\n  duration_ms: 0.1727\n  type: 'test'\n  ...\n# Subtest: floating get-up flags; grounded and real aerial motion pass\nok 3 - floating get-up flags; grounded and real aerial motion pass\n  ---\n  duration_ms: 0.1662\n  type: 'test'\n  ...\n# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\nok 4 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\n  ---\n  duration_ms: 0.2505\n  type: 'test'\n  ...\n# Subtest: missing recovery, missing completion and detached doorway detected\nok 5 - missing recovery, missing completion and detached doorway detected\n  ---\n  duration_ms: 0.2701\n  type: 'test'\n  ...\n# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable\nok 6 - release gate fails closed; unexecuted/missing visual evidence never becomes stable\n  ---\n  duration_ms: 0.7737\n  type: 'test'\n  ...\n1..6\n# tests 6\n# suites 0\n# pass 6\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 78.8273\n",
+      "stderr": "",
+      "elapsedMs": 143
+    },
+    {
+      "id": "current-runtime",
+      "args": [
+        "--require",
+        "./tools/permanent-qa-audit/redirect.cjs",
+        "tests/qa242-runtime.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS242 current209-module order,8 actual enemy AI entries, reproducible two-run seed, gliding mutation detection,6 hero movement/reference envelopes.\n",
+      "stderr": "",
+      "elapsedMs": 544
+    },
+    {
+      "id": "scene-measurements",
+      "args": [
+        "--require",
+        "./tools/permanent-qa-audit/redirect.cjs",
+        "tests/qa242-scenes.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\qa242-scenes.cjs:3\r\nconst g=new N.Brawler();N.Stadium237.start(g,0);const fans=sb.StadiumView237.spectators(g),rows=[],issues=[];for(const q of fans){const D=q.runner?sb.Stadium313Art.idle:null,f=q.runner?{height:D.frames[q.variant*2].rect[3],src:D.src,root:D.frames[q.variant*2].root}:sb.StadiumFans237.frames[q.standing],scale=q.runner?D.scale:193/f.height,measurement={id:'stadium-fan-'+q.id,category:'adultNPC',height:f.height*scale,depthScale:1,source:f.src,scale,groundY:q.y,footAnchor:f.root};rows.push(measurement);issues.push(...V.scale(measurement,S.categories));assert(q.y<g.groundBounds.min,'spectator outside combat lane');}const source=fs.readFileSync('dist/casino-view192.js','utf8'),m=source.match(/kind==='slot'\\|\\|kind==='video'\\?(\\d+)\\/props\\[0\\]\\.h/);assert(m,'Casino height source adapter changed; review it instead of silently using an old height.');const height=+m[1];rows.push({id:'casino-slot',category:'slotMachine',height,depthScale:1});issues.push(...V.scale(rows.at(-1),S.categories));\r\n                                                                                                                                                                                                                                                                                                                                            ^\r\n\r\nTypeError: Cannot read properties of undefined (reading 'height')\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\qa242-scenes.cjs:3:333)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 230
+    }
+  ],
+  "scope": "Audit sample, not full273suite run. Output writes relocated; original test bodies and assertions unchanged."
+}

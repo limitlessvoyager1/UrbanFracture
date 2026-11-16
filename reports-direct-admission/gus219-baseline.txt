@@ -1,0 +1,162 @@
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS219 all standing contacts and native timelines at30/60/120Hz
+PASS219 separate jab/bash, evasion, missed moves and recovery survives hit/state changes
+PASS219 six heroes×both facings×30/60/120Hz aerial synchronization, actual contacts/impact/recovery; lane/range/immunity/neutral-bait/interruption exclusions
+PASS219 stomp eligibility, synchronized protection, no KD extension, finite cooldown
+PASS219 single exact25% roll, delayed25% healing, hit/death/grab interruption, one persistent collectible and no retry
+node:assert:150
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: no new Orion counter
++ actual - expected
+
++ null
+- {
+-   actionInstance169: 133,
+-   active219: [
+-     0.08333333333333333
+-   ],
+-   active: 0.08333333333333333,
+-   aimX: 500,
+-   aimY: 480,
+-   antiAir: false,
+-   armorProfile143: {
+-     class: 'designated strong windows',
+-     source: 'existing armor classifier'
+-   },
+-   attempts219: Set(0) {},
+-   category219: 'weaponString',
+-   commitment147: true,
+-   contacts219: Set(0) {},
+-   counterable: true,
+-   damage: 18,
+-   damages219: [
+-     18
+-   ],
+-   def219: {
+-     active: [
+-       5
+-     ],
+-     category: 'weaponString',
+-     damage: [
+-       18
+-     ],
+-     name: 'crowbarQuick219',
+-     reach: 150,
+-     recovery: 30,
+-     times: [
+-       17
+-     ],
+-     weapon: true
+-   },
+-   dir219: 1,
+-   done: true,
+-   enemyType148: 'enforcer',
+-   firstHit135: 0.2833333333333333,
+-   fromX219: 420,
+-   gus219: true,
+-   gusKind219: 'quick',
+-   hitAt: 0.2833333333333333,
+-   hitbox219: {
+-     A: {
+-       x: 461.2006410524456,
+-       y: 345.9719618619937
+-     },
+-     B: {
+-       x: 546.294748796045,
+-       y: 249.10655531446892
+-     },
+-     plane: 480
+-   },
+-   hits: Set(0) {},
+-   iFrames: false,
+-   kind219: 'quick',
+-   name: 'crowbarQuick219',
+-   plane219: 480,
+-   reach: 150,
+-   recovery219: 0.36666666666666664,
+-   strike: 0,
+-   t: 0.2833333333333333,
+-   times219: [
+-     0.2833333333333333
+-   ],
+-   times: [
+-     0.2833333333333333
+-   ],
+-   total: 0.8666666666666667,
+-   weapon: 'crowbar'
+- }
+
+    at Object.<anonymous> (C:\Users\spiri\Documents\Codex\2026-11-12\urban-fracture-source-code-audit-and\work\Urban-Fracture\tests\gus219.cjs:24:368)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: null,
+  expected: {
+    name: 'crowbarQuick219',
+    total: 0.8666666666666667,
+    t: 0.2833333333333333,
+    hitAt: 0.2833333333333333,
+    done: true,
+    hits: Set(0) {},
+    aimX: 500,
+    aimY: 480,
+    iFrames: false,
+    gusKind219: 'quick',
+    gus219: true,
+    kind219: 'quick',
+    def219: {
+      name: 'crowbarQuick219',
+      times: [ 17 ],
+      active: [ 5 ],
+      recovery: 30,
+      damage: [ 18 ],
+      reach: 150,
+      weapon: true,
+      category: 'weaponString'
+    },
+    category219: 'weaponString',
+    times219: [ 0.2833333333333333 ],
+    times: [ 0.2833333333333333 ],
+    active: 0.08333333333333333,
+    active219: [ 0.08333333333333333 ],
+    damage: 18,
+    damages219: [ 18 ],
+    reach: 150,
+    weapon: 'crowbar',
+    antiAir: false,
+    counterable: true,
+    dir219: 1,
+    plane219: 480,
+    fromX219: 420,
+    recovery219: 0.36666666666666664,
+    contacts219: Set(0) {},
+    attempts219: Set(0) {},
+    actionInstance169: 133,
+    firstHit135: 0.2833333333333333,
+    enemyType148: 'enforcer',
+    armorProfile143: {
+      class: 'designated strong windows',
+      source: 'existing armor classifier'
+    },
+    commitment147: true,
+    strike: 0,
+    hitbox219: {
+      A: { x: 461.2006410524456, y: 345.9719618619937 },
+      B: { x: 546.294748796045, y: 249.10655531446892 },
+      plane: 480
+    }
+  },
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.21.0

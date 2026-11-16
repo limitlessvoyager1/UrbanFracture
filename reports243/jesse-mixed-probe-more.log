@@ -1,0 +1,24 @@
+SEED 5 exit 0
+
+
+SEED 6 exit 0
+
+
+SEED 7 exit 0
+
+
+SEED 8 exit 0
+
+
+SEED 9 exit 0
+
+
+SEED 10 exit 0
+
+
+SEED 11 exit 0
+
+
+SEED 12 exit 0
+ZERO_HISTORY {"ally":"enforcer","debug":{"gunCoordinator":null,"hero":{"jump":0,"phase":"grounded","elevation":0,"hurtbox":{"left":1010.09208512,"right":1063.90791488,"top":325.89103295999996,"bottom":437.1919536},"inv":0},"enemies":[{"id":2135,"hp":65,"hasKnife":true,"knifeDisarmed":false,"ammo":6,"maxAmmo":6,"state":"close knife","frame":0,"recovery":0,"destination":{"x":713.3857739285025,"y":505.5767195727756},"path":true,"distance":159.81422607149773,"firingEligible":false,"reload":null,"rollReady":0,"lastResult":null,"history":[]}]},"actors":[{"type":"robber","hp":65,"x":877.1857739285023,"y":505.5767195727756},{"type":"enforcer","hp":115,"x":903.1231321586841,"y":464.891149707619}],"hero":{"hp":9760,"x":1037,"y":480,"down":0.4999999999999991,"held":false},"director":{"version":148,"encounter":"downtown:57","enabled":true,"budget":3,"baseline":3,"costs":{"light":1,"grab":1.5,"heavy":2,"weaponString":2,"firearm":2,"bossSpecial":3},"reserved":0,"primary":2136,"secondary":null,"roles":{"2135":{"type":"robber","role":"RangedSupport"},"2136":{"type":"enforcer","role":"PrimaryAttacker"}},"observations":{},"adaptation":{},"reactionDelay":0.45,"damage3":{"total":38,"locked":26},"damage5":{"total":38,"locked":26},"reliefUntil":0,"reservations":[],"requests":[{"at":5.883333333333318,"enemy":2136,"attack":"frontKick","cost":2,"category":"heavy","target":"hero","duration":1.0333333333333332,"distance":107.85512799163564,"depth":10.201483605317037,"priority":2,"granted":true,"reason":null},{"at":7.666666666666645,"enemy":2136,"attack":"frontKick","cost":2,"category":"heavy","target":"hero","duration":1.0333333333333332,"distance":88.82457224369148,"depth":3.231854798692325,"priority":2,"granted":true,"reason":null},{"at":10.183333333333419,"enemy":2136,"attack":"frontKick","cost":2,"category":"heavy","target":"hero","duration":1.0333333333333332,"distance":107.76116521895904,"depth":9.724426014070843,"priority":2,"granted":true,"reason":null},{"at":11.96666666666684,"enemy":2136,"attack":"oneTwo","cost":2,"category":"heavy","target":"hero","duration":1.4666666666666668,"distance":88.63402570670235,"depth":3.0244027412464334,"priority":2,"granted":true,"reason":null},{"at":16.450000000000347,"enemy":2136,"attack":"frontKick","cost":2,"category":"heavy","target":"hero","duration":1.0333333333333332,"distance":86.54508571273573,"depth":2.4632091698799172,"priority":2,"granted":true,"reason":null},{"at":19.40000000000018,"enemy":2136,"attack":"oneTwo","cost":2,"category":"heavy","target":"hero","duration":1.4666666666666668,"distance":88.07297088543123,"depth":0.7523130449208679,"priority":2,"granted":true,"reason":null},{"at":23.48333333333328,"enemy":2136,"attack":"frontKick","cost":2,"category":"heavy","target":"hero","duration":1.0333333333333332,"distance":110.88826068142043,"depth":5.216440024917517,"priority":2,"granted":true,"reason":null},{"at":23.533333333333278,"enemy":2135,"attack":"robberStab","cost":1,"category":"light","target":"hero","duration":0.7666666666666666,"distance":108.896725373408,"depth":24.88803641950898,"priority":1,"granted":false,"reason":"overlapping commitments"},{"at":23.616666666666607,"enemy":2135,"attack":"robberStab","cost":1,"category":"light","target":"hero","duration":0.7666666666666666,"distance":109.98004367828935,"depth":24.893742680982257,"priority":1,"granted":false,"reason":"overlapping commitments"},{"at":23.749999999999932,"enemy":2135,"attack":"robberStab","cost":1,"category":"light","target":"hero","duration":0.7666666666666666,"distance":109.64671262401885,"depth":24.91071482955948,"priority":1,"granted":false,"reason":"overlapping commitments"},{"at":23.866666666666593,"enemy":2135,"attack":"robberStab","cost":1,"category":"light","target":"hero","duration":0.7666666666666666,"distance":106.64671694015976,"depth":24.928728947615014,"priority":1,"granted":false,"reason":"overlapping commitments"},{"at":28.016666666666357,"enemy":2136,"attack":"oneTwo","cost":2,"category":"heavy","target":"hero","duration":1.4666666666666668,"distance":89.757410504998,"depth":0.283061160012096,"priority":2,"granted":true,"reason":null}],"gunnerTarget":null}}
+

@@ -1,0 +1,98 @@
+{
+  "build": 244,
+  "checkpoint": "checkpoint-before-broxton244",
+  "parent": "938a330ff1a8606c46b50b7002e2bbd91f9e774f",
+  "sourceFingerprint": "206fbd59e416b1177fd8f4137372a304cd1d554b48372a52682914952be537e0",
+  "counts": {
+    "executed": 24,
+    "passed": 24,
+    "failed": 0,
+    "notExecuted": 5
+  },
+  "decision": {
+    "status": "needs-review",
+    "stable": false,
+    "failed": [],
+    "missing": []
+  },
+  "manualGates": [
+    {
+      "id": "approved-screenshots"
+    },
+    {
+      "id": "art-style-review"
+    },
+    {
+      "id": "all-moves-coverage"
+    },
+    {
+      "id": "physical-dualsense"
+    },
+    {
+      "id": "human-balance"
+    }
+  ],
+  "browserReview": [
+    "Native game launch / Broxton / Central Station",
+    "Near civilians at actual opaque170px reference",
+    "Departures board inside mounted panorama housing",
+    "Corrected two-arm follow-through in both facings",
+    "Native complete lariat hits2targets64/48 then returns to idle"
+  ],
+  "anatomyCorrection": "Manual generated-art repair requested by user; only frame6 replaced",
+  "automaticQACorrections": [],
+  "modified": [
+    "M AGENTS.md",
+    " M dist/broxton-repair189.js",
+    " M dist/broxton179.js",
+    " M dist/charge130.js",
+    " M dist/core.js",
+    " M dist/forest-qa239.js",
+    " M dist/government-polish190.js",
+    " M dist/index.html",
+    " M dist/input226.js",
+    " M dist/street209.js",
+    " M dist/subway-view238.js",
+    " M qa/system242/suites.json",
+    " M reports242/LATEST.md",
+    " M reports242/assets.json",
+    " M reports242/campaign224-PRISON224-results.json",
+    " M reports242/campaign224.log",
+    " M reports242/current-runtime-certification.log",
+    " M reports242/current216-legacy.log",
+    " M reports242/latest.json",
+    " M reports242/runtime.json",
+    " M reports242/security216-legacy.log",
+    " M reports242/validator-self-tests.log",
+    "?? BROXTON244.md",
+    "?? dist/assets/sprites/broxton-lariat244-0.webp",
+    "?? dist/assets/sprites/broxton-lariat244-1.webp",
+    "?? dist/assets/sprites/broxton-lariat244-10.webp",
+    "?? dist/assets/sprites/broxton-lariat244-11.webp",
+    "?? dist/assets/sprites/broxton-lariat244-2.webp",
+    "?? dist/assets/sprites/broxton-lariat244-3.webp",
+    "?? dist/assets/sprites/broxton-lariat244-4.webp",
+    "?? dist/assets/sprites/broxton-lariat244-5.webp",
+    "?? dist/assets/sprites/broxton-lariat244-6-fixed.webp",
+    "?? dist/assets/sprites/broxton-lariat244-7.webp",
+    "?? dist/assets/sprites/broxton-lariat244-8.webp",
+    "?? dist/assets/sprites/broxton-lariat244-9.webp",
+    "?? dist/broxton-lariat244-data.js",
+    "?? dist/broxton-lariat244-view.js",
+    "?? dist/broxton244.html",
+    "?? reports242/broxton244-controller.log",
+    "?? reports242/broxton244-view.log",
+    "?? reports242/broxton244.log",
+    "?? reports244/",
+    "?? source-art/broxton244/",
+    "?? tests/broxton244-controller.cjs",
+    "?? tests/broxton244-view.cjs",
+    "?? tests/broxton244.cjs"
+  ],
+  "knownLimits": [
+    "Existing suites may use older fixture boundaries; current-runtime-certification uses production order.",
+    "Metadata scale envelopes are not full rendered-body measurements.",
+    "No all-move, all-level, all-NPC, physical hardware or human artistic/balance certification.",
+    "Source hash inventory is a change detector, never an artistic approval."
+  ]
+}

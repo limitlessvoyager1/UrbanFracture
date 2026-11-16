@@ -1,0 +1,112 @@
+{
+  "rows": [
+    {
+      "label": "forest-balance177",
+      "args": [
+        "tests/forest-balance177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS177 confirmed guard bypass/offlane exclusion,5-bolt40/28/20 piercing budgets18% chip,poison power/guard,30% delayed defenses,standard/rawSony/DSX all6 grabs\n",
+      "stderr": "",
+      "elapsedMs": 881,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "forest-fixture177",
+      "args": [
+        "tests/forest-fixture177.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS Forest fixture/current runtime 343 checks; isolated imports, 36 mirrored/rate timing cases, 12 native-HP + 12 lethal cases, energy and ownership\n",
+      "stderr": "",
+      "elapsedMs": 7132,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "guard331",
+      "args": [
+        "tests/guard331.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS331 102 seven heroes, both facings, ready/post-rise damage interception, lethal guard refill\n",
+      "stderr": "",
+      "elapsedMs": 654,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "combat274",
+      "args": [
+        "tests/combat274.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n",
+      "stderr": "",
+      "elapsedMs": 12704,
+      "expectedExit": 0,
+      "passed": true
+    },
+    {
+      "label": "negative: fixture imports executable test",
+      "args": [
+        "tests/forest-fixture177.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: [eval]:3\r\r\nM._load=function(id,parent,...args){const file=M._resolveFilename(id,parent);if(/[\\\\/]tests[\\\\/]/.test(file))throw Error('Executable test imported: '+file);return old.call(this,id,parent,...args);};\r\r\n                                                                                                             ^\r\r\n\r\r\nError: Executable test imported: C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\gunner173.cjs\r\r\n    at M._load ([eval]:3:116)\r\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\r\n    at Module.require (node:internal/modules/cjs/loader:1463:12)\r\r\n    at require (node:internal/modules/helpers:147:16)\r\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tools\\forest177\\fixture.cjs:5:1)\r\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\r\n    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)\r\r\n\r\r\nNode.js v22.21.0\r\r\n\r\n\r\n1 !== 0\r\n\r\n    at eq (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest-fixture177.cjs:3:44)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest-fixture177.cjs:12:1)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 1,\r\n  expected: 0,\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 124,
+      "expectedExit": 1,
+      "expectedText": "Executable test imported",
+      "passed": true
+    },
+    {
+      "label": "negative: strike adds one damage",
+      "args": [
+        "tests/forest177.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: combo budget 1 30\r\n\r\n33 !== 30\r\n\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest177.cjs:5:177)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 33,\r\n  expected: 30,\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 454,
+      "expectedExit": 1,
+      "expectedText": "budget",
+      "passed": true
+    },
+    {
+      "label": "negative: action adds one frame",
+      "args": [
+        "tests/forest-fixture177.cjs"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "node:assert:150\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: native action duration\r\n+ actual - expected\r\n\r\n+ 1.9833333333333334\r\n- 1.9666666666666666\r\n     ^\r\n\r\n    at eq (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest-fixture177.cjs:3:44)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\forest-fixture177.cjs:25:33)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 1.9833333333333334,\r\n  expected: 1.9666666666666666,\r\n  operator: 'strictEqual',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n",
+      "elapsedMs": 902,
+      "expectedExit": 1,
+      "expectedText": "native action duration",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0
+  },
+  "visual": "Not executed; rendering repair remains separate",
+  "historical": "Missing historical receipts remain unavailable; behavioral pass is not historical certification"
+}

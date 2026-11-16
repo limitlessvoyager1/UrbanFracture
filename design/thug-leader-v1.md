@@ -1,0 +1,5 @@
+# Thug Leader — stage 1 boss
+Concept only, not implemented. Visual reference: ../concept-art/thug-leader-concept-v1.png.
+Cleaner and more polished than regular thugs; styled dark hair, leather vest, burgundy shirt, boots, tattoos, cocky volatile grin. 300 HP; faster than Enforcer. One weapon equipped at a time.
+Punch combo 10+14 damage; bat swing 24; knife lunge 18; overhead pipe 26 with knockdown. Bat starts equipped; knife phase below 65% HP, pipe phase below 30%, each with visible weapon change. Heavy swings take damage normally but resist ordinary hit interruption during committed active movement; startup and recovery are vulnerable. Clear wind-ups and punishable misses.
+Ground follow-up: raises weapon visibly after player knockdown, then up to two non-graphic arcade strikes at 8 damage each. Allow a sideways recovery roll before first strike; no unavoidable ground loop. End with protected player recovery and a cooldown on further ground pursuit. Boss cannot damage grounded player with ordinary attacks. These values are initial tuning targets.

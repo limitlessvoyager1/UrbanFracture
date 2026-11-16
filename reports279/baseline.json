@@ -1,0 +1,21 @@
+{
+  "commit": "451b89c5f47d5e4bf37b59a02d71af46559781ba",
+  "before": {
+    "grab": {
+      "frames": 20,
+      "replacement": false
+    },
+    "special": null,
+    "legacyPending": false
+  },
+  "after": {
+    "grab": {
+      "stage": 1,
+      "frames": 32,
+      "replacement": true
+    },
+    "special": "sword",
+    "legacyPending": false
+  },
+  "defectsReproduced": true
+}

@@ -1,0 +1,10 @@
+# Downtown After Dark — playable sample build 02
+Integrated references: Reina, Street Thug, Enforcer, Thug Leader, downtown nighttime panorama. Original concepts are served in assets and linked from the cast gallery. The panorama is the actual scrolling game backdrop. Combat uses code-drawn pixel characters with articulated poses derived from the reference costumes; these are prototype animations, not completed hand-drawn production sprite sheets.
+
+Three gated encounters: pizza row (3 thugs, one initially armed), alley (2 thugs and Enforcer), bank (Thug Leader). Checkpoints between encounters, retry current encounter after defeat. Pizza heals 30 HP, transition heals 15, destructible crates/bins drop food. Sound effects are synthesized, opt-in; no music track.
+
+Implemented Reina actions: four-hit combo, run kick, jump kick, sweep, ground attack, dodge, front/rear grab, knee strikes, directional throw, vault, rear suplex/shove, heavy-enemy leg reap, boss shove, radial/dash/aerial sword specials with costs. Enemy actions: two-punch combo, power hook, conditional knife draw, knife attacks, Enforcer grab/knees/body slam/overhead slam, leader bat/knife/pipe phases, interruption armor, ground follow-up with escape roll.
+
+Desktop: WASD/arrows, Shift run, J attack, K jump/vault/roll, G grab/release, Q dodge, L special, P pause. Touch has on-screen movement/action buttons; running is a desktop extra in this build. No controller support yet. Rear suplex uses back relative to facing after vault, so after vaulting from left to right, press right + J. Enemy attacks are lane-dependent and telegraphed. Input buffers are shared between keyboard and touch.
+
+Checks: node --check dist/core.js; node --check dist/game.js; node tests/combat.test.cjs; node tests/full-level.test.cjs. Browser preview checks cover artwork loading, start/pause, movement, sword cost, controls layout, and runtime rendering. Full deterministic simulation verifies all three encounters can be completed with ordinary player commands, without damage/health overrides. Performance and game feel still benefit from user testing on real devices.

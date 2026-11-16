@@ -1,0 +1,495 @@
+{
+  "baseline": "a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0",
+  "result": "passed",
+  "errors": [],
+  "failed": [
+    {
+      "version": "baseline",
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "version": "baseline",
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "version": "fixed",
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "version": "fixed",
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "bodyPairs": 12,
+  "scope": "Native production index/Canvas2D; controlled direct-cap calls plus native powerbomb, Saito counter and direct legal wake. Four body samples per exception are pixel-identical; keyframe inspection is separate from automated parity. Not campaign or full-motion certification.",
+  "rows": [
+    {
+      "scenario": "direct-cap",
+      "version": "baseline",
+      "initial": {
+        "actions": [
+          "frontKick",
+          "frontKick",
+          "frontKick"
+        ],
+        "pressure": 6,
+        "commitments": 3,
+        "paired": false
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "frontKick",
+            "frontKick",
+            "frontKick"
+          ],
+          "held": false
+        },
+        {
+          "frame": 24,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "frontKick",
+            "frontKick",
+            "frontKick"
+          ],
+          "held": false
+        },
+        {
+          "frame": 60,
+          "hp": 83,
+          "enemyHp": 115,
+          "actions": [
+            "frontKick",
+            "frontKick",
+            "frontKick"
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 83,
+          "enemyHp": 115,
+          "actions": [
+            null,
+            null,
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 83
+      }
+    },
+    {
+      "scenario": "powerbomb",
+      "version": "baseline",
+      "initial": {
+        "actions": [
+          "powerBomb"
+        ],
+        "pressure": 1.5,
+        "commitments": 1,
+        "paired": true
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "powerBomb"
+          ],
+          "held": true
+        },
+        {
+          "frame": 24,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "powerBomb"
+          ],
+          "held": true
+        },
+        {
+          "frame": 60,
+          "hp": 72,
+          "enemyHp": 115,
+          "actions": [
+            "powerBomb"
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 72,
+          "enemyHp": 115,
+          "actions": [
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 72
+      }
+    },
+    {
+      "scenario": "counter",
+      "version": "baseline",
+      "initial": {
+        "actions": [
+          "martialKickCounter212"
+        ],
+        "pressure": 2,
+        "commitments": 1,
+        "paired": true
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 90,
+          "actions": [
+            "martialKickCounter212"
+          ],
+          "held": true
+        },
+        {
+          "frame": 24,
+          "hp": 82,
+          "enemyHp": 90,
+          "actions": [
+            "martialKickCounter212"
+          ],
+          "held": false
+        },
+        {
+          "frame": 60,
+          "hp": 82,
+          "enemyHp": 90,
+          "actions": [
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 82,
+          "enemyHp": 90,
+          "actions": [
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 82
+      }
+    },
+    {
+      "scenario": "wake",
+      "version": "baseline",
+      "initial": {
+        "actions": [
+          "wakeSweep"
+        ],
+        "pressure": 1,
+        "commitments": 1,
+        "paired": false
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 65,
+          "actions": [
+            "wakeSweep"
+          ],
+          "held": false
+        },
+        {
+          "frame": 24,
+          "hp": 86,
+          "enemyHp": 65,
+          "actions": [
+            "wakeSweep"
+          ],
+          "held": false
+        },
+        {
+          "frame": 60,
+          "hp": 86,
+          "enemyHp": 65,
+          "actions": [
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 86,
+          "enemyHp": 65,
+          "actions": [
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 86
+      }
+    },
+    {
+      "scenario": "direct-cap",
+      "version": "fixed",
+      "initial": {
+        "actions": [
+          "frontKick",
+          null,
+          null
+        ],
+        "pressure": 2,
+        "commitments": 1,
+        "paired": false
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "frontKick",
+            null,
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 24,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "frontKick",
+            null,
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 60,
+          "hp": 83,
+          "enemyHp": 115,
+          "actions": [
+            "frontKick",
+            null,
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 83,
+          "enemyHp": 115,
+          "actions": [
+            null,
+            null,
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 83
+      }
+    },
+    {
+      "scenario": "powerbomb",
+      "version": "fixed",
+      "initial": {
+        "actions": [
+          "powerBomb"
+        ],
+        "pressure": 1.5,
+        "commitments": 1,
+        "paired": true
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "powerBomb"
+          ],
+          "held": true
+        },
+        {
+          "frame": 24,
+          "hp": 105,
+          "enemyHp": 115,
+          "actions": [
+            "powerBomb"
+          ],
+          "held": true
+        },
+        {
+          "frame": 60,
+          "hp": 72,
+          "enemyHp": 115,
+          "actions": [
+            "powerBomb"
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 72,
+          "enemyHp": 115,
+          "actions": [
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 72
+      }
+    },
+    {
+      "scenario": "counter",
+      "version": "fixed",
+      "initial": {
+        "actions": [
+          "martialKickCounter212"
+        ],
+        "pressure": 2,
+        "commitments": 1,
+        "paired": true
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 90,
+          "actions": [
+            "martialKickCounter212"
+          ],
+          "held": true
+        },
+        {
+          "frame": 24,
+          "hp": 82,
+          "enemyHp": 90,
+          "actions": [
+            "martialKickCounter212"
+          ],
+          "held": false
+        },
+        {
+          "frame": 60,
+          "hp": 82,
+          "enemyHp": 90,
+          "actions": [
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 82,
+          "enemyHp": 90,
+          "actions": [
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 82
+      }
+    },
+    {
+      "scenario": "wake",
+      "version": "fixed",
+      "initial": {
+        "actions": [
+          "wakeSweep"
+        ],
+        "pressure": 1,
+        "commitments": 1,
+        "paired": false
+      },
+      "samples": [
+        {
+          "frame": 6,
+          "hp": 105,
+          "enemyHp": 65,
+          "actions": [
+            "wakeSweep"
+          ],
+          "held": false
+        },
+        {
+          "frame": 24,
+          "hp": 86,
+          "enemyHp": 65,
+          "actions": [
+            "wakeSweep"
+          ],
+          "held": false
+        },
+        {
+          "frame": 60,
+          "hp": 86,
+          "enemyHp": 65,
+          "actions": [
+            null
+          ],
+          "held": false
+        },
+        {
+          "frame": 180,
+          "hp": 86,
+          "enemyHp": 65,
+          "actions": [
+            null
+          ],
+          "held": false
+        }
+      ],
+      "final": {
+        "held": false,
+        "holding": false,
+        "action": null,
+        "hp": 86
+      }
+    }
+  ]
+}

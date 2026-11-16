@@ -1,0 +1,9 @@
+{
+  "baseline": "a973216b910e63964f5b8400c1f8a517ba6d0999",
+  "sourceDelta": "one metadata field and explanatory comment; index cache token only",
+  "otherDistFilesUnchanged": true,
+  "cases": 358,
+  "snapshots": 73080,
+  "result": "passed",
+  "scope": "Exact selected HP/defense/action/position/physical/reassessment/reaction fields. Intentionally corrected receipt.reassessUntil is excluded; all enforced deadlines included. Not exhaustive all-move certification."
+}

@@ -1,0 +1,68 @@
+URBAN FRACTURE — PRIVATE AI DECISION-REASON CORRELATION (A3-02)
+Date: 2026-11-12
+Branch: fix/ai-decision-reason-correlation
+Production baseline: dd07a7a819eca2c3b8753ba80c76fc3b3ac2554d
+Audit retained: add71120da098ca1a13535364899e131e8cd7d67
+
+RESULT / ROOT CAUSE
+Stale native denials are no longer promoted to current AI reasoning. A successful retry no longer embeds pressure budget as its current selectionReason; a later rejection with no fresh native explanation now reports N/A.
+Previously snapshot.selectionReason directly used persistent denied135, and new rejected events reused it without evidence that this attempt produced the reason. Denial and grant can share a timestamp. Native gameplay owns and consumes denied135, so clearing it would be an unsafe display fix.
+
+SCOPED CORRECTION
+dist/ai-observer288.js:
+- Per-game private WeakMaps track observed attempts and admitted action identities. Separate private sequences order attempts sharing the same native time. No new gameplay action IDs or RNG calls.
+- Before/after identity checks correlate fresh native denials or a fresh per-actor Director rejection row, including bounded-list rollover and wrappers that expose no Director row.
+- Admitted actions have no rejection reason. Explicitly unexposed reasons remain N/A. A grant reports admission, not why AI selected the move. Legacy selectionReason now explicitly says native move-selection reasoning is unexposed; correlated rejection reasons live under lastObservedAttempt.
+- Direct-start observation added; nested enemyAct->start is recorded once. Existing return values and exception identity propagate. Native calls are never retried or re-admitted for observation.
+- Current action identity is tracked separately from the last attempted action: a denied replacement can coexist with an earlier admitted action.
+- Private correlation is invalidated on clear, recording transitions, reset, zone/player changes, clock rewind and observed removal/replacement. Native fields and detached historical events remain intact. History stays bounded1200; removed actor metadata uses weak keys.
+dist/ai-inspector288.js:
+- Separate Live actor state; Last observed attempt and action correlation; Historical native denial and last Director request.
+- Native controller fields, candidate data and existing freshness warnings are presented as native history. Existing source/recording/clear/export controls retained.
+dist/index.html: only two cache tokens.
+No Director/controller/denial-clearing/AI selection/damage/frame/physics implementation changed.
+
+TESTS
+New tests/ai-decision-reasons.cjs:353checks pass. Read-only baseline adapter reproduces expected failure before the correction at historical denial is not current selection reason.
+Coverage:8families/both entry paths, same-time retry, unexplained early rejection, genuine wrapper denial/no Director row, utility admission, bounded request-list identity, direct/nested deduplication, active action versus rejected replacement, return values/exceptions, clear/off/late enable/reset/rewind/zone/actor identity, outer-guard coverage, detached history/projection, bounded event history, no extra requests/RNG/native mutation. One receipt-only adapter tests a fresh Director rejection without a new actor denial; not a native encounter claim.
+Critical initial/release registry entry added. Existing tests/assertions unchanged.
+All28distinct executed suites passed; no final failures among those suites. Full names, codes and output in tests.json. Includes retained direct admission517, actionability6813, reactions742, collision4563, height1774, hitstun19208, knockdown89115, reassessment1192, reaction deadlines49620, playback/continuity, diagnostic runtime/UI, specialist/counters/vault, previous Reina/Niko, simulated controller and receipt/QA self-tests.
+Previously documented unrelated Gus/legacy controller aggregate failures were not rerun or repaired here; not claimed passed.
+
+PRESERVATION
+tools/ai-reason/compare.cjs:18native scenarios/108runs/36,525matched pre/post snapshots, observer disabled/enabled/frequent reads. Reina/Niko at30/60/120Hz, street trio, Saito/Akari/Flint and Jesse/Talon/Jaguar. Native HP, passive player, up to12seconds/death.
+Actor primitive and action/controller data, HP, physical clocks, raw denials/reactions, Director requests/pressure and RNG hashes match the approved baseline in each mode. Diagnostic records intentionally differ.
+tools/ai-reason/source-proof.cjs:only observer/inspector/index changed in production. Original AI/damage observation paths, copy/source adapters, native snapshot fields and inspector controls/export handlers preserved; index differences are two cache tokens. All native controller/Director/state/damage/move sources unchanged.
+No combat balance or timing data altered. No native denials/requests erased or retimestamped.
+
+RENDERED INSPECTOR — VERIFIED AND INSPECTED
+Actual Chromium production index/Canvas2D and actual AIInspector288 mount; baseline/fixed modules compared for two same-time fixtures:
+1. Old inspector shows a granted request plus selectionReason pressure budget. New inspector shows admitted outcome/rejectionReason null and matches observed admission; raw pressure-budget denial at0 remains separately historical.
+2. Old rejection inherits pressure budget despite no fresh native reason. New inspector shows rejected outcome with N/A/unavailable reason, while retaining historical denial/request.
+Actual selected actor ID, headings, JSON panes and downloaded native-history exports asserted. Baseline/fixed screenshots visually inspected. Six native body/HP/action-clock samples (frames0/6/24 across2fixtures) are identical. Page errors0; the same two legacy concept preload404s persist.
+The isolated verification host repositions the existing inspector for capture only. No new UI panel controller or animation repair. Not a full-motion/campaign/hardware certification.
+Local browser access initially denied and then permitted by user. The first harness selection occurred before dropdown roster population; fixed harness now populates first and asserts target identity. No incorrect visual result accepted.
+
+HISTORICAL / COVERAGE LIMITS
+17collision+1height+9reaction receipts remain explicitly UNAVAILABLE; strict CLIs exit2. No missing proof marked passed, no historical adapters weakened. Release certification remains blocked.
+Later outer physical guards can reject before this observer layer runs. The inspector explicitly states coverage limits; last observed does not mean no later decision occurred. Native selection weights/random reasons are not reconstructed.
+Earlier audit scripts remain frozen pre-repair defect observations, not current acceptance tests.
+No complete campaign, physical controller or optional Node canvas certification; original complete source archives retained. Delivered package remains cumulative overlay rather than complete game export.
+
+FILES / RUN
+Production:dist/ai-observer288.js,dist/ai-inspector288.js,dist/index.html.
+Tests:tests/ai-decision-reasons.cjs; qa/system242/suites.json.
+Verification:tools/ai-reason/{baseline,compare,render,source-proof}.cjs; reports-ai-reason; COMBAT_REPAIR_LOG.md.
+From project root:
+  node tests/ai-decision-reasons.cjs
+  node tools/ai-reason/compare.cjs
+  node tools/ai-reason/source-proof.cjs
+  node tools/ai-reason/render.cjs
+UF_GIT may name Git; UF_PLAYWRIGHT_MODULE and PLAYWRIGHT_BROWSERS_PATH locate the existing browser runtime. Native regression suite needs no historical commits; optional baseline comparisons use the locally available approved baseline.
+Expected baseline failure:
+  node --require ./tools/ai-reason/baseline.cjs tests/ai-decision-reasons.cjs
+
+INTEGRATION / NEXT
+Dedicated repair integrated into cumulative stable after verification; prior repairs and audit retained. Original import/eight archives recoverable.
+Keep native reason lifetime, selection weights, feedback deduplication, historical crowd/grapple suite portability, obsolete Nightshade test and unrelated counter/input failures separate.
+Recommended next:separate A3-03 crowd/grapple regression portability proposal, keeping missing receipts unavailable and authored grapple/AI behavior unchanged.

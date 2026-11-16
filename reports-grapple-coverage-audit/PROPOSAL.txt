@@ -1,0 +1,92 @@
+URBAN FRACTURE — REMAINING ASSIGNMENT3 GRAPPLE COVERAGE / RENDERING AUDIT
+Date:2026-11-12
+Branch:audit/assignment3-grapple-coverage-rendering
+Baseline / cumulative stable:f00cc9c9fdce8f2c70a875a2de6e380371c67720
+AUDIT ONLY. Production, existing tests, QA registry and artwork unchanged. No package installed.
+
+RECOMMENDATION
+First:A3-G01, isolate the three Forest/Gunner grapple suites from executable legacy test imports and give them current-production fixtures and explicit registry coverage.
+Separately:A3-R01, establish a reproducible current fighter-render bootstrap and rendering prerequisites.
+No newly confirmed AI/damage/timing or grapple animation defect justifies a gameplay repair. Do not combine these test-infrastructure repairs or restore older move behavior to make a legacy test green.
+
+PRIORITY / CONFIRMED FINDINGS
+A3-G01:high coverage impact / medium implementation complexity / low gameplay risk if fixture-only.
+forest177 imports gunner173 as a fixture. That import executes Gunner assertions and fails at gunner173.cjs:13, expected task.kind intercept, actual undefined. Forest's own assertions never begin. forest-protection177 and forest-balance177 import forest177 and gunner173, so the same dependency blocks all three. The cause of the Gunner result itself is not resolved or declared harmless; keep its failure visible and separate. Current Forest smoke succeeds, so this failure is not evidence that all six grapple implementations are broken.
+
+A3-R01:high shared visual-assurance impact / medium complexity and resource risk.
+tools/reactions290/render.cjs unconditionally requires @napi-rs/canvas. Actual grapples301-view reap-thug invocation fails MODULE_NOT_FOUND before rendering. Package also does not resolve through the known bundled browser runtime; no root package.json declares/pins it.
+Even if dependency installation succeeds, the loader's fixed view allowlist is not the shipping fighter chain: current enemy-view312.js, enemy-view313.js and unique-view311.js are omitted while their data modules can be selected. enemy-view313 explicitly delegates Nightshade329 flight and held-body rendering. This is a confirmed bootstrap/coverage gap, NOT a demonstrated wrong pixel in the real game. Do not treat installation alone as current-render certification.
+
+A3-G02:medium / legacy Niko baseline loader.
+niko185 cuts loading after niko185.js (index76), but current code calls Grab223.classify from a later module (index111). Unchanged legacy entry throws that missing-dependency error. Later current-runtime Niko283/284/Reverse285/LegThrow286 suites pass substantial coverage; the old entry's failure is not proof all Niko takedowns lack coverage.
+
+A3-G03:medium / Broxton move identity and legacy-fixture coverage.
+Broxton179/Shield181 pass through a legacy loader ending environment-controller162.js (index73), well before the current simulation boundary woods139.js (index208 plus explicit late hooks). Powerbomb136 tests stop earlier at index45, before Broxton179 index68, and certify an earlier front-grab Special contract.
+Current native front-hold Special selects broxGrapple179/choke,72damage in the controlled fixture. Current standing forward Special goes broxGrabDash->broxPowerSlam,47damage, without powerbomb136 flag. Thus the passing older63damage Powerbomb136 test is not proof of that current input path. Preserve approved current dispatch/costs; do not restore the older front-grab Special or alter damage just because the master assignment calls it Powerbomb. Add separately reviewed coverage of actual current entry paths.
+
+A3-G04:medium / stale Nightshade dedicated contract.
+nightshade329 fails grounded hero before reaching later secondary-collision/resistance/obstacle/interruption checks. Approved Build330 intentionally uses a vault and release44; current repairs330 passes vault>=95,12poses,release44,27primary and3distinct secondary contacts in both facings at60Hz. Current Nightshade258 also passes all4directional moves at3rates and target controls.
+Old329 also contains25/26tick flight setup assumptions from the earlier release; removing only the grounded assertion would not properly modernize it. Port the current contract separately while retaining once-per-target/resistance/obstacle/interruption/reset checks. No production knockback rewrite proposed.
+
+COVERAGE MATRIX
+Reina German/Outer Reap:
+Current shared grapples301 passes22,791checks/40fixtures with Bruno Powerbomb victim-Reina cases, mirrors,60/120Hz,two lanes and lifecycle controls. reina279 passes17,892current grab/strike/crowd assertions. Missing: shared301does not cover every hero move and its Node rendered gates remain blocked; no general visual certification.
+
+Broxton powerbomb/dash and Human Shield:
+Legacy Broxton179 and Shield181 pass rich matrices, but use older simulation prefix. Powerbomb136 also passes its earlier contract. Current audit observes actual front/forward Special dispatch and two native shield-hook cases: hero loses0, captive receives21.6, ownership releases. These are60Hz controlled samples, not complete current projectile/hazard/counter/armor/input certification. Do not confuse enemy Bruno's shared301powerbomb with hero Broxton's coverage.
+
+Forest/Gunner:
+Three legacy entry points blocked before Forest assertions by imported Gunner test.
+Current-production audit executes6registered moves in both facings at60Hz:combo30,poison20,spine24,legs28,overhead30,special46total observed damage. All complete with released holds/sessions and finite state. This supports implementation presence, not full certification. Missing: independent current30/120Hz matrices, all protection/recovery/companion-unavailability/independent task/poison/hazard/interruption/room/death controls under one authoritative fixture.
+
+Niko directional pairs:
+Current Niko283 passes paired-step/contact/cleanup checks; Niko284 passes1,245assertions; Reverse285 passes135,812; LegThrow286 passes178,190 across practice targets, mirrors and30/60/120Hz.
+Current audit enumerates the seven registered kinds throat/armbar/rearLeg/reverse/ground/special/mount, both facings at60Hz, finite state and cleanup. Missing: old185entry is not runnable with current dependencies; rendered current final-owner certification and any uncovered ground/mount/special lifecycle controls still require targeted review. Existing high-count tests often use injured/forced-success targets or capped bonus for isolation; not natural AI frequency evidence.
+
+Nightshade rear-forward throw:
+Nightshade258 passes12,568checks and current330passes788checks. Current mechanics retain independent flight, once-hit sets/3contact cap/resistance code, but a source implementation is not proof every secondary scenario is covered. Dedicated329entry is stale; rendered final victim dispatch omitted by the legacy render bootstrap. No missing throw artwork or gameplay defect confirmed here.
+
+NATIVE AUDIT METHOD / LIMITS
+tools/grapple-coverage-audit/current-moves.cjs records38current-production observations:12Forest,14Niko,6Broxton179,2front-hold Specials,2standing forward Specials and2native shield hooks. Full production simulation loader, AI disabled to isolate actions; ordinary1000HP fixture target avoids incidental lethality; no native balance values changed.
+All requested moves start; no observed stuck action, held ownership, active session or nonfinite state at observation end. Shield cases have their own outcome fields. Broxton's legacy dash-grab has at most1unit victim lane offset from its existing hold-anchor assignment; exact-plane false in that observation is not labeled a new defect.
+These are smoke observations, not replacements for regression assertions, native-HP/campaign trials or rendered verification.
+No current engine defect inferred from a legacy test failure or a metadata label.
+
+RENDERING PREREQUISITES
+Current environment:Node22.21.0/win32/x64; @napi-rs/canvas unresolved from the project and known bundled runtime. No install/version compatibility claim.
+Shipping index has446scripts; current simulation loads209; old render adapter selects166data/view scripts. The counts serve an inventory, not a demand to execute every page/UI controller in Node.
+Known shipping fighter owners absent from its selector:unique-view311,index409;enemy-view312,index411;enemy-view313,index413. Existing Forest/Broxton/Shield/Niko/Nightshade/grapple301view modules are selected, but that is not equivalent to the final shipping dispatch chain.
+Nineteen literal image references across five relevant data modules exist on disk. This is not a complete asset manifest: dynamic aliases, atlas components/readiness and every pose are not certified. No missing grapple artwork confirmed by that limited scan.
+Node fixtures also need output directories, complete supported Canvas2D APIs, resolved images and ready promises, and explicit family/direction process isolation. Existing301splits heavy powerbomb facings; preserve resource isolation instead of blindly loading all scenes/UI into one process.
+The previously used native Chromium/index harness can provide a shipping-render reference after approval, without pretending its success makes Node view gates passed.
+
+SCOPED FIRST REPAIR PROPOSAL — A3-G01, AFTER APPROVAL / NEW BRANCH
+1.Create a fixture-only module using tools/qa242/runtime.cjs, deterministic seed and native current Forest/Gunner setup. It exports setup/make/run/N/F/sb; importing it must execute no test assertions.
+2.Replace fixture imports in forest177, forest-protection177 and forest-balance177 so none imports another executable test file. Keep gunner173 assertions and failure separate; do not alter Gunner scan/selection/AI to force intercept.
+3.Preserve all applicable original motion, exact damage, protection/vulnerable recovery, contact/event count, companion task/availability, no debt and lifecycle assertions. Inventory any earlier-revision cost/input assumption against approved current Energy316/controller contracts before updating an expectation. Do not change approved mechanics to satisfy it and do not silently remove a failing invariant.
+4.Run all6registered moves x2facings x30/60/120Hz and original protection/balance controls through current load order. Keep fixture HP/forced branches explicit; add natural native controls where needed, with separate labels. Add a direct critical QA entry for each suite (only direct registry matches were inventoried; transitive aggregate coverage was not exhaustively certified).
+5.Add an isolation regression proving fixture import does not execute gunner173/forest test entries, plus current module dependency assertions. Compare source/native trajectories and RNG before/after where useful; dist must be byte-identical.
+6.If possible inspect current Forest paired keyframes through the actual production browser index. Keep Node view prerequisites marked unavailable; do not waive them or claim general rendered certification.
+7.Update repair log/evidence; run shared grapples/crowd/admission/observer/physical-lock/counter and input regressions relevant to fixture changes.
+
+Expected scope:one fixture module, the three Forest test entries, focused test metadata/QA registry and verification/log. No gameplay source, existing normalizers, Niko/Nightshade migration or renderer package/bootstrap change in this first repair.
+Risks:fixture drift, accidental hidden execution of another test, stale energy assertions, forced companion availability masking real controls, and weakening a gameplay invariant to obtain green results. Report contract disagreements for review rather than retune.
+
+SEPARATE RENDER REPAIR PROPOSAL — A3-R01
+After separate approval, establish a dev-only pinned compatible Canvas2D dependency and reproducible prerequisite check, or an explicitly approved equivalent browser-backed platform. Determine/test compatible native package version; do not infer it from memory. No production dependency or replacement art.
+Modernize the test renderer using production index order and an explicit fighter-render dependency/owner manifest. Validate the late shipping dispatchers and required assets; do not merely append arbitrary names or execute all page/scene controllers in Node.
+Keep simulation/data/frame sources intact and compare against actual shipping-browser samples, including held/released/get-up/flight states for301pairs and Nightshade329. Preserve original pixel/anchor/completeness/duplicate-body checks and process/facing isolation. Missing prerequisites must produce explicit unavailable/not-tested evidence and a nonpassing critical gate, never green visual certification.
+Expected scope:shared test render loader, test-only dependency/manifest/prerequisite test and related evidence/QA; no sprites/game engine changes. A missing image, bootstrap failure or old assertion conflict does not authorize artwork/timer edits.
+
+EXECUTED TESTS / FAILURES
+19distinct entries:13passed,5failed legacy entries,1render entry blocked.
+Passed:grapples301,shield181,broxton179,nightshade258,repairs330,reina279,grab-variants246,workers233-grabs,niko283,niko284,reverse285,legthrow286,powerbomb136.test.
+Failed:forest177,forest-protection177,forest-balance177 at imported gunner173 intercept assertion;niko185 missing Grab223;nightshade329 grounded-hero assertion.
+Blocked:grapples301-view reap-thug, missing @napi-rs/canvas.
+reina279 and grab-variants246 initially failed only writing missing reports279/reports246; unchanged suites passed after directories were created. Assertions not edited/waived. Duplicate Reina rerun counted once.
+No new rendered gameplay inspection, physical hardware, full campaign or full release certification. Prior11crowd+7grapple+17collision+1height+9reaction historical receipts remain unavailable; none fabricated.
+Full outputs/inventory/current observations saved alongside this proposal.
+
+INTEGRITY / STOP
+f00cc9c stable baseline and prior approved repairs retained. Production, existing tests, QA, timing/damage data and assets unchanged; no package installed. Audit adds tools/evidence/log only; stable not advanced. Original import/eight source archives retained.
+Stop for approval. Recommend A3-G01 fixture isolation/current Forest coverage first. Keep A3-R01 renderer prerequisites, old Niko loader, Broxton move-path certification and Nightshade329 contract migration separate.

@@ -1,0 +1,16 @@
+# Build283 sprite production
+
+Built-in image generation produced four transparent source atlases. Imported source originals are `art-source283/niko.png`, `marcus.png`, `kick.png` and `stomp.png`. References were isolated approved Niko185 idle and Marcus thug-v1 idle. The source frames are generated artwork; their timestamps and labels do not constitute artistic approval.
+
+Production prompt set:
+
+1. **Niko sixteen poses:** constant-scale bald muscular man, black sunglasses, moustache/soul patch, red rolled-sleeve shirt, black tactical vest/trousers/boots; four-by-four transparent grid. Eight forward wrist-capture/raise/pivot/descent/control/release poses followed by eight away capture/back-step/pull/prone-control/knee-lift/stomp/recovery poses. Empty hands for engine attachment; exactly two arms; no opponent, text, grid, shadows, blur, ghosting or cropped bodies.
+2. **Marcus sixteen poses:** preserve curly brown hair, stubble, tattooed upper arms, dirty ivory tank, charcoal cargo pants and brown boots. Four-by-four transparent grid with restrained/flinch, raised captured wrist, turning, side fall, chest-down descent, prone control/release, away-fold/knee/prone variants and three empty-hand knife-ready/draw/stab bodies. Same anatomy/head size and costume throughout, complete bodies and horizontal landing poses, no extra limbs or weapons baked into the ready hand.
+3. **Marcus kick eight poses:** same identity; four-by-two transparent grid. Guard, weight transfer, knee lift, extension, full front kick, retract, lower boot, guard. One planted supporting foot, clear anticipation/contact/recovery; no blur, trails, text or other people.
+4. **Niko stomp four poses:** same Niko identity; two-by-two transparent grid. Bent control, lifted knee, extended low head stomp with simultaneous wrist control, recovery. Opponent off-image to the left; full feet, two arms/two legs and consistent anatomy. The selected lower-body poses are combined with the controlling upper-body poses from the first atlas, rather than using the draft's hand orientation.
+
+`reports283/import283.py` is the reproducible importer. It retains one source anatomical scale per sequence, authored roots and contact sockets, removes only isolated alpha debris and produces44binary-alpha compact WebP cutouts in `dist/assets/niko283`. `asset-import.json` records source boxes, scales, ground roots, orientation and hand points. Anatomical scale is not independently fit to each frame's bounding box.
+
+To stay below the existing hosting cap while adding the targeted poses, only the two affected legacy Niko atlases are packed at a uniform approximately75% source resolution and quality90. Original atlas bytes remain in `art-source283/*-original.webp`. Frame grids and aspect ratios remain exact, all legacy poses are retained, and the renderer still uses150logical units. Per-cell resolution remains235–272pixels, above the approximately220-pixel native world presentation. No unrelated scenery/character assets are recompressed or removed. This texture packing is separate from changing a fighter's gameplay size.
+
+Runtime source-texture meshes align the wrists, shoulders and stomp while retaining one connected body. There is no transparent frame blending, duplicated arm overlay, global fighter resize or replacement of unrelated characters with Marcus.

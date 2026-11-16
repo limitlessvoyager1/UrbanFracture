@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "meaning": "Explicit Build313 source migration; no artistic certification or inventory overwrite. Each original hash is verified and shipping textual references must be absent.",
+  "assets": [
+    {
+      "path": "dist/assets/stadium/fans-4237.webp",
+      "backup": "source-art/stadium313/fans-4237.webp",
+      "sha256": "e8e2f17d383cef081764aad5071e6a5fde920b6b9f618f7ff8925246bb869d43",
+      "reason": "Replaced by complete native cycle / legacy choreography or unused scene crop; see reports313/REPORT.md"
+    },
+    {
+      "path": "dist/assets/stadium/fans-5237.webp",
+      "backup": "source-art/stadium313/fans-5237.webp",
+      "sha256": "8608cd3d26abcadfcd9efd4c3b8c8c8a0be75c6ff18132b95a43cfba1f42b70a",
+      "reason": "Replaced by complete native cycle / legacy choreography or unused scene crop; see reports313/REPORT.md"
+    },
+    {
+      "path": "dist/assets/stadium/fans-6237.webp",
+      "backup": "source-art/stadium313/fans-6237.webp",
+      "sha256": "baabc1af227f6ce8ff8ec9799240caf5983fba926dbd9978cd25ca7591095a44",
+      "reason": "Replaced by complete native cycle / legacy choreography or unused scene crop; see reports313/REPORT.md"
+    },
+    {
+      "path": "dist/assets/stadium/fans-7237.webp",
+      "backup": "source-art/stadium313/fans-7237.webp",
+      "sha256": "635fc015f6a107f609f716ccd4becd109b4f0da2efa2196b4f8da35f9c24ad12",
+      "reason": "Replaced by complete native cycle / legacy choreography or unused scene crop; see reports313/REPORT.md"
+    },
+    {
+      "path": "dist/assets/stadium/parking237.webp",
+      "backup": "source-art/recording313/parking237-unused.webp",
+      "sha256": "49a86103bdf8a0e2cde4fee9d05a691e944f68466dc2964c633c2b1f869d3ea9",
+      "reason": "Replaced by complete native cycle / legacy choreography or unused scene crop; see reports313/REPORT.md"
+    },
+    {
+      "path": "dist/assets/style310/cartwheel.webp",
+      "backup": "source-art/recording313/cartwheel-superseded.webp",
+      "sha256": "88fb1b78357022042c57a97600e4b8758037bf54fb7beb2919cdfdd9c71764c0",
+      "reason": "Replaced by complete native cycle / legacy choreography or unused scene crop; see reports313/REPORT.md"
+    }
+  ]
+}

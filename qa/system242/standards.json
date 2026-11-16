@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "logicalResolution": [
+    960,
+    540
+  ],
+  "captureResolution": [
+    1920,
+    1080
+  ],
+  "referenceHeight": 200,
+  "referenceStatus": "Retained production art is a measurement reference, not blanket artistic approval.",
+  "categories": {
+    "hero": {
+      "heightRatio": [
+        0.82,
+        1.18
+      ]
+    },
+    "regularEnemy": {
+      "heightRatio": [
+        0.78,
+        1.18
+      ]
+    },
+    "heavyEnemy": {
+      "heightRatio": [
+        0.95,
+        1.4
+      ]
+    },
+    "adultNPC": {
+      "heightRatio": [
+        0.8,
+        1.15
+      ]
+    },
+    "door": {
+      "heightRatio": [
+        1.05,
+        1.85
+      ]
+    },
+    "vehicle": {
+      "heightRatio": [
+        0.65,
+        1.9
+      ]
+    },
+    "forklift": {
+      "heightRatio": [
+        1.1,
+        1.9
+      ]
+    },
+    "slotMachine": {
+      "heightRatio": [
+        0.85,
+        1.2
+      ]
+    },
+    "table": {
+      "heightRatio": [
+        0.35,
+        0.8
+      ]
+    },
+    "sign": {
+      "heightRatio": [
+        0.08,
+        1.3
+      ]
+    },
+    "decoration": {
+      "heightRatio": [
+        0.05,
+        3.0
+      ]
+    }
+  },
+  "policy": {
+    "autoResize": false,
+    "autoRedesign": false,
+    "autoOverwriteBaselines": false,
+    "allowedAutomaticCorrections": [
+      "uptown-traffic-extension: exact loader and lossless-equivalent asset hashes only"
+    ],
+    "reason": "One validated filename repair rule; every other artistic/gameplay correction requires review.",
+    "styleJudgment": "Human review required: entropy, image dimensions and a 16-bit label cannot certify artistic quality."
+  }
+}

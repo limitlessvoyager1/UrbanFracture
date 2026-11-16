@@ -1,0 +1,26 @@
+{
+  "commit": "0e0f2a2b57425880e125cae97b39a583ea70017e",
+  "before": {
+    "car": {
+      "width": 375,
+      "sole": 497,
+      "blocksLane": true
+    },
+    "kioskDropAtPoint8": 1,
+    "sustainedRunAttack": "combo",
+    "panicDistance": 80,
+    "peoplePlane": 420
+  },
+  "after": {
+    "car": {
+      "width": 500,
+      "sole": 432,
+      "blocksLane": false
+    },
+    "kioskDropAtPoint8": 0,
+    "sustainedRunAttack": "blitzKick",
+    "panicDistance": 190.00000000000023,
+    "peoplePlane": 435
+  },
+  "defectsReproduced": true
+}

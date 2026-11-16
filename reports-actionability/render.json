@@ -1,0 +1,778 @@
+{
+  "scope": "Native Chromium production renderer; controlled heavy damage, same physical state/time. Swap only the read-only old/fixed resolver. Offense denied by unchanged guard; all16canvas crops byte-identical. No visual animation repair claimed.",
+  "errors": [],
+  "failed": [
+    "/assets/enforcer-concept-v1.png",
+    "/assets/thug-leader-concept-v1.png"
+  ],
+  "rows": [
+    {
+      "hero": "reina",
+      "type": "thug",
+      "time": 0.5166666666666666,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.050000000000000044
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "knifeThug",
+      "time": 0.5166666666666666,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.050000000000000044
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "enforcer",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.6849298025,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.6849298025,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "biker",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "cop",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.377246969,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.377246969,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "flint",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "sato",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "akari",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "thug",
+      "time": 0.5166666666666666,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.050000000000000044
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "knifeThug",
+      "time": 0.5166666666666666,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.050000000000000044
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.347943842,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.5166666666666666
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "enforcer",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.6849298025,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.6849298025,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "biker",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "cop",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.377246969,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.377246969,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "flint",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "sato",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "akari",
+      "time": 0.41666666666666663,
+      "deadline": 0.5666666666666667,
+      "before": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "actionable": true,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "after": {
+        "state": "idle",
+        "owner": "native locomotion",
+        "action": null,
+        "actionFrame": null,
+        "locks": [],
+        "nativeStateActionable": true,
+        "offensiveLocks": [
+          {
+            "field": "reassessUntil274",
+            "seconds": 0.15000000000000002
+          }
+        ],
+        "offensiveReady": false,
+        "actionable": false,
+        "world": {
+          "x": 465,
+          "y": 480
+        },
+        "scale": 1.46515635,
+        "ground": 480,
+        "visualElevationOwner": "native locomotion",
+        "time": 0.41666666666666663
+      },
+      "pixelsIdentical": true,
+      "denied": true
+    }
+  ]
+}

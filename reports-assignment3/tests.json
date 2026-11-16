@@ -1,0 +1,107 @@
+{
+  "baseline": "a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0",
+  "runs": [
+    {
+      "suite": "director148",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\n"
+    },
+    {
+      "suite": "director148-stress",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\nPASS148 240 seeded solo/mixed hero/route/style fixtures: <=3 pressure, <=2 commitments, finite coordinates, integer score\n"
+    },
+    {
+      "suite": "combat274",
+      "exit": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "enemies210",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\n"
+    },
+    {
+      "suite": "martial212",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits\nPASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{\"type\":\"sato\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":6},{\"type\":\"sato\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":5},{\"type\":\"sato\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":4},{\"type\":\"akari\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":17},{\"type\":\"akari\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":25},{\"type\":\"akari\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":16},{\"type\":\"akari\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":15},{\"type\":\"akari\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":18}]\nPASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches\n"
+    },
+    {
+      "suite": "flint211",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS211 four weapon profiles, exact phase values at30/60/120Hz, distinct measured reach, mirrored rear damage/single swing ownership,120deg damage-taking frontal armor, side/rear interrupts, vulnerable noncancelable recovery without stacked timers\nPASS211 physical misses, six-hero weaponless fallback, counter eligibility and dodge/lane regression, seeded mixed AI wild/power choices with3-point/two-commitment admission\nPASS211 Director reposition cannot bypass mandatory recovery; recovery punishment does not restart the full timer; rear swing threats are included in shared coordination\nPASS21124 live mirrored Reina/Forest/Niko weapon counter interceptions through the existing controllers\nPASS211 all four actual weapon paths can be intercepted by a physically aligned Human Shield without duplicated player damage\nPASS211 armed Flint completes left, lift and bottom reinforcements before weapon AI takes over\n"
+    },
+    {
+      "suite": "jesse213",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS213 single native hitscan/event/ammo at30/60/120Hz; all six heroes block/startup vulnerability, apex/dodge/lane/cover avoidance; real Reina/Niko/Broxton/Forest knife disarms; permanent loss through reload/down/roll/rearm; no melee fallback; finite physical retreat/corner vulnerability; locked vulnerable reload; one firearm commitment\nPASS213 six rounds force native reload, committed aim cannot home, HP-based roll15/25/40%, four30s mixed gunfire fixtures /3point2attacker ceiling, all six actual hero dodges\n"
+    },
+    {
+      "suite": "counters248",
+      "exit": 0,
+      "output": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exit": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exit": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "post-hit-reassessment",
+      "exit": 0,
+      "output": "PASS post-hit reassessment 1192 checks: 7 heroes, 6 enemy families, 30/60/120Hz, both admission paths, exact deadlines and choreography exemptions\n"
+    },
+    {
+      "suite": "nightshade329",
+      "exit": 1,
+      "output": "node:internal/assert/utils:77\r\n    throw err;\r\n    ^\r\n\r\nAssertionError [ERR_ASSERTION]: grounded hero\r\n    at ok (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\nightshade329.cjs:1:127)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\nightshade329.cjs:4:207)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: false,\r\n  expected: true,\r\n  operator: '==',\r\n  diff: 'simple'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "pcbi316-gates",
+      "exit": 1,
+      "output": "node:fs:2425\r\n    return binding.writeFileUtf8(\r\n                   ^\r\n\r\nError: ENOENT: no such file or directory, open 'C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\reports316\\pcbi-gates.json'\r\n    at Object.writeFileSync (node:fs:2425:20)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\pcbi316-gates.cjs:14:4)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\r\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\r\n    at node:internal/main/run_main_module:36:49 {\r\n  errno: -4058,\r\n  code: 'ENOENT',\r\n  syscall: 'open',\r\n  path: 'C:\\\\Users\\\\spiri\\\\Documents\\\\Codex\\\\2026-11-12\\\\urban-fracture-source-code-audit-and\\\\work\\\\Urban-Fracture\\\\reports316\\\\pcbi-gates.json'\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "diagnostic288",
+      "exit": 0,
+      "output": "PASS288 observer-on/off360-frame equivalence, actual admission/damage records, honest missing reasons, native selection source, local selection-only persistence\n"
+    },
+    {
+      "suite": "grapples301",
+      "exit": 1,
+      "output": "fatal: path 'dist/core.js' exists on disk, but not in '9f9584f044807d7be6f062c19263eeec221afcca'\nnode:child_process:955\r\n    throw err;\r\n    ^\r\n\r\nError: Command failed: git show 9f9584f044807d7be6f062c19263eeec221afcca:dist/core.js\r\nfatal: path 'dist/core.js' exists on disk, but not in '9f9584f044807d7be6f062c19263eeec221afcca'\r\n\r\n    at genericNodeError (node:internal/errors:983:15)\r\n    at wrappedFn (node:internal/errors:537:14)\r\n    at checkExecSyncError (node:child_process:916:11)\r\n    at Object.execFileSync (node:child_process:952:15)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grapples301.cjs:2:148)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {\r\n  status: 128,\r\n  signal: null,\r\n  output: [\r\n    null,\r\n    Buffer(0) [Uint8Array] [],\r\n    Buffer(97) [Uint8Array] [\r\n      102,  97, 116,  97, 108,  58,  32, 112,  97, 116, 104,  32,\r\n       39, 100, 105, 115, 116,  47,  99, 111, 114, 101,  46, 106,\r\n      115,  39,  32, 101, 120, 105, 115, 116, 115,  32, 111, 110,\r\n       32, 100, 105, 115, 107,  44,  32,  98, 117, 116,  32, 110,\r\n      111, 116,  32, 105, 110,  32,  39,  57, 102,  57,  53,  56,\r\n       52, 102,  48,  52,  52,  56,  48,  55, 100,  55,  98, 101,\r\n       54, 102,  48,  54,  50,  99,  49,  57,  50,  54,  51, 101,\r\n      101, 101,  99,  50,  50,  49,  97, 102,  99,  99,  97,  39,\r\n       10\r\n    ]\r\n  ],\r\n  pid: 8812,\r\n  stdout: Buffer(0) [Uint8Array] [],\r\n  stderr: Buffer(97) [Uint8Array] [\r\n    102,  97, 116,  97, 108,  58,  32, 112,  97, 116, 104,  32,\r\n     39, 100, 105, 115, 116,  47,  99, 111, 114, 101,  46, 106,\r\n    115,  39,  32, 101, 120, 105, 115, 116, 115,  32, 111, 110,\r\n     32, 100, 105, 115, 107,  44,  32,  98, 117, 116,  32, 110,\r\n    111, 116,  32, 105, 110,  32,  39,  57, 102,  57,  53,  56,\r\n     52, 102,  48,  52,  52,  56,  48,  55, 100,  55,  98, 101,\r\n     54, 102,  48,  54,  50,  99,  49,  57,  50,  54,  51, 101,\r\n    101, 101,  99,  50,  50,  49,  97, 102,  99,  99,  97,  39,\r\n     10\r\n  ]\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "crowd303",
+      "exit": 1,
+      "output": "fatal: path 'dist/core.js' exists on disk, but not in '027ed578b782d4fc437e84c637d9ab37de7172d6'\nnode:child_process:955\r\n    throw err;\r\n    ^\r\n\r\nError: Command failed: git show 027ed578b782d4fc437e84c637d9ab37de7172d6:dist/core.js\r\nfatal: path 'dist/core.js' exists on disk, but not in '027ed578b782d4fc437e84c637d9ab37de7172d6'\r\n\r\n    at genericNodeError (node:internal/errors:983:15)\r\n    at wrappedFn (node:internal/errors:537:14)\r\n    at checkExecSyncError (node:child_process:916:11)\r\n    at Object.execFileSync (node:child_process:952:15)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\crowd303.cjs:2:200)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {\r\n  status: 128,\r\n  signal: null,\r\n  output: [\r\n    null,\r\n    Buffer(0) [Uint8Array] [],\r\n    Buffer(97) [Uint8Array] [\r\n      102,  97, 116,  97, 108,  58,  32, 112,  97, 116, 104,  32,\r\n       39, 100, 105, 115, 116,  47,  99, 111, 114, 101,  46, 106,\r\n      115,  39,  32, 101, 120, 105, 115, 116, 115,  32, 111, 110,\r\n       32, 100, 105, 115, 107,  44,  32,  98, 117, 116,  32, 110,\r\n      111, 116,  32, 105, 110,  32,  39,  48,  50,  55, 101, 100,\r\n       53,  55,  56,  98,  55,  56,  50, 100,  52, 102,  99,  52,\r\n       51,  55, 101,  56,  52,  99,  54,  51,  55, 100,  57,  97,\r\n       98,  51,  55, 100, 101,  55,  49,  55,  50, 100,  54,  39,\r\n       10\r\n    ]\r\n  ],\r\n  pid: 37676,\r\n  stdout: Buffer(0) [Uint8Array] [],\r\n  stderr: Buffer(97) [Uint8Array] [\r\n    102,  97, 116,  97, 108,  58,  32, 112,  97, 116, 104,  32,\r\n     39, 100, 105, 115, 116,  47,  99, 111, 114, 101,  46, 106,\r\n    115,  39,  32, 101, 120, 105, 115, 116, 115,  32, 111, 110,\r\n     32, 100, 105, 115, 107,  44,  32,  98, 117, 116,  32, 110,\r\n    111, 116,  32, 105, 110,  32,  39,  48,  50,  55, 101, 100,\r\n     53,  55,  56,  98,  55,  56,  50, 100,  52, 102,  99,  52,\r\n     51,  55, 101,  56,  52,  99,  54,  51,  55, 100,  57,  97,\r\n     98,  51,  55, 100, 101,  55,  49,  55,  50, 100,  54,  39,\r\n     10\r\n  ]\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "repairs330",
+      "exit": 0,
+      "output": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n"
+    },
+    {
+      "suite": "pcbi316-gates",
+      "exit": 0,
+      "output": "PASS316 PCBI GATES1/2 55\nPASS316 ACTUAL PHASES / DISARM 67\n"
+    }
+  ],
+  "summary": {
+    "finalPassingSuites": 14,
+    "failedBehavioralSuite": "nightshade329: obsolete grounded-hero requirement; approved Build330 vault contract passes repairs330",
+    "historicalBlockedSuites": [
+      "grapples301",
+      "crowd303"
+    ],
+    "setupFailureResolved": "pcbi316-gates output directory missing; created reports316 and reran unchanged suite, passed"
+  },
+  "productionChanged": false,
+  "existingTestsChanged": false,
+  "rendered": "Not performed; no visual correction claimed"
+}

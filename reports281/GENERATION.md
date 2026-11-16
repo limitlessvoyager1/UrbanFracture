@@ -1,0 +1,14 @@
+# Build281 animation art provenance
+
+Built-in image generation used the existing approved game atlases as identity/style references. Original returned PNGs are preserved in `art-source281`; the48runtime cutouts are under `dist/assets/sprites/enemy281`. No existing source atlas was overwritten.
+
+Prompt set:
+
+1. Frankie eight-frame walk: exact reference biker, black sleeveless vest/grey undershirt, black trousers/boots/sunglasses, slick black hair/tattoos, short hanging chain. Strict4×2equal-cell transparent atlas; one natural right-facing eight-phase walking cycle, opposite arm swing, full bodies, equal baseline and proportions, crisp detailed16-bit style, no motion trails/shadows/text/scenery. Source `exec-9a48aeea-615f-4729-9b3c-3d4faa7e6b74.png`.
+2. Disarmed Kevin eight-frame walk: only green-tank young thug from the reference, dark cargo trousers/brown boots/black gloves/messy brown hair/tattoos; no knife. Strict4×2equal cells; consecutive left-contact/down/passing/up then right-contact/down/passing/up poses, unchanged head/body size and baseline, transparent surroundings, no blur/ghosts/shadow. Source `exec-e870270d-553e-4b33-b2cc-5bd0317a5053.png`.
+3. Marcus/Bruno punches:4×4atlas, top8Marcus ivory tank/cargo/boots, bottom8Bruno burgundy tank/cargo/gloves/boots. Guard, recoil, shoulder twist, half extension, contact, half retraction, chest return, guard. Right-facing, planted feet, consistent proportions/palette, two arms, no weapons/trails/background. Source `exec-023465cd-b558-4466-b1b0-33f761df2182.png`.
+4. Kevin knife thrust/Frankie chain-arm swing:4×4atlas with top8green-tank Kevin drawing and thrusting a short steel knife, bottom8black-vest Frankie winding up and extending a closed fist with no baked chain. Consistent sizes, natural hip/shoulder weight transfer, transparent background, no text/grid/trails. Source `exec-b6d209f2-b5ff-4461-8141-31254911b671.png`. The returned file has alpha despite its preview exposing hidden background RGB. Technical import uses its actual alpha; no background is rendered. A further background-cleaning generation was inspected but not used because the original usable alpha sufficed.
+
+Technical integration: fixed-cell extraction with border inset, opaque body bounds, stable pelvis and sole metadata; one scale per sequence,192pixel maximum body height representing140logical units. Compact WebP encoding quality85; binary alpha avoids translucent seams. Runtime files total373956bytes. No generated asset changes combat statistics or hit timing. Hand attachment points are authored from the source fist locations. These are technical atlas preparation steps, not a redesign of the approved characters.
+
+`asset-import.json` records every crop's source height, common scale, rendered dimensions, pelvis/sole root and optional chain hand. `import281.py` reproduces the runtime atlas from the preserved sources.

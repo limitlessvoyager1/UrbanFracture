@@ -1,0 +1,28 @@
+{
+  "build": 205,
+  "current_regressions_pass": [
+    "current150.cjs",
+    "gamepad.test.cjs",
+    "controller157.cjs",
+    "environment162.cjs",
+    "environment-integration156.cjs",
+    "grab198.cjs",
+    "shield181.cjs",
+    "slums204.cjs",
+    "niko-counters186.cjs",
+    "yacht195.cjs"
+  ],
+  "orion_pass": [
+    "foundation",
+    "combat",
+    "electrical",
+    "integration"
+  ],
+  "legacy_failure": {
+    "test": "charge130.test.cjs",
+    "preexisting_reproduced": true,
+    "reason": "fixture assumes Reina3s; shipped contract2s"
+  },
+  "physical_dualsense_hardware": "not available; simulated mapping/hotplug suites passed",
+  "visual": "production gameplay and inspector checked; entire branching campaign not manually completed"
+}

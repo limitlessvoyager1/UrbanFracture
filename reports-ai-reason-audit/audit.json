@@ -1,0 +1,4149 @@
+{
+  "baseline": "dd07a7a819eca2c3b8753ba80c76fc3b3ac2554d",
+  "checks": 189,
+  "cases": [
+    {
+      "kind": "denial then grant",
+      "type": "thug",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "thug",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "thug",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Marcus",
+            "type": "thug",
+            "hp": 60,
+            "maxHp": 60,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "street209": {
+                "decided": false,
+                "drawWon": false,
+                "pendingDraw": false,
+                "hadWeapon": false,
+                "awaitRearm": false,
+                "disarmLock": false,
+                "stepAt": 0,
+                "feintAt": 0,
+                "defendAt": 0,
+                "decisionAt": 0,
+                "engageAt": 0,
+                "throwThinkAt": 0,
+                "failed": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "thug",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "thug",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "thug",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Marcus",
+            "type": "thug",
+            "hp": 60,
+            "maxHp": 60,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "street209": {
+                "decided": false,
+                "drawWon": false,
+                "pendingDraw": false,
+                "hadWeapon": false,
+                "awaitRearm": false,
+                "disarmLock": false,
+                "stepAt": 0,
+                "feintAt": 0,
+                "defendAt": 0,
+                "decisionAt": 0,
+                "engageAt": 0,
+                "throwThinkAt": 0,
+                "failed": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "thug",
+                  "role": "ApproachSupport"
+                },
+                "8": {
+                  "type": "thug",
+                  "role": "SupportThreat"
+                },
+                "9": {
+                  "type": "thug",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Marcus\",\"type\":\"thug\",\"hp\":60,\"maxHp\":60,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"street209\":{\"decided\":false,\"drawWon\":false,\"pendingDraw\":false,\"hadWeapon\":false,\"awaitRearm\":false,\"disarmLock\":false,\"stepAt\":0,\"feintAt\":0,\"defendAt\":0,\"decisionAt\":0,\"engageAt\":0,\"throwThinkAt\":0,\"failed\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"thug\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"thug\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"thug\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "thug",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "thug",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "thug",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Marcus",
+            "type": "thug",
+            "hp": 60,
+            "maxHp": 60,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "street209": {
+                "decided": false,
+                "drawWon": false,
+                "pendingDraw": false,
+                "hadWeapon": false,
+                "awaitRearm": false,
+                "disarmLock": false,
+                "stepAt": 0,
+                "feintAt": 0,
+                "defendAt": 0,
+                "decisionAt": 0,
+                "engageAt": 0,
+                "throwThinkAt": 0,
+                "failed": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "thug",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "thug",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "thug",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Marcus\",\"type\":\"thug\",\"hp\":60,\"maxHp\":60,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"street209\":{\"decided\":false,\"drawWon\":false,\"pendingDraw\":false,\"hadWeapon\":false,\"awaitRearm\":false,\"disarmLock\":false,\"stepAt\":0,\"feintAt\":0,\"defendAt\":0,\"decisionAt\":0,\"engageAt\":0,\"throwThinkAt\":0,\"failed\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"thug\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"thug\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"thug\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "knifeThug",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Kevin",
+        "type": "knifeThug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "knife",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": true,
+            "drawWon": true,
+            "pendingDraw": false,
+            "hadWeapon": true,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "knifeThug",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "knifeThug",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "knifeThug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Kevin",
+            "type": "knifeThug",
+            "hp": 60,
+            "maxHp": 60,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "knife",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "street209": {
+                "decided": true,
+                "drawWon": true,
+                "pendingDraw": false,
+                "hadWeapon": true,
+                "awaitRearm": false,
+                "disarmLock": false,
+                "stepAt": 0,
+                "feintAt": 0,
+                "defendAt": 0,
+                "decisionAt": 0,
+                "engageAt": 0,
+                "throwThinkAt": 0,
+                "failed": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "knifeThug",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "knifeThug",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "knifeThug",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Kevin",
+            "type": "knifeThug",
+            "hp": 60,
+            "maxHp": 60,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "knife",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "street209": {
+                "decided": true,
+                "drawWon": true,
+                "pendingDraw": false,
+                "hadWeapon": true,
+                "awaitRearm": false,
+                "disarmLock": false,
+                "stepAt": 0,
+                "feintAt": 0,
+                "defendAt": 0,
+                "decisionAt": 0,
+                "engageAt": 0,
+                "throwThinkAt": 0,
+                "failed": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "knifeThug",
+                  "role": "ApproachSupport"
+                },
+                "8": {
+                  "type": "knifeThug",
+                  "role": "SupportThreat"
+                },
+                "9": {
+                  "type": "knifeThug",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Kevin\",\"type\":\"knifeThug\",\"hp\":60,\"maxHp\":60,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"knife\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"street209\":{\"decided\":true,\"drawWon\":true,\"pendingDraw\":false,\"hadWeapon\":true,\"awaitRearm\":false,\"disarmLock\":false,\"stepAt\":0,\"feintAt\":0,\"defendAt\":0,\"decisionAt\":0,\"engageAt\":0,\"throwThinkAt\":0,\"failed\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"knifeThug\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"knifeThug\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"knifeThug\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "knifeThug",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Kevin",
+        "type": "knifeThug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "knife",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": true,
+            "drawWon": true,
+            "pendingDraw": false,
+            "hadWeapon": true,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "knifeThug",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "knifeThug",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "knifeThug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Kevin",
+            "type": "knifeThug",
+            "hp": 60,
+            "maxHp": 60,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "knife",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "street209": {
+                "decided": true,
+                "drawWon": true,
+                "pendingDraw": false,
+                "hadWeapon": true,
+                "awaitRearm": false,
+                "disarmLock": false,
+                "stepAt": 0,
+                "feintAt": 0,
+                "defendAt": 0,
+                "decisionAt": 0,
+                "engageAt": 0,
+                "throwThinkAt": 0,
+                "failed": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "knifeThug",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "knifeThug",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "knifeThug",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Kevin\",\"type\":\"knifeThug\",\"hp\":60,\"maxHp\":60,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"knife\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"street209\":{\"decided\":true,\"drawWon\":true,\"pendingDraw\":false,\"hadWeapon\":true,\"awaitRearm\":false,\"disarmLock\":false,\"stepAt\":0,\"feintAt\":0,\"defendAt\":0,\"decisionAt\":0,\"engageAt\":0,\"throwThinkAt\":0,\"failed\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"knifeThug\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"knifeThug\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"knifeThug\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "enforcer",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 115,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "enforcer",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Bruno",
+            "type": "enforcer",
+            "hp": 115,
+            "maxHp": 115,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "enforcer",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "enforcer",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "enforcer",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Bruno",
+            "type": "enforcer",
+            "hp": 115,
+            "maxHp": 115,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "enforcer",
+                  "role": "ApproachSupport"
+                },
+                "8": {
+                  "type": "enforcer",
+                  "role": "SupportThreat"
+                },
+                "9": {
+                  "type": "enforcer",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Bruno\",\"type\":\"enforcer\",\"hp\":115,\"maxHp\":115,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"enemy210\":{\"cd\":{},\"decision\":0,\"guardAt\":0,\"stepAt\":0,\"feintAt\":0,\"retaliateAt\":0,\"burstAt\":0,\"burstUntil\":0,\"deceptions\":0,\"shots\":[],\"misses\":[],\"history\":[],\"reason\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"enforcer\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"enforcer\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"enforcer\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "enforcer",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 115,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "enforcer",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Bruno",
+            "type": "enforcer",
+            "hp": 115,
+            "maxHp": 115,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "enforcer",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "enforcer",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "enforcer",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Bruno\",\"type\":\"enforcer\",\"hp\":115,\"maxHp\":115,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"enemy210\":{\"cd\":{},\"decision\":0,\"guardAt\":0,\"stepAt\":0,\"feintAt\":0,\"retaliateAt\":0,\"burstAt\":0,\"burstUntil\":0,\"deceptions\":0,\"shots\":[],\"misses\":[],\"history\":[],\"reason\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"enforcer\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"enforcer\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"enforcer\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "biker",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Frankie",
+        "type": "biker",
+        "hp": 73,
+        "maxHp": 73,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "chain",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "biker",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "biker",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "biker",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Frankie",
+            "type": "biker",
+            "hp": 73,
+            "maxHp": 73,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "chain",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "biker",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "biker",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "biker",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Frankie",
+            "type": "biker",
+            "hp": 73,
+            "maxHp": 73,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "chain",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "biker",
+                  "role": "ApproachSupport"
+                },
+                "8": {
+                  "type": "biker",
+                  "role": "SupportThreat"
+                },
+                "9": {
+                  "type": "biker",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Frankie\",\"type\":\"biker\",\"hp\":73,\"maxHp\":73,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"chain\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"enemy210\":{\"cd\":{},\"decision\":0,\"guardAt\":0,\"stepAt\":0,\"feintAt\":0,\"retaliateAt\":0,\"burstAt\":0,\"burstUntil\":0,\"deceptions\":0,\"shots\":[],\"misses\":[],\"history\":[],\"reason\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"biker\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"biker\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"biker\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "biker",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Frankie",
+        "type": "biker",
+        "hp": 73,
+        "maxHp": 73,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "chain",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "biker",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "biker",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "biker",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Frankie",
+            "type": "biker",
+            "hp": 73,
+            "maxHp": 73,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "chain",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "biker",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "biker",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "biker",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Frankie\",\"type\":\"biker\",\"hp\":73,\"maxHp\":73,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"chain\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"enemy210\":{\"cd\":{},\"decision\":0,\"guardAt\":0,\"stepAt\":0,\"feintAt\":0,\"retaliateAt\":0,\"burstAt\":0,\"burstUntil\":0,\"deceptions\":0,\"shots\":[],\"misses\":[],\"history\":[],\"reason\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"biker\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"biker\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"biker\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "cop",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Carmen",
+        "type": "cop",
+        "hp": 65,
+        "maxHp": 65,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "baton",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "cop",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "cop",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "cop",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Carmen",
+            "type": "cop",
+            "hp": 65,
+            "maxHp": 65,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "baton",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "cop",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "cop",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "cop",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Carmen",
+            "type": "cop",
+            "hp": 65,
+            "maxHp": 65,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "baton",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "cop",
+                  "role": "ApproachSupport"
+                },
+                "8": {
+                  "type": "cop",
+                  "role": "SupportThreat"
+                },
+                "9": {
+                  "type": "cop",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Carmen\",\"type\":\"cop\",\"hp\":65,\"maxHp\":65,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"baton\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"enemy210\":{\"cd\":{},\"decision\":0,\"guardAt\":0,\"stepAt\":0,\"feintAt\":0,\"retaliateAt\":0,\"burstAt\":0,\"burstUntil\":0,\"deceptions\":0,\"shots\":[],\"misses\":[],\"history\":[],\"reason\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"cop\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"cop\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"cop\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "cop",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Carmen",
+        "type": "cop",
+        "hp": 65,
+        "maxHp": 65,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "baton",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "cop",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "cop",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "cop",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Carmen",
+            "type": "cop",
+            "hp": 65,
+            "maxHp": 65,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "baton",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "enemy210": {
+                "cd": {},
+                "decision": 0,
+                "guardAt": 0,
+                "stepAt": 0,
+                "feintAt": 0,
+                "retaliateAt": 0,
+                "burstAt": 0,
+                "burstUntil": 0,
+                "deceptions": 0,
+                "shots": [],
+                "misses": [],
+                "history": [],
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "cop",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "cop",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "cop",
+                  "role": "SupportThreat"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Carmen\",\"type\":\"cop\",\"hp\":65,\"maxHp\":65,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"baton\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"enemy210\":{\"cd\":{},\"decision\":0,\"guardAt\":0,\"stepAt\":0,\"feintAt\":0,\"retaliateAt\":0,\"burstAt\":0,\"burstUntil\":0,\"deceptions\":0,\"shots\":[],\"misses\":[],\"history\":[],\"reason\":null}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"cop\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"cop\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"cop\",\"role\":\"SupportThreat\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "flint",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Flint",
+        "type": "flint",
+        "hp": 95,
+        "maxHp": 95,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "pipe",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "flint211": {
+            "decision": 0,
+            "damageArmor": 0,
+            "lastInterruption": null,
+            "recoveryUntil": 0,
+            "history": []
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "flint",
+              "role": "Repositioning"
+            },
+            "8": {
+              "type": "flint",
+              "role": "Repositioning"
+            },
+            "9": {
+              "type": "flint",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Flint",
+            "type": "flint",
+            "hp": 95,
+            "maxHp": 95,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "pipe",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "flint211": {
+                "decision": 0,
+                "damageArmor": 0,
+                "lastInterruption": null,
+                "recoveryUntil": 0,
+                "history": []
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "flint",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "flint",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "flint",
+                  "role": "Repositioning"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Flint",
+            "type": "flint",
+            "hp": 95,
+            "maxHp": 95,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "pipe",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "flint211": {
+                "decision": 0,
+                "damageArmor": 0,
+                "lastInterruption": null,
+                "recoveryUntil": 0,
+                "history": []
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "flint",
+                  "role": "Repositioning"
+                },
+                "8": {
+                  "type": "flint",
+                  "role": "Repositioning"
+                },
+                "9": {
+                  "type": "flint",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Flint\",\"type\":\"flint\",\"hp\":95,\"maxHp\":95,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"pipe\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"flint211\":{\"decision\":0,\"damageArmor\":0,\"lastInterruption\":null,\"recoveryUntil\":0,\"history\":[]}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"flint\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"flint\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"flint\",\"role\":\"Repositioning\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "flint",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Flint",
+        "type": "flint",
+        "hp": 95,
+        "maxHp": 95,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": "pipe",
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "flint211": {
+            "decision": 0,
+            "damageArmor": 0,
+            "lastInterruption": null,
+            "recoveryUntil": 0,
+            "history": []
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "flint",
+              "role": "Repositioning"
+            },
+            "8": {
+              "type": "flint",
+              "role": "Repositioning"
+            },
+            "9": {
+              "type": "flint",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Flint",
+            "type": "flint",
+            "hp": 95,
+            "maxHp": 95,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": "pipe",
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "flint211": {
+                "decision": 0,
+                "damageArmor": 0,
+                "lastInterruption": null,
+                "recoveryUntil": 0,
+                "history": []
+              }
+            },
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "flint",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "flint",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "flint",
+                  "role": "Repositioning"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Flint\",\"type\":\"flint\",\"hp\":95,\"maxHp\":95,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":\"pipe\",\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{\"flint211\":{\"decision\":0,\"damageArmor\":0,\"lastInterruption\":null,\"recoveryUntil\":0,\"history\":[]}},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"flint\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"flint\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"flint\",\"role\":\"Repositioning\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "sato",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Saito",
+        "type": "sato",
+        "hp": 90,
+        "maxHp": 90,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "martial212": {
+            "mode": "controlled",
+            "modeUntil": 0,
+            "momentum": 0,
+            "composure": 0,
+            "cd": {},
+            "decision": 0,
+            "seen": {},
+            "airSeen": -1,
+            "history": [],
+            "wakeOpportunity": 0,
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "sato",
+              "role": "Repositioning"
+            },
+            "8": {
+              "type": "sato",
+              "role": "Repositioning"
+            },
+            "9": {
+              "type": "sato",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Saito",
+            "type": "sato",
+            "hp": 90,
+            "maxHp": 90,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {},
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "sato",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "sato",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "sato",
+                  "role": "Repositioning"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Saito",
+            "type": "sato",
+            "hp": 90,
+            "maxHp": 90,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "martial212": {
+                "mode": "controlled",
+                "modeUntil": 0,
+                "momentum": 0,
+                "composure": 0,
+                "cd": {},
+                "decision": 0,
+                "seen": {},
+                "airSeen": -1,
+                "history": [],
+                "wakeOpportunity": 0,
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "sato",
+                  "role": "Repositioning"
+                },
+                "8": {
+                  "type": "sato",
+                  "role": "Repositioning"
+                },
+                "9": {
+                  "type": "sato",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Saito\",\"type\":\"sato\",\"hp\":90,\"maxHp\":90,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"sato\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"sato\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"sato\",\"role\":\"Repositioning\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "sato",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Saito",
+        "type": "sato",
+        "hp": 90,
+        "maxHp": 90,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "martial212": {
+            "mode": "controlled",
+            "modeUntil": 0,
+            "momentum": 0,
+            "composure": 0,
+            "cd": {},
+            "decision": 0,
+            "seen": {},
+            "airSeen": -1,
+            "history": [],
+            "wakeOpportunity": 0,
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "sato",
+              "role": "Repositioning"
+            },
+            "8": {
+              "type": "sato",
+              "role": "Repositioning"
+            },
+            "9": {
+              "type": "sato",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Saito",
+            "type": "sato",
+            "hp": 90,
+            "maxHp": 90,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {},
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "sato",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "sato",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "sato",
+                  "role": "Repositioning"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Saito\",\"type\":\"sato\",\"hp\":90,\"maxHp\":90,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"sato\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"sato\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"sato\",\"role\":\"Repositioning\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "akari",
+      "path": "enemyAct",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Akari",
+        "type": "akari",
+        "hp": 72,
+        "maxHp": 72,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "martial212": {
+            "mode": "assertive",
+            "modeUntil": 0,
+            "momentum": 0,
+            "composure": 0,
+            "cd": {},
+            "decision": 0,
+            "seen": {},
+            "airSeen": -1,
+            "history": [],
+            "wakeOpportunity": 0,
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "akari",
+              "role": "Repositioning"
+            },
+            "8": {
+              "type": "akari",
+              "role": "Repositioning"
+            },
+            "9": {
+              "type": "akari",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Akari",
+            "type": "akari",
+            "hp": 72,
+            "maxHp": 72,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {},
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "akari",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "akari",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "akari",
+                  "role": "Repositioning"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        },
+        {
+          "sequence": 4,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action admitted",
+          "requestedAction": "kick",
+          "chosenAction": "kick",
+          "reason": null,
+          "snapshot": {
+            "id": 9,
+            "name": "Akari",
+            "type": "akari",
+            "hp": 72,
+            "maxHp": 72,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "kick",
+            "action": "kick",
+            "actionFrame": 0,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {
+              "martial212": {
+                "mode": "assertive",
+                "modeUntil": 0,
+                "momentum": 0,
+                "composure": 0,
+                "cd": {},
+                "decision": 0,
+                "seen": {},
+                "airSeen": -1,
+                "history": [],
+                "wakeOpportunity": 0,
+                "reason": null
+              }
+            },
+            "director": {
+              "primary": 9,
+              "secondary": null,
+              "roles": {
+                "7": {
+                  "type": "akari",
+                  "role": "Repositioning"
+                },
+                "8": {
+                  "type": "akari",
+                  "role": "Repositioning"
+                },
+                "9": {
+                  "type": "akari",
+                  "role": "PrimaryAttacker"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": true,
+                "reason": null
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Akari\",\"type\":\"akari\",\"hp\":72,\"maxHp\":72,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"akari\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"akari\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"akari\",\"role\":\"Repositioning\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "denial then grant",
+      "type": "akari",
+      "path": "start",
+      "sameTimestamp": true,
+      "priorDenial": {
+        "at": 0,
+        "reason": "pressure budget"
+      },
+      "current": {
+        "id": 9,
+        "name": "Akari",
+        "type": "akari",
+        "hp": 72,
+        "maxHp": 72,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "martial212": {
+            "mode": "assertive",
+            "modeUntil": 0,
+            "momentum": 0,
+            "composure": 0,
+            "cd": {},
+            "decision": 0,
+            "seen": {},
+            "airSeen": -1,
+            "history": [],
+            "wakeOpportunity": 0,
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "akari",
+              "role": "Repositioning"
+            },
+            "8": {
+              "type": "akari",
+              "role": "Repositioning"
+            },
+            "9": {
+              "type": "akari",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "events": [
+        {
+          "sequence": 3,
+          "simulationFrame": 0,
+          "time": 0,
+          "enemy": 9,
+          "kind": "action rejected",
+          "requestedAction": "kick",
+          "chosenAction": null,
+          "reason": "pressure budget",
+          "snapshot": {
+            "id": 9,
+            "name": "Akari",
+            "type": "akari",
+            "hp": 72,
+            "maxHp": 72,
+            "playerHP": 105,
+            "target": 4,
+            "distance": 240,
+            "planeDifference": 0,
+            "position": {
+              "x": 840,
+              "y": 475
+            },
+            "state": "idle",
+            "action": null,
+            "actionFrame": null,
+            "recovery": 0,
+            "standingLock": 0,
+            "stun": 0,
+            "cooldown": 0,
+            "weapon": null,
+            "denied": {
+              "at": 0,
+              "reason": "pressure budget"
+            },
+            "controllerData": {},
+            "director": {
+              "primary": 7,
+              "secondary": 8,
+              "roles": {
+                "7": {
+                  "type": "akari",
+                  "role": "PrimaryAttacker"
+                },
+                "8": {
+                  "type": "akari",
+                  "role": "SecondaryAttacker"
+                },
+                "9": {
+                  "type": "akari",
+                  "role": "Repositioning"
+                }
+              },
+              "latestRequest": {
+                "at": 0,
+                "enemy": 9,
+                "attack": "kick",
+                "cost": 1,
+                "category": "light",
+                "target": "hero",
+                "duration": 1.8,
+                "distance": 240,
+                "depth": 0,
+                "priority": 1,
+                "granted": false,
+                "reason": "pressure budget"
+              }
+            },
+            "candidateWeights": null,
+            "nativeReasonFields": [],
+            "selectionReason": "pressure budget",
+            "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+          }
+        }
+      ],
+      "priorEvent": "[{\"sequence\":3,\"simulationFrame\":0,\"time\":0,\"enemy\":9,\"kind\":\"action rejected\",\"requestedAction\":\"kick\",\"chosenAction\":null,\"reason\":\"pressure budget\",\"snapshot\":{\"id\":9,\"name\":\"Akari\",\"type\":\"akari\",\"hp\":72,\"maxHp\":72,\"playerHP\":105,\"target\":4,\"distance\":240,\"planeDifference\":0,\"position\":{\"x\":840,\"y\":475},\"state\":\"idle\",\"action\":null,\"actionFrame\":null,\"recovery\":0,\"standingLock\":0,\"stun\":0,\"cooldown\":0,\"weapon\":null,\"denied\":{\"at\":0,\"reason\":\"pressure budget\"},\"controllerData\":{},\"director\":{\"primary\":7,\"secondary\":8,\"roles\":{\"7\":{\"type\":\"akari\",\"role\":\"PrimaryAttacker\"},\"8\":{\"type\":\"akari\",\"role\":\"SecondaryAttacker\"},\"9\":{\"type\":\"akari\",\"role\":\"Repositioning\"}},\"latestRequest\":{\"at\":0,\"enemy\":9,\"attack\":\"kick\",\"cost\":1,\"category\":\"light\",\"target\":\"hero\",\"duration\":1.8,\"distance\":240,\"depth\":0,\"priority\":1,\"granted\":false,\"reason\":\"pressure budget\"}},\"candidateWeights\":null,\"nativeReasonFields\":[],\"selectionReason\":\"pressure budget\",\"limitation\":\"Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A.\"}}]"
+    },
+    {
+      "kind": "unexplained controller rejection reuses old reason",
+      "event": {
+        "sequence": 4,
+        "simulationFrame": 0,
+        "time": 0,
+        "enemy": 9,
+        "kind": "action rejected",
+        "requestedAction": "frontKick",
+        "chosenAction": null,
+        "reason": "pressure budget",
+        "snapshot": {
+          "id": 9,
+          "name": "Bruno",
+          "type": "enforcer",
+          "hp": 115,
+          "maxHp": 115,
+          "playerHP": 105,
+          "target": 4,
+          "distance": 240,
+          "planeDifference": 0,
+          "position": {
+            "x": 840,
+            "y": 475
+          },
+          "state": "idle",
+          "action": null,
+          "actionFrame": null,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0.2,
+          "weapon": null,
+          "denied": {
+            "at": 0,
+            "reason": "pressure budget"
+          },
+          "controllerData": {
+            "enemy210": {
+              "cd": {},
+              "decision": 0,
+              "guardAt": 0,
+              "stepAt": 0,
+              "feintAt": 0,
+              "retaliateAt": 0,
+              "burstAt": 0,
+              "burstUntil": 0,
+              "deceptions": 0,
+              "shots": [],
+              "misses": [],
+              "history": [],
+              "reason": null
+            }
+          },
+          "director": {
+            "primary": 7,
+            "secondary": 8,
+            "roles": {
+              "7": {
+                "type": "enforcer",
+                "role": "PrimaryAttacker"
+              },
+              "8": {
+                "type": "enforcer",
+                "role": "SecondaryAttacker"
+              },
+              "9": {
+                "type": "enforcer",
+                "role": "SupportThreat"
+              }
+            },
+            "latestRequest": {
+              "at": 0,
+              "enemy": 9,
+              "attack": "kick",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 1.8,
+              "distance": 240,
+              "depth": 0,
+              "priority": 1,
+              "granted": false,
+              "reason": "pressure budget"
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "pressure budget",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      },
+      "denialIdentityUnchanged": true,
+      "directorRequestCountUnchanged": true
+    },
+    {
+      "kind": "utility admission with historical request",
+      "snapshot": {
+        "id": 9,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "reload",
+        "action": "reload",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 7,
+          "secondary": 8,
+          "roles": {
+            "7": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "8": {
+              "type": "thug",
+              "role": "SecondaryAttacker"
+            },
+            "9": {
+              "type": "thug",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": false,
+            "reason": "pressure budget"
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      },
+      "event": {
+        "sequence": 4,
+        "simulationFrame": 0,
+        "time": 0,
+        "enemy": 9,
+        "kind": "action admitted",
+        "requestedAction": "reload",
+        "chosenAction": "reload",
+        "reason": null,
+        "snapshot": {
+          "id": 9,
+          "name": "Marcus",
+          "type": "thug",
+          "hp": 60,
+          "maxHp": 60,
+          "playerHP": 105,
+          "target": 4,
+          "distance": 240,
+          "planeDifference": 0,
+          "position": {
+            "x": 840,
+            "y": 475
+          },
+          "state": "reload",
+          "action": "reload",
+          "actionFrame": 0,
+          "recovery": 0,
+          "standingLock": 0,
+          "stun": 0,
+          "cooldown": 0,
+          "weapon": null,
+          "denied": {
+            "at": 0,
+            "reason": "pressure budget"
+          },
+          "controllerData": {
+            "street209": {
+              "decided": false,
+              "drawWon": false,
+              "pendingDraw": false,
+              "hadWeapon": false,
+              "awaitRearm": false,
+              "disarmLock": false,
+              "stepAt": 0,
+              "feintAt": 0,
+              "defendAt": 0,
+              "decisionAt": 0,
+              "engageAt": 0,
+              "throwThinkAt": 0,
+              "failed": null
+            }
+          },
+          "director": {
+            "primary": 7,
+            "secondary": 8,
+            "roles": {
+              "7": {
+                "type": "thug",
+                "role": "PrimaryAttacker"
+              },
+              "8": {
+                "type": "thug",
+                "role": "SecondaryAttacker"
+              },
+              "9": {
+                "type": "thug",
+                "role": "SupportThreat"
+              }
+            },
+            "latestRequest": {
+              "at": 0,
+              "enemy": 9,
+              "attack": "kick",
+              "cost": 1,
+              "category": "light",
+              "target": "hero",
+              "duration": 1.8,
+              "distance": 240,
+              "depth": 0,
+              "priority": 1,
+              "granted": false,
+              "reason": "pressure budget"
+            }
+          },
+          "candidateWeights": null,
+          "nativeReasonFields": [],
+          "selectionReason": "pressure budget",
+          "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+        }
+      }
+    },
+    {
+      "kind": "older timestamp snapshot",
+      "time": 0.5,
+      "snapshot": {
+        "id": 9,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "idle",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 7,
+          "secondary": 8,
+          "roles": {
+            "7": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            },
+            "8": {
+              "type": "thug",
+              "role": "SecondaryAttacker"
+            },
+            "9": {
+              "type": "thug",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": false,
+            "reason": "pressure budget"
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "kind": "unobserved outer physical rejection",
+      "beforeEvents": 1,
+      "afterDamage": 2,
+      "afterAttempt": 2,
+      "snapshot": {
+        "id": 9,
+        "name": "Bruno",
+        "type": "enforcer",
+        "hp": 108,
+        "maxHp": 115,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 245,
+        "planeDifference": 0,
+        "position": {
+          "x": 845,
+          "y": 475
+        },
+        "state": "hitstun",
+        "action": null,
+        "actionFrame": null,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0.28,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "enemy210": {
+            "cd": {},
+            "decision": 0,
+            "guardAt": 0,
+            "stepAt": 0,
+            "feintAt": 0,
+            "retaliateAt": 0,
+            "burstAt": 0,
+            "burstUntil": 0,
+            "deceptions": 0,
+            "shots": [],
+            "misses": [],
+            "history": [],
+            "reason": null
+          }
+        },
+        "director": {
+          "primary": 7,
+          "secondary": 8,
+          "roles": {
+            "7": {
+              "type": "enforcer",
+              "role": "PrimaryAttacker"
+            },
+            "8": {
+              "type": "enforcer",
+              "role": "SecondaryAttacker"
+            },
+            "9": {
+              "type": "enforcer",
+              "role": "SupportThreat"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": false,
+            "reason": "pressure budget"
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "kind": "detached-history and read-only controls",
+      "pastEvents": 1
+    },
+    {
+      "kind": "history clear and recording state",
+      "recording": false,
+      "snapshot": {
+        "id": 9,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "thug",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "thug",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    },
+    {
+      "kind": "history clear and recording state",
+      "recording": true,
+      "snapshot": {
+        "id": 9,
+        "name": "Marcus",
+        "type": "thug",
+        "hp": 60,
+        "maxHp": 60,
+        "playerHP": 105,
+        "target": 4,
+        "distance": 240,
+        "planeDifference": 0,
+        "position": {
+          "x": 840,
+          "y": 475
+        },
+        "state": "kick",
+        "action": "kick",
+        "actionFrame": 0,
+        "recovery": 0,
+        "standingLock": 0,
+        "stun": 0,
+        "cooldown": 0,
+        "weapon": null,
+        "denied": {
+          "at": 0,
+          "reason": "pressure budget"
+        },
+        "controllerData": {
+          "street209": {
+            "decided": false,
+            "drawWon": false,
+            "pendingDraw": false,
+            "hadWeapon": false,
+            "awaitRearm": false,
+            "disarmLock": false,
+            "stepAt": 0,
+            "feintAt": 0,
+            "defendAt": 0,
+            "decisionAt": 0,
+            "engageAt": 0,
+            "throwThinkAt": 0,
+            "failed": null
+          }
+        },
+        "director": {
+          "primary": 9,
+          "secondary": null,
+          "roles": {
+            "7": {
+              "type": "thug",
+              "role": "ApproachSupport"
+            },
+            "8": {
+              "type": "thug",
+              "role": "SupportThreat"
+            },
+            "9": {
+              "type": "thug",
+              "role": "PrimaryAttacker"
+            }
+          },
+          "latestRequest": {
+            "at": 0,
+            "enemy": 9,
+            "attack": "kick",
+            "cost": 1,
+            "category": "light",
+            "target": "hero",
+            "duration": 1.8,
+            "distance": 240,
+            "depth": 0,
+            "priority": 1,
+            "granted": true,
+            "reason": null
+          }
+        },
+        "candidateWeights": null,
+        "nativeReasonFields": [],
+        "selectionReason": "pressure budget",
+        "limitation": "Only fields exposed by the native controller are recorded. Unexposed candidates, random rolls and reasons are N/A."
+      }
+    }
+  ],
+  "interpretation": "Confirmed diagnostic attribution defects only; native grants, denials, action data, HP and clocks are authoritative. Same-time denied/granted attempts disprove timestamp-only freshness. Generic shared calls isolate diagnostics, not natural move selection frequency."
+}

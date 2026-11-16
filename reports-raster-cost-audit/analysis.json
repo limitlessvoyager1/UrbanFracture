@@ -1,0 +1,1004 @@
+{
+  "status": "passed",
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "profile": [
+    {
+      "roster": "same",
+      "count": 1,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 6.687777776850594,
+        "p95": 8.900000005960464,
+        "min": 5.5,
+        "max": 11.899999976158142
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "same",
+      "count": 1,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 6.830000000198682,
+        "p95": 9.699999988079071,
+        "min": 5.300000011920929,
+        "max": 12
+      },
+      "missesPerFrame": 1,
+      "hitsPerFrame": 0,
+      "missStagesMsPerFrame": {
+        "lookup": 0.005000000364250607,
+        "scratchSetup": 0.0016666665673255921,
+        "nativePaint": 0.058333333333333334,
+        "readback": 0.36055555558866925,
+        "soleScan": 0.032777777479754557,
+        "boundsScan": 0.13944444408019382,
+        "allocateResize": 0.013888889054457346,
+        "cropBlit": 0.07333333426051669,
+        "store": 0.0055555553899870975,
+        "output": 0.029444444676240286
+      },
+      "missStageSumMs": 0.7200000007947287,
+      "rgbaReadbackBytesPerFrame": 786432
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 6.660555555588669,
+        "p95": 8.700000017881393,
+        "min": 5.399999976158142,
+        "max": 10.599999994039536
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 6.756111111409134,
+        "p95": 9.099999994039536,
+        "min": 5.4000000059604645,
+        "max": 11.600000023841858
+      },
+      "missesPerFrame": 1,
+      "hitsPerFrame": 3,
+      "missStagesMsPerFrame": {
+        "lookup": 0.0038888889882299636,
+        "scratchSetup": 0.005000000033113692,
+        "nativePaint": 0.05888888736565908,
+        "readback": 0.3494444443119897,
+        "soleScan": 0.029444444841808744,
+        "boundsScan": 0.14055555512507756,
+        "allocateResize": 0.01500000109275182,
+        "cropBlit": 0.06888888859086567,
+        "store": 0.0016666667328940497,
+        "output": 0.03388888935248057
+      },
+      "missStageSumMs": 0.7066666664348709,
+      "rgbaReadbackBytesPerFrame": 786432
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 6.825555556019148,
+        "p95": 8.800000011920929,
+        "min": 5.5,
+        "max": 11.5
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 7.027777776287662,
+        "p95": 8.700000017881393,
+        "min": 5.699999988079071,
+        "max": 14.400000005960464
+      },
+      "missesPerFrame": 1,
+      "hitsPerFrame": 7,
+      "missStagesMsPerFrame": {
+        "lookup": 0.002777777777777778,
+        "scratchSetup": 0.004444444676240286,
+        "nativePaint": 0.04222222218910853,
+        "readback": 0.357222222785155,
+        "soleScan": 0.037222221328152554,
+        "boundsScan": 0.17499999933772617,
+        "allocateResize": 0.015555555456214482,
+        "cropBlit": 0.0738888896173901,
+        "store": 0.0016666667328940497,
+        "output": 0.029444444676240286
+      },
+      "missStageSumMs": 0.7394444445768992,
+      "rgbaReadbackBytesPerFrame": 786432
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 7.315555556284057,
+        "p95": 9.800000011920929,
+        "min": 5.700000017881393,
+        "max": 12.300000011920929
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 7.167777778704961,
+        "p95": 9.800000011920929,
+        "min": 5.5,
+        "max": 12.599999994039536
+      },
+      "missesPerFrame": 1,
+      "hitsPerFrame": 0,
+      "missStagesMsPerFrame": {
+        "lookup": 0.005000000364250607,
+        "scratchSetup": 0.008333333167764875,
+        "nativePaint": 0.03611110995213191,
+        "readback": 0.37666666789187325,
+        "soleScan": 0.02777777694993549,
+        "boundsScan": 0.15722222179174422,
+        "allocateResize": 0.01833333373069763,
+        "cropBlit": 0.07111111101177003,
+        "store": 0.0033333333002196416,
+        "output": 0.02777777761220932
+      },
+      "missStageSumMs": 0.7316666657725971,
+      "rgbaReadbackBytesPerFrame": 786432
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 9.086111109952132,
+        "p95": 11.5,
+        "min": 7.200000017881393,
+        "max": 14.699999988079071
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 9.603888888325956,
+        "p95": 12.200000017881393,
+        "min": 7.699999988079071,
+        "max": 22.299999982118607
+      },
+      "missesPerFrame": 4,
+      "hitsPerFrame": 0,
+      "missStagesMsPerFrame": {
+        "lookup": 0.016666666501098208,
+        "scratchSetup": 0.014444444742467668,
+        "nativePaint": 0.11611111081308789,
+        "readback": 1.3455555564827388,
+        "soleScan": 0.1727777760889795,
+        "boundsScan": 0.6416666666666667,
+        "allocateResize": 0.04777777675125334,
+        "cropBlit": 0.2344444450404909,
+        "store": 0.007222222288449606,
+        "output": 0.12888888915379842
+      },
+      "missStageSumMs": 2.725555554529031,
+      "rgbaReadbackBytesPerFrame": 3145728
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 11.573888889948527,
+        "p95": 14.199999988079071,
+        "min": 8.900000005960464,
+        "max": 17.19999998807907
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 11.83111111190584,
+        "p95": 14.800000011920929,
+        "min": 9,
+        "max": 18.299999982118607
+      },
+      "missesPerFrame": 7,
+      "hitsPerFrame": 1,
+      "missStagesMsPerFrame": {
+        "lookup": 0.016111110978656345,
+        "scratchSetup": 0.024444444477558135,
+        "nativePaint": 0.18222222179174424,
+        "readback": 2.3833333353201547,
+        "soleScan": 0.24111111213763556,
+        "boundsScan": 1.0644444445768992,
+        "allocateResize": 0.07833333330021965,
+        "cropBlit": 0.30722222295072343,
+        "store": 0.025555555356873406,
+        "output": 0.224444442987442
+      },
+      "missStageSumMs": 4.547222223877907,
+      "rgbaReadbackBytesPerFrame": 5505024
+    }
+  ],
+  "confirmation": [
+    {
+      "roster": "mixed",
+      "count": 8,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 11.336111112766796,
+        "p95": 14.5,
+        "min": 8.800000011920929,
+        "max": 18.200000017881393
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 11.50555555621783,
+        "p95": 14.400000005960464,
+        "min": 9.099999994039536,
+        "max": 17.5
+      },
+      "missesPerFrame": 7,
+      "hitsPerFrame": 1,
+      "missStagesMsPerFrame": {
+        "lookup": 0.01999999980131785,
+        "scratchSetup": 0.02444444480869505,
+        "nativePaint": 0.17333333326710595,
+        "readback": 2.2694444472591084,
+        "soleScan": 0.24166666401757134,
+        "boundsScan": 1.0188888922333716,
+        "allocateResize": 0.06833333323399225,
+        "cropBlit": 0.3249999995032946,
+        "store": 0.007222222288449606,
+        "output": 0.22777777744664085
+      },
+      "missStageSumMs": 4.376111113859548,
+      "rgbaReadbackBytesPerFrame": 5505024
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "observed": true,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 11.415555555125078,
+        "p95": 13.799999982118607,
+        "min": 9.099999994039536,
+        "max": 17.599999994039536
+      },
+      "missesPerFrame": 7,
+      "hitsPerFrame": 1,
+      "missStagesMsPerFrame": {
+        "lookup": 0.03888888855775197,
+        "scratchSetup": 0.024444444477558135,
+        "nativePaint": 0.17055555598603356,
+        "readback": 2.257777777645323,
+        "soleScan": 0.2488888864715894,
+        "boundsScan": 0.9961111141575707,
+        "allocateResize": 0.056111110912428964,
+        "cropBlit": 0.3072222224540181,
+        "store": 0.023333333432674408,
+        "output": 0.23444444090127944
+      },
+      "missStageSumMs": 4.3577777749962285,
+      "rgbaReadbackBytesPerFrame": 5505024
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "observed": false,
+      "fullDraw": {
+        "samples": 180,
+        "mean": 11.55166666607062,
+        "p95": 14.599999994039536,
+        "min": 9,
+        "max": 17.600000023841858
+      },
+      "missesPerFrame": null,
+      "hitsPerFrame": null,
+      "missStagesMsPerFrame": {},
+      "missStageSumMs": null,
+      "rgbaReadbackBytesPerFrame": null
+    }
+  ],
+  "poolTrace": [
+    {
+      "reused": 1241,
+      "fresh": 19,
+      "dropped": 0,
+      "reuseRate": 0.984920634920635,
+      "peakIdleBytes": 953760,
+      "peakIdleEntries": 19,
+      "limitBytes": 4194304,
+      "limitEntries": 32,
+      "scope": "Trace-only exact-size availability model, cold at measured-frame start, no production pool or integrated speed result"
+    },
+    {
+      "reused": 1241,
+      "fresh": 19,
+      "dropped": 0,
+      "reuseRate": 0.984920634920635,
+      "peakIdleBytes": 953760,
+      "peakIdleEntries": 19,
+      "limitBytes": 4194304,
+      "limitEntries": 32,
+      "scope": "Trace-only exact-size availability model, cold at measured-frame start, no production pool or integrated speed result"
+    }
+  ],
+  "comparisons": [
+    {
+      "roster": "same",
+      "count": 1,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "confirmation": true,
+      "observed": true,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "confirmation": true,
+      "observed": true,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    },
+    {
+      "confirmation": true,
+      "observed": false,
+      "changedBytes": 0,
+      "identical": true,
+      "physicalEqual": true
+    }
+  ],
+  "scans": [
+    {
+      "dataset": "all-api168",
+      "name": "legacy",
+      "rounds": 6,
+      "meanMsPerCrop": 0.17903439152650732,
+      "roundMsPerCrop": [
+        0.16785714284531653,
+        0.19107142859508122,
+        0.18809523805975914,
+        0.17400793648428386,
+        0.17242063493246124,
+        0.18075396824214193
+      ]
+    },
+    {
+      "dataset": "all-api168",
+      "name": "edge",
+      "rounds": 6,
+      "meanMsPerCrop": 0.17076719576916682,
+      "roundMsPerCrop": [
+        0.16488095242825765,
+        0.18055555555555555,
+        0.18075396824214193,
+        0.16666666666666666,
+        0.16785714284531653,
+        0.16388888887706257
+      ]
+    },
+    {
+      "dataset": "all-api168",
+      "name": "stride",
+      "rounds": 6,
+      "meanMsPerCrop": 0.2027447090025932,
+      "roundMsPerCrop": [
+        0.19642857142857142,
+        0.21726190476190477,
+        0.20615079366261996,
+        0.1940476190121401,
+        0.2069444444680971,
+        0.1956349206822259
+      ]
+    },
+    {
+      "dataset": "all-api168",
+      "name": "words",
+      "rounds": 6,
+      "meanMsPerCrop": 0.20327380951986743,
+      "roundMsPerCrop": [
+        0.2013888888888889,
+        0.21071428569063308,
+        0.20178571432119324,
+        0.20158730157547528,
+        0.2031746031864295,
+        0.20099206345658455
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "legacy",
+      "rounds": 6,
+      "meanMsPerCrop": 0.15608465608465608,
+      "roundMsPerCrop": [
+        0.1809523809287283,
+        0.15496031744849115,
+        0.14999999998817368,
+        0.1498015873015873,
+        0.15000000004730527,
+        0.15079365079365079
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "edge",
+      "rounds": 6,
+      "meanMsPerCrop": 0.1484126984166405,
+      "roundMsPerCrop": [
+        0.15873015873015872,
+        0.1424603174839701,
+        0.1414682539919066,
+        0.14226190473825212,
+        0.15019841267476006,
+        0.1553571428807955
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "stride",
+      "rounds": 6,
+      "meanMsPerCrop": 0.18898809522823998,
+      "roundMsPerCrop": [
+        0.18809523811889073,
+        0.18075396824214193,
+        0.18174603173420542,
+        0.17896825394460134,
+        0.19980158727793468,
+        0.20456349205166574
+      ]
+    },
+    {
+      "dataset": "mixed-idle7",
+      "name": "words",
+      "rounds": 6,
+      "meanMsPerCrop": 0.1938492063551195,
+      "roundMsPerCrop": [
+        0.1875,
+        0.18869047617864987,
+        0.18432539683722315,
+        0.18611111113476375,
+        0.20714285715468347,
+        0.20932539682539683
+      ]
+    }
+  ],
+  "allocationMsPerCopy": {
+    "fresh": 0.06333333338300387,
+    "reuse": 0.0026666666567325592
+  },
+  "contextHintPixelPairs": 14,
+  "isolatedReusePixelPairs": 48,
+  "cropMetadataComparisons": 1170,
+  "nativeAPICaptures": 168,
+  "syntheticCases": 1002,
+  "readback": [
+    {
+      "mode": "shipping-hint",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": false,
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "samples": 240,
+      "meanMs": 0.32916666666666666,
+      "p95Ms": 0.5
+    },
+    {
+      "mode": "shipping-hint",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": false,
+      "rect": [
+        128,
+        96,
+        256,
+        256
+      ],
+      "samples": 240,
+      "meanMs": 0.13624999995032946,
+      "p95Ms": 0.20000001788139343
+    },
+    {
+      "mode": "shipping-hint",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": false,
+      "rect": [
+        192,
+        128,
+        128,
+        192
+      ],
+      "samples": 240,
+      "meanMs": 0.05208333345750968,
+      "p95Ms": 0.10000002384185791
+    },
+    {
+      "mode": "shipping-hint",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": true,
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "samples": 240,
+      "meanMs": 0.8220833321412404,
+      "p95Ms": 1.5999999940395355
+    },
+    {
+      "mode": "shipping-hint",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": true,
+      "rect": [
+        128,
+        96,
+        256,
+        256
+      ],
+      "samples": 240,
+      "meanMs": 0.7349999995281299,
+      "p95Ms": 1.5
+    },
+    {
+      "mode": "shipping-hint",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": true,
+      "rect": [
+        192,
+        128,
+        128,
+        192
+      ],
+      "samples": 240,
+      "meanMs": 0.6395833333333333,
+      "p95Ms": 1.4000000059604645
+    },
+    {
+      "mode": "default",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "pendingPaint": false,
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "samples": 240,
+      "meanMs": 0.35875000022351744,
+      "p95Ms": 0.5
+    },
+    {
+      "mode": "default",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "pendingPaint": false,
+      "rect": [
+        128,
+        96,
+        256,
+        256
+      ],
+      "samples": 240,
+      "meanMs": 0.1329166668156783,
+      "p95Ms": 0.29999998211860657
+    },
+    {
+      "mode": "default",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "pendingPaint": false,
+      "rect": [
+        192,
+        128,
+        128,
+        192
+      ],
+      "samples": 240,
+      "meanMs": 0.08250000004967054,
+      "p95Ms": 0.19999998807907104
+    },
+    {
+      "mode": "default",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "pendingPaint": true,
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "samples": 240,
+      "meanMs": 0.9091666667411725,
+      "p95Ms": 1.699999988079071
+    },
+    {
+      "mode": "default",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "pendingPaint": true,
+      "rect": [
+        128,
+        96,
+        256,
+        256
+      ],
+      "samples": 240,
+      "meanMs": 0.7324999998013179,
+      "p95Ms": 1.5
+    },
+    {
+      "mode": "default",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "pendingPaint": true,
+      "rect": [
+        192,
+        128,
+        128,
+        192
+      ],
+      "samples": 240,
+      "meanMs": 0.6754166672627131,
+      "p95Ms": 1.5
+    },
+    {
+      "mode": "desynchronized",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": true,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": false,
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "samples": 240,
+      "meanMs": 0.37374999982615315,
+      "p95Ms": 0.4000000059604645
+    },
+    {
+      "mode": "desynchronized",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": true,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": false,
+      "rect": [
+        128,
+        96,
+        256,
+        256
+      ],
+      "samples": 240,
+      "meanMs": 0.13541666679084302,
+      "p95Ms": 0.20000001788139343
+    },
+    {
+      "mode": "desynchronized",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": true,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": false,
+      "rect": [
+        192,
+        128,
+        128,
+        192
+      ],
+      "samples": 240,
+      "meanMs": 0.09291666684051354,
+      "p95Ms": 0.10000002384185791
+    },
+    {
+      "mode": "desynchronized",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": true,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": true,
+      "rect": [
+        0,
+        0,
+        512,
+        384
+      ],
+      "samples": 240,
+      "meanMs": 0.8829166660706202,
+      "p95Ms": 1.5999999940395355
+    },
+    {
+      "mode": "desynchronized",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": true,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": true,
+      "rect": [
+        128,
+        96,
+        256,
+        256
+      ],
+      "samples": 240,
+      "meanMs": 0.6762499990562598,
+      "p95Ms": 1.4000000059604645
+    },
+    {
+      "mode": "desynchronized",
+      "attributes": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": true,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": true
+      },
+      "pendingPaint": true,
+      "rect": [
+        192,
+        128,
+        128,
+        192
+      ],
+      "samples": 240,
+      "meanMs": 0.5837499999751647,
+      "p95Ms": 1.2000000178813934
+    }
+  ],
+  "performanceAcceptance": "UF-RENDER-025 hold remains; this audit does not implement or certify a performance repair",
+  "limits": [
+    "Readback stage includes queued rasterization/synchronization, not just byte copy.",
+    "Default matrix is synchronous and uses UF-raster-audit environment; confirmation matches prior UF-cache-perf seed and yields every60ticks.",
+    "Micro scan/copy results do not establish integrated frame improvement.",
+    "Smaller ROI coverage is unproven; no shipping ROI or sole rule changed.",
+    "Context hints tested on seven synthetic API states only."
+  ]
+}

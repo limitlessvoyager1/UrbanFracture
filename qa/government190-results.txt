@@ -1,0 +1,8 @@
+PASS190 front-away spin throw ×4 enemy bodies ×2 facings: same logical lane, every visual lowest point at/above hero floor, original damage/release retained
+PASS190 planted full3s Iron Will charge, release-only10s armor/75sCD unchanged, ordinary damage still halved, active movement allowed, no grounded Down+Attack
+PASS190 every holding-cell reinforcement including one Flint enters an explicit open door; no closed-cell exits
+PASS190 Dirk continuous cooldown footwork, grounded backstep flag, distance hysteresis and130HP preserved
+PASS190 every real Dirk shot consumes one round and emits one gunshot/recoil/muzzle cue; no duplicate audio event
+PASS190 Niko Blur Dash travels277.5 (50% beyond185), fixed original heading through dash, faces origin during final recovery in both directions
+PASS190 all five heroes aerial attacks stay on initial combat lane despite directional/depth input; Niko kick has separate visual height/forward travel
+PASS190 Niko Thunder Palms retains18damage and same-lane launch with new draw-back/thrust choreography

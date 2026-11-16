@@ -1,0 +1,589 @@
+{
+  "baselineCommit": "3ee2b86e37f581bb0087d108293fb2cc6eadc586",
+  "damageProcessingBytesUnchanged": true,
+  "physicalDamageTimerTrajectoriesUnchanged": 112,
+  "framesComparedPerCase": 61,
+  "nativeMovesUnchanged": [
+    {
+      "type": "thug",
+      "move": "marcusCombo",
+      "unchanged": true,
+      "data": {
+        "name": "marcusCombo",
+        "total": 1,
+        "hitAt": 0.3
+      }
+    },
+    {
+      "type": "knifeThug",
+      "move": "knife",
+      "unchanged": true,
+      "data": {
+        "name": "knife",
+        "total": 1,
+        "hitAt": 0.3
+      }
+    },
+    {
+      "type": "enforcer",
+      "move": "hook",
+      "unchanged": true,
+      "data": {
+        "name": "hook",
+        "total": 0.9333333333333333,
+        "hitAt": 0.3333333333333333,
+        "damage": 18,
+        "reach": 112,
+        "active": 0.1,
+        "knock": true,
+        "antiAir": false,
+        "times210": [
+          0.3333333333333333
+        ]
+      }
+    },
+    {
+      "type": "biker",
+      "move": "chainLash",
+      "unchanged": true,
+      "data": {
+        "name": "chainLash",
+        "total": 1.25,
+        "hitAt": 0.4666666666666667,
+        "damage": 16,
+        "reach": 245,
+        "active": 0.15,
+        "knock": false,
+        "antiAir": false,
+        "times210": [
+          0.4666666666666667
+        ]
+      }
+    },
+    {
+      "type": "cop",
+      "move": "batonCombo",
+      "unchanged": true,
+      "data": {
+        "name": "batonCombo",
+        "total": 1.2333333333333334,
+        "hitAt": 0.2,
+        "damage": 9,
+        "reach": 126,
+        "active": 0.06666666666666667,
+        "knock": false,
+        "antiAir": false,
+        "times210": [
+          0.2,
+          0.5,
+          0.8
+        ]
+      }
+    },
+    {
+      "type": "flint",
+      "move": "flintWild",
+      "unchanged": true,
+      "data": {
+        "name": "flintWild",
+        "total": 4.15,
+        "hitAt": 0.18333333333333332,
+        "damage": 8,
+        "reach": 88,
+        "active": 0.06666666666666667,
+        "knock": false
+      }
+    },
+    {
+      "type": "sato",
+      "move": "martialCombo",
+      "unchanged": true,
+      "data": {
+        "name": "martialCombo",
+        "total": 1.9166666666666667,
+        "hitAt": 0.23333333333333334,
+        "damage": 8,
+        "reach": 125,
+        "active": 0.06666666666666665,
+        "knock": false,
+        "antiAir": false,
+        "times212": [
+          0.23333333333333334,
+          0.7,
+          1.2833333333333332
+        ]
+      }
+    },
+    {
+      "type": "akari",
+      "move": "martialCombo",
+      "unchanged": true,
+      "data": {
+        "name": "martialCombo",
+        "total": 1.5833333333333333,
+        "hitAt": 0.18333333333333332,
+        "damage": 6,
+        "reach": 122,
+        "active": 0.06666666666666668,
+        "knock": false,
+        "antiAir": false,
+        "times212": [
+          0.18333333333333332,
+          0.5833333333333334,
+          1.0666666666666667
+        ]
+      }
+    }
+  ],
+  "knockdownAdmissionParity": [
+    {
+      "type": "thug",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "thug",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "knifeThug",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "knifeThug",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "knifeThug",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "knifeThug",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "knifeThug",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "knifeThug",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "knifeThug",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "knifeThug",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "enforcer",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "biker",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "biker",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "biker",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "biker",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "biker",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "biker",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "biker",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "biker",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "cop",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "cop",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "cop",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "cop",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "cop",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "cop",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "cop",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "cop",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "flint",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "flint",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "flint",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "flint",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "flint",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "flint",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "flint",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "flint",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "sato",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "sato",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "sato",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "sato",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "sato",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "sato",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "sato",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "sato",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "akari",
+      "phase": "fall",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "akari",
+      "phase": "fall",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "akari",
+      "phase": "ground",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "akari",
+      "phase": "ground",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "akari",
+      "phase": "rise",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "akari",
+      "phase": "rise",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    },
+    {
+      "type": "akari",
+      "phase": "standing-recovery",
+      "method": "start",
+      "unchanged": true,
+      "offenseCreated": true
+    },
+    {
+      "type": "akari",
+      "phase": "standing-recovery",
+      "method": "enemyAct",
+      "unchanged": true,
+      "offenseCreated": false
+    }
+  ],
+  "knownKnockdownStartFailuresStillPresent": 24
+}

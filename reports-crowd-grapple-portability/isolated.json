@@ -1,0 +1,111 @@
+{
+  "result": "passed",
+  "scenarios": 10,
+  "isolatedDirectory": "C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\crowd-grapple-portability-fC0Mf7",
+  "copiedFiles": 525,
+  "noGitDirectory": true,
+  "parentRepositoryDiscoveryPrevented": true,
+  "results": [
+    {
+      "suite": "crowd",
+      "scenario": "no Git and no repository",
+      "exit": 0,
+      "checks": 163200,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "legacyProof": null,
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS crowd behavioral 163200\n"
+    },
+    {
+      "suite": "grapple",
+      "scenario": "no Git and no repository",
+      "exit": 0,
+      "checks": 22791,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "legacyProof": null,
+      "stdout": "grapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS grapple behavioral 22791\n"
+    },
+    {
+      "suite": "crowd",
+      "scenario": "Git available, no repository or parent discovery",
+      "exit": 0,
+      "checks": 163200,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "legacyProof": null,
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS crowd behavioral 163200\n"
+    },
+    {
+      "suite": "grapple",
+      "scenario": "Git available, no repository or parent discovery",
+      "exit": 0,
+      "checks": 22791,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "legacyProof": null,
+      "stdout": "grapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS grapple behavioral 22791\n"
+    },
+    {
+      "suite": "crowd",
+      "scenario": "available historical byte mismatch",
+      "exit": 1,
+      "checks": 163200,
+      "behavior": "passed",
+      "historical": "failed",
+      "sourceProof": false,
+      "legacyProof": false,
+      "stdout": "crowd historical receipts: FAILED {\"passed\":0,\"failed\":11,\"unavailable\":0}\n"
+    },
+    {
+      "suite": "grapple",
+      "scenario": "available historical byte mismatch",
+      "exit": 1,
+      "checks": 22791,
+      "behavior": "passed",
+      "historical": "failed",
+      "sourceProof": false,
+      "legacyProof": false,
+      "stdout": "grapple historical receipts: FAILED {\"passed\":0,\"failed\":7,\"unavailable\":0}\n"
+    },
+    {
+      "suite": "crowd",
+      "scenario": "actual isolated behavior mutation with history absent",
+      "exit": 1,
+      "checks": 1158,
+      "behavior": "failed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "legacyProof": null,
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\n"
+    },
+    {
+      "suite": "grapple",
+      "scenario": "actual isolated behavior mutation with history absent",
+      "exit": 1,
+      "checks": 3,
+      "behavior": "failed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "legacyProof": null,
+      "stdout": "grapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\n"
+    },
+    {
+      "scenario": "strict CLI without history",
+      "exit": 2,
+      "historical": "unavailable",
+      "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\ncore.js: Git executable unavailable\ndirector148.js: Git executable unavailable\ncombat274.js: Git executable unavailable\nstreet209.js: Git executable unavailable\nenemies210.js: Git executable unavailable\nmartial212.js: Git executable unavailable\nworkers233.js: Git executable unavailable\ncounters248.js: Git executable unavailable\nreactions298.js: Git executable unavailable\ngrapples301.js: Git executable unavailable\ncontact302.js: Git executable unavailable\ngrapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\ncore.js: Git executable unavailable\ncombat134.js: Git executable unavailable\nenemies210.js: Git executable unavailable\ngrapple-recovery119.js: Git executable unavailable\npaired-motion.js: Git executable unavailable\nreactions298.js: Git executable unavailable\nknockdowns299.js: Git executable unavailable\n"
+    },
+    {
+      "scenario": "strict CLI available byte mismatch",
+      "exit": 1,
+      "historical": "failed",
+      "stdout": "crowd historical receipts: FAILED {\"passed\":0,\"failed\":11,\"unavailable\":0}\ncore.js: Historical source bytes differ after approved adapters\ndirector148.js: Historical source bytes differ after approved adapters\ncombat274.js: Historical source bytes differ after approved adapters\nstreet209.js: Historical source bytes differ after approved adapters\nenemies210.js: Historical source bytes differ after approved adapters\nmartial212.js: Historical source bytes differ after approved adapters\nworkers233.js: Historical source bytes differ after approved adapters\ncounters248.js: Historical source bytes differ after approved adapters\nreactions298.js: Historical source bytes differ after approved adapters\ngrapples301.js: Historical source bytes differ after approved adapters\ncontact302.js: Historical source bytes differ after approved adapters\ngrapple historical receipts: FAILED {\"passed\":0,\"failed\":7,\"unavailable\":0}\ncore.js: Historical source bytes differ after approved adapters\ncombat134.js: Historical source bytes differ after approved adapters\nenemies210.js: Historical source bytes differ after approved adapters\ngrapple-recovery119.js: Historical source bytes differ after approved adapters\npaired-motion.js: Historical source bytes differ after approved adapters\nreactions298.js: Historical source bytes differ after approved adapters\nknockdowns299.js: Historical source bytes differ after approved adapters\n"
+    }
+  ],
+  "scope": "Actual original behavioral entry scripts in an isolated copy. Missing evidence does not suppress runtime checks, available mismatches still fail, and actual coordinator/paired-clock mutations fail despite unavailable receipts."
+}

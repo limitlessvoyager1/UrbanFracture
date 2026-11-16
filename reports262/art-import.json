@@ -1,0 +1,522 @@
+[
+  {
+    "src": "assets/repair262/red-0.webp?v=262",
+    "w": 199,
+    "h": 302,
+    "variant": 3,
+    "phase": 0,
+    "referenceHeight262": 302,
+    "ax262": 125,
+    "ay262": 302,
+    "bytes": 19882,
+    "sha256": "c82e85a24306295568f09e136c7ac78f843d937708a30d77811d7827c63e2eea",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/red-1.webp?v=262",
+    "w": 207,
+    "h": 299,
+    "variant": 3,
+    "phase": 1,
+    "referenceHeight262": 302,
+    "ax262": 134,
+    "ay262": 302,
+    "bytes": 20230,
+    "sha256": "0d91face0ef945217abe71f5d8d263b2dae62bbbbaa1fea5d190db801058bafc",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/red-2.webp?v=262",
+    "w": 218,
+    "h": 262,
+    "variant": 3,
+    "phase": 2,
+    "referenceHeight262": 302,
+    "ax262": 143,
+    "ay262": 302,
+    "bytes": 21258,
+    "sha256": "922a50cdd6f02eafb055b544eac435ed86c1887c882d81962aebf1254b413b43",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/red-3.webp?v=262",
+    "w": 237,
+    "h": 298,
+    "variant": 3,
+    "phase": 3,
+    "referenceHeight262": 302,
+    "ax262": 148,
+    "ay262": 301,
+    "bytes": 21160,
+    "sha256": "5b6ec92341e831909278f39d2c0e1e16c1cf9044d716813f983c4dd93d88143d",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/vault-8.webp?v=262",
+    "w": 285,
+    "h": 306,
+    "ax": 142.5,
+    "ay": 306,
+    "scale": 0.37272727272727274,
+    "kind": "grabs258",
+    "index": 8,
+    "atlas": "vault262",
+    "grip": [
+      28.5,
+      278.46000000000004
+    ],
+    "bytes": 20586,
+    "sha256": "8e6165d9131bcd60d0f4d9790ed9c322535f520df3dcbef988f05be55ce28620",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/vault-9.webp?v=262",
+    "w": 273,
+    "h": 212,
+    "ax": 109.2,
+    "ay": 212,
+    "scale": 0.37272727272727274,
+    "kind": "grabs258",
+    "index": 9,
+    "atlas": "vault262",
+    "grip": [
+      196.56,
+      67.84
+    ],
+    "bytes": 19948,
+    "sha256": "4f995e61fdad4815422714f7b795ec42a098b95232cd82d5719bb1fd6b007742",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/green-0.webp?v=262",
+    "w": 249,
+    "h": 309,
+    "variant": 4,
+    "phase": 0,
+    "referenceHeight262": 312,
+    "ax262": 134,
+    "ay262": 309,
+    "bytes": 19898,
+    "sha256": "ff4459f0ed281b6f972f7c8257c853ec69aa266cb896add1753b47826a36ac54",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/green-1.webp?v=262",
+    "w": 184,
+    "h": 310,
+    "variant": 4,
+    "phase": 1,
+    "referenceHeight262": 312,
+    "ax262": 91,
+    "ay262": 310,
+    "bytes": 18606,
+    "sha256": "f9607ae7508e928e9cb9a55ecfb0065e62c83038e5e72b91074f22a4b417afeb",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/green-2.webp?v=262",
+    "w": 256,
+    "h": 305,
+    "variant": 4,
+    "phase": 2,
+    "referenceHeight262": 312,
+    "ax262": 140,
+    "ay262": 305,
+    "bytes": 19030,
+    "sha256": "cf6069e81a20b3a11dbde755a007d68c55c547e9fc4d030ccdbbd63265abbc99",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/green-3.webp?v=262",
+    "w": 147,
+    "h": 312,
+    "variant": 4,
+    "phase": 3,
+    "referenceHeight262": 312,
+    "ax262": 74,
+    "ay262": 312,
+    "bytes": 16252,
+    "sha256": "730f6fbce07f75ff713069abd3068a63361f6a125e0794e98e83150ea99c3520",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/purple-0.webp?v=262",
+    "w": 271,
+    "h": 309,
+    "variant": 5,
+    "phase": 0,
+    "referenceHeight262": 311,
+    "ax262": 146,
+    "ay262": 309,
+    "bytes": 22034,
+    "sha256": "ea3d8e4051dd14c577973f0317ce6d789d59636ae62e2e2a1ea86a73883858e3",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/purple-1.webp?v=262",
+    "w": 213,
+    "h": 310,
+    "variant": 5,
+    "phase": 1,
+    "referenceHeight262": 311,
+    "ax262": 118,
+    "ay262": 310,
+    "bytes": 20356,
+    "sha256": "82ae424ebcf095e14d06a164f8932590b5643b01e1923aba86685cde19766d7a",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/purple-2.webp?v=262",
+    "w": 268,
+    "h": 307,
+    "variant": 5,
+    "phase": 2,
+    "referenceHeight262": 311,
+    "ax262": 143,
+    "ay262": 307,
+    "bytes": 20366,
+    "sha256": "421e230258f6f49e2cd06d32f27bcfee5933b4785751c3992107a8d14067ae1e",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/purple-3.webp?v=262",
+    "w": 178,
+    "h": 311,
+    "variant": 5,
+    "phase": 3,
+    "referenceHeight262": 311,
+    "ax262": 96,
+    "ay262": 311,
+    "bytes": 17484,
+    "sha256": "249854bbb80cfafacad41975370d7d15944d84622210f70df3de9d11a991e6c3",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/fear-0.webp?v=262",
+    "w": 121,
+    "h": 308,
+    "referenceHeight262": 308,
+    "ax262": 60.5,
+    "ay262": 308,
+    "bytes": 15704,
+    "sha256": "ada77e117b90237bd2e052a4c1a2f035591c320b84731770db8f292550751c2b",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/fear-1.webp?v=262",
+    "w": 218,
+    "h": 294,
+    "referenceHeight262": 308,
+    "ax262": 109.0,
+    "ay262": 294,
+    "bytes": 19002,
+    "sha256": "aa860ed3ffaa50f1bbee72d9bb9c4f6342eedabbe1889e4eb70cad05e477b4f0",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/fear-2.webp?v=262",
+    "w": 156,
+    "h": 244,
+    "referenceHeight262": 308,
+    "ax262": 78.0,
+    "ay262": 244,
+    "bytes": 13974,
+    "sha256": "bca7738cf1ee2462fed336719578b31240c90ac152dedd305bf5d75a179d3401",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/fear-3.webp?v=262",
+    "w": 198,
+    "h": 267,
+    "referenceHeight262": 308,
+    "ax262": 99.0,
+    "ay262": 267,
+    "bytes": 17212,
+    "sha256": "3c360e9bda1163384c68dcf75bcd199b57fa51c6efeeef14f7bf32b78b70e4d5",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/taser-8.webp?v=262",
+    "w": 217,
+    "h": 332,
+    "ax": 97.65,
+    "ay": 332,
+    "scale": 0.3716012084592145,
+    "kind": "grab",
+    "index": 8,
+    "atlas": "taser262",
+    "grip": [
+      213,
+      83.0
+    ],
+    "hand": [
+      173.60000000000002,
+      126.16
+    ],
+    "bytes": 20772,
+    "sha256": "ea6ed9d8e626d82d3ba27c7f3380c080f960399bc3368577e02240760abe421c",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/taser-5.webp?v=262",
+    "w": 203,
+    "h": 331,
+    "ax": 91.35000000000001,
+    "ay": 331,
+    "scale": 0.3716012084592145,
+    "kind": "grab",
+    "index": 5,
+    "atlas": "taser262",
+    "grip": [
+      199,
+      82.75
+    ],
+    "hand": [
+      162.4,
+      125.78
+    ],
+    "bytes": 19812,
+    "sha256": "3669a51342867ffca2b078bd0794e94a2144b455c8e34360e652512a9f40ee8b",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/kevin-0.webp?v=262",
+    "w": 218,
+    "h": 293,
+    "ax": 104.64,
+    "ay": 293,
+    "scale": 0.468259385665529,
+    "index": 0,
+    "bytes": 19376,
+    "sha256": "a4c0621055208e94a226f7d810b0fcc0621d56776fb6a83399560f7dd16d9ad0",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/kevin-1.webp?v=262",
+    "w": 229,
+    "h": 291,
+    "ax": 109.92,
+    "ay": 291,
+    "scale": 0.468259385665529,
+    "index": 1,
+    "bytes": 20234,
+    "sha256": "a929a86b234a2210c69936d816df92b57ea43ffcfd0f5f93b737f872d7fbc640",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/kevin-2.webp?v=262",
+    "w": 304,
+    "h": 290,
+    "ax": 133.76,
+    "ay": 290,
+    "scale": 0.468259385665529,
+    "index": 2,
+    "bytes": 19836,
+    "sha256": "6df5c7abab81f6499a69bf57688e0df17d43093b0007cbd3c2a3628ff9b60516",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/kevin-3.webp?v=262",
+    "w": 245,
+    "h": 291,
+    "ax": 117.6,
+    "ay": 291,
+    "scale": 0.468259385665529,
+    "index": 3,
+    "bytes": 18918,
+    "sha256": "5954f6dd730aa62dba2b09019ffcc14f7cdf922f78069035b18e1db6d95dbad5",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-0.webp?v=262",
+    "w": 343,
+    "h": 102,
+    "ax": 315.56,
+    "ay": 102,
+    "scale": 0.39999999999999997,
+    "type": "thug",
+    "head": [
+      315.56,
+      56.1
+    ],
+    "bytes": 13496,
+    "sha256": "525884155791c4ab995cdb20e922214bc62b672318714257cf32b7d2fb55a005",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-1.webp?v=262",
+    "w": 341,
+    "h": 103,
+    "ax": 313.72,
+    "ay": 103,
+    "scale": 0.39999999999999997,
+    "type": "knifeThug",
+    "head": [
+      313.72,
+      56.650000000000006
+    ],
+    "bytes": 12856,
+    "sha256": "c290f68885934692299545be1be4210055e956b0681ce8b516560c1d133d8732",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-2.webp?v=262",
+    "w": 342,
+    "h": 105,
+    "ax": 314.64,
+    "ay": 105,
+    "scale": 0.39999999999999997,
+    "type": "biker",
+    "head": [
+      314.64,
+      57.75000000000001
+    ],
+    "bytes": 12090,
+    "sha256": "51ea46dfc660667fb7579ab0327a576039e5a7c8762aa20bb331c54acd0c6036",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-3.webp?v=262",
+    "w": 343,
+    "h": 109,
+    "ax": 315.56,
+    "ay": 109,
+    "scale": 0.39999999999999997,
+    "type": "enforcer",
+    "head": [
+      315.56,
+      59.95
+    ],
+    "bytes": 12248,
+    "sha256": "bb7e920a2c13a9a5a74cae8940b35e3a8c4a17bbb0ce38dcd52e640ff214803f",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-4.webp?v=262",
+    "w": 346,
+    "h": 108,
+    "ax": 318.32,
+    "ay": 108,
+    "scale": 0.39999999999999997,
+    "type": "cop",
+    "head": [
+      318.32,
+      59.400000000000006
+    ],
+    "bytes": 12042,
+    "sha256": "f646f170bfa3b7383d969dc0c1ed627ca80a36c3ba4552e8e6bbb31d54a215a5",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-5.webp?v=262",
+    "w": 346,
+    "h": 115,
+    "ax": 318.32,
+    "ay": 115,
+    "scale": 0.39999999999999997,
+    "type": "security",
+    "head": [
+      318.32,
+      63.25000000000001
+    ],
+    "bytes": 11912,
+    "sha256": "2cf25bb38db63bc895ddc834d7fd8ee5ae477ecf657b812ff00a38a9e23f2b16",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-6.webp?v=262",
+    "w": 339,
+    "h": 98,
+    "ax": 311.88,
+    "ay": 98,
+    "scale": 0.39999999999999997,
+    "type": "sato",
+    "head": [
+      311.88,
+      53.900000000000006
+    ],
+    "bytes": 12304,
+    "sha256": "3860a6b6577aa53b9e838e8da98d03fcc4d2f0a96d0ecd0d8953ea0bde086320",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-7.webp?v=262",
+    "w": 340,
+    "h": 116,
+    "ax": 312.8,
+    "ay": 116,
+    "scale": 0.39999999999999997,
+    "type": "akari",
+    "head": [
+      312.8,
+      63.800000000000004
+    ],
+    "bytes": 13476,
+    "sha256": "02632547ec27e1c6a8673920637d2bc6ca95fec2826f9d508765310464e40750",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-8.webp?v=262",
+    "w": 340,
+    "h": 106,
+    "ax": 312.8,
+    "ay": 106,
+    "scale": 0.39999999999999997,
+    "type": "flint",
+    "head": [
+      312.8,
+      58.300000000000004
+    ],
+    "bytes": 13882,
+    "sha256": "2dee71da1737dc4cbce8e1b1b11fc571986e6a747e2fbd5b504c5d6d8a69e9f7",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-9.webp?v=262",
+    "w": 338,
+    "h": 114,
+    "ax": 310.96000000000004,
+    "ay": 114,
+    "scale": 0.39999999999999997,
+    "type": "bouncer",
+    "head": [
+      310.96000000000004,
+      62.7
+    ],
+    "bytes": 11376,
+    "sha256": "5c7737bb3c1f2cc7629a33117b1625238302b71efb0d1a43c93bb0a70f1f9b05",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-10.webp?v=262",
+    "w": 342,
+    "h": 112,
+    "ax": 314.64,
+    "ay": 112,
+    "scale": 0.39999999999999997,
+    "type": "boss",
+    "head": [
+      314.64,
+      61.60000000000001
+    ],
+    "bytes": 13184,
+    "sha256": "c6600736958c7ef1f0399c5eff179a27af43b88c2d7577958b3dc31471a74f62",
+    "review": "required"
+  },
+  {
+    "src": "assets/repair262/prone-11.webp?v=262",
+    "w": 343,
+    "h": 114,
+    "ax": 315.56,
+    "ay": 114,
+    "scale": 0.39999999999999997,
+    "type": "gangster",
+    "head": [
+      315.56,
+      62.7
+    ],
+    "bytes": 12616,
+    "sha256": "effc99883721593a4371c46416630677a825aa10eb6eecd24a8f5e5f313fb63e",
+    "review": "required"
+  }
+]

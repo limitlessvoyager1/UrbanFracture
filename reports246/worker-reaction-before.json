@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "variant": "regular",
+      "frame": 12,
+      "rect": [
+        34,
+        955,
+        281,
+        273
+      ],
+      "root": [
+        134.5,
+        273
+      ],
+      "components": [
+        {
+          "pixels": 28465,
+          "bounds": [
+            0,
+            0,
+            216,
+            273
+          ]
+        },
+        {
+          "pixels": 788,
+          "bounds": [
+            259,
+            202,
+            281,
+            250
+          ]
+        }
+      ],
+      "sourceSHA256": "1aa490a6c793f0b1b71b98b75ae24baba4d3fd4fc4c3a9950fcf486673565d36"
+    },
+    {
+      "variant": "heavy",
+      "frame": 12,
+      "rect": [
+        35,
+        972,
+        275,
+        283
+      ],
+      "root": [
+        105.5,
+        283
+      ],
+      "components": [
+        {
+          "pixels": 35113,
+          "bounds": [
+            0,
+            0,
+            223,
+            283
+          ]
+        },
+        {
+          "pixels": 592,
+          "bounds": [
+            259,
+            208,
+            275,
+            259
+          ]
+        }
+      ],
+      "sourceSHA256": "74132bce488c34e892dd7932dd33107662889da742beed81ee55f1e7a8dcf11e"
+    }
+  ],
+  "failures": [
+    "regular frame12 includes detached adjacent sprite pixels",
+    "heavy frame12 includes detached adjacent sprite pixels"
+  ]
+}

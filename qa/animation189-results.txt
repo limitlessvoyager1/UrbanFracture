@@ -1,0 +1,6 @@
+PASS189 grounded clothesline, two unique hits64/48, bounded travel, heavy resistance, vulnerable recovery
+PASS189 25% longer low boxing hop, costs15/20 once, insufficient meter rejection,2s cooldown, visible timed pivot/manual grab opportunity
+PASS189 Broxton no recovery roll,0.5s nonoffensive natural wake, no outgoing collision damage; other hero recovery rolls retained
+PASS189 Dirk tackle shared floor root, one slam/four deliberately spaced punches, same26damage and victim stays grounded through attacker recovery
+PASS189 other-hero protected recovery rolls cannot attack while retaining immunity
+PASS189 art manifests:16whole-body/4NPC assets, one151.8canonical import, sole anchors; targeted ivory correction leaves skin/dark costume/alpha untouched; no pose-scale branch

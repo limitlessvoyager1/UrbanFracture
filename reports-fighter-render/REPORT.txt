@@ -1,0 +1,130 @@
+URBAN FRACTURE - UF-QA-023 / A3-R01
+Current fighter-render prerequisites and bootstrap
+Date: November 12, 2026
+Branch: fix/current-fighter-render-bootstrap
+Base: fd660a3208c98108e2090afdc9b5d279d3c4ed5d
+
+RESULT
+The shared Node renderer is runnable from pinned development dependencies and
+loads the current shipping fighter dispatch chain. Native Chromium launch and
+scoped rendered grapples were verified. No production code, damage/frame data,
+AI behavior, artwork or existing test assertions were changed.
+
+ROOT CAUSE AND CORRECTION
+The old shared renderer required an undeclared Canvas module and used a legacy
+allowlist that stopped short of current fighter owners. Its image error handling
+could also allow dependent processing to fail misleadingly after missing assets.
+
+The replacement uses an explicit reviewed manifest in production index order:
+179 modules,73 actual draw-owner attachments,1,041 decoded image requests.
+It includes twelve omitted late fighter modules and the hospital material helper.
+Mixed scene/fighter owners are retained; general page/UI controllers are excluded.
+Missing/changed/unreviewed dependencies cannot silently produce a green result.
+Nested image work and final readiness are drained; missing assets stop the load
+before cascading decode work. Rejected readiness chains remain recorded errors.
+
+Development-only package/lockfile: @napi-rs/canvas1.1.1,Playwright1.57.0.
+Verified platform: Windows x64,Node22.21.0,Chromium143.0.7499.4/revision1200.
+Install and repeat commands are in tools/fighter-render/README.txt.
+No node_modules or browser executable is part of the game distribution/overlay.
+
+FILES CHANGED
+- tools/fighter-render/: pinned package/lock, manifest, prerequisite validation,
+  current loader, deterministic fixture/capture helpers, explicit HP-window
+  receipts, browser comparison, runners, offline-install verification and README.
+- tools/reactions290/render.cjs: compatible shared entry point.
+- tools/style310/load.cjs,tools/recording312/load.cjs,tools/recording313/load.cjs:
+  avoid replaying already loaded current modules.
+- Three new tests: fighter-render-prerequisites, fighter-render-bootstrap,
+  fighter-grapple-render. No old test body was edited.
+- qa/system242/suites.json: nine new critical entries, all prior entries and
+  initial/release/manual/source-receipt policies retained.
+- COMBAT_REPAIR_LOG.md: UF-QA-023; supporting reports and inspected sheets.
+
+TEST RESULTS
+26/26 selected behavior suites passed:
+Forest177/protection/balance/fixture; crowd303; grapples301; Nightshade258;
+repairs330; Niko283/284; reverse285; legthrow286; Broxton179; shield181;
+direct-start Director admission; AI decision reasons; hitstun eligibility;
+knockdown admission; reaction deadlines; energy316; counters248;
+counter331 input; controls260 input; gamepad; combat274; plane304.
+
+8/8 render verification entries passed:
+prerequisite self-tests,bootstrap readiness,five family captures,original shared
+view suite. Final prerequisite self-tests have40checks. Six QA validator cases
+also passed. Syntax,whitespace and preservation checks passed.
+
+New family rendering:48 mirrored cases,480 sampled native ticks,1,540 checks.
+Forest/Gunner six moves; Niko seven pairs; Broxton forward/back/choke and
+finite-duration shield; Nightshade rear launch with generic/Kevin targets;
+shared reap/German for Marcus/Bruno plus enemy powerbomb.
+The original shared view suite retains9,434checks over10mirrored fixtures,
+including whole bodies,source isolation,floor anchors,no duplicate body,
+render-copy receipts and per-facing powerbomb process isolation.
+
+Clean repository-free verification: package absence -> UNAVAILABLE/exit2;
+offline npm ci from lockfile -> ready; omitted artwork -> UNAVAILABLE/exit2.
+Missing late image,incomplete API,wrong package pin,missing/unlisted owner,
+duplicate bootstrap and stale render receipts all produce nonpassing results.
+The wrong Playwright pin is rejected before a browser launches.
+
+RENDERED GAMEPLAY VERIFICATION
+480/480 current Node-to-shipping-Chromium samples passed unchanged tolerances:
+alpha-mask IoU >=0.96; bounds difference <=3pixels; sampled HP,time,elevation,
+action and native-frame values within1e-6.
+Measured minimum alpha IoU:0.9999537743262608.
+Measured maximum bounds difference:0pixels.
+Measured maximum RGBA mean absolute difference:0.0021610502473073546.
+
+Actual index launch and40native game-canvas frames verified,with0page JavaScript
+errors. Twelve contact sheets were inspected across both facings:192family
+keyframes plus40native game frames; selected native images inspected full size.
+Bootstrap confirms native Brawler descriptors and checked combat configuration
+are unchanged. Per-draw snapshots confirm no HP,clock,ownership or gameplay-event
+mutation by the renderer. No universal animation/art correction is claimed.
+
+FIXTURE AND RECEIPT INTEGRITY
+Fixtures disable ambient AI only within isolated worlds. Math seed923 and native
+Environment156 seed UF-render-923 align deterministic inputs; legal rush tactic
+aligns pose inputs. Native injury rolls/bonuses remain active; no damage/frame
+retuning or bonus cap was added. Browser contexts isolate families like Node.
+The diagnostic1600x900surface retains complete poses; it is not a game viewport
+change. Native game-canvas captures independently show world/HUD/weather layers.
+
+Raw sampled HP,physical outcomes and timestamps are retained. HP receipts use
+actual post-admission starting values for both actors and explicitly distinguish
+player,opponent and primary victim. An enemy-owned powerbomb's primary victim is
+the player. Window deltas are not substituted for nominal/contact-time damage.
+Receipt schema2 is derived from the raw samples/final values without changing
+those samples; both actor-role cases have regression checks.
+
+EARLIER TRIALS / REMAINING LIMITATIONS
+Raw authoring trials remain separate from final verification. Initial fixture
+assumptions were corrected for Nightshade35unit grab reach,native shield2.5second
+escape,and sufficient diagnostic bounds. No existing assertion was weakened.
+Environment seeding resolved differing Niko injury outcomes between fixtures.
+A mixed-family browser context retained two generic ready-pose differences with
+matching primitive physical fields; matched family isolation removes them.
+That cache-history sensitivity remains a separate audit candidate,not a fixed
+shipping defect. The original failed trial evidence is retained.
+
+Dedicated Nightshade flight art is available for Kevin/Sato; generic Marcus uses
+the existing shipping fallback. New render fixtures cover Kevin and Marcus,not
+all archetypes. Visible texture seams remain in isolated Niko reverse samples;
+artistic/root-projection quality is not certified by matching the native source.
+The two existing concept portrait404paths remain unchanged and recorded:
+assets/enforcer-concept-v1.png;assets/thug-leader-concept-v1.png.
+
+Historical crowd/grapple,collision/height and reaction gates still return
+UNAVAILABLE/exit2 using the actual Git executable. Missing receipts are not passed
+or fabricated. Full release remains uncertified. Prior legacy controller startup
+failures are not repaired/reclassified. Physical hardware/full campaign and older
+standalone/historical capture loaders are outside this scoped verification.
+
+DELIVERY / NEXT ISSUE
+Repair remains on its new branch; designated stable remains f00cc9c.
+The code overlay includes development tools/reports,not a full game export.
+Raw image inventory covers480Node+480Chromium+40native PNGs and12inspection
+sheets,with checksums. No distribution source/artwork or original archives lost.
+Recommended next: audit generic grounded-pose cache-history sensitivity before
+editing native rendering or artwork. Keep that repair separate.

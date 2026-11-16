@@ -1,0 +1,58 @@
+URBAN FRACTURE — PLAYBACK FLIGHT / CONTACT-STUN DIAGNOSTICS (NL-01)
+Date:2026-11-12. Approved scoped repair.
+Branch:fix/playback-flight-diagnostics
+Starting commit:dea5d1095d8ca1ad8c00c0a1e00f1cb6658ce857 (audit branch, gameplay identical to stable53352d9).
+
+ROOT CAUSE
+Playback's actor snapshot defaulted to actionable when a living target had flight but no action/down flag. The nested Continuity296 snapshot correctly reported fall, producing contradictory diagnostic labels. Raw hitReaction298 fields mix contact history with a later observation of stun/shock clearance; without explicit labels, actualSeconds0 after Niko launch could be mistaken for completed recovery.
+
+CORRECTION / FIELD CONTRACT
+Playback now labels living flight as fall. Existing defeated, held and authored action phase policy is retained; this is not a broad state-machine rewrite.
+New read-only HitReactions298.diagnostics supplies:
+-contactOutcome/contactAt:last recorded contact outcome/time, ornull when absent.
+-currentPhysicalState:the existing Continuity296 projection for this recorded frame.
+-commonOffensiveReady:the existing common-readiness projection, not universal per-move permission.
+-stunLockActive:the existing stun/shock guard; not a complete recovery guard.
+-stunClearObservedAt:alias of raw releasedAt, preservingnull and0.
+-stunClearElapsedSeconds:alias of raw actualSeconds, preservingnull and0.
+The helper is exposed in playback's reactionDiagnostics and audit actor diagnostics. Existing raw hitReaction, outcome, locked and actualSeconds fields remain compatible. No raw receipt, timestamp or event is changed, reset or delayed. In particular, Niko launch still clears stun in the contact tick:clean contact, fall state, stun-clear elapsed0 and offensive readinessfalse are simultaneously valid.
+
+The production diagnostic panel now distinguishes 'last contact' in timeline titles and accessible labels, uses 'no action' rather than idle for absent actions, and displays a visible note:contact outcome is history; physical state describes the recorded frame; stun-clear time is not flight or total recovery. Detailed exported notes retain the raw-field compatibility explanation. Scrubbing remains observational and does not update old records with live state.
+
+SCOPE / FILES
+-dist/playback265.js:flight phase and reactionDiagnostics snapshot only.
+-dist/reactions298.js:read-only diagnostics helper/export and report projection only.
+-dist/playback-ui265.js:diagnostic titles/notes only.
+-dist/index.html:three cache tokens338-flight-diagnostics.
+-tests/playback-flight-diagnostics.cjs; qa/system242/suites.json registry.
+-tools/playback-flight/{compare.cjs,render.cjs}, reports-playback-flight evidence, COMBAT_REPAIR_LOG.md.
+No damage/launch/tick/knockdown/armor/counter/wake or feedback implementation changed. Feedback deduplication (NL-02) remains separate:two native contact-feedback receipts are explicitly preserved by regression and parity checks. The original Niko legacy-loader problem (NL-03) is also unchanged.
+
+REGRESSION / EXISTING TESTS
+New suite fails on baseline at the incorrect flight label, then passes1,941checks. Native Niko palms versus8families in both facings; complete flight/down/get-up/recovery; raw receipts unchanged; zero timestamps and absent data preserved; live report semantics; helper actor immutability; detached scrubbed history; existing action/held/defeated phases; feedback count2retained.
+All20top-level suites executed passed:
+playback-flight-diagnostics1941; playback265 (137cumulative assertions); niko2841245; reaction-deadline-metadata49620; actionability-diagnostics6805; continuity29630272; knockdown-admission89115; hitstun-eligibility19208; post-hit-reassessment1192; reactions298742; combat274; repairs330788; enemies210; martial212; counters248; flint211; gamepad.test; controller157; reactions298-receipts11; qa242-validators6.
+No final behavioral failures in these20suites. Existing assertions/normalizers unchanged. Some older suites have narrower loaders; new regression uses the current production-order adapter. The previously failed tests/niko185.cjs legacy loader excludes required Grab223; it was not rerun, fixed, waived or claimed passed here. Full release remains uncertified.
+
+EXACT PRESERVATION
+64before/after trajectories and17,280snapshots match the recorded baseline:48native physical traces (8families x2facings x3rates) and16fixed-step playback traces. Compared HP/defense, positions, actions/timers, flight path/duration, down/recovery/wake/invulnerability, actual reassessment, complete raw hit/reaction receipts with timestamps, full feedback history and RNG. Only the intended recorded phase changed across448flight frames, from actionable to fall. Damage/guard/tick/visual functions in reactions298 and dispatch/step/pump/record clock code in playback265 are byte-identical to baseline. All other dist source files are unchanged except the approved UI/cache changes. No damage or timing values were normalized away.
+
+NATIVE BROWSER / RENDERED DIAGNOSTICS
+Chromium loaded the real production index, canvas and diagnostic modules. Native Niko palms at frame25/t0.416667 against Marcus:HP42/60; contact clean; physical state fall; common readinessfalse; observed stun-clear time0.416667 and elapsed0; feedback count2. Timeline title includes 'fall' and 'last contact clean'; detailed raw receipt still has18damage and unchanged times. Production Precision Lab was mounted into an isolated test host to show it in the capture; this changes verification-page placement only, not shipping UI source/layout.
+The screenshot was visually inspected with visible semantic note and labeled diagnostic fields. DOM assertions checked actual timeline title/accessible-label text and notes. No browser page errors; preexisting /assets/enforcer-concept-v1.png and /assets/thug-leader-concept-v1.png404s remain. Static diagnostic/native-flight inspection is not a full animation correction, normal-speed playthrough or physical-hardware certification. No animation defect is claimed corrected.
+
+INITIAL TEST-HARNESS ADJUSTMENTS
+The helper immutability test initially included existing full-report lazy initialization; snapshot was isolated directly around the new helper, preserving the immutability assertion. The first browser harness chose another mounted tool's pre element; the selector was narrowed to Precision Lab's own details, then verified successfully. No gameplay or existing assertion was changed to accommodate either harness issue.
+
+HISTORY / LIMITATIONS
+9historical reaction receipts remain UNAVAILABLE; original reference commit absent, strict CLI exit2 with portable Git. No proof fabricated or normalizer weakened. Optional Node canvas suite not run; full release/campaign and physical-controller testing unperformed. Existing archived audit tools assert historical baseline observations and are not the corrected regression suite; use the new test for the approved contract.
+
+REPEAT
+node tests/playback-flight-diagnostics.cjs
+Optional parity:set UF_GIT to available Git, run node tools/playback-flight/compare.cjs.
+Optional browser:set UF_PLAYWRIGHT_MODULE and PLAYWRIGHT_BROWSERS_PATH to installed runtimes, allow localhost, run node tools/playback-flight/render.cjs.
+Regression tests need no historical Git. Comparison intentionally uses the real local starting commit. Plain JavaScript has no separate bundle compile step.
+
+RISKS / INTEGRATION / NEXT
+Risk:relabeling contact history as final state, erasing historical fields, inferring total recovery from zero stun, or changing unrelated action phases. New aliases/comments/UI note and raw-data/parity/history tests address these without making diagnostics gameplay authority. Verified repair is integrated into the cumulative stable line after evidence is recorded; all prior repairs remain ancestors and original archives/import recoverable. Export is a cumulative overlay, not a complete game project.
+Recommended next, separately approved:NL-02 zero-damage launch-feedback correlation/deduplication, beginning with inventory of intentional zero-damage contacts. Do not apply a blanket 'HP loss must be positive' filter. No feedback changes included here.

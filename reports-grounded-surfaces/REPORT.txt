@@ -1,0 +1,173 @@
+URBAN FRACTURE — UF-RENDER-027
+Bounded exact-size reuse of retired cropped canvases
+2026-11-13 | fix/grounded-crop-surface-reuse
+Base: 79dfd8d83d64f1aa25256799c3dd1b4788fa67e8 (UF-AUDIT-026)
+
+Outcome: FUNCTIONAL PASS; PRIOR PERFORMANCE HOLD REMAINS.
+The approved reuse implementation is complete on its separate review branch.
+Exact native pixels/sole metadata and allocation reduction are verified. Static
+mixed-roster mean draw-time improvement is NOT established by the repeated run.
+Stable remains f00cc9c and has not been promoted.
+
+Root cause / correction
+UF-RENDER-025 correctly invalidates bitmap contents when exact render time changes.
+It also discarded each cropped canvas and allocated a new one for every unique
+miss, even when the same dimensions were needed next frame. This resource churn
+can be reduced without preserving stale pixels or altering native rasterization.
+
+The new private pool holds only retired, inactive canvases with exactly matching
+width/height. Retirement deletes each active owner before pooling. Borrowing
+removes free ownership and clears the whole canvas before the unchanged native
+crop copy. Different dimensions allocate fresh. The free pool is bounded to32
+surfaces and4MiB of width*height*4 accounting, with oldest inactive size buckets
+supplying eviction and empty buckets deleted. Oversized retirement is skipped.
+No actor, action or game instance is stored in the pool. The original same-time
+>512cache guard stays unchanged and does not pool its evictions.
+
+This is storage reuse, not content reuse. Native exact-time/flash admission,
+512x384readback, alpha thresholds, cop sole rule, crop cap, native draw arguments,
+coordinates, scales, interpolation defaults and return behavior remain intact.
+Combat behavior, AI, damage/frame configuration, actual deadlines and simulation
+timing are unchanged. No readback ROI, scan rewrite, animation quantization,
+grapple/counter/wake-up or character-specific correction is included.
+
+Files changed
+- Production: dist/sprites.js private pool/retirement/acquisition and allocation
+  call; dist/index.html sprites cache token only.
+- New: tests/grounded-crop-surfaces.cjs; tools/grounded-surfaces/ source/control,
+  negative, browser, isolated runner, recheck, preservation, verification, gallery
+  and README; one critical initial/release QA registration.
+- tools/grounded-cache/load.cjs: exact additional spelling for the earlier
+  no-time mutation hook, because retirement replaces direct clear. Existing
+  negative expectations and existing test bodies are unchanged.
+- Updated current-render/cache receipts, new reports and COMBAT_REPAIR_LOG.md.
+
+Preservation proof
+Removing only the bounded pool block and reversing the two call sites reproduces
+the actual audited pre-pool sprites SHA256 exactly:
+5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1
+The index reverses exactly with its one cache token. Every other production file,
+artwork, existing test, current native loader/fixture, package/lock and historical
+receipt adapter is unchanged. All old QA entries/profiles/gate policies remain.
+This control is an available current-source baseline, not a fabricated missing
+historical receipt. Regression/control execution does not require Git.
+
+Tests executed / passed
+- New native suite:27,293checks /336exact RGBA and crop/sole cases. Twelve types,
+  seven states, both facings, scales1/1.1025; original actor fields immutable.
+  Ownership, complete clearing, distinct active peers, exact-size matching,
+  already-rendered output immutability, empty crops/buckets, count/byte limits,
+  oversized retirement, old-size eviction and original cache-size guard pass.
+  The suite also passes with PATH empty and Git explicitly unavailable.
+- Existing grounded cache:1,158checks pass, preserving floating time/boundaries,
+  rewind/reset, unsupported time, same-time sharing and both flash orders.
+- Six deliberate regressions detected in child-process read buffers only:
+  missing clear, live alias, removed caps, missing time invalidation, missing flash
+  identity and quantized cache time. No production mutation is used for negatives.
+- All26selected existing behavior suites pass. All8existing render verifier
+  entries pass, including original9,434shared grapple-view checks,48mirrored
+  cases/480Node samples/1,540checks and179module/73owner/1,041asset bootstrap.
+- Receipt/QA-validator self-tests55pass. Preservation checks7pass.
+- Final evidence verifier15checks pass,0functional failures. It deliberately
+  exits1 because the prior frame-budget acceptance is not cleared.
+
+Rendered verification
+Actual Chromium143.0.7499.4 loads the shipping static index. Two persistent pages
+run the original025control and pooled027with the same native fixtures/seeds.
+All480sampled native pair frames have exact pixels, bounds and native state/outcome
+receipts, without driver cache clearing or per-family context resets. PNGs that
+are identical are stored once with both hashes. No prior IoU tolerance is used to
+excuse a pooled/control pixel change.
+Separate existing fresh-family480Node/browser comparisons pass their unchanged
+cross-backend tolerances;40native game-canvas frames are retained. Thirteen final
+full-scene candidate/control images from matrix/ABBA also match exactly. Chromium
+retains an earlier target canvas unchanged after64later source-reuse draws; four
+additional lifetime/clean/flash pixel controls match. Zero final page JS errors.
+Two existing concept portrait404paths remain.
+
+Inspected visual-verification.png: original/pooled eight-enemy scenes, synthetic
+changing-graphic stress, Forest/Niko/Nightshade native pairs, cop down/get-up and
+flash API controls, plus retained-output and later-flash images. Native Niko
+texture seams remain unchanged; no artistic repair or all-animation claim.
+Lower-level API/synthetic flags are labelled; they are not natural contact-rate,
+AI decision-frequency or full-campaign certification.
+
+Performance / allocation
+Native full world/HUD/weather draw,1/4/8visible enemies plus hero, same/mixed and
+synthetic changing-graphic rosters.30warm-up +360measured draws per condition,
+seeded environment, original native ticks, fixture camera held, viewport/physical
+invariants. Changing flags are imposed after native ticks in the fixture only.
+All final scene pixels and recorded physical states match the baseline.
+Timings use original uninstrumented pages. Allocation instrumentation is a separate
+page and is not mixed into accepted timing results. Matrix and repeated ABBA
+processes run serially. Original025control source is reconstructed/hashed in
+memory with no historical Git dependency or on-disk replacement.
+
+Mixed-eight allocation counters after warm-up:
+  2,520requests,2,520reuses,0fresh cropped surfaces.
+Changing-eight stress:
+  2,610requests,2,469reuses,141fresh (94.60%reuse).
+The allocation page retains its bounded pool across all nine fixture scenarios;
+warm-up is per scenario. These are measured warm reuse rates, not cold-load
+guarantees. Cold allocation and size mismatch are covered separately by unit tests.
+Maximum observed free pool:32surfaces,1,684,892RGBA-accounted bytes (~1.61MiB),
+within the32/4MiBlimits. The byte-cap unit stress independently passes with five
+512x384surfaces retained and oversized surfaces skipped. Accounting is not a
+claim about total GPU/process memory. Readback arrays are still allocated natively.
+
+Uninstrumented matrix, baseline -> pooled mean/p95 milliseconds:
+Same1:       8.604/17.2 ->  8.421/18.8
+Same4:       8.700/18.9 ->  8.409/18.8
+Same8:       8.915/18.5 ->  8.786/19.1
+Mixed1:      8.620/19.1 ->  8.796/19.2
+Mixed4:     11.750/22.4 -> 10.519/19.7
+Mixed8:     13.736/24.4 -> 13.371/26.2
+Changing1:   9.026/20.4 ->  8.328/16.5
+Changing4:  13.071/27.2 -> 12.026/23.5
+Changing8:  17.447/33.3 -> 17.191/30.5
+
+Repeated candidate/baseline/baseline/candidate confirmation (two blocks/version):
+Mixed8 mean: baseline13.886ms, pooled13.902ms. Difference+.015ms (~.11%slower),
+effectively unchanged within run variation; do NOT claim a static mean gain.
+  baseline p95:24.6/27.8ms; pooled25.8/25.5ms.
+Changing8 mean: baseline18.230ms, pooled17.343ms; recorded.887ms (~4.9%)lower.
+  baseline p95:32.2/34.1ms; pooled32.4/30.0ms.
+The changing-state result is a limited synthetic sample, not a universal speedup.
+Both workloads exceed a16.667ms 60Hz tail budget. Prior performance hold remains;
+readback/rasterization and bounds scanning are still substantial. No60FPS claim,
+source timing downgrade or broader optimization is hidden in this patch.
+
+Post-GC CDP snapshots after ABBA conditions:
+  pooled JS heap9.325/9.334MB; baseline9.294/9.292MB.
+  pooled embedder heap12.224/12.181MB; baseline12.185/12.114MB.
+Small bounded retention is expected; snapshots do not establish process/GPU usage,
+long-run leak freedom, physical-hardware frame pacing or full release acceptance.
+
+Tests failed / initial infrastructure issues retained
+Final functional failures:0. Deliberate negatives fail as expected. Performance
+acceptance verifier exits1 intentionally; unavailable historical gates exit2.
+Three initial existing entries timed out at240s around the long permission wait:
+niko284,niko283,render-forest. No assertion error was recorded in those attempts.
+Their raw runs are retained; all three fresh targeted rechecks passed without
+loosening the original timeout/assertions.
+The first completed matrix process crashed during native Node/V8 cleanup (exit
+-2147483645, Unknown type532). Its successful measurement receipt and crash record
+are retained and are not counted as a clean pass. Fresh isolated matrix,
+performance,allocation,lifetime hosts ALL exited0. The host-crash cause is not
+established; no production patch, runtime upgrade or waiver was used to conceal it.
+
+Remaining limits / next issue
+45historical receipts remain explicitly UNAVAILABLE:11crowd+7grapple+17collision
++1height+9reaction. All three strict CLIs are rerun with real Git and exit2.
+No missing evidence is converted to a preservation/release pass. Known unrelated
+legacy controller failures, portrait404s, Niko seams, Broxton root projection and
+other suspected cache-key omissions remain separate. No full-release/campaign,
+physical-controller/GPU or hardware memory certification.
+Keep this repair on its review branch; stable is not advanced. Next, audit safe
+ways to reduce the dominant readback/rasterization cost with a native coverage
+proof before shrinking any region or changing crop/sole semantics. Preserve exact
+poses and clocks; do not reintroduce stale bitmap/metadata history reuse.
+
+Repeat commands and environment prerequisites: tools/grounded-surfaces/README.txt.
+Detailed raw runtime/negative/recheck/pixel/performance/allocation/host/preservation
+reports and native PNGs are retained with this report and the updated repair log.

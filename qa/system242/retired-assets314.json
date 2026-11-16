@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "path": "dist/assets/armored-truck-v1.webp",
+      "backup": "source-art/hospital314/retired/armored-truck-v1.webp",
+      "sha256": "4182d63a5c90fe8f279c78be3236101a1d43b68dd255ceb068352946cb0f934b",
+      "reason": "Unused paths.truck image, no reader; actual financial truck remains PolishedSprites.drawTruck using financial-opening-v1.webp frames4/5. Removed dead preload in both game and environment snapshot."
+    }
+  ]
+}

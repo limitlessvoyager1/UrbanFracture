@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "scenario": "heroes",
+  "seed": 242,
+  "simulationTime": 30,
+  "environmentSeed": "QA242-reference",
+  "hour": 12,
+  "weather": "clear",
+  "temperatureF": 65,
+  "camera": 16800,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "logicalResolution": [
+    960,
+    540
+  ],
+  "renderer": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "devicePixelRatio": 1,
+  "fontStatus": "loaded",
+  "reviewStatus": "candidate-not-approved"
+}

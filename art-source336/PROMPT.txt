@@ -1,0 +1,5 @@
+Original cache interior atlas generated with built-in image generation.
+
+Use case: stylized-concept. Asset type: original Urban Fracture side-scrolling beat-em-up interior background atlas. Two equal panels: warm downtown Chinese restaurant with red wood, lanterns, gold trim, rear dining tables and kitchen counter; neon violet/cyan urban game shop with rear shelving and glass merchandise counter. Perpendicular side-view camera; open exit doorway at the left; continuous clear foreground walking floor; no characters, pickups, UI, GO arrows, words or logos. Original illustrated game art.
+
+The generated original is cache-interiors.png. Shipping asset: dist/assets/cache-interiors336.webp. Production view draws each panel and reuses its matching doorway crop at character-appropriate scale. All collision and walking-lane geometry remain code-owned.

@@ -1,0 +1,118 @@
+{
+  "primary": [
+    {
+      "name": "late-cold",
+      "query": 2.9,
+      "queryState": {
+        "x": 17240,
+        "y": 475,
+        "hp": 60,
+        "stun": 0,
+        "act": null,
+        "hitFlash": 0,
+        "cd": 999,
+        "events": 4
+      },
+      "file": "reports-grounded-cache-audit/primary-late-cold.png",
+      "sha256": "a61a306711b04e0606301f10eb2a9f7575af7fa72d9047ee15d1fe15e675a9ba"
+    },
+    {
+      "name": "flash-cold",
+      "query": 0.9,
+      "queryState": {
+        "x": 17240,
+        "y": 475,
+        "hp": 60,
+        "stun": 0,
+        "act": null,
+        "hitFlash": 0,
+        "cd": 999,
+        "events": 4
+      },
+      "file": "reports-grounded-cache-audit/primary-flash-cold.png",
+      "sha256": "f6b304dae61de971f61dcc8d1aa76ab7ae99524b22d7d47420f7a6f506a81caa"
+    },
+    {
+      "name": "flash-warm",
+      "query": 0.9,
+      "warm": 0.9,
+      "flash": 0.2,
+      "queryState": {
+        "x": 17240,
+        "y": 475,
+        "hp": 60,
+        "stun": 0,
+        "act": null,
+        "hitFlash": 0,
+        "cd": 999,
+        "events": 4
+      },
+      "file": "reports-grounded-cache-audit/primary-flash-warm.png",
+      "sha256": "16000a1d1af8f57abb731f13b611abaa11ff4f5987e90bfe8f53e16bb5e64ddd"
+    }
+  ],
+  "performance": [
+    {
+      "actors": 1,
+      "mode": "shipping-cache",
+      "samples": 60,
+      "meanMs": 0.075,
+      "medianMs": 0,
+      "p95Ms": 0.800000011920929,
+      "maxMs": 0.9000000059604645,
+      "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+    },
+    {
+      "actors": 1,
+      "mode": "cold-each-draw",
+      "samples": 60,
+      "meanMs": 0.6583333333333333,
+      "medianMs": 0.5999999940395355,
+      "p95Ms": 0.7999999821186066,
+      "maxMs": 4.0999999940395355,
+      "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+    },
+    {
+      "actors": 4,
+      "mode": "shipping-cache",
+      "samples": 60,
+      "meanMs": 0.09833333293596903,
+      "medianMs": 0.09999999403953552,
+      "p95Ms": 0.5999999940395355,
+      "maxMs": 0.6000000238418579,
+      "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+    },
+    {
+      "actors": 4,
+      "mode": "cold-each-draw",
+      "samples": 60,
+      "meanMs": 2.6983333334326742,
+      "medianMs": 2.2999999821186066,
+      "p95Ms": 6.199999988079071,
+      "maxMs": 8,
+      "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+    },
+    {
+      "actors": 8,
+      "mode": "shipping-cache",
+      "samples": 60,
+      "meanMs": 0.12833333313465117,
+      "medianMs": 0.09999999403953552,
+      "p95Ms": 0.699999988079071,
+      "maxMs": 0.7000000178813934,
+      "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+    },
+    {
+      "actors": 8,
+      "mode": "cold-each-draw",
+      "samples": 60,
+      "meanMs": 5.4499999990065895,
+      "medianMs": 4.699999988079071,
+      "p95Ms": 9.900000005960464,
+      "maxMs": 14.699999988079071,
+      "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+    }
+  ],
+  "errors": [],
+  "completed": true
+}

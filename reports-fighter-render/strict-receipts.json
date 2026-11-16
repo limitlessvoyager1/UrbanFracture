@@ -1,0 +1,23 @@
+[
+  {
+    "file": "tools/crowd-grapple/receipts.cjs",
+    "exit": 2,
+    "classification": "UNAVAILABLE",
+    "stdout": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\ncore.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ndirector148.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ncombat274.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nstreet209.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nenemies210.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nmartial212.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nworkers233.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ncounters248.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\nreactions298.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ngrapples301.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ncontact302.js: Historical commit unavailable: 027ed578b782d4fc437e84c637d9ab37de7172d6\ngrapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\ncore.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\ncombat134.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\nenemies210.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\ngrapple-recovery119.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\npaired-motion.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\nreactions298.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\nknockdowns299.js: Historical commit unavailable: 9f9584f044807d7be6f062c19263eeec221afcca\n",
+    "stderr": ""
+  },
+  {
+    "file": "tools/plane304/receipts.cjs",
+    "exit": 2,
+    "classification": "UNAVAILABLE",
+    "stdout": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\ngame.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncore.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ndirector148.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncombat134.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\naudit135.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncombat274.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nstreet209.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nenemies210.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nmartial212.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nniko185.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nweapons248.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nworkers233.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncounters248.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nreactions298.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ngrapples301.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncontact302.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\ncrowd303.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\nheight historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\ngame.js: Historical commit unavailable: 2d8f4e3b154d769bac2ced871f66832563528b2d\n",
+    "stderr": ""
+  },
+  {
+    "file": "tools/reactions298/receipts.cjs",
+    "exit": 2,
+    "classification": "UNAVAILABLE",
+    "stdout": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\ncore.js: Git executable unavailable\ncombat134.js: Git executable unavailable\naudit135.js: Git executable unavailable\nstreet209.js: Git executable unavailable\nenemies210.js: Git executable unavailable\nmartial212.js: Git executable unavailable\nniko284.js: Git executable unavailable\ncounters248.js: Git executable unavailable\npaired-motion.js: Git executable unavailable\n",
+    "stderr": ""
+  }
+]

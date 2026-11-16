@@ -1,0 +1,16 @@
+# Build270 — Flint/Reina consistency and contact-based weapon durability
+
+Recovery checkpoint: checkpoint-before-reina270, verified Build269 source dcf124db1d170fcf47e210cbe6fad79263002018. Existing controllers/assets/timings retained.
+
+## Corrections
+- Original Flint atlas frames8–10 had sixteen source pixels below their visible sole, lifting held/recoil feet7.36 local units above the shared ground. After original frame isolation, opaque foot metadata is calibrated to its final solid row. No sprite is rescaled, no logical combat plane moves.
+- Flint locomotion previously used different illustrated walk atlases, and the knife idle/attack adapter used another art set. Original Flint atlas now supplies walking/idle/held/recoil; existing Flint211 action poses and weapon attachment remain authoritative. Held/recoil use the same bent restraint pose rather than switching to a leaned-back body. This retains authored walk1/2; it is not a newly drawn eight-frame gait.
+- Tornado130 blue fabric median25/44/112 differs from approved base Reina27/36/74. Blue fabric pixels in isolated Tornado frames are deterministically corrected to the approved navy; skin, white embroidery, alpha, source geometry, anchor, scale, frame timing remain unchanged. Charge-walk149 already uses approximately30/38/74 and is retained. No raster asset file changed.
+- Weapon durability now decrements at the first real HP-damaging contact of an attack sequence, once per sequence and only for the same held inventory. Startup, misses, immune contacts, and interrupted misses preserve uses. Reina three-slice action can hit three times but consumes one use. Fifth successful sequence retains native completion and shatter event. Thrown weapons continue breaking on impact/landing; knockdown loss rule retained. Forest still refuses foreign weapons. Player guide updated.
+
+## Tests
+New native runtime test:484 checks across five eligible heroes and knife/pipe/crowbar/plank; three misses, five real contacts, startup invariance, exactly one break, multi-slice once, immunity, interrupted final-use miss. New view test executes actual palette function and Flint draw selector; verifies navy match and untouched skin/embroidery/transparent pixels and original atlas/scale for held/recoil/walk. Existing counters248 tests updated to provide real valid contacts before expecting five-use break; interrupted miss now correctly retains last use. Original fixtures previously assumed every swing counted, and Nova/long-weapon targets were outside their actual arc; corrected fixture positions, without changing actual hitboxes or range.
+
+Browser: native front grab Flint/Reina share ground line; darker navy charge pose observed; held recoil reviewed. Saved screenshots. Fullscreen unavailable in preview (ordinary game still renders); screenshot includes surrounding test controls. Browser completion-summary reporting API rejected a missing-code field; no gameplay impact.
+
+Storage: no asset recompression/new raster files. Intentional edits update reversible comment-storage hashes;69 entries reconstruct correctly. No new artistic baseline approval implied. Run node tests/reina270.cjs; node tests/reina270-view.cjs; node tools/qa242/run.cjs --profile release. Final release result recorded separately. Physical DualSense/human balance/art approval remain manual. No stable label.

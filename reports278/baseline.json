@@ -1,0 +1,16 @@
+{
+  "commit": "e16b3ef429fad99718fc6eef4435c1de641d09b7",
+  "before": {
+    "stages": 4,
+    "travel": 0,
+    "damage": 4,
+    "practice": false
+  },
+  "after": {
+    "stages": 3,
+    "travel": 22,
+    "damage": 7,
+    "practice": true
+  },
+  "defectsReproduced": true
+}

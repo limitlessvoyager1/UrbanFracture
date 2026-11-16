@@ -1,0 +1,1115 @@
+{
+  "suite": "grapple",
+  "entry": "tests/grapples301.cjs",
+  "behaviorBodySha256": "780c710061cc77a9fd18b2a1c85e376a8855de34cc367e677cfded297b58b6e6",
+  "assertionsUnchanged": true,
+  "historicalSourceProof": null,
+  "excludedHistoricalChecks": 7,
+  "status": "passed",
+  "progress": {
+    "checks": 22791,
+    "rows": [
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      }
+    ]
+  },
+  "report": {
+    "checks": 22791,
+    "fixtures": 40,
+    "rows": [
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "reap",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 2,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "native-rise-and-two-steps"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "thug",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "german",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 90,
+        "modes": [
+          "joint",
+          "independent-flight",
+          "bridge-impact",
+          "kip-up"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": -1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 60,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 440,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      },
+      {
+        "move": "powerbomb",
+        "type": "enforcer",
+        "dir": 1,
+        "hz": 120,
+        "lane": 490,
+        "contactCount": 1,
+        "frames": 63,
+        "modes": [
+          "joint"
+        ]
+      }
+    ],
+    "approvedTimingAndDamagePreserved": null,
+    "historicalReceipts": {
+      "status": "unavailable",
+      "commit": "9f9584f044807d7be6f062c19263eeec221afcca",
+      "unavailable": 7
+    },
+    "scope": "Audit-only execution of the unchanged original behavioral body; historical source equivalence unverified."
+  }
+}

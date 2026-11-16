@@ -1,0 +1,13 @@
+Archive-access limitation (not a claim the user's ZIPs were deleted):
+PowerShell Get-Item reported Urban-Fracture-338-Part01-of08.zip at the original
+Downloads path, length207924159bytes. A Python glob did not enumerate the files;
+an explicit ZipFile open of Part01 returned FileNotFoundError, and native .NET
+ZipFile.OpenRead reported that the path could not be found in this execution
+context. Cause is unestablished. Central-directory/CRC checks were not completed,
+and no source or asset was extracted or restored.
+The original eight paths and earlier inventories remain references, but this
+audit does not newly certify archive-byte integrity or current restoration access.
+Recoverable tracked-code checkpoint: checkpoint/before-permanent-qa-audit-028,
+commit61264572c00ce9c138518f3e51ae75a122c3eccb. That checkpoint is not a backup of
+the6,460missing original paths or arbitrary untracked files. The supplied export
+manifest is copied into this audit package to retain its expected file hashes.

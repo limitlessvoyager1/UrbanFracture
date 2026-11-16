@@ -1,0 +1,11 @@
+{
+  "mode": "built-in imagegen",
+  "transparent_background": true,
+  "references": [
+    "dist/assets/sprites/flint-v1.png",
+    "dist/assets/sprites/flint-unarmed186.webp"
+  ],
+  "prompt": "Use case: identity-preserve. Game sprite WALK CYCLE for FLINT, orange prison jumpsuit enemy from the reference. Maintain same short black hair, dark stubble, muscular average-tall man, orange short sleeves with gray cuffs and undershirt, black boots, 16-bit detailed illustrated pixel shading. Exactly TWO columns by TWO rows, FOUR full-body WALKING frames, facing RIGHT, both bare fists always raised in fighting guard at chest/chin level. Frame1 left foot forward heel plants/right trails; frame2 passing stride right knee advancing, left supports; frame3 right foot forward heel plants/left trails; frame4 passing stride left knee advancing/right supports. Controlled advancing boxing walk, not a run. Keep torso upright, same size, no bounce, all grounded feet in same baseline per equal cell. Genuinely transparent background, no grid/text/shadows/weapons/effects. Generous gutters, complete bodies, preserve face/costume exactly, continuous stride with natural legs and fists up. Four matching poses, no missing limbs.",
+  "output": "dist/assets/sprites/flint-unarmed-walk186.webp",
+  "source_png": "generated_images/exec-f1443e46-f0f0-41ad-a92e-2814374766c9.png"
+}

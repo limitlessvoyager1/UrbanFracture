@@ -1,0 +1,59 @@
+URBAN FRACTURE — NIKO COMBO PHASE LABELS (A2-02)
+Date:2026-11-12. Approved diagnostic repair.
+Branch:fix/niko-phase-labels
+Starting commit:2e8d0b2461eea78ee33cf3e6550c7696e2aafb31, cumulative repaired baseline.
+
+ROOT CAUSE
+Native Niko combo stages use once-events at hitFrame185(6,6,8,11), while their general hitAt field deliberately remains999. Audit135.phase used the generic timing-list API and classified all combo startup/contact/recovery as utility/recovery. Native damage and poses were already executing at the authored frames; changing hitAt to fix a label would alter the wrong system.
+
+CORRECTION / SCOPE
+Add a pure diagnostic phase branch only for valid, unpaired native Niko combo actions. Before the native hit frame:startup. Around the native contact sample:active. Afterwards:recovery. Use the existing native once-event EPS tolerance1e-7, without modifying action.t or any other state.
+The active diagnostic band includes the hit frame through hitFrame+1, matching the generic classifier's one-frame inclusive sampling convention. This allows the30Hz fourth-hit sample, which crosses authored frame11at sample12, to retain an active label. It is not a new collision window, repeated hit opportunity, or command/counter timing rule. Native once-events remain the sole execution owner.
+Do not change hitAt999, Audit135.times, Director148.actualTimes, native hitFrame185/total/damage, once() or any other move implementation. Invalid/missing timing metadata, paired choreography, palms, air attacks and other unreviewed Niko moves retain the existing fallback. This fixes the confirmed four-stage combo issue; it is not an invented timing catalog for every Niko ability.
+
+CONSUMER REVIEW
+Continuity296, playback265 and diagnostic views read Audit135.phase and now project the corrected combo labels. Attack-view297 uses it for presentation metadata. Stats266 is read-only and may now report more accurate diagnostic recovery classification. Director148 reads enemy phases for roles; native enemies are not the flagged Niko hero combo actions covered by this adapter. Actual timing-list/budget APIs are unchanged. Plane304's phase-based contact admission branch is Reina-specific and unaffected. Later recording313phase wrappers still delegate normally; their authored aerial/sword rules are unchanged.
+No identified mechanical admission/once-event path relies on the new Niko label as authority. Baseline parity includes specialist guard/counter, full native combos and playback to verify this conclusion within covered scenarios.
+
+FILES
+-dist/audit135.js:one diagnostic branch/comment only.
+-dist/index.html:audit135cache token338-niko-phase.
+-tests/niko-phase-labels.cjs; qa/system242/suites.json critical registry entry.
+-tools/niko-phase/{compare.cjs,render.cjs}; reports-niko-phase evidence; COMBAT_REPAIR_LOG.md.
+Exact source check removes only the branch/comment to reproduce baseline Audit135 bytes. Index changes only its cache token. All other dist source, renderers, native Niko/move data, Director, collision and feedback files are unchanged. Previously approved Reina airborne projection remains present.
+
+REGRESSION TESTS
+New suite fails on the baseline at the missing native startup label, then passes204checks:
+-All4native combo stages and startup/contact/recovery boundaries; phase lookup does not mutate actions; hitAt/timing-list APIs unchanged.
+-Native once-contact callbacks at30/60/120Hz, both facings; each observed contact sample is active and executes exactly one native opportunity, with original quantized timing.
+-Fixed-step playback records/presentation agree; scrubbing does not advance simulation; recorded labels remain detached from later action edits.
+-Paired/unreviewed kinds, invalid/nonfinite timing values and unsupported frames retain fallback behavior.
+Single-stage fixtures deliberately use native generators; they are not evidence of earning preceding combo hits. Separate parity traces exercise earned full combos.
+
+All24executed top-level suites passed, no final behavioral failures:
+niko-phase-labels204;reina-airborne-hurtbox3206;plane304-weapons7754;plane304-ui11;continuity29630272;playback-flight-diagnostics1941;playback265137cumulative;niko2841245;reaction-deadline-metadata49620;actionability-diagnostics6805;knockdown-admission89115;hitstun-eligibility19208;post-hit-reassessment1192;reactions298742;combat274;repairs330788;enemies210;martial212;counters248;flint211;gamepad.test;controller157;reactions298-receipts11;qa242-validators6.
+Existing tests/assertions and historical normalizers unchanged. Syntax, registry and diff checks pass. Simulated controller results are not physical hardware certification.
+
+PRESERVATION
+352before/after trajectories,73,440snapshots and RNG match the actual starting commit:192native single-stage cases across8families/4stages/3rates/2facings;96Saito/Akari native guard/counter cases;48earned-combo cases;8fixed-step playback cases;8Reina controls.
+Compared actor HP/defense, positions, jump/flight/knockdown/recovery, invulnerability/wake/cooldown/actual reassessment, native action clocks/data/queue flags/chain state, raw reaction receipts/timestamps, complete feedback history and Director pressure. Only diagnostic labels intentionally differ. No damage/timing differences normalized away. Read-only diagnostic phase/recovery statistics may reflect the corrected labels; they are not combat clock changes.
+
+RENDERED PLAYBACK
+Native Chromium loads production index/renderer and Precision Lab UI. Baseline page serves only the recorded old Audit135module; fixed page uses current source. Four native combo stage fixtures are sampled at frame1, native contact6/6/8/11, and contact+2. All12baseline/fixed native isolated body images are byte-identical and target HP/hitAt/hitFrame185agree. Labels change from utility/recovery to startup/active/recovery.
+Four fixed production playback panels were captured. Actual timeline titles and selected historical records show active at6/6/8/11. Screenshots and pose sheet inspected; representative stage1and4panels show matching playback phase/presentation state. Panel review explicitly says the live world is2frames later, preserving historical-versus-live distinction. The panel is mounted in an isolated capture host; this changes verification-page placement only.
+The generic configured contact list remains empty because its timing API is deliberately unchanged. The phase adapter reads native hitFrame185; it does not fabricate configured windows for the existing API. This limitation is explicit rather than silently altering Director timing to populate a diagnostic field.
+Browser JavaScript errors0; same two existing concept preload404s on both pages. Native poses/artwork were not changed; no animation artwork repair or all-move/full-motion certification claimed.
+
+HISTORICAL EVIDENCE / LIMITATIONS
+9original reaction receipts remain UNAVAILABLE; historical reference absent, strict CLI exit2 with portable Git. No proof fabricated or normalizer weakened. Existing plane304/plane304-height historical-source gates and legacy niko185 Grab223-loader issue remain separate, not rerun or marked passed. Optional Node canvas view suite, full release/campaign and physical-controller certification unperformed.
+Only the confirmed native combo1..4phase mapping is approved here. Other native abilities need their own timing-contract inventory before receiving specific phase labels; utility/recovery fallback is retained for them. Feedback deduplication and all other gameplay repairs remain separate.
+
+REPEAT
+node tests/niko-phase-labels.cjs
+Optional baseline parity:set UF_GIT to available Git; node tools/niko-phase/compare.cjs.
+Optional browser:set UF_GIT,UF_PLAYWRIGHT_MODULE,PLAYWRIGHT_BROWSERS_PATH to installed runtimes and allow localhost; node tools/niko-phase/render.cjs.
+Portable regression requires no historical objects. Comparison uses the available real starting commit. Plain JavaScript needs no separate compilation/bundling step.
+
+RISKS / INTEGRATION / NEXT
+Risk:fixing labels by retiming moves, treating the diagnostic active band as a mechanical window, misclassifying paired/multihit actions or changing earlier repairs. Narrow flag/kind/validity checks, untouched timing APIs, fallback tests, exact mechanical parity and native rendering address that scope. Verified correction is integrated into cumulative stable after recording evidence; all previous repairs retained and original import/archives recoverable. Update archive is an overlay, not the complete game project.
+Recommended next separate task:A2-03historical collision/height test portability, preserving strict unavailable receipts and all behavioral assertions. Further Niko ability phase mappings should follow a per-move timing inventory; do not infer them from generic hitAt999.

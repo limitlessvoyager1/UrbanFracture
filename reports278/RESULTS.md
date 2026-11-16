@@ -1,0 +1,13 @@
+# Build278 QA results
+
+107automated release suites executed: **107passed,0failed**. 5manual gates not executed. Source fingerprint `5efea793458c22fea627d34e30e8ec1bc8dc36bdbabad3f61003d5d20c67f58e`; inputs stayed frozen during the completed run. Full evidence: final-run.json; suite logs in reports242. Classification remains needs-review, stable=false.
+
+New runtime suite:3621assertions, including30/60/120Hz, mirrored facing and arena edges, all three actual contacts, one hit per target/action,100unit maximum authored advance, target knockback, queued plane continuity, vulnerable enemy interruption, finite recovery, opener whiffs and protected targets, held-input suppression and23native practice factories. New asset suite checks16complete cells, binary alpha, fixed source scale and compact atlas.
+
+Supplementary input driver:25checks through actual game.js keyboard and simulated standard/raw DualSense/DSX mappings, in both facings. Baseline driver reproduces the checkpoint's stationary four-stage string and absent practice adapter, then verifies the replacement's advancing three-kick opener and practice integration. Existing current-contract campaign, controller, counters, weapons, workers, environment, prior Flint/Nightshade and presentation suites passed.
+
+Live browser: reviewed roundhouse/tornado contact and native final knockdown with the current renderer. Corrected contact-side draw order so the kicking leg is visible. Existing developer menu displayed the actual registry dropdown; selecting Kevin changed the Start practice URL; clicking opened a separate tab against Kevin. Restart duel restored105HP and one opponent. Menu remains accessible in that tab. Screenshot candidate retained as tornado-contact.jpg. No approved baseline was overwritten.
+
+An initial full-run attempt was stopped after detecting a new URLSearchParams access missing from the headless controller fixture. The practice bootstrap now safely skips query parsing where browser URL APIs are unavailable. Stale interrupted-run lock was removed only after its session had exited. Final complete run passed. Historical standalone Audit135 fixtures also had old110HP/4damage jab assumptions; changed to current105HP and the7damage/10frame kick, retaining relative no-damage and block-chip checks.
+
+Unexecuted: physical DualSense feel, human artistic/balance approval, approved screenshot baseline comparison, all-move coverage. Practice entries without an implemented isolated adapter remain disabled. The current23opponents are available; this does not imply completion of every registry specialist. Build checkpoint: checkpoint-before-reina278 /e16b3ef429fad99718fc6eef4435c1de641d09b7.

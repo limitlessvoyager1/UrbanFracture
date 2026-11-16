@@ -1,0 +1,1437 @@
+{
+  "entry": "dist/index.html",
+  "renderEntry": "dist/game.js",
+  "simulationEntry": "dist/core.js",
+  "scripts": [
+    {
+      "file": "core.js",
+      "version": "169"
+    },
+    {
+      "file": "financial.js",
+      "version": "155"
+    },
+    {
+      "file": "broxton.js",
+      "version": "155"
+    },
+    {
+      "file": "paired-motion.js",
+      "version": "155"
+    },
+    {
+      "file": "counters.js",
+      "version": "155"
+    },
+    {
+      "file": "encounters.js",
+      "version": "155"
+    },
+    {
+      "file": "balance48.js",
+      "version": "155"
+    },
+    {
+      "file": "balance49.js",
+      "version": "155"
+    },
+    {
+      "file": "broxton-counters51.js",
+      "version": "155"
+    },
+    {
+      "file": "broxton-shuffle52.js",
+      "version": "155"
+    },
+    {
+      "file": "open-cue62.js",
+      "version": "155"
+    },
+    {
+      "file": "weather67.js",
+      "version": "156"
+    },
+    {
+      "file": "scenes71.js",
+      "version": "155"
+    },
+    {
+      "file": "club76.js",
+      "version": "155"
+    },
+    {
+      "file": "nova77.js",
+      "version": "155"
+    },
+    {
+      "file": "jackal100.js",
+      "version": "155"
+    },
+    {
+      "file": "pressure101.js",
+      "version": "155"
+    },
+    {
+      "file": "leroy102.js",
+      "version": "155"
+    },
+    {
+      "file": "nova105.js",
+      "version": "155"
+    },
+    {
+      "file": "nova107.js",
+      "version": "155"
+    },
+    {
+      "file": "nova108.js",
+      "version": "155"
+    },
+    {
+      "file": "nova116.js",
+      "version": "155"
+    },
+    {
+      "file": "reina118.js",
+      "version": "155"
+    },
+    {
+      "file": "reina119.js",
+      "version": "155"
+    },
+    {
+      "file": "reina120.js",
+      "version": "155"
+    },
+    {
+      "file": "reina123.js",
+      "version": "169"
+    },
+    {
+      "file": "grapple-recovery119.js",
+      "version": "155"
+    },
+    {
+      "file": "dragon121.js",
+      "version": "155"
+    },
+    {
+      "file": "weapon-counters122.js",
+      "version": "155"
+    },
+    {
+      "file": "grip124.js",
+      "version": "155"
+    },
+    {
+      "file": "forest125.js",
+      "version": "169"
+    },
+    {
+      "file": "uptown113.js",
+      "version": "165"
+    },
+    {
+      "file": "uptown-view113.js",
+      "version": "167"
+    },
+    {
+      "file": "companion126.js",
+      "version": "155"
+    },
+    {
+      "file": "forest-counters127.js",
+      "version": "155"
+    },
+    {
+      "file": "locomotion127.js",
+      "version": "155"
+    },
+    {
+      "file": "nova128.js",
+      "version": "155"
+    },
+    {
+      "file": "combo-confirm129.js",
+      "version": "155"
+    },
+    {
+      "file": "tornado130.js",
+      "version": "155"
+    },
+    {
+      "file": "charge130.js",
+      "version": "155"
+    },
+    {
+      "file": "bruno130.js",
+      "version": "155"
+    },
+    {
+      "file": "nova-shock130.js",
+      "version": "155"
+    },
+    {
+      "file": "combat134.js",
+      "version": "155"
+    },
+    {
+      "file": "audit135.js",
+      "version": "169"
+    },
+    {
+      "file": "powerbomb136.js",
+      "version": "155"
+    },
+    {
+      "file": "spear137.js",
+      "version": "155"
+    },
+    {
+      "file": "broxton-audit142.js",
+      "version": "155"
+    },
+    {
+      "file": "stabilize143.js",
+      "version": "155"
+    },
+    {
+      "file": "review144.js",
+      "version": "155"
+    },
+    {
+      "file": "reina-grip155.js",
+      "version": "155"
+    },
+    {
+      "file": "forest-grip146.js",
+      "version": "155"
+    },
+    {
+      "file": "reina-repair147.js",
+      "version": "155"
+    },
+    {
+      "file": "director148.js",
+      "version": "169"
+    },
+    {
+      "file": "woods-traversal148.js",
+      "version": "165"
+    },
+    {
+      "file": "lab149.js",
+      "version": "168"
+    },
+    {
+      "file": "riverfront151.js",
+      "version": "160"
+    },
+    {
+      "file": "sterling152.js",
+      "version": "155"
+    },
+    {
+      "file": "dorian153.js",
+      "version": "155"
+    },
+    {
+      "file": "lab-workers166.js",
+      "version": "167"
+    },
+    {
+      "file": "quality167.js",
+      "version": "167"
+    },
+    {
+      "file": "combat-quality169.js",
+      "version": "169"
+    },
+    {
+      "file": "street155.js",
+      "version": "155"
+    },
+    {
+      "file": "environment156.js",
+      "version": "161"
+    },
+    {
+      "file": "environment-game156.js",
+      "version": "156"
+    },
+    {
+      "file": "environment-controller162.js",
+      "version": "162"
+    },
+    {
+      "file": "woods139.js",
+      "version": "167"
+    },
+    {
+      "file": "sprite-data.js",
+      "version": "155"
+    },
+    {
+      "file": "frankie-data.js",
+      "version": "167"
+    },
+    {
+      "file": "walk-data.js",
+      "version": "155"
+    },
+    {
+      "file": "recovery-data.js",
+      "version": "155"
+    },
+    {
+      "file": "reina-tech-data.js",
+      "version": "155"
+    },
+    {
+      "file": "throw-tech-data.js",
+      "version": "155"
+    },
+    {
+      "file": "spin-combat-data.js",
+      "version": "155"
+    },
+    {
+      "file": "mobility-data.js",
+      "version": "155"
+    },
+    {
+      "file": "refined-data.js",
+      "version": "155"
+    },
+    {
+      "file": "run-data.js",
+      "version": "155"
+    },
+    {
+      "file": "anti-air-data.js",
+      "version": "155"
+    },
+    {
+      "file": "new-combat-data.js",
+      "version": "155"
+    },
+    {
+      "file": "kevin-brick-data.js",
+      "version": "155"
+    },
+    {
+      "file": "recovery-taser-data.js",
+      "version": "155"
+    },
+    {
+      "file": "build22-data.js",
+      "version": "155"
+    },
+    {
+      "file": "grab-air-data.js",
+      "version": "155"
+    },
+    {
+      "file": "bruno-held-data.js",
+      "version": "155"
+    },
+    {
+      "file": "financial-data.js",
+      "version": "155"
+    },
+    {
+      "file": "financial-tech-data.js",
+      "version": "155"
+    },
+    {
+      "file": "opening-data.js",
+      "version": "155"
+    },
+    {
+      "file": "bank-furniture-data.js",
+      "version": "155"
+    },
+    {
+      "file": "bruno-counter31-data.js",
+      "version": "155"
+    },
+    {
+      "file": "animation31-data.js",
+      "version": "155"
+    },
+    {
+      "file": "civilian-run31-data.js",
+      "version": "155"
+    },
+    {
+      "file": "broxton-data.js",
+      "version": "155"
+    },
+    {
+      "file": "broxton-refined-data.js",
+      "version": "155"
+    },
+    {
+      "file": "enemies43-data.js",
+      "version": "155"
+    },
+    {
+      "file": "neutral44-data.js",
+      "version": "155"
+    },
+    {
+      "file": "combat45-data.js",
+      "version": "155"
+    },
+    {
+      "file": "motion46-data.js",
+      "version": "155"
+    },
+    {
+      "file": "combat47-data.js",
+      "version": "155"
+    },
+    {
+      "file": "block48-data.js",
+      "version": "155"
+    },
+    {
+      "file": "grapples49-data.js",
+      "version": "155"
+    },
+    {
+      "file": "counters51-data.js",
+      "version": "155"
+    },
+    {
+      "file": "walk52-data.js",
+      "version": "155"
+    },
+    {
+      "file": "sprites.js",
+      "version": "167"
+    },
+    {
+      "file": "park-visitors-view161.js",
+      "version": "164"
+    },
+    {
+      "file": "gamepad.js",
+      "version": "157"
+    },
+    {
+      "file": "combat-audio.js",
+      "version": "155"
+    },
+    {
+      "file": "nova-audio128.js",
+      "version": "155"
+    },
+    {
+      "file": "forest125-data.js",
+      "version": "155"
+    },
+    {
+      "file": "forest-counters127-data.js",
+      "version": "155"
+    },
+    {
+      "file": "locomotion127-data.js",
+      "version": "155"
+    },
+    {
+      "file": "forest-view125.js",
+      "version": "155"
+    },
+    {
+      "file": "nova128-data.js",
+      "version": "155"
+    },
+    {
+      "file": "nova-view128.js",
+      "version": "155"
+    },
+    {
+      "file": "tornado130-data.js",
+      "version": "155"
+    },
+    {
+      "file": "charge-view130.js",
+      "version": "155"
+    },
+    {
+      "file": "reactions130-data.js",
+      "version": "155"
+    },
+    {
+      "file": "reactions-view130.js",
+      "version": "155"
+    },
+    {
+      "file": "repair134-data.js",
+      "version": "155"
+    },
+    {
+      "file": "repair-view134.js",
+      "version": "155"
+    },
+    {
+      "file": "audit-view135.js",
+      "version": "169"
+    },
+    {
+      "file": "spear137-view.js",
+      "version": "155"
+    },
+    {
+      "file": "review-view144.js",
+      "version": "155"
+    },
+    {
+      "file": "charge-walk149-data.js",
+      "version": "155"
+    },
+    {
+      "file": "charge-walk149.js",
+      "version": "155"
+    },
+    {
+      "file": "lab-view149.js",
+      "version": "168"
+    },
+    {
+      "file": "river-traffic151-data.js",
+      "version": "155"
+    },
+    {
+      "file": "riverfront-view151.js",
+      "version": "167"
+    },
+    {
+      "file": "sterling152-data.js",
+      "version": "155"
+    },
+    {
+      "file": "sterling-view152.js",
+      "version": "167"
+    },
+    {
+      "file": "dorian153-data.js",
+      "version": "155"
+    },
+    {
+      "file": "dorian-view153.js",
+      "version": "155"
+    },
+    {
+      "file": "route-view167.js",
+      "version": "167"
+    },
+    {
+      "file": "lab-fighters166-data.js",
+      "version": "167"
+    },
+    {
+      "file": "lab-fighters-view166.js",
+      "version": "167"
+    },
+    {
+      "file": "kip-view169.js",
+      "version": "169"
+    },
+    {
+      "file": "environment-view156.js",
+      "version": "169"
+    },
+    {
+      "file": "outdoor-template-view162.js",
+      "version": "162"
+    },
+    {
+      "file": "environment-ui156.js",
+      "version": "162"
+    },
+    {
+      "file": "game.js",
+      "version": "168"
+    }
+  ],
+  "functions": {
+    "constructor": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "reset": {
+      "outermost": "environment-controller162.js",
+      "loadOrder": [
+        "core.js",
+        "financial.js",
+        "broxton.js",
+        "paired-motion.js",
+        "balance48.js",
+        "weather67.js",
+        "nova77.js",
+        "leroy102.js",
+        "reina118.js",
+        "reina119.js",
+        "reina120.js",
+        "reina123.js",
+        "grapple-recovery119.js",
+        "dragon121.js",
+        "weapon-counters122.js",
+        "grip124.js",
+        "forest125.js",
+        "uptown113.js",
+        "companion126.js",
+        "forest-counters127.js",
+        "nova128.js",
+        "charge130.js",
+        "audit135.js",
+        "powerbomb136.js",
+        "spear137.js",
+        "broxton-audit142.js",
+        "stabilize143.js",
+        "director148.js",
+        "lab149.js",
+        "sterling152.js",
+        "lab-workers166.js",
+        "combat-quality169.js",
+        "environment-game156.js",
+        "environment-controller162.js"
+      ]
+    },
+    "event": {
+      "outermost": "environment-game156.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "audit135.js",
+        "stabilize143.js",
+        "combat-quality169.js",
+        "environment-game156.js"
+      ]
+    },
+    "focusEnemy": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "drainEvents": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "fx": {
+      "outermost": "broxton.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js"
+      ]
+    },
+    "spawnZone": {
+      "outermost": "street155.js",
+      "loadOrder": [
+        "core.js",
+        "encounters.js",
+        "club76.js",
+        "uptown113.js",
+        "lab149.js",
+        "riverfront151.js",
+        "sterling152.js",
+        "lab-workers166.js",
+        "street155.js"
+      ]
+    },
+    "startAlleyBossIntro": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "advanceAlleyIntro": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "zoneDefinition": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "hotelRoutePromptVisible": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "groundBounds": {
+      "outermost": "sterling152.js",
+      "loadOrder": [
+        "core.js",
+        "sterling152.js"
+      ]
+    },
+    "deployEnemy": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "reinforce": {
+      "outermost": "street155.js",
+      "loadOrder": [
+        "core.js",
+        "encounters.js",
+        "club76.js",
+        "uptown113.js",
+        "lab149.js",
+        "lab-workers166.js",
+        "street155.js"
+      ]
+    },
+    "enemiesRemaining": {
+      "outermost": "balance48.js",
+      "loadOrder": [
+        "core.js",
+        "balance48.js"
+      ]
+    },
+    "bossProtected": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "cameraBounds": {
+      "outermost": "uptown113.js",
+      "loadOrder": [
+        "core.js",
+        "uptown113.js"
+      ]
+    },
+    "beginDoorTransition": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "advanceTransition": {
+      "outermost": "financial.js",
+      "loadOrder": [
+        "core.js",
+        "financial.js"
+      ]
+    },
+    "toppleProp": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "resolveFurniture": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "combatBounds": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "bounds": {
+      "outermost": "lab149.js",
+      "loadOrder": [
+        "core.js",
+        "encounters.js",
+        "uptown113.js",
+        "lab149.js"
+      ]
+    },
+    "isFree": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "release": {
+      "outermost": "combat-quality169.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "paired-motion.js",
+        "nova77.js",
+        "grip124.js",
+        "forest125.js",
+        "nova128.js",
+        "combat134.js",
+        "combat-quality169.js"
+      ]
+    },
+    "unlink": {
+      "outermost": "nova77.js",
+      "loadOrder": [
+        "core.js",
+        "nova77.js"
+      ]
+    },
+    "start": {
+      "outermost": "stabilize143.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "paired-motion.js",
+        "encounters.js",
+        "balance49.js",
+        "nova77.js",
+        "nova105.js",
+        "nova107.js",
+        "nova108.js",
+        "nova116.js",
+        "reina118.js",
+        "reina119.js",
+        "reina120.js",
+        "reina123.js",
+        "grapple-recovery119.js",
+        "companion126.js",
+        "combo-confirm129.js",
+        "combat134.js",
+        "audit135.js",
+        "powerbomb136.js",
+        "spear137.js",
+        "stabilize143.js"
+      ]
+    },
+    "knockDown": {
+      "outermost": "lab-workers166.js",
+      "loadOrder": [
+        "core.js",
+        "paired-motion.js",
+        "nova77.js",
+        "grapple-recovery119.js",
+        "companion126.js",
+        "tornado130.js",
+        "audit135.js",
+        "lab-workers166.js"
+      ]
+    },
+    "land": {
+      "outermost": "lab149.js",
+      "loadOrder": [
+        "core.js",
+        "paired-motion.js",
+        "lab149.js"
+      ]
+    },
+    "advanceDown": {
+      "outermost": "combat-quality169.js",
+      "loadOrder": [
+        "core.js",
+        "encounters.js",
+        "nova107.js",
+        "nova108.js",
+        "nova116.js",
+        "reina118.js",
+        "grapple-recovery119.js",
+        "forest125.js",
+        "audit135.js",
+        "dorian153.js",
+        "lab-workers166.js",
+        "combat-quality169.js"
+      ]
+    },
+    "damage": {
+      "outermost": "quality167.js",
+      "loadOrder": [
+        "core.js",
+        "encounters.js",
+        "balance49.js",
+        "open-cue62.js",
+        "nova77.js",
+        "jackal100.js",
+        "leroy102.js",
+        "dragon121.js",
+        "companion126.js",
+        "combo-confirm129.js",
+        "charge130.js",
+        "bruno130.js",
+        "audit135.js",
+        "spear137.js",
+        "stabilize143.js",
+        "quality167.js"
+      ]
+    },
+    "revealFurniture": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "awardScore": {
+      "outermost": "broxton-audit142.js",
+      "loadOrder": [
+        "core.js",
+        "broxton-audit142.js"
+      ]
+    },
+    "enemyDrop": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "spendDefense": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "acquireGrab": {
+      "outermost": "combat-quality169.js",
+      "loadOrder": [
+        "core.js",
+        "open-cue62.js",
+        "nova77.js",
+        "dragon121.js",
+        "grip124.js",
+        "charge130.js",
+        "audit135.js",
+        "combat-quality169.js"
+      ]
+    },
+    "tryGrab": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "counterCost": {
+      "outermost": "counters.js",
+      "loadOrder": [
+        "core.js",
+        "counters.js"
+      ]
+    },
+    "catchPunch": {
+      "outermost": "lab-workers166.js",
+      "loadOrder": [
+        "core.js",
+        "counters.js",
+        "encounters.js",
+        "broxton-counters51.js",
+        "open-cue62.js",
+        "nova77.js",
+        "weapon-counters122.js",
+        "forest125.js",
+        "forest-counters127.js",
+        "audit135.js",
+        "lab-workers166.js"
+      ]
+    },
+    "holdAction": {
+      "outermost": "spear137.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "nova77.js",
+        "grip124.js",
+        "forest125.js",
+        "nova128.js",
+        "powerbomb136.js",
+        "spear137.js"
+      ]
+    },
+    "directionInput": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "cancelCharge": {
+      "outermost": "charge130.js",
+      "loadOrder": [
+        "core.js",
+        "dragon121.js",
+        "forest125.js",
+        "charge130.js"
+      ]
+    },
+    "attackInput": {
+      "outermost": "lab-workers166.js",
+      "loadOrder": [
+        "core.js",
+        "balance48.js",
+        "nova77.js",
+        "dragon121.js",
+        "forest125.js",
+        "charge130.js",
+        "lab149.js",
+        "sterling152.js",
+        "lab-workers166.js"
+      ]
+    },
+    "command": {
+      "outermost": "lab-workers166.js",
+      "loadOrder": [
+        "core.js",
+        "counters.js",
+        "encounters.js",
+        "balance48.js",
+        "balance49.js",
+        "broxton-counters51.js",
+        "broxton-shuffle52.js",
+        "nova77.js",
+        "grapple-recovery119.js",
+        "dragon121.js",
+        "weapon-counters122.js",
+        "forest125.js",
+        "forest-counters127.js",
+        "charge130.js",
+        "combat134.js",
+        "audit135.js",
+        "spear137.js",
+        "stabilize143.js",
+        "lab149.js",
+        "sterling152.js",
+        "lab-workers166.js"
+      ]
+    },
+    "launch": {
+      "outermost": "encounters.js",
+      "loadOrder": [
+        "core.js",
+        "financial.js",
+        "paired-motion.js",
+        "encounters.js"
+      ]
+    },
+    "hitPlayerAttack": {
+      "outermost": "lab-workers166.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "paired-motion.js",
+        "counters.js",
+        "encounters.js",
+        "balance49.js",
+        "broxton-counters51.js",
+        "nova77.js",
+        "nova105.js",
+        "nova107.js",
+        "nova108.js",
+        "nova116.js",
+        "reina118.js",
+        "reina119.js",
+        "reina120.js",
+        "reina123.js",
+        "weapon-counters122.js",
+        "forest125.js",
+        "nova128.js",
+        "tornado130.js",
+        "combat134.js",
+        "audit135.js",
+        "powerbomb136.js",
+        "spear137.js",
+        "lab-workers166.js"
+      ]
+    },
+    "enemyAct": {
+      "outermost": "combat-quality169.js",
+      "loadOrder": [
+        "core.js",
+        "financial.js",
+        "counters.js",
+        "pressure101.js",
+        "leroy102.js",
+        "weapon-counters122.js",
+        "forest-counters127.js",
+        "nova128.js",
+        "audit135.js",
+        "spear137.js",
+        "stabilize143.js",
+        "reina-repair147.js",
+        "combat-quality169.js"
+      ]
+    },
+    "enemyHit": {
+      "outermost": "quality167.js",
+      "loadOrder": [
+        "core.js",
+        "paired-motion.js",
+        "encounters.js",
+        "nova77.js",
+        "jackal100.js",
+        "pressure101.js",
+        "leroy102.js",
+        "companion126.js",
+        "audit135.js",
+        "dorian153.js",
+        "lab-workers166.js",
+        "quality167.js"
+      ]
+    },
+    "advanceEntry": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "core.js",
+        "leroy102.js"
+      ]
+    },
+    "advanceDefeated": {
+      "outermost": "core.js",
+      "loadOrder": [
+        "core.js"
+      ]
+    },
+    "settledDefeats": {
+      "outermost": "forest125.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "paired-motion.js",
+        "grapple-recovery119.js",
+        "forest125.js"
+      ]
+    },
+    "ai": {
+      "outermost": "quality167.js",
+      "loadOrder": [
+        "core.js",
+        "broxton.js",
+        "counters.js",
+        "encounters.js",
+        "balance49.js",
+        "jackal100.js",
+        "pressure101.js",
+        "leroy102.js",
+        "nova116.js",
+        "reina118.js",
+        "grapple-recovery119.js",
+        "weapon-counters122.js",
+        "forest125.js",
+        "companion126.js",
+        "nova128.js",
+        "audit135.js",
+        "reina-repair147.js",
+        "lab149.js",
+        "lab-workers166.js",
+        "quality167.js"
+      ]
+    },
+    "tick": {
+      "outermost": "environment-controller162.js",
+      "loadOrder": [
+        "core.js",
+        "paired-motion.js",
+        "encounters.js",
+        "balance48.js",
+        "balance49.js",
+        "open-cue62.js",
+        "weather67.js",
+        "nova77.js",
+        "jackal100.js",
+        "pressure101.js",
+        "leroy102.js",
+        "nova107.js",
+        "nova108.js",
+        "nova116.js",
+        "reina118.js",
+        "reina119.js",
+        "reina120.js",
+        "reina123.js",
+        "grapple-recovery119.js",
+        "dragon121.js",
+        "weapon-counters122.js",
+        "grip124.js",
+        "forest125.js",
+        "uptown113.js",
+        "companion126.js",
+        "forest-counters127.js",
+        "locomotion127.js",
+        "nova128.js",
+        "combo-confirm129.js",
+        "charge130.js",
+        "bruno130.js",
+        "nova-shock130.js",
+        "combat134.js",
+        "audit135.js",
+        "powerbomb136.js",
+        "spear137.js",
+        "woods-traversal148.js",
+        "lab149.js",
+        "sterling152.js",
+        "dorian153.js",
+        "lab-workers166.js",
+        "quality167.js",
+        "street155.js",
+        "environment-game156.js",
+        "environment-controller162.js"
+      ]
+    },
+    "startFinancialTransition": {
+      "outermost": "balance48.js",
+      "loadOrder": [
+        "financial.js",
+        "balance48.js"
+      ]
+    },
+    "spawnFinancial": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "financial.js",
+        "encounters.js",
+        "balance48.js",
+        "club76.js",
+        "leroy102.js"
+      ]
+    },
+    "spawnFinancialEnemy": {
+      "outermost": "financial.js",
+      "loadOrder": [
+        "financial.js"
+      ]
+    },
+    "advanceCitizens": {
+      "outermost": "financial.js",
+      "loadOrder": [
+        "financial.js"
+      ]
+    },
+    "advanceFinancialScene": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "financial.js",
+        "leroy102.js"
+      ]
+    },
+    "spawnLiftStop": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "financial.js",
+        "leroy102.js"
+      ]
+    },
+    "reinforceFinancial": {
+      "outermost": "balance48.js",
+      "loadOrder": [
+        "financial.js",
+        "encounters.js",
+        "balance48.js"
+      ]
+    },
+    "finishFinancialTick": {
+      "outermost": "balance48.js",
+      "loadOrder": [
+        "financial.js",
+        "balance48.js"
+      ]
+    },
+    "financialAI": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "financial.js",
+        "leroy102.js"
+      ]
+    },
+    "financialHit": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "financial.js",
+        "leroy102.js"
+      ]
+    },
+    "selectHero": {
+      "outermost": "companion126.js",
+      "loadOrder": [
+        "broxton.js",
+        "forest125.js",
+        "companion126.js"
+      ]
+    },
+    "advanceHeroActor": {
+      "outermost": "forest125.js",
+      "loadOrder": [
+        "broxton.js",
+        "nova105.js",
+        "nova107.js",
+        "nova108.js",
+        "grapple-recovery119.js",
+        "forest125.js"
+      ]
+    },
+    "advanceHeroAction": {
+      "outermost": "reina-repair147.js",
+      "loadOrder": [
+        "broxton.js",
+        "paired-motion.js",
+        "counters.js",
+        "encounters.js",
+        "broxton-counters51.js",
+        "broxton-shuffle52.js",
+        "nova77.js",
+        "jackal100.js",
+        "pressure101.js",
+        "leroy102.js",
+        "nova105.js",
+        "nova107.js",
+        "nova108.js",
+        "nova116.js",
+        "reina118.js",
+        "reina119.js",
+        "reina120.js",
+        "reina123.js",
+        "dragon121.js",
+        "weapon-counters122.js",
+        "grip124.js",
+        "forest125.js",
+        "forest-counters127.js",
+        "nova128.js",
+        "tornado130.js",
+        "charge130.js",
+        "combat134.js",
+        "audit135.js",
+        "powerbomb136.js",
+        "spear137.js",
+        "broxton-audit142.js",
+        "reina-repair147.js"
+      ]
+    },
+    "finishHeroAction": {
+      "outermost": "combat-quality169.js",
+      "loadOrder": [
+        "broxton.js",
+        "counters.js",
+        "encounters.js",
+        "nova77.js",
+        "jackal100.js",
+        "pressure101.js",
+        "nova105.js",
+        "nova107.js",
+        "nova108.js",
+        "nova116.js",
+        "reina118.js",
+        "reina119.js",
+        "reina120.js",
+        "reina123.js",
+        "grapple-recovery119.js",
+        "weapon-counters122.js",
+        "grip124.js",
+        "forest125.js",
+        "forest-counters127.js",
+        "nova128.js",
+        "combo-confirm129.js",
+        "tornado130.js",
+        "charge130.js",
+        "combat134.js",
+        "powerbomb136.js",
+        "spear137.js",
+        "reina-repair147.js",
+        "combat-quality169.js"
+      ]
+    },
+    "broxtonArea": {
+      "outermost": "broxton.js",
+      "loadOrder": [
+        "broxton.js"
+      ]
+    },
+    "broxtonLaunch": {
+      "outermost": "paired-motion.js",
+      "loadOrder": [
+        "broxton.js",
+        "paired-motion.js"
+      ]
+    },
+    "guardSpecialist": {
+      "outermost": "encounters.js",
+      "loadOrder": [
+        "encounters.js"
+      ]
+    },
+    "marcusAI": {
+      "outermost": "encounters.js",
+      "loadOrder": [
+        "encounters.js"
+      ]
+    },
+    "startLevelClear": {
+      "outermost": "balance48.js",
+      "loadOrder": [
+        "balance48.js"
+      ]
+    },
+    "jackalAttack100": {
+      "outermost": "jackal100.js",
+      "loadOrder": [
+        "jackal100.js"
+      ]
+    },
+    "jackalContact100": {
+      "outermost": "jackal100.js",
+      "loadOrder": [
+        "jackal100.js"
+      ]
+    },
+    "jackalGround100": {
+      "outermost": "jackal100.js",
+      "loadOrder": [
+        "jackal100.js"
+      ]
+    },
+    "jackalReinforcements100": {
+      "outermost": "jackal100.js",
+      "loadOrder": [
+        "jackal100.js"
+      ]
+    },
+    "leroyGrenade102": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "leroy102.js"
+      ]
+    },
+    "leroyBackup102": {
+      "outermost": "leroy102.js",
+      "loadOrder": [
+        "leroy102.js"
+      ]
+    },
+    "startUptown": {
+      "outermost": "uptown113.js",
+      "loadOrder": [
+        "uptown113.js"
+      ]
+    },
+    "newEnvironment156": {
+      "outermost": "environment-game156.js",
+      "loadOrder": [
+        "environment-game156.js"
+      ]
+    },
+    "saveEnvironment156": {
+      "outermost": "environment-game156.js",
+      "loadOrder": [
+        "environment-game156.js"
+      ]
+    },
+    "loadEnvironment156": {
+      "outermost": "environment-game156.js",
+      "loadOrder": [
+        "environment-game156.js"
+      ]
+    },
+    "enterEnvironmentLevel162": {
+      "outermost": "environment-controller162.js",
+      "loadOrder": [
+        "environment-controller162.js"
+      ]
+    }
+  }
+}

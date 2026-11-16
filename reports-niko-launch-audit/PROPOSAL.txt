@@ -1,0 +1,95 @@
+URBAN FRACTURE — NIKO POST-LAUNCH RECEIPT AUDIT / SCOPED PROPOSAL
+Date:2026-11-12
+Baseline:53352d9b8402d6e969827890d52f95644a45a05a (stable/combat-stabilization)
+Audit branch:audit/niko-post-launch-receipts
+Status:AUDIT ONLY. No production, existing test, QA configuration, damage or timing changes. Stable branch remains at the baseline above. STOP for approval before implementing any proposal.
+
+MAIN FINDING
+A clean contact receipt followed by flight is valid history, not evidence that recoil or knockdown failed. Niko palms resolves damage first, then launches the surviving target. Current physical state correctly becomes fall, knockdown, get-up and recovery while the old contact outcome remains clean.
+
+Confirmed problems are in diagnostic presentation/correlation: playback's outer phase says actionable during flight; and the zero-damage transfer inside launch emits a second contact-feedback receipt, replacing the latest feedback damage value with null. No duplicated HP loss was observed. The metric actualSeconds=0 accurately reports stun clearing in the launch tick under its implementation, but is ambiguous if read as completed reaction/recovery.
+
+RECOMMENDATION
+First approve NL-01: a small read-only diagnostic projection/label repair distinguishing last contact outcome, current physical state and observed stun-clear elapsed time. Preserve raw contact outcomes and legacy timing fields. Keep NL-02 (zero-damage feedback duplication) separate because filtering feedback requires validating intentional zero-damage contacts. Do not rewrite Niko's move, flight physics, recovery clocks, or the wrapper stack.
+
+EVIDENCE / REPRODUCTION
+Run from project root:node tools/niko-launch-audit/audit.cjs
+Current production-order adapter loads209simulation files from index.html; native Niko185.beginPalms invokes authored action/contact logic. Charge-input acquisition and AI are disabled/not certified by these fixtures. Native actor maxHP is retained; directions mirrored.
+-48palms cases:8families x30/60/120Hz x2facings.
+-48paired uninstrumented runs: selected actor/receipt/state traces and final RNG match instrumented observers exactly.
+-13controls:8native opener cases; lethal, invulnerable, wrong-plane and out-of-range cases; native Saito martialBlock.
+-8fixed60Hz playback cases, one per enemy family.
+-565observational assertions passed. These checks reproduce current facts/defects; they do not certify the proposed desired contract as repaired.
+
+In all48clean palms cases:one18HP contact, then one launch with0additional HP damage; contact outcome stays clean. Stun duration at contact is0.5for native Marcus/Kevin and0.28for the other six vulnerable families. Native launch clears stun and starts flight. Reported actualSeconds becomes0 in that same tick, yet physical recovery continues. All8playback cases label airborne frames actionable while their nested presentation state says fall.
+
+Representative Marcus,60Hz, facing right (seconds from action start; observations, not newly specified frame data):
+0.416667,frame25:damage18returns, HP60->42, stun0.5, receipt clean, no flight yet.
+Same time:native launch calls forced damage0; HP stays42, no new hitReaction298 receipt, but contact302 emits another clean feedback receipt with damage:null. Its intermediate stun assignment is subsequently cleared by launch.
+Same tick end:Niko-adjusted flight total0.45/travel150; stun0, current state fall, offensiveReadyfalse. Contact receipt remains clean/damage18/configured0.5; releasedAt0.416667/actualSeconds0. Latest contact feedback is now a distinct id with damage:null.
+0.883333:first landed knockdown sample, down1.13, physical state knockdown; raw contact remains clean.
+1.666667:get-up sampled, down0.346667.
+2.016667:standing recovery sampled, recovering0.4/standingLock1.
+3.016667:first common-ready sample; the old receipt still says clean/actualSeconds0.
+Saito/Akari's authored shorter native recovery reaches common-ready1.416667 in these60Hz fixtures. That difference is preserved, not treated as a defect. Quantized sample boundaries are not an invitation to retime flight/recovery.
+
+Controls:openers deal3HP without launch and produce positive measured stun elapsed time. Lethal palms produces defeated with no flight. Misses/invulnerability produce no fabricated contact. Saito guard takes4chip, records block, and refuses launch:one launch attempt is not proof of successful flight. Armor/counter permutations, collateral and interruption during flight were not exhaustively tested in this audit; existing guards/specialist mechanics are not proposed for modification.
+
+SOURCE / OWNERSHIP
+-dist/niko185.js:24 hit calls damage;30launch helper calls shared launch with0primary damage then sets the Niko trajectory;31melee launches only after hit returns;70palms invokes18damage at frame25 with limit2/reach120.
+-dist/core.js:128shared launch clears stun/act and creates flight after its internal forced damage call;202flight completion invokes native knockdown. Existing launch wrappers may reject a launch; success must be observed from actual flight state.
+-dist/reactions298.js:14-18classifies damage-return contact into hitReaction298;24later observes remaining stun/shock<=EPS and records releasedAt/actualSeconds. It does not measure flight/landing/recovery completion.
+-dist/combat274.js and niko284.js retain existing duration/deadline receipt processing. The approved effective-deadline repair is present; no additional deadline change proposed.
+-dist/continuity296.js:6-14projects current physical state and common readiness from live actor fields, including flight and physical locks. It is not the historical contact receipt.
+-dist/contact302.js:6-8emits feedback when an inner native hit event exists even if HP loss is zero. Shared launch's forced0damage emits such a hit event, causing the second feedback record.
+-dist/playback265.js:11outer phase defaults actionable and only overrides some states; it does not map live fall during flight. Nested presentation still contains the correct live state.
+-dist/playback-ui265.js:8timeline titles/accessible labels use the outer phase;9details also expose the nested physical snapshot. Thus the contradictory phase has a real diagnostic UI consumer, not merely unused data.
+
+CONSUMER REVIEW
+The receipt is not globally immutable: its timing fields are completed later, and unrelated weapon/Nightshade modules can extend durationAtHit. This proposal preserves that existing behavior and separates meanings rather than assuming every receipt field is a timeless snapshot.
+-Contact302 reads contemporaneous reaction outcome to classify contact feedback; armor/block must not be overwritten by later movement state.
+-Reactions-view298 requires actual remaining stun and excludes flight/down/jump before applying recoil offset. ReactionTemplates289 and enemy-reactions290 prioritize physical flight/down before standing recoil. No evidence here that clean history forces standing recoil over flight.
+-Playback265 and HitReactions298.report expose outcome beside live stun lock/elapsed values without clearly distinct contact/state semantics. HitReactions298.locked is a stun/shock guard, not a full-recovery guard; false during flight is not itself a bypass.
+-recording312-enemies reads contemporaneous armor outcome for thrown-projectile impacts; recording313/recording313-enemies and nightshade-melee257 intentionally adjust their own receipt-related states. Nova view uses sanitized copies. PCBI view reads a separate configuredSeconds field/fallback while projecting its own states. No changes to these unrelated consumers are proposed.
+
+NL-01 — MISLEADING POST-LAUNCH DIAGNOSTIC PROJECTION (RECOMMENDED FIRST)
+1.Issue:playback outer phase says actionable while current physical state is fall; contact outcome/actualSeconds are easily conflated with final-state recovery.
+2.Status:phase mismatch CONFIRMED (8of8playback cases). A raw clean contact and0stun elapsed are NOT independently proven gameplay defects; semantic ambiguity is confirmed by field implementation/contradictory projection, not a claim that the stored historical outcome is wrong.
+3.Root cause:three different clocks/layers share unqualified labels:damage-return contact, observed remaining-stun clearance, live flight/down/recovery. Playback only maps hitstun/recovery into its outer phase.
+4.Affected:Niko palms vs Marcus, Kevin, Bruno, Frankie, Carmen, Flint, Saito, Akari. Shared diagnostic risk may extend to other launches; not all moves tested.
+5.Proposed files:dist/reactions298.js report/helper only; dist/playback265.js actor snapshot; dist/playback-ui265.js diagnostic labels/notes only; cache tokens; new portable regression and QA registry. No damage/tick/launch/knockDown implementation changes needed for this first repair.
+6.Reproduce:audit tool/playback rows; at t0.416667Marcus has flighttrue, presentation.statefall, outer phaseactionable, hitReaction.outcomeclean, actualSeconds0, presentation.offensiveReadyfalse.
+7.Smallest correction:make playback phase explicitly reflect current flight (fall) instead of default actionable; publish clearly labeled contactOutcome, currentPhysicalState/current common readiness, and observed stun-clear timing in diagnostic snapshots. Keep existing raw fields as compatible aliases; label actualSeconds/releasedAt as stun-clear observations, not total recovery or proven natural expiry. Use existing actor state/Continuity296 projection and raw timestamps; no new timers or launch hooks. Avoid resetting contact outcome to knockdown, delaying releasedAt until get-up, or fabricating a reason/duration from a later snapshot. A diagnostic UI note can explain that launch supersedes stun and later recovery is separate.
+8.Risks:changing the meaning of historical records, breaking timeline styling/export consumers, confusing move readiness with common readiness, applying a broad phase mapping to unrelated actions. Restrict the first fix to flight projection/explicit aliases and labels; preserve action-phase handling otherwise.
+9.Tests:48native lifecycle cases and guards/miss/lethal/opener controls; desired assertion playback phasefall during flight, contactOutcome remainsclean, actualSeconds stays0, current readiness staysfalse until authored locks clear. Compare all physical/damage/deadline trajectories and raw receipt/history semantics against this exact baseline; existing playback/reaction/admission/Niko284 suites. Verify paused/scrubbed records remain detached and historical records are not rewritten. Render diagnostic timeline labels after implementation; do not claim an animation correction.
+10.Priority:medium, small shared diagnostic repair; highest-priority safe proposal for this approval. No confirmed mechanics change warranted.
+
+NL-02 — ZERO-DAMAGE TRANSFER REPLACES LATEST CONTACT FEEDBACK
+1.Issue:one palms strike emits a positive-damage feedback receipt and then a second clean feedback receipt with damage:null during the internal0damage launch transfer.
+2.Status:CONFIRMED48of48clean palms cases. Two feedback records/events are established; duplicated visible cue appearance has not been rendered/verified. No duplicated HP loss.
+3.Root cause:core launch invokes forced damage0; Contact302 treats the native hit event as contact feedback even without HP loss. f.contact302 points to the later zero-damage record.
+4.Affected:all8tested palms target families; other0damage transfer paths require separate inventory.
+5.Sources:dist/core.js128; dist/niko185.js30-31; dist/contact302.js6-8. Contact feedback render/audio consumers would need review before filtering.
+6.Reproduce:inspect positive damage stage then nested0damage stage in audit.json; contact id changes,18becomesnull, HP unchanged.
+7.Proposed separate correction:identify the proven non-contact launch transfer for feedback classification/correlation, keeping the primary contact receipt and excluding only that transfer from redundant feedback. Never skip or change the underlying damage/launch call. Inventory intentional0damage blocks/counters/status/armored contacts before choosing an explicit transfer marker or narrow observer rule; no broad 'HP loss must be positive' filter.
+8.Risks:losing intentional block/parry/armor effects or legitimate0damage contacts, changing hit events/counters if filtering at the mechanical layer, conflating primary and collateral contacts. Keep this outside NL-01.
+9.Tests:one positive primary feedback identity/damage, no redundant transfer feedback, unchanged18HP/one launch, preserved2collateral policy and per-target identity, legitimate0damage feedback controls, mirrored/rate/specialist/other launch families. Native rendered/audio feedback inspection required before any visible duplicate-cue claim.
+10.Priority:medium diagnostic/feedback, small-medium after call-site inventory; separate approval and branch.
+
+NL-03 — LEGACY NIKO TEST LOADER CANNOT LOAD CURRENT DEPENDENCIES
+1.Issue:tests/niko185.cjs stops with TypeError on N.Grab223.classify.
+2.Status:CONFIRMED existing test infrastructure failure on unchanged gameplay baseline, not newly introduced by this audit.
+3.Root cause:legacy VM loader stops at niko185.js, while current Niko implementation references later Grab223. Its1000maxHPfixtures also do not certify native ordinary identity.
+4.Affected:confidence in the legacy Niko suite, not proof that actual game launch is broken.
+5.Source:tests/niko185.cjs1,3;dist/niko185.js65.
+6.Reproduce:node tests/niko185.cjs on baseline53352d9; missing Grab223 TypeError during action advance.
+7.Proposal:separate test-loader modernization using current adapter with explicit native/variant identities; preserve assertions and add dependency checks. Do not silently stub Grab223 or weaken tests to obtain a pass.
+8.Risks:older expectations may describe intentional earlier balance; compare/document rather than adapting blindly.
+9.Tests:new current-order audit/production Niko284/playback suites pass; legacy assertions require explicit review before migration.
+10.Priority:medium regression coverage; separate from both receipt proposals.
+
+VERIFICATION STATUS
+Existing suites executed:7passed (niko2841245;playback265 including137cumulative assertions;reactions298742;reaction-deadline-metadata49620;actionability-diagnostics6805;hitstun-eligibility19208;knockdown-admission89115).1failed:niko185 legacy dependency error above. Not marked passed; no test edited or waived. Fresh audit565observational assertions passed with48trace/RNG parity pairs. No full release/campaign/physical-controller test.
+Historical receipts:9UNAVAILABLE, original commit absent; portable Git strict CLI exit2. No fabricated evidence/changed normalizers.
+No new browser/native-art inspection performed. Source renderer gates were reviewed; visual correctness or duplicate visible effects are not certified. Damage/timing preservation is supported by no production diff plus instrumented/uninstrumented exact trace/RNG parity, not a claimed rendered repair.
+Original source archives/import and all approved repairs remain intact. This deliverable contains audit tools/reports/log only, not a game source update or full export. Approval is required before implementing NL-01 or any other proposal.

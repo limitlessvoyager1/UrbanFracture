@@ -1,0 +1,86 @@
+{
+  "baseline": "db2e17b50472ca43757e90ac9bdf8bc7b0b48abb",
+  "tests": [
+    {
+      "suite": "direct-start-director-admission",
+      "exit": 0,
+      "output": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n"
+    },
+    {
+      "suite": "ai-decision-reasons",
+      "exit": 0,
+      "output": "PASS AI decision reasons 353 checks; same-time identity correlation, native history, direct/nested calls, missing reasons and lifecycle purity\n"
+    },
+    {
+      "suite": "director148",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\n"
+    },
+    {
+      "suite": "combat274",
+      "exit": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "reactions298",
+      "exit": 0,
+      "output": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exit": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exit": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "counters248",
+      "exit": 0,
+      "output": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n"
+    },
+    {
+      "suite": "plane304",
+      "exit": 0,
+      "output": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n"
+    },
+    {
+      "suite": "plane304-height",
+      "exit": 0,
+      "output": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 height behavioral 1774\n"
+    },
+    {
+      "suite": "repairs330",
+      "exit": 0,
+      "output": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n"
+    }
+  ],
+  "summary": {
+    "retainedSuitesPassed": 11,
+    "retainedSuitesFailed": 0,
+    "originalCrowdSuite": "BLOCKED before behavior",
+    "originalGrappleSuite": "BLOCKED before behavior",
+    "auditOnlyCrowdBehavior": {
+      "checks": 163200,
+      "scenarios": 28,
+      "status": "passed",
+      "historicalSourceProof": null
+    },
+    "auditOnlyGrappleBehavior": {
+      "checks": 22791,
+      "fixtures": 40,
+      "status": "passed",
+      "historicalSourceProof": null
+    },
+    "historicalCrowdUnavailable": 11,
+    "historicalGrappleUnavailable": 7,
+    "adapterPreflightErrors": 0
+  },
+  "productionChanged": false,
+  "existingTestsChanged": false,
+  "qaRegistryChanged": false,
+  "visual": "No rendered verification performed; optional sibling Node view suites require unavailable @napi-rs/canvas. No visual correction claimed.",
+  "scope": "Audit-only extraction preserves each behavioral body byte-for-byte; it does not make the original suites portable or certify historical equivalence."
+}

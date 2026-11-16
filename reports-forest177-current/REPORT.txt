@@ -1,0 +1,99 @@
+URBAN FRACTURE — UF-QA-022 / A3-G01
+Approved Forest fixture isolation and current-runtime regression coverage
+Date: 2026-11-12
+Branch: fix/forest-current-runtime-fixtures
+Base: 04e8cc6d80c798031f9512e6c35ceaf6a5d7a4eb (Assignment 3 audit)
+Stable maintenance baseline: f00cc9c9fdce8f2c70a875a2de6e380371c67720
+
+RESULT
+The three Forest suites now execute their own assertions against the current
+production simulation. All three and the new fixture/current-runtime suite pass.
+This is a test-infrastructure repair. Production AI, damage, timing, assets,
+renderers, native loader and historical proof adapters are unchanged.
+Repair stays on its new branch; stable/combat-stabilization remains f00cc9c.
+
+ROOT CAUSE
+Forest tests imported executable tests for fixtures. Importing gunner173 ran its
+legacy intercept assertion and aborted before Forest's checks. Its old simulation
+prefix also excluded current Grab223, Recording287 and Energy316 contracts.
+Gunner173's intercept failure itself is unchanged and remains a separate issue.
+
+CHANGES
+- tools/forest177/fixture.cjs: fixture-only current runtime, private seeded RNG
+  and clock; native Forest/Gunner setup. Per-world AI/encounter suppression is an
+  explicit test control, not a production AI patch.
+- tests/forest177.cjs and forest-protection177.cjs: import the fixture directly.
+  Original assertion bodies retained; make/run moved into the fixture.
+- tests/forest-balance177.cjs: same isolated import. Poison guard mitigation now
+  uses an enforcer; its exact3HP/guard assertions are retained. Ordinary knife
+  thugs cannot guard under Recording287, so a separate exact20HP/no-guard check
+  covers the ordinary case. No gameplay expectation was silently discarded.
+- tests/forest-fixture177.cjs: 343 checks for import isolation, current modules,
+  deterministic initialization/private RNG, unchanged frame/damage records,
+  36 move/facing/rate cases, 12 native-HP cases, 12 lethal cases, energy costs,
+  rejected/unavailable/overflow cases, ownership and direct QA registration.
+- qa/system242/suites.json: four new critical initial/release entries; every
+  pre-existing entry and all manual/release policy retained.
+- tools/forest177/verify.cjs: scoped test runner and three child-process fault
+  injections. Injections modify read buffers only, never distribution files.
+- COMBAT_REPAIR_LOG.md: UF-QA-022 and supporting reports.
+
+FIXTURE CONTRACT ADJUSTMENTS
+The original75-unit target offset is now55, within current Grab223 ordinary
+66-unit reach; production range is unchanged. The original mirrored dog setup,
+HP controls and native grapple entry remain. Exact damage budgets remain
+combo30 / poison20 / spine24 / legs28 / overhead30 / special46.
+Approved frame records (start,mandatory,recovery) remain:
+combo5/104/14; poison6/68/18; spine7/110/22; legs5/66/14;
+overhead7/70/20; special5/86/24.
+Energy316 grab cost25 and ceil(0.5 x missing energy) HP overflow remain native.
+Old direct-HP special costs are not restored.
+
+VERIFICATION
+24 distinct suites:22 passed,2 failed unchanged legacy controller startup tests.
+Passed: forest177, forest-protection177, forest-balance177, forest-fixture177,
+grapples301, crowd303, direct-start-director-admission, ai-decision-reasons,
+hitstun-eligibility, knockdown-admission, reaction-deadline-metadata, reactions298,
+combat274, plane304, energy316, counters248, guard331, counter331-input,
+controls260-input, gamepad.test, controller-recovery.test, grab223-recovery.
+Failed: forest-controller125.test and forest-counter-controller127.test at
+started&&!paused before combat. Their tests and loaded production sources are
+unchanged. These failures are not waived or claimed fixed.
+
+3/3 negative controls detected the intended regression:
+- Fixture importing executable Gunner test: import-isolation assertion fails.
+- Extra1 damage per strike: original exact damage-budget assertion fails.
+- Extra1 frame action duration: new native-duration assertion fails.
+
+Six preservation checks passed: original main/protection assertion bodies,
+balance assertions with documented target adjustment, all old QA metadata,
+production/native-loader/adapters/Gunner preservation and unrelated controller
+test preservation. Syntax and Git whitespace checks passed.
+
+Initial test-harness issues are retained in initial-run.json: a nonexistent
+collisions274 name was corrected to combat274; reports331 output directory was
+created before rerunning unchanged guard331; injection propagation and Buffer
+handling were corrected, then all three negative controls rerun successfully.
+corrected-rerun.json and verification.json contain the resulting evidence.
+
+HISTORY / RELEASE / VISUAL LIMITS
+Strict crowd/grapple and height receipts still return exit2 UNAVAILABLE using
+the real Git executable. Unavailable historical receipts have not become passed.
+Existing critical release gates remain strict; full release is not certified.
+No renderer dependency or bootstrap change, new build, rendered inspection or
+visual correction is claimed. Simulated controllers are not physical hardware.
+Native-HP/low-HP fixtures and isolated AI controls are not campaign/balance trials.
+
+REPEATABLE COMMANDS (repo root)
+node tests/forest177.cjs
+node tests/forest-protection177.cjs
+node tests/forest-balance177.cjs
+node tests/forest-fixture177.cjs
+node tools/forest177/verify.cjs
+The broad verifier correctly exits nonzero while the two legacy startup tests
+fail. A targeted rerun accepts suite names; append --negative for fault controls.
+
+NEXT ISSUE
+Keep A3-R01 renderer prerequisites/current fighter dispatcher bootstrap separate,
+as proposed in the preceding audit. Legacy controller startup failures also
+require their own investigation. No other repair is included here.

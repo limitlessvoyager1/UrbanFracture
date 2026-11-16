@@ -1,0 +1,677 @@
+{
+  "frames": [
+    {
+      "src": "assets/nightshade252/walk-0.webp?v=252",
+      "w": 244,
+      "h": 413,
+      "ax": 105.0,
+      "ay": 413,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "componentRect": [
+        122,
+        9,
+        366,
+        422
+      ],
+      "detachedPixelsRemoved": 11,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-1.webp?v=252",
+      "w": 219,
+      "h": 413,
+      "ax": 111.5,
+      "ay": 413,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "componentRect": [
+        111,
+        9,
+        330,
+        422
+      ],
+      "detachedPixelsRemoved": 5,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-2.webp?v=252",
+      "w": 168,
+      "h": 413,
+      "ax": 89.5,
+      "ay": 413,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "componentRect": [
+        139,
+        9,
+        307,
+        422
+      ],
+      "detachedPixelsRemoved": 15,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-3.webp?v=252",
+      "w": 277,
+      "h": 413,
+      "ax": 138.5,
+      "ay": 413,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "componentRect": [
+        90,
+        9,
+        367,
+        422
+      ],
+      "detachedPixelsRemoved": 13,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-4.webp?v=252",
+      "w": 280,
+      "h": 414,
+      "ax": 133.5,
+      "ay": 414,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "componentRect": [
+        93,
+        9,
+        373,
+        423
+      ],
+      "detachedPixelsRemoved": 20,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-5.webp?v=252",
+      "w": 196,
+      "h": 416,
+      "ax": 107.0,
+      "ay": 416,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "componentRect": [
+        125,
+        8,
+        321,
+        424
+      ],
+      "detachedPixelsRemoved": 21,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-6.webp?v=252",
+      "w": 157,
+      "h": 415,
+      "ax": 79.5,
+      "ay": 415,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "componentRect": [
+        150,
+        8,
+        307,
+        423
+      ],
+      "detachedPixelsRemoved": 26,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/walk-7.webp?v=252",
+      "w": 278,
+      "h": 414,
+      "ax": 142.5,
+      "ay": 414,
+      "scale": 0.2974607013301088,
+      "kind": "walk",
+      "index": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "componentRect": [
+        88,
+        9,
+        366,
+        423
+      ],
+      "detachedPixelsRemoved": 21,
+      "sourceSHA256": "b9877b699f6d8132acf6bfcc428654d7181eb1365b69946a4235a12f419f0c7a"
+    },
+    {
+      "src": "assets/nightshade252/run-0.webp?v=252",
+      "w": 288,
+      "h": 412,
+      "ax": 150.5,
+      "ay": 412,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 0,
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "componentRect": [
+        66,
+        17,
+        354,
+        429
+      ],
+      "detachedPixelsRemoved": 11,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-1.webp?v=252",
+      "w": 198,
+      "h": 412,
+      "ax": 79.5,
+      "ay": 412,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 1,
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "componentRect": [
+        128,
+        17,
+        326,
+        429
+      ],
+      "detachedPixelsRemoved": 8,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-2.webp?v=252",
+      "w": 249,
+      "h": 411,
+      "ax": 127.0,
+      "ay": 411,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 2,
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "componentRect": [
+        83,
+        17,
+        332,
+        428
+      ],
+      "detachedPixelsRemoved": 3,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-3.webp?v=252",
+      "w": 330,
+      "h": 411,
+      "ax": 161.5,
+      "ay": 411,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 3,
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "componentRect": [
+        57,
+        17,
+        387,
+        428
+      ],
+      "detachedPixelsRemoved": 3,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-4.webp?v=252",
+      "w": 327,
+      "h": 410,
+      "ax": 167.0,
+      "ay": 410,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 4,
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "componentRect": [
+        54,
+        18,
+        381,
+        428
+      ],
+      "detachedPixelsRemoved": 10,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-5.webp?v=252",
+      "w": 211,
+      "h": 411,
+      "ax": 84.5,
+      "ay": 411,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 5,
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "componentRect": [
+        133,
+        17,
+        344,
+        428
+      ],
+      "detachedPixelsRemoved": 5,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-6.webp?v=252",
+      "w": 220,
+      "h": 410,
+      "ax": 101.5,
+      "ay": 410,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 6,
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "componentRect": [
+        112,
+        18,
+        332,
+        428
+      ],
+      "detachedPixelsRemoved": 3,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/run-7.webp?v=252",
+      "w": 344,
+      "h": 408,
+      "ax": 165.5,
+      "ay": 408,
+      "scale": 0.29683698296836986,
+      "kind": "run",
+      "index": 7,
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "componentRect": [
+        49,
+        18,
+        393,
+        426
+      ],
+      "detachedPixelsRemoved": 5,
+      "sourceSHA256": "43e2020dcfa4a2498c094a2793a3c765aad7a564cdd7da8f2535b9e1fd33cd4f"
+    },
+    {
+      "src": "assets/nightshade252/foundation-0.webp?v=252",
+      "w": 130,
+      "h": 335,
+      "ax": 65.0,
+      "ay": 335,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 0,
+      "sourceRect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "componentRect": [
+        129,
+        9,
+        259,
+        344
+      ],
+      "detachedPixelsRemoved": 5,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-1.webp?v=252",
+      "w": 173,
+      "h": 313,
+      "ax": 86.5,
+      "ay": 313,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 1,
+      "sourceRect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "componentRect": [
+        100,
+        29,
+        273,
+        342
+      ],
+      "detachedPixelsRemoved": 0,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-2.webp?v=252",
+      "w": 266,
+      "h": 286,
+      "ax": 133.0,
+      "ay": 286,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 2,
+      "sourceRect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "componentRect": [
+        22,
+        48,
+        288,
+        334
+      ],
+      "detachedPixelsRemoved": 636,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-3.webp?v=252",
+      "w": 374,
+      "h": 72,
+      "ax": 187.0,
+      "ay": 72,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 3,
+      "sourceRect": [
+        1044,
+        0,
+        1448,
+        362
+      ],
+      "componentRect": [
+        19,
+        267,
+        393,
+        339
+      ],
+      "detachedPixelsRemoved": 2,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-4.webp?v=252",
+      "w": 329,
+      "h": 173,
+      "ax": 164.5,
+      "ay": 173,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 4,
+      "sourceRect": [
+        0,
+        362,
+        397,
+        724
+      ],
+      "componentRect": [
+        38,
+        151,
+        367,
+        324
+      ],
+      "detachedPixelsRemoved": 4,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-5.webp?v=252",
+      "w": 208,
+      "h": 232,
+      "ax": 104.0,
+      "ay": 232,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 5,
+      "sourceRect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "componentRect": [
+        83,
+        94,
+        291,
+        326
+      ],
+      "detachedPixelsRemoved": 107,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-6.webp?v=252",
+      "w": 171,
+      "h": 249,
+      "ax": 85.5,
+      "ay": 249,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 6,
+      "sourceRect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "componentRect": [
+        84,
+        77,
+        255,
+        326
+      ],
+      "detachedPixelsRemoved": 0,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-7.webp?v=252",
+      "w": 178,
+      "h": 322,
+      "ax": 89.0,
+      "ay": 322,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 7,
+      "sourceRect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "componentRect": [
+        78,
+        6,
+        256,
+        328
+      ],
+      "detachedPixelsRemoved": 0,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-8.webp?v=252",
+      "w": 167,
+      "h": 265,
+      "ax": 83.5,
+      "ay": 265,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 8,
+      "sourceRect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "componentRect": [
+        92,
+        8,
+        259,
+        273
+      ],
+      "detachedPixelsRemoved": 1,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-9.webp?v=252",
+      "w": 204,
+      "h": 331,
+      "ax": 102.0,
+      "ay": 331,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 9,
+      "sourceRect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "componentRect": [
+        74,
+        16,
+        278,
+        347
+      ],
+      "detachedPixelsRemoved": 4,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-10.webp?v=252",
+      "w": 170,
+      "h": 292,
+      "ax": 85.0,
+      "ay": 292,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 10,
+      "sourceRect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "componentRect": [
+        71,
+        59,
+        241,
+        351
+      ],
+      "detachedPixelsRemoved": 9,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    },
+    {
+      "src": "assets/nightshade252/foundation-11.webp?v=252",
+      "w": 152,
+      "h": 344,
+      "ax": 76.0,
+      "ay": 344,
+      "scale": 0.36716417910447763,
+      "kind": "foundation",
+      "index": 11,
+      "sourceRect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "componentRect": [
+        82,
+        8,
+        234,
+        352
+      ],
+      "detachedPixelsRemoved": 2,
+      "sourceSHA256": "bdb54fe6fb6b4bc7f615470ec5769f3c6641ff98977a0fe00f3a405e054ea016"
+    }
+  ],
+  "policy": "Largest connected opaque sprite per authored cell; original native resolution retained; fixed scale per atlas; no per-pose resizing."
+}

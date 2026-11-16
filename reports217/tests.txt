@@ -1,0 +1,21 @@
+Environment217: conversions, defaults, all visibility combinations, persistence, simulation independence, save/load and developer overrides PASS
+PASS156 seeds, random independence,30/60/120FPS exact1020s, seek/save/replay/temporary overrides, script return, full24h cycle, indoor/future profiles;24h seek 14.8ms
+PASS156 preview clock isolation,15s forced blend,test lightning,transition save/load and no Math.random calls
+PASS156 all four heroes: identical combat/geometry/score and AI RNG with/without storm; pause/interior clock and world continuity;22 scene classifications
+PASS156 16 storm/clear grapple comparisons: all heroes, both facings and lanes, ordinary throws and grab specials, identical damage/attachment/recovery/positions
+PASS162 automatic future enrollment; same object/seed/state across outdoors/interior; indoor clock; temporary overrides/save; validation and deduplicated warnings; identical30/60/120Hz progression without combat RNG
+PASS162 transition continuity and pooled environment audio: one noise buffer, exterior sound, indoor/mute silence
+PASS162 future indoor/outdoor metadata and ground-floor configuration automatically honored
+PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset
+PASS216 basic native timelines and all move contacts at30/60/120Hz
+PASS216 committed follow-up, finite timelines, missed-opener47f, no stacked cooldown; selective damage-taking armor; six heroes×two grabs×two facings separate contacts/actual flight/continuous plane/recovery; inv/armor/miss capture gates; no inherited guard counter; offscreen return/native entry; native Director budget and nonoffensive guard
+PASS216 12 real manual-counter interactions (Orion reserved), six dodge regressions, Iron Will damage/KD, one-living Security queue/130HP/Otis exclusion; six seeded35s mixed encounters [{"hero":"reina","starts":12,"budget":2,"actors":1},{"hero":"broxton","starts":13,"budget":2,"actors":1},{"hero":"nova","starts":12,"budget":3,"actors":2},{"hero":"forest","starts":13,"budget":2,"actors":1},{"hero":"niko","starts":13,"budget":2,"actors":1},{"hero":"orion","starts":14,"budget":2,"actors":1}]
+PASS216 live capture reservation transfer, death cleanup, frontal-only guard, exact last-active reservation end
+PASS216 recovery deadline survives interruption; no hit-assisted early AI reset
+PASS216 public spawn limit and actual two-second anti-air cooldown
+PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+Environment217: conversions, defaults, all visibility combinations, persistence, simulation independence, save/load and developer overrides PASS
+Environment217: conversions, defaults, all visibility combinations, persistence, simulation independence, save/load and developer overrides PASS
+Environment217 exact controller menu handler: focus, navigation, preference changes, cancel and prior pause restoration PASS

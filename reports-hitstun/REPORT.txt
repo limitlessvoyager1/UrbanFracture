@@ -1,0 +1,65 @@
+URBAN FRACTURE 338 — ACTIVE HITSTUN ELIGIBILITY REPAIR
+Repair ID: UF-COMBAT-004
+Branch: fix/shared-hitstun-eligibility
+Starting commit: 3ee2b86e37f581bb0087d108293fb2cc6eadc586
+Production repair commit: f0e71cb52552235f01087c6567d783bf828193a4
+Date: 2026-11-12 (America/Chicago)
+
+Outcome
+Both enemy action-entry paths now reject ordinary state-changing starts while mandatory hitstun/shock is active, including nonoffensive idle/guard-like starts and hits that have no reaction receipt. The existing synchronized-state and player exemptions remain. No knockdown repair is included.
+
+Root cause
+HitReactions298.locked required a clean hitReaction298 record, which force/grab/other paths do not always produce. Direct start additionally exempted non-threat action names. Thus a live physical lock could coexist with a newly created action that replaced its recoil pose.
+
+Correction
+locked now uses actual remaining stun/shock (> the unchanged 1e-7 tolerance) and the unchanged Continuity296.paired exception predicate. enemyAct and direct start both use that same predicate without a threat-name exemption. The damage function, timer progression, visual selection code, armor rules, action definitions and prior post-hit reassessment helper are unchanged.
+
+Files changed
+- dist/reactions298.js: shared state-based lock and direct-start enforcement.
+- dist/index.html: reactions298 cache token only, so the browser requests the corrected module.
+- tests/hitstun-eligibility.cjs: new portable regression suite using native actor HP/maxHp.
+- qa/system242/suites.json: new suite registered as critical in initial/release profiles.
+- tools/hitstun-eligibility/README.txt, compare.cjs, render.cjs: optional baseline/data/render verification tools.
+- COMBAT_REPAIR_LOG.md and reports-hitstun/: history and evidence.
+No enemy-specific implementation, animation atlas, artwork, damage table or frame table was changed.
+
+Tests
+PASS — node tests/hitstun-eligibility.cjs: 19,208 checks. Seven heroes, eight native enemy families, ordinary/forced damage, 30/60/120Hz, offensive/idle/guard-like starts, shock-only state, stale/missing receipts, EPS boundary and all19 existing synchronized-state exception flags. Rejections preserve HP, clocks, position, action ownership and pressure reservations; normal starts work when native locks/deadlines end. Player starts retain existing behavior.
+PASS — post-hit-reassessment.cjs (1,192 checks).
+PASS — reactions298.cjs (742 behavioral checks; no claim of historical equivalence).
+PASS — reactions298-receipts.cjs (11 self-tests).
+PASS — combat274.cjs (173 main checks and later collateral/gait checks).
+PASS — repairs330.cjs (788 assertions).
+PASS — enemies210.cjs, martial212.cjs, counters248.cjs, flint211.cjs.
+PASS — gamepad.test.cjs, controller157.cjs, qa242-validators.cjs (6 tests).
+Thirteen top-level suites passed; zero final behavioral assertion failures among them. The new test reproduced the original start/idle failure on the unmodified baseline before repair. Existing test assertions were not changed or weakened.
+
+Separate evidence status
+The strict historical receipt command still exits2 with nine receipts UNAVAILABLE for commit 3ecb645f0c84a4ea6117519a42f08de2bd001dda. These are not passing receipts and still block full historical/release certification. The optional reactions298-view Node suite exits before assertions because @napi-rs/canvas is unavailable. Native Chromium verification below was completed independently; it does not mean that Node suite passed.
+
+Damage, timing and exception preservation
+The optional compare tool loads the actual recorded baseline module in an isolated loader without swapping production files. It confirms:
+- Damage-processing source bytes are identical.
+- 112 ordinary/forced damage cases across seven heroes/eight families have identical physical HP/timer/position trajectories, with61 snapshots per case.
+- Eight native enemy move definitions retain their actual damage/startup/contact/total values.
+- All64 knockdown admission signatures match baseline. The24 known direct-start knockdown/recovery failures remain unresolved and deliberately separate.
+The paired-state predicate is unchanged, and existing native counter/grapple tests pass. The repair changes transition eligibility only; it does not introduce new invulnerability, armor, stun or recovery durations.
+
+Rendered recoil verification
+Both baseline and fixed versions were launched over local HTTP in Chromium with the complete dist runtime/assets. Baseline intercepts only reactions298.js with starting-commit bytes. The real Reina command/contact and production Canvas2D renderer were used. AI is disabled for deterministic isolation.
+For each of the eight families, the native hit is followed by ten simulation ticks. At t0.3333333333, stun remains0.3666666667. The baseline idle start is accepted and changes the visible body. Fixed source returnsfalse, creates no action and preserves the exact same-frame native recoil body image for all eight. HP, stun and reassessment deadlines are unchanged. After stun, idle starts succeed. Native game-canvas crops and transparent native-body captures are retained. The comparison sheet was visually inspected.
+
+This verifies the particular recoil override in these controlled fixtures. It does not certify every move, visual asset, facing, hero-specific interaction or full campaign. Browser JavaScript errors:0. The same two preexisting portrait PNG requests return404 in both versions; they were left untouched. No screenshot baseline was silently replaced or promoted to global release approval.
+
+Build/run
+This is an editable plain-JavaScript/Canvas2D game with no compilation step. Local HTTP launch and native rendering succeeded. No deployment/publication was performed. The prior post-hit repair and reaction test-infrastructure repair remain in the cumulative history.
+
+Remaining work
+Knockdown/recovery admission repairs and diagnostic deadline projection remain separate unresolved issues. Full release profile, human campaign play, physical controller testing and final complete-project export are not certified. Original source archives remain recoverable; this delivery's source ZIP is cumulative updates for the supplied338 export, not a complete game archive.
+
+Deliverables
+- Urban-Fracture-338-cumulative-hitstun-update.zip: all source/test/tool/log changes from the original imported338 baseline, including both earlier approved repairs and this repair. Preserve project-relative paths when applying to a separate copy of the supplied338 project. Do not apply blindly to a newer version.
+- Hitstun-Eligibility-Repair.patch: incremental code/log/evidence history from the recorded starting commit for review in a matching Git checkout.
+- Hitstun-Recoil-Comparison.png: inspected native-body comparison.
+- Hitstun-Repair-Verification.json: commits, data parity, tests and remaining limitations.
+The authoritative cumulative checkout remains work/Urban-Fracture. The dedicated repair branch is retained and verified changes are integrated into stable/combat-stabilization. No disconnected production copy was created.

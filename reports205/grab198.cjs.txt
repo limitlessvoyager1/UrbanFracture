@@ -1,0 +1,16 @@
+PASS198 all5heroes ×7 strong/boss types: animated attempts, inclusive40% threshold and provisional highHP holds
+PASS198 exact one-in-four decision,5heroes×2facings×30/60/120Hz; reversal damage/cleanup and combat-plane invariants
+PASS198 all heroes retain ordinary lowHP grab attacks without risk roll
+PASS198 legal holds expire without a quick move; resisted holds expire sooner
+PASS198 every hero transitions visibly before one probabilistic escape; Broxton tactical reposition remains vulnerable
+PASS198 active Iron Will alone bypasses strong HP/wake/down/regrab/breakout rules; duration continues through grabs
+PASS198 Iron Will expiration immediately restores rules; dormant story actors cannot be stolen from staging
+PASS198 three native synchronized reversal patterns: cannot block/counter/dodge/jump/special/escape-mash; intended damage events once
+PASS198 reversal owner interruption/death/scene/victim death cleanup, no floating victim or stuck session
+PASS198 paid manual counters retain existing health/timing categories and do not enter ordinary grab lottery
+PASS198 all5 grab specials use one risk decision; success preserves original cost, reversal does not charge an unexecuted special
+PASS198 standard-enemy grabs remain unchanged; mirrored reversals keep both upper/lower combat lanes
+PASS198 Iron Will remains damage reduction, not invulnerability; resets clear reversal ownership/session
+PASS198 trucker stagger identity preserved outside Iron Will; armor bypasses aerial/regrab gates; transition cycling cannot reset escape deadline
+PASS198 actual paid forward-special dash capture respects the same lottery, with guaranteed Iron Will bypass
+PASS198 preserves Dirk’s undefended design and the enraged casino survivor’s removed defenses

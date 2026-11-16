@@ -1,0 +1,748 @@
+{
+  "schema": 1,
+  "build": "QA242",
+  "createdAt": "2026-11-05T11:25:41.697Z",
+  "profile": "release",
+  "checkpoint": "checkpoint-before-qa242",
+  "lastProductionCommit": "7784bd683d851f6719b7c12f0f947720f7fa4ed4",
+  "sourceCommit": "1b017c5c2119c5e29113e3046e7227633c0ba041",
+  "sourceFingerprint": "58a6dd67d117860dc70a5e8cd4339943678106b3848c6503783360130600368b",
+  "sourceChangedDuringTests": false,
+  "durationMs": 138149,
+  "decision": {
+    "status": "blocked",
+    "stable": false,
+    "failed": [
+      "current216-legacy"
+    ],
+    "missing": []
+  },
+  "counts": {
+    "executed": 21,
+    "passed": 20,
+    "failed": 1,
+    "notExecuted": 5
+  },
+  "results": [
+    {
+      "id": "validator-self-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-validators.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 203,
+      "log": "reports242/validator-self-tests.log",
+      "error": null
+    },
+    {
+      "id": "guarded-repair-self-tests",
+      "command": [
+        "node",
+        "tests/qa242-repair.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 69,
+      "log": "reports242/guarded-repair-self-tests.log",
+      "error": null
+    },
+    {
+      "id": "image-certification",
+      "command": [
+        "python",
+        "tools/qa242/assets.py",
+        "--output",
+        "reports242/assets.json"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 709,
+      "log": "reports242/image-certification.log",
+      "error": null
+    },
+    {
+      "id": "screenshot-comparator-self-tests",
+      "command": [
+        "python",
+        "tests/qa242-compare.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 73,
+      "log": "reports242/screenshot-comparator-self-tests.log",
+      "error": null
+    },
+    {
+      "id": "current-runtime-certification",
+      "command": [
+        "node",
+        "tests/qa242-runtime.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 357,
+      "log": "reports242/current-runtime-certification.log",
+      "error": null
+    },
+    {
+      "id": "scene-scale-certification",
+      "command": [
+        "node",
+        "tests/qa242-scenes.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 159,
+      "log": "reports242/scene-scale-certification.log",
+      "error": null
+    },
+    {
+      "id": "prior-fixes241",
+      "command": [
+        "node",
+        "tests/stabilization241.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 220,
+      "log": "reports242/prior-fixes241.log",
+      "error": null
+    },
+    {
+      "id": "movement240",
+      "command": [
+        "node",
+        "tests/stabilization240.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 1007,
+      "log": "reports242/movement240.log",
+      "error": null
+    },
+    {
+      "id": "run-art240",
+      "command": [
+        "python",
+        "tests/run240-art.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 98,
+      "log": "reports242/run-art240.log",
+      "error": null
+    },
+    {
+      "id": "controller240",
+      "command": [
+        "node",
+        "tests/stadium240-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 2275,
+      "log": "reports242/controller240.log",
+      "error": null
+    },
+    {
+      "id": "lab-fire168",
+      "command": [
+        "node",
+        "tests/cabin168.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 1553,
+      "log": "reports242/lab-fire168.log",
+      "error": null
+    },
+    {
+      "id": "lab-scientists166",
+      "command": [
+        "node",
+        "tests/lab-fighters166.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 1589,
+      "log": "reports242/lab-scientists166.log",
+      "error": null
+    },
+    {
+      "id": "casino192",
+      "command": [
+        "node",
+        "tests/casino192.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 516,
+      "log": "reports242/casino192.log",
+      "error": null
+    },
+    {
+      "id": "campaign224",
+      "command": [
+        "node",
+        "tests/prison224-all.cjs"
+      ],
+      "framework": "existing-cross-system",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "PRISON224-results.json"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 63678,
+      "log": "reports242/campaign224.log",
+      "error": null
+    },
+    {
+      "id": "subway238",
+      "command": [
+        "node",
+        "tests/subway238.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 10694,
+      "log": "reports242/subway238.log",
+      "error": null
+    },
+    {
+      "id": "stadium237",
+      "command": [
+        "node",
+        "tests/stadium237.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 9270,
+      "log": "reports242/stadium237.log",
+      "error": null
+    },
+    {
+      "id": "security216-legacy",
+      "command": [
+        "node",
+        "tests/security216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 3733,
+      "log": "reports242/security216-legacy.log",
+      "error": null
+    },
+    {
+      "id": "current216-legacy",
+      "command": [
+        "node",
+        "tests/current216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "failed",
+      "exitCode": 1,
+      "signal": null,
+      "durationMs": 15353,
+      "log": "reports242/current216-legacy.log",
+      "error": null
+    },
+    {
+      "id": "hydro243-progression",
+      "command": [
+        "node",
+        "tests/hydro243.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 22697,
+      "log": "reports242/hydro243-progression.log",
+      "error": null
+    },
+    {
+      "id": "hydro243-view",
+      "command": [
+        "node",
+        "tests/hydro243-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 184,
+      "log": "reports242/hydro243-view.log",
+      "error": null
+    },
+    {
+      "id": "hydro243-controller",
+      "command": [
+        "node",
+        "tests/hydro243-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 3052,
+      "log": "reports242/hydro243-controller.log",
+      "error": null
+    },
+    {
+      "id": "approved-screenshots",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "No owner-approved current capture pairs; not an automatic pass."
+    },
+    {
+      "id": "art-style-review",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    },
+    {
+      "id": "all-moves-coverage",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    },
+    {
+      "id": "physical-dualsense",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    },
+    {
+      "id": "human-balance",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    }
+  ],
+  "visualIssues": [
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/control-room243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/control-room243.webp",
+          "sha256": "9f6958f6558105a1b228e7b8423a0f722922f56988e8c8fe7e2deb660a919183",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/dam-crest243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/dam-crest243.webp",
+          "sha256": "ae01250898231441c86646e46eda2f4a5bd7eec781297d94940b0d6a341d766d",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/pressure-gallery243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/pressure-gallery243.webp",
+          "sha256": "ff78c1db802decc3a521286f70744734068b1b3a9cad839a28badd1eb1ae5ade",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/turbine-hall243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/turbine-hall243.webp",
+          "sha256": "addda8ff90839db9891307ec17aface9ae276a8c1a2aa6f46c76e221803059d5",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:0",
+      "severity": "review",
+      "evidence": {
+        "height": 149.70074812967582,
+        "depthScale": 1,
+        "ratio": 0.7485037406483791,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:3",
+      "severity": "review",
+      "evidence": {
+        "height": 140.0648379052369,
+        "depthScale": 1,
+        "ratio": 0.7003241895261846,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:6",
+      "severity": "review",
+      "evidence": {
+        "height": 139.7206982543641,
+        "depthScale": 1,
+        "ratio": 0.6986034912718204,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:9",
+      "severity": "review",
+      "evidence": {
+        "height": 138,
+        "depthScale": 1,
+        "ratio": 0.69,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:12",
+      "severity": "review",
+      "evidence": {
+        "height": 149.70074812967582,
+        "depthScale": 1,
+        "ratio": 0.7485037406483791,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:15",
+      "severity": "review",
+      "evidence": {
+        "height": 140.0648379052369,
+        "depthScale": 1,
+        "ratio": 0.7003241895261846,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    }
+  ],
+  "automaticallyCorrected": [
+    {
+      "id": "uptown-traffic-extension",
+      "status": "corrected",
+      "changed": true,
+      "file": "dist/uptown-view113.js",
+      "beforeHash": "f2855e96cfc6cf9a48cf6f6d42462102f2c4e2839b95a367a275ece20c828f43",
+      "afterHash": "1f74e3816bece719bdb0d2a4d657f27f9d1bf9227e46849358fd11f47211d8f6",
+      "assetHash": "614087ed94bc1469ad7bce0111ea069e92ae4714a10577ca3a4426545505c23c",
+      "evidence": {
+        "originalGitSource": "36c9a07^:dist/assets/uptown-traffic113.png",
+        "originalFileHash": "87a54572808845e976d027f4f940504181578f3633a141a19edc2e2a1aee394f",
+        "dimensions": [
+          2048,
+          768
+        ],
+        "rgbaIdentical": true,
+        "alphaIdentical": true,
+        "approvedScope": "Deterministic path repair authorized by QA242 policy; preserves every source pixel."
+      },
+      "scope": "Filename metadata only; no image, geometry, animation or gameplay modification."
+    }
+  ],
+  "filesModified": [
+    "M AGENTS.md",
+    " M dist/assets/sprites/animation-update-v31.webp",
+    " M dist/assets/sprites/boss-v1.webp",
+    " M dist/assets/sprites/boss-walk-v1.webp",
+    " M dist/assets/sprites/broxton-base-v1.webp",
+    " M dist/assets/sprites/broxton-grapples-v2.webp",
+    " M dist/assets/sprites/broxton-locomotion-v5.webp",
+    " M dist/assets/sprites/broxton-motion-v2.webp",
+    " M dist/assets/sprites/broxton-spear137.webp",
+    " M dist/assets/sprites/carmen-walk-v2.webp",
+    " M dist/assets/sprites/civilian-run-v31.webp",
+    " M dist/assets/sprites/enforcer-walk-v1.webp",
+    " M dist/assets/sprites/financial-opening-v1.webp",
+    " M dist/assets/sprites/financial-tech-v1.webp",
+    " M dist/assets/sprites/forest-grapple125.webp",
+    " M dist/assets/sprites/forest-motion125.webp",
+    " M dist/assets/sprites/gunner-extra126.webp",
+    " M dist/assets/sprites/gunner125.webp",
+    " M dist/assets/sprites/kevin-brick-v1.webp",
+    " M dist/assets/sprites/reina-combat45-v1.webp",
+    " M dist/assets/sprites/velvet-patrons-v1.webp",
+    " M dist/audit-view135.js",
+    " M dist/game.js",
+    " M dist/index.html",
+    " M qa/system242/asset-inventory.json",
+    " M qa/system242/issues.json",
+    " M qa/system242/suites.json",
+    " M reports242/LATEST.md",
+    " M reports242/assets.json",
+    " M reports242/campaign224-PRISON224-results.json",
+    " M reports242/campaign224.log",
+    " M reports242/current-runtime-certification.log",
+    " M reports242/current216-legacy.log",
+    " M reports242/latest.json",
+    " M reports242/runtime.json",
+    " M reports242/security216-legacy.log",
+    " M reports242/validator-self-tests.log",
+    " M tests/martial212.cjs",
+    " M tests/qa242-runtime.cjs",
+    " M tests/security216.cjs",
+    "?? HYDRO243.md",
+    "?? dist/assets/hydro/",
+    "?? dist/hydro-view243.js",
+    "?? dist/hydro243.html",
+    "?? dist/hydro243.js",
+    "?? reports242/hydro243-controller.log",
+    "?? reports242/hydro243-progression.log",
+    "?? reports242/hydro243-view.log",
+    "?? reports242/run.lock",
+    "?? reports243/",
+    "?? source-art/hydro243/",
+    "?? tests/hydro243-controller.cjs",
+    "?? tests/hydro243-input-fixture.cjs",
+    "?? tests/hydro243-view.cjs",
+    "?? tests/hydro243.cjs"
+  ],
+  "openIssues": [
+    {
+      "id": "QA242-001",
+      "severity": "critical",
+      "kind": "obsolete-test-contract",
+      "status": "resolved",
+      "suites": [
+        "security216-legacy",
+        "current216-legacy"
+      ],
+      "evidence": "QA243 updated obsolete no-counter assertions to require existing eligible Orion counters. security216 and current216 both pass; no player move code changed.",
+      "next": "Retain current Orion228 counter regression assertions.",
+      "waivesFailure": false
+    },
+    {
+      "id": "QA242-002",
+      "severity": "review",
+      "kind": "visual-baselines",
+      "status": "open",
+      "evidence": "Historical screenshots exist but no versioned owner-approved screenshot registry exists.",
+      "next": "Review deterministic candidates in the developer gallery, approve specific image+scenario+renderer hashes. No baseline overwrite or automatic approval.",
+      "waivesFailure": false
+    },
+    {
+      "id": "QA242-003",
+      "severity": "review",
+      "kind": "coverage",
+      "status": "open",
+      "evidence": "616 retained source images are inventoried; first opaque-foot adapter covers Forest contact frames only.",
+      "next": "Add source-derived foot/scale certificates per character, NPC, prop and scenery family. Missing coverage stays explicit.",
+      "waivesFailure": false
+    }
+  ],
+  "limitations": [
+    "Existing suites may use older fixture boundaries; current-runtime-certification uses production order.",
+    "Metadata scale envelopes are not full rendered-body measurements.",
+    "No all-move, all-level, all-NPC, physical hardware or human artistic/balance certification.",
+    "Source hash inventory is a change detector, never an artistic approval."
+  ],
+  "recommendedNextFixes": [
+    "Repair obsolete Orion test expectations against current move requirements.",
+    "Review screenshot candidates and record explicit approvals.",
+    "Extend opaque-foot/scale adapters per asset family before wider stable certification."
+  ]
+}

@@ -1,0 +1,19 @@
+✔ missing Git is unavailable, never historical approval (1.609443ms)
+✔ ZIP export without a repository is explicitly unavailable (0.224467ms)
+✔ missing historical commit is unavailable and skips source adapters (0.201802ms)
+✔ all available equal receipts pass and contain both hashes (1.184385ms)
+✔ missing source blob remains unavailable alongside verified receipts (0.35371ms)
+✔ available byte mismatch fails, never unavailable or skipped (0.444656ms)
+✔ mismatch still fails when another receipt is unavailable (0.522914ms)
+✔ normalizer failure is a failed proof, not missing history (0.339989ms)
+✔ source read errors and historical blob read errors fail (0.382253ms)
+✔ unexpected Git failures are not treated as unavailable (0.367311ms)
+✔ malformed object responses fail closed (0.157196ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 91.541767

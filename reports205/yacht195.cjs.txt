@@ -1,0 +1,8 @@
+PASS195 all5heroes × deck/lounge, environment enrollment and floor bounds
+PASS195 order activates one Dorian; Arthur joins after10s at30/60/120Hz, protected while watching, exact two-person finale and locked arena
+PASS195 Riverfront finale Bruno+Kevin; actual dock boarding transitions onto yacht with same hero, HP and weather session
+PASS195 deck clear gate and physical doorway transition into lounge
+PASS195 authored swings, reverse swing, rushing knockdown/ground chain, energy projectile and shove use real contact events and fixed combat depth
+PASS195 blocked/off-plane rushing bash cannot trigger grounded followups
+PASS195 light defenses take damage; no premature victory; actual lethal damage and settled bodies complete yacht
+PASS195 autonomous encounter uses canonical Arthur AI without inherited Jackal attacks

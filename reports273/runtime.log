@@ -1,0 +1,284 @@
+{
+  "probes": 46,
+  "groups": [
+    {
+      "seed": 273,
+      "frames": 600,
+      "maxReserved": 3,
+      "maxCommitments": 2,
+      "minIdleGap": 0.9945665551094984,
+      "violations": 0
+    },
+    {
+      "seed": 274,
+      "frames": 600,
+      "maxReserved": 3,
+      "maxCommitments": 2,
+      "minIdleGap": 0.9945665551094984,
+      "violations": 0
+    },
+    {
+      "seed": 275,
+      "frames": 600,
+      "maxReserved": 3,
+      "maxCommitments": 2,
+      "minIdleGap": 0.9945665551094984,
+      "violations": 0
+    },
+    {
+      "seed": 276,
+      "frames": 600,
+      "maxReserved": 3,
+      "maxCommitments": 2,
+      "minIdleGap": 23.5424123305704,
+      "violations": 0
+    },
+    {
+      "seed": 277,
+      "frames": 600,
+      "maxReserved": 3,
+      "maxCommitments": 2,
+      "minIdleGap": 0.7152512322078697,
+      "violations": 0
+    },
+    {
+      "seed": 278,
+      "frames": 600,
+      "maxReserved": 3,
+      "maxCommitments": 2,
+      "minIdleGap": 0.7152512322078697,
+      "violations": 0
+    }
+  ],
+  "bruno": [
+    {
+      "probe": "bruno-directional-window",
+      "rear": false,
+      "frame": 2,
+      "armor": false,
+      "damage": 14,
+      "interrupted": true,
+      "stun": 0.28
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": false,
+      "frame": 18,
+      "armor": true,
+      "damage": 14,
+      "interrupted": false,
+      "stun": 0
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": false,
+      "frame": 22,
+      "armor": true,
+      "damage": 14,
+      "interrupted": false,
+      "stun": 0
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": false,
+      "frame": 40,
+      "armor": false,
+      "damage": 14,
+      "interrupted": true,
+      "stun": 0.28
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": true,
+      "frame": 2,
+      "armor": false,
+      "damage": 14,
+      "interrupted": true,
+      "stun": 0.28
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": true,
+      "frame": 18,
+      "armor": true,
+      "damage": 14,
+      "interrupted": false,
+      "stun": 0
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": true,
+      "frame": 22,
+      "armor": true,
+      "damage": 14,
+      "interrupted": false,
+      "stun": 0
+    },
+    {
+      "probe": "bruno-directional-window",
+      "rear": true,
+      "frame": 40,
+      "armor": false,
+      "damage": 14,
+      "interrupted": true,
+      "stun": 0.28
+    }
+  ],
+  "clean": [
+    {
+      "probe": "clean-startup-hit",
+      "type": "thug",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "knifeThug",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "enforcer",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "biker",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "cop",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "flint",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "sato",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "akari",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.85,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "security",
+      "requested": 6,
+      "landed": true,
+      "damage": 4,
+      "stun": 0,
+      "stagger": 0,
+      "interrupted": false,
+      "x": 650,
+      "plane": 475
+    },
+    {
+      "probe": "clean-startup-hit",
+      "type": "boss",
+      "requested": 6,
+      "landed": true,
+      "damage": 6,
+      "stun": 0.28,
+      "stagger": 0.5,
+      "interrupted": true,
+      "x": 655,
+      "plane": 475
+    }
+  ],
+  "reengagement": [
+    {
+      "probe": "native-reengagement",
+      "type": "thug",
+      "initialStun": 0.28,
+      "firstAction": {
+        "frame": 21,
+        "name": "hook",
+        "stun": 0,
+        "recovering": 0
+      }
+    },
+    {
+      "probe": "native-reengagement",
+      "type": "knifeThug",
+      "initialStun": 0.28,
+      "firstAction": {
+        "frame": 17,
+        "name": "knife",
+        "stun": 0,
+        "recovering": 0
+      }
+    },
+    {
+      "probe": "native-reengagement",
+      "type": "enforcer",
+      "initialStun": 0.28,
+      "firstAction": {
+        "frame": 17,
+        "name": "oneTwo",
+        "stun": 0,
+        "recovering": 0
+      }
+    }
+  ]
+}

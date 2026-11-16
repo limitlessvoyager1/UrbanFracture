@@ -1,0 +1,86 @@
+{
+  "baseline": "6de994084c161bcff658d9ba02bfbb87e0b2287b",
+  "suites": [
+    {
+      "suite": "plane304",
+      "exitCode": 1,
+      "output": "fatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\nnode:child_process:955\r\n    throw err;\r\n    ^\r\n\r\nError: Command failed: git show 2d8f4e3b154d769bac2ced871f66832563528b2d:dist/game.js\r\nfatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\r\n\r\n    at genericNodeError (node:internal/errors:983:15)\r\n    at wrappedFn (node:internal/errors:537:14)\r\n    at checkExecSyncError (node:child_process:916:11)\r\n    at Object.execFileSync (node:child_process:952:15)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\plane304.cjs:2:334)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {\r\n  status: 128,\r\n  signal: null,\r\n  output: [\r\n    null,\r\n    '',\r\n    \"fatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\\n\"\r\n  ],\r\n  pid: 41644,\r\n  stdout: '',\r\n  stderr: \"fatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\\n\"\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "plane304-height",
+      "exitCode": 1,
+      "output": "fatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\nnode:child_process:955\r\n    throw err;\r\n    ^\r\n\r\nError: Command failed: git show 2d8f4e3b154d769bac2ced871f66832563528b2d:dist/game.js\r\nfatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\r\n\r\n    at genericNodeError (node:internal/errors:983:15)\r\n    at wrappedFn (node:internal/errors:537:14)\r\n    at checkExecSyncError (node:child_process:916:11)\r\n    at Object.execFileSync (node:child_process:952:15)\r\n    at Object.<anonymous> (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\plane304-height.cjs:1:321)\r\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\r\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\r\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\r\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {\r\n  status: 128,\r\n  signal: null,\r\n  output: [\r\n    null,\r\n    '',\r\n    \"fatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\\n\"\r\n  ],\r\n  pid: 33100,\r\n  stdout: '',\r\n  stderr: \"fatal: path 'dist/game.js' exists on disk, but not in '2d8f4e3b154d769bac2ced871f66832563528b2d'\\n\"\r\n}\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "plane304-weapons",
+      "exitCode": 0,
+      "output": "PASS304 WEAPONS 7754 native swept geometry checks 52 profiles / facings / scenes\n"
+    },
+    {
+      "suite": "plane304-ui",
+      "exitCode": 0,
+      "output": "PASS304 UI 11 native receipts, existing mount, overlay toggle and export"
+    },
+    {
+      "suite": "continuity296",
+      "exitCode": 0,
+      "output": "PASS296 30272 native pose ownership, interruption, recovery labels, 1440 actor-ticks of unchanged mechanics, archived fallback\n"
+    },
+    {
+      "suite": "animation-art189",
+      "exitCode": 0,
+      "output": "PASS189 art manifests:16whole-body/4NPC assets, one151.8canonical import, sole anchors; targeted ivory correction leaves skin/dark costume/alpha untouched; no pose-scale branch\n"
+    },
+    {
+      "suite": "playback-flight-diagnostics",
+      "exitCode": 0,
+      "output": "PASS playback flight diagnostics 1941 checks; 8native families x2facings, contact/flight/recovery, raw receipts, detached history, report semantics and unchanged feedback\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exitCode": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exitCode": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "martial212",
+      "exitCode": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits\nPASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{\"type\":\"sato\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":6},{\"type\":\"sato\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"orion\",\"pressure\":1,\"actors\":1,\"attacks\":7},{\"type\":\"akari\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":13},{\"type\":\"akari\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"akari\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":17},{\"type\":\"akari\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":10}]\nPASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches\n"
+    },
+    {
+      "suite": "enemies210",
+      "exitCode": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\n"
+    },
+    {
+      "suite": "combat274",
+      "exitCode": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    }
+  ],
+  "passedSuites": 10,
+  "historicalSuitesBlockedBeforeBehavior": 2,
+  "historicalSourcesUnavailable": "2d8f4e3b154d769bac2ced871f66832563528b2d:dist/game.js unavailable; plane304 and plane304-height abort. Not marked passed; no source-proof assertions removed.",
+  "initialOutputDirectoryFailures": {
+    "suites": [
+      "plane304-ui",
+      "plane304-weapons"
+    ],
+    "reason": "reports304 output directory missing; created directory and reran unchanged suites, both passed"
+  },
+  "auditChecks": 6451,
+  "collisionCases": 1080,
+  "continuousAirTraces": 72,
+  "continuousAirMismatches": 4,
+  "historicalReactionReceipts": {
+    "status": "unavailable",
+    "count": 9,
+    "strictExit": 2
+  },
+  "fixtureReview": "Frozen combo probe now sets native chain prerequisite state and explicitly asserts actual combo equals requested stage; final evidence uses18valid geometric disagreements. These remain isolated, unearned combo fixtures.",
+  "scope": "Audit only; no production, existing tests or QA config changed. Observational checks are not passing certification of the identified defects."
+}

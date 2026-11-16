@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "mutation": "no-time",
+      "exit": 1,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: same-index squash\n    at equal (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:5:81)\n    at compare (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:10:255)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:12:330 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "detected": true
+    },
+    {
+      "mutation": "no-flash",
+      "exit": 1,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: flashed to clean\n    at equal (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:5:81)\n    at compare (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:10:255)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:13:3 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "detected": true
+    },
+    {
+      "mutation": "quantized-time",
+      "exit": 1,
+      "timedOut": false,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: within coarse bucket\n    at equal (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:5:81)\n    at compare (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:10:255)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\grounded-pose-cache.cjs:12:330 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "detected": true
+    }
+  ],
+  "passed": true,
+  "scope": "Read-buffer-only mutations; no disk/native source changes, no Git needed"
+}

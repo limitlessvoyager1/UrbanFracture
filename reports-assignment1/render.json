@@ -1,0 +1,218 @@
+{
+  "scope": "Production game canvas; real opener contact; AI disabled; eight ticks later direct idle rejected. Still images, not full animation certification.",
+  "errors": [],
+  "failed": [
+    "/assets/enforcer-concept-v1.png",
+    "/assets/thug-leader-concept-v1.png"
+  ],
+  "rows": [
+    {
+      "hero": "reina",
+      "type": "thug",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "knifeThug",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "enforcer",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "biker",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "cop",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "flint",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "sato",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "reina",
+      "type": "akari",
+      "hit": {
+        "time": 0.16666666666666666,
+        "damage": 7,
+        "stun": 0.5333333333333333,
+        "outcome": "clean"
+      },
+      "time": 0.3,
+      "stun": 0.39999999999999997,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "thug",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.48333333333333334,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.35000000000000003,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "knifeThug",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.48333333333333334,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.35000000000000003,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "enforcer",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.26333333333333336,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.13000000000000006,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "biker",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.26333333333333336,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.13000000000000006,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "cop",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.26333333333333336,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.13000000000000006,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "flint",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.26333333333333336,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.13000000000000006,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "sato",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.26333333333333336,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.13000000000000006,
+      "denied": true
+    },
+    {
+      "hero": "niko",
+      "type": "akari",
+      "hit": {
+        "time": 0.09999999999999999,
+        "damage": 3,
+        "stun": 0.26333333333333336,
+        "outcome": "clean"
+      },
+      "time": 0.2333333333333333,
+      "stun": 0.13000000000000006,
+      "denied": true
+    }
+  ]
+}

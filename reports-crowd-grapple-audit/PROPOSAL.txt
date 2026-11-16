@@ -1,0 +1,91 @@
+URBAN FRACTURE — CROWD / GRAPPLE HISTORICAL GIT DEPENDENCY AUDIT (A3-03)
+Date: 2026-11-12
+Audit branch: audit/crowd-grapple-history-dependencies
+Production / stable baseline: db2e17b50472ca43757e90ac9bdf8bc7b0b48abb
+AUDIT ONLY. No production, existing test, fixture, normalization adapter or QA registry changes.
+
+DECISION
+Recommend one test-infrastructure repair: separate historical source receipts from existing crowd/grapple runtime assertions, following the established reaction/collision portability contract.
+Missing receipts must stay UNAVAILABLE; available mismatches/errors must still fail. Keep release certification gated on historical proof. Do not modify AI, grapple mechanics, damage, timing, fixture balance or existing behavioral assertions.
+
+CONFIRMED ROOT CAUSE / PRIORITY
+Both runtime entries perform unconditional git show before any runtime assertion. Source-provenance proof is coupled to behavior execution. Missing Git or historical commits stops the suite instead of reporting unverified provenance alongside executable behavior.
+Medium severity shared regression-coverage defect; two runtime entry points, seven-hero crowd coverage plus shared paired-grapple coverage. Reproduces every invocation in this checkout. Gameplay impact is indirect: prevents relevant regressions from running. Low gameplay risk if dist/fixtures stay unchanged; medium evidence/reporting risk if missing history is mislabeled passed. Medium implementation complexity.
+No AI or grapple gameplay defect was confirmed in this audit. The unchanged behavioral bodies pass in a separately labeled audit extraction.
+
+EXACT HISTORICAL CONTRACTS
+Crowd: tests/crowd303.cjs line2.
+Commit:027ed578b782d4fc437e84c637d9ab37de7172d6
+11protected source receipts:
+core.js,director148.js,combat274.js,street209.js,enemies210.js,martial212.js,workers233.js,counters248.js,reactions298.js,grapples301.js,contact302.js.
+Compare historical Buffer against Buffer.from(tools/plane304/approved.cjs approved(file,currentUTF8)).
+That adapter calls recording313 approved, then tests/recording306-approved, then the exact plane304 patches. Preserve order and exact-match behavior.
+
+Grapple: tests/grapples301.cjs line2.
+Commit:9f9584f044807d7be6f062c19263eeec221afcca
+7protected source receipts:
+core.js,combat134.js,enemies210.js,grapple-recovery119.js,paired-motion.js,reactions298.js,knockdowns299.js.
+Compare historical Buffer against Buffer.from(recording306-approved.approved(file, recording313.approved(file,currentUTF8)).replace('nativeArmor302:!!$46,','')).
+Preserve this composition order and exact single literal removal. Do not generalize it to ignore arbitrary source differences.
+
+Total:18receipts across15distinct source paths/two historical baselines. Same path at different commits remains a distinct receipt.
+Read-only Git cat-file batch inventory confirms both commit objects and all18required blobs are missing locally. Native git show reports missing source paths; cat-file independently distinguishes absent objects. Original source ZIPs/current Build338 files are not substitutes for those historical versions.
+Independent current-source adapter preflight executes all18transforms without errors. Resulting hashes are recorded, but successful normalization proves no historical equivalence when expected bytes are missing. Do not treat this preflight as a passed receipt.
+
+CURRENT ENTRY / REPORT / REGISTRY BEHAVIOR
+Both unchanged original suites exit1 before behavior with portable Git/history absent and with Git executable unavailable. Four actual entry invocations recorded in original-entry-results.json. Original files use hardcoded git, not UF_GIT.
+Crowd report unconditionally writes approvedSourceUnchanged:true after all assertions; grapple writes approvedTimingAndDamagePreserved:true. A naive removal/skip of the gate would turn those into unsupported claims. They must become nullable evidence status, independent of behavior success.
+qa/system242/suites.json already registers crowd303-runtime and grapples301-runtime as critical, release-only suites. Preserve those runtime entries. The generic QA runner marks nonzero commands failed; a future dedicated receipt command must print/report UNAVAILABLE with exit2 so the release gate does not pass. A nonpassing gate is not proof that a missing receipt mismatched.
+Sibling view entries are separate release-critical coverage. Their scripts have no direct Git dependency; tools/reactions290/render.cjs requires @napi-rs/canvas, currently MODULE_NOT_FOUND. They also need image assets/output directories. No package installation, view-suite edit or visual waiver is proposed in this Git-dependency repair. The crowd video-capture verifier additionally needs prior capture files/ffprobe; outside this runtime receipt split.
+
+AUDIT-ONLY BEHAVIOR EXECUTION
+tools/crowd-grapple-audit/behavior.cjs identifies the exact original receipt loop, compiles a virtual copy with only that loop excluded, and retains every subsequent byte of the behavioral body. Original files stay unchanged. A small progress export is outside the body; report writes are redirected to the audit folder and unverified historical claims become null.
+This is an audit probe, NOT a repaired suite or passed historical gate. No fake Git objects or current files impersonate historical receipts.
+
+Crowd: original checks counter163,200passed;28scenarios (4layouts x7heroes,60Hz), plus original ownership/bounds/dt/difficulty/removal/budget/specialist/RNG assertions.
+Behavior body SHA256:29857b8745c0d94275eca7fac7745a95f1566f9b9fe319e04ef5d7b1f21a1a60.
+Existing fixture uses unlimited practice and fixed world bounds; do not reinterpret as native difficulty/HP/campaign certification.
+
+Grapple: original checks counter22,791passed;40mirrored paired fixtures (Reina Reap/German versus Marcus/Bruno and Bruno Powerbomb versus Reina,60/120Hz,two lanes), plus original interruption/death/reset/bounds/lethal/removal checks.
+Behavior body SHA256:780c710061cc77a9fd18b2a1c85e376a8855de34cc367e677cfded297b58b6e6.
+Existing fixture gives Bruno40HP for grab setup; lethal controls use5HP. Preserve these deliberate test conditions; not full native-HP or every-grapple certification.
+Historical source-proof fields in audit results remain null;11/7excluded checks remain unavailable, not behavioral passes.
+
+Unlike the height suite, neither body derives an expected-value oracle from historical source. Their Git reads are source-byte receipts only. No new renderer/math reference fixture or gameplay implementation is necessary.
+
+PROPOSED SCOPED REPAIR — AFTER APPROVAL, NEW BRANCH
+1. Edit only the two runtime suite entry wrappers/imports/report handling. Preserve full original behavioral bodies and fixtures. Remove unconditional historical precondition; execute runtime checks even if provenance is unavailable or fails.
+2. Add narrowly configured tools/crowd-grapple/{receipts,suite}.cjs using the proven fail-closed receipt pattern. Keep existing reaction/collision receipt APIs and normalizers unchanged. Support explicit Git path via UF_GIT with normal git fallback.
+3. Keep separate per-file PASSED/FAILED/UNAVAILABLE records with commit/path, reason and hashes when available. Missing Git/repository/commit/blob -> UNAVAILABLE. Unexpected Git/permission/timeout/malformed response, current/historical read error, adapter error or byte mismatch -> FAILED. Any actual failure dominates mixed unavailable status.
+4. Compare all available historical bytes strictly with the same approved adapter composition. Never invent baseline objects, replace history with current source, relax byte comparisons or bless new transforms in order to obtain green results.
+5. Runtime report: separate behavior.status and historicalReceipts; sourceProof true only when all requested historical proofs pass, null when unavailable, false on failed proof. Retain legacy source-preservation fields as nullable aliases, limited to their protected-file proof rather than full-game certification.
+6. Behavior-only success with unavailable history may exit0 with a visible UNAVAILABLE summary. A real receipt failure or behavioral assertion failure must exit nonzero. Run behavior even after a failed receipt so evidence is not suppressed. Create expected report directories; save partial failure progress when possible. Infrastructure/report errors must not masquerade as success.
+7. Add tests/crowd-grapple-receipts.cjs, plus actual isolated-entry verification under tools/crowd-grapple/verify-portability.cjs. Add critical initial/release receipt self-tests and a separate critical release historical gate. Strict receipt CLI:0all passed,1failed,2unavailable. Keep existing runtime criticality/profiles and optional view gates intact.
+8. Update repair log/evidence. No dist/, native runtime loader, existing fixtures, move/frame data, AI weights/caps, grapple synchronization, view adapters or global QA architecture changes expected. Stop and propose separately if preserving assertions requires gameplay changes.
+
+REPEATABLE ACCEPTANCE / RISKS
+- Original entries currently fail before behavior; corrected entries must run all original assertions in a copy with no .git and no Git executable, and with real Git/no repository. Prevent accidental discovery of a parent repository in isolation tests.
+- Assert original behavioral body hashes/contents retained; counters/scenario coverage must match these audit observations, excluding unavailable source receipts. Direct assertions outside the checks counter must also remain.
+- Missing individual blob, missing commit, missing executable/repo, mixed available/unavailable, matching bytes, actual mismatch, malformed/error responses, read/adapter failure all exercised. Synthetic test receipts must be clearly fixtures, never certified real history.
+- Available mismatch must still exit1 even if behavior passes; actual behavior failure must exit1 even with missing receipts. Use a real isolated source mutation (budget/clock invariant) to verify assertions are not swallowed.
+- No extra normalization calls to fabricate a match; unavailable source skips proof rather than guessing. Preflight transforms are not historical equivalence.
+- Preserve crowd Normal3points/2commitments, no RNG consumption by planning, ownership/bounds/spacing and specialist delegation. Preserve grapple native action clocks, damage-event counts, release/impact, attacker-first recovery, interruption/death/reset/removal/bounds, and intentional exceptions.
+- Rerun both new portable entries, new self-tests/strict CLI and the11retained suites below. Confirm no dist/fixture/normalizer changes; baseline body identity is the primary preservation proof for this infrastructure-only repair.
+- Do not mark full release or visual certification passed simply because runtime can now run. Missing historical receipts and optional rendering prerequisites continue blocking their respective gates.
+
+RETAINED TESTS / INTEGRITY
+Eleven existing suites passed:direct-start-director-admission517,ai-decision-reasons353,director148,combat274,reactions298742,hitstun-eligibility19208,knockdown-admission89115,counters248,plane3044563,plane304-height1774,repairs330788.
+No failures among those eleven. Existing17collision+1height+9reaction receipts remain unavailable; not merged with these newly inventoried18crowd/grapple receipts.
+Prior unrelated Gus/controller failures, obsolete Nightshade assertion and optional renderer/campaign/hardware limitations remain separate. No rendered verification performed or visual correction claimed.
+dist/, existing tests/, qa/ and adapters/fixtures unchanged from db2e17b. Prior repairs retained; stable remains db2e17b. Audit adds tools/evidence/log only. Original import/eight ZIPs recoverable.
+
+REPRODUCE AUDIT
+  node tools/crowd-grapple-audit/inventory.cjs
+  node tools/crowd-grapple-audit/originals.cjs
+  node tools/crowd-grapple-audit/behavior.cjs crowd
+  node tools/crowd-grapple-audit/behavior.cjs grapple
+Set UF_GIT to the portable Git executable for the first two tools. Audit behavior extraction is explicitly not historical proof.
+Artifacts:reports-crowd-grapple-audit/{inventory,original-entry-results,crowd-execution,grapple-execution,crowd-behavior,grapple-behavior,tests}.json and this proposal.
+
+STOP
+No repair implemented. Recommend only the runtime/receipt/report/release-gate separation described above, preserving AI and grapples and keeping missing receipts unavailable.

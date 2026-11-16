@@ -1,0 +1,818 @@
+{
+  "status": "functional-passed-performance-review",
+  "functionalStatus": "passed",
+  "performanceAcceptance": "NOT CLEARED: visible mixed-eight p95 exceeds a 16.667ms 60Hz frame budget; retain repair on review branch",
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "checksPassed": 12,
+  "checksFailed": 0,
+  "checks": [
+    "Current runtime and source fingerprints",
+    "Three targeted regressions detected by output assertions",
+    "All 26 selected behavior and eight existing render entries pass",
+    "All five family receipts refreshed for final source",
+    "Original-source native history comparisons match cold pixels exactly",
+    "One persistent shipping page matches all 480 current render references",
+    "Fresh-family shipping comparison and native scene captures retained separately",
+    "Corrected visible-roster performance receipts preserve physics in matrix and ABBA confirmation",
+    "Preservation and strict historical gates",
+    "Zero page JavaScript errors in both browser suites",
+    "Receipt self-tests and QA validator tests pass",
+    "All new test/tool sources parse and diff has no whitespace errors"
+  ],
+  "runtime": {
+    "checks": 1158,
+    "cases": 224,
+    "gitUnavailableRunPassed": true
+  },
+  "existingBehaviorSuites": 26,
+  "existingRenderEntries": 8,
+  "receiptSelftests": 49,
+  "qaValidatorTests": 6,
+  "negativeControls": 3,
+  "mixedComparisons": 480,
+  "freshComparisons": 480,
+  "nativeHistoryPairs": 10,
+  "nativeSceneFrames": 52,
+  "minimumMixedIoU": 0.9999537743262608,
+  "maximumMixedBoundsDelta": 0,
+  "minimumFreshIoU": 0.9999537743262608,
+  "performance": [
+    {
+      "roster": "same",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.465555556118488,
+      "p50Ms": 6.0999999940395355,
+      "p95Ms": 16.5,
+      "maxMs": 29.400000005960464,
+      "over16ms": 6,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.740555555456215,
+      "p50Ms": 7.300000011920929,
+      "p95Ms": 11.799999982118607,
+      "maxMs": 20.900000005960464,
+      "over16ms": 3,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 6.58222222112947,
+      "p50Ms": 5.200000017881393,
+      "p95Ms": 15,
+      "maxMs": 19.400000005960464,
+      "over16ms": 4,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 6.627222221261925,
+      "p50Ms": 5.0999999940395355,
+      "p95Ms": 15.5,
+      "maxMs": 19,
+      "over16ms": 8,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.065555555787351,
+      "p50Ms": 5.399999976158142,
+      "p95Ms": 17.69999998807907,
+      "maxMs": 23.599999994039536,
+      "over16ms": 11,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 6.941666666832235,
+      "p50Ms": 5.300000011920929,
+      "p95Ms": 15.099999994039536,
+      "maxMs": 30.799999982118607,
+      "over16ms": 6,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "same",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 9.000555554860169,
+      "p50Ms": 7.200000017881393,
+      "p95Ms": 17,
+      "maxMs": 28.30000001192093,
+      "over16ms": 10,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.22777777744664,
+      "p50Ms": 6.5999999940395355,
+      "p95Ms": 17.5,
+      "maxMs": 26.599999994039536,
+      "over16ms": 10,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.9544444445106715,
+      "p50Ms": 6.200000017881393,
+      "p95Ms": 17.099999994039536,
+      "maxMs": 22.900000005960464,
+      "over16ms": 9,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.764444445404742,
+      "p50Ms": 6.800000011920929,
+      "p95Ms": 18.5,
+      "maxMs": 25.299999982118607,
+      "over16ms": 14,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 11.733333334989018,
+      "p50Ms": 10.100000023841858,
+      "p95Ms": 20.600000023841858,
+      "maxMs": 30.19999998807907,
+      "over16ms": 24,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 14.90388888898823,
+      "p50Ms": 13.400000005960464,
+      "p95Ms": 24.600000023841858,
+      "maxMs": 37.39999997615814,
+      "over16ms": 48,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    }
+  ],
+  "performanceConfirmation": [
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 14.119444444775581,
+      "p50Ms": 11.799999982118607,
+      "p95Ms": 25.400000005960464,
+      "maxMs": 39,
+      "over16ms": 45,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.088888888061046,
+      "p50Ms": 6.0999999940395355,
+      "p95Ms": 18.400000005960464,
+      "maxMs": 26.80000001192093,
+      "over16ms": 14,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.464444444245762,
+      "p50Ms": 6.699999988079071,
+      "p95Ms": 17.19999998807907,
+      "maxMs": 26.5,
+      "over16ms": 10,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 15.459999999403953,
+      "p50Ms": 13.799999982118607,
+      "p95Ms": 27,
+      "maxMs": 39.599999994039536,
+      "over16ms": 47,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physicalUnchanged": true,
+      "version": "current repair"
+    }
+  ],
+  "heap": [
+    {
+      "baseline": false,
+      "before": {
+        "usedSize": 4405528,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11812120,
+        "backingStorageSize": 3854852
+      },
+      "after": {
+        "usedSize": 8597008,
+        "totalSize": 9478144,
+        "embedderHeapUsedSize": 12095624,
+        "backingStorageSize": 5428024
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": true,
+      "before": {
+        "usedSize": 4390964,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11765344,
+        "backingStorageSize": 3854638
+      },
+      "after": {
+        "usedSize": 8379068,
+        "totalSize": 9478144,
+        "embedderHeapUsedSize": 12440144,
+        "backingStorageSize": 5427810
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": true,
+      "before": {
+        "usedSize": 4543620,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11882096,
+        "backingStorageSize": 3859832
+      },
+      "after": {
+        "usedSize": 8426344,
+        "totalSize": 9740288,
+        "embedderHeapUsedSize": 12518992,
+        "backingStorageSize": 5427870
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": false,
+      "before": {
+        "usedSize": 4413412,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11820320,
+        "backingStorageSize": 3854841
+      },
+      "after": {
+        "usedSize": 8607124,
+        "totalSize": 9478144,
+        "embedderHeapUsedSize": 12044400,
+        "backingStorageSize": 5428013
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    }
+  ],
+  "preservation": [
+    "Exactly sprites.js and index.html changed in production",
+    "Only exact native cache ownership/flash identity changed in sprites",
+    "Only sprites cache token changed in index",
+    "Native loader, current renderer/fixtures, original tests and receipt adapters unchanged",
+    "Every original QA entry and policy retained exactly",
+    "Designated stable remains unchanged"
+  ],
+  "historical": "45 receipts UNAVAILABLE; strict CLI exit2, no gate waiver",
+  "visualVerification": "See inspected sheets and repair report; scoped native Chromium captures, no full campaign/hardware certification",
+  "authoringNotes": [
+    "Private loader source is inspected more than once; diagnostics attach checked rather than requiring exactly one read.",
+    "Native renderer writes cosmetic diagnostics to render copies; regression now mirrors drawActor copy semantics and preserves all original actor fields.",
+    "Initial negative-control output was interrupted after verbose byte-buffer diffs; pixel assertion output bounded and three fresh controls rerun successfully.",
+    "Cache-token change invalidated early render receipts; four stale families regenerated, final fingerprints checked.",
+    "Visual review found native camera follow moved some performance actors offscreen. Original browser.json performance and exploratory-camera-drift records are exploratory only. Corrected matrix/confirmation hold camera after native ticks in fixture only, assert all roster x positions in viewport, retain native full draw and unchanged physics."
+  ]
+}

@@ -1,0 +1,656 @@
+# URBAN FRACTURE — JESSE COMPLETE ENEMY COMBAT & AI OVERHAUL
+## Build 205 | Gunfighter AI, Unblockable Firearms, Jump Evasion, Reload Vulnerability, and Coordinated Gunfire
+
+### PRIMARY OBJECTIVE
+
+Refine Jesse into a low-HP, high-damage ranged enemy whose primary objective is to maintain distance and fire his weapon.
+
+Jesse should be:
+
+- Extremely dangerous when left unattended.
+- Vulnerable when approached successfully.
+- Dependent on gunfire rather than advanced melee techniques.
+- Capable of repositioning and occasional defensive rolls.
+- Vulnerable while reloading.
+- Dangerous in groups without producing unavoidable gunfire.
+
+**Jesse's gunshots are unblockable, but they must be avoidable through skillful timing, movement, dodging, jumping, or legitimate environmental cover.**
+
+Preserve the existing six-shot magazine and established encounter placements.
+
+Create a reversible checkpoint before implementation.
+
+---
+
+# PHASE 1 — AUDIT EXISTING JESSE IMPLEMENTATION
+
+Inspect the active Jesse code and the current Enemy Field Guide.
+
+Identify:
+
+1. Current HP and damage.
+2. Firearm state and ammunition.
+3. Aim animation.
+4. Firing animation.
+5. Muzzle flash and projectile origin.
+6. Gunshot collision system.
+7. Combat-plane alignment.
+8. Reload animation and timing.
+9. Knife attack.
+10. Retreat behavior.
+11. Knockdown and recovery roll.
+12. Smart AI Director reservations.
+13. Multiple-gunman coordination.
+14. Hero dodge and jump vulnerability.
+
+Inspect later-loaded modules for overrides.
+
+Reuse existing systems rather than creating duplicate controllers.
+
+---
+
+# PHASE 2 — BASELINE CHARACTER PROPERTIES
+
+### Initial Normal difficulty targets
+
+| Property | Value |
+|---|---|
+| HP | 65, subject to current-build verification |
+| Magazine | 6 rounds |
+| Gunshot damage | High, preserve existing balance initially |
+| Gunfire blocking | Unblockable |
+| Armor | None |
+| Main defensive behavior | Retreat |
+| Close-range attack | Knife Stab |
+| Knockdown option | Recovery Roll |
+| Advanced counters | None |
+
+Jesse should have low durability.
+
+Do not increase HP to compensate for weak melee abilities.
+
+---
+
+# PHASE 3 — DISTANCE MANAGEMENT
+
+Implement three engagement zones using actual combat ranges.
+
+### Close range
+
+Jesse prefers:
+
+- Knife Stab.
+- Short retreat.
+- Repositioning.
+- Defensive movement after completing recovery.
+
+### Preferred firearm range
+
+Jesse prefers:
+
+- Aiming.
+- Firing.
+- Maintaining a clear firing lane.
+- Repositioning when the player approaches.
+
+### Outside effective firearm range
+
+Jesse moves toward a useful shooting position.
+
+He must not remain idle indefinitely.
+
+### Important
+
+Do not allow endless retreating.
+
+Jesse must occasionally be cornered or forced into close combat.
+
+---
+
+# PHASE 4 — FIREARM AIMING
+
+### Initial startup
+
+30–36 frames at 60 FPS for initial target acquisition.
+
+### Animation
+
+1. Jesse notices the player.
+2. He raises his firearm.
+3. He turns toward the target.
+4. He plants his feet.
+5. He establishes a firing stance.
+6. A readable aiming cue appears.
+7. He commits to the shot.
+8. The firearm discharges.
+
+### Requirements
+
+- Visible gun-raising animation.
+- Clear muzzle direction.
+- Correct firing-hand attachment.
+- No instant firing from idle.
+- No projectile before the release event.
+- No automatic perfect tracking.
+
+### Important
+
+The aiming cue must be readable even when other enemies are onscreen.
+
+---
+
+# PHASE 5 — FIRING ANIMATION
+
+Each gunshot must have:
+
+- A defined firing event.
+- Muzzle flash.
+- Appropriate sound.
+- Recoil animation.
+- Projectile or hitscan resolution according to the existing weapon framework.
+- Post-shot recovery.
+
+### Initial timing
+
+- First shot: After initial 30–36-frame aim.
+- Subsequent shot preparation: 12–16 frames.
+- Post-shot recovery: 18–22 frames.
+
+Do not double-count preparation and recovery if the existing state machine combines them.
+
+### Important
+
+A six-round magazine does not mean Jesse automatically fires six shots in one uninterrupted burst.
+
+He may reposition or reassess between shots.
+
+---
+
+# PHASE 6 — GUNSHOT COLLISION AND BLOCKING
+
+### Blocking
+
+Gunfire cannot be blocked by ordinary hero guarding.
+
+### Evasion
+
+Gunfire may miss if:
+
+- The player dodges during valid evasive frames.
+- The player's airborne hurtbox clears the shot trajectory.
+- The player moves outside the firing lane before discharge.
+- Solid cover blocks the shot.
+- Jesse misses because the target moved after aim commitment.
+
+### Requirements
+
+- No homing bullets.
+- No invisible full-screen hitboxes.
+- No automatic damage merely because Jesse fired.
+- No damage through valid solid cover.
+- No duplicate damage from one shot.
+- No bypassing valid dodge invulnerability.
+
+### Important
+
+If the existing gun system uses hitscan, resolve collision at the firing event against the target's actual current hurtbox and defensive state.
+
+Do not silently replace hitscan with projectile simulation unless necessary.
+
+---
+
+# PHASE 7 — AIM COMMITMENT AND FAIRNESS
+
+Jesse may track the player during early aiming.
+
+However, he must lock his firing direction or target lane during the final committed aiming phase.
+
+### Initial target
+
+Lock the shot approximately 10–12 frames before firing.
+
+### Requirements
+
+- The player can recognize the firing lane.
+- Moving out of that lane can avoid the shot.
+- Jesse cannot instantly retarget at the muzzle-flash frame.
+- The aiming animation remains synchronized with the actual trajectory.
+
+### Important
+
+Do not make every shot perfectly accurate.
+
+A player who correctly changes position should sometimes cause Jesse to miss.
+
+---
+
+# PHASE 8 — SIX-SHOT MAGAZINE
+
+Jesse begins with six rounds.
+
+After each shot:
+
+1. Decrease ammunition by one.
+2. Update the firearm state.
+3. Continue ordinary combat if ammunition remains.
+4. Begin reload when the magazine is empty.
+
+### Important
+
+Do not generate unlimited shots without reloading.
+
+Do not allow ammunition to reset through AI state changes.
+
+---
+
+# PHASE 9 — RELOADING
+
+### Initial duration
+
+90–120 frames at 60 FPS.
+
+### Animation
+
+1. Jesse lowers his firearm.
+2. He removes or accesses the magazine.
+3. He inserts a fresh magazine.
+4. He completes the weapon-ready motion.
+5. He returns to an aiming-capable state.
+
+### Vulnerability
+
+During reload:
+
+- No firearm attacks.
+- No firearm armor.
+- No automatic guard.
+- No instant dodge cancel.
+- No automatic knife attack.
+- Normal damage and stagger apply.
+
+### Important
+
+Reloading is Jesse's principal punish window.
+
+Do not allow the AI Director to skip it.
+
+If the reload is interrupted, resume or restart according to a consistent documented rule; never silently refill ammunition.
+
+---
+
+# PHASE 10 — KNIFE STAB
+
+### Purpose
+
+A simple defensive attack when the player reaches close range.
+
+### Initial frame data
+
+- Startup: 14–17 frames.
+- Active: 4 frames.
+- Recovery: 24–28 frames.
+
+### Animation
+
+1. Jesse draws or raises his knife.
+2. He takes a short forward step.
+3. He thrusts the knife.
+4. He retracts his arm.
+5. He returns to stance.
+
+### Properties
+
+- Short range.
+- Moderate damage.
+- No armor.
+- No elaborate combinations.
+- No automatic knockdown.
+- Eligible for existing weapon counters and disarms.
+
+### Important
+
+Jesse must not become as capable in close combat as Kevin.
+
+---
+
+# PHASE 11 — KNIFE-TO-RETREAT BEHAVIOR
+
+After completing the Knife Stab:
+
+- Jesse may attempt to retreat.
+- Retreat begins only after mandatory recovery.
+- Movement must use visible footwork.
+- Retreat cannot pass through walls.
+- Retreat must respect combat-plane boundaries.
+
+### Important
+
+A successful knife stab does not guarantee escape.
+
+If the player maintains pressure, Jesse may remain vulnerable.
+
+---
+
+# PHASE 12 — RECOVERY ROLL
+
+Jesse may occasionally perform a recovery roll away from the player.
+
+### Initial probabilities
+
+| Remaining HP | Roll chance |
+|---|---:|
+| Above 50% | 15% |
+| 25–50% | 25% |
+| Below 25% | 40% |
+
+### Requirements
+
+- Respect minimum grounded duration.
+- Do not roll during synchronized throws.
+- Do not interrupt the hero's mandatory throw animation.
+- Roll away from the player's position.
+- Require a valid escape path.
+- Use a visible rolling animation.
+- No teleportation.
+- No instant firing after rolling.
+
+### Distance
+
+Approximately 0.75–1 character-width.
+
+### Important
+
+The roll should become more likely when Jesse is injured, but it must not be guaranteed.
+
+---
+
+# PHASE 13 — RECOVERY ROLL FAIRNESS
+
+A recovery roll must not become a free escape from every knockdown.
+
+### Restrictions
+
+- No unlimited invulnerability.
+- No immediate second roll.
+- No automatic gunshot during roll recovery.
+- No bypass of grab-only anti-regrab protection.
+- No rolling through solid scenery.
+- No roll when the escape path is blocked.
+
+Preserve the shared post-throw fairness rule.
+
+If Jesse is knocked down by a synchronized throw, the hero must regain the established defensive opportunity before Jesse can execute an offensive attack.
+
+---
+
+# PHASE 14 — UNIVERSAL JUMP VULNERABILITY AUDIT
+
+Inspect jump startup, airborne hurtboxes, landing recovery, and bullet interaction for all six heroes.
+
+### Proposed initial jump startup targets
+
+| Hero | Initial startup |
+|---|---:|
+| Reina | 3 frames |
+| Nova | 4 frames |
+| Forest | 5 frames |
+| Broxton | 6 frames |
+| Niko | 4 frames |
+| Orion | 6 frames |
+
+These values are provisional tuning targets.
+
+Preserve existing jump responsiveness unless testing demonstrates a problem.
+
+### Requirements
+
+- Jump startup remains vulnerable to ordinary gunfire.
+- The airborne hurtbox follows actual visual elevation.
+- The logical combat-plane position remains stable.
+- Landing restores the correct grounded hurtbox.
+- A jump is not automatically invulnerable.
+- Gunshots can miss an airborne player when the trajectory genuinely passes beneath them.
+
+### Critical requirement
+
+Do not allow jumping to change the player's logical combat-plane depth accidentally.
+
+---
+
+# PHASE 15 — HERO-SPECIFIC JUMP TESTING
+
+Test each hero against Jesse's gunfire.
+
+### Reina
+
+Verify her faster jump can clear properly timed shots.
+
+### Nova
+
+Verify her aerial movement and jump attacks remain responsive.
+
+### Forest
+
+Verify normal jump attacks and Gunner coordination remain functional.
+
+### Broxton
+
+Verify his slower jump startup is compensated by viable dodge and approach options.
+
+### Niko
+
+Verify his sidestep and jump both provide legitimate defensive opportunities.
+
+### Orion
+
+Verify Retreating Boost and booster-assisted movement remain viable.
+
+### Important
+
+Every hero must have at least one reliable defensive solution to a telegraphed gunshot.
+
+Do not make slow heroes automatically absorb unavoidable firearm damage.
+
+---
+
+# PHASE 16 — MULTIPLE-GUNMAN COORDINATION
+
+Integrate a shared Gunfire Coordinator into the existing Smart AI Director.
+
+### Normal difficulty rule
+
+**Only one active firearm firing commitment may threaten the player at a time.**
+
+Other gunmen may:
+
+- Reposition.
+- Seek firing lanes.
+- Reload.
+- Wait.
+- Perform non-damaging preparation.
+
+### Requirements
+
+- Preserve the existing three-point threat budget.
+- Preserve the maximum of two simultaneous attack commitments.
+- Treat gunfire as a specially coordinated high-threat attack.
+- Avoid simultaneous unavoidable shots.
+- Avoid multiple gunmen targeting the same hero with overlapping firing events.
+
+### Important
+
+Do not let the Gunfire Coordinator create a separate unlimited attack budget.
+
+---
+
+# PHASE 17 — GUNFIRE SPACING
+
+After one gunman fires, impose an initial coordination gap of 0.35–0.5 seconds before another gunman can fire at the same player.
+
+### Requirements
+
+- Recheck player actionability.
+- Recheck defensive options.
+- Recheck firing lane.
+- Recheck AI Director pressure.
+- Preserve existing attack recovery.
+
+### Important
+
+Do not interpret the gap as permission to fire if the player is still unable to defend.
+
+The attack must remain fair.
+
+---
+
+# PHASE 18 — MIXED ENEMY COORDINATION
+
+### Jesse + Marcus
+
+Marcus applies close pressure.
+
+Jesse maintains distance and seeks a visible firing lane.
+
+### Jesse + Bruno
+
+Avoid firearm shots during Bruno's most dangerous heavy commitments.
+
+### Jesse + Carmen
+
+Avoid stacking gunfire with unavoidable electrical stun.
+
+### Jesse + Frankie
+
+Alternate major ranged threats.
+
+### Jesse + another Jesse
+
+Alternate firearm commitments.
+
+### Jesse + multiple melee enemies
+
+Prioritize readable attack sequencing and safe defensive opportunities.
+
+### Important
+
+Jesse should remain dangerous because of his position and firearm threat, not because the player loses all possible defensive choices.
+
+---
+
+# PHASE 19 — FIRING LANE SAFETY
+
+Before firing:
+
+1. Verify the target is visible.
+2. Verify the firing lane is valid.
+3. Check solid obstructions.
+4. Check existing allied collision rules.
+5. Confirm the AI Director reservation.
+6. Confirm the player has had a readable telegraph.
+7. Commit to the shot.
+
+### Important
+
+Do not allow Jesse to fire from completely offscreen without a suitable warning.
+
+Do not allow invisible bullets through walls.
+
+---
+
+# PHASE 20 — ADAPTIVE DISTANCE AI
+
+If the player repeatedly approaches successfully:
+
+- Jesse may reposition earlier.
+- Jesse may seek a different firing lane.
+- Jesse may use his knife when cornered.
+
+If the player repeatedly waits for reload:
+
+- Jesse may vary his movement before firing.
+- Jesse may avoid remaining at the same location.
+- Jesse may coordinate with nearby melee enemies.
+
+### Important
+
+Do not remove reload vulnerability to prevent predictable punishment.
+
+A correctly timed approach during reload must remain effective.
+
+---
+
+# PHASE 21 — NO ADVANCED DEFENSIVE MOVES
+
+Jesse should not receive:
+
+- Advanced counters.
+- High-damage throws.
+- Heavy armor.
+- Universal blocking.
+- Automatic bulletproof defense.
+- Elaborate knife combinations.
+- Unlimited evasive rolls.
+
+His identity is a fragile ranged attacker.
+
+---
+
+# PHASE 22 — DEVELOPER DIAGNOSTICS
+
+Extend the hidden developer dashboard.
+
+Display:
+
+- Current HP.
+- Current AI state.
+- Preferred firearm range.
+- Ammunition.
+- Aim timer.
+- Firing commitment.
+- Locked firing direction.
+- Muzzle event.
+- Current target lane.
+- Projectile collision result.
+- Reload timer.
+- Knife eligibility.
+- Retreat decision.
+- Recovery roll eligibility.
+- Current hero jump phase.
+- Hero airborne hurtbox.
+- Hero dodge invulnerability.
+- Gunfire Coordinator reservation.
+- Last rejected attack reason.
+
+---
+
+# PHASE 23 — AUTOMATED TESTING
+
+### Firearm
+
+Verify:
+
+1. Jesse aims before firing.
+2. Gunshots are unblockable.
+3. Dodges can evade valid gunfire.
+4. Properly timed jumps can avoid eligible shots.
+5. Shots do not home after commitment.
+6. Muzzle flash matches the firing event.
+7. Each shot consumes one round.
+8. Reload begins after six shots.
+9. Reload is interruptible and punishable.
+10. No unlimited ammunition occurs.
+
+### Melee
+
+Verify:
+
+11. Knife Stab activates at close range.
+12. Knife Stab has correct hit detection.
+13. Knife Stab recovery is punishable.
+14. Jesse cannot instantly retreat during recovery.
+
+### Recovery
+
+Verify:
+
+15. Recovery rolls

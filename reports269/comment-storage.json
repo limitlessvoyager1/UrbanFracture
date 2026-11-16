@@ -1,0 +1,675 @@
+{
+  "reason": "Hosting cap. Project-internal full-line comments archived, line breaks/non-comment bytes retained. No license removal. Build276 intentionally changes/excludes dist/core.js, dist/woods139.js. Build277 intentionally changes/excludes . Build278 excludes deliberately modified standing combo and practice modules. Build279 excludes deliberately edited grapple/Director/reaction source. Build279 excludes the superseded special chord path. Build280 excludes intentionally edited slums/mall/weapon/gait modules; prior source remains in checkpoint. Build283 excludes deliberately edited Niko/native paired source; originals retained at recovery checkpoint.",
+  "files": [
+    {
+      "path": "dist/hydro243.js",
+      "before": "c15c545fb811890a243ae8d770322ac0d1a300c57e08774e5417d39e08b162f8",
+      "after": "84598b8c4300289dcdd0cb5d5748ff7ffa3cae47438574228bfb8d0e8d5ba3b5",
+      "removed": [
+        {
+          "line": 20,
+          "text": "// Keep the existing Exit19 route/transition; its former arrival placeholder now opens the plant."
+        }
+      ],
+      "saved": 97
+    },
+    {
+      "path": "dist/security216.js",
+      "before": "93926217c7044584b31334646924a8ecc85e533827e7900e209f51e2478249f5",
+      "after": "f16d1975f69931798ce9dbcff46e58bb89163fe6fa6c01b717f961b8dd2d984a",
+      "removed": [
+        {
+          "line": 16,
+          "text": " // Once per visible jump, observed before deciding; admission retains the shared jump lottery."
+        }
+      ],
+      "saved": 95
+    },
+    {
+      "path": "dist/prison224.js",
+      "before": "4fe0bb343846178b395138d0b585681cc3892fbf912b2de0ba03b03f59215714",
+      "after": "e718b665e1d6be7c56baa8c82340db68149c433212806c2340883f9c35ece031",
+      "removed": [
+        {
+          "line": 27,
+          "text": "// Shared222 owns adaptive spawning. Only authored room/finale rows use native finite spawning here."
+        },
+        {
+          "line": 40,
+          "text": "// Replace only the already-authored Prison arrival; Subway remains the other Slums route."
+        }
+      ],
+      "saved": 190
+    },
+    {
+      "path": "dist/riverfront-view151.js",
+      "before": "7bf8f726891d1a1141d9382ebebf03676a7c4a310d3b63e9345533219f30abb6",
+      "after": "26e4b7f4ef22e1099f8f1eff40195385510e3544517fc43a940c673ff51d73b0",
+      "removed": [
+        {
+          "line": 8,
+          "text": "// Only shoreline-connected matter occludes vessels. Isolated colored ripples remain water."
+        },
+        {
+          "line": 13,
+          "text": " // Exact solid concert stage and moored yacht. Open river outside these silhouettes stays visible."
+        }
+      ],
+      "saved": 190
+    },
+    {
+      "path": "dist/stadium237.js",
+      "before": "e1315c3fe2932f3785dd69003f7b2326d7b20bd6ece9112cf259a6a52e35f5ef",
+      "after": "d68bd4024ab4e6dfe6455491abc59f75487a4526f0d155a79928282573404c19",
+      "removed": [
+        {
+          "line": 30,
+          "text": "// Additional highway off-ramp preserves both existing future-destination exits."
+        }
+      ],
+      "saved": 80
+    },
+    {
+      "path": "dist/woods-traversal148.js",
+      "before": "0fc8362fa63b54b96bd718d5a44908ece1b95dc55362d628d2a84e5e975a3f50",
+      "after": "de918fee54afde3742ede67588377904b7083d570fa3810e3cb6e42c4aef92a4",
+      "removed": [
+        {
+          "line": 5,
+          "text": " // Existing local AI still approaches; route its footwork toward the only crossing before stepping onto it."
+        }
+      ],
+      "saved": 108
+    },
+    {
+      "path": "dist/encounter222.js",
+      "before": "e893c6d241232d7ed2b9028e7cad2a72197d6ec9cc3acb227c0b90d2d5384a17",
+      "after": "a2285dc54e5e6140533d24072298b01f50ee9e3b7dcacc5e3a5d8d8fa037ee10",
+      "removed": [
+        {
+          "line": 23,
+          "text": " // Existing authored first appearances are pinned. Alternatives unlock only after those entries spawn."
+        },
+        {
+          "line": 59,
+          "text": "// Native clear setters retain completion authority. Read gating prevents GO/exit while tracked actors or waves remain."
+        }
+      ],
+      "saved": 222
+    },
+    {
+      "path": "dist/broxton179.js",
+      "before": "185194b83e1f6a67efc864cc37f2617b2d45d01935a3cd2094b025bf5cc2bbfe",
+      "after": "5b43ed94b0e206350e5ba23f0df78ae12d6a58fc399807dca2f03b0ec4f4c775",
+      "removed": [
+        {
+          "line": 30,
+          "text": "// One source-authored arm path drives both the new whole-body art and contacts."
+        }
+      ],
+      "saved": 80
+    },
+    {
+      "path": "dist/gamepad.js",
+      "before": "bb0800afef166da87dc713ef1e04dcd2963f681bef358efb78cbea820ba654b5",
+      "after": "84cab37d23d357146dc15df60846bc345496ee903ab0f0761d65302a9f6eb6d6",
+      "removed": [
+        {
+          "line": 17,
+          "text": " // A POV hat has eight discrete values. Zero is not one of them: axes[9]"
+        },
+        {
+          "line": 18,
+          "text": " // can be an unused centered axis on DSX and must never create a phantom diagonal."
+        }
+      ],
+      "saved": 156
+    },
+    {
+      "path": "dist/sterling-view152.js",
+      "before": "641de0181ae8f03bf7112df0642df3cb2fcb5fb3aa7b1a46fcf27b3850c389f8",
+      "after": "c56a94ba112a3129933fb2d8171a85c3997b5bbded3037fe7289ebb4699037d5",
+      "removed": [
+        {
+          "line": 7,
+          "text": "// The same world anchor owns the dock, open yacht doorway and NPC occlusion edge."
+        },
+        {
+          "line": 9,
+          "text": "// Small stern opening belongs to the yacht; the gangway connects directly to the pier."
+        }
+      ],
+      "saved": 169
+    },
+    {
+      "path": "dist/aidan221.js",
+      "before": "7f63f8b449293fb689d44a42d6f147503cce6145038f7ae9a380b5049db41617",
+      "after": "57d1fa660db3e92efcf13afab49bcd2e193490783161ec4c42322167c8d79d62",
+      "removed": [
+        {
+          "line": 51,
+          "text": "// Tavern remains the sole scripted Aidan encounter. Colt's route is unchanged."
+        }
+      ],
+      "saved": 79
+    },
+    {
+      "path": "dist/chemical214.js",
+      "before": "c380f14fa6858496687eb56ee82331b8f2299af7990035a51360ed1cb8d8f572",
+      "after": "982940c12a82f565e1d15805634e09d6834e0d55ee1ac07c6e7d4e2b80f8f747",
+      "removed": [
+        {
+          "line": 26,
+          "text": "// Bounded visible approach decisions for controllers without weighted attack tables."
+        }
+      ],
+      "saved": 85
+    },
+    {
+      "path": "dist/sterling152.js",
+      "before": "87d32279d13757edccf193537519b9272b733a929670f5684cd00733ad2ccd09",
+      "after": "158de6691151805c23176afe1f13e964e1e937f1d8e404f463754088ef9f8290",
+      "removed": [
+        {
+          "line": 11,
+          "text": "// World-ground anchors follow the illustrated gangway, not a vertical lift over water."
+        }
+      ],
+      "saved": 87
+    },
+    {
+      "path": "dist/stabilize143.js",
+      "before": "92c93b25e109b283178635d8982575b1d407d4a57c223707bc73e02972ce9c50",
+      "after": "fa99f5e2cdbf8d94854a6645f71a57cbe6d84973bc4669650d13ecb3f79f934a",
+      "removed": [
+        {
+          "line": 3,
+          "text": "// Expand the existing tested director to standard encounters; scripted scenes remain untouched."
+        },
+        {
+          "line": 12,
+          "text": "// Nonblocking reusable dialogue cues; no combat ownership or movement changes."
+        }
+      ],
+      "saved": 175
+    },
+    {
+      "path": "dist/niko-counters186.js",
+      "before": "2d6b8a3e4ec916eec0f10fac951babace3e4f7b6c82ec419ce7cca90c67d0600",
+      "after": "4fbc7aa9549c57b9de7312fac821888fed1be72b77c0a8cd6d3e4a3605c24ec1",
+      "removed": [
+        {
+          "line": 25,
+          "text": "// Return undefined only when the ordinary Niko command should continue."
+        },
+        {
+          "line": 59,
+          "text": "// Flint's weapon-loss fallback applies against every hero and every loss source."
+        }
+      ],
+      "saved": 153
+    },
+    {
+      "path": "dist/environment-view156.js",
+      "before": "d27fe0170acc32174b4e1333cc1e2edc660ad72442882eb672e464316cce27c0",
+      "after": "e127f0ee1398755d8f4736565b8cb955eee3b6c2274e7ec8bbe367ab46965609",
+      "removed": [
+        {
+          "line": 5,
+          "text": "// Prepared230 supplies explicit bounded sky mattes for formerly baked park skies."
+        },
+        {
+          "line": 12,
+          "text": " // Flood from the top of each atlas cell; a sky mask cannot leak through disconnected windows."
+        },
+        {
+          "line": 22,
+          "text": "// One screen-space sky sample is clipped through each prepared asset matte. Buildings, canopy and water never receive celestial paint."
+        },
+        {
+          "line": 35,
+          "text": "// One immutable visual sample per background pass; all fighter shadows and foreground share it."
+        }
+      ],
+      "saved": 408
+    },
+    {
+      "path": "dist/casino-view192.js",
+      "before": "7fa2fe1bd084c89c07b2c7e6e7cde597fb52c692b6931ec5e8fdb429892405b5",
+      "after": "58d86e96964cfc8cfd67304b86131bdf30777a913d9cbe35662cba727f373c9c",
+      "removed": [
+        {
+          "line": 4,
+          "text": "// Per-pose head anchors in the original Security atlas; geometry follows the actor transform."
+        }
+      ],
+      "saved": 94
+    },
+    {
+      "path": "dist/baylor237.js",
+      "before": "d31b3d109316b4c867692c33aee3b0b497b9c63f0589660e491c67af035c0cd5",
+      "after": "4a3c12dc2b76ea7146b46eaffd3a84d21962934d21b3a249cc855b68746445ec",
+      "removed": [
+        {
+          "line": 19,
+          "text": "// Admission still goes through the one native Director."
+        },
+        {
+          "line": 24,
+          "text": "// Director's category/cost function closes over its classifier; add a scoped classifier branch below in director148.js."
+        },
+        {
+          "line": 36,
+          "text": "// Individual 50% rule replaces the high-HP contest; no retaliation on a rejected hold."
+        }
+      ],
+      "saved": 263
+    },
+    {
+      "path": "dist/workers233.js",
+      "before": "3bdfa9ba17288100aafb27565c0cf6687d5f1d9d0e71bcbd8e2907eb7a1d32ff",
+      "after": "273c529c7462140715f24359de62dd78c5fd0ad2c08acb122c09422d6ba8bd22",
+      "removed": [
+        {
+          "line": 4,
+          "text": "// Population admission reserves slots for entering/downed survivors too; no despawning or replacement."
+        },
+        {
+          "line": 8,
+          "text": "// One visible work-crew view stored on the existing Combat Director, not another AI controller."
+        }
+      ],
+      "saved": 199
+    },
+    {
+      "path": "dist/encounter-config222.js",
+      "before": "9af9537640a1e63a054f958d4467dd81f8df9f0444a50795f8420d9c67d6e3a3",
+      "after": "487a1e33a81dad2e5c90cbf11916d80fe3c7845fae7fbbee54036c1c251e619b",
+      "removed": [
+        {
+          "line": 7,
+          "text": "// The optional hotel has distinct sections despite sharing native zone numbers."
+        },
+        {
+          "line": 9,
+          "text": "// More-specific hotel entries must precede ordinary entries in matching order."
+        },
+        {
+          "line": 13,
+          "text": "// Uptown's private zone table is separate from Downtown/Financial indices."
+        },
+        {
+          "line": 23,
+          "text": "// Native Aidan spawn adapter consumes the same explicitly configured eligibility."
+        }
+      ],
+      "saved": 316
+    },
+    {
+      "path": "dist/scenery230.js",
+      "before": "99e14b140143fe1bca9b2a0dbc155ec07e8b46df28d86e9ecec17b7e00fe0a27",
+      "after": "ea948aced6d1a095e6302bf3addb7bc0d225bbace2dafe8f15c0eb581a9eec6b",
+      "removed": [
+        {
+          "line": 34,
+          "text": "// Authored extraction bounds keep painted structures and terrain rigid."
+        },
+        {
+          "line": 51,
+          "text": "// Same three-piece transform as Uptown113's original park panorama compositor."
+        },
+        {
+          "line": 63,
+          "text": " // Author-defined vertical limits exclude lakes, glass and indoor atlas rows. Connected sky seeds preserve silhouettes."
+        },
+        {
+          "line": 67,
+          "text": " // Sky apertures bounded by canopy may not touch the top edge; seed only their upper, authored open region."
+        },
+        {
+          "line": 71,
+          "text": " // Enclosed bright cloud-shadow islands belong to the sky; foreground-connected skyline/canopy components remain opaque."
+        },
+        {
+          "line": 74,
+          "text": " // Remove broad baked cloud highlights that meet the sky, while retaining narrow aerials and facade edges."
+        },
+        {
+          "line": 76,
+          "text": " // Each selected pixel has exactly one moving owner. Static art is restored below these separated layers."
+        },
+        {
+          "line": 89,
+          "text": " // Palette-preserving nearest-boundary fill creates a real underlay, instead of drawing a second copy over the old branch/flag."
+        }
+      ],
+      "saved": 841
+    },
+    {
+      "path": "dist/docks231.js",
+      "before": "21ef9342a30855eb74089924e450bf007525948bee552197508e92431fb1c1f8",
+      "after": "7b418b7c1cc1f22b4dde6fd35ae49a34b2c946f2636acd8ab4c0763122030076",
+      "removed": [
+        {
+          "line": 22,
+          "text": "// Shared Director222 handles ordinary adaptive rows. This fallback serves only authored room rows."
+        }
+      ],
+      "saved": 99
+    },
+    {
+      "path": "dist/environment-game156.js",
+      "before": "d973a2ea6b1d1783fc4197e54e2318a3a347fa7786b2e6a6ea641b56ecd667a8",
+      "after": "1e3cc5f33875309a7ba33a177adf7ee1c853e237b4e1210791720ccf130195d6",
+      "removed": [
+        {
+          "line": 8,
+          "text": "// Existing cosmetic callers now consult the shared simulation rather than a level number."
+        }
+      ],
+      "saved": 90
+    },
+    {
+      "path": "dist/gus219.js",
+      "before": "60ba05bc3a6013f8fa8dcf7e683b84476b7601843c5e3ba3af3c29b7332d0c53",
+      "after": "00e95376e75527e779167d87fbd46318891de47281173ab5be481fb06a117ee1",
+      "removed": [
+        {
+          "line": 52,
+          "text": "// Shared local weapon/hand geometry is used by both native hit detection and the renderer."
+        },
+        {
+          "line": 84,
+          "text": " // Missed jab ends in its own full 30-frame recovery, never a ghost overhead."
+        }
+      ],
+      "saved": 169
+    },
+    {
+      "path": "dist/environment217.js",
+      "before": "7332225be6c0b23af64ed690d167801cf5c17f49077acf4d71cca4e57d01ccbe",
+      "after": "e0359b5e1a0c9121e626ce2f2291c00dfc3d3fed94e82e52b569856fb2b9706f",
+      "removed": [
+        {
+          "line": 4,
+          "text": "// Analytic seeded signals survive legacy saves, seeking and room changes without extra RNG draws."
+        }
+      ],
+      "saved": 98
+    },
+    {
+      "path": "dist/combo-confirm129.js",
+      "before": "2001691e169395019a2788d217b9ebfe28a65ed26665991c7654319d3d3812e3",
+      "after": "ee8d4f0675bd82a67527bb59ff6038ef9ec98838f239c857b7251ec5e0112966",
+      "removed": [
+        {
+          "line": 11,
+          "text": " // Nova's quick input queue may cancel recovery after a hit, never after a whiff."
+        }
+      ],
+      "saved": 82
+    },
+    {
+      "path": "dist/balance48.js",
+      "before": "59a5a863c7b6e86a05a36d6707526ee8c3c18f9093da1dde67a21ab54ddefb69",
+      "after": "14a29cdbccf03125622c4163776dd46897e4c4d28f8c5d49077164e35704abe8",
+      "removed": [
+        {
+          "line": 14,
+          "text": "// Dormant pre-placed enemies are counted once through their pending record."
+        }
+      ],
+      "saved": 76
+    },
+    {
+      "path": "dist/estates196.js",
+      "before": "5c3ce0a5e2a214b2650014f508e8cd3af296563970972f12909e2920c8fbd54d",
+      "after": "5f8c104dd42dd6aeb3a79e57a267e0deb7e0073a0c7792e3ee8a5620e85d39bb",
+      "removed": [
+        {
+          "line": 26,
+          "text": "// Resolve perspective from actual entry-plane travel, never from attack animation frames."
+        }
+      ],
+      "saved": 90
+    },
+    {
+      "path": "dist/grab198.js",
+      "before": "7b6d6f39750be86a46cb63956af9b96d35c3e1fbd5a1cfab405e82d9bd25bbea",
+      "after": "31d565593eef07de5f718d04142278eb3a003bbf17330eea48d6f387a9c4a150",
+      "removed": [
+        {
+          "line": 20,
+          "text": "// Explicit counters keep their original meter, HP and attack-classification gates."
+        }
+      ],
+      "saved": 83
+    },
+    {
+      "path": "dist/animation-view189.js",
+      "before": "c181363e114048c78325d9a66ec60a99ae4ac98437a122d97a41c626f4da406c",
+      "after": "6f65596416b97eb291ef584ee998c28830183c09bf92d264f686ee83eb2768a3",
+      "removed": [
+        {
+          "line": 5,
+          "text": "// Capture Dirk's actual production art, rather than silently using the ordinary robber sheet."
+        }
+      ],
+      "saved": 94
+    },
+    {
+      "path": "dist/slums-view203.js",
+      "before": "b504d7e0bf1a370408419d3c4f688dcab059c140357ea5ae250420edd1ca8594",
+      "after": "0a0b537b8d4878c1a5c9c7552d241602ce8e5eaa7187c35e518d3860422dbeb5",
+      "removed": [
+        {
+          "line": 7,
+          "text": "// Burning rooms stay inside their wall/window openings; smoke does not wash over the combat lane."
+        }
+      ],
+      "saved": 98
+    },
+    {
+      "path": "dist/environment218.js",
+      "before": "4c0c97d6341d01aee7d40d900865d61e8ad8b040daf6bb6967fa2199fc6ba3b1",
+      "after": "be3ea8e626deba0db9e5d16067a72abdcd30fe050c69262baa6fce13fff30803",
+      "removed": [
+        {
+          "line": 24,
+          "text": " // Upward-facing ledges/leaf tops only; reject blue sky and vertical uniform facades."
+        }
+      ],
+      "saved": 86
+    },
+    {
+      "path": "dist/counters248.js",
+      "before": "f6788b3c12f754ed1945a47726a72cb8711d884a0efc307fc864aba737847117",
+      "after": "047b28f6820b45adbb1a095ce29e1216d1e65a170b0a32919627902a39044af6",
+      "removed": [
+        {
+          "line": 5,
+          "text": "// [contact frame, damage, injury]; final contact knocks down, never scales throw damage."
+        }
+      ],
+      "saved": 89
+    },
+    {
+      "path": "dist/gunner-tactics173.js",
+      "before": "323945196f42c5ad2c79d91644a1727d5f2f4adfd3342204ac4a22abde81e410",
+      "after": "8e21b4d91e7cd24ffb8032bca10769d33db295a4eb2623edc5599e6e8a0eef06",
+      "removed": [
+        {
+          "line": 21,
+          "text": "// Explicit level-local cache markers; at most30HP can be discovered in a whole run."
+        },
+        {
+          "line": 39,
+          "text": "// Diagnostic actions are exposed only by the hidden developer dashboard."
+        },
+        {
+          "line": 45,
+          "text": "// Level/retry resets keep remaining cooldown and stun durations, even when game.time resets."
+        }
+      ],
+      "saved": 250
+    },
+    {
+      "path": "dist/nightshade-gun255.js",
+      "before": "526867a0718a5f0a5a9c6e772e58248bc5e57e70edd1d9751110a6e2c5573ebc",
+      "after": "3cbcb46dcc1915e13422ff94b7e1ecb3b7f6ddb4b8168eec41ce8c07f2744201",
+      "removed": [
+        {
+          "line": 14,
+          "text": "// Reuse the laser's existing solid-cover dimensions, sampled against the locked bullet plane."
+        },
+        {
+          "line": 17,
+          "text": "// Barrage extends the same projectile owner: one swept ordered contact per enemy/bullet."
+        },
+        {
+          "line": 21,
+          "text": "// A single edge may wait through the final .24s; never cancel mandatory recovery."
+        }
+      ],
+      "saved": 265
+    },
+    {
+      "path": "dist/subway238.js",
+      "before": "0ad6009d3a1ab670d73364e9d64148ec0d035e3008907f3cce2658415b5bf39a",
+      "after": "17fe064ec22c307ad1aa6e81434338bbabe8d4ac34c890d8c2d1d459bfffa53b",
+      "removed": [
+        {
+          "line": 22,
+          "text": "// Existing Slums/Colt subway destination now enters the completed level."
+        }
+      ],
+      "saved": 73
+    },
+    {
+      "path": "dist/lab149.js",
+      "before": "0836220dac5a9300326cf56f768f95bf969ae16e5a78590b41bae94812c28e21",
+      "after": "76567e78bb5e10d8a82e68af0a071c9969615c2ca0201a30c47921dfd0489a82",
+      "removed": [
+        {
+          "line": 24,
+          "text": " // Preserve paired animation ownership; nonlethal heat still applies, lethal remainder settles on release."
+        }
+      ],
+      "saved": 107
+    },
+    {
+      "path": "dist/combat200.js",
+      "before": "1d44de7ce750aa87105fe67ab2d1c74afdfccce04a3d3acbfb3b0fb15382180f",
+      "after": "900393ed36343f842e93b3df6545ca287ff0a3464130b9c049134deb27ca8bbb",
+      "removed": [
+        {
+          "line": 7,
+          "text": "// Three real hits earn a single defensive response to a NEW string; never steal a confirmed follow-up."
+        },
+        {
+          "line": 12,
+          "text": "// A few spaced replacements, preserving finite wave sizes, entry timing and Director admission."
+        }
+      ],
+      "saved": 199
+    },
+    {
+      "path": "dist/taser206.js",
+      "before": "610c80d82ecbabdb5ab6b60902cea300714c04344677099d3886b61368d17855",
+      "after": "3f9d040fa4a780489602809701b35867509c449db8270ae29a6915133053b9bc",
+      "removed": [
+        {
+          "line": 2,
+          "text": "// Carmen frame6: yellow barrel tip at atlas(352,823), root(176,1053), atlas scale.39."
+        }
+      ],
+      "saved": 86
+    },
+    {
+      "path": "dist/environment156.js",
+      "before": "36ab9dc38d46067d9767208ed426674378a49a036a682c7a7769329f54c61ea4",
+      "after": "c18c3b6dd844abe453af600616c55c069ecc6387b2c48a64560ea9063f6cb681",
+      "removed": [
+        {
+          "line": 43,
+          "text": "// Ambient-only count control: stable slots, no gameplay/environment RNG consumption."
+        }
+      ],
+      "saved": 85
+    },
+    {
+      "path": "dist/charge-view130.js",
+      "before": "8890469ea6124814a5bb336d492665adcc430db6236ccdd0bde8ab2321160472",
+      "after": "1b02b22349d447971d127647108db8ec3323ff56a51627a60bb8d97268f8972d",
+      "removed": [
+        {
+          "line": 5,
+          "text": " // Atlas anchors are hips; normalize once at import, then ground this pose at its measured sole."
+        }
+      ],
+      "saved": 97
+    },
+    {
+      "path": "dist/casino192.js",
+      "before": "ccb7dcd05fd639ce5efcdaaececd93de9f46d3f668c6a3511fc9f000c4650747",
+      "after": "4c380ce76f7492a487a61ef1c424e472aaeb750559e066fd254bcfd5d2bde6d0",
+      "removed": [
+        {
+          "line": 23,
+          "text": "// Ordinary furniture movement never destroys a casino machine or silently rolls its loot."
+        },
+        {
+          "line": 28,
+          "text": "// Dispatch stays inside the existing Audit135/Director148 AI wrapper."
+        }
+      ],
+      "saved": 160
+    },
+    {
+      "path": "dist/aidan-view221.js",
+      "before": "f19edaa0900366518e660947a8fb688fe1565565f1e291da3d89c947aee873c8",
+      "after": "095ae7052401b73421b1dc5b738342b14c7dc5bced49f46339a144ccea93e210",
+      "removed": [
+        {
+          "line": 6,
+          "text": "// Reuse the same foreground pass outside Slums when a regular Aidan is explicitly enrolled."
+        }
+      ],
+      "saved": 92
+    },
+    {
+      "path": "dist/lab-fighters-view166.js",
+      "before": "cbe34f61de5f64071af1092c1983685052804bac8ab75a09532e191958f61532",
+      "after": "2779466e042cab2cb786486c6c782e84aef20b8fc36b4df85bc25dbb6bef6787",
+      "removed": [
+        {
+          "line": 4,
+          "text": " // Feet and legs stay fixed. Only the upper body strains against the sticky floor."
+        }
+      ],
+      "saved": 83
+    }
+  ],
+  "note": "Hashes describe final Build269 code with/without the archived comments; intentional combat fixes are separate from storage-only evidence. Build281 intentionally edits highway234/street209/route74197; checkpoint-before-highway-animation281 preserves their previous executable bodies. Build282 intentionally changes core/companion/game pickup healing; previous source remains at checkpoint-before-reina-scale282.",
+  "build275IntentionalEditsExcluded": [
+    "dist/enemies210.js",
+    "dist/forest125.js",
+    "dist/game.js",
+    "dist/government-view182.js",
+    "dist/government182.js",
+    "dist/lab-view149.js",
+    "dist/mall-view236.js",
+    "dist/nova116.js",
+    "dist/nova77.js",
+    "dist/reina118.js",
+    "dist/reina120.js",
+    "dist/sprites.js",
+    "dist/subway-view238.js",
+    "dist/uptown-view113.js",
+    "dist/weapons248.js",
+    "dist/highway234.js",
+    "dist/street209.js",
+    "dist/route74197.js"
+  ],
+  "savedBytes": 44
+}

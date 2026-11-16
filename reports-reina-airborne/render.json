@@ -1,0 +1,1412 @@
+{
+  "scope": "Native production index/canvas; old Plane304 module served only to baseline page. Continuous native flying Saito and Reina opener; AI disabled. Critical frame10 renders before contact; later valid hits retained if geometrically eligible.",
+  "errors": [],
+  "failed": [
+    {
+      "version": "baseline",
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "version": "baseline",
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "version": "fixed",
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "version": "fixed",
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "rows": [
+    {
+      "version": "baseline",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 6,
+      "dir": -1,
+      "time": 0.26666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 57.35218792105746,
+      "points": [
+        {
+          "x": 347.7462641314655,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 328.74739619719827,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 265.7056980516751,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "actual": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "16:1:24:candidate:eligible native strike segment",
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 21,
+        "target": 24,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 385.744,
+          "y": 480,
+          "dir": -1
+        },
+        "targetPosition": {
+          "x": 366.7175572519084,
+          "y": 480,
+          "dir": 1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 19.026442748091654,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 347.7462641314655,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 328.74739619719827,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 265.7056980516751,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 334.48411755190835,
+          "right": 398.9509969519084,
+          "top": 295.3902999,
+          "bottom": 428.71952775
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.26666666666666666,
+          "damage": 7,
+          "elevation": 57.35218792105746,
+          "projectedIntersects": false
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 6,
+      "dir": 1,
+      "time": 0.26666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 57.35218792105746,
+      "points": [
+        {
+          "x": 452.2537358685345,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 471.25260380280173,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 534.2943019483249,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "actual": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "16:1:31:candidate:eligible native strike segment",
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 28,
+        "target": 31,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 414.256,
+          "y": 480,
+          "dir": 1
+        },
+        "targetPosition": {
+          "x": 433.2824427480916,
+          "y": 480,
+          "dir": -1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 19.026442748091654,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 452.2537358685345,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 471.25260380280173,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 534.2943019483249,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 401.0490030480916,
+          "right": 465.51588244809165,
+          "top": 295.3902999,
+          "bottom": 428.71952775
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.26666666666666666,
+          "damage": 7,
+          "elevation": 57.35218792105746,
+          "projectedIntersects": false
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 8,
+      "dir": -1,
+      "time": 0.3,
+      "heroFrame": 10,
+      "targetElevation": 53.44562028848364,
+      "points": [
+        {
+          "x": 353.6816534444426,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 334.68278551017534,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 271.6410873646522,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "actual": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "18:1:38:candidate:eligible native strike segment",
+        "frame": 18,
+        "time": 0.3,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 35,
+        "target": 38,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 391.6793893129771,
+          "y": 480,
+          "dir": -1
+        },
+        "targetPosition": {
+          "x": 380.07633587786256,
+          "y": 480,
+          "dir": 1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 11.603053435114532,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 353.6816534444426,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 334.68278551017534,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 271.6410873646522,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 347.84289617786254,
+          "right": 412.3097755778626,
+          "top": 295.3902999,
+          "bottom": 428.71952775
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.3,
+          "damage": 7,
+          "elevation": 53.44562028848364,
+          "projectedIntersects": false
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 8,
+      "dir": 1,
+      "time": 0.3,
+      "heroFrame": 10,
+      "targetElevation": 53.44562028848364,
+      "points": [
+        {
+          "x": 446.3183465555574,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 465.31721448982466,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 528.3589126353478,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "actual": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "18:1:45:candidate:eligible native strike segment",
+        "frame": 18,
+        "time": 0.3,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 42,
+        "target": 45,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 408.3206106870229,
+          "y": 480,
+          "dir": 1
+        },
+        "targetPosition": {
+          "x": 419.92366412213744,
+          "y": 480,
+          "dir": -1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 11.603053435114532,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 446.3183465555574,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 465.31721448982466,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 528.3589126353478,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 387.6902244221374,
+          "right": 452.15710382213746,
+          "top": 295.3902999,
+          "bottom": 428.71952775
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.3,
+          "damage": 7,
+          "elevation": 53.44562028848364,
+          "projectedIntersects": false
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "kind": "valid-air",
+      "distance": 100,
+      "delay": 0,
+      "dir": -1,
+      "time": 0.16666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 47.921848910327704,
+      "points": [
+        {
+          "x": 340.00226413146555,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 321.0033961971983,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 257.96169805167517,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 267.7665603,
+        "right": 332.2334397,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 267.7665603,
+        "right": 332.2334397,
+        "top": 247.4684509896723,
+        "bottom": 380.7976788396723
+      },
+      "actual": {
+        "left": 267.7665603,
+        "right": 332.2334397,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "10:1:52:candidate:eligible native strike segment",
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 49,
+        "target": 52,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 378.00000000000006,
+          "y": 480,
+          "dir": -1
+        },
+        "targetPosition": {
+          "x": 300,
+          "y": 480,
+          "dir": 1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 78.00000000000006,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 340.00226413146555,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 321.0033961971983,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 257.96169805167517,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 267.7665603,
+          "right": 332.2334397,
+          "top": 295.3902999,
+          "bottom": 428.71952775
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.16666666666666666,
+          "damage": 7,
+          "elevation": 47.921848910327704,
+          "projectedIntersects": true
+        }
+      ]
+    },
+    {
+      "version": "baseline",
+      "kind": "valid-air",
+      "distance": 100,
+      "delay": 0,
+      "dir": 1,
+      "time": 0.16666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 47.921848910327704,
+      "points": [
+        {
+          "x": 459.99773586853445,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 478.9966038028017,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 542.0383019483248,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 467.7665603,
+        "right": 532.2334397,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 467.7665603,
+        "right": 532.2334397,
+        "top": 247.4684509896723,
+        "bottom": 380.7976788396723
+      },
+      "actual": {
+        "left": 467.7665603,
+        "right": 532.2334397,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "10:1:59:candidate:eligible native strike segment",
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 56,
+        "target": 59,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 421.99999999999994,
+          "y": 480,
+          "dir": 1
+        },
+        "targetPosition": {
+          "x": 500,
+          "y": 480,
+          "dir": -1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 78.00000000000006,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 459.99773586853445,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 478.9966038028017,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 542.0383019483248,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 467.7665603,
+          "right": 532.2334397,
+          "top": 295.3902999,
+          "bottom": 428.71952775
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.16666666666666666,
+          "damage": 7,
+          "elevation": 47.921848910327704,
+          "projectedIntersects": true
+        }
+      ]
+    },
+    {
+      "version": "fixed",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 6,
+      "dir": -1,
+      "time": 0.26666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 57.35218792105746,
+      "points": [
+        {
+          "x": 347.7462641314655,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 328.74739619719827,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 265.7056980516751,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "actual": {
+        "left": 334.48411755190835,
+        "right": 398.9509969519084,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 0,
+      "candidate": {
+        "id": 2,
+        "key304": "16:1:24:candidate:strike segment misses hurtbox",
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 21,
+        "target": 24,
+        "phase": "candidate",
+        "reason": "strike segment misses hurtbox",
+        "allowed": false,
+        "sourcePosition": {
+          "x": 385.744,
+          "y": 480,
+          "dir": -1
+        },
+        "targetPosition": {
+          "x": 366.7175572519084,
+          "y": 480,
+          "dir": 1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 19.026442748091654,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 347.7462641314655,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 328.74739619719827,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 265.7056980516751,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 334.48411755190835,
+          "right": 398.9509969519084,
+          "top": 238.03811197894254,
+          "bottom": 371.36733982894253
+        },
+        "intersects": false
+      },
+      "finalTargetHp": 90,
+      "finalHeroHp": 105,
+      "contacts": []
+    },
+    {
+      "version": "fixed",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 6,
+      "dir": 1,
+      "time": 0.26666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 57.35218792105746,
+      "points": [
+        {
+          "x": 452.2537358685345,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 471.25260380280173,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 534.2943019483249,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "actual": {
+        "left": 401.0490030480916,
+        "right": 465.51588244809165,
+        "top": 238.03811197894254,
+        "bottom": 371.36733982894253
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 0,
+      "candidate": {
+        "id": 2,
+        "key304": "16:1:31:candidate:strike segment misses hurtbox",
+        "frame": 16,
+        "time": 0.26666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 28,
+        "target": 31,
+        "phase": "candidate",
+        "reason": "strike segment misses hurtbox",
+        "allowed": false,
+        "sourcePosition": {
+          "x": 414.256,
+          "y": 480,
+          "dir": 1
+        },
+        "targetPosition": {
+          "x": 433.2824427480916,
+          "y": 480,
+          "dir": -1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 19.026442748091654,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 452.2537358685345,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 471.25260380280173,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 534.2943019483249,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 401.0490030480916,
+          "right": 465.51588244809165,
+          "top": 238.03811197894254,
+          "bottom": 371.36733982894253
+        },
+        "intersects": false
+      },
+      "finalTargetHp": 90,
+      "finalHeroHp": 105,
+      "contacts": []
+    },
+    {
+      "version": "fixed",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 8,
+      "dir": -1,
+      "time": 0.3,
+      "heroFrame": 10,
+      "targetElevation": 53.44562028848364,
+      "points": [
+        {
+          "x": 353.6816534444426,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 334.68278551017534,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 271.6410873646522,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "actual": {
+        "left": 347.84289617786254,
+        "right": 412.3097755778626,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 0,
+      "candidate": {
+        "id": 2,
+        "key304": "18:1:38:candidate:strike segment misses hurtbox",
+        "frame": 18,
+        "time": 0.3,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 35,
+        "target": 38,
+        "phase": "candidate",
+        "reason": "strike segment misses hurtbox",
+        "allowed": false,
+        "sourcePosition": {
+          "x": 391.6793893129771,
+          "y": 480,
+          "dir": -1
+        },
+        "targetPosition": {
+          "x": 380.07633587786256,
+          "y": 480,
+          "dir": 1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 11.603053435114532,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 353.6816534444426,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 334.68278551017534,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 271.6410873646522,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 347.84289617786254,
+          "right": 412.3097755778626,
+          "top": 241.94467961151636,
+          "bottom": 375.2739074615164
+        },
+        "intersects": false
+      },
+      "finalTargetHp": 90,
+      "finalHeroHp": 105,
+      "contacts": []
+    },
+    {
+      "version": "fixed",
+      "kind": "phantom",
+      "distance": 60,
+      "delay": 8,
+      "dir": 1,
+      "time": 0.3,
+      "heroFrame": 10,
+      "targetElevation": 53.44562028848364,
+      "points": [
+        {
+          "x": 446.3183465555574,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 465.31721448982466,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 528.3589126353478,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "actual": {
+        "left": 387.6902244221374,
+        "right": 452.15710382213746,
+        "top": 241.94467961151636,
+        "bottom": 375.2739074615164
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 0,
+      "candidate": {
+        "id": 2,
+        "key304": "18:1:45:candidate:strike segment misses hurtbox",
+        "frame": 18,
+        "time": 0.3,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 42,
+        "target": 45,
+        "phase": "candidate",
+        "reason": "strike segment misses hurtbox",
+        "allowed": false,
+        "sourcePosition": {
+          "x": 408.3206106870229,
+          "y": 480,
+          "dir": 1
+        },
+        "targetPosition": {
+          "x": 419.92366412213744,
+          "y": 480,
+          "dir": -1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 11.603053435114532,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 446.3183465555574,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 465.31721448982466,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 528.3589126353478,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 387.6902244221374,
+          "right": 452.15710382213746,
+          "top": 241.94467961151636,
+          "bottom": 375.2739074615164
+        },
+        "intersects": false
+      },
+      "finalTargetHp": 90,
+      "finalHeroHp": 105,
+      "contacts": []
+    },
+    {
+      "version": "fixed",
+      "kind": "valid-air",
+      "distance": 100,
+      "delay": 0,
+      "dir": -1,
+      "time": 0.16666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 47.921848910327704,
+      "points": [
+        {
+          "x": 340.00226413146555,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 321.0033961971983,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 257.96169805167517,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 267.7665603,
+        "right": 332.2334397,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 267.7665603,
+        "right": 332.2334397,
+        "top": 247.4684509896723,
+        "bottom": 380.7976788396723
+      },
+      "actual": {
+        "left": 267.7665603,
+        "right": 332.2334397,
+        "top": 247.4684509896723,
+        "bottom": 380.7976788396723
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "10:1:52:candidate:eligible native strike segment",
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 49,
+        "target": 52,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 378.00000000000006,
+          "y": 480,
+          "dir": -1
+        },
+        "targetPosition": {
+          "x": 300,
+          "y": 480,
+          "dir": 1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 78.00000000000006,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 340.00226413146555,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 321.0033961971983,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 257.96169805167517,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 267.7665603,
+          "right": 332.2334397,
+          "top": 247.4684509896723,
+          "bottom": 380.7976788396723
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.16666666666666666,
+          "damage": 7,
+          "elevation": 47.921848910327704,
+          "projectedIntersects": true
+        }
+      ]
+    },
+    {
+      "version": "fixed",
+      "kind": "valid-air",
+      "distance": 100,
+      "delay": 0,
+      "dir": 1,
+      "time": 0.16666666666666666,
+      "heroFrame": 10,
+      "targetElevation": 47.921848910327704,
+      "points": [
+        {
+          "x": 459.99773586853445,
+          "y": 381.5513207042515
+        },
+        {
+          "x": 478.9966038028017,
+          "y": 372.0518867371179
+        },
+        {
+          "x": 542.0383019483248,
+          "y": 357.3709433333659
+        }
+      ],
+      "base": {
+        "left": 467.7665603,
+        "right": 532.2334397,
+        "top": 295.3902999,
+        "bottom": 428.71952775
+      },
+      "projected": {
+        "left": 467.7665603,
+        "right": 532.2334397,
+        "top": 247.4684509896723,
+        "bottom": 380.7976788396723
+      },
+      "actual": {
+        "left": 467.7665603,
+        "right": 532.2334397,
+        "top": 247.4684509896723,
+        "bottom": 380.7976788396723
+      },
+      "hpBefore": 90,
+      "heroHp": 105,
+      "criticalFrameDamage": 7,
+      "candidate": {
+        "id": 2,
+        "key304": "10:1:59:candidate:eligible native strike segment",
+        "frame": 10,
+        "time": 0.16666666666666666,
+        "actionId": 1,
+        "actionFrame": 10,
+        "move": "combo",
+        "kind": 1,
+        "source": 56,
+        "target": 59,
+        "phase": "candidate",
+        "reason": "eligible native strike segment",
+        "allowed": true,
+        "sourcePosition": {
+          "x": 421.99999999999994,
+          "y": 480,
+          "dir": 1
+        },
+        "targetPosition": {
+          "x": 500,
+          "y": 480,
+          "dir": -1
+        },
+        "flags": {
+          "hp": 90,
+          "inv": 0,
+          "wake": 0,
+          "entry": false,
+          "grounded": false,
+          "flight": false,
+          "held": false,
+          "phaseProtected": false,
+          "guard": 0,
+          "action": "martialFly"
+        },
+        "depth": 0,
+        "forwardDistance": 78.00000000000006,
+        "lane": 26,
+        "laneInclusive": true,
+        "reach": 115,
+        "points": [
+          {
+            "x": 459.99773586853445,
+            "y": 381.5513207042515
+          },
+          {
+            "x": 478.9966038028017,
+            "y": 372.0518867371179
+          },
+          {
+            "x": 542.0383019483248,
+            "y": 357.3709433333659
+          }
+        ],
+        "hurtbox": {
+          "left": 467.7665603,
+          "right": 532.2334397,
+          "top": 247.4684509896723,
+          "bottom": 380.7976788396723
+        },
+        "intersects": true
+      },
+      "finalTargetHp": 83,
+      "finalHeroHp": 105,
+      "contacts": [
+        {
+          "time": 0.16666666666666666,
+          "damage": 7,
+          "elevation": 47.921848910327704,
+          "projectedIntersects": true
+        }
+      ]
+    }
+  ]
+}

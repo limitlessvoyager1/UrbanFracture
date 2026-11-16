@@ -1,0 +1,78 @@
+URBAN FRACTURE — ASSIGNMENT 3 AI / GRAPPLE AUDIT AND REPAIR PROPOSAL
+Date: 2026-11-12
+Audit branch: audit/assignment3-ai-grapples
+Production / stable baseline: a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0
+AUDIT ONLY: no production, existing test, or QA registry changes.
+
+RECOMMENDATION
+A3-01: gate new unpaired direct enemy starts through the existing Director admission policy exactly once. This is the highest-impact confirmed admission gap in this audit. Preserve the three-point budget, two simultaneous commitments, all approved move data, and intentional capture/counter/wake behavior. Do not alter grapples or AI weights as part of this repair.
+Natural encounter incidence is NOT established: bounded native AI traces did not reproduce a violation. This is a confirmed shared-entry API defect with a demonstrated mechanism, not a claim of observed campaign attack spam.
+
+PRIORITIZED FINDINGS
+ID | status | severity / breadth / frequency / impact / risk / complexity
+A3-01 | CONFIRMED | High potential gameplay impact; eight enemy families at shared API; 8/8 controlled third-light admissions bypass cap, plus two-heavy 4-point case. Natural frequency unknown (0 violations in 30 bounded traces). Can exceed authored coordination caps. Medium-high regression risk around paired transitions and repeated requests; medium scoped repair.
+A3-02 | CONFIRMED diagnostic | Medium; AIObserver288 uses persistent denied135.reason as current selectionReason even after granted retry. One controlled rejection->grant case proves disagreement. Frequency in encounters not measured. Misleads investigation; small separate diagnostics repair, low-medium risk.
+A3-03 | CONFIRMED coverage blocker | Medium; grapples301 and crowd303 abort on unavailable historical source blobs before behavior. Two entry points blocked. Separate portability work preserving unavailable receipts, medium complexity.
+A3-04 | CONFIRMED stale test contract | Medium coverage; nightshade329 asserts grounded hero, superseded by explicit approved Build330 vault. Existing suite fails; repairs330 passes its current vault/release/collateral checks. Separate test-contract modernization, not a gameplay rollback.
+A3-S1 | SUSPECTED / unproven | Natural AI overload, repeated grab abuse, broad grapple desynchronization, missing move use or abnormal anti-air frequency. Not confirmed by these bounded samples; do not justify retuning.
+
+BASELINE AND COVERAGE
+Both original repairs 9c17d01 and 1985984 are ancestors, as are subsequent cumulative repairs through a73c51a. Stable remains a73c51a. Dist, existing tests and QA registry byte-identical to that baseline. Original export/eight archives recoverable; current delivery remains selective, not complete-project certification.
+Audit adds tools/assignment3, reports-assignment3 and a repair-log entry only; stable is not advanced by this audit.
+
+tools/assignment3/audit.cjs: 97,154 observational assertions, 48 controlled admission rows; 30 bounded actual native AI traces, 22,033 ticks / 177 attack registrations; 30 shared grapple fixtures. Assertions verify the observed current behavior, including the defect, rather than certify it corrected.
+Native AI: Reina/Niko at 30/60/120Hz in five groups: Marcus/Kevin/Bruno; Frankie/Carmen/Flint; Saito/Akari/Bruno; Flint/Jesse/Saito; Talon/Jaguar/Frankie. Native HP retained; no AI/action timing override. Passive player, up to 12 simulated seconds or death. No observed >3 points or >2 commitments. Not a difficulty/aggression-frequency certification, full campaign sample, or exhaustive moveset exercise.
+A harness correction ensured hero selection precedes group creation and asserts actual requested identities: selectHero resets the world. Only corrected traces are retained as evidence.
+
+Shared authored grapple matrix: Reina German Suplex/Outer Reap against Marcus/Bruno, and Bruno Powerbomb on Reina, mirrored at 30/60/120Hz. Expected one/two contact events, same descriptor/native action clock, constant lane and finite cleanup all observed. Existing fixture intentionally gives Bruno40HP for hero-grab threshold; not natural grab-frequency evidence. No new missing artwork diagnosis.
+Nightshade current repairs330 suite verifies vault >=95 elevation, all12poses, release44,27primary once,3distinct secondary contacts, finite completion. Source in nightshade-grabs258.js advanceFlight329 uses substeps <=1/120, swept old/next segment contact, per-target Set, three-successful-contact cap, tiered resistance and momentum reduction. Existing assertions do not prove every geometry or rendered body interaction. Forest/Gunner, Niko directional takedowns, Human Shield and all other paired moves are not comprehensively certified here. Existing counter/enemy suites supply scoped retained checks only.
+
+A3-01 ROOT CAUSE / FILES
+dist/audit135.js:
+- admit() delegates enemyAct requests to Director148.request.
+- P.enemyAct requests before calling its older path and sets directorStarting148 while nested start executes.
+- P.start calls its older start first, then registers a new enemy action through Director148.register when not directorStarting148.
+dist/director148.js:
+- request() checks pressure budget/maxAttackers, state/recovery, impact overlap, response opportunity and other policy.
+- register() records an already-created action; it does not enforce admission.
+Later shared reaction, knockdown and reassessment guards correctly block physical locks at both entry points but do not replace Director budget admission.
+Director request wrappers add firing-lane, grab-exclusivity, chemical restraint, companion protection and crowd-lane rules. Bypassing request can also skip those policies; only the explicit budget bypass is reproduced here.
+
+A3-01 REPRODUCTION
+Run node tools/assignment3/audit.cjs and node tools/assignment3/entry-probes.cjs from project root.
+Use clean native actors, Normal difficulty, AI disabled solely to isolate entry calls:
+1. Three same-family enemies in the current scene; call enemyAct(e,'kick',1.8,0.3+i*0.5,{damage:5,reach:110}) for each. First two commit; third is rejected.
+2. Fresh equivalent setup; invoke start with the same arguments. All three commit. Director reports3points/3commitments (two-commitment rule violated).
+3. Repeat across thug,knifeThug,enforcer,biker,cop,flint,sato,akari. These shared-API light probes intentionally isolate admission; they are not claims each family naturally selects that exact generic action.
+4. Two clean enforcers: direct start('oneTwo',1.5,0.3+i*0.6,{enemies210:true,damage:10,reach:130}) accepts4points/2commitments. enemyAct rejects the second and retains2points. Explicit input times isolate entry policy; do not treat them as newly approved authored move data.
+No combat data is changed by these audit fixtures.
+
+PROPOSED SCOPED REPAIR — AFTER APPROVAL, NEW BRANCH
+1. Keep Director148.request as the policy owner. Before creating a new unpaired direct enemy threat in the shared start wrapper, obtain admission once.
+2. Preserve the existing enemyAct-approved nested-start path; avoid duplicate request/RNG evaluation. Inventory wake-action direct starts in grab223 (already requests) and give those a bounded, explicit admission context if necessary. Do not infer authorization from a stale reservation.
+3. Preserve intentional captured-target transitions, grapples, reversals, successful counters, scripted utilities, hero starts and Director-disabled behavior. Current direct native callers largely perform paired capture/counter continuations; their presence is not itself a proven bug.
+4. On rejection return false before action mutation/registration; no orphan reservation or facing/cooldown/damage side effect. Keep accepted-path return semantics.
+5. Expected production scope: dist/audit135.js shared wrapper; at most a narrowly bounded admission context in dist/grab223.js for its already-requested wake path, plus affected cache tokens. No director tuning, damage/timing data, grapple engine, geometry, artwork, unrelated diagnostic changes, or global wrapper rewrite.
+6. Add tests/Director admission regression and central registry entry, preserving existing checks; update repair log. Stop and propose separately if maintaining these exceptions requires broader architecture.
+
+RISKS / ACCEPTANCE
+- Double request can consume random anti-air decisions or produce conflicting diagnostics. Assert one request per new attack for both entry paths, including wake path, no duplicate reservations.
+- Captures/counters often set ownership before start; rejecting a continuation can strand the hero. Test native Bruno powerbomb, Saito/Akari counters, grab retaliation, worker/security/Gus captures and intentional wake actions; preserve transfer cost and exact damage/timing.
+- Valid new attacks can be delayed by existing policy by design; do not cancel already committed threats or change recovery clocks to make room.
+- Regression must first fail on baseline: third-light and two-heavy direct starts. Corrected direct/AI paths respect3points/2commitments, relief, cooldowns/physical locks, projectile commitments, ally obstruction, response gaps and current lane policy.
+- Recheck all prior physical-admission suites, Director/stress, combat274, enemy/martial/Flint/Jesse/PCBI/counter and current vault suites. Compare accepted native trajectories/RNG/damage/timing with baseline for eligible controls and exception cases.
+- Render before/after controlled multi-enemy admission and captured continuations if environment permits; verify no stranded paired animation. No visual correction is claimed from this audit.
+
+A3-02 DETAILS — SEPARATE
+dist/ai-observer288.js snapshot.selectionReason = e.denied135?.reason || unavailable message. Native denial is persistent. After clearing prior commitments and successfully retrying the denied enemy, latestRequest.granted is true and current action kick, but selectionReason still says pressure budget. entry-probes.json records both. Proposed later read-only freshness-aware projection; preserve raw denial/history and native decisions. Do not combine with admission repair.
+
+TEST RESULTS / LIMITATIONS
+14 distinct relevant existing suites passed: director148, director148-stress, combat274, enemies210, martial212, flint211, jesse213, counters248, knockdown-admission, hitstun-eligibility, post-hit-reassessment, diagnostic288, pcbi316-gates, repairs330.
+director148-stress covers240 seeded legacy-load fixtures; it is not a substitute for current production-order traces.
+nightshade329 FAILED at grounded hero; incompatible with approved Build330 vault. Assertions not edited/waived.
+grapples301 and crowd303 BLOCKED before behavior by unavailable historical dist/core.js receipts. Do not claim either full suite passed.
+pcbi316-gates first reached report output then failed missing reports316 directory; directory created and unchanged suite rerun PASSED67checks.
+No rendered gameplay, physical hardware, full campaign, all-move usage, AI inspector UI or full-release certification performed. Existing 18collision/height plus9reaction historical receipts remain unavailable; prior portable behavior is retained. No missing evidence fabricated.
+
+DECISION
+Stop for approval. Recommend only A3-01 shared Director admission repair next. Keep diagnostics freshness, historical suite portability, obsolete Nightshade test cleanup and any grapple-specific repair separate.

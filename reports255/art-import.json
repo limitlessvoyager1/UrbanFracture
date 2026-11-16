@@ -1,0 +1,201 @@
+{
+  "frames": [
+    {
+      "src": "assets/nightshade255/gun-0.webp?v=255",
+      "w": 177,
+      "h": 415,
+      "ax": 83.0,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 0
+    },
+    {
+      "src": "assets/nightshade255/gun-1.webp?v=255",
+      "w": 182,
+      "h": 416,
+      "ax": 90.0,
+      "ay": 416,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 1
+    },
+    {
+      "src": "assets/nightshade255/gun-2.webp?v=255",
+      "w": 174,
+      "h": 415,
+      "ax": 75.5,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 2
+    },
+    {
+      "src": "assets/nightshade255/gun-3.webp?v=255",
+      "w": 214,
+      "h": 416,
+      "ax": 72.5,
+      "ay": 416,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 3,
+      "mx": 212,
+      "my": 67
+    },
+    {
+      "src": "assets/nightshade255/gun-4.webp?v=255",
+      "w": 206,
+      "h": 415,
+      "ax": 95.0,
+      "ay": 415,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 4
+    },
+    {
+      "src": "assets/nightshade255/gun-5.webp?v=255",
+      "w": 217,
+      "h": 416,
+      "ax": 76.5,
+      "ay": 416,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 5
+    },
+    {
+      "src": "assets/nightshade255/gun-6.webp?v=255",
+      "w": 185,
+      "h": 416,
+      "ax": 76.0,
+      "ay": 416,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 6
+    },
+    {
+      "src": "assets/nightshade255/gun-7.webp?v=255",
+      "w": 183,
+      "h": 416,
+      "ax": 74.0,
+      "ay": 416,
+      "scale": 0.2963855421686747,
+      "kind": "handgun",
+      "index": 7
+    }
+  ],
+  "policy": "Fixed source-atlas scale; root at waist; sole anchor; muzzle authored on aim frame3.",
+  "cells": [
+    {
+      "rect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "component": [
+        150,
+        17,
+        327,
+        432
+      ]
+    },
+    {
+      "rect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "component": [
+        144,
+        16,
+        326,
+        432
+      ]
+    },
+    {
+      "rect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "component": [
+        131,
+        17,
+        305,
+        432
+      ]
+    },
+    {
+      "rect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "component": [
+        118,
+        16,
+        332,
+        432
+      ]
+    },
+    {
+      "rect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "component": [
+        133,
+        16,
+        339,
+        431
+      ]
+    },
+    {
+      "rect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "component": [
+        131,
+        15,
+        348,
+        431
+      ]
+    },
+    {
+      "rect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "component": [
+        131,
+        15,
+        316,
+        431
+      ]
+    },
+    {
+      "rect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "component": [
+        116,
+        15,
+        299,
+        431
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "scenario": "five regulars",
+    "names": [
+      "Mike",
+      "Andrew",
+      "Luke",
+      "Thomas",
+      "John"
+    ],
+    "population": {
+      "total": 5,
+      "heavy": 0,
+      "regular": 5
+    },
+    "crew": {
+      "members": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "turn": null
+    },
+    "pressure": 2
+  },
+  {
+    "scenario": "heavy pair",
+    "names": [
+      "Lionel",
+      "Harland"
+    ],
+    "population": {
+      "total": 2,
+      "heavy": 2,
+      "regular": 0
+    },
+    "crew": {
+      "members": [
+        22
+      ],
+      "turn": null
+    },
+    "pressure": 0
+  },
+  {
+    "scenario": "four regulars and one heavy",
+    "names": [
+      {
+        "name": "Thomas",
+        "variant": "dockWorker"
+      },
+      {
+        "name": "Mike",
+        "variant": "dockWorker"
+      },
+      {
+        "name": "Luke",
+        "variant": "dockWorker"
+      },
+      {
+        "name": "John",
+        "variant": "dockWorker"
+      },
+      {
+        "name": "Harland",
+        "variant": "heavyDockWorker"
+      }
+    ],
+    "population": {
+      "total": 5,
+      "heavy": 1,
+      "regular": 4
+    },
+    "crew": {
+      "members": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "turn": 30
+    },
+    "pressure": 0,
+    "roles": [
+      "Flank left",
+      "Pressure",
+      "Flank left",
+      "Flank right",
+      "Pressure"
+    ]
+  },
+  {
+    "scenario": "same mixed crew after disarm",
+    "names": [
+      "Thomas",
+      "Mike",
+      "Luke",
+      "John",
+      "Harland"
+    ],
+    "weapons": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "population": {
+      "total": 5,
+      "heavy": 1,
+      "regular": 4
+    }
+  }
+]

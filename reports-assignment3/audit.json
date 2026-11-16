@@ -1,0 +1,2703 @@
+{
+  "baseline": "a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0",
+  "checks": 97154,
+  "admission": [
+    {
+      "path": "enemyAct",
+      "type": "thug",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "thug",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "thug",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "knifeThug",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "knifeThug",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "knifeThug",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "enforcer",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "enforcer",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "enforcer",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "biker",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "biker",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "biker",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "cop",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "cop",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "cop",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "flint",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "flint",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "flint",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "sato",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "sato",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "sato",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "enemyAct",
+      "type": "akari",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "akari",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "enemyAct",
+      "type": "akari",
+      "index": 2,
+      "started": false,
+      "points": 2,
+      "commitments": 2,
+      "reason": "pressure budget"
+    },
+    {
+      "path": "start",
+      "type": "thug",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "thug",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "thug",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "knifeThug",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "knifeThug",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "knifeThug",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "enforcer",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "enforcer",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "enforcer",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "biker",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "biker",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "biker",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "cop",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "cop",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "cop",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "flint",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "flint",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "flint",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "sato",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "sato",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "sato",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "akari",
+      "index": 0,
+      "started": true,
+      "points": 1,
+      "commitments": 1,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "akari",
+      "index": 1,
+      "started": true,
+      "points": 2,
+      "commitments": 2,
+      "reason": null
+    },
+    {
+      "path": "start",
+      "type": "akari",
+      "index": 2,
+      "started": true,
+      "points": 3,
+      "commitments": 3,
+      "reason": null
+    }
+  ],
+  "natural": [
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "ticks": 360,
+      "elapsed": 11.999999999999968,
+      "playerHp": 43,
+      "maxPoints": 3,
+      "maxCommit": 2,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.7,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.1999999999999984,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 4.533333333333327,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.233333333333317,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 10.199999999999974,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 10.36666666666664,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 3,
+          "commitments": 2
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "ticks": 234,
+      "elapsed": 7.799999999999982,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 1.2000000000000004,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.599999999999997,
+          "type": "cop",
+          "attack": "batonCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.266666666666658,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.366666666666654,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.299999999999984,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "ticks": 360,
+      "elapsed": 11.999999999999968,
+      "playerHp": 35,
+      "maxPoints": 2,
+      "maxCommit": 2,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 4.633333333333327,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 7.36666666666665,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 8.166666666666648,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 8.299999999999981,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 2
+        },
+        {
+          "at": 11.466666666666637,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "ticks": 360,
+      "elapsed": 11.999999999999968,
+      "playerHp": 49,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.1000000000000023,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 5.066666666666658,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.233333333333315,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 11.566666666666636,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 30,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "ticks": 192,
+      "elapsed": 6.399999999999987,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 0.6333333333333333,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.8666666666666663,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.933333333333329,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.566666666666657,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "ticks": 720,
+      "elapsed": 12.000000000000176,
+      "playerHp": 43,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.633333333333329,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.383333333333326,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 4.883333333333321,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.516666666666645,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.283333333333324,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 9.866666666666736,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "ticks": 504,
+      "elapsed": 8.399999999999997,
+      "playerHp": 0,
+      "maxPoints": 3,
+      "maxCommit": 2,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "biker",
+          "attack": "chainFist",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 0.016666666666666666,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 3,
+          "commitments": 2
+        },
+        {
+          "at": 1.183333333333334,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.3333333333333264,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.13333333333332,
+          "type": "cop",
+          "attack": "batonCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.833333333333314,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.916666666666644,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "ticks": 720,
+      "elapsed": 12.000000000000176,
+      "playerHp": 42,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "akari",
+          "attack": "martialFly",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 1.9999999999999978,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 2.7666666666666617,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 8.666666666666677,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 9.433333333333382,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 10.216666666666754,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "ticks": 720,
+      "elapsed": 12.000000000000176,
+      "playerHp": 77,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.9666666666666575,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.166666666666652,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 11.466666666666816,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 60,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "ticks": 509,
+      "elapsed": 8.483333333333334,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 0.5833333333333335,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.099999999999994,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 4.133333333333324,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.2166666666666535,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.949999999999981,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.9333333333333105,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "ticks": 1440,
+      "elapsed": 11.99999999999996,
+      "playerHp": 43,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.6083333333333267,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.324999999999991,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 4.816666666666696,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.625000000000169,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 10.041666666666737,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 10.800000000000027,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "ticks": 1022,
+      "elapsed": 8.516666666666824,
+      "playerHp": 0,
+      "maxPoints": 3,
+      "maxCommit": 2,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "biker",
+          "attack": "chainKick",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 0.008333333333333333,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 3,
+          "commitments": 2
+        },
+        {
+          "at": 2.016666666666662,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.333333333333324,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.608333333333402,
+          "type": "cop",
+          "attack": "taserGrab",
+          "held": false,
+          "points": 1.5,
+          "commitments": 1
+        },
+        {
+          "at": 5.975000000000087,
+          "type": "cop",
+          "attack": "taser",
+          "held": true,
+          "points": 1.5,
+          "commitments": 1
+        },
+        {
+          "at": 7.708333333333506,
+          "type": "cop",
+          "attack": "batonCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "ticks": 1440,
+      "elapsed": 11.99999999999996,
+      "playerHp": 18,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 2.6249999999999933,
+          "type": "enforcer",
+          "attack": "oneTwo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.900000000000083,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 8.850000000000138,
+          "type": "sato",
+          "attack": "martialFly",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 9.425000000000106,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 10.183333333333396,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "ticks": 1440,
+      "elapsed": 11.99999999999996,
+      "playerHp": 50,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.9499999999999886,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.6750000000001215,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 9.625000000000094,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 11.316666666666665,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "reina",
+      "hz": 120,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "ticks": 839,
+      "elapsed": 6.991666666666804,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 0.5583333333333338,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.1749999999999914,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 4.216666666666666,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.608333333333402,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.7416666666667915,
+          "type": "talon",
+          "attack": "pcbiGun316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "ticks": 360,
+      "elapsed": 11.999999999999968,
+      "playerHp": 60,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.7666666666666666,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.49999999999999,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.266666666666648,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 11.033333333333305,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "ticks": 243,
+      "elapsed": 8.099999999999982,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 1.466666666666668,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.599999999999997,
+          "type": "cop",
+          "attack": "batonCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.266666666666658,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.366666666666654,
+          "type": "cop",
+          "attack": "taserShot",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.833333333333315,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "ticks": 360,
+      "elapsed": 11.999999999999968,
+      "playerHp": 33,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 4.633333333333327,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 7.36666666666665,
+          "type": "sato",
+          "attack": "martialFly",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.899999999999982,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 8.59999999999998,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "ticks": 360,
+      "elapsed": 11.999999999999968,
+      "playerHp": 54,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.333333333333335,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 5.299999999999991,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.633333333333313,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 11.933333333333302,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 30,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "ticks": 192,
+      "elapsed": 6.399999999999987,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.03333333333333333,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 0.6333333333333333,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.8666666666666663,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.933333333333329,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.566666666666657,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "ticks": 720,
+      "elapsed": 12.000000000000176,
+      "playerHp": 48,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.633333333333329,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.1166666666666605,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 4.966666666666654,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.583333333333312,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.866666666666687,
+          "type": "knifeThug",
+          "attack": "knifeSlash",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 9.916666666666739,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "ticks": 423,
+      "elapsed": 7.04999999999998,
+      "playerHp": 0,
+      "maxPoints": 3,
+      "maxCommit": 2,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "biker",
+          "attack": "chainFist",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 0.016666666666666666,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 3,
+          "commitments": 2
+        },
+        {
+          "at": 1.4499999999999997,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.7499999999999916,
+          "type": "cop",
+          "attack": "batonCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.483333333333319,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.566666666666649,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "ticks": 720,
+      "elapsed": 12.000000000000176,
+      "playerHp": 47,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "akari",
+          "attack": "martialFly",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 1.9999999999999978,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 2.7666666666666617,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 5.499999999999986,
+          "type": "sato",
+          "attack": "martialFly",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.933333333333314,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 9.883333333333404,
+          "type": "enforcer",
+          "attack": "oneTwo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 11.716666666666828,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "ticks": 720,
+      "elapsed": 12.000000000000176,
+      "playerHp": 40,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.449999999999996,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 5.399999999999986,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.449999999999979,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 10.400000000000096,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 60,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "ticks": 509,
+      "elapsed": 8.483333333333334,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.016666666666666666,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 1.0500000000000012,
+          "type": "talon",
+          "attack": "pcbiBatonCombo316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.6499999999999955,
+          "type": "talon",
+          "attack": "pcbiDisengageThrow316",
+          "held": false,
+          "points": 1.5,
+          "commitments": 1
+        },
+        {
+          "at": 6.949999999999981,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 7.9333333333333105,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "thug",
+        "knifeThug",
+        "enforcer"
+      ],
+      "ticks": 1440,
+      "elapsed": 11.99999999999996,
+      "playerHp": 60,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.6833333333333265,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.383333333333391,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 8.083333333333515,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 10.766666666666696,
+          "type": "thug",
+          "attack": "hook",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "biker",
+        "cop",
+        "flint"
+      ],
+      "ticks": 1020,
+      "elapsed": 8.500000000000158,
+      "playerHp": 0,
+      "maxPoints": 3,
+      "maxCommit": 2,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "biker",
+          "attack": "chainKick",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 0.008333333333333333,
+          "type": "cop",
+          "attack": "copDash",
+          "held": false,
+          "points": 3,
+          "commitments": 2
+        },
+        {
+          "at": 2.016666666666662,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.4999999999999902,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.591666666666734,
+          "type": "cop",
+          "attack": "taserGrab",
+          "held": false,
+          "points": 1.5,
+          "commitments": 1
+        },
+        {
+          "at": 5.958333333333419,
+          "type": "cop",
+          "attack": "taser",
+          "held": true,
+          "points": 1.5,
+          "commitments": 1
+        },
+        {
+          "at": 7.691666666666839,
+          "type": "cop",
+          "attack": "batonCombo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "sato",
+        "akari",
+        "enforcer"
+      ],
+      "ticks": 1440,
+      "elapsed": 11.99999999999996,
+      "playerHp": 36,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 2.449999999999994,
+          "type": "enforcer",
+          "attack": "oneTwo",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 4.950000000000036,
+          "type": "sato",
+          "attack": "martialFly",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 5.858333333333414,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 8.9416666666668,
+          "type": "akari",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 11.025000000000015,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "flint",
+        "robber",
+        "sato"
+      ],
+      "ticks": 1440,
+      "elapsed": 11.99999999999996,
+      "playerHp": 30,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 2.483333333333327,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 5.433333333333393,
+          "type": "flint",
+          "attack": "flintHeavy",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.31666666666677,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        },
+        {
+          "at": 9.658333333333426,
+          "type": "flint",
+          "attack": "flintWild",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 11.924999999999963,
+          "type": "sato",
+          "attack": "martialCombo",
+          "held": false,
+          "points": 1,
+          "commitments": 1
+        }
+      ]
+    },
+    {
+      "hero": "niko",
+      "hz": 120,
+      "types": [
+        "talon",
+        "jaguar",
+        "biker"
+      ],
+      "ticks": 1226,
+      "elapsed": 10.216666666666727,
+      "playerHp": 0,
+      "maxPoints": 2,
+      "maxCommit": 1,
+      "violations": [],
+      "starts": [
+        {
+          "at": 0.008333333333333333,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 1.7749999999999961,
+          "type": "jaguar",
+          "attack": "pcbiGun316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 3.2833333333333243,
+          "type": "talon",
+          "attack": "pcbiBatonThrust316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 4.325000000000005,
+          "type": "talon",
+          "attack": "pcbiBatonSweep316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 4.733333333333358,
+          "type": "biker",
+          "attack": "chainLash",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.05000000000009,
+          "type": "talon",
+          "attack": "pcbiGun316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 6.98333333333347,
+          "type": "biker",
+          "attack": "chainSweep",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        },
+        {
+          "at": 9.566666666666764,
+          "type": "talon",
+          "attack": "pcbiGun316",
+          "held": false,
+          "points": 2,
+          "commitments": 1
+        }
+      ]
+    }
+  ],
+  "grapples": [
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "hz": 30,
+      "hits": 1,
+      "damage": 28,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "hz": 60,
+      "hits": 1,
+      "damage": 28,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": -1,
+      "hz": 120,
+      "hits": 1,
+      "damage": 28,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "hz": 30,
+      "hits": 1,
+      "damage": 28,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "hz": 60,
+      "hits": 1,
+      "damage": 28,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "thug",
+      "dir": 1,
+      "hz": 120,
+      "hits": 1,
+      "damage": 28,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 30,
+      "hits": 1,
+      "damage": 103,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 60,
+      "hits": 1,
+      "damage": 103,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 120,
+      "hits": 1,
+      "damage": 103,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 30,
+      "hits": 1,
+      "damage": 103,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 60,
+      "hits": 1,
+      "damage": 103,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "german",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 120,
+      "hits": 1,
+      "damage": 103,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "hz": 30,
+      "hits": 2,
+      "damage": 22,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "hz": 60,
+      "hits": 2,
+      "damage": 22,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": -1,
+      "hz": 120,
+      "hits": 2,
+      "damage": 22,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "hz": 30,
+      "hits": 2,
+      "damage": 22,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "hz": 60,
+      "hits": 2,
+      "damage": 22,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "thug",
+      "dir": 1,
+      "hz": 120,
+      "hits": 2,
+      "damage": 22,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 30,
+      "hits": 2,
+      "damage": 95,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 60,
+      "hits": 2,
+      "damage": 95,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 120,
+      "hits": 2,
+      "damage": 95,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 30,
+      "hits": 2,
+      "damage": 95,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 60,
+      "hits": 2,
+      "damage": 95,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "reap",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 120,
+      "hits": 2,
+      "damage": 95,
+      "maxGap": 0,
+      "total": 1.5,
+      "release": true
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 30,
+      "hits": 1,
+      "damage": 33,
+      "maxGap": 0,
+      "total": 1.05,
+      "release": true
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 60,
+      "hits": 1,
+      "damage": 33,
+      "maxGap": 0,
+      "total": 1.05,
+      "release": true
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": -1,
+      "hz": 120,
+      "hits": 1,
+      "damage": 33,
+      "maxGap": 0,
+      "total": 1.05,
+      "release": true
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 30,
+      "hits": 1,
+      "damage": 33,
+      "maxGap": 0,
+      "total": 1.05,
+      "release": true
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 60,
+      "hits": 1,
+      "damage": 33,
+      "maxGap": 0,
+      "total": 1.05,
+      "release": true
+    },
+    {
+      "move": "powerbomb",
+      "type": "enforcer",
+      "dir": 1,
+      "hz": 120,
+      "hits": 1,
+      "damage": 33,
+      "maxGap": 0,
+      "total": 1.05,
+      "release": true
+    }
+  ],
+  "limitations": [
+    "Shared API probes are deliberate calls, not natural-selection frequency.",
+    "Natural traces are bounded passive-player samples with native HP; no exhaustive encounter certification.",
+    "Grapple fixtures retain authored setup; no rendered synchronization claim."
+  ]
+}

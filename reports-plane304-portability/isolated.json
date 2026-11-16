@@ -1,0 +1,79 @@
+{
+  "isolatedDirectory": "C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\plane304-portability-LyBPAN",
+  "copiedFiles": 526,
+  "noGitDirectory": true,
+  "results": [
+    {
+      "suite": "collision",
+      "scenario": "no Git and no repository",
+      "exit": 0,
+      "checks": 4563,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "stdout": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n"
+    },
+    {
+      "suite": "height",
+      "scenario": "no Git and no repository",
+      "exit": 0,
+      "checks": 1774,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "stdout": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 height behavioral 1774\n"
+    },
+    {
+      "suite": "collision",
+      "scenario": "Git present, no repository",
+      "exit": 0,
+      "checks": 4563,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "stdout": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n"
+    },
+    {
+      "suite": "height",
+      "scenario": "Git present, no repository",
+      "exit": 0,
+      "checks": 1774,
+      "behavior": "passed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "stdout": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 height behavioral 1774\n"
+    },
+    {
+      "suite": "collision",
+      "scenario": "available historical mismatch",
+      "exit": 1,
+      "checks": 4563,
+      "behavior": "passed",
+      "historical": "failed",
+      "sourceProof": false,
+      "stdout": "collision historical receipts: FAILED {\"passed\":0,\"failed\":17,\"unavailable\":0}\n"
+    },
+    {
+      "suite": "height",
+      "scenario": "available historical mismatch",
+      "exit": 1,
+      "checks": 1774,
+      "behavior": "passed",
+      "historical": "failed",
+      "sourceProof": false,
+      "stdout": "height historical receipts: FAILED {\"passed\":0,\"failed\":1,\"unavailable\":0}\n"
+    },
+    {
+      "suite": "height",
+      "scenario": "actual live height mutation with history absent",
+      "exit": 1,
+      "checks": 0,
+      "behavior": "failed",
+      "historical": "unavailable",
+      "sourceProof": null,
+      "stdout": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\n"
+    }
+  ],
+  "result": "passed",
+  "scope": "Actual behavioral entry scripts run from a minimal source copy with no .git or Git executable; available mismatches still fail after behavior; independent fixed oracle catches live height mutation."
+}

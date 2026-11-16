@@ -1,0 +1,24 @@
+{
+  "build": "Playtest251",
+  "scene": "nightshade251.html",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "evidence": "browser-foundation.jpg",
+  "observed": [
+    "Main menu selection: Nightshade110HP/100defense",
+    "Reference outfit and fixed-scale body in ordinary gameplay",
+    "Developer inspector: accepted Unique input serial1",
+    "Developer inspector: jump ascent/descent and return to idle",
+    "Developer inspector: knockdown, get-up and return to idle",
+    "Settings: U survived a fresh browser reload after correction; restored defaultF"
+  ],
+  "unverified": [
+    "Physical DualSense",
+    "Human art/animation acceptance",
+    "Broad gameplay performance",
+    "All-moves completeness and Normal balance"
+  ],
+  "baselineApproved": false
+}

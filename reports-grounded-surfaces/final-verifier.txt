@@ -1,0 +1,169 @@
+{
+  "status": "functional-passed-performance-review",
+  "functionalStatus": "passed",
+  "performanceAcceptance": "NOT CLEARED: prior frame-budget hold remains; mixed-eight static mean improvement not established",
+  "sourceFingerprint": "24c551c639dc4b0d70e8bb2bfbbf7b8bef32348b127e49288eaaef722742a64a",
+  "baseline": "79dfd8d83d64f1aa25256799c3dd1b4788fa67e8",
+  "baselineSpriteSHA256": "5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1",
+  "checksPassed": 15,
+  "checksFailed": 0,
+  "checks": [
+    "Final source and independently reconstructed audited baseline",
+    "New exact-pixel/ownership/cap suite and original cache regressions pass",
+    "Six deliberate read-buffer regressions detected",
+    "All26behavior and8existing render entries pass, initial timeouts retained",
+    "Five current render families have final source receipts",
+    "480persistent shipping samples preserve exact pixels, bounds and native receipts",
+    "Separate fresh-family browser480comparisons and40native frames pass",
+    "Retained Chromium output and four lifetime pixel controls remain exact",
+    "Four isolated verification hosts exit cleanly; earlier native crash retained",
+    "Uninstrumented matrix/ABBA physical states and final scene pixels match baseline",
+    "Observed allocation reductions retain both pool caps",
+    "No page JavaScript errors in final browser runs",
+    "Production/configuration/source-proof preservation and strict historical gates",
+    "55receipt and QA-validator tests pass",
+    "New tools/tests parse and source diff is clean"
+  ],
+  "runtimeChecks": 27293,
+  "exactRuntimePixelCases": 336,
+  "oldCacheChecks": 1158,
+  "gitUnavailableRuntimeRunPassed": true,
+  "behaviorSuites": 26,
+  "existingRenderEntries": 8,
+  "negativeControls": 6,
+  "receiptValidatorTests": 55,
+  "exactShippingPairs": 480,
+  "freshFamilyPairs": 480,
+  "nativeGameFrames": 40,
+  "lifetimePairs": 4,
+  "performance": [
+    {
+      "roster": "mixed",
+      "baselineMeanMs": 13.886111111069718,
+      "candidateMeanMs": 13.901527777686715,
+      "savingMs": -0.015416666616996366,
+      "savingPercent": -0.11102220408352143,
+      "baselineP95ByBlock": [
+        24.600000023841858,
+        27.799999982118607
+      ],
+      "candidateP95ByBlock": [
+        25.80000001192093,
+        25.5
+      ]
+    },
+    {
+      "roster": "changing",
+      "baselineMeanMs": 18.229583332853185,
+      "candidateMeanMs": 17.3429166663852,
+      "savingMs": 0.8866666664679848,
+      "savingPercent": 4.863888824436499,
+      "baselineP95ByBlock": [
+        32.19999998807907,
+        34.099999994039536
+      ],
+      "candidateP95ByBlock": [
+        32.400000005960464,
+        30
+      ]
+    }
+  ],
+  "matrix": "see verification.json",
+  "heap": "see verification.json",
+  "allocation": [
+    {
+      "roster": "same",
+      "count": 1,
+      "fresh": 3,
+      "reused": 357,
+      "calls": 360,
+      "peakCount": 6,
+      "peakBytes": 307692,
+      "reusePercent": 99.16666666666667
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "fresh": 0,
+      "reused": 360,
+      "calls": 360,
+      "peakCount": 6,
+      "peakBytes": 307692,
+      "reusePercent": 100
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "fresh": 0,
+      "reused": 360,
+      "calls": 360,
+      "peakCount": 6,
+      "peakBytes": 307692,
+      "reusePercent": 100
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "fresh": 0,
+      "reused": 360,
+      "calls": 360,
+      "peakCount": 6,
+      "peakBytes": 307692,
+      "reusePercent": 100
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "fresh": 5,
+      "reused": 1435,
+      "calls": 1440,
+      "peakCount": 16,
+      "peakBytes": 786360,
+      "reusePercent": 99.65277777777779
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "fresh": 0,
+      "reused": 2520,
+      "calls": 2520,
+      "peakCount": 19,
+      "peakBytes": 953760,
+      "reusePercent": 100
+    },
+    {
+      "roster": "changing",
+      "count": 1,
+      "fresh": 8,
+      "reused": 352,
+      "calls": 360,
+      "peakCount": 27,
+      "peakBytes": 1371924,
+      "reusePercent": 97.77777777777777
+    },
+    {
+      "roster": "changing",
+      "count": 4,
+      "fresh": 2,
+      "reused": 1258,
+      "calls": 1260,
+      "peakCount": 31,
+      "peakBytes": 1564180,
+      "reusePercent": 99.84126984126985
+    },
+    {
+      "roster": "changing",
+      "count": 8,
+      "fresh": 141,
+      "reused": 2469,
+      "calls": 2610,
+      "peakCount": 32,
+      "peakBytes": 1684892,
+      "reusePercent": 94.59770114942529
+    }
+  ],
+  "initialTimeouts": 3,
+  "initialHostCrash": "Native Node cleanup failure after initial completed matrix receipt; isolated matrix/performance/allocation/lifetime all rerun with clean exits; cause not established",
+  "historical": "45receipts UNAVAILABLE, strict CLIs exit2, no waived gates",
+  "visualVerification": "See inspected native pose/full-scene/lifetime sheets and REPORT.txt; no artistic/full-campaign/physical hardware certification"
+}

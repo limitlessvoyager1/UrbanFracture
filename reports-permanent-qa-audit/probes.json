@@ -1,0 +1,60 @@
+{
+  "scope": "Synthetic audit fixtures only; NO real stable approval, real report or application source altered",
+  "fingerprintOmission": {
+    "helper": "tools/fighter-render/load.cjs",
+    "before": "ef735ab26c8805f63f5e7999af44fdf1a841eea98674c027166d30ad53ea1346",
+    "after": "ef735ab26c8805f63f5e7999af44fdf1a841eea98674c027166d30ad53ea1346",
+    "unchanged": true
+  },
+  "statusBoundary": {
+    "unknownBlocked": {
+      "status": "stable-candidate",
+      "stable": false,
+      "failed": [],
+      "missing": [],
+      "reason": "Automated gates pass; owner acceptance still required."
+    },
+    "unperformedManualWithComparator": {
+      "status": "needs-review",
+      "stable": false,
+      "failed": [],
+      "missing": []
+    },
+    "note": "Current runner emits legacy statuses; unknown-status acceptance is a boundary gap for future adapters, not proof its normal run promoted anything."
+  },
+  "numericLifecycleValidator": {
+    "acceptedFrozenRecoveryFixture": true,
+    "note": "Numeric timing/exit validator does not inspect physical recovery motion; not a reproduction of any actual move defect."
+  },
+  "releaseChecker": {
+    "acceptedContradictorySyntheticReceipt": true,
+    "exit": 0,
+    "stdout": "Automated stable-candidate gates satisfied. Human acceptance remains separate.\n",
+    "stderr": "",
+    "note": "Checker trusts stored decision; this synthetic receipt exists only inside isolated-contract-fixture, never root reports242."
+  },
+  "approvedGameplaySpriteReversal": "Exact byte equality to UF-COMBAT-018 source after reversing only025/027render changes",
+  "toolchain": [
+    {
+      "tool": "git",
+      "exit": null,
+      "error": "ENOENT"
+    },
+    {
+      "tool": "node",
+      "exit": 0,
+      "stdout": "v22.21.0",
+      "stderr": ""
+    },
+    {
+      "tool": "python",
+      "exit": null,
+      "error": "EACCES"
+    },
+    {
+      "tool": "python3",
+      "exit": null,
+      "error": "EACCES"
+    }
+  ]
+}

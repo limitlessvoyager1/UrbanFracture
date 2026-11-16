@@ -1,0 +1,1487 @@
+{
+  "schema": 1,
+  "build": "QA242",
+  "createdAt": "2026-11-05T16:12:21.004Z",
+  "profile": "initial",
+  "checkpoint": "checkpoint-before-qa242",
+  "lastProductionCommit": "7784bd683d851f6719b7c12f0f947720f7fa4ed4",
+  "sourceCommit": "245594396197c37aa19d5048afd45d276c996bae",
+  "sourceFingerprint": "3175535e75d15aea3a20cfc7cc2ed21a9b2ef637e29d1128918331d3757309bc",
+  "sourceChangedDuringTests": false,
+  "durationMs": 57386,
+  "decision": {
+    "status": "needs-review",
+    "stable": false,
+    "failed": [],
+    "missing": [
+      "campaign224",
+      "subway238",
+      "stadium237",
+      "security216-legacy",
+      "current216-legacy"
+    ]
+  },
+  "counts": {
+    "executed": 25,
+    "passed": 25,
+    "failed": 0,
+    "notExecuted": 10
+  },
+  "results": [
+    {
+      "id": "validator-self-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-validators.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 193,
+      "log": "reports242/validator-self-tests.log",
+      "error": null
+    },
+    {
+      "id": "guarded-repair-self-tests",
+      "command": [
+        "node",
+        "tests/qa242-repair.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 70,
+      "log": "reports242/guarded-repair-self-tests.log",
+      "error": null
+    },
+    {
+      "id": "image-certification",
+      "command": [
+        "python",
+        "tools/qa242/assets.py",
+        "--output",
+        "reports242/assets.json"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 596,
+      "log": "reports242/image-certification.log",
+      "error": null
+    },
+    {
+      "id": "screenshot-comparator-self-tests",
+      "command": [
+        "python",
+        "tests/qa242-compare.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 64,
+      "log": "reports242/screenshot-comparator-self-tests.log",
+      "error": null
+    },
+    {
+      "id": "current-runtime-certification",
+      "command": [
+        "node",
+        "tests/qa242-runtime.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 307,
+      "log": "reports242/current-runtime-certification.log",
+      "error": null
+    },
+    {
+      "id": "scene-scale-certification",
+      "command": [
+        "node",
+        "tests/qa242-scenes.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 162,
+      "log": "reports242/scene-scale-certification.log",
+      "error": null
+    },
+    {
+      "id": "prior-fixes241",
+      "command": [
+        "node",
+        "tests/stabilization241.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 205,
+      "log": "reports242/prior-fixes241.log",
+      "error": null
+    },
+    {
+      "id": "movement240",
+      "command": [
+        "node",
+        "tests/stabilization240.cjs"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 1005,
+      "log": "reports242/movement240.log",
+      "error": null
+    },
+    {
+      "id": "run-art240",
+      "command": [
+        "python",
+        "tests/run240-art.py"
+      ],
+      "framework": "existing-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 172,
+      "log": "reports242/run-art240.log",
+      "error": null
+    },
+    {
+      "id": "controller240",
+      "command": [
+        "node",
+        "tests/stadium240-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 2716,
+      "log": "reports242/controller240.log",
+      "error": null
+    },
+    {
+      "id": "lab-fire168",
+      "command": [
+        "node",
+        "tests/cabin168.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 1959,
+      "log": "reports242/lab-fire168.log",
+      "error": null
+    },
+    {
+      "id": "lab-scientists166",
+      "command": [
+        "node",
+        "tests/lab-fighters166.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 1871,
+      "log": "reports242/lab-scientists166.log",
+      "error": null
+    },
+    {
+      "id": "casino192",
+      "command": [
+        "node",
+        "tests/casino192.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 524,
+      "log": "reports242/casino192.log",
+      "error": null
+    },
+    {
+      "id": "campaign224",
+      "command": [
+        "node",
+        "tests/prison224-all.cjs"
+      ],
+      "framework": "existing-cross-system",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "PRISON224-results.json"
+      ],
+      "status": "not-executed",
+      "reason": "Outside initial profile"
+    },
+    {
+      "id": "subway238",
+      "command": [
+        "node",
+        "tests/subway238.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "not-executed",
+      "reason": "Outside initial profile"
+    },
+    {
+      "id": "stadium237",
+      "command": [
+        "node",
+        "tests/stadium237.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "not-executed",
+      "reason": "Outside initial profile"
+    },
+    {
+      "id": "security216-legacy",
+      "command": [
+        "node",
+        "tests/security216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "not-executed",
+      "reason": "Outside initial profile"
+    },
+    {
+      "id": "current216-legacy",
+      "command": [
+        "node",
+        "tests/current216.cjs"
+      ],
+      "framework": "existing-combat",
+      "profiles": [
+        "release"
+      ],
+      "critical": true,
+      "status": "not-executed",
+      "reason": "Outside initial profile"
+    },
+    {
+      "id": "hydro243-progression",
+      "command": [
+        "node",
+        "tests/hydro243.cjs"
+      ],
+      "framework": "existing-progression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 25864,
+      "log": "reports242/hydro243-progression.log",
+      "error": null
+    },
+    {
+      "id": "hydro243-view",
+      "command": [
+        "node",
+        "tests/hydro243-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 296,
+      "log": "reports242/hydro243-view.log",
+      "error": null
+    },
+    {
+      "id": "hydro243-controller",
+      "command": [
+        "node",
+        "tests/hydro243-controller.cjs"
+      ],
+      "framework": "existing-controller",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 4193,
+      "log": "reports242/hydro243-controller.log",
+      "error": null
+    },
+    {
+      "id": "broxton244",
+      "command": [
+        "node",
+        "tests/broxton244.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 4013,
+      "log": "reports242/broxton244.log",
+      "error": null
+    },
+    {
+      "id": "broxton244-controller",
+      "command": [
+        "node",
+        "tests/broxton244-controller.cjs"
+      ],
+      "framework": "controller-reliability",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 603,
+      "log": "reports242/broxton244-controller.log",
+      "error": null
+    },
+    {
+      "id": "broxton244-view",
+      "command": [
+        "node",
+        "tests/broxton244-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 74,
+      "log": "reports242/broxton244-view.log",
+      "error": null
+    },
+    {
+      "id": "subway245",
+      "command": [
+        "node",
+        "tests/subway245.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 7849,
+      "log": "reports242/subway245.log",
+      "error": null
+    },
+    {
+      "id": "subway245-view",
+      "command": [
+        "node",
+        "tests/subway245-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 278,
+      "log": "reports242/subway245-view.log",
+      "error": null
+    },
+    {
+      "id": "continuation246",
+      "command": [
+        "node",
+        "tests/continuation246.cjs"
+      ],
+      "framework": "cross-system-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 671,
+      "log": "reports242/continuation246.log",
+      "error": null
+    },
+    {
+      "id": "grab-variants246",
+      "command": [
+        "node",
+        "tests/grab-variants246.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 2609,
+      "log": "reports242/grab-variants246.log",
+      "error": null
+    },
+    {
+      "id": "subway-audio246",
+      "command": [
+        "node",
+        "tests/subway-audio246.cjs"
+      ],
+      "framework": "environment-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 167,
+      "log": "reports242/subway-audio246.log",
+      "error": null
+    },
+    {
+      "id": "worker-reaction246",
+      "command": [
+        "python",
+        "tests/worker-reaction246.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 299,
+      "log": "reports242/worker-reaction246.log",
+      "error": null
+    },
+    {
+      "id": "approved-screenshots",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "No owner-approved current capture pairs; not an automatic pass."
+    },
+    {
+      "id": "art-style-review",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    },
+    {
+      "id": "all-moves-coverage",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    },
+    {
+      "id": "physical-dualsense",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    },
+    {
+      "id": "human-balance",
+      "status": "not-executed",
+      "critical": false,
+      "reason": "Requires separate evidence; not certified by this profile."
+    }
+  ],
+  "visualIssues": [
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/control-room243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/control-room243.webp",
+          "sha256": "9f6958f6558105a1b228e7b8423a0f722922f56988e8c8fe7e2deb660a919183",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/dam-crest243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/dam-crest243.webp",
+          "sha256": "ae01250898231441c86646e46eda2f4a5bd7eec781297d94940b0d6a341d766d",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/pressure-gallery243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/pressure-gallery243.webp",
+          "sha256": "ff78c1db802decc3a521286f70744734068b1b3a9cad839a28badd1eb1ae5ade",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/hydro/turbine-hall243.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/hydro/turbine-hall243.webp",
+          "sha256": "addda8ff90839db9891307ec17aface9ae276a8c1a2aa6f46c76e221803059d5",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-0.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-0.webp",
+          "sha256": "3b68f906d24e4d7b603e02fafa78db49d47fd7a407598c3d77daf977d5c4b3c1",
+          "width": 244,
+          "height": 311,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-1.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-1.webp",
+          "sha256": "6b83b4e4d689dc6eb7c45219809bbe3a9552821f7a4e96d46ea3f4f097ba9ecc",
+          "width": 287,
+          "height": 310,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-10.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-10.webp",
+          "sha256": "408b8036c4ea528b957250633462459adea703627e87efe2d78488632e59f07f",
+          "width": 292,
+          "height": 270,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-11.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-11.webp",
+          "sha256": "229b2676a4485b8c7346c5f6ee2571231002ad17b4a028fd5ab4b5b63b73a0e1",
+          "width": 251,
+          "height": 309,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-2.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-2.webp",
+          "sha256": "4616bb7dd6aa441455fd91ea8a5343e70a587363111f7b84366216879d2f8f5d",
+          "width": 265,
+          "height": 284,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-3.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-3.webp",
+          "sha256": "f547b4f3ccc691d84277df770bfb4bf370e5c85987291d68f890e9a0ee1b835b",
+          "width": 300,
+          "height": 287,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-4.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-4.webp",
+          "sha256": "8fb9f9ffa9a3281e90b739bb4f9181a5db9a2c1735b8e4d0362588b1cc0afe66",
+          "width": 327,
+          "height": 307,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-5.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-5.webp",
+          "sha256": "5c39fc95a27790af08144c2385b30c6a06b1817db8ef81698ffe3a84a45f40d9",
+          "width": 333,
+          "height": 236,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-6-fixed.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-6-fixed.webp",
+          "sha256": "729a06e0a3b233cf4e61cbe2c0ed6ac319b857e53085930e155581d984156b66",
+          "width": 321,
+          "height": 214,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-7.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-7.webp",
+          "sha256": "7c1b8ad332b2b03b7fad845c902d832b912b6b40895d6152ae08947b74fafca3",
+          "width": 350,
+          "height": 187,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-8.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-8.webp",
+          "sha256": "f93b812d9a68f9e30efabf883d5d788a88906a1da3c3dc03e69cf6c8e464b158",
+          "width": 323,
+          "height": 166,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-lariat244-9.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-lariat244-9.webp",
+          "sha256": "6d917fd33e9e3d5faf14a84ba6112861ff6ec8c9ffe9c9a318771f052f37aa08",
+          "width": 323,
+          "height": 213,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-0.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-0.webp",
+          "sha256": "554663a7607fa96ecd88569babe979d6fc6145572857199925e90a1051482bfe",
+          "width": 304,
+          "height": 343,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-1.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-1.webp",
+          "sha256": "5005a1433461ed6f6531ef1c67f1150366a3ef50c73843f120e7badd1920bf59",
+          "width": 293,
+          "height": 430,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-2.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-2.webp",
+          "sha256": "b483c0a5676429d19ad8c617d76b5b52c62e3a1801b3ebd7e0323431b8594e4a",
+          "width": 302,
+          "height": 440,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-3.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-3.webp",
+          "sha256": "17842170cf37edd7d6235a7d878303850ac3ba7ed7c617e072f4c93e85fafc0a",
+          "width": 372,
+          "height": 359,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-4.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-4.webp",
+          "sha256": "69b724dc19d45724f832d63f6ec96fcee464d7e162f0385d8e1c712f3302688b",
+          "width": 389,
+          "height": 331,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-5.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-5.webp",
+          "sha256": "fce561f5b42e23c3302ed7a32af1fae61d0e1ee15ba99db4cd66e2341162f07c",
+          "width": 395,
+          "height": 328,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-6.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-6.webp",
+          "sha256": "7de341b55bd6a1d99632f880d2593a19ce106ccd42a8db519543563b130e2e5f",
+          "width": 331,
+          "height": 367,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/broxton-throw245-7.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/broxton-throw245-7.webp",
+          "sha256": "6f3bb5cda372e42deae2b326d5041c9f3dae1990656f90a83a1de29a5d7a55ee",
+          "width": 316,
+          "height": 386,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/financial-held245-0.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/financial-held245-0.webp",
+          "sha256": "a0eb918f2f7bf97dff420cca39f1a6cae2654175e447f67e3ae7fb0bdd3fb78d",
+          "width": 313,
+          "height": 481,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/financial-held245-1.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/financial-held245-1.webp",
+          "sha256": "f593ad8636912cd16f957c16edf77e5b890d5f39c78bdc4a94b2ec8f17aa7e0a",
+          "width": 265,
+          "height": 429,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/financial-held245-2.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/financial-held245-2.webp",
+          "sha256": "e98aac3c6c486dfe9ffeec9b621bfa8e40014ca8b3c9da3f7b5e0d5e61ca5f89",
+          "width": 311,
+          "height": 496,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/financial-held245-3.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/financial-held245-3.webp",
+          "sha256": "09a1a3cf5f6e12343e9670541bb13780695d7dc3ac20fae303026abdc3d596bc",
+          "width": 294,
+          "height": 433,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/financial-held245-4.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/financial-held245-4.webp",
+          "sha256": "a0681f9e18e23bad83288230922c68e9fb5233ae6f2e76f2e05f2ecf9f52c825",
+          "width": 307,
+          "height": 506,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/financial-held245-5.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/financial-held245-5.webp",
+          "sha256": "139051ad67fdf9d1b8c4fe1dad40f3615e1a33a86e1e7b0b073825d08ce555d2",
+          "width": 285,
+          "height": 506,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/frankie-held245-0.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/frankie-held245-0.webp",
+          "sha256": "c5dfc283bd24e478dd2c32cf85de8b8be425b135b0738deb78acda3569e064f7",
+          "width": 381,
+          "height": 659,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/frankie-held245-1.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/frankie-held245-1.webp",
+          "sha256": "4de6edee31d1f854fbde66f6a62a37721827c1361ad05b197ae51694b47cff07",
+          "width": 319,
+          "height": 590,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/frankie-held245-2.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/frankie-held245-2.webp",
+          "sha256": "dbe9c0e19850d2204537c1498cd6b5aeb88e16d174281285c3ccdd4d6631821d",
+          "width": 381,
+          "height": 668,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/frankie-held245-3.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/frankie-held245-3.webp",
+          "sha256": "3a816cf9a934fc694b123a9e47f044bd211242223ed7a527f5aa9347581f139d",
+          "width": 362,
+          "height": 621,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/scientist-held245-0.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/scientist-held245-0.webp",
+          "sha256": "8f9c65d184bdc442f95cfdaaf9d0c5dd3e0ae2e2643e2496587020b8655631e2",
+          "width": 330,
+          "height": 569,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/scientist-held245-1.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/scientist-held245-1.webp",
+          "sha256": "deb1c7e72e049780173b6ffc16912308cb54f38c77b677afe636d177f03a9da1",
+          "width": 304,
+          "height": 510,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/scientist-held245-2.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/scientist-held245-2.webp",
+          "sha256": "d136bc3bea779df1dfb9d6d3a42c805ff6f1ed12ea201511abb4901b8e3462ad",
+          "width": 338,
+          "height": 575,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/sprites/scientist-held245-3.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/sprites/scientist-held245-3.webp",
+          "sha256": "e794fd74728aa0dd438d937a18a8383c251fc57e1dfa31f06a816c116286692a",
+          "width": 304,
+          "height": 514,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/subway/car245.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/subway/car245.webp",
+          "sha256": "70e5f7bb3bf8463c629f6573222ee52f5676ac1b05ddc65e8be3468e64804482",
+          "width": 2172,
+          "height": 724,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "asset-review-required",
+      "id": "dist/assets/subway/tunnel245.webp",
+      "severity": "review",
+      "evidence": {
+        "before": null,
+        "current": {
+          "path": "dist/assets/subway/tunnel245.webp",
+          "sha256": "8fa83fc6fca072c226c4f97187a8565664d4b3e7111502798fa7262fc05886e3",
+          "width": 2172,
+          "height": 462,
+          "status": "retained-unreviewed"
+        }
+      },
+      "proposal": "Review scale, aspect, lighting, detail and scene composition; register a reviewed certificate explicitly.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:0",
+      "severity": "review",
+      "evidence": {
+        "height": 149.70074812967582,
+        "depthScale": 1,
+        "ratio": 0.7485037406483791,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:3",
+      "severity": "review",
+      "evidence": {
+        "height": 140.0648379052369,
+        "depthScale": 1,
+        "ratio": 0.7003241895261846,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:6",
+      "severity": "review",
+      "evidence": {
+        "height": 139.7206982543641,
+        "depthScale": 1,
+        "ratio": 0.6986034912718204,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:9",
+      "severity": "review",
+      "evidence": {
+        "height": 138,
+        "depthScale": 1,
+        "ratio": 0.69,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:12",
+      "severity": "review",
+      "evidence": {
+        "height": 149.70074812967582,
+        "depthScale": 1,
+        "ratio": 0.7485037406483791,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    },
+    {
+      "code": "suspicious-scale",
+      "id": "stadium-fan-0:15",
+      "severity": "review",
+      "evidence": {
+        "height": 140.0648379052369,
+        "depthScale": 1,
+        "ratio": 0.7003241895261846,
+        "allowed": [
+          0.8,
+          1.15
+        ]
+      },
+      "proposal": "Review against the retained hero reference; do not resize automatically.",
+      "automaticCorrection": false
+    }
+  ],
+  "automaticallyCorrected": [
+    {
+      "id": "uptown-traffic-extension",
+      "status": "corrected",
+      "changed": true,
+      "file": "dist/uptown-view113.js",
+      "beforeHash": "f2855e96cfc6cf9a48cf6f6d42462102f2c4e2839b95a367a275ece20c828f43",
+      "afterHash": "1f74e3816bece719bdb0d2a4d657f27f9d1bf9227e46849358fd11f47211d8f6",
+      "assetHash": "614087ed94bc1469ad7bce0111ea069e92ae4714a10577ca3a4426545505c23c",
+      "evidence": {
+        "originalGitSource": "36c9a07^:dist/assets/uptown-traffic113.png",
+        "originalFileHash": "87a54572808845e976d027f4f940504181578f3633a141a19edc2e2a1aee394f",
+        "dimensions": [
+          2048,
+          768
+        ],
+        "rgbaIdentical": true,
+        "alphaIdentical": true,
+        "approvedScope": "Deterministic path repair authorized by QA242 policy; preserves every source pixel."
+      },
+      "scope": "Filename metadata only; no image, geometry, animation or gameplay modification."
+    }
+  ],
+  "filesModified": [
+    "M AGENTS.md",
+    " M dist/audit135.js",
+    " M dist/core.js",
+    " M dist/dragon121.js",
+    " M dist/index.html",
+    " M dist/orion-view205.js",
+    " M dist/street209.js",
+    " M dist/subway-audio238.js",
+    " M dist/subway-view238.js",
+    " M dist/subway238.js",
+    " M dist/worker-heavy233-data.js",
+    " M dist/worker-regular233-data.js",
+    " M qa/system242/suites.json",
+    " M reports242/runtime.json",
+    " M reports242/validator-self-tests.log",
+    "?? dist/grab-cases246.js",
+    "?? dist/grab-grid246.html",
+    "?? reports242/continuation246.log",
+    "?? reports242/grab-variants246.log",
+    "?? reports242/run.lock",
+    "?? reports242/subway-audio246.log",
+    "?? reports242/worker-reaction246.log",
+    "?? reports246/",
+    "?? tests/continuation246.cjs",
+    "?? tests/grab-variants246.cjs",
+    "?? tests/subway-audio246.cjs",
+    "?? tests/worker-reaction246.py"
+  ],
+  "openIssues": [
+    {
+      "id": "QA242-001",
+      "severity": "critical",
+      "kind": "obsolete-test-contract",
+      "status": "resolved",
+      "suites": [
+        "security216-legacy",
+        "current216-legacy"
+      ],
+      "evidence": "QA243 updated obsolete no-counter assertions to require existing eligible Orion counters. security216 and current216 both pass; no player move code changed.",
+      "next": "Retain current Orion228 counter regression assertions.",
+      "waivesFailure": false
+    },
+    {
+      "id": "QA242-002",
+      "severity": "review",
+      "kind": "visual-baselines",
+      "status": "open",
+      "evidence": "Historical screenshots exist but no versioned owner-approved screenshot registry exists.",
+      "next": "Review deterministic candidates in the developer gallery, approve specific image+scenario+renderer hashes. No baseline overwrite or automatic approval.",
+      "waivesFailure": false
+    },
+    {
+      "id": "QA242-003",
+      "severity": "review",
+      "kind": "coverage",
+      "status": "open",
+      "evidence": "616 retained source images are inventoried; first opaque-foot adapter covers Forest contact frames only.",
+      "next": "Add source-derived foot/scale certificates per character, NPC, prop and scenery family. Missing coverage stays explicit.",
+      "waivesFailure": false
+    }
+  ],
+  "limitations": [
+    "Existing suites may use older fixture boundaries; current-runtime-certification uses production order.",
+    "Metadata scale envelopes are not full rendered-body measurements.",
+    "No all-move, all-level, all-NPC, physical hardware or human artistic/balance certification.",
+    "Source hash inventory is a change detector, never an artistic approval."
+  ],
+  "recommendedNextFixes": [
+    "Repair obsolete Orion test expectations against current move requirements.",
+    "Review screenshot candidates and record explicit approvals.",
+    "Extend opaque-foot/scale adapters per asset family before wider stable certification."
+  ]
+}

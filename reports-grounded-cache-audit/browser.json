@@ -1,0 +1,6085 @@
+{
+  "baseline": "858e7392743cbff9649a547f25db2db47232856d",
+  "sourceFingerprint": "53e96d8868352610385d4234a2987ea720019750ef52385a7b4b3a3160bdba0f",
+  "productionSpriteSHA256": "fc076c85773be78d34863014393a475f8cd23a90145ebec1d9fbf7c0cdf8cbfe",
+  "instrumentedResponseSHA256": "15463fadc104e95fa7cd5068468d56535dadde153447b4db3c72d28e2f29412d",
+  "primary": [
+    {
+      "name": "cold",
+      "warm": null,
+      "before": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "after": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "query": 2.8166666666666615,
+      "primitive": {
+        "id": 23,
+        "type": "thug",
+        "name": "Marcus",
+        "x": 17240,
+        "y": 475,
+        "dir": 1,
+        "hp": 60,
+        "maxHp": 60,
+        "stun": 0,
+        "inv": 0,
+        "wakeInv": 0,
+        "wakeArmor": 0,
+        "down": 0,
+        "downAge": 0,
+        "downTotal": 0,
+        "fallDir": 1,
+        "fallFrom": 17240,
+        "fallTo": 17240,
+        "landed": false,
+        "prevX": 17240,
+        "prevY": 475,
+        "activeAt": 0,
+        "aggroX": null,
+        "cd": 999,
+        "specialCd": 0,
+        "grabImmune": 0,
+        "stagger": 0,
+        "act": null,
+        "knifeRollDone": false,
+        "throwCd": 0,
+        "throwThink": 0,
+        "dormant": false,
+        "fleeing": false,
+        "weapon": null,
+        "phase": 0,
+        "walk": 0,
+        "walkPhase": 0,
+        "jump": 0,
+        "airHit": false,
+        "hold": null,
+        "heldBy": null,
+        "flight": null,
+        "fade": 1,
+        "hitFlash": 0,
+        "knocked": false,
+        "think": 0.5,
+        "groundCd": 0,
+        "rushCd": 0,
+        "drawn": false,
+        "dodgeCd": 0,
+        "combo": 0,
+        "lastAttack": -10,
+        "escape": 0,
+        "turnLock": 0,
+        "groundHit": false,
+        "blocking": false,
+        "blockStarted": -10,
+        "parryCd": 0,
+        "blockFlash": 0,
+        "defense": 100,
+        "maxDefense": 100,
+        "defenseDelay": 0,
+        "guardBreak": 0,
+        "catchUntil": -1,
+        "counterCd": 0,
+        "counterPaid": 0,
+        "counterCue": 0,
+        "attackCycle": 0,
+        "holdBuffer": null,
+        "palmCd": 0,
+        "attackGesture": null,
+        "physicalAttack": false,
+        "attackCanceled": false,
+        "noBounce": false,
+        "flankCd": 0,
+        "entering": false,
+        "enterAt": 0,
+        "jumpVx": 0,
+        "jumpVy": 0,
+        "jumpNeutral": false,
+        "jumpTarget": null,
+        "kneeGrabUntil": -1,
+        "kneeFollowTarget": null,
+        "prevMoveX": 0,
+        "lastTapDir": 0,
+        "lastTapAt": -10,
+        "blitzUntil": -1,
+        "blitzDir": 1,
+        "running": false,
+        "runPhase": 0,
+        "antiAirCd": 0,
+        "standingLock": 0,
+        "dashPunchCd": 0,
+        "shock": 0,
+        "guarding": 0,
+        "blockCount": 0,
+        "lastBlockAt": -10,
+        "defendThink": 0,
+        "recovering": 0,
+        "blitzRecovery": 0,
+        "wakeSweepUsed": false,
+        "tactic": "rush",
+        "wetness": 0,
+        "wetness156": 0
+      },
+      "nativePipeline": true,
+      "gameSourceUnmodified": true,
+      "file": "reports-grounded-cache-audit\\primary-cold.png",
+      "sha256": "7c3bd0f6f7815109eca296630424d5cf21f391c4c45e190fd299450063c9b061"
+    },
+    {
+      "name": "matching-warm",
+      "warm": 0.8,
+      "before": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "after": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "query": 2.8166666666666615,
+      "primitive": {
+        "id": 23,
+        "type": "thug",
+        "name": "Marcus",
+        "x": 17240,
+        "y": 475,
+        "dir": 1,
+        "hp": 60,
+        "maxHp": 60,
+        "stun": 0,
+        "inv": 0,
+        "wakeInv": 0,
+        "wakeArmor": 0,
+        "down": 0,
+        "downAge": 0,
+        "downTotal": 0,
+        "fallDir": 1,
+        "fallFrom": 17240,
+        "fallTo": 17240,
+        "landed": false,
+        "prevX": 17240,
+        "prevY": 475,
+        "activeAt": 0,
+        "aggroX": null,
+        "cd": 999,
+        "specialCd": 0,
+        "grabImmune": 0,
+        "stagger": 0,
+        "act": null,
+        "knifeRollDone": false,
+        "throwCd": 0,
+        "throwThink": 0,
+        "dormant": false,
+        "fleeing": false,
+        "weapon": null,
+        "phase": 0,
+        "walk": 0,
+        "walkPhase": 0,
+        "jump": 0,
+        "airHit": false,
+        "hold": null,
+        "heldBy": null,
+        "flight": null,
+        "fade": 1,
+        "hitFlash": 0,
+        "knocked": false,
+        "think": 0.5,
+        "groundCd": 0,
+        "rushCd": 0,
+        "drawn": false,
+        "dodgeCd": 0,
+        "combo": 0,
+        "lastAttack": -10,
+        "escape": 0,
+        "turnLock": 0,
+        "groundHit": false,
+        "blocking": false,
+        "blockStarted": -10,
+        "parryCd": 0,
+        "blockFlash": 0,
+        "defense": 100,
+        "maxDefense": 100,
+        "defenseDelay": 0,
+        "guardBreak": 0,
+        "catchUntil": -1,
+        "counterCd": 0,
+        "counterPaid": 0,
+        "counterCue": 0,
+        "attackCycle": 0,
+        "holdBuffer": null,
+        "palmCd": 0,
+        "attackGesture": null,
+        "physicalAttack": false,
+        "attackCanceled": false,
+        "noBounce": false,
+        "flankCd": 0,
+        "entering": false,
+        "enterAt": 0,
+        "jumpVx": 0,
+        "jumpVy": 0,
+        "jumpNeutral": false,
+        "jumpTarget": null,
+        "kneeGrabUntil": -1,
+        "kneeFollowTarget": null,
+        "prevMoveX": 0,
+        "lastTapDir": 0,
+        "lastTapAt": -10,
+        "blitzUntil": -1,
+        "blitzDir": 1,
+        "running": false,
+        "runPhase": 0,
+        "antiAirCd": 0,
+        "standingLock": 0,
+        "dashPunchCd": 0,
+        "shock": 0,
+        "guarding": 0,
+        "blockCount": 0,
+        "lastBlockAt": -10,
+        "defendThink": 0,
+        "recovering": 0,
+        "blitzRecovery": 0,
+        "wakeSweepUsed": false,
+        "tactic": "rush",
+        "wetness": 0,
+        "wetness156": 0
+      },
+      "nativePipeline": true,
+      "gameSourceUnmodified": true,
+      "file": "reports-grounded-cache-audit\\primary-matching-warm.png",
+      "sha256": "f68b9c3a539f94a9b394b0a539ea1ae9bc51d1e626c8523db72b6fbaf5156c6c"
+    },
+    {
+      "name": "opposite-warm",
+      "warm": 0.9,
+      "before": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "after": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "query": 2.8166666666666615,
+      "primitive": {
+        "id": 23,
+        "type": "thug",
+        "name": "Marcus",
+        "x": 17240,
+        "y": 475,
+        "dir": 1,
+        "hp": 60,
+        "maxHp": 60,
+        "stun": 0,
+        "inv": 0,
+        "wakeInv": 0,
+        "wakeArmor": 0,
+        "down": 0,
+        "downAge": 0,
+        "downTotal": 0,
+        "fallDir": 1,
+        "fallFrom": 17240,
+        "fallTo": 17240,
+        "landed": false,
+        "prevX": 17240,
+        "prevY": 475,
+        "activeAt": 0,
+        "aggroX": null,
+        "cd": 999,
+        "specialCd": 0,
+        "grabImmune": 0,
+        "stagger": 0,
+        "act": null,
+        "knifeRollDone": false,
+        "throwCd": 0,
+        "throwThink": 0,
+        "dormant": false,
+        "fleeing": false,
+        "weapon": null,
+        "phase": 0,
+        "walk": 0,
+        "walkPhase": 0,
+        "jump": 0,
+        "airHit": false,
+        "hold": null,
+        "heldBy": null,
+        "flight": null,
+        "fade": 1,
+        "hitFlash": 0,
+        "knocked": false,
+        "think": 0.5,
+        "groundCd": 0,
+        "rushCd": 0,
+        "drawn": false,
+        "dodgeCd": 0,
+        "combo": 0,
+        "lastAttack": -10,
+        "escape": 0,
+        "turnLock": 0,
+        "groundHit": false,
+        "blocking": false,
+        "blockStarted": -10,
+        "parryCd": 0,
+        "blockFlash": 0,
+        "defense": 100,
+        "maxDefense": 100,
+        "defenseDelay": 0,
+        "guardBreak": 0,
+        "catchUntil": -1,
+        "counterCd": 0,
+        "counterPaid": 0,
+        "counterCue": 0,
+        "attackCycle": 0,
+        "holdBuffer": null,
+        "palmCd": 0,
+        "attackGesture": null,
+        "physicalAttack": false,
+        "attackCanceled": false,
+        "noBounce": false,
+        "flankCd": 0,
+        "entering": false,
+        "enterAt": 0,
+        "jumpVx": 0,
+        "jumpVy": 0,
+        "jumpNeutral": false,
+        "jumpTarget": null,
+        "kneeGrabUntil": -1,
+        "kneeFollowTarget": null,
+        "prevMoveX": 0,
+        "lastTapDir": 0,
+        "lastTapAt": -10,
+        "blitzUntil": -1,
+        "blitzDir": 1,
+        "running": false,
+        "runPhase": 0,
+        "antiAirCd": 0,
+        "standingLock": 0,
+        "dashPunchCd": 0,
+        "shock": 0,
+        "guarding": 0,
+        "blockCount": 0,
+        "lastBlockAt": -10,
+        "defendThink": 0,
+        "recovering": 0,
+        "blitzRecovery": 0,
+        "wakeSweepUsed": false,
+        "tactic": "rush",
+        "wetness": 0,
+        "wetness156": 0
+      },
+      "nativePipeline": true,
+      "gameSourceUnmodified": true,
+      "file": "reports-grounded-cache-audit\\primary-opposite-warm.png",
+      "sha256": "f6b304dae61de971f61dcc8d1aa76ab7ae99524b22d7d47420f7a6f506a81caa"
+    },
+    {
+      "name": "same-bucket-opposite",
+      "warm": 2.8,
+      "query": 2.9,
+      "before": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "after": "{\"x\":17240,\"y\":475,\"hp\":60,\"defense\":100,\"act\":null,\"down\":0,\"stun\":0,\"cd\":999,\"events\":4}",
+      "primitive": {
+        "id": 23,
+        "type": "thug",
+        "name": "Marcus",
+        "x": 17240,
+        "y": 475,
+        "dir": 1,
+        "hp": 60,
+        "maxHp": 60,
+        "stun": 0,
+        "inv": 0,
+        "wakeInv": 0,
+        "wakeArmor": 0,
+        "down": 0,
+        "downAge": 0,
+        "downTotal": 0,
+        "fallDir": 1,
+        "fallFrom": 17240,
+        "fallTo": 17240,
+        "landed": false,
+        "prevX": 17240,
+        "prevY": 475,
+        "activeAt": 0,
+        "aggroX": null,
+        "cd": 999,
+        "specialCd": 0,
+        "grabImmune": 0,
+        "stagger": 0,
+        "act": null,
+        "knifeRollDone": false,
+        "throwCd": 0,
+        "throwThink": 0,
+        "dormant": false,
+        "fleeing": false,
+        "weapon": null,
+        "phase": 0,
+        "walk": 0,
+        "walkPhase": 0,
+        "jump": 0,
+        "airHit": false,
+        "hold": null,
+        "heldBy": null,
+        "flight": null,
+        "fade": 1,
+        "hitFlash": 0,
+        "knocked": false,
+        "think": 0.5,
+        "groundCd": 0,
+        "rushCd": 0,
+        "drawn": false,
+        "dodgeCd": 0,
+        "combo": 0,
+        "lastAttack": -10,
+        "escape": 0,
+        "turnLock": 0,
+        "groundHit": false,
+        "blocking": false,
+        "blockStarted": -10,
+        "parryCd": 0,
+        "blockFlash": 0,
+        "defense": 100,
+        "maxDefense": 100,
+        "defenseDelay": 0,
+        "guardBreak": 0,
+        "catchUntil": -1,
+        "counterCd": 0,
+        "counterPaid": 0,
+        "counterCue": 0,
+        "attackCycle": 0,
+        "holdBuffer": null,
+        "palmCd": 0,
+        "attackGesture": null,
+        "physicalAttack": false,
+        "attackCanceled": false,
+        "noBounce": false,
+        "flankCd": 0,
+        "entering": false,
+        "enterAt": 0,
+        "jumpVx": 0,
+        "jumpVy": 0,
+        "jumpNeutral": false,
+        "jumpTarget": null,
+        "kneeGrabUntil": -1,
+        "kneeFollowTarget": null,
+        "prevMoveX": 0,
+        "lastTapDir": 0,
+        "lastTapAt": -10,
+        "blitzUntil": -1,
+        "blitzDir": 1,
+        "running": false,
+        "runPhase": 0,
+        "antiAirCd": 0,
+        "standingLock": 0,
+        "dashPunchCd": 0,
+        "shock": 0,
+        "guarding": 0,
+        "blockCount": 0,
+        "lastBlockAt": -10,
+        "defendThink": 0,
+        "recovering": 0,
+        "blitzRecovery": 0,
+        "wakeSweepUsed": false,
+        "tactic": "rush",
+        "wetness": 0,
+        "wetness156": 0
+      },
+      "nativePipeline": true,
+      "gameSourceUnmodified": true,
+      "file": "reports-grounded-cache-audit\\primary-same-bucket-opposite.png",
+      "sha256": "7c3bd0f6f7815109eca296630424d5cf21f391c4c45e190fd299450063c9b061"
+    }
+  ],
+  "probes": [
+    {
+      "type": "thug",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-thug-idle-clock-cold.png",
+        "sha256": "facbc4fbcbda8b0996af466674291db02956f3ae16e8474bd6a717c86ba7f164"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-thug-idle-clock-warm.png",
+        "sha256": "41991d5a018f3244cb8974601f27ea25527ee191d0da659af4560f925837aed7"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-thug-idle-clock-query.png",
+        "sha256": "41991d5a018f3244cb8974601f27ea25527ee191d0da659af4560f925837aed7"
+      }
+    },
+    {
+      "type": "thug",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-thug-hit-flash-cold.png",
+        "sha256": "41991d5a018f3244cb8974601f27ea25527ee191d0da659af4560f925837aed7"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-thug-hit-flash-warm.png",
+        "sha256": "19e38173b28b9f5ed30bdabbb078be172e95fcbe9a77feb8e060500c00429b5f"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-thug-hit-flash-query.png",
+        "sha256": "19e38173b28b9f5ed30bdabbb078be172e95fcbe9a77feb8e060500c00429b5f"
+      }
+    },
+    {
+      "type": "knifeThug",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-knifeThug-idle-clock-cold.png",
+        "sha256": "e12a79d07263b6ad21ca9d307dc911cff053061c55a05f718afff17b8577092d"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-knifeThug-idle-clock-warm.png",
+        "sha256": "e12a79d07263b6ad21ca9d307dc911cff053061c55a05f718afff17b8577092d"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-knifeThug-idle-clock-query.png",
+        "sha256": "e12a79d07263b6ad21ca9d307dc911cff053061c55a05f718afff17b8577092d"
+      }
+    },
+    {
+      "type": "knifeThug",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-knifeThug-hit-flash-cold.png",
+        "sha256": "e12a79d07263b6ad21ca9d307dc911cff053061c55a05f718afff17b8577092d"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-knifeThug-hit-flash-warm.png",
+        "sha256": "5a2b923ec375f1868c0773eabbc795b343ba2620cb67f9ffa615da9562155efa"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-knifeThug-hit-flash-query.png",
+        "sha256": "5a2b923ec375f1868c0773eabbc795b343ba2620cb67f9ffa615da9562155efa"
+      }
+    },
+    {
+      "type": "enforcer",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-enforcer-idle-clock-cold.png",
+        "sha256": "632e1aa08319a10242e6eb7386914a8f6635e771fb2a70d4ca9008f4dca9c5b2"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-enforcer-idle-clock-warm.png",
+        "sha256": "2bc939931380349fe4fb053fb41057442f217b03bdbbac5c96b777b71e7bbc14"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-enforcer-idle-clock-query.png",
+        "sha256": "2bc939931380349fe4fb053fb41057442f217b03bdbbac5c96b777b71e7bbc14"
+      }
+    },
+    {
+      "type": "enforcer",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-enforcer-hit-flash-cold.png",
+        "sha256": "2bc939931380349fe4fb053fb41057442f217b03bdbbac5c96b777b71e7bbc14"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-enforcer-hit-flash-warm.png",
+        "sha256": "13df96240aa56eed15a8fefe2aad194347a78a61f02b9f68f720d40a0d943a0f"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-enforcer-hit-flash-query.png",
+        "sha256": "13df96240aa56eed15a8fefe2aad194347a78a61f02b9f68f720d40a0d943a0f"
+      }
+    },
+    {
+      "type": "biker",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-biker-idle-clock-cold.png",
+        "sha256": "ca4d620a70d12830aa67882bb0229403f8ee932c0a15efb6d10cacaadb1a000f"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-biker-idle-clock-warm.png",
+        "sha256": "a16bac7e41818ec3df580ec78028bf238622fe1bb2621fa00f362ca772186c4d"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-biker-idle-clock-query.png",
+        "sha256": "a16bac7e41818ec3df580ec78028bf238622fe1bb2621fa00f362ca772186c4d"
+      }
+    },
+    {
+      "type": "biker",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-biker-hit-flash-cold.png",
+        "sha256": "a16bac7e41818ec3df580ec78028bf238622fe1bb2621fa00f362ca772186c4d"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-biker-hit-flash-warm.png",
+        "sha256": "1e4e72169052fdbaf6b1a7a8e1a83105012f67c8fcf9e2eb5613490cbdb9b1dc"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-biker-hit-flash-query.png",
+        "sha256": "1e4e72169052fdbaf6b1a7a8e1a83105012f67c8fcf9e2eb5613490cbdb9b1dc"
+      }
+    },
+    {
+      "type": "sato",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-sato-idle-clock-cold.png",
+        "sha256": "1825f2b00e94059a56f0091a953e25b12d4749fcfd82920d760f3cdd0e122f8f"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-sato-idle-clock-warm.png",
+        "sha256": "1825f2b00e94059a56f0091a953e25b12d4749fcfd82920d760f3cdd0e122f8f"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-sato-idle-clock-query.png",
+        "sha256": "1825f2b00e94059a56f0091a953e25b12d4749fcfd82920d760f3cdd0e122f8f"
+      }
+    },
+    {
+      "type": "sato",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-sato-hit-flash-cold.png",
+        "sha256": "1825f2b00e94059a56f0091a953e25b12d4749fcfd82920d760f3cdd0e122f8f"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-sato-hit-flash-warm.png",
+        "sha256": "73ed5d5c3214f567e1ff827ed00f882e2a9b9d6d8592f585b0d0f07a31377c1f"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-sato-hit-flash-query.png",
+        "sha256": "73ed5d5c3214f567e1ff827ed00f882e2a9b9d6d8592f585b0d0f07a31377c1f"
+      }
+    },
+    {
+      "type": "akari",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-akari-idle-clock-cold.png",
+        "sha256": "aec0cdbdb2244c7b93b0503bba04883c4ae1d1aeb42552fabdcc7baa470fa219"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-akari-idle-clock-warm.png",
+        "sha256": "aec0cdbdb2244c7b93b0503bba04883c4ae1d1aeb42552fabdcc7baa470fa219"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-akari-idle-clock-query.png",
+        "sha256": "aec0cdbdb2244c7b93b0503bba04883c4ae1d1aeb42552fabdcc7baa470fa219"
+      }
+    },
+    {
+      "type": "akari",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-akari-hit-flash-cold.png",
+        "sha256": "aec0cdbdb2244c7b93b0503bba04883c4ae1d1aeb42552fabdcc7baa470fa219"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-akari-hit-flash-warm.png",
+        "sha256": "a197565bb0960145ee029204c8c9d31a664eccc2c5316444decc569ab8655a6c"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-akari-hit-flash-query.png",
+        "sha256": "a197565bb0960145ee029204c8c9d31a664eccc2c5316444decc569ab8655a6c"
+      }
+    },
+    {
+      "type": "flint",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-flint-idle-clock-cold.png",
+        "sha256": "8ef0b87bc8d851bbc4617104c0284d9fb3675199e01b1a676a83f8f8993d07b6"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-flint-idle-clock-warm.png",
+        "sha256": "8ef0b87bc8d851bbc4617104c0284d9fb3675199e01b1a676a83f8f8993d07b6"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-flint-idle-clock-query.png",
+        "sha256": "8ef0b87bc8d851bbc4617104c0284d9fb3675199e01b1a676a83f8f8993d07b6"
+      }
+    },
+    {
+      "type": "flint",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-flint-hit-flash-cold.png",
+        "sha256": "8ef0b87bc8d851bbc4617104c0284d9fb3675199e01b1a676a83f8f8993d07b6"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-flint-hit-flash-warm.png",
+        "sha256": "8ef0b87bc8d851bbc4617104c0284d9fb3675199e01b1a676a83f8f8993d07b6"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-flint-hit-flash-query.png",
+        "sha256": "8ef0b87bc8d851bbc4617104c0284d9fb3675199e01b1a676a83f8f8993d07b6"
+      }
+    },
+    {
+      "type": "bouncer",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-bouncer-idle-clock-cold.png",
+        "sha256": "fc2d547cdb5b33e734036e8c6e26b8363a54ec7a3818f6bd3cb4c204afdfc43f"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-bouncer-idle-clock-warm.png",
+        "sha256": "fc2d547cdb5b33e734036e8c6e26b8363a54ec7a3818f6bd3cb4c204afdfc43f"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-bouncer-idle-clock-query.png",
+        "sha256": "fc2d547cdb5b33e734036e8c6e26b8363a54ec7a3818f6bd3cb4c204afdfc43f"
+      }
+    },
+    {
+      "type": "bouncer",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-bouncer-hit-flash-cold.png",
+        "sha256": "fc2d547cdb5b33e734036e8c6e26b8363a54ec7a3818f6bd3cb4c204afdfc43f"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-bouncer-hit-flash-warm.png",
+        "sha256": "1cc5b54231333cac6daff8037ca11d66c29852d2571de461782d297c4b1d731a"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-bouncer-hit-flash-query.png",
+        "sha256": "1cc5b54231333cac6daff8037ca11d66c29852d2571de461782d297c4b1d731a"
+      }
+    },
+    {
+      "type": "broxton",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-broxton-idle-clock-cold.png",
+        "sha256": "2cfb9324166cfe122d7fee645605242a0e2dca3c6ebade356b75a3c1bd033d69"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-broxton-idle-clock-warm.png",
+        "sha256": "2cfb9324166cfe122d7fee645605242a0e2dca3c6ebade356b75a3c1bd033d69"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-broxton-idle-clock-query.png",
+        "sha256": "2cfb9324166cfe122d7fee645605242a0e2dca3c6ebade356b75a3c1bd033d69"
+      }
+    },
+    {
+      "type": "broxton",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-broxton-hit-flash-cold.png",
+        "sha256": "2cfb9324166cfe122d7fee645605242a0e2dca3c6ebade356b75a3c1bd033d69"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-broxton-hit-flash-warm.png",
+        "sha256": "2cfb9324166cfe122d7fee645605242a0e2dca3c6ebade356b75a3c1bd033d69"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-broxton-hit-flash-query.png",
+        "sha256": "2cfb9324166cfe122d7fee645605242a0e2dca3c6ebade356b75a3c1bd033d69"
+      }
+    },
+    {
+      "type": "forest",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-forest-idle-clock-cold.png",
+        "sha256": "5fc30a71b49431e8845efd090af751d93249bdc01a65cde9e61f6a0d7b17130a"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-forest-idle-clock-warm.png",
+        "sha256": "5fc30a71b49431e8845efd090af751d93249bdc01a65cde9e61f6a0d7b17130a"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-forest-idle-clock-query.png",
+        "sha256": "5fc30a71b49431e8845efd090af751d93249bdc01a65cde9e61f6a0d7b17130a"
+      }
+    },
+    {
+      "type": "forest",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-forest-hit-flash-cold.png",
+        "sha256": "5fc30a71b49431e8845efd090af751d93249bdc01a65cde9e61f6a0d7b17130a"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-forest-hit-flash-warm.png",
+        "sha256": "5fc30a71b49431e8845efd090af751d93249bdc01a65cde9e61f6a0d7b17130a"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-forest-hit-flash-query.png",
+        "sha256": "5fc30a71b49431e8845efd090af751d93249bdc01a65cde9e61f6a0d7b17130a"
+      }
+    },
+    {
+      "type": "reina",
+      "variant": "idle-clock",
+      "queryTime": 2.8166666666666615,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-reina-idle-clock-cold.png",
+        "sha256": "c547633d33fc18a531338222c1c232db5956391d36a530f6970b7fc25c8197ef"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-reina-idle-clock-warm.png",
+        "sha256": "744b0f6eba47d5d81ada94140f2e0f18645313348cab464ef1ccbd7bf99e1dd7"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-reina-idle-clock-query.png",
+        "sha256": "c547633d33fc18a531338222c1c232db5956391d36a530f6970b7fc25c8197ef"
+      }
+    },
+    {
+      "type": "reina",
+      "variant": "hit-flash",
+      "queryTime": 0.9,
+      "warmTime": 0.9,
+      "cold": {
+        "file": "reports-grounded-cache-audit\\probe-reina-hit-flash-cold.png",
+        "sha256": "744b0f6eba47d5d81ada94140f2e0f18645313348cab464ef1ccbd7bf99e1dd7"
+      },
+      "warm": {
+        "file": "reports-grounded-cache-audit\\probe-reina-hit-flash-warm.png",
+        "sha256": "83de8bebf895b5d8d0f4f1ddbf94390d6ee88bee0be5649f62cd003a51471105"
+      },
+      "query": {
+        "file": "reports-grounded-cache-audit\\probe-reina-hit-flash-query.png",
+        "sha256": "744b0f6eba47d5d81ada94140f2e0f18645313348cab464ef1ccbd7bf99e1dd7"
+      }
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "browser": "143.0.7499.4",
+  "probeTrace": [
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "thug",
+      "id": 14,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "thug/idle-clock/cold"
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "thug",
+      "id": 14,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "thug/idle-clock/warm"
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "thug",
+      "id": 14,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "thug/idle-clock/query"
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "thug",
+      "id": 15,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "thug/hit-flash/cold"
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "thug",
+      "id": 15,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "thug/hit-flash/warm"
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "thug",
+      "id": 15,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "thug/hit-flash/query"
+    },
+    {
+      "key": "knifeThug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "knifeThug",
+      "id": 16,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "knifeThug/idle-clock/cold"
+    },
+    {
+      "key": "knifeThug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "knifeThug",
+      "id": 16,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "knifeThug/idle-clock/warm"
+    },
+    {
+      "key": "knifeThug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "knifeThug",
+      "id": 16,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "knifeThug/idle-clock/query"
+    },
+    {
+      "key": "knifeThug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "knifeThug",
+      "id": 17,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "knifeThug/hit-flash/cold"
+    },
+    {
+      "key": "knifeThug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "knifeThug",
+      "id": 17,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "knifeThug/hit-flash/warm"
+    },
+    {
+      "key": "knifeThug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "knifeThug",
+      "id": 17,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "knifeThug/hit-flash/query"
+    },
+    {
+      "key": "enforcer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "enforcer",
+      "id": 18,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "enforcer/idle-clock/cold"
+    },
+    {
+      "key": "enforcer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "enforcer",
+      "id": 18,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "enforcer/idle-clock/warm"
+    },
+    {
+      "key": "enforcer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "enforcer",
+      "id": 18,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "enforcer/idle-clock/query"
+    },
+    {
+      "key": "enforcer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "enforcer",
+      "id": 19,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "enforcer/hit-flash/cold"
+    },
+    {
+      "key": "enforcer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "enforcer",
+      "id": 19,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "enforcer/hit-flash/warm"
+    },
+    {
+      "key": "enforcer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "enforcer",
+      "id": 19,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "enforcer/hit-flash/query"
+    },
+    {
+      "key": "biker::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "biker",
+      "id": 20,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "biker/idle-clock/cold"
+    },
+    {
+      "key": "biker::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "biker",
+      "id": 20,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "biker/idle-clock/warm"
+    },
+    {
+      "key": "biker::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "biker",
+      "id": 20,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "biker/idle-clock/query"
+    },
+    {
+      "key": "biker::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "biker",
+      "id": 21,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "biker/hit-flash/cold"
+    },
+    {
+      "key": "biker::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "biker",
+      "id": 21,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "biker/hit-flash/warm"
+    },
+    {
+      "key": "biker::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "biker",
+      "id": 21,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "biker/hit-flash/query"
+    },
+    {
+      "key": "sato::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "sato",
+      "id": 22,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "sato/idle-clock/cold"
+    },
+    {
+      "key": "sato::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "sato",
+      "id": 22,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "sato/idle-clock/warm"
+    },
+    {
+      "key": "sato::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "sato",
+      "id": 22,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "sato/idle-clock/query"
+    },
+    {
+      "key": "sato::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "sato",
+      "id": 23,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "sato/hit-flash/cold"
+    },
+    {
+      "key": "sato::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "sato",
+      "id": 23,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "sato/hit-flash/warm"
+    },
+    {
+      "key": "sato::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "sato",
+      "id": 23,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "sato/hit-flash/query"
+    },
+    {
+      "key": "akari::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "akari",
+      "id": 24,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "akari/idle-clock/cold"
+    },
+    {
+      "key": "akari::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "akari",
+      "id": 24,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "akari/idle-clock/warm"
+    },
+    {
+      "key": "akari::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "akari",
+      "id": 24,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "akari/idle-clock/query"
+    },
+    {
+      "key": "akari::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "akari",
+      "id": 25,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "akari/hit-flash/cold"
+    },
+    {
+      "key": "akari::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "akari",
+      "id": 25,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "akari/hit-flash/warm"
+    },
+    {
+      "key": "akari::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "akari",
+      "id": 25,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "akari/hit-flash/query"
+    },
+    {
+      "key": "bouncer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "bouncer",
+      "id": 28,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "bouncer/idle-clock/cold"
+    },
+    {
+      "key": "bouncer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "bouncer",
+      "id": 28,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "bouncer/idle-clock/warm"
+    },
+    {
+      "key": "bouncer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "bouncer",
+      "id": 28,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "bouncer/idle-clock/query"
+    },
+    {
+      "key": "bouncer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "bouncer",
+      "id": 29,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "bouncer/hit-flash/cold"
+    },
+    {
+      "key": "bouncer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "bouncer",
+      "id": 29,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "bouncer/hit-flash/warm"
+    },
+    {
+      "key": "bouncer::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "bouncer",
+      "id": 29,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "bouncer/hit-flash/query"
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "broxton",
+      "id": 30,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "broxton/idle-clock/cold"
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "broxton",
+      "id": 30,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "broxton/idle-clock/warm"
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "broxton",
+      "id": 30,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "broxton/idle-clock/query"
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "broxton",
+      "id": 31,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": "broxton/hit-flash/cold"
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "broxton",
+      "id": 31,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0.2,
+      "label": "broxton/hit-flash/warm"
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.9,
+      "type": "broxton",
+      "id": 31,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": "broxton/hit-flash/query"
+    }
+  ],
+  "replayTrace": [
+    {
+      "key": "thug::idle2:false:0:up:true:false:false:false::0:false:0",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:up:true:false:false:false::0:false:0",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0.10333333333333333,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:24:false:false:false:false::0:false:19",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 23,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:21:false:false:false:false::0:false:22",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:36:false:false:false:false::0:false:6",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 33,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.08666666666666667,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.07,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:18:false:false:false:false::0:false:25",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 43,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:up:true:false:false:false::0:false:0",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 53,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 53,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 53,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 53,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 53,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 53,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 63,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0.053333333333333344,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 63,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:true:false:false:false::0:false:34",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 63,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:23:false:false:false:false::0:false:20",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 63,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 63,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 63,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 73,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:false:false:false:false::0:false:34",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 73,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:34",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 73,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0.08666666666666667,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:17:false:false:false:false::0:false:26",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 73,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 73,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:true:false:false:false::0:false:0",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:up:true:false:false:false::0:false:0",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.10333333333333333,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:24:false:false:false:false::0:false:19",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 83,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "combo",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:21:false:false:false:false::0:false:22",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:36:false:false:false:false::0:false:6",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 93,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "poison",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.08666666666666667,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.07,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:18:false:false:false:false::0:false:25",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 103,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "spine",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:up:true:false:false:false::0:false:0",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 113,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 113,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 113,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 113,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 113,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 113,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "legs",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 123,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.053333333333333344,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 123,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:true:false:false:false::0:false:34",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 123,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:23:false:false:false:false::0:false:20",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 123,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 123,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 123,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "overhead",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 133,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:false:false:false:false::0:false:34",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 133,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:34",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 133,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.08666666666666667,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:17:false:false:false:false::0:false:26",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 133,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 133,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "forest",
+        "move": "special",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 143,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 143,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "throat",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 153,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 153,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 163,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.10333333333333333,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 163,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:10:false:false:false:false::0:false:33",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 163,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:37:false:false:false:false::0:false:6",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 163,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 163,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 163,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:true:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 173,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:true:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 173,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 0
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0.19999999999999998,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 12
+      }
+    },
+    {
+      "key": "thug::idle1:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0.4666666666666666,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 28
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:16:false:false:false:false::0:false:27",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 183,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 193,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:18:false:false:false:false::0:false:25",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 193,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 193,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 193,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:up:false:false:false:false::0:false:0",
+      "time": 0,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 0
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.19999999999999998,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 12
+      }
+    },
+    {
+      "key": "thug::idle1:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.4666666666666666,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 28
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:12:false:false:false:false::0:false:31",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:39:false:false:false:false::0:false:4",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 203,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 213,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 213,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "throat",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 223,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 223,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "armbar",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 233,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0.10333333333333333,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 233,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:10:false:false:false:false::0:false:33",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 233,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:37:false:false:false:false::0:false:6",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 233,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 233,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 233,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "rearLeg",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:true:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 243,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:true:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 243,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "reverse",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 0
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0.19999999999999998,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 12
+      }
+    },
+    {
+      "key": "thug::idle1:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0.4666666666666666,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 28
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:16:false:false:false:false::0:false:27",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 253,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "ground",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:9:true:false:false:false::0:false:23966",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 263,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:18:false:false:false:false::0:false:25",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 263,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 263,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 263,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "special",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:up:false:false:false:false::0:false:0",
+      "time": 0,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 0
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:up:false:false:false:false::0:false:0",
+      "time": 0.19999999999999998,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 12
+      }
+    },
+    {
+      "key": "thug::idle1:false:0:9:true:false:false:false::0:false:23966",
+      "time": 0.4666666666666666,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 28
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:9:false:false:false:false::0:false:23966",
+      "time": 0.733333333333334,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:12:false:false:false:false::0:false:31",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:39:false:false:false:false::0:false:4",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 273,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "niko",
+        "move": "mount",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "broxton::idle4:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.0333333333333345,
+      "type": "broxton",
+      "id": 280,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:12:false:false:false:false::0:false:22",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 283,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "broxton::idle5:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.4333333333333331,
+      "type": "broxton",
+      "id": 280,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "broxton::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "broxton",
+      "id": 280,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:34:false:false:false:false::0:false:1",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 283,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "broxton::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "broxton",
+      "id": 280,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 283,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 280,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 283,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 280,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 283,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "broxton::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "broxton",
+      "id": 290,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:19:false:false:false:false::0:false:16",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 293,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "broxton::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "broxton",
+      "id": 290,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:34:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 293,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 290,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 293,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 290,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 293,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 303,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "broxton::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "broxton",
+      "id": 300,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:20:false:false:false:false::0:false:22",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 303,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "broxton::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "broxton",
+      "id": 300,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:35:false:false:false:false::0:false:7",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 303,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 300,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 303,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 300,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 303,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 313,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 310,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 313,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 310,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 313,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "broxton::idle4:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.0333333333333345,
+      "type": "broxton",
+      "id": 320,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:12:false:false:false:false::0:false:22",
+      "time": 1.0333333333333345,
+      "type": "thug",
+      "id": 323,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 62
+      }
+    },
+    {
+      "key": "broxton::idle5:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.4333333333333331,
+      "type": "broxton",
+      "id": 320,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "broxton::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "broxton",
+      "id": 320,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:34:false:false:false:false::0:false:1",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 323,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "broxton::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "broxton",
+      "id": 320,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 323,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 320,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 323,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 320,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 323,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "forward",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "broxton::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "broxton",
+      "id": 330,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:19:false:false:false:false::0:false:16",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 333,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "broxton::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "broxton",
+      "id": 330,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:34:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 333,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 330,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 333,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 330,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 333,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "back",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle5:false:0:9:false:false:false:false::0:false:23966",
+      "time": 1.4333333333333331,
+      "type": "thug",
+      "id": 343,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "broxton::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 1.9333333333333313,
+      "type": "broxton",
+      "id": 340,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:20:false:false:false:false::0:false:22",
+      "time": 1.9333333333333313,
+      "type": "thug",
+      "id": 343,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "broxton::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "broxton",
+      "id": 340,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:35:false:false:false:false::0:false:7",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 343,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 340,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 343,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 340,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 343,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "choke",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle2:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.5666666666666624,
+      "type": "thug",
+      "id": 353,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "broxton::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "broxton",
+      "id": 350,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.6666666666666585,
+      "type": "thug",
+      "id": 353,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "broxton::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "broxton",
+      "id": 350,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 4.999999999999988,
+      "type": "thug",
+      "id": 353,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "broxton",
+        "move": "shield",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:7:false:false:false:false::0:false:28",
+      "time": 0.9833333333333347,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:15:false:false:false:false::0:false:19",
+      "time": 1.6833333333333322,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle0:false:0:27:false:false:false:false::0:false:7",
+      "time": 2.1833333333333305,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 154,
+        "counterfactual": "cold cache"
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.9166666666666576,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:up:false:false:false:false::0:false:0",
+      "time": 5.249999999999987,
+      "type": "thug",
+      "id": 363,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle0:false:0:27:false:false:false:false::0:false:7",
+      "time": 2.1833333333333305,
+      "type": "knifeThug",
+      "id": 373,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1,
+        "tick": 116
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "knifeThug",
+      "id": 373,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.9166666666666576,
+      "type": "knifeThug",
+      "id": 373,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle4:false:0:up:false:false:false:false::0:false:0",
+      "time": 5.249999999999987,
+      "type": "knifeThug",
+      "id": 373,
+      "nativeIndex": 0,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": -1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:7:false:false:false:false::0:false:28",
+      "time": 0.9833333333333347,
+      "type": "thug",
+      "id": 383,
+      "nativeIndex": 10,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1,
+        "tick": 44
+      }
+    },
+    {
+      "key": "thug::idle6:false:0:11:false:false:false:false::0:false:23",
+      "time": 1.6833333333333322,
+      "type": "thug",
+      "id": 383,
+      "nativeIndex": 10,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1,
+        "tick": 86
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "thug",
+      "id": 383,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "thug",
+      "id": 383,
+      "nativeIndex": 1,
+      "hit": false,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1,
+        "tick": 154,
+        "counterfactual": "cold cache"
+      }
+    },
+    {
+      "key": "thug::idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.9166666666666576,
+      "type": "thug",
+      "id": 383,
+      "nativeIndex": 1,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "thug::idle4:false:0:up:false:false:false:false::0:false:0",
+      "time": 5.249999999999987,
+      "type": "thug",
+      "id": 383,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1,
+        "tick": 300
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle3:false:0:up:false:false:false:false::0:false:0",
+      "time": 2.8166666666666615,
+      "type": "knifeThug",
+      "id": 393,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1,
+        "tick": 154
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle7:false:0:up:false:false:false:false::0:false:0",
+      "time": 3.9166666666666576,
+      "type": "knifeThug",
+      "id": 393,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1,
+        "tick": 220
+      }
+    },
+    {
+      "key": "knifeThug:knife:idle4:false:0:up:false:false:false:false::0:false:0",
+      "time": 5.249999999999987,
+      "type": "knifeThug",
+      "id": 393,
+      "nativeIndex": 0,
+      "hit": true,
+      "hitFlash": 0,
+      "label": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "knifeThug",
+        "dir": 1,
+        "tick": 300
+      }
+    }
+  ],
+  "replay": [
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "tick": 154,
+      "cached": {
+        "bounds": {
+          "count": 21252,
+          "left": 307,
+          "right": 730,
+          "top": 389,
+          "bottom": 599
+        },
+        "state": {
+          "time": 2.8166666666666615,
+          "primitive": {
+            "hero": {
+              "id": 360,
+              "type": "nightshade",
+              "name": "Nightshade",
+              "x": 17150,
+              "y": 475,
+              "dir": -1,
+              "hp": 110,
+              "maxHp": 110,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 0,
+              "downTotal": 0,
+              "fallDir": 1,
+              "fallFrom": 125,
+              "fallTo": 125,
+              "landed": false,
+              "prevX": 17150,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 0,
+              "specialCd": 0,
+              "grabImmune": 0,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": false,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": false,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "pcbiAboard316": false,
+              "hospitalInside314": false,
+              "sticky166": null,
+              "stickyGrace166": 0,
+              "acidNext214": null,
+              "walkSpeed": 220,
+              "runSpeed": 325,
+              "airSpeed": 260,
+              "jumpApex": 119.6,
+              "pairVisual": null,
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "heldWeapon248": null,
+              "nightshade251": true,
+              "uniqueInput251": null,
+              "nightshadeLanding251": 0,
+              "nightshadeGait252": 0,
+              "nightshadeAmmo255": 6,
+              "counter248": null,
+              "frontBonus264": null,
+              "dragonCharge121": null,
+              "forestCharge125": null,
+              "dragonLatch121": false,
+              "forestChargeLatch125": false,
+              "chargeLatch130": false,
+              "novaQueued": false,
+              "runDir": 0,
+              "reinaCombo134": null,
+              "deathFall167": false,
+              "poiseFlash244": 0,
+              "nightshadeIdle251": 1.1333333333333342,
+              "niko283": null,
+              "reverse285": null,
+              "leg286": null,
+              "chain257": null,
+              "grappleZ": 0,
+              "grappleAngle": 0,
+              "grapplePivot": 0,
+              "shoulder134": null
+            },
+            "victim": {
+              "id": 363,
+              "type": "thug",
+              "name": "Marcus",
+              "x": 16830,
+              "y": 475,
+              "dir": -1,
+              "hp": 973,
+              "maxHp": 1000,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 1.4533333333333331,
+              "downTotal": 1.45,
+              "fallDir": -1,
+              "fallFrom": 16830,
+              "fallTo": 16830,
+              "landed": true,
+              "prevX": 16830,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 996.1833333333359,
+              "specialCd": 0,
+              "grabImmune": 0.4666666666666681,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": 0,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": true,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0.6666666666666656,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0.06666666666666676,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "grabClassification223": "REGULAR",
+              "directorRole148": "Recovering",
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "grabReady169": 3.2833333333333297,
+              "novaNoGrabUntil": 3.2833333333333297,
+              "repeatProtection169": false,
+              "flanking": false,
+              "heldRear": true,
+              "grappleSession119": null,
+              "recoveryState119": "POST-MOVE KNOCKDOWN",
+              "forestLock125": null,
+              "grapplePivot": 0,
+              "grappleAngle": 0,
+              "grappleZ": 0,
+              "pairVisual": null,
+              "recoveryNotBefore119": 1.3333333333333348,
+              "nikoGround283": null,
+              "reverseGround285": null,
+              "legGround286": null,
+              "faceSmash91": false,
+              "knockSerial": 1
+            }
+          },
+          "hero": "standing",
+          "victim": "standing",
+          "heroHP": 110,
+          "victimHP": 973,
+          "heroZ": 0,
+          "victimZ": 0,
+          "action": null,
+          "nativeFrame": 86.99999999999999,
+          "throw": null,
+          "joint": null
+        },
+        "file": "reports-grounded-cache-audit\\replay-nightshade-dir-1-cached.png",
+        "sha256": "127d123830153b62c770094421827761ec25566a9b119448b6f373ad6b66cf70"
+      },
+      "cold": {
+        "bounds": {
+          "count": 20978,
+          "left": 309,
+          "right": 730,
+          "top": 389,
+          "bottom": 599
+        },
+        "state": {
+          "time": 2.8166666666666615,
+          "primitive": {
+            "hero": {
+              "id": 360,
+              "type": "nightshade",
+              "name": "Nightshade",
+              "x": 17150,
+              "y": 475,
+              "dir": -1,
+              "hp": 110,
+              "maxHp": 110,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 0,
+              "downTotal": 0,
+              "fallDir": 1,
+              "fallFrom": 125,
+              "fallTo": 125,
+              "landed": false,
+              "prevX": 17150,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 0,
+              "specialCd": 0,
+              "grabImmune": 0,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": false,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": false,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "pcbiAboard316": false,
+              "hospitalInside314": false,
+              "sticky166": null,
+              "stickyGrace166": 0,
+              "acidNext214": null,
+              "walkSpeed": 220,
+              "runSpeed": 325,
+              "airSpeed": 260,
+              "jumpApex": 119.6,
+              "pairVisual": null,
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "heldWeapon248": null,
+              "nightshade251": true,
+              "uniqueInput251": null,
+              "nightshadeLanding251": 0,
+              "nightshadeGait252": 0,
+              "nightshadeAmmo255": 6,
+              "counter248": null,
+              "frontBonus264": null,
+              "dragonCharge121": null,
+              "forestCharge125": null,
+              "dragonLatch121": false,
+              "forestChargeLatch125": false,
+              "chargeLatch130": false,
+              "novaQueued": false,
+              "runDir": 0,
+              "reinaCombo134": null,
+              "deathFall167": false,
+              "poiseFlash244": 0,
+              "nightshadeIdle251": 1.1333333333333342,
+              "niko283": null,
+              "reverse285": null,
+              "leg286": null,
+              "chain257": null,
+              "grappleZ": 0,
+              "grappleAngle": 0,
+              "grapplePivot": 0,
+              "shoulder134": null
+            },
+            "victim": {
+              "id": 363,
+              "type": "thug",
+              "name": "Marcus",
+              "x": 16830,
+              "y": 475,
+              "dir": -1,
+              "hp": 973,
+              "maxHp": 1000,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 1.4533333333333331,
+              "downTotal": 1.45,
+              "fallDir": -1,
+              "fallFrom": 16830,
+              "fallTo": 16830,
+              "landed": true,
+              "prevX": 16830,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 996.1833333333359,
+              "specialCd": 0,
+              "grabImmune": 0.4666666666666681,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": 0,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": true,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0.6666666666666656,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0.06666666666666676,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "grabClassification223": "REGULAR",
+              "directorRole148": "Recovering",
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "grabReady169": 3.2833333333333297,
+              "novaNoGrabUntil": 3.2833333333333297,
+              "repeatProtection169": false,
+              "flanking": false,
+              "heldRear": true,
+              "grappleSession119": null,
+              "recoveryState119": "POST-MOVE KNOCKDOWN",
+              "forestLock125": null,
+              "grapplePivot": 0,
+              "grappleAngle": 0,
+              "grappleZ": 0,
+              "pairVisual": null,
+              "recoveryNotBefore119": 1.3333333333333348,
+              "nikoGround283": null,
+              "reverseGround285": null,
+              "legGround286": null,
+              "faceSmash91": false,
+              "knockSerial": 1
+            }
+          },
+          "hero": "standing",
+          "victim": "standing",
+          "heroHP": 110,
+          "victimHP": 973,
+          "heroZ": 0,
+          "victimZ": 0,
+          "action": null,
+          "nativeFrame": 86.99999999999999,
+          "throw": null,
+          "joint": null
+        },
+        "file": "reports-grounded-cache-audit\\replay-nightshade-dir-1-cold.png",
+        "sha256": "812ed864fc83e150d4f72272f488ee0d560987d81fce01b8bfafca006d0925d6"
+      },
+      "physicalUnchanged": true
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "tick": 154,
+      "cached": {
+        "bounds": {
+          "count": 21225,
+          "left": 869,
+          "right": 1387,
+          "top": 389,
+          "bottom": 599
+        },
+        "state": {
+          "time": 2.8166666666666615,
+          "primitive": {
+            "hero": {
+              "id": 380,
+              "type": "nightshade",
+              "name": "Nightshade",
+              "x": 17370,
+              "y": 475,
+              "dir": 1,
+              "hp": 110,
+              "maxHp": 110,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 0,
+              "downTotal": 0,
+              "fallDir": 1,
+              "fallFrom": 125,
+              "fallTo": 125,
+              "landed": false,
+              "prevX": 17370,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 0,
+              "specialCd": 0,
+              "grabImmune": 0,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": false,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": false,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "pcbiAboard316": false,
+              "hospitalInside314": false,
+              "sticky166": null,
+              "stickyGrace166": 0,
+              "acidNext214": null,
+              "walkSpeed": 220,
+              "runSpeed": 325,
+              "airSpeed": 260,
+              "jumpApex": 119.6,
+              "pairVisual": null,
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "heldWeapon248": null,
+              "nightshade251": true,
+              "uniqueInput251": null,
+              "nightshadeLanding251": 0,
+              "nightshadeGait252": 0,
+              "nightshadeAmmo255": 6,
+              "counter248": null,
+              "frontBonus264": null,
+              "dragonCharge121": null,
+              "forestCharge125": null,
+              "dragonLatch121": false,
+              "forestChargeLatch125": false,
+              "chargeLatch130": false,
+              "novaQueued": false,
+              "runDir": 0,
+              "reinaCombo134": null,
+              "deathFall167": false,
+              "poiseFlash244": 0,
+              "nightshadeIdle251": 1.1333333333333342,
+              "niko283": null,
+              "reverse285": null,
+              "leg286": null,
+              "chain257": null,
+              "grappleZ": 0,
+              "grappleAngle": 0,
+              "grapplePivot": 0,
+              "shoulder134": null
+            },
+            "victim": {
+              "id": 383,
+              "type": "thug",
+              "name": "Marcus",
+              "x": 17784.567130194242,
+              "y": 475,
+              "dir": 1,
+              "hp": 973,
+              "maxHp": 1000,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 1.4533333333333331,
+              "downTotal": 1.45,
+              "fallDir": 1,
+              "fallFrom": 17784.567130194242,
+              "fallTo": 17784.567130194242,
+              "landed": true,
+              "prevX": 17784.567130194242,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 996.1833333333359,
+              "specialCd": 0,
+              "grabImmune": 0.6333333333333342,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": 0,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": true,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0.8333333333333328,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0.2333333333333334,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "grabClassification223": "REGULAR",
+              "directorRole148": "Recovering",
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "grabReady169": 3.4499999999999957,
+              "novaNoGrabUntil": 3.4499999999999957,
+              "repeatProtection169": false,
+              "flanking": false,
+              "heldRear": true,
+              "grappleSession119": null,
+              "recoveryState119": "POST-MOVE KNOCKDOWN",
+              "forestLock125": null,
+              "grapplePivot": 0,
+              "grappleAngle": 0,
+              "grappleZ": 0,
+              "pairVisual": null,
+              "recoveryNotBefore119": 1.3333333333333348,
+              "nikoGround283": null,
+              "reverseGround285": null,
+              "legGround286": null,
+              "faceSmash91": false,
+              "knockSerial": 1
+            }
+          },
+          "hero": "standing",
+          "victim": "standing",
+          "heroHP": 110,
+          "victimHP": 973,
+          "heroZ": 0,
+          "victimZ": 0,
+          "action": null,
+          "nativeFrame": 86.99999999999999,
+          "throw": null,
+          "joint": null
+        },
+        "file": "reports-grounded-cache-audit\\replay-nightshade-dir1-cached.png",
+        "sha256": "27877f1194ebe61cf4c5bc15ae51cb90c00b6a2ca9095d39e76633767a31e627"
+      },
+      "cold": {
+        "bounds": {
+          "count": 21004,
+          "left": 869,
+          "right": 1384,
+          "top": 389,
+          "bottom": 599
+        },
+        "state": {
+          "time": 2.8166666666666615,
+          "primitive": {
+            "hero": {
+              "id": 380,
+              "type": "nightshade",
+              "name": "Nightshade",
+              "x": 17370,
+              "y": 475,
+              "dir": 1,
+              "hp": 110,
+              "maxHp": 110,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 0,
+              "downTotal": 0,
+              "fallDir": 1,
+              "fallFrom": 125,
+              "fallTo": 125,
+              "landed": false,
+              "prevX": 17370,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 0,
+              "specialCd": 0,
+              "grabImmune": 0,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": false,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": false,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "pcbiAboard316": false,
+              "hospitalInside314": false,
+              "sticky166": null,
+              "stickyGrace166": 0,
+              "acidNext214": null,
+              "walkSpeed": 220,
+              "runSpeed": 325,
+              "airSpeed": 260,
+              "jumpApex": 119.6,
+              "pairVisual": null,
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "heldWeapon248": null,
+              "nightshade251": true,
+              "uniqueInput251": null,
+              "nightshadeLanding251": 0,
+              "nightshadeGait252": 0,
+              "nightshadeAmmo255": 6,
+              "counter248": null,
+              "frontBonus264": null,
+              "dragonCharge121": null,
+              "forestCharge125": null,
+              "dragonLatch121": false,
+              "forestChargeLatch125": false,
+              "chargeLatch130": false,
+              "novaQueued": false,
+              "runDir": 0,
+              "reinaCombo134": null,
+              "deathFall167": false,
+              "poiseFlash244": 0,
+              "nightshadeIdle251": 1.1333333333333342,
+              "niko283": null,
+              "reverse285": null,
+              "leg286": null,
+              "chain257": null,
+              "grappleZ": 0,
+              "grappleAngle": 0,
+              "grapplePivot": 0,
+              "shoulder134": null
+            },
+            "victim": {
+              "id": 383,
+              "type": "thug",
+              "name": "Marcus",
+              "x": 17784.567130194242,
+              "y": 475,
+              "dir": 1,
+              "hp": 973,
+              "maxHp": 1000,
+              "stun": 0,
+              "inv": 0,
+              "wakeInv": 0,
+              "wakeArmor": 0,
+              "down": 0,
+              "downAge": 1.4533333333333331,
+              "downTotal": 1.45,
+              "fallDir": 1,
+              "fallFrom": 17784.567130194242,
+              "fallTo": 17784.567130194242,
+              "landed": true,
+              "prevX": 17784.567130194242,
+              "prevY": 475,
+              "activeAt": 0,
+              "aggroX": null,
+              "cd": 996.1833333333359,
+              "specialCd": 0,
+              "grabImmune": 0.6333333333333342,
+              "stagger": 0,
+              "act": null,
+              "knifeRollDone": false,
+              "throwCd": 0,
+              "throwThink": 0,
+              "dormant": false,
+              "fleeing": false,
+              "weapon": null,
+              "phase": 0,
+              "walk": 0,
+              "walkPhase": 0,
+              "jump": 0,
+              "airHit": false,
+              "hold": null,
+              "heldBy": null,
+              "flight": null,
+              "fade": 1,
+              "hitFlash": 0,
+              "knocked": false,
+              "think": 0,
+              "groundCd": 0,
+              "rushCd": 0,
+              "drawn": false,
+              "dodgeCd": 0,
+              "combo": 0,
+              "lastAttack": -10,
+              "escape": 0,
+              "turnLock": 0,
+              "groundHit": false,
+              "blocking": 0,
+              "blockStarted": -10,
+              "parryCd": 0,
+              "blockFlash": 0,
+              "defense": 100,
+              "maxDefense": 100,
+              "defenseDelay": 0,
+              "guardBreak": 0,
+              "catchUntil": -1,
+              "counterCd": 0,
+              "counterPaid": 0,
+              "counterCue": 0,
+              "attackCycle": 0,
+              "holdBuffer": null,
+              "palmCd": 0,
+              "attackGesture": null,
+              "physicalAttack": false,
+              "attackCanceled": false,
+              "noBounce": true,
+              "flankCd": 0,
+              "entering": false,
+              "enterAt": 0,
+              "jumpVx": 0,
+              "jumpVy": 0,
+              "jumpNeutral": false,
+              "jumpTarget": null,
+              "kneeGrabUntil": -1,
+              "kneeFollowTarget": null,
+              "prevMoveX": 0,
+              "lastTapDir": 0,
+              "lastTapAt": -10,
+              "blitzUntil": -1,
+              "blitzDir": 1,
+              "running": false,
+              "runPhase": 0,
+              "antiAirCd": 0,
+              "standingLock": 0.8333333333333328,
+              "dashPunchCd": 0,
+              "shock": 0,
+              "guarding": 0,
+              "blockCount": 0,
+              "lastBlockAt": -10,
+              "defendThink": 0,
+              "recovering": 0.2333333333333334,
+              "blitzRecovery": 0,
+              "wakeSweepUsed": false,
+              "tactic": "rush",
+              "grabClassification223": "REGULAR",
+              "directorRole148": "Recovering",
+              "wetness": 0.14924230263613103,
+              "wetness156": 0.14924230263613103,
+              "grabReady169": 3.4499999999999957,
+              "novaNoGrabUntil": 3.4499999999999957,
+              "repeatProtection169": false,
+              "flanking": false,
+              "heldRear": true,
+              "grappleSession119": null,
+              "recoveryState119": "POST-MOVE KNOCKDOWN",
+              "forestLock125": null,
+              "grapplePivot": 0,
+              "grappleAngle": 0,
+              "grappleZ": 0,
+              "pairVisual": null,
+              "recoveryNotBefore119": 1.3333333333333348,
+              "nikoGround283": null,
+              "reverseGround285": null,
+              "legGround286": null,
+              "faceSmash91": false,
+              "knockSerial": 1
+            }
+          },
+          "hero": "standing",
+          "victim": "standing",
+          "heroHP": 110,
+          "victimHP": 973,
+          "heroZ": 0,
+          "victimZ": 0,
+          "action": null,
+          "nativeFrame": 86.99999999999999,
+          "throw": null,
+          "joint": null
+        },
+        "file": "reports-grounded-cache-audit\\replay-nightshade-dir1-cold.png",
+        "sha256": "09cb1765b486dc884c83246e6fb893951904d5e6c2f8da3d859d09c583da2730"
+      },
+      "physicalUnchanged": true
+    }
+  ],
+  "completed": true
+}

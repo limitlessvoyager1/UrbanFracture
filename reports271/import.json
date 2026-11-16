@@ -1,0 +1,2441 @@
+{
+  "checkpoint": "checkpoint-before-orion271",
+  "frames": [
+    {
+      "path": "dist/assets/orion205/combat-L-0.webp",
+      "before": "e782e898f8a71697e5972823f6d2900ae2d582a72eac245b1aadd8eed9336b9a",
+      "after": "ae54fbed084805587bf1b8876e01ed3d9181e283db211101e01c7f15c927abbb",
+      "size": [
+        101,
+        128
+      ],
+      "source": "combat-L",
+      "frame": 0,
+      "sourceCrop": [
+        166,
+        210
+      ],
+      "uniformScale": 0.6,
+      "imported": [
+        100,
+        126
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-1.webp",
+      "before": "60c21ef90e7e016d0fa51362ffc1b3eefca0a49be5e553d4c1457ab1e50567b5",
+      "after": "3215a3ddda2a66ab34f3d406045c34f152878901c488798ccbebce341a6f078e",
+      "size": [
+        125,
+        130
+      ],
+      "source": "combat-L",
+      "frame": 1,
+      "sourceCrop": [
+        200,
+        212
+      ],
+      "uniformScale": 0.6037735849056604,
+      "imported": [
+        121,
+        128
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-2.webp",
+      "before": "24dd9350170f2d4078188d7d887eac5d9bb1be44f710d593be469389e9c32f00",
+      "after": "2daeff3fd1bf430979f33c498fe7449b45199057208685a8fe0bd42622dbedaf",
+      "size": [
+        120,
+        130
+      ],
+      "source": "combat-L",
+      "frame": 2,
+      "sourceCrop": [
+        194,
+        212
+      ],
+      "uniformScale": 0.6037735849056604,
+      "imported": [
+        117,
+        128
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-3.webp",
+      "before": "79fc929c714264e8fed848a77b8b6bf19310af38d98937570b724dff66de380b",
+      "after": "91c858836d16bb4a6eb12161446d2bd623957a56be69cc66cb1d9d0b42fbc556",
+      "size": [
+        134,
+        128
+      ],
+      "source": "combat-L",
+      "frame": 3,
+      "sourceCrop": [
+        216,
+        212
+      ],
+      "uniformScale": 0.5943396226415094,
+      "imported": [
+        128,
+        126
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-4.webp",
+      "before": "29c9727ad7d51e6616051d4174eb201a1e3deae756778cbdd7b713761dcbe185",
+      "after": "af9336f1aae8012b82eef76ab0c69add7664b59738baf333f17fe119d32a8ee3",
+      "size": [
+        119,
+        124
+      ],
+      "source": "combat-L",
+      "frame": 4,
+      "sourceCrop": [
+        200,
+        209
+      ],
+      "uniformScale": 0.583732057416268,
+      "imported": [
+        117,
+        122
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-5.webp",
+      "before": "3ecc851961dd05b47608f3fb385a30db9a2d0d68246734bac8db309263fc03d9",
+      "after": "cd4059727ef58f7828082e24bad67283ee14792ee1b11acce8a528fe5fbfb370",
+      "size": [
+        150,
+        124
+      ],
+      "source": "combat-L",
+      "frame": 5,
+      "sourceCrop": [
+        242,
+        208
+      ],
+      "uniformScale": 0.5865384615384616,
+      "imported": [
+        142,
+        122
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-6.webp",
+      "before": "37249f0d0e5518cb05595e3d91639f639365b0f2ade20d59c63ee3addcabbfaa",
+      "after": "7723a5b539c94ae9f7be7df6e35fb878b50982b816ad343a5655d99e2f8cf332",
+      "size": [
+        137,
+        115
+      ],
+      "source": "combat-L",
+      "frame": 6,
+      "sourceCrop": [
+        223,
+        194
+      ],
+      "uniformScale": 0.5824742268041238,
+      "imported": [
+        130,
+        113
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-7.webp",
+      "before": "e7f9a67906d5f3c15cf9470afe35e78741e4cf317331d1908c49605cf3bd7112",
+      "after": "38b87701404d0965fdb48ad5184a13821cfc50c8703e4b56f95d9ebd5ceff046",
+      "size": [
+        124,
+        132
+      ],
+      "source": "combat-L",
+      "frame": 7,
+      "sourceCrop": [
+        210,
+        225
+      ],
+      "uniformScale": 0.5777777777777777,
+      "imported": [
+        121,
+        130
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-8.webp",
+      "before": "1eef627db26d0652320faed1868506436fd07382cc196e1170b129d5c38dd16e",
+      "after": "4144767a6cebaf08ef443e58f47c7b287f2e2394dbdf8af72e5e24e93254e84a",
+      "size": [
+        102,
+        135
+      ],
+      "source": "combat-L",
+      "frame": 8,
+      "sourceCrop": [
+        170,
+        227
+      ],
+      "uniformScale": 0.5859030837004405,
+      "imported": [
+        100,
+        133
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-9.webp",
+      "before": "f5de8000ed0c6aee506577f573c521a240ff99448070909fef4aee43222b52b8",
+      "after": "f901d21ea9f1bd4aeb6604562ae15413e40599567305ca67a68d979131ae83c0",
+      "size": [
+        137,
+        130
+      ],
+      "source": "combat-L",
+      "frame": 9,
+      "sourceCrop": [
+        201,
+        191
+      ],
+      "uniformScale": 0.6701570680628273,
+      "imported": [
+        135,
+        128
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-10.webp",
+      "before": "b849be0b81ab26239c79453fcaa0392dc4b16f71d22fce72bc94e8990e1e3419",
+      "after": "013eb8b27b52bb470eb76428b1658ed27e0feea3f402dc4e84bd73feda1d26c6",
+      "size": [
+        120,
+        82
+      ],
+      "source": "combat-L",
+      "frame": 10,
+      "sourceCrop": [
+        193,
+        140
+      ],
+      "uniformScale": 0.5714285714285714,
+      "imported": [
+        110,
+        80
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-11.webp",
+      "before": "7d952e6598855c1530d4dfec52af488291badade39cacfe9b4e0bb1bcfacccbc",
+      "after": "4439bcc8d6298f3d3aefec4329e6eb7559bc2d3df3d17f4951821d56a3c9e772",
+      "size": [
+        193,
+        129
+      ],
+      "source": "combat-L",
+      "frame": 11,
+      "sourceCrop": [
+        239,
+        160
+      ],
+      "uniformScale": 0.79375,
+      "imported": [
+        190,
+        127
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-12.webp",
+      "before": "3b645fd46c474cd72ee90968f110e4f68ea4785c3bbeeedb85226256e160a683",
+      "after": "99c29d319d9d741a7e4c8cdd4e0900ebe6e188064c89bdd1baf851dae10a88a8",
+      "size": [
+        120,
+        112
+      ],
+      "source": "combat-L",
+      "frame": 12,
+      "sourceCrop": [
+        204,
+        191
+      ],
+      "uniformScale": 0.5759162303664922,
+      "imported": [
+        117,
+        110
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-13.webp",
+      "before": "94d331b7f9c7c337abb81c21c79d28d53b5f4add6e91b2c621a31885b0c30b50",
+      "after": "34a99ee14f32758650c8cecf1dd07a7418e5965cd72bc68aee946000f1b397dc",
+      "size": [
+        112,
+        138
+      ],
+      "source": "combat-L",
+      "frame": 13,
+      "sourceCrop": [
+        186,
+        235
+      ],
+      "uniformScale": 0.5787234042553191,
+      "imported": [
+        108,
+        136
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-14.webp",
+      "before": "a5551fe9ef44ec7673f58ae47414aa3cc2e7fd44907ff2eca689aff8a4cfd654",
+      "after": "c5be548140193dea3ddc5fa78da94e1c20ff8574a78824d4aeeeaf6ba9c8dbb9",
+      "size": [
+        136,
+        128
+      ],
+      "source": "combat-L",
+      "frame": 14,
+      "sourceCrop": [
+        227,
+        213
+      ],
+      "uniformScale": 0.5915492957746479,
+      "imported": [
+        134,
+        126
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-L-15.webp",
+      "before": "60fc07d132d44f2eac971ef020433e405a41fb39cb54f28912a7cea8c14b9cae",
+      "after": "660eb1c2c7bab3545af6d7c955419bffc534d73836043e4d6ecbe66010f5d279",
+      "size": [
+        96,
+        138
+      ],
+      "source": "combat-L",
+      "frame": 15,
+      "sourceCrop": [
+        163,
+        235
+      ],
+      "uniformScale": 0.5787234042553191,
+      "imported": [
+        94,
+        136
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-0.webp",
+      "before": "556b6be7d8248e9889401092c9b528e091bc795c590aff5c1433d28b425d8e27",
+      "after": "4eb2549477ec795390975b8af3cc62761c2e61162dd8f3d2923c28b6a62afcfd",
+      "size": [
+        100,
+        127
+      ],
+      "source": "combat-R",
+      "frame": 0,
+      "sourceCrop": [
+        168,
+        215
+      ],
+      "uniformScale": 0.5813953488372093,
+      "imported": [
+        98,
+        125
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-1.webp",
+      "before": "61e06df85687f7fa984a6073fdc3496ae5989fdc83bee4b2cceb527aec492364",
+      "after": "e7b019c8d8119460ef2e0e79a87791748d8286230faebfa91b8a28bf08872f9c",
+      "size": [
+        120,
+        134
+      ],
+      "source": "combat-R",
+      "frame": 1,
+      "sourceCrop": [
+        193,
+        219
+      ],
+      "uniformScale": 0.6027397260273972,
+      "imported": [
+        116,
+        132
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-2.webp",
+      "before": "29919202d573072c5259ec60bb135b3091f53571e2486957402c17f31be1e31b",
+      "after": "dc52e0b512525796578046ace5424716faaa964eda66dc5d5a53aad83943eda1",
+      "size": [
+        117,
+        133
+      ],
+      "source": "combat-R",
+      "frame": 2,
+      "sourceCrop": [
+        193,
+        219
+      ],
+      "uniformScale": 0.5981735159817352,
+      "imported": [
+        115,
+        131
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-3.webp",
+      "before": "624d416fbdf878c163702e82e560e047806d132e4ada6b2de4d8fa0c99a54467",
+      "after": "dd17c2f6668f09269d16f6184ec1e40855556ded3227894fd61344fcdf4e3ee8",
+      "size": [
+        138,
+        129
+      ],
+      "source": "combat-R",
+      "frame": 3,
+      "sourceCrop": [
+        229,
+        216
+      ],
+      "uniformScale": 0.5879629629629629,
+      "imported": [
+        135,
+        127
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-4.webp",
+      "before": "080c3cb25ad23a88f87668fdfe4a94a6b7ab37276727b15d340f288840169097",
+      "after": "8cf8a1f739cceff18f2dd9e38254a8c33b573b0c595380fd036358cf8bbafe93",
+      "size": [
+        118,
+        128
+      ],
+      "source": "combat-R",
+      "frame": 4,
+      "sourceCrop": [
+        197,
+        218
+      ],
+      "uniformScale": 0.5779816513761468,
+      "imported": [
+        114,
+        126
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-5.webp",
+      "before": "565e46101488450c5921c4684f41b62bbd290f65404650dcfec0a4e5c5a0d596",
+      "after": "8eed6d09a37c70a65df49262a613111ac3d0b6a515fb4cd9d84423112d726f8a",
+      "size": [
+        134,
+        124
+      ],
+      "source": "combat-R",
+      "frame": 5,
+      "sourceCrop": [
+        220,
+        210
+      ],
+      "uniformScale": 0.580952380952381,
+      "imported": [
+        128,
+        122
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-6.webp",
+      "before": "94c1385fe6666659230da31ff8231d1fa1cf7823518ac219a97cb0e75609382d",
+      "after": "a0e4d5492f7b702ce74b96f67ccf6f451f5fb426ce77a110555a358d12803e9d",
+      "size": [
+        117,
+        118
+      ],
+      "source": "combat-R",
+      "frame": 6,
+      "sourceCrop": [
+        192,
+        195
+      ],
+      "uniformScale": 0.5948717948717949,
+      "imported": [
+        114,
+        116
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-7.webp",
+      "before": "00fdd7aa68abecadb351609a651d885c95dabdf357e34a568a1c145d2b59001e",
+      "after": "cfe8098459d319166f602260222831ef48caa023b9e49bd61a1276c7392b577f",
+      "size": [
+        106,
+        132
+      ],
+      "source": "combat-R",
+      "frame": 7,
+      "sourceCrop": [
+        175,
+        225
+      ],
+      "uniformScale": 0.5777777777777777,
+      "imported": [
+        101,
+        130
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-8.webp",
+      "before": "3e596c51117eca43a8830f0a507f4d0d8cef7b46d7ed0d15a7a2d1d749f14ef1",
+      "after": "7febd8c3257edb97368259f14e2b1bf62842847d75f40c4dcf0266da3cc44475",
+      "size": [
+        102,
+        125
+      ],
+      "source": "combat-R",
+      "frame": 8,
+      "sourceCrop": [
+        172,
+        210
+      ],
+      "uniformScale": 0.5857142857142857,
+      "imported": [
+        101,
+        123
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-9.webp",
+      "before": "ab86b77730a9e8859fb61bbb398fd48e3bcd8fa3e93d8dd0a4c194df238f1251",
+      "after": "d203d8ec56a2beed58a6cb2d74c19018f8a49d8dabce6284f7b5f8b54098d99b",
+      "size": [
+        174,
+        126
+      ],
+      "source": "combat-R",
+      "frame": 9,
+      "sourceCrop": [
+        221,
+        159
+      ],
+      "uniformScale": 0.779874213836478,
+      "imported": [
+        172,
+        124
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-10.webp",
+      "before": "d0a9783b864d86e7ba8e8b45d059f5dca4b3a18ffd6ba69adddd7900d7745836",
+      "after": "b3db2fad1094b2490eab8a51b64093db64bdecf3ded15ecb29775887464989f2",
+      "size": [
+        124,
+        82
+      ],
+      "source": "combat-R",
+      "frame": 10,
+      "sourceCrop": [
+        205,
+        137
+      ],
+      "uniformScale": 0.583941605839416,
+      "imported": [
+        120,
+        80
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-11.webp",
+      "before": "42c1527fca03f0cd64466b35dc61204871059f7e467bb689e7702b56592e126d",
+      "after": "128f469ee354ce5f2f63050b55dade47ac6909eeb0929bd4aeb27dfbc4ff3248",
+      "size": [
+        185,
+        136
+      ],
+      "source": "combat-R",
+      "frame": 11,
+      "sourceCrop": [
+        233,
+        171
+      ],
+      "uniformScale": 0.783625730994152,
+      "imported": [
+        183,
+        134
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-12.webp",
+      "before": "da3d75656f65c4351985bbc2bebd6942c676a05e431e949dabedbf5d46bfdf35",
+      "after": "671b8b7d4cd85e61c56fa2f958708679390d0662c9608cfdd393e44c71d675e7",
+      "size": [
+        132,
+        118
+      ],
+      "source": "combat-R",
+      "frame": 12,
+      "sourceCrop": [
+        214,
+        191
+      ],
+      "uniformScale": 0.6073298429319371,
+      "imported": [
+        130,
+        116
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-13.webp",
+      "before": "ea0e94041b97194d997632ad0e643a35f6e3b3d1e7dd2d75321245c6b4307cf2",
+      "after": "0f7bac592bee2b8f97fdb7d21e270acd2cfa39b49f730c9547ed71eae57a20b5",
+      "size": [
+        111,
+        136
+      ],
+      "source": "combat-R",
+      "frame": 13,
+      "sourceCrop": [
+        187,
+        239
+      ],
+      "uniformScale": 0.5606694560669456,
+      "imported": [
+        105,
+        134
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-14.webp",
+      "before": "5ba45ef4ff310296c8377c5407d5c19e2ba2776b077e93517ed95e996a74e0f6",
+      "after": "6118714a37728ed190ec7149bc1c9244cf899078fef0cf14bffdd9bb3ab9e38e",
+      "size": [
+        150,
+        132
+      ],
+      "source": "combat-R",
+      "frame": 14,
+      "sourceCrop": [
+        246,
+        217
+      ],
+      "uniformScale": 0.5990783410138248,
+      "imported": [
+        147,
+        130
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/combat-R-15.webp",
+      "before": "a8a9a822e7eda0a6bfd54bcffc2c3b9755472afa3d277a8fe7819f9253dd3629",
+      "after": "7c0171ec636ed3501a92b263aae0866e8d1826a37cb1c225e4b17f4ab8d65b3f",
+      "size": [
+        82,
+        138
+      ],
+      "source": "combat-R",
+      "frame": 15,
+      "sourceCrop": [
+        146,
+        246
+      ],
+      "uniformScale": 0.5528455284552846,
+      "imported": [
+        81,
+        136
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-0.webp",
+      "before": "62aa6ad20ed3ebd906b760372cb6c9d94b767b48ea46b072a0123c4e0b8f97d7",
+      "after": "7b04470d9bd245e53f879069b690e62874457483c07f453d90aee6ff8cdd28d9",
+      "size": [
+        136,
+        134
+      ],
+      "source": "grapple-L",
+      "frame": 0,
+      "sourceCrop": [
+        232,
+        228
+      ],
+      "uniformScale": 0.5789473684210527,
+      "imported": [
+        134,
+        132
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-1.webp",
+      "before": "c94236a5f35aee7c2513142e7e589dce4e9bb3239684db7523ca80cf9bd1c240",
+      "after": "f2164413e156206e1b50395b8e82caf61246ee6f7ae2ca2eb5ea9feb3b07d4d6",
+      "size": [
+        142,
+        134
+      ],
+      "source": "grapple-L",
+      "frame": 1,
+      "sourceCrop": [
+        241,
+        228
+      ],
+      "uniformScale": 0.5789473684210527,
+      "imported": [
+        140,
+        132
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-2.webp",
+      "before": "ea7b44e16de13ec84baf6bd62343db6c6de2e05d8e90b790e86d03ac04cf1b68",
+      "after": "8be37d24ed1ed7881c4e65b72e3f8720b28f10e1ee8671d35e15fbf81af350bd",
+      "size": [
+        120,
+        150
+      ],
+      "source": "grapple-L",
+      "frame": 2,
+      "sourceCrop": [
+        204,
+        254
+      ],
+      "uniformScale": 0.5826771653543307,
+      "imported": [
+        119,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-3.webp",
+      "before": "8beb841ef3f8a773e62902e8e02b9c4e8c4248cd00d52c9fc9563e23b7f93ede",
+      "after": "f91dd5b709223e005bbd8fb7e057f83ce224d6c851ecd101dcc64ff0b3c1f982",
+      "size": [
+        143,
+        127
+      ],
+      "source": "grapple-L",
+      "frame": 3,
+      "sourceCrop": [
+        245,
+        216
+      ],
+      "uniformScale": 0.5787037037037037,
+      "imported": [
+        142,
+        125
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-4.webp",
+      "before": "e8589e8a10ac22819f287497e2474e8bc241ddd46212b8cb8191c7f64e706e86",
+      "after": "8cac86450a7a3bade5e1b84f9f72da380c2ef0cc68ed1f95125101c81572de5b",
+      "size": [
+        138,
+        151
+      ],
+      "source": "grapple-L",
+      "frame": 4,
+      "sourceCrop": [
+        212,
+        234
+      ],
+      "uniformScale": 0.6367521367521367,
+      "imported": [
+        135,
+        149
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-5.webp",
+      "before": "6afbf12ac0cd1056e323bde2246757a911a76ecb4e4cb9e192f96b1c09c019a9",
+      "after": "723691fce73e9d4280c0d8f657a28abfcc45ee02854074ec68ed80f07844f315",
+      "size": [
+        197,
+        150
+      ],
+      "source": "grapple-L",
+      "frame": 5,
+      "sourceCrop": [
+        228,
+        172
+      ],
+      "uniformScale": 0.8604651162790697,
+      "imported": [
+        196,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-6.webp",
+      "before": "0ae3cf19b153ebd859566e9c769a3ba0a418115ea1d0e361f6e0bdfdaf9ac916",
+      "after": "b0b7c734bd587be4960d3827b4fa9823f47b8d39817110dc4df3b8c1471e308c",
+      "size": [
+        200,
+        150
+      ],
+      "source": "grapple-L",
+      "frame": 6,
+      "sourceCrop": [
+        256,
+        192
+      ],
+      "uniformScale": 0.7708333333333334,
+      "imported": [
+        197,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-7.webp",
+      "before": "2ef4d2e9f84132f945aec2a41c05968d6ddee3a3a9a4e1a6a04602baa600d25a",
+      "after": "816344a2b56009483a822c7f111495f82ca67e984a2e17ec4277e832ab7f667f",
+      "size": [
+        179,
+        152
+      ],
+      "source": "grapple-L",
+      "frame": 7,
+      "sourceCrop": [
+        226,
+        191
+      ],
+      "uniformScale": 0.7853403141361257,
+      "imported": [
+        177,
+        150
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-8.webp",
+      "before": "c4fcfdbb000d2c51c155f5b9e80b922102785bdb63a171361bc4fa5f8923b386",
+      "after": "0429f32cb42db9cec86659580d7e01e0f8777306a633195e0def13b7dd3b5e67",
+      "size": [
+        136,
+        130
+      ],
+      "source": "grapple-L",
+      "frame": 8,
+      "sourceCrop": [
+        226,
+        215
+      ],
+      "uniformScale": 0.5953488372093023,
+      "imported": [
+        135,
+        128
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-9.webp",
+      "before": "0701fd1110d632a626a8c4086b40966d359b1133239ac668704e851fe24fb350",
+      "after": "d43252507d16f1e9c31b0bc5f949be3686984b729578845e7857fd00c11ddff4",
+      "size": [
+        125,
+        140
+      ],
+      "source": "grapple-L",
+      "frame": 9,
+      "sourceCrop": [
+        214,
+        240
+      ],
+      "uniformScale": 0.575,
+      "imported": [
+        123,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-10.webp",
+      "before": "bf8e09c8ef1565f996d5c68858cea71d68cf2522da08f618f360aa26fbca3f9a",
+      "after": "f7fe167085caecfafdb96f10976f905c6c3d2ae297872474e8fda55abb38ce36",
+      "size": [
+        150,
+        113
+      ],
+      "source": "grapple-L",
+      "frame": 10,
+      "sourceCrop": [
+        252,
+        189
+      ],
+      "uniformScale": 0.5873015873015873,
+      "imported": [
+        148,
+        111
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-11.webp",
+      "before": "eecf1e1a19d86087d2086bc3905eeb7f27b039545d6e52ffd42ebce60fecee9e",
+      "after": "0d06d54c6a5e815b8cb1bda2e9e100a31abe4f50363a07308be4cf808cf791e1",
+      "size": [
+        114,
+        114
+      ],
+      "source": "grapple-L",
+      "frame": 11,
+      "sourceCrop": [
+        192,
+        192
+      ],
+      "uniformScale": 0.5833333333333334,
+      "imported": [
+        112,
+        112
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-12.webp",
+      "before": "6a39930828e66df56c8fdf7dcb37d3206eb5e7f1a60c5a40815c09a64187fec7",
+      "after": "df7a2fde3ff53c0cd4bb09dcdd0cddfea0db3635280c1361936ca559c500047d",
+      "size": [
+        98,
+        106
+      ],
+      "source": "grapple-L",
+      "frame": 12,
+      "sourceCrop": [
+        165,
+        177
+      ],
+      "uniformScale": 0.5875706214689266,
+      "imported": [
+        97,
+        104
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-13.webp",
+      "before": "52487b3d070d34b972b97c0afcc0bc1bba6a078e016144f8a889e2eb414a63a8",
+      "after": "6aa9ca6c838f8f96c1bb86fc4b90453b50386ff59790ac1739fc1420c0a55118",
+      "size": [
+        139,
+        97
+      ],
+      "source": "grapple-L",
+      "frame": 13,
+      "sourceCrop": [
+        236,
+        165
+      ],
+      "uniformScale": 0.5757575757575758,
+      "imported": [
+        136,
+        95
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-14.webp",
+      "before": "86703a29029b7051a575d7b5b3d4ce4d99d22a7fe311c47c72a7f9af29cb378d",
+      "after": "07c63c8046bd06e4b573f470e524ea74d4e78f8b6299668d713470754c006375",
+      "size": [
+        116,
+        110
+      ],
+      "source": "grapple-L",
+      "frame": 14,
+      "sourceCrop": [
+        195,
+        184
+      ],
+      "uniformScale": 0.5869565217391305,
+      "imported": [
+        114,
+        108
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-L-15.webp",
+      "before": "10bfbca030d3bd2decf56d6c7451083dacf04d3e813bc2ae1c9367e4e411bcbe",
+      "after": "10cf8ba91b130a07f37a4399a80c6f8546875788ca7e193864656decd6bea224",
+      "size": [
+        129,
+        140
+      ],
+      "source": "grapple-L",
+      "frame": 15,
+      "sourceCrop": [
+        213,
+        231
+      ],
+      "uniformScale": 0.5974025974025974,
+      "imported": [
+        127,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-0.webp",
+      "before": "ad9e470ef89f46fb601fd1f12e4f3c161d17485fd3270c93c09bc7773418e706",
+      "after": "faf4f369ac95c15756760add78d304fc519a151a3142665cb900704f7f521098",
+      "size": [
+        126,
+        144
+      ],
+      "source": "grapple-R",
+      "frame": 0,
+      "sourceCrop": [
+        216,
+        246
+      ],
+      "uniformScale": 0.5772357723577236,
+      "imported": [
+        125,
+        142
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-1.webp",
+      "before": "042ed95c8c908af7116107318265d5678a575fb6890aa52d0b438af13cfe8181",
+      "after": "5a917579941b8377916aa1bd5a8ce5e1e51b3d41206f27ae44d3ad05a624719b",
+      "size": [
+        117,
+        140
+      ],
+      "source": "grapple-R",
+      "frame": 1,
+      "sourceCrop": [
+        198,
+        237
+      ],
+      "uniformScale": 0.5822784810126582,
+      "imported": [
+        115,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-2.webp",
+      "before": "6d93a21c2dee5a0b659a8195a3470b9d7543abfc5235729047640d58a4f19cdd",
+      "after": "b749abc9238ea35f432a5a31c41d989e528871b94ccfb1c74cda305e65c52a47",
+      "size": [
+        113,
+        150
+      ],
+      "source": "grapple-R",
+      "frame": 2,
+      "sourceCrop": [
+        194,
+        256
+      ],
+      "uniformScale": 0.578125,
+      "imported": [
+        112,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-3.webp",
+      "before": "973ef462bbadbf46e13cde80af56d9096547bb9bb239b20911025351ee87594e",
+      "after": "cdbe630c067c8371075ff7ae90ae73dbe932217c7c39052d0faaded3350941f5",
+      "size": [
+        140,
+        131
+      ],
+      "source": "grapple-R",
+      "frame": 3,
+      "sourceCrop": [
+        237,
+        224
+      ],
+      "uniformScale": 0.5758928571428571,
+      "imported": [
+        136,
+        129
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-4.webp",
+      "before": "ce2324558d1f67f31998370ba292f31a2600144826ec26620ac292b136ef5328",
+      "after": "2c866131fc0a2f10bbe6b8339c196a3d68dd5f59b98b72504e4882a9489f7b97",
+      "size": [
+        141,
+        146
+      ],
+      "source": "grapple-R",
+      "frame": 4,
+      "sourceCrop": [
+        229,
+        236
+      ],
+      "uniformScale": 0.6101694915254238,
+      "imported": [
+        140,
+        144
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-5.webp",
+      "before": "19b86ae803548153093acb8bdc584c12110a298573c82f7a26a1214fac6a16ba",
+      "after": "4b998f23f6140b344dd1952232f84dba28783d21e3b96c457c71c2a860af7b20",
+      "size": [
+        179,
+        146
+      ],
+      "source": "grapple-R",
+      "frame": 5,
+      "sourceCrop": [
+        216,
+        175
+      ],
+      "uniformScale": 0.8228571428571428,
+      "imported": [
+        178,
+        144
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-6.webp",
+      "before": "874c56fd2e5fbb08b91e6be24cf10930be4f32c3d1f353e1bfed09e98d815b7e",
+      "after": "2af138961ad871fb158fb69fe50554eece0978ab2da8c72f42b5f7b6b07b552f",
+      "size": [
+        208,
+        146
+      ],
+      "source": "grapple-R",
+      "frame": 6,
+      "sourceCrop": [
+        258,
+        181
+      ],
+      "uniformScale": 0.7955801104972375,
+      "imported": [
+        205,
+        144
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-7.webp",
+      "before": "48dec49960b45e9c64fc844593ac25727a55a6d39af57c43f617c6f1ea8e7d8a",
+      "after": "d400374a2c80b186afe06f2a1f3aa9c4aae3972af4f05ac759df4923cec094e1",
+      "size": [
+        183,
+        146
+      ],
+      "source": "grapple-R",
+      "frame": 7,
+      "sourceCrop": [
+        235,
+        187
+      ],
+      "uniformScale": 0.7700534759358288,
+      "imported": [
+        181,
+        144
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-8.webp",
+      "before": "4fd1954902c5c69e414c4afa62efcaec61c537d84a2af259a6e8bf823692d953",
+      "after": "d731305c655a221024cf1ca18b2a9c25e963a8be9345e84484fc76e3b774c600",
+      "size": [
+        133,
+        131
+      ],
+      "source": "grapple-R",
+      "frame": 8,
+      "sourceCrop": [
+        224,
+        221
+      ],
+      "uniformScale": 0.583710407239819,
+      "imported": [
+        131,
+        129
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-9.webp",
+      "before": "c277b9514cfb846f3c00c40f32ee96aa0d1a8fc97074aa31ba009fe94f655ba0",
+      "after": "5dd8052ac36b5a0cdc82299145e64e54dc58371aa1663360c1241e3963312588",
+      "size": [
+        128,
+        142
+      ],
+      "source": "grapple-R",
+      "frame": 9,
+      "sourceCrop": [
+        216,
+        238
+      ],
+      "uniformScale": 0.5882352941176471,
+      "imported": [
+        127,
+        140
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-10.webp",
+      "before": "0e90f7a72ebd91614e9c768dc87ec3d1df6920576846dba4a41191227a67f02f",
+      "after": "0ec4ebfa062932095cd66ecd17e07fdd0af8c4759a7b3f1bfc886c1876dc95c9",
+      "size": [
+        146,
+        114
+      ],
+      "source": "grapple-R",
+      "frame": 10,
+      "sourceCrop": [
+        247,
+        193
+      ],
+      "uniformScale": 0.5803108808290155,
+      "imported": [
+        143,
+        112
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-11.webp",
+      "before": "f5cb53ebc2dca0b101e5f24cc8d510a7175dc704081ca69180da4e47e5527e46",
+      "after": "f764ca2e9688a3b7cf430e4513eac06eb7ce43ebe111aa6e78951b78026cc50e",
+      "size": [
+        165,
+        142
+      ],
+      "source": "grapple-R",
+      "frame": 11,
+      "sourceCrop": [
+        217,
+        187
+      ],
+      "uniformScale": 0.7486631016042781,
+      "imported": [
+        162,
+        140
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-12.webp",
+      "before": "e497f70eddea4eeeff814e6316c3383389d7213ed7cb60fe5360f588cf12b412",
+      "after": "a5f7a9537729f13345a910e41cbaca95e0720c81388c2584fb3c7caddadb074d",
+      "size": [
+        139,
+        110
+      ],
+      "source": "grapple-R",
+      "frame": 12,
+      "sourceCrop": [
+        174,
+        180
+      ],
+      "uniformScale": 0.6,
+      "imported": [
+        104,
+        108
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-13.webp",
+      "before": "4166df376343fa93c63310e4a79366bc6c7ed7479c0d799e15d8b68a1e6f7e15",
+      "after": "be986f6cc0c12a531cfaba92b663405ae3286b710af26b3f557379f90abe0f71",
+      "size": [
+        138,
+        104
+      ],
+      "source": "grapple-R",
+      "frame": 13,
+      "sourceCrop": [
+        236,
+        178
+      ],
+      "uniformScale": 0.5730337078651685,
+      "imported": [
+        135,
+        102
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-14.webp",
+      "before": "9eb11ddb1ada18bfc6170740488c7c60afdb0fc7d473dff30bcf53f478f6f8d1",
+      "after": "d45c74203772c9a0deb3edae5b981b2598bb4aefadeefc236cd3f4f4ce0071d8",
+      "size": [
+        107,
+        105
+      ],
+      "source": "grapple-R",
+      "frame": 14,
+      "sourceCrop": [
+        184,
+        180
+      ],
+      "uniformScale": 0.5722222222222222,
+      "imported": [
+        105,
+        103
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/grapple-R-15.webp",
+      "before": "e678ba737e1e826a3f3d16ed4ae8c18fcd4540f4bb3e9263ea547edde5ccf428",
+      "after": "238d9883018423154cf0f27fef59f51709119ab3b9c059bcc885ca0c5cc1843e",
+      "size": [
+        110,
+        136
+      ],
+      "source": "grapple-R",
+      "frame": 15,
+      "sourceCrop": [
+        187,
+        231
+      ],
+      "uniformScale": 0.5800865800865801,
+      "imported": [
+        108,
+        134
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-0.webp",
+      "before": "385d4f43441cbca4f144428520d647fe05b7ee9f80fd13bcf4cbe2305faa9972",
+      "after": "198bbcc8600b1009b35dee3ba2a7638fe14aa3f6bbfc6787e1394e7e22a33973",
+      "size": [
+        84,
+        147
+      ],
+      "source": "locomotion-L",
+      "frame": 0,
+      "sourceCrop": [
+        145,
+        253
+      ],
+      "uniformScale": 0.5731225296442688,
+      "imported": [
+        83,
+        145
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-1.webp",
+      "before": "20e14ffa0b37b8258bcda753b95ad77b56f0c8ca99123c7e4c58e12872c57947",
+      "after": "b251ed54bd4e016d847a5611010bd18f1b82653457761a670fbbb196c0bbdaa2",
+      "size": [
+        105,
+        106
+      ],
+      "source": "locomotion-L",
+      "frame": 1,
+      "sourceCrop": [
+        177,
+        178
+      ],
+      "uniformScale": 0.5842696629213483,
+      "imported": [
+        103,
+        104
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-2.webp",
+      "before": "b3a22e68f060e722d7c9487964bca97459510e9aa8b778b3a2a95e93529c7c24",
+      "after": "0055b9bc96b98c118ec570b937e30c3224e9971c617d0871fee0d7c14fb8e3e8",
+      "size": [
+        100,
+        138
+      ],
+      "source": "locomotion-L",
+      "frame": 2,
+      "sourceCrop": [
+        166,
+        227
+      ],
+      "uniformScale": 0.5991189427312775,
+      "imported": [
+        99,
+        136
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-3.webp",
+      "before": "95e3685865adecb687e31dbbc17524a7cad84313a2aea1566af321ab09b747ec",
+      "after": "5971d58c142b9ab9e2ce3a04f0b24cf6c66b5c3fe5d48961521c0478a8dc5358",
+      "size": [
+        130,
+        96
+      ],
+      "source": "locomotion-L",
+      "frame": 3,
+      "sourceCrop": [
+        217,
+        158
+      ],
+      "uniformScale": 0.5949367088607594,
+      "imported": [
+        129,
+        94
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-4.webp",
+      "before": "00b5863e017e3e45880652435119cede772a14289c848c516e53b35ec8994b29",
+      "after": "0d284dea4979c1bcc217d4813ef45e8a9ad521e900caaa26f1cf0c1a34cefd5e",
+      "size": [
+        111,
+        140
+      ],
+      "source": "locomotion-L",
+      "frame": 4,
+      "sourceCrop": [
+        188,
+        236
+      ],
+      "uniformScale": 0.5847457627118644,
+      "imported": [
+        110,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-5.webp",
+      "before": "a3df473ed13ed349cd572ece869a3a2c33a3a7312affd05ef4ecac43ab63dff0",
+      "after": "16839efc91acac6ab80a4d83eb02958cf6ec6d925abf4db14d34be08334303fe",
+      "size": [
+        81,
+        143
+      ],
+      "source": "locomotion-L",
+      "frame": 5,
+      "sourceCrop": [
+        136,
+        240
+      ],
+      "uniformScale": 0.5875,
+      "imported": [
+        80,
+        141
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-6.webp",
+      "before": "95567ec5eba88fd9823cfe668cfb747c8167e433a793aacc803bf8b3546e6208",
+      "after": "2713020cd1dcf18e8f0011a742db68300a25c8984f794d6d40a8272105ff8848",
+      "size": [
+        87,
+        142
+      ],
+      "source": "locomotion-L",
+      "frame": 6,
+      "sourceCrop": [
+        145,
+        237
+      ],
+      "uniformScale": 0.5907172995780591,
+      "imported": [
+        86,
+        140
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-7.webp",
+      "before": "4c23a69dd61c61f0cca9115a2c3b7326f9a288b7acf987d4f6ae676b419ec5c7",
+      "after": "b9f84b30e98aef888eee420360927ccc5b3a16a5a3c2bc52631ec66f201e5532",
+      "size": [
+        127,
+        149
+      ],
+      "source": "locomotion-L",
+      "frame": 7,
+      "sourceCrop": [
+        200,
+        233
+      ],
+      "uniformScale": 0.630901287553648,
+      "imported": [
+        126,
+        147
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-8.webp",
+      "before": "9d175b526213e099ba8f4eb4b95214423e08fe3399065c00dc08f5747ab3ee7e",
+      "after": "b85b729579774de4745b96d4aba6b3560145ed090f7a8e3da64629eb089a1542",
+      "size": [
+        144,
+        126
+      ],
+      "source": "locomotion-L",
+      "frame": 8,
+      "sourceCrop": [
+        204,
+        178
+      ],
+      "uniformScale": 0.6966292134831461,
+      "imported": [
+        142,
+        124
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-9.webp",
+      "before": "1dcfdee3dfcb45570fdd2e9867d1bb230b0073264e7e6590e34e72e2580f73a3",
+      "after": "9e8a5363d30450dd4f4b7195aee5876af112312369ccdf25ddc9928fd9b6e031",
+      "size": [
+        149,
+        131
+      ],
+      "source": "locomotion-L",
+      "frame": 9,
+      "sourceCrop": [
+        211,
+        185
+      ],
+      "uniformScale": 0.6972972972972973,
+      "imported": [
+        147,
+        129
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-10.webp",
+      "before": "8d47b9c1872d73aaaa163b6de58a35299c0573545618b05f20a41512c1b89c82",
+      "after": "30b3bc0446b0257f128a118950eae09d53977c6896a41545ab50cfad48335d22",
+      "size": [
+        135,
+        104
+      ],
+      "source": "locomotion-L",
+      "frame": 10,
+      "sourceCrop": [
+        227,
+        178
+      ],
+      "uniformScale": 0.5730337078651685,
+      "imported": [
+        130,
+        102
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-11.webp",
+      "before": "f36e70bf2215f4372d1693266d74d9f34cbbbb09a84707649d3c3977620a45bc",
+      "after": "2ae1622ae17bf040e94cc4707256d3cd6ef51530815bd29b46c487ab47f21564",
+      "size": [
+        153,
+        152
+      ],
+      "source": "locomotion-L",
+      "frame": 11,
+      "sourceCrop": [
+        221,
+        220
+      ],
+      "uniformScale": 0.6818181818181818,
+      "imported": [
+        151,
+        150
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-13.webp",
+      "before": "0c439a89dd0d85ad2878a96bc94a93d6b15f9c810b30914b6fa0b8aa8449251e",
+      "after": "590e5387948e93e4108bfeccf459af4aed6556e9b24c6f549dc1cd3839a1ae95",
+      "size": [
+        143,
+        140
+      ],
+      "source": "locomotion-L",
+      "frame": 13,
+      "sourceCrop": [
+        162,
+        247
+      ],
+      "uniformScale": 0.5587044534412956,
+      "imported": [
+        91,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-L-14.webp",
+      "before": "a48ac360f344d1968beb81c144cc4fa332492f4bb73072adbbda633e9383a854",
+      "after": "3b2fda4fd1cd63f35353ae636a8bbf4238dfdc7c5711852a271e1f5dfa5cc2c7",
+      "size": [
+        150,
+        56
+      ],
+      "source": "locomotion-L",
+      "frame": 14,
+      "sourceCrop": [
+        262,
+        98
+      ],
+      "uniformScale": 0.5510204081632653,
+      "imported": [
+        144,
+        54
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-0.webp",
+      "before": "1f83f9846ba388e35ee150309fb05fc2e70fa99c9f3baa715fb4f3404bf7044f",
+      "after": "735aa41fee1b551550ccfdb682e51f37983a1327d4cbf34e12e2b19e0cfee88a",
+      "size": [
+        77,
+        148
+      ],
+      "source": "locomotion-R",
+      "frame": 0,
+      "sourceCrop": [
+        130,
+        249
+      ],
+      "uniformScale": 0.5863453815261044,
+      "imported": [
+        76,
+        146
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-1.webp",
+      "before": "996475bf83c784d34cbd0834faa96d67b9398614508667c0ee5b928776546f49",
+      "after": "8a8746b7295917b88256077845249e4fa8ffc11871ec5f7139811b7813ef2450",
+      "size": [
+        96,
+        107
+      ],
+      "source": "locomotion-R",
+      "frame": 1,
+      "sourceCrop": [
+        155,
+        175
+      ],
+      "uniformScale": 0.6,
+      "imported": [
+        93,
+        105
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-2.webp",
+      "before": "d18fb8fd19ec1bc61a97d86939cff7a4156e93ef588ac7f49ba0c521d337f389",
+      "after": "46e711dfdf9d468ae859b9e1728f0b4a1056e14801797fb7d1cf2e60d1dfd708",
+      "size": [
+        100,
+        137
+      ],
+      "source": "locomotion-R",
+      "frame": 2,
+      "sourceCrop": [
+        162,
+        226
+      ],
+      "uniformScale": 0.5973451327433629,
+      "imported": [
+        97,
+        135
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-3.webp",
+      "before": "6059d07c0f4e6b87c2748d54cedfb1263d19220490dda3f85ca915487d157581",
+      "after": "0a8217f6201940cf04f6a0cdb8b3265555323e7bd141e75d61c57c3cfcd7280a",
+      "size": [
+        125,
+        96
+      ],
+      "source": "locomotion-R",
+      "frame": 3,
+      "sourceCrop": [
+        203,
+        157
+      ],
+      "uniformScale": 0.5987261146496815,
+      "imported": [
+        122,
+        94
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-4.webp",
+      "before": "611fa79326eb0f6323d369042cc08702b044b32f8cb2e5a782420360e6b3e537",
+      "after": "05ef14c1a3992a6d048ea4c4cb9fc7ec7d523ba9e10f4df88596ac9a09a391d7",
+      "size": [
+        104,
+        143
+      ],
+      "source": "locomotion-R",
+      "frame": 4,
+      "sourceCrop": [
+        174,
+        239
+      ],
+      "uniformScale": 0.5899581589958159,
+      "imported": [
+        103,
+        141
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-5.webp",
+      "before": "a679c2571dc05cbc7d951215fcc9b4be57a2190499840e6a30751ac2e715cbd1",
+      "after": "d913e471681028f965a4e552412c578e08566fb6e80c9d2784e87f4712d86731",
+      "size": [
+        77,
+        144
+      ],
+      "source": "locomotion-R",
+      "frame": 5,
+      "sourceCrop": [
+        128,
+        240
+      ],
+      "uniformScale": 0.5916666666666667,
+      "imported": [
+        76,
+        142
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-6.webp",
+      "before": "f0efddd4c44e1fd613c6c5a07f28160b2a5f56f88fbf197a7916f293efb89f40",
+      "after": "21489eab2157647cfdd6e01680c549c023c79d0fc55709fa82a5e6e525441125",
+      "size": [
+        81,
+        144
+      ],
+      "source": "locomotion-R",
+      "frame": 6,
+      "sourceCrop": [
+        135,
+        239
+      ],
+      "uniformScale": 0.5941422594142259,
+      "imported": [
+        80,
+        142
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-7.webp",
+      "before": "baed4a700b11940304b1a4499bd17565ba7af4a45cb5b65ae750fa9388a26dc3",
+      "after": "8a40893bc8d2ba70085c3a1d94d156992eb5c59d265319e05313e5423afc7bfa",
+      "size": [
+        112,
+        144
+      ],
+      "source": "locomotion-R",
+      "frame": 7,
+      "sourceCrop": [
+        181,
+        239
+      ],
+      "uniformScale": 0.5941422594142259,
+      "imported": [
+        108,
+        142
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-8.webp",
+      "before": "aa9461e5c820869be301824181ac1ca2775b363f3783d8eb561d91c03a47d847",
+      "after": "c14976c8f9c16d71bfa7cc2e84980124704b1290918d15889339efebcb46786c",
+      "size": [
+        136,
+        126
+      ],
+      "source": "locomotion-R",
+      "frame": 8,
+      "sourceCrop": [
+        196,
+        182
+      ],
+      "uniformScale": 0.6813186813186813,
+      "imported": [
+        134,
+        124
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-9.webp",
+      "before": "eb71498d4e610b3ff3529e6e8b53cb68b73cb4e8542f50435a6f07d048b70fa6",
+      "after": "46fb9296333e9a20abd953f3cec78896fc409ca8b35307652d3dd57f762ed7e4",
+      "size": [
+        150,
+        130
+      ],
+      "source": "locomotion-R",
+      "frame": 9,
+      "sourceCrop": [
+        214,
+        186
+      ],
+      "uniformScale": 0.6881720430107527,
+      "imported": [
+        147,
+        128
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-10.webp",
+      "before": "598b27edf82f917263c1480d8fc5c8195ef000909b2012af4ee623cd22780470",
+      "after": "992ea2d8b65fec3e7193f1c6af669c24c921ef105c46f7171e177418924eb326",
+      "size": [
+        129,
+        110
+      ],
+      "source": "locomotion-R",
+      "frame": 10,
+      "sourceCrop": [
+        212,
+        181
+      ],
+      "uniformScale": 0.5966850828729282,
+      "imported": [
+        126,
+        108
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-11.webp",
+      "before": "231bc44d9c350f2efedff6a06b1e9d8b03ab75066278da951432fb6ffe49172e",
+      "after": "cebfc91825f5767090f43aad65d6e535137420db25a16c014b0277ed1e129c45",
+      "size": [
+        146,
+        149
+      ],
+      "source": "locomotion-R",
+      "frame": 11,
+      "sourceCrop": [
+        214,
+        218
+      ],
+      "uniformScale": 0.6743119266055045,
+      "imported": [
+        144,
+        147
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-13.webp",
+      "before": "0082c73e956f01545c322d6810b0c2dd639b617a4a422c77bf56ddc6a5e6db3a",
+      "after": "049c0f9d5fa555ce00c7a740da724d24c4f9758299aede2b16ce46fd8647fb47",
+      "size": [
+        129,
+        140
+      ],
+      "source": "locomotion-R",
+      "frame": 13,
+      "sourceCrop": [
+        151,
+        245
+      ],
+      "uniformScale": 0.563265306122449,
+      "imported": [
+        85,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/orion205/locomotion-R-14.webp",
+      "before": "7569fb84a6f510c99f0f4d73d496f67ec9e9f2aa9d8fae16e4b0de7577ff2d30",
+      "after": "7afcf9c13d07691ca14abcec59f286c5e79b8f36f43fc78cfc57f0de01d51f13",
+      "size": [
+        162,
+        50
+      ],
+      "source": "locomotion-R",
+      "frame": 14,
+      "sourceCrop": [
+        266,
+        82
+      ],
+      "uniformScale": 0.5853658536585366,
+      "imported": [
+        156,
+        48
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-0.webp",
+      "before": "3f60a123ac6ec4519336d27bd1e1f093b82f44d723defedb3d72d45af99595fc",
+      "after": "2cfba24182d06c9f336cd034d44d5d16be6e2123c790f99bc9c852d8db5f16e2",
+      "size": [
+        103,
+        150
+      ],
+      "source": "motion-orion",
+      "frame": 0,
+      "sourceCrop": [
+        234,
+        340
+      ],
+      "uniformScale": 0.43529411764705883,
+      "imported": [
+        102,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-1.webp",
+      "before": "c9649db47995b2511e0f10694d30890576f820a9f141b88731bd83c996339240",
+      "after": "b30d6c51735a2157b1ee41944f02b5f4e27c6750467da955ed300a60b95fe896",
+      "size": [
+        108,
+        141
+      ],
+      "source": "motion-orion",
+      "frame": 1,
+      "sourceCrop": [
+        251,
+        327
+      ],
+      "uniformScale": 0.42507645259938837,
+      "imported": [
+        107,
+        139
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-2.webp",
+      "before": "044818bd43eaceb953971d4aa099bbc8848076e32e1fd781916b3dd3f395adf2",
+      "after": "b02c9a44090e15bd301df17bb4fa22320206bce90b06b1f418c7bfc144eb68c9",
+      "size": [
+        104,
+        138
+      ],
+      "source": "motion-orion",
+      "frame": 2,
+      "sourceCrop": [
+        246,
+        325
+      ],
+      "uniformScale": 0.41846153846153844,
+      "imported": [
+        103,
+        136
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-3.webp",
+      "before": "a412c9cc3aaf2b948cbcee2a1bf5d043d8a0117e53e102d5e921d69156231729",
+      "after": "11fa38e919ee8664876d7694b9169f61af245bbf0e0962afc4ab9169895f5ee5",
+      "size": [
+        97,
+        141
+      ],
+      "source": "motion-orion",
+      "frame": 3,
+      "sourceCrop": [
+        226,
+        327
+      ],
+      "uniformScale": 0.42507645259938837,
+      "imported": [
+        96,
+        139
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-4.webp",
+      "before": "e1265255fb1d8206edb759325f4b5ced1a4203bc05dc9bb1ba69c2478889a3dd",
+      "after": "73e52b5577678deeed758891357e80f45218005f2f1d05f1aeccf92715ec9c95",
+      "size": [
+        98,
+        153
+      ],
+      "source": "motion-orion",
+      "frame": 4,
+      "sourceCrop": [
+        234,
+        363
+      ],
+      "uniformScale": 0.41597796143250687,
+      "imported": [
+        97,
+        151
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-5.webp",
+      "before": "917cb7d8e2e1054cad6c58e228ba1be5a621e4796dac4a6afbaec845b4b30d55",
+      "after": "0840da9aea74581de64818bb2bf1b03fa99ef257b115a2d007cdf3730ccad03f",
+      "size": [
+        99,
+        140
+      ],
+      "source": "motion-orion",
+      "frame": 5,
+      "sourceCrop": [
+        234,
+        330
+      ],
+      "uniformScale": 0.41818181818181815,
+      "imported": [
+        98,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-6.webp",
+      "before": "c989aa8823a3d4943fc4d09d1a0f39e1c206fb20eeb35054606bf46bc22bd0cb",
+      "after": "1cb4e951a4fb15af448148968ba7fa30b3d7ac1a4cecbe9f9a29fe08e87fff21",
+      "size": [
+        105,
+        140
+      ],
+      "source": "motion-orion",
+      "frame": 6,
+      "sourceCrop": [
+        249,
+        330
+      ],
+      "uniformScale": 0.41818181818181815,
+      "imported": [
+        104,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orion-7.webp",
+      "before": "c5927d99a5bba7f89f7e4ee573795e98f47edbfaf988cfb50264e8c3e606681a",
+      "after": "b1e6c8c0c61933d2630277841b87fc0b2248b882e4afb36f468a32135f93d658",
+      "size": [
+        95,
+        140
+      ],
+      "source": "motion-orion",
+      "frame": 7,
+      "sourceCrop": [
+        223,
+        330
+      ],
+      "uniformScale": 0.41818181818181815,
+      "imported": [
+        93,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-0.webp",
+      "before": "ed17102fcccef3bcd67d17dc9abbd977ed950168db37a76c4e05e7b77ce3bc8f",
+      "after": "7e4bd016e84a2757f53fd69b5b81995c684bc7cf9340634766543315b226a1e2",
+      "size": [
+        117,
+        150
+      ],
+      "source": "motion-orionLeft",
+      "frame": 0,
+      "sourceCrop": [
+        277,
+        354
+      ],
+      "uniformScale": 0.4180790960451977,
+      "imported": [
+        116,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-1.webp",
+      "before": "6f462feec21b0186cb5fc64ad59580949cb408aba1e39376541d5ac5524c7760",
+      "after": "d34be08998659af45852311f933373efd66a12dc1185620f9f1edb6c023d955e",
+      "size": [
+        124,
+        141
+      ],
+      "source": "motion-orionLeft",
+      "frame": 1,
+      "sourceCrop": [
+        290,
+        334
+      ],
+      "uniformScale": 0.4161676646706587,
+      "imported": [
+        121,
+        139
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-2.webp",
+      "before": "297b0ceb25f78f2261631b79ecea9d33ad018fc219c22c7a8655509a6385ee63",
+      "after": "9c14c057ab721ab7da89c4f7054f2ea0b0059eae5c5cde7f1a6c8b15768bdf19",
+      "size": [
+        131,
+        133
+      ],
+      "source": "motion-orionLeft",
+      "frame": 2,
+      "sourceCrop": [
+        314,
+        323
+      ],
+      "uniformScale": 0.4055727554179567,
+      "imported": [
+        127,
+        131
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-3.webp",
+      "before": "a15e28855865c578ba3b04f29bb2d1ee399a60dc36985042be49b04e4ed516aa",
+      "after": "b8566c8ceb13032e4676a9ae8c2ba39fb293a3db01bc6bc39a35ec96b0dfb824",
+      "size": [
+        123,
+        141
+      ],
+      "source": "motion-orionLeft",
+      "frame": 3,
+      "sourceCrop": [
+        293,
+        335
+      ],
+      "uniformScale": 0.41492537313432837,
+      "imported": [
+        122,
+        139
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-4.webp",
+      "before": "465fca7ef7a9a595a4636c32eb727dfa017be5cbff95d0e61000d3795248e51f",
+      "after": "30a723d11a47b522fee9740086d578cecbb339f03b8eda00909736768f2235c2",
+      "size": [
+        117,
+        156
+      ],
+      "source": "motion-orionLeft",
+      "frame": 4,
+      "sourceCrop": [
+        275,
+        367
+      ],
+      "uniformScale": 0.4196185286103542,
+      "imported": [
+        115,
+        154
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-5.webp",
+      "before": "2b0a495dbb04ba21909fa0502288efbeb4e8432ea85e46bb1fa88af8d6f0253b",
+      "after": "1dc49b1035e6fcb58e4a3b7940c7080682e085b31ac4864fde735ba72e615d2f",
+      "size": [
+        118,
+        140
+      ],
+      "source": "motion-orionLeft",
+      "frame": 5,
+      "sourceCrop": [
+        281,
+        335
+      ],
+      "uniformScale": 0.41194029850746267,
+      "imported": [
+        116,
+        138
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-6.webp",
+      "before": "d5b565f2fb853557be7e23ec4e6eac839aae6ce6e98f67bb870f154c4e666e48",
+      "after": "e3843aa02f84a85e65992c8b3871c3eefa3ad873adbedd9f0c0a5a58821c35de",
+      "size": [
+        145,
+        135
+      ],
+      "source": "motion-orionLeft",
+      "frame": 6,
+      "sourceCrop": [
+        348,
+        323
+      ],
+      "uniformScale": 0.4117647058823529,
+      "imported": [
+        143,
+        133
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat249/orionLeft-7.webp",
+      "before": "2b298d3fc70eda663c1565d99b1765e438d44279954d868b82796da878ab7637",
+      "after": "c6a2f02c03fd80717b50e6cd32bd34b2a57eab99bacfb4448d48a2ca3b0d2ace",
+      "size": [
+        121,
+        142
+      ],
+      "source": "motion-orionLeft",
+      "frame": 7,
+      "sourceCrop": [
+        286,
+        336
+      ],
+      "uniformScale": 0.4166666666666667,
+      "imported": [
+        119,
+        140
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orion-weapon-0.webp",
+      "before": "57ceac9ef34fccaa3075f01f61c85168e3a6a995a878abe96e924a004d5fa969",
+      "after": "97cc39ae5473ede3219d8efb82cf309560aa5ed39f7623e0ee8b6e8c7e771be8",
+      "size": [
+        120,
+        103
+      ],
+      "source": "weapon-orion",
+      "frame": 0,
+      "sourceCrop": [
+        291,
+        251
+      ],
+      "uniformScale": 0.40239043824701193,
+      "imported": [
+        117,
+        101
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orion-weapon-1.webp",
+      "before": "b87eda8ae5bd003363d233be8d0a500b026c35deb52a13fe7890c77edaf2045e",
+      "after": "34f62c230128731ecf148c1d29704157c424935dd99052e5447b1c4a4d9fb8c5",
+      "size": [
+        92,
+        150
+      ],
+      "source": "weapon-orion",
+      "frame": 1,
+      "sourceCrop": [
+        223,
+        366
+      ],
+      "uniformScale": 0.40437158469945356,
+      "imported": [
+        90,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orion-weapon-4.webp",
+      "before": "c17d8b868f52d23b320929ad0db2ec7a59c203d8542ce3f2ab1de8314f4bc5e9",
+      "after": "f51a4c2372e7f4c0a49bf09fe6d553f103275f65e2b2bc24e1fa21892d648b3a",
+      "size": [
+        94,
+        153
+      ],
+      "source": "weapon-orion",
+      "frame": 4,
+      "sourceCrop": [
+        229,
+        374
+      ],
+      "uniformScale": 0.4037433155080214,
+      "imported": [
+        92,
+        151
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orion-weapon-7.webp",
+      "before": "9fe528edfc92bd2d7b7dd6519f13a9d4456da4fffed8155e3dca19b78f157a4b",
+      "after": "f746e0aab6ca59add36f317b7fcd8d13941a93016a55560a193e6df499b8c318",
+      "size": [
+        138,
+        146
+      ],
+      "source": "weapon-orion",
+      "frame": 7,
+      "sourceCrop": [
+        328,
+        347
+      ],
+      "uniformScale": 0.414985590778098,
+      "imported": [
+        136,
+        144
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orionLeft-weapon-0.webp",
+      "before": "85e51f4c2fb8d07bd6a036e0c6ddc08a3c90b9e0e6d97527d5f7b72fdd3880f8",
+      "after": "b9c7a7411e0190fbfb46210cf833273857154d8b864f73840d486f232308e3e1",
+      "size": [
+        118,
+        104
+      ],
+      "source": "weapon-orionLeft",
+      "frame": 0,
+      "sourceCrop": [
+        284,
+        251
+      ],
+      "uniformScale": 0.4063745019920319,
+      "imported": [
+        115,
+        102
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orionLeft-weapon-1.webp",
+      "before": "aaef7ea99f20703de2b9e6e4cc8d94a380c4ff6fd9cbda1540c3bbe4c356b510",
+      "after": "4f289b1da2caacfcd71c971c82677184b24bebc1775c1c7a54117c67c48cc496",
+      "size": [
+        142,
+        150
+      ],
+      "source": "weapon-orionLeft",
+      "frame": 1,
+      "sourceCrop": [
+        207,
+        366
+      ],
+      "uniformScale": 0.40437158469945356,
+      "imported": [
+        84,
+        148
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orionLeft-weapon-4.webp",
+      "before": "2a39ed83b832f699381b6a5b6d6aa2a48b67bd1b61f94a9c460d7bc1634b3836",
+      "after": "5107a699087f8a9400223a5b34de3084e1669110d6e55d398f483cccbe80ca6c",
+      "size": [
+        91,
+        153
+      ],
+      "source": "weapon-orionLeft",
+      "frame": 4,
+      "sourceCrop": [
+        215,
+        362
+      ],
+      "uniformScale": 0.4171270718232044,
+      "imported": [
+        90,
+        151
+      ],
+      "groundGap": 0
+    },
+    {
+      "path": "dist/assets/combat248/orionLeft-weapon-7.webp",
+      "before": "961a24ba21b8202aed67d4981c2050677c83721852f64a2dbe6a1132d78980cb",
+      "after": "9d6d721c06473ff598a9e8c34203eecbf798dbdf72507865b2f0c940874b31cd",
+      "size": [
+        135,
+        147
+      ],
+      "source": "weapon-orionLeft",
+      "frame": 7,
+      "sourceCrop": [
+        322,
+        350
+      ],
+      "uniformScale": 0.4142857142857143,
+      "imported": [
+        133,
+        145
+      ],
+      "groundGap": 0
+    }
+  ]
+}

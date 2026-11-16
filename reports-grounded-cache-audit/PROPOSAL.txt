@@ -1,0 +1,173 @@
+URBAN FRACTURE — GENERIC GROUNDED-POSE CACHE AUDIT / SCOPED PROPOSAL
+UF-AUDIT-024 | 2026-11-12 | Audit only; repair requires approval
+
+Conclusion
+The generic grounded renderer has a confirmed shipping cache-validity defect.
+Identical actor inputs at identical query time render differently depending on
+earlier draws. Fresh-family fixture isolation hides this dependency; it does not
+correct it. No mechanical combat defect is established by this audit. Production
+source, existing tests, fixtures, QA gates, damage and timing remain unchanged.
+
+Baseline and method
+Branch: audit/grounded-pose-cache-history
+Base: 858e7392743cbff9649a547f25db2db47232856d (UF-QA-023).
+Designated stable remains f00cc9c9fdce8f2c70a875a2de6e380371c67720.
+Production lineage remains db2e17b; all approved repairs are retained.
+Current source fingerprint:
+53e96d8868352610385d4234a2987ea720019750ef52385a7b4b3a3160bdba0f
+dist/sprites.js SHA-256:
+fc076c85773be78d34863014393a475f8cd23a90145ebec1d9fbf7c0cdf8cbfe
+
+Seven controlled histories use the original shipping index and drawActor bytes in
+Chromium 143.0.7499.4. Startup RAF is suppressed so drawing history can be controlled;
+these are renderer experiments, not full-speed campaign play. Both query actor
+inputs and query time are held equal for each comparison. No contact/damage tick
+is inserted. Secondary experiments expose the cache and an observer in HTTP
+responses only, without modifying source files. Their scope is explicitly
+instrumented: 22 type/state probes, original mixed-family replay, and an eviction
+model. Evidence preserves both production and instrumented-response hashes.
+
+Confirmed root cause — GPC-01 (priority 1)
+dist/sprites.js:248 frameIndex selects an idle beat with floor(time*7)%2.
+Line 327 also applies continuous idle squash: 1+sin(time*2.8)*.007.
+Lines 376–379 declare a module-lifetime Map and cache grounded114 bitmaps using
+an idle key of 'idle'+floor(time*4)%8. A hit draws the stored raster and returns.
+The key aliases different native frames, and different squash within the same
+frame index. Its two-second repetition permits old poses to survive across actors,
+world/hero changes and time resets. The map's size limit is not validity control.
+game.js drawActor sends eligible grounded actors through this production path.
+Adding only native frameIndex to the key would leave continuous squash stale.
+
+Unmodified shipping drawActor evidence (same query time in each comparison):
+- Query 2.8166666666666615 after warm .8: same native frame index, but 2,568
+  changed pixels / alpha IoU .9959619526 from stale squash.
+- Same query after warm .9: 12,924 changed pixels / IoU .7802832503; wrong pose.
+- Query 2.9 after warm 2.8: 12,945 changed pixels / IoU .7800268838. This occurs
+  within one quarter-second bucket; it does not require a world/time reset.
+- Secondary idle-clock controls differ for thug, enforcer and biker among eleven
+  tested types. Eight controls do not differ in this particular state. Do not
+  extrapolate to every character, action or pose.
+
+Causal receipt for the original two UF-QA-023 mixed-family mismatches:
+- Key: thug::idle3:false:0:up:false:false:false:false::0:false:0
+- First insertion: Forest combo, facing -1, tick 300, t=4.999999999999988,
+  actor 23, native index 0.
+- Reuse: Nightshade leap/thug, tick 154, t=2.8166666666666615, native index 1,
+  actors 363/383 in facings -1/+1.
+- Cached versus cold IoU .8758884151/.8760940068 reproduces the earlier mixed
+  comparison metrics exactly. Clearing the map momentarily at the same object
+  state and time, then restoring its entries/order, gives pixel-identical prior
+  isolated Node references for BOTH facings. This is a counterfactual, not a fix.
+- Native floating times are important: do not round 4.999999999999988 to 5 or
+  change the animation selector/clock to make the receipt pass.
+
+Fixture differences versus shipping defects
+Earlier environment seed, tactic and family-isolation differences are harness
+differences. Those were aligned before the remaining two discrepancies were
+attributed. The controlled unmodified drawActor experiments establish a shipping
+renderer defect independently of those fixtures. The instrumented original replay
+then identifies precisely which earlier draw supplied the stale raster. The replay
+resets fixture timelines between families; that magnifies history dependence and
+does not establish campaign occurrence rate. The single .25-second-bucket case
+also establishes the mechanism without such a reset. No damage, hitstun, fall,
+grapple ownership or physical deadline failure follows from these pixel results.
+
+Related conditional finding — GPC-02 (priority 2)
+The native renderer reads hitFlash>0 (sprites.js:327), but the grounded cache key
+does not. At the same .9 query time, warming with hitFlash=.2 and querying with 0
+leaves 11,043 changed pixels, alpha IoU 1: stale brightness, unchanged silhouette.
+This is reproduced through unmodified shipping drawActor with synthetic visual
+flag states. Seven of eleven secondary types differ: thug, knifeThug, enforcer,
+biker, sato, akari, bouncer. Flint, Broxton, Forest and Reina do not differ in the
+tested state. Natural contact incidence and frequency are NOT established, and
+this is not evidence of damage or hitstun failure. Treat it as a confirmed renderer
+input omission with conditional gameplay reach, not seven proven encounter bugs.
+
+Suspected only / separate scope
+Other renderer inputs appear absent from the key, including render scale and
+some action/alive-state detail. They have not received causal equivalent-input
+tests here and are not confirmed defects or approved repair scope. Niko texture
+seams, Broxton root projection, portrait404s and other combat issues stay separate.
+
+Prioritization
+GPC-01: moderate visual severity, shared renderer, three demonstrated idle types,
+deterministically reproducible under specified histories; campaign frequency
+unknown. Misrepresents rendered readiness/pose without established mechanical
+change. Low source complexity, medium verification/performance regression risk.
+GPC-02: conditional feedback severity, seven demonstrated synthetic states,
+natural encounter frequency unknown. Same cache-validity ownership; include only
+the established flash discriminator in this scoped correction.
+
+Proposed correction — not implemented
+On a new approved repair branch from this cumulative audit lineage:
+1. Change only cache ownership/key logic in dist/sprites.js (declaration and
+   drawGrounded114). Restrict raster reuse to the exact supplied render-time batch;
+   invalidate on a different time value. Keep identical same-time actors sharing.
+2. Include hitFlash>0 in the key, or use equivalently strict separation, so clean
+   and flashed actors cannot share a raster even at exactly the same render time.
+3. Preserve existing key terms, size guard, source draw dispatch, raster crop,
+   opaque-sole anchoring, pivots, scale and public APIs. Nonfinite/unsupported time
+   should avoid reuse rather than substitute an invented animation clock.
+4. Do not round/quantize supplied time, change frame selectors/squash, edit actor
+   state, introduce new combat clocks or change damage/frame/configuration data.
+5. Add a current-runtime Git-free regression entry and strict QA registration;
+   keep existing assertions, fixture contracts and historical receipt gates.
+6. Update the repair log and scoped rendered/performance receipts.
+
+Potential regressions and measured cost
+More cache misses mean pixel readbacks, allocation and GC risk. Actor-only
+headless CPU-wall probes (60 measured frames after 30 warm-up, identical thugs):
+Actors     Existing cache mean     Cold every draw mean     Time-scoped model mean
+1          .075 ms                 .658 ms                  .657 ms
+4          .098 ms                 2.698 ms                 .837 ms
+8          .128 ms                 5.450 ms                 .838 ms
+Eight-actor time-scoped model p95=3.4 ms, max=4.0 ms; cold-each-draw p95=9.9 ms,
+max=14.7 ms. This supports retaining same-time sharing. It is not a full-scene
+budget, mixed-pose measurement, hardware/GPU benchmark or 60-FPS certification.
+Unique poses may approach the cold cost. Nested alternate render clocks, paused
+time, preview/playback, resets, sole placement and actual full-scene memory/frame
+pacing require verification after approval. Stop and report unacceptable cost;
+do not silently alter native animation timing to regain speed.
+
+Repeatable acceptance tests for the proposed repair
+- Cold versus warm at .8, .9, 2.8, 2.8166666666666615, 2.9,
+  4.999999999999988 and 5, both facings; include same-index squash and bucket
+  boundary cases. Preserve native time values exactly.
+- Same-time flashed/clean in BOTH orders, same-time peer sharing, hero/world
+  reset and time rewind, multiple actor types, moving/grounded controls.
+- One persistent mixed-family shipping browser context, Forest -> Niko -> Broxton
+  -> Nightshade, must match cold references without driver cache clears or family
+  resets. Keep fresh-family comparisons as a separate fixture-scope check.
+- Assert immutable physical snapshots/HP/actions/events and native frame choices;
+  no synthetic damage/timing tolerance or changed baseline to conceal a mismatch.
+- Run original shared grapple view (9,434 checks), 48-family-case/480-sample current
+  render comparisons, bootstrap readiness/owner/image checks and the 26 relevant
+  behavior suites used by UF-QA-023, including current Forest coverage. Recheck
+  strict receipt gates: unavailable history remains UNAVAILABLE, not passed.
+- Inspect native rendered samples directly, then profile full-scene 1/4/8 actor
+  same/mixed-pose frames and memory; record browser errors and limitations.
+
+Executed audit checks / limits
+Seven primary shipping histories, 22 secondary type/state probes, two original
+mixed mismatches, 22/22 eviction-model comparisons identical to cold, and three
+actor-count performance comparisons. Zero page JavaScript errors; two existing
+portrait paths still404. Physical snapshots in primary/replay draws are preserved.
+Inspected the rendered five-row comparison gallery showing the stale pose, squash,
+conditional flash and both original replay facings. No visual repair is claimed.
+Existing 26 behavior suites and release suite were NOT rerun in this audit;
+production/test/QA preservation is checked against base instead. Historical
+11 crowd + 7 grapple + 17 collision + 1 height + 9 reaction receipts stay unavailable.
+No full campaign, natural contact frequency or exhaustive cache-key proof.
+
+Reproduction (repo root; use installed pinned private renderer dependencies)
+Set UF_CHROMIUM_EXECUTABLE to the pinned Chromium headless-shell executable.
+node tools/grounded-cache-audit/browser.cjs
+node tools/grounded-cache-audit/followup.cjs
+node tools/grounded-cache-audit/candidate.cjs
+node tools/grounded-cache-audit/analyze.cjs
+node tools/grounded-cache-audit/verify.cjs
+Requires localhost permission, existing current render references from UF-QA-023,
+and the pinned browser. Candidate is an audit-only eviction model, not a source fix.
+The original gallery generator is bundled in this audit's evidence package.
+
+STOP: proposal only. No production, existing fixture/test, or QA gate repair made.

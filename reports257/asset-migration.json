@@ -1,0 +1,16 @@
+{
+  "retired": [
+    {
+      "path": "dist/assets/downtown-extension-v1.webp",
+      "archive": "art-source257/retired-runtime/downtown-extension-v1.webp",
+      "sha256": "d10e18690db9ff4ce1c936d895d2290eecdb5e788a72f824223c723b64784c34",
+      "bytes": 798780,
+      "reason": "Dead preload only: neither production nor environment inspector ever reads images.extension; current Downtown draws districts-atlas-v1. Original bytes retained.",
+      "preloaderReferencesRemoved": [
+        "dist/game.js",
+        "dist/environment156.html"
+      ]
+    }
+  ],
+  "approvedArtworkChanged": false
+}

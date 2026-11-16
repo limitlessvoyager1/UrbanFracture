@@ -1,0 +1,626 @@
+{
+  "status": "passed",
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "productionHash": "5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1",
+  "performanceBaselineHash": "fc076c85773be78d34863014393a475f8cd23a90145ebec1d9fbf7c0cdf8cbfe",
+  "primary": [],
+  "mixed": [],
+  "nativeFrames": [
+    {
+      "baseline": true,
+      "roster": "same",
+      "count": 1,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-baseline-same-1.png"
+    },
+    {
+      "baseline": true,
+      "roster": "same",
+      "count": 4,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-baseline-same-4.png"
+    },
+    {
+      "baseline": true,
+      "roster": "same",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-baseline-same-8.png"
+    },
+    {
+      "baseline": true,
+      "roster": "mixed",
+      "count": 1,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-baseline-mixed-1.png"
+    },
+    {
+      "baseline": true,
+      "roster": "mixed",
+      "count": 4,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-baseline-mixed-4.png"
+    },
+    {
+      "baseline": true,
+      "roster": "mixed",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-baseline-mixed-8.png"
+    },
+    {
+      "baseline": false,
+      "roster": "same",
+      "count": 1,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-current-same-1.png"
+    },
+    {
+      "baseline": false,
+      "roster": "same",
+      "count": 4,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-current-same-4.png"
+    },
+    {
+      "baseline": false,
+      "roster": "same",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-current-same-8.png"
+    },
+    {
+      "baseline": false,
+      "roster": "mixed",
+      "count": 1,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-current-mixed-1.png"
+    },
+    {
+      "baseline": false,
+      "roster": "mixed",
+      "count": 4,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-current-mixed-4.png"
+    },
+    {
+      "baseline": false,
+      "roster": "mixed",
+      "count": 8,
+      "time": 3.4999999999999925,
+      "file": "reports-grounded-cache\\scene-current-mixed-8.png"
+    }
+  ],
+  "performance": [
+    {
+      "roster": "same",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.465555556118488,
+      "p50Ms": 6.0999999940395355,
+      "p95Ms": 16.5,
+      "maxMs": 29.400000005960464,
+      "over16ms": 6,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.740555555456215,
+      "p50Ms": 7.300000011920929,
+      "p95Ms": 11.799999982118607,
+      "maxMs": 20.900000005960464,
+      "over16ms": 3,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 6.58222222112947,
+      "p50Ms": 5.200000017881393,
+      "p95Ms": 15,
+      "maxMs": 19.400000005960464,
+      "over16ms": 4,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 6.627222221261925,
+      "p50Ms": 5.0999999940395355,
+      "p95Ms": 15.5,
+      "maxMs": 19,
+      "over16ms": 8,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.065555555787351,
+      "p50Ms": 5.399999976158142,
+      "p95Ms": 17.69999998807907,
+      "maxMs": 23.599999994039536,
+      "over16ms": 11,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 6.941666666832235,
+      "p50Ms": 5.300000011920929,
+      "p95Ms": 15.099999994039536,
+      "maxMs": 30.799999982118607,
+      "over16ms": 6,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "audited shipping baseline"
+    },
+    {
+      "roster": "same",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 9.000555554860169,
+      "p50Ms": 7.200000017881393,
+      "p95Ms": 17,
+      "maxMs": 28.30000001192093,
+      "over16ms": 10,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "same",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.22777777744664,
+      "p50Ms": 6.5999999940395355,
+      "p95Ms": 17.5,
+      "maxMs": 26.599999994039536,
+      "over16ms": 10,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "same",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "thug",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 7.9544444445106715,
+      "p50Ms": 6.200000017881393,
+      "p95Ms": 17.099999994039536,
+      "maxMs": 22.900000005960464,
+      "over16ms": 9,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 1,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 8.764444445404742,
+      "p50Ms": 6.800000011920929,
+      "p95Ms": 18.5,
+      "maxMs": 25.299999982118607,
+      "over16ms": 14,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 4,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        }
+      ],
+      "samples": 180,
+      "meanMs": 11.733333334989018,
+      "p50Ms": 10.100000023841858,
+      "p95Ms": 20.600000023841858,
+      "maxMs": 30.19999998807907,
+      "over16ms": 24,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    },
+    {
+      "roster": "mixed",
+      "count": 8,
+      "cameraHeldForFixture": true,
+      "viewportActors": [
+        {
+          "type": "thug",
+          "x": 100,
+          "y": 425
+        },
+        {
+          "type": "enforcer",
+          "x": 300,
+          "y": 425
+        },
+        {
+          "type": "biker",
+          "x": 500,
+          "y": 425
+        },
+        {
+          "type": "knifeThug",
+          "x": 700,
+          "y": 425
+        },
+        {
+          "type": "sato",
+          "x": 170,
+          "y": 500
+        },
+        {
+          "type": "akari",
+          "x": 370,
+          "y": 500
+        },
+        {
+          "type": "bouncer",
+          "x": 570,
+          "y": 500
+        },
+        {
+          "type": "thug",
+          "x": 770,
+          "y": 500
+        }
+      ],
+      "samples": 180,
+      "meanMs": 14.90388888898823,
+      "p50Ms": 13.400000005960464,
+      "p95Ms": 24.600000023841858,
+      "maxMs": 37.39999997615814,
+      "over16ms": 48,
+      "heapStart": 10000000,
+      "heapEnd": 10000000,
+      "physical": "[3.4999999999999925,105,[[16900,425,120,0,0,null],[17100,425,120,0,0,null],[17300,425,120,0,0,null],[17500,425,120,0,0,null],[16970,500,120,0,0,null],[17170,500,120,0,0,null],[17370,500,120,0,0,null],[17570,500,120,0,0,null]],4]",
+      "physicalUnchanged": true,
+      "version": "current repair"
+    }
+  ],
+  "heap": [
+    {
+      "baseline": true,
+      "before": {
+        "usedSize": 4557104,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11672984,
+        "backingStorageSize": 3859832
+      },
+      "after": {
+        "usedSize": 9450496,
+        "totalSize": 10788864,
+        "embedderHeapUsedSize": 12436432,
+        "backingStorageSize": 5427951
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    },
+    {
+      "baseline": false,
+      "before": {
+        "usedSize": 4393020,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11857504,
+        "backingStorageSize": 3854841
+      },
+      "after": {
+        "usedSize": 9332728,
+        "totalSize": 10788864,
+        "embedderHeapUsedSize": 11937488,
+        "backingStorageSize": 5428082
+      },
+      "scope": "CDP post-GC JS/embedder heap snapshots; not GPU/process memory or long-run leak certification"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "browser": "143.0.7499.4"
+}

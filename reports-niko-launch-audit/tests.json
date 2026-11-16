@@ -1,0 +1,66 @@
+{
+  "baseline": "53352d9b8402d6e969827890d52f95644a45a05a",
+  "suites": [
+    {
+      "suite": "niko185",
+      "exitCode": 1,
+      "output": "niko185.js:65\r\nif(N.Grab223.classify(v)==='HEAVY_BOSS'&&((a.pinBreak191&&age>=.35)||age>=a.pinLimit191)){clean(this,a,true);p.act=null;p.stun=.28;p.cd=Math.max(p.cd,.45);v.down=v.downAge=v.downTotal=0;v.stun=0;v.inv=.35;v.cd=.25;v.recoveryNotBefore119=this.time;v.grabImmune=.75;v.grabReady169=this.time+.75+(v.repeatProtection169?1.5:0);v.repeatProtection169=false;this.fx(v.x,v.y-120,'GRAB BROKEN','#ffbd83');this.event('grabBreak');return;}\r\n             ^\r\n\r\nTypeError: Cannot read properties of undefined (reading 'classify')\r\n    at P.advanceHeroAction (niko185.js:65:14)\r\n    at Brawler.tick (core.js:204:130)\r\n    at P.tick (paired-motion.js:50:39)\r\n    at P.tick (encounters.js:40:997)\r\n    at P.tick (balance48.js:8:634)\r\n    at P.tick (balance49.js:13:110)\r\n    at P.tick (open-cue62.js:7:414)\r\n    at P.tick (weather67.js:6:122)\r\n    at P.tick (nova77.js:38:961)\r\n    at P.tick (nova77.js:45:696)\r\n\r\nNode.js v22.21.0\r\n"
+    },
+    {
+      "suite": "niko284",
+      "exitCode": 0,
+      "output": "Niko284: 1245 assertions passed\n"
+    },
+    {
+      "suite": "playback265",
+      "exitCode": 0,
+      "output": "PASS265 87 fixed-step, all speeds/refresh rates, pause, exact manual ticks, queued input, bounded detached records, disabled restoration\nPASS265 FULL WORLD 136 seven heroes; identical native projectile, hero/enemy cooldown and environment clocks at equal simulation time\nPASS265 RESET QUEUE 137\n"
+    },
+    {
+      "suite": "reactions298",
+      "exitCode": 0,
+      "output": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n"
+    },
+    {
+      "suite": "reaction-deadline-metadata",
+      "exitCode": 0,
+      "output": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exitCode": 0,
+      "output": "PASS actionability diagnostics 6805 checks; 2 heroes x8 native families x3 rates; actual deadlines, cooldown boundaries, read-only state, presentation, players and paired states\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exitCode": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exitCode": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    }
+  ],
+  "scope": "Audit-only current behavior and receipt semantics; no production or existing test changes",
+  "failures": [
+    {
+      "suite": "niko185",
+      "classification": "Existing legacy-loader incompatibility on unchanged baseline",
+      "detail": "Loads only through niko185.js, but its current advanceHeroAction expects later N.Grab223.classify. TypeError, not marked passed; no assertion weakened."
+    }
+  ],
+  "historicalReceipts": {
+    "status": "unavailable",
+    "count": 9,
+    "strictExit": 2,
+    "reason": "Original historical commit absent; portable Git checked"
+  },
+  "visualVerification": "No new browser/art inspection. Source-renderer review and simulation only; no visual defect correction claim.",
+  "limitations": [
+    "No all-enemy/move or full release/campaign certification",
+    "AI disabled in controlled lifecycle cases",
+    "No physical controller test",
+    "No historical evidence fabricated"
+  ]
+}

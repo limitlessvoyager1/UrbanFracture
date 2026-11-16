@@ -1,0 +1,304 @@
+TAP version 13
+# Subtest: crowd: missing executable/repository/commit remain unavailable, without reads or transforms
+ok 1 - crowd: missing executable/repository/commit remain unavailable, without reads or transforms
+  ---
+  duration_ms: 1.7591
+  type: 'test'
+  ...
+# Subtest: crowd: available matching bytes pass with exact hashes and scoped counts
+ok 2 - crowd: available matching bytes pass with exact hashes and scoped counts
+  ---
+  duration_ms: 2.3248
+  type: 'test'
+  ...
+# Subtest: crowd: missing blob does not hide available mismatch or errors
+ok 3 - crowd: missing blob does not hide available mismatch or errors
+  ---
+  duration_ms: 3.7911
+  type: 'test'
+  ...
+# Subtest: crowd: unexpected Git and malformed responses fail closed
+ok 4 - crowd: unexpected Git and malformed responses fail closed
+  ---
+  duration_ms: 0.6071
+  type: 'test'
+  ...
+# Subtest: crowd: malformed commit/blob object types fail
+ok 5 - crowd: malformed commit/blob object types fail
+  ---
+  duration_ms: 0.5086
+  type: 'test'
+  ...
+# Subtest: crowd: behavior executes for unavailable, failed and thrown receipt collection
+ok 6 - crowd: behavior executes for unavailable, failed and thrown receipt collection
+  ---
+  duration_ms: 1.1116
+  type: 'test'
+  ...
+# Subtest: crowd: available proof flags true only for passed historical group
+ok 7 - crowd: available proof flags true only for passed historical group
+  ---
+  duration_ms: 0.3445
+  type: 'test'
+  ...
+# Subtest: crowd: native behavior failure survives missing receipts with partial progress
+ok 8 - crowd: native behavior failure survives missing receipts with partial progress
+  ---
+  duration_ms: 0.3058
+  type: 'test'
+  ...
+# Subtest: crowd: receipt report-write failure cannot skip behavior or become success
+ok 9 - crowd: receipt report-write failure cannot skip behavior or become success
+  ---
+  duration_ms: 0.6231
+  type: 'test'
+  ...
+# Subtest: crowd: final report-save failure still follows behavioral execution and fails
+ok 10 - crowd: final report-save failure still follows behavioral execution and fails
+  ---
+  duration_ms: 0.6161
+  type: 'test'
+  ...
+# Subtest: grapple: missing executable/repository/commit remain unavailable, without reads or transforms
+ok 11 - grapple: missing executable/repository/commit remain unavailable, without reads or transforms
+  ---
+  duration_ms: 0.2969
+  type: 'test'
+  ...
+# Subtest: grapple: available matching bytes pass with exact hashes and scoped counts
+ok 12 - grapple: available matching bytes pass with exact hashes and scoped counts
+  ---
+  duration_ms: 0.4121
+  type: 'test'
+  ...
+# Subtest: grapple: missing blob does not hide available mismatch or errors
+ok 13 - grapple: missing blob does not hide available mismatch or errors
+  ---
+  duration_ms: 1.2339
+  type: 'test'
+  ...
+# Subtest: grapple: unexpected Git and malformed responses fail closed
+ok 14 - grapple: unexpected Git and malformed responses fail closed
+  ---
+  duration_ms: 0.2687
+  type: 'test'
+  ...
+# Subtest: grapple: malformed commit/blob object types fail
+ok 15 - grapple: malformed commit/blob object types fail
+  ---
+  duration_ms: 0.1734
+  type: 'test'
+  ...
+# Subtest: grapple: behavior executes for unavailable, failed and thrown receipt collection
+ok 16 - grapple: behavior executes for unavailable, failed and thrown receipt collection
+  ---
+  duration_ms: 0.2258
+  type: 'test'
+  ...
+# Subtest: grapple: available proof flags true only for passed historical group
+ok 17 - grapple: available proof flags true only for passed historical group
+  ---
+  duration_ms: 0.0885
+  type: 'test'
+  ...
+# Subtest: grapple: native behavior failure survives missing receipts with partial progress
+ok 18 - grapple: native behavior failure survives missing receipts with partial progress
+  ---
+  duration_ms: 0.0999
+  type: 'test'
+  ...
+# Subtest: grapple: receipt report-write failure cannot skip behavior or become success
+ok 19 - grapple: receipt report-write failure cannot skip behavior or become success
+  ---
+  duration_ms: 0.1543
+  type: 'test'
+  ...
+# Subtest: grapple: final report-save failure still follows behavioral execution and fails
+ok 20 - grapple: final report-save failure still follows behavioral execution and fails
+  ---
+  duration_ms: 0.1019
+  type: 'test'
+  ...
+# Subtest: exact approved normalization specification preserved from audit
+ok 21 - exact approved normalization specification preserved from audit
+  ---
+  duration_ms: 1.3901
+  type: 'test'
+  ...
+# Subtest: critical historical gate remains separate from runnable behavior
+ok 22 - critical historical gate remains separate from runnable behavior
+  ---
+  duration_ms: 1.6675
+  type: 'test'
+  ...
+# Subtest: collision: missing Git/repository/commit remain unavailable and skip source checks
+ok 23 - collision: missing Git/repository/commit remain unavailable and skip source checks
+  ---
+  duration_ms: 2.1802
+  type: 'test'
+  ...
+# Subtest: collision: matching available proofs pass with hashes and correct comparator
+ok 24 - collision: matching available proofs pass with hashes and correct comparator
+  ---
+  duration_ms: 2.9515
+  type: 'test'
+  ...
+# Subtest: collision: missing blob is unavailable; available mismatch/error remains failed
+ok 25 - collision: missing blob is unavailable; available mismatch/error remains failed
+  ---
+  duration_ms: 2.3067
+  type: 'test'
+  ...
+# Subtest: collision: unexpected Git errors and malformed object responses fail closed
+ok 26 - collision: unexpected Git errors and malformed object responses fail closed
+  ---
+  duration_ms: 0.2543
+  type: 'test'
+  ...
+# Subtest: collision: behavioral assertions still execute on unavailable/failed/thrown receipt checks
+ok 27 - collision: behavioral assertions still execute on unavailable/failed/thrown receipt checks
+  ---
+  duration_ms: 0.6791
+  type: 'test'
+  ...
+# Subtest: collision: real behavioral failure is saved and not hidden by missing receipts
+ok 28 - collision: real behavioral failure is saved and not hidden by missing receipts
+  ---
+  duration_ms: 0.2202
+  type: 'test'
+  ...
+# Subtest: height: missing Git/repository/commit remain unavailable and skip source checks
+ok 29 - height: missing Git/repository/commit remain unavailable and skip source checks
+  ---
+  duration_ms: 0.1661
+  type: 'test'
+  ...
+# Subtest: height: matching available proofs pass with hashes and correct comparator
+ok 30 - height: matching available proofs pass with hashes and correct comparator
+  ---
+  duration_ms: 0.1734
+  type: 'test'
+  ...
+# Subtest: height: missing blob is unavailable; available mismatch/error remains failed
+ok 31 - height: missing blob is unavailable; available mismatch/error remains failed
+  ---
+  duration_ms: 0.4434
+  type: 'test'
+  ...
+# Subtest: height: unexpected Git errors and malformed object responses fail closed
+ok 32 - height: unexpected Git errors and malformed object responses fail closed
+  ---
+  duration_ms: 0.3733
+  type: 'test'
+  ...
+# Subtest: height: behavioral assertions still execute on unavailable/failed/thrown receipt checks
+ok 33 - height: behavioral assertions still execute on unavailable/failed/thrown receipt checks
+  ---
+  duration_ms: 0.2217
+  type: 'test'
+  ...
+# Subtest: height: real behavioral failure is saved and not hidden by missing receipts
+ok 34 - height: real behavioral failure is saved and not hidden by missing receipts
+  ---
+  duration_ms: 0.0852
+  type: 'test'
+  ...
+# Subtest: collision: mismatch wins over another unavailable source
+ok 35 - collision: mismatch wins over another unavailable source
+  ---
+  duration_ms: 1.0289
+  type: 'test'
+  ...
+# Subtest: height: fixed supplied-renderer contract detects a real height deviation
+ok 36 - height: fixed supplied-renderer contract detects a real height deviation
+  ---
+  duration_ms: 1867.9173
+  type: 'test'
+  ...
+# Subtest: height: missing/malformed historical height function is not a successful proof
+ok 37 - height: missing/malformed historical height function is not a successful proof
+  ---
+  duration_ms: 0.131
+  type: 'test'
+  ...
+# Subtest: release keeps a critical historical gate separate from runnable behavior
+ok 38 - release keeps a critical historical gate separate from runnable behavior
+  ---
+  duration_ms: 0.8176
+  type: 'test'
+  ...
+# Subtest: missing Git is unavailable, never historical approval
+ok 39 - missing Git is unavailable, never historical approval
+  ---
+  duration_ms: 1.8678
+  type: 'test'
+  ...
+# Subtest: ZIP export without a repository is explicitly unavailable
+ok 40 - ZIP export without a repository is explicitly unavailable
+  ---
+  duration_ms: 0.2617
+  type: 'test'
+  ...
+# Subtest: missing historical commit is unavailable and skips source adapters
+ok 41 - missing historical commit is unavailable and skips source adapters
+  ---
+  duration_ms: 0.1965
+  type: 'test'
+  ...
+# Subtest: all available equal receipts pass and contain both hashes
+ok 42 - all available equal receipts pass and contain both hashes
+  ---
+  duration_ms: 1.25
+  type: 'test'
+  ...
+# Subtest: missing source blob remains unavailable alongside verified receipts
+ok 43 - missing source blob remains unavailable alongside verified receipts
+  ---
+  duration_ms: 0.312
+  type: 'test'
+  ...
+# Subtest: available byte mismatch fails, never unavailable or skipped
+ok 44 - available byte mismatch fails, never unavailable or skipped
+  ---
+  duration_ms: 0.292
+  type: 'test'
+  ...
+# Subtest: mismatch still fails when another receipt is unavailable
+ok 45 - mismatch still fails when another receipt is unavailable
+  ---
+  duration_ms: 0.2235
+  type: 'test'
+  ...
+# Subtest: normalizer failure is a failed proof, not missing history
+ok 46 - normalizer failure is a failed proof, not missing history
+  ---
+  duration_ms: 0.2796
+  type: 'test'
+  ...
+# Subtest: source read errors and historical blob read errors fail
+ok 47 - source read errors and historical blob read errors fail
+  ---
+  duration_ms: 0.4386
+  type: 'test'
+  ...
+# Subtest: unexpected Git failures are not treated as unavailable
+ok 48 - unexpected Git failures are not treated as unavailable
+  ---
+  duration_ms: 1.1543
+  type: 'test'
+  ...
+# Subtest: malformed object responses fail closed
+ok 49 - malformed object responses fail closed
+  ---
+  duration_ms: 0.185
+  type: 'test'
+  ...
+1..49
+# tests 49
+# suites 0
+# pass 49
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1992.3128

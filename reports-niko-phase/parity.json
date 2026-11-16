@@ -1,0 +1,9 @@
+{
+  "baseline": "2e8d0b2461eea78ee33cf3e6550c7696e2aafb31",
+  "cases": 352,
+  "snapshots": 73440,
+  "result": "passed",
+  "mechanicsNativeTimingDamageRawReceiptsAndRng": "identical",
+  "scope": "Native Niko single-stage/earned combos, specialist defenses, playback and Reina controls; native actors. Only phase labels intentionally differ.",
+  "sourceDelta": "phase branch/comment and cache only; native times/Director/move implementations unchanged"
+}

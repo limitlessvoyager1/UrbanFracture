@@ -1,0 +1,96 @@
+{
+  "rows": [
+    {
+      "mode": "behavior",
+      "previous": {
+        "label": "niko284",
+        "args": [
+          "tests/niko284.cjs"
+        ],
+        "exit": null,
+        "signal": "SIGTERM",
+        "error": "240s timeout",
+        "stdout": "",
+        "stderr": "",
+        "elapsedMs": 497241,
+        "passed": false
+      },
+      "current": {
+        "label": "niko284",
+        "args": [
+          "tests/niko284.cjs"
+        ],
+        "exit": 0,
+        "signal": null,
+        "error": null,
+        "stdout": "Niko284: 1245 assertions passed\n",
+        "stderr": "",
+        "elapsedMs": 16289,
+        "passed": true
+      }
+    },
+    {
+      "mode": "behavior",
+      "previous": {
+        "label": "niko283",
+        "args": [
+          "tests/niko283.cjs"
+        ],
+        "exit": null,
+        "signal": "SIGTERM",
+        "error": "240s timeout",
+        "stdout": "",
+        "stderr": "",
+        "elapsedMs": 508371,
+        "passed": false
+      },
+      "current": {
+        "label": "niko283",
+        "args": [
+          "tests/niko283.cjs"
+        ],
+        "exit": 0,
+        "signal": null,
+        "error": null,
+        "stdout": "PASS283 55061 native paired steps, all ordinary families, both facings at30/60/120Hz, actual contacts, floor/facing/death/interruption cleanup and hidden-hit rejection\n",
+        "stderr": "",
+        "elapsedMs": 33572,
+        "passed": true
+      }
+    },
+    {
+      "mode": "render",
+      "previous": {
+        "label": "render-forest",
+        "args": [
+          "--expose-gc",
+          "tests/fighter-grapple-render.cjs",
+          "forest"
+        ],
+        "exit": null,
+        "signal": "SIGTERM",
+        "error": "240s timeout",
+        "stdout": "",
+        "stderr": "",
+        "elapsedMs": 493808,
+        "passed": false
+      },
+      "current": {
+        "label": "render-forest",
+        "args": [
+          "--expose-gc",
+          "tests/fighter-grapple-render.cjs",
+          "forest"
+        ],
+        "exit": 0,
+        "signal": null,
+        "error": null,
+        "stdout": "PASS rendered forest: 12 cases, 384 checks\n",
+        "stderr": "",
+        "elapsedMs": 37935,
+        "passed": true
+      }
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "group": "forest",
+      "exit": 0,
+      "stdout": "PASS rendered forest: 12 cases, 384 checks\n",
+      "stderr": ""
+    },
+    {
+      "group": "niko",
+      "exit": 0,
+      "stdout": "PASS rendered niko: 14 cases, 448 checks\n",
+      "stderr": ""
+    },
+    {
+      "group": "broxton",
+      "exit": 0,
+      "stdout": "PASS rendered broxton: 8 cases, 256 checks\n",
+      "stderr": ""
+    },
+    {
+      "group": "nightshade",
+      "exit": 0,
+      "stdout": "PASS rendered nightshade: 4 cases, 132 checks\n",
+      "stderr": ""
+    },
+    {
+      "group": "shared",
+      "reusedCurrent": true
+    }
+  ],
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "passed": true
+}

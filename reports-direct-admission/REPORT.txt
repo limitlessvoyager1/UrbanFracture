@@ -1,0 +1,59 @@
+URBAN FRACTURE — SHARED DIRECT-START DIRECTOR ADMISSION (A3-01)
+Date: 2026-11-12
+Repair branch: fix/direct-start-director-admission
+Production baseline: a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0
+Audit retained: 11d1ac1f2d4a184b4f4a886ea49fcbf23942bb28
+
+RESULT / ROOT CAUSE
+New unpaired direct enemy threats now request the existing Director policy before action creation. Previously enemyAct requested admission, but direct start created and then registered the action without approval. Three light commitments or two two-point attacks could bypass Normal's two-commitment / three-point limits.
+
+CORRECTION
+dist/audit135.js: shared start prefix calls the existing Director request for new direct enemy threats. Existing enemyAct-approved nesting, hero/utility starts, non-scene actors and genuine captured-player continuations retain their policies. A counter flag alone does not bypass admission.
+dist/grab223.js: its already-requested direct wake path passes a tightly matched actor/name/total/contact-time/options admission context into the shared wrapper. try/finally restores/removes it, including on exceptions. This avoids a second policy/RNG evaluation while retaining normal reservation registration.
+dist/index.html: two cache tokens only.
+No changes to Director configuration, three-point/two-commitment caps, AI selection weights, native damage/frame data, capture/counter/tick methods, grapple implementation, artwork or prior approved repairs.
+
+REGRESSION / PRESERVATION
+New tests/direct-start-director-admission.cjs: 517 checks pass; expected failure on the baseline at third direct light. Both entry paths, eight families, 30/60/120Hz, third light, four-point pair, exact supplied action data, single request/reservation, cooldown/player/response/projectile/relief/impact/rear/fire-lane policy, no delayed rejected action, utility/hero/disabled policy, capture transfer, counter flag, authored wake definitions, context matching/restoration and inner exception cleanup.
+Registered as critical initial/release suite in qa/system242/suites.json.
+tests/actionability-diagnostics.cjs retains all read-only diagnostic and boundary assertions. One old expectation explicitly allowed direct starts through positive cooldown; updated to the approved shared Director rejection plus unchanged cooldown / actual reason. 6,813 checks now pass. No diagnostic production implementation changed.
+tools/direct-admission/source-proof.cjs confirms production delta is only the admission prefix/comment, scoped wake context and two tokens. All other production source matches baseline.
+tools/direct-admission/compare.cjs: 66 cases / 32,185 snapshots identical for actor primitive state, native action data, physical clocks, damage, raw reaction metadata, pressure and RNG. Covers30actual bounded native AI traces,30native paired German/Reap/Bruno Powerbomb fixtures and6direct/AI wake controls. Deliberately rejected new direct threats are separately tested, not claimed mechanically identical.
+Original audit evidence is retained on the repair branch; its defect-observation scripts describe the pre-repair baseline and are not current acceptance tests.
+
+TEST EXECUTION
+42 distinct executed suites passed; complete names, exit codes and captured output in tests.json. These include new admission, existing Director /240fixture stress, shared combat/physical locks, native enemy/martial/Flint/Jesse/PCBI, workers/security/counters, all six individual grab223 suites, reaction/metadata/diagnostics, collision/height/weapons, playback/continuity, prior Reina/Niko/vault repairs, simulated gamepad/controller and receipt/QA self-tests.
+Two existing suites FAILED and are not claimed passed:
+- gus219: no new Orion counter assertion. Same failure reproduced with the read-only pre-repair source adapter.
+- grab223-all: aggregate reaches current150 / controller144.cjs:7, expected0 actual1. Same failure reproduced on baseline with inherited preload adapter. Individual grab223-contested/recovery/fairness/damage/exceptions/encounters all pass separately.
+No fix or assertion weakening for those unrelated failures.
+Initial new test fixture omitted a preexisting reservation for an own-projectile case; corrected to exercise actual Director policy.
+A raw direct-wake harness omitted full native combat arguments and produced nonfinite HP in both versions. Replaced with native definitions/options and added finite-HP assertions; final parity and rendered evidence regenerated. No production timing/damage correction was inferred from the invalid fixture.
+Syntax, registry and Git diff whitespace/source checks pass.
+
+RENDERED VERIFICATION — PERFORMED AND INSPECTED
+Native Chromium production index / Canvas2D, baseline versus repaired modules. Local-server access initially denied; user granted network permission, then verification passed.
+Controlled authored frontKick commitments: baseline shows three simultaneous native heavy kick poses /6points; fixed shows one native heavy kick /2points with the other two actors waiting. This is an isolated API fixture, not natural encounter incidence.
+Native Bruno powerbomb, Saito counter and legal direct wake: four samples each (frames6/24/60/180) have identical body pixels, HP and action/ownership records before/after. Twelve exception body pairs match; completed ownership releases. Contact sheet visually inspected, showing waiting excess attackers and retained paired/wake poses.
+Browser page errors0. Same two preexisting concept preload404s remain. Native bodies render; no new art repair or full-motion/campaign certification claimed.
+
+HISTORICAL / RELEASE LIMITS
+17collision +1height +9reaction receipts remain explicitly UNAVAILABLE; strict receipt CLIs exit2. Approved adapters are unchanged; no new historical equivalence certified. Recovered historical proofs may need separately reviewed allowance for this approved source delta; mismatches still fail.
+The separate grapples301/crowd303 historical blockers and obsolete Nightshade329 test contract remain outside scope. No full campaign, physical controller or optional Node canvas certification. Simulated input support preserved.
+Natural AI incidence of the original bypass remains unmeasured; the audit's bounded current-native traces found none. Repair closes the demonstrated shared-entry hole without retuning encounter behavior.
+
+FILES / REPRODUCIBILITY
+Production: dist/audit135.js, dist/grab223.js, dist/index.html.
+Tests: tests/direct-start-director-admission.cjs; updated tests/actionability-diagnostics.cjs; qa/system242/suites.json.
+Verification: tools/direct-admission/{baseline,compare,render,source-proof,wake-fixture}.cjs; reports-direct-admission; COMBAT_REPAIR_LOG.md.
+Run from project root:
+  node tests/direct-start-director-admission.cjs
+  node tests/actionability-diagnostics.cjs
+  node tools/direct-admission/compare.cjs
+  node tools/direct-admission/source-proof.cjs
+UF_GIT names an available Git executable for baseline comparisons. Render tool uses UF_PLAYWRIGHT_MODULE and PLAYWRIGHT_BROWSERS_PATH if needed.
+Existing baseline failures can be reproduced with node --require ./tools/direct-admission/baseline.cjs tests/gus219.cjs; inherited NODE_OPTIONS preload is required for child suites in grab223-all.
+
+INTEGRATION / NEXT
+Verified repair integrated into cumulative stable on completion; dedicated repair and audit branches retained. Original import/eight archives retained. Delivered ZIP is a cumulative overlay against export-baseline, not a complete game project.
+Recommended next: separate A3-02 freshness-aware AI reason diagnostic proposal. Feedback deduplication, historical crowd/grapple portability, obsolete Nightshade tests and unrelated counter/input failures remain separate.

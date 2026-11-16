@@ -1,0 +1,10 @@
+PASS187 standard/strong/boss ×2facings ×3lanes ×30/60/120Hz: one56damage at blade contact, reduced boss damage,105HP8%cost, meter50/75/100, launch/landing/cleanup and no depth drift
+PASS187 health on missed attempts/floor1/no false sword success; punishable failure; blocked/air/recovery/armor/projectile/weapon/grab/boss eligibility and full-meter gates
+PASS187 keyboard event orders and simultaneous held-button orders prioritize Special Counter, once-only health/meter
+PASS187 committed protection ends before recovery, interruption/removal/death/reset cleanup, lethal victims land and settle into defeat
+PASS187 already-confirmed ordinary capture upgrades safely with exact50/75/100total cost; solo specials28/35 and health12/18 preserved; Tornado40 preserved; window7frames, not Niko8.4
+PASS187 hero leap survives shared release at impact; victim flight and paired clock pause locally while world advances
+PASS187 furniture cannot drift the synchronized root, hazards retain damage and private.45s post-action cooldown prevents immediate repeats
+PASS187 standard DualSense, raw Sony and DSX/XInput button-reader chords reach Special Counter once, no held-button retrigger
+PASS187 all five heroes’ ordinary directional punch/kick counters match checkpoint in both facings
+PASS187 no cooldown bypass through counter-first upgrade, and chord upgrades preserve original7frame deadline

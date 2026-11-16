@@ -1,0 +1,1100 @@
+[
+  {
+    "level": "downtown",
+    "section": "downtown-1",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 2670,
+    "y": 500,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 15.580000000000002,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "downtown",
+    "section": "downtown-3",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 6030,
+    "y": 500,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 15.580000000000002,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "downtown",
+    "section": "hotel-4",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 7644,
+    "y": 500,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 15.580000000000002,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "downtown",
+    "section": "downtown-6",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 10449.6,
+    "y": 493,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 15.580000000000002,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "downtown",
+    "section": "hotel-6",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 10449.6,
+    "y": 378,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 15.580000000000002,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "financial",
+    "section": "financial-8",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 3190,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 18.699999999999996,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "financial",
+    "section": "financial-10",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 2108,
+    "y": 432,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 18.699999999999996,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "financial",
+    "section": "financial-12",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 2860,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 18.699999999999996,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "uptown",
+    "section": "uptown-1",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 9180,
+    "y": 500,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 14.14,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "uptown",
+    "section": "uptown-3",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 18560,
+    "y": 500,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 14.14,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "uptown",
+    "section": "uptown-riverfront",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 27808,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 14.14,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "uptown",
+    "section": "uptown-5",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 24420,
+    "y": 493,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 14.14,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "uptown",
+    "section": "uptown-riverfront",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 29992,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 14.14,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "government",
+    "section": "government-front",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1540.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 13.699999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "government",
+    "section": "government-cells",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1430.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 13.699999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "government",
+    "section": "government-tunnels",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1650.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 13.699999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "government",
+    "section": "government-approach",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 528,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 13.699999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "government",
+    "section": "government-building",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 1904.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 13.699999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "casino",
+    "section": "casino-floor",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 2310,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 12.06,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "casino",
+    "section": "casino-penthouse",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1768.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 12.06,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "yacht",
+    "section": "sterling-yacht-deck",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1210,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 7.93,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "yacht",
+    "section": "sterling-yacht-lounge",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 540,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 7.93,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "fairways",
+    "section": "fairways-avenue",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1690,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 4.710000000000001,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "fairways",
+    "section": "fairways-golf",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1800,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 4.710000000000001,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "fairways",
+    "section": "fairways-tennis",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1620,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 4.710000000000001,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "route74",
+    "section": "route74-stop",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1760.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 5.739999999999999,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "route74",
+    "section": "route74-homes",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 2240,
+    "y": 498,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 5.739999999999999,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-floor2",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1214.9999999999998,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-store",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1430.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-floor4",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1304.9999999999998,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-store-departments",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1430.0000000000002,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-marian-street",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 1085,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-tavern",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 560,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-arnell-street",
+    "slot": 3,
+    "kind": "ammoSmall256",
+    "x": 2015,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "slums",
+    "section": "slums-colt",
+    "slot": 4,
+    "kind": "ammoLarge256",
+    "x": 510,
+    "y": 498,
+    "budget": {
+      "small": 4,
+      "large": 1,
+      "rounds": 18,
+      "pressure": 22.480000000000004,
+      "band": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "level": "prison",
+    "section": "prison-mess",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1375,
+    "y": 462,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.200000000000003,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "prison",
+    "section": "prison-security",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 656,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.200000000000003,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "prison",
+    "section": "prison-block-b",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 2210,
+    "y": 498,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.200000000000003,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "docks",
+    "section": "docks-waterfront",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1619.9999999999998,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.34,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "docks",
+    "section": "docks-shepard",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 2210,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.34,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "docks",
+    "section": "docks-yard",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 2210,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.34,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "docks",
+    "section": "docks-district",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 1950,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.34,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "docks",
+    "section": "docks-ship-interior",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 1950,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.34,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "highway",
+    "section": "highway-roadworks",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1824,
+    "y": 502,
+    "budget": {
+      "small": 1,
+      "large": 0,
+      "rounds": 3,
+      "pressure": -0.54,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "chinatown",
+    "section": "chinatown-market",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1440,
+    "y": 502,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 13.370000000000001,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "chinatown",
+    "section": "chinatown-approach",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1496,
+    "y": 502,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 13.370000000000001,
+      "band": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "level": "mall",
+    "section": "mall-lower",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 2420,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.18,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "mall",
+    "section": "mall-upper",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 2530,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.18,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "mall",
+    "section": "mall-maintenance",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1440,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.18,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "mall",
+    "section": "mall-arcade",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1440,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.18,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "mall",
+    "section": "mall-lot",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 630,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.18,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "mall",
+    "section": "mall-roof",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 630,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 5.18,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "stadium",
+    "section": "stadium-concourse",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1890,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.529999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "stadium",
+    "section": "stadium-vip",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 935.0000000000001,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.529999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "stadium",
+    "section": "stadium-facilities",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1430.0000000000002,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.529999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "stadium",
+    "section": "stadium-field",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 5016,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 17.529999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "subway",
+    "section": "subway-maintenance",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1870.0000000000002,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 10.599999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "subway",
+    "section": "subway-tunnel",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1860,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 10.599999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "subway",
+    "section": "subway-car",
+    "slot": 2,
+    "kind": "ammoSmall256",
+    "x": 2520,
+    "y": 502,
+    "budget": {
+      "small": 3,
+      "large": 0,
+      "rounds": 9,
+      "pressure": 10.599999999999998,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "hydro",
+    "section": "hydro-control-room",
+    "slot": 0,
+    "kind": "ammoSmall256",
+    "x": 1125,
+    "y": 502,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 4.04,
+      "band": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "level": "hydro",
+    "section": "hydro-pressure-gallery",
+    "slot": 1,
+    "kind": "ammoSmall256",
+    "x": 1972.0000000000002,
+    "y": 502,
+    "budget": {
+      "small": 2,
+      "large": 0,
+      "rounds": 6,
+      "pressure": 4.04,
+      "band": [
+        2,
+        3
+      ]
+    }
+  }
+]

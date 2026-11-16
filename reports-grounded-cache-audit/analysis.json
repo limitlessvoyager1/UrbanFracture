@@ -1,0 +1,504 @@
+{
+  "primary": [
+    {
+      "name": "matching-warm",
+      "queryTime": 2.8166666666666615,
+      "vs": "cold at identical query time",
+      "reference": "reports-grounded-cache-audit\\primary-cold.png",
+      "identical": false,
+      "changedPixels": 2568,
+      "alphaIoU": 0.9959619526202441,
+      "rgbaMeanDifference": 2.1079729002153624
+    },
+    {
+      "name": "opposite-warm",
+      "queryTime": 2.8166666666666615,
+      "vs": "cold at identical query time",
+      "reference": "reports-grounded-cache-audit\\primary-cold.png",
+      "identical": false,
+      "changedPixels": 12924,
+      "alphaIoU": 0.7802832502571406,
+      "rgbaMeanDifference": 39.563553287443625
+    },
+    {
+      "name": "same-bucket-opposite",
+      "queryTime": 2.9,
+      "vs": "cold at identical query time",
+      "reference": "reports-grounded-cache-audit/primary-late-cold.png",
+      "identical": false,
+      "changedPixels": 12945,
+      "alphaIoU": 0.7800268838459714,
+      "rgbaMeanDifference": 39.41758915157745
+    },
+    {
+      "name": "same-time flash persistence",
+      "queryTime": 0.9,
+      "vs": "cold clean at identical query time",
+      "identical": false,
+      "changedPixels": 11043,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 32.225149411144315
+    }
+  ],
+  "probes": [
+    {
+      "type": "thug",
+      "variant": "idle-clock",
+      "identical": false,
+      "changedPixels": 7106,
+      "alphaIoU": 0.7834725021595162,
+      "rgbaMeanDifference": 39.45465015836453
+    },
+    {
+      "type": "thug",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 6061,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 32.32467220978574
+    },
+    {
+      "type": "knifeThug",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "knifeThug",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 6181,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 23.51570824193043
+    },
+    {
+      "type": "enforcer",
+      "variant": "idle-clock",
+      "identical": false,
+      "changedPixels": 6832,
+      "alphaIoU": 0.9170155502392344,
+      "rgbaMeanDifference": 24.697592703349283
+    },
+    {
+      "type": "enforcer",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 6354,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 28.7344510758599
+    },
+    {
+      "type": "biker",
+      "variant": "idle-clock",
+      "identical": false,
+      "changedPixels": 3189,
+      "alphaIoU": 0.9891614375356532,
+      "rgbaMeanDifference": 6.439056854915383
+    },
+    {
+      "type": "biker",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 5258,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 25.58339720252922
+    },
+    {
+      "type": "sato",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "sato",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 6581,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 20.731144195888753
+    },
+    {
+      "type": "akari",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "akari",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 5955,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 21.186616683902102
+    },
+    {
+      "type": "flint",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "flint",
+      "variant": "hit-flash",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "bouncer",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "bouncer",
+      "variant": "hit-flash",
+      "identical": false,
+      "changedPixels": 6735,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 20.10978744095582
+    },
+    {
+      "type": "broxton",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "broxton",
+      "variant": "hit-flash",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "forest",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "forest",
+      "variant": "hit-flash",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "reina",
+      "variant": "idle-clock",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    },
+    {
+      "type": "reina",
+      "variant": "hit-flash",
+      "identical": true,
+      "changedPixels": 0,
+      "alphaIoU": 1,
+      "rgbaMeanDifference": 0
+    }
+  ],
+  "replay": [
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": -1
+      },
+      "cachedVsCold": {
+        "identical": false,
+        "changedPixels": 12953,
+        "alphaIoU": 0.8758884150675196,
+        "rgbaMeanDifference": 22.182680348258707
+      },
+      "coldVsPriorNode": {
+        "identical": true,
+        "changedPixels": 0,
+        "alphaIoU": 1,
+        "rgbaMeanDifference": 0
+      },
+      "query": {
+        "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+        "time": 2.8166666666666615,
+        "type": "thug",
+        "id": 363,
+        "nativeIndex": 1,
+        "hit": true,
+        "hitFlash": 0,
+        "label": {
+          "group": "nightshade",
+          "move": "leap",
+          "type": "thug",
+          "dir": -1,
+          "tick": 154
+        }
+      },
+      "insertion": {
+        "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+        "time": 4.999999999999988,
+        "type": "thug",
+        "id": 23,
+        "nativeIndex": 0,
+        "hit": false,
+        "hitFlash": 0,
+        "label": {
+          "group": "forest",
+          "move": "combo",
+          "dir": -1,
+          "tick": 300
+        }
+      },
+      "queryTrace": [
+        {
+          "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+          "time": 2.8166666666666615,
+          "type": "thug",
+          "id": 363,
+          "nativeIndex": 1,
+          "hit": true,
+          "hitFlash": 0,
+          "label": {
+            "group": "nightshade",
+            "move": "leap",
+            "type": "thug",
+            "dir": -1,
+            "tick": 154
+          }
+        },
+        {
+          "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+          "time": 2.8166666666666615,
+          "type": "thug",
+          "id": 363,
+          "nativeIndex": 1,
+          "hit": false,
+          "hitFlash": 0,
+          "label": {
+            "group": "nightshade",
+            "move": "leap",
+            "type": "thug",
+            "dir": -1,
+            "tick": 154,
+            "counterfactual": "cold cache"
+          }
+        }
+      ]
+    },
+    {
+      "spec": {
+        "group": "nightshade",
+        "move": "leap",
+        "type": "thug",
+        "dir": 1
+      },
+      "cachedVsCold": {
+        "identical": false,
+        "changedPixels": 12954,
+        "alphaIoU": 0.8760940068417078,
+        "rgbaMeanDifference": 22.260062641610023
+      },
+      "coldVsPriorNode": {
+        "identical": true,
+        "changedPixels": 0,
+        "alphaIoU": 1,
+        "rgbaMeanDifference": 0
+      },
+      "query": {
+        "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+        "time": 2.8166666666666615,
+        "type": "thug",
+        "id": 383,
+        "nativeIndex": 1,
+        "hit": true,
+        "hitFlash": 0,
+        "label": {
+          "group": "nightshade",
+          "move": "leap",
+          "type": "thug",
+          "dir": 1,
+          "tick": 154
+        }
+      },
+      "insertion": {
+        "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+        "time": 4.999999999999988,
+        "type": "thug",
+        "id": 23,
+        "nativeIndex": 0,
+        "hit": false,
+        "hitFlash": 0,
+        "label": {
+          "group": "forest",
+          "move": "combo",
+          "dir": -1,
+          "tick": 300
+        }
+      },
+      "queryTrace": [
+        {
+          "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+          "time": 2.8166666666666615,
+          "type": "thug",
+          "id": 383,
+          "nativeIndex": 1,
+          "hit": true,
+          "hitFlash": 0,
+          "label": {
+            "group": "nightshade",
+            "move": "leap",
+            "type": "thug",
+            "dir": 1,
+            "tick": 154
+          }
+        },
+        {
+          "key": "thug::idle3:false:0:up:false:false:false:false::0:false:0",
+          "time": 2.8166666666666615,
+          "type": "thug",
+          "id": 383,
+          "nativeIndex": 1,
+          "hit": false,
+          "hitFlash": 0,
+          "label": {
+            "group": "nightshade",
+            "move": "leap",
+            "type": "thug",
+            "dir": 1,
+            "tick": 154,
+            "counterfactual": "cold cache"
+          }
+        }
+      ]
+    }
+  ],
+  "primaryPhysicalUnchanged": true,
+  "browserErrors": [],
+  "portrait404s": [
+    "/assets/enforcer-concept-v1.png",
+    "/assets/thug-leader-concept-v1.png"
+  ],
+  "performance": {
+    "shippingAndCold": [
+      {
+        "actors": 1,
+        "mode": "shipping-cache",
+        "samples": 60,
+        "meanMs": 0.075,
+        "medianMs": 0,
+        "p95Ms": 0.800000011920929,
+        "maxMs": 0.9000000059604645,
+        "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+      },
+      {
+        "actors": 1,
+        "mode": "cold-each-draw",
+        "samples": 60,
+        "meanMs": 0.6583333333333333,
+        "medianMs": 0.5999999940395355,
+        "p95Ms": 0.7999999821186066,
+        "maxMs": 4.0999999940395355,
+        "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+      },
+      {
+        "actors": 4,
+        "mode": "shipping-cache",
+        "samples": 60,
+        "meanMs": 0.09833333293596903,
+        "medianMs": 0.09999999403953552,
+        "p95Ms": 0.5999999940395355,
+        "maxMs": 0.6000000238418579,
+        "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+      },
+      {
+        "actors": 4,
+        "mode": "cold-each-draw",
+        "samples": 60,
+        "meanMs": 2.6983333334326742,
+        "medianMs": 2.2999999821186066,
+        "p95Ms": 6.199999988079071,
+        "maxMs": 8,
+        "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+      },
+      {
+        "actors": 8,
+        "mode": "shipping-cache",
+        "samples": 60,
+        "meanMs": 0.12833333313465117,
+        "medianMs": 0.09999999403953552,
+        "p95Ms": 0.699999988079071,
+        "maxMs": 0.7000000178813934,
+        "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+      },
+      {
+        "actors": 8,
+        "mode": "cold-each-draw",
+        "samples": 60,
+        "meanMs": 5.4499999990065895,
+        "medianMs": 4.699999988079071,
+        "p95Ms": 9.900000005960464,
+        "maxMs": 14.699999988079071,
+        "scope": "Headless actor rendering CPU-wall probe only, no full-game/weather/UI or physical GPU certification"
+      }
+    ],
+    "timeScopedSharingModel": [
+      {
+        "actors": 1,
+        "mode": "time-scoped sharing model",
+        "samples": 60,
+        "meanMs": 0.6566666667660077,
+        "medianMs": 0.5999999940395355,
+        "p95Ms": 0.7999999821186066,
+        "maxMs": 3.699999988079071,
+        "scope": "Headless actor CPU-wall cost, identical inputs share within a frame; not full-game/hardware certification"
+      },
+      {
+        "actors": 4,
+        "mode": "time-scoped sharing model",
+        "samples": 60,
+        "meanMs": 0.8366666664679845,
+        "medianMs": 0.6000000238418579,
+        "p95Ms": 3.0999999940395355,
+        "maxMs": 5.4000000059604645,
+        "scope": "Headless actor CPU-wall cost, identical inputs share within a frame; not full-game/hardware certification"
+      },
+      {
+        "actors": 8,
+        "mode": "time-scoped sharing model",
+        "samples": 60,
+        "meanMs": 0.8383333335320154,
+        "medianMs": 0.699999988079071,
+        "p95Ms": 3.4000000059604645,
+        "maxMs": 4,
+        "scope": "Headless actor CPU-wall cost, identical inputs share within a frame; not full-game/hardware certification"
+      }
+    ]
+  },
+  "evictionModel": {
+    "completed": true,
+    "comparisons": 22,
+    "matchedCold": 22,
+    "scope": "Audit-only eviction model, no source repair"
+  },
+  "instrumentation": "Secondary HTTP-response observer/cache access only; eviction model is an audit counterfactual, not a production repair. Production disk bytes unchanged; no contact/damage/timing code changed."
+}

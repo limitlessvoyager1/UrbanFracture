@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "reason": "pixel-comparison",
+  "size": [
+    1920,
+    1080
+  ],
+  "changedPixels": 0,
+  "totalPixels": 2073600,
+  "changedFraction": 0.0,
+  "maxChannelDifference": 0,
+  "channelTolerance": 0,
+  "allowedChangedFraction": 0,
+  "diff": "reports242/hero-repeat-diff.png",
+  "scope": "Browser hero gallery repeatability only; candidate vs candidate, NOT approved baseline",
+  "sha256": [
+    "aa28262c46f4216b2f82254311c97c8160d5edc9aa9b883d049c2d1333d25e99",
+    "aa28262c46f4216b2f82254311c97c8160d5edc9aa9b883d049c2d1333d25e99"
+  ]
+}

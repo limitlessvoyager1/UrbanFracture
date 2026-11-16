@@ -1,0 +1,28 @@
+{
+  "status": "audit-passed",
+  "baseline": "136978cdec33b64b2914d813e83b85460186353d",
+  "branch": "audit/grounded-raster-cost",
+  "sourceFingerprint": "c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e",
+  "checksPassed": 12,
+  "checksFailed": 0,
+  "checks": [
+    "Production, tests, QA, original native/fixture/prior-repair tools and evidence unchanged",
+    "Source fingerprint and original sprites bytes equal repair baseline",
+    "Matrix, confirmation and microexperiments completed without JS errors",
+    "Visible roster and 180 measured native draws retained in every profile run",
+    "Nine observer/control pixel and physical comparisons exactly match",
+    "Readback counts observed only in instrumented conditions",
+    "All 168 native API alpha captures have correct size and hashes",
+    "Three analytical crop models match native metadata in 1170 cases",
+    "Micro timing datasets and exact pixel controls retained",
+    "Trace-only pool availability is bounded and does not claim integrated performance",
+    "All audit CJS parses and diff has no whitespace errors",
+    "Designated stable branch unchanged"
+  ],
+  "productionRepairImplemented": false,
+  "existingBehaviorSuitesRerun": false,
+  "priorPerformanceHold": "UNCHANGED; no repair acceptance or promotion",
+  "historicalReceipts": "Prior 45 UNAVAILABLE state/gates unchanged; strict CLIs not rerun in this audit",
+  "visualsInspected": "audit-visuals.png; exact native/observer scenes and lower-level cop sole controls",
+  "scope": "Private HTTP timing/export only; analytical crop/pool/copy probes do not alter the production function"
+}

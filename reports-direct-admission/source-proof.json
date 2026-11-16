@@ -1,0 +1,15 @@
+{
+  "baseline": "a73c51ac83f30d8b4bb2d3d553ea4a7eea5ee6b0",
+  "result": "passed",
+  "productionChanges": [
+    "dist/audit135.js",
+    "dist/grab223.js",
+    "dist/index.html"
+  ],
+  "scope": "Only new direct-start admission prefix, try/finally wake admission context, and two cache tokens. Director policy/configuration, damage, move/frame data, capture/counter/tick methods and prior repairs unchanged.",
+  "hashes": {
+    "dist/audit135.js": "b986b918d4ea5d7c0ee8df15f75617fe4d06ead6f3b59eccb6713404bbc775de",
+    "dist/grab223.js": "c9a2e82b1115f3a40c42a38e0f7b742bcb3b190d03215966b1c343bce95fb888",
+    "dist/index.html": "abaf18ad2391ab9619c89fbe2ed8d6dc6bafaf7e0f751d362c133fe958588ffa"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "mode": "lifetime",
+  "sourceFingerprint": "24c551c639dc4b0d70e8bb2bfbbf7b8bef32348b127e49288eaaef722742a64a",
+  "baselineSHA256": "5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1",
+  "candidateSHA256": "2545fb731f8fbb781dd03f235914516368b6d014469e934143efbdebfcfd0280",
+  "comparisons": [
+    {
+      "field": "initial",
+      "file": "reports-grounded-surfaces\\lifetime-initial.png",
+      "exact": true,
+      "changedBytes": 0,
+      "physicalEqual": true
+    },
+    {
+      "field": "retained",
+      "file": "reports-grounded-surfaces\\lifetime-retained.png",
+      "exact": true,
+      "changedBytes": 0,
+      "physicalEqual": true
+    },
+    {
+      "field": "clean",
+      "file": "reports-grounded-surfaces\\lifetime-clean.png",
+      "exact": true,
+      "changedBytes": 0,
+      "physicalEqual": true
+    },
+    {
+      "field": "flash",
+      "file": "reports-grounded-surfaces\\lifetime-flash.png",
+      "exact": true,
+      "changedBytes": 0,
+      "physicalEqual": true
+    }
+  ],
+  "scenes": [],
+  "performance": [],
+  "allocation": [],
+  "errors": [],
+  "requests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "browser": "143.0.7499.4"
+}

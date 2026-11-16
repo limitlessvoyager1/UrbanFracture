@@ -1,0 +1,157 @@
+### slums202
+PASS202 five heroes × eight checkpoints, lanes, entry orientation and environment metadata
+PASS202 Route74 finale preserves hero, HP and world clock into Slums
+PASS202 both clear-gated street branches preserve session
+PASS202 store → five alternating floors → rooftop at 30/60/120Hz, no invented boss/victory
+PASS202 all-hero vehicle attacks, finite drops and destroyed wreck solidity for hero/NPC
+PASS202 live wires damage both sides once per hazard cooldown
+PASS202 telegraphed collapses, blocked backtrack and thrown/downed enemy pit defeat
+PASS202 all eight real movement routes, finite encounters, native <=3 living cap and settled clear
+PASS202 actual street input reaches both entrances around solid final wrecks
+PASS202 Iron Will hazard exception and clear-only short-floor gaps preserve reachable stairs
+
+
+### current202
+PASS134 maul approach/return/retrieval ownership,32/20 blitz budgets and rebound, mirrored blade contacts across lanes, grip sessions6 sizes, deliberate25 damage Taekwondo combo and whiff locks, smooth leash
+PASS134 moving three-slash chains, armor takes damage, protected/offlane misses, unreachable and lethal Maul cleanup
+PASS134 boss blitz guard and mid-command Dog stun cleanup
+PASS Reina130:16 mirrored normal/heavy punch and kick counters retain the capture grip, automatically execute followups, pay meter once, take no hit and preserve neutral rear-grab result
+PASS four weapon variations, mirrored lanes, one disarm/kick, 50/100 success and15 failure costs, 60% gates,7/10/5 frame timing, forbidden attacks, Forward/L1 restrictions, lethal and interruption cleanup
+PASS84 hero/size/facing/direction transitions, session/contact/lane/scale/timer continuity, one buffered attack, no damage/regrab/restart, boundaries and interruption cleanup
+PASS52 outer reaps: preserved target-specific totals, two impacts, two real steps, one lane, lethal/interruption cleanup;24 existing throws plus enemy powerbomb enforce attacker-first recovery
+PASS Forest127: six variations mirrored, explicit damage/meter/bonus, contact lanes, targeted projectiles, disarm, timing, health/armor gates, Gunner availability/retrieval, miss/interruption/phase/stage cleanup
+PASS companion126: difficulty stun/immunity, one-hit identity, five-second reset, HP gates, interrupt/armor, genuine knockdown, cooldowns, same-item delivery/drop/cancel, retained Maul charge, unavailable Dog attack fallbacks
+PASS all4 heroes / both facings: hit and guard contact unlock; distance, plane, immunity and prop whiffs cannot chain; queued Nova whiffs finish naturally; later misses retain confirmed string
+PASS104 grounded suplexes: fixed hero root/feet/scale, no logical root jump/roll (kip-up art only), release43 continuous momentum, impact61 single28 damage, mirrored foreground/background lanes, separation, recovery/death/interruption and grab gates
+PASS24 DDTs:72-frame shared clock, full360 turn, held head anchor, both directions, one32-damage impact, plane lock and cleanup
+PASS live standard/raw DualSense strip-mall selection, checkpoint retry/restart, paused R1 scene menu, park start and park retry
+PASS133 delayed Reina art never exposes placeholder, dry/wet paths and loaded artwork preserved
+PASS14472 live standard/raw/DSX charge timing fixtures: immediate taps,2s ready, Nova automatic, release-only others
+PASS147 charge lanes/60% gait/fixed root, enemy timing/armor/punish/reset, unchanged damage and other hero charge factors
+PASS147 12 all-hero woods/lab clear-to-right fixtures: no reverse walking or Downtown door transition
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS149 4 heroes: grounded-body trigger, arson worker entry/throws/escape/fire transition, input safety, exactly3 foreground entrants/45s, stopped clear timer, right-side wall passage, escape and unconditional timeout Game Over
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS149 8 Uptown scenes: every raster ground/scenery layer shifts exactly -10 for a +10 camera move; no independent foreground parallax
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS148 all heroes: solid log-only crossing, vertical limits, jump preservation, upward-only lab door approach, grounded workers and bounded walking speed
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS143 4 heroes ×2 routes: director scope, locked-input cleanup, diagnostics, nonblocking dialogue expiry
+PASS145 308 grapples at120Hz:11 moves×7 victims×2 facings×2 lanes, no premature wake, no stuck action, release and plane invariants
+PASS136 standard/raw DualSense/DSX grab+Triangle, both facings, one cost/impact, recovery ordering
+PASS137 standard/raw Sony/DSX front-forward Attack, both facings, exact26 damage/no cost/no repeat, recovery order, L1 defensive cancel
+PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition
+PASS148 240 seeded solo/mixed hero/route/style fixtures: <=3 pressure, <=2 commitments, finite coordinates, integer score
+PASS152 4heroes x60/120Hz: staged guards do not starve regular waves, one order, input-safe cutscene, released pair, visible dock escape, body-landing clear gate, up-only dock approach/boarding, no Financial leak, retry/reset
+PASS152 standard/raw Sony: Riverfront menu start, same-route retry/restart and paused R1 scene picker, fresh Sterling pair on retry
+PASS153 Dorian:135HP, unarmored damage/stagger, no guard, heavy director cost, near-only one wake uppercut/1s immunity at60/120Hz, expiry, faster pursuit/gait, frequent commitments 18 vs Bruno 11, Dorian/Kevin pair
+PASS153 Dorian:135HP, unarmored damage/stagger, no guard, heavy director cost, near-only one wake uppercut/1s immunity at60/120Hz, expiry, faster pursuit/gait, frequent commitments 18 vs Bruno 11, Dorian/Kevin pair
+PASS139 four heroes: woods scenes, encounters, clear gates, room transitions, fire/exit, park branch
+PASS143 4 heroes ×2 routes: director scope, locked-input cleanup, diagnostics, nonblocking dialogue expiry
+PASS145 44 grapples at120Hz:11 moves×Dorian×2 facings×2 lanes, no premature wake, no stuck action, release and plane invariants
+PASS150 current-contract regression entry point:26 suites, full current combat chain where supported; established character mechanics preserved
+
+
+### route202
+PASS197 all5 heroes ×3 sections, environment, finite encounters and checkpoint retry
+PASS197 both Fairways finales lead to Route74 only after clear, preserving hero/HP/world
+PASS197 Gus/Charlie fullHP grab gate for every hero; front/rear require real stun/stagger
+PASS197 all6 telegraphed attacks mirrored, native damage, fixed plane and throw settlement
+PASS197 blocked/offplane/evaded stun opener cannot grant pavement bash
+PASS197 all5 held-victim owner-death interruption cleanup
+PASS197 breakout releases once, no instant damage, queues visible retaliatory throw
+PASS197 wrecks single-roll ordinary loot, no duplicate drops, all5 attack geometry
+PASS197 clear-gated road transition at30/60/120Hz without session/health reset
+PASS197 real walking past wrecks, finite waves, landed defeat gates and all section exits
+PASS197 actual Attack input damages wreck for every hero without enemy combo confirmation
+PASS197 native punch/kick/weapon counter integration for all5heroes; strong-enemy eligibility retained
+PASS197 disarmed Charlie retains identity and transitions to unarmed power attacks
+
+
+### rooftop202
+PASS201 all5heroes×30/60/120Hz: complete automatic film, all phases/one knockout, no combat input, same HP/hero/weather object/night/rain, one bonus, choice ending and reset cleanup
+PASS201 actual Leroy defeat enters rooftop rather than the old final victory overlay
+PASS201 pause freezes cinematic/world/armor together; unpaused Iron Will duration/cooldown continue through the film
+PASS201 controller menu requires neutral rearming, directional edges and explicit confirmation; both destinations work
+PASS201 native Scene Select rooftop preview retains chosen hero
+
+
+### combat202
+PASS200 both martial artists actually attack idle and repeatedly attacking heroes at30/60/120Hz; Director budget retained
+PASS200 response window follows forced recovery, never renewable by voluntary attack spam
+PASS200 Bruno earns one between-string guard; confirmed followups and heavy recovery remain punishable, no universal armor
+PASS200 all5 heroes ordinary openers hit active Arthur in both facings without force damage or enlarged global hitboxes
+PASS200 five spaced specialist replacements preserve wave counts and encounter admission
+PASS200 Arthur follows continuous dock/gangway route, recedes with scene depth, enters the visible stern opening before removal
+
+
+### grab202
+PASS198 all5heroes ×7 strong/boss types: animated attempts, inclusive40% threshold and provisional highHP holds
+PASS198 exact one-in-four decision,5heroes×2facings×30/60/120Hz; reversal damage/cleanup and combat-plane invariants
+PASS198 all heroes retain ordinary lowHP grab attacks without risk roll
+PASS198 legal holds expire without a quick move; resisted holds expire sooner
+PASS198 every hero transitions visibly before one probabilistic escape; Broxton tactical reposition remains vulnerable
+PASS198 active Iron Will alone bypasses strong HP/wake/down/regrab/breakout rules; duration continues through grabs
+PASS198 Iron Will expiration immediately restores rules; dormant story actors cannot be stolen from staging
+PASS198 three native synchronized reversal patterns: cannot block/counter/dodge/jump/special/escape-mash; intended damage events once
+PASS198 reversal owner interruption/death/scene/victim death cleanup, no floating victim or stuck session
+PASS198 paid manual counters retain existing health/timing categories and do not enter ordinary grab lottery
+PASS198 all5 grab specials use one risk decision; success preserves original cost, reversal does not charge an unexecuted special
+PASS198 standard-enemy grabs remain unchanged; mirrored reversals keep both upper/lower combat lanes
+PASS198 Iron Will remains damage reduction, not invulnerability; resets clear reversal ownership/session
+PASS198 trucker stagger identity preserved outside Iron Will; armor bypasses aerial/regrab gates; transition cycling cannot reset escape deadline
+PASS198 actual paid forward-special dash capture respects the same lottery, with guaranteed Iron Will bypass
+PASS198 preserves Dirk’s undefended design and the enraged casino survivor’s removed defenses
+
+
+### environment202
+PASS162 automatic future enrollment; same object/seed/state across outdoors/interior; indoor clock; temporary overrides/save; validation and deduplicated warnings; identical30/60/120Hz progression without combat RNG
+PASS162 transition continuity and pooled environment audio: one noise buffer, exterior sound, indoor/mute silence
+PASS162 future indoor/outdoor metadata and ground-floor configuration automatically honored
+
+
+### env-integration202
+PASS156 all four heroes: identical combat/geometry/score and AI RNG with/without storm; pause/interior clock and world continuity;22 scene classifications
+PASS156 16 storm/clear grapple comparisons: all heroes, both facings and lanes, ordinary throws and grab specials, identical damage/attachment/recovery/positions
+
+
+### gamepad202
+PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+
+
+### controller202
+PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+
+
+### riverfront202
+PASS160 72 render cases: unique full-length panorama, former tile/dock boundaries, identical camera transforms, no dock overlay, boat approach and shaped occlusion
+PASS199 boat occlusion follows connected foreground, never isolated water reflections; native-height panorama keeps source detail
+
+
+### scenes202
+PASS199 live/destroyed wrecks keep solid geometry for all5heroes and regular/heavy enemies, including road-edge constraint
+PASS199 actual held movement stays blocked by wrecks before and after destruction
+PASS199 canonical enemy AI navigates around a destroyed car instead of phasing or remaining permanently trapped
+PASS199 Niko scene identity is correct at birth; dry/wet paths cannot render a generic placeholder; Riverfront gets high-resolution backing canvas
+PASS199 boat positions keep constant water planes and never wrap/disappear inside the visible level
+PASS199 trucker body height matches Forest; enlarged car shells render after cabin-clipped fire
+
+
+Browser QA: native Slums launch/opaque crowd/cabin and window fire; store; apartment lobby; collapsing floor; shorter floor3 stairs/terminal gap; rooftop. Physical controller hardware not tested.
+
+Publishing size correction: scene WebPs re-encoded at quality93, original2172×724 dimensions retained, PNG originals preserved. No geometry, source detail resolution, crowd alpha, or gameplay changes.
+
+Final lethal-hole regression:
+PASS202 five heroes × eight checkpoints, lanes, entry orientation and environment metadata
+PASS202 Route74 finale preserves hero, HP and world clock into Slums
+PASS202 both clear-gated street branches preserve session
+PASS202 store → five alternating floors → rooftop at 30/60/120Hz, no invented boss/victory
+PASS202 all-hero vehicle attacks, finite drops and destroyed wreck solidity for hero/NPC
+PASS202 live wires damage both sides once per hazard cooldown
+PASS202 telegraphed collapses, blocked backtrack and thrown/downed enemy pit defeat
+PASS202 all eight real movement routes, finite encounters, native <=3 living cap and settled clear
+PASS202 actual street input reaches both entrances around solid final wrecks
+PASS202 Iron Will hazard exception and clear-only short-floor gaps preserve reachable stairs
+PASS202 lethal bodies fall into holes with no duplicate defeat and no premature exit

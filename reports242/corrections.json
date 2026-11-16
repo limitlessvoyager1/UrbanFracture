@@ -1,0 +1,23 @@
+[
+  {
+    "id": "uptown-traffic-extension",
+    "status": "corrected",
+    "changed": true,
+    "file": "dist/uptown-view113.js",
+    "beforeHash": "f2855e96cfc6cf9a48cf6f6d42462102f2c4e2839b95a367a275ece20c828f43",
+    "afterHash": "1f74e3816bece719bdb0d2a4d657f27f9d1bf9227e46849358fd11f47211d8f6",
+    "assetHash": "614087ed94bc1469ad7bce0111ea069e92ae4714a10577ca3a4426545505c23c",
+    "evidence": {
+      "originalGitSource": "36c9a07^:dist/assets/uptown-traffic113.png",
+      "originalFileHash": "87a54572808845e976d027f4f940504181578f3633a141a19edc2e2a1aee394f",
+      "dimensions": [
+        2048,
+        768
+      ],
+      "rgbaIdentical": true,
+      "alphaIdentical": true,
+      "approvedScope": "Deterministic path repair authorized by QA242 policy; preserves every source pixel."
+    },
+    "scope": "Filename metadata only; no image, geometry, animation or gameplay modification."
+  }
+]

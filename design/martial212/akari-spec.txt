@@ -1,0 +1,817 @@
+# URBAN FRACTURE — AKARI COMPLETE COMBAT, AI & ENCOUNTER OVERHAUL
+## Build 205 | Fast Adaptive Martial Artist | Normal Difficulty
+
+### PRIMARY OBJECTIVE
+
+Refine Akari into a fast, unpredictable martial-arts specialist who alternates between assertive offense, disciplined defense, and deceptive pauses.
+
+Akari shares some of Saito's combat abilities but must feel substantially different.
+
+**Saito controls the pace through patience and intimidation. Akari controls the pace through sudden aggression, speed, and changes in rhythm.**
+
+Implement:
+
+1. Faster, lower-damage martial-arts attacks.
+2. Three distinct tactical behavior modes.
+3. Rapid three-kick combination.
+4. Advancing flying kick.
+5. Punch, kick, and grab counters.
+6. Occasional Blitz interception.
+7. High-kick anti-air.
+8. Evasion against eligible unblockable specials.
+9. Feigned recovery traps.
+10. Momentum-based tactical adaptation.
+11. Quick defensive sidesteps.
+12. Conditional recovery sweep and kip-up.
+13. Fair recovery after player throws.
+14. Coordinated behavior with other enemies.
+15. Gradual campaign encounter progression for Akari and Saito.
+
+Preserve Akari's existing visual identity, established HP, spawn references, and functioning animations.
+
+Do not automatically increase her HP or damage.
+
+Create a reversible checkpoint before implementation.
+
+---
+
+# PART 1 — INSPECT THE ACTIVE IMPLEMENTATION
+
+Before changing code, inspect Akari's current runtime implementation and Build 205 Enemy Field Guide.
+
+Identify the active systems responsible for:
+
+- HP and movement.
+- Attack selection.
+- Kick combinations.
+- Flying kicks.
+- Guarding.
+- Counterattacks.
+- Grab reversals.
+- Blitz recognition.
+- Anti-air attacks.
+- Knockdown and wake-up.
+- Recovery sweep.
+- Kip-up.
+- AI Director coordination.
+- Encounter spawning.
+- Animation synchronization.
+- Hitboxes and damage.
+
+Inspect later-loaded modules for overrides.
+
+Reuse the existing combat framework.
+
+Do not create competing AI controllers or duplicate recovery systems.
+
+Record Akari's actual current HP and compare it with Saito's. Preserve the established values while ensuring Akari remains the less durable fighter.
+
+---
+
+# PART 2 — CHARACTER IDENTITY
+
+Akari is an assertive, agile martial artist with strong defensive knowledge but less patience and discipline than Saito.
+
+### Strengths
+
+- Fast movement.
+- Quick attack startup.
+- Shorter recovery than Saito.
+- Rapid kick combinations.
+- Strong defensive reactions.
+- Quick sidesteps.
+- Occasional deceptive counter baiting.
+- Faster transitions between tactical approaches.
+- Ability to pressure players in short bursts.
+
+### Weaknesses
+
+- Lower HP than Saito.
+- Lower damage than Saito.
+- No attack armor.
+- Vulnerable to grabs.
+- Vulnerable to successful player counters.
+- Punishable missed flying kicks.
+- Punishable genuine recovery.
+- Limited defensive cooldowns.
+- Can overcommit during aggressive phases.
+
+### Critical requirement
+
+Akari must not become a faster version of Saito with identical animations.
+
+Her attacks must look different while preserving comparable tactical effects.
+
+---
+
+# PART 3 — THREE TACTICAL AI MODES
+
+Implement three temporary tactical modes.
+
+## ASSERTIVE MODE
+
+Akari aggressively closes distance and pressures the player.
+
+### Behavior
+
+- Advances quickly.
+- Favors rapid kick combinations.
+- Occasionally uses flying kick.
+- Pursues vulnerable opponents.
+- Attempts to maintain offensive momentum.
+- Less likely to guard.
+- More willing to overcommit.
+
+### Initial duration
+
+2–4 seconds.
+
+## DEFENSIVE MODE
+
+Akari prioritizes survival and counter opportunities.
+
+### Behavior
+
+- Guards eligible frontal attacks.
+- Sidesteps predictable strikes.
+- Attempts appropriate counters.
+- Repositions.
+- Waits for attack openings.
+- Reduces unnecessary offensive commitments.
+
+### Initial duration
+
+2–3 seconds.
+
+## DECEPTIVE MODE
+
+Akari temporarily changes rhythm to bait a player response.
+
+### Behavior
+
+- Abruptly stops advancing.
+- Adopts a seemingly vulnerable stance.
+- Occasionally uses feigned recovery.
+- Watches for observable player attacks.
+- Attempts a legitimate timed counter when eligible.
+
+### Initial duration
+
+0.6–1.2 seconds.
+
+### Important
+
+Do not switch tactical modes during committed attacks, synchronized interactions, mandatory recovery, or knockdown.
+
+Mode changes occur at valid action boundaries.
+
+---
+
+# PART 4 — MODE-SELECTION WEIGHTS
+
+Initial Normal difficulty weights:
+
+| Mode | Relative selection weight |
+|---|---:|
+| Assertive | 50% |
+| Defensive | 35% |
+| Deceptive | 15% |
+
+These are relative weights at valid mode-selection boundaries.
+
+They are not guaranteed percentages of total combat time.
+
+### Adaptation
+
+Increase Assertive priority when Akari successfully pressures the player.
+
+Increase Defensive priority when she is countered or repeatedly punished.
+
+Increase Deceptive priority when the player repeatedly attacks immediately after her movements.
+
+### Important
+
+Do not make mode changes deterministic.
+
+Do not allow endless deceptive pauses.
+
+---
+
+# PART 5 — MOMENTUM SYSTEM
+
+Implement a hidden tactical Momentum variable.
+
+### Momentum increases when:
+
+- Akari lands attacks.
+- She forces the player to retreat.
+- She successfully maintains pressure.
+- She creates an advantageous position.
+
+### Momentum decreases when:
+
+- The player counters her.
+- The player successfully throws her.
+- She misses a committed attack.
+- She is repeatedly interrupted.
+
+### High Momentum
+
+- Increased Assertive priority.
+- More frequent eligible kick combinations.
+- Greater willingness to approach.
+- Reduced defensive hesitation.
+- Greater risk of overcommitment.
+
+### Low Momentum
+
+- Increased Defensive priority.
+- More repositioning.
+- Occasional deceptive baiting.
+- Reduced reckless flying-kick selection.
+
+### Important
+
+Momentum affects decision-making only.
+
+Do not increase attack damage, movement speed, armor, or attack speed through Momentum.
+
+Momentum should gradually return toward neutral over time.
+
+---
+
+# PART 6 — RAPID THREE-KICK COMBINATION
+
+## Required sequence
+
+1. Low Snap Kick.
+2. Turning Body Kick.
+3. Spinning Hook Kick.
+
+### Initial frame data at 60 FPS
+
+| Strike | Startup | Active | Transition / recovery |
+|---|---:|---:|---:|
+| Low Snap Kick | 11 | 4 | 6 transition |
+| Turning Body Kick | 14 | 4 | 7 transition |
+| Spinning Hook Kick | 18 | 5 | 26 final recovery |
+
+### Animation
+
+#### First kick
+
+Akari delivers a quick low snap kick.
+
+It should be fast and compact.
+
+#### Second kick
+
+She rotates her hips into a turning body kick.
+
+The player receives standing stagger on a clean hit.
+
+#### Third kick
+
+Akari performs a fast spinning hook kick.
+
+The final hit causes knockdown on an eligible clean hit.
+
+### Damage
+
+Target approximately 75–85% of Saito's comparable three-kick combination damage.
+
+### Requirements
+
+- Separate hitboxes.
+- Separate damage events.
+- Smooth transitions.
+- Correct combat-plane alignment.
+- No automatic full-combo damage.
+- No attack armor.
+- Punishable final recovery.
+
+### Important
+
+A successful player counter must interrupt the combination.
+
+Do not allow Akari to fight through confirmed counterattacks.
+
+---
+
+# PART 7 — ADVANCING FLYING KICK
+
+## Purpose
+
+Pressure players at medium range and punish predictable retreating.
+
+### Animation
+
+1. Akari takes a short advancing step.
+2. She bends her knees.
+3. She leaps forward.
+4. She rotates her hips.
+5. She delivers a jumping roundhouse kick.
+6. The player is knocked backward on a clean hit.
+7. Akari lands naturally.
+8. She enters recovery.
+
+### Initial frame data
+
+| Property | Value |
+|---|---:|
+| Startup | 19 frames |
+| Active | 6 frames |
+| Recovery | 30 frames |
+| Cooldown | 5–7 seconds |
+| Armor | None |
+| Knockdown | Yes on clean hit |
+
+### Damage
+
+Approximately 75–85% of Saito's comparable flying kick.
+
+### Important
+
+- No homing after launch.
+- No sprite scaling.
+- No combat-plane drift.
+- No automatic armor.
+- Missed flying kicks must remain punishable.
+
+---
+
+# PART 8 — FRONTAL BLOCKING
+
+Akari should block less often than Saito but remain defensively competent.
+
+### Initial probabilities
+
+| Situation | Guard attempt |
+|---|---:|
+| Ordinary eligible frontal attack | 25–35% |
+| Repeated predictable attack string | 35–45% |
+| Attack from behind | 0% |
+| Mandatory recovery | 0% |
+
+### Requirements
+
+- Visible guard animation.
+- Frontal protection only.
+- Chip damage still applies.
+- Defense-meter pressure remains active.
+- No automatic counter after every block.
+- No blocking explicitly unblockable specials.
+- No guard during knockdown, stun, or mandatory recovery.
+
+### Important
+
+Akari's defense should rely more on movement than Saito's.
+
+---
+
+# PART 9 — QUICK SIDESTEP
+
+### Purpose
+
+Avoid predictable frontal attacks and reposition quickly.
+
+### Initial values
+
+- Distance: 0.5–0.75 character-width.
+- Cooldown: 4–6 seconds.
+- No extended invulnerability.
+
+### Animation
+
+1. Akari shifts her weight.
+2. She takes a quick lateral or diagonal step.
+3. Her trailing foot follows.
+4. She returns to stance.
+
+### Requirements
+
+- Natural footwork.
+- No gliding.
+- No teleportation.
+- No invalid combat-plane movement.
+- No canceling mandatory recovery.
+
+---
+
+# PART 10 — COUNTER SYSTEM
+
+Akari's counters should be quicker but less damaging than Saito's.
+
+Use the existing enemy counter framework.
+
+### Initial attempt probabilities
+
+| Situation | Chance |
+|---|---:|
+| Ordinary eligible strike | 15–20% |
+| Defensive mode | 20–25% |
+| Deceptive mode after successful bait | 30–35% |
+| Eligible frontal grab attempt | 8–12% |
+| Eligible Blitz | 10–15% |
+
+These are attempt probabilities, not automatic success probabilities.
+
+### Requirements
+
+- Correct incoming attack classification.
+- Valid counter timing.
+- Valid combat-plane alignment.
+- Actionable state.
+- No counters during mandatory recovery.
+- No automatic counter against attacks from behind.
+- No counters against explicitly uncounterable moves.
+
+---
+
+# PART 11 — PUNCH COUNTER
+## WRIST DEFLECTION → SPINNING BACKFIST
+
+### Animation
+
+1. Akari redirects the incoming punch.
+2. She briefly controls the attacking wrist.
+3. She pivots around her supporting foot.
+4. She delivers a fast spinning backfist.
+5. The hero staggers backward.
+6. Akari returns to stance.
+
+### Properties
+
+- Moderate-to-high counter damage.
+- Standing stagger.
+- Moderate pushback.
+- Lower damage than Saito's punch counter.
+
+### Important
+
+Maintain visible contact during the deflection.
+
+Do not apply counter damage before the backfist connects.
+
+---
+
+# PART 12 — KICK COUNTER
+## LEG DEFLECTION → LOW SWEEP
+
+### Animation
+
+1. Akari deflects the incoming kick.
+2. She pivots away from the attack line.
+3. She lowers her center of gravity.
+4. She performs a quick low sweep.
+5. The hero falls on a clean hit.
+6. Akari returns to stance.
+
+### Properties
+
+- Moderate counter damage.
+- Knockdown.
+- Lower damage than Saito's kick counter.
+
+### Important
+
+The sweep must use its own valid hitbox.
+
+Do not automatically knock down the player before contact.
+
+---
+
+# PART 13 — GRAB REVERSAL
+## QUICK HIP TOSS
+
+### Trigger
+
+Eligible frontal player grab attempt.
+
+### Initial chance
+
+8–12%.
+
+### Animation
+
+1. Akari intercepts the attempted grab.
+2. She captures the hero's arm.
+3. She pivots her hips.
+4. She performs a short hip toss.
+5. The hero lands.
+6. Akari releases and returns to stance.
+
+### Restrictions
+
+- No automatic reversal of rear grabs.
+- No reversal after confirmed synchronized capture.
+- No reversal during recovery.
+- No reversal against protected grab states.
+- Appropriate cooldown required.
+
+### Important
+
+Grabs must remain one of Akari's principal weaknesses.
+
+---
+
+# PART 14 — BLITZ INTERCEPTING KICK
+
+Akari may occasionally intercept eligible frontal Blitz attacks.
+
+### Move
+
+Quick Intercepting Front Kick.
+
+### Initial frame data
+
+- Startup: 11 frames.
+- Active: 4 frames.
+- Recovery: 25 frames.
+- Cooldown: 6 seconds.
+
+### Attempt chance
+
+10–15%.
+
+### Requirements
+
+- Blitz visibly committed.
+- Akari facing the player.
+- Valid range and combat-plane alignment.
+- Actionable state.
+- AI Director permission.
+
+### Important
+
+The intercept must not automatically defeat every Blitz.
+
+Resolve actual collision, attack priority, armor, and invulnerability properties.
+
+---
+
+# PART 15 — HIGH-KICK ANTI-AIR
+
+## Purpose
+
+Punish predictable aerial approaches.
+
+### Move
+
+Fast Rising High Kick.
+
+### Initial frame data
+
+- Startup: 12 frames.
+- Active: 5 frames.
+- Recovery: 25 frames.
+- Cooldown: 2 seconds.
+
+### Requirements
+
+- Observable airborne approach.
+- Valid range.
+- Valid combat-plane depth.
+- Akari actionable.
+- AI Director permission.
+- No automatic reaction to every jump.
+- No anti-air during knockdown or recovery.
+
+### Important
+
+Akari's anti-air should be faster but less damaging than Saito's.
+
+---
+
+# PART 16 — UNBLOCKABLE SPECIAL RESPONSES
+
+Akari must not block specials classified as unblockable.
+
+### Possible responses
+
+- Sidestep.
+- Short retreat.
+- Reposition.
+- Legitimate startup interruption.
+
+### Requirements
+
+- Readable special telegraph.
+- Sufficient reaction time.
+- Valid movement path.
+- No teleportation.
+- No automatic evasion.
+- No perfect input prediction.
+
+### Important
+
+Successfully connected specials must resolve normally.
+
+Do not give Akari universal special immunity.
+
+---
+
+# PART 17 — FEIGNED RECOVERY
+## SIGNATURE DECEPTIVE MECHANIC
+
+### Purpose
+
+Bait players into attacking when Akari appears temporarily vulnerable.
+
+### Activation
+
+Only when Akari is already actionable.
+
+### Sequence
+
+1. Akari abruptly stops advancing or attacking.
+2. She adopts a slightly off-balance pose.
+3. She appears to be recovering.
+4. She waits briefly for an observable player response.
+5. If the player initiates an eligible attack, Akari may attempt a timed counter.
+6. If no attack occurs, she returns to normal combat behavior.
+
+### Initial duration
+
+0.6–1.0 seconds.
+
+### Cooldown
+
+10–14 seconds.
+
+### Critical requirement
+
+**Never cancel genuine mandatory attack recovery into Feigned Recovery.**
+
+### Visual distinction
+
+Genuine recovery:
+
+- Weight visibly committed.
+- Feet poorly positioned.
+- No defensive action available.
+
+Feigned recovery:
+
+- Rear foot remains planted.
+- Shoulders remain prepared.
+- Subtle readiness cue.
+
+### Failure
+
+If the bait fails or Akari commits to an unsuccessful counter, she must enter appropriate vulnerable recovery.
+
+### Important
+
+Not every apparent opening should be deceptive.
+
+Genuine missed attacks must remain punishable.
+
+---
+
+# PART 18 — DEFENSIVE COMMITMENT
+
+Once Akari chooses a defensive action, she must complete it.
+
+### Examples
+
+- A committed sidestep cannot instantly reverse direction.
+- A failed counter cannot instantly become a block.
+- A Blitz intercept cannot automatically change into a dodge.
+- A feigned recovery cannot retroactively counter an attack that already connected.
+
+### Important
+
+No perfect defense chaining.
+
+No instantaneous response switching.
+
+---
+
+# PART 19 — CONDITIONAL KNOCKDOWN RECOVERY
+
+Akari has two recovery options:
+
+1. Recovery Sweep.
+2. Kip-up.
+
+### Player nearby
+
+Consider Recovery Sweep when eligible.
+
+### Player outside sweep range
+
+Use Kip-up.
+
+### Important
+
+Recovery Sweep is conditional, not guaranteed.
+
+---
+
+# PART 20 — RECOVERY SWEEP
+
+### Purpose
+
+Discourage careless proximity during Akari's wake-up.
+
+### Initial frame data
+
+- Startup: 18 frames.
+- Active: 5 frames.
+- Recovery: 29 frames.
+
+### Selection chance
+
+20–25% when the player remains nearby and all eligibility conditions are satisfied.
+
+### Animation
+
+1. Akari shifts onto one side.
+2. She plants a supporting hand.
+3. She sweeps her leg toward the hero's ankles.
+4. The sweep connects if properly aligned.
+5. She transitions naturally to standing.
+6. She enters recovery.
+
+### Requirements
+
+- No instant sweep.
+- No invisible hitbox.
+- No sweep during synchronized throw recovery.
+- No sweep while stunned.
+- No sweep during incompatible states.
+- No automatic armor.
+- No guaranteed knockdown without contact.
+
+### Important
+
+A missed recovery sweep must be punishable.
+
+---
+
+# PART 21 — KIP-UP
+
+### Trigger
+
+Use when the player is outside Recovery Sweep range or when Sweep is unavailable.
+
+### Animation
+
+1. Akari lies grounded.
+2. She draws her legs inward.
+3. She rocks backward slightly.
+4. She springs upward.
+5. Her feet land naturally.
+6. She returns to stance.
+
+### Requirements
+
+- No instant standing pop.
+- No teleportation.
+- No sprite scaling.
+- No offensive hitbox.
+- No automatic counter during kip-up.
+- No attack before recovery completes.
+
+---
+
+# PART 22 — THROW RECOVERY FAIRNESS
+
+Preserve the shared post-throw fairness rules.
+
+### Critical requirement
+
+After a player-initiated synchronized throw, Akari must not execute an active wake-up attack before the hero has had approximately 0.3 seconds of defensive actionability.
+
+### Requirements
+
+- Complete the hero's mandatory throw animation.
+- Preserve Akari's appropriate grounded duration.
+- Do not activate Recovery Sweep during synchronized recovery.
+- Do not attack during mandatory get-up.
+- Preserve normal punishable recovery for the hero.
+- Do not grant the hero additional invulnerability.
+
+### Important
+
+Do not reproduce Carmen's previous unfair wake-up sweep behavior.
+
+---
+
+# PART 23 — KNOCKDOWN DURATIONS
+
+Akari should recover more quickly than ordinary enemies, but not before synchronized interactions finish.
+
+### Initial Normal targets
+
+| Knockdown source | Minimum grounded duration |
+|---|---:|
+| Ordinary knockdown | 0.40 seconds |
+| Standard throw | 0.70 seconds |
+| Heavy throw or slam | 0.95 seconds |
+| Extended grab special | Synchronized completion plus appropriate grounded duration |
+
+### Important
+
+Do not shorten

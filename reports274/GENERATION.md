@@ -1,0 +1,5 @@
+# Carmen recoil art
+
+Built-in image generation used approved assets/sprites/carmen-v1.webp as appearance/style reference: same blonde ponytail, navy short-sleeve police uniform, gold insignia, black gloves/pants/boots and baton. Prompt requested exactly three standing full-body poses on transparent background: light head recoil, medium body stagger and recovery; both feet grounded, consistent pixel density/proportions, no jump/fall/extra limbs. One targeted transparent-background cleanup pass preserved poses. Selected source retained in art-source274/carmen-recoil.png. Earlier unused candidate remains in generated_images, not production.
+
+Importer tools/import-carmen274.py selects three connected alpha>=128 figures, uses one135.3/714 source scale, nearest-neighbor import and binary alpha, transparent RGB cleared. Frames are128–135pixels high due to natural knee flex, not per-frame resizing. Sole anchors share ground baseline. Runtime uses one full-body frame per pose, no blend or dynamic enlargement. Browser caught/rejected the prior airborne atlas fallback before release. Source and generated assets are review candidates, not automatic artistic certification.

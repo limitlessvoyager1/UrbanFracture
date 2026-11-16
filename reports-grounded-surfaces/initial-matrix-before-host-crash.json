@@ -1,0 +1,853 @@
+{
+  "status": "passed",
+  "mode": "matrix",
+  "sourceFingerprint": "24c551c639dc4b0d70e8bb2bfbbf7b8bef32348b127e49288eaaef722742a64a",
+  "baselineSHA256": "5c0e3747b40b36efd877ecf9872111e146ef09a369940f55c5adea594e2a67f1",
+  "candidateSHA256": "2545fb731f8fbb781dd03f235914516368b6d014469e934143efbdebfcfd0280",
+  "comparisons": [],
+  "scenes": [
+    {
+      "version": "baseline",
+      "roster": "same",
+      "count": 1,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-same-1.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "same",
+      "count": 4,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-same-4.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "same",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-same-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "mixed",
+      "count": 1,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-mixed-1.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "mixed",
+      "count": 4,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-mixed-4.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "mixed",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-mixed-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "changing",
+      "count": 1,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-changing-1.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "changing",
+      "count": 4,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-changing-4.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "baseline",
+      "roster": "changing",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\matrix-1-baseline-changing-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "same",
+      "count": 1,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-same-1.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "same",
+      "count": 4,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-same-4.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "same",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-same-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "mixed",
+      "count": 1,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-mixed-1.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "mixed",
+      "count": 4,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-mixed-4.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "mixed",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-mixed-8.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "changing",
+      "count": 1,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-changing-1.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "changing",
+      "count": 4,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-changing-4.png",
+      "time": 6.499999999999982
+    },
+    {
+      "version": "candidate",
+      "roster": "changing",
+      "count": 8,
+      "file": "reports-grounded-surfaces\\matrix-2-candidate-changing-8.png",
+      "time": 6.499999999999982
+    }
+  ],
+  "performance": [
+    {
+      "version": "baseline",
+      "before": {
+        "usedSize": 4543384,
+        "totalSize": 5283840,
+        "embedderHeapUsedSize": 11894144,
+        "backingStorageSize": 3861998
+      },
+      "after": {
+        "usedSize": 9792912,
+        "totalSize": 10788864,
+        "embedderHeapUsedSize": 12221240,
+        "backingStorageSize": 5430219
+      },
+      "rows": [
+        {
+          "roster": "same",
+          "count": 1,
+          "samples": 360,
+          "meanMs": 9.022499999569522,
+          "p50Ms": 7,
+          "p95Ms": 19.80000001192093,
+          "maxMs": 27.5,
+          "over16ms": 33,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "same",
+          "count": 4,
+          "samples": 360,
+          "meanMs": 8.320000000132454,
+          "p50Ms": 6.4000000059604645,
+          "p95Ms": 18.099999994039536,
+          "maxMs": 28,
+          "over16ms": 25,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"thug\",17100,425,120,0,0,null],[\"thug\",17300,425,120,0,0,null],[\"thug\",17500,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 700,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "same",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 8.96500000009934,
+          "p50Ms": 7,
+          "p95Ms": 19.30000001192093,
+          "maxMs": 36.599999994039536,
+          "over16ms": 32,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"thug\",17100,425,120,0,0,null],[\"thug\",17300,425,120,0,0,null],[\"thug\",17500,425,120,0,0,null],[\"thug\",16970,500,120,0,0,null],[\"thug\",17170,500,120,0,0,null],[\"thug\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "mixed",
+          "count": 1,
+          "samples": 360,
+          "meanMs": 9.019722222205665,
+          "p50Ms": 8,
+          "p95Ms": 16.30000001192093,
+          "maxMs": 26.399999976158142,
+          "over16ms": 15,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "mixed",
+          "count": 4,
+          "samples": 360,
+          "meanMs": 11.766111110978656,
+          "p50Ms": 10.400000005960464,
+          "p95Ms": 21.899999976158142,
+          "maxMs": 35.20000001788139,
+          "over16ms": 47,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "mixed",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 15.426944444080194,
+          "p50Ms": 13.599999994039536,
+          "p95Ms": 28.30000001192093,
+          "maxMs": 47.30000001192093,
+          "over16ms": 109,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 1,
+          "samples": 360,
+          "meanMs": 8.648333333763812,
+          "p50Ms": 7,
+          "p95Ms": 18.69999998807907,
+          "maxMs": 28.900000005960464,
+          "over16ms": 27,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 4,
+          "samples": 360,
+          "meanMs": 13.142777778042687,
+          "p50Ms": 10.5,
+          "p95Ms": 26.700000017881393,
+          "maxMs": 42.599999994039536,
+          "over16ms": 71,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 18.105277779201668,
+          "p50Ms": 16,
+          "p95Ms": 31.900000005960464,
+          "maxMs": 50.900000005960464,
+          "over16ms": 164,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0.2,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        }
+      ]
+    },
+    {
+      "version": "candidate",
+      "before": {
+        "usedSize": 4394808,
+        "totalSize": 5021696,
+        "embedderHeapUsedSize": 11789736,
+        "backingStorageSize": 3856119
+      },
+      "after": {
+        "usedSize": 9778220,
+        "totalSize": 11051008,
+        "embedderHeapUsedSize": 12144664,
+        "backingStorageSize": 5429462
+      },
+      "rows": [
+        {
+          "roster": "same",
+          "count": 1,
+          "samples": 360,
+          "meanMs": 8.595833333002197,
+          "p50Ms": 7.5999999940395355,
+          "p95Ms": 14.899999976158142,
+          "maxMs": 26.19999998807907,
+          "over16ms": 11,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "same",
+          "count": 4,
+          "samples": 360,
+          "meanMs": 8.59055555595292,
+          "p50Ms": 6.699999988079071,
+          "p95Ms": 18.30000001192093,
+          "maxMs": 29.400000005960464,
+          "over16ms": 28,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"thug\",17100,425,120,0,0,null],[\"thug\",17300,425,120,0,0,null],[\"thug\",17500,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 700,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "same",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 8.356388889418708,
+          "p50Ms": 6.800000011920929,
+          "p95Ms": 17.400000005960464,
+          "maxMs": 29.5,
+          "over16ms": 20,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"thug\",17100,425,120,0,0,null],[\"thug\",17300,425,120,0,0,null],[\"thug\",17500,425,120,0,0,null],[\"thug\",16970,500,120,0,0,null],[\"thug\",17170,500,120,0,0,null],[\"thug\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "thug",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "mixed",
+          "count": 1,
+          "samples": 360,
+          "meanMs": 7.888888890544574,
+          "p50Ms": 6,
+          "p95Ms": 17.69999998807907,
+          "maxMs": 32.599999994039536,
+          "over16ms": 24,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "mixed",
+          "count": 4,
+          "samples": 360,
+          "meanMs": 10.863888888557751,
+          "p50Ms": 9,
+          "p95Ms": 21,
+          "maxMs": 33.80000001192093,
+          "over16ms": 44,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "mixed",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 13.165833333217435,
+          "p50Ms": 11.100000023841858,
+          "p95Ms": 25.099999994039536,
+          "maxMs": 37,
+          "over16ms": 70,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 1,
+          "samples": 360,
+          "meanMs": 9.014444445073604,
+          "p50Ms": 7,
+          "p95Ms": 19.5,
+          "maxMs": 31.400000005960464,
+          "over16ms": 32,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 4,
+          "samples": 360,
+          "meanMs": 12.28277777781089,
+          "p50Ms": 9.900000005960464,
+          "p95Ms": 24.5,
+          "maxMs": 34.900000005960464,
+          "over16ms": 64,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            }
+          ],
+          "counters": null
+        },
+        {
+          "roster": "changing",
+          "count": 8,
+          "samples": 360,
+          "meanMs": 16.8211111108462,
+          "p50Ms": 14.099999994039536,
+          "p95Ms": 30.399999976158142,
+          "maxMs": 53.79999998211861,
+          "over16ms": 121,
+          "physical": "[6.499999999999982,16800,105,[[\"thug\",16900,425,120,0,0,null],[\"enforcer\",17100,425,120,0.2,0,null],[\"biker\",17300,425,120,0,0,null],[\"knifeThug\",17500,425,120,0,0,null],[\"sato\",16970,500,120,0,0,null],[\"akari\",17170,500,120,0.2,0,null],[\"bouncer\",17370,500,120,0,0,null],[\"thug\",17570,500,120,0,0,null]],4]",
+          "physicalUnchanged": true,
+          "viewport": [
+            {
+              "type": "thug",
+              "x": 100,
+              "y": 425
+            },
+            {
+              "type": "enforcer",
+              "x": 300,
+              "y": 425
+            },
+            {
+              "type": "biker",
+              "x": 500,
+              "y": 425
+            },
+            {
+              "type": "knifeThug",
+              "x": 700,
+              "y": 425
+            },
+            {
+              "type": "sato",
+              "x": 170,
+              "y": 500
+            },
+            {
+              "type": "akari",
+              "x": 370,
+              "y": 500
+            },
+            {
+              "type": "bouncer",
+              "x": 570,
+              "y": 500
+            },
+            {
+              "type": "thug",
+              "x": 770,
+              "y": 500
+            }
+          ],
+          "counters": null
+        }
+      ]
+    }
+  ],
+  "allocation": [],
+  "errors": [],
+  "requests": [
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/enforcer-concept-v1.png"
+    },
+    {
+      "status": 404,
+      "path": "/assets/thug-leader-concept-v1.png"
+    }
+  ],
+  "browser": "143.0.7499.4"
+}

@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "label": "fighter-render-prerequisites",
+      "args": [
+        "tests/fighter-render-prerequisites.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS fighter render prerequisites 38 checks; pin/API, unavailable states, owner coverage/order and exclusions\n",
+      "stderr": "",
+      "elapsedMs": 1183,
+      "passed": true
+    },
+    {
+      "label": "fighter-render-bootstrap",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-render-bootstrap.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS current fighter bootstrap: 179 modules, 73 owners, 1041 decoded requests; combat descriptors/data unchanged; missing asset unavailable\n",
+      "stderr": "",
+      "elapsedMs": 22292,
+      "passed": true
+    },
+    {
+      "label": "render-forest",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "forest"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered forest: 12 cases, 384 checks\n",
+      "stderr": "",
+      "elapsedMs": 29030,
+      "passed": true
+    },
+    {
+      "label": "render-niko",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "niko"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered niko: 14 cases, 448 checks\n",
+      "stderr": "",
+      "elapsedMs": 28575,
+      "passed": true
+    },
+    {
+      "label": "render-broxton",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "broxton"
+      ],
+      "exit": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "",
+      "stderr": "AssertionError [ERR_ASSERTION]: complete viewport bounds\n    at ok (C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\fighter-grapple-render.cjs:4:123)\n    at C:\\Users\\spiri\\Documents\\Codex\\2026-11-12\\urban-fracture-source-code-audit-and\\work\\Urban-Fracture\\tests\\fighter-grapple-render.cjs:8:278 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n",
+      "elapsedMs": 21071,
+      "passed": false
+    },
+    {
+      "label": "render-nightshade",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "nightshade"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered nightshade: 4 cases, 132 checks\n",
+      "stderr": "",
+      "elapsedMs": 22989,
+      "passed": true
+    },
+    {
+      "label": "render-shared",
+      "args": [
+        "--expose-gc",
+        "tests/fighter-grapple-render.cjs",
+        "shared"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "PASS rendered shared: 10 cases, 320 checks\n",
+      "stderr": "",
+      "elapsedMs": 25464,
+      "passed": true
+    },
+    {
+      "label": "grapples301-view",
+      "args": [
+        "--expose-gc",
+        "tests/grapples301-view.cjs"
+      ],
+      "exit": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "rendered reap thug -1\nrendered reap thug 1\nPASS301 VIEW 1968 checks\nrendered reap enforcer -1\nrendered reap enforcer 1\nPASS301 VIEW 1968 checks\nrendered german thug -1\nrendered german thug 1\nPASS301 VIEW 1866 checks\nrendered german enforcer -1\nrendered german enforcer 1\nPASS301 VIEW 1866 checks\nrendered powerbomb enforcer -1\nPASS301 VIEW 883 checks\nrendered powerbomb enforcer 1\nPASS301 VIEW 883 checks\nPASS301 both powerbomb facings, isolated processes\n",
+      "stderr": "",
+      "elapsedMs": 136757,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "executed": 8,
+    "passed": 7,
+    "failed": 1
+  }
+}

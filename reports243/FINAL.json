@@ -1,0 +1,36 @@
+{
+  "build": 243,
+  "checkpoint": "checkpoint-before-hydro243",
+  "counts": {
+    "executed": 21,
+    "passed": 21,
+    "failed": 0,
+    "notExecuted": 5
+  },
+  "decision": {
+    "status": "needs-review",
+    "stable": false,
+    "failed": [],
+    "missing": []
+  },
+  "sourceFingerprint": "4bf7869112dd2620195f43578f2b4db13d858266dc92384faececa17ab6f70d7",
+  "manualReviewRequired": [
+    {
+      "id": "approved-screenshots"
+    },
+    {
+      "id": "art-style-review"
+    },
+    {
+      "id": "all-moves-coverage"
+    },
+    {
+      "id": "physical-dualsense"
+    },
+    {
+      "id": "human-balance"
+    }
+  ],
+  "visualFindings": 10,
+  "report": "reports242/latest.json"
+}

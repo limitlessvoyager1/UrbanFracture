@@ -1,0 +1,219 @@
+URBAN FRACTURE — GROUNDED RASTER COST AUDIT / PERFORMANCE PROPOSAL
+UF-AUDIT-026 | 2026-11-12 | Audit only; STOP before production repair
+
+Decision
+Readback/raster synchronization is the largest measured grounded-path cost.
+There is no proven safe readback-area reduction in this audit. Keep the exact
+native poses, sole/crop rules and UF-RENDER-025 time/flash validity correction.
+The recommended first repair is bounded reuse of retired, EXACT-SIZE cropped
+canvases. This is a modest allocation/copy-cost reduction, not a claimed solution
+to the entire performance hold. If approved, implement and measure it separately;
+do not promote on analytical microbenchmarks alone.
+
+Baseline / preservation
+Audit branch: audit/grounded-raster-cost
+Base: 136978cdec33b64b2914d813e83b85460186353d (UF-RENDER-025).
+Production source fingerprint:
+c98ed9eec36b1a354ba43ee7e9ce53c97975836cd75e76f52ed0d8611bf57a6e
+Stable remains f00cc9c9fdce8f2c70a875a2de6e380371c67720; not advanced.
+No production, artwork, existing tests/fixtures, QA gate, native loader or prior
+repair tool/evidence changes. No damage, timing, AI or combat behavior edits.
+Only audit tools, evidence and this audit's repair-log entry are added.
+
+Source path / exact rules
+dist/sprites.js: drawGrounded114 (approximately lines377–392).
+- A cache miss renders the native drawInternal102 into a512x384 scratch canvas.
+- getImageData reads786,432RGBA bytes per miss.
+- The sole scan counts alpha>96 from the bottom. Normal threshold1; down/dead
+  cop threshold16. Default sole300; bottom is the first row with any alpha>96.
+- Bounds use alpha>0 only above H=max(sole,bottom), not all384rows and not just
+  strong alpha. Weak pixels below H are intentionally excluded by existing rules.
+- The cropped bitmap's x=left-256, y=top-sole; width=right-left+1,
+  height=H-top. Native cop controls have sole298/bottom301 and sole299/bottom302:
+  replacing sole with bottom would move the rendered anchor.
+- Each miss creates/resizes a new cropped canvas, gets its context, copies the
+  scratch crop, stores the immutable active bitmap, then draws it.
+- UF-RENDER-025 exact-time invalidation and hitFlash>0 identity stay authoritative.
+
+Method / confirmed observations
+Actual shipping index/Chromium143.0.7499.4, seeded native game with visible1/4/8
+enemies plus hero, same/mixed rosters. AI disabled and camera held only in fixture;
+native ticks, damage and draw functions remain original.30warm-up +180measured
+draws per condition. Instrumentation adds timing/observer exports to HTTP response
+buffers only; no algorithm replacement or source file edits. Uninstrumented
+controls execute production bytes. Observer overhead is measured separately.
+
+Six shipping/observer matrix pairs plus three confirmation comparisons have
+IDENTICAL RGBA output and matching recorded physical state. Zero page JS errors.
+Known enforcer/thug-leader concept portrait404s remain. Inspected the full-scene
+comparison and native lower-level API control gallery; no visual repair claimed.
+
+Same-roster counts1/4/8 incur ONE observed miss per frame: same-time sharing works.
+Mixed8 incurs SEVEN misses and ONE hit per frame: seven distinct native keys.
+No accidental same-time invalidation/thrashing was observed in these fixtures.
+Seven full reads expose5,505,024bytes (5.25MiB) of RGBA per frame; at a hypothetical
+60frames/s that is315MiB/s of JS readback payload, not measured GPU bandwidth.
+
+Repeated mixed-eight observer profile (two runs, mean ms per complete frame):
+Stage                        Run1       Run2
+Native paint submission       .173       .171
+Readback/flush               2.269      2.258
+Sole scan                     .242       .249
+Bounds scan                  1.019       .996
+New crop canvas/resize        .068       .056
+Crop copy                     .325       .307
+Output draw                   .228       .234
+All miss-stage timers         4.376      4.358
+Readback is about52% of miss-stage time; bounds about23%; sole about6%;
+cropped-surface allocation/copy about8–9%. Native paint submission is small, but
+queued raster work may be charged to getImageData: these are inclusive API times,
+not an isolated measurement of byte copying or GPU stalls.
+
+Confirmation controls: uninstrumented full-draw mean11.336/11.552ms,
+p95 14.5/14.6ms; observer mean11.506/11.416ms, p95 14.4/13.8ms. Confirmation uses
+the earlier UF-cache-perf environment seed and yields after every60ticks like
+UF-RENDER-025. The original audit matrix is a synchronous batch with a separate
+UF-raster-audit environment seed. These results are NOT an optimization; source
+is unchanged. Earlier UF-RENDER-025 runs had25–27ms repair p95. Tail latency varies
+with run conditions, and a lighter audit run cannot waive that existing hold.
+No whole-campaign, real60Hz presentation, physical GPU/controller or long-run
+memory certification is inferred from headless CPU-wall measurements.
+
+Crop model equivalence / alternatives rejected
+168native lower-level API alpha captures: twelve types, seven states, both facings.
+These deliberately include synthetic states and do not certify shipping dispatch
+reach for every case. Native metadata is matched exactly by independent models.
+1,002synthetic cases cover96/97thresholds,1/15/16/17pixel rows, empty/default300,
+scratch edges, weak tails above/below the crop cap, broad cop soles and seeded
+sparse patterns.1,170cases x3alternative models match native metadata exactly.
+The models are analytical functions over the same RGBA access layout, not installed
+in the renderer. Conversion from captured alpha is outside all model timings.
+
+Six alternating-order Chromium batches, mean ms per crop:
+Model            All168API states    Seven mixed-idle states
+Native loops      .1790               .1561
+Edge search       .1708               .1484
+Stride loop       .2027               .1890
+32-bit view       .2033               .1938
+Edge search saves only about.008ms/crop (~5%, ~.05ms for seven misses). The other
+rewrites regress these probes. Do not ship a crop-loop rewrite on intuition or
+claim that merging loops removes a complete pixel pass: the native bottom scan
+and upper bounds scan already partition much of the image.
+
+Context hints / region experiments
+Shipping scratch already uses willReadFrequently:true. Full repeated readback:
+~.329ms without pending paint /~.822ms after a fresh native paint in this probe.
+Default hint ~.359/.909ms; desynchronized ~.374/.883ms. Context attributes confirm
+requested settings. Fourteen context/type pixel probes match, but seven synthetic
+API states are not universal renderer certification. No convincing gain supports
+changing the shipping hint.
+Smaller128x192 and256x256 reads are faster. Those are arbitrary analytical regions,
+NOT proven native coverage. Prior-frame bounds, pose quantization, clipped weak
+pixels, changing cop sole thresholds or an asynchronous one-frame delay are not
+acceptable shortcuts. A safe ROI solution needs a separate coverage proof.
+
+Proposed repair: bounded exact-size cropped-surface reuse
+Evidence: isolated fresh cropped-canvas/copy CPU cost ~.0633ms versus same-size
+reuse/clear/copy ~.0027ms.48varying native/blank crop comparisons across four sizes
+are byte-identical between fresh and reused surfaces. These are API microprobes,
+not an integrated pool or a guaranteed completed-GPU/frame-time improvement.
+Trace-only availability model,32idle surfaces /4MiB cap, cold at measured start:
+1,241reuses /19fresh allocations across1,260mixed-eight misses (98.49%) in BOTH
+confirmation traces. It does not execute a shipping pool or assume unchanged
+native rectangles. Shapes are matched by the actual observed width/height.
+
+Scope, if separately approved on a new branch:
+1. Only sprites.js private cache-generation retirement and cropped-canvas
+   acquisition, plus its index cache token. Keep original miss rendering/readback,
+   scans, integer rectangles, transforms, native drawImage arguments and return
+   values. No smaller readback, scan-model rewrite or context-hint changes.
+2. At a time-generation change, retire previous entries' canvases into a private
+   exact-width/height free pool before clearing the active map. Never put an active
+   cache image into that pool, never let two live entries alias one surface, and
+   never reuse raster CONTENT across time or flash identities.
+3. On a miss with a nonempty native crop, borrow only a surface of exactly matching
+   dimensions. Clear the complete surface before the unchanged crop copy. If none
+   exists, use the original fresh-allocation path. Preserve context settings and
+   complete RGBA, including translucent edges. Do not resize a mismatched canvas
+   and claim an allocation was avoided.
+4. Bound inactive retention independently: proposed32surfaces and4MiB of RGBA
+   pixels, whichever is reached first; delete empty size buckets. The pixel budget
+   is an accounting limit, not an assertion of actual browser/GPU memory usage.
+   Active cache size guard remains unchanged. To keep the first repair narrow,
+   do not recycle same-time size-guard evictions; let the existing drop behavior
+   stand. Pool objects must not retain actors, actions or game instances.
+5. Empty-crop behavior, same-time sharing, flash separation, exact floating clocks,
+   nonfinite-time invalidation, paused frames, reset/rewind and original cache-size
+   policy remain unchanged. No simulation tick, damage/config, AI, grapple/counter,
+   native selector, sole or recovery edit.
+6. Add Git-free current-runtime ownership/pixel/memory regressions and one strict
+   QA registration, preserve all existing tests and historical receipt gates.
+   Update repair log, source-proof and rendered/performance receipts.
+
+Expected benefit / limits
+The observed allocation/copy component is only about.36–.39ms per mixed-eight
+frame. The microprobe suggests roughly.4ms potential in this workload; that is an
+estimate, not a measured integrated saving. Do NOT promise recovery of the earlier
+~6–8ms mixed-roster penalty or clearance of the performance hold. Readback and
+bounds scanning remain. A larger throughput repair needs separate investigation,
+not a speculative renderer rewrite hidden in this patch.
+
+Potential regressions
+Borrowing a still-live bitmap corrupts a same-time peer or actor rendered earlier.
+Incomplete clearing leaves ghost pixels; dimension mismatch shifts/clips the sole.
+Unbounded buckets retain memory across hero/world resets. Canvas backend buffering
+may change real savings versus API submission cost. Exact-size hit rate differs
+for attacks, costume families, effects and scales beyond these static fixtures.
+Keeping a pool introduces new lifetime ownership despite preserving crop math.
+Source complexity low-to-medium; verification medium. Existing025hold stays strict.
+
+Repeatable acceptance after approval
+- Freeze original UF-RENDER-025 pixels/metadata as the same-browser control; same
+  native fixtures/time/RNG/seed. Exact RGBA and source crop/sole equality required,
+  not only IoU. Preserve prior cross-backend tolerances separately.
+- Paint different/blank/thin/translucent content into retired exact-size surfaces;
+  assert clearing, no live ownership overlap, immutable already-rendered output,
+  same-time peer/flash separation and distinct-key bodies. Test empty surfaces,
+  broad cop soles, weak tails, both facings, nonunit scale, offscreen edges,
+  insufficient pool capacity, size mismatch and original>512cache behavior.
+- Stress forward/rewind/repeated/nonfinite clocks, pause, hero/world reset and
+  many size buckets; prove idle count/pixel-byte cap and no actor/game retention.
+- Rerun existing1,158grounded-cache checks, same-browser history pairs, persistent
+  mixed480samples and separate fresh480comparisons, original9,434grapple view
+  checks, current bootstrap/owner/assets and26selected behavior suites. Add
+  deliberate missing-clear/live-alias/cap regressions. Missing45historical receipts
+  stay UNAVAILABLE; no critical gate weakened.
+- Compare current025 versus candidate serially in repeated ABBA blocks at1/4/8
+  visible same/mixed rosters, native full scene and relevant changing-pose fixtures.
+  Record allocations, hit rate, readback counts, CPU-wall means/tails, post-GC
+  memory and scoped rendered captures. Require a repeatable gain beyond run
+  variation, no tail/memory regression and exact pixels. Reject or retain for
+  review if the measured gain is negligible; do not disguise it with timing edits.
+- Stable promotion still requires resolving the prior performance acceptance,
+  including broader frame-pacing/hardware limits. This increment alone does not.
+
+Executed / not executed
+Executed: actual native/observer profiles12matrix runs +4confirmation runs,
+9exact image/physical comparisons,168API captures,1,002synthetic cases,
+3crop models/1,170cases, six-batch scan timings for two datasets, scratch hint/ROI
+readback probes,14context pixel comparisons,48isolated reuse pixel comparisons,
+two trace-only pool availability simulations and source/evidence verification.
+One initial model checker rejected a still-running capture receipt; it was rerun
+after completion. Confirmation was aligned to prior seed/scheduling; raw matrix
+differences are explicit. No production optimization was injected or implemented.
+Existing behavioral/release suites were NOT rerun in this audit; unchanged-source
+proof and prior evidence are retained. Known45missing receipts and legacy issues
+remain unchanged; no functional or visual repair is claimed.
+
+Reproduce from repo root (installed pinned renderer/browser prerequisites):
+Set UF_CHROMIUM_EXECUTABLE to Chromium143.0.7499.4 headless-shell.
+node tools/raster-cost-audit/profile.cjs
+node tools/raster-cost-audit/profile.cjs confirm
+node tools/raster-cost-audit/model-check.cjs
+node tools/raster-cost-audit/micro.cjs
+node tools/raster-cost-audit/analyze.cjs
+node tools/raster-cost-audit/verify.cjs
+Gallery: python tools/raster-cost-audit/gallery.py (Pillow, Windows Arial).
+Do not run CPU benchmarks concurrently. Localhost permission is required.
+
+STOP for review: proposed surface-pool repair is NOT implemented.

@@ -1,0 +1,17 @@
+{
+  "build": 249,
+  "verified": [
+    "Browser loaded native counter/weapon review at Build249",
+    "Broxton long: baseballCross,14 startup/6 active/24 recovery,16unit step; two authored hand grips and forward planted foot visually inspected",
+    "Orion knife:22/6/34, charged inventory, contact lowered enemy HP1000\u2192968; visible electrical reaction inspected"
+  ],
+  "evidence": [
+    "broxton-baseball249.jpg",
+    "broxton-baseball249-detail.png",
+    "orion-electric249.jpg"
+  ],
+  "limits": [
+    "A multi-case browser batch timed out and reset the REPL; no complete all-hero browser coverage is claimed.",
+    "Physical DualSense, human balance, all-moves manual coverage, approved screenshot baselines and artistic approval remain unexecuted."
+  ]
+}

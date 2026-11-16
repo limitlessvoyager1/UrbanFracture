@@ -1,0 +1,139 @@
+URBAN FRACTURE — ASSIGNMENT 1 AUDIT / REPAIR PROPOSAL
+Date: 2026-11-12
+Status: audit complete; STOP before production changes. No new repair implemented.
+
+DECISION
+All previously approved repairs remain present. No renewed hitstun, knockdown/recovery or post-hit offensive-admission bypass was reproduced in the current matrix. The highest-priority confirmed remaining issues are inconsistent diagnostic projections of combat state. They can mislead investigation and make already enforced recovery appear broken. A balance change is not justified by these results.
+
+Recommend one scoped follow-up: correct offensive-actionability diagnostics (A1-01), preserving locomotion/presentation and every enforced deadline. Address receipt synchronization (A1-02) separately. Do not consolidate the wrapper stack without a further architecture proposal and approval.
+
+PHASE 0 — EXACT BASELINE AND RECOVERY
+Source: supplied Build338 navigation candidate; no newer source overlay applied.
+Cumulative stable branch: stable/combat-stabilization
+Stable and audit starting commit: 1edfa61bf299c79c33b8e492d36a99b323770e73
+Audit branch: audit/assignment1-combat-state
+Original import: a0c8c1dcf75b340ddf73aa80d6a7066ef5f6e6e5 (export-baseline).
+Manifest claims upstream 0f095736d6043de75a8b3d410354bde39fb0223f; its original Git objects were not supplied.
+
+Verified ancestor repairs:
+- 9c17d0185e39027fae6f61d2867c5162e49f4910: both post-hit reassessment entry paths.
+- 1985984ef166ccafe57cbd02f88e21f20af33c32: portable reaction behavior suite and explicit unavailable receipts.
+- f0e71cb52552235f01087c6567d783bf828193a4: actual-stun eligibility at both entry paths, synchronized exceptions retained.
+- 2732c6145de592a5e9d11365ec022b86ec0806f8: physical knockdown/recovery eligibility independent of presentation pilot/receipt.
+
+No diff from stable in dist/, existing tests/ or qa/. All damage, frame, input, armor, grapple/counter, wake and knockdown data are unchanged. baseline.json includes the tracked dist content fingerprint and ancestry evidence. Audit changes comprise diagnostic tools, reports and this repair-log entry only.
+
+All eight original ZIP archives are still present, and the imported original Git checkpoint remains. Earlier archive hashes are retained in outputs/Phase2-Original-Archive-Hashes.json; archives were not rehashed this assignment. The manifest lists 9,258 original files/1,767,580,098 bytes; 6,486 original paths are not materialized in this selective checkout. Original ZIPs are the complete recovery source. This audit package is NOT a complete final game export.
+
+PROJECT / STATE OWNERSHIP
+Language/framework: plain JavaScript, HTML, CSS; Canvas2D rendering, Web Audio, classic-script extensions; no external game engine or bundle compilation step.
+Entry: dist/index.html orders classic scripts; dist/core.js defines Brawler/actors; dist/game.js owns browser input, animation loop and canvas drawing. Serve dist over HTTP and open index.html (for example a local Node static server); opening via file:// is not the supported verification path. Tests use Node22 VM/assert and optional browser or canvas adapters.
+
+Fresh production-order simulation adapter: tools/qa242/runtime.cjs, 209 simulation files. It follows index.html through the explicit woods139 boundary, omits view files and loads environment/stabilization adapters. It is not the entire browser renderer; browser verification separately loaded the real index.
+Observed replacement-chain owners: damage67, start49, enemyAct34, ai42, tick141, knockDown17, advanceDown20. Counts include base implementations. These are layered wrappers, not proof that damage is applied67times. Full owner lists/load hash are in audit.json.
+
+Key paths:
+- Damage/physical state: core.js, character/enemy adapters, combat274.js, reactions298.js. HP, stun, shock, interruption, armor and reaction receipts are processed across different layers.
+- Action admission: core start creates actions; Director148 recognizes offensive threats; combat274 gates reassessment; reactions298 gates all starts under actual stun/shock; knockdowns299 gates offensive starts under physical down/recovering/standingLock. Both enemyAct and direct start reach the approved shared guards.
+- AI: Director148 reservations/budget plus native street209, enemies210, flint211, martial212 and later wrappers. Sampled current AI respected all locks. Normal3point/two-commitment policy was not modified; existing relevant suites passed.
+- Animation: continuity296, attack-entry297, reactions298 and enemy-view/atlas/procedural view modules project native state; presentation receipts are not always final physical-state snapshots.
+- Collision/hit ownership: hero native attack generators and plane304, DragonTail121 contact helpers, shared damage and enemyHit/advanceHeroAction; reactions298 invalidates canceled action identity and removes stale melee boxes. Existing projectiles remain independent after release.
+- Knockdown: core knockDown/advanceDown own fall/landing/get-up; martial212 and enemy adapters retain authored recoveries/wakes. knockdowns299 presentation enrollment no longer determines physical admission.
+- Grapples: continuity296.paired identifies19 synchronization flags; native counter/grapple modules retain capture/release timelines and exceptions. No blanket counter:true bypass added.
+- Movement: core tick, enemy controllers and later movement/collision wrappers; combat274 separation excludes protected actors. Full collision geometry audit is Assignment2, not certified here.
+
+Systemic assessment: ownership is fragmented, and later character modules can revise shared state after earlier receipts have been recorded. This explains the confirmed diagnostic drift below. Historical admission defects used presentation/receipt enrollment as authority; the approved repairs correctly separated physical locks from that telemetry. Wrapper volume and naming are architectural risk evidence, not an additional confirmed gameplay failure. No evidence supports removing intentional armor or rewriting the engine.
+
+TEST METHOD / COVERAGE
+Fresh read-only tool: node tools/assignment1/audit.cjs (from project root).
+3,128 assertions passed:
+-48 category-controlled damage-entry cases: Reina/Niko x8 native families x light/medium/heavy;4damage each, vulnerable pending attack. Native maxHP identity retained. Verify one HP decrement, correct category, clean interrupt, stale-callback invalidation, both entry paths while locked, finite expiry and admission restoration.
+-32 actual native action/contact cases: both heroes x8 families x opener/charged move. Openers use command('attack'); charged native generators use Tornado130.begin/Niko185.beginPalms. These latter calls exercise native move/contact processing, not charge-input acquisition. Reina Tornado requires its actual reach (enemy x540 vs opener x460 for player x400).
+-16 seeded current AI traces: after an ordinary hit, restore native AI, observe first offensive commitment; all occur after the enforced deadline with physical locks expired.
+
+Native results: Reina opener7damage, Tornado40; Niko opener3, palms18 in the controlled vulnerable fixtures. These are observations, not replacement balance specifications. Armor/guards were inactive in that matrix. Existing suites separately passed Bruno directional committed armor, Flint weapon armor, ordinary armorless behavior, martial guard/chip/counter, synchronized exceptions and stale-damage checks.
+
+48 category cases are shared-system tests, not48 different authored moves. Native openers/charged moves cover real contact, but there is no exhaustive physical light/medium/heavy move catalog per hero, all distances, all attack directions, multiple-seed AI certification or live human playthrough here. Category labels depend on action metadata, not a uniform input taxonomy. Remaining physical move/collision coverage belongs in the next targeted audit.
+
+14 existing top-level suites passed: knockdown-admission89115 checks; hitstun-eligibility19208; post-hit-reassessment1192; reactions298742; reactions298-receipts11; combat274; repairs330788; enemies210; martial212; counters248; flint211; gamepad.test; controller157; qa242-validators6. Some legacy suites use narrower historical loaders; the fresh matrix uses the current production-order simulation. tests.json records exits/output. Simulated controller tests do not certify physical DualSense hardware.
+
+Historical evidence: nine receipts UNAVAILABLE, zero failed comparisons, zero claimed historical passes. Portable Git on PATH confirms historical commit3ecb645f0c84a4ea6117519a42f08de2bd001dda absent. Strict receipts CLI exits2. The behavior suite still runs and passes; actual mismatch/self-test failure semantics remain intact.
+
+Failures/blocks: the initial new native fixture assertion failed for Reina Tornado at opener distance; investigation showed the native foot's active reach near x547..549 in the VM fallback metadata. Moving only that test target to x540 produced real native contact without changing damage/assertions. Browser first failed ERR_NETWORK_ACCESS_DENIED; authorized network permission resolved it. Optional Node reactions298-view was not rerun and remains unavailable due missing @napi-rs/canvas. Historical knockdowns299 receipt suite was not claimed passed. No final behavioral failures in the15 passing suites including the fresh audit. Full release/campaign suite not run.
+
+RENDERED VERIFICATION
+Native Chromium loaded the actual game index/canvas, real Reina/Niko opener contact against all8families. Sixteen crops at8ticks after contact were captured and visually inspected in recoil-contact-sheet.png. Native bodies remained in reaction poses; attempted direct idle starts were rejected while actual stun remained positive. Browser page errors0; preexisting portrait404s: /assets/enforcer-concept-v1.png and /assets/thug-leader-concept-v1.png. No new visual repair was made. This is targeted static recoil inspection, not full animation interpolation, charged-move visual, hitbox/art registration, or normal-speed playthrough certification.
+
+PRIORITIZED FINDINGS (severity / breadth / observed frequency / impact / repair risk / complexity)
+A1-01: medium diagnostic / all8families /40of48 controlled cases / misleading actionability / low-medium / small.
+A1-02: medium diagnostic /Marcus+Kevin across both tested heroes /8of48 / contradictory deadlines / medium if clocks accidentally changed / small.
+A1-03: low diagnostic or ambiguous contract /Niko palms vs8 /8of8 palms samples / receipt describes pre-launch state / medium / small-medium.
+A1-04: high regression exposure, not new gameplay bug /shared systems /persistent fixture pattern / coverage can miss native paths / low for added fixtures / medium.
+A1-05: suspected architecture hazard /shared / frequency unknown / future conflicts / high for consolidation / large.
+No new critical/high-severity gameplay defect was confirmed. Rankings prioritize shared reach and diagnostic trust without inventing observed gameplay consequences.
+
+A1-01 — ACTIONABILITY PROJECTION DISAGREES WITH OFFENSIVE ELIGIBILITY
+Status: confirmed diagnostic inconsistency; gameplay bypass NOT reproduced.
+Root cause: continuity296.resolve lists stun/shock/down/recovering/standingLock/wakeInv/guardBreak but omits reassessUntil274 (and native cooldown). Its unqualified actionable field becomes true while combat274 still rejects offensive starts.
+Affected: all8families under heavy tests and6under light/medium in this matrix; both heroes. No level-specific scope established.
+Sources: dist/continuity296.js resolve; dist/combat274.js defer; diagnostic consumers must be inventoried before implementation.
+Reproduce: run audit tool; inspect audit.json projection. Example Marcus heavy at t0.5166667: stun/down/recovery0, state idle/actionabletrue, enforced deadline0.5666667; both direct start and enemyAct still reject offense.40cases recorded.
+Proposed correction: define explicitly separate locomotion/presentation freedom and offensive eligibility in read-only diagnostics, deriving reassessment remaining from actual actor deadline/time and retaining native cooldown semantics. Audit consumers before deciding whether to rename/add fields. Keep physical start guards and visual state unchanged.
+Regression risks: treating utility/guard/locomotion as prohibited offense; misrepresenting paired or specialized AI states; accidentally using diagnostic state to drive mechanics.
+Tests: record projection versus both entry paths before/during/after deadline, actual stun/recovery/cooldown boundaries, paired exceptions; run14suites and byte/trajectory parity. Current tool records mismatch rather than claiming desired projection contract passes.
+Priority: first scoped repair proposal. Acceptance: diagnostics accurately distinguish offensive lock from locomotion freedom; HP/frame data and existing admission trajectory identical.
+
+A1-02 — STALE REACTION REASSESSMENT DESCRIPTOR AFTER ORDINARY STUN FLOOR
+Status: confirmed field inconsistency; extension of mechanical reassessment is a separate unapproved balance question.
+Root cause: combat274 creates reaction274.until/reassessUntil; later niko284.damage floors ordinary Marcus/Kevin stun to0.5, updates descriptor duration/until and actor reassessUntil274, but leaves descriptor reassessUntil stale. The module applies beyond Niko.
+Affected: Marcus/Kevin; Reina and Niko reproduced (shared ordinary rule applies across heroes, wider current matrix not run for this diagnostic).
+Sources: dist/combat274.js damage; dist/niko284.js damage; reactions298 receipt consumption.
+Reproduce: fresh native Marcus at t0; damage4 with attacker and reaction274:'medium', no attacker action. stun0.5; descriptor until0.5, descriptor reassessUntil0.413333, actor deadline0.5. Light descriptor0.38.8cases across both heroes/two categories/two enemies. Heavy actor/descriptor0.566667 already agree.
+Proposed correction: synchronize read-only effective-deadline metadata after the ordinary adjustment, preserving actual actor deadline exactly. If authored additional6/8/10post-stun frames are intended after every floor, request explicit balance approval and separate parity expectations; do not silently add them.
+Regression risks: accidentally lengthening recovery, losing an earlier longer deadline or conflating per-hit and effective actor deadlines.
+Tests: native identities, both heroes/categories, repeated hits/older longer deadlines, paired/force/status exclusions, immutable HP/timer trajectories, separate descriptor/effective-deadline assertions.
+Priority: second scoped correction, independent of A1-01.
+
+A1-03 — POST-DAMAGE LAUNCH LEAVES A PRE-LAUNCH RECEIPT
+Status: confirmed snapshot disagreement; whether contact outcome is intentionally historical versus current state needs contract clarification. No missing fall or gameplay failure confirmed.
+Root cause: Niko185.melee records damage through reaction wrappers, then launch changes physical state. At first sampled palms contact, flighttrue and resolver fall coexist with hitReaction298.outcome clean and reaction274 stun descriptors.
+Affected: Niko palms against all8families in current matrix. Other post-damage transformations not exhaustively enumerated.
+Sources: dist/niko185.js melee/hit/launch; dist/reactions298.js damage receipt; dist/continuity296.js resolve.
+Reproduce: run native palms cases in audit.json. Marcus at t0.4166667:18damage, flighttrue/stun0, resolver fall, receipt clean with prior stun duration0.5.
+Proposed correction: document contact-time outcome versus resolved post-hit state; if consumers require final state, append a launch transition or explicit final-state diagnostic without rewriting contact history. Inventory consumers before any change.
+Regression risks: duplicate damage/events, changing launch ownership/knockdown timing, erasing useful historical contact evidence.
+Tests: native palms one damage+one launch, receipts before/after, flight/landing/recovery trajectory parity; actual rendered palms lifecycle required before any visual claim.
+Priority: third, diagnostic-contract follow-up; no production repair authorized here.
+
+A1-04 — LEGACY FIXTURES CAN BYPASS NATIVE IDENTITY
+Status: confirmed coverage gap, not itself an observed runtime gameplay defect.
+Root cause: tests/combat274.cjs replaces native maxHp with1000; Street209.is requires60HP ordinary identity. Those cases do not exercise native Marcus/Kevin paths despite retaining type. New admission suites and this audit retain native maxHp and cover the gap for their scopes.
+Affected: ordinary-controller regression confidence; hero-independent. Broader legacy fixtures require inventory.
+Sources: tests/combat274.cjs setup, dist/street209.js identity predicate, tools/qa242/runtime.cjs. Tests intentionally using variants may remain valid.
+Reproduce: compare N.Street209.is on native actor then after setting maxHp1000; inspect setup. Do not infer native coverage from type label alone.
+Proposed correction: add paired native/variant fixtures and explicit identity assertions; use fresh native actors rather than arbitrary HP inflation when testing native behavior. Keep existing variant tests.
+Regression risks: reducing test survival horizon, legitimate variant differences, incorrectly altering approved expectations.
+Tests: current matrix/native admission suites; future targeted fixture tests and loader receipts. No historical assertions weakened.
+Priority: coverage improvement after scoped diagnostic repairs; avoid broad suite rewrite in this audit.
+
+A1-05 — DISTRIBUTED STATE MUTATION WITHOUT A FINAL SHARED RECEIPT OWNER
+Status: confirmed architecture pattern; additional gameplay conflicts SUSPECTED, not reproduced here.
+Root cause:67damage/49start/141tick owners plus character postprocessing; physical state, eligibility and presentation descriptors settle at different times. A1-02/A1-03 demonstrate drift, not67duplicate hits.
+Affected: shared combat, all heroes/enemies potentially; only listed scenarios confirmed.
+Sources: owner lists in audit.json; core/combat274/niko284/reactions298/continuity296/knockdowns299 and hero/enemy controllers.
+Reproduce: loader records function identity after each production script; inspect owner lists and trace the two confirmed postprocessing cases.
+Proposed correction: first inventory writers and publish read-only state/receipt contracts. Consider one minimal post-resolution snapshot boundary only after parity proof and explicit architectural approval. Do not remove all wrappers.
+Regression risks: very high across armor, paid specials, counter choreography, wake selection, resource/timing ownership.
+Tests: current suites/matrix plus future all-native transition/parity and visual cases before any migration.
+Priority: architecture planning; not an implementation recommendation for this approval.
+
+UNCONFIRMED / DEFERRED
+- Forced/grapple damage intentionally skips ordinary reaction receipts; stale visual clocks after such hits remain a hypothesis without a rendered failing ordinary-hit case.
+- Later modules can replace reaction descriptors (for example Nova); no Nova gameplay failure established in this Reina/Niko assignment.
+- Repeated-hit stun shortening may be authored last-hit behavior; not called a defect without a design contract and reproduction.
+- Same-frame block-flash classification remains suspected; actual collision/invulnerability reachability not established.
+- No duplicate HP, missing ordinary recoil, forbidden sampled AI attack, or renewed stale-melee damage reproduced in current covered cases.
+- Full animation asset completeness, Saito apparent-contact rejection reasons, campaign/levels, environments, certification registry and final complete export remain later assignments.
+
+APPROVAL BOUNDARY
+No production code change, source overlay, merge into stable, or engine rewrite performed. Only nonproduction diagnostics/report/log are on the audit branch. Approve A1-01 as a dedicated diagnostic-only repair if desired; implementation must preserve every actor timer/damage value and separate offensive eligibility from presentation/locomotion. A1-02, A1-03 and any balance/architecture changes remain separate decisions.

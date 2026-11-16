@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-12",
+  "branch": "fix/portable-crowd-grapple-tests",
+  "productionBaseline": "db2e17b50472ca43757e90ac9bdf8bc7b0b48abb",
+  "auditCommit": "0701ba46381a56d4fedda858505a3787d9b781f0",
+  "runs": [
+    {
+      "suite": "crowd303",
+      "exit": 0,
+      "output": "crowd historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":11}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS crowd behavioral 163200\n"
+    },
+    {
+      "suite": "grapples301",
+      "exit": 0,
+      "output": "grapple historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":7}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS grapple behavioral 22791\n"
+    },
+    {
+      "suite": "direct-start-director-admission",
+      "exit": 0,
+      "output": "PASS direct-start Director admission 517 checks; both paths, eight families, 3 rates, caps/policies, single requests, utilities and paired/wake exceptions\n"
+    },
+    {
+      "suite": "ai-decision-reasons",
+      "exit": 0,
+      "output": "PASS AI decision reasons 353 checks; same-time identity correlation, native history, direct/nested calls, missing reasons and lifecycle purity\n"
+    },
+    {
+      "suite": "director148",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\n"
+    },
+    {
+      "suite": "director148-stress",
+      "exit": 0,
+      "output": "PASS148 configurable costs/reservations/expiry, roles, recovery, projectile ownership, ally obstruction, Gunner cap, held continuations, delayed observation, conditional relief, anti-air, scripted utility and bounded reposition\nPASS148 240 seeded solo/mixed hero/route/style fixtures: <=3 pressure, <=2 commitments, finite coordinates, integer score\n"
+    },
+    {
+      "suite": "combat274",
+      "exit": 0,
+      "output": "PASS274 173 reaction categories/real interruption/no ghost damage, directional armor, reassessment, bounded separation, six native group trials\nPASS274 collision zero/positive budgets and duplicate-contact protection\nPASS274 accumulated heavy separation cadence\n"
+    },
+    {
+      "suite": "enemies210",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\n"
+    },
+    {
+      "suite": "martial212",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS212 native HP, exact distinct timelines30/60/120Hz, mirrored contacts, no armor, rear/unguardable damage, chip/guard pressure, actual-event counters, no early counter damage, failed recovery, six-hero grabs, launch-locked plane, cooldowns, early/middle crowd limits\nPASS212 six-hero post-throw defensive opportunity, exact anti-air timing and collision, one response roll per threat,12 seeded40s mixed encounters / shared budget: [{\"type\":\"sato\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":6},{\"type\":\"sato\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"sato\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":9},{\"type\":\"sato\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":8},{\"type\":\"sato\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":8},{\"type\":\"akari\",\"hero\":\"reina\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"broxton\",\"pressure\":2,\"actors\":1,\"attacks\":14},{\"type\":\"akari\",\"hero\":\"nova\",\"pressure\":2,\"actors\":1,\"attacks\":26},{\"type\":\"akari\",\"hero\":\"forest\",\"pressure\":2,\"actors\":1,\"attacks\":11},{\"type\":\"akari\",\"hero\":\"niko\",\"pressure\":2,\"actors\":1,\"attacks\":7},{\"type\":\"akari\",\"hero\":\"orion\",\"pressure\":2,\"actors\":1,\"attacks\":16}]\nPASS21224 native manual hero counter interactions; current Orion counter included; frontal-only grab reversals / rear weakness; Akari three modes with boundary-only switches\n"
+    },
+    {
+      "suite": "flint211",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS211 four weapon profiles, exact phase values at30/60/120Hz, distinct measured reach, mirrored rear damage/single swing ownership,120deg damage-taking frontal armor, side/rear interrupts, vulnerable noncancelable recovery without stacked timers\nPASS211 physical misses, six-hero weaponless fallback, counter eligibility and dodge/lane regression, seeded mixed AI wild/power choices with3-point/two-commitment admission\nPASS211 Director reposition cannot bypass mandatory recovery; recovery punishment does not restart the full timer; rear swing threats are included in shared coordination\nPASS21124 live mirrored Reina/Forest/Niko weapon counter interceptions through the existing controllers\nPASS211 all four actual weapon paths can be intercepted by a physically aligned Human Shield without duplicated player damage\nPASS211 armed Flint completes left, lift and bottom reinforcements before weapon AI takes over\n"
+    },
+    {
+      "suite": "jesse213",
+      "exit": 0,
+      "output": "PASS205 foundation: native sixth identity,130HP, slower walk, bounded booster acceleration/braking at30/60/120Hz, planted3s repair22HP/defense, persists rooms, respawn reset\nPASS209 draw once, armed attacks and hand-release projectile, both facings, plane miss, single damage ownership, disarm vs rearm, interruptible draw, six-hero hyper single-use /60HP\nPASS209 directional guard/grab, finite noninvulnerable movement and feint cooldowns, no Marcus throw/redraw, independent projectile / tall-solid collision\nPASS210 exact move timelines, native admission, single authoritative contacts, miss recovery, standing chain strikes, low sweep KD/jump/plane/feint, selective damage-taking armor, taser coordination and grace, wake fairness, HP and variant exclusions\nPASS210 retained Forest/Niko/Reina counter eligibility,12 mirrored six-hero continuous powerbombs / one slam, interruptible guard raise / rear bypass, wake armor timer, actual ranged shock, observable avoidance memory decay\nPASS210 Human Shield interceptions consume one contact and preserve player HP; all three reinforcement entries complete before combat AI takes over\nPASS213 single native hitscan/event/ammo at30/60/120Hz; all six heroes block/startup vulnerability, apex/dodge/lane/cover avoidance; real Reina/Niko/Broxton/Forest knife disarms; permanent loss through reload/down/roll/rearm; no melee fallback; finite physical retreat/corner vulnerability; locked vulnerable reload; one firearm commitment\nPASS213 six rounds force native reload, committed aim cannot home, HP-based roll15/25/40%, four30s mixed gunfire fixtures /3point2attacker ceiling, all six actual hero dodges\n"
+    },
+    {
+      "suite": "pcbi316-gates",
+      "exit": 0,
+      "output": "PASS316 PCBI GATES1/2 55\nPASS316 ACTUAL PHASES / DISARM 67\n"
+    },
+    {
+      "suite": "counters248",
+      "exit": 0,
+      "output": "{\"suite\":\"counter/weapon248\",\"checks\":249,\"passed\":true}\n{\"suite\":\"counter/weapon248 native integration\",\"checks\":726,\"passed\":true}\nPASS248 Kevin-disarm regression and actual incoming pose snapshot\nPASS248 native Reina rear-only finisher50% bonus; normal damage unchanged\nPASS248 projectile-source exclusion\nPASS248 shared cinematic, synchronized and mandatory physical-state admission\nPASS248 six-hero physical press/release confirmation and five-hero held-input weapon durability\nPASS248 continuous counter endpoints and native grounded anchors through impact/recovery\nPASS248 confirmed synchronized-counter protection and cleanup\nPASS248 native heavy-worker overhead weapon classification\n"
+    },
+    {
+      "suite": "hitstun-eligibility",
+      "exit": 0,
+      "output": "PASS hitstun eligibility 19208 checks; 7 heroes, 8 native enemy families, ordinary/forced hits, 30/60/120Hz, offensive/nonoffensive starts, shock, EPS and synchronized exceptions\n"
+    },
+    {
+      "suite": "knockdown-admission",
+      "exit": 0,
+      "output": "PASS knockdown/recovery admission 89115 checks: 7 heroes, 8 native families, 30/60/120Hz, both paths, receipt independence, wake actions, pending hits and paired exceptions\n"
+    },
+    {
+      "suite": "post-hit-reassessment",
+      "exit": 0,
+      "output": "PASS post-hit reassessment 1192 checks: 7 heroes, 6 enemy families, 30/60/120Hz, both admission paths, exact deadlines and choreography exemptions\n"
+    },
+    {
+      "suite": "reaction-deadline-metadata",
+      "exit": 0,
+      "output": "PASS reaction deadline metadata 49620 checks; 7 heroes, 2 native ordinary families, 3 categories, 3 rates, prior deadlines, repeat hits and exclusions\n"
+    },
+    {
+      "suite": "actionability-diagnostics",
+      "exit": 0,
+      "output": "PASS actionability diagnostics 6813 checks; 2 heroes x8 native families x3 rates; actual deadlines, cooldown boundaries, read-only state, presentation, players and paired states\n"
+    },
+    {
+      "suite": "reactions298",
+      "exit": 0,
+      "output": "Historical reaction298 receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":9}\nPASS298 behavioral 742\nUNAVAILABLE: historical source equivalence is unverified; no historical receipt is claimed to pass.\n"
+    },
+    {
+      "suite": "plane304",
+      "exit": 0,
+      "output": "collision historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":17}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 collision behavioral 4563\n"
+    },
+    {
+      "suite": "plane304-height",
+      "exit": 0,
+      "output": "height historical receipts: UNAVAILABLE {\"passed\":0,\"failed\":0,\"unavailable\":1}\nUNAVAILABLE: historical equivalence unverified; no missing receipt is claimed passed.\nPASS304 height behavioral 1774\n"
+    },
+    {
+      "suite": "plane304-weapons",
+      "exit": 0,
+      "output": "PASS304 WEAPONS 7754 native swept geometry checks 52 profiles / facings / scenes\n"
+    },
+    {
+      "suite": "reina-airborne-hurtbox",
+      "exit": 0,
+      "output": "PASS Reina airborne hurtbox 3206 checks; native fly/contact at3rates, valid air hits, mirrored stages, bank scale, unchanged ground/protections/Saito defenses\n"
+    },
+    {
+      "suite": "niko-phase-labels",
+      "exit": 0,
+      "output": "PASS Niko phase labels 204 checks; 4native combo stages,3rates,both facings,once-contact timing,playback/history,pure lookup and unchanged fallback\n"
+    },
+    {
+      "suite": "playback-flight-diagnostics",
+      "exit": 0,
+      "output": "PASS playback flight diagnostics 1941 checks; 8native families x2facings, contact/flight/recovery, raw receipts, detached history, report semantics and unchanged feedback\n"
+    },
+    {
+      "suite": "playback265",
+      "exit": 0,
+      "output": "PASS265 87 fixed-step, all speeds/refresh rates, pause, exact manual ticks, queued input, bounded detached records, disabled restoration\nPASS265 FULL WORLD 136 seven heroes; identical native projectile, hero/enemy cooldown and environment clocks at equal simulation time\nPASS265 RESET QUEUE 137\n"
+    },
+    {
+      "suite": "diagnostic288",
+      "exit": 0,
+      "output": "PASS288 observer-on/off360-frame equivalence, actual admission/damage records, honest missing reasons, native selection source, local selection-only persistence\n"
+    },
+    {
+      "suite": "diagnostics307",
+      "exit": 0,
+      "output": "PASS307 47 native runtime, timing, receipts, history, observer equivalence and reversible safe overrides\nPASS307 EXTENDED 53\nPASS307 GRAPPLE SAFETY 58\nPASS307 HITSTOP 61\nPASS307 SHORTENED RECOVERY 65\nPASS307 CONTACT ATTRIBUTION 71\nPASS307 UTILITY BOUNDARY 74\nPASS307 MOVEMENT STATES 79\n"
+    },
+    {
+      "suite": "continuity296",
+      "exit": 0,
+      "output": "PASS296 30272 native pose ownership, interruption, recovery labels, 1440 actor-ticks of unchanged mechanics, archived fallback\n"
+    },
+    {
+      "suite": "repairs330",
+      "exit": 0,
+      "output": "PASS330 788 vault/release/collisions,7-hero post-get-up Specials/costs,worker poses/sockets,storage route,weapon density\n"
+    },
+    {
+      "suite": "gamepad.test",
+      "exit": 0,
+      "output": "PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection\nPASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery\n"
+    },
+    {
+      "suite": "controller157",
+      "exit": 0,
+      "output": "PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override\n"
+    },
+    {
+      "suite": "crowd-grapple-receipts",
+      "exit": 0,
+      "output": "Warning: truncated output (original token count: 1187)\nTotal output lines: 142\n\nTAP version 13\n# Subtest: crowd: missing executable/repository/commit remain unavailable, without reads or transforms\nok 1 - crowd: missing executable/repository/commit remain unavailable, without reads or transforms\n  ---\n  duration_ms: 5.3186\n  type: 'test'\n  ...\n# Subtest: crowd: available matching bytes pass with exact hashes and scoped counts\nok 2 - crowd: available matching bytes pass with exact hashes and scoped counts\n  ---\n  duration_ms: 9.5712\n  type: 'test'\n  ...\n# Subtest: crowd: missing blob does not hide available mismatch or errors\nok 3 - crowd: missing blob does not hide available mismatch or errors\n  ---\n  duration_ms: 6.9614\n  type: 'test'\n  ...\n# Subtest: crowd: unexpected Git and malformed responses fail closed\nok 4 - crowd: unexpected Git and malformed responses fail closed\n  ---\n  duration_ms: 0.8792\n  type: 'test'\n  ...\n# Subtest: crowd: malformed commit/blob object types fail\nok 5 - crowd: malformed commit/blob object types fail\n  ---\n  duration_ms: 1.4345\n  type: 'test'\n  ...\n# Subtest: crowd: behavior executes for unavailable, failed and thrown receipt collection\nok 6 - crowd: behavior executes for unavailable, failed and thrown receipt collection\n  ---\n  duration_ms: 1.84\n  type: 'test'\n  ...\n# Subtest: crowd: available proof flags true only for passed historical group\nok 7 - crowd: available proof flags true only for passed historical group\n  ---\n  d…487 tokens truncated… 'test'\n  ...\n# Subtest: grapple: available proof flags true only for passed historical group\nok 17 - grapple: available proof flags true only for passed historical group\n  ---\n  duration_ms: 0.1027\n  type: 'test'\n  ...\n# Subtest: grapple: native behavior failure survives missing receipts with partial progress\nok 18 - grapple: native behavior failure survives missing receipts with partial progress\n  ---\n  duration_ms: 0.1199\n  type: 'test'\n  ...\n# Subtest: grapple: receipt report-write failure cannot skip behavior or become success\nok 19 - grapple: receipt report-write failure cannot skip behavior or become success\n  ---\n  duration_ms: 0.2816\n  type: 'test'\n  ...\n# Subtest: grapple: final report-save failure still follows behavioral execution and fails\nok 20 - grapple: final report-save failure still follows behavioral execution and fails\n  ---\n  duration_ms: 0.2171\n  type: 'test'\n  ...\n# Subtest: exact approved normalization specification preserved from audit\nok 21 - exact approved normalization specification preserved from audit\n  ---\n  duration_ms: 2.7602\n  type: 'test'\n  ...\n# Subtest: critical historical gate remains separate from runnable behavior\nok 22 - critical historical gate remains separate from runnable behavior\n  ---\n  duration_ms: 3.8719\n  type: 'test'\n  ...\n1..22\n# tests 22\n# suites 0\n# pass 22\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1054.1242\n"
+    },
+    {
+      "suite": "plane304-receipts",
+      "exit": 0,
+      "output": "TAP version 13\n# Subtest: collision: missing Git/repository/commit remain unavailable and skip source checks\nok 1 - collision: missing Git/repository/commit remain unavailable and skip source checks\n  ---\n  duration_ms: 4.5154\n  type: 'test'\n  ...\n# Subtest: collision: matching available proofs pass with hashes and correct comparator\nok 2 - collision: matching available proofs pass with hashes and correct comparator\n  ---\n  duration_ms: 6.9087\n  type: 'test'\n  ...\n# Subtest: collision: missing blob is unavailable; available mismatch/error remains failed\nok 3 - collision: missing blob is unavailable; available mismatch/error remains failed\n  ---\n  duration_ms: 8.796\n  type: 'test'\n  ...\n# Subtest: collision: unexpected Git errors and malformed object responses fail closed\nok 4 - collision: unexpected Git errors and malformed object responses fail closed\n  ---\n  duration_ms: 0.701\n  type: 'test'\n  ...\n# Subtest: collision: behavioral assertions still execute on unavailable/failed/thrown receipt checks\nok 5 - collision: behavioral assertions still execute on unavailable/failed/thrown receipt checks\n  ---\n  duration_ms: 2.8376\n  type: 'test'\n  ...\n# Subtest: collision: real behavioral failure is saved and not hidden by missing receipts\nok 6 - collision: real behavioral failure is saved and not hidden by missing receipts\n  ---\n  duration_ms: 1.9153\n  type: 'test'\n  ...\n# Subtest: height: missing Git/repository/commit remain unavailable and skip source checks\nok 7 - height: missing Git/repository/commit remain unavailable and skip source checks\n  ---\n  duration_ms: 0.7266\n  type: 'test'\n  ...\n# Subtest: height: matching available proofs pass with hashes and correct comparator\nok 8 - height: matching available proofs pass with hashes and correct comparator\n  ---\n  duration_ms: 0.3481\n  type: 'test'\n  ...\n# Subtest: height: missing blob is unavailable; available mismatch/error remains failed\nok 9 - height: missing blob is unavailable; available mismatch/error remains failed\n  ---\n  duration_ms: 1.1363\n  type: 'test'\n  ...\n# Subtest: height: unexpected Git errors and malformed object responses fail closed\nok 10 - height: unexpected Git errors and malformed object responses fail closed\n  ---\n  duration_ms: 1.1138\n  type: 'test'\n  ...\n# Subtest: height: behavioral assertions still execute on unavailable/failed/thrown receipt checks\nok 11 - height: behavioral assertions still execute on unavailable/failed/thrown receipt checks\n  ---\n  duration_ms: 0.403\n  type: 'test'\n  ...\n# Subtest: height: real behavioral failure is saved and not hidden by missing receipts\nok 12 - height: real behavioral failure is saved and not hidden by missing receipts\n  ---\n  duration_ms: 0.1508\n  type: 'test'\n  ...\n# Subtest: collision: mismatch wins over another unavailable source\nok 13 - collision: mismatch wins over another unavailable source\n  ---\n  duration_ms: 7.3023\n  type: 'test'\n  ...\n# Subtest: height: fixed supplied-renderer contract detects a real height deviation\nok 14 - height: fixed supplied-renderer contract detects a real height deviation\n  ---\n  duration_ms: 10639.6282\n  type: 'test'\n  ...\n# Subtest: height: missing/malformed historical height function is not a successful proof\nok 15 - height: missing/malformed historical height function is not a successful proof\n  ---\n  duration_ms: 0.3177\n  type: 'test'\n  ...\n# Subtest: release keeps a critical historical gate separate from runnable behavior\nok 16 - release keeps a critical historical gate separate from runnable behavior\n  ---\n  duration_ms: 3.2961\n  type: 'test'\n  ...\n1..16\n# tests 16\n# suites 0\n# pass 16\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 11739.5803\n"
+    },
+    {
+      "suite": "reactions298-receipts",
+      "exit": 0,
+      "output": "TAP version 13\n# Subtest: missing Git is unavailable, never historical approval\nok 1 - missing Git is unavailable, never historical approval\n  ---\n  duration_ms: 10.0522\n  type: 'test'\n  ...\n# Subtest: ZIP export without a repository is explicitly unavailable\nok 2 - ZIP export without a repository is explicitly unavailable\n  ---\n  duration_ms: 1.3466\n  type: 'test'\n  ...\n# Subtest: missing historical commit is unavailable and skips source adapters\nok 3 - missing historical commit is unavailable and skips source adapters\n  ---\n  duration_ms: 0.99\n  type: 'test'\n  ...\n# Subtest: all available equal receipts pass and contain both hashes\nok 4 - all available equal receipts pass and contain both hashes\n  ---\n  duration_ms: 9.1116\n  type: 'test'\n  ...\n# Subtest: missing source blob remains unavailable alongside verified receipts\nok 5 - missing source blob remains unavailable alongside verified receipts\n  ---\n  duration_ms: 1.2395\n  type: 'test'\n  ...\n# Subtest: available byte mismatch fails, never unavailable or skipped\nok 6 - available byte mismatch fails, never unavailable or skipped\n  ---\n  duration_ms: 20.3499\n  type: 'test'\n  ...\n# Subtest: mismatch still fails when another receipt is unavailable\nok 7 - mismatch still fails when another receipt is unavailable\n  ---\n  duration_ms: 0.8713\n  type: 'test'\n  ...\n# Subtest: normalizer failure is a failed proof, not missing history\nok 8 - normalizer failure is a failed proof, not missing history\n  ---\n  duration_ms: 0.4596\n  type: 'test'\n  ...\n# Subtest: source read errors and historical blob read errors fail\nok 9 - source read errors and historical blob read errors fail\n  ---\n  duration_ms: 9.2905\n  type: 'test'\n  ...\n# Subtest: unexpected Git failures are not treated as unavailable\nok 10 - unexpected Git failures are not treated as unavailable\n  ---\n  duration_ms: 3.6172\n  type: 'test'\n  ...\n# Subtest: malformed object responses fail closed\nok 11 - malformed object responses fail closed\n  ---\n  duration_ms: 1.1647\n  type: 'test'\n  ...\n1..11\n# tests 11\n# suites 0\n# pass 11\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 598.1785\n"
+    },
+    {
+      "suite": "qa242-validators",
+      "exit": 0,
+      "output": "TAP version 13\n# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass\nok 1 - stretched scenery fails; correct source crop and reviewed perspective pass\n  ---\n  duration_ms: 4.7066\n  type: 'test'\n  ...\n# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid\nok 2 - miniature adult and undersized forklift flag review; real perspective remains valid\n  ---\n  duration_ms: 0.5548\n  type: 'test'\n  ...\n# Subtest: floating get-up flags; grounded and real aerial motion pass\nok 3 - floating get-up flags; grounded and real aerial motion pass\n  ---\n  duration_ms: 1.2459\n  type: 'test'\n  ...\n# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\nok 4 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly\n  ---\n  duration_ms: 0.9693\n  type: 'test'\n  ...\n# Subtest: missing recovery, missing completion and detached doorway detected\nok 5 - missing recovery, missing completion and detached doorway detected\n  ---\n  duration_ms: 0.5507\n  type: 'test'\n  ...\n# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable\nok 6 - release gate fails closed; unexecuted/missing visual evidence never becomes stable\n  ---\n  duration_ms: 2.7699\n  type: 'test'\n  ...\n1..6\n# tests 6\n# suites 0\n# pass 6\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 706.1778\n"
+    }
+  ],
+  "summary": {
+    "suitesPassed": 36,
+    "suitesFailed": 0,
+    "crowdBehaviorChecks": 163200,
+    "crowdScenarios": 28,
+    "grappleBehaviorChecks": 22791,
+    "grappleFixtures": 40,
+    "receiptSelfTests": 22,
+    "isolatedScenarios": 10
+  },
+  "historicalReceipts": {
+    "crowd": {
+      "unavailable": 11,
+      "strictCliExit": 2
+    },
+    "grapple": {
+      "unavailable": 7,
+      "strictCliExit": 2
+    },
+    "previous": {
+      "collisionUnavailable": 17,
+      "heightUnavailable": 1,
+      "reactionUnavailable": 9,
+      "strictCliExit": 2
+    }
+  },
+  "preservation": {
+    "productionChanged": false,
+    "fixturesChanged": false,
+    "existingNormalizersChanged": false,
+    "behavioralAssertions": "byte-identical",
+    "behavioralResults": "identical to pre-repair audit",
+    "existingRegistryEntries": "unchanged"
+  },
+  "negativeScenarios": "Synthetic negative receipt data and actual source mutations in isolated copies fail as expected; not production changes or waived test failures.",
+  "visual": "Not rerun for test-infrastructure-only repair; optional Node view prerequisites unchanged and no visual correction claimed.",
+  "limitations": "Historical certification remains unavailable. Generic QA runner treats exit2 as a nonpassing gate while receipt reports explicitly remain UNAVAILABLE. Prior unrelated Gus/controller/obsolete-test failures, optional canvas and full campaign/hardware/release certification remain outside scope."
+}
