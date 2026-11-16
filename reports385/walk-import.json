@@ -1,0 +1,363 @@
+{
+  "schema": 1,
+  "source": "source-art/orion384/motion.png",
+  "sourceSha256": "574239e2133102e8ae824d0f1ab28ae266da71cbcedefd19e481a4962c818748",
+  "fixedFamilyScale": 1.1176470588235294,
+  "logicalStandingHeight": 128,
+  "independentFacings": true,
+  "generatedArtwork": false,
+  "rows": [
+    {
+      "frame": 0,
+      "sourceFrame": 0,
+      "sourceRect": [
+        26,
+        8,
+        160,
+        189
+      ],
+      "sourceRoot": 94.12,
+      "floorY": 185,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        66,
+        97
+      ],
+      "hand": [
+        -1.5962,
+        -60.2353
+      ],
+      "bodyHeight": 130.02105263157895
+    },
+    {
+      "frame": 1,
+      "sourceFrame": 1,
+      "sourceRect": [
+        229,
+        8,
+        320,
+        189
+      ],
+      "sourceRoot": 275.12,
+      "floorY": 185,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        57,
+        98
+      ],
+      "hand": [
+        8.192,
+        -59.4824
+      ],
+      "bodyHeight": 130.02105263157895
+    },
+    {
+      "frame": 2,
+      "sourceFrame": 2,
+      "sourceRect": [
+        412,
+        8,
+        503,
+        189
+      ],
+      "sourceRoot": 456.12,
+      "floorY": 185,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        48,
+        99
+      ],
+      "hand": [
+        2.9214,
+        -58.7294
+      ],
+      "bodyHeight": 130.02105263157895
+    },
+    {
+      "frame": 3,
+      "sourceFrame": 3,
+      "sourceRect": [
+        588,
+        8,
+        693,
+        189
+      ],
+      "sourceRoot": 637.12,
+      "floorY": 185,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        92,
+        61
+      ],
+      "hand": [
+        32.2861,
+        -87.3412
+      ],
+      "bodyHeight": 130.02105263157895
+    },
+    {
+      "frame": 4,
+      "sourceFrame": 4,
+      "sourceRect": [
+        29,
+        192,
+        169,
+        369
+      ],
+      "sourceRoot": 94.12,
+      "floorY": 365,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        110,
+        75
+      ],
+      "hand": [
+        33.792,
+        -73.7882
+      ],
+      "bodyHeight": 127.32631578947368
+    },
+    {
+      "frame": 5,
+      "sourceFrame": 5,
+      "sourceRect": [
+        230,
+        195,
+        320,
+        369
+      ],
+      "sourceRoot": 275.12,
+      "floorY": 365,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        65,
+        95
+      ],
+      "hand": [
+        14.9685,
+        -56.4706
+      ],
+      "bodyHeight": 125.30526315789474
+    },
+    {
+      "frame": 6,
+      "sourceFrame": 6,
+      "sourceRect": [
+        421,
+        196,
+        500,
+        369
+      ],
+      "sourceRoot": 456.12,
+      "floorY": 365,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        47,
+        98
+      ],
+      "hand": [
+        8.9449,
+        -53.4588
+      ],
+      "bodyHeight": 123.9578947368421
+    },
+    {
+      "frame": 7,
+      "sourceFrame": 7,
+      "sourceRect": [
+        605,
+        195,
+        693,
+        368
+      ],
+      "sourceRoot": 637.12,
+      "floorY": 364,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        47,
+        92
+      ],
+      "hand": [
+        11.2038,
+        -57.9765
+      ],
+      "bodyHeight": 123.9578947368421
+    },
+    {
+      "frame": 8,
+      "sourceFrame": 24,
+      "sourceRect": [
+        27,
+        1053,
+        161,
+        1231
+      ],
+      "sourceRoot": 95.93,
+      "floorY": 1227,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        44,
+        85
+      ],
+      "hand": [
+        -18.7708,
+        -67.0118
+      ],
+      "bodyHeight": 128.0
+    },
+    {
+      "frame": 9,
+      "sourceFrame": 25,
+      "sourceRect": [
+        248,
+        1054,
+        338,
+        1231
+      ],
+      "sourceRoot": 276.93,
+      "floorY": 1227,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        14,
+        83
+      ],
+      "hand": [
+        -11.2414,
+        -67.7647
+      ],
+      "bodyHeight": 127.32631578947368
+    },
+    {
+      "frame": 10,
+      "sourceFrame": 26,
+      "sourceRect": [
+        427,
+        1053,
+        519,
+        1231
+      ],
+      "sourceRoot": 457.93,
+      "floorY": 1227,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        8,
+        88
+      ],
+      "hand": [
+        -17.2649,
+        -64.7529
+      ],
+      "bodyHeight": 128.0
+    },
+    {
+      "frame": 11,
+      "sourceFrame": 27,
+      "sourceRect": [
+        597,
+        1052,
+        698,
+        1231
+      ],
+      "sourceRoot": 638.9300000000001,
+      "floorY": 1227,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        30,
+        85
+      ],
+      "hand": [
+        -8.9826,
+        -67.7647
+      ],
+      "bodyHeight": 128.67368421052632
+    },
+    {
+      "frame": 12,
+      "sourceFrame": 28,
+      "sourceRect": [
+        60,
+        1236,
+        155,
+        1414
+      ],
+      "sourceRoot": 95.93,
+      "floorY": 1410,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        15,
+        85
+      ],
+      "hand": [
+        -15.7591,
+        -67.0118
+      ],
+      "bodyHeight": 128.0
+    },
+    {
+      "frame": 13,
+      "sourceFrame": 29,
+      "sourceRect": [
+        249,
+        1236,
+        332,
+        1414
+      ],
+      "sourceRoot": 276.93,
+      "floorY": 1410,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        13,
+        92
+      ],
+      "hand": [
+        -11.2414,
+        -61.7412
+      ],
+      "bodyHeight": 128.0
+    },
+    {
+      "frame": 14,
+      "sourceFrame": 30,
+      "sourceRect": [
+        427,
+        1235,
+        514,
+        1415
+      ],
+      "sourceRoot": 457.93,
+      "floorY": 1411,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        30,
+        98
+      ],
+      "hand": [
+        -0.7002,
+        -58.7294
+      ],
+      "bodyHeight": 129.34736842105264
+    },
+    {
+      "frame": 15,
+      "sourceFrame": 31,
+      "sourceRect": [
+        606,
+        1236,
+        683,
+        1414
+      ],
+      "sourceRoot": 638.9300000000001,
+      "floorY": 1410,
+      "fixedScale": 1.1176470588235294,
+      "sourceHandInCrop": [
+        30,
+        98
+      ],
+      "hand": [
+        -2.2061,
+        -57.2235
+      ],
+      "bodyHeight": 128.0
+    }
+  ]
+}
