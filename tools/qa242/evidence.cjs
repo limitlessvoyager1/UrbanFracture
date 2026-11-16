@@ -15,6 +15,8 @@ function artifact(root,record){
  const bytes=fs.readFileSync(file);if(hash(bytes)!==record.sha256)throw Error('Evidence hash mismatch: '+record.path);return bytes;
 }
 async function githubApproval(record,digest,{repository=process.env.GITHUB_REPOSITORY,token=process.env.GITHUB_TOKEN,fetcher=globalThis.fetch}={}){
+ if(record.approval?.method==='owner-comment')return require('./game-evidence.cjs').verify(record,digest,{repository,token,fetcher});
+ if(record.approval?.method&&record.approval.method!=='review')return{status:'blocked',reason:'Unknown approval method'};
  if(!repository||!token||!record.approval||!Number.isSafeInteger(record.approval.pullRequest)||record.approval.pullRequest<=0||!Number.isSafeInteger(record.approval.reviewId)||record.approval.reviewId<=0)return{status:'blocked',reason:'Authenticated review lookup unavailable'};
  if(!/^[\w.-]+\/[\w.-]+$/.test(repository))return{status:'blocked',reason:'Invalid repository identity'};
  try{
