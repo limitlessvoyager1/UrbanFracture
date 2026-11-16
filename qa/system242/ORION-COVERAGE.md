@@ -53,3 +53,8 @@ The retained tests/subway238.cjs source remains pinned and unchanged. Its final 
 The replacement asserts the actual completion offer, blocked gameplay, frozen game/clear clocks and no early Subway arrival. It takes Home327.resume, the backend used by HomeUI327's Continue selected route, and advances ordinary ticks to the native arrival fade. Original final transition assertions still run. New fixtures cover six heroes at30/60/120Hz (18cases) with completed transition and same player/world identity, plus two infrastructure tests for source/anchor integrity and missing-offer/unpaused-clock/stalled-arrival rejection. These are isolated simulation assertions, not a browser click, renderer or hardware certificate.
 
 No production module, historical baseline, acceptance gate or failure classification changes. The four historical comparisons remain required and unresolved: Orion271 art at8422de5a7b201bf3f72d58d1235e19ecb2d5537d; Nightshade276 runtime atfb436742c9b821a9f9d8d9a1363e93c98afca946; diagnostics307 preservation at09bb59f80b054cbd2bacdfa0840cecc74cae2027; energy316 at4808adc0f7f1e4ecfd35d747f17aec3db4b40b19. They require authentic Git objects and are not waived by this correction.
+
+
+## Proposed current-only historical replacement
+
+See [history replacement v1](HISTORY-REPLACEMENT.md) for the four explicitly scoped current-evidence contracts, frozen failed historical receipts and exact owner acknowledgement. The four original historical tests remain unchanged/full-release requirements. This proposed pilot revision does not restore old source or certify the game; current art/behavior/measurements must not be described as historical before/after evidence.

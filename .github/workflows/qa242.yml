@@ -49,7 +49,7 @@ jobs:
           NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
         run: |
           node tools/qa242/preflight.cjs
-          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs tests/qa242-subway-coverage.cjs
+          node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs tests/qa242-subway-coverage.cjs tests/qa242-history-contract.cjs
           node tests/qa242-controller-charge.cjs
       - name: Production ownership and selected character move assertions
         env:
@@ -73,6 +73,8 @@ jobs:
             reports242/latest-run.json
             reports242/readiness/
             reports242/production-coverage/
+            qa/system242/history-loss-v1/
+            qa/system242/history-replacement-v1.json
           if-no-files-found: warn
           retention-days: 30
   pilot-owner:

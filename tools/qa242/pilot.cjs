@@ -12,6 +12,7 @@ function scopeProblems(declaration,files){
 function automated(report,spec,{readArtifact}={}){
  const E=require('./evidence.cjs');
  const problems=[],plan=report.impact,rows=report.results||[];
+ if(plan?.historyReplacement){const h=plan.historyReplacement;try{if(E.canonical(report.historyReplacement)!==E.canonical(h))throw Error('Replacement report binding changed');if(h.id!=='qa242-missing-history-v1'||h.gameCertified!==false||h.historicalEvidence!=='blocked'||h.status!=='owner-review-pending'||!/^[a-f0-9]{64}$/.test(h.sha256)||h.mappings.length!==4)throw Error('Malformed replacement contract');const expected=require('./history-contract.cjs').expected;if(E.canonical(h.mappings.map(m=>[m.historicalSuite,m.currentSuite,m.mode,m.missingCommit]))!==E.canonical(expected))throw Error('Unknown replacement mapping');for(const m of h.mappings){const old=rows.find(q=>q.id===m.historicalSuite);if(plan.selection.includes(m.historicalSuite)||!plan.selection.includes(m.currentSuite)||old?.status!=='not-tested'||!old.reason?.startsWith('Historical evidence unavailable;'))throw Error('Historical replacement selection/result changed');}}catch(e){problems.push(e.message);}}
  if(plan?.acceptanceScope!==scope||plan.status==='blocked'||plan.problems?.length)problems.push('Valid QA-only pilot plan required');
  if(!plan?.selection?.length)problems.push('Required suite selection is missing');
  if(report.sourceChangedDuringTests!==false||report.uncommittedInputs?.length||!Array.isArray(report.uncommittedInputs))problems.push('Clean unchanged source required');
@@ -27,10 +28,10 @@ function automated(report,spec,{readArtifact}={}){
  return{status:problems.length?'blocked':'passed',problems,scope,gameCertified:false,ownerAcceptance:'pending'};
 }
 function manifest(report,context){
- return{schema:1,scope,repository:context.repository,pullRequest:Number(context.pullRequest),workflowRun:String(context.workflowRun),baseCommit:report.baseCommit,testedCommit:report.testedCommit,sourceFingerprint:report.sourceFingerprint,runId:report.runId,reportSha256:context.reportSha256,impact:report.impact,requiredResults:report.results.filter(q=>report.impact.selection.includes(q.id)),limitations:report.remainingRisks,gameCertified:false};
+ return{schema:1,scope,repository:context.repository,pullRequest:Number(context.pullRequest),workflowRun:String(context.workflowRun),baseCommit:report.baseCommit,testedCommit:report.testedCommit,sourceFingerprint:report.sourceFingerprint,runId:report.runId,reportSha256:context.reportSha256,impact:report.impact,requiredResults:report.results.filter(q=>report.impact.selection.includes(q.id)),limitations:report.remainingRisks,gameCertified:false,...(report.impact?.historyReplacement?{historyReplacement:report.impact.historyReplacement}:{})};
 }
 const acknowledgement='QA-only pilot; game certification remains incomplete; no gameplay changes; no branch protection; no merge';
-function template(m,digest,action='ACCEPT'){return['QA242-PILOT-ACCEPTANCE: '+action,'Repository: '+m.repository,'PR: '+m.pullRequest,'Base: '+m.baseCommit,'Head: '+m.testedCommit,'Evidence-SHA256: '+digest,'Scope: '+scope,'Acknowledgement: '+acknowledgement].join('\n');}
+function template(m,digest,action='ACCEPT'){return['QA242-PILOT-ACCEPTANCE: '+action,'Repository: '+m.repository,'PR: '+m.pullRequest,'Base: '+m.baseCommit,'Head: '+m.testedCommit,'Evidence-SHA256: '+digest,'Scope: '+scope,'Acknowledgement: '+acknowledgement,...(m.historyReplacement?['Replacement-Contract: '+m.historyReplacement.id,'Replacement-Contract-SHA256: '+m.historyReplacement.sha256,'Missing-History-Acknowledgement: '+require('./history-contract.cjs').acknowledgement]:[])].join('\n');}
 async function ownerComment(m,digest,{get,token=process.env.GITHUB_TOKEN}={}){
  if(!token)return{status:'blocked',reason:'Authenticated GitHub read access required'};
  get=get||(async route=>{const r=await fetch('https://api.github.com/repos/'+m.repository+route,{headers:{Authorization:'Bearer '+token,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}});if(!r.ok)throw Error('GitHub read failed: '+r.status);return r.json();});

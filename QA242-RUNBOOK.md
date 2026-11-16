@@ -89,3 +89,8 @@ See [the production coverage procedure](qa/system242/PRODUCTION-COVERAGE.md) for
 ## Orion current coverage
 
 See [Orion coverage](qa/system242/ORION-COVERAGE.md) for the current-adapter tests, the superseded counter distinction, exact fixture scopes and remaining gaps. Pilot QA acceptance does not certify these moves, rendered quality or hardware input.
+
+
+## Missing-history contract review
+
+See [history replacement v1](qa/system242/HISTORY-REPLACEMENT.md). Review frozen historical Failed receipts and the separately named current-only results. The generated owner comment includes mandatory contract/hash and missing-history acknowledgement lines; an earlier ordinary pilot comment does not accept this contract. Historical comparisons remain unverified and full game release remains blocked. Rerun only the owner job after posting the exact generated comment; no automatic posting, merging or protection changes.

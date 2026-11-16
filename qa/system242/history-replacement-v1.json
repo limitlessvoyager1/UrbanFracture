@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "qa242-missing-history-v1",
+  "version": 1,
+  "scope": "qa-infrastructure-pilot",
+  "ownerAcceptance": "pending-exact-source-bound-comment",
+  "gameCertified": false,
+  "runtimeAnchor": {
+    "commit": "023bef18915ea8ec2bc9c71c1b0c374e17488fc9",
+    "tree": "893ef481dd7ec7f7d399a5e1ca1136840018431c",
+    "gameFile": "dist/game.js",
+    "gameBlob": "bd7b4b1504ac81ff1e3e58ac833a341d2777582c",
+    "meaning": "Preservation from a verified current import; no claim of historical341 identity or gameplay approval."
+  },
+  "lossReceipt": {
+    "path": "qa/system242/history-loss-v1/receipt.json",
+    "sha256": "e7890ae85f4539ef70b2e5a95a06981197b9326c273784b2b105d853301e3860"
+  },
+  "mappings": [
+    {
+      "historicalSuite": "orion271-assets",
+      "currentSuite": "orion-current-assets-v1",
+      "mode": "orion",
+      "missingCommit": "8422de5a7b201bf3f72d58d1235e19ecb2d5537d",
+      "originalCommand": [
+        "python",
+        "tests/orion271-assets.py"
+      ],
+      "sourcePath": "tests/orion271-assets.py",
+      "sourceBlob": "0b12b6f3dd90879b1899f2b51a57a6d9f6c878c5",
+      "inputs": [
+        {
+          "path": "reports271/import.json",
+          "blob": "7821c13d6681153a5d4754134b83a6a9566e66e8"
+        }
+      ]
+    },
+    {
+      "historicalSuite": "nightshade276-runtime",
+      "currentSuite": "nightshade-current-behavior-v1",
+      "mode": "nightshade",
+      "missingCommit": "fb436742c9b821a9f9d8d9a1363e93c98afca946",
+      "originalCommand": [
+        "node",
+        "tests/nightshade276.cjs"
+      ],
+      "sourcePath": "tests/nightshade276.cjs",
+      "sourceBlob": "94373ca6bc5033ba108d38f15d59a5acfad719ae",
+      "inputs": []
+    },
+    {
+      "historicalSuite": "diagnostics307-input",
+      "currentSuite": "diagnostics-current-preservation-v1",
+      "mode": "diagnostics",
+      "missingCommit": "09bb59f80b054cbd2bacdfa0840cecc74cae2027",
+      "originalCommand": [
+        "node",
+        "tests/diagnostics307-input.cjs"
+      ],
+      "sourcePath": "tests/diagnostics307-input.cjs",
+      "sourceBlob": "5c90b2d106b4c2c6884ddc5bc81f723cd877a7cd",
+      "inputs": []
+    },
+    {
+      "historicalSuite": "energy316-baseline-comparison",
+      "currentSuite": "energy-current-measurements-v1",
+      "mode": "energy",
+      "missingCommit": "4808adc0f7f1e4ecfd35d747f17aec3db4b40b19",
+      "originalCommand": [
+        "node",
+        "tools/energy316/balance.cjs"
+      ],
+      "sourcePath": "tools/energy316/balance.cjs",
+      "sourceBlob": "c30de1c690e544e1391714374e4fbf68d5cf0ade",
+      "inputs": []
+    }
+  ],
+  "unverifiedClaims": [
+    "Historical Orion before/after height/origin/weapon-hand and other-hero preservation",
+    "Reproduction of Nightshade pre-repair defects and historical regression attribution",
+    "Build341 game.js identity against the unavailable historical commit",
+    "Energy improvement versus build315 and broad human gameplay balance"
+  ],
+  "limits": [
+    "Current snapshots and metrics do not restore lost history",
+    "No automatic art, hardware, browser, balance or release certification",
+    "Full release retains original historical requirements; pilot owner comment cannot satisfy it"
+  ]
+}

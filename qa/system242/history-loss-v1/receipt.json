@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "repository": "limitlessvoyager1/UrbanFracture",
+  "testedCommit": "023bef18915ea8ec2bc9c71c1b0c374e17488fc9",
+  "workflowRun": "43914636396",
+  "artifactId": 14250456221,
+  "artifactSha256": "45aba74f2b02fb4c4717190f36c69eecb729513d8f8d7e07c9cd080c71fb4b53",
+  "originalReportSha256": "8728f99fb746614966196ca8c430dd392683ee70fc6067c397c39b08692dde9b",
+  "ownerStatement": "Owner reports only source ZIPs and current GitHub repository remain; original history cannot be supplied.",
+  "recoveryAudit": "GitHub Git-commit API returned 404 for all four IDs; absent in two identified local checkouts; eleven supplied ZIPs contain no Git history/bundle. Scope is identified sources, not every possible external backup.",
+  "results": [
+    {
+      "id": "orion271-assets",
+      "status": "failed",
+      "exitCode": 1,
+      "command": [
+        "python",
+        "tests/orion271-assets.py"
+      ],
+      "log": "qa/system242/history-loss-v1/orion271-assets.log",
+      "sha256": "56993c335fcdb991bb5f5a037bd10335712b883b34280d57fd3708fe3a0c153f"
+    },
+    {
+      "id": "nightshade276-runtime",
+      "status": "failed",
+      "exitCode": 1,
+      "command": [
+        "node",
+        "tests/nightshade276.cjs"
+      ],
+      "log": "qa/system242/history-loss-v1/nightshade276-runtime.log",
+      "sha256": "0c52d2bd1d927a577eaf61710584128bf42c274c34708aa0dcb035509afd09af"
+    },
+    {
+      "id": "diagnostics307-input",
+      "status": "failed",
+      "exitCode": 1,
+      "command": [
+        "node",
+        "tests/diagnostics307-input.cjs"
+      ],
+      "log": "qa/system242/history-loss-v1/diagnostics307-input.log",
+      "sha256": "5d1fac6e87f91531fd0b98d1daf216e91af1f58adf62e55d83a48fea210c4506"
+    },
+    {
+      "id": "energy316-baseline-comparison",
+      "status": "failed",
+      "exitCode": 1,
+      "command": [
+        "node",
+        "tools/energy316/balance.cjs"
+      ],
+      "log": "qa/system242/history-loss-v1/energy316-baseline-comparison.log",
+      "sha256": "1d39ceb9dd147ab2ee98224f9bb5da6a5f8e32e3d2dece67cda5f11011398445"
+    }
+  ]
+}

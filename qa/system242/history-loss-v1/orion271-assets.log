@@ -1,0 +1,11 @@
+fatal: path 'dist/assets/orion205/combat-L-0.webp' exists on disk, but not in '8422de5a7b201bf3f72d58d1235e19ecb2d5537d'
+Traceback (most recent call last):
+  File "/home/runner/work/UrbanFracture/UrbanFracture/tests/orion271-assets.py", line 7, in <module>
+    p=R/q['path'];im=Image.open(p).convert('RGBA');a=np.array(im);assert list(im.size)==q['size'];assert set(np.unique(a[:,:,3]))<={0,255},q['path'];assert a[:,:,3].max()==255 and a[:,:,3].min()==0;assert im.getchannel('A').getbbox()[3]==im.height,q['path'];assert hashlib.sha256(p.read_bytes()).hexdigest()==q['after'];assert q['before']!=q['after'];assert q['path'] not in seen;seen.add(q['path']);blue=(a[:,:,2].astype(float)>a[:,:,0]*1.3)&(a[:,:,2]>a[:,:,1])&(a[:,:,3]>0);assert blue.sum()>20,q['path'];old=Image.open(__import__('io').BytesIO(subprocess.check_output(['git','show','8422de5a7b201bf3f72d58d1235e19ecb2d5537d:'+q['path']],cwd=R)));assert im.height==old.height,'unchanged pose height'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'show', '8422de5a7b201bf3f72d58d1235e19ecb2d5537d:dist/assets/orion205/combat-L-0.webp']' returned non-zero exit status 128.

@@ -4432,6 +4432,61 @@
       "generatedArtifacts": [
         "reports242/orion-current.json"
       ]
+    },
+    {
+      "id": "orion-current-assets-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "orion"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true
+    },
+    {
+      "id": "nightshade-current-behavior-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "nightshade"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true
+    },
+    {
+      "id": "diagnostics-current-preservation-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "diagnostics"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true
+    },
+    {
+      "id": "energy-current-measurements-v1",
+      "command": [
+        "node",
+        "tools/qa242/current-evidence.cjs",
+        "energy"
+      ],
+      "framework": "current-only-replacement-contract-v1",
+      "profiles": [
+        "initial"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports242/current-energy-measurements.json"
+      ]
     }
   ],
   "manualGates": [
