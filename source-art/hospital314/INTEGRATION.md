@@ -1,0 +1,15 @@
+# Hospital background integration
+
+Original assets, encoded once, total770142bytes. `Hospital314Art.sheets` contains image paths and dimensions. `Hospital314Art.scenes` contains14checked rectangular crops: roof, ward, vip, rehab, cafeteria, diagnostics, garage, skybridge, pharmacy, morgue, laundry, loading, surgery, oncology.
+
+Draw a row uniformly from logical y68to430: factor362/rect[3], widthrect[2]×factor. Repeat with a1logicalpixel overlap, preserving the fixed anatomical/environment scale. The crop already includes a shallow rear floor strip. For fighting-lane floor continuation, use Hospital314Materials.floors from hospital314-materials.js at y430. Its six real148pixel-high material rows can be drawn at110logicalheight without vertical upscaling. The older10pixel floorRect samples remain metadata references only: stretching them to the fighting depth was visibly blurred during native review. Use the same world camera for background and material floor. Avoid separate scrolling factors.
+
+Use ward for ER/outpatient/cardiology, rehab for psychiatric/rehabilitation, vip for VIP/admin. The diagnostics image contains an actual laboratory on its left half and actual CT/Xray machinery on the right. A dedicated oncology infusion row can also depict chemotherapy. Service rows provide real pharmacy cabinets, morgue storage, industrial laundry, loadingdock and surgical suite. No human, patient, actor, signage or unrelated combat prop is baked into these images. Native signage, enemy actors, navigation interactions and collision remain owned by the parent implementation.
+
+Rooftop art contains a painted landing pad and one actual rooftop access door on the right. Garage bays are empty so native parked vehicles can be correctly scaled and anchored without embedded cars or obstacles. Skybridge is completely windowed, with the adjacent hospital visible outside. No central vanishing-point corridor or corner room is used. Main strips have simple edge pillars; repeating a pillar is intentional structure rather than a black asset seam.
+
+The skyline/window scenery is baked painted environment art. Any runtime weather/light exposure should be clipped to the roof/window environment appropriately, rather than applying a water-warp effect across walls or foreground objects.
+
+Sources and exact prompts are preserved here. `tools/hospital314/pack-art.py` is repeatable from these original PNGs even if generation cache is unavailable; it will not overwrite existing originals. It only creates new hospital assets/data. No existing game art is changed.
+
+Additional original access art is Hospital314Materials.doors: two inspected source-sized frame/wall crops from doors.webp. Paint these uniformly at200–210logicalheight with bottom430. Stairwell wired glass and elevator center seam/callbutton are authored; native labels and interaction state remain separate. Floors152420bytes +doors16394bytes =168814added shipping bytes. Exact supplemental prompts and originals are preserved in FLOOR-PROMPT.md/DOOR-PROMPT.md and corresponding PNGs.

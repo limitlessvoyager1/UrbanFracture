@@ -1,0 +1,66 @@
+[
+  {
+    "file": "hero-sweep347.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bodyComponents": 24,
+    "uniqueGridCells": 24,
+    "edgeContacts": [],
+    "fullyTransparentPixels": 848068,
+    "alphaRange": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "hero-step347.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bodyComponents": 24,
+    "uniqueGridCells": 24,
+    "edgeContacts": [],
+    "fullyTransparentPixels": 951894,
+    "alphaRange": [
+      0,
+      254
+    ]
+  },
+  {
+    "file": "hero-beat347.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bodyComponents": 24,
+    "uniqueGridCells": 24,
+    "edgeContacts": [],
+    "fullyTransparentPixels": 910248,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "recommendedContinuousCycle": "0\u201317; minimize near-static settling18\u201323",
+    "contactIndex": 12
+  },
+  {
+    "file": "hero-rise347.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "bodyComponents": 8,
+    "uniqueGridCells": 8,
+    "edgeContacts": [],
+    "fullyTransparentPixels": 1143399,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "sequence": "planted shallow-bend recovery0\u20137",
+    "rawCandidate": "hero-rise347-raw.png"
+  }
+]

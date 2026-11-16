@@ -1,0 +1,70 @@
+[
+  {
+    "file": "estates-avenue196.webp",
+    "originalBytes": 2366676,
+    "newBytes": 2005212,
+    "saved": 361464,
+    "dimensions": [
+      2172,
+      724
+    ],
+    "ssim": 0.9986441266081552,
+    "psnr": 51.17844800184818,
+    "meanAbs": 0.4957189951466683,
+    "maxAbs": 1.0,
+    "method": "Clear one least-significant RGB bit, then exact lossless WebP; no resizing, chroma subsampling or spatial filter",
+    "originalSha256": "26b5883bd277c091f4a557fba04accd22ae4213ca1d7abada6cca425ca92aeb1",
+    "candidateSha256": "af73de2a3d1adc5db43e2d997458d99ffd9e0353d743f5ebea8b876746dacbf9"
+  },
+  {
+    "file": "uptown-block-c155.webp",
+    "originalBytes": 2353530,
+    "newBytes": 1974032,
+    "saved": 379498,
+    "dimensions": [
+      2172,
+      724
+    ],
+    "ssim": 0.9990591902499546,
+    "psnr": 51.13554493963878,
+    "meanAbs": 0.5006403701555712,
+    "maxAbs": 1.0,
+    "method": "Clear one least-significant RGB bit, then exact lossless WebP; no resizing, chroma subsampling or spatial filter",
+    "originalSha256": "15e2e05e3eae8baf164288c11a8fb52f6281be0a1f50507ad44746e0ff4420ee",
+    "candidateSha256": "0be2e5fd39880811601ba593ada021306c9bdf7bcdb3bf9852cf392eb11fca6e"
+  },
+  {
+    "file": "uptown-block-a155.webp",
+    "originalBytes": 2335618,
+    "newBytes": 1952276,
+    "saved": 383342,
+    "dimensions": [
+      2172,
+      724
+    ],
+    "ssim": 0.999179994441278,
+    "psnr": 51.14652183447291,
+    "meanAbs": 0.49937658767708215,
+    "maxAbs": 1.0,
+    "method": "Clear one least-significant RGB bit, then exact lossless WebP; no resizing, chroma subsampling or spatial filter",
+    "originalSha256": "e7740ad94b6cf91dbb888f374ceb70139f51e0cea1bce580436105748ad109a7",
+    "candidateSha256": "fbf39eb194eb792e537718c8a20b1824e16277ed1237f1cb90828a696618f7d3"
+  },
+  {
+    "file": "grand-hotel-lobby96.webp",
+    "originalBytes": 2331556,
+    "newBytes": 1974774,
+    "saved": 356782,
+    "dimensions": [
+      2172,
+      724
+    ],
+    "ssim": 0.9980065675848201,
+    "psnr": 51.230720384302735,
+    "meanAbs": 0.4897882051490763,
+    "maxAbs": 1.0,
+    "method": "Clear one least-significant RGB bit, then exact lossless WebP; no resizing, chroma subsampling or spatial filter",
+    "originalSha256": "a90081501f11fb46aa26910514c9c8f0ef3f2d2e2a2bc6be07b93ffdc7ab004f",
+    "candidateSha256": "62c813c5d40d16c186c8946be16143e73b733822c7b48b9c66acd75fa2e785aa"
+  }
+]

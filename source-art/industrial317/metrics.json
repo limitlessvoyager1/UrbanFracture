@@ -1,0 +1,21 @@
+{
+  "sourceAtlas": [
+    1448,
+    1086
+  ],
+  "sourcePanels": 12,
+  "shippingAtlas": [
+    1459,
+    934
+  ],
+  "atlasBytes": 303916,
+  "trainBytes": 26904,
+  "metadataBytes": 1633,
+  "totalShippingBytes": 332453,
+  "resampling": "Atlas panels native pixels, cropped; floor strips240x44; transparent train560x123 Lanczos. Original source retained.",
+  "files": {
+    "dist/assets/industrial317/district.webp": "2b7e680d1d417ecf0382db558db535e31c2ec274c1a01b3379ceaa228a5faffa",
+    "dist/assets/industrial317/freight.webp": "a4d221ca1702bc4cef5769288cd6dc2a84543fe91d298b5bf8f137434dcc5d49",
+    "dist/industrial317-data.js": "7b16e278ecdf5e46ad39b0d4d105b597a7b4751adc3f5a2f006bccfeab9a8a0b"
+  }
+}

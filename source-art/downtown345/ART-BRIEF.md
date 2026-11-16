@@ -1,0 +1,8 @@
+# Downtown345 art provenance
+New raster artwork uses the built-in image generator. Original campaign artwork remains intact. master-hashes.json identifies copied masters. Runtime WebP derivatives and measured, fixed-scale pose metadata are produced by tools/downtown345/import.py.
+
+Scene brief: original semi-realistic comic-book Prime City, English neon signs, damaged shop windows, sidewalk glass, graffiti and dense urban streets. Panoramas cover restaurants/retail/hotel exterior; condos/nightlife/alley; lobby/kitchen/lounge; nightclub frontage/dancefloor/VIP; optional phone shop/pizza parlor/punk club. English-localized masters are under english/. Rejected earlier lettering is not shipped.
+
+Character brief: preserve established costumes and identities. Five 6-column, 6-row sheets each contain two characters, 18 poses each: idle, four walking poses, anticipation/contact/follow-through/recovery, two recoil poses, three falling stages, prone and three get-up poses. Full move-specific choreography is not certified by these sheets. One scale per character, independently measured ground anchors, no per-pose anatomy scaling.
+
+Nightshade supplemental sheet contains six run poses, six fall/rise poses, six rolling throw poses and six drone-assist poses. Original344 combat art remains the full-resolution base. Extraction prompt: Remove ONLY the brown/gray background into genuine transparent alpha; preserve all24 people, exact poses, proportions, positions, canvas, grid, colors and line detail. First extraction selected after alpha inspection; second rejected for residual haze. Rendered output inspected in the actual browser. Complete synchronized hand contact, all move-specific enemy attacks, artistic approval and physical-controller testing remain open.

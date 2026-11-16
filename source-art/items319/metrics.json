@@ -1,0 +1,137 @@
+{
+  "atlasSize": [
+    320,
+    144
+  ],
+  "atlasBytes": 17092,
+  "metadataBytes": 735,
+  "totalShippingBytes": 17827,
+  "quality": 80,
+  "source": [
+    1774,
+    887
+  ],
+  "frames": {
+    "oneUp": {
+      "sourceBounds": [
+        47,
+        121,
+        274,
+        280
+      ],
+      "packedSize": [
+        55,
+        56
+      ]
+    },
+    "fullHeal": {
+      "sourceBounds": [
+        356,
+        100,
+        357,
+        308
+      ],
+      "packedSize": [
+        56,
+        48
+      ]
+    },
+    "healthPack": {
+      "sourceBounds": [
+        784,
+        195,
+        220,
+        196
+      ],
+      "packedSize": [
+        56,
+        50
+      ]
+    },
+    "pizza": {
+      "sourceBounds": [
+        1094,
+        117,
+        296,
+        292
+      ],
+      "packedSize": [
+        56,
+        55
+      ]
+    },
+    "energyBattery": {
+      "sourceBounds": [
+        1447,
+        132,
+        291,
+        258
+      ],
+      "packedSize": [
+        56,
+        50
+      ]
+    },
+    "energyCanister": {
+      "sourceBounds": [
+        66,
+        460,
+        232,
+        371
+      ],
+      "packedSize": [
+        35,
+        56
+      ]
+    },
+    "money": {
+      "sourceBounds": [
+        363,
+        566,
+        341,
+        221
+      ],
+      "packedSize": [
+        56,
+        37
+      ]
+    },
+    "phone": {
+      "sourceBounds": [
+        755,
+        556,
+        277,
+        248
+      ],
+      "packedSize": [
+        56,
+        50
+      ]
+    },
+    "jewelry": {
+      "sourceBounds": [
+        1106,
+        504,
+        275,
+        314
+      ],
+      "packedSize": [
+        49,
+        56
+      ]
+    },
+    "diamonds": {
+      "sourceBounds": [
+        1430,
+        562,
+        322,
+        206
+      ],
+      "packedSize": [
+        56,
+        36
+      ]
+    }
+  },
+  "atlasSHA256": "f2fbc664c517c8ed387d70f3cacd2b24d69ca1d49752bc811c746793f28c2467"
+}

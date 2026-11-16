@@ -1,0 +1,4 @@
+# Source provenance
+Built-in image generation, transparent image output. Broxton367/run.png is the identity/legs/outfit reference. arm-guide.png is an exact twelve-cell joint-position guide: orange near arm, blue far arm; opposing arm/leg phases and continuous passing positions. Final prompt requests whole-body painted Broxton sprites matching each guided shoulder/elbow/wrist position, preserving original sprint legs, outfit, mass, right-facing camera and transparency. No runtime guide colors or skeletons are used.
+
+Final source uses sprint-guide.png as the PRIMARY pose reference, with reports366/body-comparison.png only for Broxton identity. Prompt requests exact frame-specific shoulder/elbow/wrist and hip/knee/ankle positions, opposing near/far arms, high knee recovery/toe-off/flight, identical wardrobe and true alpha. Earlier candidate generations were rejected for held arms or overly walking-like lower-body motion and are not consumed by the build.

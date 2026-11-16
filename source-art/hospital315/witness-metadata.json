@@ -1,0 +1,90 @@
+{
+  "src": "assets/hospital315-witness.webp",
+  "width": 540,
+  "height": 176,
+  "scale": 0.925,
+  "anatomicalHeight": 148,
+  "frames": [
+    {
+      "key": "hostage",
+      "rect": [
+        0,
+        0,
+        180,
+        176
+      ],
+      "ax": 90,
+      "ay": 170,
+      "bounds": [
+        68,
+        79,
+        55,
+        91
+      ],
+      "sourceBounds": [
+        266,
+        312,
+        505,
+        704
+      ],
+      "sourceGroundRoot": [
+        362,
+        704
+      ]
+    },
+    {
+      "key": "speaking",
+      "rect": [
+        180,
+        0,
+        180,
+        176
+      ],
+      "ax": 90,
+      "ay": 170,
+      "bounds": [
+        63,
+        10,
+        74,
+        160
+      ],
+      "sourceBounds": [
+        928,
+        18,
+        1248,
+        710
+      ],
+      "sourceGroundRoot": [
+        1045,
+        710
+      ]
+    },
+    {
+      "key": "deceased",
+      "rect": [
+        360,
+        0,
+        180,
+        176
+      ],
+      "ax": 90,
+      "ay": 170,
+      "bounds": [
+        9,
+        137,
+        162,
+        33
+      ],
+      "sourceBounds": [
+        1443,
+        542,
+        2145,
+        684
+      ],
+      "sourceGroundRoot": [
+        1794,
+        684
+      ]
+    }
+  ]
+}
