@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "commonBackgroundPrompt": "Use case: stylized-concept. Production richly detailed 16-bit pixel-art side-scrolling Urban Fracture background. Wide3:1, crisp unblurred hand-painted arcade look, straight human-eye side-view camera, no isometric/fisheye. Broad empty horizontal playable foreground, no fighters/HUD/GO arrows; unique nonrepeating scene. Neutral daylight for dynamic runtime lighting.",
+  "assetBriefs": {
+    "avenue": "High-elevation Fairways Estates. Mountains, woods, city and distant airport/terminal/runway. Broken gate on ground. Rich homes, damaged luxury vehicle, broken fountain, winery, WHOLE FOODS grocery, fancy restaurant, dry cleaner, DAY SPA at right. Empty asphalt lane.",
+    "front": "More luxurious homes, damaged fountain/car, huge green field and FAIRWAYS COUNTRY CLUB sign; massive columned club front entry at right. Empty stone drive.",
+    "spa": "Luxury DAY SPA courtyard, pergola and rear archway opening onto back street; broken planter, reflection pool behind unobstructed stone lane.",
+    "rear": "Rear residential street behind spa; high valley city and airport, rich homes, damaged cars/fountain, country club rear approach at bottom-right. Empty asphalt lane.",
+    "club": "Prestigious clubhouse vestibule, coat check, long bar, lounge seating, trophies/chandeliers. Separate golf-course glass doors near80% and rightward pool/tennis door. Broad empty oak floor.",
+    "golf": "Golf fairway, greens, sandy bunkers, water trap, holes/flags, cart path/bridge, trees, course signs; elevated city/mountains and final tournament green. Empty flat foreground grass lane.",
+    "tennis": "Left Olympic swimming pool with lanes/starting blocks, center glass fitness building, right tennis courts, spectator seats; distant elevated skyline. Continuous clear acrylic path.",
+    "court": "Dedicated rear-most tennis-court arena with white court lines, back-edge net and umpire chair, fence/seats/mountains/city; no net or obstacle across combat floor.",
+    "citizens": "Transparent4x4 full-body atlas. Six pairs: rich Black man navy suit, Asian woman cream suit, older silver-haired man cashmere/tan pants, Latina red dress, South Asian man golf polo/ivory pants, Black woman purple pantsuit. Four frightened standing/crouching older woman pearls, bald suited man, woman teal dress, young adult polo/chinos.",
+    "citizens-repaired": "Edit citizens atlas. Only second/fourth columns top3rows change to opposite running stride, planted foot and raised opposite knee, distinct opposite armswing. Preserve first/third columns and bottomrow, costumes, body scale and alpha.",
+    "cart": "Transparent3-column side-view golf carts facingright, white/darkgreen/creamcanopy, tattooed syndicate green-tank driver. Complete wheels on same baseline; identicalbody, spoke phases vary."
+  },
+  "runtime": "LosslessWebP. Citizens alpha components cleaned/cropped; cart uses wholebodyframe with wheel spokes rotating around measured hubs. SourcePNG retained."
+}

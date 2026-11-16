@@ -1,0 +1,1499 @@
+# URBAN FRACTURE — SPECIAL AGENT NIGHTSHADE
+## Complete Playable Character Implementation — Revised Master Specification
+### Combat, Animations, Firearms, Ammunition Economy, Enemy AI, Controls, and QA
+### Normal Difficulty Baseline | 60 FPS
+
+---
+
+# PRIMARY OBJECTIVE
+
+Create Special Agent Nightshade as a fully playable hero in Urban Fracture.
+
+Nightshade is an agile, adaptable field operative capable of fighting effectively at close, medium, and long range.
+
+Her archetype is:
+
+**JACK OF ALL TRADES — MASTER OF NONE**
+
+She uses:
+
+- A six-round handgun.
+- A collapsible baton.
+- A wrist-mounted laser and electrical device.
+- A poison-dart pen.
+- Ground taser gadgets.
+- Compact explosives.
+- Agile kicks.
+- Grappling techniques.
+- Tactical counters.
+
+Her gun is powerful but limited by ammunition, firing recovery, positional accuracy, and enemy defensive intelligence.
+
+Her melee combat must remain effective when she has no ammunition.
+
+## Mandatory development requirements
+
+1. Preserve the existing combat engine.
+2. Create Nightshade's complete moveset.
+3. Implement R2 as the reusable Unique Action button.
+4. Implement six-round handgun ammunition.
+5. Add six upright bullet icons beneath her defense meter.
+6. Implement guaranteed scripted ammunition pickups throughout existing and future levels.
+7. Balance scripted ammunition according to encounter difficulty, expected playtime, and level length.
+8. Implement uncommon randomized ammunition drops.
+9. Implement enemy defensive behavior against bullets.
+10. Preserve universal grab and counter rules unless explicitly overridden.
+11. Implement proper synchronized grappling animations.
+12. Prevent sprite scaling, gliding, floating, and animation locks.
+13. Test Nightshade with full ammunition, partial ammunition, and zero ammunition.
+14. Follow the mandatory incremental Work implementation workflow.
+15. Produce a verified QA report after every implementation gate.
+
+**Do not attempt to implement the entire character in one unverified Work job.**
+
+Create a recoverable checkpoint before modifying the project.
+
+---
+
+# PART I — CHARACTER IDENTITY AND VISUAL DESIGN
+
+## PHASE 1 — CHARACTER PROFILE
+
+Name: Special Agent Nightshade
+
+Display name: NIGHTSHADE
+
+Classification: Playable Hero
+
+Combat archetype: Versatile Tactical Operative
+
+### Initial attributes
+
+| Attribute | Starting value |
+|---|---|
+| Maximum HP | 110 |
+| Defense meter | Standard hero capacity |
+| Walk speed | Above average |
+| Run speed | Above average |
+| Jump height | Average |
+| Jump distance | Slightly above average |
+| Melee damage | Average |
+| Grab strength | Average |
+| Firearm damage | High per bullet |
+| Counter damage | Moderate to high |
+| Attack armor | None |
+
+These are initial Normal difficulty balancing values.
+
+Do not silently change them without reporting the adjustment.
+
+### Strengths
+
+- Effective at multiple ranges.
+- Agile movement.
+- Armor-ignoring bullets.
+- Tactical electrical devices.
+- Poison status effects.
+- Strong situational counters.
+- Crowd-control options.
+- Good adaptability.
+
+### Weaknesses
+
+- Limited ammunition.
+- No exceptional melee specialty.
+- Vulnerable during committed gun attacks.
+- Vulnerable during certain beatdowns.
+- Limited long-range damage without bullets.
+- No permanent armor.
+- No universal invulnerability.
+- Resource-dependent strongest firearm attacks.
+
+---
+
+## PHASE 2 — APPROVED APPEARANCE
+
+Use the latest approved Nightshade reference image.
+
+### Character
+
+- Athletic adult brunette.
+- Distinct facial appearance.
+- Dark brown hair in a loose updo.
+- Loose strands framing both sides of her face.
+- Confident, alert expression.
+
+### Clothing
+
+- Deep teal fitted upper garment.
+- Ivory cropped short-sleeve tailored jacket.
+- Gold trim.
+- Nightshade flower emblem.
+- Dark charcoal fitted trousers.
+- Black or espresso leather boots.
+- Fingerless gloves.
+- Low-profile tactical belt.
+- Discreet gadget holders.
+
+### Equipment
+
+- One handgun in a holster on her outer left thigh.
+- Collapsible baton in a holder on her outer right thigh.
+- Wrist-mounted laser/electrical device.
+- Small belt-mounted gadget compartments.
+
+### Important
+
+Preserve the approved appearance across all animations.
+
+No changing skin tones, hair colors, clothing colors, or proportions between moves.
+
+No sprite scaling during jumps, attacks, grabs, or dodges.
+
+Do not give Nightshade two handguns.
+
+---
+
+# PART II — INPUT AND FIREARM SYSTEM
+
+## PHASE 3 — R2 UNIQUE ACTION
+
+Add R2 as a reusable Unique Action input.
+
+### Nightshade
+
+Press R2 to fire one handgun bullet.
+
+### Rules
+
+- One bullet per valid press.
+- No automatic firing from holding R2.
+- No firing with zero ammunition.
+- No firing while grabbed.
+- No firing while stunned.
+- No firing during knockdown.
+- No firing during synchronized throws.
+- No firing during incompatible specials.
+- No bypassing mandatory recovery.
+
+### Other characters
+
+Keep the Unique Action system extensible for future heroes.
+
+Do not assign new R2 abilities to existing characters yet.
+
+### Keyboard
+
+Add a configurable equivalent through the existing control settings.
+
+### Controller
+
+Verify PS5 DualSense trigger detection, input buffering, and button conflicts.
+
+Preserve L1 Block and R1 Counter.
+
+---
+
+## PHASE 4 — SIX-ROUND HANDGUN
+
+Maximum ammunition: 6.
+
+Starting ammunition per new life: 6.
+
+### Ordinary bullets
+
+- Consume one bullet each.
+- Do not pierce enemies.
+- Ignore ordinary armor damage reduction.
+- Deal good damage.
+- Can miss.
+- Can be evaded.
+- Can be intercepted by solid cover.
+- Cannot be blocked by ordinary hand-to-hand guarding.
+- Do not normally cause knockdown.
+- Do not repeatedly restart stagger indefinitely.
+
+### Initial ordinary bullet damage
+
+12 HP.
+
+### Initial frame data
+
+| Action | Frames |
+|---|---:|
+| Draw/raise handgun | 10 |
+| Aim stabilization | 4 |
+| Shot event | 1 |
+| Recoil/follow-through | 7 |
+| Minimum subsequent-shot interval | 22–28 |
+| Empty-gun attempt | 12 |
+
+### Requirements
+
+- Correct muzzle flash.
+- Correct recoil.
+- Correct firing lane.
+- Correct gun attachment.
+- No shooting through solid cover.
+- No perfect automatic targeting.
+- No gunfire during prohibited states.
+
+---
+
+## PHASE 5 — AMMUNITION HUD
+
+Display six upright bullet-cartridge icons beneath Nightshade's defense meter.
+
+### Visual requirements
+
+- Six fixed positions.
+- Empty bullets appear as outlines.
+- Loaded bullets appear filled with metallic cartridge artwork.
+- Upright orientation.
+- Consistent spacing.
+- Correct updates after firing and pickups.
+- No HUD overlap.
+- Readable at gameplay resolution.
+
+### Example
+
+6 bullets: ● ● ● ● ● ●
+
+3 bullets: ● ● ● ○ ○ ○
+
+0 bullets: ○ ○ ○ ○ ○ ○
+
+These symbols are illustrative only.
+
+Create actual bullet-shaped icons.
+
+---
+
+# PART III — AMMUNITION PICKUPS
+
+## PHASE 6 — PICKUP TYPES
+
+### Small Ammo Clip
+
+Appearance: One small clip icon.
+
+Restores: 3 bullets.
+
+### Large Ammo Clip
+
+Appearance: Two clips together.
+
+Restores: 6 bullets.
+
+### Capacity rules
+
+Nightshade cannot exceed six bullets.
+
+Excess ammunition is discarded rather than stored in a reserve.
+
+### Requirements
+
+- Proper ground contact.
+- Correct collision.
+- Correct pickup sound.
+- Correct icon.
+- No duplicate pickup events.
+- No floating pickups.
+- No repeated collection.
+
+---
+
+# PHASE 7 — SCRIPTED AMMUNITION SYSTEM
+## CRITICAL BALANCING REQUIREMENT
+
+When Nightshade is the active playable hero, a limited number of guaranteed ammunition pickups must appear at designated locations throughout each level.
+
+These are scripted pickups.
+
+They must always appear at their designated locations when Nightshade plays the level, unless already collected during that run.
+
+They are separate from random enemy and destructible-object drops.
+
+### Important
+
+Do not determine the scripted ammunition budget solely from the physical length of the level.
+
+Use:
+
+1. Expected gameplay duration.
+2. Number of mandatory encounters.
+3. Number of enemies.
+4. Enemy difficulty and composition.
+5. Number of locked encounters.
+6. Boss presence.
+7. Available melee opportunities.
+8. Expected ammunition consumption.
+9. Random ammunition drop opportunities.
+10. Difficulty setting.
+
+### Design principle
+
+A short level with several difficult mandatory encounters may need more ammunition than a long level containing mostly exploration.
+
+However, additional difficulty must not automatically result in excessive ammunition.
+
+---
+
+## PHASE 8 — SCRIPTED AMMUNITION BUDGET
+
+Use the following initial guidelines for Normal difficulty.
+
+| Level type | Expected duration | Small clips | Large clips |
+|---|---|---:|---:|
+| Short | Under 10 minutes | 1 | 0 |
+| Medium | 10–20 minutes | 1–2 | 0 |
+| Long | 20–35 minutes | 2–3 | 0 |
+| Very Long | Over 35 minutes | 3–4 | 0–1 |
+
+These values are initial level-wide guidelines, not per-section allowances.
+
+### Encounter-based adjustments
+
+Work should evaluate:
+
+- Number of high-threat encounters.
+- Number of enemies resistant to stagger.
+- Frequency of enemies capable of dodging gunfire.
+- Availability of cover.
+- Number of mandatory boss encounters.
+- Expected player opportunity to fight without bullets.
+
+### Adjustment limits
+
+If a level has unusually difficult encounters, allow a small adjustment within the approved ammunition budget.
+
+Do not automatically double scripted ammunition because a level has many enemies.
+
+### Large clips
+
+Six-bullet clips must remain rare.
+
+A guaranteed large clip should generally be reserved for exceptional long levels or a specifically justified encounter.
+
+### Critical requirement
+
+**The scripted ammunition budget must be calculated for the entire level before pickups are placed.**
+
+Do not independently award the full budget to every section.
+
+---
+
+# PHASE 9 — SCRIPTED PICKUP DISTRIBUTION
+
+Distribute guaranteed ammunition across the level rather than clustering it.
+
+### Placement rules
+
+- Place pickups at meaningful progression points.
+- Avoid placing all clips at the beginning.
+- Do not place clips inside inaccessible scenery.
+- Do not place them on enemy spawn points.
+- Do not place them beyond locked arena boundaries while the player is trapped.
+- Do not place them in locations that require impossible movement.
+- Do not create guaranteed ammo immediately before every enemy encounter.
+
+### Recommended distribution
+
+For a level with three small scripted clips:
+
+- One during the early-to-middle portion.
+- One during the middle portion.
+- One during the later portion.
+
+These are placement guidelines, not fixed percentage requirements.
+
+### Boss considerations
+
+A difficult boss may justify one nearby small clip, but this must be included in the level's total ammunition budget.
+
+Do not add an unlimited or automatically respawning ammunition supply.
+
+---
+
+# PHASE 10 — SCRIPTED PICKUP PERSISTENCE
+
+Integrate the scripted pickup system with the existing level state.
+
+### Requirements
+
+- Every scripted pickup has a stable unique identifier.
+- Collected pickups remain collected during the current run.
+- Camera scrolling does not respawn pickups.
+- Returning to a cleared section does not respawn pickups.
+- Locked encounter transitions do not duplicate pickups.
+- Reloading checkpoints follows the existing checkpoint restoration rules.
+- Character-specific pickups appear only when Nightshade is active.
+
+### Existing levels
+
+Add Nightshade ammunition placement profiles without rebuilding the levels.
+
+### Future levels
+
+Add ammunition budgeting and placement to the standard level-creation pipeline.
+
+### Important
+
+Future levels should automatically support Nightshade's pickup system.
+
+They should not require a separate ammunition controller.
+
+---
+
+# PHASE 11 — RANDOM AMMUNITION DROPS
+
+In addition to scripted pickups, ammunition may occasionally drop from enemies and destructible objects.
+
+### Initial Normal difficulty probabilities
+
+| Source | 3-bullet clip | 6-bullet clip |
+|---|---:|---:|
+| Regular enemy | 8% | 1% |
+| Strong enemy | 12% | 3% |
+| Eligible destructible object | 10% | 2% |
+
+These probabilities apply to eligible loot events.
+
+### Requirements
+
+- Integrate with the existing loot Director.
+- Preserve health and other pickup categories.
+- Do not duplicate loot events.
+- Do not create multiple ammunition rewards from one event unless explicitly scripted.
+- Prevent repeat farming.
+
+### Gunfire kill adjustment
+
+Enemies defeated primarily through gunfire have their ammunition-drop probabilities reduced by 50%.
+
+### Shortage protection
+
+The loot Director may modestly increase small-clip eligibility after a prolonged ammunition shortage.
+
+However:
+
+- The adjustment must be bounded.
+- It must not create guaranteed ammunition.
+- It must not refill the gun after every fight.
+- It must not override scripted ammunition limits.
+
+### Difficulty
+
+Easy may provide slightly more ammunition.
+
+Hard may provide slightly less.
+
+Do not remove essential scripted pickups solely because Nightshade is performing well.
+
+---
+
+# PHASE 12 — AMMUNITION ECONOMY VALIDATION
+
+Test the complete ammunition economy under several playstyles.
+
+### Test A — Firearm-heavy player
+
+Player fires whenever ammunition is available.
+
+Verify:
+
+- Ammunition is eventually depleted.
+- The player cannot sustain unlimited gunfire.
+- Random drops do not continuously refill the magazine.
+- Scripted pickups do not trivialize encounters.
+
+### Test B — Balanced player
+
+Player alternates melee, grabs, specials, and gunfire.
+
+Verify:
+
+- Ammunition remains useful.
+- The player can conserve bullets.
+- Gunfire provides meaningful advantages.
+- Melee combat remains important.
+
+### Test C — Melee-focused player
+
+Player rarely uses bullets.
+
+Verify:
+
+- Pickups do not accumulate beyond six bullets.
+- Ammo does not interfere with other pickups.
+- The player is not penalized for conserving ammunition.
+
+### Test D — Zero-ammunition player
+
+Player has no bullets for an extended encounter.
+
+Verify:
+
+- All non-ammunition-dependent moves function.
+- Standard combos remain effective.
+- Grabs remain useful.
+- Dodge and counters remain useful.
+- The player can defeat ordinary enemies without ammunition.
+- No mandatory encounter requires gunfire unless explicitly designed and separately approved.
+
+### Critical requirement
+
+**Nightshade must remain a capable playable character with zero bullets.**
+
+Her gun should be an advantage, not a requirement for basic survival.
+
+---
+
+# PART IV — ENEMY DEFENSE AGAINST BULLETS
+
+## PHASE 13 — BULLET DEFENSE RULES
+
+Enemies may defend through:
+
+- Sidesteps.
+- Dodges.
+- Ducking.
+- Repositioning.
+- Moving out of the firing lane.
+- Solid environmental cover.
+- Specialized ballistic protection where explicitly defined.
+
+### Ordinary blocking
+
+Ordinary melee blocking does not stop bullets.
+
+### Armor
+
+Bullets ignore armor damage reduction.
+
+Armor may still provide stagger resistance.
+
+### Important
+
+Do not give enemies universal bullet immunity.
+
+---
+
+## PHASE 14 — DEFENSIVE AI
+
+Enemies respond to visible aiming cues rather than directly reading R2 input.
+
+### Initial conditional defense-attempt rates
+
+| Enemy type | Rate |
+|---|---:|
+| Basic thugs | 10–15% |
+| Workers | 5–10% |
+| Weapon specialists | 15–20% |
+| Heavy enemies | 10–15% |
+| Martial artists | 25–35% |
+| Spectre | 30–40% |
+| Bosses | 15–35%, character-specific |
+
+These are attempt rates, not guaranteed successful dodges.
+
+### Requirements
+
+- Enemy must perceive Nightshade.
+- Enemy must be actionable.
+- Enemy must have time to react.
+- Enemy must have the appropriate defensive move.
+- Enemy cannot cancel mandatory recovery.
+- Enemy cannot evade after a confirmed hit.
+- Enemy must obey cooldowns.
+
+### Adaptation
+
+If Nightshade repeatedly fires from the same lane:
+
+- Skilled enemies may reposition.
+- Agile enemies may increase evasive movement.
+- Some enemies may seek cover.
+- Aggressive enemies may close distance during firing recovery.
+
+Do not allow perfect bullet prediction.
+
+---
+
+## PHASE 15 — STAGGER LIMITS
+
+Prevent firearm stun-locking.
+
+### Requirements
+
+- First eligible shot may cause brief stagger.
+- Additional shots during the same stagger window deal damage without repeatedly restarting it.
+- Strong enemies resist stagger more effectively.
+- Bosses generally resist repeated ordinary bullet stagger.
+- Ordinary bullets do not normally cause knockdown.
+- No permanent stagger loops.
+
+---
+
+# PART V — STANDARD COMBAT
+
+## PHASE 16 — FOUR-STAGE STANDARD COMBO
+
+Sequence:
+
+1. Baton Strike 1.
+2. Baton Strike 2.
+3. Multi-Hit Wrist Laser.
+4. Flying Kick.
+
+### Frame data
+
+| Move | Startup | Active | Recovery / transition |
+|---|---:|---:|---:|
+| Baton Strike 1 | 10 | 4 | 6 transition |
+| Baton Strike 2 | 12 | 4 | 7 transition |
+| Wrist Laser | 16 | 12 sequence | 8 transition |
+| Flying Kick | 19 | 6 | 32 recovery |
+
+### Properties
+
+- Moderate melee damage.
+- Short laser pushback.
+- Final kick causes knockdown.
+- No automatic combo completion.
+- Correct baton and wrist-device attachment.
+- No sprite scaling.
+- No floating.
+- No combat-plane drift.
+
+---
+
+## PHASE 17 — CHARGED ATTACK
+### POISON DART PEN
+
+Input:
+
+Hold Attack for three seconds, then release.
+
+### Properties
+
+- Short-range dart.
+- Minor direct damage.
+- Chance to poison.
+- Temporary HP drain.
+- Temporary attack power reduction.
+- Temporary attack speed reduction.
+- Purple-tinted affected enemy.
+
+### Poison chance
+
+- Regular enemies: 40%.
+- Strong enemies: 20%.
+- Bosses: 20%, respecting existing boss status rules without duplicate resistance rolls.
+
+### Poison effect
+
+- Attack power reduced by 50%.
+- Attack speed reduced by 50%.
+- Gradual HP drain.
+
+### Initial duration
+
+- Regular enemies: 5 seconds.
+- Strong enemies: 3 seconds.
+- Bosses: 2 seconds.
+
+### Frame data after charge
+
+- Preparation: 15.
+- Release: 3.
+- Recovery: 28.
+
+### Important
+
+Poison must expire.
+
+Do not allow unlimited poison stacking.
+
+---
+
+# PART VI — GRAB COMBAT
+
+## PHASE 18 — GRAB COMBO
+
+Sequence:
+
+1. Knee strike.
+2. Second knee strike.
+3. Hand-taser shock.
+4. Front kick.
+
+### Properties
+
+- Moderate-to-high damage.
+- Electrical stun.
+- Final knockdown.
+- Correct synchronized grapple.
+
+### Timing
+
+- First knee: 12 frames.
+- Second knee: 12.
+- Taser: 18.
+- Front kick: 16.
+- Recovery: 28.
+
+---
+
+## PHASE 19 — FRONT GRAB, FORWARD + ATTACK
+### BATON SWEEP AND STANDING BEATDOWN
+
+Nightshade sweeps the enemy's legs with her baton, then strikes the grounded enemy several times while standing.
+
+### Properties
+
+- Good damage.
+- Delayed enemy wake-up.
+- Vulnerable to other enemies during beatdown.
+- No indefinite grounded attack loop.
+
+### Timing
+
+- Sweep startup: 18.
+- Sweep active: 5.
+- Ground transition: 14.
+- Three baton strikes over 42 frames.
+- Recovery: 28.
+
+---
+
+## PHASE 20 — FRONT GRAB, AWAY + ATTACK
+### URA-NAGE THROW
+
+Nightshade redirects the enemy backward through a controlled arching throw.
+
+### Properties
+
+- Strong single-target damage.
+- Knockdown.
+- Moderate throw distance.
+- Synchronized animation.
+
+### Timing
+
+- Setup: 16.
+- Rotation: 24.
+- Impact: 5.
+- Recovery: 30.
+
+---
+
+## PHASE 21 — REAR GRAB, FORWARD + ATTACK
+### LEAP-OVER MOMENTUM THROW
+
+Nightshade leaps over the enemy's shoulders while maintaining her grip, using momentum to throw them forward.
+
+### Properties
+
+- Moderate-to-high damage.
+- Forward knockdown.
+- Enemy collision damage.
+- Crowd-control potential.
+
+### Timing
+
+- Setup: 12.
+- Leap: 18.
+- Rotation: 20.
+- Release: 6.
+- Recovery: 30.
+
+---
+
+## PHASE 22 — REAR GRAB, AWAY + ATTACK
+### ROLLING PRONE TAKEDOWN
+
+Nightshade rolls backward with the enemy, positions herself over their back, and strikes the back of their head with an elbow.
+
+### Properties
+
+- High single-target damage.
+- No area damage.
+- Creates separation from enemies previously approaching from the front.
+
+### Timing
+
+- Setup: 12.
+- Roll: 25.
+- Positioning: 12.
+- Elbow: 16.
+- Recovery: 32.
+
+### Grapple requirements
+
+All four directional throws and the grab combo must use the synchronized-grapple framework.
+
+Preserve Heavy/Boss grab restrictions.
+
+No teleporting, floating, detached limbs, or premature enemy recovery.
+
+---
+
+# PART VII — BLITZ AND SPECIALS
+
+## PHASE 23 — BLITZ
+### RUNNING ARC KICK
+
+Nightshade leaps forward and swings her leg downward in an arc.
+
+### Properties
+
+- Strong advancing attack.
+- Multiple-enemy hit potential.
+- Best at mid-range.
+- Less effective at point-blank range.
+- Vulnerable startup.
+- Punishable recovery.
+
+### Timing
+
+- Startup: 22.
+- Forward travel: 18.
+- Active: 7.
+- Recovery: 36.
+
+---
+
+## PHASE 24 — NEUTRAL SPECIAL
+### DUAL GROUND TASERS
+
+Nightshade throws one black circular electrical device to each side.
+
+### Properties
+
+- Area denial.
+- Electrical stun.
+- Minimal direct damage.
+- Devices arm after landing.
+- No repeated stun loops.
+
+### Timing
+
+- Startup: 24.
+- Throw: 8.
+- Arming delay: 30.
+- Armed lifetime: 180.
+- Recovery: 36.
+
+---
+
+## PHASE 25 — FORWARD SPECIAL
+### PIERCING POWER BARRAGE
+
+Requires at least three bullets.
+
+Consumes all currently loaded bullets.
+
+### Properties
+
+- Three to six powerful shots.
+- Higher damage than ordinary gunfire.
+- Pierces multiple enemies.
+- Strong crowd-control utility.
+- Significant recovery.
+
+### Initial damage
+
+- First enemy: 16 HP per bullet.
+- Subsequent enemies: 12 HP per bullet.
+
+### Timing
+
+- Startup: 28.
+- Firing interval: 8.
+- Recovery: 46.
+
+### Important
+
+A single bullet must not repeatedly damage the same enemy.
+
+---
+
+## PHASE 26 — GRAB SPECIAL
+### ATTACHED EXPLOSIVE
+
+Nightshade attaches a compact explosive to the grabbed enemy, kicks them away, and detonates it.
+
+### Properties
+
+- Very high primary damage.
+- Good secondary area damage.
+- Knockdown.
+- Requires a valid confirmed grab.
+- Respects Heavy/Boss grab rules.
+
+### Timing
+
+- Attachment: 20.
+- Kick: 16.
+- Detonation delay: 20.
+- Explosion active: 6.
+- Recovery: 38.
+
+---
+
+# PART VIII — DEFENSE AND AERIAL COMBAT
+
+## PHASE 27 — GROUND ROLL DODGE
+
+- Startup: 4 frames.
+- Travel: 14.
+- Recovery: 12.
+- Cooldown: 2 seconds.
+- Uses defense meter.
+- Brief eligible evasion window.
+- No attacking or firing during roll.
+
+---
+
+## PHASE 28 — NEUTRAL JUMP KICK
+
+Requires Jump followed by a separate Attack input.
+
+- Startup: 8.
+- Active: 5.
+- Recovery: 14.
+
+---
+
+## PHASE 29 — FORWARD JUMP KICK
+
+Requires Jump followed by directional Attack.
+
+- Startup: 10.
+- Active: 6.
+- Recovery: 18.
+
+### Important
+
+Maintain combat-plane alignment.
+
+---
+
+## PHASE 30 — DOWNWARD BATON STRIKE
+
+Input: Down + Attack while airborne.
+
+- Startup: 14.
+- Active: 6.
+- Landing recovery: 24.
+
+---
+
+# PART IX — COUNTERS
+
+## PHASE 31 — PUNCH COUNTER
+
+Nightshade catches or redirects the punch, takes the enemy down, and applies her hand taser while the enemy is grounded.
+
+### Properties
+
+- Moderate-to-high damage.
+- Electrical effect.
+- Knockdown.
+- Uses defense meter.
+
+### Important
+
+Implement grounded electrocution animations for eligible enemies.
+
+---
+
+## PHASE 32 — KICK COUNTER
+
+Nightshade catches the kick and pulls the enemy into a front grab.
+
+### Special property
+
+The next eligible confirmed grab attack deals 50% increased damage.
+
+### Rules
+
+- Applies once.
+- Expires when the grab ends.
+- Cannot stack.
+- Does not bypass Heavy/Boss restrictions.
+
+---
+
+## PHASE 33 — KNIFE COUNTER
+
+Nightshade controls the knife arm, takes the enemy down, and strikes them with her baton.
+
+### Properties
+
+- High counter damage.
+- Knockdown.
+- Correct knife attachment and disarm behavior.
+- No invisible weapon.
+
+---
+
+## PHASE 34 — SPECIAL COUNTER
+### WRIST LASER + THREE GUNSHOTS
+
+Requires:
+
+- A valid counter.
+- At least three bullets.
+- Valid Special input during the Special Counter window.
+
+### Sequence
+
+1. Successful deflection.
+2. Wrist laser.
+3. Enemy pushed backward.
+4. Handgun draw.
+5. Three powerful shots.
+6. Heavy damage.
+7. Recovery.
+
+### Properties
+
+- Consumes exactly three bullets.
+- Very high damage.
+- Ignores armor reduction.
+- Uses established Special Counter defense-meter rules.
+- Significant recovery.
+- No infinite stun.
+
+### Timing
+
+- Wrist laser startup: 12.
+- Laser contact: 6.
+- Handgun transition: 14.
+- Three-shot sequence: 24.
+- Recovery: 42.
+
+### Important
+
+Do not allow Special Counter to activate after a failed counter or with fewer than three bullets.
+
+---
+
+# PART X — ELECTROCUTION AND STATUS ANIMATIONS
+
+## PHASE 35 — GROUNDED ELECTROCUTION
+
+Create reusable grounded-electrocution reactions.
+
+### Requirements
+
+- Enemy remains on the floor.
+- Electrical effects align with the body.
+- Distinct twitching animation.
+- Correct ground shadow.
+- No floating.
+- No standing electrocution pose while grounded.
+- No duplicate damage events.
+- Correct transition back to knockdown/get-up.
+
+### Poison
+
+- Purple tint while active.
+- Correct status duration.
+- Correct damage-over-time events.
+- Correct attack-power and attack-speed modifiers.
+- Clean expiration.
+
+---
+
+# PART XI — ANIMATION AND STATE QUALITY
+
+## PHASE 36 — COMPLETE ANIMATION REQUIREMENTS
+
+Implement:
+
+- Idle.
+- Walking.
+- Running.
+- Jumping.
+- Landing.
+- Ground Roll.
+- Blocking.
+- Counter stance.
+- Gun draw.
+- Gun firing.
+- Gun recovery.
+- Baton strikes.
+- Wrist laser.
+- Poison dart.
+- Grapples.
+- Throws.
+- Specials.
+- Blitz.
+- Hit reactions.
+- Knockdown.
+- Get-up.
+
+### Requirements
+
+- Proper foot contact.
+- No gliding.
+- No floating.
+- No sprite scaling.
+- No changing costume colors.
+- No detached weapons.
+- No incorrect combat-plane movement.
+- No permanently stuck animation states.
+
+### Idle personality
+
+After several seconds, Nightshade may inspect or adjust her wrist device.
+
+Idle animations must remain interruptible.
+
+---
+
+# PART XII — MANDATORY WORK IMPLEMENTATION WORKFLOW
+## CRITICAL — DO NOT SKIP
+
+Work must treat this document as the master specification.
+
+However, implementation must occur in separate, verified development assignments.
+
+### Required workflow
+
+For each gate:
+
+1. Read the relevant specification.
+2. Inspect the current implementation.
+3. Identify existing reusable systems.
+4. Create a recoverable checkpoint.
+5. Implement only the authorized gate.
+6. Run automated tests.
+7. Run gameplay tests.
+8. Verify actual animation and input behavior.
+9. Report completed requirements.
+10. Report incomplete or failed requirements.
+11. Provide a build identifier.
+12. Stop and await authorization before proceeding.
+
+### Critical requirement
+
+Do not mark features complete merely because code exists.
+
+Demonstrate that they function during gameplay.
+
+Do not silently skip requirements because the assignment is large.
+
+---
+
+# PHASE 37 — GATE 1: CHARACTER FOUNDATION
+
+Implement:
+
+- Nightshade character registry.
+- Approved appearance.
+- HP and defense meter.
+- Idle.
+- Walk.
+- Run.
+- Jump.
+- Land.
+- Hit reactions.
+- Knockdown.
+- Get-up.
+- R2 Unique Action infrastructure.
+
+### Required tests
+
+- Character selectable.
+- Smooth movement.
+- Correct proportions.
+- No floating.
+- No gliding.
+- Correct keyboard input.
+- Correct DualSense input.
+- No conflicts with existing controls.
+
+### STOP AFTER GATE 1.
+
+---
+
+# PHASE 38 — GATE 2: HANDGUN AND HUD
+
+Implement:
+
+- Six-round handgun.
+- Ordinary R2 firing.
+- Firing animations.
+- Six bullet HUD icons.
+- Bullet collision.
+- Armor interaction.
+- Firing recovery.
+- Basic enemy defensive responses.
+
+### Required tests
+
+- Six maximum bullets.
+- Correct bullet consumption.
+- No automatic firing.
+- No ordinary bullet penetration.
+- No shooting during prohibited states.
+- No infinite stagger.
+- Correct HUD updates.
+- Correct combat-plane collision.
+
+### STOP AFTER GATE 2.
+
+---
+
+# PHASE 39 — GATE 3: AMMUNITION ECONOMY
+
+Implement:
+
+- Three-bullet pickup.
+- Six-bullet pickup.
+- Scripted level pickup profiles.
+- Encounter-based ammunition budgets.
+- Random enemy drops.
+- Destructible-object drops.
+- Anti-farming protections.
+- Character-specific pickup eligibility.
+
+### Required tests
+
+- Scripted pickups appear reliably.
+- Pickup counts reflect level duration and encounter difficulty.
+- No excessive ammunition supply.
+- No pickup duplication.
+- No farming exploits.
+- Other heroes unaffected.
+- Nightshade remains viable at zero ammunition.
+
+### STOP AFTER GATE 3.
+
+---
+
+# PHASE 40 — GATE 4: STANDARD COMBAT
+
+Implement:
+
+- Four-stage standard combo.
+- Poison Dart Pen.
+- Grab Combo.
+- Neutral Jump Kick.
+- Forward Jump Kick.
+- Downward Baton Strike.
+
+### Required tests
+
+- Correct attack timing.
+- Correct damage.
+- Correct animation transitions.
+- Correct weapon attachment.
+- Correct combat-plane alignment.
+- No stuck states.
+
+### STOP AFTER GATE 4.
+
+---
+
+# PHASE 41 — GATE 5: DIRECTIONAL GRABS
+
+Implement:
+
+- Baton Sweep and Beatdown.
+- Ura-Nage.
+- Leap-Over Momentum Throw.
+- Rolling Prone Takedown.
+
+### Required tests
+
+- Correct input selection.
+- Correct synchronized animations.
+- Correct damage events.
+- Correct enemy recovery.
+- Heavy/Boss restrictions preserved.
+- No teleportation.
+- No floating.
+- No scaling errors.
+
+### STOP AFTER GATE 5.
+
+---
+
+# PHASE 42 — GATE 6: SPECIALS AND BLITZ
+
+Implement:
+
+- Running Arc Kick.
+- Dual Ground Tasers.
+- Piercing Power Barrage.
+- Attached Explosive.
+- Ground Roll.
+
+### Required tests
+
+- Correct startup/recovery.
+- Correct ammunition consumption.
+- Correct electrical stun.
+- Correct explosion damage.
+- Correct enemy collision.
+- Correct dodge cooldown.
+- No infinite stun.
+- No repeated damage exploits.
+
+### STOP AFTER GATE 6.
+
+---
+
+# PHASE 43 — GATE 7: COUNTERS
+
+Implement:
+
+- Punch Counter.
+- Kick Counter.
+- Knife Counter.
+- Special Counter.
+- Grounded Electrocution.
+
+### Required tests
+
+- Correct counter selection.
+- Correct defense-meter consumption.
+- Correct ammo requirement.
+- Correct ammo consumption.
+- Correct damage bonus expiration.
+- Correct synchronized reactions.
+- Correct boss eligibility.
+- No permanent stun or animation locks.
+
+### STOP AFTER GATE 7.
+
+---
+
+# PHASE 44 — GATE 8: FULL INTEGRATION AND BALANCING
+
+Test Nightshade in:
+
+- Downtown.
+- Financial District.
+- Stadium.
+- Casino.
+- Woodland Lab.
+- Other available levels.
+
+### Required scenarios
+
+- Full ammunition.
+- Three bullets.
+- One bullet.
+- Zero ammunition.
+- Regular enemies.
+- Heavy enemies.
+- Bosses.
+- Multiple-enemy encounters.
+- Locked encounters.
+- Free-roam encounters.
+- Environmental hazards.
+- Destructible-object pickups.
+
+### Required balancing checks
+
+- Gunfire cannot dominate every encounter.
+- Melee remains effective.
+- Ammunition does not regenerate excessively.
+- Forward Special remains resource-intensive.
+- Special Counter remains powerful but situational.
+- Enemies defend intelligently without psychic reactions.
+- Nightshade does not outperform specialists in every category.
+
+### STOP AFTER GATE 8.
+
+---
+
+# PART XIII — FINAL QA AND DELIVERY
+
+## PHASE 45 — FINAL ACCEPTANCE CRITERIA
+
+Nightshade is complete only when:
+
+1. Her approved appearance is preserved.
+2. Her HP and attributes are correct.
+3. Movement animations are smooth.
+4. R2 works reliably.
+5. Six bullet icons display correctly.
+6. Ordinary bullets consume ammunition.
+7. Ordinary bullets ignore armor but do not pierce.
+8. Enemy bullet defenses function.
+9. Scripted ammunition pickups appear appropriately.
+10. Scripted ammunition budgets reflect level duration and encounter difficulty.
+11. Random ammo drops function.
+12. Destructible-object ammo drops function.
+13. Ammunition cannot be farmed indefinitely.
+14. Nightshade remains effective at zero ammunition.
+15. Her standard combo works.
+16. Poison Dart Pen works.
+17. Grab Combo works.
+18. All directional throws work.
+19. Running Arc Kick works.
+20. Dual Ground Tasers work.
+21. Piercing Power Barrage works.
+22. Attached Explosive works.
+23. Ground Roll works.
+24. All aerial attacks work.
+25. Punch Counter works.
+26. Kick Counter works.
+27. Knife Counter works.
+28. Special Counter works.
+29. Grounded electrocution animations work.
+30. Poison effects expire correctly.
+31. All attacks respect startup, active, and recovery.
+32. No sprite scaling or floating occurs.
+33. No permanent animation locks occur.
+34. Keyboard and DualSense controls work.
+35. Existing heroes and enemies remain functional.
+36. All implementation gates have verified test results.
+37. A final QA and balancing report is delivered.
+
+---
+
+# FINAL DESIGN GOAL
+
+Special Agent Nightshade must be an agile, versatile fighter who can handle enemies at every range without dominating every discipline.
+
+Her handgun should feel powerful, but ammunition must remain valuable.
+
+Her baton, kicks, grabs, counters, poison, electrical devices, and explosives must remain important parts of her fighting style.
+
+Scripted ammunition should provide a modest, predictable supply across each level, adjusted for encounter difficulty and expected playtime rather than simply physical level length.
+
+Random drops should supplement that supply without creating unlimited gunfire.
+
+**Nightshade must be capable and enjoyable with zero ammunition, but strategically stronger when bullets are available.**
+
+## FINAL WORK EXECUTION INSTRUCTION
+
+Treat this document as the permanent Nightshade master specification.
+
+**Begin with Gate 1 only.**
+
+Do not start Gate 2 or any later gate until Gate 1 has been implemented, tested, and reported.
+
+After completing each gate, provide:
+
+- Build/checkpoint identifier.
+- Features implemented.
+- Files changed.
+- Tests executed.
+- Tests passed.
+- Tests failed.
+- Known issues.
+- Gameplay verification results.
+- Next recommended gate.
+
+Await authorization before proceeding.
+
+Do not claim the entire Nightshade character is complete until all eight gates pass their acceptance tests.

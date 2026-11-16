@@ -1,0 +1,37 @@
+[
+  [
+    "woods",
+    {
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Production background for Urban Fracture richly detailed crisp 16-bit arcade side-scrolling beat em up, widescreen panorama3:1. Human eye-level STRAIGHT SIDE VIEW, no isometric, no vanishingpoint playable road, no fisheye. Ground/backdrop boundary at70percent down, lower30percent BROAD EMPTY continuous horizontal asphalt combat lane with fine cracks, no obstacles/people in that lane. All buildings/vehicles/props BEHIND lane. Fine sharp pixel detail, no blur, neutral daylight so engine adds weather/night. Unique non-repeating scene left to right. No fighters, HUD, GOarrows. Route74 city outskirts entrance. A green/white numbered road sign reading ROUTE 74 on a real steel pole near LEFT edge. Long desolate two-lane road, immense dense woods behind. Distant city barely visible over treetops. Abandoned damaged cars along shoulder, one badly wrecked sedan with scorched windows and smoke, another tipped into ditch; small road marker stakes, saggingutilitypoles and guardrail. Trees/mixedconifers overwhelminglybackground, smalltrail and abandonedroadside shack atfar right. Foreground road unobstructed."
+    }
+  ],
+  [
+    "stop",
+    {
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Production background for Urban Fracture richly detailed crisp 16-bit arcade side-scrolling beat em up, widescreen panorama3:1. Human eye-level STRAIGHT SIDE VIEW, no isometric, no vanishingpoint playable road, no fisheye. Ground/backdrop boundary at70percent down, lower30percent BROAD EMPTY continuous horizontal asphalt combat lane with fine cracks, no obstacles/people in that lane. All buildings/vehicles/props BEHIND lane. Fine sharp pixel detail, no blur, neutral daylight so engine adds weather/night. Unique non-repeating scene left to right. No fighters, HUD, GOarrows. Route74 rundown truck stop and gasstation strip. Dense woods behind buildings. Left large truckstop diner with faded TRUCK STOP sign, parked old semitrailer trucks behind fence, service bays. Center a few small convenience stores and minimart, abandoned garage with rusty doors and tire piles, gas station with weathered canopy and pumps behind combat lane, broken signage, trash and damaged sedan on shoulder. Right tiny weathered store and wooded road continuation. Asphalt horizontal combat floor lower30percent completelyclear."
+    }
+  ],
+  [
+    "homes",
+    {
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Production background for Urban Fracture richly detailed crisp 16-bit arcade side-scrolling beat em up, widescreen panorama3:1. Human eye-level STRAIGHT SIDE VIEW, no isometric, no vanishingpoint playable road, no fisheye. Ground/backdrop boundary at70percent down, lower30percent BROAD EMPTY continuous horizontal asphalt combat lane with fine cracks, no obstacles/people in that lane. All buildings/vehicles/props BEHIND lane. Fine sharp pixel detail, no blur, neutral daylight so engine adds weather/night. Unique non-repeating scene left to right. No fighters, HUD, GOarrows. Route74 outer settlement, woods reclaiming neglected roadside homes. Left abandoned garages, one board-frontstore, center dilapidated clapboard homes with a vegetable garden, raisedbeds and tilting fences, small shacks with sagging roofs, collapsedporch, rusty mailbox, discarded appliances behind combat area. Several abandoned and crashed cars behind shoulder, one charredcar with openwindowinterior. Right road continues into dense oak/pine forest. Broad flat empty street playable lane, no objects below70percent boundary."
+    }
+  ],
+  [
+    "gus",
+    {
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Transparent sprite atlas for Urban Fracture16-bit arcade. New enemy GUS, mad truckdriver: middleaged white man scruffy mustache, mesh trucker cap, partly fat barrel torso partly muscular heavy arms, red/black buttonup flannel shirt partlyopen collar, sleeveless darkdenim vestjacket, bluejeans, shortbrown workboots. Average adultheight slightly taller/heavier than standardthug; notgiant. EXACT4columns x4rows sixteen equal cells. Fullbody uncropped head/hat to boots, large gutters, sameanatomical scale/costume in allcells. Truealpha outsidefigures, nobackground/shadows/text. Row1: idle raisedfists, walking leftfootforward, walking passingstance, walking rightfootforward. Row2: powerpunch windup, longstraight powerpunchcontact, powerkick kneeupwindup, frontkickcontact. Row3: grabbingarmsforward, bentknees liftingthrow pose with NO victim, forcefulturn releasingthrow with NO victim, guardedblockwithforearms. Row4: staggeredhit, flatgroundedbody lying side-on, kneelinggetup, angryretaliationoverhandpunch. Distinctconnectedfullbodyposes, plantedboots, never bodypart collages."
+    }
+  ],
+  [
+    "cars",
+    {
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Production transparent sprite atlas for16-bit sideview Urban Fracture roadside breakable cars. Exactly2columns x2rows, four fully visible cars side-on, no extreme perspective, allcarsfaceRIGHT. Row1 left: battered darkblue sedan doorsclosed windowsbroken; right: SAMEsedan completelysmashed hoodcrumpled doorsajar roofdamaged. Row2 left: abandoned rustycream stationwagon windowscracked; right: SAMEstationwagon smashed burnedout withopenwindowcabin. Nopeople/noFLAMES, smoke/lightanimatedingame. Eachcarfullsilhouette tirescontactsamebaseline inrow, realopaquevehiclebody andtruealpha ONLYoutsidecars. Largegutters,nolabels/noshadows/nobackdrop. Crispillustratedpixeldetail."
+    }
+  ]
+]
