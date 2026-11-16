@@ -10,7 +10,18 @@ function pose(p,t=0){const a=p.act,f=(a?.t||0)*60,side=p.dir<0?'L':'R',motion=si
   if(a.kind205==='combo'){const n=a.stage205||1,at=O.config.combo.hit[n-1],active=O.config.combo.active[n-1],phase=f<at-4?0:f<at?1:f<at+active?2:f<at+active+6?3:0;return{family:'grapple-'+side,index:16+(n-1)*4+phase,state:'combo-'+n,phase};}
   const q=p.orionPose205||['locomotion',0];if(q[0]==='grapple'&&q[1]===2)return{family:'extra',index:side==='L'?4:0,state:a.kind205};return{family:(q[0]==='grapple'?'grapple-':'core-')+side,index:q[0]==='combat'?16+q[1]:q[1],state:a.kind205};}
  if(a?.name==='chargeHold130')return{family:'extra',index:side==='L'?6:2,state:'repair-charge'};
- if(a?.counter248)return{family:'grapple-'+side,index:f<18?1:f<32?3:15,state:'weapon-counter'};
+ // Native Counter248 owns capture, confirmation, victim motion, hits and recovery.
+ if(a?.counter248){const k=a.kind248,d=a.definition248,events=d?.events||[],last=events.at(-1)?.[0]??24;let index=1,phase='capture';
+  if(a.name==='counterMove248'){
+   phase=f<12?'startup':f<=last+4?'active':'recovery';
+   if(k==='punch')index=f<12?1:f<last-10?2:f<last+6?3:15;
+   else if(k==='kick'){const hit=events.findIndex(h=>Math.abs(f-h[0])<=3);index=f<13?0:f>last+5?15:hit>=0?(hit%2?7:5):2;}
+   else if(k==='short')index=f<12?15:f<29?28:f<35?30:31;
+   else if(k==='long')index=f<12?1:f<19?3:8;
+  }else if(k==='short')index=15;
+  return{family:'grapple-'+side,index,state:'counter-'+k,phase,weapon:k==='long'&&a.disarmed248?p.heldWeapon248:null};
+ }
+ if(p.landing228>0&&!p.jump)return{family:'grapple-'+side,index:13,state:'landing'};
  if(p.hold)return{family:'grapple-'+side,index:0,state:'hold'};
  if(p.blocking||p.catchUntil>t)return{family:'grapple-'+side,index:15,state:'guard'};
  if(p.jump)return{family:'core-'+side,index:1,state:'jump'};

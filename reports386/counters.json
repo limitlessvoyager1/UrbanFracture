@@ -1,0 +1,93 @@
+{
+  "nativeFrames": 1360,
+  "results": [
+    {
+      "dir": -1,
+      "kind": "punch",
+      "damage": 48,
+      "poses": [
+        1,
+        2,
+        3,
+        15
+      ]
+    },
+    {
+      "dir": -1,
+      "kind": "kick",
+      "damage": 48,
+      "poses": [
+        0,
+        2,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "dir": -1,
+      "kind": "short",
+      "damage": 38,
+      "poses": [
+        15,
+        28,
+        30,
+        31
+      ]
+    },
+    {
+      "dir": -1,
+      "kind": "long",
+      "damage": 0,
+      "poses": [
+        1,
+        3,
+        8
+      ]
+    },
+    {
+      "dir": 1,
+      "kind": "punch",
+      "damage": 48,
+      "poses": [
+        1,
+        2,
+        3,
+        15
+      ]
+    },
+    {
+      "dir": 1,
+      "kind": "kick",
+      "damage": 48,
+      "poses": [
+        0,
+        2,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "dir": 1,
+      "kind": "short",
+      "damage": 38,
+      "poses": [
+        15,
+        28,
+        30,
+        31
+      ]
+    },
+    {
+      "dir": 1,
+      "kind": "long",
+      "damage": 0,
+      "poses": [
+        1,
+        3,
+        8
+      ]
+    }
+  ]
+}
