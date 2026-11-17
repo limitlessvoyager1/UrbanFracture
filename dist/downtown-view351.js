@@ -1,8 +1,8 @@
 (function(r){'use strict';const N=r.NeonCombat,S=r.PolishedSprites,previous=S.draw,images={},jobs=[];
-const inventory={...r.DowntownArt345.images};for(const k of ['streets','nightstreets','hotel','frontages'])delete inventory[k];for(const k of ['dining','retail','hotel-front','residential','nightlife','service','road'])inventory[k]='assets/downtown350/'+k+'.webp';inventory.retail='assets/visual362/neon-cell.webp';inventory.oldLobby='assets/downtown351/lobby.webp';inventory.oldKitchen='assets/downtown351/kitchen.webp';
+const inventory={...r.DowntownArt345.images};for(const k of ['streets','nightstreets','hotel','frontages'])delete inventory[k];for(const k of ['dining','retail','hotel-front','residential','nightlife','service','road'])inventory[k]='assets/downtown350/'+k+'.webp';inventory.retail='assets/visual362/neon-cell.webp';inventory.oldLobby='assets/downtown351/lobby.webp';inventory.oldKitchen='assets/downtown351/kitchen.webp';inventory.facadeJoin394='assets/downtown394/riverbloom-spin-cycle.webp';
 for(const [key,path]of Object.entries(inventory)){const im=images[key]=new Image();im.environmentSprite161=true;im.environmentSource156=path;jobs.push(new Promise((yes,no)=>{im.onload=yes;im.onerror=()=>no(Error('Downtown artwork missing: '+path));im.src=path;}));}
 const pickup=N.Downtown345.windows.find(q=>q.id==='retail-window');if(pickup){pickup.x=2055;pickup.displayY362=343;}
-const ready=Promise.all(jobs);S.ready=Promise.all([S.ready,ready]);
+let facadeJoin394;const ready=Promise.all(jobs).then(()=>{facadeJoin394=document.createElement('canvas');facadeJoin394.width=1640;facadeJoin394.height=430;const b=facadeJoin394.getContext('2d');b.drawImage(images.facadeJoin394,0,0,1640,430);b.globalCompositeOperation='destination-in';const mask=b.createLinearGradient(0,0,1640,0);mask.addColorStop(0,'transparent');mask.addColorStop(128/1640,'#fff');mask.addColorStop(1-128/1640,'#fff');mask.addColorStop(1,'transparent');b.fillStyle=mask;b.fillRect(0,0,1640,430);b.globalCompositeOperation='source-over';});S.ready=Promise.all([S.ready,ready]);
 function fit(im,row,w,h,rows=3){const rh=im.naturalHeight/rows,ratio=Math.max(w/im.naturalWidth,h/(rh-2)),sw=w/ratio,sh=h/ratio;return{sx:(im.naturalWidth-sw)/2,sy:(row+1)*rh-1-sh,sw,sh,w,h,ratio};}
 function image(c,key,row,x,y,w,h,rows=3){const im=images[key];if(!im?.naturalWidth)return false;const q=fit(im,row,w,h,rows);c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';c.drawImage(im,q.sx,q.sy,q.sw,q.sh,x,y,w,h);return true;}
 function scene(c,g){if(!g.downtown345)return false;const room=N.DowntownRooms345.viewdata(g);if(room?.inside){const row={phone:0,pizza:1,club:2}[room.interior]??0;image(c,'rooms',row,0,0,960,540);return true;}if(N.CacheRooms336.active(g)){image(c,'rooms',g.cacheRoom336.id==='game-shop'?0:1,0,0,960,540);return true;}if(g.zone>6)return false;
@@ -23,6 +23,8 @@ function street(c,g){
  if(q.key==='nightlife'&&!g.hotelRoute)c.drawImage(im,512,0,1086,im.naturalHeight,x,0,1680,430);else c.drawImage(im,q.sx,0,q.sw,im.naturalHeight,x,0,w,430);
 
  }
+ // One source contains both complete shops and their alley; cached edge feathering is outside both signs.
+ if(facadeJoin394&&g.camera<5860&&g.camera+960>4220){c.drawImage(facadeJoin394,4220-g.camera,0);g.facadeJoin394={worldX:5040,source:'continuous Riverbloom and Spin Cycle artwork',feather:128};}
  // One road texture and one ground plane across every exterior segment.
  const road=images.road;if(road?.naturalWidth){const w=road.naturalWidth;for(let x=Math.floor(g.camera/w)*w;x<g.camera+960;x+=w)c.drawImage(road,x-g.camera,430,w,110);}
  c.restore();g.scenery350={camera:g.camera,ground:430,panels:panels350.filter(q=>q.start<g.camera+960&&q.end>g.camera).map(q=>q.key),precomposed:true,upperStories363:false,continuousFacade383:true};

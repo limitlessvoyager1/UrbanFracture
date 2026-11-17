@@ -415,7 +415,8 @@
         "reina390-art",
         "reina390-render",
         "reina392-render",
-        "reina393-published-render"
+        "reina393-published-render",
+        "reina394-published-native"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
@@ -531,7 +532,8 @@
         "reina390-art",
         "reina390-render",
         "reina392-render",
-        "reina393-published-render"
+        "reina393-published-render",
+        "reina394-published-native"
       ],
       "visualScenarios": [],
       "performanceRisk": true,
@@ -964,7 +966,8 @@
         "current216-legacy",
         "post-hit-reassessment",
         "hitstun-eligibility",
-        "knockdown-admission"
+        "knockdown-admission",
+        "reina394-published-native"
       ],
       "visualScenarios": [],
       "performanceRisk": true,
@@ -1089,7 +1092,8 @@
         "subway238",
         "stadium237",
         "hydro243-progression",
-        "downtown394-facade-contract"
+        "downtown394-facade-contract",
+        "reina394-published-native"
       ],
       "visualScenarios": [
         "downtown394-camera-pan"

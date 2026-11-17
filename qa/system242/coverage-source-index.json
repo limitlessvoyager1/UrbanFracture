@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "b5da78e945e49a30126b9c430f484f2ce8788b4d",
-  "runtimeTree": "34d7cb7a4edce42b2021d594edcc4bd03497f95f",
+  "sourceCommit": "cc73f9d20ed9b4ca00ec32cf482401201766931e",
+  "runtimeTree": "5dee8b6fdcd32007d2ffb0b13efc55fca6825455",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -1394,6 +1394,10 @@
     {
       "path": "dist/assets/downtown351/lobby.webp",
       "sha": "fd6d46b187716735cd5a5f0f1cfdd130bc3a9b66"
+    },
+    {
+      "path": "dist/assets/downtown394/riverbloom-spin-cycle.webp",
+      "sha": "8911c236eee8519aa40e9f6d698c93bd79c8a79d"
     },
     {
       "path": "dist/assets/emergency182.webp",
@@ -5993,7 +5997,7 @@
     },
     {
       "path": "dist/combat-view248.js",
-      "sha": "05a0ac398abdcd06907ef1460d8f8139d90398f0"
+      "sha": "420dcd67d066e92ad10a205e4e6856a01938f1ce"
     },
     {
       "path": "dist/combat-view274.js",
@@ -6157,7 +6161,7 @@
     },
     {
       "path": "dist/downtown-view351.js",
-      "sha": "fac2a7d1d949a993d396496209acfeaa584bed89"
+      "sha": "38f68904b6f32ef67f93ba194df40f9844f5cdde"
     },
     {
       "path": "dist/downtown345.html",
@@ -6441,7 +6445,7 @@
     },
     {
       "path": "dist/flint351.js",
-      "sha": "25d1ba89986f3f97959c0666c330f29bd119e4de"
+      "sha": "2037965bf993496cc1f4296ea398b3361320e1f9"
     },
     {
       "path": "dist/forest-ai177.js",
@@ -7705,11 +7709,11 @@
     },
     {
       "path": "dist/reina-view382.js",
-      "sha": "15ceeaed1ba25833e5a9ecc701f991340e64929d"
+      "sha": "872344d1749557fbb2ef4d6554868f467920c0c6"
     },
     {
       "path": "dist/reina-view383.js",
-      "sha": "0faac7168f76b9893230ce905cd19d97aad93c98"
+      "sha": "d8fb25172c975b53feadeb698643dce5e92c7a96"
     },
     {
       "path": "dist/reina-walk280-data.js",
@@ -9773,7 +9777,7 @@
     },
     {
       "path": "tests/nightshade351-combat.cjs",
-      "sha": "86df81793d9a9213dfac02e520b3250df276e201"
+      "sha": "d0480c5eea50af134e5e53ed413ec353e6578167"
     },
     {
       "path": "tests/nightshade351.cjs",
@@ -9781,7 +9785,7 @@
     },
     {
       "path": "tests/nightshade352-combat.cjs",
-      "sha": "f998c7dd80e8a76f77772f968a333b9ffc951011"
+      "sha": "a4545555f47292ee692ca4c7a7de73000aad2046"
     },
     {
       "path": "tests/nightshade352.cjs",
@@ -9789,7 +9793,7 @@
     },
     {
       "path": "tests/nightshade353-combat.cjs",
-      "sha": "e7135012c1849a2002107b99496375ac0267650e"
+      "sha": "9cfb8cccefee18810d371b3b1a8b801690ab31c9"
     },
     {
       "path": "tests/nightshade353.cjs",
