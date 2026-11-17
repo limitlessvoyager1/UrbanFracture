@@ -362,7 +362,8 @@
         "dist/assets/**",
         "tools/fighter-render/**",
         "tools/grounded-cache/**",
-        "tools/grounded-surfaces/**"
+        "tools/grounded-surfaces/**",
+        "dist/orion-view384.js"
       ],
       "entities": {
         "characters": [
