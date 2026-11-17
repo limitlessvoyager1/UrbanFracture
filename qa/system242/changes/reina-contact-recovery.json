@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "reina-contact-recovery",
+  "description": "Recording-led Reina contact, weapon socket and authored pose repair; requested slower sword descent and swing-dependent Flint fatigue.",
+  "acceptanceScope": "game-change",
+  "files": [
+    ".github/workflows/reina-contact-recovery.yml",
+    "dist/assets/reina395/contact.webp",
+    "dist/assets/reina395/swing-throw.webp",
+    "dist/combat-view248.js",
+    "dist/flint211.js",
+    "dist/flint351.js",
+    "dist/recording313.js",
+    "dist/reina-view354.js",
+    "dist/reina-view381.js",
+    "dist/reina-view382.js",
+    "dist/reina-view383.js",
+    "dist/reina291.js",
+    "dist/visual362.js",
+    "qa/system242/changes/reina-contact-recovery.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/repair-references/reina395/combat-view248.js.before395.txt",
+    "qa/system242/repair-references/reina395/flint211.cjs.before395.txt",
+    "qa/system242/repair-references/reina395/flint211.js.before395.txt",
+    "qa/system242/repair-references/reina395/flint351.cjs.before395.txt",
+    "qa/system242/repair-references/reina395/flint351.js.before395.txt",
+    "qa/system242/repair-references/reina395/recording313.js.before395.txt",
+    "qa/system242/repair-references/reina395/reina-view354.js.before395.txt",
+    "qa/system242/repair-references/reina395/reina-view381.js.before395.txt",
+    "qa/system242/repair-references/reina395/reina-view382.js.before395.txt",
+    "qa/system242/repair-references/reina395/reina-view383.js.before395.txt",
+    "qa/system242/repair-references/reina395/reina291.js.before395.txt",
+    "qa/system242/repair-references/reina395/reina389-render-runtime.cjs.before395.txt",
+    "qa/system242/repair-references/reina395/reina389-view.cjs.before395.txt",
+    "qa/system242/repair-references/reina395/reina390-native.cjs.before395.txt",
+    "qa/system242/repair-references/reina395/visual362.js.before395.txt",
+    "qa/system242/repairs/REINA395-CONTACT-RECOVERY.md",
+    "tests/flint211.cjs",
+    "tests/flint351.cjs",
+    "tests/reina389-view.cjs",
+    "tests/reina390-native.cjs",
+    "tests/reina395-recovery.cjs",
+    "tools/qa242/reina389-render-runtime.cjs",
+    "tools/qa242/reina395-render-audit.cjs"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering",
+    "hero-reina",
+    "npc-combat",
+    "weapons-resources"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading",
+      "npc-combat",
+      "campaign-world"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [
+    {
+      "id": "reina395-contact-recovery",
+      "type": "asset",
+      "spec": "qa/system242/reina395-contract.json",
+      "suites": [
+        "reina395-art-contract"
+      ],
+      "visualScenarios": [
+        "reina395-contact-recovery"
+      ]
+    }
+  ],
+  "risks": {
+    "visual": true,
+    "performance": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "REINA395-CONTACT-RECOVERY"
+  ]
+}
