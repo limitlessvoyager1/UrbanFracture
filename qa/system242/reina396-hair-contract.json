@@ -1,0 +1,287 @@
+{
+  "schema": 1,
+  "id": "reina396-air-and-kip-hair",
+  "base": "d169a852da756b5fa949f1204467b1cc92482859",
+  "originalDataSHA256": "ef2e85d447e88773f09cf5a903e29116cd83fa9db08c59b8a7b94308bf5e68f8",
+  "assets": [
+    {
+      "path": "dist/assets/reina396/dive.webp",
+      "bytes": 233224,
+      "sha256": "c4fed21fb9fc0220504d4fa192d3aec90c4bacf36dd0495b169d66eab2242dca"
+    },
+    {
+      "path": "dist/assets/reina396/kip.webp",
+      "bytes": 177920,
+      "sha256": "1b5acb86987792e48eadad2abf8a02b878429178f3233cbfa1719177cbebc84e"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "path": "dist/assets/reina354/dive.webp",
+      "sha256": "591a03f692dbbfdb8d55f9f4c81fa11c8b5aeef6790179dc26066dedbe565865"
+    },
+    {
+      "path": "dist/assets/reina354/extra-1.webp",
+      "sha256": "0ea1e04c5edd1c55c73d1db984f288d99a22a1c03b712b5ea3f0a5b4d41ef7f8"
+    }
+  ],
+  "normalRecoveryUnchanged": {
+    "path": "dist/assets/reina383/motion.webp",
+    "sha256": "76c9367678616a7e0dcec590d92809bd964c0a5da14eeb77967cd59f3edd9bd9"
+  },
+  "poses": 12,
+  "frames": {
+    "dive": 8,
+    "kip": 4
+  },
+  "importMetrics": [
+    {
+      "id": "dive/0",
+      "scale": 1.0174825174825175,
+      "bodyWidthRatio": 1.004255319148936,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8703923228902061,
+      "originalBody": [
+        91,
+        66,
+        325,
+        356
+      ],
+      "newBody": [
+        90,
+        66,
+        325,
+        356
+      ]
+    },
+    {
+      "id": "dive/1",
+      "scale": 0.985663082437276,
+      "bodyWidthRatio": 1.0040983606557377,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8970426454410146,
+      "originalBody": [
+        78,
+        85,
+        321,
+        359
+      ],
+      "newBody": [
+        78,
+        85,
+        322,
+        359
+      ]
+    },
+    {
+      "id": "dive/2",
+      "scale": 1.0037735849056604,
+      "bodyWidthRatio": 1.0087336244541485,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.9052129767211491,
+      "originalBody": [
+        85,
+        98,
+        313,
+        363
+      ],
+      "newBody": [
+        84,
+        98,
+        314,
+        364
+      ]
+    },
+    {
+      "id": "dive/3",
+      "scale": 1.0271317829457365,
+      "bodyWidthRatio": 1.008130081300813,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8992060363759221,
+      "originalBody": [
+        77,
+        145,
+        322,
+        409
+      ],
+      "newBody": [
+        76,
+        145,
+        323,
+        409
+      ]
+    },
+    {
+      "id": "dive/4",
+      "scale": 1.0232558139534884,
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8857326929834837,
+      "originalBody": [
+        82,
+        156,
+        323,
+        419
+      ],
+      "newBody": [
+        82,
+        156,
+        323,
+        419
+      ]
+    },
+    {
+      "id": "dive/5",
+      "scale": 1.017467248908297,
+      "bodyWidthRatio": 0.9892086330935251,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.8187633262260128,
+      "originalBody": [
+        73,
+        189,
+        350,
+        421
+      ],
+      "newBody": [
+        75,
+        190,
+        349,
+        421
+      ]
+    },
+    {
+      "id": "dive/6",
+      "scale": 0.9968454258675079,
+      "bodyWidthRatio": 1.0077519379844961,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.8419460950764007,
+      "originalBody": [
+        93,
+        106,
+        350,
+        421
+      ],
+      "newBody": [
+        92,
+        107,
+        351,
+        421
+      ]
+    },
+    {
+      "id": "dive/7",
+      "scale": 1.0054347826086956,
+      "bodyWidthRatio": 0.9964285714285714,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.8617488520662807,
+      "originalBody": [
+        96,
+        52,
+        375,
+        421
+      ],
+      "newBody": [
+        96,
+        53,
+        374,
+        421
+      ]
+    },
+    {
+      "id": "kip/0",
+      "scale": 1.4433497536945812,
+      "bodyWidthRatio": 0.9968152866242038,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.7385798429319371,
+      "originalBody": [
+        213,
+        346,
+        526,
+        638
+      ],
+      "newBody": [
+        214,
+        346,
+        526,
+        638
+      ]
+    },
+    {
+      "id": "kip/1",
+      "scale": 0.6372670807453417,
+      "bodyWidthRatio": 0.9968152866242038,
+      "bodyBottomDelta": -1,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.8893384102808186,
+      "originalBody": [
+        166,
+        123,
+        479,
+        635
+      ],
+      "newBody": [
+        166,
+        123,
+        478,
+        634
+      ]
+    },
+    {
+      "id": "kip/2",
+      "scale": 1.4657534246575343,
+      "bodyWidthRatio": 0.9824120603015075,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.7082834411005561,
+      "originalBody": [
+        61,
+        310,
+        458,
+        630
+      ],
+      "newBody": [
+        65,
+        311,
+        455,
+        631
+      ]
+    },
+    {
+      "id": "kip/3",
+      "scale": 1.52,
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.7883581863598517,
+      "originalBody": [
+        111,
+        137,
+        451,
+        630
+      ],
+      "newBody": [
+        111,
+        137,
+        451,
+        631
+      ]
+    }
+  ],
+  "certified": false,
+  "manualReview": [
+    "loose nape-rooted hair in all twelve poses; no tie or high tail",
+    "face, costume and native pose registration",
+    "both facings at real speed",
+    "no body-size or ground-root popping",
+    "physical DSX DS4 and owner artistic signoff"
+  ]
+}
