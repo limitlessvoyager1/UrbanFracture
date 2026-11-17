@@ -406,7 +406,12 @@
         "reina389-preservation",
         "reina389-view",
         "reina389-art",
-        "reina389-native-render"
+        "reina389-native-render",
+        "reina390-input",
+        "reina390-native",
+        "reina390-view",
+        "reina390-art",
+        "reina390-render"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
@@ -448,7 +453,8 @@
       "suites": [
         "gamepad-current",
         "controller157-current",
-        "controller240"
+        "controller240",
+        "reina390-input"
       ],
       "visualScenarios": [],
       "performanceRisk": false,
@@ -514,7 +520,12 @@
         "reina389-preservation",
         "reina389-view",
         "reina389-art",
-        "reina389-native-render"
+        "reina389-native-render",
+        "reina390-input",
+        "reina390-native",
+        "reina390-view",
+        "reina390-art",
+        "reina390-render"
       ],
       "visualScenarios": [],
       "performanceRisk": true,

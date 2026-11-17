@@ -100,7 +100,7 @@
       },
       "compiled": {
         "path": "dist/assets/reina383/motion.webp",
-        "sha256": "81b89af8d7d9fb894317ae5fcdd650e43d16fbbe04e061d39f8e609b0d46588a"
+        "sha256": "76c9367678616a7e0dcec590d92809bd964c0a5da14eeb77967cd59f3edd9bd9"
       },
       "baseline": {
         "path": "qa/system242/repair-references/reina389/motion-before389.webp",
@@ -120,5 +120,6 @@
       154
     ],
     "reason": "Reviewed neighboring-cell blade sliver; original 9 opaque pixels, edited 32. Outside actor/scabbard; original and edited source PNGs remain frozen."
-  }
+  },
+  "reina390Registration": "Reviewed idle/walk/run pelvis registration; original source sheets and body family scale retained. Prior compiled contract preserved in reina390."
 }
