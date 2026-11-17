@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "reina-contact-registration",
+  "description": "QA-only registration of the requested replacement contact, chain, hip-throw and exhaustion art; no game certification.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/changes/reina-contact-registration.json",
+    "qa/system242/reina395-contract.json",
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tools/qa242/reina395-contract.cjs"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "REINA395-CONTACT-REGISTRATION"
+  ]
+}

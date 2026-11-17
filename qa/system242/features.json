@@ -416,18 +416,23 @@
         "reina390-render",
         "reina392-render",
         "reina393-published-render",
-        "reina394-published-native"
+        "reina394-published-native",
+        "reina395-art-contract"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
-        "broxton369-native-gait-order"
+        "broxton369-native-gait-order",
+        "reina395-contact-recovery"
       ],
       "performanceRisk": true,
       "specs": [
         "QA242-STYLE-BIBLE.md",
-        "tools/fighter-render/README.txt"
+        "tools/fighter-render/README.txt",
+        "qa/system242/reina395-contract.json"
       ],
-      "contentIds": [],
+      "contentIds": [
+        "reina395-contact-recovery"
+      ],
       "certification": "partial"
     },
     {

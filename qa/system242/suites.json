@@ -4882,6 +4882,19 @@
         "reports394/facade-join.webp",
         "reports394/native.json"
       ]
+    },
+    {
+      "id": "reina395-art-contract",
+      "command": [
+        "node",
+        "tools/qa242/reina395-contract.cjs"
+      ],
+      "framework": "qa-contract",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [
