@@ -4863,6 +4863,25 @@
       "generatedArtifacts": [
         "reports394/facade-contract.json"
       ]
+    },
+    {
+      "id": "reina394-published-native",
+      "command": [
+        "node",
+        "tools/qa242/reina394-render-audit.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports394/native-R.webp",
+        "reports394/native-L.webp",
+        "reports394/facade-join.webp",
+        "reports394/native.json"
+      ]
     }
   ],
   "manualGates": [

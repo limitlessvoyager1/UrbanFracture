@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "reina-weapons-and-facade",
+  "description": "Native pipe consistency, armed proportion calibration, retained Kevin wind-up/projectile, chain whole-body swing and camera-stable facade join.",
+  "acceptanceScope": "game-change",
+  "files": [
+    ".github/workflows/reina-weapons-and-facade.yml",
+    "dist/assets/downtown394/riverbloom-spin-cycle.webp",
+    "dist/combat-view248.js",
+    "dist/downtown-view351.js",
+    "dist/flint351.js",
+    "dist/reina-view382.js",
+    "dist/reina-view383.js",
+    "qa/system242/changes/reina-weapons-and-facade.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/features.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/repair-references/reina394/combat-view248.js.before394.txt",
+    "qa/system242/repair-references/reina394/downtown-view351.js.before394.txt",
+    "qa/system242/repair-references/reina394/flint351.js.before394.txt",
+    "qa/system242/repair-references/reina394/reina-view382.js.before394.txt",
+    "qa/system242/repair-references/reina394/reina-view383.js.before394.txt",
+    "qa/system242/repair-references/reina394/reina389-render-runtime.before394.txt",
+    "qa/system242/repairs/FACADE394-PROMPT.txt",
+    "qa/system242/repairs/REINA394-WEAPONS-AND-FACADE.md",
+    "qa/system242/suites.json",
+    "tools/qa242/reina389-render-runtime.cjs",
+    "tools/qa242/reina394-render-audit.cjs"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering",
+    "npc-combat",
+    "campaign-world"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading",
+      "npc-combat",
+      "campaign-world"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [
+    {
+      "id": "downtown-riverbloom-spin394",
+      "type": "asset",
+      "spec": "qa/system242/facade394-contract.json",
+      "suites": [
+        "downtown394-facade-contract"
+      ],
+      "visualScenarios": [
+        "downtown394-camera-pan"
+      ]
+    }
+  ],
+  "risks": {
+    "visual": true,
+    "performance": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "REINA394-WEAPONS-FACADE"
+  ]
+}
