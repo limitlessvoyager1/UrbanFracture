@@ -4650,6 +4650,36 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "phone-feedback",
+      "command": [
+        "node",
+        "tests/phone-feedback.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "phone-feedback-render",
+      "command": [
+        "node",
+        "tools/phone-feedback-render.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports/phone-feedback/hud-states.png",
+        "reports/phone-feedback/render.json"
+      ]
     }
   ],
   "manualGates": [

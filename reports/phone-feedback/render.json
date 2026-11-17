@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "label": "BACKUP READY",
+      "mode": "ready",
+      "lit": 2,
+      "fraction": 1,
+      "seconds": 0
+    },
+    {
+      "label": "BACKUP CD 45s",
+      "mode": "cooldown",
+      "lit": 0,
+      "fraction": 0.5,
+      "seconds": 45
+    },
+    {
+      "label": "ON THE WAY",
+      "mode": "incoming",
+      "lit": 2,
+      "fraction": 0,
+      "seconds": 0
+    },
+    {
+      "label": "BACKUP 10s",
+      "mode": "active",
+      "lit": 2,
+      "fraction": 0.5,
+      "seconds": 10
+    },
+    {
+      "label": "BACKUP 5s",
+      "mode": "active",
+      "lit": 1,
+      "fraction": 0.25,
+      "seconds": 5
+    },
+    {
+      "label": "ALLIES RECOVERING",
+      "mode": "recovering",
+      "lit": 0,
+      "fraction": 0,
+      "seconds": 0
+    }
+  ],
+  "scope": "Current status HUD Canvas2D function at native logical coordinates, enlarged 3x; not full browser/gameplay or hardware certification"
+}

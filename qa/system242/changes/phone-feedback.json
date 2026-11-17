@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "phone-feedback",
+  "description": "Reliable unavailable-call operator feedback and two-person backup status HUD, reusing native call/ally timing and optional speech.",
+  "files": [
+    "dist/backup365.js",
+    "dist/support370.js",
+    "dist/backup-view365.js",
+    "dist/backup-voice375.js",
+    "dist/item-view319.js",
+    "dist/game.js",
+    "dist/game360.js",
+    "dist/index.html",
+    "dist/downtown360.html",
+    "tests/phone-feedback.cjs",
+    "tools/phone-feedback-render.cjs",
+    "PHONE-FEEDBACK.md",
+    "reports/phone-feedback/render.json",
+    "reports/phone-feedback/hud-states.png",
+    "qa/system242/suites.json",
+    "qa/system242/features.json",
+    "qa/system242/changes/phone-feedback.json"
+  ],
+  "entities": {
+    "characters": [
+      "broxton"
+    ],
+    "moves": [
+      "broxton/support-call/definition"
+    ],
+    "systems": [
+      "hero-broxton",
+      "shared-combat-admission",
+      "shared-fighter-rendering",
+      "weapons-resources"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "features": [
+    "qa242",
+    "hero-broxton",
+    "shared-combat-admission",
+    "shared-fighter-rendering",
+    "weapons-resources"
+  ],
+  "newContent": [],
+  "risks": {
+    "performance": true,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [],
+  "acceptanceScope": "game-change"
+}
