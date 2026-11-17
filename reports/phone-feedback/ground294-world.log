@@ -1,0 +1,31 @@
+fatal: path 'dist/game.js' exists on disk, but not in '1b4352222a6bfe1970ef5be463326e8e0a213a9f'
+node:child_process:982
+    throw err;
+    ^
+
+Error: Command failed: git show 1b4352222a6bfe1970ef5be463326e8e0a213a9f:dist/game.js
+fatal: path 'dist/game.js' exists on disk, but not in '1b4352222a6bfe1970ef5be463326e8e0a213a9f'
+
+    at genericNodeError (node:internal/errors:986:15)
+    at wrappedFn (node:internal/errors:540:14)
+    at checkExecSyncError (node:child_process:943:11)
+    at Object.execFileSync (node:child_process:979:15)
+    at Object.<anonymous> (/workspace/scratch/2acb565c321b/phone-current/tools/review294/world-anchor.cjs:2:64)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fatal: path 'dist/game.js' exists on disk, but not in '1b4352222a6bfe1970ef5be463326e8e0a213a9f'\n"
+  ],
+  pid: 953,
+  stdout: '',
+  stderr: "fatal: path 'dist/game.js' exists on disk, but not in '1b4352222a6bfe1970ef5be463326e8e0a213a9f'\n"
+}
+
+Node.js v24.22.1

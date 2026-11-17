@@ -1,0 +1,31 @@
+fatal: path 'dist/estates-view196.js' exists on disk, but not in '57cfc8031095fae0d90a89dd0a8c1afa5eb94100'
+node:child_process:982
+    throw err;
+    ^
+
+Error: Command failed: git show 57cfc8031095fae0d90a89dd0a8c1afa5eb94100:dist/estates-view196.js
+fatal: path 'dist/estates-view196.js' exists on disk, but not in '57cfc8031095fae0d90a89dd0a8c1afa5eb94100'
+
+    at genericNodeError (node:internal/errors:986:15)
+    at wrappedFn (node:internal/errors:540:14)
+    at checkExecSyncError (node:child_process:943:11)
+    at Object.execFileSync (node:child_process:979:15)
+    at Object.<anonymous> (/workspace/scratch/2acb565c321b/phone-current/tests/repair262.cjs:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fatal: path 'dist/estates-view196.js' exists on disk, but not in '57cfc8031095fae0d90a89dd0a8c1afa5eb94100'\n"
+  ],
+  pid: 565,
+  stdout: '',
+  stderr: "fatal: path 'dist/estates-view196.js' exists on disk, but not in '57cfc8031095fae0d90a89dd0a8c1afa5eb94100'\n"
+}
+
+Node.js v24.22.1

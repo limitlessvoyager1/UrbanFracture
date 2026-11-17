@@ -1,0 +1,1300 @@
+{
+  "profile": "initial",
+  "complete": false,
+  "processExitCode": 130,
+  "decision": "Blocked",
+  "stable": false,
+  "reason": "Broader diagnostic run stopped after multiple failures; targeted phone and shared-controller regressions completed separately. No failure waiver or preexisting attribution.",
+  "sourceCommit": "063981f73a1dc1cea139fa9bd1e8f3bb6675e0bc",
+  "workingTreeHadPhoneChanges": true,
+  "counts": {
+    "Passed": 100,
+    "Failed": 13,
+    "Blocked": 1,
+    "Not Tested": 141
+  },
+  "results": [
+    {
+      "id": "validator-self-tests",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "guarded-repair-self-tests",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "image-certification",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "screenshot-comparator-self-tests",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "current-runtime-certification",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "scene-scale-certification",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "prior-fixes241",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "movement240",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "run-art240",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "controller240",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "lab-fire168",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "lab-scientists166",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "casino192",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "hydro243-progression",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "hydro243-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "hydro243-controller",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "broxton244",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "broxton244-controller",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "broxton244-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "subway245",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "subway245-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "continuation246",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "grab-variants246",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "subway-audio246",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "worker-reaction246",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "subway247",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "subway247-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "counter-weapon248",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "combat-art248",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "weapon-render248",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "weapon-proficiency249",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "weapon-art249",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "weapon-render249",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "worker-crew250",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "worker-regular233",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "worker-heavy233",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "worker-grabs233",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "worker-integration233",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-foundation251",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-art252",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-input251",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-view252",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-repair252",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-size-quality253",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gun255",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gun-view255",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-ammo256",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-ammo-levels256",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-ammo-view256",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-ammo-economy256",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate4-melee257",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate4-input257",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate4-view257",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-directional258",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-directional-input258",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-directional-view258",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "repair259-regressions",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade259-input-recovery",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "controls260-negative-fixtures",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "controls260-policy",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "controls260-input",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "flint211-full",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "fairways261-view-status",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "fairways196-progression",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "fairways261-art-import",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "fairways-nightshade262",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "repair262-asset-certification",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "repair262-prone-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate6-263",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate6-input263",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate6-view263",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate7-264",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate7-input264",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade-gate7-view264",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "playback265",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "playback265-input",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "stats266",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "nightshade267",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "devmenu268",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina269",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina269-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina270",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina270-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "orion271-assets",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "orion271-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "hook272",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "hook272-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "hook272-assets",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "combat274",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "combat274-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "combat274-assets",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reaction-settings274",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina278-runtime",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina278-assets",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina279-runtime",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina279-input",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina279-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "reina279-assets",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "review280-runtime",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "review280-input",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "review280-assets",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "review280-view",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "review280-levels",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "casino293",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "review294",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "ground294-world",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-runtime",
+      "status": "Failed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-source",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-subway",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-mall",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-fairways",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-spa",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-uptown",
+      "status": "Passed",
+      "reason": "Raw suite process result"
+    },
+    {
+      "id": "civilians305-view-train",
+      "status": "Blocked",
+      "reason": "Run interrupted before receipt"
+    },
+    {
+      "id": "recording306-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording306-ai",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording306-view",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "diagnostics307-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "diagnostics307-input",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "diagnostics307-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "quality308-A",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "quality308-B",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "quality308-C",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "quality308-D",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "quality308-E",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "quality308-specialists",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "airport309",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "airport310-progression",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "style310-view",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "style310-native",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "style310-mechanics",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "unique311-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "unique311-input",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "unique311-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording312-enemies",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording312-enemy-view",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording312-reina",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording312-weather",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording313-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "recording313-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "stadium313-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "stadium313-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "enemy313-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "enemy313-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "hospital314-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "hospital314-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "hospital315-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "hospital315-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "pcbi316-combat",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "feds316-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "energy316-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "pcbi316-art",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "feds316-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "energy316-baseline-comparison",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "energy316-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "industrial317-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "charge318-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "items319-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "items319-loot-baseline",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reserve320-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reserve320-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reserve320-equivalence",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "pickups321-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "repairs322-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "repairs322-visual",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "phone323-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "industrial324",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "promptdrop325",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "promptdrop325-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "astro326",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "astro326-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "astro326-loaders",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home327",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home327-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home327-data",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home328-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home338-navigation",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home338-input",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home338-weather",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home338-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home339-interactions",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home339-integration",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home339-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home339-assets",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home339-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "home339-replay",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "player-resources340",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "player-resources340-ui",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "grounded-crop-surfaces",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "grounded-pose-cache",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "fighter-render-prerequisites",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "fighter-render-prerequisite-tests",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "fighter-render-bootstrap",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "forest-grapples177",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "forest-protection177",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "forest-balance177",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "forest-fixture177",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "crowd-grapple-receipt-tests",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "ai-decision-reasons",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "direct-start-director-admission",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reactions298-receipt-tests",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "post-hit-reassessment",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "hitstun-eligibility",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "knockdown-admission",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "actionability-diagnostics",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reaction-deadline-metadata",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "playback-flight-diagnostics",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reina-airborne-hurtbox",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "niko-phase-labels",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "plane304-receipt-tests",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "downtown345-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "downtown345-optional-rooms",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade345-drone",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade346-choreography",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade346-authored-art",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade347-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade347-presentation",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade348-runtime",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade348-presentation",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade348-input",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade349",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade349-combat",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "flint350",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "downtown350",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade350",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade350-combat",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "effects350",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "flint351",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "aerial351",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "interactions351",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade351",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade351-combat",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "effects351",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "blitz352",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade352",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade352-combat",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade353",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "nightshade353-combat",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "blitz353",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "reina354-palette",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion384-native-render",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion384-motion-import",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "gamepad-current",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "controller157-current",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion385-locomotion",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion385-walk-import",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion386-counters",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion387-hit-registration",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion228-foundation",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion228-physical",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion228-repair",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion228-grabs",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion228-specials",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "orion228-integration",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    },
+    {
+      "id": "phone-feedback",
+      "status": "Not Tested",
+      "reason": "Not reached before broader run stopped"
+    }
+  ],
+  "attribution": "Unknown: no authenticated comparable baseline report supplied",
+  "limitations": [
+    "Incomplete initial profile",
+    "No full release profile",
+    "No owner artistic acceptance",
+    "No approved performance baseline or physical-controller certification"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "scope": "Targeted native simulation and software controller checks on current hosted source with phone feedback changes",
+  "baseCommit": "063981f73a1dc1cea139fa9bd1e8f3bb6675e0bc",
+  "rows": [
+    {
+      "command": [
+        "node",
+        "tests/phone-feedback.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "phone-feedback.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/broxton366.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "broxton366.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/support370.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "support370.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/backup371.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "backup371.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/backup374.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "backup374.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/backup375.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "backup375.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/backup376.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "backup376.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/backup377.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "backup377.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/gamepad.test.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "gamepad.test.log"
+    },
+    {
+      "command": [
+        "node",
+        "tests/controller157.cjs"
+      ],
+      "exitCode": 0,
+      "status": "Passed",
+      "log": "controller157.log"
+    }
+  ],
+  "physicalController": false,
+  "releaseCertification": false,
+  "testFixtureCorrection": "Initial new test expected callVoice365 on display subtitle rather than the emitted audio event; test now inspects the real event payload. No runtime workaround."
+}
