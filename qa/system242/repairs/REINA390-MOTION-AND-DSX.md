@@ -15,3 +15,7 @@ The downward sword-stab simulation was already present. The382 renderer hid it b
 ## Verification and acceptance boundaries
 
 Four controller selection tests, eight native idle/throw/stab cases and three view tests supplement the retained389 preservation/input/view,204 atlas checks, current Reina and standard/raw Sony/DSX regressions. Native rendering covers both facings, idle/walk/run, three throws and three aerial categories, unchanged draw state/RNG and quiet post-action state. Original two DSX red cases, pre390 source, asset contract and dispatch receipts are retained. The earlier manual gates stay open; physical-controller evidence is now explicitly required because the input selector changed. Scope remains game-change, the registry remains pilot, and selected runs cannot certify unexecuted suites or complete moves. No owner approval is supplied by these tests.
+
+## Confirmed DSX DS4 output
+
+The owner clarified DSX uses DualShock4 output. Auto-selection additionally recognizes a standard-layout DS4 device paired with a physical DualSense, even when both report standard layouts. Tests cover named DualShock4 and Sony054c products05c4/09cc paired with DualSense0ce6, virtual neutral despite physical stuck input, exact one-edge Cross and distinct R1/L2/R2 actions, and explicit physical device override. These are synthetic descriptors, not captured physical hardware receipts. The earlier XInput cases remain required. Six controller-selector tests plus eight native and three view cases total17 new Node tests.
