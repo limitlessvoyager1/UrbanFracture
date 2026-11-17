@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "certified": false,
+  "policy": "Earlier failed or superseded attempts are retained; no failure is waived or relabeled as artistic approval.",
+  "items": [
+    {
+      "scope": "Earlier rare dive/6 registration",
+      "status": "failed-superseded",
+      "bodyRootDeltaWorld": -1.0596658711217184,
+      "note": "Original one-unit limit retained; reference-led frame and active atlas corrected."
+    },
+    {
+      "scope": "Rare-only hair replacement",
+      "status": "passed-superseded",
+      "frames": 1440,
+      "poses": 12,
+      "note": "Receipt retained separately. Superseded because the owner required a reference katana and the active Katana355 route must retain approved body presentation."
+    },
+    {
+      "scope": "Active katana source before atlas normalization",
+      "status": "failed-superseded",
+      "note": "Original atlas is 1254 square with fractional 313.5 cells. Incorrect 320-pixel reference/crop assumptions caused invalid measurements. The final test normalizes both physically equivalent cells before applying the same raw 0.70/width/one-unit limits."
+    },
+    {
+      "scope": "Canvas VM metadata assertion",
+      "status": "failed-test-corrected",
+      "note": "Cross-realm array prototypes were compared directly. Fixed by copying string values into the test realm; no production change."
+    },
+    {
+      "scope": "Katana dive/4 foot-probe expansion",
+      "status": "failed-test-corrected",
+      "reportedBodyRootDeltaWorld": -49.989737470167064,
+      "note": "Three-pixel toe-column expansion included the old long blade tip. Actual decoded feet align. Restrict the low-resolution katana probe to toe columns plus one pixel; retain one-unit/root/height and 0.70 raw-overlap limits. Higher-resolution kip probe remains unchanged."
+    }
+  ],
+  "candidateProvenance": [
+    {
+      "originalPNG_SHA256": "31ffe4767d67ca20afa1469aef2b251c6c434c68fac056b2289244c60b9dba72",
+      "masterSHA256": "dc90e4266f6e53d5f0287e1224fbf965fe2c9f5b7a0bebb6e3ac3708de16c412",
+      "rgbaSHA256": "4f6825ca06aa2bfe283aa4636da2e5e3dab63ce1407d46b85892b1865e1b6e9f",
+      "size": [
+        1774,
+        887
+      ],
+      "workspaceMasterName": "dive-master.webp",
+      "selected": false
+    },
+    {
+      "originalPNG_SHA256": "a392901c08476a7b3b430321e02f1dcf74f29afc26268e2ca4cc5543cc9a6dc1",
+      "masterSHA256": "e3b6f3c27ba04e1975edc0116370423151ffbd1ee52a1e0c28dfde6f3c6161cd",
+      "rgbaSHA256": "c314be00a9bb40a0d95e544f3ae19837741e13c71faeef4717d2d13c7ebd42cd",
+      "size": [
+        2172,
+        724
+      ],
+      "workspaceMasterName": "kip-master.webp",
+      "selected": true
+    },
+    {
+      "originalPNG_SHA256": "a82fd290396c4c0d36dfa9daa467803cb8fcecb0e70d7cd7d2bedba502fcfcfa",
+      "masterSHA256": "6b567bd50cc0b0f88822812d1bdad3cb456897f71a247ba5f10176ed6acdefae",
+      "rgbaSHA256": "d7be156dd22639f947c85758f563b5815fa2635bd2d3b5c025e0c39dd5750f67",
+      "size": [
+        1254,
+        1254
+      ],
+      "workspaceMasterName": "kip-raised-master.webp",
+      "selected": true
+    },
+    {
+      "originalPNG_SHA256": "dfa41f1cb056624f75d99283e9bca7fe192b00263d256db1d3467174caa8091a",
+      "masterSHA256": "3a991595c8446da4c26d341a2705d88abdfa8be240439f98dd11752dd172e19e",
+      "rgbaSHA256": "e26a29721382d0ead470bea36cf97d0e4af873d2a01809b425bca77568c0aa03",
+      "size": [
+        1254,
+        1254
+      ],
+      "workspaceMasterName": "dive-braced-master.webp",
+      "selected": false
+    },
+    {
+      "originalPNG_SHA256": "cda14bb6fec4bbe4beafb33e375b156a8f61bbbf5d6351cb63a95ccf6d985dd2",
+      "masterSHA256": "23e35bcb3755a4965e9bd8b5adb58f64131d4688764ab2f82aee341051ce366f",
+      "rgbaSHA256": "b9da27affde175706e17fc4f6bf68cb4b418db0ef47da269f1f39606db97230a",
+      "size": [
+        1254,
+        1254
+      ],
+      "workspaceMasterName": "dive-recovery-master.webp",
+      "selected": false
+    },
+    {
+      "originalPNG_SHA256": "b21d3cda809aa3b87a3d9ad06ecec9945a5b3579a8cd91fce37a36b509d54df5",
+      "masterSHA256": "a2d5886e5f12a8b863c98d738983cf3b22f0d9c93a5d8edad33a14db14c43479",
+      "rgbaSHA256": "caa9a72c24953dbbb05de331a011704ecdc7924868d67e2046e3fa58d50799de",
+      "size": [
+        1774,
+        887
+      ],
+      "workspaceMasterName": "katana-dive-master.webp",
+      "selected": false
+    },
+    {
+      "originalPNG_SHA256": "e8b87dc2e14503096402060caefc0579835b2185f6ae842d6bc8dbc42602df1b",
+      "masterSHA256": "f3fdca95289fb03cd0f89b25bf87a340fb26fff55a01565a89fbb57f22d43820",
+      "rgbaSHA256": "6dd3cc2b956a01f265ed31dd1fab96ab1c793d387a11076e123295f84732b968",
+      "size": [
+        1774,
+        887
+      ],
+      "workspaceMasterName": "katana-tight-master.webp",
+      "selected": false
+    },
+    {
+      "originalPNG_SHA256": "6f8927c6169e82cf108194c546f231714a0aa11ffa03c221f613ffdce02df8a6",
+      "masterSHA256": "0a7338f913a902c862532dee9131bd4a6cc30d67aca47a340b6d9eec688742c1",
+      "rgbaSHA256": "69922fc5548f0194f3492aaf16b28dd5e0dc2b167162499ea5fa77766a30b012",
+      "size": [
+        1254,
+        1254
+      ],
+      "workspaceMasterName": "katana-one-master.webp",
+      "selected": false
+    },
+    {
+      "originalPNG_SHA256": "689274a2932a797e2a5b89503e42111b696073fd521d88110e73b2d3c70b54f7",
+      "masterSHA256": "20c3ae9083f57c82ce51911cfcb6ed5ade156fd303bcb3d935cd6321346d95bc",
+      "rgbaSHA256": "626af973853e345d6e22b7ad03d7ffb904d4c787e8c7b9fd8f7fb8276c7c8aa2",
+      "size": [
+        1774,
+        887
+      ],
+      "workspaceMasterName": "katana-short-master.webp",
+      "selected": true
+    },
+    {
+      "originalPNG_SHA256": "4a003bbd7688f777ced92c1613657e225bdf2faec69301064f5b19991316f9b0",
+      "masterSHA256": "5340eb37b2c0c9a35af8907f7b3fb69048fad8449397b76a5eeeb742f9ed674f",
+      "rgbaSHA256": "c4ad63af19042b816b0560f4d683d79a22b58671d7994545270579ad668de732",
+      "size": [
+        1254,
+        1254
+      ],
+      "workspaceMasterName": "katana-one-short-master.webp",
+      "selected": true
+    }
+  ]
+}

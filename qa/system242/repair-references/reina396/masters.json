@@ -1,0 +1,50 @@
+{
+  "generator": "built-in image_gen",
+  "conversion": "lossless WebP, byte-identical decoded RGBA",
+  "images": [
+    {
+      "path": "qa/system242/repair-references/reina396/kip-master.webp",
+      "originalPNG_SHA256": "a392901c08476a7b3b430321e02f1dcf74f29afc26268e2ca4cc5543cc9a6dc1",
+      "masterSHA256": "e3b6f3c27ba04e1975edc0116370423151ffbd1ee52a1e0c28dfde6f3c6161cd",
+      "rgbaSHA256": "c314be00a9bb40a0d95e544f3ae19837741e13c71faeef4717d2d13c7ebd42cd",
+      "size": [
+        2172,
+        724
+      ],
+      "bytes": 430284
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/kip-raised-master.webp",
+      "originalPNG_SHA256": "a82fd290396c4c0d36dfa9daa467803cb8fcecb0e70d7cd7d2bedba502fcfcfa",
+      "masterSHA256": "6b567bd50cc0b0f88822812d1bdad3cb456897f71a247ba5f10176ed6acdefae",
+      "rgbaSHA256": "d7be156dd22639f947c85758f563b5815fa2635bd2d3b5c025e0c39dd5750f67",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 380664
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana-short-master.webp",
+      "originalPNG_SHA256": "689274a2932a797e2a5b89503e42111b696073fd521d88110e73b2d3c70b54f7",
+      "masterSHA256": "20c3ae9083f57c82ce51911cfcb6ed5ade156fd303bcb3d935cd6321346d95bc",
+      "rgbaSHA256": "626af973853e345d6e22b7ad03d7ffb904d4c787e8c7b9fd8f7fb8276c7c8aa2",
+      "size": [
+        1774,
+        887
+      ],
+      "bytes": 884798
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana-one-short-master.webp",
+      "originalPNG_SHA256": "4a003bbd7688f777ced92c1613657e225bdf2faec69301064f5b19991316f9b0",
+      "masterSHA256": "5340eb37b2c0c9a35af8907f7b3fb69048fad8449397b76a5eeeb742f9ed674f",
+      "rgbaSHA256": "c4ad63af19042b816b0560f4d683d79a22b58671d7994545270579ad668de732",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 441046
+    }
+  ]
+}

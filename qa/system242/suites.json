@@ -4908,6 +4908,36 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "reina396-native-preservation",
+      "command": [
+        "node",
+        "tests/reina396-native.cjs"
+      ],
+      "framework": "native-current-replay",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina396-native-hair-render",
+      "command": [
+        "node",
+        "tools/qa242/reina396-hair-audit.cjs"
+      ],
+      "framework": "headless-native-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 600000,
+      "generatedArtifacts": [
+        "reports-reina396/hair-native.json"
+      ]
     }
   ],
   "manualGates": [
