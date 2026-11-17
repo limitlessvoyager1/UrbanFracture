@@ -1,0 +1,650 @@
+TAP version 13
+# Subtest: replacement is explicit, source-bound, pilot-only and keeps originals mandatory for release
+ok 1 - replacement is explicit, source-bound, pilot-only and keeps originals mandatory for release
+  ---
+  duration_ms: 52.972
+  type: 'test'
+  ...
+# Subtest: missing/altered frozen receipts and source anchors fail closed
+ok 2 - missing/altered frozen receipts and source anchors fail closed
+  ---
+  duration_ms: 65.3778
+  type: 'test'
+  ...
+# Subtest: pilot requires replacement execution and never relabels a historical check passed
+ok 3 - pilot requires replacement execution and never relabels a historical check passed
+  ---
+  duration_ms: 64.0224
+  type: 'test'
+  ...
+# Subtest: owner must explicitly acknowledge the exact replacement contract; stale/ordinary comments and revocation cannot accept
+ok 4 - owner must explicitly acknowledge the exact replacement contract; stale/ordinary comments and revocation cannot accept
+  ---
+  duration_ms: 7.9601
+  type: 'test'
+  ...
+# Subtest: current-only preparations remove only historical execution; original files stay pinned
+ok 5 - current-only preparations remove only historical execution; original files stay pinned
+  ---
+  duration_ms: 10.259
+  type: 'test'
+  ...
+# Subtest: current energy measurements require complete paired labels and finite metrics without a historical claim
+ok 6 - current energy measurements require complete paired labels and finite metrics without a historical claim
+  ---
+  duration_ms: 5.5696
+  type: 'test'
+  ...
+# Subtest: unknown critical outcomes and duplicate receipts cannot certify a candidate
+ok 7 - unknown critical outcomes and duplicate receipts cannot certify a candidate
+  ---
+  duration_ms: 3.3213
+  type: 'test'
+  ...
+# Subtest: helper, package and source membership changes invalidate evidence; installed caches do not
+ok 8 - helper, package and source membership changes invalidate evidence; installed caches do not
+  ---
+  duration_ms: 95.8506
+  type: 'test'
+  ...
+# \# skipped 1
+# Subtest: superseded source definition never becomes passing active-move coverage
+ok 9 - superseded source definition never becomes passing active-move coverage
+  ---
+  duration_ms: 3.1561
+  type: 'test'
+  ...
+# Subtest: unverified execution cannot establish supersession
+ok 10 - unverified execution cannot establish supersession
+  ---
+  duration_ms: 0.541
+  type: 'test'
+  ...
+# Subtest: orphan, self-replacing, cross-hero and malformed annotations fail closed
+ok 11 - orphan, self-replacing, cross-hero and malformed annotations fail closed
+  ---
+  duration_ms: 2.8604
+  type: 'test'
+  ...
+# Subtest: every original Orion row has explicit current evidence or a supersession route binding
+ok 12 - every original Orion row has explicit current evidence or a supersession route binding
+  ---
+  duration_ms: 0.7087
+  type: 'test'
+  ...
+# Subtest: Orion assertion locations remain source-bound and hardware/render approval is never inferred
+ok 13 - Orion assertion locations remain source-bound and hardware/render approval is never inferred
+  ---
+  duration_ms: 7.6624
+  type: 'test'
+  ...
+# Subtest: retained campaign children remain pinned and unsafe paths cannot become commands
+ok 14 - retained campaign children remain pinned and unsafe paths cannot become commands
+  ---
+  duration_ms: 4.6688
+  type: 'test'
+  ...
+# Subtest: campaign wrapper preserves child assertion failures, skipped checks and missing tools
+ok 15 - campaign wrapper preserves child assertion failures, skipped checks and missing tools
+  ---
+  duration_ms: 3.8215
+  type: 'test'
+  ...
+# Subtest: current150 correction is pinned and substitutes only the superseded controller child
+ok 16 - current150 correction is pinned and substitutes only the superseded controller child
+  ---
+  duration_ms: 8.5942
+  type: 'test'
+  ...
+# Subtest: campaign invokes the current controller correction and preserves later child failures
+ok 17 - campaign invokes the current controller correction and preserves later child failures
+  ---
+  duration_ms: 1.814
+  type: 'test'
+  ...
+# Subtest: pilot scope rejects game paths, renamed originals, content and risk flags
+ok 18 - pilot scope rejects game paths, renamed originals, content and risk flags
+  ---
+  duration_ms: 5.5741
+  type: 'test'
+  ...
+# Subtest: pilot automation preserves incomplete game certification without treating omitted suites as failures
+ok 19 - pilot automation preserves incomplete game certification without treating omitted suites as failures
+  ---
+  duration_ms: 4.3085
+  type: 'test'
+  ...
+# Subtest: required missing, failed, blocked, skipped, altered command and dirty source fail closed
+ok 20 - required missing, failed, blocked, skipped, altered command and dirty source fail closed
+  ---
+  duration_ms: 4.83
+  type: 'test'
+  ...
+# Subtest: authenticated repository owner can accept exact source-bound evidence without self review
+ok 21 - authenticated repository owner can accept exact source-bound evidence without self review
+  ---
+  duration_ms: 0.9792
+  type: 'test'
+  ...
+# Subtest: wrong identity, wrong PR, stale head/base, edited evidence and unavailable credentials cannot accept
+ok 22 - wrong identity, wrong PR, stale head/base, edited evidence and unavailable credentials cannot accept
+  ---
+  duration_ms: 2.6528
+  type: 'test'
+  ...
+# Subtest: latest owner marker revokes older acceptance; edited older comment also wins by update time
+ok 23 - latest owner marker revokes older acceptance; edited older comment also wins by update time
+  ---
+  duration_ms: 0.4005
+  type: 'test'
+  ...
+# Subtest: owner comments are paginated, with later revocation honored
+ok 24 - owner comments are paginated, with later revocation honored
+  ---
+  duration_ms: 0.6357
+  type: 'test'
+  ...
+# Subtest: pilot scope can never authorize full game release
+ok 25 - pilot scope can never authorize full game release
+  ---
+  duration_ms: 1.6846
+  type: 'test'
+  ...
+# Subtest: manifest digest binds report, logs, base, source and workflow run
+ok 26 - manifest digest binds report, logs, base, source and workflow run
+  ---
+  duration_ms: 1.3316
+  type: 'test'
+  ...
+# Subtest: newest artifact attempt is selected without falling back to earlier evidence
+ok 27 - newest artifact attempt is selected without falling back to earlier evidence
+  ---
+  duration_ms: 10.3168
+  type: 'test'
+  ...
+# QA242 smoke
+#   passed
+# {"report":"reports242/runs/20261117T032840947Z-02c96cef/report.json","counts":{"executed":1,"passed":1,"failed":0,"blocked":0,"notExecuted":0,"needsReview":0},"recommendation":"Needs Review","decision":"needs-review"}
+# QA242 smoke
+#   passed
+# {"report":"reports242/runs/20261117T032841144Z-c1fbf880/report.json","counts":{"executed":1,"passed":1,"failed":0,"blocked":0,"notExecuted":0,"needsReview":0},"recommendation":"Needs Review","decision":"needs-review"}
+# QA242 unsafe
+# QA242 mutate
+#   passed
+# {"report":"reports242/runs/20261117T032841391Z-fd5d0a23/report.json","counts":{"executed":1,"passed":1,"failed":0,"blocked":0,"notExecuted":0,"needsReview":0},"recommendation":"Reject","decision":"blocked"}
+# Subtest: semantic shared changes select dependent features and mandatory smoke
+ok 28 - semantic shared changes select dependent features and mandatory smoke
+  ---
+  duration_ms: 7.2719
+  type: 'test'
+  ...
+# Subtest: omitted changed files, semantic entities and affected features are rejected
+ok 29 - omitted changed files, semantic entities and affected features are rejected
+  ---
+  duration_ms: 3.4581
+  type: 'test'
+  ...
+# Subtest: unmapped content is never declared unaffected; deleted and renamed paths remain in scope
+ok 30 - unmapped content is never declared unaffected; deleted and renamed paths remain in scope
+  ---
+  duration_ms: 0.8948
+  type: 'test'
+  ...
+# Subtest: new production content needs registry, spec, source-specific suites and visual evidence
+ok 31 - new production content needs registry, spec, source-specific suites and visual evidence
+  ---
+  duration_ms: 1.0362
+  type: 'test'
+  ...
+# Subtest: major integrations select full release; pilot and bootstrap cannot certify complete policy
+ok 32 - major integrations select full release; pilot and bootstrap cannot certify complete policy
+  ---
+  duration_ms: 0.4811
+  type: 'test'
+  ...
+# Subtest: cycles, unknown suite IDs, duplicate features and traversal fail closed
+ok 33 - cycles, unknown suite IDs, duplicate features and traversal fail closed
+  ---
+  duration_ms: 0.7672
+  type: 'test'
+  ...
+# Subtest: schemas reject missing semantic fields, undeclared fields and empty declarations
+ok 34 - schemas reject missing semantic fields, undeclared fields and empty declarations
+  ---
+  duration_ms: 4.918
+  type: 'test'
+  ...
+# Subtest: actual pilot registry and registered mandatory checks validate
+ok 35 - actual pilot registry and registered mandatory checks validate
+  ---
+  duration_ms: 191.0172
+  type: 'test'
+  ...
+# Subtest: certification requires source, scope, real artifacts and authenticated approval
+ok 36 - certification requires source, scope, real artifacts and authenticated approval
+  ---
+  duration_ms: 14.2948
+  type: 'test'
+  ...
+# Subtest: GitHub approval lookup rejects forged review digest, wrong owner, stale commit and dismissed review
+ok 37 - GitHub approval lookup rejects forged review digest, wrong owner, stale commit and dismissed review
+  ---
+  duration_ms: 2.5534
+  type: 'test'
+  ...
+# Subtest: performance uses approved target, comparable samples, every metric and regression limits
+ok 38 - performance uses approved target, comparable samples, every metric and regression limits
+  ---
+  duration_ms: 0.6864
+  type: 'test'
+  ...
+# Subtest: missing rendered evidence and unapproved hardware remain blocked, not passing
+ok 39 - missing rendered evidence and unapproved hardware remain blocked, not passing
+  ---
+  duration_ms: 0.3114
+  type: 'test'
+  ...
+# Subtest: unavailable tools preserve raw status as Blocked; assertions remain Failed
+ok 40 - unavailable tools preserve raw status as Blocked; assertions remain Failed
+  ---
+  duration_ms: 0.351
+  type: 'test'
+  ...
+# Subtest: preexisting failure attribution requires comparable base, command, environment and failure log
+ok 41 - preexisting failure attribution requires comparable base, command, environment and failure log
+  ---
+  duration_ms: 0.1778
+  type: 'test'
+  ...
+# Subtest: baseline attribution cannot trust a forged summary or an unapproved base report
+ok 42 - baseline attribution cannot trust a forged summary or an unapproved base report
+  ---
+  duration_ms: 10.9255
+  type: 'test'
+  ...
+# Subtest: partial feature certification cannot be hidden by setting registry coverage complete
+ok 43 - partial feature certification cannot be hidden by setting registry coverage complete
+  ---
+  duration_ms: 0.1803
+  type: 'test'
+  ...
+# Subtest: suite evidence is immutable and generated artifacts are restored even on failed assertions
+ok 44 - suite evidence is immutable and generated artifacts are restored even on failed assertions
+  ---
+  duration_ms: 22.4385
+  type: 'test'
+  ...
+# Subtest: report containment guard rejects a linked path before any IO to its target
+ok 45 - report containment guard rejects a linked path before any IO to its target
+  ---
+  duration_ms: 1.6738
+  type: 'test'
+  ...
+# Subtest: report symlinks/junctions cannot redirect writes into gameplay or outside the workspace
+ok 46 - report symlinks/junctions cannot redirect writes into gameplay or outside the workspace # SKIP Blocked: local host denies symlink/junction fixtures; real fixture must run on supported CI
+  ---
+  duration_ms: 3.0649
+  type: 'test'
+  ...
+# Subtest: recommendations never approve incomplete, dirty, failed or pilot results
+ok 47 - recommendations never approve incomplete, dirty, failed or pilot results
+  ---
+  duration_ms: 0.1571
+  type: 'test'
+  ...
+# Subtest: impact-required render suites cannot be silently skipped by the initial profile
+ok 48 - impact-required render suites cannot be silently skipped by the initial profile
+  ---
+  duration_ms: 0.0981
+  type: 'test'
+  ...
+# Subtest: runner integration keeps previous run/logs immutable and rejects source changes during execution
+ok 49 - runner integration keeps previous run/logs immutable and rejects source changes during execution
+  ---
+  duration_ms: 1028.7178
+  type: 'test'
+  ...
+# Subtest: production ownership uses exact loaded paths and keeps partial certification
+ok 50 - production ownership uses exact loaded paths and keeps partial certification
+  ---
+  duration_ms: 3.5717
+  type: 'test'
+  ...
+# Subtest: new unmapped production module, wildcard assignment, duplicate, wrong owner/source fail closed
+ok 51 - new unmapped production module, wildcard assignment, duplicate, wrong owner/source fail closed
+  ---
+  duration_ms: 2.3628
+  type: 'test'
+  ...
+# Subtest: definition rows never infer assertions, execution or certification from registered moves
+ok 52 - definition rows never infer assertions, execution or certification from registered moves
+  ---
+  duration_ms: 1.2498
+  type: 'test'
+  ...
+# Subtest: missing/unsafe selectors, unpinned/changed source, duplicate move and missing playable hero are rejected
+ok 53 - missing/unsafe selectors, unpinned/changed source, duplicate move and missing playable hero are rejected
+  ---
+  duration_ms: 1.4111
+  type: 'test'
+  ...
+# Subtest: reviewed exact assertion anchor stays separate from execution and missing dimensions
+ok 54 - reviewed exact assertion anchor stays separate from execution and missing dimensions
+  ---
+  duration_ms: 0.9608
+  type: 'test'
+  ...
+# Subtest: missing assertion, changed test hash, orphan move or wrong catalog entry cannot claim coverage
+ok 55 - missing assertion, changed test hash, orphan move or wrong catalog entry cannot claim coverage
+  ---
+  duration_ms: 1.6973
+  type: 'test'
+  ...
+# Subtest: only verified current raw execution receipts can mark partial assertions passed
+ok 56 - only verified current raw execution receipts can mark partial assertions passed
+  ---
+  duration_ms: 3.2431
+  type: 'test'
+  ...
+# Subtest: stale, dirty, failed, missing, duplicate, skipped and altered logs never pass
+ok 57 - stale, dirty, failed, missing, duplicate, skipped and altered logs never pass
+  ---
+  duration_ms: 1.5279
+  type: 'test'
+  ...
+# Subtest: scenario loops alone are not assertion execution evidence
+ok 58 - scenario loops alone are not assertion execution evidence
+  ---
+  duration_ms: 0.9124
+  type: 'test'
+  ...
+# Subtest: registry retains pilot/partial status and propagates hero, weapon and NPC changes conservatively
+ok 59 - registry retains pilot/partial status and propagates hero, weapon and NPC changes conservatively
+  ---
+  duration_ms: 12.7867
+  type: 'test'
+  ...
+# Subtest: real repository owner can approve one evidence record; existing artifact/source/scope verification still applies
+ok 60 - real repository owner can approve one evidence record; existing artifact/source/scope verification still applies
+  ---
+  duration_ms: 13.1746
+  type: 'test'
+  ...
+# Subtest: kind, scenarios, source, base, scope, artifacts and record ID are bound to distinct comments
+ok 61 - kind, scenarios, source, base, scope, artifacts and record ID are bound to distinct comments
+  ---
+  duration_ms: 6.8908
+  type: 'test'
+  ...
+# Subtest: forged identities, wrong PR binding and stale timestamp/head/base cannot approve
+ok 62 - forged identities, wrong PR binding and stale timestamp/head/base cannot approve
+  ---
+  duration_ms: 2.8273
+  type: 'test'
+  ...
+# Subtest: latest owner record marker revokes approval; other categories cannot override it
+ok 63 - latest owner record marker revokes approval; other categories cannot override it
+  ---
+  duration_ms: 0.7615
+  type: 'test'
+  ...
+# Subtest: pagination, edited old revocations, no credentials and API failures remain fail closed
+ok 64 - pagination, edited old revocations, no credentials and API failures remain fail closed
+  ---
+  duration_ms: 3.6022
+  type: 'test'
+  ...
+# Subtest: pilot acceptance marker cannot approve game evidence and missing review ID cannot use legacy approval
+ok 65 - pilot acceptance marker cannot approve game evidence and missing review ID cannot use legacy approval
+  ---
+  duration_ms: 0.3742
+  type: 'test'
+  ...
+# Subtest: external approval metadata does not change evidence digest; evidence mutation does
+ok 66 - external approval metadata does not change evidence digest; evidence mutation does
+  ---
+  duration_ms: 0.2391
+  type: 'test'
+  ...
+# Subtest: owner comments cannot replace raster captures or measured benchmark artifacts
+ok 67 - owner comments cannot replace raster captures or measured benchmark artifacts
+  ---
+  duration_ms: 0.6654
+  type: 'test'
+  ...
+# Subtest: coverage inventory reports literal references and ownership without certifying coverage
+ok 68 - coverage inventory reports literal references and ownership without certifying coverage
+  ---
+  duration_ms: 3.5056
+  type: 'test'
+  ...
+# Subtest: authentic bounded pack manifest validates and corrupt pack fails closed
+ok 69 - authentic bounded pack manifest validates and corrupt pack fails closed
+  ---
+  duration_ms: 38.4842
+  type: 'test'
+  ...
+# Subtest: exact diagnostics rewind preserves native bridge while rejecting changed inputs or delta
+not ok 70 - exact diagnostics rewind preserves native bridge while rejecting changed inputs or delta
+  ---
+  duration_ms: 1.1554
+  type: 'test'
+  location: 'C:\\Users\\spiri\\Documents\\Codex\\2026-11-15\\ca\\work\\UrbanFracture\\tests\\qa242-recovered-history.cjs:5:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Current game differs from the exact reviewed diagnostic input
+    + actual - expected
+    
+    + '79a3206beb6d331f8c58e4d8185446f58ea6e4c6'
+    - '0b41c2f7c7cfb2da975318dbc8c0aab1ae7e0c60'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: '0b41c2f7c7cfb2da975318dbc8c0aab1ae7e0c60'
+  actual: '79a3206beb6d331f8c58e4d8185446f58ea6e4c6'
+  operator: 'strictEqual'
+  stack: |-
+    Object.rewind (C:\Users\spiri\Documents\Codex\2026-11-15\ca\work\UrbanFracture\tools\qa242\diagnostics-history.cjs:4:94)
+    TestContext.<anonymous> (C:\Users\spiri\Documents\Codex\2026-11-15\ca\work\UrbanFracture\tests\qa242-recovered-history.cjs:5:155)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: history-loss evidence remains frozen and recovery never supplies owner signoff
+ok 71 - history-loss evidence remains frozen and recovery never supplies owner signoff
+  ---
+  duration_ms: 13.1689
+  type: 'test'
+  ...
+# Subtest: honest incomplete receipt remains review; forged stable summary cannot promote it
+ok 72 - honest incomplete receipt remains review; forged stable summary cannot promote it
+  ---
+  duration_ms: 4.9843
+  type: 'test'
+  ...
+# Subtest: missing, tampered, traversing and contradictory logs fail closed
+ok 73 - missing, tampered, traversing and contradictory logs fail closed
+  ---
+  duration_ms: 1.6232
+  type: 'test'
+  ...
+# Subtest: stale source, unknown and duplicate receipts cannot pass
+ok 74 - stale source, unknown and duplicate receipts cannot pass
+  ---
+  duration_ms: 0.5192
+  type: 'test'
+  ...
+# Subtest: manual approval cannot be manufactured by changing its result row
+ok 75 - manual approval cannot be manufactured by changing its result row
+  ---
+  duration_ms: 0.1827
+  type: 'test'
+  ...
+# Subtest: Subway correction changes only the pinned obsolete timer call
+ok 76 - Subway correction changes only the pinned obsolete timer call
+  ---
+  duration_ms: 11.2979
+  type: 'test'
+  ...
+# Subtest: missing completion offer, unpaused clock and stalled native arrival fail closed
+ok 77 - missing completion offer, unpaused clock and stalled native arrival fail closed
+  ---
+  duration_ms: 1.5287
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: reina 30Hz
+ok 78 - native completion choice and finished Subway transition: reina 30Hz
+  ---
+  duration_ms: 741.9721
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: nova 30Hz
+ok 79 - native completion choice and finished Subway transition: nova 30Hz
+  ---
+  duration_ms: 572.1395
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: broxton 30Hz
+ok 80 - native completion choice and finished Subway transition: broxton 30Hz
+  ---
+  duration_ms: 547.4077
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: forest 30Hz
+ok 81 - native completion choice and finished Subway transition: forest 30Hz
+  ---
+  duration_ms: 555.3901
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: niko 30Hz
+ok 82 - native completion choice and finished Subway transition: niko 30Hz
+  ---
+  duration_ms: 567.2987
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: orion 30Hz
+ok 83 - native completion choice and finished Subway transition: orion 30Hz
+  ---
+  duration_ms: 718.7295
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: reina 60Hz
+ok 84 - native completion choice and finished Subway transition: reina 60Hz
+  ---
+  duration_ms: 1169.1731
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: nova 60Hz
+ok 85 - native completion choice and finished Subway transition: nova 60Hz
+  ---
+  duration_ms: 1083.3993
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: broxton 60Hz
+ok 86 - native completion choice and finished Subway transition: broxton 60Hz
+  ---
+  duration_ms: 1209.8683
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: forest 60Hz
+ok 87 - native completion choice and finished Subway transition: forest 60Hz
+  ---
+  duration_ms: 1172.6248
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: niko 60Hz
+ok 88 - native completion choice and finished Subway transition: niko 60Hz
+  ---
+  duration_ms: 1133.815
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: orion 60Hz
+ok 89 - native completion choice and finished Subway transition: orion 60Hz
+  ---
+  duration_ms: 1100.8409
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: reina 120Hz
+ok 90 - native completion choice and finished Subway transition: reina 120Hz
+  ---
+  duration_ms: 1837.2837
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: nova 120Hz
+ok 91 - native completion choice and finished Subway transition: nova 120Hz
+  ---
+  duration_ms: 1892.6234
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: broxton 120Hz
+ok 92 - native completion choice and finished Subway transition: broxton 120Hz
+  ---
+  duration_ms: 1869.3915
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: forest 120Hz
+ok 93 - native completion choice and finished Subway transition: forest 120Hz
+  ---
+  duration_ms: 1818.2454
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: niko 120Hz
+ok 94 - native completion choice and finished Subway transition: niko 120Hz
+  ---
+  duration_ms: 1832.3084
+  type: 'test'
+  ...
+# Subtest: native completion choice and finished Subway transition: orion 120Hz
+ok 95 - native completion choice and finished Subway transition: orion 120Hz
+  ---
+  duration_ms: 1797.5344
+  type: 'test'
+  ...
+# Subtest: stretched scenery fails; correct source crop and reviewed perspective pass
+ok 96 - stretched scenery fails; correct source crop and reviewed perspective pass
+  ---
+  duration_ms: 1.8965
+  type: 'test'
+  ...
+# Subtest: miniature adult and undersized forklift flag review; real perspective remains valid
+ok 97 - miniature adult and undersized forklift flag review; real perspective remains valid
+  ---
+  duration_ms: 0.2572
+  type: 'test'
+  ...
+# Subtest: floating get-up flags; grounded and real aerial motion pass
+ok 98 - floating get-up flags; grounded and real aerial motion pass
+  ---
+  duration_ms: 0.2476
+  type: 'test'
+  ...
+# Subtest: gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly
+ok 99 - gliding, frozen gait and planted-foot sliding are detectable; boosters exempt explicitly
+  ---
+  duration_ms: 0.3559
+  type: 'test'
+  ...
+# Subtest: missing recovery, missing completion and detached doorway detected
+ok 100 - missing recovery, missing completion and detached doorway detected
+  ---
+  duration_ms: 0.3277
+  type: 'test'
+  ...
+# Subtest: release gate fails closed; unexecuted/missing visual evidence never becomes stable
+ok 101 - release gate fails closed; unexecuted/missing visual evidence never becomes stable
+  ---
+  duration_ms: 1.1201
+  type: 'test'
+  ...
+1..101
+# tests 101
+# suites 0
+# pass 99
+# fail 1
+# cancelled 0
+# skipped 1
+# todo 0
+# duration_ms 21891.5381
