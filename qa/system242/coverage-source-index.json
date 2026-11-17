@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "5a36e5ac1ee7890567a973724b515dd67b17dcdf",
-  "runtimeTree": "ffd08408f7a5bcb269dcb4745476f7ca8d5143a6",
+  "sourceCommit": "127a4e3586ba895456b76660976f7fd78ab0a391",
+  "runtimeTree": "8c33430fb61d127b8ae71e74fd57c0d4088ead56",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -3609,23 +3609,23 @@
     },
     {
       "path": "dist/assets/reina381/att.webp",
-      "sha": "d268a6cec285c58b57f2b71ed2094eb0e854c5b7"
+      "sha": "83ab45a1e63de9217e84ad489f642513a2831b0e"
     },
     {
       "path": "dist/assets/reina381/loc.webp",
-      "sha": "9294ee0de29c6351ebcb652da746ac032882e3e5"
+      "sha": "37abe16bc659045cd80083ecebf6b2f8d51732b3"
     },
     {
       "path": "dist/assets/reina382/corrections.webp",
-      "sha": "f3a0fcd5ce8b6295b4b2118fedbaaafbea16cd95"
+      "sha": "e391d197f7b15671702866cc128570049e390e35"
     },
     {
       "path": "dist/assets/reina382/extra.webp",
-      "sha": "811af489146491e852e1a5573764a3606efe0289"
+      "sha": "9208b4a2c24547d53e5d31d88102625e11047ee5"
     },
     {
       "path": "dist/assets/reina383/motion.webp",
-      "sha": "e845cc85428749534007508006076e46bce86d76"
+      "sha": "80ade6f37bdea8920ff7483732ae76d3ceb47dcc"
     },
     {
       "path": "dist/assets/repair262/fear-0.webp",
@@ -5993,7 +5993,7 @@
     },
     {
       "path": "dist/combat-view248.js",
-      "sha": "2babc0d1fe5ae0b647882595bd153e44f4c78409"
+      "sha": "f72f3eb3c6d18ca578573ec3b8b581fa69a7889a"
     },
     {
       "path": "dist/combat-view274.js",
@@ -6505,7 +6505,7 @@
     },
     {
       "path": "dist/game.js",
-      "sha": "0b41c2f7c7cfb2da975318dbc8c0aab1ae7e0c60"
+      "sha": "79a3206beb6d331f8c58e4d8185446f58ea6e4c6"
     },
     {
       "path": "dist/game344.js",
@@ -6553,7 +6553,7 @@
     },
     {
       "path": "dist/game360.js",
-      "sha": "b1ccedf7cbb923b24b1fc3ed91208577e0647ba1"
+      "sha": "fc58808df59b83823623701539d0eb7431ed387f"
     },
     {
       "path": "dist/gamepad.js",
@@ -6633,7 +6633,7 @@
     },
     {
       "path": "dist/grab223.js",
-      "sha": "c78e5c31f79949e6df613618b6d1093a7ca7cb93"
+      "sha": "017fcb7a0f38a80f472b990dda0178820524f846"
     },
     {
       "path": "dist/grapple-recovery119.js",
@@ -7705,11 +7705,11 @@
     },
     {
       "path": "dist/reina-view382.js",
-      "sha": "7f025846252a5865148a1e788f48968154a455fa"
+      "sha": "0a9880c0dea2913ae9124e79864a81a46d104f7b"
     },
     {
       "path": "dist/reina-view383.js",
-      "sha": "e19421c973b08ae45d9f8d223694bba360865198"
+      "sha": "3fe1093b290174b3cb73e35de23cb44c175463c2"
     },
     {
       "path": "dist/reina-walk280-data.js",
@@ -7761,7 +7761,7 @@
     },
     {
       "path": "dist/reina381-data.js",
-      "sha": "e8b048000ab28711af54e0093750e74245fe2221"
+      "sha": "f21ea2528d051d08664a9a7fe7cc1b4fdfd44e4a"
     },
     {
       "path": "dist/reina381.js",
@@ -7781,7 +7781,7 @@
     },
     {
       "path": "dist/reina383.js",
-      "sha": "366cbc9a1cc662de8f3a3bbfd59ee89c7fba0af7"
+      "sha": "de253bf075196d146ba05240d7f2e56932b38643"
     },
     {
       "path": "dist/repair-view134.js",
@@ -10410,6 +10410,22 @@
     {
       "path": "tests/reina383.cjs",
       "sha": "a68b9a0b031812b55780507eb58a4faa8cf9ea9a"
+    },
+    {
+      "path": "tests/reina389-art.py",
+      "sha": "bf149f99bffb81af9e7d8800e2ce7d2dc321563f"
+    },
+    {
+      "path": "tests/reina389-input.cjs",
+      "sha": "973d382fac358c72d7d03a9ae38fc3f9b04984fa"
+    },
+    {
+      "path": "tests/reina389-preservation.cjs",
+      "sha": "3dd98370044842a7a0e67c539dfdc0da35dd7769"
+    },
+    {
+      "path": "tests/reina389-view.cjs",
+      "sha": "40a40100b3a086532cbfe30959c068389d712c68"
     },
     {
       "path": "tests/render169.cjs",
