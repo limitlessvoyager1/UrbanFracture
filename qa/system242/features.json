@@ -365,7 +365,8 @@
         "tools/grounded-surfaces/**",
         "dist/orion-view384.js",
         "dist/game360.js",
-        "dist/downtown-view351.js"
+        "dist/downtown-view351.js",
+        "dist/flint351.js"
       ],
       "entities": {
         "characters": [
@@ -943,7 +944,8 @@
         "dist/security216.js",
         "dist/unique311.js",
         "dist/worker-encounters233.js",
-        "dist/workers233.js"
+        "dist/workers233.js",
+        "dist/flint351.js"
       ],
       "entities": {
         "characters": [],
