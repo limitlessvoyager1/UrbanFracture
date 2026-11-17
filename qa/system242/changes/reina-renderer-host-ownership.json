@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "reina-renderer-host-ownership",
+  "description": "QA-only exact ownership of the existing published Downtown host that draws fighters, settled weapon effects and grab cues.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/changes/reina-renderer-host-ownership.json",
+    "qa/system242/repairs/REINA389-HOST-OWNERSHIP.md"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "REINA-RENDERER-HOST-OWNERSHIP"
+  ]
+}
