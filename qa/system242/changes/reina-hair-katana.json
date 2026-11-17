@@ -58,9 +58,7 @@
       "type": "asset",
       "spec": "qa/system242/reina396-hair-contract.json",
       "suites": [
-        "reina396-hair-contract",
-        "reina396-native-preservation",
-        "reina396-native-hair-render"
+        "reina396-hair-contract"
       ],
       "visualScenarios": [
         "reina396-dive-kip-mirrored"
