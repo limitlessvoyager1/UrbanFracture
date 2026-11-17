@@ -560,12 +560,15 @@
         "broxton244-view",
         "broxton366-current",
         "broxton369-gait-order",
-        "fighter-grapples-broxton"
+        "fighter-grapples-broxton",
+        "phone-feedback",
+        "phone-feedback-render"
       ],
       "visualScenarios": [],
       "performanceRisk": true,
       "specs": [
-        "qa/system242/PRODUCTION-COVERAGE.md"
+        "qa/system242/PRODUCTION-COVERAGE.md",
+        "PHONE-FEEDBACK.md"
       ],
       "contentIds": [],
       "certification": "partial"

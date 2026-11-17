@@ -1,0 +1,31 @@
+fatal: path 'dist/core.js' exists on disk, but not in 'b1b4944e774b48021b56e97de325a9a6bff91803'
+node:child_process:982
+    throw err;
+    ^
+
+Error: Command failed: git show b1b4944e774b48021b56e97de325a9a6bff91803:dist/core.js
+fatal: path 'dist/core.js' exists on disk, but not in 'b1b4944e774b48021b56e97de325a9a6bff91803'
+
+    at genericNodeError (node:internal/errors:986:15)
+    at wrappedFn (node:internal/errors:540:14)
+    at checkExecSyncError (node:child_process:943:11)
+    at Object.execFileSync (node:child_process:979:15)
+    at /workspace/scratch/2acb565c321b/phone-current/tests/controls260-negative.cjs:1:288
+    at Array.map (<anonymous>)
+    at legacy (/workspace/scratch/2acb565c321b/phone-current/tests/controls260-negative.cjs:1:267)
+    at Object.<anonymous> (/workspace/scratch/2acb565c321b/phone-current/tests/controls260-negative.cjs:3:7)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fatal: path 'dist/core.js' exists on disk, but not in 'b1b4944e774b48021b56e97de325a9a6bff91803'\n"
+  ],
+  pid: 514,
+  stdout: '',
+  stderr: "fatal: path 'dist/core.js' exists on disk, but not in 'b1b4944e774b48021b56e97de325a9a6bff91803'\n"
+}
+
+Node.js v24.22.1

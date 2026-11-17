@@ -1,0 +1,40 @@
+fatal: invalid object name '44d5352a'.
+node:child_process:982
+    throw err;
+    ^
+
+Error: Command failed: git show 44d5352a:dist/worker-regular233-data.js
+fatal: invalid object name '44d5352a'.
+
+    at genericNodeError (node:internal/errors:986:15)
+    at wrappedFn (node:internal/errors:540:14)
+    at checkExecSyncError (node:child_process:943:11)
+    at Object.execFileSync (node:child_process:979:15)
+    at data (/workspace/scratch/2acb565c321b/phone-current/tools/resolution342/data.cjs:4:56)
+    at Object.<anonymous> (/workspace/scratch/2acb565c321b/phone-current/tools/resolution342/data.cjs:5:82)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12) {
+  status: 128,
+  signal: null,
+  output: [ null, '', "fatal: invalid object name '44d5352a'.\n" ],
+  pid: 204,
+  stdout: '',
+  stderr: "fatal: invalid object name '44d5352a'.\n"
+}
+
+Node.js v24.22.1
+Traceback (most recent call last):
+  File "/workspace/scratch/2acb565c321b/phone-current/tests/worker-reaction246.py", line 23, in <module>
+    p=Path(f'dist/worker-{name}233-data.js');d=metadata(str(p),f'WorkerArt233.{name}','44d5352a');src='dist/'+d['src'];source_bytes=subprocess.check_output(['git','show','44d5352a:'+src]);im=Image.open(io.BytesIO(source_bytes)).convert('RGBA');digest=hashlib.sha256(source_bytes).hexdigest()
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/2acb565c321b/phone-current/tests/metadata342.py", line 7, in metadata
+    return json.loads(subprocess.check_output(args,cwd=ROOT))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['node', '/workspace/scratch/2acb565c321b/phone-current/tools/resolution342/data.cjs', 'dist/worker-regular233-data.js', 'WorkerArt233.regular', '44d5352a']' returned non-zero exit status 1.
