@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "369f6334688ccd874fb11ab16a02e174957c2b7d",
-  "runtimeTree": "e8bb0f3668affa36e9939676a9b0540be065cdf9",
+  "sourceCommit": "37b8b8fae2fb765e7b55561f2091df32c2cb1e82",
+  "runtimeTree": "be115c4b75b23e59d3351d7beaa7f18fe7e6bcf9",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -3640,6 +3640,14 @@
       "sha": "c9ad1292353e64b62db73f3fac61b9cf30979747"
     },
     {
+      "path": "dist/assets/reina396/katana-dive.webp",
+      "sha": "e181923475047ac3941fbd567de6226ebb9a5075"
+    },
+    {
+      "path": "dist/assets/reina396/kip.webp",
+      "sha": "e6b910389c685eb1e3ca3efc75d591e80bb46bf6"
+    },
+    {
       "path": "dist/assets/repair262/fear-0.webp",
       "sha": "8f60712932d829f7ccde94823e4f38931eae2cb6"
     },
@@ -6865,7 +6873,7 @@
     },
     {
       "path": "dist/katana355-data.js",
-      "sha": "2e9e9d10e4eb035975a268bf4ef69de5622a9d63"
+      "sha": "af01ba9b8e1f97cc3df91328ffb30f72014b114f"
     },
     {
       "path": "dist/kevin-brick-data.js",
@@ -7769,7 +7777,7 @@
     },
     {
       "path": "dist/reina354-data.js",
-      "sha": "03253a20959180b9c5c342bc153f654ad6286f60"
+      "sha": "e0f7a4eec1a3d94accb8032128f1103be046ce2c"
     },
     {
       "path": "dist/reina381-data.js",
@@ -10458,6 +10466,10 @@
     {
       "path": "tests/reina395-recovery.cjs",
       "sha": "d1aba621ca222b70db1d79f573acd1812512f853"
+    },
+    {
+      "path": "tests/reina396-native.cjs",
+      "sha": "ffd52f77d86965dfe8709fb9517299977b1c0fed"
     },
     {
       "path": "tests/render169.cjs",

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "reina-hair-katana",
+  "description": "Loose hair in the active eight-frame katana dive and four-frame kip-up; reference-led, slightly shorter katana with stable body registration. Approved native gameplay unchanged.",
+  "acceptanceScope": "game-change",
+  "files": [
+    ".github/workflows/reina-hair-corrections.yml",
+    "dist/katana355-data.js",
+    "dist/reina354-data.js",
+    "dist/assets/reina396/katana-dive.webp",
+    "dist/assets/reina396/kip.webp",
+    "qa/system242/changes/reina-hair-katana.json",
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/repair-references/reina396/masters.json",
+    "qa/system242/repair-references/reina396/katana-short-master.webp",
+    "qa/system242/repair-references/reina396/katana-one-short-master.webp",
+    "qa/system242/repair-references/reina396/kip-master.webp",
+    "qa/system242/repair-references/reina396/kip-raised-master.webp",
+    "qa/system242/repair-references/reina396/FINAL-ART-PROMPTS.md",
+    "qa/system242/repair-references/reina396/KATANA-SHORT-PROMPT.md",
+    "qa/system242/repair-references/reina396/failed-attempts.json",
+    "qa/system242/repair-references/reina396/superseded-before-katana-native-render.json",
+    "qa/system242/repairs/REINA396-HAIR-KATANA.md",
+    "tests/reina396-native.cjs",
+    "tools/qa242/reina396-import.cjs",
+    "tools/qa242/reina396-registration.cjs",
+    "tools/qa242/reina396-hair-audit.cjs"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering",
+    "hero-reina",
+    "runtime-ui-diagnostics"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading",
+      "runtime-ui-diagnostics"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [
+    {
+      "id": "reina396-air-and-kip-hair",
+      "type": "asset",
+      "spec": "qa/system242/reina396-hair-contract.json",
+      "suites": [
+        "reina396-hair-contract"
+      ],
+      "visualScenarios": [
+        "reina396-dive-kip-mirrored"
+      ]
+    }
+  ],
+  "risks": {
+    "visual": true,
+    "performance": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "REINA396-HAIR-KATANA"
+  ]
+}

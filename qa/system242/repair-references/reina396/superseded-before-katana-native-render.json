@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "frames": 1440,
+  "routes": [
+    {
+      "kind": "dive",
+      "dir": -1,
+      "frames": [
+        "dive/0",
+        "dive/1",
+        "dive/2",
+        "dive/3",
+        "dive/4",
+        "dive/5",
+        "dive/6",
+        "dive/7"
+      ]
+    },
+    {
+      "kind": "kip",
+      "dir": -1,
+      "frames": [
+        "kip/0",
+        "kip/1",
+        "kip/2",
+        "kip/3"
+      ]
+    },
+    {
+      "kind": "dive",
+      "dir": 1,
+      "frames": [
+        "dive/0",
+        "dive/1",
+        "dive/2",
+        "dive/3",
+        "dive/4",
+        "dive/5",
+        "dive/6",
+        "dive/7"
+      ]
+    },
+    {
+      "kind": "kip",
+      "dir": 1,
+      "frames": [
+        "kip/0",
+        "kip/1",
+        "kip/2",
+        "kip/3"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "id": "dive/0",
+      "bodyWidthRatio": 1.0042735042735043,
+      "bodyHeightDeltaWorld": -0.3532219570405728,
+      "bodyRootDeltaWorld": -0.3532219570405728,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.8638550806679876
+    },
+    {
+      "id": "dive/1",
+      "bodyWidthRatio": 1.0123456790123457,
+      "bodyHeightDeltaWorld": -0.3532219570405728,
+      "bodyRootDeltaWorld": -0.3532219570405728,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.8929630106972548
+    },
+    {
+      "id": "dive/2",
+      "bodyWidthRatio": 1.0087336244541485,
+      "bodyHeightDeltaWorld": 0.3532219570405728,
+      "bodyRootDeltaWorld": 0.3532219570405728,
+      "encodedSkinBottomDeltaWorld": 0.3532219570405728,
+      "bodyMaskIoU": 0.8997288302724024
+    },
+    {
+      "id": "dive/3",
+      "bodyWidthRatio": 1.0081632653061225,
+      "bodyHeightDeltaWorld": -0.3532219570405728,
+      "bodyRootDeltaWorld": 0,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.9044915109874511
+    },
+    {
+      "id": "dive/4",
+      "bodyWidthRatio": 1,
+      "bodyHeightDeltaWorld": -0.7064439140811456,
+      "bodyRootDeltaWorld": -0.3532219570405728,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.8750510650714911
+    },
+    {
+      "id": "dive/5",
+      "bodyWidthRatio": 1.010752688172043,
+      "bodyHeightDeltaWorld": 0,
+      "bodyRootDeltaWorld": -0.3532219570405728,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.8419318816303741
+    },
+    {
+      "id": "dive/6",
+      "bodyWidthRatio": 1.0116279069767442,
+      "bodyHeightDeltaWorld": 0,
+      "bodyRootDeltaWorld": 0,
+      "encodedSkinBottomDeltaWorld": -0.3532219570405728,
+      "bodyMaskIoU": 0.8918710388536787
+    },
+    {
+      "id": "dive/7",
+      "bodyWidthRatio": 1,
+      "bodyHeightDeltaWorld": -0.7064439140811456,
+      "bodyRootDeltaWorld": -0.7064439140811456,
+      "encodedSkinBottomDeltaWorld": 0.7064439140811456,
+      "bodyMaskIoU": 0.8726337345786924
+    },
+    {
+      "id": "kip/0",
+      "bodyWidthRatio": 0.9936305732484076,
+      "bodyHeightDeltaWorld": 0.9628641617907894,
+      "bodyRootDeltaWorld": 0.9628641617907894,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.7339896611899509
+    },
+    {
+      "id": "kip/1",
+      "bodyWidthRatio": 1.0192307692307692,
+      "bodyHeightDeltaWorld": 0,
+      "bodyRootDeltaWorld": 0,
+      "encodedSkinBottomDeltaWorld": 0,
+      "bodyMaskIoU": 0.7667949422759758
+    },
+    {
+      "id": "kip/2",
+      "bodyWidthRatio": 0.9848484848484849,
+      "bodyHeightDeltaWorld": 0.4814320808953947,
+      "bodyRootDeltaWorld": 0.9628641617907894,
+      "encodedSkinBottomDeltaWorld": 0.24071604044769734,
+      "bodyMaskIoU": 0.7181220758850096
+    },
+    {
+      "id": "kip/3",
+      "bodyWidthRatio": 1,
+      "bodyHeightDeltaWorld": 0.722148121343092,
+      "bodyRootDeltaWorld": 0.722148121343092,
+      "encodedSkinBottomDeltaWorld": 0.24071604044769734,
+      "bodyMaskIoU": 0.7896283535581283
+    }
+  ],
+  "source": {
+    "dist/reina354-data.js": "be8806c936d602fc69b4cd81c65166d51eedba85bfa9a59afffde54b56a50bd4",
+    "dist/assets/reina396/dive.webp": "32275c2c61cbcec279b4335ec4c0e6bfa168a0442c25a3fec7c082ba20c6712d",
+    "dist/assets/reina396/kip.webp": "504a1532bf998c8620f6a25f43ddd6e255e603373884bb09aba62bc2ff986c77"
+  },
+  "physicsChanged": false,
+  "physicalController": false,
+  "artisticApproval": false,
+  "certified": false
+}
