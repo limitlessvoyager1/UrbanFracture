@@ -5,14 +5,14 @@
   "originalDataSHA256": "ef2e85d447e88773f09cf5a903e29116cd83fa9db08c59b8a7b94308bf5e68f8",
   "assets": [
     {
-      "path": "dist/assets/reina396/dive.webp",
-      "bytes": 301700,
-      "sha256": "32275c2c61cbcec279b4335ec4c0e6bfa168a0442c25a3fec7c082ba20c6712d"
+      "path": "dist/assets/reina396/katana-dive.webp",
+      "bytes": 71750,
+      "sha256": "a6c58f3eb419840a97ca8c6810a3e047593dd9747dc8877d8827db5bdefdc7ad"
     },
     {
       "path": "dist/assets/reina396/kip.webp",
-      "bytes": 217316,
-      "sha256": "504a1532bf998c8620f6a25f43ddd6e255e603373884bb09aba62bc2ff986c77"
+      "bytes": 210352,
+      "sha256": "5056d1d6a1aadc48b7d54226c77fbf493622caa70d857896457818d6df0ed445"
     }
   ],
   "sourceReferences": [
@@ -23,6 +23,18 @@
     {
       "path": "dist/assets/reina354/extra-1.webp",
       "sha256": "0ea1e04c5edd1c55c73d1db984f288d99a22a1c03b712b5ea3f0a5b4d41ef7f8"
+    },
+    {
+      "path": "dist/assets/katana355/swords-2.webp",
+      "sha256": "8508a2623cd9241c6642ec93ea9569f595d89c222268e58f62030ca07599f2a7"
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana355-data.before-hair.js.txt",
+      "sha256": "4e5d7ffd8fe1c8b8c4679382382869e27a8d08dea12e3a1de13680c7a6be6eb0"
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana-view355.before-hair.js.txt",
+      "sha256": "444c4e0eea1cc1eaa272818281473ed7920eda96b90f85e394b54b79c8afe331"
     }
   ],
   "normalRecoveryUnchanged": {
@@ -37,163 +49,131 @@
   "importMetrics": [
     {
       "id": "dive/0",
-      "scale": 1.013986013986014,
-      "bodyWidthRatio": 1.0042735042735043,
+      "bodyWidthRatio": 1,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.869332726548723,
-      "originalBody": [
-        92,
-        66,
-        325,
-        355
-      ],
-      "newBody": [
-        91,
-        66,
-        325,
-        355
-      ]
+      "bodyMaskIoU": 0.8427672955974843,
+      "onePixelMaskIoU": 0.8896940418679549,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": -1,
+      "encodedHeightDelta": -1,
+      "registration": {
+        "k": 1.01,
+        "dx": -2,
+        "dy": 0
+      }
     },
     {
       "id": "dive/1",
-      "scale": 0.985663082437276,
-      "bodyWidthRatio": 1.0123456790123457,
-      "bodyBottomDelta": 0,
-      "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8958306441203047,
-      "originalBody": [
-        78,
-        85,
-        320,
-        359
-      ],
-      "newBody": [
-        77,
-        85,
-        322,
-        359
-      ]
+      "bodyWidthRatio": 0.9782608695652174,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.8023207625362619,
+      "onePixelMaskIoU": 0.8413068844807468,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.02,
+        "dx": -1,
+        "dy": -1
+      }
     },
     {
       "id": "dive/2",
-      "scale": 1.0037735849056604,
-      "bodyWidthRatio": 1.0087336244541485,
-      "bodyBottomDelta": 1,
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 0,
       "bodyHeightDelta": 1,
-      "bodyMaskIoU": 0.9052129767211491,
-      "originalBody": [
-        85,
-        98,
-        313,
-        363
-      ],
-      "newBody": [
-        84,
-        98,
-        314,
-        364
-      ]
+      "bodyMaskIoU": 0.8287092882991556,
+      "onePixelMaskIoU": 0.8873197999411592,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 1,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -1
+      }
     },
     {
       "id": "dive/3",
-      "scale": 1.0232558139534884,
-      "bodyWidthRatio": 1.0081632653061225,
+      "bodyWidthRatio": 1.011111111111111,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.9080257095728343,
-      "originalBody": [
-        77,
-        145,
-        321,
-        408
-      ],
-      "newBody": [
-        76,
-        145,
-        322,
-        408
-      ]
+      "bodyMaskIoU": 0.7955539358600583,
+      "onePixelMaskIoU": 0.872369131138694,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -1
+      }
     },
     {
       "id": "dive/4",
-      "scale": 1.0232558139534884,
-      "bodyWidthRatio": 1,
-      "bodyBottomDelta": 0,
-      "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8765432098765432,
-      "originalBody": [
-        82,
-        155,
-        323,
-        418
-      ],
-      "newBody": [
-        82,
-        155,
-        323,
-        418
-      ]
+      "bodyWidthRatio": 0.9887640449438202,
+      "bodyBottomDelta": -1,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.8359345260753711,
+      "onePixelMaskIoU": 0.873734533183352,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -2
+      }
     },
     {
       "id": "dive/5",
-      "scale": 0.35758513931888547,
-      "bodyWidthRatio": 1.010752688172043,
-      "bodyBottomDelta": -1,
+      "bodyWidthRatio": 1.0194174757281553,
+      "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.840583762021919,
-      "originalBody": [
-        72,
-        189,
-        350,
-        419
-      ],
-      "newBody": [
-        70,
-        188,
-        351,
-        418
-      ]
+      "bodyMaskIoU": 0.8738704819277109,
+      "onePixelMaskIoU": 0.9085112281674522,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": 0,
+        "dy": -1
+      }
     },
     {
       "id": "dive/6",
-      "scale": 0.3546576879910213,
-      "bodyWidthRatio": 1.0116279069767442,
-      "bodyBottomDelta": -1,
-      "bodyHeightDelta": -1,
-      "bodyMaskIoU": 0.887152682255846,
-      "originalBody": [
-        93,
-        106,
-        350,
-        421
-      ],
-      "newBody": [
-        92,
-        106,
-        352,
-        420
-      ]
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.828167115902965,
+      "onePixelMaskIoU": 0.8700578592092575,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 1,
+      "registration": {
+        "k": 1.02,
+        "dx": 0,
+        "dy": -2
+      }
     },
     {
       "id": "dive/7",
-      "scale": 1.0054347826086956,
-      "bodyWidthRatio": 1,
+      "bodyWidthRatio": 1.0097087378640777,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8700359209738575,
-      "originalBody": [
-        96,
-        52,
-        375,
-        421
-      ],
-      "newBody": [
-        96,
-        52,
-        375,
-        421
-      ]
+      "bodyMaskIoU": 0.8128474366893144,
+      "onePixelMaskIoU": 0.8577306193157211,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -1
+      }
     },
     {
       "id": "kip/0",
@@ -201,7 +181,7 @@
       "bodyWidthRatio": 0.9936305732484076,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.7322026113772062,
+      "bodyMaskIoU": 0.7313614129542694,
       "originalBody": [
         213,
         347,
@@ -221,7 +201,7 @@
       "bodyWidthRatio": 1.0192307692307692,
       "bodyBottomDelta": -1,
       "bodyHeightDelta": -1,
-      "bodyMaskIoU": 0.7658217408038709,
+      "bodyMaskIoU": 0.7656121045392023,
       "originalBody": [
         166,
         112,
@@ -241,7 +221,7 @@
       "bodyWidthRatio": 0.9848484848484849,
       "bodyBottomDelta": 1,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.7173185864580524,
+      "bodyMaskIoU": 0.7171564390665515,
       "originalBody": [
         62,
         310,
@@ -261,7 +241,7 @@
       "bodyWidthRatio": 1,
       "bodyBottomDelta": 1,
       "bodyHeightDelta": 1,
-      "bodyMaskIoU": 0.7872512579331968,
+      "bodyMaskIoU": 0.787245349867139,
       "originalBody": [
         111,
         137,
@@ -284,19 +264,8 @@
     "no body-size or ground-root popping",
     "physical DSX DS4 and owner artistic signoff"
   ],
-  "importMethod": "Anatomical skin/gold landmarks, native alpha threshold 96, existing ax/ay/scale retained; prepared frames bypass a second alpha-height normalization.",
+  "importMethod": "Normalize the original fractional 313.5-pixel Katana355 cells to exact 320-pixel cells, then register uniform body scale/head/foot landmarks. Exported raw overlap remains >=0.70; one-pixel overlap is diagnostic only. Kip anchors/scales retained and prepared once.",
   "masters": [
-    {
-      "path": "qa/system242/repair-references/reina396/dive-master.webp",
-      "originalPNG_SHA256": "31ffe4767d67ca20afa1469aef2b251c6c434c68fac056b2289244c60b9dba72",
-      "masterSHA256": "dc90e4266f6e53d5f0287e1224fbf965fe2c9f5b7a0bebb6e3ac3708de16c412",
-      "rgbaSHA256": "4f6825ca06aa2bfe283aa4636da2e5e3dab63ce1407d46b85892b1865e1b6e9f",
-      "size": [
-        1774,
-        887
-      ],
-      "bytes": 925654
-    },
     {
       "path": "qa/system242/repair-references/reina396/kip-master.webp",
       "originalPNG_SHA256": "a392901c08476a7b3b430321e02f1dcf74f29afc26268e2ca4cc5543cc9a6dc1",
@@ -320,26 +289,44 @@
       "bytes": 380664
     },
     {
-      "path": "qa/system242/repair-references/reina396/dive-braced-master.webp",
-      "originalPNG_SHA256": "dfa41f1cb056624f75d99283e9bca7fe192b00263d256db1d3467174caa8091a",
-      "masterSHA256": "3a991595c8446da4c26d341a2705d88abdfa8be240439f98dd11752dd172e19e",
-      "rgbaSHA256": "e26a29721382d0ead470bea36cf97d0e4af873d2a01809b425bca77568c0aa03",
+      "path": "qa/system242/repair-references/reina396/katana-short-master.webp",
+      "originalPNG_SHA256": "689274a2932a797e2a5b89503e42111b696073fd521d88110e73b2d3c70b54f7",
+      "masterSHA256": "20c3ae9083f57c82ce51911cfcb6ed5ade156fd303bcb3d935cd6321346d95bc",
+      "rgbaSHA256": "626af973853e345d6e22b7ad03d7ffb904d4c787e8c7b9fd8f7fb8276c7c8aa2",
       "size": [
-        1254,
-        1254
+        1774,
+        887
       ],
-      "bytes": 547788
+      "bytes": 884798
     },
     {
-      "path": "qa/system242/repair-references/reina396/dive-recovery-master.webp",
-      "originalPNG_SHA256": "cda14bb6fec4bbe4beafb33e375b156a8f61bbbf5d6351cb63a95ccf6d985dd2",
-      "masterSHA256": "23e35bcb3755a4965e9bd8b5adb58f64131d4688764ab2f82aee341051ce366f",
-      "rgbaSHA256": "b9da27affde175706e17fc4f6bf68cb4b418db0ef47da269f1f39606db97230a",
+      "path": "qa/system242/repair-references/reina396/katana-one-short-master.webp",
+      "originalPNG_SHA256": "4a003bbd7688f777ced92c1613657e225bdf2faec69301064f5b19991316f9b0",
+      "masterSHA256": "5340eb37b2c0c9a35af8907f7b3fb69048fad8449397b76a5eeeb742f9ed674f",
+      "rgbaSHA256": "c4ad63af19042b816b0560f4d683d79a22b58671d7994545270579ad668de732",
       "size": [
         1254,
         1254
       ],
-      "bytes": 564276
+      "bytes": 441046
     }
-  ]
+  ],
+  "activeKatanaRoute": {
+    "originalSheetSize": [
+      1254,
+      1254
+    ],
+    "replacementSheetSize": [
+      1280,
+      1280
+    ],
+    "originalRendererUnchanged": true,
+    "unchangedDestinationGeometry": true
+  },
+  "bladeShortening": {
+    "requested": "slightly shorter katana",
+    "artTargetFraction": 0.05,
+    "mechanicalReachChanged": false,
+    "ownerApproval": false
+  }
 }
