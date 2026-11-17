@@ -362,7 +362,8 @@
         "dist/assets/**",
         "tools/fighter-render/**",
         "tools/grounded-cache/**",
-        "tools/grounded-surfaces/**"
+        "tools/grounded-surfaces/**",
+        "dist/orion-view384.js"
       ],
       "entities": {
         "characters": [
@@ -398,7 +399,8 @@
         "fighter-render-prerequisites",
         "fighter-render-bootstrap",
         "reina383-render-audit",
-        "broxton369-gait-order"
+        "broxton369-gait-order",
+        "orion388-weapon-aim"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
@@ -794,7 +796,8 @@
         "orion228-repair",
         "orion228-grabs",
         "orion228-specials",
-        "orion228-integration"
+        "orion228-integration",
+        "orion388-weapon-aim"
       ],
       "visualScenarios": [],
       "performanceRisk": true,

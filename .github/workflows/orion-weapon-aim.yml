@@ -1,0 +1,33 @@
+name: Orion weapon aim regression
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - 'dist/orion-view384.js'
+      - 'tests/orion388*'
+      - '.github/workflows/orion-weapon-aim.yml'
+permissions:
+  contents: read
+jobs:
+  weapon-aim:
+    name: Orion native weapon aim and preserved combat
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22.21.0'
+      - run: npm ci --ignore-scripts --prefix tools/fighter-render
+      - name: Native geometry, combat preservation and controller regressions
+        env:
+          NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
+        run: |
+          node --test tests/orion388-weapon-aim.cjs tests/orion387-hit-registration.cjs tests/orion386-counters.cjs tests/orion385-locomotion.cjs
+          node tests/weapons249.cjs
+          node tests/weapons249-view.cjs
+          node tests/gamepad.test.cjs
+          node tests/controller157.cjs

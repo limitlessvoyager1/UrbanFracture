@@ -1,0 +1,9 @@
+# Orion weapon aiming repair
+
+The HD held-weapon renderer reconstructed profile angle without the native action's stored aim249. Native collision already included that spread. The renderer now reads Weapons248.rig(p,a).angle for attacks only. Held idle, pickup, throw, body poses, hand calibration and other characters retain their prior dispatch. No art, character design, damage, RNG sampling, timing, balance, collision or resource logic changes.
+
+Five regression groups cover 288 geometry cases (six weapon kinds, both facings, three native aim samples, eight attack phases), zero RNG consumption on redraw, unchanged non-attack delegation, a retained-source negative fixture, and 1,680 before/after native simulation frames at 30/60/120Hz. Angles are exactly equal; Canvas hand/shaft transforms use a 0.00001 logical-pixel precision tolerance. Geometry CI stubs body image loading; it does not claim full-art or browser approval. tools/qa242/orion388-render.cjs separately requires the complete published artwork estate and produces a 24-render before/after diagnostic sheet, with a yellow native collision-shaft overlay.
+
+Red receipts remain external evidence. The initial failing mismatch was 0.2 radians; an intermediate corrected-angle run exposed Canvas transform finite precision, corrected only in fixture tolerance. No production values changed to satisfy tests.
+
+Acceptance remains blocked: the comparison-base registry does not own dist/orion-view384.js. This PR proposes an explicit path mapping under shared-fighter-rendering, but head-only policy cannot retroactively approve base ownership. Keep that impact failure visible. Existing visual/art, complete move coverage, human balance, performance and physical controller evidence remain incomplete. No automatic game certification or owner signoff is claimed. No merge or branch-protection change.

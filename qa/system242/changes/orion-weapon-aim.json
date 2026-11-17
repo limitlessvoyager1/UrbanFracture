@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "id": "orion-weapon-aim",
+  "description": "Orion HD held attack drawing reads the existing native Weapons248.rig angle, including already sampled aim249. No simulation or asset changes.",
+  "acceptanceScope": "game-change",
+  "files": [
+    "dist/orion-view384.js",
+    "tests/orion388-weapon-aim.cjs",
+    "tools/qa242/orion388-render.cjs",
+    "qa/system242/repair-references/orion388/orion-view384-before388.js.txt",
+    "qa/system242/repairs/ORION388-WEAPON-AIM.md",
+    "qa/system242/suites.json",
+    "qa/system242/features.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/production-ownership.json",
+    ".github/workflows/orion-weapon-aim.yml",
+    "qa/system242/changes/orion-weapon-aim.json"
+  ],
+  "features": [
+    "qa242",
+    "hero-orion",
+    "shared-fighter-rendering"
+  ],
+  "entities": {
+    "characters": [
+      "orion",
+      "all-fighters"
+    ],
+    "moves": [
+      "orion/combat/grab",
+      "orion/combat/blast",
+      "orion/combat/robo",
+      "orion/combat/piston",
+      "orion/combat/inverted",
+      "orion/combat/counter",
+      "orion/combat/ascension",
+      "orion/air/airNeutral",
+      "orion/air/airKnee",
+      "orion/air/airDown",
+      "orion/combo/stage-1",
+      "orion/combo/stage-2",
+      "orion/combo/stage-3",
+      "orion/combo/stage-4",
+      "orion/dodge/definition",
+      "orion/repairMove/definition",
+      "orion/meteorMove/definition",
+      "orion/currentMove/definition",
+      "orion/laserMove/definition",
+      "orion/charged-ability/charged",
+      "orion/current-counter/punch",
+      "orion/current-counter/kick",
+      "orion/current-counter/short",
+      "orion/current-counter/long",
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "hero-orion",
+      "fighter-rendering",
+      "asset-loading"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "ORION-WEAPON-AIM"
+  ]
+}
