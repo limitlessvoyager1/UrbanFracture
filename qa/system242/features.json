@@ -411,7 +411,8 @@
         "reina390-native",
         "reina390-view",
         "reina390-art",
-        "reina390-render"
+        "reina390-render",
+        "reina392-render"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
@@ -525,7 +526,8 @@
         "reina390-native",
         "reina390-view",
         "reina390-art",
-        "reina390-render"
+        "reina390-render",
+        "reina392-render"
       ],
       "visualScenarios": [],
       "performanceRisk": true,

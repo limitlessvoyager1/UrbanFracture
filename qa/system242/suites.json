@@ -4811,6 +4811,24 @@
         "reports390/native-L.webp",
         "reports390/native-render.json"
       ]
+    },
+    {
+      "id": "reina392-render",
+      "command": [
+        "node",
+        "tools/qa242/reina392-render-audit.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports392/native-R.webp",
+        "reports392/native-L.webp",
+        "reports392/native-render.json"
+      ]
     }
   ],
   "manualGates": [
