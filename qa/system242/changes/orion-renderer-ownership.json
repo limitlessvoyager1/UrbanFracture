@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "orion-renderer-ownership",
+  "description": "QA-only exact ownership mapping for the existing Orion HD renderer; no planner exemption or certification claim.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/repairs/ORION388-RENDERER-OWNERSHIP.md",
+    "qa/system242/changes/orion-renderer-ownership.json"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "ORION-RENDERER-OWNERSHIP"
+  ]
+}
