@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "reina-armed-continuity",
+  "description": "Separate armed walk/run, interpolated carry sockets, visible knife, constrained held reaction, forward hook direction after pair release, Flint metal pipe and published module-set audit.",
+  "acceptanceScope": "game-change",
+  "files": [
+    ".github/workflows/reina-armed-continuity.yml",
+    "dist/combat-view248.js",
+    "dist/downtown-view351.js",
+    "dist/reina-view381.js",
+    "dist/reina-view382.js",
+    "dist/reina-view383.js",
+    "qa/system242/changes/reina-armed-continuity.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/features.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/published-downtown-render.json",
+    "qa/system242/repair-references/reina393/combat-view248.js.before393.txt",
+    "qa/system242/repair-references/reina393/downtown-view351.js.before393.txt",
+    "qa/system242/repair-references/reina393/reina-view381.js.before393.txt",
+    "qa/system242/repair-references/reina393/reina-view382.js.before393.txt",
+    "qa/system242/repair-references/reina393/reina-view383.js.before393.txt",
+    "qa/system242/repairs/REINA393-ARMED-AND-PUBLISHED.md",
+    "qa/system242/suites.json",
+    "tools/qa242/reina389-render-runtime.cjs",
+    "tools/qa242/reina393-render-audit.cjs"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": true,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "REINA393-PUBLISHED"
+  ]
+}
