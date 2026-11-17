@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "downtown-riverbloom-spin394",
+  "asset": "dist/assets/downtown394/riverbloom-spin-cycle.webp",
+  "sha256": "f303f1667ebc0c9b578177a19f7eee145a20c87c1cf9e8e20ad7726f16f9fa3c",
+  "width": 2172,
+  "height": 485,
+  "worldStart": 4220,
+  "worldWidth": 1640,
+  "worldJoin": 5040,
+  "feather": 128,
+  "signs": [
+    "RIVERBLOOM FLORIST",
+    "SPIN CYCLE"
+  ],
+  "certified": false,
+  "manualReview": [
+    "complete signs",
+    "no central hard join",
+    "both outer neighboring joins",
+    "ground continuity",
+    "camera pan in both directions"
+  ]
+}

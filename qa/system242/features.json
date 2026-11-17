@@ -1088,14 +1088,20 @@
         "hospital315-runtime",
         "subway238",
         "stadium237",
-        "hydro243-progression"
+        "hydro243-progression",
+        "downtown394-facade-contract"
       ],
-      "visualScenarios": [],
+      "visualScenarios": [
+        "downtown394-camera-pan"
+      ],
       "performanceRisk": true,
       "specs": [
-        "qa/system242/PRODUCTION-COVERAGE.md"
+        "qa/system242/PRODUCTION-COVERAGE.md",
+        "qa/system242/facade394-contract.json"
       ],
-      "contentIds": [],
+      "contentIds": [
+        "downtown-riverbloom-spin394"
+      ],
       "certification": "partial"
     },
     {

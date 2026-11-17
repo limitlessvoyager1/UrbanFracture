@@ -4847,6 +4847,22 @@
         "reports393/published-L.webp",
         "reports393/published-render.json"
       ]
+    },
+    {
+      "id": "downtown394-facade-contract",
+      "command": [
+        "node",
+        "tools/qa242/facade394-contract.cjs"
+      ],
+      "framework": "qa-contract",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports394/facade-contract.json"
+      ]
     }
   ],
   "manualGates": [
