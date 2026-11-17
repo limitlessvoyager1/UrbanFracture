@@ -1,0 +1,59 @@
+TAP version 13
+# Subtest: native moving jump holds the standard flying kick from contact until landing in both directions
+ok 1 - native moving jump holds the standard flying kick from contact until landing in both directions
+  ---
+  duration_ms: 318.4752
+  type: 'test'
+  ...
+# Subtest: neutral air kick retains its separate presentation
+ok 2 - neutral air kick retains its separate presentation
+  ---
+  duration_ms: 92.4038
+  type: 'test'
+  ...
+# Subtest: whole-body grabs suppress obsolete larger hand redraws but leave other draw owners available
+ok 3 - whole-body grabs suppress obsolete larger hand redraws but leave other draw owners available
+  ---
+  duration_ms: 90.156
+  type: 'test'
+  ...
+# Subtest: retained renderer reproduces the detached larger hand pass and changing airborne pose
+ok 4 - retained renderer reproduces the detached larger hand pass and changing airborne pose
+  ---
+  duration_ms: 89.4775
+  type: 'test'
+  ...
+# Subtest: current-model down, grab entry and portrait stay within the same reference design owner
+ok 5 - current-model down, grab entry and portrait stay within the same reference design owner
+  ---
+  duration_ms: 91.7305
+  type: 'test'
+  ...
+# Subtest: settled legacy knife is in the ground pass and is occluded by a later fighter foot
+ok 6 - settled legacy knife is in the ground pass and is occluded by a later fighter foot
+  ---
+  duration_ms: 92.1321
+  type: 'test'
+  ...
+# Error: Test "settled legacy knife is in the ground pass and is occluded by a later fighter foot" at tests\\reina389-view.cjs:8:1 generated asynchronous activity after the test ended. This activity created the error "ReferenceError: Image is not defined" and would have caused the test to fail, but instead triggered an unhandledRejection event.
+# Subtest: tests\\reina389-view.cjs
+not ok 1 - tests\\reina389-view.cjs
+  ---
+  duration_ms: 1079.1641
+  type: 'test'
+  location: 'C:\\Users\\spiri\\Documents\\Codex\\2026-11-15\\ca\\work\\UrbanFracturePublished\\.sites-checkout\\tests\\reina389-view.cjs:1:1'
+  failureType: 'testCodeFailure'
+  exitCode: 1
+  signal: ~
+  error: 'test failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 6
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1086.533

@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "id": "reina-character-repair",
+  "description": "Repair Reina root registration, consistent visual scale, current portrait and scabbard, airborne flying kick, ground knife layering and held manual grab request; preserve native balance.",
+  "acceptanceScope": "game-change",
+  "files": [
+    ".github/workflows/reina-character-repair.yml",
+    "dist/assets/reina381/att.webp",
+    "dist/assets/reina381/loc.webp",
+    "dist/assets/reina382/corrections.webp",
+    "dist/assets/reina382/extra.webp",
+    "dist/assets/reina383/motion.webp",
+    "dist/combat-view248.js",
+    "dist/game.js",
+    "dist/game360.js",
+    "dist/grab223.js",
+    "dist/reina-view382.js",
+    "dist/reina-view383.js",
+    "dist/reina381-data.js",
+    "dist/reina383.js",
+    "qa/system242/changes/reina-character-repair.json",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/features.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/repair-references/reina389/EDIT-PROVENANCE.md",
+    "qa/system242/repair-references/reina389/asset-contract.json",
+    "qa/system242/repair-references/reina389/att-before389.webp",
+    "qa/system242/repair-references/reina389/att-original-source.png",
+    "qa/system242/repair-references/reina389/att-scabbard-source.png",
+    "qa/system242/repair-references/reina389/combat-view248-before389.js.txt",
+    "qa/system242/repair-references/reina389/corrections-before389.webp",
+    "qa/system242/repair-references/reina389/corrections-original-source.png",
+    "qa/system242/repair-references/reina389/corrections-scabbard-source.png",
+    "qa/system242/repair-references/reina389/extra-before389.webp",
+    "qa/system242/repair-references/reina389/extra-original-source.png",
+    "qa/system242/repair-references/reina389/extra-scabbard-source.png",
+    "qa/system242/repair-references/reina389/game.js.txt",
+    "qa/system242/repair-references/reina389/game360-github-before389.js.txt",
+    "qa/system242/repair-references/reina389/game360.js.txt",
+    "qa/system242/repair-references/reina389/grab223-before389.js.txt",
+    "qa/system242/repair-references/reina389/input-before.log",
+    "qa/system242/repair-references/reina389/loc-before389.webp",
+    "qa/system242/repair-references/reina389/loc-original-source.png",
+    "qa/system242/repair-references/reina389/loc-scabbard-source.png",
+    "qa/system242/repair-references/reina389/motion-before389.webp",
+    "qa/system242/repair-references/reina389/motion-original-source.png",
+    "qa/system242/repair-references/reina389/motion-scabbard-source.png",
+    "qa/system242/repair-references/reina389/reina-view382.js.txt",
+    "qa/system242/repair-references/reina389/reina-view383.js.txt",
+    "qa/system242/repair-references/reina389/reina381-data-before389.js.txt",
+    "qa/system242/repair-references/reina389/reina382-data-before389.js.txt",
+    "qa/system242/repair-references/reina389/reina383-before389.js.txt",
+    "qa/system242/repair-references/reina389/view-tests-final.log",
+    "qa/system242/repair-references/reina389/view-tests.log",
+    "qa/system242/repair-references/reina389/waist-registration.json",
+    "qa/system242/repairs/REINA389-CHARACTER-REPAIR.md",
+    "qa/system242/suites.json",
+    "tests/reina389-art.py",
+    "tests/reina389-input.cjs",
+    "tests/reina389-preservation.cjs",
+    "tests/reina389-view.cjs",
+    "tools/qa242/reina389-native.cjs",
+    "tools/qa242/reina389-pack.py",
+    "tools/qa242/reina389-render-audit.cjs",
+    "tools/qa242/reina389-render-runtime.cjs"
+  ],
+  "features": [
+    "qa242",
+    "shared-combat-admission",
+    "shared-fighter-rendering",
+    "hero-reina"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters",
+      "reina"
+    ],
+    "moves": [
+      "all-native-actions",
+      "all-rendered-actions",
+      "reina/sword/rise",
+      "reina/sword/sweep",
+      "reina/sword/cleaver",
+      "reina/stance/definition",
+      "reina/charged-ability/charged",
+      "reina/throw/german",
+      "reina/counter/dragon-tail"
+    ],
+    "systems": [
+      "qa242",
+      "action-admission",
+      "hit-reactions",
+      "director",
+      "fighter-rendering",
+      "asset-loading",
+      "hero-reina"
+    ],
+    "levels": [
+      "all-combat-scenes",
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": true,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "REINA389-CHARACTER-REPAIR"
+  ]
+}

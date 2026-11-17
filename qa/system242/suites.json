@@ -4664,6 +4664,80 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "reina389-input",
+      "command": [
+        "node",
+        "--test",
+        "tests/reina389-input.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina389-preservation",
+      "command": [
+        "node",
+        "--test",
+        "tests/reina389-preservation.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina389-view",
+      "command": [
+        "node",
+        "--test",
+        "tests/reina389-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina389-art",
+      "command": [
+        "python",
+        "tests/reina389-art.py"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "reina389-native-render",
+      "command": [
+        "node",
+        "tools/qa242/reina389-render-audit.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports389/repaired-native.json",
+        "reports389/repaired-native-R.webp",
+        "reports389/repaired-native-L.webp",
+        "reports389/repaired-scene.webp"
+      ]
     }
   ],
   "manualGates": [
