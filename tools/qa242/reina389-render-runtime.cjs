@@ -2,7 +2,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),{load}=require('./reina389-native.cjs');
 const prerequisites=require('../fighter-render/prerequisites.cjs');
 async function renderLoad(seed=290,baseline=false,baseline297=false,flags={}){
- const {createCanvas,Image}=prerequisites.requireCanvas(),original=prerequisites.selectScripts(),allowed=new Set([...original,'reina354-data.js','reina-bindings354.js','reina-view354.js','katana355-data.js','katana-view355.js','downtown-art345.js','downtown-view351.js','knife363.js']),entry=[...fs.readFileSync('dist/downtown360.html','utf8').matchAll(/<script src="([^"?]+)(?:[^"]*)"/g)].map(m=>m[1]),files=entry.filter(f=>allowed.has(f)),r=load(seed,flags),sb=r.sb,waiting=[],images=[],errors=[],owners=[];
+ const {createCanvas,Image}=prerequisites.requireCanvas(),original=prerequisites.selectScripts(),allowed=new Set([...original,'reina354-data.js','reina-bindings354.js','reina-view354.js','katana355-data.js','katana-view355.js','downtown-art345.js','downtown-view351.js','knife363.js']),entry=[...fs.readFileSync('dist/downtown360.html','utf8').matchAll(/<script src="([^"?]+)(?:[^"]*)"/g)].map(m=>m[1]),publishedExcluded=flags.publishedDowntown?new Set(require('../../qa/system242/published-downtown-render.json').excluded):new Set(),files=entry.filter(f=>allowed.has(f)&&!publishedExcluded.has(f)),r=load(seed,flags),sb=r.sb,waiting=[],images=[],errors=[],owners=[];
  // Native scene installation precedes rendering; each draw owner executes once in shipping order.
  for(const f of ['downtown-rooms350.js','downtown345.js'])vm.runInContext(fs.readFileSync('dist/'+f,'utf8'),sb,{filename:f});
  if(new Set(files).size!==files.length)throw Error('Duplicate shipping render module');
