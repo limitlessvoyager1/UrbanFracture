@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "cc73f9d20ed9b4ca00ec32cf482401201766931e",
-  "runtimeTree": "5dee8b6fdcd32007d2ffb0b13efc55fca6825455",
+  "sourceCommit": "3f49d550cee585ae7fd154631b2661a685be65f9",
+  "runtimeTree": "d1693e40e213b647b8d5e40521da18b34bf9acd4",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -3632,6 +3632,14 @@
       "sha": "e4c5668310b832087a628e9fb369f5ae8655cd1f"
     },
     {
+      "path": "dist/assets/reina395/contact.webp",
+      "sha": "3e72148734a31df55b0b3d35f489594592317dd7"
+    },
+    {
+      "path": "dist/assets/reina395/swing-throw.webp",
+      "sha": "c9ad1292353e64b62db73f3fac61b9cf30979747"
+    },
+    {
       "path": "dist/assets/repair262/fear-0.webp",
       "sha": "8f60712932d829f7ccde94823e4f38931eae2cb6"
     },
@@ -5997,7 +6005,7 @@
     },
     {
       "path": "dist/combat-view248.js",
-      "sha": "420dcd67d066e92ad10a205e4e6856a01938f1ce"
+      "sha": "9b9adee050a05965e98d16062bdd7818bf66ad51"
     },
     {
       "path": "dist/combat-view274.js",
@@ -6429,7 +6437,7 @@
     },
     {
       "path": "dist/flint211.js",
-      "sha": "ee4d6f3852e2d52a8bcbb83ebd2764b1dd8cc9e0"
+      "sha": "ad3b1b7439e1f96486f54fd1d39566ee9895f0a6"
     },
     {
       "path": "dist/flint350-art.js",
@@ -6445,7 +6453,7 @@
     },
     {
       "path": "dist/flint351.js",
-      "sha": "2037965bf993496cc1f4296ea398b3361320e1f9"
+      "sha": "93930f816477d387a000642b7aeb94566d724bf6"
     },
     {
       "path": "dist/forest-ai177.js",
@@ -7617,7 +7625,7 @@
     },
     {
       "path": "dist/recording313.js",
-      "sha": "9f855f640a9bc56bf22abd45db9a9a13c1c4233d"
+      "sha": "72f09726ad751530ebeb40c1cdeebba92ef8f6a3"
     },
     {
       "path": "dist/recovery-data.js",
@@ -7701,19 +7709,19 @@
     },
     {
       "path": "dist/reina-view354.js",
-      "sha": "a390a48ab4c086c2cf392713a92532d3d203b752"
+      "sha": "48371c5165692635090db0877858b35ff562840f"
     },
     {
       "path": "dist/reina-view381.js",
-      "sha": "1b4d2885b15cb648e874eadd93a2a87383b12696"
+      "sha": "9755c0b5a75d63a1b3cb0ed08c504f460cfadb99"
     },
     {
       "path": "dist/reina-view382.js",
-      "sha": "872344d1749557fbb2ef4d6554868f467920c0c6"
+      "sha": "4f3fa1570c75550d9446e07c05cf3c63c713017e"
     },
     {
       "path": "dist/reina-view383.js",
-      "sha": "d8fb25172c975b53feadeb698643dce5e92c7a96"
+      "sha": "b4e04f5ed0ad4046fdd8fe58d82e86c69c337b19"
     },
     {
       "path": "dist/reina-walk280-data.js",
@@ -7753,7 +7761,7 @@
     },
     {
       "path": "dist/reina291.js",
-      "sha": "15cf59b82a5e4465bc35e8c47155b5228244b66e"
+      "sha": "a833a43a7b762e3d258a97d508918dd52bc0399a"
     },
     {
       "path": "dist/reina312-data.js",
@@ -8249,7 +8257,7 @@
     },
     {
       "path": "dist/visual362.js",
-      "sha": "5657882172b84e32541e810dfe039fbdf9cd57a6"
+      "sha": "8ece115e094e8adac04a4b1fc8f22ce46e04a679"
     },
     {
       "path": "dist/walk-data.js",
@@ -9157,7 +9165,7 @@
     },
     {
       "path": "tests/flint211.cjs",
-      "sha": "c6f2c4e521327dbe608343ee7551aec2cee40dc8"
+      "sha": "76f25154b4da871d23e2c00060d85976774f4b7e"
     },
     {
       "path": "tests/flint350.cjs",
@@ -9165,7 +9173,7 @@
     },
     {
       "path": "tests/flint351.cjs",
-      "sha": "fd6b49cffe1d8350880d06392d689d07a9377a91"
+      "sha": "3667c4050f5381f10203a2c626d2fd38dddd76c0"
     },
     {
       "path": "tests/flint70.test.cjs",
@@ -10429,7 +10437,7 @@
     },
     {
       "path": "tests/reina389-view.cjs",
-      "sha": "7265ed1c278bb7f1c9b882e9d4c55e9fb4727ff2"
+      "sha": "2da3a7f1fe154c538c0d40600a71e45bcd085bd1"
     },
     {
       "path": "tests/reina390-art.py",
@@ -10441,11 +10449,15 @@
     },
     {
       "path": "tests/reina390-native.cjs",
-      "sha": "80792f87577f0c1659a7d32d22675521d5330dfa"
+      "sha": "15cd564965930a2d7eadcff51de98e59d964f0f6"
     },
     {
       "path": "tests/reina390-view.cjs",
       "sha": "309af801d232ff49f320fd94ab5227be60757c7a"
+    },
+    {
+      "path": "tests/reina395-recovery.cjs",
+      "sha": "d1aba621ca222b70db1d79f573acd1812512f853"
     },
     {
       "path": "tests/render169.cjs",
