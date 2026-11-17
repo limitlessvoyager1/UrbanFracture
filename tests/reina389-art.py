@@ -15,6 +15,9 @@ for row in C['images']:
   if key=='motion' and 12<=i<20:assert ys.max()<=f['ay']+1,(i,'run contact falls below ground')
   count+=1
 assert count==204
+# Reviewed cell40 contains a neighboring cell's blade tip at its far-right edge.
+# Its compiled region is outside Reina's body/scabbard and must be transparent.
+loc=defs['reina381']['loc'];f=loc['frames'][40];im=Image.open(R/'dist/assets/reina381/loc.webp').convert('RGBA');x,y,_,_=f['rect'];island=np.asarray(im.crop((x+274,y+300,x+288,y+315)))[:,:,3];assert island.max()==0,'Neighbor blade sliver leaked into sword-draw cell40'
 # Runtime weapon sockets must remain byte-for-byte the reviewed native source metadata.
 old=json.loads((Q/'reina382-data-before389.js.txt').read_text().split('=',1)[1].rstrip(';\n'));assert defs['reina382']==old
 assert C['artisticApproval'] is False and C['physicalController'] is False

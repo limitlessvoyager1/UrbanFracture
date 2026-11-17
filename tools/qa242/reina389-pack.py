@@ -16,6 +16,9 @@ for key,family,cols,bands,order,norm in specs:
  run_ground=max(166+[2,0,-4,-6,2,0,-4,-6][i-12]+round((cells[i][1][3]-cells[i][1][1])*factor) for i in range(12,20))-340 if key=='motion' else 0
  for j,i in enumerate(order):
   box,b=cells[i];cell=new.crop(box);w,h=round((b[2]-b[0])*factor),round((b[3]-b[1])*factor)
+  # Reviewed neighboring-cell blade bleed, present in original (9 opaque px)
+  # and edited source (32 px); outside the actor and corrected hip scabbard.
+  if key=='loc' and i==40:cell.paste((0,0,0,0),(170,140,181,154))
   if family=='reina381':
    waist=waists[key][i];dx=ax-waist[0]*factor;dy=ay-b[3]*factor
    oldfactor=min(factor,234/(b[3]-b[1]));oldroot=(waist[0]-(b[0]+b[2])/2)*oldfactor*148/190

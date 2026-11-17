@@ -16,7 +16,7 @@
       },
       "compiled": {
         "path": "dist/assets/reina381/loc.webp",
-        "sha256": "224726286b30531cf89c4ea090487169378e044dbc9f8514fb90d0609be3bb98"
+        "sha256": "45c4e1c7ed04410fa3631b2e9acef70c43b159128b8301e3fcb7fa336a2bedfa"
       },
       "baseline": {
         "path": "qa/system242/repair-references/reina389/loc-before389.webp",
@@ -109,5 +109,16 @@
     }
   ],
   "artisticApproval": false,
-  "physicalController": false
+  "physicalController": false,
+  "extractionCorrection": {
+    "sheet": "loc",
+    "cell": 40,
+    "sourceRect": [
+      170,
+      140,
+      181,
+      154
+    ],
+    "reason": "Reviewed neighboring-cell blade sliver; original 9 opaque pixels, edited 32. Outside actor/scabbard; original and edited source PNGs remain frozen."
+  }
 }
