@@ -1,0 +1,7 @@
+# Orion HD renderer ownership prerequisite
+
+QA-only prerequisite for the weapon-aim repair on PR #20, based on PR #19 at 51bd06be8f5378b1630b73da3cd2b54fdb6ddd6a. The exact existing module dist/orion-view384.js is assigned to shared-fighter-rendering, owned by limitlessvoyager1. The module's comparison-base blob is b57432df27bb8c2836bf8f1ef1de7f08e91828f4. Its PolishedSprites.draw wrapper owns Orion HD drawing and delegates other characters, so the existing shared rendering owner and conservative rendering suites apply.
+
+Only an explicit path is added. No wildcard, planner exception, reduced test selection, gameplay, asset, source index, certification status or owner is changed. This is semantic responsibility mapping; it does not claim that the older main entrypoint loads the HD module, or that all dynamic/published entrypoints have been inventoried.
+
+The impact planner continues reading its comparison-base registry. PR #20's original unmapped-file failure is retained in workflow run 43987892714; no old report is relabeled. PR #20 must use this prerequisite as its comparison base, with its original gameplay diff preserved. A clean ownership plan only resolves this one metadata blocker. QA pilot owner-comment acceptance, game art/screenshot/move/balance/performance gates and physical controller evidence remain separate and incomplete. No stack merge, branch-protection change or publication is included.
