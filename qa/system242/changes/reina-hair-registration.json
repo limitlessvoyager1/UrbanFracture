@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "reina-hair-registration",
+  "description": "QA-only registration for the requested untied-hair correction in the eight-frame air down-strike and four-frame kip-up; current native traces and original art remain preserved.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/changes/reina-hair-registration.json",
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "qa/system242/reina396-hair-contract.json",
+    "qa/system242/repair-references/reina396/data-before-hair.json",
+    "qa/system242/repair-references/reina396/native-before-hair.json",
+    "tools/qa242/reina396-contract.cjs",
+    "qa/system242/repair-references/reina396/katana-view355.before-hair.js.txt",
+    "qa/system242/repair-references/reina396/katana355-data.before-hair.js.txt"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "REINA396-HAIR-REGISTRATION"
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "schema": 1,
+  "id": "reina396-air-and-kip-hair",
+  "base": "d169a852da756b5fa949f1204467b1cc92482859",
+  "originalDataSHA256": "ef2e85d447e88773f09cf5a903e29116cd83fa9db08c59b8a7b94308bf5e68f8",
+  "assets": [
+    {
+      "path": "dist/assets/reina396/katana-dive.webp",
+      "bytes": 71750,
+      "sha256": "a6c58f3eb419840a97ca8c6810a3e047593dd9747dc8877d8827db5bdefdc7ad"
+    },
+    {
+      "path": "dist/assets/reina396/kip.webp",
+      "bytes": 210352,
+      "sha256": "5056d1d6a1aadc48b7d54226c77fbf493622caa70d857896457818d6df0ed445"
+    }
+  ],
+  "sourceReferences": [
+    {
+      "path": "dist/assets/reina354/dive.webp",
+      "sha256": "591a03f692dbbfdb8d55f9f4c81fa11c8b5aeef6790179dc26066dedbe565865"
+    },
+    {
+      "path": "dist/assets/reina354/extra-1.webp",
+      "sha256": "0ea1e04c5edd1c55c73d1db984f288d99a22a1c03b712b5ea3f0a5b4d41ef7f8"
+    },
+    {
+      "path": "dist/assets/katana355/swords-2.webp",
+      "sha256": "8508a2623cd9241c6642ec93ea9569f595d89c222268e58f62030ca07599f2a7"
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana355-data.before-hair.js.txt",
+      "sha256": "4e5d7ffd8fe1c8b8c4679382382869e27a8d08dea12e3a1de13680c7a6be6eb0"
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana-view355.before-hair.js.txt",
+      "sha256": "444c4e0eea1cc1eaa272818281473ed7920eda96b90f85e394b54b79c8afe331"
+    }
+  ],
+  "normalRecoveryUnchanged": {
+    "path": "dist/assets/reina383/motion.webp",
+    "sha256": "76c9367678616a7e0dcec590d92809bd964c0a5da14eeb77967cd59f3edd9bd9"
+  },
+  "poses": 12,
+  "frames": {
+    "dive": 8,
+    "kip": 4
+  },
+  "importMetrics": [
+    {
+      "id": "dive/0",
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8427672955974843,
+      "onePixelMaskIoU": 0.8896940418679549,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": -1,
+      "encodedHeightDelta": -1,
+      "registration": {
+        "k": 1.01,
+        "dx": -2,
+        "dy": 0
+      }
+    },
+    {
+      "id": "dive/1",
+      "bodyWidthRatio": 0.9782608695652174,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.8023207625362619,
+      "onePixelMaskIoU": 0.8413068844807468,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.02,
+        "dx": -1,
+        "dy": -1
+      }
+    },
+    {
+      "id": "dive/2",
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.8287092882991556,
+      "onePixelMaskIoU": 0.8873197999411592,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 1,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -1
+      }
+    },
+    {
+      "id": "dive/3",
+      "bodyWidthRatio": 1.011111111111111,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.7955539358600583,
+      "onePixelMaskIoU": 0.872369131138694,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -1
+      }
+    },
+    {
+      "id": "dive/4",
+      "bodyWidthRatio": 0.9887640449438202,
+      "bodyBottomDelta": -1,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.8359345260753711,
+      "onePixelMaskIoU": 0.873734533183352,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -2
+      }
+    },
+    {
+      "id": "dive/5",
+      "bodyWidthRatio": 1.0194174757281553,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8738704819277109,
+      "onePixelMaskIoU": 0.9085112281674522,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": 0,
+        "dy": -1
+      }
+    },
+    {
+      "id": "dive/6",
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.828167115902965,
+      "onePixelMaskIoU": 0.8700578592092575,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 1,
+      "registration": {
+        "k": 1.02,
+        "dx": 0,
+        "dy": -2
+      }
+    },
+    {
+      "id": "dive/7",
+      "bodyWidthRatio": 1.0097087378640777,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8128474366893144,
+      "onePixelMaskIoU": 0.8577306193157211,
+      "sourcePixelTolerance": 1,
+      "encodedRootDelta": 0,
+      "encodedHeightDelta": 0,
+      "registration": {
+        "k": 1.01,
+        "dx": -1,
+        "dy": -1
+      }
+    },
+    {
+      "id": "kip/0",
+      "scale": 1.438423645320197,
+      "bodyWidthRatio": 0.9936305732484076,
+      "bodyBottomDelta": 0,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.7313614129542694,
+      "originalBody": [
+        213,
+        347,
+        526,
+        638
+      ],
+      "newBody": [
+        214,
+        347,
+        525,
+        638
+      ]
+    },
+    {
+      "id": "kip/1",
+      "scale": 0.6484472049689441,
+      "bodyWidthRatio": 1.0192307692307692,
+      "bodyBottomDelta": -1,
+      "bodyHeightDelta": -1,
+      "bodyMaskIoU": 0.7656121045392023,
+      "originalBody": [
+        166,
+        112,
+        477,
+        633
+      ],
+      "newBody": [
+        163,
+        112,
+        480,
+        632
+      ]
+    },
+    {
+      "id": "kip/2",
+      "scale": 1.461187214611872,
+      "bodyWidthRatio": 0.9848484848484849,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.7171564390665515,
+      "originalBody": [
+        62,
+        310,
+        457,
+        629
+      ],
+      "newBody": [
+        66,
+        311,
+        455,
+        630
+      ]
+    },
+    {
+      "id": "kip/3",
+      "scale": 1.5169230769230768,
+      "bodyWidthRatio": 1,
+      "bodyBottomDelta": 1,
+      "bodyHeightDelta": 1,
+      "bodyMaskIoU": 0.787245349867139,
+      "originalBody": [
+        111,
+        137,
+        451,
+        629
+      ],
+      "newBody": [
+        111,
+        137,
+        451,
+        630
+      ]
+    }
+  ],
+  "certified": false,
+  "manualReview": [
+    "loose nape-rooted hair in all twelve poses; no tie or high tail",
+    "face, costume and native pose registration",
+    "both facings at real speed",
+    "no body-size or ground-root popping",
+    "physical DSX DS4 and owner artistic signoff"
+  ],
+  "importMethod": "Normalize the original fractional 313.5-pixel Katana355 cells to exact 320-pixel cells, then register uniform body scale/head/foot landmarks. Exported raw overlap remains >=0.70; one-pixel overlap is diagnostic only. Kip anchors/scales retained and prepared once.",
+  "masters": [
+    {
+      "path": "qa/system242/repair-references/reina396/kip-master.webp",
+      "originalPNG_SHA256": "a392901c08476a7b3b430321e02f1dcf74f29afc26268e2ca4cc5543cc9a6dc1",
+      "masterSHA256": "e3b6f3c27ba04e1975edc0116370423151ffbd1ee52a1e0c28dfde6f3c6161cd",
+      "rgbaSHA256": "c314be00a9bb40a0d95e544f3ae19837741e13c71faeef4717d2d13c7ebd42cd",
+      "size": [
+        2172,
+        724
+      ],
+      "bytes": 430284
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/kip-raised-master.webp",
+      "originalPNG_SHA256": "a82fd290396c4c0d36dfa9daa467803cb8fcecb0e70d7cd7d2bedba502fcfcfa",
+      "masterSHA256": "6b567bd50cc0b0f88822812d1bdad3cb456897f71a247ba5f10176ed6acdefae",
+      "rgbaSHA256": "d7be156dd22639f947c85758f563b5815fa2635bd2d3b5c025e0c39dd5750f67",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 380664
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana-short-master.webp",
+      "originalPNG_SHA256": "689274a2932a797e2a5b89503e42111b696073fd521d88110e73b2d3c70b54f7",
+      "masterSHA256": "20c3ae9083f57c82ce51911cfcb6ed5ade156fd303bcb3d935cd6321346d95bc",
+      "rgbaSHA256": "626af973853e345d6e22b7ad03d7ffb904d4c787e8c7b9fd8f7fb8276c7c8aa2",
+      "size": [
+        1774,
+        887
+      ],
+      "bytes": 884798
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/katana-one-short-master.webp",
+      "originalPNG_SHA256": "4a003bbd7688f777ced92c1613657e225bdf2faec69301064f5b19991316f9b0",
+      "masterSHA256": "5340eb37b2c0c9a35af8907f7b3fb69048fad8449397b76a5eeeb742f9ed674f",
+      "rgbaSHA256": "c4ad63af19042b816b0560f4d683d79a22b58671d7994545270579ad668de732",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 441046
+    }
+  ],
+  "activeKatanaRoute": {
+    "originalSheetSize": [
+      1254,
+      1254
+    ],
+    "replacementSheetSize": [
+      1280,
+      1280
+    ],
+    "originalRendererUnchanged": true,
+    "unchangedDestinationGeometry": true
+  },
+  "bladeShortening": {
+    "requested": "slightly shorter katana",
+    "artTargetFraction": 0.05,
+    "mechanicalReachChanged": false,
+    "ownerApproval": false
+  }
+}

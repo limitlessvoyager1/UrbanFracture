@@ -417,21 +417,25 @@
         "reina392-render",
         "reina393-published-render",
         "reina394-published-native",
-        "reina395-art-contract"
+        "reina395-art-contract",
+        "reina396-hair-contract"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
         "broxton369-native-gait-order",
-        "reina395-contact-recovery"
+        "reina395-contact-recovery",
+        "reina396-dive-kip-mirrored"
       ],
       "performanceRisk": true,
       "specs": [
         "QA242-STYLE-BIBLE.md",
         "tools/fighter-render/README.txt",
-        "qa/system242/reina395-contract.json"
+        "qa/system242/reina395-contract.json",
+        "qa/system242/reina396-hair-contract.json"
       ],
       "contentIds": [
-        "reina395-contact-recovery"
+        "reina395-contact-recovery",
+        "reina396-air-and-kip-hair"
       ],
       "certification": "partial"
     },

@@ -4895,6 +4895,19 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "reina396-hair-contract",
+      "command": [
+        "node",
+        "tools/qa242/reina396-contract.cjs"
+      ],
+      "framework": "qa-contract",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [
