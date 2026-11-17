@@ -401,7 +401,12 @@
         "fighter-render-bootstrap",
         "reina383-render-audit",
         "broxton369-gait-order",
-        "orion388-weapon-aim"
+        "orion388-weapon-aim",
+        "reina389-input",
+        "reina389-preservation",
+        "reina389-view",
+        "reina389-art",
+        "reina389-native-render"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
@@ -504,7 +509,12 @@
         "reina382-current",
         "reina383-current",
         "reina383-render-audit",
-        "counter-weapon248"
+        "counter-weapon248",
+        "reina389-input",
+        "reina389-preservation",
+        "reina389-view",
+        "reina389-art",
+        "reina389-native-render"
       ],
       "visualScenarios": [],
       "performanceRisk": true,

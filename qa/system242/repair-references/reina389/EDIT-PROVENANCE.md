@@ -1,0 +1,7 @@
+# Reina accessory source edits
+
+The five original PNG sheets are retained alongside five accessory edits produced with the built-in ImageGen tool. The user requested scabbard attachment at the hip, loose-hair portrait identity and current character design preservation. The edit brief locked grid, ordering, pose, body, face, hair, costume, hands and blade choreography, and changed only sheath attachment to the waist/hip. Sources and compiled bytes are SHA256-bound by asset-contract.json. Visual comparison was performed on raw grids and native scenes; owner artistic approval remains pending.
+
+Original authored sources remain in source-art/reina381, source-art/reina382 and source-art/reina383 in the published source history. The importer registers edited pixels using original source coordinates, keeps weapon socket metadata unchanged, replaces blade-dependent horizontal centering with reviewed waist points for the stance sheets, and preserves all native action clocks. The normal model scale is 0.91 instead of 0.86 (about 5.8% larger).
+
+The first development pack omitted eight core cells; the final sequential import and integrity test require all 204 output cells, nonempty bounds and no clipping. Initial fixture errors (missing browser window/Image preconditions) are retained in the view logs; they were corrected in test setup without gameplay changes. The original six failed held-grab cases are retained in input-before.log and reproduced by the retained-source negative test. No failed historical receipt is relabeled.

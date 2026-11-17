@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\spiri\Documents\Codex\2026-11-15\ca\work\UrbanFracturePublished\.sites-checkout\tests\reina389-art.py", line 20, in <module>
+    loc=defs['reina381']['loc'];f=loc['frames'][40];im=Image.open(R/'dist/assets/reina381/loc.webp').convert('RGBA');x,y,_,_=f['rect'];island=np.asarray(im.crop((x+274,y+300,x+288,y+315)))[:,:,3];assert island.max()==0,'Neighbor blade sliver leaked into sword-draw cell40'
+                                                                                                                                                                                                           ^^^^^^^^^^^^^^^
+AssertionError: Neighbor blade sliver leaked into sword-draw cell40

@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "referenceSiteSource": "cfd4e8248628ca7446fb1e7f35362eec1387646d",
+  "images": [
+    {
+      "key": "loc",
+      "family": "reina381",
+      "frames": 48,
+      "original": {
+        "path": "qa/system242/repair-references/reina389/loc-original-source.png",
+        "sha256": "07bd5bf0b6a3cca92846460f8fa47e0c2151a85bb92c84dd1450dd4801a4ee94"
+      },
+      "edited": {
+        "path": "qa/system242/repair-references/reina389/loc-scabbard-source.png",
+        "sha256": "a4778b63585f3972f22215028114f9a57479aa299e48eac4a7456be070e0e254"
+      },
+      "compiled": {
+        "path": "dist/assets/reina381/loc.webp",
+        "sha256": "45c4e1c7ed04410fa3631b2e9acef70c43b159128b8301e3fcb7fa336a2bedfa"
+      },
+      "baseline": {
+        "path": "qa/system242/repair-references/reina389/loc-before389.webp",
+        "sha256": "0b50ef3aeecae8e99ea594916fec916342ee6a90d0d1909c6dcb280bd24304a0"
+      }
+    },
+    {
+      "key": "att",
+      "family": "reina381",
+      "frames": 48,
+      "original": {
+        "path": "qa/system242/repair-references/reina389/att-original-source.png",
+        "sha256": "92aa500f200699dab2d3535ae32679c6f8671960048243689e523b493c0cbba9"
+      },
+      "edited": {
+        "path": "qa/system242/repair-references/reina389/att-scabbard-source.png",
+        "sha256": "b77181b0a7d901996bdf9e0e0ea0a417e607a9766b72f30486df1ca351f0ca17"
+      },
+      "compiled": {
+        "path": "dist/assets/reina381/att.webp",
+        "sha256": "c39c077e92fa0ba7977f6b7bf0ef97db0ce1b74600963555316a9b8c3c793c09"
+      },
+      "baseline": {
+        "path": "qa/system242/repair-references/reina389/att-before389.webp",
+        "sha256": "f2cdd34a8baeb708b1027abe119363a1226dad8c85e0fb1a60d6ab217c2760f4"
+      }
+    },
+    {
+      "key": "corrections",
+      "family": "reina382",
+      "frames": 48,
+      "original": {
+        "path": "qa/system242/repair-references/reina389/corrections-original-source.png",
+        "sha256": "9a51fa03402563cafd3f91c4663c24923a6953db4e8883ca7fc3f62711b4ea31"
+      },
+      "edited": {
+        "path": "qa/system242/repair-references/reina389/corrections-scabbard-source.png",
+        "sha256": "ad2807b244b6fed8808fdfc2ab2f7f1cb6831245818fcad697cb474cb2dbe9e2"
+      },
+      "compiled": {
+        "path": "dist/assets/reina382/corrections.webp",
+        "sha256": "7a9a8d9cb46b78647d413af740d8dafb4b415aa07a613669a474002f98686837"
+      },
+      "baseline": {
+        "path": "qa/system242/repair-references/reina389/corrections-before389.webp",
+        "sha256": "cf8d1a11b503715364ebcf87e9238c092cfc7da86c29dc124e036543ff0f37f8"
+      }
+    },
+    {
+      "key": "extra",
+      "family": "reina382",
+      "frames": 32,
+      "original": {
+        "path": "qa/system242/repair-references/reina389/extra-original-source.png",
+        "sha256": "14455bd0b83b1625ede1e9de12b9b93f47766883fc91a2bd599da2862d149d67"
+      },
+      "edited": {
+        "path": "qa/system242/repair-references/reina389/extra-scabbard-source.png",
+        "sha256": "0e2bcf2523c2700aa50fd5e74a4555f15151f2fa181eb91e2888514336898542"
+      },
+      "compiled": {
+        "path": "dist/assets/reina382/extra.webp",
+        "sha256": "de30bada6f3e8bdd92035f6386c274256bc12c18d0533dc738393b38a0dd8425"
+      },
+      "baseline": {
+        "path": "qa/system242/repair-references/reina389/extra-before389.webp",
+        "sha256": "04d2db36d354326436ec7fd3b4e2604bb577a8af590bb704eb49479b2be8492b"
+      }
+    },
+    {
+      "key": "motion",
+      "family": "reina383",
+      "frames": 28,
+      "original": {
+        "path": "qa/system242/repair-references/reina389/motion-original-source.png",
+        "sha256": "5632e656c202bc5e6627bc014fffdc3de070d31b2d2ffeaf0e8088d0aab32b77"
+      },
+      "edited": {
+        "path": "qa/system242/repair-references/reina389/motion-scabbard-source.png",
+        "sha256": "974076c15bd57a9dd0a6dca39efcbea0e417050772205bac37667d89ff7bd57e"
+      },
+      "compiled": {
+        "path": "dist/assets/reina383/motion.webp",
+        "sha256": "81b89af8d7d9fb894317ae5fcdd650e43d16fbbe04e061d39f8e609b0d46588a"
+      },
+      "baseline": {
+        "path": "qa/system242/repair-references/reina389/motion-before389.webp",
+        "sha256": "5643266801a6bd73e60c13a920a4a57966d36ae0fe37c975dfdd3e3124e2c7c7"
+      }
+    }
+  ],
+  "artisticApproval": false,
+  "physicalController": false,
+  "extractionCorrection": {
+    "sheet": "loc",
+    "cell": 40,
+    "sourceRect": [
+      170,
+      140,
+      181,
+      154
+    ],
+    "reason": "Reviewed neighboring-cell blade sliver; original 9 opaque pixels, edited 32. Outside actor/scabbard; original and edited source PNGs remain frozen."
+  }
+}
