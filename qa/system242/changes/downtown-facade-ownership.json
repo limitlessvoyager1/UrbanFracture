@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "downtown-facade-ownership",
+  "description": "QA-only exact ownership of the existing Downtown facade and fighter renderer before its seam repair.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/changes/downtown-facade-ownership.json",
+    "qa/system242/repairs/DOWNTOWN394-FACADE-OWNERSHIP.md"
+  ],
+  "features": [
+    "qa242"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "DOWNTOWN394-FACADE-OWNERSHIP"
+  ]
+}
