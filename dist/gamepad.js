@@ -1,13 +1,20 @@
 
 (function(root){'use strict';
 const bindings={jump:0,dodge:1,attack:2,special:3,block:4,counter:5,grab:6,run:7,pickup:11,unique:7,pause:9},sonyBindings={jump:1,dodge:2,attack:0,special:3,block:4,counter:5,grab:6,run:7,pickup:11,unique:7,pause:9};
-const sony=p=>/dualsense|dualshock|054c|playstation|wireless controller/i.test(p?.id||'');
+const sony=p=>!/xbox|xinput|microsoft/i.test(p?.id||'')&&/dualsense|dualshock|054c|playstation|wireless controller/i.test(p?.id||'');
 const down=(p,i)=>Number.isInteger(i)&&i>=0&&(!!p.buttons?.[i]?.pressed||(p.buttons?.[i]?.value||0)>.5);
 class Reader{
  constructor(){this.index=null;this.id='';this.previous={};this.wasConnected=false;this.mode='auto';this.lastLayout='';this.preferredIndex=null;this.profiles={};this.engaged=false;}
  sample(pads=[]){const all=Array.from(pads||[]).filter(p=>p&&p.connected!==false),available=all;const active=p=>p.buttons?.some(b=>b?.pressed||b?.value>.5)||Math.abs(p.axes?.[0]||0)>.25||Math.abs(p.axes?.[1]||0)>.25;
  let pad=this.preferredIndex!==null?available.find(p=>p.index===this.preferredIndex):available.find(p=>p.index===this.index&&p.id===this.id);
  if(this.preferredIndex===null&&(!pad||!this.engaged&&!active(pad)))pad=available.find(p=>active(p)&&p.mapping==='standard')||available.find(active)||pad||available.find(p=>p.mapping==='standard')||available[0];
+ // DSX may expose both physical Sony and virtual XInput/DS4 devices. In auto
+ // mode choose the mapped virtual stream even if the physical stream engaged
+ // first. Explicit device/raw choices remain authoritative; never merge pads.
+ if(this.preferredIndex===null&&this.mode==='auto'){
+  const mapped=available.find(p=>p.mapping==='standard'&&/dsx|xinput|xbox 360 controller/i.test(p.id))||available.find(p=>p.mapping==='standard'&&sony(p)&&available.some(q=>q!==p&&sony(q)&&q.mapping!=='standard'));
+  if(mapped&&available.some(p=>p!==mapped&&sony(p)))pad=mapped;
+ }
  let profile=pad&&this.mode==='auto'&&this.profiles[pad.id];if(profile&&(!profile.buttons||!['attack','jump','pause'].every(k=>Number.isInteger(profile.buttons[k])&&profile.buttons[k]>=0)))profile=null;if(profile?.buttons&&(profile.buttons.run===5||profile.buttons.run===profile.buttons.counter)){profile={...profile,buttons:{...profile.buttons,block:4,counter:5,grab:6,run:7}};this.profiles[pad.id]=profile;}if(profile?.buttons&&profile.buttons.counter===undefined&&profile.buttons.grab!==undefined){profile={...profile,buttons:{...profile.buttons,counter:profile.buttons.grab,grab:profile.buttons.secondaryGrab??(Object.values(profile.buttons).includes(6)?-1:6)}};this.profiles[pad.id]=profile;}if(profile?.buttons&&profile.buttons.pickup===undefined&&!Object.values(profile.buttons).includes(11))profile={...profile,buttons:{...profile.buttons,pickup:11}};if(profile?.buttons&&profile.buttons.unique===undefined){const taken=Object.entries(profile.buttons).some(([k,v])=>k!=='run'&&v===7);if(!taken)profile={...profile,buttons:{...profile.buttons,unique:7}};}const connected=!!pad,layout=profile?'custom':this.mode==='sony'||this.mode==='auto'&&pad?.mapping!=='standard'&&sony(pad)?'sony':'standard',changed=connected!==this.wasConnected||connected&&(pad.index!==this.index||pad.id!==this.id||layout!==this.lastLayout);
  if(changed){this.previous={};this.engaged=false;}if(pad&&active(pad))this.engaged=true;this.wasConnected=connected;this.index=pad?.index??null;this.id=pad?.id||'';this.lastLayout=layout;
  if(!pad)return{connected:false,changed,held:{},pressed:[],released:[],neutral:true,buttonsNeutral:true,count:all.length,devices:all.map(p=>({index:p.index,id:p.id}))};
