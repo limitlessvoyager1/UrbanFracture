@@ -6,13 +6,13 @@
   "assets": [
     {
       "path": "dist/assets/reina396/dive.webp",
-      "bytes": 233224,
-      "sha256": "c4fed21fb9fc0220504d4fa192d3aec90c4bacf36dd0495b169d66eab2242dca"
+      "bytes": 301700,
+      "sha256": "32275c2c61cbcec279b4335ec4c0e6bfa168a0442c25a3fec7c082ba20c6712d"
     },
     {
       "path": "dist/assets/reina396/kip.webp",
-      "bytes": 177920,
-      "sha256": "1b5acb86987792e48eadad2abf8a02b878429178f3233cbfa1719177cbebc84e"
+      "bytes": 217316,
+      "sha256": "504a1532bf998c8620f6a25f43ddd6e255e603373884bb09aba62bc2ff986c77"
     }
   ],
   "sourceReferences": [
@@ -37,39 +37,39 @@
   "importMetrics": [
     {
       "id": "dive/0",
-      "scale": 1.0174825174825175,
-      "bodyWidthRatio": 1.004255319148936,
+      "scale": 1.013986013986014,
+      "bodyWidthRatio": 1.0042735042735043,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8703923228902061,
+      "bodyMaskIoU": 0.869332726548723,
       "originalBody": [
+        92,
+        66,
+        325,
+        355
+      ],
+      "newBody": [
         91,
         66,
         325,
-        356
-      ],
-      "newBody": [
-        90,
-        66,
-        325,
-        356
+        355
       ]
     },
     {
       "id": "dive/1",
       "scale": 0.985663082437276,
-      "bodyWidthRatio": 1.0040983606557377,
+      "bodyWidthRatio": 1.0123456790123457,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8970426454410146,
+      "bodyMaskIoU": 0.8958306441203047,
       "originalBody": [
         78,
         85,
-        321,
+        320,
         359
       ],
       "newBody": [
-        78,
+        77,
         85,
         322,
         359
@@ -97,22 +97,22 @@
     },
     {
       "id": "dive/3",
-      "scale": 1.0271317829457365,
-      "bodyWidthRatio": 1.008130081300813,
+      "scale": 1.0232558139534884,
+      "bodyWidthRatio": 1.0081632653061225,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8992060363759221,
+      "bodyMaskIoU": 0.9080257095728343,
       "originalBody": [
         77,
         145,
-        322,
-        409
+        321,
+        408
       ],
       "newBody": [
         76,
         145,
-        323,
-        409
+        322,
+        408
       ]
     },
     {
@@ -121,47 +121,47 @@
       "bodyWidthRatio": 1,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.8857326929834837,
+      "bodyMaskIoU": 0.8765432098765432,
       "originalBody": [
         82,
-        156,
+        155,
         323,
-        419
+        418
       ],
       "newBody": [
         82,
-        156,
+        155,
         323,
-        419
+        418
       ]
     },
     {
       "id": "dive/5",
-      "scale": 1.017467248908297,
-      "bodyWidthRatio": 0.9892086330935251,
-      "bodyBottomDelta": 0,
-      "bodyHeightDelta": -1,
-      "bodyMaskIoU": 0.8187633262260128,
+      "scale": 0.35758513931888547,
+      "bodyWidthRatio": 1.010752688172043,
+      "bodyBottomDelta": -1,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.840583762021919,
       "originalBody": [
-        73,
+        72,
         189,
         350,
-        421
+        419
       ],
       "newBody": [
-        75,
-        190,
-        349,
-        421
+        70,
+        188,
+        351,
+        418
       ]
     },
     {
       "id": "dive/6",
-      "scale": 0.9968454258675079,
-      "bodyWidthRatio": 1.0077519379844961,
-      "bodyBottomDelta": 0,
+      "scale": 0.3546576879910213,
+      "bodyWidthRatio": 1.0116279069767442,
+      "bodyBottomDelta": -1,
       "bodyHeightDelta": -1,
-      "bodyMaskIoU": 0.8419460950764007,
+      "bodyMaskIoU": 0.887152682255846,
       "originalBody": [
         93,
         106,
@@ -170,18 +170,18 @@
       ],
       "newBody": [
         92,
-        107,
-        351,
-        421
+        106,
+        352,
+        420
       ]
     },
     {
       "id": "dive/7",
       "scale": 1.0054347826086956,
-      "bodyWidthRatio": 0.9964285714285714,
+      "bodyWidthRatio": 1,
       "bodyBottomDelta": 0,
-      "bodyHeightDelta": -1,
-      "bodyMaskIoU": 0.8617488520662807,
+      "bodyHeightDelta": 0,
+      "bodyMaskIoU": 0.8700359209738575,
       "originalBody": [
         96,
         52,
@@ -190,89 +190,89 @@
       ],
       "newBody": [
         96,
-        53,
-        374,
+        52,
+        375,
         421
       ]
     },
     {
       "id": "kip/0",
-      "scale": 1.4433497536945812,
-      "bodyWidthRatio": 0.9968152866242038,
+      "scale": 1.438423645320197,
+      "bodyWidthRatio": 0.9936305732484076,
       "bodyBottomDelta": 0,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.7385798429319371,
+      "bodyMaskIoU": 0.7322026113772062,
       "originalBody": [
         213,
-        346,
+        347,
         526,
         638
       ],
       "newBody": [
         214,
-        346,
-        526,
+        347,
+        525,
         638
       ]
     },
     {
       "id": "kip/1",
-      "scale": 0.6372670807453417,
-      "bodyWidthRatio": 0.9968152866242038,
+      "scale": 0.6484472049689441,
+      "bodyWidthRatio": 1.0192307692307692,
       "bodyBottomDelta": -1,
       "bodyHeightDelta": -1,
-      "bodyMaskIoU": 0.8893384102808186,
+      "bodyMaskIoU": 0.7658217408038709,
       "originalBody": [
         166,
-        123,
-        479,
-        635
+        112,
+        477,
+        633
       ],
       "newBody": [
-        166,
-        123,
-        478,
-        634
+        163,
+        112,
+        480,
+        632
       ]
     },
     {
       "id": "kip/2",
-      "scale": 1.4657534246575343,
-      "bodyWidthRatio": 0.9824120603015075,
+      "scale": 1.461187214611872,
+      "bodyWidthRatio": 0.9848484848484849,
       "bodyBottomDelta": 1,
       "bodyHeightDelta": 0,
-      "bodyMaskIoU": 0.7082834411005561,
+      "bodyMaskIoU": 0.7173185864580524,
       "originalBody": [
-        61,
+        62,
         310,
-        458,
-        630
+        457,
+        629
       ],
       "newBody": [
-        65,
+        66,
         311,
         455,
-        631
+        630
       ]
     },
     {
       "id": "kip/3",
-      "scale": 1.52,
+      "scale": 1.5169230769230768,
       "bodyWidthRatio": 1,
       "bodyBottomDelta": 1,
       "bodyHeightDelta": 1,
-      "bodyMaskIoU": 0.7883581863598517,
+      "bodyMaskIoU": 0.7872512579331968,
       "originalBody": [
         111,
         137,
         451,
-        630
+        629
       ],
       "newBody": [
         111,
         137,
         451,
-        631
+        630
       ]
     }
   ],
@@ -283,5 +283,63 @@
     "both facings at real speed",
     "no body-size or ground-root popping",
     "physical DSX DS4 and owner artistic signoff"
+  ],
+  "importMethod": "Anatomical skin/gold landmarks, native alpha threshold 96, existing ax/ay/scale retained; prepared frames bypass a second alpha-height normalization.",
+  "masters": [
+    {
+      "path": "qa/system242/repair-references/reina396/dive-master.webp",
+      "originalPNG_SHA256": "31ffe4767d67ca20afa1469aef2b251c6c434c68fac056b2289244c60b9dba72",
+      "masterSHA256": "dc90e4266f6e53d5f0287e1224fbf965fe2c9f5b7a0bebb6e3ac3708de16c412",
+      "rgbaSHA256": "4f6825ca06aa2bfe283aa4636da2e5e3dab63ce1407d46b85892b1865e1b6e9f",
+      "size": [
+        1774,
+        887
+      ],
+      "bytes": 925654
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/kip-master.webp",
+      "originalPNG_SHA256": "a392901c08476a7b3b430321e02f1dcf74f29afc26268e2ca4cc5543cc9a6dc1",
+      "masterSHA256": "e3b6f3c27ba04e1975edc0116370423151ffbd1ee52a1e0c28dfde6f3c6161cd",
+      "rgbaSHA256": "c314be00a9bb40a0d95e544f3ae19837741e13c71faeef4717d2d13c7ebd42cd",
+      "size": [
+        2172,
+        724
+      ],
+      "bytes": 430284
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/kip-raised-master.webp",
+      "originalPNG_SHA256": "a82fd290396c4c0d36dfa9daa467803cb8fcecb0e70d7cd7d2bedba502fcfcfa",
+      "masterSHA256": "6b567bd50cc0b0f88822812d1bdad3cb456897f71a247ba5f10176ed6acdefae",
+      "rgbaSHA256": "d7be156dd22639f947c85758f563b5815fa2635bd2d3b5c025e0c39dd5750f67",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 380664
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/dive-braced-master.webp",
+      "originalPNG_SHA256": "dfa41f1cb056624f75d99283e9bca7fe192b00263d256db1d3467174caa8091a",
+      "masterSHA256": "3a991595c8446da4c26d341a2705d88abdfa8be240439f98dd11752dd172e19e",
+      "rgbaSHA256": "e26a29721382d0ead470bea36cf97d0e4af873d2a01809b425bca77568c0aa03",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 547788
+    },
+    {
+      "path": "qa/system242/repair-references/reina396/dive-recovery-master.webp",
+      "originalPNG_SHA256": "cda14bb6fec4bbe4beafb33e375b156a8f61bbbf5d6351cb63a95ccf6d985dd2",
+      "masterSHA256": "23e35bcb3755a4965e9bd8b5adb58f64131d4688764ab2f82aee341051ce366f",
+      "rgbaSHA256": "b9da27affde175706e17fc4f6bf68cb4b418db0ef47da269f1f39606db97230a",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 564276
+    }
   ]
 }
