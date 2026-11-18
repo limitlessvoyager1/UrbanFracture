@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "c0ba7c00b6a7278dc0290bac04949f8519ab4dda",
-  "runtimeTree": "f040164ce82bc325f8030e7febd755f647d155d6",
+  "sourceCommit": "4c8ae1a7a623c4e6dbc225b295ebd02c28fa40db",
+  "runtimeTree": "b35933574ff562369283590cffaf9182089c2761",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -626,6 +626,10 @@
     {
       "path": "dist/assets/arthur195-9.webp",
       "sha": "1b2289cb9aeba918711b0bd89b5dcd465e290dfb"
+    },
+    {
+      "path": "dist/assets/backup-cutter/cutter.webp",
+      "sha": "76e592741c3078a658ed553acbb654e78d8f1d47"
     },
     {
       "path": "dist/assets/backup365/call.webp",
@@ -5693,7 +5697,7 @@
     },
     {
       "path": "dist/backup-view365.js",
-      "sha": "5169445b2ab83be3698af816be90efe20e2c6ed8"
+      "sha": "b19b0a5600a0b892e7e064edebd923671f68c42a"
     },
     {
       "path": "dist/backup-view371.js",
@@ -5705,11 +5709,11 @@
     },
     {
       "path": "dist/backup-voice375.js",
-      "sha": "97401ca32745c7333dd8378b80b8e97b8f1ad339"
+      "sha": "57fe30e0c48459a043177db6ebca7c59c9848944"
     },
     {
       "path": "dist/backup365.js",
-      "sha": "c76e039aeba9e54451d1568ed9bc27798f70da09"
+      "sha": "f3a5a5a1a788924407fce00fec985103bca7ebae"
     },
     {
       "path": "dist/backup371-data.js",
@@ -6072,6 +6076,18 @@
       "sha": "8b0c4502169667f874b94b124312261bde9b068d"
     },
     {
+      "path": "dist/cutter-support-data.js",
+      "sha": "04988d3260a7d527b776958aa48c909fc7bd2829"
+    },
+    {
+      "path": "dist/cutter-support-view.js",
+      "sha": "c443c1c5588efe6a3b4d7eb961c53a6e4f1c9131"
+    },
+    {
+      "path": "dist/cutter-support.js",
+      "sha": "0d4e3ce05b1acebc68ae43cab6d9e008b05c7579"
+    },
+    {
       "path": "dist/destination-ui183.js",
       "sha": "21328953846bc1739c9769726f01d449c82a21d6"
     },
@@ -6225,7 +6241,7 @@
     },
     {
       "path": "dist/downtown360.html",
-      "sha": "0bc7a3f8fb57fc760c6ef8fc4632e40e7a1607ca"
+      "sha": "c88d4dcba7f9c5182bf0d02553763bb46937ede7"
     },
     {
       "path": "dist/dragon121.html",
@@ -6505,7 +6521,7 @@
     },
     {
       "path": "dist/game.js",
-      "sha": "0b41c2f7c7cfb2da975318dbc8c0aab1ae7e0c60"
+      "sha": "2f215a364574935fffcf9b514b55a109db2ac2ab"
     },
     {
       "path": "dist/game344.js",
@@ -6553,7 +6569,7 @@
     },
     {
       "path": "dist/game360.js",
-      "sha": "b1ccedf7cbb923b24b1fc3ed91208577e0647ba1"
+      "sha": "8e3552f5f3a707305dac78874379540c99d9d6ed"
     },
     {
       "path": "dist/gamepad.js",
@@ -6797,7 +6813,7 @@
     },
     {
       "path": "dist/index.html",
-      "sha": "29f1c275b598cae433a6f4d95843e4ce4ae1d9d7"
+      "sha": "7a3afe4eb13f7f0652707fdc29752a035d5874b6"
     },
     {
       "path": "dist/industrial-view317.js",
@@ -6825,7 +6841,7 @@
     },
     {
       "path": "dist/item-view319.js",
-      "sha": "82e85ab55100db57a3b181ad139a6570b1d080e3"
+      "sha": "6d52c17c2f88b1a20b4335e3a3bb8194a45a0626"
     },
     {
       "path": "dist/item319-data.js",
@@ -8185,7 +8201,7 @@
     },
     {
       "path": "dist/support370.js",
-      "sha": "a78aac26eb49473cddf6a1885d6b6b7b000233dd"
+      "sha": "698b45ad32d51f3bd08e94021cf9c3d83a46ed8c"
     },
     {
       "path": "dist/taser206.html",
@@ -8449,7 +8465,7 @@
     },
     {
       "path": "tests/backup371.cjs",
-      "sha": "f1dfadc99dbeffa873274321e7fc0b9062c57f68"
+      "sha": "33d04e565f61562d1874048a78ab8fd7a47a5f53"
     },
     {
       "path": "tests/backup374.cjs",
@@ -8461,11 +8477,11 @@
     },
     {
       "path": "tests/backup376.cjs",
-      "sha": "a1b85aaa4388cbcd7379c2e25d0c372f01fc5f80"
+      "sha": "1b54002019a0d45c5028d3243c788d6243d6312b"
     },
     {
       "path": "tests/backup377.cjs",
-      "sha": "b710311598ef33c0f0d1db1c3eb089e6d4e75492"
+      "sha": "cec25a2b8ba40451625e1f4a509cb3c7ebc65295"
     },
     {
       "path": "tests/balance69.test.cjs",
@@ -8910,6 +8926,10 @@
     {
       "path": "tests/current216.cjs",
       "sha": "ae16080b73b803efe622025692b5041acb76c200"
+    },
+    {
+      "path": "tests/cutter-support.cjs",
+      "sha": "c142d15839c3d72d8e65f6a2df739067bbdb66f9"
     },
     {
       "path": "tests/defense-meter.test.cjs",
@@ -10032,6 +10052,10 @@
       "sha": "34ec42fe39b6cf14106f94263f8ee0293d35b774"
     },
     {
+      "path": "tests/phone-feedback.cjs",
+      "sha": "e4d228b7bd8244d27ca53949fc0c006012a3d5a8"
+    },
+    {
       "path": "tests/phone323-ui.cjs",
       "sha": "5d7d380269cfcc2f4c2d6296b3bc79fe79bf989c"
     },
@@ -10164,6 +10188,10 @@
       "sha": "4a84ec31bf6b6429e9120e0436e2514941319d04"
     },
     {
+      "path": "tests/qa242-colton-preservation.cjs",
+      "sha": "38a54aa0100bfdee18ad93dfbf6d8a666f6e8b7c"
+    },
+    {
       "path": "tests/qa242-compare.py",
       "sha": "d781a930d7aca4540dfdeda2e4f04211fe7317bd"
     },
@@ -10205,7 +10233,11 @@
     },
     {
       "path": "tests/qa242-recovered-history.cjs",
-      "sha": "48f506d7dca4664e24e223cdb46d9ecc2605145b"
+      "sha": "f6fb23dd2a9cd1813f59575f2f21912978771130"
+    },
+    {
+      "path": "tests/qa242-registry-extension.cjs",
+      "sha": "82a1896d9ef6a51182c3ca97a5205062b3e6c01a"
     },
     {
       "path": "tests/qa242-release-integrity.cjs",
