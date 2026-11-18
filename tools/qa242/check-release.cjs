@@ -11,7 +11,7 @@ process.chdir(path.resolve(__dirname,'../..'));
   const declared=r.results.flatMap(q=>q.artifacts||[]);
   for(const a of r.findingEvidence||[]){if(!declared.some(q=>q.path===a.path&&q.sha256===a.sha256))throw Error('Unbound finding evidence');const data=JSON.parse(E.artifact(root,a));criticalIssues.push(...data.issues);}
   if(r.impact){const actual=I.createPlan({root,base:r.baseCommit,head:r.testedCommit,changeFile:r.impact.declaration.path});if(E.canonical(actual)!==E.canonical(r.impact))throw Error('Impact evidence changed');
-   const bundle=JSON.parse(E.artifact(root,r.certificationBundle)),assessment=await E.assess({root,plan:actual,sourceFingerprint:fingerprint(),records:bundle.records,baselines:require('../../qa/system242/performance-baselines.json')});manualEvidence=assessment.verified;performanceEvidence=assessment.performance;
+   const bundle=JSON.parse(E.artifact(root,r.certificationBundle)),assessment=await E.assess({root,plan:actual,sourceFingerprint:fingerprint(),records:bundle.records,baselines:require('./external-evidence.cjs').validateBaselines(r.performanceBaselineBundle?JSON.parse(E.artifact(root,r.performanceBaselineBundle)):require('../../qa/system242/performance-baselines.json'))});manualEvidence=assessment.verified;performanceEvidence=assessment.performance;
   }
  }else for(const file of ['reports242/assets.json','reports242/scene-measurements.json'])if(fs.existsSync(file))criticalIssues.push(...JSON.parse(fs.readFileSync(file,'utf8')).issues);
  const result=validateRelease(r,{spec,sourceFingerprint:fingerprint(),criticalIssues,manualEvidence,performanceEvidence,readLog:file=>{if(!I.relative(file))throw Error('Unsafe evidence path');return fs.readFileSync(E.safeReportPath(root,file));}});

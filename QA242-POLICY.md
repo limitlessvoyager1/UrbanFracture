@@ -109,3 +109,7 @@ See [authentic history recovery](qa/system242/RECOVERED-HISTORY.md). The obsolet
 ## Additive registry review proposals
 
 An existing base registry is never replaced by unchecked PR metadata. A strictly additive candidate may retain every base mapping, owner, entity, dependency, suite and suite definition while adding explicit existing source/evidence paths and partially certified new features. New owners, wildcard/path escapes, removals, certification promotions and modified existing suite definitions are rejected. Both registry hashes and exact base/head are recorded. The proposal selects the retained mandatory tests and added suites conservatively, remains `additive-head-review-pending` / Needs Review, and cannot automatically recommend Approve. Owner review and every existing evidence/release gate remain required. Unmapped changes continue to block.
+
+## External evidence transport
+
+See [external evidence input](qa/system242/EXTERNAL-EVIDENCE.md). A source-bound data ZIP may supply independently reviewed artifacts and performance baselines. Importing data does not grant approval. Existing owner authentication, exact PR/head/source/scope/scenario checks and every unresolved gate remain required. Local review media is partial evidence only.

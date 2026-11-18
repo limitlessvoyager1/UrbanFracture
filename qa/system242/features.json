@@ -15,7 +15,8 @@
     "gamepad-current",
     "controller157-current",
     "qa242-pilot",
-    "qa242-registry-extension"
+    "qa242-registry-extension",
+    "qa242-external-evidence"
   ],
   "features": [
     {
@@ -231,7 +232,8 @@
         "validator-self-tests",
         "qa242-pilot",
         "qa242-recovered-history",
-        "qa242-registry-extension"
+        "qa242-registry-extension",
+        "qa242-external-evidence"
       ],
       "visualScenarios": [],
       "performanceRisk": false,
