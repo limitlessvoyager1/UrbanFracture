@@ -1,0 +1,56 @@
+[
+  {
+    "suite": "backup371",
+    "exitCode": 0,
+    "seconds": 1.11
+  },
+  {
+    "suite": "backup374",
+    "exitCode": 0,
+    "seconds": 1.53
+  },
+  {
+    "suite": "backup375",
+    "exitCode": 0,
+    "seconds": 1.39
+  },
+  {
+    "suite": "backup376",
+    "exitCode": 0,
+    "seconds": 1.37
+  },
+  {
+    "suite": "backup377",
+    "exitCode": 0,
+    "seconds": 0.81
+  },
+  {
+    "suite": "support370",
+    "exitCode": 0,
+    "seconds": 2.38
+  },
+  {
+    "suite": "broxton366",
+    "exitCode": 0,
+    "seconds": 2.77
+  },
+  {
+    "suite": "phone-feedback",
+    "exitCode": 0,
+    "seconds": 0.43
+  },
+  {
+    "suite": "controller157",
+    "exitCode": 0,
+    "seconds": 0.07
+  },
+  {
+    "suite": "gamepad.test",
+    "command": [
+      "node",
+      "tests/gamepad.test.cjs"
+    ],
+    "exitCode": 0,
+    "note": "Corrected command extension from nonexistent .js to existing .cjs; initial launch error retained separately."
+  }
+]

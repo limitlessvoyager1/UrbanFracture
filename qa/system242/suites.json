@@ -4680,6 +4680,32 @@
         "reports/phone-feedback/hud-states.png",
         "reports/phone-feedback/render.json"
       ]
+    },
+    {
+      "id": "cutter-support",
+      "command": [
+        "node",
+        "tests/cutter-support.cjs"
+      ],
+      "framework": "combat-regression",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "cutter-native-render",
+      "command": [
+        "node",
+        "tools/cutter-render.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

@@ -362,7 +362,9 @@
         "dist/assets/**",
         "tools/fighter-render/**",
         "tools/grounded-cache/**",
-        "tools/grounded-surfaces/**"
+        "tools/grounded-surfaces/**",
+        "dist/cutter-support-data.js",
+        "dist/cutter-support-view.js"
       ],
       "entities": {
         "characters": [
@@ -398,11 +400,14 @@
         "fighter-render-prerequisites",
         "fighter-render-bootstrap",
         "reina383-render-audit",
-        "broxton369-gait-order"
+        "broxton369-gait-order",
+        "cutter-native-render"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
-        "broxton369-native-gait-order"
+        "broxton369-native-gait-order",
+        "cutter-native-both-facings",
+        "cutter-defeat-getup-retreat"
       ],
       "performanceRisk": true,
       "specs": [
@@ -1169,6 +1174,63 @@
         "qa/system242/PRODUCTION-COVERAGE.md"
       ],
       "contentIds": [],
+      "certification": "partial"
+    },
+    {
+      "id": "syndicate-cutter",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "dist/cutter-support.js",
+        "dist/cutter-support-data.js",
+        "dist/cutter-support-view.js",
+        "dist/support370.js",
+        "dist/backup365.js",
+        "dist/downtown360.html",
+        "source-art/backup-cutter/**",
+        "tools/cutter-pack.py",
+        "tools/cutter-render.cjs",
+        "COLTON-SHARPE.md"
+      ],
+      "entities": {
+        "characters": [
+          "broxton",
+          "colton-sharpe"
+        ],
+        "moves": [
+          "cutter/chop",
+          "cutter/double-slash",
+          "broxton/support-call/definition"
+        ],
+        "systems": [
+          "syndicate-backup",
+          "friendly-support",
+          "limited-bleed"
+        ],
+        "levels": [
+          "all-combat-scenes"
+        ]
+      },
+      "dependsOn": [
+        "qa242",
+        "shared-combat-admission",
+        "hero-broxton"
+      ],
+      "suites": [
+        "cutter-support",
+        "cutter-native-render"
+      ],
+      "visualScenarios": [
+        "cutter-native-both-facings",
+        "cutter-defeat-getup-retreat"
+      ],
+      "performanceRisk": true,
+      "specs": [
+        "specifications/syndicate-backup-user-spec.md",
+        "COLTON-SHARPE.md"
+      ],
+      "contentIds": [
+        "syndicate-colton-sharpe"
+      ],
       "certification": "partial"
     }
   ]

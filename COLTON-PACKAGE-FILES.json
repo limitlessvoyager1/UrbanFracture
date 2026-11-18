@@ -1,0 +1,320 @@
+{
+  "base": "9a31acc3308d233a4fc202cde23a52598b71d086",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 269294,
+      "sha256": "098486266d9f422d59724178aafafd1489761d45ddc38112af55c8927dc492d6"
+    },
+    {
+      "path": "COLTON-SHARPE.md",
+      "bytes": 4797,
+      "sha256": "4e42a5d5a46d456c8e2f1de06b73820bfc74ef5e5a5c0862cf82fb3a07cc3434"
+    },
+    {
+      "path": "README-REVIEW.md",
+      "bytes": 3605,
+      "sha256": "d99a7dc875c2778369d4b31752bd5898529bf621fdeeee39070366068da6a8b5"
+    },
+    {
+      "path": "dist/assets/backup-cutter/cutter.webp",
+      "bytes": 652786,
+      "sha256": "859fec2b27c77ab8f9182e0ed166efcc2dfe01b0bddd5dd878a2de883eeefd63"
+    },
+    {
+      "path": "dist/backup365.js",
+      "bytes": 15173,
+      "sha256": "8ed25f460ebdfc896df1c610dba3659d501d04addbebb8b1ded8fbb05315e85e"
+    },
+    {
+      "path": "dist/cutter-support-data.js",
+      "bytes": 2286,
+      "sha256": "3fca6623c82210ebf3b749d8d4c2429932518f9c121f68e71d3a259a858594c5"
+    },
+    {
+      "path": "dist/cutter-support-view.js",
+      "bytes": 2006,
+      "sha256": "f2fe76b996a7ddd8cde66f21b4f2d741356946dba2037faa45d433018c307011"
+    },
+    {
+      "path": "dist/cutter-support.js",
+      "bytes": 4531,
+      "sha256": "7bae2c510d34f3fdcbf6ebb8e8de896d979b8151a095a7e598fa819982b9e76b"
+    },
+    {
+      "path": "dist/downtown360.html",
+      "bytes": 58195,
+      "sha256": "a596c7d22778b3b20e648358010560cf337a812d7606285c4109e48d8f64461e"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 68179,
+      "sha256": "18347fdc410b836a0a204be278188dc7dc27bbd9af663024e142395daf3d4d29"
+    },
+    {
+      "path": "dist/support370.js",
+      "bytes": 17574,
+      "sha256": "9f0b293111bbbe52befda19d6b1fa4bff41a31d512819fb5f1f1aeb95bf114b4"
+    },
+    {
+      "path": "qa/system242/changes/colton-sharpe.json",
+      "bytes": 4001,
+      "sha256": "64f3ca94e494253974ee2af0a9c73b0777cd0635dfd10aec4226c7756fb91170"
+    },
+    {
+      "path": "qa/system242/features.json",
+      "bytes": 34593,
+      "sha256": "1c4fe56b5b859ba593b0be843f4788abdc5f346cc3bfda61608ea2c18fff205e"
+    },
+    {
+      "path": "qa/system242/suites.json",
+      "bytes": 93988,
+      "sha256": "7a8f984becb104b2f9a9ec1153cf37edc38471a112ecd97915b097116a5713c1"
+    },
+    {
+      "path": "reports/cutter-support/arrival.log",
+      "bytes": 37,
+      "sha256": "8e9a2ab1d837d00f47d5f15a07e199d17dcdf10ce37885d49b65109eeeacf389"
+    },
+    {
+      "path": "reports/cutter-support/atlas.png",
+      "bytes": 1685603,
+      "sha256": "74f8c6fac30a420078507f6148e3a0dd5a0ea5adaa2fd6b7a89b5a6c62a47467"
+    },
+    {
+      "path": "reports/cutter-support/backup371.log",
+      "bytes": 37,
+      "sha256": "2d94b52b67dead761e17a8a4c34a9d862fabade6e58a2f0b210fd0cbfc515d4c"
+    },
+    {
+      "path": "reports/cutter-support/backup374.log",
+      "bytes": 37,
+      "sha256": "8e9a2ab1d837d00f47d5f15a07e199d17dcdf10ce37885d49b65109eeeacf389"
+    },
+    {
+      "path": "reports/cutter-support/backup375.log",
+      "bytes": 179,
+      "sha256": "be3f41ebc996df9eb0a87d8fe06fc4af07d465cbb8634036fab3002fbd7dc602"
+    },
+    {
+      "path": "reports/cutter-support/backup376.log",
+      "bytes": 28,
+      "sha256": "6985dafa92592165c0d8e9d4563d67a41e71e3994c02eada02c71e2e941266d5"
+    },
+    {
+      "path": "reports/cutter-support/backup377.log",
+      "bytes": 44,
+      "sha256": "ac2e770e6cb78e355148af56d8e3bd0dce76256678fbd1a7c39facd5c69e8594"
+    },
+    {
+      "path": "reports/cutter-support/broxton366.log",
+      "bytes": 59,
+      "sha256": "c43e47da78976a365ff5541ddcf4adf99683a010a8cb45e2786dd95b171d655f"
+    },
+    {
+      "path": "reports/cutter-support/civilians305-runtime.log",
+      "bytes": 2294,
+      "sha256": "a7c2cea2cc18297f0531e60722120d29ec217963ea46929b6481efebd3d9c1d6"
+    },
+    {
+      "path": "reports/cutter-support/controller157.log",
+      "bytes": 91,
+      "sha256": "61cb0d1f8609921b63cff8e965d2a57d0f32d0081009cf31c8ea00695e365653"
+    },
+    {
+      "path": "reports/cutter-support/controls260-negative-fixtures.log",
+      "bytes": 1322,
+      "sha256": "ea744f7172d350e4b6444ba303a0a4778d8dc571a2c3903d10012685d106537a"
+    },
+    {
+      "path": "reports/cutter-support/cutter-support.log",
+      "bytes": 33,
+      "sha256": "4f46e0f598fdddad042a1f402c7cf317de8695d131e84437e2e6d9be9e3f92ee"
+    },
+    {
+      "path": "reports/cutter-support/cutter-tests.log",
+      "bytes": 33,
+      "sha256": "4f46e0f598fdddad042a1f402c7cf317de8695d131e84437e2e6d9be9e3f92ee"
+    },
+    {
+      "path": "reports/cutter-support/entry-tests.json",
+      "bytes": 8730,
+      "sha256": "3934aa1f10a7665151049f7dc6e305b0e8c416de9c03d68d7b870624fb7abb95"
+    },
+    {
+      "path": "reports/cutter-support/fairways-nightshade262.log",
+      "bytes": 1336,
+      "sha256": "b6ddc06df5093038ab7b79a3d6237d8e46c60b6882740f5317c31e7906bffeec"
+    },
+    {
+      "path": "reports/cutter-support/fairways261-view-status.log",
+      "bytes": 1338,
+      "sha256": "f751a575f4de4508bb4c9652adb7692437b2309d59cf7aaf3a20f91a427e594c"
+    },
+    {
+      "path": "reports/cutter-support/gamepad.test.log",
+      "bytes": 254,
+      "sha256": "74d7c28739c16cbebcab20c99aee6ccfb768991c3378449bf0778d38f93ffc6b"
+    },
+    {
+      "path": "reports/cutter-support/github-entry-native.log",
+      "bytes": 33,
+      "sha256": "4f46e0f598fdddad042a1f402c7cf317de8695d131e84437e2e6d9be9e3f92ee"
+    },
+    {
+      "path": "reports/cutter-support/ground294-world.log",
+      "bytes": 1294,
+      "sha256": "24aaba9d66fb5df7ff040ad0fd55682ceab348cfaf1b26024d695f4bdea307d2"
+    },
+    {
+      "path": "reports/cutter-support/native-moves.mp4",
+      "bytes": 439326,
+      "sha256": "4578ce7c34a5a8943094090132490c6a00ae998c9214c9e335ed85e233985422"
+    },
+    {
+      "path": "reports/cutter-support/native-review.png",
+      "bytes": 491466,
+      "sha256": "a5f4d6a75714f15ffab28ebf7a0308892aff6f536e461d1114b4d683a76483f8"
+    },
+    {
+      "path": "reports/cutter-support/nightshade-ammo-economy256.log",
+      "bytes": 1085,
+      "sha256": "b56b3a9ed4dc493adb2930287f4b304c92ac8de62b56caccbde3fd48aced8199"
+    },
+    {
+      "path": "reports/cutter-support/nightshade-ammo-view256.log",
+      "bytes": 947,
+      "sha256": "5f0950871defe59b614a43fc390d3476de76e87af451cd8b3acb9837501e9fc9"
+    },
+    {
+      "path": "reports/cutter-support/nightshade-ammo256.log",
+      "bytes": 892,
+      "sha256": "19e520ffdaf7d646628de45d467705be89c07f8d0215609c04eae3f7a1bb46ee"
+    },
+    {
+      "path": "reports/cutter-support/nightshade-foundation251.log",
+      "bytes": 897,
+      "sha256": "b3541aaa4853e598fe47ed2d389d6021e50cb00a70a5654268f0a43e78d3114d"
+    },
+    {
+      "path": "reports/cutter-support/nightshade267.log",
+      "bytes": 969,
+      "sha256": "f16efdff6a77ad8b4e2a85f7bcf343f43e6150ba3046a47ad065dd21de353110"
+    },
+    {
+      "path": "reports/cutter-support/orion271-assets.log",
+      "bytes": 2214,
+      "sha256": "701561db36bdf10d0324f419a6de9876874fc0ad1f614b242a976c18f8e5f626"
+    },
+    {
+      "path": "reports/cutter-support/package-verification.log",
+      "bytes": 232,
+      "sha256": "3419fb71b5f0c4443caf9b0e4f27cce57ae5f6134af636a288767691fc2a7ba4"
+    },
+    {
+      "path": "reports/cutter-support/package.json",
+      "bytes": 1013,
+      "sha256": "c6e18ddfe74ffb8c8620c335e00c21605e90ea640ff87667cf3f5e265fa510c7"
+    },
+    {
+      "path": "reports/cutter-support/phone-feedback.log",
+      "bytes": 30,
+      "sha256": "0bf3c927f70b2a4cde9cf3c5ea05e91ce905f1e81861828db1c50892153c0dca"
+    },
+    {
+      "path": "reports/cutter-support/qa-initial-partial.json",
+      "bytes": 14703,
+      "sha256": "fb1e3dacada5b2b1662b27a0cf91a86eb53e87b21429b6a31d12f49eca5f625e"
+    },
+    {
+      "path": "reports/cutter-support/qa-initial-partial.txt",
+      "bytes": 3743,
+      "sha256": "fbeb9cb4f592eff4ecb85270c19c88cc6e7a0faba9c4efe73dfd3c6f33372fe1"
+    },
+    {
+      "path": "reports/cutter-support/rarity.json",
+      "bytes": 242,
+      "sha256": "0bbd964d23ef07994b7e7da9a3b9746857f7572bd10561fda80eb4a34e95256d"
+    },
+    {
+      "path": "reports/cutter-support/registration.json",
+      "bytes": 17435,
+      "sha256": "09e51e8a6863a81103ca9a4ea413ae87ad71044b5e108aab2e311d297488b895"
+    },
+    {
+      "path": "reports/cutter-support/regressions.json",
+      "bytes": 929,
+      "sha256": "de361603435f2046856979702f2f5c75b29e895480fd3f1fc166f1235519b39a"
+    },
+    {
+      "path": "reports/cutter-support/render.json",
+      "bytes": 47500,
+      "sha256": "e4ad619d81c5c25309bad2896817ec27b8db5501141246eb392ee9d6babdcedc"
+    },
+    {
+      "path": "reports/cutter-support/stats266.log",
+      "bytes": 2410,
+      "sha256": "c7142c79b182a5fd823d888af9bbb450ff2b2f72c82592b81f84f4877c0eee16"
+    },
+    {
+      "path": "reports/cutter-support/support370.log",
+      "bytes": 55,
+      "sha256": "eaed7a2f60bca6f2eab738a5c56bd06c56ed3f7e5987eb5d61f125ed18d03032"
+    },
+    {
+      "path": "reports/cutter-support/tests.json",
+      "bytes": 1624,
+      "sha256": "1a4a043f35e5bf8e44374587d18f64ec03f8567a07dc65bdaa828b33dd5805a2"
+    },
+    {
+      "path": "reports/cutter-support/worker-reaction246.log",
+      "bytes": 2476,
+      "sha256": "999f9db2371aa83c6ebd66b586b64872f140f5d8b072856e0bc5213f5d14bcb8"
+    },
+    {
+      "path": "source-art/backup-cutter/PROMPTS.md",
+      "bytes": 1054,
+      "sha256": "06f0a8791de6b8d3ac4820694722044fd9b8cd77eab9d8774acd6dcd7b41ede7"
+    },
+    {
+      "path": "source-art/backup-cutter/frames.png",
+      "bytes": 1927955,
+      "sha256": "93cc1102649455876414758689d80dac2bf557669fb058cd9be3aa327211f33e"
+    },
+    {
+      "path": "tests/backup371.cjs",
+      "bytes": 7647,
+      "sha256": "c2b2c74ee229f60d51bf9b537ba3c60e72c46fc5960b2e72f35cde140988ece5"
+    },
+    {
+      "path": "tests/backup376.cjs",
+      "bytes": 2454,
+      "sha256": "fe2530bba6e9177db51e91b17335afb7c215b65d5c44a7f43f04649ac96a5bf6"
+    },
+    {
+      "path": "tests/backup377.cjs",
+      "bytes": 5741,
+      "sha256": "6c96543dac3cb5da08afb03e88b9c23a3dc106412d14deb54c69b6e58da70c38"
+    },
+    {
+      "path": "tests/cutter-support.cjs",
+      "bytes": 7195,
+      "sha256": "d6c99a7a22cd83e63904f3a870ea894e80d5996a1a09ba3b5709f19289dbdf77"
+    },
+    {
+      "path": "tools/cutter-pack.py",
+      "bytes": 2701,
+      "sha256": "438666825b75fc651aeed0649cffe94031527e5e818a38d5ba489176355a36b5"
+    },
+    {
+      "path": "tools/cutter-render.cjs",
+      "bytes": 3484,
+      "sha256": "8299acb857f38a165d13b31b389f971e513529e21c6e0edbf30898c288a7b5d1"
+    },
+    {
+      "path": "tools/fighter-render/manifest.json",
+      "bytes": 8990,
+      "sha256": "239059696e71fc78289915853cd11e7d13359df9590b20438dc999c925f784e5"
+    }
+  ]
+}

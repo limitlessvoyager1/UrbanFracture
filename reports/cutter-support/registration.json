@@ -1,0 +1,930 @@
+{
+  "sourceSha256": "93cc1102649455876414758689d80dac2bf557669fb058cd9be3aa327211f33e",
+  "bands": [
+    0,
+    183,
+    367,
+    546,
+    727,
+    909,
+    1090,
+    1267,
+    1448
+  ],
+  "fixedScale": 1.1585365853658536,
+  "poses": [
+    {
+      "frame": 0,
+      "sourceRect": [
+        43,
+        13,
+        144,
+        183
+      ],
+      "opaqueBounds": [
+        45,
+        15,
+        142,
+        183
+      ],
+      "scale": 1.1585365853658536,
+      "width": 117,
+      "height": 197,
+      "sha256": "11f8a2c65d5e14b72958ba85f0b5bf5dd465697f19f3d09bc92adf6def9ca4a1"
+    },
+    {
+      "frame": 1,
+      "sourceRect": [
+        225,
+        13,
+        326,
+        183
+      ],
+      "opaqueBounds": [
+        227,
+        15,
+        324,
+        182
+      ],
+      "scale": 1.1585365853658536,
+      "width": 117,
+      "height": 197,
+      "sha256": "141999b96d56a6ea83c77b05475c7f54ecba58b076c0be7ae6189c829e1c14ca"
+    },
+    {
+      "frame": 2,
+      "sourceRect": [
+        407,
+        14,
+        509,
+        183
+      ],
+      "opaqueBounds": [
+        409,
+        16,
+        507,
+        183
+      ],
+      "scale": 1.1585365853658536,
+      "width": 118,
+      "height": 196,
+      "sha256": "cb702b6943ffc9e8d8ebdd72b2386a3cbe53b6001738309eb348419a4e0ee1ee"
+    },
+    {
+      "frame": 3,
+      "sourceRect": [
+        587,
+        13,
+        690,
+        183
+      ],
+      "opaqueBounds": [
+        589,
+        15,
+        688,
+        183
+      ],
+      "scale": 1.1585365853658536,
+      "width": 119,
+      "height": 197,
+      "sha256": "07a62fdc78e581a38ea1ab782e34da92787ced180419c7ba3ecae5e0ea01970a"
+    },
+    {
+      "frame": 4,
+      "sourceRect": [
+        765,
+        16,
+        865,
+        183
+      ],
+      "opaqueBounds": [
+        767,
+        18,
+        863,
+        182
+      ],
+      "scale": 1.1585365853658536,
+      "width": 116,
+      "height": 193,
+      "sha256": "1841488140e00a8275f4606ee9c376fb12cd9b7f568210eefafc9bb01edbc1fc"
+    },
+    {
+      "frame": 5,
+      "sourceRect": [
+        936,
+        17,
+        1047,
+        183
+      ],
+      "opaqueBounds": [
+        938,
+        19,
+        1045,
+        182
+      ],
+      "scale": 1.1585365853658536,
+      "width": 129,
+      "height": 192,
+      "sha256": "dc3ada7b51c4668bad8934d3e92a87230e8c8dcb777c532434a3db57f63e3622"
+    },
+    {
+      "frame": 6,
+      "sourceRect": [
+        24,
+        199,
+        153,
+        365
+      ],
+      "opaqueBounds": [
+        26,
+        201,
+        151,
+        363
+      ],
+      "scale": 1.1585365853658536,
+      "width": 149,
+      "height": 192,
+      "sha256": "c011c721841c66e51f3522952eb6afb5f79c581dbaf3619055cba912a7485e63"
+    },
+    {
+      "frame": 7,
+      "sourceRect": [
+        232,
+        201,
+        322,
+        366
+      ],
+      "opaqueBounds": [
+        234,
+        203,
+        320,
+        364
+      ],
+      "scale": 1.1585365853658536,
+      "width": 104,
+      "height": 191,
+      "sha256": "f4e9b80713482da40c9bc2277718f5c01cf93726decf8f71206d7d0514a44f36"
+    },
+    {
+      "frame": 8,
+      "sourceRect": [
+        411,
+        201,
+        504,
+        366
+      ],
+      "opaqueBounds": [
+        413,
+        203,
+        502,
+        364
+      ],
+      "scale": 1.1585365853658536,
+      "width": 108,
+      "height": 191,
+      "sha256": "4b90c3eadb0b1a3f4326d5384d92c8367946efc32d7b1c440f6293b391f343d0"
+    },
+    {
+      "frame": 9,
+      "sourceRect": [
+        585,
+        200,
+        685,
+        367
+      ],
+      "opaqueBounds": [
+        587,
+        202,
+        683,
+        366
+      ],
+      "scale": 1.1585365853658536,
+      "width": 116,
+      "height": 193,
+      "sha256": "529693f4964d703d43432184533444c340319146e2230630dee9759071c46e21"
+    },
+    {
+      "frame": 10,
+      "sourceRect": [
+        761,
+        201,
+        870,
+        367
+      ],
+      "opaqueBounds": [
+        763,
+        203,
+        868,
+        366
+      ],
+      "scale": 1.1585365853658536,
+      "width": 126,
+      "height": 192,
+      "sha256": "bd164b1681dcda4cab8af00df33f9ba61a04d2e4085e9785d8d9765c96ae352f"
+    },
+    {
+      "frame": 11,
+      "sourceRect": [
+        959,
+        199,
+        1055,
+        367
+      ],
+      "opaqueBounds": [
+        961,
+        201,
+        1053,
+        367
+      ],
+      "scale": 1.1585365853658536,
+      "width": 111,
+      "height": 195,
+      "sha256": "98a668e82119242d18c8f55621d300501e1da3e86b8e171006916690cebe5790"
+    },
+    {
+      "frame": 12,
+      "sourceRect": [
+        17,
+        381,
+        153,
+        546
+      ],
+      "opaqueBounds": [
+        19,
+        383,
+        151,
+        546
+      ],
+      "scale": 1.1585365853658536,
+      "width": 158,
+      "height": 191,
+      "sha256": "83f00c7d1eb932f9e1b712e57c00ae81f2638b2b6fbf6b453eb032483e1c7989"
+    },
+    {
+      "frame": 13,
+      "sourceRect": [
+        194,
+        376,
+        344,
+        539
+      ],
+      "opaqueBounds": [
+        196,
+        378,
+        342,
+        537
+      ],
+      "scale": 1.1585365853658536,
+      "width": 174,
+      "height": 189,
+      "sha256": "5f33a9c95016ff6e724765b478d0ed385bf722f1aa4fa7a5c76288902c668dee"
+    },
+    {
+      "frame": 14,
+      "sourceRect": [
+        395,
+        381,
+        515,
+        545
+      ],
+      "opaqueBounds": [
+        397,
+        383,
+        513,
+        543
+      ],
+      "scale": 1.1585365853658536,
+      "width": 139,
+      "height": 190,
+      "sha256": "34115615ab09a47d230c61612978aee6a5494b9fc5d1924ee14702903f701bfa"
+    },
+    {
+      "frame": 15,
+      "sourceRect": [
+        584,
+        380,
+        699,
+        546
+      ],
+      "opaqueBounds": [
+        586,
+        382,
+        697,
+        545
+      ],
+      "scale": 1.1585365853658536,
+      "width": 133,
+      "height": 192,
+      "sha256": "f61e3c816c81fcf08c9e7c786ddca44e92c9a3520eb999847a486837a1fdb8b2"
+    },
+    {
+      "frame": 16,
+      "sourceRect": [
+        752,
+        379,
+        886,
+        546
+      ],
+      "opaqueBounds": [
+        754,
+        381,
+        884,
+        545
+      ],
+      "scale": 1.1585365853658536,
+      "width": 155,
+      "height": 193,
+      "sha256": "941b5d560cd96cf78631cbb2ae78af35cd7c9484b7367e8003cbb70d6e390a35"
+    },
+    {
+      "frame": 17,
+      "sourceRect": [
+        936,
+        379,
+        1070,
+        546
+      ],
+      "opaqueBounds": [
+        938,
+        381,
+        1068,
+        545
+      ],
+      "scale": 1.1585365853658536,
+      "width": 155,
+      "height": 193,
+      "sha256": "24ee30feba5d6e62a97cfea2017386675dd92aa86dd1cacbdb4b58ba980d80ea"
+    },
+    {
+      "frame": 18,
+      "sourceRect": [
+        14,
+        562,
+        167,
+        727
+      ],
+      "opaqueBounds": [
+        16,
+        564,
+        165,
+        726
+      ],
+      "scale": 1.1585365853658536,
+      "width": 177,
+      "height": 191,
+      "sha256": "99eb345a3b05b03653e33c1760c2c10ae5ed945b8736aa7d9a41158c0519f734"
+    },
+    {
+      "frame": 19,
+      "sourceRect": [
+        206,
+        559,
+        349,
+        727
+      ],
+      "opaqueBounds": [
+        208,
+        561,
+        347,
+        726
+      ],
+      "scale": 1.1585365853658536,
+      "width": 166,
+      "height": 195,
+      "sha256": "86628ce6fad8d64cfc03f61aa686813b7e3a30182779c14107cc605ee4ae15b4"
+    },
+    {
+      "frame": 20,
+      "sourceRect": [
+        374,
+        559,
+        536,
+        727
+      ],
+      "opaqueBounds": [
+        376,
+        561,
+        534,
+        727
+      ],
+      "scale": 1.1585365853658536,
+      "width": 188,
+      "height": 195,
+      "sha256": "6f5e4653eaee91f71b73f96dcfde58130bff874e49806680fb0bfc9f099577e4"
+    },
+    {
+      "frame": 21,
+      "sourceRect": [
+        555,
+        557,
+        728,
+        727
+      ],
+      "opaqueBounds": [
+        557,
+        559,
+        726,
+        727
+      ],
+      "scale": 1.1585365853658536,
+      "width": 200,
+      "height": 197,
+      "sha256": "88df6126ffbd7b7f0dc7d4af79d926fc340971ac7e96076ec5be806d4db47e00"
+    },
+    {
+      "frame": 22,
+      "sourceRect": [
+        734,
+        561,
+        915,
+        727
+      ],
+      "opaqueBounds": [
+        736,
+        563,
+        913,
+        727
+      ],
+      "scale": 1.1585365853658536,
+      "width": 210,
+      "height": 192,
+      "sha256": "1ab6334caf89c20ac774596f29c20519a6ee3eedc783252d172d08411d534081"
+    },
+    {
+      "frame": 23,
+      "sourceRect": [
+        921,
+        561,
+        1074,
+        727
+      ],
+      "opaqueBounds": [
+        923,
+        563,
+        1072,
+        727
+      ],
+      "scale": 1.1585365853658536,
+      "width": 177,
+      "height": 192,
+      "sha256": "ad6c3f8ffd843747fd49ca671e9deda7c5d12452d020ff9e6c49dbd8c86b5235"
+    },
+    {
+      "frame": 24,
+      "sourceRect": [
+        12,
+        740,
+        168,
+        909
+      ],
+      "opaqueBounds": [
+        14,
+        742,
+        166,
+        908
+      ],
+      "scale": 1.1585365853658536,
+      "width": 181,
+      "height": 196,
+      "sha256": "9ab3c58cc19ab21336ae81204076b634684b5c8fa979a579fdeff98415b85153"
+    },
+    {
+      "frame": 25,
+      "sourceRect": [
+        192,
+        742,
+        354,
+        909
+      ],
+      "opaqueBounds": [
+        194,
+        744,
+        352,
+        909
+      ],
+      "scale": 1.1585365853658536,
+      "width": 188,
+      "height": 193,
+      "sha256": "bdad939af80e85632bd1339f78ceedb728996467f2bf5b65194af391e2079cff"
+    },
+    {
+      "frame": 26,
+      "sourceRect": [
+        362,
+        743,
+        547,
+        909
+      ],
+      "opaqueBounds": [
+        364,
+        745,
+        545,
+        908
+      ],
+      "scale": 1.1585365853658536,
+      "width": 214,
+      "height": 192,
+      "sha256": "107302ea94bb528d6c04f4fad62c393706a87ad37fd0ba33d83b43a664d636b7"
+    },
+    {
+      "frame": 27,
+      "sourceRect": [
+        547,
+        740,
+        700,
+        909
+      ],
+      "opaqueBounds": [
+        549,
+        742,
+        698,
+        908
+      ],
+      "scale": 1.1585365853658536,
+      "width": 177,
+      "height": 196,
+      "sha256": "753c92276cbe83fca2be36365b896ee181ffc61034ab55b397788d685ea88d60"
+    },
+    {
+      "frame": 28,
+      "sourceRect": [
+        729,
+        741,
+        883,
+        909
+      ],
+      "opaqueBounds": [
+        731,
+        743,
+        881,
+        908
+      ],
+      "scale": 1.1585365853658536,
+      "width": 178,
+      "height": 195,
+      "sha256": "3c7f04e58f8ed30b678c3ee88fc20e21e599ff5cf22e11050f7b492f0792f9e5"
+    },
+    {
+      "frame": 29,
+      "sourceRect": [
+        918,
+        740,
+        1071,
+        909
+      ],
+      "opaqueBounds": [
+        920,
+        742,
+        1069,
+        908
+      ],
+      "scale": 1.1585365853658536,
+      "width": 177,
+      "height": 196,
+      "sha256": "52ccce6b539a667fa9b0eaf44e5785024d439d54f5ed9b31f184d78ac1d7f801"
+    },
+    {
+      "frame": 30,
+      "sourceRect": [
+        12,
+        915,
+        167,
+        1090
+      ],
+      "opaqueBounds": [
+        14,
+        917,
+        165,
+        1088
+      ],
+      "scale": 1.1585365853658536,
+      "width": 180,
+      "height": 203,
+      "sha256": "a410a3b945fcc3cef8597107d70e162cd4cc1ab6110f1f325237b8056ff139bc"
+    },
+    {
+      "frame": 31,
+      "sourceRect": [
+        192,
+        932,
+        342,
+        1088
+      ],
+      "opaqueBounds": [
+        194,
+        934,
+        340,
+        1086
+      ],
+      "scale": 1.1585365853658536,
+      "width": 174,
+      "height": 181,
+      "sha256": "6ad3198d57dbe013aa0de039b2096f206db60252e01696db8a72e431ac605e3c"
+    },
+    {
+      "frame": 32,
+      "sourceRect": [
+        372,
+        931,
+        529,
+        1089
+      ],
+      "opaqueBounds": [
+        374,
+        933,
+        527,
+        1087
+      ],
+      "scale": 1.1585365853658536,
+      "width": 182,
+      "height": 183,
+      "sha256": "09bfbcec2b2437616b6642033a55a5dc252251ffbcd3c9024ec3e9312127f330"
+    },
+    {
+      "frame": 33,
+      "sourceRect": [
+        551,
+        942,
+        705,
+        1090
+      ],
+      "opaqueBounds": [
+        553,
+        944,
+        703,
+        1088
+      ],
+      "scale": 1.1585365853658536,
+      "width": 178,
+      "height": 171,
+      "sha256": "20f6c52a8b39fcefa3807a9e28f0969d732a4692ad273923366b6e7432c0d528"
+    },
+    {
+      "frame": 34,
+      "sourceRect": [
+        730,
+        948,
+        857,
+        1090
+      ],
+      "opaqueBounds": [
+        732,
+        950,
+        855,
+        1090
+      ],
+      "scale": 1.1585365853658536,
+      "width": 147,
+      "height": 165,
+      "sha256": "547e5ec6a0a6299c6a6d1624be2962b6d02f78ad72d2e36c65cac21bc9c9a5de"
+    },
+    {
+      "frame": 35,
+      "sourceRect": [
+        921,
+        922,
+        1053,
+        1090
+      ],
+      "opaqueBounds": [
+        923,
+        924,
+        1051,
+        1088
+      ],
+      "scale": 1.1585365853658536,
+      "width": 153,
+      "height": 195,
+      "sha256": "30e7fe174049dbcac4e0ee5f9f74f912898304bcc16c1cb9a01ac845eee89a73"
+    },
+    {
+      "frame": 36,
+      "sourceRect": [
+        26,
+        1093,
+        149,
+        1266
+      ],
+      "opaqueBounds": [
+        28,
+        1095,
+        147,
+        1264
+      ],
+      "scale": 1.1585365853658536,
+      "width": 142,
+      "height": 200,
+      "sha256": "1d0d41f207d52f4d066c636b62c924b93cfc1e0ae6d3ea713482f4045162e610"
+    },
+    {
+      "frame": 37,
+      "sourceRect": [
+        207,
+        1093,
+        328,
+        1266
+      ],
+      "opaqueBounds": [
+        209,
+        1095,
+        326,
+        1264
+      ],
+      "scale": 1.1585365853658536,
+      "width": 140,
+      "height": 200,
+      "sha256": "a4b2c9789062393263d59b663187004db9746bded5b9f8265ae1d938121a5614"
+    },
+    {
+      "frame": 38,
+      "sourceRect": [
+        349,
+        1137,
+        515,
+        1253
+      ],
+      "opaqueBounds": [
+        351,
+        1139,
+        513,
+        1251
+      ],
+      "scale": 1.1585365853658536,
+      "width": 192,
+      "height": 134,
+      "sha256": "8a7f70c885e5c82c859396f6bda43cd6e234cd8449576349350f97fc7da090fa"
+    },
+    {
+      "frame": 39,
+      "sourceRect": [
+        516,
+        1183,
+        718,
+        1252
+      ],
+      "opaqueBounds": [
+        518,
+        1185,
+        716,
+        1250
+      ],
+      "scale": 1.1585365853658536,
+      "width": 234,
+      "height": 80,
+      "sha256": "7f38fe9897ec87db2b58c37520d61e50f4d9a00a8794041cd6a880f86e29083e"
+    },
+    {
+      "frame": 40,
+      "sourceRect": [
+        734,
+        1146,
+        900,
+        1253
+      ],
+      "opaqueBounds": [
+        736,
+        1148,
+        898,
+        1251
+      ],
+      "scale": 1.1585365853658536,
+      "width": 192,
+      "height": 124,
+      "sha256": "2ec9f3351ae3680aea7d4f7b09ad7458dd3ad4b87a20ed3911da14b4e9de50d7"
+    },
+    {
+      "frame": 41,
+      "sourceRect": [
+        927,
+        1120,
+        1053,
+        1262
+      ],
+      "opaqueBounds": [
+        929,
+        1122,
+        1051,
+        1260
+      ],
+      "scale": 1.1585365853658536,
+      "width": 146,
+      "height": 165,
+      "sha256": "843ac080e13d8d0732ed6f72fa4306f9b568f9bda2b67e01c04769ab9cc82b2c"
+    },
+    {
+      "frame": 42,
+      "sourceRect": [
+        34,
+        1309,
+        140,
+        1440
+      ],
+      "opaqueBounds": [
+        36,
+        1311,
+        138,
+        1438
+      ],
+      "scale": 1.1585365853658536,
+      "width": 123,
+      "height": 152,
+      "sha256": "330361896452724e2c4c9497ae7a9587804a6e97dea834981f361c98693af01b"
+    },
+    {
+      "frame": 43,
+      "sourceRect": [
+        218,
+        1276,
+        325,
+        1444
+      ],
+      "opaqueBounds": [
+        220,
+        1278,
+        323,
+        1442
+      ],
+      "scale": 1.1585365853658536,
+      "width": 124,
+      "height": 195,
+      "sha256": "caa3b9d1f7fdf2bc23ce0736034828474af6eff9ff45911679982b36a5f7ede1"
+    },
+    {
+      "frame": 44,
+      "sourceRect": [
+        398,
+        1279,
+        490,
+        1444
+      ],
+      "opaqueBounds": [
+        400,
+        1281,
+        488,
+        1442
+      ],
+      "scale": 1.1585365853658536,
+      "width": 107,
+      "height": 191,
+      "sha256": "f3c025317fd313574b7c84cbd0a78c25c287665b4a7c9a5a738c36c90183c06b"
+    },
+    {
+      "frame": 45,
+      "sourceRect": [
+        581,
+        1282,
+        669,
+        1444
+      ],
+      "opaqueBounds": [
+        583,
+        1284,
+        667,
+        1442
+      ],
+      "scale": 1.1585365853658536,
+      "width": 102,
+      "height": 188,
+      "sha256": "1d88c4054098682fad8d530cb5011fce906b96f1a255af3321baeccd38b6d884"
+    },
+    {
+      "frame": 46,
+      "sourceRect": [
+        770,
+        1281,
+        854,
+        1443
+      ],
+      "opaqueBounds": [
+        772,
+        1283,
+        852,
+        1441
+      ],
+      "scale": 1.1585365853658536,
+      "width": 97,
+      "height": 188,
+      "sha256": "cf986aeedd3119b91b9e96235eae347297a75c92ef98a468ca6973c0b376ddd6"
+    },
+    {
+      "frame": 47,
+      "sourceRect": [
+        952,
+        1276,
+        1033,
+        1443
+      ],
+      "opaqueBounds": [
+        954,
+        1278,
+        1031,
+        1441
+      ],
+      "scale": 1.1585365853658536,
+      "width": 94,
+      "height": 193,
+      "sha256": "2b3f9609f20e7f6c506d36dfa72607b850fe22bdd7f275bc5880a349c9dab420"
+    }
+  ],
+  "webpBytes": 652786
+}

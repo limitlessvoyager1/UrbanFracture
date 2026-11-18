@@ -46,7 +46,8 @@ function feedback(g){
  return result;
 }
 
-N.SyndicateBackup365={feedback,config,names,farewell,phases,lines,state,begin,commit,cancel,cleanup,combatReady,end,departed,answer,save,load,restricted,debug(g){const s=state(g);return{assignment:N.Backup377?4:N.Backup371?3:N.FriendlySupport370?2:1,rosterImplemented:!!N.FriendlySupport370,support370:N.FriendlySupport370?.debug(g),phase:g.player.act?.phase365||null,frame:g.player.act?.backup365?g.player.act.t*60:null,energy:g.player.defense,cooldown:s.cooldown,retry:s.retry,request:s.request,events:s.events};}};
+N.SyndicateBackup365={feedback,config,names,farewell,phases,lines,state,begin,commit,cancel,cleanup,combatReady,end,departed,answer,save,load,restricted,debug(g){const s=state(g);return{assignment:N.CutterSupport?5:N.Backup377?4:N.Backup371?3:N.FriendlySupport370?2:1,rosterImplemented:!!N.FriendlySupport370,support370:N.FriendlySupport370?.debug(g),phase:g.player.act?.phase365||null,frame:g.player.act?.backup365?g.player.act.t*60:null,energy:g.player.defense,cooldown:s.cooldown,retry:s.retry,request:s.request,events:s.events};}};
 const report=N.Audit135.report;N.Audit135.report=function(g){return{...report(g),backup365:N.SyndicateBackup365.debug(g)};};
 })(globalThis);
+
 

@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "checks": 40167,
+  "timings": [
+    {
+      "key": "chop",
+      "hz": 30,
+      "dir": -1,
+      "directDamage": 19,
+      "totalFrames": 45
+    },
+    {
+      "key": "doubleSlash",
+      "hz": 30,
+      "dir": -1,
+      "directDamage": 25,
+      "totalFrames": 65
+    },
+    {
+      "key": "chop",
+      "hz": 30,
+      "dir": 1,
+      "directDamage": 19,
+      "totalFrames": 45
+    },
+    {
+      "key": "doubleSlash",
+      "hz": 30,
+      "dir": 1,
+      "directDamage": 25,
+      "totalFrames": 65
+    },
+    {
+      "key": "chop",
+      "hz": 60,
+      "dir": -1,
+      "directDamage": 19,
+      "totalFrames": 45
+    },
+    {
+      "key": "doubleSlash",
+      "hz": 60,
+      "dir": -1,
+      "directDamage": 25,
+      "totalFrames": 65
+    },
+    {
+      "key": "chop",
+      "hz": 60,
+      "dir": 1,
+      "directDamage": 19,
+      "totalFrames": 45
+    },
+    {
+      "key": "doubleSlash",
+      "hz": 60,
+      "dir": 1,
+      "directDamage": 25,
+      "totalFrames": 65
+    },
+    {
+      "key": "chop",
+      "hz": 120,
+      "dir": -1,
+      "directDamage": 19,
+      "totalFrames": 45
+    },
+    {
+      "key": "doubleSlash",
+      "hz": 120,
+      "dir": -1,
+      "directDamage": 25,
+      "totalFrames": 65
+    },
+    {
+      "key": "chop",
+      "hz": 120,
+      "dir": 1,
+      "directDamage": 19,
+      "totalFrames": 45
+    },
+    {
+      "key": "doubleSlash",
+      "hz": 120,
+      "dir": 1,
+      "directDamage": 25,
+      "totalFrames": 65
+    }
+  ],
+  "scope": "Native ally controller, contact/status/selection/lifecycle; not complete artistic or hardware certification"
+}

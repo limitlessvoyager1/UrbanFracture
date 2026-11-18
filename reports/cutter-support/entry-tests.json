@@ -1,0 +1,406 @@
+{
+  "passed": true,
+  "checks": 17252,
+  "delay": [
+    3,
+    4
+  ],
+  "cases": [
+    {
+      "hz": 30,
+      "camera": 0,
+      "playerX": 180,
+      "delay": 3.381012580590322,
+      "firstReady": 8.066666666666649,
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": -180,
+            "fromY": 459,
+            "toX": 130,
+            "toY": 459,
+            "camera": 0
+          }
+        },
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": -276,
+            "fromY": 491,
+            "toX": 190,
+            "toY": 491,
+            "camera": 0
+          }
+        }
+      ]
+    },
+    {
+      "hz": 30,
+      "camera": 0,
+      "playerX": 780,
+      "delay": 3.2656717775389548,
+      "firstReady": 7.16666666666665,
+      "actors": [
+        {
+          "name": "Colton Sharpe",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 1140,
+            "fromY": 459,
+            "toX": 830,
+            "toY": 459,
+            "camera": 0
+          }
+        },
+        {
+          "name": "K'marr",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 1236,
+            "fromY": 491,
+            "toX": 770,
+            "toY": 491,
+            "camera": 0
+          }
+        }
+      ]
+    },
+    {
+      "hz": 30,
+      "camera": 1800,
+      "playerX": 180,
+      "delay": 3.8573170867748554,
+      "firstReady": 7.599999999999984,
+      "actors": [
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": 1620,
+            "fromY": 459,
+            "toX": 1930,
+            "toY": 459,
+            "camera": 1800
+          }
+        },
+        {
+          "name": "Ty Sly",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": 1524,
+            "fromY": 491,
+            "toX": 1990,
+            "toY": 491,
+            "camera": 1800
+          }
+        }
+      ]
+    },
+    {
+      "hz": 30,
+      "camera": 1800,
+      "playerX": 780,
+      "delay": 3.987408275948837,
+      "firstReady": 7.7333333333333165,
+      "actors": [
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 2940,
+            "fromY": 459,
+            "toX": 2630,
+            "toY": 459,
+            "camera": 1800
+          }
+        },
+        {
+          "name": "Ty Sly",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 3036,
+            "fromY": 491,
+            "toX": 2570,
+            "toY": 491,
+            "camera": 1800
+          }
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "camera": 0,
+      "playerX": 180,
+      "delay": 3.039690501056612,
+      "firstReady": 6.783333333333314,
+      "actors": [
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": -180,
+            "fromY": 459,
+            "toX": 130,
+            "toY": 459,
+            "camera": 0
+          }
+        },
+        {
+          "name": "Ty Sly",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": -276,
+            "fromY": 491,
+            "toX": 190,
+            "toY": 491,
+            "camera": 0
+          }
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "camera": 0,
+      "playerX": 780,
+      "delay": 3.1318563928361987,
+      "firstReady": 6.9166666666666465,
+      "actors": [
+        {
+          "name": "K'marr",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 1140,
+            "fromY": 459,
+            "toX": 830,
+            "toY": 459,
+            "camera": 0
+          }
+        },
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 1236,
+            "fromY": 491,
+            "toX": 770,
+            "toY": 491,
+            "camera": 0
+          }
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "camera": 1800,
+      "playerX": 180,
+      "delay": 3.6496838026214395,
+      "firstReady": 7.3833333333333115,
+      "actors": [
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": 1620,
+            "fromY": 459,
+            "toX": 1930,
+            "toY": 459,
+            "camera": 1800
+          }
+        },
+        {
+          "name": "Byron Bastion",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": 1524,
+            "fromY": 491,
+            "toX": 1990,
+            "toY": 491,
+            "camera": 1800
+          }
+        }
+      ]
+    },
+    {
+      "hz": 60,
+      "camera": 1800,
+      "playerX": 780,
+      "delay": 3.6008655680343513,
+      "firstReady": 7.399999999999977,
+      "actors": [
+        {
+          "name": "K'marr",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 2940,
+            "fromY": 459,
+            "toX": 2630,
+            "toY": 459,
+            "camera": 1800
+          }
+        },
+        {
+          "name": "Ty Sly",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 3036,
+            "fromY": 491,
+            "toX": 2570,
+            "toY": 491,
+            "camera": 1800
+          }
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "camera": 0,
+      "playerX": 180,
+      "delay": 3.8800136593636125,
+      "firstReady": 7.666666666666838,
+      "actors": [
+        {
+          "name": "K'marr",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": -180,
+            "fromY": 459,
+            "toX": 130,
+            "toY": 459,
+            "camera": 0
+          }
+        },
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": -276,
+            "fromY": 491,
+            "toX": 190,
+            "toY": 491,
+            "camera": 0
+          }
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "camera": 0,
+      "playerX": 780,
+      "delay": 3.920118027832359,
+      "firstReady": 8.56666666666682,
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 1140,
+            "fromY": 459,
+            "toX": 830,
+            "toY": 459,
+            "camera": 0
+          }
+        },
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 1236,
+            "fromY": 491,
+            "toX": 770,
+            "toY": 491,
+            "camera": 0
+          }
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "camera": 1800,
+      "playerX": 180,
+      "delay": 3.7649933437351137,
+      "firstReady": 7.491666666666831,
+      "actors": [
+        {
+          "name": "Michelle Roxx",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": 1620,
+            "fromY": 459,
+            "toX": 1930,
+            "toY": 459,
+            "camera": 1800
+          }
+        },
+        {
+          "name": "Byron Bastion",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": -1,
+            "fromX": 1524,
+            "fromY": 491,
+            "toX": 1990,
+            "toY": 491,
+            "camera": 1800
+          }
+        }
+      ]
+    },
+    {
+      "hz": 120,
+      "camera": 1800,
+      "playerX": 780,
+      "delay": 3.6184551529586315,
+      "firstReady": 8.48333333333349,
+      "actors": [
+        {
+          "name": "Byron Bastion",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 2940,
+            "fromY": 459,
+            "toX": 2630,
+            "toY": 459,
+            "camera": 1800
+          }
+        },
+        {
+          "name": "Ty Sly",
+          "entrance": {
+            "kind": "screen-edge",
+            "side": 1,
+            "fromX": 3036,
+            "fromY": 491,
+            "toX": 2570,
+            "toY": 491,
+            "camera": 1800
+          }
+        }
+      ]
+    }
+  ]
+}

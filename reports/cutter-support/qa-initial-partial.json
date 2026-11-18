@@ -1,0 +1,697 @@
+{
+  "scope": "Interrupted hosted-source initial diagnostic, not completed QA or a certificate",
+  "command": "node tools/qa242/run.cjs --profile initial",
+  "source": "Dirty Assignment5 source over local fa914b7; targeted GitHub entry used explicitly mixed fallback dependencies",
+  "attribution": "Unknown; no authenticated comparable baseline",
+  "counts": {
+    "Passed": 97,
+    "Failed": 13,
+    "Blocked": 1,
+    "Not Tested": 225
+  },
+  "results": [
+    {
+      "id": "validator-self-tests",
+      "status": "Passed"
+    },
+    {
+      "id": "guarded-repair-self-tests",
+      "status": "Passed"
+    },
+    {
+      "id": "image-certification",
+      "status": "Passed"
+    },
+    {
+      "id": "screenshot-comparator-self-tests",
+      "status": "Passed"
+    },
+    {
+      "id": "current-runtime-certification",
+      "status": "Passed"
+    },
+    {
+      "id": "scene-scale-certification",
+      "status": "Passed"
+    },
+    {
+      "id": "prior-fixes241",
+      "status": "Passed"
+    },
+    {
+      "id": "movement240",
+      "status": "Passed"
+    },
+    {
+      "id": "run-art240",
+      "status": "Passed"
+    },
+    {
+      "id": "controller240",
+      "status": "Passed"
+    },
+    {
+      "id": "lab-fire168",
+      "status": "Passed"
+    },
+    {
+      "id": "lab-scientists166",
+      "status": "Passed"
+    },
+    {
+      "id": "casino192",
+      "status": "Passed"
+    },
+    {
+      "id": "hydro243-progression",
+      "status": "Passed"
+    },
+    {
+      "id": "hydro243-view",
+      "status": "Passed"
+    },
+    {
+      "id": "hydro243-controller",
+      "status": "Passed"
+    },
+    {
+      "id": "broxton244",
+      "status": "Passed"
+    },
+    {
+      "id": "broxton244-controller",
+      "status": "Passed"
+    },
+    {
+      "id": "broxton244-view",
+      "status": "Passed"
+    },
+    {
+      "id": "subway245",
+      "status": "Passed"
+    },
+    {
+      "id": "subway245-view",
+      "status": "Passed"
+    },
+    {
+      "id": "continuation246",
+      "status": "Passed"
+    },
+    {
+      "id": "grab-variants246",
+      "status": "Passed"
+    },
+    {
+      "id": "subway-audio246",
+      "status": "Passed"
+    },
+    {
+      "id": "worker-reaction246",
+      "status": "Failed"
+    },
+    {
+      "id": "subway247",
+      "status": "Passed"
+    },
+    {
+      "id": "subway247-view",
+      "status": "Passed"
+    },
+    {
+      "id": "counter-weapon248",
+      "status": "Passed"
+    },
+    {
+      "id": "combat-art248",
+      "status": "Passed"
+    },
+    {
+      "id": "weapon-render248",
+      "status": "Passed"
+    },
+    {
+      "id": "weapon-proficiency249",
+      "status": "Passed"
+    },
+    {
+      "id": "weapon-art249",
+      "status": "Passed"
+    },
+    {
+      "id": "weapon-render249",
+      "status": "Passed"
+    },
+    {
+      "id": "worker-crew250",
+      "status": "Passed"
+    },
+    {
+      "id": "worker-regular233",
+      "status": "Passed"
+    },
+    {
+      "id": "worker-heavy233",
+      "status": "Passed"
+    },
+    {
+      "id": "worker-grabs233",
+      "status": "Passed"
+    },
+    {
+      "id": "worker-integration233",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-foundation251",
+      "status": "Failed"
+    },
+    {
+      "id": "nightshade-art252",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-input251",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-view252",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-repair252",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-size-quality253",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gun255",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gun-view255",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-ammo256",
+      "status": "Failed"
+    },
+    {
+      "id": "nightshade-ammo-levels256",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-ammo-view256",
+      "status": "Failed"
+    },
+    {
+      "id": "nightshade-ammo-economy256",
+      "status": "Failed"
+    },
+    {
+      "id": "nightshade-gate4-melee257",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate4-input257",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate4-view257",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-directional258",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-directional-input258",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-directional-view258",
+      "status": "Passed"
+    },
+    {
+      "id": "repair259-regressions",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade259-input-recovery",
+      "status": "Passed"
+    },
+    {
+      "id": "controls260-negative-fixtures",
+      "status": "Failed"
+    },
+    {
+      "id": "controls260-policy",
+      "status": "Passed"
+    },
+    {
+      "id": "controls260-input",
+      "status": "Passed"
+    },
+    {
+      "id": "flint211-full",
+      "status": "Passed"
+    },
+    {
+      "id": "fairways261-view-status",
+      "status": "Failed"
+    },
+    {
+      "id": "fairways196-progression",
+      "status": "Passed"
+    },
+    {
+      "id": "fairways261-art-import",
+      "status": "Passed"
+    },
+    {
+      "id": "fairways-nightshade262",
+      "status": "Failed"
+    },
+    {
+      "id": "repair262-asset-certification",
+      "status": "Passed"
+    },
+    {
+      "id": "repair262-prone-view",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate6-263",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate6-input263",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate6-view263",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate7-264",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate7-input264",
+      "status": "Passed"
+    },
+    {
+      "id": "nightshade-gate7-view264",
+      "status": "Passed"
+    },
+    {
+      "id": "playback265",
+      "status": "Passed"
+    },
+    {
+      "id": "playback265-input",
+      "status": "Passed"
+    },
+    {
+      "id": "stats266",
+      "status": "Failed"
+    },
+    {
+      "id": "nightshade267",
+      "status": "Failed"
+    },
+    {
+      "id": "devmenu268",
+      "status": "Passed"
+    },
+    {
+      "id": "reina269",
+      "status": "Passed"
+    },
+    {
+      "id": "reina269-view",
+      "status": "Passed"
+    },
+    {
+      "id": "reina270",
+      "status": "Passed"
+    },
+    {
+      "id": "reina270-view",
+      "status": "Passed"
+    },
+    {
+      "id": "orion271-assets",
+      "status": "Failed"
+    },
+    {
+      "id": "orion271-view",
+      "status": "Passed"
+    },
+    {
+      "id": "hook272",
+      "status": "Passed"
+    },
+    {
+      "id": "hook272-view",
+      "status": "Passed"
+    },
+    {
+      "id": "hook272-assets",
+      "status": "Passed"
+    },
+    {
+      "id": "combat274",
+      "status": "Passed"
+    },
+    {
+      "id": "combat274-view",
+      "status": "Passed"
+    },
+    {
+      "id": "combat274-assets",
+      "status": "Passed"
+    },
+    {
+      "id": "reaction-settings274",
+      "status": "Passed"
+    },
+    {
+      "id": "reina278-runtime",
+      "status": "Passed"
+    },
+    {
+      "id": "reina278-assets",
+      "status": "Passed"
+    },
+    {
+      "id": "reina279-runtime",
+      "status": "Passed"
+    },
+    {
+      "id": "reina279-input",
+      "status": "Passed"
+    },
+    {
+      "id": "reina279-view",
+      "status": "Passed"
+    },
+    {
+      "id": "reina279-assets",
+      "status": "Passed"
+    },
+    {
+      "id": "review280-runtime",
+      "status": "Passed"
+    },
+    {
+      "id": "review280-input",
+      "status": "Passed"
+    },
+    {
+      "id": "review280-assets",
+      "status": "Passed"
+    },
+    {
+      "id": "review280-view",
+      "status": "Passed"
+    },
+    {
+      "id": "review280-levels",
+      "status": "Passed"
+    },
+    {
+      "id": "casino293",
+      "status": "Passed"
+    },
+    {
+      "id": "review294",
+      "status": "Passed"
+    },
+    {
+      "id": "ground294-world",
+      "status": "Failed"
+    },
+    {
+      "id": "civilians305-runtime",
+      "status": "Failed"
+    },
+    {
+      "id": "civilians305-view-source",
+      "status": "Passed"
+    },
+    {
+      "id": "civilians305-view-subway",
+      "status": "Passed"
+    },
+    {
+      "id": "civilians305-view-mall",
+      "status": "Passed"
+    },
+    {
+      "id": "civilians305-view-fairways",
+      "status": "Blocked"
+    }
+  ],
+  "notTested": [
+    "campaign224",
+    "subway238",
+    "stadium237",
+    "security216-legacy",
+    "current216-legacy",
+    "presentation275",
+    "presentation275-assets",
+    "nightshade276-runtime",
+    "nightshade276-input",
+    "nightshade276-view",
+    "nightshade276-water",
+    "repair277-runtime",
+    "repair277-assets",
+    "review281-runtime",
+    "review281-view",
+    "review281-assets",
+    "review281-baseline",
+    "review282-runtime",
+    "review282-view",
+    "review282-assets",
+    "review282-water",
+    "review282-baseline",
+    "practice282",
+    "niko283-runtime",
+    "niko283-view",
+    "niko283-assets",
+    "niko283-baseline",
+    "niko284-regression",
+    "niko284-view",
+    "reverse-ddt285",
+    "reverse-ddt285-view",
+    "legthrow286",
+    "legthrow286-view",
+    "legthrow286-assets",
+    "recording287-runtime",
+    "recording287-pixels",
+    "recording287-assets",
+    "recording287-view",
+    "recording287-baseline",
+    "ground294-pixels",
+    "continuity296-runtime",
+    "continuity296-view",
+    "continuity296-equivalence",
+    "attack297-runtime",
+    "attack297-view",
+    "attack297-equivalence",
+    "reactions298-runtime",
+    "reactions298-view",
+    "knockdowns299-runtime",
+    "knockdowns299-view",
+    "grapples301-runtime",
+    "grapples301-view-reap-thug",
+    "grapples301-view-reap-enforcer",
+    "grapples301-view-german-thug",
+    "grapples301-view-german-enforcer",
+    "grapples301-view-powerbomb-enforcer",
+    "contact302-runtime",
+    "contact302-view",
+    "crowd303-runtime",
+    "crowd303-view",
+    "plane304-runtime",
+    "plane304-weapons",
+    "plane304-ui",
+    "plane304-view",
+    "plane304-height",
+    "civilians305-view-spa",
+    "civilians305-view-uptown",
+    "civilians305-view-train",
+    "recording306-runtime",
+    "recording306-ai",
+    "recording306-view",
+    "diagnostics307-runtime",
+    "diagnostics307-input",
+    "diagnostics307-ui",
+    "quality308-A",
+    "quality308-B",
+    "quality308-C",
+    "quality308-D",
+    "quality308-E",
+    "quality308-specialists",
+    "airport309",
+    "airport310-progression",
+    "style310-view",
+    "style310-native",
+    "style310-mechanics",
+    "unique311-runtime",
+    "unique311-input",
+    "unique311-render",
+    "recording312-enemies",
+    "recording312-enemy-view",
+    "recording312-reina",
+    "recording312-weather",
+    "recording313-runtime",
+    "recording313-render",
+    "stadium313-runtime",
+    "stadium313-render",
+    "enemy313-runtime",
+    "enemy313-render",
+    "hospital314-runtime",
+    "hospital314-render",
+    "hospital315-runtime",
+    "hospital315-render",
+    "pcbi316-combat",
+    "feds316-runtime",
+    "energy316-runtime",
+    "pcbi316-art",
+    "feds316-render",
+    "energy316-baseline-comparison",
+    "energy316-ui",
+    "industrial317-runtime",
+    "industrial317-render",
+    "charge318-runtime",
+    "items319-runtime",
+    "items319-loot-baseline",
+    "items319-render",
+    "reserve320-runtime",
+    "reserve320-ui",
+    "reserve320-render",
+    "reserve320-equivalence",
+    "pickups321-runtime",
+    "repairs322-runtime",
+    "repairs322-visual",
+    "phone323-ui",
+    "industrial324",
+    "promptdrop325",
+    "promptdrop325-ui",
+    "astro326",
+    "astro326-ui",
+    "astro326-loaders",
+    "home327",
+    "home327-ui",
+    "home327-data",
+    "home328-ui",
+    "home338-navigation",
+    "home338-input",
+    "home338-weather",
+    "home338-render",
+    "home339-interactions",
+    "home339-integration",
+    "home339-ui",
+    "home339-assets",
+    "home339-render",
+    "home339-replay",
+    "player-resources340",
+    "player-resources340-ui",
+    "grounded-crop-surfaces",
+    "grounded-pose-cache",
+    "fighter-render-prerequisites",
+    "fighter-render-prerequisite-tests",
+    "fighter-render-bootstrap",
+    "fighter-grapples-forest",
+    "fighter-grapples-niko",
+    "fighter-grapples-broxton",
+    "fighter-grapples-nightshade",
+    "fighter-grapples-shared",
+    "fighter-render-shipping-browser",
+    "forest-grapples177",
+    "forest-protection177",
+    "forest-balance177",
+    "forest-fixture177",
+    "crowd-grapple-receipt-tests",
+    "crowd-grapple-historical-receipts",
+    "ai-decision-reasons",
+    "direct-start-director-admission",
+    "reactions298-receipt-tests",
+    "reactions298-historical-receipts",
+    "post-hit-reassessment",
+    "hitstun-eligibility",
+    "knockdown-admission",
+    "actionability-diagnostics",
+    "reaction-deadline-metadata",
+    "playback-flight-diagnostics",
+    "reina-airborne-hurtbox",
+    "niko-phase-labels",
+    "plane304-receipt-tests",
+    "plane304-historical-receipts",
+    "downtown345-runtime",
+    "downtown345-optional-rooms",
+    "nightshade345-drone",
+    "nightshade346-choreography",
+    "nightshade346-authored-art",
+    "nightshade347-runtime",
+    "nightshade347-presentation",
+    "nightshade348-runtime",
+    "nightshade348-presentation",
+    "nightshade348-input",
+    "nightshade349",
+    "nightshade349-combat",
+    "flint350",
+    "downtown350",
+    "nightshade350",
+    "nightshade350-combat",
+    "effects350",
+    "flint351",
+    "aerial351",
+    "interactions351",
+    "nightshade351",
+    "nightshade351-combat",
+    "effects351",
+    "blitz352",
+    "nightshade352",
+    "nightshade352-combat",
+    "nightshade353",
+    "nightshade353-combat",
+    "blitz353",
+    "reina354-palette",
+    "katana355-render",
+    "broxton356-native-render",
+    "orion384-native-render",
+    "orion384-motion-import",
+    "gamepad-current",
+    "controller157-current",
+    "orion385-locomotion",
+    "orion385-walk-import",
+    "orion386-counters",
+    "orion387-hit-registration",
+    "orion228-foundation",
+    "orion228-physical",
+    "orion228-repair",
+    "orion228-grabs",
+    "orion228-specials",
+    "orion228-integration",
+    "phone-feedback",
+    "cutter-support",
+    "cutter-native-render"
+  ],
+  "manualGates": [
+    "approved-screenshots",
+    "art-style-review",
+    "all-moves-coverage",
+    "physical-dualsense",
+    "human-balance"
+  ],
+  "recommendation": "Reject stable publication; review candidate only",
+  "limitations": [
+    "Interruption retained; no final immutable initial receipt exists",
+    "No physical controller, approved art, complete move matrix or performance certificate"
+  ]
+}
