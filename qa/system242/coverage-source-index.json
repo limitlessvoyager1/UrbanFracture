@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "37b8b8fae2fb765e7b55561f2091df32c2cb1e82",
-  "runtimeTree": "be115c4b75b23e59d3351d7beaa7f18fe7e6bcf9",
+  "sourceCommit": "f58484261ee3f1f2d3df4d487c7eaa27696fa819",
+  "runtimeTree": "06758c4c3d874074a51b5cdeefc0ab0d4dc18f00",
   "scope": [
     "dist (top-level modules and recursive assets)",
     "tests (top-level only; fixtures excluded)",
@@ -3648,6 +3648,66 @@
       "sha": "e6b910389c685eb1e3ca3efc75d591e80bb46bf6"
     },
     {
+      "path": "dist/assets/reina399/marcus-held.webp",
+      "sha": "3d3a4811191de6265b087b5f659896a5a2c57d87"
+    },
+    {
+      "path": "dist/assets/reina399/powerbomb-victim.avif",
+      "sha": "131d3ece65b971e93ff88496a3d78db78400d8b1"
+    },
+    {
+      "path": "dist/assets/reina399/royal-0.avif",
+      "sha": "ffb25b136f8ed40b5ab96963d32caa7fe8b01e39"
+    },
+    {
+      "path": "dist/assets/reina399/royal-1.avif",
+      "sha": "655b28e6f4f10146c897b30c2b426ff98daa583b"
+    },
+    {
+      "path": "dist/assets/reina399/royal-10.avif",
+      "sha": "3fe31bc11f2d39f3a06deb0bf00162104ccd14f5"
+    },
+    {
+      "path": "dist/assets/reina399/royal-11.avif",
+      "sha": "abed70ba1d854fe5503543f28666da025b73c8a3"
+    },
+    {
+      "path": "dist/assets/reina399/royal-2.avif",
+      "sha": "399364dacb7413165d0059c6b68a469594d5190f"
+    },
+    {
+      "path": "dist/assets/reina399/royal-3.avif",
+      "sha": "31fcd87c424ff9f0b936c9e6f7a86909eda1fc77"
+    },
+    {
+      "path": "dist/assets/reina399/royal-4.avif",
+      "sha": "32d1f4955c4fe9e98afddee24ec4750876c0808c"
+    },
+    {
+      "path": "dist/assets/reina399/royal-5.avif",
+      "sha": "b81cfa12a16d70e9407475b3725852aa43b84b2d"
+    },
+    {
+      "path": "dist/assets/reina399/royal-6.avif",
+      "sha": "2b63424fe7827afc5259dca9d9acdd821319f797"
+    },
+    {
+      "path": "dist/assets/reina399/royal-7.avif",
+      "sha": "bdcd6b68347b2233847d040a39002b55e5c7ab59"
+    },
+    {
+      "path": "dist/assets/reina399/royal-8.avif",
+      "sha": "46846c437df1f365f0e75499c29d98b42a093cd8"
+    },
+    {
+      "path": "dist/assets/reina399/royal-9.avif",
+      "sha": "98918af5f850e40d678e457699b8e9f3bd4e0ece"
+    },
+    {
+      "path": "dist/assets/reina399/royal-portrait.webp",
+      "sha": "3a38800feefffe222442e24981dbac5c8763a5cd"
+    },
+    {
       "path": "dist/assets/repair262/fear-0.webp",
       "sha": "8f60712932d829f7ccde94823e4f38931eae2cb6"
     },
@@ -6177,7 +6237,7 @@
     },
     {
       "path": "dist/downtown-view351.js",
-      "sha": "38f68904b6f32ef67f93ba194df40f9844f5cdde"
+      "sha": "7528957e0acf129ab1211e9a60895855f8d6d205"
     },
     {
       "path": "dist/downtown345.html",
@@ -6245,7 +6305,7 @@
     },
     {
       "path": "dist/downtown360.html",
-      "sha": "0bc7a3f8fb57fc760c6ef8fc4632e40e7a1607ca"
+      "sha": "da19536addd94076d408475c4983c285e8fcef94"
     },
     {
       "path": "dist/dragon121.html",
@@ -6525,7 +6585,7 @@
     },
     {
       "path": "dist/game.js",
-      "sha": "79a3206beb6d331f8c58e4d8185446f58ea6e4c6"
+      "sha": "ff195ea659bdb1512222011c3ec132d09def81b6"
     },
     {
       "path": "dist/game344.js",
@@ -6573,7 +6633,7 @@
     },
     {
       "path": "dist/game360.js",
-      "sha": "fc58808df59b83823623701539d0eb7431ed387f"
+      "sha": "ad6eb25bad48073bbfa418b0a83653e63db41052"
     },
     {
       "path": "dist/gamepad.js",
@@ -6817,7 +6877,7 @@
     },
     {
       "path": "dist/index.html",
-      "sha": "29f1c275b598cae433a6f4d95843e4ce4ae1d9d7"
+      "sha": "af15e1a906133c0557ae7701d9f3010293df6449"
     },
     {
       "path": "dist/industrial-view317.js",
@@ -7652,6 +7712,14 @@
       "sha": "bf3777c151f8f7947a7fcd3053aaae7634fc3b14"
     },
     {
+      "path": "dist/reina-costume-ui399.js",
+      "sha": "d4f2986b1659ba65a7d26aef0d658b88860a90a2"
+    },
+    {
+      "path": "dist/reina-costume.js",
+      "sha": "e67f43f9fc58b147d6cd65f62672a57a867e8f2b"
+    },
+    {
       "path": "dist/reina-dive313-data.js",
       "sha": "73cced1f96b3a7062623764be13639e6be11de76"
     },
@@ -7704,6 +7772,10 @@
       "sha": "2ec066bd4187b321e06465e1223c9fb18f3ec8a8"
     },
     {
+      "path": "dist/reina-uniform-data.js",
+      "sha": "7c9038d1cd56d0fd5fee6b5e4edc967ee585336c"
+    },
+    {
       "path": "dist/reina-view282.js",
       "sha": "5e104b39677b501129f486978ed859bd2582c1da"
     },
@@ -7717,19 +7789,19 @@
     },
     {
       "path": "dist/reina-view354.js",
-      "sha": "48371c5165692635090db0877858b35ff562840f"
+      "sha": "acc38f0cc46260cf1ebe7f975029327a3aaaa83c"
     },
     {
       "path": "dist/reina-view381.js",
-      "sha": "9755c0b5a75d63a1b3cb0ed08c504f460cfadb99"
+      "sha": "9be63049f3c28d2eb4d517755e1a00e5595ff6cb"
     },
     {
       "path": "dist/reina-view382.js",
-      "sha": "4f3fa1570c75550d9446e07c05cf3c63c713017e"
+      "sha": "2fbcf5d332cb8c8ff5eb51c33e5817b0491ed911"
     },
     {
       "path": "dist/reina-view383.js",
-      "sha": "5c8bcf46ce5dc783b2fb30a256a186bcddb4a5f8"
+      "sha": "596f168ab2e2c33c40ce99c59256b1cc195ceb6a"
     },
     {
       "path": "dist/reina-walk280-data.js",
@@ -8089,7 +8161,7 @@
     },
     {
       "path": "dist/sprites.js",
-      "sha": "9c1ea6f03b4cee6b72752bc9ba0ab8fb7665379a"
+      "sha": "6c43136e826bfdf6901220ca96c18aeea9287dda"
     },
     {
       "path": "dist/stabilization240.html",
@@ -10470,6 +10542,10 @@
     {
       "path": "tests/reina396-native.cjs",
       "sha": "ffd52f77d86965dfe8709fb9517299977b1c0fed"
+    },
+    {
+      "path": "tests/reina399-native-preservation.cjs",
+      "sha": "f76d3d396bc4ecb5a824584a985490434a22dbb5"
     },
     {
       "path": "tests/render169.cjs",

@@ -23,3 +23,7 @@ Reference: current Downtown Marcus poses8–10. Output `source-art/reina399/marc
 An experimental16-pose default-Reina gait generation retained matte artifacts and did not convincingly establish a new eight-phase gait. It was not integrated. The retained original gait artwork is used with corrected opaque pose selection and measured sockets. This rejection must not be described as a successful new walk/run-art implementation.
 
 All artistic/feel decisions remain owner-review gates; no generated output is a certificate.
+
+## Bruno captured victim — selected
+
+Built-in image generation produced the retained transparent lossless master `source-art/reina399/powerbomb-victim-master.png`. Six isolated poses: three default-dress and three Royal Uniform Reina poses, matching her current face, loose long black hair, cheek scar and approved costume. Lifted seated/curled capture, raised drive preparation, and downward drive pose; no ponytail, no Bruno or extra body, fixed anatomical scale and transparent clear gutters. Final cleanup removed background while preserving only the six figures. Deterministic three-column/two-row crops, AVIF quality80 speed6 4:4:4. Source/target hip anchors in `registeredAnchors399` preserve uniform scale instead of stretching each rectangle. Native powerbomb clocks own selection; original damage, escape and recovery unchanged.

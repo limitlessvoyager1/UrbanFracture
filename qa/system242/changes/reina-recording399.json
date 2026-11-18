@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "id": "reina-recording399",
+  "description": "Recording-driven Reina Royal Uniform fidelity, canonical held knife and sockets, native locomotion/grapple presentation, floor/get-up, restrained Marcus and visible Bruno powerbomb. Native gameplay clocks/damage unchanged.",
+  "acceptanceScope": "game-change",
+  "files": [
+    "dist/downtown-view351.js",
+    "dist/downtown360.html",
+    "dist/game.js",
+    "dist/game360.js",
+    "dist/index.html",
+    "dist/reina-view354.js",
+    "dist/reina-view381.js",
+    "dist/reina-view382.js",
+    "dist/reina-view383.js",
+    "dist/sprites.js",
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tools/fighter-render/manifest.json",
+    ".github/workflows/reina-recording399.yml",
+    "dist/reina-costume-ui399.js",
+    "dist/reina-costume.js",
+    "dist/reina-uniform-data.js",
+    "tests/reina399-native-preservation.cjs",
+    "tools/qa242/reina399-contract.cjs",
+    "tools/qa242/reina399-render-audit.cjs",
+    "qa/system242/reina399-contract.json",
+    "qa/system242/repairs/REINA399-RECORDING-REPAIR.md",
+    "tools/reina399-import.py",
+    "tools/reina399-marcus-import.cjs",
+    "dist/assets/reina399/marcus-held.webp",
+    "dist/assets/reina399/royal-0.avif",
+    "dist/assets/reina399/royal-1.avif",
+    "dist/assets/reina399/royal-10.avif",
+    "dist/assets/reina399/royal-11.avif",
+    "dist/assets/reina399/royal-2.avif",
+    "dist/assets/reina399/royal-3.avif",
+    "dist/assets/reina399/royal-4.avif",
+    "dist/assets/reina399/royal-5.avif",
+    "dist/assets/reina399/royal-6.avif",
+    "dist/assets/reina399/royal-7.avif",
+    "dist/assets/reina399/royal-8.avif",
+    "dist/assets/reina399/royal-9.avif",
+    "dist/assets/reina399/royal-portrait.webp",
+    "qa/system242/repair-references/reina399/ART-PROMPTS.md",
+    "qa/system242/repair-references/reina399/downtown-view351.js.before.txt",
+    "qa/system242/repair-references/reina399/native-github-before.json",
+    "qa/system242/repair-references/reina399/native-site-before.json",
+    "qa/system242/repair-references/reina399/reina-costume.js.before.txt",
+    "qa/system242/repair-references/reina399/reina-view381.js.before.txt",
+    "qa/system242/repair-references/reina399/reina-view382.js.before.txt",
+    "qa/system242/repair-references/reina399/reina-view383.js.before.txt",
+    "qa/system242/repair-references/reina399/source-before.json",
+    "source-art/reina399/marcus-held-master.png",
+    "source-art/reina399/royal-portrait-master.png",
+    "tools/reina-royal-uniform/corrections.py",
+    "tools/reina-royal-uniform/import.py",
+    "tools/reina-royal-uniform/plan.cjs",
+    "tools/reina-royal-uniform/plates.py",
+    "tools/reina-royal-uniform/verify.cjs",
+    "dist/assets/reina399/powerbomb-victim.avif",
+    "source-art/reina399/powerbomb-victim-master.png",
+    "tools/reina399-powerbomb.py",
+    "qa/system242/coverage-source-index.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/changes/reina-recording399.json"
+  ],
+  "features": [
+    "qa242",
+    "shared-fighter-rendering",
+    "runtime-ui-diagnostics"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters"
+    ],
+    "moves": [
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "newContent": [],
+  "risks": {
+    "performance": true,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "REINA399-RECORDING"
+  ]
+}
