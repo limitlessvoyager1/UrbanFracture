@@ -1,0 +1,27 @@
+{
+  "schema": 401,
+  "file": "dist/game.js",
+  "currentCommit": "128180a7462b673d0cf7dbca8dce45c12fee3596",
+  "currentBlob": "ff195ea659bdb1512222011c3ec132d09def81b6",
+  "priorBlob": "79a3206beb6d331f8c58e4d8185446f58ea6e4c6",
+  "priorLedger": "qa/system242/recovered-history-v1/diagnostics-game-delta.json",
+  "priorLedgerSHA256LF": "afc7af5b61fa96fe11c95b1635cbc4a991d4f0d8fe7ee4122b50c3ccfe591dae",
+  "hunks": [
+    {
+      "after": "PolishedSprites.ready.then(()=>{for(const type of['reina','broxton','nova','forest','niko','orion','nightshade']){const c=document.querySelector('#heroPreview-'+type);if(!c)continue;const pen=c.getContext('2d');if(type==='forest'){if(typeof NeonForestView125!=='undefined')NeonForestView125.preview(pen);continue;}pen.imageSmoothingEnabled=false;pen.save();pen.translate(44,107);pen.scale(.62,.62);paintFighter399(pen,NeonCombat.actor(type,0,0),0);pen.restore();}});\n",
+      "before": "PolishedSprites.ready.then(()=>{for(const type of['reina','broxton','nova','forest','niko','orion','nightshade']){const c=document.querySelector('#heroPreview-'+type);if(!c)continue;const pen=c.getContext('2d');if(type==='forest'){if(typeof NeonForestView125!=='undefined')NeonForestView125.preview(pen);continue;}pen.imageSmoothingEnabled=false;pen.save();pen.translate(44,107);pen.scale(.62,.62);PolishedSprites.draw(pen,NeonCombat.actor(type,0,0),0);pen.restore();}});\n"
+    },
+    {
+      "after": "function drawWetSprite(c,f,scale){const w=clamp(f.wetness||0,0,1);if(w<.01){if(!paintFighter399(c,f,game.time,scale)&&f.type!=='reina'&&f.type!=='niko'&&f.type!=='orion'){const im=sprite(f);c.drawImage(im,-72,-145,148,160);}return;}const wc=wetSpriteCtx;wc.setTransform(1,0,0,1,0,0);wc.clearRect(0,0,512,512);wc.save();wc.translate(256,350);wc.imageSmoothingEnabled=false;if(!paintFighter399(wc,f,game.time,scale)&&f.type!=='reina'&&f.type!=='niko'&&f.type!=='orion'){const im=sprite(f);wc.drawImage(im,-72,-145,148,160);}wc.globalCompositeOperation='source-atop';wc.fillStyle='rgba(16,15,17,'+(.12*w)+')';wc.fillRect(-256,-350,512,512);const $40=wc.createLinearGradient(-70,-160,75,10);$40.addColorStop(0,'rgba(255,248,234,'+(.09*w)+')');$40.addColorStop(.42,'rgba(255,248,234,'+(.025*w)+')');$40.addColorStop(1,'rgba(255,248,234,0)');wc.fillStyle=$40;wc.fillRect(-256,-350,512,512);wc.restore();c.drawImage(wetSpriteCanvas,-256,-350);}\n",
+      "before": "function drawWetSprite(c,f,scale){const w=clamp(f.wetness||0,0,1);if(w<.01){if(!PolishedSprites.draw(c,f,game.time,scale)&&f.type!=='reina'&&f.type!=='niko'&&f.type!=='orion'){const im=sprite(f);c.drawImage(im,-72,-145,148,160);}return;}const wc=wetSpriteCtx;wc.setTransform(1,0,0,1,0,0);wc.clearRect(0,0,512,512);wc.save();wc.translate(256,350);wc.imageSmoothingEnabled=false;if(!PolishedSprites.draw(wc,f,game.time,scale)&&f.type!=='reina'&&f.type!=='niko'&&f.type!=='orion'){const im=sprite(f);wc.drawImage(im,-72,-145,148,160);}wc.globalCompositeOperation='source-atop';wc.fillStyle='rgba(16,15,17,'+(.12*w)+')';wc.fillRect(-256,-350,512,512);const $40=wc.createLinearGradient(-70,-160,75,10);$40.addColorStop(0,'rgba(255,248,234,'+(.09*w)+')');$40.addColorStop(.42,'rgba(255,248,234,'+(.025*w)+')');$40.addColorStop(1,'rgba(255,248,234,0)');wc.fillStyle=$40;wc.fillRect(-256,-350,512,512);wc.restore();c.drawImage(wetSpriteCanvas,-256,-350);}\n"
+    },
+    {
+      "after": "PolishedSprites.ready.then(()=>{const c=document.querySelector('#heroPreview-orion');if(!c)return;const pen=c.getContext('2d'),p=NeonCombat.actor('orion',0,0);function animateOrion(t){if(!started){pen.clearRect(0,0,88,112);pen.save();pen.translate(44,107);pen.scale(.62,.62);p.idle205=t/1000;p.orionPose205=null;paintFighter399(pen,p,t/1000);pen.restore();}requestAnimationFrame(animateOrion);}requestAnimationFrame(animateOrion);});\n",
+      "before": "PolishedSprites.ready.then(()=>{const c=document.querySelector('#heroPreview-orion');if(!c)return;const pen=c.getContext('2d'),p=NeonCombat.actor('orion',0,0);function animateOrion(t){if(!started){pen.clearRect(0,0,88,112);pen.save();pen.translate(44,107);pen.scale(.62,.62);p.idle205=t/1000;p.orionPose205=null;PolishedSprites.draw(pen,p,t/1000);pen.restore();}requestAnimationFrame(animateOrion);}requestAnimationFrame(animateOrion);});\n"
+    },
+    {
+      "after": "\nfunction paintFighter399(c,f,...args){const draw=()=>PolishedSprites.draw(c,f,...args);return globalThis.ReinaCostume?globalThis.ReinaCostume.scope(c,f,draw):draw();}\n",
+      "before": ""
+    }
+  ]
+}

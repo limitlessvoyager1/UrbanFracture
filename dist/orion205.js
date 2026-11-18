@@ -1,6 +1,6 @@
 
 (function(root){'use strict';const N=root.NeonCombat,P=N.Brawler.prototype,{clamp}=N,F=1/60;
-const C={hp:130,walk:135,run:285,air:220,apex:108.1,repair:.17,runAcceleration:570,runBraking:760,dodgeCooldown:2,version:228};
+const C={hp:130,walk:144.45,run:285,air:220,apex:108.1,repair:.17,runAcceleration:570,runBraking:760,dodgeCooldown:2,version:228};
 N.HEROES.orion={name:'Orion',hp:130,walk:C.walk,run:C.run,air:C.air,apex:C.apex};N.Charge130.config.colors.orion='#ffe36d';N.Charge130.config.names.orion='SYSTEM REPAIR';N.Charge130.config.walk.orion=0;
 function locked(g){return !g.playing||g.player.hp<=0||g.transition||g.uptownFade||g.uptownEnd||g.finScene||g.alleyIntro||g.bossEnding||g.levelClear||g.destination183||g.rooftop201||g.slumsStory204||g.prisonStory224||N.Lab149?.cinematic(g)||N.Sterling152?.locked(g);}
 function life(p){return p.orionLife205??={repairUsed:false,serial:0};}

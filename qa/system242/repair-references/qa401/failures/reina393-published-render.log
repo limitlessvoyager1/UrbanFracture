@@ -1,0 +1,9 @@
+AssertionError [ERR_ASSERTION]: Carried knife must be painted after body
+    at /home/runner/work/UrbanFracture/UrbanFracture/tools/qa242/reina393-render-audit.cjs:3:836 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}

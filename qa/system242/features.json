@@ -46,7 +46,8 @@
         "qa242-release-integrity",
         "validator-self-tests",
         "qa242-pilot",
-        "qa242-recovered-history"
+        "qa242-recovered-history",
+        "qa242-preservation401"
       ],
       "visualScenarios": [],
       "performanceRisk": false,
@@ -368,7 +369,9 @@
         "dist/downtown-view351.js",
         "dist/flint351.js",
         "dist/reina-costume.js",
-        "dist/reina-uniform-data.js"
+        "dist/reina-uniform-data.js",
+        "dist/recording-view400.js",
+        "tools/reina383/audit.cjs"
       ],
       "entities": {
         "characters": [
@@ -426,7 +429,9 @@
         "reina399-art-contract",
         "reina399-native-source",
         "reina399-recording-render",
-        "reina399-costume-native"
+        "reina399-costume-native",
+        "orion400-render",
+        "orion400-view"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
@@ -441,7 +446,8 @@
         "tools/fighter-render/README.txt",
         "qa/system242/reina395-contract.json",
         "qa/system242/reina396-hair-contract.json",
-        "qa/system242/reina399-contract.json"
+        "qa/system242/reina399-contract.json",
+        "qa/system242/repairs/ORION400-RECORDINGS.md"
       ],
       "contentIds": [
         "reina395-contact-recovery",
@@ -794,7 +800,8 @@
         "dist/orion-combat205.js",
         "dist/orion-integration205.js",
         "dist/orion-special205.js",
-        "dist/orion205.js"
+        "dist/orion205.js",
+        "dist/orion400.js"
       ],
       "entities": {
         "characters": [
@@ -847,13 +854,15 @@
         "orion228-grabs",
         "orion228-specials",
         "orion228-integration",
-        "orion388-weapon-aim"
+        "orion388-weapon-aim",
+        "orion400-recording"
       ],
       "visualScenarios": [],
       "performanceRisk": true,
       "specs": [
         "qa/system242/PRODUCTION-COVERAGE.md",
-        "qa/system242/ORION-COVERAGE.md"
+        "qa/system242/ORION-COVERAGE.md",
+        "qa/system242/repairs/ORION400-RECORDINGS.md"
       ],
       "contentIds": [],
       "certification": "partial"
@@ -967,7 +976,8 @@
         "dist/unique311.js",
         "dist/worker-encounters233.js",
         "dist/workers233.js",
-        "dist/flint351.js"
+        "dist/flint351.js",
+        "dist/orion400.js"
       ],
       "entities": {
         "characters": [],
@@ -987,12 +997,14 @@
         "post-hit-reassessment",
         "hitstun-eligibility",
         "knockdown-admission",
-        "reina394-published-native"
+        "reina394-published-native",
+        "orion400-recording"
       ],
       "visualScenarios": [],
       "performanceRisk": true,
       "specs": [
-        "qa/system242/PRODUCTION-COVERAGE.md"
+        "qa/system242/PRODUCTION-COVERAGE.md",
+        "qa/system242/repairs/ORION400-RECORDINGS.md"
       ],
       "contentIds": [],
       "certification": "partial"

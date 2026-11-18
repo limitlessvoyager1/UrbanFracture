@@ -1,0 +1,6 @@
+PR36 QA401 first corrective head 1463c51e04fe6465283ca2d5a1f8bd08d31378ad
+Run44408453809, job135169857473 remains Failed.
+The native checks passed, then the source-bound renderer failed:
+AssertionError: A.ok(throwFrames.size>=5)
+tools/qa242/reina395-render-audit.cjs:2:1898
+The prior QA395 throwArt395 metadata no longer belongs to the restored native hip toss. Follow-up QA samples the actual native-hip body images, retaining the five-distinct-body requirement. No runtime renderer is changed and this original failure is not reclassified.

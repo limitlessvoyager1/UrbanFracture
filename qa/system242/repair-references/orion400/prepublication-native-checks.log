@@ -1,0 +1,367 @@
+TAP version 13
+# PASS157 physical/DSX echo stability, hotplug fallback, explicit device and layout override
+# Subtest: tests\\controller157.cjs
+ok 1 - tests\\controller157.cjs
+  ---
+  duration_ms: 117.4235
+  type: 'test'
+  ...
+# PASS mappings, stick dead zone, D-pad, edges/holds, menu start, pause/resume, dash direction, L1 catch, disconnect pause and focus protection
+# PASS live raw DualSense movement/jump after rearming, custom DSX movement, and visible embedded-policy recovery
+# Subtest: tests\\gamepad.test.cjs
+ok 2 - tests\\gamepad.test.cjs
+  ---
+  duration_ms: 151.3842
+  type: 'test'
+  ...
+# PASS228 GATE1 30/60/120Hz idle/walk/booster acceleration+braking/jump/plane/landing/block/hit/knockdown/get-up/idle transitions.
+# Subtest: tests\\orion228-foundation.cjs
+ok 3 - tests\\orion228-foundation.cjs
+  ---
+  duration_ms: 790.7678
+  type: 'test'
+  ...
+# PASS228 GATE4 four directional grabs x2facings x3tick rates, exact separate damage events, plane lock, finite119 synchronization and cleanup.
+# Subtest: tests\\orion228-grabs.cjs
+ok 4 - tests\\orion228-grabs.cjs
+  ---
+  duration_ms: 1883.5967
+  type: 'test'
+  ...
+# PASS228 GATE6/7 dodge timing/cost/cooldown, native electrical resistance/retrigger grace, airborne interruption, corrupt clock/pair watchdog cleanup, other hero identity, standard/strong/boss specials.
+# Subtest: tests\\orion228-integration.cjs
+ok 5 - tests\\orion228-integration.cjs
+  ---
+  duration_ms: 1540.9401
+  type: 'test'
+  ...
+# PASS228 GATE2 exact four-stage combo, whiffs, launches, finite aerial moves, interruption cleanup and synchronized28HP lift/punch/smash at30/60/120Hz.
+# Subtest: tests\\orion228-physical.cjs
+ok 6 - tests\\orion228-physical.cjs
+  ---
+  duration_ms: 1762.3804
+  type: 'test'
+  ...
+# PASS228 GATE3 planted3s charge, no pre-completion healing,20-frame repair event22HP/full defense,24-frame recovery, interrupts preserve unused repair and no auto-restart; new-life-only reset.
+# Subtest: tests\\orion228-repair.cjs
+ok 7 - tests\\orion228-repair.cjs
+  ---
+  duration_ms: 942.17
+  type: 'test'
+  ...
+# PASS228 GATE5 four specials x2facings x3rates: separate contact events, bilateral propagation, lane misses, airborne Blitz, mandatory recovery and finite cleanup.
+# Subtest: tests\\orion228-specials.cjs
+ok 8 - tests\\orion228-specials.cjs
+  ---
+  duration_ms: 1763.8126
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 30Hz dir -1
+ok 9 - native combo retries a denied contact inside its existing active window 30Hz dir -1
+  ---
+  duration_ms: 759.013
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 30Hz dir 1
+ok 10 - native combo retries a denied contact inside its existing active window 30Hz dir 1
+  ---
+  duration_ms: 529.7691
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 60Hz dir -1
+ok 11 - native combo retries a denied contact inside its existing active window 60Hz dir -1
+  ---
+  duration_ms: 416.4746
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 60Hz dir 1
+ok 12 - native combo retries a denied contact inside its existing active window 60Hz dir 1
+  ---
+  duration_ms: 312.7061
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 120Hz dir -1
+ok 13 - native combo retries a denied contact inside its existing active window 120Hz dir -1
+  ---
+  duration_ms: 299.601
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 120Hz dir 1
+ok 14 - native combo retries a denied contact inside its existing active window 120Hz dir 1
+  ---
+  duration_ms: 324.5291
+  type: 'test'
+  ...
+# Subtest: no hit is added after the active window closes
+ok 15 - no hit is added after the active window closes
+  ---
+  duration_ms: 328.0857
+  type: 'test'
+  ...
+# Subtest: accepted targets deduplicate per event, while separate targets and later strike keys remain legal
+ok 16 - accepted targets deduplicate per event, while separate targets and later strike keys remain legal
+  ---
+  duration_ms: 303.4494
+  type: 'test'
+  ...
+# Subtest: native guard consumes one contact even when block flash was already at its peak
+ok 17 - native guard consumes one contact even when block flash was already at its peak
+  ---
+  duration_ms: 303.683
+  type: 'test'
+  ...
+# Subtest: wake protection may expire inside a native melee window; lane/range and invalid targets still reject
+ok 18 - wake protection may expire inside a native melee window; lane/range and invalid targets still reject
+  ---
+  duration_ms: 297.756
+  type: 'test'
+  ...
+# Subtest: laser retry uses the original window and applies one damage/electrical event
+ok 19 - laser retry uses the original window and applies one damage/electrical event
+  ---
+  duration_ms: 326.3786
+  type: 'test'
+  ...
+# Subtest: retained production source reproduces the consumed-rejection bug
+ok 20 - retained production source reproduces the consumed-rejection bug
+  ---
+  duration_ms: 370.6269
+  type: 'test'
+  ...
+# Subtest: recursive native admission cannot apply the same action/event/target twice
+ok 21 - recursive native admission cannot apply the same action/event/target twice
+  ---
+  duration_ms: 314.6822
+  type: 'test'
+  ...
+# Subtest: a rejected throwing admission releases its temporary reservation
+ok 22 - a rejected throwing admission releases its temporary reservation
+  ---
+  duration_ms: 306.1119
+  type: 'test'
+  ...
+# Subtest: confirmed guard cost consumes a contact with an unchanged flash value
+ok 23 - confirmed guard cost consumes a contact with an unchanged flash value
+  ---
+  duration_ms: 292.0452
+  type: 'test'
+  ...
+# Subtest: historical 387 repair preserved its retained pre-400 combo contract
+ok 24 - historical 387 repair preserved its retained pre-400 combo contract
+  ---
+  duration_ms: 15090.4618
+  type: 'test'
+  ...
+# Subtest: combo final electrifies and knocks down exactly once 30Hz -1
+ok 25 - combo final electrifies and knocks down exactly once 30Hz -1
+  ---
+  duration_ms: 764.4277
+  type: 'test'
+  ...
+# Subtest: blitz wider radius and 25 damage, finite recovery 30Hz -1
+ok 26 - blitz wider radius and 25 damage, finite recovery 30Hz -1
+  ---
+  duration_ms: 568.7808
+  type: 'test'
+  ...
+# Subtest: full viewport beam, burn metadata, latched facing 30Hz -1
+ok 27 - full viewport beam, burn metadata, latched facing 30Hz -1
+  ---
+  duration_ms: 374.8382
+  type: 'test'
+  ...
+# Subtest: three bilateral current fronts, half-viewport reach, single damage and progress stop 30Hz -1
+ok 28 - three bilateral current fronts, half-viewport reach, single damage and progress stop 30Hz -1
+  ---
+  duration_ms: 311.2042
+  type: 'test'
+  ...
+# Subtest: combo final electrifies and knocks down exactly once 30Hz 1
+ok 29 - combo final electrifies and knocks down exactly once 30Hz 1
+  ---
+  duration_ms: 273.8688
+  type: 'test'
+  ...
+# Subtest: blitz wider radius and 25 damage, finite recovery 30Hz 1
+ok 30 - blitz wider radius and 25 damage, finite recovery 30Hz 1
+  ---
+  duration_ms: 314.7734
+  type: 'test'
+  ...
+# Subtest: full viewport beam, burn metadata, latched facing 30Hz 1
+ok 31 - full viewport beam, burn metadata, latched facing 30Hz 1
+  ---
+  duration_ms: 327.443
+  type: 'test'
+  ...
+# Subtest: three bilateral current fronts, half-viewport reach, single damage and progress stop 30Hz 1
+ok 32 - three bilateral current fronts, half-viewport reach, single damage and progress stop 30Hz 1
+  ---
+  duration_ms: 344.1266
+  type: 'test'
+  ...
+# Subtest: combo final electrifies and knocks down exactly once 60Hz -1
+ok 33 - combo final electrifies and knocks down exactly once 60Hz -1
+  ---
+  duration_ms: 339.8858
+  type: 'test'
+  ...
+# Subtest: blitz wider radius and 25 damage, finite recovery 60Hz -1
+ok 34 - blitz wider radius and 25 damage, finite recovery 60Hz -1
+  ---
+  duration_ms: 362.3906
+  type: 'test'
+  ...
+# Subtest: full viewport beam, burn metadata, latched facing 60Hz -1
+ok 35 - full viewport beam, burn metadata, latched facing 60Hz -1
+  ---
+  duration_ms: 390.014
+  type: 'test'
+  ...
+# Subtest: three bilateral current fronts, half-viewport reach, single damage and progress stop 60Hz -1
+ok 36 - three bilateral current fronts, half-viewport reach, single damage and progress stop 60Hz -1
+  ---
+  duration_ms: 387.7471
+  type: 'test'
+  ...
+# Subtest: combo final electrifies and knocks down exactly once 60Hz 1
+ok 37 - combo final electrifies and knocks down exactly once 60Hz 1
+  ---
+  duration_ms: 347.3109
+  type: 'test'
+  ...
+# Subtest: blitz wider radius and 25 damage, finite recovery 60Hz 1
+ok 38 - blitz wider radius and 25 damage, finite recovery 60Hz 1
+  ---
+  duration_ms: 358.6202
+  type: 'test'
+  ...
+# Subtest: full viewport beam, burn metadata, latched facing 60Hz 1
+ok 39 - full viewport beam, burn metadata, latched facing 60Hz 1
+  ---
+  duration_ms: 355.5274
+  type: 'test'
+  ...
+# Subtest: three bilateral current fronts, half-viewport reach, single damage and progress stop 60Hz 1
+ok 40 - three bilateral current fronts, half-viewport reach, single damage and progress stop 60Hz 1
+  ---
+  duration_ms: 377.9379
+  type: 'test'
+  ...
+# Subtest: combo final electrifies and knocks down exactly once 120Hz -1
+ok 41 - combo final electrifies and knocks down exactly once 120Hz -1
+  ---
+  duration_ms: 370.9939
+  type: 'test'
+  ...
+# Subtest: blitz wider radius and 25 damage, finite recovery 120Hz -1
+ok 42 - blitz wider radius and 25 damage, finite recovery 120Hz -1
+  ---
+  duration_ms: 423.394
+  type: 'test'
+  ...
+# Subtest: full viewport beam, burn metadata, latched facing 120Hz -1
+ok 43 - full viewport beam, burn metadata, latched facing 120Hz -1
+  ---
+  duration_ms: 438.0322
+  type: 'test'
+  ...
+# Subtest: three bilateral current fronts, half-viewport reach, single damage and progress stop 120Hz -1
+ok 44 - three bilateral current fronts, half-viewport reach, single damage and progress stop 120Hz -1
+  ---
+  duration_ms: 443.7073
+  type: 'test'
+  ...
+# Subtest: combo final electrifies and knocks down exactly once 120Hz 1
+ok 45 - combo final electrifies and knocks down exactly once 120Hz 1
+  ---
+  duration_ms: 381.678
+  type: 'test'
+  ...
+# Subtest: blitz wider radius and 25 damage, finite recovery 120Hz 1
+ok 46 - blitz wider radius and 25 damage, finite recovery 120Hz 1
+  ---
+  duration_ms: 437.1657
+  type: 'test'
+  ...
+# Subtest: full viewport beam, burn metadata, latched facing 120Hz 1
+ok 47 - full viewport beam, burn metadata, latched facing 120Hz 1
+  ---
+  duration_ms: 409.0331
+  type: 'test'
+  ...
+# Subtest: three bilateral current fronts, half-viewport reach, single damage and progress stop 120Hz 1
+ok 48 - three bilateral current fronts, half-viewport reach, single damage and progress stop 120Hz 1
+  ---
+  duration_ms: 461.5912
+  type: 'test'
+  ...
+# Subtest: walk +7%, quicker combo links, unchanged damage/contact/energy and run speed
+ok 49 - walk +7%, quicker combo links, unchanged damage/contact/energy and run speed
+  ---
+  duration_ms: 313.7194
+  type: 'test'
+  ...
+# Subtest: current cannot bypass native protection or hit a different lane
+ok 50 - current cannot bypass native protection or hit a different lane
+  ---
+  duration_ms: 365.657
+  type: 'test'
+  ...
+# Subtest: both shipped entrypoints load native and view adapters exactly once
+ok 51 - both shipped entrypoints load native and view adapters exactly once
+  ---
+  duration_ms: 1.5309
+  type: 'test'
+  ...
+# Subtest: Ascension shared lift / every nearby enemy / radial release 30Hz -1
+ok 52 - Ascension shared lift / every nearby enemy / radial release 30Hz -1
+  ---
+  duration_ms: 443.6714
+  type: 'test'
+  ...
+# Subtest: Ascension shared lift / every nearby enemy / radial release 30Hz 1
+ok 53 - Ascension shared lift / every nearby enemy / radial release 30Hz 1
+  ---
+  duration_ms: 405.3205
+  type: 'test'
+  ...
+# Subtest: Ascension shared lift / every nearby enemy / radial release 60Hz -1
+ok 54 - Ascension shared lift / every nearby enemy / radial release 60Hz -1
+  ---
+  duration_ms: 437.4538
+  type: 'test'
+  ...
+# Subtest: Ascension shared lift / every nearby enemy / radial release 60Hz 1
+ok 55 - Ascension shared lift / every nearby enemy / radial release 60Hz 1
+  ---
+  duration_ms: 397.0334
+  type: 'test'
+  ...
+# Subtest: Ascension shared lift / every nearby enemy / radial release 120Hz -1
+ok 56 - Ascension shared lift / every nearby enemy / radial release 120Hz -1
+  ---
+  duration_ms: 554.6949
+  type: 'test'
+  ...
+# Subtest: Ascension shared lift / every nearby enemy / radial release 120Hz 1
+ok 57 - Ascension shared lift / every nearby enemy / radial release 120Hz 1
+  ---
+  duration_ms: 546.8627
+  type: 'test'
+  ...
+# Subtest: actual enemy displacement advances every HD walk frame without render-driven movement
+ok 58 - actual enemy displacement advances every HD walk frame without render-driven movement
+  ---
+  duration_ms: 349.6376
+  type: 'test'
+  ...
+1..58
+# tests 58
+# suites 0
+# pass 58
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 20802.224

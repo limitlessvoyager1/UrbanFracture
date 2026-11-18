@@ -1,0 +1,85 @@
+{
+  "sourceCommit": "128180a7462b673d0cf7dbca8dce45c12fee3596",
+  "baseCommit": "686309c3fbde98b377265bbf96cbcac1d183ce3a",
+  "runId": "20261118T211154489Z-9c67621f",
+  "counts": {
+    "executed": 102,
+    "passed": 91,
+    "failed": 11,
+    "blocked": 5,
+    "notExecuted": 284,
+    "needsReview": 0
+  },
+  "recommendation": "Reject",
+  "artifactId": 14473765472,
+  "artifactSHA256": "36d197fdf116ce2c6fd48597c5e89b6d2b850779e3d5fbfad5ff75196f59d697",
+  "failed": [
+    {
+      "id": "campaign224",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/campaign224.log",
+      "sha256": "d8894ce27b2b8462d6c059259eadf86c971a5376575340870fb3214804fad311",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "stadium237",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/stadium237.log",
+      "sha256": "d8894ce27b2b8462d6c059259eadf86c971a5376575340870fb3214804fad311",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "security216-legacy",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/security216-legacy.log",
+      "sha256": "c2cd7dd180a325eaf12e409c5a9be78d4dfba049faa8b1a2b587518042d99075",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "current216-legacy",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/current216-legacy.log",
+      "sha256": "cbbca27e47b2a95d39a012fd70ac18f92e9257badb1530830aa2488e04425ed3",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "diagnostics307-input",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/diagnostics307-input.log",
+      "sha256": "b90cab6c025aa38b68793a24e4629cd0ed3dcf23cb779d075b3fa87aae02d197",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "reina383-render-audit",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/reina383-render-audit.log",
+      "sha256": "74dc1c829adddbbdd59c3c3e5659d6f432d7fcfa7f63e311253287cb7a1f07ff",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "orion-current-coverage",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/orion-current-coverage.log",
+      "sha256": "7c7cef03ede044cdb8672c38fa64c09f37ec14bdbaa78230b81501cba2682cda",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "qa242-recovered-history",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/qa242-recovered-history.log",
+      "sha256": "7fb106e72b71fb232f214e609a5ec6fdf83204c6a0fbb40c7a110ce25b1ba949",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "reina393-published-render",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/reina393-published-render.log",
+      "sha256": "850afe52c7b2316aac288ff2e9ce1d0a74243dd3761c9e6ae9ec13687dc80c8b",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "reina396-native-preservation",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/reina396-native-preservation.log",
+      "sha256": "5ba1113e550f50797cbf16a8835f2f662ff97fbf44de8a7809d3e37077c48327",
+      "failureAttribution": "unknown"
+    },
+    {
+      "id": "reina399-native-source",
+      "log": "reports242/runs/20261118T211154489Z-9c67621f/logs/reina399-native-source.log",
+      "sha256": "22476662cbc743d47eaa80ae44b43eeab4955f70188f77a49d7501ad94c98527",
+      "failureAttribution": "unknown"
+    }
+  ],
+  "originalReportNotReclassified": true
+}

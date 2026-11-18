@@ -1,0 +1,29 @@
+node:assert:150
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Current game differs from the exact reviewed diagnostic input
++ actual - expected
+
++ 'ff195ea659bdb1512222011c3ec132d09def81b6'
+- '79a3206beb6d331f8c58e4d8185446f58ea6e4c6'
+
+    at rewind (/home/runner/work/UrbanFracture/UrbanFracture/tools/qa242/diagnostics-history.cjs:4:94)
+    at Object.verify (/home/runner/work/UrbanFracture/UrbanFracture/tools/qa242/diagnostics-history.cjs:5:322)
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/diagnostics307-input.cjs:5:49)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at main (/home/runner/work/UrbanFracture/UrbanFracture/tools/qa242/diagnostics-history.cjs:6:267)
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tools/qa242/diagnostics-history.cjs:7:57)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'ff195ea659bdb1512222011c3ec132d09def81b6',
+  expected: '79a3206beb6d331f8c58e4d8185446f58ea6e4c6',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.21.0

@@ -1,0 +1,1112 @@
+TAP version 13
+# Subtest: Orion current four-stage combo 30Hz dir -1
+not ok 1 - Orion current four-stage combo 30Hz dir -1
+  ---
+  duration_ms: 11.85108
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion independent combo duration
+    
+    19 !== 21
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 21
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:13:340
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: Orion current pair grab 30Hz dir -1
+ok 2 - Orion current pair grab 30Hz dir -1
+  ---
+  duration_ms: 39.985366
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 30Hz dir -1
+ok 3 - Orion current pair blast 30Hz dir -1
+  ---
+  duration_ms: 17.115455
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 30Hz dir -1
+ok 4 - Orion current pair robo 30Hz dir -1
+  ---
+  duration_ms: 19.309721
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 30Hz dir -1
+ok 5 - Orion current pair piston 30Hz dir -1
+  ---
+  duration_ms: 11.28892
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 30Hz dir -1
+ok 6 - Orion current pair inverted 30Hz dir -1
+  ---
+  duration_ms: 18.535742
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 30Hz dir -1
+ok 7 - Orion current pair ascension 30Hz dir -1
+  ---
+  duration_ms: 21.03591
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 30Hz dir -1
+ok 8 - Orion current airborne airNeutral 30Hz dir -1
+  ---
+  duration_ms: 11.628323
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 30Hz dir -1
+ok 9 - Orion current airborne airKnee 30Hz dir -1
+  ---
+  duration_ms: 9.795593
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 30Hz dir -1
+ok 10 - Orion current airborne airDown 30Hz dir -1
+  ---
+  duration_ms: 11.106484
+  type: 'test'
+  ...
+# Subtest: Orion current special current 30Hz dir -1
+not ok 11 - Orion current special current 30Hz dir -1
+  ---
+  duration_ms: 6.082822
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion no startup damage
+    
+    983 !== 1000
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1000
+  actual: 983
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:518)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current special laser 30Hz dir -1
+ok 12 - Orion current special laser 30Hz dir -1
+  ---
+  duration_ms: 14.192869
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 30Hz dir -1
+not ok 13 - Orion current special meteor 30Hz dir -1
+  ---
+  duration_ms: 13.108089
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion exact isolated damage
+    
+    25 !== 22
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 22
+  actual: 25
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:1089)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current dodge 30Hz dir -1
+ok 14 - Orion current dodge 30Hz dir -1
+  ---
+  duration_ms: 6.162933
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 30Hz dir -1
+ok 15 - Orion current charged System Repair 30Hz dir -1
+  ---
+  duration_ms: 24.343458
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 30Hz dir -1
+ok 16 - Orion current R1 counter punch 30Hz dir -1
+  ---
+  duration_ms: 15.679686
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 30Hz dir -1
+ok 17 - Orion current R1 counter kick 30Hz dir -1
+  ---
+  duration_ms: 21.548695
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 30Hz dir -1
+ok 18 - Orion current R1 counter short 30Hz dir -1
+  ---
+  duration_ms: 11.445917
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 30Hz dir -1
+ok 19 - Orion current R1 counter long 30Hz dir -1
+  ---
+  duration_ms: 8.577062
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 30Hz dir 1
+not ok 20 - Orion current four-stage combo 30Hz dir 1
+  ---
+  duration_ms: 0.832177
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion independent combo duration
+    
+    19 !== 21
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 21
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:13:340
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current pair grab 30Hz dir 1
+ok 21 - Orion current pair grab 30Hz dir 1
+  ---
+  duration_ms: 15.685594
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 30Hz dir 1
+ok 22 - Orion current pair blast 30Hz dir 1
+  ---
+  duration_ms: 11.207026
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 30Hz dir 1
+ok 23 - Orion current pair robo 30Hz dir 1
+  ---
+  duration_ms: 19.958772
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 30Hz dir 1
+ok 24 - Orion current pair piston 30Hz dir 1
+  ---
+  duration_ms: 10.073873
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 30Hz dir 1
+ok 25 - Orion current pair inverted 30Hz dir 1
+  ---
+  duration_ms: 16.676081
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 30Hz dir 1
+ok 26 - Orion current pair ascension 30Hz dir 1
+  ---
+  duration_ms: 20.209191
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 30Hz dir 1
+ok 27 - Orion current airborne airNeutral 30Hz dir 1
+  ---
+  duration_ms: 8.665996
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 30Hz dir 1
+ok 28 - Orion current airborne airKnee 30Hz dir 1
+  ---
+  duration_ms: 8.214524
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 30Hz dir 1
+ok 29 - Orion current airborne airDown 30Hz dir 1
+  ---
+  duration_ms: 9.395569
+  type: 'test'
+  ...
+# Subtest: Orion current special current 30Hz dir 1
+not ok 30 - Orion current special current 30Hz dir 1
+  ---
+  duration_ms: 5.092906
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion no startup damage
+    
+    983 !== 1000
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1000
+  actual: 983
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:518)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current special laser 30Hz dir 1
+ok 31 - Orion current special laser 30Hz dir 1
+  ---
+  duration_ms: 14.892316
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 30Hz dir 1
+not ok 32 - Orion current special meteor 30Hz dir 1
+  ---
+  duration_ms: 11.815486
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion exact isolated damage
+    
+    25 !== 22
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 22
+  actual: 25
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:1089)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current dodge 30Hz dir 1
+ok 33 - Orion current dodge 30Hz dir 1
+  ---
+  duration_ms: 6.287782
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 30Hz dir 1
+ok 34 - Orion current charged System Repair 30Hz dir 1
+  ---
+  duration_ms: 27.441591
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 30Hz dir 1
+ok 35 - Orion current R1 counter punch 30Hz dir 1
+  ---
+  duration_ms: 14.13414
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 30Hz dir 1
+ok 36 - Orion current R1 counter kick 30Hz dir 1
+  ---
+  duration_ms: 16.882604
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 30Hz dir 1
+ok 37 - Orion current R1 counter short 30Hz dir 1
+  ---
+  duration_ms: 9.569571
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 30Hz dir 1
+ok 38 - Orion current R1 counter long 30Hz dir 1
+  ---
+  duration_ms: 8.117788
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 60Hz dir -1
+not ok 39 - Orion current four-stage combo 60Hz dir -1
+  ---
+  duration_ms: 0.972259
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion independent combo duration
+    
+    19 !== 21
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 21
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:13:340
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current pair grab 60Hz dir -1
+ok 40 - Orion current pair grab 60Hz dir -1
+  ---
+  duration_ms: 26.362529
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 60Hz dir -1
+ok 41 - Orion current pair blast 60Hz dir -1
+  ---
+  duration_ms: 26.896973
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 60Hz dir -1
+ok 42 - Orion current pair robo 60Hz dir -1
+  ---
+  duration_ms: 29.015358
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 60Hz dir -1
+ok 43 - Orion current pair piston 60Hz dir -1
+  ---
+  duration_ms: 18.098681
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 60Hz dir -1
+ok 44 - Orion current pair inverted 60Hz dir -1
+  ---
+  duration_ms: 31.142803
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 60Hz dir -1
+ok 45 - Orion current pair ascension 60Hz dir -1
+  ---
+  duration_ms: 40.877014
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 60Hz dir -1
+ok 46 - Orion current airborne airNeutral 60Hz dir -1
+  ---
+  duration_ms: 14.458229
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 60Hz dir -1
+ok 47 - Orion current airborne airKnee 60Hz dir -1
+  ---
+  duration_ms: 17.213584
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 60Hz dir -1
+ok 48 - Orion current airborne airDown 60Hz dir -1
+  ---
+  duration_ms: 15.014069
+  type: 'test'
+  ...
+# Subtest: Orion current special current 60Hz dir -1
+not ok 49 - Orion current special current 60Hz dir -1
+  ---
+  duration_ms: 7.248434
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion no startup damage
+    
+    983 !== 1000
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1000
+  actual: 983
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:518)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current special laser 60Hz dir -1
+ok 50 - Orion current special laser 60Hz dir -1
+  ---
+  duration_ms: 20.454651
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 60Hz dir -1
+not ok 51 - Orion current special meteor 60Hz dir -1
+  ---
+  duration_ms: 17.987994
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion exact isolated damage
+    
+    25 !== 22
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 22
+  actual: 25
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:1089)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current dodge 60Hz dir -1
+ok 52 - Orion current dodge 60Hz dir -1
+  ---
+  duration_ms: 8.133892
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 60Hz dir -1
+ok 53 - Orion current charged System Repair 60Hz dir -1
+  ---
+  duration_ms: 35.515131
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 60Hz dir -1
+ok 54 - Orion current R1 counter punch 60Hz dir -1
+  ---
+  duration_ms: 16.99247
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 60Hz dir -1
+ok 55 - Orion current R1 counter kick 60Hz dir -1
+  ---
+  duration_ms: 19.508632
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 60Hz dir -1
+ok 56 - Orion current R1 counter short 60Hz dir -1
+  ---
+  duration_ms: 17.175826
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 60Hz dir -1
+ok 57 - Orion current R1 counter long 60Hz dir -1
+  ---
+  duration_ms: 10.346816
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 60Hz dir 1
+not ok 58 - Orion current four-stage combo 60Hz dir 1
+  ---
+  duration_ms: 1.319164
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion independent combo duration
+    
+    19 !== 21
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 21
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:13:340
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current pair grab 60Hz dir 1
+ok 59 - Orion current pair grab 60Hz dir 1
+  ---
+  duration_ms: 20.278996
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 60Hz dir 1
+ok 60 - Orion current pair blast 60Hz dir 1
+  ---
+  duration_ms: 17.034984
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 60Hz dir 1
+ok 61 - Orion current pair robo 60Hz dir 1
+  ---
+  duration_ms: 18.320076
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 60Hz dir 1
+ok 62 - Orion current pair piston 60Hz dir 1
+  ---
+  duration_ms: 11.0569
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 60Hz dir 1
+ok 63 - Orion current pair inverted 60Hz dir 1
+  ---
+  duration_ms: 24.691264
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 60Hz dir 1
+ok 64 - Orion current pair ascension 60Hz dir 1
+  ---
+  duration_ms: 21.762708
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 60Hz dir 1
+ok 65 - Orion current airborne airNeutral 60Hz dir 1
+  ---
+  duration_ms: 8.78112
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 60Hz dir 1
+ok 66 - Orion current airborne airKnee 60Hz dir 1
+  ---
+  duration_ms: 9.757466
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 60Hz dir 1
+ok 67 - Orion current airborne airDown 60Hz dir 1
+  ---
+  duration_ms: 9.685817
+  type: 'test'
+  ...
+# Subtest: Orion current special current 60Hz dir 1
+not ok 68 - Orion current special current 60Hz dir 1
+  ---
+  duration_ms: 6.554155
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion no startup damage
+    
+    983 !== 1000
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1000
+  actual: 983
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:518)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current special laser 60Hz dir 1
+ok 69 - Orion current special laser 60Hz dir 1
+  ---
+  duration_ms: 23.888561
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 60Hz dir 1
+not ok 70 - Orion current special meteor 60Hz dir 1
+  ---
+  duration_ms: 13.564118
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion exact isolated damage
+    
+    25 !== 22
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 22
+  actual: 25
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:1089)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current dodge 60Hz dir 1
+ok 71 - Orion current dodge 60Hz dir 1
+  ---
+  duration_ms: 6.105847
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 60Hz dir 1
+ok 72 - Orion current charged System Repair 60Hz dir 1
+  ---
+  duration_ms: 26.539397
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 60Hz dir 1
+ok 73 - Orion current R1 counter punch 60Hz dir 1
+  ---
+  duration_ms: 18.657616
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 60Hz dir 1
+ok 74 - Orion current R1 counter kick 60Hz dir 1
+  ---
+  duration_ms: 15.891956
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 60Hz dir 1
+ok 75 - Orion current R1 counter short 60Hz dir 1
+  ---
+  duration_ms: 14.555166
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 60Hz dir 1
+ok 76 - Orion current R1 counter long 60Hz dir 1
+  ---
+  duration_ms: 15.230636
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 120Hz dir -1
+not ok 77 - Orion current four-stage combo 120Hz dir -1
+  ---
+  duration_ms: 1.348699
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion independent combo duration
+    
+    19 !== 21
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 21
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:13:340
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current pair grab 120Hz dir -1
+ok 78 - Orion current pair grab 120Hz dir -1
+  ---
+  duration_ms: 31.701908
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 120Hz dir -1
+ok 79 - Orion current pair blast 120Hz dir -1
+  ---
+  duration_ms: 27.383893
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 120Hz dir -1
+ok 80 - Orion current pair robo 120Hz dir -1
+  ---
+  duration_ms: 31.054841
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 120Hz dir -1
+ok 81 - Orion current pair piston 120Hz dir -1
+  ---
+  duration_ms: 21.468523
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 120Hz dir -1
+ok 82 - Orion current pair inverted 120Hz dir -1
+  ---
+  duration_ms: 33.434967
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 120Hz dir -1
+ok 83 - Orion current pair ascension 120Hz dir -1
+  ---
+  duration_ms: 39.701458
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 120Hz dir -1
+ok 84 - Orion current airborne airNeutral 120Hz dir -1
+  ---
+  duration_ms: 16.234173
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 120Hz dir -1
+ok 85 - Orion current airborne airKnee 120Hz dir -1
+  ---
+  duration_ms: 24.877386
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 120Hz dir -1
+ok 86 - Orion current airborne airDown 120Hz dir -1
+  ---
+  duration_ms: 27.082197
+  type: 'test'
+  ...
+# Subtest: Orion current special current 120Hz dir -1
+not ok 87 - Orion current special current 120Hz dir -1
+  ---
+  duration_ms: 21.914087
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion no startup damage
+    
+    983 !== 1000
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1000
+  actual: 983
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:518)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current special laser 120Hz dir -1
+ok 88 - Orion current special laser 120Hz dir -1
+  ---
+  duration_ms: 42.100463
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 120Hz dir -1
+not ok 89 - Orion current special meteor 120Hz dir -1
+  ---
+  duration_ms: 21.189131
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion exact isolated damage
+    
+    25 !== 22
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 22
+  actual: 25
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:1089)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current dodge 120Hz dir -1
+ok 90 - Orion current dodge 120Hz dir -1
+  ---
+  duration_ms: 9.365603
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 120Hz dir -1
+ok 91 - Orion current charged System Repair 120Hz dir -1
+  ---
+  duration_ms: 48.787549
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 120Hz dir -1
+ok 92 - Orion current R1 counter punch 120Hz dir -1
+  ---
+  duration_ms: 23.265069
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 120Hz dir -1
+ok 93 - Orion current R1 counter kick 120Hz dir -1
+  ---
+  duration_ms: 22.443647
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 120Hz dir -1
+ok 94 - Orion current R1 counter short 120Hz dir -1
+  ---
+  duration_ms: 16.798677
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 120Hz dir -1
+ok 95 - Orion current R1 counter long 120Hz dir -1
+  ---
+  duration_ms: 12.209722
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 120Hz dir 1
+not ok 96 - Orion current four-stage combo 120Hz dir 1
+  ---
+  duration_ms: 0.884748
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion independent combo duration
+    
+    19 !== 21
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 21
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:13:340
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current pair grab 120Hz dir 1
+ok 97 - Orion current pair grab 120Hz dir 1
+  ---
+  duration_ms: 22.561085
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 120Hz dir 1
+ok 98 - Orion current pair blast 120Hz dir 1
+  ---
+  duration_ms: 18.818489
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 120Hz dir 1
+ok 99 - Orion current pair robo 120Hz dir 1
+  ---
+  duration_ms: 24.094512
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 120Hz dir 1
+ok 100 - Orion current pair piston 120Hz dir 1
+  ---
+  duration_ms: 19.84478
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 120Hz dir 1
+ok 101 - Orion current pair inverted 120Hz dir 1
+  ---
+  duration_ms: 25.831026
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 120Hz dir 1
+ok 102 - Orion current pair ascension 120Hz dir 1
+  ---
+  duration_ms: 29.510306
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 120Hz dir 1
+ok 103 - Orion current airborne airNeutral 120Hz dir 1
+  ---
+  duration_ms: 12.428012
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 120Hz dir 1
+ok 104 - Orion current airborne airKnee 120Hz dir 1
+  ---
+  duration_ms: 12.206106
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 120Hz dir 1
+ok 105 - Orion current airborne airDown 120Hz dir 1
+  ---
+  duration_ms: 13.968349
+  type: 'test'
+  ...
+# Subtest: Orion current special current 120Hz dir 1
+not ok 106 - Orion current special current 120Hz dir 1
+  ---
+  duration_ms: 7.749792
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion no startup damage
+    
+    983 !== 1000
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1000
+  actual: 983
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:518)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current special laser 120Hz dir 1
+ok 107 - Orion current special laser 120Hz dir 1
+  ---
+  duration_ms: 20.159546
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 120Hz dir 1
+not ok 108 - Orion current special meteor 120Hz dir 1
+  ---
+  duration_ms: 20.029399
+  type: 'test'
+  location: '/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:27'
+  failureType: 'testCodeFailure'
+  error: |-
+    Orion exact isolated damage
+    
+    25 !== 22
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 22
+  actual: 25
+  operator: 'strictEqual'
+  stack: |-
+    trace (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:10:1089)
+    /home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:16:622
+    TestContext.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/qa242-orion-current.cjs:11:115)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Orion current dodge 120Hz dir 1
+ok 109 - Orion current dodge 120Hz dir 1
+  ---
+  duration_ms: 10.080434
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 120Hz dir 1
+ok 110 - Orion current charged System Repair 120Hz dir 1
+  ---
+  duration_ms: 34.99811
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 120Hz dir 1
+ok 111 - Orion current R1 counter punch 120Hz dir 1
+  ---
+  duration_ms: 20.148179
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 120Hz dir 1
+ok 112 - Orion current R1 counter kick 120Hz dir 1
+  ---
+  duration_ms: 20.438246
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 120Hz dir 1
+ok 113 - Orion current R1 counter short 120Hz dir 1
+  ---
+  duration_ms: 15.53735
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 120Hz dir 1
+ok 114 - Orion current R1 counter long 120Hz dir 1
+  ---
+  duration_ms: 11.458486
+  type: 'test'
+  ...
+# Subtest: Orion superseded counter definition is retained without claiming current input coverage
+ok 115 - Orion superseded counter definition is retained without claiming current input coverage
+  ---
+  duration_ms: 0.15831
+  type: 'test'
+  ...
+# Subtest: Orion interruption blast
+ok 116 - Orion interruption blast
+  ---
+  duration_ms: 26.347667
+  type: 'test'
+  ...
+# Subtest: Orion interruption current
+ok 117 - Orion interruption current
+  ---
+  duration_ms: 28.666101
+  type: 'test'
+  ...
+# Subtest: Orion interruption meteor
+ok 118 - Orion interruption meteor
+  ---
+  duration_ms: 25.4434
+  type: 'test'
+  ...
+# Subtest: Orion interruption repair
+ok 119 - Orion interruption repair
+  ---
+  duration_ms: 31.78187
+  type: 'test'
+  ...
+1..119
+# tests 119
+# suites 0
+# pass 101
+# fail 18
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2257.000224

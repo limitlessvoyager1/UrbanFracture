@@ -5001,6 +5001,67 @@
       "generatedArtifacts": [
         "reports-reina399/costume-native.json"
       ]
+    },
+    {
+      "id": "orion400-recording",
+      "command": [
+        "node",
+        "--test",
+        "tests/orion400-recording.cjs"
+      ],
+      "framework": "current-orion-simulation-coverage",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "orion400-render",
+      "command": [
+        "node",
+        "tools/orion400/render.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports400/render.json",
+        "reports400/combat-review.png",
+        "reports400/enemy-gaits.png",
+        "reports400/window-pickup.png"
+      ]
+    },
+    {
+      "id": "orion400-view",
+      "command": [
+        "node",
+        "--test",
+        "tests/orion400-view.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "qa242-preservation401",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-preservation401.cjs"
+      ],
+      "framework": "qa242-policy",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [

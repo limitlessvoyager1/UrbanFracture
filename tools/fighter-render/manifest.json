@@ -213,7 +213,8 @@
     "reina-view381.js",
     "reina-view382.js",
     "reina-view383.js",
-    "reina-costume.js"
+    "reina-costume.js",
+    "recording-view400.js"
   ],
   "drawOwners": [
     "forest-view125.js",
@@ -300,7 +301,8 @@
     "backup-view377.js",
     "reina-view381.js",
     "reina-view382.js",
-    "reina-view383.js"
+    "reina-view383.js",
+    "recording-view400.js"
   ],
   "excludedDrawModules": {
     "diagnostics-ui307.js": "Browser inspector overlay only; does not replace PolishedSprites.draw",
