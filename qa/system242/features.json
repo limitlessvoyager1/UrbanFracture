@@ -366,7 +366,9 @@
         "dist/orion-view384.js",
         "dist/game360.js",
         "dist/downtown-view351.js",
-        "dist/flint351.js"
+        "dist/flint351.js",
+        "dist/reina-costume.js",
+        "dist/reina-uniform-data.js"
       ],
       "entities": {
         "characters": [
@@ -420,24 +422,31 @@
         "reina395-art-contract",
         "reina396-hair-contract",
         "reina396-native-preservation",
-        "reina396-native-hair-render"
+        "reina396-native-hair-render",
+        "reina399-art-contract",
+        "reina399-native-source",
+        "reina399-recording-render",
+        "reina399-costume-native"
       ],
       "visualScenarios": [
         "reina383-native-frame-audit",
         "broxton369-native-gait-order",
         "reina395-contact-recovery",
-        "reina396-dive-kip-mirrored"
+        "reina396-dive-kip-mirrored",
+        "reina399-recording-mirrored"
       ],
       "performanceRisk": true,
       "specs": [
         "QA242-STYLE-BIBLE.md",
         "tools/fighter-render/README.txt",
         "qa/system242/reina395-contract.json",
-        "qa/system242/reina396-hair-contract.json"
+        "qa/system242/reina396-hair-contract.json",
+        "qa/system242/reina399-contract.json"
       ],
       "contentIds": [
         "reina395-contact-recovery",
-        "reina396-air-and-kip-hair"
+        "reina396-air-and-kip-hair",
+        "reina399-recording-repair"
       ],
       "certification": "partial"
     },
@@ -1193,7 +1202,8 @@
         "dist/review287-ui.js",
         "dist/stats-ui266.js",
         "dist/stats266.js",
-        "dist/video207.js"
+        "dist/video207.js",
+        "dist/reina-costume-ui399.js"
       ],
       "entities": {
         "characters": [],

@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "reina399-recording-repair",
+  "githubBase": "02c3e99df5c90330114359ed07f200034e4ce795",
+  "siteBase": "1fe860aff527e382134025f97d549dcd6e9d80c5",
+  "costumePoses": 725,
+  "maximumPosePixels": 220,
+  "selectedEncoding": {
+    "format": "AVIF",
+    "quality": 52,
+    "speed": 2,
+    "chroma": "4:4:4",
+    "from": "Original approved lossless Royal Uniform plates, with identical pose selection and 220-pixel packing geometry"
+  },
+  "assets": [
+    {
+      "path": "dist/assets/reina399/royal-0.avif",
+      "bytes": 217603,
+      "sha256": "eb19fbf9509957180aacb5bcbf9be81b91db73024863ff3c34c7df776993919c"
+    },
+    {
+      "path": "dist/assets/reina399/royal-1.avif",
+      "bytes": 223218,
+      "sha256": "cda73916326da923d8e71d4c0e136a41136768338c4056da0a78ae3f03cdb352"
+    },
+    {
+      "path": "dist/assets/reina399/royal-2.avif",
+      "bytes": 277297,
+      "sha256": "f3821f510194f993ad14b48bb818e5e16cc1d17225a55b4de521d049c7fe5b25"
+    },
+    {
+      "path": "dist/assets/reina399/royal-3.avif",
+      "bytes": 207880,
+      "sha256": "81ac6ed22219d1a34577f95148ef35d6aae7f2aa5b3fcd995f9f0f8f08e2eab3"
+    },
+    {
+      "path": "dist/assets/reina399/royal-4.avif",
+      "bytes": 255251,
+      "sha256": "0a1ecdbaacdfe86601893e00f292991f94a8e23e0cbbdf731497960ec608696e"
+    },
+    {
+      "path": "dist/assets/reina399/royal-5.avif",
+      "bytes": 254855,
+      "sha256": "2b09745d2e3109127facbffbc62b7b28e2354dff9cf812817f6fba9780add190"
+    },
+    {
+      "path": "dist/assets/reina399/royal-6.avif",
+      "bytes": 246308,
+      "sha256": "2592718be9f51d29ed2d2949903f82d31f49422cf7ed1ffe745001ce88063c6c"
+    },
+    {
+      "path": "dist/assets/reina399/royal-7.avif",
+      "bytes": 286619,
+      "sha256": "9942c48a193e3846bca76b6b2a8bbf3ef00e38d1ac28942ca7ad5f1d5e40e070"
+    },
+    {
+      "path": "dist/assets/reina399/royal-8.avif",
+      "bytes": 249725,
+      "sha256": "83039a530428025b1436f858894facf581adf6d957be92fd4a60a8452395025c"
+    },
+    {
+      "path": "dist/assets/reina399/royal-9.avif",
+      "bytes": 252002,
+      "sha256": "cdff347c2c04875a87a26456cb6c8d4f28ff455e23865a3cad22ad6df01ee932"
+    },
+    {
+      "path": "dist/assets/reina399/royal-10.avif",
+      "bytes": 265321,
+      "sha256": "fd5d7ac8b5d22121660ef561b40ca0fe2947f003a633ea081facc5d0d8a02815"
+    },
+    {
+      "path": "dist/assets/reina399/royal-11.avif",
+      "bytes": 127573,
+      "sha256": "19ae153d6a0c30a753c3baffca5cac683e518e0d51b22dd1b01970e45da7b29d"
+    },
+    {
+      "path": "dist/assets/reina399/royal-portrait.webp",
+      "bytes": 23394,
+      "sha256": "1d2e18ffd4c8298066433c39dcedd30a80e2726b570547871c35cfcae119e54d"
+    },
+    {
+      "path": "dist/assets/reina399/marcus-held.webp",
+      "bytes": 38884,
+      "sha256": "f5995125ec338fc1cd1460dc04556b1e0628836714e6ae3fdb2ef546cd7f9ddf"
+    }
+  ],
+  "visualScenarios": [
+    "reina399-recording-mirrored"
+  ],
+  "nativeSources": "Variant-specific retained source contract; all native simulation code stays unchanged.",
+  "physicalController": false,
+  "performanceBaselineApproved": false,
+  "artisticApproval": false,
+  "certified": false
+}
