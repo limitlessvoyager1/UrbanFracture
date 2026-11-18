@@ -9,3 +9,5 @@ Registry additions are candidate review metadata. The base registry remains prot
 Inventory/ownership pins reference an exact production tree and remain partial. Explicitly map all three Colton scripts and inherited directly loaded phone feedback modules; no blanket owner. New evidence paths are individually mapped and uncertified.
 
 Rerun preflight, exact history/negative fixtures, inventory, production ownership and selected move execution, then the full impact selection. Manual visual/art/all-moves/balance/performance evidence and physical DualSense remain separate. Owner review of the additive registry/diagnostic contract is still required before acceptance. No automated result grants that review.
+
+The complete-tree preservation assertion is scoped to PR35 in CI. It is not a global initial/release suite and does not freeze future authorized gameplay/art changes. Permanent additive registry rejection fixtures remain mandatory.

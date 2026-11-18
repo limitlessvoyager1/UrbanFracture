@@ -4719,19 +4719,6 @@
         "release"
       ],
       "critical": true
-    },
-    {
-      "id": "qa242-colton-preservation",
-      "command": [
-        "node",
-        "--test",
-        "tests/qa242-colton-preservation.cjs"
-      ],
-      "profiles": [
-        "initial",
-        "release"
-      ],
-      "critical": true
     }
   ],
   "manualGates": [
