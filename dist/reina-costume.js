@@ -118,6 +118,9 @@
       const b = sourceBounds(image,rectangle,id,width,height);
       if (!b) return original.call(this,image,...args);
       const [sheet,...art] = row;
+      const anchor=root.ReinaUniformData.registeredAnchors399?.[id];
+      if(anchor){const k=w/width;this.imageSmoothingEnabled=true;this.imageSmoothingQuality='high';return original.call(this,sheets[sheet],...art,x+(anchor.source[0]-anchor.target[0])*k,y+(anchor.source[1]-anchor.target[1])*k,w,h);}
+
       // Preserve the artist's proportions, fit by height, and retain the source foot anchor.
       const scale=b[3]*h/art[3],dw=art[2]*scale,dh=art[3]*scale;
       this.imageSmoothingEnabled=true;this.imageSmoothingQuality='high';

@@ -29,6 +29,7 @@ async function main() {
   const dir = {left:{left:true},right:{right:true}};
   const cases = [
     {name:'idle'},
+    {name:'Bruno powerbomb',enemyCapture:true,prepare(g,p,e){e.cd=0;p.inv=0;g.enemyAct(e,'bombGrab',.68,.34);}},
     {name:'walk',input:dir.right},
     {name:'run',input:{...dir.right,run:true}},
     {name:'combo',press:['attack',{}],repeat:[18,40]},
@@ -68,9 +69,9 @@ async function main() {
     N.Practice282.setup(g,{id:'thug',scene284:'restaurant'});
     g.ai = g.reinforce = g.reinforceFinancial = ()=>{};
     g.pending=[];g.props=[];g.items=[];g.encounters222Enabled=false;g.encounter222=null;
-    const p=g.player,e=g.enemies[0];
+    const p=g.player;let e=g.enemies[0];if(spec.enemyCapture){e=N.actor('enforcer',p.x+facing*42,p.y);g.enemies=[e];}
     Object.assign(p,{x:380,y:475,dir:facing,inv:0,cd:0,defense:100,energy316:100});
-    Object.assign(e,{x:420,y:475,hp:1000,maxHp:1000,dir:-facing,inv:0,cd:999,entering:false,activeAt:0});
+    Object.assign(e,{x:420,y:475,hp:e.maxHp,maxHp:e.maxHp,dir:-facing,inv:0,cd:999,entering:false,activeAt:0});
     const orient = i => facing===1 ? i : {...i,left:i.right,right:i.left};
     e.x = p.x + facing * (spec.input ? 240 : 42);
     if (spec.weapon) p.heldWeapon248 = {
@@ -89,7 +90,7 @@ async function main() {
     }
     if (spec.jump) { g.command('jump',orient(spec.jump)); step(g,8); }
     if (spec.stance) { g.command('unique',{}); step(g,65); }
-    spec.prepare?.(g,p);
+    spec.prepare?.(g,p,e);
     if (spec.press) g.command(spec.press[0],orient(spec.press[1]));
     return {g,p,e,input:orient(spec.input || {})};
   }

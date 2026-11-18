@@ -3,8 +3,8 @@
   "id": "reina399-recording-repair",
   "githubBase": "02c3e99df5c90330114359ed07f200034e4ce795",
   "siteBase": "1fe860aff527e382134025f97d549dcd6e9d80c5",
-  "costumePoses": 725,
-  "maximumPosePixels": 220,
+  "costumePoses": 728,
+  "maximumPosePixels": 256,
   "selectedEncoding": {
     "format": "AVIF",
     "quality": 52,
@@ -74,6 +74,11 @@
       "sha256": "19ae153d6a0c30a753c3baffca5cac683e518e0d51b22dd1b01970e45da7b29d"
     },
     {
+      "path": "dist/assets/reina399/powerbomb-victim.avif",
+      "bytes": 65879,
+      "sha256": "c6e12da961261a9b7fb78da6bf18a3cdd04790bdff3287f6af1bc347cc6d3a7a"
+    },
+    {
       "path": "dist/assets/reina399/royal-portrait.webp",
       "bytes": 23394,
       "sha256": "1d2e18ffd4c8298066433c39dcedd30a80e2726b570547871c35cfcae119e54d"
@@ -91,5 +96,8 @@
   "physicalController": false,
   "performanceBaselineApproved": false,
   "artisticApproval": false,
-  "certified": false
+  "certified": false,
+  "repackedCostumePoses": 725,
+  "capturedPoseBindings": 3,
+  "regularCostumeMaximumPosePixels": 220
 }
