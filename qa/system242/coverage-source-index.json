@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "limitlessvoyager1/UrbanFracture",
-  "sourceCommit": "4c8ae1a7a623c4e6dbc225b295ebd02c28fa40db",
+  "sourceCommit": "e1254cc52e140090b0a3a930a52c9ad9ed398a0e",
   "runtimeTree": "b35933574ff562369283590cffaf9182089c2761",
   "scope": [
     "dist (top-level modules and recursive assets)",
@@ -10200,6 +10200,10 @@
       "sha": "51101b930b4ddcdf3ee4c52b196dbef9c8943acc"
     },
     {
+      "path": "tests/qa242-external-evidence.cjs",
+      "sha": "7671191e30c6af302b41f1e91a7820fe003e2d51"
+    },
+    {
       "path": "tests/qa242-history-contract.cjs",
       "sha": "39d6bd2a408a2ef9abe704ec22b142160142a996"
     },
@@ -10221,7 +10225,7 @@
     },
     {
       "path": "tests/qa242-policy.cjs",
-      "sha": "cd4f0415fbb75e66445851d87aa90a8c036d3bb2"
+      "sha": "f87d02dabe15c2760ecb345aa7cbe760bae9a943"
     },
     {
       "path": "tests/qa242-production-coverage.cjs",
