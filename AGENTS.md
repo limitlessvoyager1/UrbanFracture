@@ -737,3 +737,6 @@ Checkpoint-before-broxton369 retains368. Read reports369/REPORT.md. One28pose so
 
 ## Orion400 recording repairs
 Read qa/system242/repairs/ORION400-RECORDINGS.md. Preserve the explicitly authorized speed/combo/Blitz/Current/Ascension deltas and native costs, admission, protection and recovery. Electric Ascension shares one 190-unit vertical clock and 260-unit radial slam. Run orion400-recording and native render plus current Orion, controller and shared admission regressions. Keep hardware, art/balance, full release and previous QA omissions visible. The owner authorized candidate GitHub/playtest publication on 2026-11-18; do not merge the stack before its blockers are cleared.
+
+## QA401 / PR36 corrective contracts
+Read qa/system242/repairs/QA401-PR36.md. QA-only: preserve the exact128180a7 dist tree, all frozen evidence, current native bridge220-module order/bytes and original recovered-history ledger/pack. Run versioned401 negatives, current contracts, complete renderer fixtures and affected/shared QA. Preserve every failure and manual gate; no merge. Hosted QA package is namespaced because its runtime is newer.

@@ -1,0 +1,27 @@
+node:assert:150
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+144.45 !== 135
+
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/orion205-foundation.cjs:2:90)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/security216.cjs:1:89) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 144.45,
+  expected: 135,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.21.0

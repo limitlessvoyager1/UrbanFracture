@@ -1,0 +1,9 @@
+reina-costume.js:38
+    for (const row of view.prepared) register(row.image, null, row.id);
+                           ^
+
+TypeError: Cannot read properties of undefined (reading 'prepared')
+    at installBindings (reina-costume.js:38:28)
+    at reina-costume.js:165:5
+
+Node.js v22.21.0

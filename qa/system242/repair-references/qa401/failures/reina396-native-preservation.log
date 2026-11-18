@@ -1,0 +1,330 @@
+node:assert:150
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  [
+    {
+      dir: -1,
+      hz: 30,
+      kind: 'dive',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: 'dcf24fdd7cc6b805b684b800c7aadaf3de7ca7d3979301151064658480acab3e'
+    },
+    {
+      dir: -1,
+      hz: 30,
+      kind: 'kip',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '83ac0b2f788a138e336723507dfa6281468f8437b2f734e29f05d59e7ef9c851'
+    },
+    {
+      dir: 1,
+      hz: 30,
+      kind: 'dive',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '6d9cbd047be50f1a8e53aa0c2873d82a82100842e675b99d67618bd411dc1a46'
+    },
+    {
+      dir: 1,
+      hz: 30,
+      kind: 'kip',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: 'c67924017e9ef56225a72eb9e8af04d3621769ed0f1535d38da827ba601b10b1'
+    },
+    {
+      dir: -1,
+      hz: 60,
+      kind: 'dive',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: 'c215a441e93c7f0712f060105f806d1ebc67b22897bfcb1384f77ad00f9a69ed'
+    },
+    {
+      dir: -1,
+      hz: 60,
+      kind: 'kip',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: 'ecc844d12bdbb4ae254fb2cf5cc134a415b997326cde53868eb3b8a72e79527e'
+    },
+    {
+      dir: 1,
+      hz: 60,
+      kind: 'dive',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '6fd549efcefa44d2ababb277ca205a932fe1ef7ab6a0caa732942788c891d8a9'
+    },
+    {
+      dir: 1,
+      hz: 60,
+      kind: 'kip',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '0f35ca6109a5d5a41555b768b017ed01e5049eed30ef447e90c5cc345ecdfbb6'
+    },
+    {
+      dir: -1,
+      hz: 120,
+      kind: 'dive',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '0dfba25fcbea96628de1a99becc3a84bea1155e52959150e7e217c33ae2b3ff2'
+    },
+    {
+      dir: -1,
+      hz: 120,
+      kind: 'kip',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '48b0e763f2fe11bd43eef67f7caabaa944160c95421eaf3040ac12f06b4ea0d6'
+    },
+    {
+      dir: 1,
+      hz: 120,
+      kind: 'dive',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '7333a32d076949bc0d094aedc2e00e4ab074a85d09b37eaeae5f1a0cdf10d11f'
+    },
+    {
+      dir: 1,
+      hz: 120,
+      kind: 'kip',
++     nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+-     nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      randomState: 396,
+      traceSHA256: '994e699e36d165bd6144d23adf95ad09e3fca2a3aad1286e30e0ccf8ab148df1'
+    }
+  ]
+
+    at Object.<anonymous> (/home/runner/work/UrbanFracture/UrbanFracture/tests/reina396-native.cjs:1:1341)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [
+    {
+      kind: 'dive',
+      hz: 30,
+      dir: -1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: 'dcf24fdd7cc6b805b684b800c7aadaf3de7ca7d3979301151064658480acab3e',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 30,
+      dir: -1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '83ac0b2f788a138e336723507dfa6281468f8437b2f734e29f05d59e7ef9c851',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 30,
+      dir: 1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '6d9cbd047be50f1a8e53aa0c2873d82a82100842e675b99d67618bd411dc1a46',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 30,
+      dir: 1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: 'c67924017e9ef56225a72eb9e8af04d3621769ed0f1535d38da827ba601b10b1',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 60,
+      dir: -1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: 'c215a441e93c7f0712f060105f806d1ebc67b22897bfcb1384f77ad00f9a69ed',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 60,
+      dir: -1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: 'ecc844d12bdbb4ae254fb2cf5cc134a415b997326cde53868eb3b8a72e79527e',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 60,
+      dir: 1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '6fd549efcefa44d2ababb277ca205a932fe1ef7ab6a0caa732942788c891d8a9',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 60,
+      dir: 1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '0f35ca6109a5d5a41555b768b017ed01e5049eed30ef447e90c5cc345ecdfbb6',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 120,
+      dir: -1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '0dfba25fcbea96628de1a99becc3a84bea1155e52959150e7e217c33ae2b3ff2',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 120,
+      dir: -1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '48b0e763f2fe11bd43eef67f7caabaa944160c95421eaf3040ac12f06b4ea0d6',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 120,
+      dir: 1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '7333a32d076949bc0d094aedc2e00e4ab074a85d09b37eaeae5f1a0cdf10d11f',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 120,
+      dir: 1,
+      nativeLoadHash: '8f68ae03c96d56994a3f3add0f48fac8fdb52ec450d524c21d343b15cf27300a',
+      traceSHA256: '994e699e36d165bd6144d23adf95ad09e3fca2a3aad1286e30e0ccf8ab148df1',
+      randomState: 396
+    }
+  ],
+  expected: [
+    {
+      kind: 'dive',
+      hz: 30,
+      dir: -1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: 'dcf24fdd7cc6b805b684b800c7aadaf3de7ca7d3979301151064658480acab3e',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 30,
+      dir: -1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '83ac0b2f788a138e336723507dfa6281468f8437b2f734e29f05d59e7ef9c851',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 30,
+      dir: 1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '6d9cbd047be50f1a8e53aa0c2873d82a82100842e675b99d67618bd411dc1a46',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 30,
+      dir: 1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: 'c67924017e9ef56225a72eb9e8af04d3621769ed0f1535d38da827ba601b10b1',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 60,
+      dir: -1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: 'c215a441e93c7f0712f060105f806d1ebc67b22897bfcb1384f77ad00f9a69ed',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 60,
+      dir: -1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: 'ecc844d12bdbb4ae254fb2cf5cc134a415b997326cde53868eb3b8a72e79527e',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 60,
+      dir: 1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '6fd549efcefa44d2ababb277ca205a932fe1ef7ab6a0caa732942788c891d8a9',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 60,
+      dir: 1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '0f35ca6109a5d5a41555b768b017ed01e5049eed30ef447e90c5cc345ecdfbb6',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 120,
+      dir: -1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '0dfba25fcbea96628de1a99becc3a84bea1155e52959150e7e217c33ae2b3ff2',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 120,
+      dir: -1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '48b0e763f2fe11bd43eef67f7caabaa944160c95421eaf3040ac12f06b4ea0d6',
+      randomState: 396
+    },
+    {
+      kind: 'dive',
+      hz: 120,
+      dir: 1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '7333a32d076949bc0d094aedc2e00e4ab074a85d09b37eaeae5f1a0cdf10d11f',
+      randomState: 396
+    },
+    {
+      kind: 'kip',
+      hz: 120,
+      dir: 1,
+      nativeLoadHash: 'c06fde78caf168efadc82c8463ddbf51ea5566c137184aea2cfa2dea3bab6d25',
+      traceSHA256: '994e699e36d165bd6144d23adf95ad09e3fca2a3aad1286e30e0ccf8ab148df1',
+      randomState: 396
+    }
+  ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.21.0

@@ -46,7 +46,8 @@
         "qa242-release-integrity",
         "validator-self-tests",
         "qa242-pilot",
-        "qa242-recovered-history"
+        "qa242-recovered-history",
+        "qa242-preservation401"
       ],
       "visualScenarios": [],
       "performanceRisk": false,
@@ -369,7 +370,8 @@
         "dist/flint351.js",
         "dist/reina-costume.js",
         "dist/reina-uniform-data.js",
-        "dist/recording-view400.js"
+        "dist/recording-view400.js",
+        "tools/reina383/audit.cjs"
       ],
       "entities": {
         "characters": [

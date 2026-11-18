@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "id": "orion-recording400",
-  "description": "Recording-driven Orion combo/electrical/blitz/beam/throw/walk repairs, synchronized higher Electric Ascension and radial slam, complete HD enemy walking and window pickup placement.",
+  "description": "Recording-driven Orion combo/electrical/blitz/beam/throw/walk repairs, synchronized higher Electric Ascension and radial slam, complete HD enemy walking and window pickup placement. QA401 updates independent contracts and renderer fixtures; exact versioned native/costume preservation bridges retain original failures and frozen evidence without gameplay/art changes.",
   "acceptanceScope": "game-change",
   "files": [
     "AGENTS.md",
@@ -16,6 +16,7 @@
     "dist/orion400.js",
     "dist/recording-view400.js",
     "qa/system242/changes/orion-recording400.json",
+    "qa/system242/character-moves.json",
     "qa/system242/coverage-source-index.json",
     "qa/system242/features.json",
     "qa/system242/production-ownership.json",
@@ -29,14 +30,48 @@
     "qa/system242/repair-references/orion400/prepublication-native-checks.log",
     "qa/system242/repair-references/orion400/prepublication-shared-smoke.log",
     "qa/system242/repair-references/orion400/prepublication-view-checks.log",
+    "qa/system242/repair-references/qa401/diagnostics-v1.json",
+    "qa/system242/repair-references/qa401/failed-run.json",
+    "qa/system242/repair-references/qa401/failures/campaign224.log",
+    "qa/system242/repair-references/qa401/failures/current216-legacy.log",
+    "qa/system242/repair-references/qa401/failures/diagnostics307-input.log",
+    "qa/system242/repair-references/qa401/failures/orion-current-coverage.log",
+    "qa/system242/repair-references/qa401/failures/qa242-recovered-history.log",
+    "qa/system242/repair-references/qa401/failures/reina383-render-audit.log",
+    "qa/system242/repair-references/qa401/failures/reina393-published-render.log",
+    "qa/system242/repair-references/qa401/failures/reina396-native-preservation.log",
+    "qa/system242/repair-references/qa401/failures/reina399-native-source.log",
+    "qa/system242/repair-references/qa401/failures/security216-legacy.log",
+    "qa/system242/repair-references/qa401/failures/stadium237.log",
+    "qa/system242/repair-references/qa401/native-v1.json",
+    "qa/system242/repair-references/qa401/original/tests/orion205-foundation.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tests/qa242-orion-current.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tests/qa242-recovered-history.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tests/reina396-native.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tests/reina399-native-preservation.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tools/qa242/diagnostics-history.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tools/qa242/reina393-render-audit.cjs.txt",
+    "qa/system242/repair-references/qa401/original/tools/reina383/audit.cjs.txt",
     "qa/system242/repairs/ORION400-RECORDINGS.md",
+    "qa/system242/repairs/QA401-PR36.md",
     "qa/system242/suites.json",
+    "tests/orion205-foundation.cjs",
     "tests/orion228-specials.cjs",
     "tests/orion387-hit-registration.cjs",
     "tests/orion400-recording.cjs",
     "tests/orion400-view.cjs",
+    "tests/qa242-orion-current.cjs",
+    "tests/qa242-preservation401.cjs",
+    "tests/qa242-recovered-history.cjs",
+    "tests/reina396-native.cjs",
+    "tests/reina399-native-preservation.cjs",
     "tools/fighter-render/manifest.json",
-    "tools/orion400/render.cjs"
+    "tools/orion400/render.cjs",
+    "tools/qa242/diagnostics-history.cjs",
+    "tools/qa242/knife-evidence401.cjs",
+    "tools/qa242/preservation401.cjs",
+    "tools/qa242/reina393-render-audit.cjs",
+    "tools/reina383/audit.cjs"
   ],
   "features": [
     "hero-orion",
@@ -99,6 +134,7 @@
     "physicalController": false
   },
   "issues": [
-    "ORION400-RECORDINGS"
+    "ORION400-RECORDINGS",
+    "QA401-PR36"
   ]
 }
