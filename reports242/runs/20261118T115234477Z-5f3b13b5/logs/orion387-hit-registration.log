@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: native combo retries a denied contact inside its existing active window 30Hz dir -1
+ok 1 - native combo retries a denied contact inside its existing active window 30Hz dir -1
+  ---
+  duration_ms: 386.9621
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 30Hz dir 1
+ok 2 - native combo retries a denied contact inside its existing active window 30Hz dir 1
+  ---
+  duration_ms: 256.7831
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 60Hz dir -1
+ok 3 - native combo retries a denied contact inside its existing active window 60Hz dir -1
+  ---
+  duration_ms: 276.31
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 60Hz dir 1
+ok 4 - native combo retries a denied contact inside its existing active window 60Hz dir 1
+  ---
+  duration_ms: 276.9675
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 120Hz dir -1
+ok 5 - native combo retries a denied contact inside its existing active window 120Hz dir -1
+  ---
+  duration_ms: 271.5571
+  type: 'test'
+  ...
+# Subtest: native combo retries a denied contact inside its existing active window 120Hz dir 1
+ok 6 - native combo retries a denied contact inside its existing active window 120Hz dir 1
+  ---
+  duration_ms: 277.1941
+  type: 'test'
+  ...
+# Subtest: no hit is added after the active window closes
+ok 7 - no hit is added after the active window closes
+  ---
+  duration_ms: 310.5705
+  type: 'test'
+  ...
+# Subtest: accepted targets deduplicate per event, while separate targets and later strike keys remain legal
+ok 8 - accepted targets deduplicate per event, while separate targets and later strike keys remain legal
+  ---
+  duration_ms: 259.3876
+  type: 'test'
+  ...
+# Subtest: native guard consumes one contact even when block flash was already at its peak
+ok 9 - native guard consumes one contact even when block flash was already at its peak
+  ---
+  duration_ms: 240.6678
+  type: 'test'
+  ...
+# Subtest: wake protection may expire inside a native melee window; lane/range and invalid targets still reject
+ok 10 - wake protection may expire inside a native melee window; lane/range and invalid targets still reject
+  ---
+  duration_ms: 236.7619
+  type: 'test'
+  ...
+# Subtest: laser retry uses the original window and applies one damage/electrical event
+ok 11 - laser retry uses the original window and applies one damage/electrical event
+  ---
+  duration_ms: 234.8285
+  type: 'test'
+  ...
+# Subtest: retained production source reproduces the consumed-rejection bug
+ok 12 - retained production source reproduces the consumed-rejection bug
+  ---
+  duration_ms: 255.4725
+  type: 'test'
+  ...
+# Subtest: recursive native admission cannot apply the same action/event/target twice
+ok 13 - recursive native admission cannot apply the same action/event/target twice
+  ---
+  duration_ms: 245.6842
+  type: 'test'
+  ...
+# Subtest: a rejected throwing admission releases its temporary reservation
+ok 14 - a rejected throwing admission releases its temporary reservation
+  ---
+  duration_ms: 247.8373
+  type: 'test'
+  ...
+# Subtest: confirmed guard cost consumes a contact with an unchanged flash value
+ok 15 - confirmed guard cost consumes a contact with an unchanged flash value
+  ---
+  duration_ms: 233.1244
+  type: 'test'
+  ...
+# Subtest: unprotected native combo damage timing resources and configuration match retained production
+ok 16 - unprotected native combo damage timing resources and configuration match retained production
+  ---
+  duration_ms: 12097.3407
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 16197.2407

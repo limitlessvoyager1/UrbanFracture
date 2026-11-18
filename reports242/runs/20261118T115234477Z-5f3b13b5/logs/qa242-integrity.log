@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: unknown critical outcomes and duplicate receipts cannot certify a candidate
+ok 1 - unknown critical outcomes and duplicate receipts cannot certify a candidate
+  ---
+  duration_ms: 1.5366
+  type: 'test'
+  ...
+# Subtest: helper, package and source membership changes invalidate evidence; installed caches do not
+ok 2 - helper, package and source membership changes invalidate evidence; installed caches do not
+  ---
+  duration_ms: 43.0194
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 117.7273

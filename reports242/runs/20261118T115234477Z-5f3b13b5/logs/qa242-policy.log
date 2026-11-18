@@ -1,0 +1,152 @@
+TAP version 13
+# QA242 smoke
+#   passed
+# {"report":"reports242/runs/20261118T120536465Z-a940014c/report.json","counts":{"executed":1,"passed":1,"failed":0,"blocked":0,"notExecuted":0,"needsReview":0},"recommendation":"Needs Review","decision":"needs-review"}
+# QA242 smoke
+#   passed
+# {"report":"reports242/runs/20261118T120536666Z-e351c619/report.json","counts":{"executed":1,"passed":1,"failed":0,"blocked":0,"notExecuted":0,"needsReview":0},"recommendation":"Needs Review","decision":"needs-review"}
+# QA242 unsafe
+# QA242 mutate
+#   passed
+# {"report":"reports242/runs/20261118T120536939Z-6e571673/report.json","counts":{"executed":1,"passed":1,"failed":0,"blocked":0,"notExecuted":0,"needsReview":0},"recommendation":"Reject","decision":"blocked"}
+# Subtest: semantic shared changes select dependent features and mandatory smoke
+ok 1 - semantic shared changes select dependent features and mandatory smoke
+  ---
+  duration_ms: 4.6564
+  type: 'test'
+  ...
+# Subtest: omitted changed files, semantic entities and affected features are rejected
+ok 2 - omitted changed files, semantic entities and affected features are rejected
+  ---
+  duration_ms: 1.5569
+  type: 'test'
+  ...
+# Subtest: unmapped content is never declared unaffected; deleted and renamed paths remain in scope
+ok 3 - unmapped content is never declared unaffected; deleted and renamed paths remain in scope
+  ---
+  duration_ms: 0.3646
+  type: 'test'
+  ...
+# Subtest: new production content needs registry, spec, source-specific suites and visual evidence
+ok 4 - new production content needs registry, spec, source-specific suites and visual evidence
+  ---
+  duration_ms: 0.4068
+  type: 'test'
+  ...
+# Subtest: major integrations select full release; pilot and bootstrap cannot certify complete policy
+ok 5 - major integrations select full release; pilot and bootstrap cannot certify complete policy
+  ---
+  duration_ms: 0.2396
+  type: 'test'
+  ...
+# Subtest: cycles, unknown suite IDs, duplicate features and traversal fail closed
+ok 6 - cycles, unknown suite IDs, duplicate features and traversal fail closed
+  ---
+  duration_ms: 0.3359
+  type: 'test'
+  ...
+# Subtest: schemas reject missing semantic fields, undeclared fields and empty declarations
+ok 7 - schemas reject missing semantic fields, undeclared fields and empty declarations
+  ---
+  duration_ms: 2.5094
+  type: 'test'
+  ...
+# Subtest: actual pilot registry and registered mandatory checks validate
+ok 8 - actual pilot registry and registered mandatory checks validate
+  ---
+  duration_ms: 136.4304
+  type: 'test'
+  ...
+# Subtest: certification requires source, scope, real artifacts and authenticated approval
+ok 9 - certification requires source, scope, real artifacts and authenticated approval
+  ---
+  duration_ms: 11.5751
+  type: 'test'
+  ...
+# Subtest: GitHub approval lookup rejects forged review digest, wrong owner, stale commit and dismissed review
+ok 10 - GitHub approval lookup rejects forged review digest, wrong owner, stale commit and dismissed review
+  ---
+  duration_ms: 2.1435
+  type: 'test'
+  ...
+# Subtest: performance uses approved target, comparable samples, every metric and regression limits
+ok 11 - performance uses approved target, comparable samples, every metric and regression limits
+  ---
+  duration_ms: 0.6388
+  type: 'test'
+  ...
+# Subtest: missing rendered evidence and unapproved hardware remain blocked, not passing
+ok 12 - missing rendered evidence and unapproved hardware remain blocked, not passing
+  ---
+  duration_ms: 0.292
+  type: 'test'
+  ...
+# Subtest: unavailable tools preserve raw status as Blocked; assertions remain Failed
+ok 13 - unavailable tools preserve raw status as Blocked; assertions remain Failed
+  ---
+  duration_ms: 0.3237
+  type: 'test'
+  ...
+# Subtest: preexisting failure attribution requires comparable base, command, environment and failure log
+ok 14 - preexisting failure attribution requires comparable base, command, environment and failure log
+  ---
+  duration_ms: 0.1763
+  type: 'test'
+  ...
+# Subtest: baseline attribution cannot trust a forged summary or an unapproved base report
+ok 15 - baseline attribution cannot trust a forged summary or an unapproved base report
+  ---
+  duration_ms: 11.3568
+  type: 'test'
+  ...
+# Subtest: partial feature certification cannot be hidden by setting registry coverage complete
+ok 16 - partial feature certification cannot be hidden by setting registry coverage complete
+  ---
+  duration_ms: 0.2004
+  type: 'test'
+  ...
+# Subtest: suite evidence is immutable and generated artifacts are restored even on failed assertions
+ok 17 - suite evidence is immutable and generated artifacts are restored even on failed assertions
+  ---
+  duration_ms: 25.5504
+  type: 'test'
+  ...
+# Subtest: report containment guard rejects a linked path before any IO to its target
+ok 18 - report containment guard rejects a linked path before any IO to its target
+  ---
+  duration_ms: 1.874
+  type: 'test'
+  ...
+# Subtest: report symlinks/junctions cannot redirect writes into gameplay or outside the workspace
+ok 19 - report symlinks/junctions cannot redirect writes into gameplay or outside the workspace # SKIP Blocked: local host denies symlink/junction fixtures; real fixture must run on supported CI
+  ---
+  duration_ms: 3.8472
+  type: 'test'
+  ...
+# Subtest: recommendations never approve incomplete, dirty, failed or pilot results
+ok 20 - recommendations never approve incomplete, dirty, failed or pilot results
+  ---
+  duration_ms: 0.18
+  type: 'test'
+  ...
+# Subtest: impact-required render suites cannot be silently skipped by the initial profile
+ok 21 - impact-required render suites cannot be silently skipped by the initial profile
+  ---
+  duration_ms: 0.1095
+  type: 'test'
+  ...
+# Subtest: runner integration keeps previous run/logs immutable and rejects source changes during execution
+ok 22 - runner integration keeps previous run/logs immutable and rejects source changes during execution
+  ---
+  duration_ms: 1170.555
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 1
+# todo 0
+# duration_ms 1475.1375

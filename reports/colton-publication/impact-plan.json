@@ -1,0 +1,1470 @@
+{
+  "schema": 1,
+  "acceptanceScope": "game-change",
+  "baseCommit": "9a31acc3308d233a4fc202cde23a52598b71d086",
+  "testedCommit": "52a480e250317e1fd74b8b3ded9f86902724ca68",
+  "declarationId": "colton-sharpe",
+  "registryOrigin": "approved-base",
+  "coverage": "pilot",
+  "approvers": [
+    "limitlessvoyager1"
+  ],
+  "status": "blocked",
+  "problems": [
+    "Unknown declared feature syndicate-cutter",
+    "Unmapped changed file: COLTON-PACKAGE-FILES.json",
+    "Unmapped changed file: COLTON-SHARPE.md",
+    "Unmapped changed file: README-REVIEW.md",
+    "Unmapped changed file: dist/cutter-support-data.js",
+    "Unmapped changed file: dist/cutter-support-view.js",
+    "Unmapped changed file: dist/cutter-support.js",
+    "Unmapped changed file: dist/downtown360.html",
+    "Unmapped changed file: reports/colton-publication/arrival-exact-checkout.log",
+    "Unmapped changed file: reports/colton-publication/backup371.log",
+    "Unmapped changed file: reports/colton-publication/backup374.log",
+    "Unmapped changed file: reports/colton-publication/backup375.log",
+    "Unmapped changed file: reports/colton-publication/backup376.log",
+    "Unmapped changed file: reports/colton-publication/backup377.log",
+    "Unmapped changed file: reports/colton-publication/broxton366.log",
+    "Unmapped changed file: reports/colton-publication/controller157.log",
+    "Unmapped changed file: reports/colton-publication/gamepad.test.log",
+    "Unmapped changed file: reports/colton-publication/native-render.log",
+    "Unmapped changed file: reports/colton-publication/native-review.png",
+    "Unmapped changed file: reports/colton-publication/phone-feedback.log",
+    "Unmapped changed file: reports/colton-publication/preflight.log",
+    "Unmapped changed file: reports/colton-publication/render.json",
+    "Unmapped changed file: reports/colton-publication/support370.log",
+    "Unmapped changed file: reports/colton-publication/targeted.json",
+    "Unmapped changed file: reports/cutter-support/arrival.log",
+    "Unmapped changed file: reports/cutter-support/atlas.png",
+    "Unmapped changed file: reports/cutter-support/backup371.log",
+    "Unmapped changed file: reports/cutter-support/backup374.log",
+    "Unmapped changed file: reports/cutter-support/backup375.log",
+    "Unmapped changed file: reports/cutter-support/backup376.log",
+    "Unmapped changed file: reports/cutter-support/backup377.log",
+    "Unmapped changed file: reports/cutter-support/broxton366.log",
+    "Unmapped changed file: reports/cutter-support/civilians305-runtime.log",
+    "Unmapped changed file: reports/cutter-support/controller157.log",
+    "Unmapped changed file: reports/cutter-support/controls260-negative-fixtures.log",
+    "Unmapped changed file: reports/cutter-support/cutter-support.log",
+    "Unmapped changed file: reports/cutter-support/cutter-tests.log",
+    "Unmapped changed file: reports/cutter-support/entry-tests.json",
+    "Unmapped changed file: reports/cutter-support/fairways-nightshade262.log",
+    "Unmapped changed file: reports/cutter-support/fairways261-view-status.log",
+    "Unmapped changed file: reports/cutter-support/gamepad.test.log",
+    "Unmapped changed file: reports/cutter-support/github-entry-native.log",
+    "Unmapped changed file: reports/cutter-support/ground294-world.log",
+    "Unmapped changed file: reports/cutter-support/native-moves.mp4",
+    "Unmapped changed file: reports/cutter-support/native-review.png",
+    "Unmapped changed file: reports/cutter-support/nightshade-ammo-economy256.log",
+    "Unmapped changed file: reports/cutter-support/nightshade-ammo-view256.log",
+    "Unmapped changed file: reports/cutter-support/nightshade-ammo256.log",
+    "Unmapped changed file: reports/cutter-support/nightshade-foundation251.log",
+    "Unmapped changed file: reports/cutter-support/nightshade267.log",
+    "Unmapped changed file: reports/cutter-support/orion271-assets.log",
+    "Unmapped changed file: reports/cutter-support/package-verification.log",
+    "Unmapped changed file: reports/cutter-support/package.json",
+    "Unmapped changed file: reports/cutter-support/phone-feedback.log",
+    "Unmapped changed file: reports/cutter-support/qa-initial-partial.json",
+    "Unmapped changed file: reports/cutter-support/qa-initial-partial.txt",
+    "Unmapped changed file: reports/cutter-support/rarity.json",
+    "Unmapped changed file: reports/cutter-support/registration.json",
+    "Unmapped changed file: reports/cutter-support/regressions.json",
+    "Unmapped changed file: reports/cutter-support/render.json",
+    "Unmapped changed file: reports/cutter-support/stats266.log",
+    "Unmapped changed file: reports/cutter-support/support370.log",
+    "Unmapped changed file: reports/cutter-support/tests.json",
+    "Unmapped changed file: reports/cutter-support/worker-reaction246.log",
+    "Unmapped changed file: source-art/backup-cutter/PROMPTS.md",
+    "Unmapped changed file: source-art/backup-cutter/frames.png",
+    "Unmapped changed file: tools/cutter-pack.py",
+    "Unmapped changed file: tools/cutter-render.cjs",
+    "New content is not registered: syndicate-colton-sharpe"
+  ],
+  "review": [
+    "Feature coverage/certification remains incomplete: qa242",
+    "Feature coverage/certification remains incomplete: shared-fighter-rendering",
+    "Feature coverage/certification remains incomplete: hero-broxton",
+    "Feature coverage/certification remains incomplete: shared-combat-admission",
+    "Feature coverage/certification remains incomplete: controller-input",
+    "Feature coverage/certification remains incomplete: hero-reina",
+    "Feature coverage/certification remains incomplete: hero-nova",
+    "Feature coverage/certification remains incomplete: hero-forest-gunner",
+    "Feature coverage/certification remains incomplete: hero-niko",
+    "Feature coverage/certification remains incomplete: hero-orion",
+    "Feature coverage/certification remains incomplete: hero-nightshade",
+    "Feature coverage/certification remains incomplete: npc-combat",
+    "Feature coverage/certification remains incomplete: campaign-world",
+    "Feature coverage/certification remains incomplete: weapons-resources",
+    "Feature coverage/certification remains incomplete: runtime-ui-diagnostics",
+    "New content requires owner certification: syndicate-colton-sharpe",
+    "Semantic registry is a pilot, not repository-wide certification"
+  ],
+  "changedFiles": [
+    {
+      "status": "M",
+      "path": "AGENTS.md"
+    },
+    {
+      "status": "A",
+      "path": "COLTON-PACKAGE-FILES.json"
+    },
+    {
+      "status": "A",
+      "path": "COLTON-SHARPE.md"
+    },
+    {
+      "status": "A",
+      "path": "README-REVIEW.md"
+    },
+    {
+      "status": "A",
+      "path": "dist/assets/backup-cutter/cutter.webp"
+    },
+    {
+      "status": "M",
+      "path": "dist/backup365.js"
+    },
+    {
+      "status": "A",
+      "path": "dist/cutter-support-data.js"
+    },
+    {
+      "status": "A",
+      "path": "dist/cutter-support-view.js"
+    },
+    {
+      "status": "A",
+      "path": "dist/cutter-support.js"
+    },
+    {
+      "status": "M",
+      "path": "dist/downtown360.html"
+    },
+    {
+      "status": "M",
+      "path": "dist/index.html"
+    },
+    {
+      "status": "M",
+      "path": "dist/support370.js"
+    },
+    {
+      "status": "A",
+      "path": "qa/system242/changes/colton-sharpe.json"
+    },
+    {
+      "status": "M",
+      "path": "qa/system242/features.json"
+    },
+    {
+      "status": "M",
+      "path": "qa/system242/suites.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/arrival-exact-checkout.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/backup371.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/backup374.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/backup375.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/backup376.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/backup377.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/broxton366.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/controller157.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/gamepad.test.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/native-render.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/native-review.png"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/phone-feedback.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/preflight.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/render.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/support370.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/colton-publication/targeted.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/arrival.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/atlas.png"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/backup371.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/backup374.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/backup375.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/backup376.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/backup377.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/broxton366.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/civilians305-runtime.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/controller157.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/controls260-negative-fixtures.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/cutter-support.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/cutter-tests.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/entry-tests.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/fairways-nightshade262.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/fairways261-view-status.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/gamepad.test.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/github-entry-native.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/ground294-world.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/native-moves.mp4"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/native-review.png"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/nightshade-ammo-economy256.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/nightshade-ammo-view256.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/nightshade-ammo256.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/nightshade-foundation251.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/nightshade267.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/orion271-assets.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/package-verification.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/package.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/phone-feedback.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/qa-initial-partial.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/qa-initial-partial.txt"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/rarity.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/registration.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/regressions.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/render.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/stats266.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/support370.log"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/tests.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/cutter-support/worker-reaction246.log"
+    },
+    {
+      "status": "A",
+      "path": "source-art/backup-cutter/PROMPTS.md"
+    },
+    {
+      "status": "A",
+      "path": "source-art/backup-cutter/frames.png"
+    },
+    {
+      "status": "M",
+      "path": "tests/backup371.cjs"
+    },
+    {
+      "status": "M",
+      "path": "tests/backup376.cjs"
+    },
+    {
+      "status": "M",
+      "path": "tests/backup377.cjs"
+    },
+    {
+      "status": "A",
+      "path": "tests/cutter-support.cjs"
+    },
+    {
+      "status": "A",
+      "path": "tools/cutter-pack.py"
+    },
+    {
+      "status": "A",
+      "path": "tools/cutter-render.cjs"
+    },
+    {
+      "status": "M",
+      "path": "tools/fighter-render/manifest.json"
+    }
+  ],
+  "ownership": [
+    {
+      "path": "AGENTS.md",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "COLTON-PACKAGE-FILES.json",
+      "features": []
+    },
+    {
+      "path": "COLTON-SHARPE.md",
+      "features": []
+    },
+    {
+      "path": "README-REVIEW.md",
+      "features": []
+    },
+    {
+      "path": "dist/assets/backup-cutter/cutter.webp",
+      "features": [
+        "shared-fighter-rendering"
+      ]
+    },
+    {
+      "path": "dist/backup365.js",
+      "features": [
+        "hero-broxton"
+      ]
+    },
+    {
+      "path": "dist/cutter-support-data.js",
+      "features": []
+    },
+    {
+      "path": "dist/cutter-support-view.js",
+      "features": []
+    },
+    {
+      "path": "dist/cutter-support.js",
+      "features": []
+    },
+    {
+      "path": "dist/downtown360.html",
+      "features": []
+    },
+    {
+      "path": "dist/index.html",
+      "features": [
+        "shared-fighter-rendering"
+      ]
+    },
+    {
+      "path": "dist/support370.js",
+      "features": [
+        "shared-combat-admission"
+      ]
+    },
+    {
+      "path": "qa/system242/changes/colton-sharpe.json",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "qa/system242/features.json",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "qa/system242/suites.json",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "reports/colton-publication/arrival-exact-checkout.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/backup371.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/backup374.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/backup375.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/backup376.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/backup377.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/broxton366.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/controller157.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/gamepad.test.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/native-render.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/native-review.png",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/phone-feedback.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/preflight.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/render.json",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/support370.log",
+      "features": []
+    },
+    {
+      "path": "reports/colton-publication/targeted.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/arrival.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/atlas.png",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/backup371.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/backup374.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/backup375.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/backup376.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/backup377.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/broxton366.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/civilians305-runtime.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/controller157.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/controls260-negative-fixtures.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/cutter-support.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/cutter-tests.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/entry-tests.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/fairways-nightshade262.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/fairways261-view-status.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/gamepad.test.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/github-entry-native.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/ground294-world.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/native-moves.mp4",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/native-review.png",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/nightshade-ammo-economy256.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/nightshade-ammo-view256.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/nightshade-ammo256.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/nightshade-foundation251.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/nightshade267.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/orion271-assets.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/package-verification.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/package.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/phone-feedback.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/qa-initial-partial.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/qa-initial-partial.txt",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/rarity.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/registration.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/regressions.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/render.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/stats266.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/support370.log",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/tests.json",
+      "features": []
+    },
+    {
+      "path": "reports/cutter-support/worker-reaction246.log",
+      "features": []
+    },
+    {
+      "path": "source-art/backup-cutter/PROMPTS.md",
+      "features": []
+    },
+    {
+      "path": "source-art/backup-cutter/frames.png",
+      "features": []
+    },
+    {
+      "path": "tests/backup371.cjs",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "tests/backup376.cjs",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "tests/backup377.cjs",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "tests/cutter-support.cjs",
+      "features": [
+        "qa242"
+      ]
+    },
+    {
+      "path": "tools/cutter-pack.py",
+      "features": []
+    },
+    {
+      "path": "tools/cutter-render.cjs",
+      "features": []
+    },
+    {
+      "path": "tools/fighter-render/manifest.json",
+      "features": [
+        "shared-fighter-rendering"
+      ]
+    }
+  ],
+  "directFeatures": [
+    "qa242",
+    "shared-fighter-rendering",
+    "hero-broxton",
+    "shared-combat-admission"
+  ],
+  "affectedFeatures": [
+    "qa242",
+    "shared-fighter-rendering",
+    "hero-broxton",
+    "shared-combat-admission",
+    "controller-input",
+    "hero-reina",
+    "hero-nova",
+    "hero-forest-gunner",
+    "hero-niko",
+    "hero-orion",
+    "hero-nightshade",
+    "npc-combat",
+    "campaign-world",
+    "weapons-resources",
+    "runtime-ui-diagnostics"
+  ],
+  "declaredEntities": {
+    "characters": [
+      "broxton",
+      "colton-sharpe",
+      "all-fighters",
+      "all-playable-heroes",
+      "reina",
+      "nova",
+      "forest",
+      "gunner",
+      "niko",
+      "orion",
+      "nightshade"
+    ],
+    "moves": [
+      "cutter/chop",
+      "cutter/double-slash",
+      "broxton/support-call/definition",
+      "all-rendered-actions",
+      "broxton/grapple/forward",
+      "broxton/grapple/back",
+      "broxton/grapple/choke",
+      "broxton/blitz/definition",
+      "broxton/combo/stage-1",
+      "broxton/combo/stage-2",
+      "broxton/combo/stage-3",
+      "broxton/combo/stage-4",
+      "broxton/charged-ability/charged",
+      "all-native-actions",
+      "all-controller-actions",
+      "reina/sword/rise",
+      "reina/sword/sweep",
+      "reina/sword/cleaver",
+      "reina/stance/definition",
+      "reina/charged-ability/charged",
+      "reina/throw/german",
+      "reina/counter/dragon-tail",
+      "nova/throw/novaFranken",
+      "nova/throw/novaBelly",
+      "nova/throw/novaFace",
+      "nova/throw/novaDDT",
+      "nova/charged-ability/charged",
+      "nova/air/dropkick",
+      "nova/special/rush",
+      "forest/grapple/combo",
+      "forest/grapple/poison",
+      "forest/grapple/spine",
+      "forest/grapple/legs",
+      "forest/grapple/overhead",
+      "forest/grapple/special",
+      "forest/combo/stage-1",
+      "forest/combo/stage-2",
+      "forest/combo/stage-3",
+      "forest/combo/stage-4",
+      "forest/combo/stage-5",
+      "forest/combo/stage-6",
+      "forest/charged-ability/charged",
+      "niko/coordinated/throat",
+      "niko/coordinated/armbar",
+      "niko/coordinated/rearLeg",
+      "niko/coordinated/reverse",
+      "niko/coordinated/ground",
+      "niko/coordinated/special",
+      "niko/coordinated/mount",
+      "niko/combo/stage-1",
+      "niko/combo/stage-2",
+      "niko/combo/stage-3",
+      "niko/combo/stage-4",
+      "niko/charged-ability/charged",
+      "orion/combat/grab",
+      "orion/combat/blast",
+      "orion/combat/robo",
+      "orion/combat/piston",
+      "orion/combat/inverted",
+      "orion/combat/counter",
+      "orion/combat/ascension",
+      "orion/air/airNeutral",
+      "orion/air/airKnee",
+      "orion/air/airDown",
+      "orion/combo/stage-1",
+      "orion/combo/stage-2",
+      "orion/combo/stage-3",
+      "orion/combo/stage-4",
+      "orion/dodge/definition",
+      "orion/repairMove/definition",
+      "orion/meteorMove/definition",
+      "orion/currentMove/definition",
+      "orion/laserMove/definition",
+      "orion/charged-ability/charged",
+      "orion/current-counter/punch",
+      "orion/current-counter/kick",
+      "orion/current-counter/short",
+      "orion/current-counter/long",
+      "nightshade/combo/stage-1",
+      "nightshade/combo/stage-2",
+      "nightshade/combo/stage-3",
+      "nightshade/combo/stage-4",
+      "nightshade/melee/dart",
+      "nightshade/melee/grab",
+      "nightshade/melee/airNeutral",
+      "nightshade/melee/airForward",
+      "nightshade/melee/airDown",
+      "nightshade/directional/sweep",
+      "nightshade/directional/ura",
+      "nightshade/directional/leap",
+      "nightshade/directional/roll",
+      "nightshade/special/arc",
+      "nightshade/special/tasers",
+      "nightshade/special/barrage",
+      "nightshade/special/explosive",
+      "nightshade/special/roll",
+      "nightshade/counter/punch",
+      "nightshade/counter/kick",
+      "nightshade/counter/short",
+      "nightshade/counter/special",
+      "nightshade/gun/definition",
+      "nightshade/charged-ability/charged"
+    ],
+    "systems": [
+      "syndicate-backup",
+      "friendly-support",
+      "limited-bleed",
+      "hero-broxton",
+      "shared-combat-admission",
+      "shared-fighter-rendering",
+      "qa242",
+      "fighter-rendering",
+      "asset-loading",
+      "action-admission",
+      "hit-reactions",
+      "director",
+      "input",
+      "controller-mapping",
+      "hero-reina",
+      "hero-nova",
+      "hero-forest-gunner",
+      "hero-niko",
+      "hero-orion",
+      "hero-nightshade",
+      "npc-combat",
+      "campaign-world",
+      "weapons-resources",
+      "runtime-ui-diagnostics"
+    ],
+    "levels": [
+      "all-combat-scenes",
+      "all-rendered-scenes",
+      "all-playable-scenes"
+    ]
+  },
+  "entities": {
+    "characters": [
+      "broxton",
+      "colton-sharpe",
+      "all-fighters",
+      "all-playable-heroes",
+      "reina",
+      "nova",
+      "forest",
+      "gunner",
+      "niko",
+      "orion",
+      "nightshade"
+    ],
+    "moves": [
+      "cutter/chop",
+      "cutter/double-slash",
+      "broxton/support-call/definition",
+      "all-rendered-actions",
+      "broxton/grapple/forward",
+      "broxton/grapple/back",
+      "broxton/grapple/choke",
+      "broxton/blitz/definition",
+      "broxton/combo/stage-1",
+      "broxton/combo/stage-2",
+      "broxton/combo/stage-3",
+      "broxton/combo/stage-4",
+      "broxton/charged-ability/charged",
+      "all-native-actions",
+      "all-controller-actions",
+      "reina/sword/rise",
+      "reina/sword/sweep",
+      "reina/sword/cleaver",
+      "reina/stance/definition",
+      "reina/charged-ability/charged",
+      "reina/throw/german",
+      "reina/counter/dragon-tail",
+      "nova/throw/novaFranken",
+      "nova/throw/novaBelly",
+      "nova/throw/novaFace",
+      "nova/throw/novaDDT",
+      "nova/charged-ability/charged",
+      "nova/air/dropkick",
+      "nova/special/rush",
+      "forest/grapple/combo",
+      "forest/grapple/poison",
+      "forest/grapple/spine",
+      "forest/grapple/legs",
+      "forest/grapple/overhead",
+      "forest/grapple/special",
+      "forest/combo/stage-1",
+      "forest/combo/stage-2",
+      "forest/combo/stage-3",
+      "forest/combo/stage-4",
+      "forest/combo/stage-5",
+      "forest/combo/stage-6",
+      "forest/charged-ability/charged",
+      "niko/coordinated/throat",
+      "niko/coordinated/armbar",
+      "niko/coordinated/rearLeg",
+      "niko/coordinated/reverse",
+      "niko/coordinated/ground",
+      "niko/coordinated/special",
+      "niko/coordinated/mount",
+      "niko/combo/stage-1",
+      "niko/combo/stage-2",
+      "niko/combo/stage-3",
+      "niko/combo/stage-4",
+      "niko/charged-ability/charged",
+      "orion/combat/grab",
+      "orion/combat/blast",
+      "orion/combat/robo",
+      "orion/combat/piston",
+      "orion/combat/inverted",
+      "orion/combat/counter",
+      "orion/combat/ascension",
+      "orion/air/airNeutral",
+      "orion/air/airKnee",
+      "orion/air/airDown",
+      "orion/combo/stage-1",
+      "orion/combo/stage-2",
+      "orion/combo/stage-3",
+      "orion/combo/stage-4",
+      "orion/dodge/definition",
+      "orion/repairMove/definition",
+      "orion/meteorMove/definition",
+      "orion/currentMove/definition",
+      "orion/laserMove/definition",
+      "orion/charged-ability/charged",
+      "orion/current-counter/punch",
+      "orion/current-counter/kick",
+      "orion/current-counter/short",
+      "orion/current-counter/long",
+      "nightshade/combo/stage-1",
+      "nightshade/combo/stage-2",
+      "nightshade/combo/stage-3",
+      "nightshade/combo/stage-4",
+      "nightshade/melee/dart",
+      "nightshade/melee/grab",
+      "nightshade/melee/airNeutral",
+      "nightshade/melee/airForward",
+      "nightshade/melee/airDown",
+      "nightshade/directional/sweep",
+      "nightshade/directional/ura",
+      "nightshade/directional/leap",
+      "nightshade/directional/roll",
+      "nightshade/special/arc",
+      "nightshade/special/tasers",
+      "nightshade/special/barrage",
+      "nightshade/special/explosive",
+      "nightshade/special/roll",
+      "nightshade/counter/punch",
+      "nightshade/counter/kick",
+      "nightshade/counter/short",
+      "nightshade/counter/special",
+      "nightshade/gun/definition",
+      "nightshade/charged-ability/charged"
+    ],
+    "systems": [
+      "syndicate-backup",
+      "friendly-support",
+      "limited-bleed",
+      "hero-broxton",
+      "shared-combat-admission",
+      "shared-fighter-rendering",
+      "qa242",
+      "fighter-rendering",
+      "asset-loading",
+      "action-admission",
+      "hit-reactions",
+      "director",
+      "input",
+      "controller-mapping",
+      "hero-reina",
+      "hero-nova",
+      "hero-forest-gunner",
+      "hero-niko",
+      "hero-orion",
+      "hero-nightshade",
+      "npc-combat",
+      "campaign-world",
+      "weapons-resources",
+      "runtime-ui-diagnostics"
+    ],
+    "levels": [
+      "all-combat-scenes",
+      "all-rendered-scenes",
+      "all-playable-scenes"
+    ]
+  },
+  "selection": [
+    "actionability-diagnostics",
+    "airport310-progression",
+    "broxton244",
+    "broxton244-controller",
+    "broxton244-view",
+    "broxton366-current",
+    "broxton369-gait-order",
+    "campaign224",
+    "casino293",
+    "controller157-current",
+    "controller240",
+    "counter-weapon248",
+    "current-runtime-certification",
+    "current216-legacy",
+    "cutter-native-render",
+    "cutter-support",
+    "diagnostics307-input",
+    "diagnostics307-runtime",
+    "diagnostics307-ui",
+    "direct-start-director-admission",
+    "energy316-baseline-comparison",
+    "energy316-runtime",
+    "energy316-ui",
+    "fighter-grapples-broxton",
+    "fighter-grapples-forest",
+    "fighter-grapples-niko",
+    "fighter-render-bootstrap",
+    "fighter-render-prerequisites",
+    "forest-balance177",
+    "forest-fixture177",
+    "forest-grapples177",
+    "forest-protection177",
+    "gamepad-current",
+    "hitstun-eligibility",
+    "hospital314-runtime",
+    "hospital315-runtime",
+    "hydro243-progression",
+    "knockdown-admission",
+    "nightshade-directional258",
+    "nightshade-gate4-melee257",
+    "nightshade-gate6-263",
+    "nightshade-gate7-264",
+    "nightshade276-runtime",
+    "nightshade349",
+    "nightshade350-combat",
+    "nightshade351-combat",
+    "nightshade352-combat",
+    "nightshade353-combat",
+    "niko283-runtime",
+    "niko284-regression",
+    "nova333-current",
+    "orion-current-coverage",
+    "orion228-foundation",
+    "orion228-grabs",
+    "orion228-integration",
+    "orion228-physical",
+    "orion228-repair",
+    "orion228-specials",
+    "orion271-assets",
+    "orion271-view",
+    "orion387-hit-registration",
+    "phone-feedback",
+    "phone-feedback-render",
+    "playback-flight-diagnostics",
+    "post-hit-reassessment",
+    "qa242-integrity",
+    "qa242-pilot",
+    "qa242-policy",
+    "qa242-recovered-history",
+    "qa242-release-integrity",
+    "reina378-current",
+    "reina378-input-current",
+    "reina381-current",
+    "reina382-current",
+    "reina383-current",
+    "reina383-render-audit",
+    "security216-legacy",
+    "source-integrity",
+    "stadium237",
+    "subway238",
+    "support370-current",
+    "validator-self-tests",
+    "weapon-proficiency249"
+  ],
+  "reasons": {
+    "source-integrity": [
+      "Mandatory shared-system smoke"
+    ],
+    "current-runtime-certification": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: hero-nova",
+      "Semantic feature/dependent: npc-combat"
+    ],
+    "validator-self-tests": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: qa242"
+    ],
+    "qa242-integrity": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: qa242"
+    ],
+    "qa242-release-integrity": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: qa242"
+    ],
+    "qa242-policy": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: qa242"
+    ],
+    "direct-start-director-admission": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: shared-combat-admission"
+    ],
+    "hitstun-eligibility": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: shared-combat-admission",
+      "Semantic feature/dependent: npc-combat"
+    ],
+    "knockdown-admission": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: shared-combat-admission",
+      "Semantic feature/dependent: npc-combat"
+    ],
+    "post-hit-reassessment": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: shared-combat-admission",
+      "Semantic feature/dependent: npc-combat"
+    ],
+    "gamepad-current": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: controller-input"
+    ],
+    "controller157-current": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: controller-input"
+    ],
+    "qa242-pilot": [
+      "Mandatory shared-system smoke",
+      "Semantic feature/dependent: qa242"
+    ],
+    "qa242-recovered-history": [
+      "Semantic feature/dependent: qa242"
+    ],
+    "fighter-render-prerequisites": [
+      "Semantic feature/dependent: shared-fighter-rendering"
+    ],
+    "fighter-render-bootstrap": [
+      "Semantic feature/dependent: shared-fighter-rendering"
+    ],
+    "reina383-render-audit": [
+      "Semantic feature/dependent: shared-fighter-rendering",
+      "Semantic feature/dependent: hero-reina"
+    ],
+    "broxton369-gait-order": [
+      "Semantic feature/dependent: shared-fighter-rendering",
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "broxton244": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "broxton244-controller": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "broxton244-view": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "broxton366-current": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "fighter-grapples-broxton": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "phone-feedback": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "phone-feedback-render": [
+      "Semantic feature/dependent: hero-broxton"
+    ],
+    "support370-current": [
+      "Semantic feature/dependent: shared-combat-admission"
+    ],
+    "controller240": [
+      "Semantic feature/dependent: controller-input"
+    ],
+    "reina378-input-current": [
+      "Semantic feature/dependent: hero-reina"
+    ],
+    "reina378-current": [
+      "Semantic feature/dependent: hero-reina"
+    ],
+    "reina381-current": [
+      "Semantic feature/dependent: hero-reina"
+    ],
+    "reina382-current": [
+      "Semantic feature/dependent: hero-reina"
+    ],
+    "reina383-current": [
+      "Semantic feature/dependent: hero-reina"
+    ],
+    "counter-weapon248": [
+      "Semantic feature/dependent: hero-reina",
+      "Semantic feature/dependent: weapons-resources"
+    ],
+    "nova333-current": [
+      "Semantic feature/dependent: hero-nova"
+    ],
+    "forest-grapples177": [
+      "Semantic feature/dependent: hero-forest-gunner"
+    ],
+    "forest-protection177": [
+      "Semantic feature/dependent: hero-forest-gunner"
+    ],
+    "forest-balance177": [
+      "Semantic feature/dependent: hero-forest-gunner"
+    ],
+    "forest-fixture177": [
+      "Semantic feature/dependent: hero-forest-gunner"
+    ],
+    "fighter-grapples-forest": [
+      "Semantic feature/dependent: hero-forest-gunner"
+    ],
+    "niko283-runtime": [
+      "Semantic feature/dependent: hero-niko"
+    ],
+    "niko284-regression": [
+      "Semantic feature/dependent: hero-niko"
+    ],
+    "fighter-grapples-niko": [
+      "Semantic feature/dependent: hero-niko"
+    ],
+    "orion271-assets": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion271-view": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "security216-legacy": [
+      "Semantic feature/dependent: hero-orion",
+      "Semantic feature/dependent: npc-combat"
+    ],
+    "orion-current-coverage": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion387-hit-registration": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion228-foundation": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion228-physical": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion228-repair": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion228-grabs": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion228-specials": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "orion228-integration": [
+      "Semantic feature/dependent: hero-orion"
+    ],
+    "nightshade-gate4-melee257": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade-directional258": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade-gate6-263": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade-gate7-264": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade276-runtime": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade349": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade350-combat": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade351-combat": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade352-combat": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "nightshade353-combat": [
+      "Semantic feature/dependent: hero-nightshade"
+    ],
+    "current216-legacy": [
+      "Semantic feature/dependent: npc-combat"
+    ],
+    "campaign224": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "casino293": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "airport310-progression": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "hospital314-runtime": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "hospital315-runtime": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "subway238": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "stadium237": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "hydro243-progression": [
+      "Semantic feature/dependent: campaign-world"
+    ],
+    "weapon-proficiency249": [
+      "Semantic feature/dependent: weapons-resources"
+    ],
+    "energy316-runtime": [
+      "Semantic feature/dependent: weapons-resources"
+    ],
+    "energy316-baseline-comparison": [
+      "Semantic feature/dependent: weapons-resources"
+    ],
+    "energy316-ui": [
+      "Semantic feature/dependent: weapons-resources"
+    ],
+    "diagnostics307-runtime": [
+      "Semantic feature/dependent: runtime-ui-diagnostics"
+    ],
+    "diagnostics307-input": [
+      "Semantic feature/dependent: runtime-ui-diagnostics"
+    ],
+    "diagnostics307-ui": [
+      "Semantic feature/dependent: runtime-ui-diagnostics"
+    ],
+    "actionability-diagnostics": [
+      "Semantic feature/dependent: runtime-ui-diagnostics"
+    ],
+    "playback-flight-diagnostics": [
+      "Semantic feature/dependent: runtime-ui-diagnostics"
+    ],
+    "cutter-support": [
+      "New content: syndicate-colton-sharpe"
+    ],
+    "cutter-native-render": [
+      "New content: syndicate-colton-sharpe"
+    ]
+  },
+  "requirements": {
+    "visual": true,
+    "performance": true,
+    "physicalController": false,
+    "visualScenarios": [
+      "reina383-native-frame-audit",
+      "broxton369-native-gait-order",
+      "combat-start-active-recovery"
+    ]
+  },
+  "fullReleaseRequired": false,
+  "issues": [],
+  "declaration": {
+    "path": "qa/system242/changes/colton-sharpe.json",
+    "sha256": "365dfdafdf14c77c140cca1044b9f8cf334f57e469486d3376904d52f3259452"
+  },
+  "registrySha256": "c900af17cc9059c75ab6e39905cac20046423282662c4c8efdb838dea3bb6983",
+  "catalogSha256": "7a8f984becb104b2f9a9ec1153cf37edc38471a112ecd97915b097116a5713c1"
+}

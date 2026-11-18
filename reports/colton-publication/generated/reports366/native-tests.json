@@ -1,0 +1,127 @@
+{
+  "pass": true,
+  "checks": 3541,
+  "phaseRows": [
+    {
+      "dir": 1,
+      "frame": 1,
+      "phase": "reach",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 12,
+      "phase": "retrieve",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 21,
+      "phase": "dial",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 45,
+      "phase": "lift",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 54,
+      "phase": "ring",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 113,
+      "phase": "ring",
+      "energy": 100
+    },
+    {
+      "dir": 1,
+      "frame": 114,
+      "phase": "speak",
+      "energy": 70
+    },
+    {
+      "dir": 1,
+      "frame": 126,
+      "phase": "pocket",
+      "energy": 70
+    },
+    {
+      "dir": 1,
+      "frame": 140,
+      "phase": "pocket",
+      "energy": 70
+    },
+    {
+      "dir": -1,
+      "frame": 1,
+      "phase": "reach",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 12,
+      "phase": "retrieve",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 21,
+      "phase": "dial",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 45,
+      "phase": "lift",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 54,
+      "phase": "ring",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 113,
+      "phase": "ring",
+      "energy": 100
+    },
+    {
+      "dir": -1,
+      "frame": 114,
+      "phase": "speak",
+      "energy": 70
+    },
+    {
+      "dir": -1,
+      "frame": 126,
+      "phase": "pocket",
+      "energy": 70
+    },
+    {
+      "dir": -1,
+      "frame": 140,
+      "phase": "pocket",
+      "energy": 70
+    }
+  ],
+  "benchmark": {
+    "calls": 100,
+    "steps": 14200,
+    "ms": 1885.5490999999997,
+    "msPerTick": 0.13278514788732393,
+    "scope": "native simulation only; not browser FPS"
+  },
+  "holds": [
+    "physical DualSense",
+    "browser gameplay",
+    "production roster arrival/exit",
+    "final voice recording"
+  ]
+}

@@ -1,0 +1,26 @@
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+... Skipped lines
+
+  [
+    'forest-view125.js',
+    'nova-view128.js',
+    'charge-view130.js',
+    'reactions-view130.js',
+...
+    'backup-view377.js',
++   'cutter-support-view.js',
+    'reina-view381.js',
+    'reina-view382.js',
+    'reina-view383.js',
+-   'cutter-support-view.js'
+  ]
+
+    at C:\Users\spiri\.codex\worktrees\colton-assignment5\UrbanFracture\tests\fighter-render-bootstrap.cjs:3:93 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [Array],
+  expected: [Array],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}

@@ -116,7 +116,8 @@
     "backup377-data.js",
     "reina381-data.js",
     "reina382-data.js",
-    "reina383-data.js"
+    "reina383-data.js",
+    "cutter-support-data.js"
   ],
   "renderModules": [
     "hospital314-materials.js",
@@ -211,7 +212,8 @@
     "backup-view377.js",
     "reina-view381.js",
     "reina-view382.js",
-    "reina-view383.js"
+    "reina-view383.js",
+    "cutter-support-view.js"
   ],
   "drawOwners": [
     "forest-view125.js",
@@ -296,6 +298,7 @@
     "backup-view365.js",
     "backup-view371.js",
     "backup-view377.js",
+    "cutter-support-view.js",
     "reina-view381.js",
     "reina-view382.js",
     "reina-view383.js"
@@ -332,6 +335,8 @@
     "reina-view381.js",
     "reina-view382.js",
     "reina383-data.js",
-    "reina-view383.js"
+    "reina-view383.js",
+    "cutter-support-data.js",
+    "cutter-support-view.js"
   ]
 }

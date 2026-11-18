@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "runId": "20261118T120900187Z-13ed0c52",
+  "baseCommit": "9a31acc3308d233a4fc202cde23a52598b71d086",
+  "testedCommit": "3e5c756dba8f8b37fd9e45a943fa1660a2b8bbeb",
+  "sourceFingerprint": "c8a70775298e0111a5b9866586a072f73746f7ee27c0ebadb5e6fc8eb90372dc",
+  "profile": "initial",
+  "selection": [
+    "fighter-render-bootstrap",
+    "orion271-assets"
+  ],
+  "environment": {
+    "node": "v22.21.0",
+    "platform": "win32",
+    "arch": "x64",
+    "rendererPackage": {
+      "@napi-rs/canvas": "1.1.1",
+      "playwright": "1.57.0"
+    }
+  },
+  "status": "started",
+  "note": "Missing final report means interrupted/incomplete, never accepted"
+}

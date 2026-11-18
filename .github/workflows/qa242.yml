@@ -8,6 +8,22 @@ on:
         description: Exact approved comparison base commit (full release profile)
         required: true
         type: string
+      pull_request_number:
+        description: PR whose exact current head is being reviewed (required with evidence)
+        required: false
+        type: string
+      candidate_commit:
+        description: Exact current PR head SHA (required with evidence)
+        required: false
+        type: string
+      evidence_bundle_url:
+        description: GitHub ZIP attachment URL; imported data never grants approval
+        required: false
+        type: string
+      evidence_bundle_sha256:
+        description: SHA256 of the exact uploaded evidence ZIP
+        required: false
+        type: string
       change_file:
         description: Repository-relative QA242 change declaration
         required: true
@@ -27,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
-          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          ref: ${{ github.event.pull_request.head.sha || inputs.candidate_commit || github.sha }}
           fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
@@ -52,7 +68,12 @@ jobs:
         run: |
           node tools/qa242/preflight.cjs
           node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs tests/qa242-subway-coverage.cjs tests/qa242-history-contract.cjs tests/qa242-recovered-history.cjs
+          node --test tests/qa242-registry-extension.cjs
+          node tests/qa242-external-evidence.cjs
           node tests/qa242-controller-charge.cjs
+      - name: Preserve PR35 QA-only gameplay and source artwork
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.number == 35 }}
+        run: node --test tests/qa242-colton-preservation.cjs
       - name: Production ownership and selected character move assertions
         env:
           NODE_PATH: ${{ github.workspace }}/tools/fighter-render/node_modules
@@ -75,6 +96,7 @@ jobs:
             reports242/latest-run.json
             reports242/readiness/
             reports242/production-coverage/
+            reports242/external/
             qa/system242/history-loss-v1/
             qa/system242/history-replacement-v1.json
             qa/system242/recovered-history-v1/manifest.json

@@ -1,0 +1,57 @@
+fatal: remote error: upload-pack: not our ref 09bb59f80b054cbd2bacdfa0840cecc74cae2027
+fatal: remote error: upload-pack: not our ref 09bb59f80b054cbd2bacdfa0840cecc74cae2027
+fatal: path 'dist/game.js' exists on disk, but not in '09bb59f80b054cbd2bacdfa0840cecc74cae2027'
+node:child_process:955
+    throw err;
+    ^
+
+Error: Command failed: git show 09bb59f80b054cbd2bacdfa0840cecc74cae2027:dist/game.js
+fatal: remote error: upload-pack: not our ref 09bb59f80b054cbd2bacdfa0840cecc74cae2027
+fatal: remote error: upload-pack: not our ref 09bb59f80b054cbd2bacdfa0840cecc74cae2027
+fatal: path 'dist/game.js' exists on disk, but not in '09bb59f80b054cbd2bacdfa0840cecc74cae2027'
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:916:11)
+    at Object.execFileSync (node:child_process:952:15)
+    at Object.verify (C:\Users\spiri\.codex\worktrees\colton-assignment5\UrbanFracture\tools\qa242\diagnostics-history.cjs:5:238)
+    at Object.<anonymous> (C:\Users\spiri\.codex\worktrees\colton-assignment5\UrbanFracture\tests\diagnostics307-input.cjs:5:49)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at main (C:\Users\spiri\.codex\worktrees\colton-assignment5\UrbanFracture\tools\qa242\diagnostics-history.cjs:6:267)
+    at Object.<anonymous> (C:\Users\spiri\.codex\worktrees\colton-assignment5\UrbanFracture\tools\qa242\diagnostics-history.cjs:7:57)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(271) [Uint8Array] [
+      102,  97, 116,  97, 108,  58,  32, 114, 101, 109, 111, 116,
+      101,  32, 101, 114, 114, 111, 114,  58,  32, 117, 112, 108,
+      111,  97, 100,  45, 112,  97,  99, 107,  58,  32, 110, 111,
+      116,  32, 111, 117, 114,  32, 114, 101, 102,  32,  48,  57,
+       98,  98,  53,  57, 102,  56,  48,  98,  48,  53,  52,  99,
+       98, 100,  50,  98,  97,  99, 100, 102,  97,  48,  56,  52,
+       48,  99, 101,  99,  99,  55,  52,  99,  97, 101,  50,  48,
+       50,  55,  10, 102,  97, 116,  97, 108,  58,  32, 114, 101,
+      109, 111, 116, 101,
+      ... 171 more items
+    ]
+  ],
+  pid: 44228,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(271) [Uint8Array] [
+    102,  97, 116,  97, 108,  58,  32, 114, 101, 109, 111, 116,
+    101,  32, 101, 114, 114, 111, 114,  58,  32, 117, 112, 108,
+    111,  97, 100,  45, 112,  97,  99, 107,  58,  32, 110, 111,
+    116,  32, 111, 117, 114,  32, 114, 101, 102,  32,  48,  57,
+     98,  98,  53,  57, 102,  56,  48,  98,  48,  53,  52,  99,
+     98, 100,  50,  98,  97,  99, 100, 102,  97,  48,  56,  52,
+     48,  99, 101,  99,  99,  55,  52,  99,  97, 101,  50,  48,
+     50,  55,  10, 102,  97, 116,  97, 108,  58,  32, 114, 101,
+    109, 111, 116, 101,
+    ... 171 more items
+  ]
+}
+
+Node.js v22.21.0

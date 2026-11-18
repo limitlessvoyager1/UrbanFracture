@@ -1,0 +1,1136 @@
+{
+  "schema": 1,
+  "scope": "Current 219-module simulation adapter; regular target fixtures, 30/60/120Hz and both facings. No physical hardware, artistic or full browser certification.",
+  "adapterModules": 220,
+  "adapterLoadHash": "f9fc528ccaa9c4d4e94080eab35ff9e96f1108793393994718e0b8a52459cc27",
+  "seed": 913,
+  "cases": [
+    {
+      "name": "Orion current four-stage combo 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "rows": [
+        {
+          "stage": 1,
+          "firstDamageFrame": 11.999999999999998,
+          "damage": 5
+        },
+        {
+          "stage": 2,
+          "firstDamageFrame": 13.999999999999998,
+          "damage": 6
+        },
+        {
+          "stage": 3,
+          "firstDamageFrame": 16,
+          "damage": 7
+        },
+        {
+          "stage": 4,
+          "firstDamageFrame": 23.999999999999996,
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Orion current pair grab 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "grab",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair blast 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "blast",
+      "firstDamageFrame": 46,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair robo 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "robo",
+      "firstDamageFrame": 34,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair piston 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "piston",
+      "firstDamageFrame": 23.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair inverted 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "inverted",
+      "firstDamageFrame": 70.00000000000001,
+      "damage": 34
+    },
+    {
+      "name": "Orion current pair ascension 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "ascension",
+      "firstDamageFrame": 18,
+      "damage": 48
+    },
+    {
+      "name": "Orion current airborne airNeutral 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "airNeutral",
+      "firstDamageFrame": 8,
+      "damage": 10
+    },
+    {
+      "name": "Orion current airborne airKnee 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "airKnee",
+      "firstDamageFrame": 10,
+      "damage": 12
+    },
+    {
+      "name": "Orion current airborne airDown 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "airDown",
+      "firstDamageFrame": 16,
+      "damage": 13
+    },
+    {
+      "name": "Orion current special current 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "current",
+      "firstDamageFrame": 42,
+      "damage": 17
+    },
+    {
+      "name": "Orion current special laser 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "laser",
+      "firstDamageFrame": 32,
+      "damage": 23
+    },
+    {
+      "name": "Orion current special meteor 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "meteor",
+      "firstDamageFrame": 42,
+      "damage": 22
+    },
+    {
+      "name": "Orion current dodge 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1
+    },
+    {
+      "name": "Orion current charged System Repair 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1
+    },
+    {
+      "name": "Orion current R1 counter punch 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "punch",
+      "firstDamageFrame": 32,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter kick 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "kick",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter short 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "short",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 38
+    },
+    {
+      "name": "Orion current R1 counter long 30Hz dir -1",
+      "status": "passed",
+      "hz": 30,
+      "dir": -1,
+      "kind": "long",
+      "firstDamageFrame": null,
+      "damage": 0
+    },
+    {
+      "name": "Orion current four-stage combo 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "rows": [
+        {
+          "stage": 1,
+          "firstDamageFrame": 11.999999999999998,
+          "damage": 5
+        },
+        {
+          "stage": 2,
+          "firstDamageFrame": 13.999999999999998,
+          "damage": 6
+        },
+        {
+          "stage": 3,
+          "firstDamageFrame": 16,
+          "damage": 7
+        },
+        {
+          "stage": 4,
+          "firstDamageFrame": 23.999999999999996,
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Orion current pair grab 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "grab",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair blast 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "blast",
+      "firstDamageFrame": 46,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair robo 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "robo",
+      "firstDamageFrame": 34,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair piston 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "piston",
+      "firstDamageFrame": 23.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair inverted 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "inverted",
+      "firstDamageFrame": 70.00000000000001,
+      "damage": 34
+    },
+    {
+      "name": "Orion current pair ascension 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "ascension",
+      "firstDamageFrame": 18,
+      "damage": 48
+    },
+    {
+      "name": "Orion current airborne airNeutral 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "airNeutral",
+      "firstDamageFrame": 8,
+      "damage": 10
+    },
+    {
+      "name": "Orion current airborne airKnee 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "airKnee",
+      "firstDamageFrame": 10,
+      "damage": 12
+    },
+    {
+      "name": "Orion current airborne airDown 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "airDown",
+      "firstDamageFrame": 16,
+      "damage": 13
+    },
+    {
+      "name": "Orion current special current 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "current",
+      "firstDamageFrame": 42,
+      "damage": 17
+    },
+    {
+      "name": "Orion current special laser 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "laser",
+      "firstDamageFrame": 32,
+      "damage": 23
+    },
+    {
+      "name": "Orion current special meteor 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "meteor",
+      "firstDamageFrame": 42,
+      "damage": 22
+    },
+    {
+      "name": "Orion current dodge 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1
+    },
+    {
+      "name": "Orion current charged System Repair 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1
+    },
+    {
+      "name": "Orion current R1 counter punch 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "punch",
+      "firstDamageFrame": 32,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter kick 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "kick",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter short 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "short",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 38
+    },
+    {
+      "name": "Orion current R1 counter long 30Hz dir 1",
+      "status": "passed",
+      "hz": 30,
+      "dir": 1,
+      "kind": "long",
+      "firstDamageFrame": null,
+      "damage": 0
+    },
+    {
+      "name": "Orion current four-stage combo 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "rows": [
+        {
+          "stage": 1,
+          "firstDamageFrame": 11,
+          "damage": 5
+        },
+        {
+          "stage": 2,
+          "firstDamageFrame": 12.999999999999998,
+          "damage": 6
+        },
+        {
+          "stage": 3,
+          "firstDamageFrame": 16,
+          "damage": 7
+        },
+        {
+          "stage": 4,
+          "firstDamageFrame": 23,
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Orion current pair grab 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "grab",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair blast 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "blast",
+      "firstDamageFrame": 46.00000000000004,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair robo 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "robo",
+      "firstDamageFrame": 34.00000000000001,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair piston 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "piston",
+      "firstDamageFrame": 23.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair inverted 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "inverted",
+      "firstDamageFrame": 70.00000000000004,
+      "damage": 34
+    },
+    {
+      "name": "Orion current pair ascension 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "ascension",
+      "firstDamageFrame": 18,
+      "damage": 48
+    },
+    {
+      "name": "Orion current airborne airNeutral 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "airNeutral",
+      "firstDamageFrame": 8,
+      "damage": 10
+    },
+    {
+      "name": "Orion current airborne airKnee 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "airKnee",
+      "firstDamageFrame": 10,
+      "damage": 12
+    },
+    {
+      "name": "Orion current airborne airDown 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "airDown",
+      "firstDamageFrame": 14.999999999999998,
+      "damage": 13
+    },
+    {
+      "name": "Orion current special current 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "current",
+      "firstDamageFrame": 41.00000000000003,
+      "damage": 17
+    },
+    {
+      "name": "Orion current special laser 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "laser",
+      "firstDamageFrame": 32,
+      "damage": 23
+    },
+    {
+      "name": "Orion current special meteor 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "meteor",
+      "firstDamageFrame": 42.00000000000003,
+      "damage": 22
+    },
+    {
+      "name": "Orion current dodge 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1
+    },
+    {
+      "name": "Orion current charged System Repair 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1
+    },
+    {
+      "name": "Orion current R1 counter punch 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "punch",
+      "firstDamageFrame": 30.999999999999996,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter kick 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "kick",
+      "firstDamageFrame": 28.999999999999996,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter short 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "short",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 38
+    },
+    {
+      "name": "Orion current R1 counter long 60Hz dir -1",
+      "status": "passed",
+      "hz": 60,
+      "dir": -1,
+      "kind": "long",
+      "firstDamageFrame": null,
+      "damage": 0
+    },
+    {
+      "name": "Orion current four-stage combo 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "rows": [
+        {
+          "stage": 1,
+          "firstDamageFrame": 11,
+          "damage": 5
+        },
+        {
+          "stage": 2,
+          "firstDamageFrame": 12.999999999999998,
+          "damage": 6
+        },
+        {
+          "stage": 3,
+          "firstDamageFrame": 16,
+          "damage": 7
+        },
+        {
+          "stage": 4,
+          "firstDamageFrame": 23,
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Orion current pair grab 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "grab",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair blast 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "blast",
+      "firstDamageFrame": 46.00000000000004,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair robo 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "robo",
+      "firstDamageFrame": 34.00000000000001,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair piston 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "piston",
+      "firstDamageFrame": 23.999999999999996,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair inverted 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "inverted",
+      "firstDamageFrame": 70.00000000000004,
+      "damage": 34
+    },
+    {
+      "name": "Orion current pair ascension 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "ascension",
+      "firstDamageFrame": 18,
+      "damage": 48
+    },
+    {
+      "name": "Orion current airborne airNeutral 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "airNeutral",
+      "firstDamageFrame": 8,
+      "damage": 10
+    },
+    {
+      "name": "Orion current airborne airKnee 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "airKnee",
+      "firstDamageFrame": 10,
+      "damage": 12
+    },
+    {
+      "name": "Orion current airborne airDown 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "airDown",
+      "firstDamageFrame": 14.999999999999998,
+      "damage": 13
+    },
+    {
+      "name": "Orion current special current 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "current",
+      "firstDamageFrame": 41.00000000000003,
+      "damage": 17
+    },
+    {
+      "name": "Orion current special laser 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "laser",
+      "firstDamageFrame": 32,
+      "damage": 23
+    },
+    {
+      "name": "Orion current special meteor 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "meteor",
+      "firstDamageFrame": 42.00000000000003,
+      "damage": 22
+    },
+    {
+      "name": "Orion current dodge 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1
+    },
+    {
+      "name": "Orion current charged System Repair 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1
+    },
+    {
+      "name": "Orion current R1 counter punch 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "punch",
+      "firstDamageFrame": 30.999999999999996,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter kick 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "kick",
+      "firstDamageFrame": 28.999999999999996,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter short 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "short",
+      "firstDamageFrame": 29.999999999999996,
+      "damage": 38
+    },
+    {
+      "name": "Orion current R1 counter long 60Hz dir 1",
+      "status": "passed",
+      "hz": 60,
+      "dir": 1,
+      "kind": "long",
+      "firstDamageFrame": null,
+      "damage": 0
+    },
+    {
+      "name": "Orion current four-stage combo 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "rows": [
+        {
+          "stage": 1,
+          "firstDamageFrame": 11,
+          "damage": 5
+        },
+        {
+          "stage": 2,
+          "firstDamageFrame": 12.999999999999998,
+          "damage": 6
+        },
+        {
+          "stage": 3,
+          "firstDamageFrame": 16,
+          "damage": 7
+        },
+        {
+          "stage": 4,
+          "firstDamageFrame": 23.00000000000002,
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Orion current pair grab 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "grab",
+      "firstDamageFrame": 30.00000000000004,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair blast 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "blast",
+      "firstDamageFrame": 45.999999999999986,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair robo 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "robo",
+      "firstDamageFrame": 34.00000000000003,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair piston 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "piston",
+      "firstDamageFrame": 24.000000000000025,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair inverted 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "inverted",
+      "firstDamageFrame": 69.9999999999999,
+      "damage": 34
+    },
+    {
+      "name": "Orion current pair ascension 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "ascension",
+      "firstDamageFrame": 18.000000000000007,
+      "damage": 48
+    },
+    {
+      "name": "Orion current airborne airNeutral 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "airNeutral",
+      "firstDamageFrame": 8,
+      "damage": 10
+    },
+    {
+      "name": "Orion current airborne airKnee 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "airKnee",
+      "firstDamageFrame": 10,
+      "damage": 12
+    },
+    {
+      "name": "Orion current airborne airDown 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "airDown",
+      "firstDamageFrame": 14.999999999999998,
+      "damage": 13
+    },
+    {
+      "name": "Orion current special current 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "current",
+      "firstDamageFrame": 40.5,
+      "damage": 17
+    },
+    {
+      "name": "Orion current special laser 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "laser",
+      "firstDamageFrame": 32.000000000000036,
+      "damage": 23
+    },
+    {
+      "name": "Orion current special meteor 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "meteor",
+      "firstDamageFrame": 42,
+      "damage": 22
+    },
+    {
+      "name": "Orion current dodge 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1
+    },
+    {
+      "name": "Orion current charged System Repair 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1
+    },
+    {
+      "name": "Orion current R1 counter punch 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "punch",
+      "firstDamageFrame": 30.00000000000004,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter kick 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "kick",
+      "firstDamageFrame": 28.000000000000036,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter short 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "short",
+      "firstDamageFrame": 29.00000000000004,
+      "damage": 38
+    },
+    {
+      "name": "Orion current R1 counter long 120Hz dir -1",
+      "status": "passed",
+      "hz": 120,
+      "dir": -1,
+      "kind": "long",
+      "firstDamageFrame": null,
+      "damage": 0
+    },
+    {
+      "name": "Orion current four-stage combo 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "rows": [
+        {
+          "stage": 1,
+          "firstDamageFrame": 11,
+          "damage": 5
+        },
+        {
+          "stage": 2,
+          "firstDamageFrame": 12.999999999999998,
+          "damage": 6
+        },
+        {
+          "stage": 3,
+          "firstDamageFrame": 16,
+          "damage": 7
+        },
+        {
+          "stage": 4,
+          "firstDamageFrame": 23.00000000000002,
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Orion current pair grab 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "grab",
+      "firstDamageFrame": 30.00000000000004,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair blast 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "blast",
+      "firstDamageFrame": 45.999999999999986,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair robo 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "robo",
+      "firstDamageFrame": 34.00000000000003,
+      "damage": 30
+    },
+    {
+      "name": "Orion current pair piston 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "piston",
+      "firstDamageFrame": 24.000000000000025,
+      "damage": 28
+    },
+    {
+      "name": "Orion current pair inverted 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "inverted",
+      "firstDamageFrame": 69.9999999999999,
+      "damage": 34
+    },
+    {
+      "name": "Orion current pair ascension 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "ascension",
+      "firstDamageFrame": 18.000000000000007,
+      "damage": 48
+    },
+    {
+      "name": "Orion current airborne airNeutral 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "airNeutral",
+      "firstDamageFrame": 8,
+      "damage": 10
+    },
+    {
+      "name": "Orion current airborne airKnee 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "airKnee",
+      "firstDamageFrame": 10,
+      "damage": 12
+    },
+    {
+      "name": "Orion current airborne airDown 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "airDown",
+      "firstDamageFrame": 14.999999999999998,
+      "damage": 13
+    },
+    {
+      "name": "Orion current special current 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "current",
+      "firstDamageFrame": 40.5,
+      "damage": 17
+    },
+    {
+      "name": "Orion current special laser 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "laser",
+      "firstDamageFrame": 32.000000000000036,
+      "damage": 23
+    },
+    {
+      "name": "Orion current special meteor 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "meteor",
+      "firstDamageFrame": 42,
+      "damage": 22
+    },
+    {
+      "name": "Orion current dodge 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1
+    },
+    {
+      "name": "Orion current charged System Repair 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1
+    },
+    {
+      "name": "Orion current R1 counter punch 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "punch",
+      "firstDamageFrame": 30.00000000000004,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter kick 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "kick",
+      "firstDamageFrame": 28.000000000000036,
+      "damage": 48
+    },
+    {
+      "name": "Orion current R1 counter short 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "short",
+      "firstDamageFrame": 29.00000000000004,
+      "damage": 38
+    },
+    {
+      "name": "Orion current R1 counter long 120Hz dir 1",
+      "status": "passed",
+      "hz": 120,
+      "dir": 1,
+      "kind": "long",
+      "firstDamageFrame": null,
+      "damage": 0
+    },
+    {
+      "name": "Orion superseded counter definition is retained without claiming current input coverage",
+      "status": "passed"
+    },
+    {
+      "name": "Orion interruption blast",
+      "status": "passed"
+    },
+    {
+      "name": "Orion interruption current",
+      "status": "passed"
+    },
+    {
+      "name": "Orion interruption meteor",
+      "status": "passed"
+    },
+    {
+      "name": "Orion interruption repair",
+      "status": "passed"
+    }
+  ],
+  "passed": 119,
+  "failed": 0,
+  "certified": false
+}
