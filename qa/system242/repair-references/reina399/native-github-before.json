@@ -1,0 +1,882 @@
+{
+  "base": "02c3e99df5c90330114359ed07f200034e4ce795",
+  "sources": [
+    {
+      "path": "dist/core.js",
+      "sha256LF": "5c98619e4ab8a96c7b042ca09c23b92768a4a395ac6363abd55f2389ac029049"
+    },
+    {
+      "path": "dist/financial.js",
+      "sha256LF": "156a633823241e26669e0373128ea26b259c263b22b11d267d09465f1e4f1adb"
+    },
+    {
+      "path": "dist/broxton.js",
+      "sha256LF": "eba6eaa71f9fe1f279bfbf7c6e07d7c770b943c116abaf5fc942f7536e7e1a33"
+    },
+    {
+      "path": "dist/paired-motion.js",
+      "sha256LF": "0367cee5756b3a65e654ee3ade3ac61940c197472c3c08c3200b20b6718c097e"
+    },
+    {
+      "path": "dist/counters.js",
+      "sha256LF": "46cf86a81aa786049666870ffec7db3baf44f484f169f57da8ebe83b7ac5ec93"
+    },
+    {
+      "path": "dist/encounters.js",
+      "sha256LF": "221f3bfaf73167230c961d3ac32a9b33186efc5c8aadc70f30ad8ea0ed967e70"
+    },
+    {
+      "path": "dist/balance48.js",
+      "sha256LF": "14a29cdbccf03125622c4163776dd46897e4c4d28f8c5d49077164e35704abe8"
+    },
+    {
+      "path": "dist/balance49.js",
+      "sha256LF": "8649fde2008185b93ba089930420466669474d773c63a7844f5be271ae88082d"
+    },
+    {
+      "path": "dist/broxton-counters51.js",
+      "sha256LF": "c9dbe6114cfab821f0f53b901878bf54b3c4c23cce82fa3ee9bf6267fffcb2f6"
+    },
+    {
+      "path": "dist/broxton-shuffle52.js",
+      "sha256LF": "1cb366d2665fd77dd0d4211e1d0ed9fb25f401ec7b92be6591d7aa0c6fb738d7"
+    },
+    {
+      "path": "dist/open-cue62.js",
+      "sha256LF": "e1576f7da21643458b9a47f5d0975edec49c630adeee76bde67af48d42a166e9"
+    },
+    {
+      "path": "dist/weather67.js",
+      "sha256LF": "b2ac1d8dadf10fe40a9bafe958a2c5ec99a49905eced088b82812639925c5418"
+    },
+    {
+      "path": "dist/scenes71.js",
+      "sha256LF": "25f81a5bf311d90c74b3b0d80cb7008b6cdc9660aefdf86bf624b0baa2cccacd"
+    },
+    {
+      "path": "dist/club76.js",
+      "sha256LF": "322de809b678c54d9d81f234aa867a27ebec8a0f299424774415986ab13d8c93"
+    },
+    {
+      "path": "dist/nova77.js",
+      "sha256LF": "5951f6f8ac6291c0286a4e7d289afeca65f5f00f91041f8feb7471d3eeb86829"
+    },
+    {
+      "path": "dist/jackal100.js",
+      "sha256LF": "42d458755057f39eb956808a04e28031b13d69a1e54110cc9e576e3a732a9d9f"
+    },
+    {
+      "path": "dist/pressure101.js",
+      "sha256LF": "55412c42292cea6a38092f256599d680f2fb9c3ce53d3f67267a2daf08ade908"
+    },
+    {
+      "path": "dist/leroy102.js",
+      "sha256LF": "e51a134a2bbcc91f56ddbd06d0a5f4d217827f947168e579fed8727c3a047399"
+    },
+    {
+      "path": "dist/nova105.js",
+      "sha256LF": "b4196b6351a640f97203e0d1f95b545e7d65e9c3c8b062e1ba8b7ed6d4fe04a6"
+    },
+    {
+      "path": "dist/nova107.js",
+      "sha256LF": "d972c6ac98a9c3c99fc69a26fc1e4cef11b3806d85ab8af42bbf5292a7672c20"
+    },
+    {
+      "path": "dist/nova108.js",
+      "sha256LF": "e11d77792fd9b9094c58325cef8351e86e6444c2048b503384f801aa2700299d"
+    },
+    {
+      "path": "dist/nova116.js",
+      "sha256LF": "d583c9eb1633b51673d589341a9ed403a28dc8553290d14c9848cac17fc7e136"
+    },
+    {
+      "path": "dist/reina118.js",
+      "sha256LF": "72465b5762f756532b5edffea497d8b17ea0a62ad5bf5c81ec528790cf79c630"
+    },
+    {
+      "path": "dist/reina119.js",
+      "sha256LF": "945258a03418671498984849b70317f0754a29f46c734af8b893ae0ff9d2e3e3"
+    },
+    {
+      "path": "dist/reina120.js",
+      "sha256LF": "cc9ae0f9ac9631f47052a804f90c32665479c39fcc040ae7be0b509a867e06fd"
+    },
+    {
+      "path": "dist/reina123.js",
+      "sha256LF": "ed73b69f39ac579c4a07dd721ea7abf68d89a43284cfcc0097da177f17c53276"
+    },
+    {
+      "path": "dist/grapple-recovery119.js",
+      "sha256LF": "1b747454858e5c73ff72f6060bdde19fb532a0bf6e17fc7fc39a041de85210b2"
+    },
+    {
+      "path": "dist/dragon121.js",
+      "sha256LF": "13742b6f3278a4ce3063e5249395a4cf7e4d973ed569ee3c00f1a67d17d3b5fd"
+    },
+    {
+      "path": "dist/weapon-counters122.js",
+      "sha256LF": "23c15a1acab4c31965ee3ebbc90d638ff881487a00c45215ec39d789a32014c6"
+    },
+    {
+      "path": "dist/grip124.js",
+      "sha256LF": "d4a8ac6dadcb2df92259ddc3714a8afedd49e932358d513502383666e84f8b46"
+    },
+    {
+      "path": "dist/forest125.js",
+      "sha256LF": "91bd14338140b147f3708118cfba485b83c0732d925238536a5ef5cb6953d383"
+    },
+    {
+      "path": "dist/uptown113.js",
+      "sha256LF": "59c793a621a63811b8047dd0286384e4975cb0b6ca35766b45ae580f03e45c62"
+    },
+    {
+      "path": "dist/traffic333-data.js",
+      "sha256LF": "ed4c749b201950d70c11138b855061c6b817beb2e56bcf7cc025c873aff6ee01"
+    },
+    {
+      "path": "dist/companion126.js",
+      "sha256LF": "398935e31536d038a9f103b0d39a7cdee4b5fd3d3a4e789ee0b53059aab59089"
+    },
+    {
+      "path": "dist/forest-counters127.js",
+      "sha256LF": "1fea4a4ef497b6ae0a6db600ea8749b3cc301490b992a343e2d1d94f608b8c90"
+    },
+    {
+      "path": "dist/locomotion127.js",
+      "sha256LF": "48901c6d8b125edc62981871c34603938e197f1e36dd3bd82e8c186af8ff8f18"
+    },
+    {
+      "path": "dist/nova128.js",
+      "sha256LF": "5f58828c1f12638efec5b9eff2902d1ed7b0bde4936bac91a61cb955147bb63a"
+    },
+    {
+      "path": "dist/combo-confirm129.js",
+      "sha256LF": "ee8d4f0675bd82a67527bb59ff6038ef9ec98838f239c857b7251ec5e0112966"
+    },
+    {
+      "path": "dist/tornado130.js",
+      "sha256LF": "76290de28dec7fadd931937c25145a9310118b58eeef29fdea65dbba912480f3"
+    },
+    {
+      "path": "dist/charge130.js",
+      "sha256LF": "a765e3a1ace7fe8c7fbab6e2f15d0cfc4fef754a29c0595b3ed78df0ed849c26"
+    },
+    {
+      "path": "dist/bruno130.js",
+      "sha256LF": "8fc7373a0a5f917887e212ba68e6ae0ff231923abba385fdd551450fe6fa13fa"
+    },
+    {
+      "path": "dist/nova-shock130.js",
+      "sha256LF": "f0ca3b2e95106b30895aa9197de24ae643eefa280fd87d0a78a814c9434022a1"
+    },
+    {
+      "path": "dist/combat134.js",
+      "sha256LF": "cc3bae5e718aa09389fea2e5da4a15a6af16b6617ad345302b1acaa6a0f151f6"
+    },
+    {
+      "path": "dist/audit135.js",
+      "sha256LF": "b986b918d4ea5d7c0ee8df15f75617fe4d06ead6f3b59eccb6713404bbc775de"
+    },
+    {
+      "path": "dist/powerbomb136.js",
+      "sha256LF": "374810ec5d9f9cdc7e49c8e01c8020ec23df9c45072e3a7d1991264d9b4d80d6"
+    },
+    {
+      "path": "dist/spear137.js",
+      "sha256LF": "ab591cef2368fb8777c55ab5b62cfbab952ac68afc970fce76340d70c3e64d57"
+    },
+    {
+      "path": "dist/broxton-audit142.js",
+      "sha256LF": "63d7bf72d3c337fbfa19c8b6648cde61754e76a222e168976d95ed4f4a4fb691"
+    },
+    {
+      "path": "dist/stabilize143.js",
+      "sha256LF": "41c1c59087d399fa75e865fd65b5aad9f75ed832bf2aa0886d1c41c1c7d08287"
+    },
+    {
+      "path": "dist/reina-grip155.js",
+      "sha256LF": "bfd2d67f7fd6881f89e3394664d36bf537aeb9a6491e2daaf42166c7ad2f7927"
+    },
+    {
+      "path": "dist/forest-grip146.js",
+      "sha256LF": "2758afb7f7838806efdf37ccdbfdb45cbea9b39b41de831671b765985aa2cb03"
+    },
+    {
+      "path": "dist/reina-repair147.js",
+      "sha256LF": "d7e61ad9bcc7a8b6e356a07dfc85c5ef54335ba3244cf72d82a52eb1fac2e493"
+    },
+    {
+      "path": "dist/director148.js",
+      "sha256LF": "e3e89d8fd8ae6021f591cbc6596b4da6c4c08e9cc54f3c1d578ce84e6b8edff2"
+    },
+    {
+      "path": "dist/woods-traversal148.js",
+      "sha256LF": "de918fee54afde3742ede67588377904b7083d570fa3810e3cb6e42c4aef92a4"
+    },
+    {
+      "path": "dist/lab149.js",
+      "sha256LF": "76567e78bb5e10d8a82e68af0a071c9969615c2ca0201a30c47921dfd0489a82"
+    },
+    {
+      "path": "dist/riverfront151.js",
+      "sha256LF": "10780ae02cc0613b719f94c3c807751f73eee0e081072f071162db6b3ac364ee"
+    },
+    {
+      "path": "dist/sterling152.js",
+      "sha256LF": "158de6691151805c23176afe1f13e964e1e937f1d8e404f463754088ef9f8290"
+    },
+    {
+      "path": "dist/dorian153.js",
+      "sha256LF": "8dbacbf8617f0d89e1ce4e13de609efea0a3e0463413042bef838ae292b42055"
+    },
+    {
+      "path": "dist/lab-workers166.js",
+      "sha256LF": "8cc620834f62b03c6f41d7edb6021cec586b8e45b547c7f15df29975e7aa65f5"
+    },
+    {
+      "path": "dist/quality167.js",
+      "sha256LF": "879434a744eda87793d9637ef6343152c89c558af20e992e45b7997d83553a8e"
+    },
+    {
+      "path": "dist/combat-quality169.js",
+      "sha256LF": "4411848e430a6bbae597b129fbccaead8a159a400aac43cd3ae1db554fc959b0"
+    },
+    {
+      "path": "dist/gunner-tactics173.js",
+      "sha256LF": "8e21b4d91e7cd24ffb8032bca10769d33db295a4eb2623edc5599e6e8a0eef06"
+    },
+    {
+      "path": "dist/maul175.js",
+      "sha256LF": "afbd80eb8c3ba1afe0a6218dc1d3b23654146657178bca85e9e1ef538dfee2b0"
+    },
+    {
+      "path": "dist/forest-grapples177.js",
+      "sha256LF": "48da4fbcceba87d46a82fe3e4461102ae3842bca6acc3580e6af82b811c39e70"
+    },
+    {
+      "path": "dist/forest-ai177.js",
+      "sha256LF": "7222740ba84f0d27eff2901126b7a0e71cdb457e1934928a26e997413b30ea07"
+    },
+    {
+      "path": "dist/broxton-lariat244-data.js",
+      "sha256LF": "d3abec74e912206dc96a10c935c261e32043c8fda5a8dc58624ef3ddf2c8bb16"
+    },
+    {
+      "path": "dist/broxton-throw245-data.js",
+      "sha256LF": "462a332802280e01727b348ae450c1c191f74a5742485af2e9b8f7d31b343fb3"
+    },
+    {
+      "path": "dist/broxton179.js",
+      "sha256LF": "170b9835eb0d1c230e0089bb57ad7e71624c4a5df725879cfc775981895a8220"
+    },
+    {
+      "path": "dist/shield181.js",
+      "sha256LF": "4d6bdca96ca9ff1e1c07e7c5e791ae731e61d94e5cbb1c662203e05e9d7261ae"
+    },
+    {
+      "path": "dist/street155.js",
+      "sha256LF": "aa9018308230966c0fc750eee00bb88f0fad52a4b248264a0ac3ad94d1f8749d"
+    },
+    {
+      "path": "dist/environment156.js",
+      "sha256LF": "21b0d6667a75b318114fda58183f284f4f7e6f67f84edaa37463fd4703271523"
+    },
+    {
+      "path": "dist/environment-game156.js",
+      "sha256LF": "1e3cc5f33875309a7ba33a177adf7ee1c853e237b4e1210791720ccf130195d6"
+    },
+    {
+      "path": "dist/environment-controller162.js",
+      "sha256LF": "82a955dc9b65afbb7de40450d1901074f1ec2e52f304b5b0e978c9e5145a8900"
+    },
+    {
+      "path": "dist/government182.js",
+      "sha256LF": "969141b81b5cdcbb477dd141367b308a9761704b8b89cf12401ea97805b92533"
+    },
+    {
+      "path": "dist/destination183.js",
+      "sha256LF": "5574b41a843ee4b9355ca7066b8a7ad4068bea2ed7d7ee044169c6eb1b29819e"
+    },
+    {
+      "path": "dist/niko185.js",
+      "sha256LF": "7d41e550d6431ce9669f001701a3dd40342102cc4034f29b2f25818d93ae8b00"
+    },
+    {
+      "path": "dist/niko-counters186.js",
+      "sha256LF": "4fbc7aa9549c57b9de7312fac821888fed1be72b77c0a8cd6d3e4a3605c24ec1"
+    },
+    {
+      "path": "dist/rising-blade187.js",
+      "sha256LF": "77e510f2300160afd3a4111881cc180fa725a5185a5c4395335b734503563cd7"
+    },
+    {
+      "path": "dist/broxton-repair189.js",
+      "sha256LF": "38a9e7212ce3ac556be33fa57b6811264dd612febba8fd0d42ef25ad6be126fd"
+    },
+    {
+      "path": "dist/government-polish190.js",
+      "sha256LF": "4651ab2cd69b0ab8317a3704b0afa754a68745b4b49dbb272c6af8f9aac63f4b"
+    },
+    {
+      "path": "dist/casino192.js",
+      "sha256LF": "3a5f14a4d7625e9df073c0df2bb9951917554c2eac3b036b0742c86f06863aff"
+    },
+    {
+      "path": "dist/pool-boss193.js",
+      "sha256LF": "d4100a027c34fe71bbb0979a633c4dc6ceaa2b54ba2d3ff6461cb67143eba6cc"
+    },
+    {
+      "path": "dist/yacht195.js",
+      "sha256LF": "6476fe06c5a303a1727a9d948665fefdb15383e44261ecd1522890b5b861619f"
+    },
+    {
+      "path": "dist/estates196.js",
+      "sha256LF": "5f8c104dd42dd6aeb3a79e57a267e0deb7e0073a0c7792e3ee8a5620e85d39bb"
+    },
+    {
+      "path": "dist/route74197.js",
+      "sha256LF": "1b5067e00db2800010dad65564b346e0f9ba01bd35cd48ac279ec529cd42b2f4"
+    },
+    {
+      "path": "dist/orion205.js",
+      "sha256LF": "ca6b7a71751293fc7ab9ff6c6437417d3a3dd44c774bdeafa664e9c2fc8aad05"
+    },
+    {
+      "path": "dist/orion-combat205.js",
+      "sha256LF": "890d93f23f1ab5caa6ea16723ea68f0016e59076359a59b511526ae15869199c"
+    },
+    {
+      "path": "dist/orion-special205.js",
+      "sha256LF": "07748c5db231290e9ddc2198f6af5155aa8ce27d04fc7e40bb981ec82ae10c99"
+    },
+    {
+      "path": "dist/grab198.js",
+      "sha256LF": "53e04ae48f5bcec57fa54752637f6af8c9e0e6d2e8b0d0c9b43b104c2bf4dffe"
+    },
+    {
+      "path": "dist/combat200.js",
+      "sha256LF": "bf7c7ccf54c924cbbd113d196ed5c2d05eb88725073ec578cced9e1cd92af388"
+    },
+    {
+      "path": "dist/rooftop201.js",
+      "sha256LF": "a3a5ac06583e96ed2fec873c2552952249e8402a7061b203b46b031a17489a1b"
+    },
+    {
+      "path": "dist/slums202.js",
+      "sha256LF": "fb02bc04421d4802c7f5748727e37c515663f4acd0bd820d0faba57550a6a582"
+    },
+    {
+      "path": "dist/slums203.js",
+      "sha256LF": "47170ae2a85ca88351a1895b8ee82fa543bdd2181b80c30b9156eab546b1b6f7"
+    },
+    {
+      "path": "dist/slums204.js",
+      "sha256LF": "2e38784380b382e64b745fffa66f95d092cd7d81c71b3cbac9a6248814645a2d"
+    },
+    {
+      "path": "dist/orion-integration205.js",
+      "sha256LF": "f09de24b6db5cb94448e40b061936092c027c52452d0308b97894b8c51e851c6"
+    },
+    {
+      "path": "dist/taser206.js",
+      "sha256LF": "3f9d040fa4a780489602809701b35867509c449db8270ae29a6915133053b9bc"
+    },
+    {
+      "path": "dist/video207.js",
+      "sha256LF": "dcfef11e223661bdb760389cd85a313227bab7329dbb3cf9b11ae3cbdc89c0ea"
+    },
+    {
+      "path": "dist/flint208.js",
+      "sha256LF": "452d44b4a0318c8589d98957f75a38bdbb560d0d7238083a87db6963e6a0ccce"
+    },
+    {
+      "path": "dist/repair262-data.js",
+      "sha256LF": "d4dd3df42bf161d59bbe4c1d6c14f0fc93ed2a242a86a39dcade6ec25e8ce6fb"
+    },
+    {
+      "path": "dist/street209.js",
+      "sha256LF": "01b93438b1fc8c18fbfba7e7924032a114daa7dfa8b3cee70d76c887812b1d8c"
+    },
+    {
+      "path": "dist/enemies210.js",
+      "sha256LF": "48fc440ce49004cb21007c840fcf8e52f8af4aaac49df99e8f7c72eb3d4efbfc"
+    },
+    {
+      "path": "dist/flint211.js",
+      "sha256LF": "9d265430c01d97603d9c926554b6d0da58237e728c18b23cba432af86db2fc29"
+    },
+    {
+      "path": "dist/martial212.js",
+      "sha256LF": "a56cf488ff11a4e61c288a024499aa5f706c53d21a0696626ca55a24b50bafd9"
+    },
+    {
+      "path": "dist/jesse213.js",
+      "sha256LF": "0d588b8ad37eaef4d558f8a9cad9b1a11305d09c1b3d3ea0b08b8d3ff8ac4847"
+    },
+    {
+      "path": "dist/chemical214.js",
+      "sha256LF": "982940c12a82f565e1d15805634e09d6834e0d55ee1ac07c6e7d4e2b80f8f747"
+    },
+    {
+      "path": "dist/security216.js",
+      "sha256LF": "b2526d137168b51a0e25491a9314aa865fdbde3249272d433f8ac32d970fd57e"
+    },
+    {
+      "path": "dist/gus219.js",
+      "sha256LF": "00e95376e75527e779167d87fbd46318891de47281173ab5be481fb06a117ee1"
+    },
+    {
+      "path": "dist/aidan221.js",
+      "sha256LF": "57d1fa660db3e92efcf13afab49bcd2e193490783161ec4c42322167c8d79d62"
+    },
+    {
+      "path": "dist/encounter222.js",
+      "sha256LF": "5f9a938ec9399fe61f4177655eaa75da62ce51658fd693a592b8c5426e33e3fb"
+    },
+    {
+      "path": "dist/encounter-config222.js",
+      "sha256LF": "487a1e33a81dad2e5c90cbf11916d80fe3c7845fae7fbbee54036c1c251e619b"
+    },
+    {
+      "path": "dist/grab223.js",
+      "sha256LF": "e8aff3f6ce77bc853e1247bd64369417588d81ddd13e7b4612245a5b32229f24"
+    },
+    {
+      "path": "dist/prison224.js",
+      "sha256LF": "e718b665e1d6be7c56baa8c82340db68149c433212806c2340883f9c35ece031"
+    },
+    {
+      "path": "dist/docks231.js",
+      "sha256LF": "7b418b7c1cc1f22b4dde6fd35ae49a34b2c946f2636acd8ab4c0763122030076"
+    },
+    {
+      "path": "dist/enemy-identity233.js",
+      "sha256LF": "4108dafd3bd8ac5a560a130ad661c07a6d3b690945873f4c54a3763625b1684b"
+    },
+    {
+      "path": "dist/workers233.js",
+      "sha256LF": "27a0f1b2c550a14005974a088c0e2be3271080c1834157e32b1387d912ba584a"
+    },
+    {
+      "path": "dist/heavy-workers233.js",
+      "sha256LF": "e44d2a2e1b8696bef754cd954a5b52be71c5d01d715b3e28a55dd906b428eb0c"
+    },
+    {
+      "path": "dist/worker-encounters233.js",
+      "sha256LF": "50a74edf2f3257007a133c793efb1fd2cd4a2b69ccdb57e7b9f0ae1f6a74657e"
+    },
+    {
+      "path": "dist/highway234.js",
+      "sha256LF": "cdba2b282f4df7690c511a4716a91bc4c4278bb823fd3f55f0147659c05ef2e5"
+    },
+    {
+      "path": "dist/chinatown235.js",
+      "sha256LF": "3f31f2ce69edc2ee1f629e791638c8d9076391ad716ef04e67b59a0e1e8f45df"
+    },
+    {
+      "path": "dist/mall236.js",
+      "sha256LF": "b4b5328c96a7b1cce26945aef342e5e4dcce7ae8720a9fc22d4e3cc7854078fb"
+    },
+    {
+      "path": "dist/baylor237.js",
+      "sha256LF": "4a3c12dc2b76ea7146b46eaffd3a84d21962934d21b3a249cc855b68746445ec"
+    },
+    {
+      "path": "dist/stadium237.js",
+      "sha256LF": "d554c6dca0eddddb93a6c6e644dbc641330ae10806a5a84841285c39f09a7888"
+    },
+    {
+      "path": "dist/subway238.js",
+      "sha256LF": "6dd46af93e1827d7f8add96fef4a60bae493e0910d3262837c4f9e31a000e073"
+    },
+    {
+      "path": "dist/hydro243.js",
+      "sha256LF": "84598b8c4300289dcdd0cb5d5748ff7ffa3cae47438574228bfb8d0e8d5ba3b5"
+    },
+    {
+      "path": "dist/input226.js",
+      "sha256LF": "5e12ad7ab4510e708e14b2770b76ec5637117a55565d07a3e268d6c0aa555192"
+    },
+    {
+      "path": "dist/forest-qa239.js",
+      "sha256LF": "194eed5a9cade3bfbc5a1e440161f285982e1a386b5bdc8d8ebf054c0797e27a"
+    },
+    {
+      "path": "dist/weapon-motion249.js",
+      "sha256LF": "1484ff660334a6f9e5123ea7e853cdd9d40c15b49e1fa430d70e6cb79f663d64"
+    },
+    {
+      "path": "dist/weapons248.js",
+      "sha256LF": "0b7c8e054082f7685ab6495fe193d518a32e91e3ff6beda96cd9ffa01119f8c8"
+    },
+    {
+      "path": "dist/counters248.js",
+      "sha256LF": "75fb33a1674c6520edccb33c0188a81ef354bc4f830f274e8ce4045214d2d5f3"
+    },
+    {
+      "path": "dist/nightshade251.js",
+      "sha256LF": "aecc6c50bc5cebe74998d1fe00ee9fca6cfbd3b910cfa7f388e423af10928e5d"
+    },
+    {
+      "path": "dist/nightshade-gun-art255.js",
+      "sha256LF": "66b05b8a881f94e04b9f2bccf12656b65ed61427e3f9a51f10f12cf5506552a5"
+    },
+    {
+      "path": "dist/nightshade-gun255.js",
+      "sha256LF": "d638820b36daa249882df586927525a346b16dd80ea1aedfe52874ec8f866425"
+    },
+    {
+      "path": "dist/nightshade-ammo256.js",
+      "sha256LF": "30f7c484723ff60cb7547da5670d75b911fae53279546d371b9d6be7808d8bcb"
+    },
+    {
+      "path": "dist/nightshade-ammo-profiles256.js",
+      "sha256LF": "244d92bbcea4cc2a18612b320ad100a76140d00560538c8b526c53d596fe8f4c"
+    },
+    {
+      "path": "dist/nightshade-melee-art257.js",
+      "sha256LF": "35e351c75f3c4b3c220b7aa073012a407957ace5227daad5ba0b9a14e1e8a58a"
+    },
+    {
+      "path": "dist/nightshade-melee257.js",
+      "sha256LF": "f1a71f564a5b50a1a5870f80474be5a76c9584a7ff4603836dc67ec1774dc81c"
+    },
+    {
+      "path": "dist/nightshade-grab-art258.js",
+      "sha256LF": "d1c7e319f62807f31c6c3b613f7bdafad440fc7804ffdf3a2638d953c94833f4"
+    },
+    {
+      "path": "dist/nightshade-grabs258.js",
+      "sha256LF": "fa3d30ef1e2f2bb369bd42a58fff9e93259037b1dbd48b37076282feefb6800c"
+    },
+    {
+      "path": "dist/nightshade-special-art263.js",
+      "sha256LF": "7b31bf84ba902748d9cf94d5e1a039867ea22e4670d570baaa1762a7986dbb3b"
+    },
+    {
+      "path": "dist/nightshade-blitz276-data.js",
+      "sha256LF": "cc023fa14c6963b503d354e627f0d75668674ce8203e0a728f095c6422912a6b"
+    },
+    {
+      "path": "dist/repair277-data.js",
+      "sha256LF": "7a4df693deecffaf028175685e531e3a1dc60bfbd490ab1acaa5409d5d42f7e0"
+    },
+    {
+      "path": "dist/nightshade-special263.js",
+      "sha256LF": "b652e4bbe424c359028ea219e8f2d54e2f4acc17a8de7baffbf920606d89a65f"
+    },
+    {
+      "path": "dist/nightshade-counter-art264.js",
+      "sha256LF": "495b7760938c6facfb06a2e7a7ae0ca380d0c7c5a2e6ada5dd8960a73892b4b3"
+    },
+    {
+      "path": "dist/nightshade-counter264.js",
+      "sha256LF": "d38f37075935d9199b47dd24698b4717659258edd279a56bf000a41c78933d19"
+    },
+    {
+      "path": "dist/nightshade267.js",
+      "sha256LF": "a9649d11af3133df6dff167d26ce8c46ced6433acdcbf741aa852de9c8f80e60"
+    },
+    {
+      "path": "dist/nightshade-weapon276-data.js",
+      "sha256LF": "35c642aae9cc4e380047df50b4c99e0c88109c468298db6d51766c58604f3964"
+    },
+    {
+      "path": "dist/nightshade276.js",
+      "sha256LF": "d85f71abfe18ea49ab2eb39ecd55978cc98a6286a68cd10c680e8572f5985bd6"
+    },
+    {
+      "path": "dist/combat269.js",
+      "sha256LF": "0648ebfda44666294f25891e79c6e28d2aff01466f5aa3b7f300c45e1fde9ad2"
+    },
+    {
+      "path": "dist/reina-hook272.js",
+      "sha256LF": "2e4011be70632c95938d89db343baf7f6fa1740458355021ec85580ec40177df"
+    },
+    {
+      "path": "dist/combat274.js",
+      "sha256LF": "44b34a85296a4f542b2a94adc50cf62ca4aac02e5629b492f102f3b73dd56af5"
+    },
+    {
+      "path": "dist/reaction-settings274.js",
+      "sha256LF": "bdbc2a2c50a4dfdb2077dca025a324e057ea678a4416fd24c5dec0cb9f4922d5"
+    },
+    {
+      "path": "dist/hook-ground275.js",
+      "sha256LF": "ede928b64aeb4451ad3fda69669701c8a64d8492bf3483bbac793c0d7c2832b2"
+    },
+    {
+      "path": "dist/stats266.js",
+      "sha256LF": "2dca50eacac00467bcb4165a069303c6ccbf61b5b138956a961738114d1b6ac2"
+    },
+    {
+      "path": "dist/playback265.js",
+      "sha256LF": "afdad51423deb1e6cec47328a99ece4368742142b4831e40890f15f3d4589790"
+    },
+    {
+      "path": "dist/reina279.js",
+      "sha256LF": "1a1f8f7775405c9e54de75cef44e03bc54b2da45f3037a10a13e4a3b81249f12"
+    },
+    {
+      "path": "dist/reina280.js",
+      "sha256LF": "a7b6a311b04aedea12a09b3c5b446702877e0e21823e0faf5775fe7bd4c2d4c8"
+    },
+    {
+      "path": "dist/practice278.js",
+      "sha256LF": "14be1a998e12ce6df5415e62bd025eb014aaa4d803a6adf9b5bd60fb88bf463d"
+    },
+    {
+      "path": "dist/enemy-motion281.js",
+      "sha256LF": "1ad850bfa15baab8b98d459b9fccbcc95c1811e11f7941c5a516ff6f4949b3e7"
+    },
+    {
+      "path": "dist/reina282.js",
+      "sha256LF": "3c6de6feeed61a6eabbc8125549851867836553ae38554383528a398c05007e3"
+    },
+    {
+      "path": "dist/practice282.js",
+      "sha256LF": "8bb25ab42e5e4bc4014f153c1241fb48621984c9a1ac117695ac750bc4400fad"
+    },
+    {
+      "path": "dist/niko283-data.js",
+      "sha256LF": "8ef4095d37fd1fcdb1579d2dc105bda5532fc647e9272f298bb1e80763088e7b"
+    },
+    {
+      "path": "dist/niko283.js",
+      "sha256LF": "33fc21cb028d9909909968c589f1d04bbba94210d722c538d6b7872e040109e1"
+    },
+    {
+      "path": "dist/niko284.js",
+      "sha256LF": "9adbbdd51cfd83ff85346878d15134822d2be2eac599dc7820d6a29d244e5da0"
+    },
+    {
+      "path": "dist/reverse-ddt285.js",
+      "sha256LF": "640fdc4b305f8bf1a4d5a816010bc660e2dc93fe361b2f1dfc4d01661d3c5fa2"
+    },
+    {
+      "path": "dist/legthrow-art286.js",
+      "sha256LF": "dea2a941bffdfd1a1426f99669fae6860998202be31e2ce818472ce58e3aa8a9"
+    },
+    {
+      "path": "dist/legthrow286.js",
+      "sha256LF": "579d2d265b6e095e50c95753ea995aae77c73cfa0ca2c30df21ab9f0870e1ccb"
+    },
+    {
+      "path": "dist/recording287-art.js",
+      "sha256LF": "1987151ed4eeca44bbe84fa696faf932e3870b532dd3af91b370357d87c34287"
+    },
+    {
+      "path": "dist/recording287.js",
+      "sha256LF": "0a7ef8fa603a46900aff1d4fb516d4f7cbc63a9f4845e5e1001fded706436160"
+    },
+    {
+      "path": "dist/ai-observer288.js",
+      "sha256LF": "816a537bc48abe92bc811612d0e312c2727e5b8956cf6178d2220105ce9dce0c"
+    },
+    {
+      "path": "dist/continuity296.js",
+      "sha256LF": "af6e49ff5c3671706845a78031861792ffdca53a1fe63a6a60562ea69956fd09"
+    },
+    {
+      "path": "dist/attack297.js",
+      "sha256LF": "26d6de4120e378b2739bc0861ba0d8378e45b8d649602cb453a7a856a90477d3"
+    },
+    {
+      "path": "dist/reactions298.js",
+      "sha256LF": "207aaf362a83ab0dcb99ad844510b4cba6fc84de5a921fa5859aca7c2fcc0794"
+    },
+    {
+      "path": "dist/knockdowns299.js",
+      "sha256LF": "dc328648591d0e937f1dec3b6ee8c58695f2d49ed8b18c5952fcf2a36e7f8184"
+    },
+    {
+      "path": "dist/grapples301.js",
+      "sha256LF": "912f4fbadd691561cd4790b30ea713a44bc62815f83a109a7600f37bdcd47734"
+    },
+    {
+      "path": "dist/contact302.js",
+      "sha256LF": "9d6e4eac1be94dd6acac83773276d96bba6c5a9334ff0d89b657e80f406cee60"
+    },
+    {
+      "path": "dist/crowd303.js",
+      "sha256LF": "78122b55c5406ac12cc238ebb0aa3b4bd8417089cd3e65ca4fe391e67acddba0"
+    },
+    {
+      "path": "dist/plane304.js",
+      "sha256LF": "5a8999a6661a8d9aef162da678c2107477bc7e0adf46a511dd5e734f50713eb4"
+    },
+    {
+      "path": "dist/civilians305.js",
+      "sha256LF": "3d1eac0fc0cf817f5f113e8a18ddba24aad527bdc4c0fa0a4b52bec0532892d9"
+    },
+    {
+      "path": "dist/recording306.js",
+      "sha256LF": "242f736c5f01691be46c09c6bae032ad1aeb8ae98895e6ac06c6b3dfd2365ddc"
+    },
+    {
+      "path": "dist/recording313.js",
+      "sha256LF": "3a9864e12ae85a081ea31989d22172388a9b1a077002a0f2507edd37887db857"
+    },
+    {
+      "path": "dist/diagnostics307.js",
+      "sha256LF": "01051ddaf29af42960ce8c38b891ac009a25e4871da38eddafa608876451c069"
+    },
+    {
+      "path": "dist/experiments307.js",
+      "sha256LF": "468ffb28363039b109d0cab7a43949c27c50476bd31ea32999f3775530b45e4b"
+    },
+    {
+      "path": "dist/airport309.js",
+      "sha256LF": "8bc774db8f91b265db9536b3f55d6785d90ff37249f87eaf5a104b1a495522eb"
+    },
+    {
+      "path": "dist/unique311.js",
+      "sha256LF": "096826adba982ffadb5ab563dc6235dbf8f05172e398b06df198a471b11b3645"
+    },
+    {
+      "path": "dist/recording312-enemies.js",
+      "sha256LF": "9ea2dba7ba63383c94f115ef8dcd007d8980d2f476a54fe1eb7f4035ded09b30"
+    },
+    {
+      "path": "dist/stadium313.js",
+      "sha256LF": "b953b0e5706f32ce662bbe540988d6fc1938341280cc5fc74c54deef1ce96a1b"
+    },
+    {
+      "path": "dist/recording313-enemies.js",
+      "sha256LF": "505f4aae4d3caa2c5313eafa656bdb259dcc1d64f4d86935ae24752e405eefcd"
+    },
+    {
+      "path": "dist/hospital314.js",
+      "sha256LF": "27b37beea7aab4703ee34f26007a237c0e857383b5c2fa19972fa2e7a31df938"
+    },
+    {
+      "path": "dist/hospital-mission315.js",
+      "sha256LF": "a359893529f1a7bb816ffd68959eb041771ba07c87dca17e275c737bdd0de953"
+    },
+    {
+      "path": "dist/pcbi316-data.js",
+      "sha256LF": "cda31c07f774656d035404476747f28c18af3743797e61ca93eccbe15bbbd637"
+    },
+    {
+      "path": "dist/pcbi316.js",
+      "sha256LF": "8146bab1a4bff6b22d78fab5f9d1f7740f0a3e3b1dbd9abc658fa793e9c56a97"
+    },
+    {
+      "path": "dist/pcbi-combat316.js",
+      "sha256LF": "ab3f2b6deac9ad466b8774550933c9d171752db1ad5ffe55eb254caf5d6787a9"
+    },
+    {
+      "path": "dist/feds316.js",
+      "sha256LF": "3c23d99e103fbac9a66b98cf7151fcc7f1d27008a3ba1b604cc2a0a70276144a"
+    },
+    {
+      "path": "dist/industrial317.js",
+      "sha256LF": "592eb0ac96bb68146bee7f81ce10f45a92186ed76d11a5e1e49f6c931e979c83"
+    },
+    {
+      "path": "dist/energy316.js",
+      "sha256LF": "bd81cd1e5ba572aa5d3138590aeb24a0119a0be691e049c7a858f1bfaec2b0ec"
+    },
+    {
+      "path": "dist/energy-settings316.js",
+      "sha256LF": "07cff65cdcba6fed7714a7402cb2586dd3fad11b3bc25edac526cd0fe4ebd5f2"
+    },
+    {
+      "path": "dist/items319.js",
+      "sha256LF": "4540f77c42328b4ed148a9d17b580ad295f4ab861a90cb327ec2b725419f4958"
+    },
+    {
+      "path": "dist/astro326.js",
+      "sha256LF": "5e32555d61b06b30f22df5448346a1972d8bad25449377d2c34f9da1318afd7c"
+    },
+    {
+      "path": "dist/home327.js",
+      "sha256LF": "c1993bc326add6a5625b19f1d8dc09eab4db6c0555f5dbbf6c75dcf79cd4985c"
+    },
+    {
+      "path": "dist/city334.js",
+      "sha256LF": "2c6c1a36ca127d17948cc9c2893d8fcd31f9a22140b32c6f4da3151c0b24f8a4"
+    },
+    {
+      "path": "dist/cache-rooms336.js",
+      "sha256LF": "527fe3c69ebf6150a3c3190c877f33c9cae5ac9088a98999152d3b22ef4ba4c6"
+    },
+    {
+      "path": "dist/messages335.js",
+      "sha256LF": "7f27bf79b77f581d8e45b3ea4b54c3be172d9f46b929e9ea48f11d5705d337c0"
+    },
+    {
+      "path": "dist/notifications336.js",
+      "sha256LF": "180339f4393ee591605b80cf71bed3fa7923e5f73595adaa560d8cb8c9f84173"
+    },
+    {
+      "path": "dist/nova333.js",
+      "sha256LF": "d60fdaac4c82a747206c113c2de1c47231d949a11d117c67f06511b58ee2c56a"
+    },
+    {
+      "path": "dist/repairs330.js",
+      "sha256LF": "049b24b31216088540b7c2e42479d2de42381ca3afd9928212f1c373a2a092ca"
+    },
+    {
+      "path": "dist/repairs337.js",
+      "sha256LF": "175c1f4fec95a765ddb11d515ed5b93a5f51e1347f40c9dec47bca307da0bac0"
+    },
+    {
+      "path": "dist/home338.js",
+      "sha256LF": "1e26c201da7cb8cc5107702aeb017e5a8d8f510584be459bbacc686e1755a662"
+    },
+    {
+      "path": "dist/home-interactions339.js",
+      "sha256LF": "cc5019e223a2d2a4bb7359b026c3d644cdd88214d9751e4a7b9d1cb5db118e34"
+    },
+    {
+      "path": "dist/player-resources340.js",
+      "sha256LF": "5f6c7cd32e7cfc707cd8eccb8e4dd7154522f5be836bc88118b34887a8dc692e"
+    },
+    {
+      "path": "dist/backup365.js",
+      "sha256LF": "494661054f87e22fc233fcb17d88fac189ffa79758b06c0fbcf4df26fadc3779"
+    },
+    {
+      "path": "dist/support370.js",
+      "sha256LF": "dd494c8bab99893f41ba3b5495dd9a3f19e70192ba89e7f614c09ec5d3076ec9"
+    },
+    {
+      "path": "dist/backup371.js",
+      "sha256LF": "4ce31a4819d376341865d2ec065e0bac161bb10ac5b65746322648622c29675b"
+    },
+    {
+      "path": "dist/backup377.js",
+      "sha256LF": "507fef6b9b867db95cb608219d678bc5000197b13cc2b9315b6908987f5b1e3c"
+    },
+    {
+      "path": "dist/reina-stance378.js",
+      "sha256LF": "36b1f09c763304a1f6542b213a76bc5e2c751bb59881d1d8d64cf7372ac00288"
+    },
+    {
+      "path": "dist/reina381.js",
+      "sha256LF": "afa826cf6a434b58a789a47caa6fa929e6ccc776152d8b42bc43fe3b3b0d19f4"
+    },
+    {
+      "path": "dist/reina382.js",
+      "sha256LF": "ba1702fedcbda49e1d4972c97009b1f503b434a4df6f6481b58225c0c597ae5d"
+    },
+    {
+      "path": "dist/reina383.js",
+      "sha256LF": "dd26d0501ea47d44c71f9b35e5c27d1b4fc176a6c3a8ddfe47c9ef7dd0a5c656"
+    },
+    {
+      "path": "dist/environment217.js",
+      "sha256LF": "4bb84fc9159a68d5eabb9166295e052c5cc2ae016108105371d7987c0348a8dc"
+    },
+    {
+      "path": "dist/environment218.js",
+      "sha256LF": "be3ea8e626deba0db9e5d16067a72abdcd30fe050c69262baa6fce13fff30803"
+    },
+    {
+      "path": "dist/stabilization241.js",
+      "sha256LF": "7707212b23958739aecdd4127af820d411c27c8b2fc20a88fd8fd3486c78d12c"
+    }
+  ],
+  "normalization": "CRLF-to-LF only; source-code equality, not release certification"
+}

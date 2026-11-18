@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sourceCommit": "37b8b8fae2fb765e7b55561f2091df32c2cb1e82",
-  "runtimeTree": "be115c4b75b23e59d3351d7beaa7f18fe7e6bcf9",
+  "sourceCommit": "f58484261ee3f1f2d3df4d487c7eaa27696fa819",
+  "runtimeTree": "06758c4c3d874074a51b5cdeefc0ab0d4dc18f00",
   "entrypoint": "dist/index.html",
   "scope": "266 previously unmapped script modules directly loaded by the main entrypoint; not all runtime files or dynamic imports",
   "certified": false,
@@ -1016,6 +1016,10 @@
         {
           "path": "dist/video207.js",
           "sha": "6baea5aedd1ef7a2d57587152517b0019bed82c9"
+        },
+        {
+          "path": "dist/reina-costume-ui399.js",
+          "sha": "d4f2986b1659ba65a7d26aef0d658b88860a90a2"
         }
       ]
     },
@@ -1151,6 +1155,21 @@
         {
           "path": "dist/support370.js",
           "sha": "a78aac26eb49473cddf6a1885d6b6b7b000233dd"
+        }
+      ]
+    },
+    {
+      "feature": "shared-fighter-rendering",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit costume presentation and local preference responsibility. Partial regression coverage, not certification.",
+      "modules": [
+        {
+          "path": "dist/reina-costume.js",
+          "sha": "e67f43f9fc58b147d6cd65f62672a57a867e8f2b"
+        },
+        {
+          "path": "dist/reina-uniform-data.js",
+          "sha": "7c9038d1cd56d0fd5fee6b5e4edc967ee585336c"
         }
       ]
     }

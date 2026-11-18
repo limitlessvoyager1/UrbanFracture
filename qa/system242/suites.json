@@ -4938,6 +4938,69 @@
       "generatedArtifacts": [
         "reports-reina396/hair-native.json"
       ]
+    },
+    {
+      "id": "reina399-art-contract",
+      "command": [
+        "node",
+        "tools/qa242/reina399-contract.cjs"
+      ],
+      "framework": "asset-animation-certification",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 900000
+    },
+    {
+      "id": "reina399-native-source",
+      "command": [
+        "node",
+        "tests/reina399-native-preservation.cjs"
+      ],
+      "framework": "native-current-replay",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 900000
+    },
+    {
+      "id": "reina399-recording-render",
+      "command": [
+        "node",
+        "tools/qa242/reina399-render-audit.cjs"
+      ],
+      "framework": "headless-native-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 900000,
+      "generatedArtifacts": [
+        "reports-reina399/native-render.json"
+      ]
+    },
+    {
+      "id": "reina399-costume-native",
+      "command": [
+        "node",
+        "tools/reina-royal-uniform/verify.cjs",
+        "reports-reina399/costume-native.json"
+      ],
+      "framework": "headless-native-render",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 900000,
+      "generatedArtifacts": [
+        "reports-reina399/costume-native.json"
+      ]
     }
   ],
   "manualGates": [
