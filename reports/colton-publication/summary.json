@@ -1,0 +1,43 @@
+{
+  "base": "9a31acc3308d233a4fc202cde23a52598b71d086",
+  "sourceCandidate": "52a480e250317e1fd74b8b3ded9f86902724ca68",
+  "manifestRetestCandidate": "3e5c756dba8f8b37fd9e45a943fa1660a2b8bbeb",
+  "runs": [
+    {
+      "report": "reports242/runs/20261118T115234477Z-5f3b13b5/report.json",
+      "sha256": "2d482b4885cdb0e788732f4101ea1db01c51ff244658deae140cf1bcc3ef2a57",
+      "testedCommit": "52a480e250317e1fd74b8b3ded9f86902724ca68",
+      "counts": {
+        "executed": 81,
+        "passed": 76,
+        "failed": 5,
+        "blocked": 7,
+        "notExecuted": 281,
+        "needsReview": 0
+      },
+      "recommendation": "Reject",
+      "sourceChangedDuringTests": false
+    },
+    {
+      "report": "reports242/runs/20261118T120900187Z-13ed0c52/report.json",
+      "sha256": "81927bb92b5c270f8ab5f3586edb830662c3bd141f871c365c07bbacbf907a81",
+      "testedCommit": "3e5c756dba8f8b37fd9e45a943fa1660a2b8bbeb",
+      "counts": {
+        "executed": 2,
+        "passed": 1,
+        "failed": 1,
+        "blocked": 0,
+        "notExecuted": 366,
+        "needsReview": 0
+      },
+      "recommendation": "Reject",
+      "sourceChangedDuringTests": false
+    }
+  ],
+  "gitWriteAuthentication": "Blocked: Windows Credential Manager denied access; no artwork uploaded",
+  "remotePublication": false,
+  "pullRequestCreated": false,
+  "merge": false,
+  "deployment": false,
+  "certified": false
+}

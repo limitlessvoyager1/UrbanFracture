@@ -1,0 +1,724 @@
+TAP version 13
+# Subtest: Orion current four-stage combo 30Hz dir -1
+ok 1 - Orion current four-stage combo 30Hz dir -1
+  ---
+  duration_ms: 76.7865
+  type: 'test'
+  ...
+# Subtest: Orion current pair grab 30Hz dir -1
+ok 2 - Orion current pair grab 30Hz dir -1
+  ---
+  duration_ms: 25.9718
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 30Hz dir -1
+ok 3 - Orion current pair blast 30Hz dir -1
+  ---
+  duration_ms: 18.3878
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 30Hz dir -1
+ok 4 - Orion current pair robo 30Hz dir -1
+  ---
+  duration_ms: 20.8035
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 30Hz dir -1
+ok 5 - Orion current pair piston 30Hz dir -1
+  ---
+  duration_ms: 13.3356
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 30Hz dir -1
+ok 6 - Orion current pair inverted 30Hz dir -1
+  ---
+  duration_ms: 23.8623
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 30Hz dir -1
+ok 7 - Orion current pair ascension 30Hz dir -1
+  ---
+  duration_ms: 27.85
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 30Hz dir -1
+ok 8 - Orion current airborne airNeutral 30Hz dir -1
+  ---
+  duration_ms: 13.6432
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 30Hz dir -1
+ok 9 - Orion current airborne airKnee 30Hz dir -1
+  ---
+  duration_ms: 13.2829
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 30Hz dir -1
+ok 10 - Orion current airborne airDown 30Hz dir -1
+  ---
+  duration_ms: 13.2456
+  type: 'test'
+  ...
+# Subtest: Orion current special current 30Hz dir -1
+ok 11 - Orion current special current 30Hz dir -1
+  ---
+  duration_ms: 18.2431
+  type: 'test'
+  ...
+# Subtest: Orion current special laser 30Hz dir -1
+ok 12 - Orion current special laser 30Hz dir -1
+  ---
+  duration_ms: 19.2896
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 30Hz dir -1
+ok 13 - Orion current special meteor 30Hz dir -1
+  ---
+  duration_ms: 13.8164
+  type: 'test'
+  ...
+# Subtest: Orion current dodge 30Hz dir -1
+ok 14 - Orion current dodge 30Hz dir -1
+  ---
+  duration_ms: 9.6686
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 30Hz dir -1
+ok 15 - Orion current charged System Repair 30Hz dir -1
+  ---
+  duration_ms: 33.706
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 30Hz dir -1
+ok 16 - Orion current R1 counter punch 30Hz dir -1
+  ---
+  duration_ms: 17.6331
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 30Hz dir -1
+ok 17 - Orion current R1 counter kick 30Hz dir -1
+  ---
+  duration_ms: 19.7575
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 30Hz dir -1
+ok 18 - Orion current R1 counter short 30Hz dir -1
+  ---
+  duration_ms: 13.0033
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 30Hz dir -1
+ok 19 - Orion current R1 counter long 30Hz dir -1
+  ---
+  duration_ms: 11.0051
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 30Hz dir 1
+ok 20 - Orion current four-stage combo 30Hz dir 1
+  ---
+  duration_ms: 27.2357
+  type: 'test'
+  ...
+# Subtest: Orion current pair grab 30Hz dir 1
+ok 21 - Orion current pair grab 30Hz dir 1
+  ---
+  duration_ms: 19.0502
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 30Hz dir 1
+ok 22 - Orion current pair blast 30Hz dir 1
+  ---
+  duration_ms: 12.5779
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 30Hz dir 1
+ok 23 - Orion current pair robo 30Hz dir 1
+  ---
+  duration_ms: 16.8615
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 30Hz dir 1
+ok 24 - Orion current pair piston 30Hz dir 1
+  ---
+  duration_ms: 11.1212
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 30Hz dir 1
+ok 25 - Orion current pair inverted 30Hz dir 1
+  ---
+  duration_ms: 18.3875
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 30Hz dir 1
+ok 26 - Orion current pair ascension 30Hz dir 1
+  ---
+  duration_ms: 21.9799
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 30Hz dir 1
+ok 27 - Orion current airborne airNeutral 30Hz dir 1
+  ---
+  duration_ms: 10.4054
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 30Hz dir 1
+ok 28 - Orion current airborne airKnee 30Hz dir 1
+  ---
+  duration_ms: 9.1329
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 30Hz dir 1
+ok 29 - Orion current airborne airDown 30Hz dir 1
+  ---
+  duration_ms: 10.5124
+  type: 'test'
+  ...
+# Subtest: Orion current special current 30Hz dir 1
+ok 30 - Orion current special current 30Hz dir 1
+  ---
+  duration_ms: 17.2546
+  type: 'test'
+  ...
+# Subtest: Orion current special laser 30Hz dir 1
+ok 31 - Orion current special laser 30Hz dir 1
+  ---
+  duration_ms: 17.7677
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 30Hz dir 1
+ok 32 - Orion current special meteor 30Hz dir 1
+  ---
+  duration_ms: 18.9983
+  type: 'test'
+  ...
+# Subtest: Orion current dodge 30Hz dir 1
+ok 33 - Orion current dodge 30Hz dir 1
+  ---
+  duration_ms: 7.1747
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 30Hz dir 1
+ok 34 - Orion current charged System Repair 30Hz dir 1
+  ---
+  duration_ms: 32.3485
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 30Hz dir 1
+ok 35 - Orion current R1 counter punch 30Hz dir 1
+  ---
+  duration_ms: 17.6672
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 30Hz dir 1
+ok 36 - Orion current R1 counter kick 30Hz dir 1
+  ---
+  duration_ms: 18.6873
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 30Hz dir 1
+ok 37 - Orion current R1 counter short 30Hz dir 1
+  ---
+  duration_ms: 13.7733
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 30Hz dir 1
+ok 38 - Orion current R1 counter long 30Hz dir 1
+  ---
+  duration_ms: 12.1937
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 60Hz dir -1
+ok 39 - Orion current four-stage combo 60Hz dir -1
+  ---
+  duration_ms: 47.8587
+  type: 'test'
+  ...
+# Subtest: Orion current pair grab 60Hz dir -1
+ok 40 - Orion current pair grab 60Hz dir -1
+  ---
+  duration_ms: 44.412
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 60Hz dir -1
+ok 41 - Orion current pair blast 60Hz dir -1
+  ---
+  duration_ms: 28.7002
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 60Hz dir -1
+ok 42 - Orion current pair robo 60Hz dir -1
+  ---
+  duration_ms: 37.5581
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 60Hz dir -1
+ok 43 - Orion current pair piston 60Hz dir -1
+  ---
+  duration_ms: 18.8332
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 60Hz dir -1
+ok 44 - Orion current pair inverted 60Hz dir -1
+  ---
+  duration_ms: 33.9945
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 60Hz dir -1
+ok 45 - Orion current pair ascension 60Hz dir -1
+  ---
+  duration_ms: 33.8368
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 60Hz dir -1
+ok 46 - Orion current airborne airNeutral 60Hz dir -1
+  ---
+  duration_ms: 12.1342
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 60Hz dir -1
+ok 47 - Orion current airborne airKnee 60Hz dir -1
+  ---
+  duration_ms: 13.7742
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 60Hz dir -1
+ok 48 - Orion current airborne airDown 60Hz dir -1
+  ---
+  duration_ms: 19.1611
+  type: 'test'
+  ...
+# Subtest: Orion current special current 60Hz dir -1
+ok 49 - Orion current special current 60Hz dir -1
+  ---
+  duration_ms: 22.9642
+  type: 'test'
+  ...
+# Subtest: Orion current special laser 60Hz dir -1
+ok 50 - Orion current special laser 60Hz dir -1
+  ---
+  duration_ms: 28.232
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 60Hz dir -1
+ok 51 - Orion current special meteor 60Hz dir -1
+  ---
+  duration_ms: 27.5677
+  type: 'test'
+  ...
+# Subtest: Orion current dodge 60Hz dir -1
+ok 52 - Orion current dodge 60Hz dir -1
+  ---
+  duration_ms: 10.643
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 60Hz dir -1
+ok 53 - Orion current charged System Repair 60Hz dir -1
+  ---
+  duration_ms: 47.7801
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 60Hz dir -1
+ok 54 - Orion current R1 counter punch 60Hz dir -1
+  ---
+  duration_ms: 22.546
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 60Hz dir -1
+ok 55 - Orion current R1 counter kick 60Hz dir -1
+  ---
+  duration_ms: 23.1269
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 60Hz dir -1
+ok 56 - Orion current R1 counter short 60Hz dir -1
+  ---
+  duration_ms: 17.2344
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 60Hz dir -1
+ok 57 - Orion current R1 counter long 60Hz dir -1
+  ---
+  duration_ms: 14.1624
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 60Hz dir 1
+ok 58 - Orion current four-stage combo 60Hz dir 1
+  ---
+  duration_ms: 30.2853
+  type: 'test'
+  ...
+# Subtest: Orion current pair grab 60Hz dir 1
+ok 59 - Orion current pair grab 60Hz dir 1
+  ---
+  duration_ms: 22.2263
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 60Hz dir 1
+ok 60 - Orion current pair blast 60Hz dir 1
+  ---
+  duration_ms: 17.1509
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 60Hz dir 1
+ok 61 - Orion current pair robo 60Hz dir 1
+  ---
+  duration_ms: 23.1663
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 60Hz dir 1
+ok 62 - Orion current pair piston 60Hz dir 1
+  ---
+  duration_ms: 13.672
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 60Hz dir 1
+ok 63 - Orion current pair inverted 60Hz dir 1
+  ---
+  duration_ms: 27.1211
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 60Hz dir 1
+ok 64 - Orion current pair ascension 60Hz dir 1
+  ---
+  duration_ms: 29.7602
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 60Hz dir 1
+ok 65 - Orion current airborne airNeutral 60Hz dir 1
+  ---
+  duration_ms: 16.9588
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 60Hz dir 1
+ok 66 - Orion current airborne airKnee 60Hz dir 1
+  ---
+  duration_ms: 14.554
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 60Hz dir 1
+ok 67 - Orion current airborne airDown 60Hz dir 1
+  ---
+  duration_ms: 14.5203
+  type: 'test'
+  ...
+# Subtest: Orion current special current 60Hz dir 1
+ok 68 - Orion current special current 60Hz dir 1
+  ---
+  duration_ms: 21.4882
+  type: 'test'
+  ...
+# Subtest: Orion current special laser 60Hz dir 1
+ok 69 - Orion current special laser 60Hz dir 1
+  ---
+  duration_ms: 21.933
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 60Hz dir 1
+ok 70 - Orion current special meteor 60Hz dir 1
+  ---
+  duration_ms: 16.7915
+  type: 'test'
+  ...
+# Subtest: Orion current dodge 60Hz dir 1
+ok 71 - Orion current dodge 60Hz dir 1
+  ---
+  duration_ms: 7.9024
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 60Hz dir 1
+ok 72 - Orion current charged System Repair 60Hz dir 1
+  ---
+  duration_ms: 39.0669
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 60Hz dir 1
+ok 73 - Orion current R1 counter punch 60Hz dir 1
+  ---
+  duration_ms: 27.4539
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 60Hz dir 1
+ok 74 - Orion current R1 counter kick 60Hz dir 1
+  ---
+  duration_ms: 26.2571
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 60Hz dir 1
+ok 75 - Orion current R1 counter short 60Hz dir 1
+  ---
+  duration_ms: 18.2958
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 60Hz dir 1
+ok 76 - Orion current R1 counter long 60Hz dir 1
+  ---
+  duration_ms: 15.6831
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 120Hz dir -1
+ok 77 - Orion current four-stage combo 120Hz dir -1
+  ---
+  duration_ms: 62.9572
+  type: 'test'
+  ...
+# Subtest: Orion current pair grab 120Hz dir -1
+ok 78 - Orion current pair grab 120Hz dir -1
+  ---
+  duration_ms: 43.7682
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 120Hz dir -1
+ok 79 - Orion current pair blast 120Hz dir -1
+  ---
+  duration_ms: 37.1565
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 120Hz dir -1
+ok 80 - Orion current pair robo 120Hz dir -1
+  ---
+  duration_ms: 43.1718
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 120Hz dir -1
+ok 81 - Orion current pair piston 120Hz dir -1
+  ---
+  duration_ms: 26.0354
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 120Hz dir -1
+ok 82 - Orion current pair inverted 120Hz dir -1
+  ---
+  duration_ms: 54.3545
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 120Hz dir -1
+ok 83 - Orion current pair ascension 120Hz dir -1
+  ---
+  duration_ms: 66.2669
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 120Hz dir -1
+ok 84 - Orion current airborne airNeutral 120Hz dir -1
+  ---
+  duration_ms: 22.8223
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 120Hz dir -1
+ok 85 - Orion current airborne airKnee 120Hz dir -1
+  ---
+  duration_ms: 23.1626
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 120Hz dir -1
+ok 86 - Orion current airborne airDown 120Hz dir -1
+  ---
+  duration_ms: 28.8711
+  type: 'test'
+  ...
+# Subtest: Orion current special current 120Hz dir -1
+ok 87 - Orion current special current 120Hz dir -1
+  ---
+  duration_ms: 42.0795
+  type: 'test'
+  ...
+# Subtest: Orion current special laser 120Hz dir -1
+ok 88 - Orion current special laser 120Hz dir -1
+  ---
+  duration_ms: 51.7458
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 120Hz dir -1
+ok 89 - Orion current special meteor 120Hz dir -1
+  ---
+  duration_ms: 41.1907
+  type: 'test'
+  ...
+# Subtest: Orion current dodge 120Hz dir -1
+ok 90 - Orion current dodge 120Hz dir -1
+  ---
+  duration_ms: 18.4145
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 120Hz dir -1
+ok 91 - Orion current charged System Repair 120Hz dir -1
+  ---
+  duration_ms: 82.6453
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 120Hz dir -1
+ok 92 - Orion current R1 counter punch 120Hz dir -1
+  ---
+  duration_ms: 34.4387
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 120Hz dir -1
+ok 93 - Orion current R1 counter kick 120Hz dir -1
+  ---
+  duration_ms: 34.7576
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 120Hz dir -1
+ok 94 - Orion current R1 counter short 120Hz dir -1
+  ---
+  duration_ms: 29.8171
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 120Hz dir -1
+ok 95 - Orion current R1 counter long 120Hz dir -1
+  ---
+  duration_ms: 18.7604
+  type: 'test'
+  ...
+# Subtest: Orion current four-stage combo 120Hz dir 1
+ok 96 - Orion current four-stage combo 120Hz dir 1
+  ---
+  duration_ms: 44.2437
+  type: 'test'
+  ...
+# Subtest: Orion current pair grab 120Hz dir 1
+ok 97 - Orion current pair grab 120Hz dir 1
+  ---
+  duration_ms: 35.1278
+  type: 'test'
+  ...
+# Subtest: Orion current pair blast 120Hz dir 1
+ok 98 - Orion current pair blast 120Hz dir 1
+  ---
+  duration_ms: 27.3483
+  type: 'test'
+  ...
+# Subtest: Orion current pair robo 120Hz dir 1
+ok 99 - Orion current pair robo 120Hz dir 1
+  ---
+  duration_ms: 40.8781
+  type: 'test'
+  ...
+# Subtest: Orion current pair piston 120Hz dir 1
+ok 100 - Orion current pair piston 120Hz dir 1
+  ---
+  duration_ms: 23.3217
+  type: 'test'
+  ...
+# Subtest: Orion current pair inverted 120Hz dir 1
+ok 101 - Orion current pair inverted 120Hz dir 1
+  ---
+  duration_ms: 42.0328
+  type: 'test'
+  ...
+# Subtest: Orion current pair ascension 120Hz dir 1
+ok 102 - Orion current pair ascension 120Hz dir 1
+  ---
+  duration_ms: 47.9886
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airNeutral 120Hz dir 1
+ok 103 - Orion current airborne airNeutral 120Hz dir 1
+  ---
+  duration_ms: 17.9684
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airKnee 120Hz dir 1
+ok 104 - Orion current airborne airKnee 120Hz dir 1
+  ---
+  duration_ms: 20.5187
+  type: 'test'
+  ...
+# Subtest: Orion current airborne airDown 120Hz dir 1
+ok 105 - Orion current airborne airDown 120Hz dir 1
+  ---
+  duration_ms: 23.6928
+  type: 'test'
+  ...
+# Subtest: Orion current special current 120Hz dir 1
+ok 106 - Orion current special current 120Hz dir 1
+  ---
+  duration_ms: 36.2783
+  type: 'test'
+  ...
+# Subtest: Orion current special laser 120Hz dir 1
+ok 107 - Orion current special laser 120Hz dir 1
+  ---
+  duration_ms: 38.1709
+  type: 'test'
+  ...
+# Subtest: Orion current special meteor 120Hz dir 1
+ok 108 - Orion current special meteor 120Hz dir 1
+  ---
+  duration_ms: 32.5218
+  type: 'test'
+  ...
+# Subtest: Orion current dodge 120Hz dir 1
+ok 109 - Orion current dodge 120Hz dir 1
+  ---
+  duration_ms: 15.3955
+  type: 'test'
+  ...
+# Subtest: Orion current charged System Repair 120Hz dir 1
+ok 110 - Orion current charged System Repair 120Hz dir 1
+  ---
+  duration_ms: 62.189
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter punch 120Hz dir 1
+ok 111 - Orion current R1 counter punch 120Hz dir 1
+  ---
+  duration_ms: 30.9551
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter kick 120Hz dir 1
+ok 112 - Orion current R1 counter kick 120Hz dir 1
+  ---
+  duration_ms: 35.2683
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter short 120Hz dir 1
+ok 113 - Orion current R1 counter short 120Hz dir 1
+  ---
+  duration_ms: 25.7774
+  type: 'test'
+  ...
+# Subtest: Orion current R1 counter long 120Hz dir 1
+ok 114 - Orion current R1 counter long 120Hz dir 1
+  ---
+  duration_ms: 19.7514
+  type: 'test'
+  ...
+# Subtest: Orion superseded counter definition is retained without claiming current input coverage
+ok 115 - Orion superseded counter definition is retained without claiming current input coverage
+  ---
+  duration_ms: 0.1674
+  type: 'test'
+  ...
+# Subtest: Orion interruption blast
+ok 116 - Orion interruption blast
+  ---
+  duration_ms: 44.4969
+  type: 'test'
+  ...
+# Subtest: Orion interruption current
+ok 117 - Orion interruption current
+  ---
+  duration_ms: 46.4452
+  type: 'test'
+  ...
+# Subtest: Orion interruption meteor
+ok 118 - Orion interruption meteor
+  ---
+  duration_ms: 39.1353
+  type: 'test'
+  ...
+# Subtest: Orion interruption repair
+ok 119 - Orion interruption repair
+  ---
+  duration_ms: 55.5507
+  type: 'test'
+  ...
+1..119
+# tests 119
+# suites 0
+# pass 119
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3609.4522
