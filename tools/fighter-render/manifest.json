@@ -298,10 +298,10 @@
     "backup-view365.js",
     "backup-view371.js",
     "backup-view377.js",
+    "cutter-support-view.js",
     "reina-view381.js",
     "reina-view382.js",
-    "reina-view383.js",
-    "cutter-support-view.js"
+    "reina-view383.js"
   ],
   "excludedDrawModules": {
     "diagnostics-ui307.js": "Browser inspector overlay only; does not replace PolishedSprites.draw",
