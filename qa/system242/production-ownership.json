@@ -1153,6 +1153,25 @@
           "sha": "a78aac26eb49473cddf6a1885d6b6b7b000233dd"
         }
       ]
+    },
+    {
+      "feature": "syndicate-cutter",
+      "owner": "limitlessvoyager1",
+      "rationale": "Explicit reviewed candidate source assignment; partial coverage and owner review remain pending.",
+      "modules": [
+        {
+          "path": "dist/cutter-support.js",
+          "sha": "0d4e3ce05b1acebc68ae43cab6d9e008b05c7579"
+        },
+        {
+          "path": "dist/cutter-support-data.js",
+          "sha": "04988d3260a7d527b776958aa48c909fc7bd2829"
+        },
+        {
+          "path": "dist/cutter-support-view.js",
+          "sha": "c443c1c5588efe6a3b4d7eb961c53a6e4f1c9131"
+        }
+      ]
     }
   ]
 }

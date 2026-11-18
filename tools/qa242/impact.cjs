@@ -56,8 +56,20 @@ function createPlan({root,base,head,changeFile}){
  let registry,registryBytes,registryOrigin='approved-base';try{registryBytes=cp.execFileSync('git',['show',base+':qa/system242/features.json'],{cwd:root,maxBuffer:20000000});registry=JSON.parse(registryBytes);}catch{registryBytes=fs.readFileSync(path.join(root,'qa/system242/features.json'));registry=JSON.parse(registryBytes);registryOrigin='bootstrap-head';}
  const registryErrors=validate(registry,JSON.parse(fs.readFileSync(path.join(root,'qa/system242/features.schema.json'))));if(registryErrors.length)throw Error(registryErrors.join('\n'));
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'qa/system242/suites.json'))),changes=diff(root,base,head);
+ let registryReview=null;
+ if(registryOrigin==='approved-base'){
+  const proposedBytes=fs.readFileSync(path.join(root,'qa/system242/features.json'));
+  if(!proposedBytes.equals(registryBytes)){
+   const proposed=JSON.parse(proposedBytes),errors=validate(proposed,JSON.parse(fs.readFileSync(path.join(root,'qa/system242/features.schema.json'))));if(errors.length)throw Error(errors.join('; '));
+   const baseCatalog=JSON.parse(cp.execFileSync('git',['show',base+':qa/system242/suites.json'],{cwd:root,maxBuffer:20000000}));
+   const proposal=require('./registry-extension.cjs').extend({base:registry,candidate:proposed,baseCatalog,catalog,read:p=>fs.readFileSync(path.join(root,p))});
+   registryReview={status:'needs-review',baseRegistrySha256:sha(registryBytes),proposedRegistrySha256:sha(proposedBytes),baseCommit:base,testedCommit:head,changes:proposal.changes,ownerReviewRequired:true,certified:false};
+   registry=proposal.registry;registryOrigin='additive-head-review-pending';
+  }
+ }
  const plan=planChange({registry,catalog,declaration,changes,baseCommit:base,testedCommit:head,registryOrigin});
- plan.declaration={path:changeFile,sha256:sha(declarationBytes)};plan.registrySha256=sha(registryBytes);plan.catalogSha256=sha(fs.readFileSync(path.join(root,'qa/system242/suites.json')));
+ if(registryReview){plan.registryReview=registryReview;plan.review.push('Additive registry proposal retains base mappings and suites; authenticated owner review remains required.');}
+ plan.declaration={path:changeFile,sha256:sha(declarationBytes)};plan.registrySha256=registryReview?.proposedRegistrySha256||sha(registryBytes);plan.catalogSha256=sha(fs.readFileSync(path.join(root,'qa/system242/suites.json')));
  if(declaration.replacementContract)require('./history-contract.cjs').apply(plan,{root,declaration,catalog,runtimeTree:git(root,['rev-parse',head+':dist'])});
  return plan;
 }

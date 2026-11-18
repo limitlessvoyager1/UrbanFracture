@@ -52,6 +52,7 @@ jobs:
         run: |
           node tools/qa242/preflight.cjs
           node --test tests/qa242-policy.cjs tests/qa242-integrity.cjs tests/qa242-release-integrity.cjs tests/qa242-validators.cjs tests/qa242-pilot.cjs tests/qa242-readiness.cjs tests/qa242-production-coverage.cjs tests/qa242-orion-coverage.cjs tests/qa242-subway-coverage.cjs tests/qa242-history-contract.cjs tests/qa242-recovered-history.cjs
+          node --test tests/qa242-registry-extension.cjs tests/qa242-colton-preservation.cjs
           node tests/qa242-controller-charge.cjs
       - name: Production ownership and selected character move assertions
         env:

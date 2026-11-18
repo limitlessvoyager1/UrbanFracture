@@ -3,10 +3,12 @@
   "id": "colton-sharpe",
   "description": "Assignment5 fifth Syndicate Backup responder, native timed machete attacks, bounded provisional bleed and shared lifecycle; review candidate only.",
   "files": [
+    ".github/workflows/qa242.yml",
     "AGENTS.md",
     "COLTON-PACKAGE-FILES.json",
     "COLTON-PUBLICATION.md",
     "COLTON-SHARPE.md",
+    "QA242-POLICY.md",
     "README-REVIEW.md",
     "dist/assets/backup-cutter/cutter.webp",
     "dist/backup365.js",
@@ -16,8 +18,12 @@
     "dist/downtown360.html",
     "dist/index.html",
     "dist/support370.js",
+    "qa/system242/COLTON-QA-CORRECTIONS.md",
     "qa/system242/changes/colton-sharpe.json",
+    "qa/system242/coverage-source-index.json",
     "qa/system242/features.json",
+    "qa/system242/production-ownership.json",
+    "qa/system242/recovered-history-v2/diagnostics-game-delta.json",
     "qa/system242/suites.json",
     "reports/colton-publication/arrival-exact-checkout.log",
     "reports/colton-publication/backup371.log",
@@ -205,9 +211,15 @@
     "tests/backup376.cjs",
     "tests/backup377.cjs",
     "tests/cutter-support.cjs",
+    "tests/qa242-colton-preservation.cjs",
+    "tests/qa242-recovered-history.cjs",
+    "tests/qa242-registry-extension.cjs",
     "tools/cutter-pack.py",
     "tools/cutter-render.cjs",
-    "tools/fighter-render/manifest.json"
+    "tools/fighter-render/manifest.json",
+    "tools/qa242/diagnostics-history.cjs",
+    "tools/qa242/impact.cjs",
+    "tools/qa242/registry-extension.cjs"
   ],
   "entities": {
     "characters": [
