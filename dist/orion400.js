@@ -1,0 +1,4 @@
+/* Recording400: distance-based presentation receipts; never advance movement from rendering. */
+(function(r){'use strict';const N=r.NeonCombat,P=N.Brawler.prototype,step=a=>!a||a.step209||a.name==='enemyStep210'||a.name==='copDash'||['step','pause','ready'].includes(a.kind212);
+function eligible(e){return e.hp>0&&!e.down&&!e.flight&&!e.heldBy&&!e.pairVisual&&!e.hold&&!e.stun&&!e.shock&&!e.dormant&&step(e.act);}
+const tick=P.tick;P.tick=function(dt,input={}){const before=new Map(this.enemies.map(e=>[e,{x:e.x,y:e.y}])),t=this.time,out=tick.call(this,dt,input);if(this.time>t)for(const e of this.enemies){const q=before.get(e),distance=q?Math.hypot(e.x-q.x,(e.y-q.y)/.65):0,moving=eligible(e)&&distance>1e-5&&distance<40;e.gait400={phase:moving?((e.gait400?.phase||0)+distance/(e.type==='enforcer'?105:92))%1:e.gait400?.phase||0,moving,distance};}return out;};N.Recording400={step,eligible,version:400};})(globalThis);

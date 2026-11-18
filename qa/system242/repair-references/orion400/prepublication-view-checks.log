@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: all four whole HD walk crops in nine eligible families, both facings, without changing simulation
+ok 1 - all four whole HD walk crops in nine eligible families, both facings, without changing simulation
+  ---
+  duration_ms: 294.3161
+  type: 'test'
+  ...
+# Subtest: Flint specialist, disarmed Kevin and armed Bruno retain their native owners
+ok 2 - Flint specialist, disarmed Kevin and armed Bruno retain their native owners
+  ---
+  duration_ms: 219.0789
+  type: 'test'
+  ...
+# Subtest: paired HD victim uses the native grip anchor once and leaves the canvas balanced
+ok 3 - paired HD victim uses the native grip anchor once and leaves the canvas balanced
+  ---
+  duration_ms: 214.0756
+  type: 'test'
+  ...
+# Subtest: existing foreground and Orion effect owners execute once, including reduced-motion path
+ok 4 - existing foreground and Orion effect owners execute once, including reduced-motion path
+  ---
+  duration_ms: 210.1084
+  type: 'test'
+  ...
+# Subtest: electric skeleton stays inside actual body alpha and preserves native state
+ok 5 - electric skeleton stays inside actual body alpha and preserves native state
+  ---
+  duration_ms: 225.3522
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1462.0443
