@@ -1,0 +1,15 @@
+# Nova Showstopper Assignment 5 — provocation candidate
+
+Scope: enemy observation, temporary target/approach preference and a brief red-orange irritation cue. This is a local development candidate, not certification. No merge or deployment is authorized.
+
+Accepted Showstopper activation observes eligible enemies within 480 world units, weighted by combat-plane distance. Existing Companion126 solid-footprint/route-car path checks provide bounded line of sight; this is not a general 3D visibility system. Existing encounter visibility, scripted protections, boss immunity and friendly ownership remain authoritative. New spawns are not enrolled. At most sixteen successful susceptibility rolls are retained per activation.
+
+Provisional susceptibility: basic thug 85%, knife thug 75%, heavy enforcer 60%, cop 65%, biker/robber 45%, Flint 50%, advanced Saito/Akari 20%; bosses and unlisted classes are immune. Behavior and the brief 0.65-second cue wait at least the existing Director reaction delay (0.45 seconds). The simulation clock governs all deadlines and pause freezes them. Loss of visibility suspends preference without rerolling; expiration, death, hero/reset, stage or phase changes remove owned metadata.
+
+The current single-player enemy model already targets the hero. This integration exposes Nova target preference and increases her cohort's approach priority; it does not add a multiplayer target-selection engine. Director148 and the current Crowd303 staging layer both consume the preference. Crowd leases, measured waiting fairness, collision-safe slots, route geometry and movement speeds remain native. Knife actors retain stand-off range and weapon behavior. Heavy approach changes are smaller; advanced fighters have lower susceptibility and priority. Existing Director difficulty enablement is unchanged.
+
+Provocation never writes attack clocks, cooldowns, hitstun, recovery or reservations. Native attack requests retain the Normal three-point threat budget, two simultaneous offensive commitments, heavy costs, relief rules and projectile reservations. No player-input inspection is used. Hype, Showstopper energy/damage/grab/get-up rules and FeastFleet are untouched.
+
+New guard records pin protected parent Director/Crowd slices and reject budget, admission, timing, lease and geometry mutations. These narrowly scoped parent records are not authenticated historical certification. Existing frozen history and preservation records remain unchanged.
+
+QA: source-specific native tests include real crowded AI at 30/60/120 Hz, admission failures, boss/script/LOS exclusions, pause/cleanup, Hype preservation, knife wind-up and read-only render state. Canonical renderer fixtures cover ordinary/knife/heavy/advanced reactions and boss immunity. Numeric and raster fixtures do not replace actual gameplay review at normal/half/quarter/frame speed. Full impact, physical DualSense, artistic approval, approved hardware/performance baseline and unresolved historical/preservation/shared-fixture failures remain acceptance gates. Stop for QA before Assignment 6.

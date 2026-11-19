@@ -1,0 +1,49 @@
+{
+  "schema": 438,
+  "parent": "87175dcbbffc0feeaddbe144700ebffa2b23a371",
+  "scope": "Exact unchanged Crowd303 config, geometry, movement, leases/admission guards; ranking/staging distance are explicit new preferences",
+  "slices": [
+    {
+      "id": "config",
+      "from": "const N=r.NeonCombat",
+      "to": "function pilot(",
+      "sha256LF": "f17f1742ca48302efe6af773e5977167c029ab7cf6023c56ea0b92157db4c7e4"
+    },
+    {
+      "id": "geometry",
+      "from": "function rects(",
+      "to": "function candidate(",
+      "sha256LF": "910d0e637d0bfb3fd716e084e90b5bb016d8ea5aedf4f448dfea64f08737ac66"
+    },
+    {
+      "id": "movement",
+      "from": "function move(",
+      "to": "D.assign=function",
+      "sha256LF": "2b0f56a21627ab5919572afe73359a11e96fa1cf9cd7d2f5cd878914d6c04419"
+    },
+    {
+      "id": "admission",
+      "from": "D.request=function",
+      "to": "const tick=P.tick;",
+      "sha256LF": "31c1a25fe6bdb3ecb5e08047b702a123c16f35e181ba170d6f987544a1fd84d5"
+    },
+    {
+      "id": "beforeAI",
+      "from": "D.beforeAI=function",
+      "to": "D.request=function",
+      "sha256LF": "f1c83638c9361e4084f3decfb438b1ec9b7a4c929ef8a564f740a3466ba59837"
+    },
+    {
+      "id": "lease",
+      "from": "if(!primary&&previous&&ready.includes(previous)&&g.time<s.leaseUntil",
+      "to": "if(!primary)primary=ready.sort",
+      "sha256LF": "a60422f9c6e16ea2a7ff2a0fe8a1e15429d464bc769823986eccc625cdc71163"
+    },
+    {
+      "id": "interval",
+      "from": "if(!force&&g.time<s.next&&actors.every",
+      "to": "s.next=g.time+C.interval;",
+      "sha256LF": "3f7c0849e9f02d781930d707c2fb106de9e7bf51d0eae284bf22f19440069082"
+    }
+  ]
+}

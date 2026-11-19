@@ -5193,6 +5193,56 @@
         "reports437/visual/pose--1-10.png",
         "reports437/visual/pose--1-11.png"
       ]
+    },
+    {
+      "id": "showstopper438-provocation",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-showstopper438.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 240000,
+      "framework": "nova-showstopper-assignment5"
+    },
+    {
+      "id": "showstopper438-render",
+      "command": [
+        "node",
+        "tests/qa242-showstopper438-view.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 240000,
+      "framework": "nova-showstopper-assignment5",
+      "generatedArtifacts": [
+        "reports438/visual/contact-sheet.png",
+        "reports438/visual/receipts.json"
+      ]
+    },
+    {
+      "id": "director148-legacy-regression",
+      "command": [
+        "node",
+        "tools/qa242/director148-regression.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 240000,
+      "framework": "nova-showstopper-assignment5",
+      "generatedArtifacts": [
+        "reports438/director148-regression.json"
+      ]
     }
   ],
   "manualGates": [

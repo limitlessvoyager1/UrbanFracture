@@ -1263,7 +1263,9 @@
         "dist/showstopper-kip-view437.js",
         "dist/assets/nova437/**",
         "source-art/nova437/**",
-        "tools/nova437/**"
+        "tools/nova437/**",
+        "dist/showstopper438.js",
+        "dist/showstopper-provocation-view438.js"
       ],
       "entities": {
         "characters": [
@@ -1282,7 +1284,8 @@
           "showstopper-activation",
           "showstopper-hud",
           "showstopper-grapples",
-          "showstopper-wake-up"
+          "showstopper-wake-up",
+          "showstopper-provocation"
         ],
         "levels": []
       },
@@ -1298,7 +1301,11 @@
         "showstopper435-dialogue-hud",
         "showstopper436-grapples",
         "showstopper437-recovery",
-        "showstopper437-render"
+        "showstopper437-render",
+        "showstopper438-provocation",
+        "showstopper438-render",
+        "director148-legacy-regression",
+        "crowd303-runtime"
       ],
       "visualScenarios": [
         "nova-showstopper-taunt",
@@ -1307,18 +1314,22 @@
         "nova-showstopper-grapple-streak",
         "nova-showstopper-heavy-grab",
         "nova-showstopper-kip-up-mirrored",
-        "nova-showstopper-kip-expiration"
+        "nova-showstopper-kip-expiration",
+        "nova-showstopper-provocation",
+        "nova-showstopper-reaction-expiry"
       ],
       "performanceRisk": true,
       "specs": [
         "qa/system242/repairs/NOVA435-ASSIGNMENT2.md",
         "qa/system242/repairs/NOVA436-ASSIGNMENT3.md",
-        "qa/system242/repairs/NOVA437-ASSIGNMENT4.md"
+        "qa/system242/repairs/NOVA437-ASSIGNMENT4.md",
+        "qa/system242/repairs/NOVA438-ASSIGNMENT5.md"
       ],
       "contentIds": [
         "nova-showstopper-assignment2",
         "nova-showstopper-assignment3",
-        "nova-showstopper-assignment4"
+        "nova-showstopper-assignment4",
+        "nova-showstopper-assignment5"
       ],
       "certification": "partial",
       "plannedSources": [
@@ -1406,6 +1417,16 @@
           "path": "tools/nova437/import.py",
           "gitBlob": "e5610af6318666dd64de9520fc0deb55d6828f79",
           "sha256": "894cf5ed39dc105d1870d5dbc714b2dcfc45a6741d16701090af920084e05f07"
+        },
+        {
+          "path": "dist/showstopper438.js",
+          "gitBlob": "8226c1b74824ddbaf69e26040f684e09218d34ff",
+          "sha256": "ed2d4acfc720bde2b794a06c15f329ea44a55c61da7dd5bba9e176961a16ed9f"
+        },
+        {
+          "path": "dist/showstopper-provocation-view438.js",
+          "gitBlob": "1c2771c9d79d75335bf31746e84582f93b03b646",
+          "sha256": "e117a29bb95a108943c3afd6e32e86efa50e693200fc4bf1f67a347266012a7c"
         }
       ]
     }
