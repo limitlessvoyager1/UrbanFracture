@@ -1257,7 +1257,13 @@
         "dist/assets/nova435/**",
         "source-art/nova435/**",
         "tools/nova435/**",
-        "dist/showstopper436.js"
+        "dist/showstopper436.js",
+        "dist/showstopper437.js",
+        "dist/showstopper437-data.js",
+        "dist/showstopper-kip-view437.js",
+        "dist/assets/nova437/**",
+        "source-art/nova437/**",
+        "tools/nova437/**"
       ],
       "entities": {
         "characters": [
@@ -1269,12 +1275,14 @@
           "novaBelly",
           "novaFace",
           "novaFranken",
-          "novaExploding128"
+          "novaExploding128",
+          "novaShowstopperKip437"
         ],
         "systems": [
           "showstopper-activation",
           "showstopper-hud",
-          "showstopper-grapples"
+          "showstopper-grapples",
+          "showstopper-wake-up"
         ],
         "levels": []
       },
@@ -1288,23 +1296,29 @@
         "showstopper435-runtime",
         "showstopper435-render",
         "showstopper435-dialogue-hud",
-        "showstopper436-grapples"
+        "showstopper436-grapples",
+        "showstopper437-recovery",
+        "showstopper437-render"
       ],
       "visualScenarios": [
         "nova-showstopper-taunt",
         "nova-showstopper-expiry",
         "nova-showstopper-hype-hud",
         "nova-showstopper-grapple-streak",
-        "nova-showstopper-heavy-grab"
+        "nova-showstopper-heavy-grab",
+        "nova-showstopper-kip-up-mirrored",
+        "nova-showstopper-kip-expiration"
       ],
       "performanceRisk": true,
       "specs": [
         "qa/system242/repairs/NOVA435-ASSIGNMENT2.md",
-        "qa/system242/repairs/NOVA436-ASSIGNMENT3.md"
+        "qa/system242/repairs/NOVA436-ASSIGNMENT3.md",
+        "qa/system242/repairs/NOVA437-ASSIGNMENT4.md"
       ],
       "contentIds": [
         "nova-showstopper-assignment2",
-        "nova-showstopper-assignment3"
+        "nova-showstopper-assignment3",
+        "nova-showstopper-assignment4"
       ],
       "certification": "partial",
       "plannedSources": [
@@ -1352,6 +1366,46 @@
           "path": "dist/showstopper436.js",
           "gitBlob": "e395aa8628975c981902541319ff6be7a4794de9",
           "sha256": "01c55526116b16dcd3e1d5faa26525cb8cd78d1536ced0d36a11e9586d63fd57"
+        },
+        {
+          "path": "dist/showstopper437.js",
+          "gitBlob": "dce4f1e674feaba320a47c5c47614a5ab55efdc6",
+          "sha256": "9596764099537d0bcfd2e015aa6beb305122af823e0cfd2129538fceb898b157"
+        },
+        {
+          "path": "dist/showstopper437-data.js",
+          "gitBlob": "60b77efa8c17d3acd699a6f9a6212f1908d9d2ef",
+          "sha256": "246bda6a81e207ca1e90fcf8abe9d072bea685dae4b759977f2ccde5f8dc44bd"
+        },
+        {
+          "path": "dist/showstopper-kip-view437.js",
+          "gitBlob": "111afc6b725100e469c037820897d54961c20730",
+          "sha256": "18736c2b2f7fa80783e52401e004e358af5d58bf443ff300bc969b4867367d6c"
+        },
+        {
+          "path": "dist/assets/nova437/kip-up.webp",
+          "gitBlob": "c9898badb544b6de8409a4e2011e056f7a362aa6",
+          "sha256": "da9206a30927c848772e57b6876d9824b87adf32819d09924ffa0bde520a5a11"
+        },
+        {
+          "path": "source-art/nova437/kip-up-master.png",
+          "gitBlob": "75a9cbe2e5e9691b65a1048c24b249f70b343782",
+          "sha256": "d757b1d712d9d4bd8a3c7f7653a279b8b246eca910a74be1fafcff746f038856"
+        },
+        {
+          "path": "source-art/nova437/import.json",
+          "gitBlob": "67f2f390d669dc22bcd92fc6da101e0a4a7f6805",
+          "sha256": "5615ad716a30ae675bcb5da7a93e1304487383ee4face6af78cff11319d1bdb5"
+        },
+        {
+          "path": "source-art/nova437/GENERATION.md",
+          "gitBlob": "acc00d638b46914094a226fd454e6c924bb4358b",
+          "sha256": "5beae3a32572fe4821ee588b3c0e8e5ccf43e33ee12dc25a707edbd303a98968"
+        },
+        {
+          "path": "tools/nova437/import.py",
+          "gitBlob": "e5610af6318666dd64de9520fc0deb55d6828f79",
+          "sha256": "894cf5ed39dc105d1870d5dbc714b2dcfc45a6741d16701090af920084e05f07"
         }
       ]
     }
