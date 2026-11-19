@@ -1,0 +1,21 @@
+# Nova Showstopper — Assignment 3 candidate
+
+The owner authorized Assignment 3 and approved additive Hype + Showstopper intrinsic damage, capped at +50%, on the existing move/counter-enhanced base. Chicken applies once through its existing wrapper. Hype alone stays +25%; its defense/healing/speed/timing remain unchanged. Existing Hype/Takeout defense-cap conflict is retained, not silently corrected. This is a local candidate; stop for QA, no merge/deploy.
+
+## Scope
+
+Qualifying current moves: Tornado DDT (novaDDT), suplex/body press (novaBelly), face smash (novaFace), reverse hurricanrana (novaFranken), Exploding Nova (novaExploding128). Ordinary knees, punches, kicks, Rush/Blitz, collateral, projectiles, environment and DOT do not receive Showstopper throw damage. Counter-origin 1.35 already baked into a qualifying move is preserved once; unrelated counter strikes are not newly promoted to qualifying throws.
+
+One WeakMap receipt per legally committed action captures owner, state identity, activation serial, primary victim and bonus. Both hit callbacks and native action advancement use that same scoped receipt; Exploding Nova impacts during advancement. The native outgoing Hype boundary performs the single intrinsic calculation. Successful primary damage marks contact. Only normal action completion counts, once; interrupted/missed actions do not advance the streak. Bonus is .15 + .02 per previously completed throw, capped .25. The two suplex/body-press contacts share one bonus and count once. A committed receipt survives expiration to resolve legally; the active streak resets and new actions after expiry have no enhancement. Death/reset/actor/state replacement invalidates owned receipts.
+
+Existing displacement uses 1.20 for ordinary enemies, 1.10 for heavy enemies and 1.00 for bosses. Native fixed-contact slams remain anchored; multiplying zero displacement does not invent a slide. Core knockdown math applies its factor once. The native suplex rig shares one enhanced landing endpoint for victim and body press, clamped to the intersection of world/encounter combat bounds. Clocks and recovery locks are unchanged.
+
+Grab223/198 remain authoritative. Hooks relax ordinary post-get-up anti-repeat timing only after physical get-up and the existing .30s defensive-response opportunity. Maximum two enhanced re-grabs per target per activation; ordinary rules resume afterward. Original protection timestamps are retained, and legacy fields are synchronized through the same policy. Enforcer/bouncer exceptions require stagger/shock or valid committed recovery; captured heavy openings are latched to the hold. Expiration restores contested restrictions and a finite timeout for uncommitted holds. Individual ordinary resistance may opt in with showstopperEligible; immunity always wins. Boss/scripted flags, invulnerability, wake-up, actor recovery, plane/range and synchronized ownership are not bypassed.
+
+HUD displays actual streak and NEXT THROW percentage, explicitly showing the next committed throw's bonus. Activation remains exact50 even with Tacos,10s active/40s cooldown. No new taunt, aura, armor, invulnerability, wake-up/kip-up, provocation or Director changes.
+
+## Evidence boundary
+
+Targeted native tests cover both facings/five moves, two-contact counting, cap, Hype/counter composition, ordinary exclusions, interruption/miss, mid-action expiry, ordinary re-grab limit, heavy eligibility/expiry, immunity and synchronized endpoints. A separate read-only overlay against actual retained hosted FeastFleet sources tested all five meals with and without Hype. That is simulation integration evidence, not deployment/browser/hardware/visual certification. Source integrity and all required shared/affected regressions remain necessary for acceptance.
+
+All prior frozen receipts/contracts remain intact. New source makes prior exact435 preservation contracts stale; those failures must remain visible until an exact versioned Assignment3 bridge is reviewed. Four historical input failures, host policy fixture and manual art/all-moves/balance/controller/performance holds remain outstanding. Registry stays pilot/partial. Do not call this full Showstopper or game certification. Stop before Assignment4.

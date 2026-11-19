@@ -5122,6 +5122,20 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "showstopper436-grapples",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-showstopper436.cjs"
+      ],
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "timeoutMs": 180000
     }
   ],
   "manualGates": [
