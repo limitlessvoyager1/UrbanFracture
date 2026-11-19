@@ -4913,6 +4913,7 @@
       "id": "reina396-native-preservation",
       "command": [
         "node",
+        "tools/qa242/native-preservation435.cjs",
         "tests/reina396-native.cjs"
       ],
       "framework": "native-current-replay",
@@ -4957,6 +4958,7 @@
       "id": "reina399-native-source",
       "command": [
         "node",
+        "tools/qa242/native-preservation435.cjs",
         "tests/reina399-native-preservation.cjs"
       ],
       "framework": "native-current-replay",
