@@ -14,7 +14,8 @@
     "post-hit-reassessment",
     "gamepad-current",
     "controller157-current",
-    "qa242-pilot"
+    "qa242-pilot",
+    "qa242-planned-source-registration"
   ],
   "features": [
     {
@@ -47,7 +48,8 @@
         "validator-self-tests",
         "qa242-pilot",
         "qa242-recovered-history",
-        "qa242-preservation401"
+        "qa242-preservation401",
+        "qa242-planned-source-registration"
       ],
       "visualScenarios": [],
       "performanceRisk": false,
@@ -371,7 +373,8 @@
         "dist/reina-costume.js",
         "dist/reina-uniform-data.js",
         "dist/recording-view400.js",
-        "tools/reina383/audit.cjs"
+        "tools/reina383/audit.cjs",
+        "dist/downtown360.html"
       ],
       "entities": {
         "characters": [
@@ -1243,6 +1246,97 @@
       ],
       "contentIds": [],
       "certification": "partial"
+    },
+    {
+      "id": "nova-showstopper435",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "dist/showstopper435.js",
+        "dist/showstopper-view435.js",
+        "dist/showstopper435-data.js",
+        "dist/assets/nova435/**",
+        "source-art/nova435/**",
+        "tools/nova435/**"
+      ],
+      "entities": {
+        "characters": [
+          "nova"
+        ],
+        "moves": [
+          "novaShowstopper435"
+        ],
+        "systems": [
+          "showstopper-activation",
+          "showstopper-hud"
+        ],
+        "levels": []
+      },
+      "dependsOn": [
+        "shared-combat-admission",
+        "shared-fighter-rendering",
+        "controller-input",
+        "weapons-resources"
+      ],
+      "suites": [
+        "showstopper435-runtime",
+        "showstopper435-render",
+        "showstopper435-dialogue-hud"
+      ],
+      "visualScenarios": [
+        "nova-showstopper-taunt",
+        "nova-showstopper-expiry",
+        "nova-showstopper-hype-hud"
+      ],
+      "performanceRisk": true,
+      "specs": [
+        "qa/system242/repairs/NOVA435-ASSIGNMENT2.md"
+      ],
+      "contentIds": [
+        "nova-showstopper-assignment2"
+      ],
+      "certification": "partial",
+      "plannedSources": [
+        {
+          "path": "dist/showstopper435.js",
+          "gitBlob": "19849f16f9f82cf4648e75eb86c8cb0db2e47fea",
+          "sha256": "2725337e8be9d8b0543b4a58722f7b9617dec7ea84a1c336aec81b59ccebd4de"
+        },
+        {
+          "path": "dist/showstopper-view435.js",
+          "gitBlob": "335ce63403930ea5abc2e14115155cdc618d029c",
+          "sha256": "53e9c339094b948179f686cce3f968122c349b8caa9b3bec76e651937585b1ef"
+        },
+        {
+          "path": "dist/showstopper435-data.js",
+          "gitBlob": "29d9bc4fcbad5af08819e35f384cde9b384b2233",
+          "sha256": "51843537c319dacdd5b20f10678fc6c2fa9628b32412628f2320b3d69ff839fe"
+        },
+        {
+          "path": "dist/assets/nova435/taunt.webp",
+          "gitBlob": "c400d3fb6f389e83f7f127264127b80b82325814",
+          "sha256": "614fc964e7791276f4095ad2c3279fd6a1d3d2d3aff473b31df28ae0db99d906"
+        },
+        {
+          "path": "source-art/nova435/taunt-master.png",
+          "gitBlob": "5d7fb2f3226df52357446a91be50706aa578dc97",
+          "sha256": "fcfd25f3154b756197e87b402d5650d3ef7b552b2c4d6d3a0e902f9d550b165e"
+        },
+        {
+          "path": "source-art/nova435/import.json",
+          "gitBlob": "fc652df77a08a32e919381ed1cf0f8e35819e8ba",
+          "sha256": "0fc63ef96b66b8a050695b10ffd81111143c2022a4565f3ee8f83138d246177f"
+        },
+        {
+          "path": "source-art/nova435/GENERATION.md",
+          "gitBlob": "c1ca2ba1698898f893ce53398dd3215c75ecc76a",
+          "sha256": "f838705087cf057d1afafdb2b14e37f58139ec2b3917211f3469253f99c85236"
+        },
+        {
+          "path": "tools/nova435/import.py",
+          "gitBlob": "19c4afd84465ab54361ec9f954633b4afe60158e",
+          "sha256": "86846e929339b25e4ebc599d68c09f2d8303626380de9772f255b8566583bcf2"
+        }
+      ]
     }
   ]
 }

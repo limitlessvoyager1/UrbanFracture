@@ -161,6 +161,33 @@
               "pending",
               "approved"
             ]
+          },
+          "plannedSources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "path",
+                "gitBlob",
+                "sha256"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "gitBlob": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{40}$"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              }
+            }
           }
         }
       },

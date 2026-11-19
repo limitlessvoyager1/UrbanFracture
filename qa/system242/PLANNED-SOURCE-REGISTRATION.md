@@ -1,0 +1,13 @@
+# Exact planned-source registration
+
+This QA-only prerequisite registers the already-authored Nova Assignment2 source before its gameplay child introduces production files. It does not install gameplay, approve artwork, certify a feature, change any owner-evidence rule, merge or deploy.
+
+The optional feature `plannedSources` list contains exact relative paths, Git blob IDs and SHA256 digests. Every entry must belong to that feature's declared sources; unsafe, duplicate/case-colliding, unowned or malformed pins fail. The feature must remain `partial`. Missing pinned files are explicitly returned by preflight as `plannedSources` / `not-tested`, not evidence of working gameplay. Missing files outside explicit pins still block. Once present, both hashes must match; changed implementation or art requires a new reviewed pin. The original candidate supplying these pins is `c09b08e8ec9a6ff31271ef95fa70c21a97baa0a4`.
+
+UTF8 JS/CJS/JSON/Markdown/Python use Git-equivalent CRLF-to-LF normalization, with invalid UTF8 rejected. Binary artwork is compared byte-for-byte. This is a source identity check, not artistic acceptance or a historical baseline. Preflight's validation pass with pending entries is not a source execution pass or certificate; the report explicitly sets `plannedSourceCertification:false`. Runtime suites cannot pass until the implementation is present and tested.
+
+The prerequisite adds eight pinned Nova source/art/import paths, the partial Nova feature/content/test/visual-scenario registration, and explicit Downtown360 entrypoint ownership under shared fighter rendering. Existing sources, suite definitions, mappings and certification states remain intact. New source-specific QA fixtures use `tests/qa242-showstopper435*.cjs` so the prerequisite remains inside the existing QA-only pilot file boundary. Their source assertions are preserved from the candidate; they are executed for the gameplay child, not claimed as passing against absent prerequisite runtime.
+
+The registration guard is an additional mandatory smoke suite. Its negative fixtures cover missing/unregistered paths, wrong content, unsafe/unowned/duplicate pins, binary changes and certification promotion. The existing policy/owner gates are unchanged. Registry coverage stays pilot; no baseline, hardware/art/performance approval or full-game acceptance is created.
+
+Review the prerequisite's exact source-only diff and the regenerated child impact plan. Even though the planner names registry provenance `approved-base` when it reads a Git parent, that label alone is not authenticated owner approval of this new local prerequisite. Owner review and applicable acceptance evidence remain required.

@@ -5062,6 +5062,64 @@
         "release"
       ],
       "critical": true
+    },
+    {
+      "id": "showstopper435-runtime",
+      "command": [
+        "node",
+        "tests/qa242-showstopper435.cjs"
+      ],
+      "framework": "nova-showstopper-assignment2",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "showstopper435-render",
+      "command": [
+        "node",
+        "tests/qa242-showstopper435-view.cjs"
+      ],
+      "framework": "nova-showstopper-assignment2",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true,
+      "generatedArtifacts": [
+        "reports435/render-checks.json",
+        "reports435/visual/taunt-phases.png",
+        "reports435/visual/hud-active.png"
+      ]
+    },
+    {
+      "id": "showstopper435-dialogue-hud",
+      "command": [
+        "node",
+        "tests/qa242-showstopper435-dialogue.cjs"
+      ],
+      "framework": "nova-showstopper-assignment2",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
+    },
+    {
+      "id": "qa242-planned-source-registration",
+      "command": [
+        "node",
+        "--test",
+        "tests/qa242-planned-source-registration.cjs"
+      ],
+      "framework": "qa242-registration-guard",
+      "profiles": [
+        "initial",
+        "release"
+      ],
+      "critical": true
     }
   ],
   "manualGates": [
