@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "id": "nova437-assignment4",
+  "description": "Assignment4 only: Nova physical get-up .40 to .26s and dedicated twelve-pose kip-up; preserve native locks, protection, Hype, damage and art history. Stop for QA; no merge or deploy.",
+  "files": [
+    "dist/index.html",
+    "dist/downtown360.html",
+    "dist/showstopper437.js",
+    "dist/showstopper437-data.js",
+    "dist/showstopper-kip-view437.js",
+    "dist/assets/nova437/kip-up.webp",
+    "source-art/nova437/kip-up-master.png",
+    "source-art/nova437/import.json",
+    "source-art/nova437/GENERATION.md",
+    "tools/nova437/import.py",
+    "tools/fighter-render/manifest.json",
+    "qa/system242/changes/nova437-assignment4.json"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters",
+      "nova"
+    ],
+    "moves": [
+      "all-rendered-actions",
+      "novaShowstopper435",
+      "novaDDT",
+      "novaBelly",
+      "novaFace",
+      "novaFranken",
+      "novaExploding128",
+      "novaShowstopperKip437"
+    ],
+    "systems": [
+      "qa242",
+      "fighter-rendering",
+      "asset-loading",
+      "showstopper-activation",
+      "showstopper-hud",
+      "showstopper-grapples",
+      "showstopper-wake-up"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "features": [
+    "qa242",
+    "shared-fighter-rendering",
+    "nova-showstopper435"
+  ],
+  "newContent": [
+    {
+      "id": "nova-showstopper-assignment4",
+      "type": "mechanic",
+      "spec": "qa/system242/repairs/NOVA437-ASSIGNMENT4.md",
+      "suites": [
+        "showstopper437-recovery",
+        "showstopper437-render"
+      ],
+      "visualScenarios": [
+        "nova-showstopper-kip-up-mirrored",
+        "nova-showstopper-kip-expiration"
+      ]
+    }
+  ],
+  "risks": {
+    "visual": true,
+    "performance": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT4-OWNER-SPEC",
+    "QA437-PHYSICAL-RISE",
+    "QA437-ANIMATION-CONTINUITY"
+  ]
+}

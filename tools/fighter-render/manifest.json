@@ -118,7 +118,8 @@
     "reina382-data.js",
     "reina383-data.js",
     "reina-uniform-data.js",
-    "showstopper435-data.js"
+    "showstopper435-data.js",
+    "showstopper437-data.js"
   ],
   "renderModules": [
     "hospital314-materials.js",
@@ -216,7 +217,8 @@
     "reina-view383.js",
     "reina-costume.js",
     "recording-view400.js",
-    "showstopper-view435.js"
+    "showstopper-view435.js",
+    "showstopper-kip-view437.js"
   ],
   "drawOwners": [
     "forest-view125.js",
@@ -305,7 +307,8 @@
     "reina-view382.js",
     "reina-view383.js",
     "recording-view400.js",
-    "showstopper-view435.js"
+    "showstopper-view435.js",
+    "showstopper-kip-view437.js"
   ],
   "excludedDrawModules": {
     "diagnostics-ui307.js": "Browser inspector overlay only; does not replace PolishedSprites.draw",
@@ -340,6 +343,7 @@
     "reina-view382.js",
     "reina383-data.js",
     "reina-view383.js",
-    "showstopper-view435.js"
+    "showstopper-view435.js",
+    "showstopper-kip-view437.js"
   ]
 }
