@@ -218,7 +218,8 @@
     "reina-costume.js",
     "recording-view400.js",
     "showstopper-view435.js",
-    "showstopper-kip-view437.js"
+    "showstopper-kip-view437.js",
+    "showstopper-provocation-view438.js"
   ],
   "drawOwners": [
     "forest-view125.js",
@@ -308,7 +309,8 @@
     "reina-view383.js",
     "recording-view400.js",
     "showstopper-view435.js",
-    "showstopper-kip-view437.js"
+    "showstopper-kip-view437.js",
+    "showstopper-provocation-view438.js"
   ],
   "excludedDrawModules": {
     "diagnostics-ui307.js": "Browser inspector overlay only; does not replace PolishedSprites.draw",
@@ -344,6 +346,7 @@
     "reina383-data.js",
     "reina-view383.js",
     "showstopper-view435.js",
-    "showstopper-kip-view437.js"
+    "showstopper-kip-view437.js",
+    "showstopper-provocation-view438.js"
   ]
 }
