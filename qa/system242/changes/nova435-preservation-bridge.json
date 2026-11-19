@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "nova435-preservation-bridge",
+  "description": "QA-only exact Assignment 2 preservation adapter over unchanged QA401 contracts and frozen evidence. No gameplay or artwork changes; no acceptance waiver.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "tools/qa242/preservation435.cjs",
+    "tools/qa242/diagnostics-history.cjs",
+    "tests/qa242-preservation435.cjs",
+    "tests/qa242-preservation401.cjs",
+    "tests/qa242-recovered-history.cjs",
+    "tests/reina396-native.cjs",
+    "tests/reina399-native-preservation.cjs",
+    "qa/system242/repair-references/nova435/preservation-v1.json",
+    "qa/system242/repairs/NOVA435-PRESERVATION.md",
+    "qa/system242/changes/nova435-preservation-bridge.json"
+  ],
+  "entities": {"characters": [], "moves": [], "systems": ["qa242"], "levels": []},
+  "features": ["qa242"],
+  "newContent": [],
+  "risks": {"performance": false, "visual": false, "majorIntegration": false, "physicalController": false},
+  "issues": ["NOVA-SHOWSTOPPER-ASSIGNMENT2-OWNER-SPEC", "QA435-EXACT-PRESERVATION-BRIDGE"]
+}

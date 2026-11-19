@@ -1,0 +1,11 @@
+# Assignment 2 exact preservation bridge
+
+QA-only follow-up to candidate c51c9eccc1c0b0f6baccb947b8474b77925ead04. The original full impact run 20261119T163603227Z-76ad9e34 remains Reject (101 Passed, 8 Failed, 1 Blocked automated suites, plus six manual holds). No old receipt is rewritten.
+
+preservation435 pins the exact 221-module order and LF-normalized source bytes, the two production entrypoint HTML files and Showstopper data/view modules. Its immutable v1 record is hash-pinned in code. Only showstopper435.js is removed from the reconstructed QA401 module list. The unchanged QA401 verifier then checks all 220 preceding sources and both frozen Reina receipts. Unknown, missing, duplicated, reordered or changed modules fail closed. This does not assert original whole-source identity or certify the game.
+
+For each game entrypoint, precisely three full lines are reversed: the Showstopper HUD call, voice-loop call and fighter-view bind. The input and reconstructed output Git blobs are pinned. Replacements must be unique. The reconstructed game.js is then passed through the unchanged four-hunk QA401 costume rewind and original diagnostics delta. Neither historical ledger nor recovered object pack is edited.
+
+The old QA401 negative fixtures exercise this reconstructed prior input; all prior assertions remain. The same suite also requires new435 negatives against the real current inputs. Native396 and399 entry tests use the435 verifier; the twelve frozen396 action traces and RNG assertions are unchanged. Diagnostics and recovered-history use the composed rewind rather than bypassing a source check. These routes are exercised by the existing registered preservation suites and CI policy step.
+
+No gameplay, artwork, Hype Mode, damage, timings, modifiers or later Showstopper assignments change. Owner review of the new bridge remains required. The four historical-input failures, host symlink/junction fixture and six manual gates are not waived. Passing corrective checks cannot replace the previous 110-suite result or create visual, hardware, balance or performance approval. No merge or deployment.
