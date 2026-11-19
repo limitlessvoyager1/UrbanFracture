@@ -14,7 +14,9 @@
     "source-art/nova437/GENERATION.md",
     "tools/nova437/import.py",
     "tools/fighter-render/manifest.json",
-    "qa/system242/changes/nova437-assignment4.json"
+    "qa/system242/changes/nova437-assignment4.json",
+    "qa/system242/features.json",
+    "tests/qa242-showstopper437-view.cjs"
   ],
   "entities": {
     "characters": [
