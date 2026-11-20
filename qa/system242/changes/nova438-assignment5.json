@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "nova438-assignment5",
+  "description": "Assignment5: bounded Showstopper provocation, reaction cue and existing Director/Crowd approach preference; preserve Hype and native admission. Stop for QA; no merge or deploy.",
+  "files": [
+    "dist/showstopper438.js",
+    "dist/showstopper-provocation-view438.js",
+    "dist/director148.js",
+    "dist/crowd303.js",
+    "dist/index.html",
+    "dist/downtown360.html",
+    "tools/fighter-render/manifest.json",
+    "qa/system242/changes/nova438-assignment5.json",
+    "tests/qa242-showstopper438-view.cjs"
+  ],
+  "entities": {
+    "characters": [
+      "all-fighters",
+      "nova"
+    ],
+    "moves": [
+      "all-native-actions",
+      "all-rendered-actions",
+      "novaShowstopper435",
+      "novaDDT",
+      "novaBelly",
+      "novaFace",
+      "novaFranken",
+      "novaExploding128",
+      "novaShowstopperKip437"
+    ],
+    "systems": [
+      "qa242",
+      "action-admission",
+      "hit-reactions",
+      "director",
+      "fighter-rendering",
+      "asset-loading",
+      "showstopper-activation",
+      "showstopper-hud",
+      "showstopper-grapples",
+      "showstopper-wake-up",
+      "showstopper-provocation"
+    ],
+    "levels": [
+      "all-combat-scenes",
+      "all-rendered-scenes"
+    ]
+  },
+  "features": [
+    "qa242",
+    "shared-combat-admission",
+    "shared-fighter-rendering",
+    "nova-showstopper435"
+  ],
+  "newContent": [
+    {
+      "id": "nova-showstopper-assignment5",
+      "type": "mechanic",
+      "spec": "qa/system242/repairs/NOVA438-ASSIGNMENT5.md",
+      "suites": [
+        "showstopper438-provocation",
+        "showstopper438-render",
+        "director148-legacy-regression",
+        "crowd303-runtime"
+      ],
+      "visualScenarios": [
+        "nova-showstopper-provocation",
+        "nova-showstopper-reaction-expiry"
+      ]
+    }
+  ],
+  "risks": {
+    "visual": true,
+    "performance": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT5-OWNER-SPEC",
+    "QA438-THREAT-BUDGET",
+    "QA438-HYPE-PRESERVATION"
+  ]
+}

@@ -1,0 +1,35 @@
+/* Assignment 3: action-owned wrestling modifiers on the shared native systems. */
+(function(r){'use strict';const N=r.NeonCombat,P=N.Brawler.prototype,X=N.Showstopper435;
+const config=Object.freeze({first:.15,step:.02,cap:.25,intrinsicCap:.50,knockback:1.20,heavyKnockback:1.10,regrabs:2,response:.30});
+const moves=new Set(['novaDDT','novaBelly','novaFace','novaFranken','novaExploding128']);
+const receipts=new WeakMap(),contexts=new WeakMap(),captures=new WeakMap(),holds=new WeakMap(),targets=new WeakMap();
+const bonus=g=>Math.min(config.cap,config.first+config.step*X.state(g).streak);
+function boss(e){return !e||['boss','gangster','security','dorian'].includes(e.type)||!!(e.boss||e.isBoss||e.baylor237||e.boss185||e.miniBoss185||e.strong185||e.routeTruck197||e.casinoSecurity192||e.poolBoss193||e.sterlingBoss195||e.dirk182||e.grabRules223?.boss||e.grabRules223?.immune);}
+function heroLocked(g){const p=g.player;return p.hp<=0||p.stun||p.shock||p.down||p.flight||p.jump||p.heldBy||p.recovering||p.standingLock||p.guardBreak||p.blocking||p.reversalVictim198||p.sticky166||N.GrappleRecovery119.active(p)||g.time<(p.recoveryNotBefore119||0)||p.act&&p.act.name!=='grabStart'||p.cd>0;}
+function owned(g,q){return q&&q.owner===g.player&&q.owner.hp>0&&q.state===X.state(g)&&q.serial===X.state(g).serial&&g.enemies.includes(q.victim);}
+function restrictions(g,e){const p=g.player;return !X.active(g)||heroLocked(g)||boss(e)||!N.Grab198.interactive(g,e)||N.Grab198.locked(g)||g.bossProtected(e)||e.inv>0||e.wakeInv>0||e.down||e.flight||e.jump>0||e.heldBy&&e.heldBy!==p||e.hold||e.grappleSession119?.active||e.forestLock125||e.grappleOwner177||e.maulOwner175||Math.abs(p.y-e.y)>24||Math.abs(p.x-e.x)>66;}
+function targetState(g,e){let q=targets.get(e);const s=X.state(g);if(!q||q.owner!==g.player||q.state!==s||q.serial!==s.serial){q={owner:g.player,state:s,serial:s.serial,regrabs:0};targets.set(e,q);}return q;}
+function opening(g,e){return !restrictions(g,e)&&(e.stun>0||e.shock>0||!!e.act&&N.Grab223.recoveryAction(e));}
+function relaxRepeat(g,e){if(restrictions(g,e)||N.Grab223.classify(e)!=='REGULAR')return false;const q=N.Grab223.state(e);return q.stoodAt!=null&&g.time-q.stoodAt>=config.response-1e-9&&!q.pendingThrow&&!q.waitingGetUp223&&!q.needResponse&&targetState(g,e).regrabs<config.regrabs;}
+function heavyOpening(g,e){if(!g||!X.active(g)||boss(e))return false;const h=holds.get(g.player.hold),c=captures.get(g);if(h&&h.owner===g.player&&h.serial===X.state(g).serial&&h.victim===e&&h.heavy)return true;if(c?.victim===e&&c.heavy)return true;return ['enforcer','bouncer'].includes(e.type)&&opening(g,e);}
+function individualOpening(g,e){return e.grabRules223?.showstopperEligible===true&&opening(g,e)&&N.Grab223.classify(e)==='REGULAR';}
+function protectedTarget(g,e){return X.active(g)&&e?.inv>0;}
+function knockback(g,e){const q=contexts.get(g);if(!owned(g,q)||q.victim!==e)return 1;return boss(e)?1:N.Grab223.classify(e)==='HEAVY_BOSS'?config.heavyKnockback:config.knockback;}
+// Called once at the existing outgoing Hype boundary; counter base is already baked in.
+function outgoing(g,e,amount,o,hype){const q=contexts.get(g),eligible=owned(g,q)&&q.victim===e&&o.attacker===q.owner&&amount>0&&!o.statusTick257&&!o.poisonDefense177&&!o.bullet255&&!o.projectile&&!o.environmental;
+ const intrinsic=Math.min(config.intrinsicCap,(hype?.25:0)+(eligible?q.bonus:0));return amount*(1+intrinsic);}
+const start=P.start;P.start=function(p,...args){const before=p.act,out=start.call(this,p,...args),a=p.act,v=a?.victim;if(p===this.player&&p.type==='nova'&&a&&a!==before&&moves.has(a.name)&&X.active(this)&&v&&this.enemies.includes(v)&&v.hp>0&&!v.dormant&&(v.heldBy===p||a.grappleSession119?.attacker===p)){
+ const q={owner:p,victim:v,state:X.state(this),serial:X.state(this).serial,bonus:bonus(this),move:a.name,hit:false,completed:false};receipts.set(a,q);
+ // The native rig shares this endpoint between victim flight and Nova's body press.
+ if(a.name==='novaBelly'){const factor=boss(v)?1:N.Grab223.classify(v)==='HEAVY_BOSS'?config.heavyKnockback:config.knockback;a.landing108=N.clamp(a.fromX-a.dir105*112*factor,Math.max(this.bounds.min,this.combatBounds.min),Math.min(this.bounds.max,this.combatBounds.max));}
+ }return out;};
+const hit=P.hitPlayerAttack;P.hitPlayerAttack=function(a){const q=receipts.get(a),prior=contexts.get(this);if(owned(this,q)&&this.player.act===a)contexts.set(this,q);try{return hit.call(this,a);}finally{if(prior)contexts.set(this,prior);else contexts.delete(this);}};
+const advance=P.advanceHeroAction;P.advanceHeroAction=function(p,a,dt){const q=receipts.get(a),prior=contexts.get(this);if(p===this.player&&owned(this,q)&&p.act===a)contexts.set(this,q);try{return advance.call(this,p,a,dt);}finally{if(prior)contexts.set(this,prior);else contexts.delete(this);}};
+const damage=P.damage;P.damage=function(e,amount,dir,knock,o={}){const q=contexts.get(this),hp=e.hp,out=damage.call(this,e,amount,dir,knock,o);if(owned(this,q)&&q.victim===e&&o.attacker===q.owner&&amount>0&&e.hp<hp)q.hit=true;return out;};
+const finish=P.finishHeroAction;P.finishHeroAction=function(p,a){const q=receipts.get(a),valid=p===this.player&&this.player.act===a&&owned(this,q)&&q.hit&&!q.completed&&!p.down&&!p.stun&&!p.heldBy;const out=finish.call(this,p,a);if(valid){q.completed=true;if(X.active(this)&&q.serial===X.state(this).serial){X.state(this).streak++;this.event('showstopperThrow436',{move:q.move,streak:X.state(this).streak,bonus:q.bonus});}}return out;};
+const acquire=P.acquireGrab;P.acquireGrab=function(e,rear,counter=false,special=false,...rest){if(counter||!e||!X.active(this))return acquire.call(this,e,rear,counter,special,...rest);if(heroLocked(this))return false;const prior=captures.get(this),wasHeld=this.player.hold?.victim===e,repeat=relaxRepeat(this,e)&&this.time<N.Grab223.state(e).protectionUntil,heavy=heavyOpening(this,e);captures.set(this,{victim:e,heavy});let out;try{out=acquire.call(this,e,rear,counter,special,...rest);}finally{if(prior)captures.set(this,prior);else captures.delete(this);}if(out&&!wasHeld&&this.player.hold?.victim===e){holds.set(this.player.hold,{owner:this.player,victim:e,serial:X.state(this).serial,heavy});if(repeat)targetState(this,e).regrabs++;}return out;};
+const tick=P.tick;P.tick=function(dt,input={}){const h=this.player.hold,q=holds.get(h);if(q&&!X.active(this)&&h.risk198&&!h.risk198.accepted&&h.risk198.deadline===Infinity)h.risk198.deadline=this.time+N.Grab223.config.contested;return tick.call(this,dt,input);};
+const previousDebug=X.debug;function debug(g){return{...previousDebug(g),assignment:3,throwBonus:X.active(g)?bonus(g):null,grappleEnhancementsImplemented:true};}
+N.Showstopper435=Object.freeze({...X,debug});
+N.ShowstopperGrapples436=Object.freeze({config,moves:Object.freeze([...moves]),outgoing,knockback,relaxRepeat,heavyOpening,individualOpening,protectedTarget,debug,receipt:a=>{const q=receipts.get(a);return q?{move:q.move,bonus:q.bonus,hit:q.hit,completed:q.completed,serial:q.serial}:null;}});
+})(globalThis);

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "nova437-registration-prerequisite",
+  "description": "QA-only partial registration and exact source/art pins for Assignment4. Eight future inputs remain Not Tested until present. No runtime or art edits in this prerequisite.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tests/qa242-showstopper437.cjs",
+    "tests/qa242-showstopper437-view.cjs",
+    "qa/system242/repairs/NOVA437-ASSIGNMENT4.md",
+    "qa/system242/changes/nova437-registration-prerequisite.json"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "features": [
+    "qa242"
+  ],
+  "newContent": [],
+  "risks": {
+    "visual": false,
+    "performance": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT4-OWNER-SPEC",
+    "QA437-REGISTRATION"
+  ]
+}

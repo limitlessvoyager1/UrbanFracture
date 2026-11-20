@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "nova436-registration-prerequisite",
+  "description": "QA-only partial registration and exact future source pin for Assignment3. Source tests are registered, not claimed executed before the module exists; no gameplay or artwork changes.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tests/qa242-showstopper436.cjs",
+    "qa/system242/repairs/NOVA436-ASSIGNMENT3.md",
+    "qa/system242/changes/nova436-registration-prerequisite.json"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "features": [
+    "qa242"
+  ],
+  "newContent": [],
+  "risks": {
+    "visual": false,
+    "performance": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT3-OWNER-SPEC",
+    "QA436-REGISTRATION"
+  ]
+}

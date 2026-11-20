@@ -14,7 +14,8 @@
     "post-hit-reassessment",
     "gamepad-current",
     "controller157-current",
-    "qa242-pilot"
+    "qa242-pilot",
+    "qa242-planned-source-registration"
   ],
   "features": [
     {
@@ -47,7 +48,8 @@
         "validator-self-tests",
         "qa242-pilot",
         "qa242-recovered-history",
-        "qa242-preservation401"
+        "qa242-preservation401",
+        "qa242-planned-source-registration"
       ],
       "visualScenarios": [],
       "performanceRisk": false,
@@ -371,7 +373,8 @@
         "dist/reina-costume.js",
         "dist/reina-uniform-data.js",
         "dist/recording-view400.js",
-        "tools/reina383/audit.cjs"
+        "tools/reina383/audit.cjs",
+        "dist/downtown360.html"
       ],
       "entities": {
         "characters": [
@@ -1243,6 +1246,189 @@
       ],
       "contentIds": [],
       "certification": "partial"
+    },
+    {
+      "id": "nova-showstopper435",
+      "owner": "limitlessvoyager1",
+      "sources": [
+        "dist/showstopper435.js",
+        "dist/showstopper-view435.js",
+        "dist/showstopper435-data.js",
+        "dist/assets/nova435/**",
+        "source-art/nova435/**",
+        "tools/nova435/**",
+        "dist/showstopper436.js",
+        "dist/showstopper437.js",
+        "dist/showstopper437-data.js",
+        "dist/showstopper-kip-view437.js",
+        "dist/assets/nova437/**",
+        "source-art/nova437/**",
+        "tools/nova437/**",
+        "dist/showstopper438.js",
+        "dist/showstopper-provocation-view438.js"
+      ],
+      "entities": {
+        "characters": [
+          "nova"
+        ],
+        "moves": [
+          "novaShowstopper435",
+          "novaDDT",
+          "novaBelly",
+          "novaFace",
+          "novaFranken",
+          "novaExploding128",
+          "novaShowstopperKip437"
+        ],
+        "systems": [
+          "showstopper-activation",
+          "showstopper-hud",
+          "showstopper-grapples",
+          "showstopper-wake-up",
+          "showstopper-provocation"
+        ],
+        "levels": []
+      },
+      "dependsOn": [
+        "shared-combat-admission",
+        "shared-fighter-rendering",
+        "controller-input",
+        "weapons-resources"
+      ],
+      "suites": [
+        "showstopper435-runtime",
+        "showstopper435-render",
+        "showstopper435-dialogue-hud",
+        "showstopper436-grapples",
+        "showstopper437-recovery",
+        "showstopper437-render",
+        "showstopper438-provocation",
+        "showstopper438-render",
+        "director148-legacy-regression",
+        "crowd303-runtime"
+      ],
+      "visualScenarios": [
+        "nova-showstopper-taunt",
+        "nova-showstopper-expiry",
+        "nova-showstopper-hype-hud",
+        "nova-showstopper-grapple-streak",
+        "nova-showstopper-heavy-grab",
+        "nova-showstopper-kip-up-mirrored",
+        "nova-showstopper-kip-expiration",
+        "nova-showstopper-provocation",
+        "nova-showstopper-reaction-expiry"
+      ],
+      "performanceRisk": true,
+      "specs": [
+        "qa/system242/repairs/NOVA435-ASSIGNMENT2.md",
+        "qa/system242/repairs/NOVA436-ASSIGNMENT3.md",
+        "qa/system242/repairs/NOVA437-ASSIGNMENT4.md",
+        "qa/system242/repairs/NOVA438-ASSIGNMENT5.md"
+      ],
+      "contentIds": [
+        "nova-showstopper-assignment2",
+        "nova-showstopper-assignment3",
+        "nova-showstopper-assignment4",
+        "nova-showstopper-assignment5"
+      ],
+      "certification": "partial",
+      "plannedSources": [
+        {
+          "path": "dist/showstopper435.js",
+          "gitBlob": "19849f16f9f82cf4648e75eb86c8cb0db2e47fea",
+          "sha256": "2725337e8be9d8b0543b4a58722f7b9617dec7ea84a1c336aec81b59ccebd4de"
+        },
+        {
+          "path": "dist/showstopper-view435.js",
+          "gitBlob": "3209216a4dff48a57f68e107bb8d7a04d2ce6d35",
+          "sha256": "ad90cd0abf5b1a9b51ba661bb46fcdec1abd94d9142ec6ab3a21890ddf6301b5"
+        },
+        {
+          "path": "dist/showstopper435-data.js",
+          "gitBlob": "29d9bc4fcbad5af08819e35f384cde9b384b2233",
+          "sha256": "51843537c319dacdd5b20f10678fc6c2fa9628b32412628f2320b3d69ff839fe"
+        },
+        {
+          "path": "dist/assets/nova435/taunt.webp",
+          "gitBlob": "c400d3fb6f389e83f7f127264127b80b82325814",
+          "sha256": "614fc964e7791276f4095ad2c3279fd6a1d3d2d3aff473b31df28ae0db99d906"
+        },
+        {
+          "path": "source-art/nova435/taunt-master.png",
+          "gitBlob": "5d7fb2f3226df52357446a91be50706aa578dc97",
+          "sha256": "fcfd25f3154b756197e87b402d5650d3ef7b552b2c4d6d3a0e902f9d550b165e"
+        },
+        {
+          "path": "source-art/nova435/import.json",
+          "gitBlob": "fc652df77a08a32e919381ed1cf0f8e35819e8ba",
+          "sha256": "0fc63ef96b66b8a050695b10ffd81111143c2022a4565f3ee8f83138d246177f"
+        },
+        {
+          "path": "source-art/nova435/GENERATION.md",
+          "gitBlob": "c1ca2ba1698898f893ce53398dd3215c75ecc76a",
+          "sha256": "f838705087cf057d1afafdb2b14e37f58139ec2b3917211f3469253f99c85236"
+        },
+        {
+          "path": "tools/nova435/import.py",
+          "gitBlob": "19c4afd84465ab54361ec9f954633b4afe60158e",
+          "sha256": "86846e929339b25e4ebc599d68c09f2d8303626380de9772f255b8566583bcf2"
+        },
+        {
+          "path": "dist/showstopper436.js",
+          "gitBlob": "e395aa8628975c981902541319ff6be7a4794de9",
+          "sha256": "01c55526116b16dcd3e1d5faa26525cb8cd78d1536ced0d36a11e9586d63fd57"
+        },
+        {
+          "path": "dist/showstopper437.js",
+          "gitBlob": "dce4f1e674feaba320a47c5c47614a5ab55efdc6",
+          "sha256": "9596764099537d0bcfd2e015aa6beb305122af823e0cfd2129538fceb898b157"
+        },
+        {
+          "path": "dist/showstopper437-data.js",
+          "gitBlob": "60b77efa8c17d3acd699a6f9a6212f1908d9d2ef",
+          "sha256": "246bda6a81e207ca1e90fcf8abe9d072bea685dae4b759977f2ccde5f8dc44bd"
+        },
+        {
+          "path": "dist/showstopper-kip-view437.js",
+          "gitBlob": "04b7356848c502754bee8818ba7a204149fbf291",
+          "sha256": "256ba3675eebbc16264d1d1176773a2237a2a4920aa45329dabca2defbbb4d12"
+        },
+        {
+          "path": "dist/assets/nova437/kip-up.webp",
+          "gitBlob": "c9898badb544b6de8409a4e2011e056f7a362aa6",
+          "sha256": "da9206a30927c848772e57b6876d9824b87adf32819d09924ffa0bde520a5a11"
+        },
+        {
+          "path": "source-art/nova437/kip-up-master.png",
+          "gitBlob": "75a9cbe2e5e9691b65a1048c24b249f70b343782",
+          "sha256": "d757b1d712d9d4bd8a3c7f7653a279b8b246eca910a74be1fafcff746f038856"
+        },
+        {
+          "path": "source-art/nova437/import.json",
+          "gitBlob": "67f2f390d669dc22bcd92fc6da101e0a4a7f6805",
+          "sha256": "5615ad716a30ae675bcb5da7a93e1304487383ee4face6af78cff11319d1bdb5"
+        },
+        {
+          "path": "source-art/nova437/GENERATION.md",
+          "gitBlob": "acc00d638b46914094a226fd454e6c924bb4358b",
+          "sha256": "5beae3a32572fe4821ee588b3c0e8e5ccf43e33ee12dc25a707edbd303a98968"
+        },
+        {
+          "path": "tools/nova437/import.py",
+          "gitBlob": "e5610af6318666dd64de9520fc0deb55d6828f79",
+          "sha256": "894cf5ed39dc105d1870d5dbc714b2dcfc45a6741d16701090af920084e05f07"
+        },
+        {
+          "path": "dist/showstopper438.js",
+          "gitBlob": "8226c1b74824ddbaf69e26040f684e09218d34ff",
+          "sha256": "ed2d4acfc720bde2b794a06c15f329ea44a55c61da7dd5bba9e176961a16ed9f"
+        },
+        {
+          "path": "dist/showstopper-provocation-view438.js",
+          "gitBlob": "1c2771c9d79d75335bf31746e84582f93b03b646",
+          "sha256": "e117a29bb95a108943c3afd6e32e86efa50e693200fc4bf1f67a347266012a7c"
+        }
+      ]
     }
   ]
 }

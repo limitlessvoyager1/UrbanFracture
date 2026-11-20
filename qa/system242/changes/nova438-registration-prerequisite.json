@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "nova438-registration-prerequisite",
+  "description": "QA-only partial registration, exact future source pins and protected parent slices. No runtime or artwork changes.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/suites.json",
+    "tests/qa242-showstopper438.cjs",
+    "tests/qa242-showstopper438-view.cjs",
+    "tools/qa242/provocation438-guards.cjs",
+    "tools/qa242/director148-regression.cjs",
+    "qa/system242/repair-references/nova438/director-protected-v1.json",
+    "qa/system242/repair-references/nova438/crowd-protected-v1.json",
+    "qa/system242/repairs/NOVA438-ASSIGNMENT5.md",
+    "qa/system242/changes/nova438-registration-prerequisite.json"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "features": [
+    "qa242"
+  ],
+  "newContent": [],
+  "risks": {
+    "visual": false,
+    "performance": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT5-OWNER-SPEC",
+    "QA438-REGISTRATION"
+  ]
+}

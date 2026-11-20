@@ -1,0 +1,31 @@
+{
+  "schema": 438,
+  "parent": "87175dcbbffc0feeaddbe144700ebffa2b23a371",
+  "scope": "Exact unchanged Director config/admission/observation/recovery behavior slices; not whole-source historical certification",
+  "slices": [
+    {
+      "id": "config",
+      "from": "const C=",
+      "to": "const boss=",
+      "sha256LF": "188f147bb060bb2a2b520e7cb150cbdc0668059e5c98add2d562a1409407f8a1"
+    },
+    {
+      "id": "admission",
+      "from": "function request(",
+      "to": "function assign(",
+      "sha256LF": "9cd369ae2edba1edba6dedfb331e1cbdf2b3f40a3eef1d971adfb6713083c6e6"
+    },
+    {
+      "id": "observations",
+      "from": "function observed(",
+      "to": "function assign(",
+      "sha256LF": "500215813e0e6005a0ff9ced2b0b031d9c72d7d7d2907c031e80b6f56e94724a"
+    },
+    {
+      "id": "behavior",
+      "from": "function beforeAI(",
+      "to": "function debug(",
+      "sha256LF": "8eadf3b40e017769801689bc0b71918492392e3a790b6c048e0ac1f6ddaa3de6"
+    }
+  ]
+}

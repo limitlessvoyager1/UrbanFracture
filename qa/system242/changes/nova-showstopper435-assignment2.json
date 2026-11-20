@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "nova-showstopper435-assignment2",
+  "description": "Local QA candidate: Nova Showstopper activation, exact50 intrinsic energy even with Tacos, authored heel taunt, aura, simulation timers, separate HUD and dialogue preferences only. Later gameplay enhancements remain unimplemented. No merge/deploy.",
+  "files": [
+    "dist/index.html",
+    "dist/downtown360.html",
+    "dist/game.js",
+    "dist/game360.js",
+    "dist/showstopper435.js",
+    "dist/showstopper-view435.js",
+    "dist/showstopper435-data.js",
+    "dist/assets/nova435/taunt.webp",
+    "source-art/nova435/taunt-master.png",
+    "source-art/nova435/import.json",
+    "source-art/nova435/GENERATION.md",
+    "tools/nova435/import.py",
+    "tools/fighter-render/manifest.json",
+    "qa/system242/changes/nova-showstopper435-assignment2.json"
+  ],
+  "entities": {
+    "characters": [
+      "nova",
+      "all-fighters"
+    ],
+    "moves": [
+      "novaShowstopper435",
+      "all-rendered-actions"
+    ],
+    "systems": [
+      "showstopper-activation",
+      "showstopper-hud",
+      "controller-input",
+      "asset-loading",
+      "qa242",
+      "fighter-rendering"
+    ],
+    "levels": [
+      "all-rendered-scenes"
+    ]
+  },
+  "features": [
+    "nova-showstopper435",
+    "shared-combat-admission",
+    "shared-fighter-rendering",
+    "controller-input",
+    "runtime-ui-diagnostics",
+    "weapons-resources",
+    "qa242"
+  ],
+  "newContent": [
+    {
+      "id": "nova-showstopper-assignment2",
+      "type": "mechanic",
+      "spec": "qa/system242/repairs/NOVA435-ASSIGNMENT2.md",
+      "suites": [
+        "showstopper435-runtime",
+        "showstopper435-render",
+        "showstopper435-dialogue-hud"
+      ],
+      "visualScenarios": [
+        "nova-showstopper-taunt",
+        "nova-showstopper-expiry",
+        "nova-showstopper-hype-hud"
+      ]
+    }
+  ],
+  "risks": {
+    "performance": true,
+    "visual": true,
+    "majorIntegration": false,
+    "physicalController": true
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT2-OWNER-SPEC",
+    "A2-01-pending-dialogue",
+    "A2-02-beneath-life-hud"
+  ]
+}

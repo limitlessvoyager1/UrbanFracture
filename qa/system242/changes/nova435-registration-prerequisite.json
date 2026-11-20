@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "nova435-registration-prerequisite",
+  "description": "QA-only exact planned-source/content registration, Downtown entrypoint ownership and fail-closed registration checks. No production source or art changes; no certification promotion.",
+  "acceptanceScope": "qa-infrastructure-pilot",
+  "files": [
+    "qa/system242/features.json",
+    "qa/system242/features.schema.json",
+    "qa/system242/suites.json",
+    "qa/system242/repairs/NOVA435-ASSIGNMENT2.md",
+    "qa/system242/PLANNED-SOURCE-REGISTRATION.md",
+    "qa/system242/changes/nova435-registration-prerequisite.json",
+    "tools/qa242/preflight.cjs",
+    "tools/qa242/planned-sources.cjs",
+    "tests/qa242-planned-source-registration.cjs",
+    "tests/qa242-showstopper435.cjs",
+    "tests/qa242-showstopper435-view.cjs",
+    "tests/qa242-showstopper435-dialogue.cjs"
+  ],
+  "entities": {
+    "characters": [],
+    "moves": [],
+    "systems": [
+      "qa242"
+    ],
+    "levels": []
+  },
+  "features": [
+    "qa242"
+  ],
+  "newContent": [],
+  "risks": {
+    "performance": false,
+    "visual": false,
+    "majorIntegration": false,
+    "physicalController": false
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT2-OWNER-SPEC",
+    "QA435-BASE-REGISTRATION"
+  ]
+}

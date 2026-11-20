@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "nova436-assignment3",
+  "description": "Local Assignment3 grapple candidate: owner-approved additive intrinsic stacking, action-owned throw escalation, bounded knockback and shared grab exceptions. Preserve Hype and frozen evidence; stop for QA; no merge/deploy.",
+  "files": [
+    "dist/core.js",
+    "dist/nova77.js",
+    "dist/grab198.js",
+    "dist/grab223.js",
+    "dist/index.html",
+    "dist/downtown360.html",
+    "dist/showstopper436.js",
+    "dist/showstopper-view435.js",
+    "tests/qa242-showstopper435.cjs",
+    "qa/system242/features.json",
+    "qa/system242/changes/nova436-assignment3.json"
+  ],
+  "entities": {
+    "characters": [
+      "nova",
+      "all-fighters"
+    ],
+    "moves": [
+      "novaShowstopper435",
+      "novaDDT",
+      "novaBelly",
+      "novaFace",
+      "novaFranken",
+      "novaExploding128",
+      "all-rendered-actions",
+      "all-native-actions",
+      "nova/throw/novaFranken",
+      "nova/throw/novaBelly",
+      "nova/throw/novaFace",
+      "nova/throw/novaDDT",
+      "nova/charged-ability/charged",
+      "nova/air/dropkick",
+      "nova/special/rush"
+    ],
+    "systems": [
+      "showstopper-grapples",
+      "shared-combat",
+      "grapples",
+      "controller-input",
+      "fighter-rendering",
+      "qa242",
+      "showstopper-hud",
+      "asset-loading",
+      "action-admission",
+      "hit-reactions",
+      "director",
+      "hero-nova",
+      "showstopper-activation"
+    ],
+    "levels": [
+      "all-rendered-scenes",
+      "all-combat-scenes"
+    ]
+  },
+  "features": [
+    "nova-showstopper435",
+    "shared-combat-admission",
+    "shared-fighter-rendering",
+    "controller-input",
+    "weapons-resources",
+    "hero-nova",
+    "qa242"
+  ],
+  "newContent": [
+    {
+      "id": "nova-showstopper-assignment3",
+      "type": "mechanic",
+      "spec": "qa/system242/repairs/NOVA436-ASSIGNMENT3.md",
+      "suites": [
+        "showstopper436-grapples"
+      ],
+      "visualScenarios": [
+        "nova-showstopper-grapple-streak",
+        "nova-showstopper-heavy-grab"
+      ]
+    }
+  ],
+  "risks": {
+    "visual": true,
+    "performance": true,
+    "physicalController": true,
+    "majorIntegration": false
+  },
+  "issues": [
+    "NOVA-SHOWSTOPPER-ASSIGNMENT3-OWNER-SPEC",
+    "QA436-ACTION-RECEIPTS",
+    "QA436-INTRINSIC-STACKING"
+  ]
+}
